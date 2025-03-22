@@ -1,0 +1,59 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Profile from '../components/Profile.astro'
+import List from '../components/List.astro'
+import Shadow from '../components/Shadow.astro'
+---
+
+<Layout title='Welcome to Astro.'>
+  <main class='container' id='container' style='overflow: hidden;'>
+    <Profile />
+    <List />
+    <Shadow />
+  </main>
+</Layout>
+
+<style>
+  .container {
+    position: relative;
+    margin: auto;
+    padding: 0.3125rem;
+    max-width: 600px;
+    width: 90%;
+    height: 100vh;
+    overflow: hidden;
+    scrollbar-width: 8px;
+    scrollbar-color: var(--zinc-900) var(--zinc-950);
+  }
+</style>
+
+<script>
+  ;(() => {
+    // show or hide shadow, works only if content leaves viewport
+    const mainContent = document.getElementById('container')
+    const shadow = document.getElementById('shadow')
+    const shadowButton = document.getElementById('shadow-button')
+
+    shadowButton.addEventListener('click', () => {
+      if (shadow.style.position === 'absolute') {
+        shadow.style.position = 'relative'
+        mainContent.style.overflow = 'auto'
+        shadowButton.children[0].textContent = 'Show Less'
+      } else {
+        shadow.style.position = 'absolute'
+        mainContent.style.overflow = 'hidden'
+        mainContent.scroll(0, 0)
+        shadowButton.children[0].textContent = 'Explore More'
+      }
+    })
+
+    // Hide the shadow if the content is minimal enough to leave the viewport
+    const list = document.getElementById('list')
+    const observerList = list.getBoundingClientRect()
+
+    if (observerList.bottom < window.innerHeight) {
+      shadow.style.display = 'none'
+      mainContent.style.overflow = 'auto'
+    }
+  })()
+</script>

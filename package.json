@@ -1,0 +1,21 @@
+{
+  "name": "skakelboom",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "fmt": "npx prettier -w ."
+  },
+  "dependencies": {
+    "astro": "^4.16.8",
+    "remixicon": "^4.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-astro": "^0.14.1"
+  }
+}
