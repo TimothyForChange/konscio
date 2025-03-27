@@ -6,13 +6,13 @@
       "url": "https://www.linkedin.com/in/timothybrits/",
       "icon": "linkedin-box-fill",
       "title": "LinkedIn",
-      "description": "My Professional Profile"
+      "description": "Software engineering insights and professional journey since 2021"
     },
     {
       "url": "https://github.com/mooship",
       "icon": "github-fill",
       "title": "GitHub",
-      "description": "My Code"
+      "description": "Open-source contributions and personal projects focusing on web development"
     },
     {
       "url": "https://www.instagram.com/brits.timothy/",
@@ -24,7 +24,7 @@
       "url": "https://www.sadag.org/",
       "icon": "links-fill",
       "title": "SADAG",
-      "description": "South African Depression and Anxiety Group"
+      "description": "Mental health resources and support for South Africans - a cause I advocate for"
     }
   ]
 }
