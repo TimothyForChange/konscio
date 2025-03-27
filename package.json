@@ -15,7 +15,7 @@
     "@playform/compress": "^0.1.7",
     "@playform/inline": "^0.1.1",
     "astro": "^5.5.5",
-    "remixicon": "^4.3.0"
+    "remixicon": "^4.6.0"
   },
   "devDependencies": {
     "prettier": "^3.5.3",
