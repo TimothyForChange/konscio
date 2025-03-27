@@ -5,5 +5,6 @@ import playformInline from '@playform/inline'
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [sitemap(), playformCompress(), playformInline()]
+  integrations: [sitemap(), playformCompress(), playformInline()],
+  site: 'https://timothybrits.com/'
 })
