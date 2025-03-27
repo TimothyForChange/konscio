@@ -11,6 +11,9 @@
     "fmt": "npx prettier -w ."
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.3.0",
+    "@playform/compress": "^0.1.7",
+    "@playform/inline": "^0.1.1",
     "astro": "^4.16.8",
     "remixicon": "^4.3.0"
   },
