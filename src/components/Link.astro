@@ -30,20 +30,20 @@ const { icon, title, description, url } = Astro.props
     text-decoration: none;
   }
 
-  .link-icon {
+    .link-icon {
     width: 3rem;
     height: 3rem;
-    min-width: 3rem;   /* Ensures the width doesn't shrink */
-    min-height: 3rem;  /* Ensures the height doesn't shrink */
+    min-width: 3rem;
+    min-height: 3rem;
     margin-right: 1.125rem;
     background: var(--zinc-900);
     border-radius: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;    /* Prevents the icon from shrinking */
+    flex-shrink: 0;
   }
-
+  
   .link-icon i {
     font-size: 1.5rem;
     width: 1.5rem;
@@ -52,13 +52,6 @@ const { icon, title, description, url } = Astro.props
     justify-content: center;
     align-items: center;
     color: var(--zinc-50);
-  }
-
-  .link-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;           /* Allows the content to take remaining space */
   }
 
   .link-title,
