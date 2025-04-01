@@ -1,78 +1,77 @@
 ---
-import 'remixicon/fonts/remixicon.css'
-
-interface Props {
-  icon: string
-  title: string
-  description: string
-  url: string
-}
-
-const { icon, title, description, url } = Astro.props
+import Layout from '../layouts/Layout.astro'
+import Profile from '../components/Profile.astro'
+import List from '../components/List.astro'
+import Shadow from '../components/Shadow.astro'
 ---
 
-<a href={url} class='link'>
-  <span class='link-icon'>
-    <i class={'ri-' + icon}></i>
-  </span>
-  <div class='link-content'>
-    <h2 class='link-title'>{title}</h2>
-    <p class='link-description'>{description}</p>
-  </div>
-</a>
+<Layout title='Timothy Brits'>
+  <main class='container' id='container' style='overflow: hidden;'>
+    <Profile />
+    <List />
+    <Shadow />
+  </main>
+</Layout>
 
 <style>
-  .link {
-    padding: 0.75rem;
-    display: flex;
-    border: 1px solid var(--zinc-800);
-    border-radius: 1rem;
-    text-decoration: none;
+  .container {
+    position: relative;
+    margin: auto;
+    padding: 0.3125rem;
+    max-width: 600px;
+    width: 90%;
+    height: 100vh;
+    overflow: hidden;
   }
 
-  .link-icon {
-    width: 3rem;
-    height: 3rem;
-    min-width: 3rem;
-    min-height: 3rem;
-    margin-right: 1.125rem;
-    background: var(--zinc-900);
-    border-radius: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
+  .container.expanded {
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--zinc-800) transparent;
   }
 
-  .link-icon i {
-    font-size: 1.5rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--zinc-50);
+  .container.expanded::-webkit-scrollbar {
+    width: 8px;
   }
 
-  .link-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1
+  .container.expanded::-webkit-scrollbar-track {
+    background: transparent;
   }
 
-  .link-title,
-  .link-description {
-    font-size: 1rem;
-  }
-
-  .link-title {
-    color: var(--zinc-50);
-    font-weight: normal;
-  }
-
-  .link-description {
-    color: var(--zinc-400);
-    margin-top: 0.125rem;
+  .container.expanded::-webkit-scrollbar-thumb {
+    background-color: var(--zinc-800);
+    border-radius: 4px;
   }
 </style>
+
+<script>
+  ;(() => {
+    const mainContent = document.getElementById('container')
+    const shadow = document.getElementById('shadow')
+    const shadowButton = document.getElementById('shadow-button')
+
+    shadowButton.addEventListener('click', () => {
+      if (shadow.style.position === 'absolute') {
+        shadow.style.position = 'relative'
+        mainContent.classList.add('expanded')
+        mainContent.style.overflow = 'auto'
+        shadowButton.children[0].textContent = 'Show Less'
+      } else {
+        shadow.style.position = 'absolute'
+        mainContent.classList.remove('expanded')
+        mainContent.style.overflow = 'hidden'
+        mainContent.scroll(0, 0)
+        shadowButton.children[0].textContent = 'Explore More'
+      }
+    })
+
+    const list = document.getElementById('list')
+    const observerList = list.getBoundingClientRect()
+
+    if (observerList.bottom < window.innerHeight) {
+      shadow.style.display = 'none'
+      mainContent.style.overflow = 'auto'
+      mainContent.classList.add('expanded')
+    }
+  })()
+</script>
