@@ -30,9 +30,11 @@ const { icon, title, description, url } = Astro.props
     text-decoration: none;
   }
 
-  .link-icon {
+    .link-icon {
     width: 3rem;
     height: 3rem;
+    min-width: 3rem;  /* Ensure minimum width */
+    min-height: 3rem; /* Ensure minimum height */
     margin-right: 1.125rem;
     background: var(--zinc-900);
     border-radius: 0.5rem;
@@ -40,9 +42,14 @@ const { icon, title, description, url } = Astro.props
     justify-content: center;
     align-items: center;
   }
-
+  
   .link-icon i {
     font-size: 1.5rem;
+    width: 1.5rem;   /* Fix width */
+    height: 1.5rem;  /* Fix height */
+    display: flex;   /* Ensure flex display */
+    justify-content: center;
+    align-items: center;
     color: var(--zinc-50);
   }
 
