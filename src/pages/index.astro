@@ -6,17 +6,26 @@ import Shadow from '../components/Shadow.astro'
 ---
 
 <Layout title='Timothy Brits'>
-  <main class='container' id='container' style='overflow: hidden;'>
-    <Profile />
-    <List />
-    <Shadow />
-  </main>
+  <div class="page-wrapper">
+    <main class='container' id='container' style='overflow: hidden;'>
+      <Profile />
+      <List />
+      <Shadow />
+    </main>
+  </div>
 </Layout>
 
 <style>
+  .page-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+  }
+
   .container {
     position: relative;
-    margin: auto;
     padding: 0.3125rem;
     max-width: 600px;
     width: 90%;
@@ -25,24 +34,33 @@ import Shadow from '../components/Shadow.astro'
     scrollbar-width: 8px;
     scrollbar-color: var(--zinc-900) var(--zinc-950);
   }
+
+  /* Media query for desktop */
+  @media (min-width: 768px) {
+    .page-wrapper {
+      padding: 0 20px; /* Add some padding on the sides for desktop */
+    }
+  }
 </style>
 
 <script>
   ;(() => {
     // Show or hide shadow, works only if content leaves viewport
     const mainContent = document.getElementById('container')
+    const pageWrapper = document.querySelector('.page-wrapper')
     const shadow = document.getElementById('shadow')
     const shadowButton = document.getElementById('shadow-button')
 
     shadowButton.addEventListener('click', () => {
       if (shadow.style.position === 'absolute') {
         shadow.style.position = 'relative'
-        mainContent.style.overflow = 'auto'
+        pageWrapper.style.overflow = 'auto'
+        mainContent.style.overflow = 'visible'
         shadowButton.children[0].textContent = 'Show Less'
       } else {
         shadow.style.position = 'absolute'
         mainContent.style.overflow = 'hidden'
-        mainContent.scroll(0, 0)
+        pageWrapper.scroll(0, 0)
         shadowButton.children[0].textContent = 'Explore More'
       }
     })
@@ -53,7 +71,7 @@ import Shadow from '../components/Shadow.astro'
 
     if (observerList.bottom < window.innerHeight) {
       shadow.style.display = 'none'
-      mainContent.style.overflow = 'auto'
+      pageWrapper.style.overflow = 'auto'
     }
   })()
 </script>
