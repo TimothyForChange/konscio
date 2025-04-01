@@ -14,34 +14,48 @@ import Shadow from '../components/Shadow.astro'
 </Layout>
 
 <style>
-  .container {
-    position: relative;
-    margin: auto;
-    padding: 0.3125rem;
-    max-width: 600px;
-    width: 90%;
-    height: 100vh;
-    overflow: hidden;
-  }
-
-  .container.expanded {
-    overflow: auto;
-    scrollbar-width: thin;
-    scrollbar-color: var(--zinc-800) transparent;
-  }
-
-  .container.expanded::-webkit-scrollbar {
-    width: 8px;
-  }
-
-  .container.expanded::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  .container.expanded::-webkit-scrollbar-thumb {
-    background-color: var(--zinc-800);
-    border-radius: 4px;
-  }
+    .container {
+      position: relative;
+      margin: auto;
+      padding: 0.3125rem;
+      max-width: 600px;
+      width: 90%;
+      height: 100vh;
+      overflow: hidden;
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE and Edge */
+    }
+    
+    .container::-webkit-scrollbar {
+      display: none; /* Hide scrollbar for Chrome, Safari and Opera by default */
+    }
+    
+    .container.expanded {
+      overflow: auto;
+      scrollbar-width: thin; /* Firefox */
+      scrollbar-color: var(--zinc-800) transparent; /* Firefox */
+      -ms-overflow-style: auto; /* IE and Edge */
+    }
+    
+    /* These styles only apply when expanded */
+    .container.expanded::-webkit-scrollbar {
+      display: block;
+      width: 6px; /* Thinner scrollbar */
+    }
+    
+    .container.expanded::-webkit-scrollbar-track {
+      background: transparent;
+      margin: 10px 0; /* Add some padding to top and bottom */
+    }
+    
+    .container.expanded::-webkit-scrollbar-thumb {
+      background-color: var(--zinc-800);
+      border-radius: 10px;
+    }
+    
+    .container.expanded::-webkit-scrollbar-thumb:hover {
+      background-color: var(--zinc-700);
+    }
 </style>
 
 <script>
