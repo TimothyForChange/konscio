@@ -11,10 +11,10 @@
     "fmt": "npx prettier -w ."
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.3.0",
+    "@astrojs/sitemap": "^3.3.1",
     "@playform/compress": "^0.1.9",
     "@playform/inline": "^0.1.2",
-    "astro": "^5.6.1",
+    "astro": "^5.7.10",
     "remixicon": "^4.6.0"
   },
   "devDependencies": {
