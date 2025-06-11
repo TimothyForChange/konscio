@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "correctness": "warn",
+    "suspicious": "warn",
+    "perf": "warn"
+  },
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": true
+  },
+  "globals": {
+    "astroHTML": "readonly"
+  },
+  "ignore": ["node_modules/**", "dist/**", ".astro/**"]
+}

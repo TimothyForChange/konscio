@@ -8,7 +8,10 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "fmt": "npx prettier -w ."
+    "format": "biome format --write .",
+    "lint": "oxlint && biome lint .",
+    "lint:fix": "biome lint --write .",
+    "check": "biome check ."
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.4.1",
@@ -18,7 +21,7 @@
     "remixicon": "^4.6.0"
   },
   "devDependencies": {
-    "prettier": "^3.5.3",
-    "prettier-plugin-astro": "^0.14.1"
+    "@biomejs/biome": "^1.9.4",
+    "oxlint": "^0.9.10"
   }
 }

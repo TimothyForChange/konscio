@@ -1,24 +1,24 @@
 {
-	"name": "Timothy Brits",
-	"profession": "Software Engineer",
-	"links": [
-		{
-			"url": "https://www.linkedin.com/in/timothybrits/",
-			"icon": "linkedin-box-fill",
-			"title": "LinkedIn",
-			"description": "Software engineering insights and professional journey since 2021"
-		},
-		{
-			"url": "https://github.com/mooship",
-			"icon": "github-fill",
-			"title": "GitHub",
-			"description": "Open-source contributions and personal projects focusing on web development"
-		},
-		{
-			"url": "https://www.sadag.org/",
-			"icon": "links-fill",
-			"title": "SADAG",
-			"description": "South African Depression and Anxiety Group - Mental Health resources and support - a cause I advocate for"
-		}
-	]
+  "name": "Timothy Brits",
+  "profession": "Software Engineer",
+  "links": [
+    {
+      "url": "https://www.linkedin.com/in/timothybrits/",
+      "icon": "linkedin-box-fill",
+      "title": "LinkedIn",
+      "description": "Software engineering insights and professional journey since 2021"
+    },
+    {
+      "url": "https://github.com/mooship",
+      "icon": "github-fill",
+      "title": "GitHub",
+      "description": "Open-source contributions and personal projects focusing on web development"
+    },
+    {
+      "url": "https://www.sadag.org/",
+      "icon": "links-fill",
+      "title": "SADAG",
+      "description": "South African Depression and Anxiety Group - Mental Health resources and support - a cause I advocate for"
+    }
+  ]
 }
