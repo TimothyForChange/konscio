@@ -35,17 +35,15 @@ import Shadow from '../components/Shadow.astro'
     scrollbar-color: var(--zinc-900) var(--zinc-950);
   }
 
-  /* Media query for desktop */
   @media (min-width: 768px) {
     .page-wrapper {
-      padding: 0 20px; /* Add some padding on the sides for desktop */
+      padding: 0 20px;
     }
   }
 </style>
 
 <script>
   ;(() => {
-    // Show or hide shadow, works only if content leaves viewport
     const mainContent = document.getElementById('container')
     const pageWrapper = document.querySelector('.page-wrapper')
     const shadow = document.getElementById('shadow')
@@ -65,7 +63,6 @@ import Shadow from '../components/Shadow.astro'
       }
     })
 
-    // Hide the shadow if the content is minimal enough to leave the viewport
     const list = document.getElementById('list')
     const observerList = list.getBoundingClientRect()
 
