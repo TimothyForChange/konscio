@@ -2,6 +2,7 @@
   "name": "ligilarbo",
   "type": "module",
   "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -9,7 +10,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "biome format --write .",
-    "lint": "oxlint && biome lint .",
+    "lint": "biome lint .",
     "lint:fix": "biome lint --write .",
     "check": "biome check ."
   },
@@ -21,7 +22,6 @@
     "remixicon": "^4.6.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "oxlint": "^0.9.10"
+    "@biomejs/biome": "^1.9.4"
   }
 }
