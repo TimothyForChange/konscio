@@ -18,7 +18,7 @@
     "@astrojs/sitemap": "^3.4.1",
     "@playform/compress": "^0.1.9",
     "@playform/inline": "^0.1.2",
-    "astro": "^5.9.0",
+    "astro": "^5.9.3",
     "remixicon": "^4.6.0"
   },
   "devDependencies": {
