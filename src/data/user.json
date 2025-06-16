@@ -18,7 +18,13 @@
       "url": "https://mas.to/@AsyncDuck",
       "icon": "mastodon-fill",
       "title": "Mastodon",
-      "description": "Follow me on Mastodon"
+      "description": "Follow me on Mastodon for updates and insights"
+    },
+    {
+      "url": "https://github.com/mooship/FactionsAtTheEnd",
+      "icon": "gamepad-fill",
+      "title": "Factions At The End",
+      "description": "A terminal game featuring strategic gameplay"
     },
     {
       "url": "https://vortludo.onrender.com",
