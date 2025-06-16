@@ -25,6 +25,12 @@
       "icon": "gamepad-fill",
       "title": "Vortludo",
       "description": "A Wordle clone (Vortludo means word game in Esperanto)"
+    },
+    {
+      "url": "https://mas.to/@AsyncDuck",
+      "icon": "mastodon-fill",
+      "title": "Mastodon",
+      "description": "Follow me on Mastodon for updates and insights"
     }
   ]
 }
