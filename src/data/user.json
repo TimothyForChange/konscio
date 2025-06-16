@@ -15,10 +15,10 @@
       "description": "Open-source contributions and personal projects focusing on web development"
     },
     {
-      "url": "https://www.sadag.org/",
-      "icon": "links-fill",
-      "title": "SADAG",
-      "description": "South African Depression and Anxiety Group - Mental Health resources and support - a cause I advocate for"
+      "url": "https://mas.to/@AsyncDuck",
+      "icon": "mastodon-fill",
+      "title": "Mastodon",
+      "description": "Follow me on Mastodon"
     },
     {
       "url": "https://vortludo.onrender.com",
@@ -27,10 +27,10 @@
       "description": "A Wordle clone (Vortludo means word game in Esperanto)"
     },
     {
-      "url": "https://mas.to/@AsyncDuck",
-      "icon": "mastodon-fill",
-      "title": "Mastodon",
-      "description": "Follow me on Mastodon for updates and insights"
+      "url": "https://www.sadag.org/",
+      "icon": "links-fill",
+      "title": "SADAG",
+      "description": "South African Depression and Anxiety Group - Mental Health resources and support - a cause I advocate for"
     }
   ]
 }
