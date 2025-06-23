@@ -25,18 +25,25 @@ const { icon, title, description, url } = Astro.props
   .link {
     padding: 0.75rem;
     display: flex;
-    border: 1px solid var(--zinc-800);
+    border: 1px solid var(--ocean-border);
     border-radius: 1rem;
     text-decoration: none;
+    background: var(--ocean-bg-alt);
+    transition: border 0.2s, background 0.2s;
   }
 
-    .link-icon {
+  .link:hover {
+    border: 1px solid var(--ocean-blue);
+    background: var(--ocean-surface);
+  }
+
+  .link-icon {
     width: 3rem;
     height: 3rem;
     min-width: 3rem;
     min-height: 3rem;
     margin-right: 1.125rem;
-    background: var(--zinc-900);
+    background: var(--ocean-surface);
     border-radius: 0.5rem;
     display: flex;
     justify-content: center;
@@ -50,7 +57,7 @@ const { icon, title, description, url } = Astro.props
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--zinc-50);
+    color: var(--ocean-cyan);
   }
 
   .link-title,
@@ -59,12 +66,12 @@ const { icon, title, description, url } = Astro.props
   }
 
   .link-title {
-    color: var(--zinc-50);
+    color: var(--ocean-blue);
     font-weight: normal;
   }
 
   .link-description {
-    color: var(--zinc-400);
+    color: var(--ocean-fg-muted);
     margin-top: 0.125rem;
   }
 </style>
