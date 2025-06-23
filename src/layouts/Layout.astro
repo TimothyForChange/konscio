@@ -37,18 +37,28 @@ const { title } = Astro.props
 </html>
 <style is:global>
   :root {
-    --ocean-bg: #1b2b34;
-    --ocean-bg-alt: #22313a;
-    --ocean-surface: #293742;
-    --ocean-border: #34495e;
-    --ocean-cyan: #5fb3b3;
-    --ocean-blue: #6699cc;
-    --ocean-green: #99c794;
-    --ocean-purple: #c594c5;
-    --ocean-orange: #fac863;
-    --ocean-red: #ec5f67;
-    --ocean-fg: #d8dee9;
-    --ocean-fg-muted: #a7adba;
+    /* Base colors */
+    --bg: #1a1a1a;
+    --bg-card: #2a2a2a;
+    --bg-surface: #333333;
+    --border: #444444;
+    
+    /* Accent colors */
+    --accent-primary: #ff3366;
+    --accent-secondary: #66b3ff;
+    --accent-green: #33cc66;
+    
+    /* Hot colors for link variety */
+    --hot-orange: #ff6b35;
+    --hot-purple: #a855f7;
+    --hot-cyan: #06b6d4;
+    --hot-yellow: #eab308;
+    --hot-emerald: #10b981;
+    
+    /* Text colors */
+    --text-primary: #ffffff;
+    --text-secondary: #cccccc;
+    --text-muted: #999999;
   }
 
   *,
@@ -61,7 +71,7 @@ const { title } = Astro.props
 
   html {
     font-family: 'Poppins', system-ui, sans-serif;
-    background: var(--ocean-bg);
-    color: var(--ocean-fg);
+    background: var(--bg);
+    color: var(--text-primary);
   }
 </style>

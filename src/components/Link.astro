@@ -6,12 +6,24 @@ interface Props {
   title: string
   description: string
   url: string
+  colorIndex?: number
 }
 
-const { icon, title, description, url } = Astro.props
+const { icon, title, description, url, colorIndex = 0 } = Astro.props
+
+const hotColors = [
+  'var(--accent-primary)',
+  'var(--hot-orange)',
+  'var(--hot-purple)',
+  'var(--hot-cyan)',
+  'var(--hot-yellow)',
+  'var(--hot-emerald)',
+]
+
+const assignedColor = hotColors[colorIndex % hotColors.length]
 ---
 
-<a href={url} class='link'>
+<a href={url} class='link' style={`--link-accent: ${assignedColor}`}>
   <span class='link-icon'>
     <i class={'ri-' + icon}></i>
   </span>
@@ -23,18 +35,19 @@ const { icon, title, description, url } = Astro.props
 
 <style>
   .link {
-    padding: 0.75rem;
+    padding: 1rem;
     display: flex;
-    border: 1px solid var(--ocean-border);
-    border-radius: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
     text-decoration: none;
-    background: var(--ocean-bg-alt);
-    transition: border 0.2s, background 0.2s;
+    background: var(--bg-card);
+    transition: all 0.2s ease;
   }
 
   .link:hover {
-    border: 1px solid var(--ocean-blue);
-    background: var(--ocean-surface);
+    border: 1px solid var(--link-accent);
+    background: var(--bg-surface);
+    transform: translateY(-1px);
   }
 
   .link-icon {
@@ -42,37 +55,40 @@ const { icon, title, description, url } = Astro.props
     height: 3rem;
     min-width: 3rem;
     min-height: 3rem;
-    margin-right: 1.125rem;
-    background: var(--ocean-surface);
+    margin-right: 1rem;
+    background: var(--bg-surface);
     border-radius: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background 0.2s ease;
   }
   
   .link-icon i {
-    font-size: 1.5rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--ocean-cyan);
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    transition: color 0.2s ease;
   }
 
-  .link-title,
-  .link-description {
-    font-size: 1rem;
+  .link:hover .link-icon {
+    background: var(--link-accent);
+  }
+
+  .link:hover .link-icon i {
+    color: white;
   }
 
   .link-title {
-    color: var(--ocean-blue);
-    font-weight: 500;
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
   }
 
   .link-description {
-    color: var(--ocean-fg-muted);
+    color: var(--text-muted);
     font-weight: 400;
-    margin-top: 0.125rem;
+    font-size: 0.875rem;
+    line-height: 1.4;
   }
 </style>

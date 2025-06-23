@@ -24,40 +24,44 @@
     height: 11.25rem;
     background: linear-gradient(
       0deg,
-      var(--ocean-bg) 0%,
-      rgba(27, 43, 52, 0) 100%
+      var(--bg) 0%,
+      rgba(26, 26, 26, 0) 100%
     );
   }
 
   .shadow-button {
     margin: auto;
-    padding: 1rem 2.375rem;
+    padding: 0.875rem 2rem;
     display: flex;
     align-items: center;
-    gap: 1.125rem;
-    border: none;
+    gap: 0.75rem;
+    border: 2px solid var(--accent-primary);
     outline: none;
-    background: var(--ocean-cyan);
+    background: transparent;
     font-size: 0.875rem;
-    font-weight: 500;
-    color: var(--ocean-bg);
-    border-radius: 1.5rem;
+    font-weight: 600;
+    color: var(--accent-primary);
+    border-radius: 2rem;
     cursor: pointer;
-    box-shadow: 0 2px 8px 0 rgba(90, 190, 200, 0.15);
-    transition: background 0.2s, color 0.2s;
+    transition: all 0.2s ease;
   }
 
   .shadow-button:hover {
-    background: var(--ocean-blue);
-    color: var(--ocean-fg);
+    background: var(--accent-primary);
+    color: white;
+  }
+
+  .shadow-button:hover .shadow-button-icon svg {
+    fill: white;
   }
 
   .shadow-button-icon {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.25rem;
+    height: 1.25rem;
   }
 
   .shadow-button-icon svg {
-    fill: var(--ocean-bg);
+    fill: var(--accent-primary);
+    transition: fill 0.2s;
   }
 </style>

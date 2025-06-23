@@ -7,13 +7,14 @@ const items = dataList.links
 
 <div class='list' id='list'>
   {
-    items.map((item) => {
+    items.map((item, index) => {
       return (
         <Link
           icon={item.icon}
           title={item.title}
           description={item.description}
           url={item.url}
+          colorIndex={index}
         />
       )
     })
