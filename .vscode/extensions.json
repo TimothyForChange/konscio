@@ -1,8 +1,4 @@
 {
-  "recommendations": [
-    "astro-build.astro-vscode",
-    "biomejs.biome",
-    "oxc-project.oxc-vscode"
-  ],
+  "recommendations": ["astro-build.astro-vscode", "biomejs.biome"],
   "unwantedRecommendations": []
 }
