@@ -1,26 +1,26 @@
 ---
-import 'remixicon/fonts/remixicon.css'
+import "remixicon/fonts/remixicon.css";
 
 interface Props {
-  icon: string
-  title: string
-  description: string
-  url: string
-  colorIndex?: number
+  icon: string;
+  title: string;
+  description: string;
+  url: string;
+  colorIndex?: number;
 }
 
-const { icon, title, description, url, colorIndex = 0 } = Astro.props
+const { icon, title, description, url, colorIndex = 0 } = Astro.props;
 
 const hotColors = [
-  'var(--accent-primary)',
-  'var(--hot-orange)',
-  'var(--hot-purple)',
-  'var(--hot-cyan)',
-  'var(--hot-yellow)',
-  'var(--hot-emerald)',
-]
+  "var(--accent-primary)",
+  "var(--hot-orange)",
+  "var(--hot-purple)",
+  "var(--hot-cyan)",
+  "var(--hot-yellow)",
+  "var(--hot-emerald)",
+];
 
-const assignedColor = hotColors[colorIndex % hotColors.length]
+const assignedColor = hotColors[colorIndex % hotColors.length];
 ---
 
 <a href={url} class='link' style={`--link-accent: ${assignedColor}`}>
