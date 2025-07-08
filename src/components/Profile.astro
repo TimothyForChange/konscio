@@ -12,6 +12,9 @@ import dataList from "../data/user.json";
   <div class='profile-data'>
     <h1 class='profile-name'>{dataList.name}</h1>
     <p class='profile-profession'>{dataList.profession}</p>
+    <div class='profile-bio'>
+      <p class='profile-bio-text'>{dataList.bio}</p>
+    </div>
   </div>
 </header>
 
@@ -61,5 +64,18 @@ import dataList from "../data/user.json";
     font-size: 1rem;
     font-weight: 400;
     color: var(--text-secondary);
+  }
+
+  .profile-bio {
+    margin-top: 1rem;
+    max-width: 24rem;
+  }
+
+  .profile-bio-text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--text-muted);
+    line-height: 1.6;
+    text-align: center;
   }
 </style>
