@@ -13,7 +13,7 @@ import dataList from "../data/user.json";
     <h1 class='profile-name'>{dataList.name}</h1>
     <p class='profile-profession'>{dataList.profession}</p>
     <div class='profile-bio'>
-      <p class='profile-bio-text'>{dataList.bio}</p>
+      <p class='profile-bio-text' set:html={dataList.bio}></p>
     </div>
   </div>
 </header>
@@ -77,5 +77,11 @@ import dataList from "../data/user.json";
     color: var(--text-muted);
     line-height: 1.6;
     text-align: center;
+  }
+
+  .profile-bio .profile-bio-text a {
+    color: rgb(4, 180, 253);
+    text-decoration: underline;
+    transition: none;
   }
 </style>
