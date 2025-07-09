@@ -16,6 +16,12 @@
       "description": "Open-source contributions and personal projects focusing on web development"
     },
     {
+      "url": "https://kronilo.onrender.com/",
+      "icon": "translate",
+      "title": "Kronilo",
+      "description": "Translate cron expressions to plain English instantly"
+    },
+    {
       "url": "https://github.com/mooship/FactionsAtTheEnd",
       "icon": "gamepad-fill",
       "title": "Factions At The End",
