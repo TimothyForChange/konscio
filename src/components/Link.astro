@@ -42,6 +42,9 @@ const assignedColor = hotColors[colorIndex % hotColors.length];
     text-decoration: none;
     background: var(--bg-card);
     transition: all 0.2s ease;
+    min-height: 5.5rem;
+    box-sizing: border-box;
+    align-items: center;
   }
 
   .link:hover {
@@ -62,6 +65,14 @@ const assignedColor = hotColors[colorIndex % hotColors.length];
     justify-content: center;
     align-items: center;
     transition: background 0.2s ease;
+    flex-shrink: 0;
+  }
+  .link-content {
+    flex: 1;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   .link-icon i {
