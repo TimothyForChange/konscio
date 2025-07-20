@@ -6,7 +6,6 @@ import dataList from "../data/user.json";
 <header class='profile'>
   <div class='profile-picture-content'>
     <figure class='profile-picture'>
-      <img src={UserProfileImage.src} alt='This is me!' />
       <img src={UserProfileImage.src} alt='This is me!' width="80" height="80" />
     </figure>
   </div>
@@ -21,7 +20,7 @@ import dataList from "../data/user.json";
 
 <style>
   .profile {
-    margin-top: 6rem;
+    margin-top: 4rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -36,17 +35,23 @@ import dataList from "../data/user.json";
   }
 
   .profile-picture {
-    width: 5rem;
-    height: 5rem;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
     overflow: hidden;
     background: var(--bg-surface);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .profile-picture img {
-    width: 100%;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
     object-position: center;
+    display: block;
   }
 
   .profile-data {
