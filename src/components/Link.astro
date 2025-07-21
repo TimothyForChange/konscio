@@ -12,16 +12,16 @@ const hotColors = [
   "var(--hot-emerald)",
 ];
 
-const assignedColor = hotColors[colorIndex % hotColors.length];
+const accentClass = `link-accent-${colorIndex % hotColors.length}`;
 ---
 
-<a href={url} class='link' style={`--link-accent: ${assignedColor}`}>
-  <span class='link-icon'>
+<a href={url} class={`link ${accentClass}`}>
+  <span class="link-icon">
     <i class={'ri-' + icon}></i>
   </span>
-  <div class='link-content'>
-    <h2 class='link-title'>{title}</h2>
-    <p class='link-description'>{description}</p>
+  <div class="link-content">
+    <h2 class="link-title">{title}</h2>
+    <p class="link-description">{description}</p>
   </div>
 </a>
 
@@ -59,6 +59,7 @@ const assignedColor = hotColors[colorIndex % hotColors.length];
     transition: background 0.2s ease;
     flex-shrink: 0;
   }
+
   .link-content {
     flex: 1;
     min-height: 3rem;
@@ -93,5 +94,24 @@ const assignedColor = hotColors[colorIndex % hotColors.length];
     font-weight: 400;
     font-size: 0.9rem;
     line-height: 1.5;
+  }
+
+  .link-accent-0 {
+    --link-accent: var(--accent-primary);
+  }
+  .link-accent-1 {
+    --link-accent: var(--hot-orange);
+  }
+  .link-accent-2 {
+    --link-accent: var(--hot-purple);
+  }
+  .link-accent-3 {
+    --link-accent: var(--hot-cyan);
+  }
+  .link-accent-4 {
+    --link-accent: var(--hot-yellow);
+  }
+  .link-accent-5 {
+    --link-accent: var(--hot-emerald);
   }
 </style>
