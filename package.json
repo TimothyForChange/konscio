@@ -1,7 +1,7 @@
 {
   "name": "ligilarbo",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "dev": "astro dev",
@@ -9,10 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "format": "biome format --write .",
-    "lint": "biome lint .",
-    "lint:fix": "biome lint --write .",
-    "check": "biome check ."
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.4.1",
@@ -23,6 +20,9 @@
     "remixicon": "^4.6.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.1.2"
+    "@ianvs/prettier-plugin-sort-imports": "^4.5.1",
+    "prettier": "^3.6.2",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.6.14"
   }
 }

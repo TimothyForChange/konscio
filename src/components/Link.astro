@@ -1,14 +1,6 @@
 ---
 import "remixicon/fonts/remixicon.css";
 
-interface Props {
-  icon: string;
-  title: string;
-  description: string;
-  url: string;
-  colorIndex?: number;
-}
-
 const { icon, title, description, url, colorIndex = 0 } = Astro.props;
 
 const hotColors = [
