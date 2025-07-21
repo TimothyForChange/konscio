@@ -4,8 +4,15 @@ import dataList from "../data/user.json";
 
 <header class='profile'>
   <div class='profile-picture-content'>
-    <figure class='profile-picture'>
-      <img src="/me.png" alt='This is me!' width="80" height="80" />
+    <figure class='profile-picture' style="width: 80px; height: 80px;">
+      <img 
+        src="/me.png" 
+        alt='This is me!' 
+        width="80" 
+        height="80" 
+        loading="eager"
+        decoding="sync"
+      />
     </figure>
   </div>
   <div class='profile-data'>
