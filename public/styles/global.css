@@ -1,0 +1,279 @@
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
+
+.container {
+  position: relative;
+  padding: 0.3125rem;
+  max-width: 600px;
+  width: 90%;
+  height: 100vh;
+  overflow: hidden;
+  scrollbar-width: 8px;
+  scrollbar-color: var(--bg-surface) var(--bg);
+}
+
+@media (min-width: 768px) {
+  .page-wrapper {
+    padding: 0 20px;
+  }
+}
+
+:root {
+  --bg: #181818;
+  --bg-card: #232323;
+  --bg-surface: #292929;
+  --border: #555555;
+
+  --accent-primary: #ff3366;
+  --accent-secondary: #66b3ff;
+  --accent-green: #33cc66;
+
+  --hot-orange: #ff6b35;
+  --hot-purple: #a855f7;
+  --hot-cyan: #06b6d4;
+  --hot-yellow: #eab308;
+  --hot-emerald: #10b981;
+
+  --text-primary: #fff;
+  --text-secondary: #e0e0e0;
+  --text-muted: #b3b3b3;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', Arial, Helvetica, Verdana, Tahoma, Geneva, sans-serif;
+  font-display: swap;
+  background: var(--bg);
+  color: var(--text-primary);
+}
+
+.link {
+  padding: 1rem;
+  display: flex;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  background: var(--bg-card);
+  transition: all 0.2s ease;
+  min-height: 5.5rem;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.link:hover {
+  border: 1px solid var(--link-accent);
+  background: var(--bg-surface);
+  transform: translateY(-1px);
+}
+
+.link-icon {
+  width: 3rem;
+  height: 3rem;
+  min-width: 3rem;
+  min-height: 3rem;
+  margin-right: 1rem;
+  background: var(--bg-surface);
+  border-radius: 0.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.2s ease;
+  flex-shrink: 0;
+}
+
+.link-content {
+  flex: 1;
+  min-height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link-icon i {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  transition: color 0.2s ease;
+}
+
+.link:hover .link-icon {
+  background: var(--link-accent);
+}
+
+.link:hover .link-icon i {
+  color: white;
+}
+
+.link-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 0.25rem;
+}
+
+.link-description {
+  color: #e0e0e0;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.link-accent-0 {
+  --link-accent: var(--accent-primary);
+}
+.link-accent-1 {
+  --link-accent: var(--hot-orange);
+}
+.link-accent-2 {
+  --link-accent: var(--hot-purple);
+}
+.link-accent-3 {
+  --link-accent: var(--hot-cyan);
+}
+.link-accent-4 {
+  --link-accent: var(--hot-yellow);
+}
+.link-accent-5 {
+  --link-accent: var(--hot-emerald);
+}
+
+.profile {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-picture-content {
+  padding: 0.25rem;
+  border-radius: 100%;
+  border: 2px solid var(--border);
+  background: var(--bg-card);
+}
+
+.profile-picture {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  overflow: hidden;
+  background: var(--bg-surface);
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.profile-data {
+  margin-top: 1.125rem;
+  text-align: center;
+}
+
+.profile-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.profile-profession {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.profile-bio {
+  margin-top: 1rem;
+  max-width: 24rem;
+}
+
+.profile-bio-text {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  line-height: 1.6;
+  text-align: center;
+}
+
+.profile-bio .profile-bio-text a {
+  color: #04b4fd;
+  text-decoration: underline;
+  transition: none;
+  font-weight: 600;
+}
+
+.list {
+  margin-top: 3rem;
+  display: grid;
+  gap: 1rem;
+  min-height: 36rem;
+}
+
+.shadow {
+  margin-top: 3rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 11.25rem;
+  background: linear-gradient(0deg, var(--bg) 0%, rgba(26, 26, 26, 0) 100%);
+}
+
+.shadow-button {
+  margin: auto;
+  padding: 0.875rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border: 2px solid var(--accent-primary);
+  outline: none;
+  background: var(--bg-card);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.shadow-button:hover {
+  background: var(--accent-primary);
+  color: white;
+}
+
+.shadow-button:hover .shadow-button-icon svg {
+  fill: white;
+}
+
+.shadow-button-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.shadow-button-icon svg {
+  fill: var(--accent-primary);
+  transition: fill 0.2s;
+}
+.shadow-button-text {
+  color: #fff;
+  font-weight: 600;
+}
