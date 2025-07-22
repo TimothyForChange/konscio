@@ -1,31 +1,31 @@
 ---
-import "remixicon/fonts/remixicon.css";
+import 'remixicon/fonts/remixicon.css';
 
 const { icon, title, description, url, colorIndex = 0 } = Astro.props;
 
 const hotColors = [
-  "var(--accent-primary)",
-  "var(--hot-orange)",
-  "var(--hot-purple)",
-  "var(--hot-cyan)",
-  "var(--hot-yellow)",
-  "var(--hot-emerald)",
+  'var(--accent-primary)',
+  'var(--hot-orange)',
+  'var(--hot-purple)',
+  'var(--hot-cyan)',
+  'var(--hot-yellow)',
+  'var(--hot-emerald)',
 ];
 
 const accentClass = `link-accent-${colorIndex % hotColors.length}`;
 ---
 
 <a href={url} class={`link ${accentClass}`}>
-  <span class="link-icon">
+  <span class='link-icon'>
     <i class={'ri-' + icon}></i>
   </span>
-  <div class="link-content">
-    <h2 class="link-title">{title}</h2>
-    <p class="link-description">{description}</p>
+  <div class='link-content'>
+    <h2 class='link-title'>{title}</h2>
+    <p class='link-description'>{description}</p>
   </div>
 </a>
 
-<style>
+<style is:global>
   .link {
     padding: 1rem;
     display: flex;
@@ -67,7 +67,7 @@ const accentClass = `link-accent-${colorIndex % hotColors.length}`;
     flex-direction: column;
     justify-content: center;
   }
-  
+
   .link-icon i {
     font-size: 1.25rem;
     color: var(--text-secondary);

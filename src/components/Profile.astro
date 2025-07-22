@@ -1,30 +1,30 @@
 ---
-import dataList from "../data/user.json";
+import dataList from '../data/user.json';
 ---
 
 <header class='profile'>
   <div class='profile-picture-content'>
     <figure class='profile-picture'>
-      <img 
-        src="/me.png" 
-        alt='This is me!' 
-        width="80" 
-        height="80" 
-        loading="eager"
-        decoding="sync"
-      />
+      <img src='/me.png' alt='This is me!' width='80' height='80' loading='eager' decoding='sync' />
     </figure>
   </div>
   <div class='profile-data'>
     <h1 class='profile-name'>{dataList.name}</h1>
     <p class='profile-profession'>{dataList.profession}</p>
     <div class='profile-bio'>
-      <p class='profile-bio-text' set:html={dataList.bio}></p>
+      <p class='profile-bio-text'>
+        I'm an intermediate software engineer at
+        <a href='https://www.agilebridge.co.za/' target='_blank' rel='noopener noreferrer'
+          >Agile Bridge</a
+        >
+        in Pretoria who absolutely loves coding. I'm passionate about .NET, open-source projects, building
+        my own stuff, audiobooks, dogs, gaming, chess and memes.
+      </p>
     </div>
   </div>
 </header>
 
-<style>
+<style is:global>
   .profile {
     margin-top: 4rem;
     width: 100%;
@@ -92,8 +92,9 @@ import dataList from "../data/user.json";
   }
 
   .profile-bio .profile-bio-text a {
-    color: rgb(4, 180, 253);
+    color: #04b4fd;
     text-decoration: underline;
     transition: none;
+    font-weight: 600;
   }
 </style>

@@ -1,6 +1,6 @@
 ---
-import Link from "./Link.astro";
-import dataList from "../data/user.json";
+import Link from './Link.astro';
+import dataList from '../data/user.json';
 
 const items = dataList.links;
 ---
@@ -16,12 +16,12 @@ const items = dataList.links;
           url={item.url}
           colorIndex={index}
         />
-      )
+      );
     })
   }
 </div>
 
-<style>
+<style is:global>
   .list {
     margin-top: 3rem;
     display: grid;
