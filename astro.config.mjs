@@ -5,5 +5,11 @@ import playformInline from '@playform/inline';
 
 export default defineConfig({
   integrations: [sitemap(), playformCompress(), playformInline()],
-  site: 'https://timothybrits.com/',
+  site: 'https://timothybrits.com',
+  trailingSlash: 'never',
+  output: 'static',
+  build: {
+    assetsInlineLimit: 4096,
+    cacheDir: './.astro-cache',
+  },
 });
