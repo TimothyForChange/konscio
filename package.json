@@ -12,7 +12,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.4.1",
+    "@astrojs/sitemap": "^3.4.2",
     "@fontsource/poppins": "^5.2.6",
     "@playform/compress": "^0.2.0",
     "@playform/inline": "^0.1.2",
