@@ -16,7 +16,7 @@
     "@fontsource/poppins": "^5.2.6",
     "@playform/compress": "^0.2.0",
     "@playform/inline": "^0.1.2",
-    "astro": "^5.12.3",
+    "astro": "^5.12.8",
     "remixicon": "^4.6.0"
   },
   "devDependencies": {
