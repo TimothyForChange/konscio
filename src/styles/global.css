@@ -13,6 +13,7 @@
   --hot-cyan: #67d4ff;
   --hot-yellow: #ffd966;
   --hot-emerald: #66d9a8;
+  --hot-pink: #e94057;
 
   --text-primary: #4a4137;
   --text-secondary: #6b5f52;
@@ -149,6 +150,9 @@ html {
 }
 .link-accent-5 {
   --link-accent: var(--hot-emerald);
+}
+.link-accent-6 {
+  --link-accent: var(--hot-pink);
 }
 
 .profile {

@@ -37,6 +37,12 @@
       "icon": "links-fill",
       "title": "SADAG",
       "description": "South African Depression and Anxiety Group - Mental Health resources and support - a cause I advocate for"
+    },
+    {
+      "url": "https://github.com/mooship/ligilarbo",
+      "icon": "code-box-fill",
+      "title": "Website Source",
+      "description": "View the source code for this website on GitHub."
     }
   ]
 }
