@@ -3,12 +3,6 @@
   "profession": "Software Engineer",
   "links": [
     {
-      "url": "https://www.linkedin.com/in/timothybrits/",
-      "icon": "linkedin-box-fill",
-      "title": "LinkedIn",
-      "description": "Software engineering insights and professional journey since 2021"
-    },
-    {
       "url": "https://github.com/mooship",
       "icon": "github-fill",
       "title": "GitHub",
