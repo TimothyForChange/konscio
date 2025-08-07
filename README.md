@@ -41,7 +41,6 @@ bun run preview
 ## Features
 
 - Responsive design
-- Dark theme
 - Professional profile display
 - Social media and professional links
 - Optimized for performance with compression and inlining
