@@ -1,6 +1,6 @@
 {
-  "name": "Ligilarbo",
-  "short_name": "Ligilarbo",
+  "name": "Timothy Brits",
+  "short_name": "Timothy Brits",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#1a1a1a",
-  "background_color": "#1a1a1a",
+  "theme_color": "#faf8f5",
+  "background_color": "#faf8f5",
   "display": "standalone"
 }
