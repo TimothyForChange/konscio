@@ -23,6 +23,12 @@
   const list = document.getElementById('list');
   if (list && shadow && pageWrapper) {
     const observerList = list.getBoundingClientRect();
+    if (shadow) {
+      shadow.style.position = 'absolute';
+    }
+    if (shadowButton && shadowButton.children[0]) {
+      shadowButton.children[0].textContent = 'Explore More';
+    }
     if (observerList.bottom < window.innerHeight) {
       shadow.style.display = 'none';
       pageWrapper.style.overflow = 'auto';
