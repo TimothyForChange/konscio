@@ -18,7 +18,7 @@
   "packageManager": "bun@1.2.19",
   "dependencies": {},
   "devDependencies": {
-    "@astrojs/sitemap": "^3.4.2",
+    "@astrojs/sitemap": "^3.5.0",
     "@eslint/js": "^9.33.0",
     "@fontsource/poppins": "^5.2.6",
     "@ianvs/prettier-plugin-sort-imports": "^4.6.2",
