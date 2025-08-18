@@ -18,7 +18,7 @@
       "url": "https://github.com/mooship/blokilo",
       "icon": "terminal-box-fill",
       "title": "Blokilo",
-      "description": "TUI (Go + Bubble Tea) to test ad-blocking DNS and hosts file setups"
+      "description": "TUI to test ad-blocking DNS and hosts file setups"
     },
     {
       "url": "https://vortludo.onrender.com",
