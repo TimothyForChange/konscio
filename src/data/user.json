@@ -15,10 +15,10 @@
       "description": "Translate cron expressions to plain English instantly"
     },
     {
-      "url": "https://github.com/mooship/FactionsAtTheEnd",
+      "url": "https://github.com/mooship/blokilo",
       "icon": "terminal-box-fill",
-      "title": "Factions At The End",
-      "description": "A terminal game featuring strategic gameplay"
+      "title": "Blokilo",
+      "description": "TUI (Go + Bubble Tea) to test ad-blocking DNS and hosts file setups"
     },
     {
       "url": "https://vortludo.onrender.com",
