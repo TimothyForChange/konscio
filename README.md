@@ -17,7 +17,7 @@ This is Timothy Brits' personal website showcasing professional links and inform
 Install dependencies:
 
 ```bash
-npm install
+bun install
 ```
 
 Start the development server:
