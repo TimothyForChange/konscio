@@ -31,7 +31,7 @@ const fontaineOptions = {
 
 export default defineConfig({
   integrations: [sitemap(), playformCompress(), playformInline()],
-  site: 'https://timothybrits.com',
+  site: 'https://mooship.co.za',
   trailingSlash: 'never',
   output: 'static',
   build: {
