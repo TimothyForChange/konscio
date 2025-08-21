@@ -28,6 +28,30 @@
   box-sizing: border-box;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #23222b;
+    --bg-card: #2d2c36;
+    --bg-surface: #282733;
+    --border: #3a3844;
+
+    --accent-primary: #ffb3e6;
+    --accent-secondary: #d1c3b2;
+    --accent-green: #b6e2c6;
+
+    --hot-orange: #ffc299;
+    --hot-purple: #c7a6f7;
+    --hot-cyan: #8be6ff;
+    --hot-yellow: #ffe699;
+    --hot-emerald: #99e6c6;
+    --hot-pink: #ff8fa3;
+
+    --text-primary: #f5f1eb;
+    --text-secondary: #d6cfd6;
+    --text-muted: #b3a9b8;
+  }
+}
+
 html {
   font-family:
     'Poppins', 'Montserrat', 'Nunito', 'Quicksand', 'Rubik', 'Raleway', 'Lato',
@@ -284,4 +308,22 @@ html {
 .shadow-button-text {
   color: var(--text-primary);
   font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  .shadow-button {
+    background: #2d2c36;
+    color: var(--accent-primary);
+    border-color: var(--accent-primary);
+  }
+  .shadow-button-text {
+    color: var(--accent-primary);
+  }
+  .shadow-button:hover {
+    background: var(--accent-primary);
+    color: #23222b;
+  }
+  .shadow-button:hover .shadow-button-text {
+    color: #fff;
+  }
 }
