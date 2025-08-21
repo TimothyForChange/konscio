@@ -4,7 +4,7 @@ A personal portfolio website built with Astro.
 
 ## About
 
-This is Timothy Brits' personal website showcasing professional links and information. The site features a clean, modern design with a dark theme.
+This is Timothy Brits' personal website showcasing professional links and information.
 
 ## Tech Stack
 
@@ -17,7 +17,7 @@ This is Timothy Brits' personal website showcasing professional links and inform
 Install dependencies:
 
 ```bash
-npm install
+bun install
 ```
 
 Start the development server:
