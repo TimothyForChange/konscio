@@ -4,13 +4,13 @@
   "version": "0.0.1",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "dev": "bunx astro dev",
-    "start": "bunx astro dev",
-    "build": "bunx astro build",
-    "preview": "bunx astro preview",
-    "astro": "bunx astro",
-    "format": "bunx prettier --write .",
-    "lint": "bunx eslint . --fix"
+    "dev": "bun astro dev",
+    "start": "bun astro dev",
+    "build": "bun astro build",
+    "preview": "bun astro preview",
+    "astro": "bun astro",
+    "format": "bun prettier --write .",
+    "lint": "bun eslint . --fix"
   },
   "engines": {
     "bun": ">=1.2.20"
