@@ -1,6 +1,6 @@
 ---
 import userData from '../data/user.json';
-const { name, profession } = userData;
+const { name, profession, bio } = userData;
 ---
 
 <header class="profile">
@@ -21,9 +21,7 @@ const { name, profession } = userData;
     <h1 class="profile-name">{name}</h1>
     <p class="profile-profession">{profession}</p>
     <div class="profile-bio">
-      <p class="profile-bio-text">
-        Hey, I’m an intermediate software engineer at Agile Bridge from Pretoria and I’m also an aspie. I really love coding, especially in .NET and Node.js, and I enjoy building my own projects and contributing to open source. When I’m not coding, I’m probably listening to audiobooks, spending time with my dog, gaming, playing chess, or laughing at memes.
-      </p>
+      <p class="profile-bio-text">{bio}</p>
     </div>
   </div>
 </header>
