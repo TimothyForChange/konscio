@@ -1,25 +1,27 @@
 ---
-import dataList from '../data/user.json';
+import userData from '../data/user.json';
+const { name, profession } = userData;
 ---
 
-<header class='profile'>
-  <div class='profile-picture-content'>
-    <figure class='profile-picture'>
+<header class="profile">
+  <div class="profile-picture-content">
+    <figure class="profile-picture">
       <img
-        src='/me.png'
-        alt='This is me!'
-        width='80'
-        height='80'
-        loading='eager'
-        decoding='sync'
+        src="/me.png"
+        alt="This is me!"
+        width="80"
+        height="80"
+        loading="eager"
+        decoding="sync"
       />
     </figure>
   </div>
-  <div class='profile-data'>
-    <h1 class='profile-name'>{dataList.name}</h1>
-    <p class='profile-profession'>{dataList.profession}</p>
-    <div class='profile-bio'>
-      <p class='profile-bio-text'>
+
+  <div class="profile-data">
+    <h1 class="profile-name">{name}</h1>
+    <p class="profile-profession">{profession}</p>
+    <div class="profile-bio">
+      <p class="profile-bio-text">
         Hey, I’m an intermediate software engineer at Agile Bridge from Pretoria and I’m also an aspie. I really love coding, especially in .NET and Node.js, and I enjoy building my own projects and contributing to open source. When I’m not coding, I’m probably listening to audiobooks, spending time with my dog, gaming, playing chess, or laughing at memes.
       </p>
     </div>
