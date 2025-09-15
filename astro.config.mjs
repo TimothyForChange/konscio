@@ -6,27 +6,17 @@ import { FontaineTransform } from 'fontaine';
 
 const fontaineOptions = {
   fallbacks: [
-    'Poppins',
-    'Montserrat',
-    'Nunito',
-    'Quicksand',
-    'Rubik',
-    'Raleway',
-    'Lato',
-    'Open Sans',
+    'Geist Variable',
+    'Geist',
     'Inter',
-    'BlinkMacSystemFont',
+    '-apple-system',
+    'system-ui',
     'Segoe UI',
+    'Roboto',
     'Helvetica Neue',
     'Arial',
-    'Noto Sans',
-    'Verdana',
-    'Tahoma',
-    'Geneva',
     'sans-serif',
   ],
-  // You may need to resolve assets like `/fonts/font.woff2` to a particular directory
-  // resolvePath: id => `file:///path/to/public/dir${id}`,
 };
 
 export default defineConfig({

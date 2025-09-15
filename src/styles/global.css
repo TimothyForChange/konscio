@@ -54,9 +54,16 @@
 
 html {
   font-family:
-    'Poppins', 'Montserrat', 'Nunito', 'Quicksand', 'Rubik', 'Raleway', 'Lato',
-    'Open Sans', 'Inter', BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue',
-    Arial, 'Noto Sans', Verdana, Tahoma, Geneva, sans-serif;
+    'Geist Variable',
+    Geist,
+    Inter,
+    -apple-system,
+    system-ui,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
   font-display: swap;
   background: var(--bg);
   color: var(--text-primary);
@@ -238,7 +245,7 @@ html {
 }
 
 .profile-bio-text {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 400;
   color: var(--text-muted);
   line-height: 1.6;
