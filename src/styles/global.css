@@ -138,9 +138,8 @@ html::-webkit-scrollbar-corner {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 100vh;
-  overflow-y: auto;
-  overflow-x: hidden;
+  min-height: 100vh;
+  overflow: visible;
 }
 
 .container {
@@ -148,9 +147,7 @@ html::-webkit-scrollbar-corner {
   padding: 0.3125rem;
   max-width: 600px;
   width: 90%;
-  height: 100vh;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  min-height: 100vh;
 }
 
 @media (min-width: 768px) {
@@ -257,7 +254,7 @@ html::-webkit-scrollbar-corner {
 }
 
 .profile {
-  margin-top: 4rem;
+  margin-top: 3rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -339,92 +336,12 @@ html::-webkit-scrollbar-corner {
   display: grid;
   gap: 1rem;
   min-height: 36rem;
-}
-
-.shadow {
-  margin-top: 3rem;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 11.25rem;
-  background: linear-gradient(0deg, var(--bg) 0%, rgba(250, 248, 245, 0) 100%);
-  background: linear-gradient(
-    0deg,
-    var(--bg) 0%,
-    color-mix(in srgb, var(--bg), transparent 100%) 100%
-  );
-}
-
-.shadow-button {
-  margin: auto;
-  padding: 0.875rem 2rem;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  border: 2px solid var(--accent-primary);
-  outline: none;
-  background: var(--bg-card);
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: var(--accent-primary);
-  border-radius: 2rem;
-  cursor: pointer;
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease,
-    border-color 0.2s,
-    box-shadow 0.2s ease;
-}
-
-.shadow-button:hover {
-  background: var(--accent-primary);
-  color: white;
-}
-
-.shadow-button:hover .shadow-button-icon svg {
-  fill: white;
-}
-
-.shadow-button-icon {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.shadow-button-icon svg {
-  fill: var(--accent-primary);
-  transition: fill 0.2s ease;
-}
-
-.shadow-button-text {
-  font-weight: 600;
-}
-
-.shadow-button:focus-visible {
-  outline: 3px solid var(--accent-primary);
-  outline-offset: 2px;
-}
-
-@media (prefers-color-scheme: dark) {
-  .shadow-button {
-    background: var(--bg-card);
-    color: var(--accent-primary);
-    border-color: var(--accent-primary);
-  }
-  .shadow-button:hover {
-    background: var(--accent-primary);
-    color: var(--bg);
-  }
-  .shadow-button:hover .shadow-button-text {
-    color: #fff;
-  }
+  margin-bottom: 3rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .link,
-  .link-icon,
-  .shadow-button,
-  .shadow-button-icon svg {
+  .link-icon {
     transition: none !important;
     transform: none !important;
   }
