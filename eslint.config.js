@@ -2,6 +2,7 @@ import js from '@eslint/js';
 import globals from 'globals';
 import astro from 'eslint-plugin-astro';
 import { defineConfig } from 'eslint/config';
+import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 
 export default defineConfig([
   {
@@ -9,7 +10,7 @@ export default defineConfig([
   },
   {
     files: ['**/*.{js,mjs,cjs}'],
-    plugins: { js },
+    plugins: { js, unicorn: eslintPluginUnicorn },
     extends: ['js/recommended'],
     languageOptions: { globals: globals.browser },
   },
