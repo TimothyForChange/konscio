@@ -1,8 +1,8 @@
 import js from '@eslint/js';
-import globals from 'globals';
 import astro from 'eslint-plugin-astro';
-import { defineConfig } from 'eslint/config';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
+import { defineConfig } from 'eslint/config';
+import globals from 'globals';
 
 export default defineConfig([
   {

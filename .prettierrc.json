@@ -1,5 +1,9 @@
 {
-  "plugins": ["prettier-plugin-astro"],
+  "plugins": [
+    "@prettier/plugin-oxc",
+    "prettier-plugin-astro",
+    "@ianvs/prettier-plugin-sort-imports"
+  ],
   "arrowParens": "always",
   "bracketSameLine": false,
   "bracketSpacing": true,

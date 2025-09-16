@@ -1,7 +1,7 @@
-import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import playformCompress from '@playform/compress';
 import playformInline from '@playform/inline';
+import { defineConfig } from 'astro/config';
 import { FontaineTransform } from 'fontaine';
 
 const fontaineOptions = {

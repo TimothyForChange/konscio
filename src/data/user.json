@@ -1,11 +1,11 @@
 {
   "name": "Timothy Brits",
   "profession": "Software Engineer",
-  "bio": "Software engineer from Pretoria specialising in .NET and Node.js. I love building projects and contributing to open source. When I'm not coding, you'll find me with audiobooks, my dog, or a chess board. Proudly neurodivergent. I stand with Ukraine.",
+  "bio": "Software engineer from Pretoria specialising in .NET and Node.js. I build maintainable web apps, contribute to open source, and enjoy audiobooks, gaming and chess. Proudly neurodivergent, a mental-health advocate, and I stand with Ukraine.",
   "links": [
     {
       "url": "https://github.com/mooship",
-      "icon": "github-fill",
+      "icon": "github-line",
       "title": "GitHub",
       "description": "Open-source contributions and personal projects focusing on web development"
     },
@@ -17,25 +17,31 @@
     },
     {
       "url": "https://github.com/mooship/blokilo",
-      "icon": "terminal-box-fill",
+      "icon": "terminal-box-line",
       "title": "Blokilo",
       "description": "TUI to test ad-blocking DNS and hosts file setups"
     },
     {
       "url": "https://vortludo.mooship.co.za",
-      "icon": "gamepad-fill",
+      "icon": "gamepad-line",
       "title": "Vortludo",
       "description": "A Wordle clone (Vortludo means word game in Esperanto)"
     },
     {
       "url": "https://www.sadag.org",
-      "icon": "links-fill",
+      "icon": "mental-health-line",
       "title": "SADAG",
-      "description": "South African Depression and Anxiety Group - Mental Health resources and support - a cause I advocate for"
+      "description": "South African Depression and Anxiety Group — Mental Health resources and support — a cause I advocate for"
+    },
+    {
+      "url": "https://u24.gov.ua/",
+      "icon": "hand-heart-line",
+      "title": "UNITED24",
+      "description": "A Ukrainian government initiative for fundraising and support — resources and recovery efforts"
     },
     {
       "url": "https://github.com/mooship/ligilarbo",
-      "icon": "code-box-fill",
+      "icon": "code-box-line",
       "title": "Website Source",
       "description": "View the source code for this website on GitHub"
     }
