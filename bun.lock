@@ -6,7 +6,7 @@
       "devDependencies": {
         "@astrojs/sitemap": "^3.5.1",
         "@eslint/js": "^9.35.0",
-        "@fontsource-variable/geist": "^5.2.7",
+        "@fontsource-variable/geist": "^5.2.8",
         "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
         "@playform/compress": "^0.2.0",
         "@playform/inline": "^0.1.2",
@@ -134,7 +134,7 @@
 
     "@eslint/plugin-kit": ["@eslint/plugin-kit@0.3.5", "", { "dependencies": { "@eslint/core": "^0.15.2", "levn": "^0.4.1" } }, "sha512-Z5kJ+wU3oA7MMIqVR9tyZRtjYPr4OC004Q4Rw7pgOKUOKkJfZ3O24nz3WYfGRpMDNmcOi3TwQOmgm7B7Tpii0w=="],
 
-    "@fontsource-variable/geist": ["@fontsource-variable/geist@5.2.7", "", {}, "sha512-5c3n7WrMTqtFasRwyNeBRe4Ii0BpHuzPve9KEgTsW1YvnNQstoJIAjrzB4Jj63n7qbzli5CTqFfCACnnUr0Mjw=="],
+    "@fontsource-variable/geist": ["@fontsource-variable/geist@5.2.8", "", {}, "sha512-cJ6m9e+8MQ5dCYJsLylfZrgBh6KkG4bOLckB35Tr9J/EqdkEM6QllH5PxqP1dhTvFup+HtMRPuz9xOjxXJggxw=="],
 
     "@humanfs/core": ["@humanfs/core@0.19.1", "", {}, "sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA=="],
 
