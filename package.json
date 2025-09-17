@@ -14,7 +14,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@astrojs/sitemap": "^3.5.1",
+    "@astrojs/sitemap": "^3.6.0",
     "@eslint/js": "^9.35.0",
     "@fontsource-variable/geist": "^5.2.8",
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
