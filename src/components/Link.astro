@@ -17,10 +17,11 @@ const accentClass = `link-accent-${colorIndex % hotColors.length}`;
 ---
 
 <a href={url} class={`link ${accentClass}`}>
-  <span class='link-icon'>
-    <i class={'ri-' + icon}></i>
+  <span class='link-icon' aria-hidden='true'>
+    <i class={'ri-' + icon} aria-hidden='true'></i>
   </span>
   <div class='link-content'>
+    <span class='sr-only'>{title} icon</span>
     <h2 class='link-title'>{title}</h2>
     <p class='link-description'>{description}</p>
   </div>

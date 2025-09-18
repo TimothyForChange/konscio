@@ -5,18 +5,20 @@ import Link from './Link.astro';
 const items = dataList.links;
 ---
 
-<div class='list' id='list'>
+<ul class='list' id='list'>
   {
     items.map((item, index) => {
       return (
-        <Link
-          icon={item.icon}
-          title={item.title}
-          description={item.description}
-          url={item.url}
-          colorIndex={index}
-        />
+        <li>
+          <Link
+            icon={item.icon}
+            title={item.title}
+            description={item.description}
+            url={item.url}
+            colorIndex={index}
+          />
+        </li>
       );
     })
   }
-</div>
+</ul>
