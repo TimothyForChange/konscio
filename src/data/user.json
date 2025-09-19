@@ -1,25 +1,25 @@
 {
   "name": "Timothy Brits",
   "profession": "Software Engineer",
-  "bio": "Software engineer from Pretoria specialising in .NET and Node.js. I build maintainable web apps, contribute to open source, and enjoy audiobooks, gaming, and chess. Passionate about mental health, inclusivity, and supporting Ukraine.",
+  "bio": "Software engineer from Pretoria specialising in .NET and Node.js. I (usually) build maintainable web apps. I enjoy coding, audiobooks, gaming, and chess. Passionate about mental health, inclusivity, and socialism. My heart is with Ukraine, the Democratic Republic of the Congo, and Palestine.",
   "links": [
+    {
+      "url": "https://www.instagram.com/brits.timothy/",
+      "icon": "instagram-line",
+      "title": "Instagram",
+      "description": "My life in pictures, more or less"
+    },
     {
       "url": "https://github.com/mooship",
       "icon": "github-line",
       "title": "GitHub",
-      "description": "Open-source contributions and personal projects focusing on web development"
+      "description": "Personal projects focusing on web development"
     },
     {
       "url": "https://kronilo.mooship.co.za",
       "icon": "translate",
       "title": "Kronilo",
       "description": "Translate cron expressions to plain English instantly"
-    },
-    {
-      "url": "https://github.com/mooship/blokilo",
-      "icon": "terminal-box-line",
-      "title": "Blokilo",
-      "description": "TUI to test ad-blocking DNS and hosts file setups"
     },
     {
       "url": "https://vortludo.mooship.co.za",

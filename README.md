@@ -17,25 +17,25 @@ This is Timothy Brits' personal website showcasing professional links and inform
 Install dependencies:
 
 ```bash
-bun install
+npm install
 ```
 
 Start the development server:
 
 ```bash
-bun run dev
+npm run dev
 ```
 
 Build for production:
 
 ```bash
-bun run build
+npm run build
 ```
 
 Preview the production build:
 
 ```bash
-bun run preview
+npm run preview
 ```
 
 ## Features
