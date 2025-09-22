@@ -1,13 +1,13 @@
 {
   "name": "Timothy Brits",
   "profession": "Software Engineer",
-  "bio": "Software engineer from Pretoria specialising in .NET and Node.js. I (usually) build maintainable web apps. I enjoy coding, audiobooks, gaming, and chess. Passionate about mental health, inclusivity, and socialism. My heart is with Ukraine, Sudan, the Democratic Republic of the Congo, and Palestine.",
+  "bio": "Software engineer from Pretoria specialising in .NET and Node.js. I build maintainable web apps and enjoy coding, audiobooks, gaming and chess. I'm passionate about mental health, inclusivity and social causes. My heart is with Ukraine, Sudan, the Democratic Republic of the Congo and Palestine.",
   "links": [
     {
       "url": "https://www.instagram.com/brits.timothy/",
       "icon": "instagram-line",
       "title": "Instagram",
-      "description": "My life in pictures, more or less"
+      "description": "My life in pictures"
     },
     {
       "url": "https://github.com/mooship",
@@ -19,31 +19,31 @@
       "url": "https://kronilo.mooship.co.za",
       "icon": "translate",
       "title": "Kronilo",
-      "description": "Translate cron expressions to plain English instantly"
+      "description": "Translate cron expressions to plain English"
     },
     {
       "url": "https://vortludo.mooship.co.za",
       "icon": "gamepad-line",
       "title": "Vortludo",
-      "description": "A Wordle clone (Vortludo means word game in Esperanto)"
+      "description": "A Wordle clone (Vortludo means 'word game' in Esperanto)"
     },
     {
       "url": "https://www.sadag.org",
       "icon": "mental-health-line",
       "title": "SADAG",
-      "description": "South African Depression and Anxiety Group — Mental Health resources and support — a cause I advocate for"
+      "description": "South African Depression and Anxiety Group — mental health resources and support"
     },
     {
       "url": "https://u24.gov.ua/",
       "icon": "hand-heart-line",
       "title": "UNITED24",
-      "description": "A Ukrainian government initiative for fundraising and support — resources and recovery efforts"
+      "description": "A Ukrainian government initiative for fundraising and recovery"
     },
     {
       "url": "https://github.com/mooship/ligilarbo",
       "icon": "code-box-line",
       "title": "Website Source",
-      "description": "View the source code for this website on GitHub"
+      "description": "View this website's source code on GitHub"
     }
   ]
 }
