@@ -9,7 +9,7 @@ const items = dataList.links;
   {
     items.map((item, index) => {
       return (
-        <li>
+        <li class='slide-up-fade' style={`animation-delay: ${index * 80}ms`}>
           <Link
             icon={item.icon}
             title={item.title}
