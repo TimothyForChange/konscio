@@ -18,7 +18,7 @@
   --on-accent-strong: #ffffff;
   --on-accent-inverse: #000000;
 
-  /* Hot utility accents (cycled for generic links) */
+  /* Hot utility accents */
   --hot-orange: #f76808;
   --hot-purple: #6e56cf;
   --hot-cyan: #0a84ff;
@@ -122,7 +122,10 @@ html {
     Roboto,
     'Helvetica Neue',
     Arial,
-    sans-serif;
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Noto Color Emoji';
   font-display: swap;
   background: var(--bg);
   color: var(--text-primary);

@@ -16,6 +16,9 @@ const fontaineOptions = {
     'Helvetica Neue',
     'Arial',
     'sans-serif',
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Noto Color Emoji',
   ],
 };
 
