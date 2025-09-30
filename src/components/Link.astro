@@ -14,7 +14,27 @@ const hotColors = [
   'var(--hot-blue)',
 ];
 
-const accentClass = `link-accent-${colorIndex % hotColors.length}`;
+const brandMap = new Map([
+  ['instagram', 'link-brand-instagram'],
+  ['github', 'link-brand-github'],
+  ['kronilo', 'link-brand-kronilo'],
+  ['vortludo', 'link-brand-vortludo'],
+  ['sadag', 'link-brand-sadag'],
+  ['united24', 'link-brand-united24'],
+  ['msf', 'link-brand-msf'],
+  ['médecins sans frontières', 'link-brand-msf'],
+  ['medecins sans frontieres', 'link-brand-msf'],
+  ['website source code', 'link-brand-source'],
+  ['source code', 'link-brand-source'],
+]);
+
+const key = String(title || '')
+  .trim()
+  .toLowerCase();
+const brandClass = brandMap.get(key);
+
+const accentClass =
+  brandClass || `link-accent-${colorIndex % hotColors.length}`;
 ---
 
 <a href={url} class={`link ${accentClass} fade-in`}>
