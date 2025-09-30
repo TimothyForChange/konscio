@@ -454,16 +454,6 @@ html::-webkit-scrollbar-corner {
   outline: none;
 }
 
-.profile-picture:hover,
-.profile-picture:focus-visible {
-  transform: scale(1.08) rotate(-2deg);
-  box-shadow:
-    0 8px 32px 0 rgba(255, 126, 179, 0.18),
-    0 1.5px 6px 0 rgba(0, 0, 0, 0.08);
-  outline: 2.5px solid var(--profile-ring, var(--accent-primary));
-  outline-offset: 2px;
-}
-
 .profile-picture img {
   width: 80px;
   height: 80px;

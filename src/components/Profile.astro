@@ -15,28 +15,6 @@ const { name, profession, bio } = userData;
         loading='eager'
         decoding='sync'
       />
-      <script type='module' is:inline>
-        const accentColors = [
-          'var(--accent-primary)',
-          'var(--hot-orange)',
-          'var(--hot-purple)',
-          'var(--hot-cyan)',
-          'var(--hot-yellow)',
-          'var(--hot-emerald)',
-          'var(--hot-pink)',
-        ];
-        const pic = document.getElementById('profile-picture');
-        function setRandomRing() {
-          const color =
-            accentColors[Math.floor(Math.random() * accentColors.length)];
-          pic.style.setProperty('--profile-ring', color);
-        }
-        pic.addEventListener('mouseenter', setRandomRing);
-        pic.addEventListener('focus', setRandomRing);
-        pic.addEventListener('focusin', setRandomRing);
-        pic.addEventListener('mouseleave', setRandomRing);
-        pic.addEventListener('blur', setRandomRing);
-      </script>
     </figure>
   </div>
 
