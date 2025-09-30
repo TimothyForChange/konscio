@@ -17,6 +17,7 @@
   --hot-yellow: #ffd966;
   --hot-emerald: #66d9a8;
   --hot-pink: #e94057;
+  --hot-blue: #8ecaff;
 
   --text-primary: #4a4137;
   --text-secondary: #6b5f52;
@@ -55,6 +56,7 @@
     --hot-yellow: #ffe699;
     --hot-emerald: #99e6c6;
     --hot-pink: #ff8fa3;
+    --hot-blue: #b3e3ff;
 
     --text-primary: #f5f1eb;
     --text-secondary: #d6cfd6;
@@ -264,6 +266,9 @@ html::-webkit-scrollbar-corner {
 }
 .link-accent-6 {
   --link-accent: var(--hot-pink);
+}
+.link-accent-7 {
+  --link-accent: var(--hot-blue);
 }
 
 .profile {

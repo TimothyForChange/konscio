@@ -7,18 +7,16 @@ const items = dataList.links;
 
 <ul class='list' id='list'>
   {
-    items.map((item, index) => {
-      return (
-        <li class='slide-up-fade' style={`animation-delay: ${index * 80}ms`}>
-          <Link
-            icon={item.icon}
-            title={item.title}
-            description={item.description}
-            url={item.url}
-            colorIndex={index}
-          />
-        </li>
-      );
-    })
+    items.map((item, index) => (
+      <li class='slide-up-fade' style={`animation-delay: ${index * 80}ms`}>
+        <Link
+          icon={item.icon}
+          title={item.title}
+          description={item.description}
+          url={item.url}
+          colorIndex={index}
+        />
+      </li>
+    ))
   }
 </ul>

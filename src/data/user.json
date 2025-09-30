@@ -40,6 +40,12 @@
       "description": "A Ukrainian government initiative for fundraising and recovery"
     },
     {
+      "url": "https://www.msf.org/donate",
+      "icon": "heart-pulse-line",
+      "title": "Médecins Sans Frontières",
+      "description": "Support Médecins Sans Frontières (Doctors Without Borders)"
+    },
+    {
       "url": "https://github.com/mooship/ligilarbo",
       "icon": "code-box-line",
       "title": "Website Source",
