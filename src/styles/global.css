@@ -576,7 +576,9 @@ html::-webkit-scrollbar-corner {
 .footer-minimal {
   text-align: center;
   margin: 0 0 1.5rem 0;
-  font-size: 1rem;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  font-weight: 400;
   background: none;
   border: none;
 }
@@ -610,21 +612,26 @@ html::-webkit-scrollbar-corner {
   }
 }
 
-.fade-in {
-  animation: fade-in 1s cubic-bezier(0.33, 1, 0.68, 1) both;
+.footer-link {
+  color: var(--text-muted);
+  text-decoration: underline;
+  font-weight: 400;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1.5px;
+  transition:
+    color 0.18s,
+    text-decoration-thickness 0.18s,
+    transform 0.08s;
 }
-
-.slide-up-fade {
-  animation: slide-up-fade 1.1s cubic-bezier(0.33, 1, 0.68, 1) both;
+.footer-link:hover,
+.footer-link:focus-visible {
+  color: var(--accent-tertiary);
+  text-decoration-thickness: 2.5px;
 }
-
-@media (prefers-reduced-motion: reduce) {
-  .fade-in,
-  .slide-up-fade {
-    animation: none !important;
-  }
+.footer-link:active {
+  color: var(--accent-secondary);
+  transform: scale(0.97);
 }
-
 .sr-only {
   position: absolute;
   width: 1px;
