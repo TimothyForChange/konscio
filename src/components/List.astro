@@ -8,7 +8,7 @@ const items = dataList.links;
 <ul class='list' id='list'>
   {
     items.map((item, index) => (
-      <li class='slide-up-fade' style={`animation-delay: ${index * 80}ms`}>
+      <li class={`slide-up-fade list-animated`} data-index={index}>
         <Link
           icon={item.icon}
           title={item.title}

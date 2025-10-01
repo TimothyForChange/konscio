@@ -44,12 +44,6 @@
       "icon": "heart-pulse-line",
       "title": "Médecins Sans Frontières",
       "description": "Support Médecins Sans Frontières (Doctors Without Borders)"
-    },
-    {
-      "url": "https://github.com/mooship/ligilarbo",
-      "icon": "code-box-line",
-      "title": "Website Source",
-      "description": "View this website's source code on GitHub"
     }
   ]
 }
