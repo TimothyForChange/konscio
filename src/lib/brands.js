@@ -1,4 +1,5 @@
-export const brandMap = new Map<string, string>([
+/** @type {Map<string, string>} */
+export const brandMap = new Map([
   ['Instagram', 'link-brand-instagram'],
   ['GitHub', 'link-brand-github'],
   ['Kronilo', 'link-brand-kronilo'],
