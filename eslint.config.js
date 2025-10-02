@@ -1,18 +1,25 @@
 import js from '@eslint/js';
-import astro from 'eslint-plugin-astro';
-import eslintPluginUnicorn from 'eslint-plugin-unicorn';
+import astroPlugin from 'eslint-plugin-astro';
+import unicorn from 'eslint-plugin-unicorn';
 import { defineConfig } from 'eslint/config';
 import globals from 'globals';
 
+const astroRecommended = astroPlugin.configs.recommended;
+
 export default defineConfig([
-  {
-    ignores: ['dist', '.astro'],
-  },
+  { ignores: ['dist', '.astro'] },
+
+  ...(Array.isArray(astroRecommended) ? astroRecommended : [astroRecommended]),
+
   {
     files: ['**/*.{js,mjs,cjs}'],
-    plugins: { js, unicorn: eslintPluginUnicorn },
-    extends: ['js/recommended'],
-    languageOptions: { globals: globals.browser },
+    ...js.configs.recommended,
+    languageOptions: {
+      globals: { ...globals.browser },
+    },
+    plugins: { unicorn },
+    rules: {
+      ...unicorn.configs?.recommended?.rules,
+    },
   },
-  ...astro.configs.recommended,
 ]);
