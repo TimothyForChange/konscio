@@ -1,7 +1,7 @@
 {
   "name": "ligilarbo",
   "type": "module",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "dev": "astro dev",
@@ -10,7 +10,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write .",
-    "lint": "oxlint . && eslint . --ext .js,.astro --cache"
+    "lint": "eslint . --ext .js,.astro --cache"
   },
   "devDependencies": {
     "@astrojs/sitemap": "^3.6.0",
@@ -26,7 +26,6 @@
     "eslint-plugin-unicorn": "^61.0.2",
     "fontaine": "^0.6.0",
     "globals": "^16.4.0",
-    "oxlint": "^1.19.0",
     "prettier": "^3.6.2",
     "prettier-plugin-astro": "^0.14.1",
     "remixicon": "^4.6.0"

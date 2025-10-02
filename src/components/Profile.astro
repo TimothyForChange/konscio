@@ -3,11 +3,13 @@ import userData from '../data/user.json';
 
 const { name, profession, bio } = userData;
 
-const bioWithDecorativeFlags = bio
+const bioWithDecorativeFlags = String(bio)
   .replace('Palestine', 'Palestine <span aria-hidden="true">🇵🇸</span>')
   .replace('Ukraine', 'Ukraine <span aria-hidden="true">🇺🇦</span>')
-  .replace('Sudan', 'Sudan <span aria-hidden="true">🇸🇩</span>')
-  .replace('the DRC', 'the DRC <span aria-hidden="true">🇨🇩</span>');
+  .replace(
+    'the Democratic Republic of the Congo',
+    'the Democratic Republic of the Congo <span aria-hidden="true">🇨🇩</span>'
+  );
 ---
 
 <header class='profile slide-up-fade'>
