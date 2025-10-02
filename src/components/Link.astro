@@ -1,48 +1,17 @@
 ---
 import 'remixicon/fonts/remixicon.css';
+import { brandMap } from '../lib/brands';
 
-const { icon, title, description, url, colorIndex = 0 } = Astro.props;
+const { icon, title, description, url } = Astro.props;
 
-const hotColors = [
-  'var(--accent-primary)',
-  'var(--hot-orange)',
-  'var(--hot-purple)',
-  'var(--hot-cyan)',
-  'var(--hot-yellow)',
-  'var(--hot-emerald)',
-  'var(--hot-pink)',
-  'var(--hot-blue)',
-];
-
-const brandMap = new Map([
-  ['instagram', 'link-brand-instagram'],
-  ['github', 'link-brand-github'],
-  ['kronilo', 'link-brand-kronilo'],
-  ['vortludo', 'link-brand-vortludo'],
-  ['sadag', 'link-brand-sadag'],
-  ['united24', 'link-brand-united24'],
-  ['msf', 'link-brand-msf'],
-  ['médecins sans frontières', 'link-brand-msf'],
-  ['medecins sans frontieres', 'link-brand-msf'],
-  ['website source code', 'link-brand-source'],
-  ['source code', 'link-brand-source'],
-]);
-
-const key = String(title || '')
-  .trim()
-  .toLowerCase();
-const brandClass = brandMap.get(key);
-
-const accentClass =
-  brandClass || `link-accent-${colorIndex % hotColors.length}`;
+const brandClass = title ? brandMap.get(String(title)) : undefined;
 ---
 
-<a href={url} class={`link ${accentClass} fade-in`}>
+<a href={url} class={`link fade-in${brandClass ? ' ' + brandClass : ''}`}>
   <span class='link-icon' aria-hidden='true'>
     <i class={'ri-' + icon} aria-hidden='true'></i>
   </span>
   <div class='link-content'>
-    <span class='sr-only'>{title} icon</span>
     <h2 class='link-title'>{title}</h2>
     <p class='link-description'>{description}</p>
   </div>

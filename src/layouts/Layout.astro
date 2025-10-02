@@ -2,6 +2,7 @@
 import '@fontsource-variable/geist';
 import '../styles/reset.css';
 import '../styles/global.css';
+import Footer from '../components/Footer.astro';
 
 const { title } = Astro.props;
 ---
@@ -39,15 +40,6 @@ const { title } = Astro.props;
   </head>
   <body>
     <slot />
-    <footer class='footer-minimal'>
-      <a
-        href='https://github.com/mooship/ligilarbo'
-        target='_blank'
-        rel='noopener noreferrer'
-        class='footer-link'
-      >
-        Source code on GitHub
-      </a>
-    </footer>
+    <Footer />
   </body>
 </html>

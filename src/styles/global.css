@@ -13,14 +13,6 @@
   --on-accent-strong: #ffffff;
   --on-accent-inverse: #000000;
 
-  --hot-orange: #f76808;
-  --hot-purple: #6e56cf;
-  --hot-cyan: #0a84ff;
-  --hot-yellow: #ffd60a;
-  --hot-emerald: #12b886;
-  --hot-pink: #d0006f;
-  --hot-blue: #0040dd;
-
   --text-primary: #11181c;
   --text-secondary: #3a464f;
   --text-muted: #5c6a75;
@@ -60,14 +52,6 @@
     --on-accent: #000000;
     --on-accent-strong: #000000;
     --on-accent-inverse: #ffffff;
-
-    --hot-orange: #ff8b3e;
-    --hot-purple: #8b6ef5;
-    --hot-cyan: #36b8ff;
-    --hot-yellow: #ffdb4d;
-    --hot-emerald: #19c997;
-    --hot-pink: #ff2d90;
-    --hot-blue: #2d74ff;
 
     --text-primary: #f5f7f8;
     --text-secondary: #c4ccd2;
@@ -114,7 +98,6 @@ html {
     'Apple Color Emoji',
     'Segoe UI Emoji',
     'Noto Color Emoji';
-  font-display: swap;
   background: var(--bg);
   color: var(--text-primary);
   overflow-x: hidden;
@@ -172,6 +155,7 @@ html::-webkit-scrollbar-corner {
 }
 
 .link {
+  --link-accent: var(--accent-primary); /* default accent fallback */
   padding: 1rem;
   display: flex;
   border: 1px solid var(--border);
@@ -241,18 +225,12 @@ html::-webkit-scrollbar-corner {
 }
 
 @media (prefers-color-scheme: light) {
-  .link-accent-0:hover .link-icon i {
-    color: var(--on-accent-inverse);
-  }
   .link-brand-github:hover .link-icon i {
     color: #ffffff;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .link-accent-0:hover .link-icon i {
-    color: var(--on-accent);
-  }
   .link-brand-github:hover .link-icon i {
     color: #000000;
   }
@@ -278,31 +256,6 @@ html::-webkit-scrollbar-corner {
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 1.5;
-}
-
-.link-accent-0 {
-  --link-accent: var(--accent-primary);
-}
-.link-accent-1 {
-  --link-accent: var(--hot-orange);
-}
-.link-accent-2 {
-  --link-accent: var(--hot-purple);
-}
-.link-accent-3 {
-  --link-accent: var(--hot-cyan);
-}
-.link-accent-4 {
-  --link-accent: var(--hot-yellow);
-}
-.link-accent-5 {
-  --link-accent: var(--hot-emerald);
-}
-.link-accent-6 {
-  --link-accent: var(--hot-pink);
-}
-.link-accent-7 {
-  --link-accent: var(--hot-blue);
 }
 
 .link-brand-instagram {
@@ -360,24 +313,17 @@ html::-webkit-scrollbar-corner {
     #ffdd00 52%,
     #ffdd00 100%
   );
-  background-size: 200% 200%;
-  animation: u24-wave 5s linear infinite;
+  background-size: 140% 140%;
+  background-position: 0 50%;
+  animation: none;
   transform: translateY(-1px);
 }
+
 .link-brand-united24 .link-title,
 .link-brand-united24 .link-description {
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
-  color: #fff !important;
+  color: #0d0f11 !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
   mix-blend-mode: normal;
-}
-@media (prefers-color-scheme: light) {
-  .link-brand-united24 .link-title,
-  .link-brand-united24 .link-description {
-    color: #0d0f11 !important;
-    text-shadow:
-      0 1px 2px rgba(255, 255, 255, 0.4),
-      0 0 1px rgba(0, 0, 0, 0.35);
-  }
 }
 
 @keyframes u24-wave {
@@ -463,7 +409,6 @@ html::-webkit-scrollbar-corner {
   border-radius: 100%;
   overflow: hidden;
   background: var(--bg-surface);
-  aspect-ratio: 1 / 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -555,9 +500,9 @@ html::-webkit-scrollbar-corner {
 .footer-link {
   color: var(--accent-tertiary);
   text-decoration: underline;
-  font-weight: 600;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 2px;
+  font-weight: 400;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1.5px;
   transition:
     color 0.18s,
     text-decoration-thickness 0.18s,
@@ -566,7 +511,7 @@ html::-webkit-scrollbar-corner {
 .footer-link:hover,
 .footer-link:focus-visible {
   color: var(--accent-primary);
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 2.5px;
 }
 .footer-link:active {
   color: var(--accent-secondary);
@@ -583,55 +528,6 @@ html::-webkit-scrollbar-corner {
   border: none;
 }
 
-@keyframes breathing {
-  0% {
-    transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(255, 126, 179, 0.1);
-  }
-  40% {
-    transform: scale(1.025);
-    box-shadow: 0 4px 24px 0 rgba(255, 126, 179, 0.18);
-  }
-  60% {
-    transform: scale(1.025);
-    box-shadow: 0 4px 24px 0 rgba(255, 126, 179, 0.18);
-  }
-  100% {
-    transform: scale(1);
-    box-shadow: 0 0 0 0 rgba(255, 126, 179, 0.1);
-  }
-}
-
-.breathing {
-  animation: breathing 3.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .breathing {
-    animation: none !important;
-  }
-}
-
-.footer-link {
-  color: var(--text-muted);
-  text-decoration: underline;
-  font-weight: 400;
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1.5px;
-  transition:
-    color 0.18s,
-    text-decoration-thickness 0.18s,
-    transform 0.08s;
-}
-.footer-link:hover,
-.footer-link:focus-visible {
-  color: var(--accent-tertiary);
-  text-decoration-thickness: 2.5px;
-}
-.footer-link:active {
-  color: var(--accent-secondary);
-  transform: scale(0.97);
-}
 .sr-only {
   position: absolute;
   width: 1px;

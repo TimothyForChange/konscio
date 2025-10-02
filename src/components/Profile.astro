@@ -2,9 +2,15 @@
 import userData from '../data/user.json';
 
 const { name, profession, bio } = userData;
+
+const bioWithDecorativeFlags = bio
+  .replace('Palestine', 'Palestine <span aria-hidden="true">🇵🇸</span>')
+  .replace('Ukraine', 'Ukraine <span aria-hidden="true">🇺🇦</span>')
+  .replace('Sudan', 'Sudan <span aria-hidden="true">🇸🇩</span>')
+  .replace('the DRC', 'the DRC <span aria-hidden="true">🇨🇩</span>');
 ---
 
-<header class='profile slide-up-fade breathing'>
+<header class='profile slide-up-fade'>
   <div class='profile-picture-content'>
     <figure class='profile-picture' id='profile-picture'>
       <img
@@ -22,7 +28,7 @@ const { name, profession, bio } = userData;
     <h1 class='profile-name'>{name}</h1>
     <p class='profile-profession'>{profession}</p>
     <div class='profile-bio'>
-      <p class='profile-bio-text'>{bio}</p>
+      <p class='profile-bio-text' set:html={bioWithDecorativeFlags} />
     </div>
   </div>
 </header>
