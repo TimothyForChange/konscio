@@ -226,13 +226,13 @@ html::-webkit-scrollbar-corner {
 
 @media (prefers-color-scheme: light) {
   .link-brand-github:hover .link-icon i {
-    color: #ffffff;
+    color: #fafafa;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   .link-brand-github:hover .link-icon i {
-    color: #000000;
+    color: #333;
   }
 }
 
@@ -259,7 +259,7 @@ html::-webkit-scrollbar-corner {
 }
 
 .link-brand-instagram {
-  --link-accent: #d0006f;
+  --link-accent: #e1306c;
 }
 .link-brand-github {
   --link-accent: #000000;
@@ -278,11 +278,32 @@ html::-webkit-scrollbar-corner {
 .link-brand-sadag {
   --link-accent: #14918a;
   background: #14918a;
+}
+.link-brand-sadag,
+.link-brand-msf {
   transition:
     background-color 0.2s ease,
     border-color 0.2s ease,
     transform 0.2s ease,
     box-shadow 0.2s ease;
+}
+
+.link-brand-sadag .link-title,
+.link-brand-sadag .link-description,
+.link-brand-msf .link-title,
+.link-brand-msf .link-description {
+  color: #fff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
+}
+
+.link-brand-sadag:active,
+.link-brand-msf:active,
+.link-brand-united24:active {
+  transform: scale(0.97) translateY(1.5px);
+  box-shadow: 0 1.5px 6px 0 rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-brand-sadag:hover,
@@ -291,28 +312,10 @@ html::-webkit-scrollbar-corner {
   transform: translateY(-1px);
 }
 
-.link-brand-sadag .link-title,
-.link-brand-sadag .link-description {
-  color: #fff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
-}
-
-.link-brand-sadag:active {
-  transform: scale(0.97) translateY(1.5px) !important;
-  box-shadow: 0 1.5px 6px 0 rgba(0, 0, 0, 0.1) !important;
-  transition:
-    transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .link-brand-sadag:hover,
-  .link-brand-sadag:focus-visible {
-    animation: none;
-    background-size: 180% 180%;
-    background-position: 0 50%;
-    transform: translateY(-1px);
-  }
+.link-brand-msf:hover,
+.link-brand-msf:focus-visible {
+  background: #d7211e;
+  transform: translateY(-1px);
 }
 .link-brand-united24 {
   --link-accent: #0057b7;
@@ -332,14 +335,13 @@ html::-webkit-scrollbar-corner {
     transform 0.2s ease,
     box-shadow 0.2s ease;
 }
-
-.link-brand-united24:active {
-  transform: scale(0.97) translateY(1.5px) !important;
-  box-shadow: 0 1.5px 6px 0 rgba(0, 0, 0, 0.1) !important;
-  transition:
-    transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
+.link-brand-united24 .link-title,
+.link-brand-united24 .link-description {
+  color: #0d0f11 !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+  mix-blend-mode: normal;
 }
+
 .link-brand-united24:hover,
 .link-brand-united24:focus-visible {
   background: linear-gradient(
@@ -353,62 +355,9 @@ html::-webkit-scrollbar-corner {
   background-position: 0 50%;
   transform: translateY(-1px);
 }
-
-.link-brand-united24 .link-title,
-.link-brand-united24 .link-description {
-  color: #0d0f11 !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
-  mix-blend-mode: normal;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .link-brand-united24:hover,
-  .link-brand-united24:focus-visible {
-    animation: none;
-    background-size: 140% 140%;
-    background-position: 0 50%;
-    transform: translateY(-1px);
-  }
-}
-
 .link-brand-msf {
   --link-accent: #d7211e;
   background: #d7211e;
-  transition:
-    background-color 0.2s ease,
-    border-color 0.2s ease,
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-.link-brand-msf:hover,
-.link-brand-msf:focus-visible {
-  background: #d7211e;
-  transform: translateY(-1px);
-}
-
-.link-brand-msf .link-title,
-.link-brand-msf .link-description {
-  color: #fff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
-}
-
-.link-brand-msf:active {
-  transform: scale(0.97) translateY(1.5px) !important;
-  box-shadow: 0 1.5px 6px 0 rgba(0, 0, 0, 0.1) !important;
-  transition:
-    transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .link-brand-msf:hover,
-  .link-brand-msf:focus-visible {
-    animation: none;
-    background-size: 180% 180%;
-    background-position: 0 50%;
-    transform: translateY(-1px);
-  }
 }
 
 .profile {
