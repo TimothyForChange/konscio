@@ -1,24 +1,22 @@
 :root {
-  --bg: #ffffff;
-  --bg-alt: #f5f6f7;
-  --bg-surface: #f8f9fa;
-  --bg-card: #ffffff;
-  --border: #e2e5e9;
+  --bg: #f5f0e8;
+  --bg-alt: #ede3d3;
+  --bg-surface: #e6d8c3;
+  --bg-card: #f5f0e8;
+  --border: #c4b59f;
 
-  --accent-primary: #000000;
-  --accent-secondary: #11181c;
-  --accent-tertiary: #0070f3;
+  --accent-primary: #8b6914;
+  --accent-secondary: #6b5213;
+  --accent-tertiary: #a67c00;
 
-  --on-accent: #ffffff;
-  --on-accent-strong: #ffffff;
-  --on-accent-inverse: #000000;
+  --on-accent: #f5f0e8;
 
-  --text-primary: #11181c;
-  --text-secondary: #3a464f;
-  --text-muted: #5c6a75;
+  --text-primary: #2d1b06;
+  --text-secondary: #5c4a35;
+  --text-muted: #7a6347;
 
-  --focus-ring: #0070f3;
-  --focus-ring-soft: rgba(0, 112, 243, 0.35);
+  --focus-ring: #8b6914;
+  --focus-ring-soft: rgba(139, 105, 20, 0.35);
 
   --scrollbar-size: 10px;
   --scrollbar-track-bg: var(--bg-alt);
@@ -39,26 +37,24 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #000000;
-    --bg-alt: #0d0f11;
-    --bg-surface: #111417;
-    --bg-card: #161a1d;
-    --border: #242b31;
+    --bg: #1a1611;
+    --bg-alt: #211c16;
+    --bg-surface: #2a241c;
+    --bg-card: #1f1b15;
+    --border: #3d3426;
 
-    --accent-primary: #ffffff;
-    --accent-secondary: #ecedee;
-    --accent-tertiary: #3291ff;
+    --accent-primary: #d4b570;
+    --accent-secondary: #c4a560;
+    --accent-tertiary: #e6c875;
 
-    --on-accent: #000000;
-    --on-accent-strong: #000000;
-    --on-accent-inverse: #ffffff;
+    --on-accent: #1a1611;
 
-    --text-primary: #f5f7f8;
-    --text-secondary: #c4ccd2;
-    --text-muted: #7e8a93;
+    --text-primary: #e8e0d1;
+    --text-secondary: #c4b59f;
+    --text-muted: #9c8c73;
 
-    --focus-ring: #3291ff;
-    --focus-ring-soft: rgba(50, 145, 255, 0.4);
+    --focus-ring: #d4b570;
+    --focus-ring-soft: rgba(212, 181, 112, 0.4);
 
     --scrollbar-thumb-bg: color-mix(
       in srgb,
@@ -164,11 +160,7 @@ html::-webkit-scrollbar-corner {
   background: var(--bg-card);
   min-height: 5.5rem;
   align-items: center;
-  transition:
-    background-color 0.2s ease,
-    border-color 0.2s ease,
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .link:hover {
@@ -224,26 +216,6 @@ html::-webkit-scrollbar-corner {
   color: var(--on-accent);
 }
 
-@media (prefers-color-scheme: light) {
-  .link-brand-github:hover .link-icon i {
-    color: #fafafa;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .link-brand-github:hover .link-icon i {
-    color: #333;
-  }
-}
-
-.link-brand-instagram:hover .link-icon i,
-.link-brand-sadag:hover .link-icon i,
-.link-brand-msf:hover .link-icon i,
-.link-brand-vortludo:hover .link-icon i,
-.link-brand-kronilo:hover .link-icon i {
-  color: #ffffff;
-}
-
 .link-title {
   color: var(--text-primary);
   font-weight: 700;
@@ -256,108 +228,6 @@ html::-webkit-scrollbar-corner {
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 1.5;
-}
-
-.link-brand-instagram {
-  --link-accent: #e1306c;
-}
-.link-brand-github {
-  --link-accent: #000000;
-}
-@media (prefers-color-scheme: dark) {
-  .link-brand-github {
-    --link-accent: #ffffff;
-  }
-}
-.link-brand-kronilo {
-  --link-accent: #0a84ff;
-}
-.link-brand-vortludo {
-  --link-accent: #12b886;
-}
-.link-brand-sadag {
-  --link-accent: #14918a;
-  background: #14918a;
-}
-.link-brand-sadag,
-.link-brand-msf {
-  transition:
-    background-color 0.2s ease,
-    border-color 0.2s ease,
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-.link-brand-sadag .link-title,
-.link-brand-sadag .link-description,
-.link-brand-msf .link-title,
-.link-brand-msf .link-description {
-  color: #fff !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
-}
-
-.link-brand-sadag:active,
-.link-brand-msf:active,
-.link-brand-united24:active {
-  transform: scale(0.97) translateY(1.5px);
-  box-shadow: 0 1.5px 6px 0 rgba(0, 0, 0, 0.1);
-  transition:
-    transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.link-brand-sadag:hover,
-.link-brand-sadag:focus-visible {
-  background: #14918a;
-  transform: translateY(-1px);
-}
-
-.link-brand-msf:hover,
-.link-brand-msf:focus-visible {
-  background: #d7211e;
-  transform: translateY(-1px);
-}
-.link-brand-united24 {
-  --link-accent: #0057b7;
-  background: linear-gradient(
-    135deg,
-    #0057b7 0%,
-    #0057b7 48%,
-    #ffdd00 52%,
-    #ffdd00 100%
-  );
-  background-size: 140% 140%;
-  background-position: 0 50%;
-  transition:
-    background-position 0.6s ease,
-    background-color 0.2s ease,
-    border-color 0.2s ease,
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
-}
-.link-brand-united24 .link-title,
-.link-brand-united24 .link-description {
-  color: #0d0f11 !important;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
-  mix-blend-mode: normal;
-}
-
-.link-brand-united24:hover,
-.link-brand-united24:focus-visible {
-  background: linear-gradient(
-    135deg,
-    #0057b7 0%,
-    #0057b7 48%,
-    #ffdd00 52%,
-    #ffdd00 100%
-  );
-  background-size: 140% 140%;
-  background-position: 0 50%;
-  transform: translateY(-1px);
-}
-.link-brand-msf {
-  --link-accent: #d7211e;
-  background: #d7211e;
 }
 
 .profile {
@@ -384,10 +254,7 @@ html::-webkit-scrollbar-corner {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition:
-    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  will-change: transform, box-shadow;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
 
@@ -431,7 +298,7 @@ html::-webkit-scrollbar-corner {
 }
 
 .profile-bio .profile-bio-text a {
-  color: #8b6914;
+  color: var(--accent-primary);
   text-decoration: underline;
   transition: none;
   font-weight: 600;
@@ -443,14 +310,12 @@ html::-webkit-scrollbar-corner {
 }
 
 .list {
-  margin-top: 3rem;
+  margin: 3rem 0;
   display: grid;
   gap: 1rem;
   min-height: 36rem;
-  margin-bottom: 3rem;
   list-style: none;
-  padding-left: 0;
-  margin-left: 0;
+  padding: 0;
 }
 .list > li {
   margin: 0;

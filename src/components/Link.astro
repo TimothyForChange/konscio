@@ -1,13 +1,10 @@
 ---
 import 'remixicon/fonts/remixicon.css';
-import { brandMap } from '../lib/brands';
 
 const { icon, title, description, url } = Astro.props;
-
-const brandClass = title ? brandMap.get(String(title)) : undefined;
 ---
 
-<a href={url} class={`link fade-in${brandClass ? ' ' + brandClass : ''}`}>
+<a href={url} class='link fade-in'>
   <span class='link-icon' aria-hidden='true'>
     <i class={'ri-' + icon} aria-hidden='true'></i>
   </span>

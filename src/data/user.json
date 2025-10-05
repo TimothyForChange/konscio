@@ -1,7 +1,7 @@
 {
   "name": "Timothy Brits",
   "profession": "Software Engineer",
-  "bio": "Software engineer from Pretoria specialising in .NET and Node.js. Passionate about mental health, inclusivity, and social causes; my heart is with Palestine, Ukraine, and the Democratic Republic of the Congo.",
+  "bio": "Software engineer from Pretoria specialising in .NET and Node.js. Passionate about mental health, inclusion and social causes; I care about Palestine, Ukraine and the Democratic Republic of the Congo.",
   "links": [
     {
       "url": "https://www.instagram.com/brits.timothy/",
@@ -13,37 +13,43 @@
       "url": "https://github.com/mooship",
       "icon": "github-line",
       "title": "GitHub",
-      "description": "Personal projects focusing on web development"
+      "description": "Personal projects and open-source contributions"
     },
     {
       "url": "https://kronilo.mooship.co.za",
       "icon": "translate",
       "title": "Kronilo",
-      "description": "Translate cron expressions to plain English"
+      "description": "Tool to translate cron expressions into plain English"
     },
     {
       "url": "https://vortludo.mooship.co.za",
       "icon": "gamepad-line",
       "title": "Vortludo",
-      "description": "A Wordle clone (Vortludo means 'word game' in Esperanto)"
+      "description": "A Wordle-style word game (Vortludo means 'word game' in Esperanto)"
     },
     {
       "url": "https://www.sadag.org",
       "icon": "mental-health-line",
       "title": "SADAG",
-      "description": "South African Depression and Anxiety Group — mental health resources and support"
+      "description": "South African Depression and Anxiety Group - mental health support organisation"
+    },
+    {
+      "url": "https://giftofthegivers.org/make-a-difference/",
+      "icon": "hand-heart-line",
+      "title": "Gift of the Givers",
+      "description": "South African disaster-relief and humanitarian aid organisation with local and international impact"
     },
     {
       "url": "https://u24.gov.ua/",
-      "icon": "hand-heart-line",
+      "icon": "flag-line",
       "title": "UNITED24",
-      "description": "A Ukrainian government initiative for fundraising and recovery"
+      "description": "Ukrainian government initiative supporting fundraising and recovery"
     },
     {
       "url": "https://www.msf.org/donate",
       "icon": "heart-pulse-line",
       "title": "Médecins Sans Frontières",
-      "description": "Support Médecins Sans Frontières (Doctors Without Borders)"
+      "description": "Médecins Sans Frontières (Doctors Without Borders) - providing medical aid in Ukraine, Palestine, DRC, and many other countries worldwide"
     }
   ]
 }

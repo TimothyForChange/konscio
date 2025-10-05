@@ -3,12 +3,12 @@ import userData from '../data/user.json';
 
 const { name, profession, bio } = userData;
 
-const bioWithDecorativeFlags = String(bio)
-  .replace('Palestine', 'Palestine <span aria-hidden="true">🇵🇸</span>')
-  .replace('Ukraine', 'Ukraine <span aria-hidden="true">🇺🇦</span>')
+const bioHtml = String(bio)
+  .replace('Palestine', 'Palestine 🇵🇸')
+  .replace('Ukraine', 'Ukraine 🇺🇦')
   .replace(
     'the Democratic Republic of the Congo',
-    'the Democratic Republic of the Congo <span aria-hidden="true">🇨🇩</span>'
+    'the Democratic Republic of the Congo 🇨🇩'
   );
 ---
 
@@ -30,7 +30,7 @@ const bioWithDecorativeFlags = String(bio)
     <h1 class='profile-name'>{name}</h1>
     <p class='profile-profession'>{profession}</p>
     <div class='profile-bio'>
-      <p class='profile-bio-text' set:html={bioWithDecorativeFlags} />
+      <p class='profile-bio-text' set:html={bioHtml} />
     </div>
   </div>
 </header>
