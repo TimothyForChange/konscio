@@ -1,0 +1,48 @@
+---
+import emailLinkScriptUrl from '../scripts/email-link.ts?url';
+
+interface EmailLinkProps {
+  icon: string;
+  title: string;
+  description?: string;
+  emailUser: string;
+  emailDomain: string;
+}
+
+const {
+  icon,
+  title,
+  description = 'Click to reveal and copy email address',
+  emailUser,
+  emailDomain,
+} = Astro.props as EmailLinkProps;
+
+const rev = (s: string) => [...s].reverse().join('');
+const b64 = (s: string) => Buffer.from(s).toString('base64');
+const userEnc = b64(rev(emailUser));
+const domainEnc = b64(rev(emailDomain));
+---
+
+<div class='email-link-wrapper'>
+  <a
+    href='#'
+    class='link fade-in email-link'
+    data-user-e={userEnc}
+    data-domain-e={domainEnc}
+    aria-label={`Reveal and copy email for ${title}`}
+    data-state='concealed'
+    rel='nofollow noopener'
+    data-behavior='copy-email'
+  >
+    <span class='link-icon' aria-hidden='true'>
+      <i class={`ri-${icon}`} aria-hidden='true'></i>
+    </span>
+    <div class='link-content'>
+      <h2 class='link-title'>{title}</h2>
+      <p class='link-description'>{description}</p>
+      <noscript><span>timothybrits [at] icloud [dot] com</span></noscript>
+    </div>
+  </a>
+  <span class='visually-hidden email-feedback' aria-live='polite'></span>
+  <script type='module' src={emailLinkScriptUrl} async></script>
+</div>
