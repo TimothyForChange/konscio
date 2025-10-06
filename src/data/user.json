@@ -19,7 +19,7 @@
       "url": "https://kronilo.mooship.co.za",
       "icon": "translate",
       "title": "Kronilo",
-      "description": "Tool to translate cron expressions into natural language"
+      "description": "A tool to translate cron expressions into natural language"
     },
     {
       "url": "https://vortludo.mooship.co.za",
@@ -31,7 +31,19 @@
       "url": "https://u24.gov.ua/",
       "icon": "flag-line",
       "title": "UNITED24",
-      "description": "Ukrainian government initiative supporting fundraising and recovery"
+      "description": "Official Ukrainian government platform supporting fundraising and recovery efforts"
+    },
+    {
+      "url": "https://www.msf.org.za/campaign-donation",
+      "icon": "heart-pulse-line",
+      "title": "Médecins Sans Frontières",
+      "description": "Doctors Without Borders - providing medical aid in Ukraine, Palestine, DRC, and many other countries worldwide"
+    },
+    {
+      "url": "https://giftofthegivers.org/make-a-difference/",
+      "icon": "hand-heart-line",
+      "title": "Gift of the Givers",
+      "description": "South Africa-based humanitarian organisation providing disaster relief, medical aid, and development support"
     }
   ]
 }
