@@ -1,7 +1,7 @@
 {
   "name": "Timothy Brits",
   "profession": "Software Engineer",
-  "bio": "Software engineer from Pretoria specialising in .NET and Node.js. Passionate about mental health, inclusion, and social justice, standing in solidarity with Palestine, Ukraine, and the Democratic Republic of the Congo.",
+  "bio": "Based in Pretoria, specialising in .NET and Node.js. Passionate about mental health, inclusion, and social justice, standing in solidarity with Ukraine, Palestine, Sudan, and the Democratic Republic of the Congo.",
   "links": [
     {
       "url": "https://www.instagram.com/brits.timothy/",
@@ -31,19 +31,19 @@
       "url": "https://u24.gov.ua/",
       "icon": "flag-line",
       "title": "UNITED24",
-      "description": "Official Ukrainian government platform supporting fundraising and recovery efforts"
+      "description": "Official Ukrainian government platform for fundraising and recovery efforts"
     },
     {
       "url": "https://www.msf.org.za/campaign-donation",
       "icon": "heart-pulse-line",
       "title": "Médecins Sans Frontières",
-      "description": "Doctors Without Borders - providing medical aid in Ukraine, Palestine, DRC, and many other countries worldwide"
+      "description": "Doctors Without Borders — providing medical aid in Ukraine, Palestine, Sudan, and the Democratic Republic of the Congo, as well as many other countries worldwide"
     },
     {
       "url": "https://giftofthegivers.org/make-a-difference/",
       "icon": "hand-heart-line",
       "title": "Gift of the Givers",
-      "description": "South Africa-based humanitarian organisation providing disaster relief, medical aid, and development support"
+      "description": "South African humanitarian organisation providing disaster relief, medical aid, and development support"
     }
   ]
 }
