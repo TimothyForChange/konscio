@@ -1,6 +1,6 @@
 ---
 import dataList from '../data/user.json';
-import EmailLink from './EmailLink.astro';
+import EmailButton from './EmailButton.astro';
 import Link from './Link.astro';
 
 const items = dataList.links;
@@ -11,7 +11,7 @@ const items = dataList.links;
     items.map((item, index) => (
       <li class={`slide-up-fade list-animated`} data-index={index}>
         {item.emailUser && item.emailDomain ? (
-          <EmailLink
+          <EmailButton
             icon={item.icon}
             title={item.title}
             description={item.description}

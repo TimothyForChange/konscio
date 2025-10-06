@@ -195,6 +195,13 @@ html::-webkit-scrollbar-corner {
     border-color 0.18s ease,
     transform 0.12s ease,
     box-shadow 0.12s ease;
+  cursor: pointer;
+  font: inherit;
+  line-height: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+  border-collapse: separate;
+  background-clip: padding-box;
 }
 
 .link:hover {
@@ -243,6 +250,7 @@ html::-webkit-scrollbar-corner {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: left;
 }
 
 .link-icon i {
@@ -448,6 +456,10 @@ html::-webkit-scrollbar-corner {
 .email-link-wrapper {
   position: relative;
   display: block;
+  width: 100%;
+}
+.email-link {
+  width: 100%;
 }
 .visually-hidden {
   position: absolute !important;
@@ -461,10 +473,10 @@ html::-webkit-scrollbar-corner {
   border: 0;
 }
 
-a.email-link[data-copied='true'] .link-icon {
+.email-link[data-copied='true'] .link-icon {
   background: var(--accent-primary);
 }
-a.email-link[data-copied='true'] .link-icon i {
+.email-link[data-copied='true'] .link-icon i {
   color: var(--on-accent);
 }
 

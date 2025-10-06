@@ -3,14 +3,20 @@ import userData from '../data/user.json';
 
 const { name, profession, bio } = userData;
 
-const bioHtml = String(bio)
-  .replace('Palestine', 'Palestine 🇵🇸')
-  .replace('Ukraine', 'Ukraine 🇺🇦')
-  .replace('Sudan', 'Sudan 🇸🇩')
-  .replace(
-    'the Democratic Republic of the Congo',
-    'the Democratic Republic of the Congo 🇨🇩'
-  );
+// Apply flag replacements globally (all occurrences) in a composable way
+const replacements: Array<[RegExp, string]> = [
+  [/Palestine/g, 'Palestine 🇵🇸'],
+  [/Ukraine/g, 'Ukraine 🇺🇦'],
+  [/Sudan/g, 'Sudan 🇸🇩'],
+  [
+    /the Democratic Republic of the Congo/g,
+    'the Democratic Republic of the Congo 🇨🇩',
+  ],
+];
+const bioHtml = replacements.reduce(
+  (acc, [pattern, value]) => acc.replace(pattern, value),
+  String(bio)
+);
 ---
 
 <header class='profile slide-up-fade'>
@@ -18,7 +24,7 @@ const bioHtml = String(bio)
     <figure class='profile-picture' id='profile-picture'>
       <img
         src='/me.jpeg'
-        alt='This is me!'
+        alt='Portrait of Timothy Brits'
         width='80'
         height='80'
         loading='eager'
