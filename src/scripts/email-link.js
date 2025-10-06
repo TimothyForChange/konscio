@@ -1,6 +1,6 @@
 const PLACEHOLDER_REGEX = /(reveal|copy)/i;
 
-const decode = (b64rev: string | null) => {
+const decode = (b64rev) => {
   if (!b64rev) {
     return '';
   }
@@ -12,7 +12,7 @@ const decode = (b64rev: string | null) => {
   }
 };
 
-async function revealAndCopy(anchor: HTMLAnchorElement) {
+async function revealAndCopy(anchor) {
   const already = anchor.dataset.emailReady === 'true';
   const user = decode(anchor.getAttribute('data-user-e'));
   const domain = decode(anchor.getAttribute('data-domain-e'));
@@ -22,7 +22,7 @@ async function revealAndCopy(anchor: HTMLAnchorElement) {
   const address = `${user}@${domain}`;
 
   if (!already) {
-    const desc = anchor.querySelector<HTMLElement>('.link-description');
+    const desc = anchor.querySelector('.link-description');
     if (desc && PLACEHOLDER_REGEX.test(desc.textContent || '')) {
       desc.textContent = address;
     } else if (desc && !desc.textContent) {
@@ -33,8 +33,7 @@ async function revealAndCopy(anchor: HTMLAnchorElement) {
     anchor.dataset.state = 'revealed';
   }
 
-  const feedback =
-    anchor.parentElement?.querySelector<HTMLElement>('.email-feedback');
+  const feedback = anchor.parentElement?.querySelector('.email-feedback');
   try {
     await navigator.clipboard.writeText(address);
     if (feedback) {
@@ -59,16 +58,14 @@ async function revealAndCopy(anchor: HTMLAnchorElement) {
 }
 
 function setup() {
-  const w = window as any;
+  const w = window;
   if (w.__emailLinkInit) {
     return;
   }
   w.__emailLinkInit = true;
 
   const anchors = Array.from(
-    document.querySelectorAll<HTMLAnchorElement>(
-      'a.email-link[data-user-e][data-domain-e]'
-    )
+    document.querySelectorAll('a.email-link[data-user-e][data-domain-e]')
   );
   if (!anchors.length) {
     return;
