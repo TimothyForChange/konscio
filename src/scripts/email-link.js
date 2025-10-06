@@ -4,15 +4,20 @@ const decode = (b64rev) => {
   if (!b64rev) {
     return '';
   }
-  try {
-    const decoded = atob(b64rev);
-    return decoded.split('').reverse().join('');
-  } catch {
-    return '';
-  }
+
+  const decoded = atob(b64rev);
+  return decoded.split('').reverse().join('');
 };
 
-async function revealAndCopy(anchor) {
+const clearFeedback = (feedback, expectedText, delay = 2000) => {
+  setTimeout(() => {
+    if (feedback && feedback.textContent === expectedText) {
+      feedback.textContent = '';
+    }
+  }, delay);
+};
+
+const revealAndCopy = async (anchor) => {
   const already = anchor.dataset.emailReady === 'true';
   const user = decode(anchor.getAttribute('data-user-e'));
   const domain = decode(anchor.getAttribute('data-domain-e'));
@@ -33,31 +38,32 @@ async function revealAndCopy(anchor) {
     anchor.dataset.state = 'revealed';
   }
 
-  const feedback = anchor.parentElement?.querySelector('.email-feedback');
+  const feedback =
+    anchor.parentElement &&
+    anchor.parentElement.querySelector('.email-feedback');
   try {
     await navigator.clipboard.writeText(address);
     if (feedback) {
       feedback.textContent = 'Email copied to clipboard';
+      clearFeedback(feedback, 'Email copied to clipboard', 2000);
     }
     anchor.dataset.copied = 'true';
     setTimeout(() => {
-      if (feedback && feedback.textContent === 'Email copied to clipboard')
-        feedback.textContent = '';
       anchor.dataset.copied = 'idle';
     }, 2000);
   } catch {
     if (feedback) {
       feedback.textContent = 'Press Ctrl+C to copy';
+      setTimeout(() => {
+        if (feedback && /Ctrl\+C/.test(feedback.textContent || '')) {
+          feedback.textContent = '';
+        }
+      }, 3000);
     }
-    setTimeout(() => {
-      if (feedback && /Ctrl\+C/.test(feedback.textContent || '')) {
-        feedback.textContent = '';
-      }
-    }, 3000);
   }
-}
+};
 
-function setup() {
+const setup = () => {
   const w = window;
   if (w.__emailLinkInit) {
     return;
@@ -92,7 +98,7 @@ function setup() {
       { once: true }
     );
   });
-}
+};
 
 if (typeof window !== 'undefined') {
   if (document.readyState === 'loading') {
