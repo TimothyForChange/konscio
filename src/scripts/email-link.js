@@ -9,7 +9,7 @@ const decode = (b64rev) => {
   return decoded.split('').reverse().join('');
 };
 
-const clearFeedback = (feedback, expectedText, delay = 2000) => {
+const clearFeedback = (feedback, expectedText, delay = 1000) => {
   setTimeout(() => {
     if (feedback && feedback.textContent === expectedText) {
       feedback.textContent = '';
@@ -45,12 +45,12 @@ const revealAndCopy = async (anchor) => {
     await navigator.clipboard.writeText(address);
     if (feedback) {
       feedback.textContent = 'Email copied to clipboard';
-      clearFeedback(feedback, 'Email copied to clipboard', 2000);
+      clearFeedback(feedback, 'Email copied to clipboard', 1000);
     }
     anchor.dataset.copied = 'true';
     setTimeout(() => {
       anchor.dataset.copied = 'idle';
-    }, 2000);
+    }, 1000);
   } catch {
     if (feedback) {
       feedback.textContent = 'Press Ctrl+C to copy';
@@ -58,7 +58,7 @@ const revealAndCopy = async (anchor) => {
         if (feedback && /Ctrl\+C/.test(feedback.textContent || '')) {
           feedback.textContent = '';
         }
-      }, 3000);
+      }, 1000);
     }
   }
 };
