@@ -1,7 +1,7 @@
 {
   "name": "Timothy Brits",
   "profession": "Software Engineer",
-  "bio": "Pretoria-based .NET and Node.js developer, building useful and engaging digital tools. I advocate for inclusion and social justice, in solidarity with global struggles in Ukraine, Palestine, Sudan, and the Democratic Republic of the Congo.",
+  "bio": "Pretoria-based .NET and Node.js developer, building useful and engaging digital tools. I advocate for inclusion and social justice, in solidarity with global struggles in Ukraine, Palestine, and the Democratic Republic of the Congo.",
   "links": [
     {
       "url": "https://www.instagram.com/brits.timothy/",
@@ -35,22 +35,22 @@
       "description": "A Wordle-style word game (Vortludo means 'word game' in Esperanto)"
     },
     {
-      "url": "https://u24.gov.ua/",
+      "url": "https://u24.gov.ua/donate",
       "icon": "flag-line",
       "title": "UNITED24",
-      "description": "Official Ukrainian government platform for fundraising and recovery efforts"
+      "description": "Ukraine's official fundraising platform for defense, medical aid, and reconstruction efforts"
     },
     {
-      "url": "https://www.msf.org.za/campaign-donation",
+      "url": "https://www.msf.org/donate",
       "icon": "heart-pulse-line",
       "title": "Médecins Sans Frontières",
-      "description": "Doctors Without Borders — providing medical aid in over 75 countries"
+      "description": "Doctors Without Borders — delivering emergency medical care in crisis zones worldwide"
     },
     {
-      "url": "https://giftofthegivers.org/make-a-difference/",
+      "url": "https://support.nrc.no/give-today/",
       "icon": "hand-heart-line",
-      "title": "Gift of the Givers",
-      "description": "South African humanitarian organisation providing disaster relief, medical aid, and development support"
+      "title": "NRC",
+      "description": "Norwegian Refugee Council — providing emergency aid, legal support, and education to displaced people"
     }
   ]
 }

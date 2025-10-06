@@ -3,11 +3,9 @@ import userData from '../data/user.json';
 
 const { name, profession, bio } = userData;
 
-// Apply flag replacements globally (all occurrences) in a composable way
 const replacements: Array<[RegExp, string]> = [
   [/Palestine/g, 'Palestine 🇵🇸'],
   [/Ukraine/g, 'Ukraine 🇺🇦'],
-  [/Sudan/g, 'Sudan 🇸🇩'],
   [
     /the Democratic Republic of the Congo/g,
     'the Democratic Republic of the Congo 🇨🇩',
