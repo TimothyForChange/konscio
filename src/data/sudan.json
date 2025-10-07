@@ -1,12 +1,48 @@
 {
   "name": "Sudan",
-  "currentCrisisSummary": "Sudan is experiencing a brutal, large-scale civil war (since April 2023) between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) paramilitary group. The conflict has triggered a severe humanitarian crisis, millions displaced, and a resurgence of ethnically targeted violence, particularly in Darfur and Khartoum.",
+  "currentCrisisSummary": "A brutal civil war that began in April 2023 between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF) has devastated Sudan. The conflict has triggered a severe humanitarian crisis, mass displacement, and a resurgence of ethnically targeted violence, particularly in Darfur and Khartoum.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "British rule instituted a **'divide and rule'** policy that favoured the Arabic-speaking, Muslim North, where it concentrated investment, education, and political power. Meanwhile, the British deliberately neglected and isolated the African South and peripheral regions like Darfur. This policy created a severe **imbalance of power and development** that culminated in decades of civil war and eventually the secession of South Sudan, leaving a fragile and deeply divided state behind."
+    "legacy": "British rule instituted a **'divide and rule'** policy that favoured the Arabic-speaking, Muslim North, concentrating investment and political power there. It deliberately neglected and isolated the African South and peripheral regions like Darfur. This created a severe **imbalance of power and development** that led to decades of civil war and the eventual secession of South Sudan, leaving a fragile, deeply divided state behind."
   },
   "coreTerms": {
-    "neoImperialism": "The war is fundamentally a violent power struggle between two military factions for control of the **centralised, resource-rich state apparatus** inherited from the colonial era. This struggle is exacerbated by the interference of **regional imperial powers** (like the UAE and Egypt) and global powers seeking military or economic influence over Sudan's strategic geography and gold/agricultural wealth.",
-    "colonialLegacies": "The violence is a result of the **uneven development** and the **ethnic divisions** institutionalised by the British. The conflict features the dominant Arabised centre battling marginalised ethnic peripheries (like Darfur), mirroring the colonial structure of exploitation and control over subordinate regions."
+    "neoImperialism": "The war is a violent power struggle for control of the **centralised, resource-rich state** inherited from colonialism. This struggle is fuelled by **regional powers** (like the UAE and Egypt) and global actors seeking military and economic influence over Sudan's strategic location on the Red Sea, as well as its gold and agricultural wealth.",
+    "colonialLegacies": "The violence is a direct result of the **uneven development** and **ethnic hierarchies** institutionalised by the British. The conflict pits the dominant, Arabised centre against marginalised peripheries (like Darfur), mirroring the colonial structure of exploitation and control over subordinate regions."
+  },
+  "humanitarianImpact": {
+    "displaced": "7.1 million internally displaced (highest in the world)",
+    "refugees": "1.8 million Sudanese refugees in neighbouring countries",
+    "casualties": "Over 15,000 killed since April 2023",
+    "affected": "25 million people in need of humanitarian assistance"
+  },
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Doctors Without Borders (MSF)",
+        "description": "Medical aid in Sudan's conflict zones",
+        "url": "https://www.msf.org/sudan"
+      },
+      {
+        "organisation": "World Food Programme",
+        "description": "Emergency food assistance for displaced Sudanese",
+        "url": "https://www.wfp.org/countries/sudan"
+      },
+      {
+        "organisation": "Islamic Relief",
+        "description": "Emergency aid and humanitarian assistance in Sudan",
+        "url": "https://islamic-relief.org/appeals/sudan-emergency-appeal/"
+      }
+    ],
+    "awareness": [
+      "Raise awareness about Sudan's humanitarian crisis",
+      "Share information about colonial roots of current conflict",
+      "Advocate for international intervention to stop the war",
+      "Support Sudanese civil society and democratic movements"
+    ],
+    "boycott": [
+      "Pressure governments to impose sanctions on warring parties",
+      "Advocate for arms embargoes to Sudan",
+      "Support accountability measures for war crimes"
+    ]
   }
 }

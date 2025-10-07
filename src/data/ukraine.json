@@ -1,12 +1,48 @@
 {
   "name": "Ukraine",
-  "currentCrisisSummary": "Since Russia's annexation of Crimea and invasion of eastern Ukraine in 2014, Ukraine has been resisting a war of aggression that escalated into a full-scale invasion in February 2022. The conflict has resulted in mass civilian casualties, millions displaced, large-scale destruction of civilian infrastructure, and the systematic imposition of Russian rule and cultural suppression in occupied territories.",
+  "currentCrisisSummary": "Since 2014, Ukraine has been resisting a Russian war of aggression that escalated into a full-scale invasion in February 2022. The conflict has caused mass civilian casualties, millions of displaced people, large-scale destruction of infrastructure, and the systematic imposition of Russian rule and cultural suppression in occupied territories.",
   "colonialRoot": {
-    "colonialPower": "Russian Empire and Soviet Union (Successive Imperial Regimes)",
-    "legacy": "The conflict is rooted in centuries of **Russian imperialism**, which treated Ukraine as a 'colony' or 'inseparable part' of Russia. This legacy includes forced **Russification**, suppression of the Ukrainian language (e.g., Valuev Circular and Ems Ukaz), elimination of the local intelligentsia, and the intentional famine of the **Holodomor** (1932-33). These historical actions sought to deny and erase a distinct Ukrainian national identity."
+    "colonialPower": "Russian Empire & Soviet Union",
+    "legacy": "The conflict is rooted in centuries of **Russian imperialism**, which has long treated Ukraine as a 'colony' or an 'inseparable part' of Russia. This legacy includes forced **Russification** (e.g., the 19th-century Valuev Circular and Ems Ukaz), the elimination of the Ukrainian intelligentsia, and the engineered famine of the **Holodomor** (1932-33). These were designed to erase a distinct Ukrainian national identity."
   },
   "coreTerms": {
-    "neoImperialism": "The Russian Federation's military invasion, seizure, and formal annexation of Ukrainian territory (Crimea, Donbas, etc.) is a clear act of **neo-imperialism** aimed at reconstituting a sphere of domination and denying Ukrainian sovereignty. Moscow's denial of Ukraine's statehood and cultural existence is the ideological justification for the military aggression and the attempted **ethnocide** of the Ukrainian people.",
-    "colonialLegacies": "The Ukrainian resistance is fundamentally an **anti-colonial struggle for self-determination** against imperial subjugation. Russia's actions in occupied areas—imposing Russian curricula, forcing Russian citizenship, and deporting children—are classic colonial practices designed to assimilate and absorb a subject population and ensure that Ukraine never fully escapes its former colonial status."
+    "neoImperialism": "Russia's invasion and annexation of Ukrainian territory is a clear act of **21st-century imperialism**, aimed at reconstituting a sphere of domination. Moscow's denial of Ukraine's statehood and cultural existence is the ideological justification for the military aggression and the attempted **ethnocide** of the Ukrainian people.",
+    "colonialLegacies": "The Ukrainian resistance is an **anti-colonial struggle for self-determination**. Russia's actions in occupied areas—imposing its curriculum, forcing citizenship, and deporting children—are classic colonial practices of **cultural genocide** designed to absorb a subject population and ensure Ukraine never fully escapes its former colonial status."
+  },
+  "humanitarianImpact": {
+    "displaced": "6.5 million internally displaced within Ukraine",
+    "refugees": "6.3 million Ukrainian refugees in neighbouring countries",
+    "casualties": "Over 10,000 civilian deaths confirmed (likely much higher)",
+    "affected": "17.6 million people in need of humanitarian assistance"
+  },
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "UNITED24",
+        "description": "Official fundraising platform of Ukraine",
+        "url": "https://u24.gov.ua/"
+      },
+      {
+        "organisation": "Razom",
+        "description": "Ukrainian-American non-profit providing humanitarian aid",
+        "url": "https://www.razomforukraine.org/"
+      },
+      {
+        "organisation": "Nova Ukraine",
+        "description": "Humanitarian aid and support for Ukrainian refugees",
+        "url": "https://novaukraine.org/"
+      }
+    ],
+    "awareness": [
+      "Share information about Ukrainian history and culture",
+      "Support Ukrainian journalists and independent media",
+      "Advocate for continued international support for Ukraine",
+      "Learn about the colonial history of Russian-Ukrainian relations"
+    ],
+    "boycott": [
+      "Avoid Russian products and services",
+      "Pressure companies to cease operations in Russia",
+      "Support sanctions against Russian economy"
+    ]
   }
 }

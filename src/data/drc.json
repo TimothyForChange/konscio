@@ -1,12 +1,49 @@
 {
   "name": "DRC",
-  "currentCrisisSummary": "The eastern DRC is plagued by escalating conflict involving over 130 armed groups, foreign-backed militias, and the Congolese army. This ongoing war, fought primarily over control of vast mineral wealth (cobalt, copper, coltan, gold), has caused one of the world's largest humanitarian and displacement crises, alongside widespread, systematic use of sexual violence as a weapon of war.",
+  "currentCrisisSummary": "The eastern DRC is the site of an escalating conflict involving over 130 armed groups, foreign-backed militias, and the Congolese army. Fought primarily over control of vast mineral wealth (cobalt, coltan, gold), the war has caused one of the world's largest displacement crises and is marked by the widespread, systematic use of sexual violence as a weapon of war.",
   "colonialRoot": {
-    "colonialPower": "Belgium (King Leopold II's Congo Free State and later Belgian Congo)",
-    "legacy": "The DRC's turmoil stems from its utterly extractive colonial history, which was founded on genocidal brutality, forced labour, and the single-minded **plunder of resources** (rubber, ivory). Belgium left the country without a functional, unifying political or economic infrastructure. This guaranteed a perpetually **weak state** that could not control its borders or its resources, creating the ideal conditions for post-independence exploitation."
+    "colonialPower": "Belgium (King Leopold II's Congo Free State & later Belgian Congo)",
+    "legacy": "The DRC's turmoil stems from its uniquely extractive colonial history, founded on genocidal brutality, forced labour, and the single-minded **plunder of resources** like rubber and ivory. Belgium engineered a post-independence state with no unifying infrastructure or institutions, guaranteeing a perpetually **weak state** unable to control its territory or resources and creating ideal conditions for neo-colonial exploitation."
   },
   "coreTerms": {
-    "neoImperialism": "The conflict is the textbook example of **neo-colonialism**. External actors, including neighboring countries and global multinational corporations (driven by global demand for minerals in electronics and clean energy), fuel militias and corruption to secure access to the DRC's mineral wealth at low cost, effectively ensuring the country remains poor while its resources enrich the global market.",
-    "colonialLegacies": "The primary colonial legacy is the **'resource curse'** and the **deliberate sabotage of statehood**. Violence in the DRC is driven by the structural inability of the state—a direct product of colonial engineering—to convert its wealth into national prosperity, leading to incessant internal and external conflicts over the country's mineral-rich periphery."
+    "neoImperialism": "The conflict is a clear example of **neo-colonialism**. External actors—including neighbouring countries and multinational corporations driven by global demand for 'clean energy' minerals—fuel militias and corruption to secure access to the DRC's wealth. This ensures the country remains impoverished while its resources enrich the global market.",
+    "colonialLegacies": "The primary colonial legacy is the **'resource curse'** and the **'deliberate sabotage of statehood.'** Violence is driven by the structural inability of the state—a direct product of colonial engineering—to convert its immense wealth into national prosperity, leading to incessant conflict over its mineral-rich periphery."
+  },
+  "humanitarianImpact": {
+    "displaced": "6.1 million internally displaced (largest displacement crisis in Africa)",
+    "refugees": "1 million Congolese refugees in neighbouring countries",
+    "casualties": "Over 6 million deaths since 1996 (mostly from disease and malnutrition)",
+    "affected": "26 million people in need of humanitarian assistance"
+  },
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Doctors Without Borders (MSF)",
+        "description": "Medical aid in eastern DRC conflict zones",
+        "url": "https://www.msf.org/democratic-republic-congo"
+      },
+      {
+        "organisation": "World Food Programme DRC",
+        "description": "Emergency food assistance for displaced Congolese",
+        "url": "https://www.wfp.org/countries/democratic-republic-congo"
+      },
+      {
+        "organisation": "HEAL Africa",
+        "description": "Local organisation providing medical care and supporting survivors",
+        "url": "https://healafrica.org/"
+      }
+    ],
+    "awareness": [
+      "Learn about ethical sourcing of minerals in your electronic devices",
+      "Share information about the connection between technology and conflict",
+      "Educate others about colonial roots of current exploitation",
+      "Support Congolese civil society and women's rights organisations"
+    ],
+    "boycott": [
+      "Support ethical electronics companies with transparent supply chains",
+      "Advocate for conflict-free mineral certification",
+      "Pressure tech companies to source responsibly",
+      "Support legislation requiring supply chain transparency"
+    ]
   }
 }

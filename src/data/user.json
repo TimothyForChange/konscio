@@ -4,13 +4,6 @@
   "bio": "Pretoria-based .NET and Node.js developer, building useful and engaging digital tools. I advocate for inclusion and social justice, standing in solidarity against neo-imperialism and its colonial legacies in Ukraine, Palestine, the DRC, Sudan, and Myanmar.",
   "links": [
     {
-      "icon": "mail-line",
-      "title": "Email",
-      "description": "Click to reveal and copy email address",
-      "emailUser": "mooship",
-      "emailDomain": "icloud.com"
-    },
-    {
       "url": "https://www.instagram.com/brits.timothy/",
       "icon": "instagram-line",
       "title": "Instagram",
@@ -33,18 +26,6 @@
       "icon": "gamepad-line",
       "title": "Vortludo",
       "description": "A Wordle-style word game (Vortludo means 'word game' in Esperanto)"
-    },
-    {
-      "url": "https://u24.gov.ua/donate",
-      "icon": "flag-line",
-      "title": "UNITED24",
-      "description": "Ukraine's official fundraising platform for defence, medical aid, and reconstruction efforts"
-    },
-    {
-      "url": "https://www.msf.org/donate",
-      "icon": "heart-pulse-line",
-      "title": "Médecins Sans Frontières",
-      "description": "Doctors Without Borders — delivering emergency medical care in crisis zones worldwide"
     },
     {
       "url": "https://support.nrc.no/give-today/",

@@ -48,6 +48,85 @@ function formatText(text: string): string {
           </div>
         </section>
 
+        {
+          countryData.humanitarianImpact && (
+            <section class='humanitarian-section'>
+              <h2>Humanitarian Impact</h2>
+              <div class='impact-stats'>
+                <div class='stat-item'>
+                  <strong>Displaced:</strong>{' '}
+                  {countryData.humanitarianImpact.displaced}
+                </div>
+                <div class='stat-item'>
+                  <strong>Refugees:</strong>{' '}
+                  {countryData.humanitarianImpact.refugees}
+                </div>
+                <div class='stat-item'>
+                  <strong>Casualties:</strong>{' '}
+                  {countryData.humanitarianImpact.casualties}
+                </div>
+                <div class='stat-item'>
+                  <strong>Affected:</strong>{' '}
+                  {countryData.humanitarianImpact.affected}
+                </div>
+              </div>
+            </section>
+          )
+        }
+
+        {
+          countryData.takeAction && (
+            <section class='action-section'>
+              <h2>How You Can Help</h2>
+
+              <div class='action-group'>
+                <h3>
+                  <i class='ri-heart-line' /> Donate
+                </h3>
+                <div class='donate-organisations'>
+                  {countryData.takeAction.donate.map((org: any) => (
+                    <div class='org-item'>
+                      <h4>{org.organisation}</h4>
+                      <p>{org.description}</p>
+                      <a
+                        href={org.url}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        class='donate-link'
+                      >
+                        <i class='ri-external-link-line' />
+                        Donate
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div class='action-group'>
+                <h3>
+                  <i class='ri-megaphone-line' /> Raise Awareness
+                </h3>
+                <ul class='awareness-list'>
+                  {countryData.takeAction.awareness.map((action: string) => (
+                    <li>{action}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <div class='action-group'>
+                <h3>
+                  <i class='ri-shield-line' /> Economic Action
+                </h3>
+                <ul class='boycott-list'>
+                  {countryData.takeAction.boycott.map((action: string) => (
+                    <li>{action}</li>
+                  ))}
+                </ul>
+              </div>
+            </section>
+          )
+        }
+
         <div class='country-bottom-back'>
           <a href='/' class='back-button'>
             <i class='ri-arrow-left-line'></i>
