@@ -1,5 +1,5 @@
 ---
-import emailButtonScriptUrl from '../scripts/email-button.js?url';
+import emailButtonScriptUrl from '../scripts/email-button.ts?url';
 
 interface EmailButtonProps {
   icon: string;
@@ -43,5 +43,5 @@ const domainEnc = b64(rev(emailDomain));
     </div>
   </button>
   <span class='visually-hidden email-feedback' aria-live='polite'></span>
-  <script type='module' src={emailButtonScriptUrl} async></script>
+  <script is:inline src={emailButtonScriptUrl} async></script>
 </div>
