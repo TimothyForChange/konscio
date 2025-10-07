@@ -3,7 +3,7 @@
   --bg-alt: #ede3d3;
   --bg-surface: #e6d8c3;
   --bg-card: #f5f0e8;
-  --border: #c4b59f;
+  --border: #a69680;
 
   --accent-primary: #8b6914;
   --accent-secondary: #6b5213;
@@ -12,8 +12,8 @@
   --on-accent: #f5f0e8;
 
   --text-primary: #2d1b06;
-  --text-secondary: #5c4a35;
-  --text-muted: #7a6347;
+  --text-secondary: #483a28;
+  --text-muted: #5c4a35;
 
   --focus-ring: #8b6914;
   --focus-ring-soft: rgba(139, 105, 20, 0.35);
