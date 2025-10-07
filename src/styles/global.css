@@ -33,21 +33,6 @@
   );
   --scrollbar-thumb-border: var(--bg-surface);
   --scrollbar-corner-bg: var(--bg-alt);
-
-  --email-copy-bg: var(--accent-secondary);
-  --email-copy-bg-hover: color-mix(
-    in srgb,
-    var(--accent-secondary) 72%,
-    var(--accent-tertiary)
-  );
-  --email-copy-bg-active: color-mix(
-    in srgb,
-    var(--accent-secondary) 55%,
-    var(--accent-primary)
-  );
-  --email-copy-success-bg: var(--accent-primary);
-  --email-copy-text: var(--on-accent);
-  --email-copy-focus-ring: var(--focus-ring);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -85,21 +70,6 @@
     --scrollbar-track-bg: var(--bg-alt);
     --scrollbar-thumb-border: var(--bg-surface);
     --scrollbar-corner-bg: var(--bg-alt);
-
-    --email-copy-bg: var(--accent-secondary);
-    --email-copy-bg-hover: color-mix(
-      in srgb,
-      var(--accent-secondary) 65%,
-      var(--accent-tertiary)
-    );
-    --email-copy-bg-active: color-mix(
-      in srgb,
-      var(--accent-secondary) 45%,
-      var(--accent-primary)
-    );
-    --email-copy-success-bg: var(--accent-primary);
-    --email-copy-text: var(--on-accent);
-    --email-copy-focus-ring: var(--focus-ring);
   }
 }
 
