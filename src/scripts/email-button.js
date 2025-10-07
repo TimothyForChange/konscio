@@ -1,21 +1,5 @@
-const PLACEHOLDER_ATTR = 'placeholder';
-
-const decode = (b64rev) => {
-  if (!b64rev) {
-    return '';
-  }
-
-  const decoded = atob(b64rev);
-  return decoded.split('').reverse().join('');
-};
-
-const clearFeedback = (feedback, expectedText, delay = 1000) => {
-  setTimeout(() => {
-    if (feedback && feedback.textContent === expectedText) {
-      feedback.textContent = '';
-    }
-  }, delay);
-};
+const decode = (b64rev) =>
+  b64rev ? atob(b64rev).split('').reverse().join('') : '';
 
 const revealAndCopy = async (el) => {
   let address = el.dataset.address;
@@ -28,15 +12,11 @@ const revealAndCopy = async (el) => {
     address = `${user}@${domain}`;
   }
 
-  const already = el.dataset.emailReady === 'true';
-  if (!already) {
+  if (el.dataset.emailReady !== 'true') {
     const desc = el.querySelector('.link-description');
-    if (desc) {
-      const isPlaceholder = desc.hasAttribute(`data-${PLACEHOLDER_ATTR}`);
-      if (isPlaceholder || !desc.textContent) {
-        desc.textContent = address;
-        desc.removeAttribute(`data-${PLACEHOLDER_ATTR}`);
-      }
+    if (desc && (desc.hasAttribute('data-placeholder') || !desc.textContent)) {
+      desc.textContent = address;
+      desc.removeAttribute('data-placeholder');
     }
     el.setAttribute('aria-label', `Copy email address ${address}`);
     el.dataset.emailReady = 'true';
@@ -44,52 +24,45 @@ const revealAndCopy = async (el) => {
     el.dataset.address = address;
   }
 
-  const feedback =
-    el.parentElement && el.parentElement.querySelector('.email-feedback');
+  const feedback = el.parentElement?.querySelector('.email-feedback');
+  const clearFeedback = (text) =>
+    setTimeout(() => {
+      if (feedback?.textContent === text) {
+        feedback.textContent = '';
+      }
+    }, 1000);
 
-  if (navigator.clipboard && navigator.clipboard.writeText) {
+  if (navigator.clipboard?.writeText) {
     await navigator.clipboard.writeText(address);
     if (feedback) {
       feedback.textContent = 'Email copied to clipboard';
-      clearFeedback(feedback, 'Email copied to clipboard', 1000);
+      clearFeedback('Email copied to clipboard');
     }
     el.dataset.copied = 'true';
-    setTimeout(() => {
-      el.dataset.copied = 'idle';
-    }, 1000);
+    setTimeout(() => (el.dataset.copied = 'idle'), 1000);
     return;
   }
 
   if (feedback) {
     feedback.textContent = 'Press Ctrl+C to copy';
-    setTimeout(() => {
-      if (feedback && /Ctrl\+C/.test(feedback.textContent || '')) {
-        feedback.textContent = '';
-      }
-    }, 1000);
+    clearFeedback('Press Ctrl+C to copy');
   }
 };
 
 const setup = () => {
-  const w = window;
-  if (w.__emailButtonInit) {
+  if (window.__emailButtonInit) {
     return;
   }
-  w.__emailButtonInit = true;
+  window.__emailButtonInit = true;
 
-  const controls = Array.from(
-    document.querySelectorAll('.email-link[data-user-e][data-domain-e]')
-  );
-  if (!controls.length) {
-    return;
-  }
-
-  controls.forEach((el) => {
-    el.addEventListener('click', (e) => {
-      e.preventDefault();
-      revealAndCopy(el);
-    });
-  });
+  document
+    .querySelectorAll('.email-link[data-user-e][data-domain-e]')
+    .forEach((el) =>
+      el.addEventListener('click', (e) => {
+        e.preventDefault();
+        revealAndCopy(el);
+      })
+    );
 };
 
 if (typeof window !== 'undefined') {
