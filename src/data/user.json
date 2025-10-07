@@ -4,17 +4,17 @@
   "bio": "Pretoria-based .NET and Node.js developer, building useful and engaging digital tools. I advocate for inclusion and social justice, in solidarity with global struggles in Ukraine, Palestine, and the Democratic Republic of the Congo.",
   "links": [
     {
-      "url": "https://www.instagram.com/brits.timothy/",
-      "icon": "instagram-line",
-      "title": "Instagram",
-      "description": "My life in pictures"
-    },
-    {
       "icon": "mail-line",
       "title": "Email",
       "description": "Click to reveal and copy email address",
       "emailUser": "timothy",
       "emailDomain": "mooship.co.za"
+    },
+    {
+      "url": "https://www.instagram.com/brits.timothy/",
+      "icon": "instagram-line",
+      "title": "Instagram",
+      "description": "My life in pictures"
     },
     {
       "url": "https://github.com/mooship",
