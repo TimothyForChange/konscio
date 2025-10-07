@@ -1,10 +1,8 @@
-export {};
-
-const decode = (b64rev: string | null | undefined): string =>
+const decode = (b64rev) =>
   b64rev ? atob(b64rev).split('').reverse().join('') : '';
 
-const revealAndCopy = async (el: HTMLElement) => {
-  let address = (el as HTMLElement & { dataset: DOMStringMap }).dataset.address;
+const revealAndCopy = async (el) => {
+  let address = el.dataset.address;
   if (!address) {
     const user = decode(el.getAttribute('data-user-e'));
     const domain = decode(el.getAttribute('data-domain-e'));
@@ -14,42 +12,35 @@ const revealAndCopy = async (el: HTMLElement) => {
     address = `${user}@${domain}`;
   }
 
-  if (
-    (el as HTMLElement & { dataset: DOMStringMap }).dataset.emailReady !==
-    'true'
-  ) {
+  if (el.dataset.emailReady !== 'true') {
     const desc = el.querySelector('.link-description');
     if (desc && (desc.hasAttribute('data-placeholder') || !desc.textContent)) {
       desc.textContent = address;
       desc.removeAttribute('data-placeholder');
     }
     el.setAttribute('aria-label', `Copy email address ${address}`);
-    (el as HTMLElement & { dataset: DOMStringMap }).dataset.emailReady = 'true';
-    (el as HTMLElement & { dataset: DOMStringMap }).dataset.state = 'revealed';
-    (el as HTMLElement & { dataset: DOMStringMap }).dataset.address = address;
+    el.dataset.emailReady = 'true';
+    el.dataset.state = 'revealed';
+    el.dataset.address = address;
   }
 
-  const feedback = el.parentElement?.querySelector('.email-feedback');
-  const clearFeedback = (text: string) =>
+  const feedback =
+    el.parentElement && el.parentElement.querySelector('.email-feedback');
+  const clearFeedback = (text) =>
     setTimeout(() => {
-      if (feedback?.textContent === text) {
+      if (feedback && feedback.textContent === text) {
         if (feedback instanceof HTMLElement) feedback.textContent = '';
       }
     }, 1000);
 
-  if (navigator.clipboard?.writeText) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
     await navigator.clipboard.writeText(address);
     if (feedback) {
       feedback.textContent = 'Email copied to clipboard';
       clearFeedback('Email copied to clipboard');
     }
-    (el as HTMLElement & { dataset: DOMStringMap }).dataset.copied = 'true';
-    setTimeout(
-      () =>
-        ((el as HTMLElement & { dataset: DOMStringMap }).dataset.copied =
-          'idle'),
-      1000
-    );
+    el.dataset.copied = 'true';
+    setTimeout(() => (el.dataset.copied = 'idle'), 1000);
     return;
   }
 
@@ -60,15 +51,15 @@ const revealAndCopy = async (el: HTMLElement) => {
 };
 
 const setup = () => {
-  if ((window as any).__emailButtonInit) {
+  if (window.__emailButtonInit) {
     return;
   }
-  (window as any).__emailButtonInit = true;
+  window.__emailButtonInit = true;
 
   document
     .querySelectorAll('.email-link[data-user-e][data-domain-e]')
     .forEach((node) => {
-      const el = node as HTMLElement;
+      const el = node;
       el.addEventListener('click', (e) => {
         e.preventDefault();
         revealAndCopy(el);
