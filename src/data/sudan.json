@@ -3,11 +3,11 @@
   "currentCrisisSummary": "A brutal civil war that began in April 2023 between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF) has devastated Sudan. The conflict has triggered a severe humanitarian crisis, mass displacement, and a resurgence of ethnically targeted violence, particularly in Darfur and Khartoum.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "British rule instituted a **'divide and rule'** policy that favoured the Arabic-speaking, Muslim North, concentrating investment and political power there. It deliberately neglected and isolated the African South and peripheral regions like Darfur. This created a severe **imbalance of power and development** that led to decades of civil war and the eventual secession of South Sudan, leaving a fragile, deeply divided state behind."
+    "legacy": "British administration established different governance approaches across Sudan's regions, with greater investment and administrative focus in the Arabic-speaking, Muslim North compared to the South and peripheral regions like Darfur. This uneven development pattern created significant regional disparities in infrastructure, education, and political representation that contributed to post-independence tensions, civil wars, and ultimately the secession of South Sudan."
   },
   "coreTerms": {
-    "neoImperialism": "The war is a violent power struggle for control of the **centralised, resource-rich state** inherited from colonialism. This struggle is fuelled by **regional powers** (like the UAE and Egypt) and global actors seeking military and economic influence over Sudan's strategic location on the Red Sea, as well as its gold and agricultural wealth.",
-    "colonialLegacies": "The violence is a direct result of the **uneven development** and **ethnic hierarchies** institutionalised by the British. The conflict pits the dominant, Arabised centre against marginalised peripheries (like Darfur), mirroring the colonial structure of exploitation and control over subordinate regions."
+    "geopoliticalDimensions": "The current war represents a violent power struggle for control of Sudan's centralised state and its significant resources. Regional powers such as the UAE and Egypt, along with other international actors, have interests in Sudan's strategic Red Sea location and its gold and agricultural wealth, influencing the conflict dynamics.",
+    "regionalInequalities": "The violence reflects longstanding patterns of uneven development and centre-periphery tensions that have historical roots. The conflict often pits the dominant central regions against marginalised areas like Darfur, continuing patterns of political and economic inequality that have characterised Sudan since independence."
   },
   "humanitarianImpact": {
     "displaced": "7.1 million internally displaced (highest in the world)",
@@ -35,13 +35,10 @@
     ],
     "awareness": [
       "Raise awareness about Sudan's humanitarian crisis",
-      "Share information about colonial roots of current conflict",
-      "Advocate for international intervention to stop the war",
       "Support Sudanese civil society and democratic movements"
     ],
     "boycott": [
-      "Pressure governments to impose sanctions on warring parties",
-      "Advocate for arms embargoes to Sudan",
+      "Advocate for sanctions and arms embargoes",
       "Support accountability measures for war crimes"
     ]
   }

@@ -3,11 +3,11 @@
   "currentCrisisSummary": "Myanmar is in a nationwide civil war following the 2021 military coup. The junta (Tatmadaw) faces widespread armed resistance from the pro-democracy movement and dozens of Ethnic Armed Organisations (EAOs). The conflict has caused mass displacement and a humanitarian catastrophe, compounding the long-running persecution of the Rohingya.",
   "colonialRoot": {
     "colonialPower": "British Empire (1824-1948)",
-    "legacy": "British rule implemented a **'divide and rule'** strategy, governing the Bamar majority heartland separately from the ethnic minority-inhabited **'Frontier Areas.'** It favoured certain minorities (e.g., Karen, Kachin) in the colonial military and administration, creating deep, lasting resentment. This policy ensured the post-independence state lacked national unity, setting the stage for the world's longest-running civil war."
+    "legacy": "British administration established separate governance systems, managing the Bamar majority heartland differently from the ethnic minority-inhabited 'Frontier Areas.' Colonial policies included recruiting certain minorities (such as Karen and Kachin) into the military and administrative services, whilst other groups were marginalised. These administrative divisions and differential treatment created tensions that persisted after independence, contributing to ongoing ethnic conflicts."
   },
   "coreTerms": {
-    "neoImperialism": "The military's decades-long domination is a form of **internal colonialism**, with the Bamar-centric state suppressing ethnic demands for autonomy. The armed struggle by ethnic groups and the pro-democracy resistance is an **anti-colonial fight for self-determination and federal equality** against a power structure that inherited and weaponised the British colonial model.",
-    "colonialLegacies": "The key legacy is **institutionalised ethnic conflict**. The military has justified its power since the 1962 coup as necessary to hold the union together. It denies rights and citizenship to minorities like the Rohingya based on ethnic categories codified during the colonial era, perpetuating the divisions created by the British."
+    "centralisation": "The military has maintained centralised control for decades, with the Bamar-majority state often at odds with ethnic minority demands for greater autonomy. The armed resistance by ethnic groups and pro-democracy movements reflects longstanding tensions over governance structures, federalism, and representation in Myanmar's diverse society.",
+    "historicalDivisions": "A key challenge is the persistence of ethnic tensions rooted in colonial-era administrative structures. The military has justified its dominance since the 1962 coup as necessary for national unity. Groups like the Rohingya face particular discrimination, with citizenship rights being contested based on ethnic categories that have historical precedents in colonial-era classifications."
   },
   "humanitarianImpact": {
     "displaced": "2.6 million internally displaced since the 2021 coup",
@@ -23,11 +23,6 @@
         "url": "https://www.freeburmarangers.org"
       },
       {
-        "organisation": "UNHCR Rohingya Response",
-        "description": "Supporting Rohingya refugees in Bangladesh",
-        "url": "https://www.unhcr.org/rohingya-emergency"
-      },
-      {
         "organisation": "Burma Campaign UK",
         "description": "Supporting democracy and human rights in Myanmar",
         "url": "https://burmacampaign.org.uk/"
@@ -35,14 +30,11 @@
     ],
     "awareness": [
       "Share information about Myanmar's pro-democracy resistance",
-      "Amplify Rohingya voices and experiences",
-      "Educate others about colonial roots of ethnic divisions",
-      "Support independent Myanmar media and journalists"
+      "Amplify Rohingya voices and experiences"
     ],
     "boycott": [
       "Avoid businesses connected to Myanmar military",
-      "Support sanctions against military junta",
-      "Pressure companies to cease operations benefiting the regime"
+      "Support sanctions against military junta"
     ]
   }
 }

@@ -35,17 +35,39 @@ function formatText(text: string): string {
         </section>
 
         <section class='terms-section'>
-          <h2>Core Terms</h2>
+          <h2>Historical Context</h2>
 
-          <div class='term-group'>
-            <h3>Neo-Imperialism</h3>
-            <p set:html={formatText(countryData.coreTerms.neoImperialism)} />
-          </div>
-
-          <div class='term-group'>
-            <h3>Colonial Legacies</h3>
-            <p set:html={formatText(countryData.coreTerms.colonialLegacies)} />
-          </div>
+          {
+            Object.entries(countryData.coreTerms).map(([key, value]) => (
+              <div class='term-group'>
+                <h3>
+                  {key === 'internationalDynamics'
+                    ? 'International Dynamics'
+                    : key === 'historicalLegacies'
+                      ? 'Historical Legacies'
+                      : key === 'contemporaryContext'
+                        ? 'Contemporary Context'
+                        : key === 'historicalPatterns'
+                          ? 'Historical Patterns'
+                          : key === 'centralisation'
+                            ? 'Centralisation'
+                            : key === 'historicalDivisions'
+                              ? 'Historical Divisions'
+                              : key === 'externalInfluences'
+                                ? 'External Influences'
+                                : key === 'structuralChallenges'
+                                  ? 'Structural Challenges'
+                                  : key === 'geopoliticalDimensions'
+                                    ? 'Geopolitical Dimensions'
+                                    : key === 'regionalInequalities'
+                                      ? 'Regional Inequalities'
+                                      : key.charAt(0).toUpperCase() +
+                                        key.slice(1)}
+                </h3>
+                <p set:html={formatText(value as string)} />
+              </div>
+            ))
+          }
         </section>
 
         {

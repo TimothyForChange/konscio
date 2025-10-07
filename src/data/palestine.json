@@ -3,11 +3,11 @@
   "currentCrisisSummary": "The military assault on Gaza, which began in late 2023 following Hamas's October 7 attack, has caused a catastrophic loss of life, mass displacement, and a severe humanitarian crisis, including famine. This compounds the ongoing, systemic denial of Palestinian rights through settlement expansion and forced displacement in the West Bank and East Jerusalem.",
   "colonialRoot": {
     "colonialPower": "British Empire",
-    "legacy": "The conflict's root is the **settler-colonial project of Zionism**, facilitated by the **British Mandate for Palestine (1920-1948)**. The 1917 **Balfour Declaration** promised a 'national home for the Jewish people,' enabling mass immigration and land acquisition while suppressing Palestinian self-determination. The resulting 1948 war (the **Nakba** or 'catastrophe') and the 1967 occupation created the foundation for a regime of **institutionalised dispossession**."
+    "legacy": "The conflict has its origins in the British Mandate for Palestine (1920-1948) and the competing national movements that emerged during this period. The 1917 Balfour Declaration promised a 'national home for the Jewish people,' supporting the Zionist movement's goal of establishing a Jewish state in Palestine. This led to increased Jewish immigration and land acquisition, creating tensions with the existing Palestinian Arab population. The 1948 Arab-Israeli war resulted in what Palestinians call the Nakba ('catastrophe'), creating a large refugee population, whilst the 1967 war led to Israeli occupation of the West Bank and Gaza Strip."
   },
   "coreTerms": {
-    "neoImperialism": "**Neo-imperialism** is evident through external actors, particularly the U.S., providing extensive **military aid and diplomatic protection** to Israel. This support enables the maintenance of the occupation and control over Palestinian territory and resources, serving broader Western geopolitical interests in the Middle East.",
-    "colonialLegacies": "The ongoing regime of control is widely described by human rights organisations as a system of **apartheid** and **settler colonialism**. Key legacies include the denial of the **right of return** for refugees, **legalised segregation**, **discriminatory land confiscation**, and the **military occupation** of the West Bank—all of which mirror historical colonial practices of domination."
+    "internationalDynamics": "The conflict involves significant international dimensions, with the United States providing substantial military aid and diplomatic support to Israel. This relationship reflects broader geopolitical considerations in the Middle East region and affects the balance of power between the parties.",
+    "historicalLegacies": "The current situation reflects unresolved issues from the mandate period and subsequent conflicts. Key challenges include the status of Palestinian refugees and their right of return, questions of sovereignty and borders, settlement activities in occupied territories, and the ongoing military occupation of the West Bank, which various human rights organisations have criticised using different terminologies."
   },
   "humanitarianImpact": {
     "displaced": "1.9 million internally displaced in Gaza (85% of population)",
@@ -23,26 +23,18 @@
         "url": "https://www.unrwa.org/"
       },
       {
-        "organisation": "Medical Aid for Palestinians",
-        "description": "Healthcare and medical aid in Palestine",
-        "url": "https://www.map.org.uk"
-      },
-      {
         "organisation": "Palestine Red Crescent Society",
         "description": "Emergency medical services and humanitarian aid",
         "url": "https://www.palestinercs.org/en"
       }
     ],
     "awareness": [
-      "Share educational content about Palestinian history and colonial context",
-      "Contact elected representatives about foreign policy and arms sales",
-      "Support Palestinian journalists and media outlets",
-      "Educate others about the historical roots of the conflict"
+      "Share educational content about Palestinian history",
+      "Support Palestinian journalists and media outlets"
     ],
     "boycott": [
       "BDS movement - Boycott, Divestment, Sanctions",
-      "Avoid products from illegal Israeli settlements",
-      "Pressure institutions to divest from complicit companies"
+      "Avoid products from illegal Israeli settlements"
     ]
   }
 }

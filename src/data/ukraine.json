@@ -3,11 +3,11 @@
   "currentCrisisSummary": "Since 2014, Ukraine has been resisting a Russian war of aggression that escalated into a full-scale invasion in February 2022. The conflict has caused mass civilian casualties, millions of displaced people, large-scale destruction of infrastructure, and the systematic imposition of Russian rule and cultural suppression in occupied territories.",
   "colonialRoot": {
     "colonialPower": "Russian Empire & Soviet Union",
-    "legacy": "The conflict is rooted in centuries of **Russian imperialism**, which has long treated Ukraine as a 'colony' or an 'inseparable part' of Russia. This legacy includes forced **Russification** (e.g., the 19th-century Valuev Circular and Ems Ukaz), the elimination of the Ukrainian intelligentsia, and the engineered famine of the **Holodomor** (1932-33). These were designed to erase a distinct Ukrainian national identity."
+    "legacy": "The current conflict has deep historical roots in centuries of Russian-Ukrainian relations, during which Ukraine was incorporated into the Russian Empire and later the Soviet Union. This history includes policies of Russification (such as the 19th-century Valuev Circular and Ems Ukaz), suppression of Ukrainian cultural and political movements, and traumatic events like the Holodomor famine (1932-33), which significantly impacted Ukrainian national consciousness."
   },
   "coreTerms": {
-    "neoImperialism": "Russia's invasion and annexation of Ukrainian territory is a clear act of **21st-century imperialism**, aimed at reconstituting a sphere of domination. Moscow's denial of Ukraine's statehood and cultural existence is the ideological justification for the military aggression and the attempted **ethnocide** of the Ukrainian people.",
-    "colonialLegacies": "The Ukrainian resistance is an **anti-colonial struggle for self-determination**. Russia's actions in occupied areas—imposing its curriculum, forcing citizenship, and deporting children—are classic colonial practices of **cultural genocide** designed to absorb a subject population and ensure Ukraine never fully escapes its former colonial status."
+    "contemporaryContext": "Russia's invasion and annexation of Ukrainian territory represents an attempt to reassert influence over areas it considers within its sphere of interest. Moscow's rejection of Ukrainian sovereignty and distinct national identity provides the ideological foundation for the military aggression and efforts to suppress Ukrainian culture and identity.",
+    "historicalPatterns": "Ukraine's resistance reflects its long struggle for national self-determination and independence. Russia's actions in occupied areas—including imposing Russian curricula, forced citizenship programmes, and deportation of children—echo historical patterns of cultural assimilation policies aimed at integrating subject populations and undermining distinct national identities."
   },
   "humanitarianImpact": {
     "displaced": "6.5 million internally displaced within Ukraine",
@@ -35,13 +35,10 @@
     ],
     "awareness": [
       "Share information about Ukrainian history and culture",
-      "Support Ukrainian journalists and independent media",
-      "Advocate for continued international support for Ukraine",
-      "Learn about the colonial history of Russian-Ukrainian relations"
+      "Advocate for continued international support for Ukraine"
     ],
     "boycott": [
       "Avoid Russian products and services",
-      "Pressure companies to cease operations in Russia",
       "Support sanctions against Russian economy"
     ]
   }
