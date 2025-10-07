@@ -1,0 +1,12 @@
+{
+  "name": "DRC",
+  "currentCrisisSummary": "The eastern DRC is plagued by escalating conflict involving over 130 armed groups, foreign-backed militias, and the Congolese army. This ongoing war, fought primarily over control of vast mineral wealth (cobalt, copper, coltan, gold), has caused one of the world's largest humanitarian and displacement crises, alongside widespread, systematic use of sexual violence as a weapon of war.",
+  "colonialRoot": {
+    "colonialPower": "Belgium (King Leopold II's Congo Free State and later Belgian Congo)",
+    "legacy": "The DRC's turmoil stems from its utterly extractive colonial history, which was founded on genocidal brutality, forced labour, and the single-minded **plunder of resources** (rubber, ivory). Belgium left the country without a functional, unifying political or economic infrastructure. This guaranteed a perpetually **weak state** that could not control its borders or its resources, creating the ideal conditions for post-independence exploitation."
+  },
+  "coreTerms": {
+    "neoImperialism": "The conflict is the textbook example of **neo-colonialism**. External actors, including neighboring countries and global multinational corporations (driven by global demand for minerals in electronics and clean energy), fuel militias and corruption to secure access to the DRC's mineral wealth at low cost, effectively ensuring the country remains poor while its resources enrich the global market.",
+    "colonialLegacies": "The primary colonial legacy is the **'resource curse'** and the **deliberate sabotage of statehood**. Violence in the DRC is driven by the structural inability of the state—a direct product of colonial engineering—to convert its wealth into national prosperity, leading to incessant internal and external conflicts over the country's mineral-rich periphery."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Palestine",
+  "currentCrisisSummary": "Since October 2023, the military assault on Gaza has intensified following Hamas's October 7 attack, causing catastrophic loss of life, mass displacement, and a severe humanitarian crisis, including famine. This is compounded by the ongoing, systemic denial of Palestinian rights, settlement expansion, and forced displacement in the West Bank and East Jerusalem.",
+  "colonialRoot": {
+    "colonialPower": "British Empire",
+    "legacy": "The root of the conflict is the **settler-colonial project of Zionism**, facilitated by the **British Mandate for Palestine (1920-1948)**. The **Balfour Declaration** promised a 'national home for the Jewish people,' actively enabling mass immigration and land acquisition while suppressing Palestinian self-determination. The resulting 1948 war (**Nakba**) and the 1967 occupation established the foundation for the current regime of **institutionalised dispossession**."
+  },
+  "coreTerms": {
+    "neoImperialism": "Contemporary **neo-imperialism** is evident through external actors, particularly the U.S., providing extensive **military aid and diplomatic protection** to Israel. This support enables the maintenance of occupation, military dominance, and control over Palestinian territory and resources, serving broader Western geopolitical interests in the Middle East.",
+    "colonialLegacies": "The ongoing regime of control is widely described by international bodies and human rights organisations as a system of **apartheid** and **settler colonialism**. Key legacies include: **The denial of the right of return** for refugees; **legalised segregation**; **discriminatory land confiscation**; and the **military occupation** of the West Bank, all of which mirror historical colonial practices of domination and territorial control."
+  }
+}

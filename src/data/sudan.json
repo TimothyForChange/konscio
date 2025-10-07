@@ -1,0 +1,12 @@
+{
+  "name": "Sudan",
+  "currentCrisisSummary": "Sudan is experiencing a brutal, large-scale civil war (since April 2023) between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) paramilitary group. The conflict has triggered a severe humanitarian crisis, millions displaced, and a resurgence of ethnically targeted violence, particularly in Darfur and Khartoum.",
+  "colonialRoot": {
+    "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
+    "legacy": "British rule instituted a **'divide and rule'** policy that favoured the Arabic-speaking, Muslim North, where it concentrated investment, education, and political power. Meanwhile, the British deliberately neglected and isolated the African South and peripheral regions like Darfur. This policy created a severe **imbalance of power and development** that culminated in decades of civil war and eventually the secession of South Sudan, leaving a fragile and deeply divided state behind."
+  },
+  "coreTerms": {
+    "neoImperialism": "The war is fundamentally a violent power struggle between two military factions for control of the **centralised, resource-rich state apparatus** inherited from the colonial era. This struggle is exacerbated by the interference of **regional imperial powers** (like the UAE and Egypt) and global powers seeking military or economic influence over Sudan's strategic geography and gold/agricultural wealth.",
+    "colonialLegacies": "The violence is a result of the **uneven development** and the **ethnic divisions** institutionalised by the British. The conflict features the dominant Arabised centre battling marginalised ethnic peripheries (like Darfur), mirroring the colonial structure of exploitation and control over subordinate regions."
+  }
+}

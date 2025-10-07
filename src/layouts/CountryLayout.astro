@@ -1,0 +1,60 @@
+---
+import Layout from './Layout.astro';
+import 'remixicon/fonts/remixicon.css';
+
+const { countryData } = Astro.props;
+
+function formatText(text: string): string {
+  return text
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.*?)\*/g, '<em>$1</em>');
+}
+---
+
+<Layout title={`${countryData.name} Crisis - Timothy Brits`}>
+  <div class='page-wrapper'>
+    <main class='container' id='container'>
+      <div class='country-page'>
+        <header class='country-header'>
+          <a href='/' class='back-button'>
+            <i class='ri-arrow-left-line'></i>
+            Back to Home
+          </a>
+          <h1 class='country-title'>{countryData.name}</h1>
+        </header>
+
+        <section class='crisis-section'>
+          <h2>Current Crisis Summary</h2>
+          <p set:html={formatText(countryData.currentCrisisSummary)} />
+        </section>
+
+        <section class='colonial-section'>
+          <h2>The Colonial Root</h2>
+          <h3>{countryData.colonialRoot.colonialPower}</h3>
+          <p set:html={formatText(countryData.colonialRoot.legacy)} />
+        </section>
+
+        <section class='terms-section'>
+          <h2>Core Terms</h2>
+
+          <div class='term-group'>
+            <h3>Neo-Imperialism</h3>
+            <p set:html={formatText(countryData.coreTerms.neoImperialism)} />
+          </div>
+
+          <div class='term-group'>
+            <h3>Colonial Legacies</h3>
+            <p set:html={formatText(countryData.coreTerms.colonialLegacies)} />
+          </div>
+        </section>
+
+        <div class='country-bottom-back'>
+          <a href='/' class='back-button'>
+            <i class='ri-arrow-left-line'></i>
+            Back to Home
+          </a>
+        </div>
+      </div>
+    </main>
+  </div>
+</Layout>

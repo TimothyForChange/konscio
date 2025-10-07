@@ -4,12 +4,11 @@ import userData from '../data/user.json';
 const { name, profession, bio } = userData;
 
 const replacements: Array<[RegExp, string]> = [
-  [/Palestine/g, 'Palestine 🇵🇸'],
-  [/Ukraine/g, 'Ukraine 🇺🇦'],
-  [
-    /the Democratic Republic of the Congo/g,
-    'the Democratic Republic of the Congo 🇨🇩',
-  ],
+  [/Palestine/g, '<a href="/palestine" class="country-link">Palestine 🇵🇸</a>'],
+  [/Sudan/g, '<a href="/sudan" class="country-link">Sudan 🇸🇩</a>'],
+  [/Myanmar/g, '<a href="/myanmar" class="country-link">Myanmar 🇲🇲</a>'],
+  [/Ukraine/g, '<a href="/ukraine" class="country-link">Ukraine 🇺🇦</a>'],
+  [/the DRC/g, '<a href="/drc" class="country-link">the DRC 🇨🇩</a>'],
 ];
 const bioHtml = replacements.reduce(
   (acc, [pattern, value]) => acc.replace(pattern, value),

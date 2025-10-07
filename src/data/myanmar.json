@@ -1,0 +1,12 @@
+{
+  "name": "Myanmar",
+  "currentCrisisSummary": "Myanmar is embroiled in a nationwide civil war following the 2021 military coup. The military junta (Tatmadaw) is fighting widespread armed resistance from the pro-democracy movement and dozens of Ethnic Armed Organisations (EAOs). The conflict has caused mass displacement, severe human rights violations, and a humanitarian catastrophe, compounding the long-running persecution of the Rohingya minority.",
+  "colonialRoot": {
+    "colonialPower": "British Empire (1824-1948)",
+    "legacy": "British rule employed a classic **'divide and rule'** strategy, governing the Bamar majority heartland separately from the ethnic minority-inhabited **'Frontier Areas.'** They favoured certain minority groups (e.g., the Karen and Kachin) in the colonial administration and military over the Bamar, creating deep, lasting resentment and distrust. This legacy ensured that the post-independence state lacked national unity, setting the stage for the world's longest-running civil conflict."
+  },
+  "coreTerms": {
+    "neoImperialism": "The military junta's decades-long domination and brutal suppression of ethnic demands is a form of **internal colonialism**. The armed struggle by ethnic groups and the pro-democracy resistance is an **anti-colonial struggle for self-determination and federal equality** against a centralised power structure that inherited and weaponised the British colonial state model.",
+    "colonialLegacies": "The key legacy is the institutionalised ethnic conflict. The military seized power (1962 coup) to maintain a highly centralised, Bamar-centric state, actively denying citizenship and rights to minorities like the Rohingya based on ethnic categories codified during the colonial era. This system perpetuates the divisions created by the colonial administration."
+  }
+}

@@ -258,7 +258,7 @@ html::-webkit-scrollbar-corner {
 }
 
 .profile {
-  margin-top: 3rem;
+  margin-top: 2rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -336,11 +336,86 @@ html::-webkit-scrollbar-corner {
   outline-offset: 2px;
 }
 
+.profile-bio .profile-bio-text a.country-link {
+  border-radius: 6px;
+  padding: 8px 6px;
+  margin: -4px -2px;
+  display: inline-block;
+  min-height: 44px;
+  min-width: 44px;
+  line-height: 1.4;
+  text-align: center;
+  transition: background-color 0.2s ease;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.profile-bio .profile-bio-text a.country-link:hover {
+  background-color: var(--accent-primary);
+  color: var(--on-accent);
+  text-decoration: none;
+}
+
+.profile-bio .profile-bio-text a.country-link:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+  background-color: var(--accent-primary);
+  color: var(--on-accent);
+}
+
+@media (max-width: 768px) {
+  .profile-bio .profile-bio-text a.country-link {
+    padding: 10px 8px;
+    margin: -6px -4px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    min-height: 48px;
+    min-width: 48px;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .profile-bio .profile-bio-text a.country-link {
+    padding: 12px 10px;
+    margin: -8px -6px;
+    min-height: 48px;
+    min-width: 48px;
+    border-radius: 8px;
+  }
+
+  .profile-bio .profile-bio-text a.country-link:active {
+    background-color: var(--accent-primary);
+    color: var(--on-accent);
+    text-decoration: none;
+    transform: scale(0.95);
+    transition:
+      background-color 0.1s ease,
+      transform 0.1s ease;
+  }
+
+  .back-button {
+    padding: 14px 18px;
+    min-height: 48px;
+    min-width: 48px;
+    border-radius: 8px;
+  }
+
+  .back-button:hover {
+    background-color: transparent;
+    color: var(--text-secondary);
+  }
+
+  .back-button:active {
+    background-color: var(--accent-primary);
+    color: var(--on-accent);
+    transform: scale(0.95);
+  }
+}
+
 .list {
-  margin: 3rem 0;
+  margin: 2rem 0;
   display: grid;
   gap: 1rem;
-  min-height: 36rem;
   list-style: none;
   padding: 0;
 }
@@ -448,6 +523,137 @@ html::-webkit-scrollbar-corner {
 }
 .email-link[data-copied='true'] .link-icon i {
   color: var(--on-accent);
+}
+
+.country-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.country-bottom-back {
+  display: flex;
+  justify-content: center;
+  margin: 1.25rem 0 0.5rem 0;
+}
+
+.country-header {
+  margin-bottom: 2rem;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  padding: 8px 12px;
+  border-radius: 6px;
+  min-height: 44px;
+  min-width: 44px;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.back-button:hover {
+  color: var(--text-primary);
+  background-color: var(--bg-surface);
+}
+
+.back-button:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+  background-color: var(--bg-surface);
+}
+
+.back-button:active {
+  background-color: var(--accent-primary);
+  color: var(--on-accent);
+  transform: scale(0.95);
+  transition:
+    background-color 0.1s ease,
+    color 0.1s ease,
+    transform 0.1s ease;
+}
+
+.country-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.crisis-section,
+.colonial-section,
+.terms-section {
+  margin-bottom: 1.5rem;
+}
+
+.crisis-section h2,
+.colonial-section h2,
+.terms-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--accent-primary);
+  padding-bottom: 0.5rem;
+}
+
+.colonial-section h3,
+.terms-section h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+  margin-top: 1rem;
+}
+
+.colonial-section h3:first-of-type,
+.term-group:first-child h3 {
+  margin-top: 0;
+}
+
+.country-page p {
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.term-group {
+  margin-bottom: 1.25rem;
+}
+
+.term-group:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .country-page {
+    padding: 1rem;
+  }
+
+  .country-title {
+    font-size: 2rem;
+  }
+
+  .crisis-section h2,
+  .colonial-section h2,
+  .terms-section h2 {
+    font-size: 1.25rem;
+  }
+
+  .back-button {
+    padding: 12px 16px;
+    min-height: 48px;
+    min-width: 48px;
+    font-size: 1rem;
+    border-radius: 8px;
+  }
 }
 
 @media (forced-colors: active) {
