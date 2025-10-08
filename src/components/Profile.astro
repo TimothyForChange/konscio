@@ -4,30 +4,12 @@ import userData from '../data/user.json';
 const { name, profession, bio } = userData;
 
 const replacements: Array<[RegExp, string]> = [
-  [
-    /Palestine/g,
-    '<a href="/palestine" class="country-link">Palestine <span class="country-emoji">🇵🇸</span></a>',
-  ],
-  [
-    /Sudan/g,
-    '<a href="/sudan" class="country-link">Sudan <span class="country-emoji">🇸🇩</span></a>',
-  ],
-  [
-    /Myanmar/g,
-    '<a href="/myanmar" class="country-link">Myanmar <span class="country-emoji">🇲🇲</span></a>',
-  ],
-  [
-    /Ukraine/g,
-    '<a href="/ukraine" class="country-link">Ukraine <span class="country-emoji">🇺🇦</span></a>',
-  ],
-  [
-    /the DRC/g,
-    '<a href="/drc" class="country-link">the DRC <span class="country-emoji">🇨🇩</span></a>',
-  ],
-  [
-    /Haiti/g,
-    '<a href="/haiti" class="country-link">Haiti <span class="country-emoji">🇭🇹</span></a>',
-  ],
+  [/Palestine/g, '<a href="/palestine" class="country-link">Palestine 🇵🇸</a>'],
+  [/Sudan/g, '<a href="/sudan" class="country-link">Sudan 🇸🇩</a>'],
+  [/Myanmar/g, '<a href="/myanmar" class="country-link">Myanmar 🇲🇲</a>'],
+  [/Ukraine/g, '<a href="/ukraine" class="country-link">Ukraine 🇺🇦</a>'],
+  [/the DRC/g, '<a href="/drc" class="country-link">the DRC 🇨🇩</a>'],
+  [/Haiti/g, '<a href="/haiti" class="country-link">Haiti 🇭🇹</a>'],
 ];
 const bioHtml = replacements.reduce(
   (acc, [pattern, value]) => acc.replace(pattern, value),
@@ -137,7 +119,6 @@ const bioHtml = replacements.reduce(
     margin: -4px -2px;
     display: inline-flex;
     align-items: center;
-    gap: 0.35rem;
     min-height: 44px;
     min-width: 44px;
     line-height: 1.4;
@@ -152,15 +133,6 @@ const bioHtml = replacements.reduce(
     background-color: var(--bg-alt);
     color: var(--text-primary);
     text-decoration: none;
-  }
-
-  :global(.country-emoji) {
-    display: inline-flex;
-    align-items: center;
-    font-size: 1em;
-    line-height: 1;
-    margin-left: 0.15rem;
-    transform: translateY(-0.03em);
   }
 
   :global(.country-link),
