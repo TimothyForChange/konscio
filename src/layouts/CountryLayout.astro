@@ -77,19 +77,35 @@ function formatText(text: string): string {
               <div class='impact-stats'>
                 <div class='stat-item'>
                   <strong>Displaced:</strong>{' '}
-                  {countryData.humanitarianImpact.displaced}
+                  <span
+                    set:html={formatText(
+                      countryData.humanitarianImpact.displaced
+                    )}
+                  />
                 </div>
                 <div class='stat-item'>
                   <strong>Refugees:</strong>{' '}
-                  {countryData.humanitarianImpact.refugees}
+                  <span
+                    set:html={formatText(
+                      countryData.humanitarianImpact.refugees
+                    )}
+                  />
                 </div>
                 <div class='stat-item'>
                   <strong>Casualties:</strong>{' '}
-                  {countryData.humanitarianImpact.casualties}
+                  <span
+                    set:html={formatText(
+                      countryData.humanitarianImpact.casualties
+                    )}
+                  />
                 </div>
                 <div class='stat-item'>
                   <strong>Affected:</strong>{' '}
-                  {countryData.humanitarianImpact.affected}
+                  <span
+                    set:html={formatText(
+                      countryData.humanitarianImpact.affected
+                    )}
+                  />
                 </div>
               </div>
             </section>
@@ -128,22 +144,22 @@ function formatText(text: string): string {
                 <h3>
                   <i class='ri-megaphone-line' /> Raise Awareness
                 </h3>
-                <ul class='awareness-list'>
+                <div class='awareness-list'>
                   {countryData.takeAction.awareness.map((action: string) => (
-                    <li>{action}</li>
+                    <div class='action-card' set:html={formatText(action)} />
                   ))}
-                </ul>
+                </div>
               </div>
 
               <div class='action-group'>
                 <h3>
                   <i class='ri-shield-line' /> Economic Action
                 </h3>
-                <ul class='boycott-list'>
+                <div class='boycott-list'>
                   {countryData.takeAction.boycott.map((action: string) => (
-                    <li>{action}</li>
+                    <div class='action-card'>{action}</div>
                   ))}
-                </ul>
+                </div>
               </div>
             </section>
           )

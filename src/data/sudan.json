@@ -1,17 +1,17 @@
 {
   "name": "Sudan",
-  "currentCrisisSummary": "A brutal civil war that began in April 2023 between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF) has devastated Sudan. The conflict has triggered a severe humanitarian crisis, mass displacement, and a resurgence of ethnically targeted violence, particularly in Darfur and Khartoum.",
+  "currentCrisisSummary": "A brutal civil war that began in **April 2023** between the *Sudanese Armed Forces (SAF)* and the paramilitary **Rapid Support Forces (RSF)** has devastated Sudan. The conflict has triggered a severe humanitarian crisis, mass displacement, and a resurgence of *ethnically targeted violence*, particularly in **Darfur** and Khartoum.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "British administration established different governance approaches across Sudan's regions, with greater investment and administrative focus in the Arabic-speaking, Muslim North compared to the South and peripheral regions like Darfur. This uneven development pattern created significant regional disparities in infrastructure, education, and political representation that contributed to post-independence tensions, civil wars, and ultimately the secession of South Sudan."
+    "legacy": "British administration established different governance approaches across Sudan's regions, with greater investment and administrative focus in the *Arabic-speaking, Muslim North* compared to the South and peripheral regions like **Darfur**. This *uneven development pattern* created significant regional disparities in infrastructure, education, and political representation that contributed to post-independence tensions, civil wars, and ultimately the **secession of South Sudan**."
   },
   "coreTerms": {
-    "geopoliticalDimensions": "The current war represents a violent power struggle for control of Sudan's centralised state and its significant resources. Regional powers such as the UAE and Egypt, along with other international actors, have interests in Sudan's strategic Red Sea location and its gold and agricultural wealth, influencing the conflict dynamics.",
-    "regionalInequalities": "The violence reflects longstanding patterns of uneven development and centre-periphery tensions that have historical roots. The conflict often pits the dominant central regions against marginalised areas like Darfur, continuing patterns of political and economic inequality that have characterised Sudan since independence."
+    "geopoliticalDimensions": "The current war represents a violent power struggle for control of Sudan's *centralised state* and its significant resources. Regional powers such as the **UAE and Egypt**, along with other international actors, have interests in Sudan's strategic *Red Sea location* and its **gold and agricultural wealth**, influencing the conflict dynamics.",
+    "regionalInequalities": "The violence reflects longstanding patterns of *uneven development* and **centre-periphery tensions** that have historical roots. The conflict often pits the dominant central regions against marginalised areas like *Darfur*, continuing patterns of **political and economic inequality** that have characterised Sudan since independence."
   },
   "humanitarianImpact": {
-    "displaced": "7.1 million internally displaced (highest in the world)",
-    "refugees": "1.8 million Sudanese refugees in neighbouring countries",
+    "displaced": "10 million internally displaced (highest in the world)",
+    "refugees": "2 million Sudanese refugees in neighbouring countries",
     "casualties": "Over 15,000 killed since April 2023",
     "affected": "25 million people in need of humanitarian assistance"
   },
@@ -35,7 +35,8 @@
     ],
     "awareness": [
       "Raise awareness about Sudan's humanitarian crisis",
-      "Support Sudanese civil society and democratic movements"
+      "Support Sudanese civil society and democratic movements",
+      "Advocate for international intervention and peacekeeping efforts"
     ],
     "boycott": [
       "Advocate for sanctions and arms embargoes",

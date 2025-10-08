@@ -775,36 +775,19 @@ html::-webkit-scrollbar-corner {
 
 .awareness-list,
 .boycott-list {
-  list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
   gap: 0.75rem;
 }
 
-.awareness-list li,
-.boycott-list li {
+.action-card {
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: 6px;
   padding: 1rem;
   color: var(--text-secondary);
   line-height: 1.5;
-  position: relative;
-  padding-left: 2.5rem;
-}
-
-.awareness-list li::before,
-.boycott-list li::before {
-  content: '';
-  position: absolute;
-  left: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 6px;
-  height: 6px;
-  background: var(--accent-primary);
-  border-radius: 50%;
 }
 
 @media (max-width: 768px) {
@@ -833,16 +816,8 @@ html::-webkit-scrollbar-corner {
     min-height: 48px;
   }
 
-  .awareness-list li,
-  .boycott-list li {
+  .action-card {
     padding: 0.875rem;
-    padding-left: 2.25rem;
-  }
-
-  .awareness-list li::before,
-  .boycott-list li::before {
-    top: 50%;
-    transform: translateY(-50%);
   }
 }
 

@@ -1,16 +1,16 @@
 {
   "name": "DRC",
-  "currentCrisisSummary": "The eastern DRC is the site of an escalating conflict involving over 130 armed groups, foreign-backed militias, and the Congolese army. Fought primarily over control of vast mineral wealth (cobalt, coltan, gold), the war has caused one of the world's largest displacement crises and is marked by the widespread, systematic use of sexual violence as a weapon of war.",
+  "currentCrisisSummary": "The eastern DRC is the site of an escalating conflict involving **over 130 armed groups**, foreign-backed militias, and the Congolese army. Fought primarily over control of vast *mineral wealth* (**cobalt, coltan, gold**), the war has caused one of the world's largest displacement crises and is marked by the widespread, systematic use of **sexual violence as a weapon of war**.",
   "colonialRoot": {
     "colonialPower": "Belgium (King Leopold II's Congo Free State & later Belgian Congo)",
-    "legacy": "The DRC's challenges have roots in its colonial history, characterised by intensive resource extraction of rubber and ivory, harsh labour conditions, and limited investment in local institutional development. The colonial administration focused primarily on resource extraction rather than building comprehensive governance structures or educational systems, leaving the newly independent state with significant institutional and infrastructural gaps."
+    "legacy": "The DRC's challenges have roots in its colonial history, characterised by intensive *resource extraction* of **rubber and ivory**, harsh labour conditions, and limited investment in local institutional development. The colonial administration focused primarily on resource extraction rather than building comprehensive *governance structures* or educational systems, leaving the newly independent state with significant **institutional and infrastructural gaps**."
   },
   "coreTerms": {
-    "externalInfluences": "The conflict involves various external actors, including neighbouring countries and multinational corporations responding to global demand for minerals used in clean energy technologies and electronics. These actors often support different armed groups to secure access to mineral resources, complicating peace efforts and governance.",
-    "structuralChallenges": "A key challenge is what economists call the 'resource curse'—the paradox whereby countries rich in natural resources often struggle to translate that wealth into broad-based development. The DRC's weak state capacity, partly inherited from limited colonial institutional development, makes it difficult to effectively govern mineral-rich regions, leading to ongoing conflicts over resource control."
+    "externalInfluences": "The conflict involves various *external actors*, including neighbouring countries and multinational corporations responding to global demand for minerals used in *clean energy technologies* and electronics. These actors often support different armed groups to secure access to mineral resources, complicating peace efforts and governance.",
+    "structuralChallenges": "A key challenge is what economists call the **'resource curse'**—the paradox whereby countries rich in natural resources often struggle to translate that wealth into broad-based development. The DRC's *weak state capacity*, partly inherited from limited colonial institutional development, makes it difficult to effectively govern mineral-rich regions, leading to ongoing conflicts over **resource control**."
   },
   "humanitarianImpact": {
-    "displaced": "6.1 million internally displaced (largest displacement crisis in Africa)",
+    "displaced": "7 million internally displaced",
     "refugees": "1 million Congolese refugees in neighbouring countries",
     "casualties": "Over 6 million deaths since 1996 (mostly from disease and malnutrition)",
     "affected": "26 million people in need of humanitarian assistance"
