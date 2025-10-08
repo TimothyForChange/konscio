@@ -1,4 +1,5 @@
 ---
+import { countryMetadata } from '../scripts/utils';
 import BackButton from './BackButton.astro';
 
 export interface Props {
@@ -6,19 +7,7 @@ export interface Props {
 }
 
 const { countryName } = Astro.props;
-
-const countryFlags: Record<string, { emoji: string; ariaLabel: string }> = {
-  Palestine: { emoji: '🇵🇸', ariaLabel: 'Palestinian flag' },
-  Sudan: { emoji: '🇸🇩', ariaLabel: 'Sudanese flag' },
-  Myanmar: { emoji: '🇲🇲', ariaLabel: 'Myanmar flag' },
-  Ukraine: { emoji: '🇺🇦', ariaLabel: 'Ukrainian flag' },
-  'Democratic Republic of the Congo': {
-    emoji: '🇨🇩',
-    ariaLabel: 'Democratic Republic of Congo flag',
-  },
-};
-
-const flagInfo = countryFlags[countryName];
+const flagInfo = countryMetadata[countryName];
 ---
 
 <header class='country-header'>
@@ -57,7 +46,7 @@ const flagInfo = countryFlags[countryName];
     justify-content: center;
     font-size: 2rem;
     line-height: 1;
-    transform: translateY(-0.03em);
+    vertical-align: middle;
   }
 
   @media (max-width: 768px) {

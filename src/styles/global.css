@@ -183,3 +183,22 @@ html::-webkit-scrollbar-corner {
     transition: none;
   }
 }
+
+.section-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--accent-primary);
+  padding-bottom: 0.5rem;
+}
+
+.section-container {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 1.25rem;
+  }
+}

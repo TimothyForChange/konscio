@@ -1,4 +1,6 @@
 ---
+import { formatText } from '../scripts/utils';
+
 export interface Props {
   humanitarianImpact: {
     displaced: string;
@@ -9,12 +11,6 @@ export interface Props {
 }
 
 const { humanitarianImpact } = Astro.props;
-
-function formatText(text: string): string {
-  return text
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*(.*?)\*/g, '<em>$1</em>');
-}
 ---
 
 <section class='humanitarian-section' aria-labelledby='humanitarian-heading'>

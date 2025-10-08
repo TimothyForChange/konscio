@@ -24,6 +24,10 @@ const replacements: Array<[RegExp, string]> = [
     /the DRC/g,
     '<a href="/drc" class="country-link">the DRC <span class="country-emoji">🇨🇩</span></a>',
   ],
+  [
+    /Haiti/g,
+    '<a href="/haiti" class="country-link">Haiti <span class="country-emoji">🇭🇹</span></a>',
+  ],
 ];
 const bioHtml = replacements.reduce(
   (acc, [pattern, value]) => acc.replace(pattern, value),

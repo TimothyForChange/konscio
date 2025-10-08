@@ -1,32 +1,11 @@
 ---
+import { formatTermKey, formatText } from '../scripts/utils';
+
 export interface Props {
   coreTerms: Record<string, string>;
 }
 
 const { coreTerms } = Astro.props;
-
-function formatText(text: string): string {
-  return text
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*(.*?)\*/g, '<em>$1</em>');
-}
-
-function formatTermKey(key: string): string {
-  const keyMappings: Record<string, string> = {
-    internationalDynamics: 'International Dynamics',
-    historicalLegacies: 'Historical Legacies',
-    contemporaryContext: 'Contemporary Context',
-    historicalPatterns: 'Historical Patterns',
-    centralisation: 'Centralisation',
-    historicalDivisions: 'Historical Divisions',
-    externalInfluences: 'External Influences',
-    structuralChallenges: 'Structural Challenges',
-    geopoliticalDimensions: 'Geopolitical Dimensions',
-    regionalInequalities: 'Regional Inequalities',
-  };
-
-  return keyMappings[key] || key.charAt(0).toUpperCase() + key.slice(1);
-}
 ---
 
 <section class='terms-section' aria-labelledby='history-heading'>

@@ -1,0 +1,95 @@
+{
+  "name": "Haiti",
+  "currentCrisisSummary": "Haiti faces a complete **state collapse** as heavily-armed gangs control an estimated **60% of Port-au-Prince** and major transport routes. The crisis has triggered mass displacement, a severe humanitarian emergency, and the effective breakdown of public services including healthcare and education. International calls for intervention have intensified as the *de facto authorities* struggle to restore basic governance whilst millions face acute hunger and violence.",
+  "colonialRoot": {
+    "colonialPower": "France (1697-1804)",
+    "legacy": "Haiti's modern crises have deep roots in its colonial history as **Saint-Domingue**, France's most profitable colony built on brutal *plantation slavery*. Following the **Haitian Revolution (1791-1804)**—the only successful slave revolt in history—France imposed a crippling *indemnity* of 150 million francs (later reduced to 90 million) as 'compensation' for lost property, including enslaved people. This **debt burden** consumed most of Haiti's national budget for over a century, starving the new nation of resources for development, infrastructure, and institution-building."
+  },
+  "coreTerms": {
+    "historicalExtraction": "The French indemnity represents one of history's most systematic cases of *colonial extraction* continuing after independence. Haiti was forced to pay France the equivalent of over **$20 billion in today's money**, funds that could have built schools, hospitals, and infrastructure. This *financial stranglehold* created a pattern of **foreign debt dependency** and weakened state capacity that persists today.",
+    "externalInterventions": "Throughout the 20th century, Haiti experienced repeated *foreign interventions* that often disrupted local governance without providing sustainable solutions. The **US occupation (1915-1934)**, various UN missions, and international structural adjustment programmes have frequently prioritised external interests over **Haitian sovereignty** and self-determination, contributing to political instability and undermining local institutional development."
+  },
+  "humanitarianImpact": {
+    "displaced": "700,000 internally displaced (highest in the Caribbean)",
+    "refugees": "200,000 Haitians seeking asylum globally",
+    "casualties": "Over 5,000 killed in gang violence in 2023",
+    "affected": "5.4 million people in need of humanitarian assistance"
+  },
+  "timeline": [
+    {
+      "year": "1697",
+      "event": "**Treaty of Ryswick** - France gains control of western Hispaniola (Saint-Domingue)"
+    },
+    {
+      "year": "1791-1804",
+      "event": "**Haitian Revolution** - Successful slave revolt establishes first Black republic"
+    },
+    {
+      "year": "1804",
+      "event": "**Independence declared** - Haiti becomes first nation to abolish slavery"
+    },
+    {
+      "year": "1825",
+      "event": "**French indemnity imposed** - France forces Haiti to pay 150 million francs"
+    },
+    {
+      "year": "1915-1934",
+      "event": "**US occupation** - American military controls Haiti for 19 years"
+    },
+    {
+      "year": "1957-1986",
+      "event": "**Duvalier dictatorship** - François and Jean-Claude Duvalier rule Haiti"
+    },
+    {
+      "year": "1990",
+      "event": "**Democratic elections** - Jean-Bertrand Aristide elected president"
+    },
+    {
+      "year": "2004",
+      "event": "**Aristide departure** - President leaves amid political crisis and foreign pressure"
+    },
+    {
+      "year": "2010",
+      "event": "**Devastating earthquake** - 7.0 magnitude earthquake kills over 200,000"
+    },
+    {
+      "year": "2016-2017",
+      "event": "**Hurricane Matthew** - Category 4 hurricane devastates southwestern Haiti"
+    },
+    {
+      "year": "2021",
+      "event": "**President Moïse assassinated** - Political instability deepens after president's murder"
+    },
+    {
+      "year": "2022-present",
+      "event": "**Gang coalition** - 'G9' alliance controls majority of capital and key infrastructure"
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Médecins Sans Frontières",
+        "description": "Providing emergency medical care and treating victims of violence in Port-au-Prince",
+        "url": "https://www.msf.org/haiti"
+      },
+      {
+        "organisation": "Hope For Haiti",
+        "description": "Healthcare, education, and community development programmes across Haiti",
+        "url": "https://hopeforhaiti.com/"
+      },
+      {
+        "organisation": "Fonkoze",
+        "description": "Haiti's largest microfinance institution providing financial services and education to rural communities",
+        "url": "https://fonkoze.org/"
+      }
+    ],
+    "awareness": [
+      "Share information about Haiti's humanitarian crisis",
+      "Amplify Haitian voices and civil society organisations"
+    ],
+    "boycott": [
+      "Support calls for international accountability for gang violence",
+      "Advocate for Haitian-led solutions rather than foreign intervention"
+    ]
+  }
+}

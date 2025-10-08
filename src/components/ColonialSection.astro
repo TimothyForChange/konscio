@@ -1,4 +1,6 @@
 ---
+import { formatText } from '../scripts/utils';
+
 export interface Props {
   colonialRoot: {
     colonialPower: string;
@@ -7,12 +9,6 @@ export interface Props {
 }
 
 const { colonialRoot } = Astro.props;
-
-function formatText(text: string): string {
-  return text
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*(.*?)\*/g, '<em>$1</em>');
-}
 ---
 
 <section class='colonial-section' aria-labelledby='colonial-heading'>

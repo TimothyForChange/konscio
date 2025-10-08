@@ -1,4 +1,6 @@
 ---
+import { formatText } from '../scripts/utils';
+
 interface TimelineEvent {
   year: string;
   event: string;
@@ -9,12 +11,6 @@ interface Props {
 }
 
 const { timeline } = Astro.props;
-
-function formatText(text: string): string {
-  return text
-    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-    .replace(/\*(.*?)\*/g, '<em>$1</em>');
-}
 ---
 
 <section class='timeline-section'>

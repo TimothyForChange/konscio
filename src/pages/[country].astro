@@ -2,7 +2,14 @@
 import CountryLayout from '../layouts/CountryLayout.astro';
 
 export async function getStaticPaths() {
-  const countries = ['palestine', 'ukraine', 'sudan', 'myanmar', 'drc'];
+  const countries = [
+    'palestine',
+    'ukraine',
+    'sudan',
+    'myanmar',
+    'drc',
+    'haiti',
+  ];
 
   const paths = await Promise.all(
     countries.map(async (country) => {
@@ -12,7 +19,7 @@ export async function getStaticPaths() {
           params: { country },
           props: { countryData: countryData.default },
         };
-      } catch (error) {
+      } catch {
         return null;
       }
     })
