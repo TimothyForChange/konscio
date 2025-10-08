@@ -31,6 +31,11 @@
         "organisation": "Islamic Relief",
         "description": "Emergency aid and humanitarian assistance in Sudan",
         "url": "https://islamic-relief.org/appeals/sudan-emergency-appeal/"
+      },
+      {
+        "organisation": "Norwegian Refugee Council (NRC)",
+        "description": "Support for displaced Sudanese: shelter, protection, education, legal assistance",
+        "url": "https://www.nrc.no/countries/africa/sudan"
       }
     ],
     "awareness": [

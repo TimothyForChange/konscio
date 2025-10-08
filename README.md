@@ -1,52 +1,60 @@
 # Ligilarbo
 
-A personal portfolio website built with Astro.
+Personal portfolio + humanitarian advocacy site built with Astro.
 
-## About
+## Overview
 
-This is Timothy Brits' personal website showcasing professional links and information.
+Showcases professional profile plus country advocacy pages for Ukraine, Palestine, Sudan, DRC, and Myanmar with context, impact stats, and actionable donation links.
 
-## Tech Stack
+## Stack
 
-- **Astro** - Static site generator
-- **CSS** - Styling with custom properties
-- **Remixicon** - Icon library
+Astro · CSS (custom properties) · Remixicon
+
+## Key Features
+
+- Fast static build & compressed assets
+- Profile & curated external tools/projects
+- Country advocacy pages (historical context, humanitarian impact, how to help)
+- Donation link integrity checking at build time
 
 ## Development
 
-Install dependencies:
+Install deps & start dev server:
 
 ```bash
 npm install
-```
-
-Start the development server:
-
-```bash
 npm run dev
 ```
 
-Build for production:
+Build / preview:
 
 ```bash
 npm run build
-```
-
-Preview the production build:
-
-```bash
 npm run preview
 ```
 
-## Features
+## Link Checker (Integration)
 
-- Responsive design
-- Professional profile display
-- Social media and professional links
-- Optimized for performance with compression and inlining
+A custom integration scans `src/data/*.json` for external URLs, applies realistic headers & retries, and fails the build on broken links (configurable). 403 responses (bot protection) can be treated as OK.
+
+Minimal config example (see `astro.config.mjs` for current values):
+
+```js
+brokenLinksIntegration({
+  warnOnly: false,
+  concurrency: 6,
+  timeout: 9000,
+  treat403AsOk: true,
+  cacheMaxAgeMs: 60_000,
+});
+```
+
+Skip checking:
+
+```bash
+SKIP_LINK_CHECK=1 npm run build
+```
 
 ## License
 
-This project is open source and available under the GNU General Public License v3.0 (GPL-3.0).
-
-See [LICENSE](./LICENSE) for details.
+GPL-3.0 — see [LICENSE](./LICENSE).

@@ -23,9 +23,14 @@
         "url": "https://www.unrwa.org/"
       },
       {
-        "organisation": "Palestine Red Crescent Society",
-        "description": "Emergency medical services and humanitarian aid",
-        "url": "https://www.palestinercs.org/en"
+        "organisation": "Islamic Relief",
+        "description": "Emergency aid and humanitarian assistance in Palestine",
+        "url": "https://islamic-relief.org/appeals/palestine-emergency-appeal/"
+      },
+      {
+        "organisation": "Norwegian Refugee Council (NRC)",
+        "description": "Shelter, education, legal aid, and protection for displaced Palestinians",
+        "url": "https://www.nrc.no/countries/middle-east/palestine"
       }
     ],
     "awareness": [
