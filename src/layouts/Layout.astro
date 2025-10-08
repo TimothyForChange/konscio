@@ -4,41 +4,89 @@ import '../styles/reset.css';
 import '../styles/global.css';
 import Footer from '../components/Footer.astro';
 
-const { title } = Astro.props;
+export let title = 'Timothy Brits | Mooship';
+export let description = undefined;
+export let canonicalUrl = undefined;
+
+const ldObject = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Person',
+      '@id': 'https://mooship.co.za/#person',
+      name: 'Timothy Brits',
+      alternateName: 'Mooship',
+      url: 'https://mooship.co.za',
+      image: 'https://mooship.co.za/me.webp',
+      jobTitle: 'Software Engineer',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Pretoria',
+        addressCountry: 'ZA',
+      },
+      knowsAbout: [
+        'Software Development',
+        '.NET',
+        'Node.js',
+        'Humanitarian Awareness',
+        'Global Crises',
+      ],
+      sameAs: [
+        'https://github.com/mooship',
+        'https://www.instagram.com/brits.timothy/',
+      ],
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://mooship.co.za/#website',
+      url: 'https://mooship.co.za',
+      name: 'Timothy Brits (Mooship)',
+      description:
+        'Timothy Brits (aka Mooship) - Software Engineer raising awareness about global humanitarian crises',
+      publisher: {
+        '@id': 'https://mooship.co.za/#person',
+      },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: 'https://mooship.co.za/?search={search_term_string}',
+        },
+        'query-input': 'required name=search_term_string',
+      },
+    },
+  ],
+};
+const ldJson = JSON.stringify(ldObject, null, 2);
+const defaultDescription =
+  'Timothy Brits - Software Engineer, also known online as Mooship, raising awareness about global humanitarian crises. Learn about ongoing conflicts and humanitarian issues in Ukraine, Palestine, the DRC, Sudan, and Myanmar.';
+const pageDescription = description || defaultDescription;
+const pageCanonicalUrl = canonicalUrl || 'https://mooship.co.za/';
 ---
 
 <!doctype html>
 <html lang='en'>
   <head>
     <meta charset='UTF-8' />
-    <meta
-      name='description'
-      content='Timothy Brits - Software Engineer raising awareness about global humanitarian crises. Learn about ongoing conflicts and humanitarian issues in Ukraine, Palestine, the DRC, Sudan, and Myanmar.'
-    />
+    <meta name='description' content={pageDescription} />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <meta name='author' content='Timothy Brits' />
     <meta
       name='keywords'
-      content='Timothy Brits, developer, software engineer, humanitarian awareness, global crises, Ukraine, Palestine, DRC, Sudan, Myanmar, social justice, humanitarian aid, conflict awareness'
+      content='Timothy Brits, Mooship, developer, software engineer, humanitarian awareness, global crises, Ukraine, Palestine, DRC, Sudan, Myanmar, social justice, humanitarian aid, conflict awareness, Pretoria developer'
     />
     <meta name='robots' content='index, follow' />
     <meta property='og:type' content='website' />
     <meta property='og:url' content='https://mooship.co.za/' />
     <meta property='og:title' content={title} />
-    <meta
-      property='og:description'
-      content='Timothy Brits - Software Engineer raising awareness about global humanitarian crises. Learn about ongoing conflicts and humanitarian issues in Ukraine, Palestine, the DRC, Sudan, and Myanmar.'
-    />
-    <meta
-      property='og:site_name'
-      content='Timothy Brits - Humanitarian Awareness'
-    />
+    <meta property='og:description' content={pageDescription} />
+    <meta property='og:site_name' content='Timothy Brits (Mooship)' />
     <meta
       property='og:image'
       content='https://mooship.co.za/apple-touch-icon.png'
     />
     <meta name='color-scheme' content='light dark' />
-    <link rel='canonical' href='https://mooship.co.za/' />
+    <link rel='canonical' href={pageCanonicalUrl} />
     <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
     <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
     <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
@@ -46,6 +94,7 @@ const { title } = Astro.props;
     <meta name='generator' content={Astro.generator} />
     <title>{title}</title>
     <link rel='sitemap' href='/sitemap-index.xml' />
+    <script type='application/ld+json' set:html={ldJson} />
   </head>
   <body>
     <a class='skip-link' href='#container'>Skip to main content</a>

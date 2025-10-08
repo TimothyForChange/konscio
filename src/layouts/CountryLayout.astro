@@ -10,9 +10,15 @@ import HumanitarianImpact from '../components/HumanitarianImpact.astro';
 import TakeAction from '../components/TakeAction.astro';
 
 const { countryData } = Astro.props;
+const pageDescription = `Learn about the humanitarian crisis in ${countryData.name} - Timothy Brits (Mooship) raises awareness about ongoing conflicts and issues affecting communities worldwide.`;
+const canonicalUrl = `https://mooship.co.za/${countryData.name.toLowerCase()}`;
 ---
 
-<Layout title={`${countryData.name} Crisis - Timothy Brits`}>
+<Layout
+  title={`${countryData.name} Crisis - Timothy Brits | Mooship`}
+  description={pageDescription}
+  canonicalUrl={canonicalUrl}
+>
   <div class='page-wrapper'>
     <main class='container' id='container'>
       <div class='country-page'>
