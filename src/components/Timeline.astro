@@ -20,11 +20,9 @@ function formatText(text: string): string {
 <section class='timeline-section'>
   <h2 class='timeline-title'>Historical Timeline</h2>
   <div class='timeline-container'>
-    <div class='timeline-line'></div>
     {
       timeline.map((item) => (
         <div class='timeline-item'>
-          <div class='timeline-marker' />
           <div class='timeline-content'>
             <div class='timeline-year'>{item.year}</div>
             <div class='timeline-event' set:html={formatText(item.event)} />
@@ -54,35 +52,24 @@ function formatText(text: string): string {
   .timeline-container {
     position: relative;
     padding-left: 2rem;
-  }
-
-  .timeline-line {
-    position: absolute;
-    left: 12px;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: linear-gradient(
-      to bottom,
-      var(--accent-primary),
-      var(--accent-secondary)
-    );
+    border-left: 3px solid var(--accent-primary);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
 
   .timeline-item {
     position: relative;
     margin-bottom: 2rem;
-    display: flex;
-    align-items: flex-start;
   }
 
   .timeline-item:last-child {
     margin-bottom: 0;
   }
 
-  .timeline-marker {
+  .timeline-item::before {
+    content: '';
     position: absolute;
-    left: -1.5625rem;
+    left: -2.375rem;
     top: 50%;
     transform: translateY(-50%);
     width: 12px;
@@ -90,12 +77,11 @@ function formatText(text: string): string {
     background: var(--accent-primary);
     border: 3px solid var(--bg);
     border-radius: 50%;
-    box-shadow: 0 0 0 2px var(--accent-primary);
+    box-shadow: 0 0 0 1px var(--accent-primary);
     z-index: 2;
   }
 
   .timeline-content {
-    flex: 1;
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -134,8 +120,8 @@ function formatText(text: string): string {
       padding-left: 1.5rem;
     }
 
-    .timeline-marker {
-      left: -1.5rem;
+    .timeline-item::before {
+      left: -1.875rem;
       width: 10px;
       height: 10px;
     }
