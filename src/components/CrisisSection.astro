@@ -1,0 +1,18 @@
+---
+export interface Props {
+  summary: string;
+}
+
+const { summary } = Astro.props;
+
+function formatText(text: string): string {
+  return text
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.*?)\*/g, '<em>$1</em>');
+}
+---
+
+<section class='crisis-section'>
+  <h2>Current Crisis Summary</h2>
+  <p set:html={formatText(summary)} />
+</section>

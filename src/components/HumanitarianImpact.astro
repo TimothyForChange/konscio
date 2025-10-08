@@ -1,0 +1,40 @@
+---
+export interface Props {
+  humanitarianImpact: {
+    displaced: string;
+    refugees: string;
+    casualties: string;
+    affected: string;
+  };
+}
+
+const { humanitarianImpact } = Astro.props;
+
+function formatText(text: string): string {
+  return text
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.*?)\*/g, '<em>$1</em>');
+}
+---
+
+<section class='humanitarian-section'>
+  <h2>Humanitarian Impact</h2>
+  <div class='impact-stats'>
+    <div class='stat-item'>
+      <strong>Displaced:</strong>{' '}
+      <span set:html={formatText(humanitarianImpact.displaced)} />
+    </div>
+    <div class='stat-item'>
+      <strong>Refugees:</strong>{' '}
+      <span set:html={formatText(humanitarianImpact.refugees)} />
+    </div>
+    <div class='stat-item'>
+      <strong>Casualties:</strong>{' '}
+      <span set:html={formatText(humanitarianImpact.casualties)} />
+    </div>
+    <div class='stat-item'>
+      <strong>Affected:</strong>{' '}
+      <span set:html={formatText(humanitarianImpact.affected)} />
+    </div>
+  </div>
+</section>

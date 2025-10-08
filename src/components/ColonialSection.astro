@@ -1,0 +1,22 @@
+---
+export interface Props {
+  colonialRoot: {
+    colonialPower: string;
+    legacy: string;
+  };
+}
+
+const { colonialRoot } = Astro.props;
+
+function formatText(text: string): string {
+  return text
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.*?)\*/g, '<em>$1</em>');
+}
+---
+
+<section class='colonial-section'>
+  <h2>The Colonial Root</h2>
+  <h3>{colonialRoot.colonialPower}</h3>
+  <p set:html={formatText(colonialRoot.legacy)} />
+</section>
