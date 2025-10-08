@@ -15,6 +15,48 @@
     "casualties": "Over 4,500 killed by junta since coup",
     "affected": "18.6 million people in need of humanitarian assistance"
   },
+  "timeline": [
+    {
+      "year": "1824-1826",
+      "event": "**First Anglo-Burmese War** - British begin colonial conquest"
+    },
+    {
+      "year": "1886",
+      "event": "**Third Anglo-Burmese War** - Britain completes conquest of Burma"
+    },
+    {
+      "year": "1948",
+      "event": "**Independence** - Burma gains independence from British Empire"
+    },
+    {
+      "year": "1962",
+      "event": "**Military coup** - General Ne Win establishes military rule"
+    },
+    {
+      "year": "1988",
+      "event": "**8888 Uprising** - Pro-democracy protests brutally suppressed by military"
+    },
+    {
+      "year": "1990",
+      "event": "**Elections ignored** - NLD wins elections but military refuses to transfer power"
+    },
+    {
+      "year": "2007",
+      "event": "**Saffron Revolution** - Buddhist monks lead protests against military rule"
+    },
+    {
+      "year": "2010-2015",
+      "event": "**Democratic transition** - Limited civilian government under Thein Sein"
+    },
+    {
+      "year": "2017",
+      "event": "**Rohingya genocide** - Military launches systematic campaign against Rohingya"
+    },
+    {
+      "year": "2021",
+      "event": "**Military coup** - Tatmadaw overthrows civilian government, civil war begins"
+    }
+  ],
   "takeAction": {
     "donate": [
       {

@@ -15,6 +15,60 @@
     "casualties": "Over 6 million deaths since 1996 (mostly from disease and malnutrition)",
     "affected": "26 million people in need of humanitarian assistance"
   },
+  "timeline": [
+    {
+      "year": "1885",
+      "event": "**Congo Free State** - King Leopold II of Belgium establishes personal rule"
+    },
+    {
+      "year": "1908",
+      "event": "**Belgian Congo** - Territory becomes Belgian colony after international outcry"
+    },
+    {
+      "year": "1960",
+      "event": "**Independence** - DRC gains independence from Belgium"
+    },
+    {
+      "year": "1965",
+      "event": "**Mobutu coup** - Joseph-Désiré Mobutu seizes power in military coup"
+    },
+    {
+      "year": "1971",
+      "event": "**Zaire renamed** - Country renamed Zaire under Mobutu's rule"
+    },
+    {
+      "year": "1994",
+      "event": "**Rwandan genocide spillover** - Refugee crisis and regional conflicts destabilize eastern DRC"
+    },
+    {
+      "year": "1996-1997",
+      "event": "**First Congo War** - Laurent-Désiré Kabila overthrows Mobutu"
+    },
+    {
+      "year": "1998-2003",
+      "event": "**Second Congo War** - Regional conflict involving multiple African nations"
+    },
+    {
+      "year": "2001",
+      "event": "**Laurent Kabila assassinated** - Son Joseph Kabila becomes president"
+    },
+    {
+      "year": "2006",
+      "event": "**First democratic elections** - Joseph Kabila wins presidency"
+    },
+    {
+      "year": "2010",
+      "event": "**MONUSCO established** - UN peacekeeping mission begins operations in DRC"
+    },
+    {
+      "year": "2019",
+      "event": "**Félix Tshisekedi becomes president** - First peaceful transition of power in DRC"
+    },
+    {
+      "year": "2018-present",
+      "event": "**Eastern DRC conflict** - Ongoing violence involving 130+ armed groups"
+    }
+  ],
   "takeAction": {
     "donate": [
       {

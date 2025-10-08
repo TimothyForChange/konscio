@@ -15,6 +15,48 @@
     "casualties": "Over 15,000 killed since April 2023",
     "affected": "25 million people in need of humanitarian assistance"
   },
+  "timeline": [
+    {
+      "year": "1899",
+      "event": "**Anglo-Egyptian Condominium** established - British rule begins over Sudan"
+    },
+    {
+      "year": "1956",
+      "event": "**Independence** - Sudan gains independence from British-Egyptian rule"
+    },
+    {
+      "year": "1958",
+      "event": "**First military coup** - General Ibrahim Abboud seizes power"
+    },
+    {
+      "year": "1983-2005",
+      "event": "**Second Sudanese Civil War** - Conflict between North and South Sudan"
+    },
+    {
+      "year": "2003",
+      "event": "**Darfur conflict begins** - Rebellion and ethnic violence in western Sudan"
+    },
+    {
+      "year": "2011",
+      "event": "**South Sudan independence** - South Sudan secedes following referendum"
+    },
+    {
+      "year": "2019",
+      "event": "**Omar al-Bashir overthrown** - Military coup ends 30-year dictatorship"
+    },
+    {
+      "year": "2019-2021",
+      "event": "**Transitional government** - Civilian-military power-sharing arrangement"
+    },
+    {
+      "year": "2021",
+      "event": "**Military coup** - General al-Burhan dissolves transitional government"
+    },
+    {
+      "year": "2023",
+      "event": "**Civil war begins** - SAF and RSF fight for control of Sudan"
+    }
+  ],
   "takeAction": {
     "donate": [
       {

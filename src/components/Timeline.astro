@@ -1,0 +1,165 @@
+---
+interface TimelineEvent {
+  year: string;
+  event: string;
+}
+
+interface Props {
+  timeline: TimelineEvent[];
+}
+
+const { timeline } = Astro.props;
+
+function formatText(text: string): string {
+  return text
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.*?)\*/g, '<em>$1</em>');
+}
+---
+
+<section class='timeline-section'>
+  <h2 class='timeline-title'>Historical Timeline</h2>
+  <div class='timeline-container'>
+    <div class='timeline-line'></div>
+    {
+      timeline.map((item) => (
+        <div class='timeline-item'>
+          <div class='timeline-marker' />
+          <div class='timeline-content'>
+            <div class='timeline-year'>{item.year}</div>
+            <div class='timeline-event' set:html={formatText(item.event)} />
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .timeline-section {
+    margin: 2rem 0;
+    padding: 1.5rem 0;
+  }
+
+  .timeline-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    text-align: left;
+    border-bottom: 2px solid var(--accent-primary);
+    padding-bottom: 0.5rem;
+  }
+
+  .timeline-container {
+    position: relative;
+    padding-left: 2rem;
+  }
+
+  .timeline-line {
+    position: absolute;
+    left: 12px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(
+      to bottom,
+      var(--accent-primary),
+      var(--accent-secondary)
+    );
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .timeline-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .timeline-marker {
+    position: absolute;
+    left: -1.5625rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background: var(--accent-primary);
+    border: 3px solid var(--bg);
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px var(--accent-primary);
+    z-index: 2;
+  }
+
+  .timeline-content {
+    flex: 1;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+  }
+
+  .timeline-content:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+  }
+
+  .timeline-year {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--accent-primary);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .timeline-event {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 0.9rem;
+  }
+
+  .timeline-event :global(strong) {
+    color: var(--text-primary);
+    font-weight: 600;
+  }
+
+  @media (max-width: 768px) {
+    .timeline-container {
+      padding-left: 1.5rem;
+    }
+
+    .timeline-marker {
+      left: -1.5rem;
+      width: 10px;
+      height: 10px;
+    }
+
+    .timeline-content {
+      padding: 0.875rem 1rem;
+    }
+
+    .timeline-year {
+      font-size: 0.8rem;
+    }
+
+    .timeline-event {
+      font-size: 0.85rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .timeline-content {
+      transition: none;
+    }
+
+    .timeline-content:hover {
+      transform: none;
+    }
+  }
+</style>

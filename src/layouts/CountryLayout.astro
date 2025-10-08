@@ -8,6 +8,7 @@ import CrisisSection from '../components/CrisisSection.astro';
 import HistoricalContext from '../components/HistoricalContext.astro';
 import HumanitarianImpact from '../components/HumanitarianImpact.astro';
 import TakeAction from '../components/TakeAction.astro';
+import Timeline from '../components/Timeline.astro';
 
 const { countryData } = Astro.props;
 const pageDescription = `Learn about the humanitarian crisis in ${countryData.name} - Timothy Brits (Mooship) raises awareness about ongoing conflicts and issues affecting communities worldwide.`;
@@ -26,10 +27,6 @@ const canonicalUrl = `https://mooship.co.za/${countryData.name.toLowerCase()}`;
 
         <CrisisSection summary={countryData.currentCrisisSummary} />
 
-        <ColonialSection colonialRoot={countryData.colonialRoot} />
-
-        <HistoricalContext coreTerms={countryData.coreTerms} />
-
         {
           countryData.humanitarianImpact && (
             <HumanitarianImpact
@@ -37,6 +34,12 @@ const canonicalUrl = `https://mooship.co.za/${countryData.name.toLowerCase()}`;
             />
           )
         }
+
+        {countryData.timeline && <Timeline timeline={countryData.timeline} />}
+
+        <ColonialSection colonialRoot={countryData.colonialRoot} />
+
+        <HistoricalContext coreTerms={countryData.coreTerms} />
 
         {
           countryData.takeAction && (
