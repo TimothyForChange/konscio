@@ -2,6 +2,9 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 import http from 'node:http';
 import https from 'node:https';
 import { extname, resolve } from 'node:path';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const CACHE_VERSION = 1;
 
@@ -33,6 +36,110 @@ const DEFAULTS = {
   headSatisfiesSuccess: true,
 };
 
+function parseBool(val) {
+  if (val === undefined || val === null) {
+    return undefined;
+  }
+  const s = String(val).trim().toLowerCase();
+  return s === '1' || s === 'true' || s === 'yes' || s === 'on';
+}
+
+function parseCSV(val) {
+  if (!val) {
+    return [];
+  }
+  return String(val)
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean);
+}
+
+function buildEnvOverridesFromProcess() {
+  const env = process.env;
+  const out = {};
+  if (env.BROKEN_LINKS_TIMEOUT) {
+    const n = Number(env.BROKEN_LINKS_TIMEOUT);
+    if (Number.isFinite(n)) {
+      out.timeout = n;
+    }
+  }
+  if (env.BROKEN_LINKS_CONCURRENCY) {
+    const n = Number(env.BROKEN_LINKS_CONCURRENCY);
+    if (Number.isFinite(n)) {
+      out.concurrency = n;
+    }
+  }
+  if (env.BROKEN_LINKS_WARN_ONLY !== undefined) {
+    out.warnOnly = parseBool(env.BROKEN_LINKS_WARN_ONLY);
+  }
+  if (env.BROKEN_LINKS_USER_AGENT) {
+    out.userAgent = env.BROKEN_LINKS_USER_AGENT;
+  }
+  if (env.BROKEN_LINKS_RANDOMIZE_UA !== undefined) {
+    out.randomizeUserAgent = parseBool(env.BROKEN_LINKS_RANDOMIZE_UA);
+  }
+  if (env.BROKEN_LINKS_JITTER_MS) {
+    const n = Number(env.BROKEN_LINKS_JITTER_MS);
+    if (Number.isFinite(n)) {
+      out.jitterMs = n;
+    }
+  }
+  if (env.BROKEN_LINKS_MAX_REDIRECTS) {
+    const n = Number(env.BROKEN_LINKS_MAX_REDIRECTS);
+    if (Number.isFinite(n)) {
+      out.maxRedirects = n;
+    }
+  }
+  if (env.BROKEN_LINKS_RETRIES) {
+    const n = Number(env.BROKEN_LINKS_RETRIES);
+    if (Number.isFinite(n)) {
+      out.retries = n;
+    }
+  }
+  if (env.BROKEN_LINKS_RETRY_DELAY) {
+    const n = Number(env.BROKEN_LINKS_RETRY_DELAY);
+    if (Number.isFinite(n)) {
+      out.retryDelay = n;
+    }
+  }
+  if (env.BROKEN_LINKS_TREAT_403_AS_OK !== undefined) {
+    out.treat403AsOk = parseBool(env.BROKEN_LINKS_TREAT_403_AS_OK);
+  }
+  if (env.BROKEN_LINKS_CACHE !== undefined) {
+    out.cache = parseBool(env.BROKEN_LINKS_CACHE);
+  }
+  if (env.BROKEN_LINKS_CACHE_FILE) {
+    out.cacheFile = env.BROKEN_LINKS_CACHE_FILE;
+  }
+  if (env.BROKEN_LINKS_CACHE_MAX_AGE_MS) {
+    const n = Number(env.BROKEN_LINKS_CACHE_MAX_AGE_MS);
+    if (Number.isFinite(n)) {
+      out.cacheMaxAgeMs = n;
+    }
+  }
+  if (env.BROKEN_LINKS_REFERER) {
+    out.referer = env.BROKEN_LINKS_REFERER;
+  }
+  if (env.BROKEN_LINKS_ALLOW_PATTERNS) {
+    const patterns = parseCSV(env.BROKEN_LINKS_ALLOW_PATTERNS);
+    const regs = [];
+    for (const p of patterns) {
+      try {
+        regs.push(new RegExp(p));
+      } catch {
+        regs.push(new RegExp(p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
+      }
+    }
+    out.allowPatterns = regs;
+  }
+  if (env.BROKEN_LINKS_FAIL_ON) {
+    out.failOn = parseCSV(env.BROKEN_LINKS_FAIL_ON)
+      .map((n) => Number(n))
+      .filter((v) => !Number.isNaN(v));
+  }
+  return out;
+}
+
 function pickProtocol(url) {
   return url.startsWith('https:') ? https : http;
 }
@@ -57,7 +164,9 @@ function sleep(ms) {
 async function requestUrl(url, options, depth = 0, method = 'GET') {
   if (options.jitterMs) {
     const jitter = Math.random() * options.jitterMs;
-    if (jitter > 5) await sleep(jitter);
+    if (jitter > 5) {
+      await sleep(jitter);
+    }
   }
   return new Promise((resolvePromise) => {
     if (depth > options.maxRedirects) {
@@ -118,9 +227,12 @@ function hostnameFromUrl(u) {
 
 async function headThenGetIfNeeded(url, options) {
   const host = hostnameFromUrl(url);
-  if (!options.headPrefetchDomains || !options.headPrefetchDomains.length)
+  if (!options.headPrefetchDomains || !options.headPrefetchDomains.length) {
     return null;
-  if (!options.headPrefetchDomains.includes(host)) return null;
+  }
+  if (!options.headPrefetchDomains.includes(host)) {
+    return null;
+  }
   const headRes = await requestUrl(url, options, 0, 'HEAD');
   if (options.headSatisfiesSuccess && headRes.status && headRes.status < 400) {
     return headRes;
@@ -252,7 +364,9 @@ function createLimiter(limit) {
 }
 
 function loadCache(options) {
-  if (!options.cache) return null;
+  if (!options.cache) {
+    return null;
+  }
   try {
     const raw = require('node:fs').readFileSync(options.cacheFile, 'utf8');
     const parsed = JSON.parse(raw);
@@ -289,10 +403,11 @@ async function persistCache(options, cacheState) {
 
 export function brokenLinksIntegration(userOptions = {}) {
   const strictEnv = process.env.BROKEN_LINKS_STRICT === '1';
-  const merged = { ...DEFAULTS, ...userOptions };
+  const envOverrides = buildEnvOverridesFromProcess();
+  const merged = { ...DEFAULTS, ...envOverrides, ...userOptions };
   const options = {
     ...merged,
-    warnOnly: strictEnv ? (merged.warnOnly === false ? false : false) : true,
+    warnOnly: strictEnv ? false : merged.warnOnly,
   };
   const skip = process.env.SKIP_LINK_CHECK === '1';
   const cacheState = loadCache(options);
