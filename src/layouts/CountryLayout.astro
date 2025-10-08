@@ -45,3 +45,40 @@ const { countryData } = Astro.props;
     </main>
   </div>
 </Layout>
+
+<style>
+  .country-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+
+  .country-bottom-back {
+    display: flex;
+    justify-content: center;
+    margin: 1.25rem 0 0.5rem 0;
+  }
+
+  .country-page p {
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .country-page {
+      padding: 1rem;
+    }
+
+    .country-title {
+      font-size: 2rem;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .country-flag {
+      font-size: 1.5rem;
+    }
+  }
+</style>

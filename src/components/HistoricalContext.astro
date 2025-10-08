@@ -29,8 +29,8 @@ function formatTermKey(key: string): string {
 }
 ---
 
-<section class='terms-section'>
-  <h2>Historical Context</h2>
+<section class='terms-section' aria-labelledby='history-heading'>
+  <h2 id='history-heading'>Historical Context</h2>
 
   {
     Object.entries(coreTerms).map(([key, value]) => (
@@ -41,3 +41,44 @@ function formatTermKey(key: string): string {
     ))
   }
 </section>
+
+<style>
+  .terms-section {
+    margin-bottom: 1.5rem;
+  }
+
+  .terms-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-primary);
+    padding-bottom: 0.5rem;
+  }
+
+  .terms-section h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .term-group {
+    margin-bottom: 1.25rem;
+  }
+
+  .term-group:last-child {
+    margin-bottom: 0;
+  }
+
+  .term-group:first-child h3 {
+    margin-top: 0;
+  }
+
+  @media (max-width: 768px) {
+    .terms-section h2 {
+      font-size: 1.25rem;
+    }
+  }
+</style>

@@ -8,6 +8,90 @@ const { href = '/', class: className = '' } = Astro.props;
 ---
 
 <a href={href} class={`back-button ${className}`}>
-  <i class='ri-arrow-left-line'></i>
+  <i class='ri-arrow-left-long-line'></i>
   Back to Home
 </a>
+
+<style>
+  .back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding: 10px 14px;
+    border-radius: 8px;
+    min-height: 44px;
+    min-width: 44px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    transition:
+      color 0.2s ease,
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      transform 0.15s ease;
+    box-sizing: border-box;
+  }
+
+  .back-button:hover {
+    color: var(--text-primary);
+    background-color: var(--accent-primary);
+    color: var(--on-accent);
+    border-color: var(--accent-primary);
+    transform: translateY(-1px);
+  }
+
+  .back-button:focus-visible {
+    outline: 2px solid var(--accent-primary);
+    outline-offset: 2px;
+    background-color: var(--accent-primary);
+    color: var(--on-accent);
+    border-color: var(--accent-primary);
+  }
+
+  .back-button:active {
+    background-color: var(--accent-secondary);
+    color: var(--on-accent);
+    border-color: var(--accent-secondary);
+    transform: scale(0.95) translateY(0);
+    transition:
+      background-color 0.1s ease,
+      color 0.1s ease,
+      transform 0.1s ease;
+  }
+
+  @media (hover: none) and (pointer: coarse) {
+    .back-button {
+      padding: 14px 18px;
+      min-height: 48px;
+      min-width: 48px;
+      border-radius: 10px;
+    }
+
+    .back-button:hover {
+      background-color: var(--bg-surface);
+      color: var(--text-secondary);
+      border-color: var(--border);
+      transform: none;
+    }
+
+    .back-button:active {
+      background-color: var(--accent-primary);
+      color: var(--on-accent);
+      border-color: var(--accent-primary);
+      transform: scale(0.95);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .back-button {
+      padding: 14px 18px;
+      min-height: 48px;
+      min-width: 48px;
+      font-size: 1rem;
+      border-radius: 10px;
+    }
+  }
+</style>

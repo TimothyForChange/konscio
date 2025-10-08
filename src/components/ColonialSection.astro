@@ -15,8 +15,41 @@ function formatText(text: string): string {
 }
 ---
 
-<section class='colonial-section'>
-  <h2>The Colonial Root</h2>
+<section class='colonial-section' aria-labelledby='colonial-heading'>
+  <h2 id='colonial-heading'>The Colonial Root</h2>
   <h3>{colonialRoot.colonialPower}</h3>
   <p set:html={formatText(colonialRoot.legacy)} />
 </section>
+
+<style>
+  .colonial-section {
+    margin-bottom: 1.5rem;
+  }
+
+  .colonial-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-primary);
+    padding-bottom: 0.5rem;
+  }
+
+  .colonial-section h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+    margin-top: 1rem;
+  }
+
+  .colonial-section h3:first-of-type {
+    margin-top: 0;
+  }
+
+  @media (max-width: 768px) {
+    .colonial-section h2 {
+      font-size: 1.25rem;
+    }
+  }
+</style>

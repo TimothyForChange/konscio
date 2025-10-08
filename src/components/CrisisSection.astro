@@ -12,7 +12,28 @@ function formatText(text: string): string {
 }
 ---
 
-<section class='crisis-section'>
-  <h2>Current Crisis Summary</h2>
+<section class='crisis-section' aria-labelledby='crisis-heading'>
+  <h2 id='crisis-heading'>Current Crisis Summary</h2>
   <p set:html={formatText(summary)} />
 </section>
+
+<style>
+  .crisis-section {
+    margin-bottom: 1.5rem;
+  }
+
+  .crisis-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-primary);
+    padding-bottom: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .crisis-section h2 {
+      font-size: 1.25rem;
+    }
+  }
+</style>

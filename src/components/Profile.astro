@@ -4,11 +4,26 @@ import userData from '../data/user.json';
 const { name, profession, bio } = userData;
 
 const replacements: Array<[RegExp, string]> = [
-  [/Palestine/g, '<a href="/palestine" class="country-link">Palestine 🇵🇸</a>'],
-  [/Sudan/g, '<a href="/sudan" class="country-link">Sudan 🇸🇩</a>'],
-  [/Myanmar/g, '<a href="/myanmar" class="country-link">Myanmar 🇲🇲</a>'],
-  [/Ukraine/g, '<a href="/ukraine" class="country-link">Ukraine 🇺🇦</a>'],
-  [/the DRC/g, '<a href="/drc" class="country-link">the DRC 🇨🇩</a>'],
+  [
+    /Palestine/g,
+    '<a href="/palestine" class="country-link">Palestine <span class="country-emoji">🇵🇸</span></a>',
+  ],
+  [
+    /Sudan/g,
+    '<a href="/sudan" class="country-link">Sudan <span class="country-emoji">🇸🇩</span></a>',
+  ],
+  [
+    /Myanmar/g,
+    '<a href="/myanmar" class="country-link">Myanmar <span class="country-emoji">🇲🇲</span></a>',
+  ],
+  [
+    /Ukraine/g,
+    '<a href="/ukraine" class="country-link">Ukraine <span class="country-emoji">🇺🇦</span></a>',
+  ],
+  [
+    /the DRC/g,
+    '<a href="/drc" class="country-link">the DRC <span class="country-emoji">🇨🇩</span></a>',
+  ],
 ];
 const bioHtml = replacements.reduce(
   (acc, [pattern, value]) => acc.replace(pattern, value),
@@ -38,3 +53,162 @@ const bioHtml = replacements.reduce(
     </div>
   </div>
 </header>
+
+<style>
+  .profile {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-picture-content {
+    padding: 0.25rem;
+    border-radius: 100%;
+    border: 2px solid var(--border);
+    background: var(--bg-card);
+  }
+
+  .profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    background: var(--bg-surface);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+  }
+
+  .profile-picture img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
+  .profile-data {
+    margin-top: 1.125rem;
+    text-align: center;
+  }
+
+  .profile-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+  }
+
+  .profile-profession {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+  }
+
+  .profile-bio {
+    margin-top: 1rem;
+    max-width: 24rem;
+  }
+
+  .profile-bio-text {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--text-primary);
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .profile-bio .profile-bio-text a {
+    color: var(--accent-primary);
+    text-decoration: underline;
+    transition: none;
+    font-weight: 600;
+  }
+
+  .profile-bio .profile-bio-text a:focus-visible {
+    outline: 2px solid var(--accent-primary);
+    outline-offset: 2px;
+  }
+
+  :global(.country-link) {
+    border-radius: 6px;
+    padding: 8px 6px;
+    margin: -4px -2px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    min-height: 44px;
+    min-width: 44px;
+    line-height: 1.4;
+    text-align: center;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  :global(.country-link:hover) {
+    background-color: var(--accent-primary);
+    color: var(--on-accent);
+    text-decoration: none;
+  }
+
+  :global(.country-emoji) {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1em; /* keep emoji same size as text */
+    line-height: 1;
+    margin-left: 0.15rem;
+    transform: translateY(-0.03em); /* tiny tweak to visually center */
+  }
+
+  :global(.country-link),
+  :global(.country-link:visited) {
+    color: var(--accent-primary);
+    text-decoration: underline;
+    text-decoration-thickness: 1.2px;
+    text-underline-offset: 2px;
+  }
+
+  :global(.country-link:focus-visible) {
+    outline: 2px solid var(--accent-primary);
+    outline-offset: 2px;
+    background-color: var(--accent-primary);
+    color: var(--on-accent);
+  }
+
+  @media (max-width: 768px) {
+    :global(.country-link) {
+      padding: 10px 8px;
+      margin: -6px -4px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      min-height: 48px;
+      min-width: 48px;
+    }
+  }
+
+  @media (hover: none) and (pointer: coarse) {
+    :global(.country-link) {
+      padding: 12px 10px;
+      margin: -8px -6px;
+      min-height: 48px;
+      min-width: 48px;
+      border-radius: 8px;
+    }
+
+    :global(.country-link:active) {
+      background-color: var(--accent-primary);
+      color: var(--on-accent);
+      text-decoration: none;
+      transform: scale(0.95);
+      transition:
+        background-color 0.1s ease,
+        transform 0.1s ease;
+    }
+  }
+</style>

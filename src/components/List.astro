@@ -20,3 +20,50 @@ const items = dataList.links;
     ))
   }
 </ul>
+
+<style>
+  .list {
+    margin: 2rem 0;
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  .list > li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .list-animated {
+    animation-delay: 0ms;
+  }
+
+  .list-animated[data-index='1'] {
+    animation-delay: 80ms;
+  }
+
+  .list-animated[data-index='2'] {
+    animation-delay: 160ms;
+  }
+
+  .list-animated[data-index='3'] {
+    animation-delay: 240ms;
+  }
+
+  .list-animated[data-index='4'] {
+    animation-delay: 320ms;
+  }
+
+  .list-animated[data-index='5'] {
+    animation-delay: 400ms;
+  }
+
+  .list-animated[data-index='6'] {
+    animation-delay: 480ms;
+  }
+
+  .list-animated[data-index='7'] {
+    animation-delay: 560ms;
+  }
+</style>
