@@ -145,8 +145,8 @@ const bioHtml = replacements.reduce(
   }
 
   :global(.country-link:hover) {
-    background-color: var(--accent-primary);
-    color: var(--on-accent);
+    background-color: var(--bg-alt);
+    color: var(--text-primary);
     text-decoration: none;
   }
 
@@ -161,16 +161,18 @@ const bioHtml = replacements.reduce(
 
   :global(.country-link),
   :global(.country-link:visited) {
+    color: var(--accent-secondary);
     text-decoration: underline;
     text-decoration-thickness: 1.2px;
     text-underline-offset: 2px;
+    font-weight: 500;
   }
 
   :global(.country-link:focus-visible) {
     outline: 2px solid var(--accent-primary);
     outline-offset: 2px;
-    background-color: var(--accent-primary);
-    color: var(--on-accent);
+    background-color: var(--bg-alt);
+    color: var(--text-primary);
   }
 
   @media (max-width: 768px) {
@@ -194,8 +196,8 @@ const bioHtml = replacements.reduce(
     }
 
     :global(.country-link:active) {
-      background-color: var(--accent-primary);
-      color: var(--on-accent);
+      background-color: var(--bg-alt);
+      color: var(--text-primary);
       text-decoration: none;
       transform: scale(0.95);
       transition:
