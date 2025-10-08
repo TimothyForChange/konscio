@@ -317,7 +317,7 @@ async function extractLinksFromJsonFile(filePath) {
     walk(json);
     return Array.from(urls);
   } catch (e) {
-    console.warn('[broken-links] Failed to parse JSON', filePath, e?.message);
+    console.warn('Failed to parse JSON', filePath, e?.message);
     return [];
   }
 }
@@ -331,7 +331,7 @@ async function gatherJsonFiles(options) {
   try {
     entries = await readdir(dir, { withFileTypes: true });
   } catch (e) {
-    console.warn('[broken-links] Could not read directory', dir, e?.message);
+    console.warn('Could not read directory', dir, e?.message);
     return [];
   }
   return entries
@@ -397,7 +397,7 @@ async function persistCache(options, cacheState) {
   try {
     await writeFile(options.cacheFile, JSON.stringify(obj, null, 2), 'utf8');
   } catch (e) {
-    console.warn('[broken-links] Failed to write cache', e?.message);
+    console.warn('Failed to write cache', e?.message);
   }
 }
 
@@ -417,16 +417,16 @@ export function brokenLinksIntegration(userOptions = {}) {
     hooks: {
       'astro:build:done': async ({ logger }) => {
         if (skip) {
-          logger.info('[broken-links] Skipped via SKIP_LINK_CHECK=1');
+          logger.info('Skipped via SKIP_LINK_CHECK=1');
           return;
         }
         const files = await gatherJsonFiles(options);
         if (!files.length) {
-          logger.info('[broken-links] No JSON files found to scan.');
+          logger.info('No JSON files found to scan.');
           return;
         }
         logger.info(
-          `[broken-links] Scanning ${files.length} JSON file(s) for external links...`
+          `Scanning ${files.length} JSON file(s) for external links...`
         );
         const allLinks = new Set();
         for (const f of files) {
@@ -436,9 +436,7 @@ export function brokenLinksIntegration(userOptions = {}) {
         const candidates = Array.from(allLinks).filter(
           (url) => !options.allowPatterns.some((r) => r.test(url))
         );
-        logger.info(
-          `[broken-links] Checking ${candidates.length} unique URL(s)...`
-        );
+        logger.info(`Checking ${candidates.length} unique URL(s)...`);
         const limiter = createLimiter(options.concurrency);
         const results = [];
 
@@ -447,11 +445,9 @@ export function brokenLinksIntegration(userOptions = {}) {
             limiter(async () => {
               const res = await checkUrl(url, options, cache);
               if (res.broken) {
-                logger.warn(`[broken-links] BROKEN (${res.status}) ${url}`);
+                logger.warn(`BROKEN (${res.status}) ${url}`);
               } else if (res.note) {
-                logger.info(
-                  `[broken-links] OK (${res.status}) ${url} - ${res.note}`
-                );
+                logger.info(`OK (${res.status}) ${url} - ${res.note}`);
               }
               if (options.cache && cache && !cache.has(url)) {
                 cacheState.dirty = true;
@@ -468,15 +464,15 @@ export function brokenLinksIntegration(userOptions = {}) {
           const RESET = '\u001b[0m';
           if (options.warnOnly) {
             logger.warn(
-              `\n${RED}[broken-links] ${broken.length} broken link(s) detected (warn-only mode).${RESET}\n${summary}`
+              `\n${RED}${broken.length} broken link(s) detected (warn-only mode).${RESET}\n${summary}`
             );
           } else {
             throw new Error(
-              `[broken-links] ${broken.length} broken link(s) detected:\n${summary}`
+              `${broken.length} broken link(s) detected:\n${summary}`
             );
           }
         } else {
-          logger.info('[broken-links] All links OK');
+          logger.info('All links OK');
         }
         await persistCache(options, cacheState);
       },
