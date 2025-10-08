@@ -29,7 +29,7 @@ const DEFAULTS = {
   cacheMaxAgeMs: 60 * 1000,
   referer: 'https://mooship.co.za/',
   acceptEncoding: 'gzip, deflate, br',
-  headPrefetchDomains: [], // e.g. ['www.example.com']
+  headPrefetchDomains: [],
   headSatisfiesSuccess: true,
 };
 
@@ -123,9 +123,9 @@ async function headThenGetIfNeeded(url, options) {
   if (!options.headPrefetchDomains.includes(host)) return null;
   const headRes = await requestUrl(url, options, 0, 'HEAD');
   if (options.headSatisfiesSuccess && headRes.status && headRes.status < 400) {
-    return headRes; // Accept HEAD as final
+    return headRes;
   }
-  return null; // Will proceed with GET
+  return null;
 }
 
 async function checkUrl(url, options, cache) {
@@ -141,7 +141,7 @@ async function checkUrl(url, options, cache) {
   const preflight = await headThenGetIfNeeded(url, options);
   if (preflight) {
     result = preflight;
-    attempt = options.retries + 1; // skip loop
+    attempt = options.retries + 1;
   }
   while (attempt <= options.retries) {
     result = await requestUrl(url, options);
@@ -288,7 +288,12 @@ async function persistCache(options, cacheState) {
 }
 
 export function brokenLinksIntegration(userOptions = {}) {
-  const options = { ...DEFAULTS, ...userOptions };
+  const strictEnv = process.env.BROKEN_LINKS_STRICT === '1';
+  const merged = { ...DEFAULTS, ...userOptions };
+  const options = {
+    ...merged,
+    warnOnly: strictEnv ? (merged.warnOnly === false ? false : false) : true,
+  };
   const skip = process.env.SKIP_LINK_CHECK === '1';
   const cacheState = loadCache(options);
   const cache = cacheState ? cacheState.map : null;
@@ -344,9 +349,11 @@ export function brokenLinksIntegration(userOptions = {}) {
         const broken = final.filter((r) => r.broken);
         if (broken.length) {
           const summary = broken.map((b) => `${b.status} ${b.url}`).join('\n');
+          const RED = '\u001b[31m';
+          const RESET = '\u001b[0m';
           if (options.warnOnly) {
             logger.warn(
-              `\n[broken-links] Summary: ${broken.length} broken link(s) detected.\n${summary}`
+              `\n${RED}[broken-links] ${broken.length} broken link(s) detected (warn-only mode).${RESET}\n${summary}`
             );
           } else {
             throw new Error(

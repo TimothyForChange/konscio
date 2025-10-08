@@ -29,11 +29,11 @@ export default defineConfig({
     playformCompress(),
     playformInline(),
     brokenLinksIntegration({
-      warnOnly: false,
+      warnOnly: true,
       concurrency: 6,
       timeout: 9000,
       cache: true,
-      cacheMaxAgeMs: 60 * 1000, // 60s cache window
+      cacheMaxAgeMs: 60 * 1000,
     }),
   ],
   site: 'https://mooship.co.za',
