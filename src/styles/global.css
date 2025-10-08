@@ -397,17 +397,20 @@ html::-webkit-scrollbar-corner {
     padding: 14px 18px;
     min-height: 48px;
     min-width: 48px;
-    border-radius: 8px;
+    border-radius: 10px;
   }
 
   .back-button:hover {
-    background-color: transparent;
+    background-color: var(--bg-surface);
     color: var(--text-secondary);
+    border-color: var(--border);
+    transform: none;
   }
 
   .back-button:active {
     background-color: var(--accent-primary);
     color: var(--on-accent);
+    border-color: var(--accent-primary);
     transform: scale(0.95);
   }
 }
@@ -521,32 +524,42 @@ html::-webkit-scrollbar-corner {
   color: var(--text-secondary);
   text-decoration: none;
   font-weight: 500;
-  margin-bottom: 1.5rem;
-  padding: 8px 12px;
-  border-radius: 6px;
+  margin-bottom: 1rem;
+  padding: 10px 14px;
+  border-radius: 8px;
   min-height: 44px;
   min-width: 44px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
   transition:
     color 0.2s ease,
-    background-color 0.2s ease;
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.15s ease;
   box-sizing: border-box;
 }
 
 .back-button:hover {
   color: var(--text-primary);
-  background-color: var(--bg-surface);
+  background-color: var(--accent-primary);
+  color: var(--on-accent);
+  border-color: var(--accent-primary);
+  transform: translateY(-1px);
 }
 
 .back-button:focus-visible {
   outline: 2px solid var(--accent-primary);
   outline-offset: 2px;
-  background-color: var(--bg-surface);
+  background-color: var(--accent-primary);
+  color: var(--on-accent);
+  border-color: var(--accent-primary);
 }
 
 .back-button:active {
-  background-color: var(--accent-primary);
+  background-color: var(--accent-secondary);
   color: var(--on-accent);
-  transform: scale(0.95);
+  border-color: var(--accent-secondary);
+  transform: scale(0.95) translateY(0);
   transition:
     background-color 0.1s ease,
     color 0.1s ease,
@@ -625,11 +638,11 @@ html::-webkit-scrollbar-corner {
   }
 
   .back-button {
-    padding: 12px 16px;
+    padding: 14px 18px;
     min-height: 48px;
     min-width: 48px;
     font-size: 1rem;
-    border-radius: 8px;
+    border-radius: 10px;
   }
 }
 
