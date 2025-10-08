@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://mooship.co.za/sitemap.xml
+Sitemap: https://mooship.co.za/sitemap-index.xml
 Crawl-delay: 1
