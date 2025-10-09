@@ -1,66 +1,28 @@
 ---
-import TimelineItem from './TimelineItem.astro';
+import { formatText } from '../scripts/utils';
 
-interface TimelineEvent {
+export interface TimelineItemProps {
   year?: string;
   event?: string;
 }
-
-interface Props {
-  timeline?: TimelineEvent[] | Array<Record<string, string>>;
-}
-
-const { timeline } = Astro.props as Props;
-
-if (!timeline || timeline.length === 0) {
-  return null;
-}
+const { year, event } = Astro.props as TimelineItemProps;
 ---
 
-<section class='timeline-section'>
-  <h2 class='timeline-title'>Historical Timeline</h2>
-  <div class='timeline-container'>
-    {
-      timeline.map((item) => (
-        <TimelineItem year={item.year} event={item.event} />
-      ))
-    }
+<div class='timeline-item'>
+  <div class='timeline-content'>
+    <div class='timeline-year'>{year}</div>
+    <div class='timeline-event' set:html={formatText(event ?? '')} />
   </div>
-</section>
+</div>
 
 <style>
-  .timeline-section {
-    margin: 2rem 0;
-    padding: 1.5rem 0;
-  }
-
-  .timeline-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 1.5rem;
-    text-align: left;
-    border-bottom: 2px solid var(--accent-primary);
-    padding-bottom: 0.5rem;
-  }
-
-  .timeline-container {
-    position: relative;
-    padding-left: 2rem;
-    border-left: 3px solid var(--accent-primary);
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-
   .timeline-item {
     position: relative;
     margin-bottom: 2rem;
   }
-
   .timeline-item:last-child {
     margin-bottom: 0;
   }
-
   .timeline-item::before {
     content: '';
     position: absolute;
@@ -75,7 +37,6 @@ if (!timeline || timeline.length === 0) {
     box-shadow: 0 0 0 1px var(--accent-primary);
     z-index: 2;
   }
-
   .timeline-content {
     background: var(--bg-card);
     border: 1px solid var(--border);
@@ -83,7 +44,6 @@ if (!timeline || timeline.length === 0) {
     padding: 1rem 1.25rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
-
   .timeline-year {
     font-weight: 700;
     font-size: 0.875rem;
@@ -92,49 +52,29 @@ if (!timeline || timeline.length === 0) {
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
-
   .timeline-event {
     color: var(--text-secondary);
     line-height: 1.6;
     font-size: 0.9rem;
   }
-
   .timeline-event :global(strong) {
     color: var(--text-primary);
     font-weight: 600;
   }
-
   @media (max-width: 768px) {
-    .timeline-container {
-      padding-left: 1.5rem;
-    }
-
     .timeline-item::before {
       left: -1.875rem;
       width: 10px;
       height: 10px;
     }
-
     .timeline-content {
       padding: 0.875rem 1rem;
     }
-
     .timeline-year {
       font-size: 0.8rem;
     }
-
     .timeline-event {
       font-size: 0.85rem;
-    }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .timeline-content {
-      transition: none;
-    }
-
-    .timeline-content:hover {
-      transform: none;
     }
   }
 </style>

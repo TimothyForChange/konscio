@@ -1,6 +1,7 @@
 ---
 import { countryMetadata } from '../scripts/utils';
 import BackButton from './BackButton.astro';
+import CountryAvatar from './CountryAvatar.astro';
 
 export interface Props {
   countryName: string;
@@ -12,11 +13,17 @@ const flagInfo = countryMetadata[countryName];
 
 <header class='country-header'>
   <BackButton />
-  <h1
-    class='country-title'
-    aria-label={flagInfo ? `${countryName} ${flagInfo.ariaLabel}` : countryName}
-  >
-    {flagInfo ? `${countryName} ${flagInfo.emoji}` : countryName}
+  <h1 class='country-title'>
+    {
+      flagInfo ? (
+        <CountryAvatar
+          emoji={flagInfo.emoji}
+          ariaLabel={flagInfo.ariaLabel}
+          countryName={countryName}
+        />
+      ) : null
+    }
+    {countryName}
   </h1>
 </header>
 

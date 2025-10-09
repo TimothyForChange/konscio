@@ -1,0 +1,28 @@
+---
+export interface CountryAvatarProps {
+  emoji?: string;
+  ariaLabel?: string;
+  countryName: string;
+}
+const { emoji, ariaLabel, countryName } = Astro.props as CountryAvatarProps;
+---
+
+<span
+  class='country-avatar'
+  aria-label={ariaLabel ? `${countryName} ${ariaLabel}` : countryName}
+>
+  {emoji ? emoji : ''}
+</span>
+
+<style>
+  .country-avatar {
+    font-size: 2.5rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+  }
+  @media (max-width: 768px) {
+    .country-avatar {
+      font-size: 2rem;
+    }
+  }
+</style>
