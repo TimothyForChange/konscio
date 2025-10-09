@@ -1,88 +1,79 @@
 {
   "name": "Ethiopia",
-  "currentCrisisSummary": "Ethiopia is grappling with the aftermath of the brutal **Tigray War (2020-2022)** and multiple ongoing regional conflicts. A peace deal has ended the primary fighting in Tigray, but the region is devastated, and tensions remain high nationally. The war, which involved the Ethiopian National Defense Force (ENDF), Eritrean Defence Forces (EDF), and regional forces against the Tigray Defense Forces (TDF), caused a catastrophic humanitarian crisis marked by mass atrocities, a **brutal siege that weaponized starvation**, and accusations of **ethnic cleansing and genocide**.",
+  "currentCrisisSummary": "A fragile peace following the 2020-2022 Tigray War has left a legacy of mass atrocities, widespread famine, and ethnic cleansing, with occupying forces still present in parts of the region.",
   "colonialRoot": {
-    "colonialPower": "Ethiopian Empire and subsequent centralist states (historical)",
-    "legacy": "For much of its history, the Ethiopian state was dominated by a centralising, Amhara-led elite that sought to build a unitary national identity. This imperial project often involved the **political, cultural, and linguistic suppression of other ethnic groups**, including Tigrayans, Oromos, and Somalis. The Tigray People's Liberation Front (TPLF) came to power in 1991 and established an **ethnic federalist system** to grant autonomy to Ethiopia's diverse nations. However, tensions over the balance of power, historical grievances, and contested territories persisted. The rise of Prime Minister Abiy Ahmed in 2018, with his push towards a more centralised, pan-Ethiopian ideology (**'Medemer'**), dismantled the TPLF-led coalition and set the stage for a violent collision over the country's future."
+    "colonialPower": "Ethiopian Empire & subsequent centralist states",
+    "legacy": "Ethiopia's crisis stems from its history as an empire-state. The centralising **Abyssinian core**, primarily Amhara elites, expanded through conquest, imposing a unitary identity and suppressing the cultures of conquered peoples like the Oromo, Somali, and others. This **internal colonialism** created deep-seated grievances. The TPLF-led government (1991-2018) addressed this through **ethnic federalism**, granting self-rule to different nations. However, the rise of Prime Minister Abiy Ahmed and his recentralising **'Medemer'** ideology represented a direct assault on this federal system, triggering a violent conflict over the fundamental nature of the Ethiopian state."
   },
   "coreTerms": {
-    "ethnicFederalism": "The conflict represents a fundamental clash between Ethiopia's **ethnic federalist constitution** that guarantees self-rule for ethno-linguistic regions, and Abiy Ahmed's **centralised 'Medemer' ideology** that seeks to transcend ethnic divisions through a unified Ethiopian identity. The TPLF viewed federal autonomy as essential protection for Tigrayan self-determination, whilst the federal government asserted direct control over what it considered a rebellious region.",
-    "regionalRivalries": "Deep-seated rivalries between Tigrayan and Amhara political elites became militarised, particularly over contested territories like **Western Tigray (Welkait-Tegede)**. Historical grievances from the TPLF's dominance (1991-2018) and Amhara perceptions of marginalisation created fertile ground for conflict. **Eritrea's involvement**, driven by its own enmity toward the TPLF from their 1998-2000 border war, transformed local tensions into a devastating regional conflict with Eritrean forces being primary perpetrators of atrocities."
+    "federalismVsCentralism": "The war was a violent struggle over the soul of the state. It pitted the principle of **ethnic federalism**—which grants self-determination to Ethiopia's diverse nations as enshrined in the 1995 constitution—against a resurgent **unitarist ideology** that seeks to impose a centralised, homogenous national identity. For Tigray and other marginalised groups, federalism is non-negotiable protection; for centralists, it is a threat to unity.",
+    "weaponisedGrievancesAndForeignIntervention": "The conflict was ignited by weaponising historical grievances. Amhara elites, seeking to reclaim territories like **Welkait** (Western Tigray), allied with the federal government. This alliance provided the domestic justification for the invasion. Externally, **Eritrea's dictator Isaias Afwerki**, driven by a long-standing vendetta against the TPLF, joined the invasion, and his forces committed some of the war's worst atrocities. This turned an internal constitutional dispute into a devastating regional war."
   },
   "humanitarianImpact": {
-    "displaced": "Over 2.6 million internally displaced at the peak of the conflict",
-    "refugees": "Over 95,000 refugees fled to Sudan",
-    "casualties": "Estimates of civilians killed from violence, starvation, and lack of medical care range from **300,000 to 600,000**",
-    "affected": "Over 5.2 million people in Tigray (90% of the population) were left in need of humanitarian aid"
+    "displaced": "Over **2.6 million** people were internally displaced at the war's peak, with hundreds of thousands still unable to return home.",
+    "refugees": "More than **95,000** refugees, mostly women and children, were forced to flee into neighbouring Sudan.",
+    "casualties": "An estimated **300,000 to 600,000** civilians died from direct killing, starvation, and lack of medicine due to a deliberate siege.",
+    "affected": "The war left **5.2 million** people in Tigray—90% of the population—in need of life-saving humanitarian aid."
   },
   "timeline": [
     {
       "year": "1975",
-      "event": "**TPLF Founded** - The Tigray People's Liberation Front is formed to fight the Derg military junta"
+      "event": "**TPLF Founded**: The Tigray People's Liberation Front is formed to fight the Derg military junta."
     },
     {
       "year": "1991",
-      "event": "**Derg Overthrown** - The TPLF-led EPRDF coalition takes power in Ethiopia"
+      "event": "**Derg Overthrown**: The TPLF-led EPRDF coalition takes power in Ethiopia."
     },
     {
       "year": "1995",
-      "event": "**Ethnic Federalism** - New constitution establishes a federal state based on ethno-linguistic regions"
-    },
-    {
-      "year": "1998-2000",
-      "event": "**Eritrean-Ethiopian War** - A brutal border war is fought between the two countries"
+      "event": "**Ethnic Federalism Adopted**: A new constitution establishes a federal state based on ethno-linguistic regions."
     },
     {
       "year": "2018",
-      "event": "**Abiy Ahmed becomes PM** - Abiy's reforms begin to sideline the TPLF from federal power"
+      "event": "**Abiy Ahmed Becomes PM**: Abiy's reforms and centralising ideology sideline the TPLF."
     },
     {
       "year": "2019",
-      "event": "**Prosperity Party** - Abiy dissolves the ruling EPRDF coalition to form a new single party, which the TPLF refuses to join"
-    },
-    {
-      "year": "Sept 2020",
-      "event": "**Tigray holds elections** - The region holds its own elections in defiance of the federal government"
+      "event": "**Prosperity Party Formed**: Abiy dissolves the ruling ethnic-based coalition, which the TPLF refuses to join."
     },
     {
       "year": "Nov 2020",
-      "event": "**War Begins** - Federal, Amhara, and Eritrean forces invade Tigray"
+      "event": "**War Begins**: A political dispute escalates into war as federal, Amhara, and Eritrean forces jointly invade Tigray."
     },
     {
       "year": "2021",
-      "event": "**Humanitarian Siege** - Ethiopian and allied forces impose a near-total blockade on Tigray, cutting off food, medicine, and aid"
+      "event": "**Humanitarian Siege**: Ethiopian and allied forces impose a near-total blockade on Tigray, engineering a famine."
     },
     {
       "year": "Nov 2022",
-      "event": "**Pretoria Peace Agreement** - A Cessation of Hostilities Agreement is signed between the TPLF and the Ethiopian federal government"
+      "event": "**Pretoria Peace Agreement**: A Cessation of Hostilities Agreement is signed in Pretoria, South Africa."
     }
   ],
   "takeAction": {
     "donate": [
       {
         "organisation": "Health Professionals Network for Tigray (HPN4T)",
-        "description": "A global network of health professionals providing medical relief and advocacy for Tigray.",
+        "description": "A diaspora network of health professionals providing direct medical relief and advocacy.",
         "url": "https://hpn4tigray.org/"
       },
       {
-        "organisation": "Omna Tigray",
-        "description": "A diaspora-led organisation focused on humanitarian aid, rebuilding efforts, and advocacy.",
-        "url": "https://omnatigray.org/"
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "Provides independent medical humanitarian aid in hard-to-reach areas of the region.",
+        "url": "https://www.msf.org/ethiopia"
       },
       {
-        "organisation": "Médecins Sans Frontières",
-        "description": "Provides independent medical humanitarian assistance in the region.",
-        "url": "https://www.msf.org/ethiopia"
+        "organisation": "Omna Tigray",
+        "description": "A global diaspora organisation focused on humanitarian aid, rebuilding, and accountability.",
+        "url": "https://omnatigray.org/"
       }
     ],
     "awareness": [
-      "Demand the complete withdrawal of Eritrean and Amhara forces from all parts of Tigray.",
-      "Advocate for independent investigations and accountability for war crimes and genocide.",
-      "Share information on the ongoing humanitarian needs as Tigray rebuilds."
+      "Advocate for the full implementation of the Pretoria Peace Agreement, including the withdrawal of all non-federal forces from Tigray.",
+      "Demand independent investigations into war crimes and crimes against humanity by all parties."
     ],
     "boycott": [
-      "Support targeted sanctions against Ethiopian and Eritrean officials implicated in war crimes.",
-      "Urge governments to condition non-humanitarian aid to Ethiopia on verified improvements in human rights."
+      "Support targeted sanctions against individuals and entities responsible for mass atrocities and humanitarian obstruction.",
+      "Call for international aid and reconstruction funds to be tied to verifiable human rights and accountability measures."
     ]
   }
 }

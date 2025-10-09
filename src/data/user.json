@@ -44,6 +44,12 @@
       "slug": "ethiopia",
       "flag": "🇪🇹",
       "description": "Aftermath of the Tigray War and ongoing regional conflicts"
+    },
+    {
+      "name": "Syria",
+      "slug": "syria",
+      "flag": "🇸🇾",
+      "description": "Protracted civil war, foreign intervention, and humanitarian collapse"
     }
   ],
   "links": [
@@ -75,7 +81,13 @@
       "url": "https://support.nrc.no/give-today/",
       "icon": "hand-heart-line",
       "title": "Norwegian Refugee Council",
-      "description": "Providing emergency aid, legal support, and education to displaced people"
+      "description": "Delivering emergency relief, legal aid, and education programs for displaced populations."
+    },
+    {
+      "url": "https://drc.ngo",
+      "icon": "empathize-line",
+      "title": "Danish Refugee Council",
+      "description": "Supporting protection services, livelihood initiatives, and durable solutions for refugees and IDPs."
     }
   ]
 }

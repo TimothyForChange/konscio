@@ -1,91 +1,91 @@
 {
   "name": "Palestine",
-  "currentCrisisSummary": "The military assault on Gaza, which began in late 2023 following Hamas's **October 7 attack**, has caused a catastrophic loss of life, mass displacement, and a severe humanitarian crisis, including **famine**. Multiple UN bodies, **Amnesty International**, and humanitarian organisations including Médecins Sans Frontières have concluded that Israel's actions constitute **genocide**. This compounds the ongoing, systemic denial of Palestinian rights through settlement expansion and forced displacement in the West Bank and East Jerusalem.",
+  "currentCrisisSummary": "An intensifying humanitarian crisis across Gaza and the West Bank, marked by mass displacement, engineered famine, and an ICJ ruling on the plausibility of genocide in Gaza.",
   "colonialRoot": {
     "colonialPower": "British Empire",
-    "legacy": "The conflict stems directly from **British colonial mismanagement and irresponsibility** during the Mandate for Palestine (1920-1948). The **1917 Balfour Declaration** was issued without consulting the existing Palestinian Arab population who comprised 90% of the territory, promising their homeland to another people. British authorities **deliberately fostered competing nationalisms** by encouraging large-scale Zionist settlement whilst failing to protect Palestinian rights or prepare sustainable governance structures. When mounting tensions made Palestine ungovernable, Britain **abandoned its colonial responsibility**, dumping the crisis on the newly-formed United Nations without ensuring a just solution. This colonial abdication directly precipitated the **1948 war and Palestinian Nakba** ('catastrophe'), creating a massive refugee crisis that Britain helped create but refused to resolve. The ongoing **Israeli occupation** since 1967 continues patterns of displacement and dispossession rooted in this colonial legacy."
+    "legacy": "The crisis is rooted in Britain's Mandate (1920-1948). The **Balfour Declaration (1917)**, issued without Palestinian consent, promised their homeland to the Zionist movement. British policy **deliberately fostered conflict** by promoting mass colonial settlement while suppressing Palestinian rights. By 1948, Britain **abandoned its Mandate**, leaving a manufactured crisis for the UN to handle. This abdication directly enabled the **1948 Nakba** ('catastrophe'), where over 750,000 Palestinians were forcibly displaced, creating a refugee crisis Britain refused to resolve. The ongoing **Israeli occupation** is a direct continuation of this colonial legacy of dispossession."
   },
   "coreTerms": {
-    "internationalDynamics": "The conflict involves significant international dimensions, with the **United States** providing substantial military aid and diplomatic support to Israel. This relationship reflects broader geopolitical considerations in the Middle East region and affects the balance of power between the parties.",
-    "historicalLegacies": "The current situation reflects unresolved issues from the mandate period and subsequent conflicts. Key challenges include the status of Palestinian refugees and their **right of return**, questions of sovereignty and borders, settlement activities in occupied territories, and the ongoing **military occupation** of the West Bank, which various human rights organisations have criticised using different terminologies."
+    "geopoliticalComplicity": "The conflict is sustained by international powers, primarily the **United States**, which provides Israel with billions in unconditional military aid and diplomatic cover at the UN. This imperial backing enables the ongoing occupation and undermines Palestinian self-determination.",
+    "settlerColonialismAndApartheid": "The current crisis is a result of unresolved colonial injustices. Key issues include the **right of return** for Palestinian refugees, the illegality of settlements, and the **military occupation**. Leading human rights organisations now describe the system of Israeli control as **apartheid**."
   },
   "humanitarianImpact": {
-    "displaced": "1.9 million internally displaced in Gaza (85% of population)",
-    "refugees": "5.9 million Palestinian refugees globally",
-    "casualties": "Over 45,000 killed in Gaza since October 2023",
-    "affected": "2.3 million people in Gaza facing humanitarian crisis"
+    "displaced": "Over **1.9 million** internally displaced in Gaza (nearly 85% of the population), plus ongoing displacement in the West Bank.",
+    "refugees": "**5.9 million** registered Palestinian refugees (UNRWA), descendants of those displaced since 1948.",
+    "casualties": "Over **45,000** killed in Gaza since October 2023, with thousands more missing, presumed dead under the rubble.",
+    "affected": "Gaza's entire population of **2.3 million** faces a catastrophic humanitarian crisis, including engineered famine and a decimated healthcare system."
   },
   "timeline": [
     {
       "year": "1917",
-      "event": "**Balfour Declaration** - British government promises a 'national home for the Jewish people' in Palestine"
+      "event": "**Balfour Declaration**: Britain promises a 'national home for the Jewish people' in Palestine."
     },
     {
       "year": "1920-1948",
-      "event": "**British Mandate for Palestine** - British administration governs the territory"
+      "event": "**British Mandate**: British colonial administration governs the territory, enabling settler-colonialism."
     },
     {
       "year": "1948",
-      "event": "**Nakba** - Israeli independence and Palestinian displacement; 750,000 Palestinians become refugees"
+      "event": "**The Nakba**: 750,000 Palestinians are ethnically cleansed to establish the state of Israel."
     },
     {
       "year": "1967",
-      "event": "**Six-Day War** - Israel occupies West Bank, Gaza Strip, and East Jerusalem"
+      "event": "**Six-Day War**: Israel occupies the West Bank, Gaza Strip, and East Jerusalem."
     },
     {
       "year": "1987-1993",
-      "event": "**First Intifada** - Palestinian uprising against Israeli occupation"
+      "event": "**First Intifada**: A mass popular uprising against Israeli occupation."
     },
     {
       "year": "1993",
-      "event": "**Oslo Accords** - Peace agreement establishing Palestinian Authority"
+      "event": "**Oslo Accords**: A flawed peace process that failed to secure Palestinian sovereignty."
     },
     {
       "year": "2000-2005",
-      "event": "**Second Intifada** - Renewed Palestinian uprising"
+      "event": "**Second Intifada**: A renewed Palestinian uprising against the ongoing occupation."
     },
     {
-      "year": "2007",
-      "event": "**Gaza blockade begins** - Israel and Egypt impose restrictions on Gaza"
+      "year": "2007-Present",
+      "event": "**Gaza Blockade**: Israel imposes a devastating siege on the Gaza Strip."
     },
     {
-      "year": "2014",
-      "event": "**Gaza War** - 50-day conflict between Israel and Hamas kills over 2,100 Palestinians"
+      "year": "2018-2019",
+      "event": "**Great March of Return**: Mass protests in Gaza are met with lethal force by Israel, killing hundreds."
     },
     {
       "year": "2023",
-      "event": "**October 7 attack** - Hamas launches attack on Israel; Israel begins military assault on Gaza"
+      "event": "**October 7th**: Hamas leads an attack on Israel; Israel launches a devastating assault on Gaza."
     },
     {
       "year": "2024",
-      "event": "**Genocide findings** - UN bodies and international organisations conclude Israel is committing genocide in Gaza"
+      "event": "**ICJ Plausible Genocide Ruling**: The ICJ rules that claims of genocide in Gaza are plausible."
     }
   ],
   "takeAction": {
     "donate": [
       {
+        "organisation": "Medical Aid for Palestinians (MAP)",
+        "description": "Provides essential medical services and supplies on the ground.",
+        "url": "https://www.map.org.uk/"
+      },
+      {
+        "organisation": "Palestine Children's Relief Fund (PCRF)",
+        "description": "Offers free medical care for injured and sick children.",
+        "url": "https://www.pcrf.net/"
+      },
+      {
         "organisation": "UNRWA",
-        "description": "UN agency providing aid to Palestinian refugees",
+        "description": "The primary UN agency providing essential services to Palestinian refugees.",
         "url": "https://www.unrwa.org/"
-      },
-      {
-        "organisation": "Islamic Relief",
-        "description": "Emergency aid and humanitarian assistance in Palestine",
-        "url": "https://islamic-relief.org/appeals/palestine-emergency-appeal/"
-      },
-      {
-        "organisation": "Norwegian Refugee Council (NRC)",
-        "description": "Shelter, education, legal aid, and protection for displaced Palestinians",
-        "url": "https://www.nrc.no/countries/middle-east/palestine"
       }
     ],
     "awareness": [
-      "Share educational content about Palestinian history",
-      "Support Palestinian journalists and media outlets"
+      "Amplify Palestinian voices, journalists, and artists.",
+      "Educate your community on the history of the Nakba and ongoing dispossession."
     ],
     "boycott": [
-      "BDS movement - Boycott, Divestment, Sanctions",
-      "Avoid products from illegal Israeli settlements"
+      "Support the Palestinian-led Boycott, Divestment, Sanctions (BDS) movement.",
+      "Avoid companies complicit in the occupation and illegal settlements."
     ]
   }
 }

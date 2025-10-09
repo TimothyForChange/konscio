@@ -16,6 +16,7 @@ export const countryMetadata: Record<
   },
   Haiti: { emoji: '🇭🇹', ariaLabel: 'Haitian flag' },
   Ethiopia: { emoji: '🇪🇹', ariaLabel: 'Ethiopian flag' },
+  Syria: { emoji: '🇸🇾', ariaLabel: 'Syrian flag' },
 };
 
 export function formatTermKey(key: string): string {
@@ -34,6 +35,8 @@ export function formatTermKey(key: string): string {
     externalInterventions: 'External Interventions',
     ethnicFederalism: 'Ethnic Federalism vs. Centralisation',
     regionalRivalries: 'Regional Rivalries',
+    inheritedSectarianism: 'Inherited Sectarianism',
+    stateCollapse: 'State Collapse',
   };
 
   return keyMappings[key] || key.charAt(0).toUpperCase() + key.slice(1);

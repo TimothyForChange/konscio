@@ -1,87 +1,75 @@
 {
   "name": "Myanmar",
-  "currentCrisisSummary": "Myanmar is in a nationwide civil war following the **2021 military coup**. The junta (Tatmadaw) faces widespread armed resistance from the pro-democracy movement and dozens of **Ethnic Armed Organisations (EAOs)**. The conflict has caused mass displacement and a humanitarian catastrophe, compounding the long-running persecution of the Rohingya.",
+  "currentCrisisSummary": "A nationwide armed revolution against the 2021 military coup has escalated into a full-scale civil war, causing a humanitarian catastrophe and the collapse of state control in large parts of the country.",
   "colonialRoot": {
     "colonialPower": "British Empire (1824-1948)",
-    "legacy": "British colonial rule systematically employed **divide-and-rule tactics** to prevent unified resistance, deliberately creating and exacerbating ethnic divisions for administrative control. The colonial government established separate governance systems for the Bamar majority heartland and ethnic minority **'Frontier Areas,'** whilst strategically recruiting certain minorities (such as Karen and Kachin) into military and administrative roles to create **inter-ethnic tensions**. This colonial manipulation fostered resentment between communities that had coexisted for centuries, whilst other groups were systematically marginalised and excluded from power. The British **institutionalised ethnic hierarchies** and territorial divisions specifically designed to weaken potential unified opposition, creating the structural foundations for the **ethnic conflicts** that have plagued Myanmar since independence."
+    "legacy": "British rule was built on **divide-and-rule tactics** that shattered pre-colonial societal structures. The British created and racialised ethnic categories, administering the Bamar heartland separately from the ethnic minority **'Frontier Areas'**. They strategically used certain minorities in the colonial army against the Bamar majority, manufacturing **inter-ethnic resentment**. By **institutionalising ethnic hierarchies** and blocking the development of a unified national identity, Britain left a legacy of a fractured state, laying the groundwork for the world's longest-running civil wars."
   },
   "coreTerms": {
-    "centralisation": "The military has maintained centralised control for decades, with the Bamar-majority state often at odds with ethnic minority demands for **greater autonomy**. The armed resistance by ethnic groups and pro-democracy movements reflects longstanding tensions over governance structures, federalism, and representation in Myanmar's diverse society.",
-    "historicalDivisions": "A key challenge is the persistence of ethnic tensions rooted in colonial-era administrative structures. The military has justified its dominance since the **1962 coup** as necessary for national unity. Groups like the Rohingya face particular discrimination, with **citizenship rights** being contested based on ethnic categories that have historical precedents in colonial-era classifications."
+    "ethnoNationalismAndFederalism": "The post-independence state, dominated by the **Bamar military (Tatmadaw)**, has violently enforced a singular, Bamar-centric national identity. The struggle of ethnic resistance organisations for **federalism and self-determination** is a direct challenge to this chauvinistic, centralised model of the state inherited from the colonial era.",
+    "militaryRuleAsInternalColonialism": "The Tatmadaw's rule functions as a form of **internal colonialism**. It uses extreme violence to control ethnic peripheries and exploit their natural resources for the benefit of a central military elite. The **Rohingya genocide** and the denial of citizenship are the most extreme manifestations of this system, which uses colonial-era ethnic classifications to exclude and persecute."
   },
   "humanitarianImpact": {
-    "displaced": "Over 3 million internally displaced since the 2021 coup",
-    "refugees": "1 million Rohingya refugees, mainly in Bangladesh",
-    "casualties": "Over 4,500 killed by junta since coup",
-    "affected": "18.6 million people in need of humanitarian assistance"
+    "displaced": "Over **3 million** people internally displaced since the 2021 coup, with millions more displaced by decades of prior conflict.",
+    "refugees": "Nearly **1 million** Rohingya refugees remain in camps in Bangladesh, with no prospect for safe return.",
+    "casualties": "While over **6,000** civilians are confirmed killed by the junta, the total conflict death toll is estimated to be over **50,000**.",
+    "affected": "**18.6 million** people—one-third of the population—require urgent humanitarian aid as the economy and healthcare system collapse."
   },
   "timeline": [
     {
-      "year": "1824-1826",
-      "event": "**First Anglo-Burmese War** - British begin colonial conquest"
-    },
-    {
-      "year": "1886",
-      "event": "**Third Anglo-Burmese War** - Britain completes conquest of Burma"
+      "year": "1885",
+      "event": "**British Conquest**: Britain completes its conquest of Burma, incorporating it into its empire."
     },
     {
       "year": "1948",
-      "event": "**Independence** - Burma gains independence from British Empire"
+      "event": "**Independence**: Burma gains independence, inheriting a state fractured by colonial policies."
     },
     {
       "year": "1962",
-      "event": "**Military coup** - General Ne Win establishes military rule"
+      "event": "**First Military Coup**: General Ne Win seizes power, ending parliamentary democracy."
     },
     {
       "year": "1988",
-      "event": "**8888 Uprising** - Pro-democracy protests brutally suppressed by military"
-    },
-    {
-      "year": "1990",
-      "event": "**Elections ignored** - NLD wins elections but military refuses to transfer power"
-    },
-    {
-      "year": "2007",
-      "event": "**Saffron Revolution** - Buddhist monks lead protests against military rule"
-    },
-    {
-      "year": "2010-2015",
-      "event": "**Democratic transition** - Limited civilian government under Thein Sein"
+      "event": "**8888 Uprising**: The military brutally crushes a nationwide pro-democracy uprising."
     },
     {
       "year": "2017",
-      "event": "**Rohingya genocide** - Military launches systematic campaign against Rohingya"
+      "event": "**Rohingya Genocide**: The military launches a campaign of ethnic cleansing against the Rohingya."
     },
     {
       "year": "2021",
-      "event": "**Military coup** - Tatmadaw overthrows civilian government, civil war begins"
+      "event": "**Military Coup & Revolution**: The Tatmadaw overthrows the elected government, triggering a nationwide armed uprising."
+    },
+    {
+      "year": "2023-Present",
+      "event": "**Operation 1027**: A coordinated offensive by ethnic armies inflicts major defeats on the junta."
     }
   ],
   "takeAction": {
     "donate": [
       {
-        "organisation": "Free Burma Rangers",
-        "description": "Humanitarian aid and medical care in conflict areas",
-        "url": "https://www.freeburmarangers.org"
-      },
-      {
         "organisation": "Burma Campaign UK",
-        "description": "Supporting democracy and human rights in Myanmar",
+        "description": "An advocacy group working for human rights and democracy in Myanmar.",
         "url": "https://burmacampaign.org.uk/"
       },
       {
-        "organisation": "Norwegian Refugee Council (NRC)",
-        "description": "Assistance and protection for displaced and vulnerable communities in Myanmar",
-        "url": "https://www.nrc.no/countries/asia/myanmar"
+        "organisation": "Free Burma Rangers",
+        "description": "Provides front-line humanitarian relief, medical care, and documentation in conflict zones.",
+        "url": "https://www.freeburmarangers.org"
+      },
+      {
+        "organisation": "Mutual Aid Myanmar",
+        "description": "Direct, flexible funding to grassroots activists and civil society groups inside the country.",
+        "url": "https://www.mutualaidmyanmar.org/"
       }
     ],
     "awareness": [
-      "Share information about Myanmar's pro-democracy resistance",
-      "Amplify Rohingya voices and experiences"
+      "Amplify the voices of Myanmar's diverse pro-democracy movement and ethnic resistance organisations.",
+      "Support the Rohingya people's demands for justice, citizenship, and safe repatriation."
     ],
     "boycott": [
-      "Avoid businesses connected to Myanmar military",
-      "Support sanctions against military junta"
+      "Support targeted sanctions on the junta's leaders and their economic interests, particularly in the oil and gas sector.",
+      "Boycott companies that are complicit in funding the military regime."
     ]
   }
 }

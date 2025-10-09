@@ -1,95 +1,79 @@
 {
   "name": "Haiti",
-  "currentCrisisSummary": "Haiti faces a complete **state collapse** as heavily-armed gangs control an estimated **60% of Port-au-Prince** and major transport routes. The crisis has triggered mass displacement, a severe humanitarian emergency, and the effective breakdown of public services including healthcare and education. International calls for intervention have intensified as the de facto authorities struggle to restore basic governance whilst millions face acute hunger and violence.",
+  "currentCrisisSummary": "The near-total collapse of the state has ceded control of the capital to armed groups, unleashing extreme violence, mass displacement, and a catastrophic humanitarian emergency.",
   "colonialRoot": {
     "colonialPower": "France (1697-1804)",
-    "legacy": "Haiti's modern crises have deep roots in its colonial history as **Saint-Domingue**, France's most profitable colony built on brutal plantation slavery. Following the **Haitian Revolution (1791-1804)**—the only successful slave revolt in history—France imposed a crippling indemnity of 150 million francs (later reduced to 90 million) as 'compensation' for lost property, including enslaved people. This **debt burden** consumed most of Haiti's national budget for over a century, starving the new nation of resources for development, infrastructure, and institution-building."
+    "legacy": "The crisis is rooted in France's brutal slave colony of **Saint-Domingue**. After the **Haitian Revolution (1791-1804)**—history's only successful slave revolt—France, backed by Western powers, extorted a crippling 'indemnity' from Haiti in 1825. This payment, demanded as compensation for the loss of enslaved people as 'property', forced Haiti to pay its former enslavers. The resulting **debt peonage** crippled the Haitian state for over a century, systematically draining its wealth and preventing any investment in public institutions or infrastructure."
   },
   "coreTerms": {
-    "historicalExtraction": "The French indemnity represents one of history's most systematic cases of colonial extraction continuing after independence. Haiti was forced to pay France the equivalent of over **$20 billion in today's money**, funds that could have built schools, hospitals, and infrastructure. This financial stranglehold created a pattern of **foreign debt dependency** and weakened state capacity that persists today.",
-    "externalInterventions": "Throughout the 20th century, Haiti experienced repeated foreign interventions that often disrupted local governance without providing sustainable solutions. The **US occupation (1915-1934)**, various UN missions, and international structural adjustment programmes have frequently prioritised external interests over **Haitian sovereignty** and self-determination, contributing to political instability and undermining local institutional development."
+    "neocolonialDebtAndExtraction": "The French indemnity was a foundational act of neocolonialism, ensuring Haiti's continued economic subjugation after political independence. By forcing Haiti to pay its former colonisers the modern equivalent of over **$21 billion**, France deliberately engineered a state of **permanent underdevelopment**. This initial act of extraction created a cycle of debt dependency and foreign control that has defined Haiti's history.",
+    "imperialInterventionAndOccupation": "From the **US occupation (1915-1934)** to a series of UN missions, repeated foreign interventions have systematically undermined **Haitian sovereignty**. These actions, often framed as 'stabilisation', have supported anti-democratic forces, imposed disastrous economic policies, and created a culture of impunity (e.g., the UN's introduction of cholera). This legacy of intervention has fostered instability and dependency, preventing the emergence of resilient, Haitian-led institutions."
   },
   "humanitarianImpact": {
-    "displaced": "700,000 internally displaced (highest in the Caribbean)",
-    "refugees": "200,000 Haitians seeking asylum globally",
-    "casualties": "Over 5,000 killed in gang violence in 2023",
-    "affected": "5.4 million people in need of humanitarian assistance"
+    "displaced": "Over **580,000** people internally displaced by extreme violence, the majority women and children.",
+    "refugees": "Hundreds of thousands of Haitians have been forced to flee the country, often facing racist and violent border policies.",
+    "casualties": "Over **8,000** people were killed by gang violence in the first nine months of 2024 alone.",
+    "affected": "**5.5 million** people—nearly half the population—require humanitarian assistance to survive, with millions facing acute hunger."
   },
   "timeline": [
     {
-      "year": "1697",
-      "event": "**Treaty of Ryswick** - France gains control of western Hispaniola (Saint-Domingue)"
-    },
-    {
       "year": "1791-1804",
-      "event": "**Haitian Revolution** - Successful slave revolt establishes first Black republic"
-    },
-    {
-      "year": "1804",
-      "event": "**Independence declared** - Haiti becomes first nation to abolish slavery"
+      "event": "**Haitian Revolution**: Enslaved people lead a successful revolt, establishing the first Black republic."
     },
     {
       "year": "1825",
-      "event": "**French indemnity imposed** - France forces Haiti to pay 150 million francs"
+      "event": "**French Indemnity**: France forces Haiti to begin paying a crippling debt for its freedom."
     },
     {
       "year": "1915-1934",
-      "event": "**US occupation** - American military controls Haiti for 19 years"
+      "event": "**US Occupation**: The United States invades and occupies Haiti for 19 years."
     },
     {
       "year": "1957-1986",
-      "event": "**Duvalier dictatorship** - François and Jean-Claude Duvalier rule Haiti"
-    },
-    {
-      "year": "1990",
-      "event": "**Democratic elections** - Jean-Bertrand Aristide elected president"
+      "event": "**Duvalier Dictatorship**: The US-backed father-son dictatorship terrorises Haiti for decades."
     },
     {
       "year": "2004",
-      "event": "**Aristide departure** - President leaves amid political crisis and foreign pressure"
+      "event": "**Second Coup against Aristide**: The democratically elected president is ousted in a coup backed by the US, France, and Canada."
     },
     {
       "year": "2010",
-      "event": "**Devastating earthquake** - 7.0 magnitude earthquake kills over 200,000"
-    },
-    {
-      "year": "2016-2017",
-      "event": "**Hurricane Matthew** - Category 4 hurricane devastates southwestern Haiti"
+      "event": "**Devastating Earthquake**: Kills over 200,000 people and causes catastrophic damage."
     },
     {
       "year": "2021",
-      "event": "**President Moïse assassinated** - Political instability deepens after president's murder"
+      "event": "**President Moïse Assassinated**: The murder deepens political instability and a power vacuum."
     },
     {
-      "year": "2022-present",
-      "event": "**Gang coalition** - 'G9' alliance controls majority of capital and key infrastructure"
+      "year": "2024",
+      "event": "**Foreign Intervention**: A Kenyan-led, UN-backed security mission is deployed amid widespread protests and questions of legitimacy."
     }
   ],
   "takeAction": {
     "donate": [
       {
-        "organisation": "Médecins Sans Frontières",
-        "description": "Providing emergency medical care and treating victims of violence in Port-au-Prince",
-        "url": "https://www.msf.org/haiti"
-      },
-      {
-        "organisation": "Hope For Haiti",
-        "description": "Healthcare, education, and community development programmes across Haiti",
-        "url": "https://hopeforhaiti.com/"
-      },
-      {
         "organisation": "Fonkoze",
-        "description": "Haiti's largest microfinance institution providing financial services and education to rural communities",
+        "description": "A Haitian organisation providing financial inclusion and development services to rural communities.",
         "url": "https://fonkoze.org/"
+      },
+      {
+        "organisation": "Haitian Bridge Alliance",
+        "description": "A Haitian-led diaspora organisation providing support and advocacy for refugees and migrants.",
+        "url": "https://haitianbridgealliance.org"
+      },
+      {
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "Providing emergency medical care to victims of violence in Port-au-Prince.",
+        "url": "https://www.msf.org/haiti"
       }
     ],
     "awareness": [
-      "Share information about Haiti's humanitarian crisis",
-      "Amplify Haitian voices and civil society organisations"
+      "Amplify Haitian-led analysis of the crisis and challenge mainstream media narratives.",
+      "Learn and share the history of the Haitian Revolution and the French indemnity."
     ],
     "boycott": [
-      "Support calls for international accountability for gang violence",
-      "Advocate for Haitian-led solutions rather than foreign intervention"
+      "Demand France pay back the indemnity debt to Haiti with interest.",
+      "Oppose foreign military interventions that lack popular Haitian support and accountability."
     ]
   }
 }

@@ -1,93 +1,84 @@
 {
   "name": "Sudan",
-  "currentCrisisSummary": "A brutal civil war that began in **April 2023** between the Sudanese Armed Forces (SAF) and the paramilitary **Rapid Support Forces (RSF)** has devastated Sudan. The conflict has triggered a severe humanitarian crisis, mass displacement, and a resurgence of ethnically targeted violence, particularly in **Darfur** and Khartoum.",
+  "currentCrisisSummary": "A devastating civil war since April 2023 has triggered the world's largest displacement crisis, widespread famine, and atrocities, including ethnic cleansing in Darfur.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "British colonial rule deliberately employed **divide-and-rule tactics**, creating separate administrative systems that institutionalised regional and ethnic divisions. The colonial government concentrated investment and political power in the Arabic-speaking North whilst systematically marginalising the South and peripheral regions like **Darfur**, denying them infrastructure, education, and representation. This **engineered inequality** was designed to prevent unified resistance to colonial rule. The British also fostered ethnic and religious tensions by promoting different groups against each other and blocking southern political development. These colonial divisions became the structural foundation for decades of **civil war and political instability**, creating the centre-periphery conflicts that continue to devastate Sudan today."
+    "legacy": "British colonial policy was built on **divide-and-rule tactics**. It institutionalised ethnic and regional divisions by concentrating power and investment in the riverine centre while systematically underdeveloping and marginalising peripheral regions like the South and **Darfur**. This **engineered inequality** created a parasitic central state and blocked unified resistance. By pitting communities against each other, Britain established the structural basis for the **centre-periphery conflicts** and extractive politics that have defined Sudan's post-independence history of civil war."
   },
   "coreTerms": {
-    "geopoliticalDimensions": "The current war represents a violent power struggle for control of Sudan's centralised state and its significant resources. Regional powers such as the **UAE and Egypt**, along with other international actors, have interests in Sudan's strategic Red Sea location and its **gold and agricultural wealth**, influencing the conflict dynamics.",
-    "regionalInequalities": "The violence reflects longstanding patterns of uneven development and **centre-periphery tensions** that have historical roots. The conflict often pits the dominant central regions against marginalised areas like Darfur, continuing patterns of **political and economic inequality** that have characterised Sudan since independence."
+    "proxyWarForResources": "The civil war is fuelled by regional powers, particularly the **UAE**, competing for control of Sudan's resources and strategic location. Foreign backing for the warring factions transforms the internal power struggle into a proxy war for Sudan's **gold**, agricultural land, and Red Sea ports, prolonging the violence for geopolitical gain.",
+    "inheritedStateViolence": "The war is an extension of the **centre-periphery violence** institutionalised during the colonial era. The state has historically used militias recruited from marginalised communities (like the RSF's precursors, the Janjaweed) to suppress dissent in other marginalised regions, a tactic that has now backfired, leading to the implosion of the central state itself."
   },
   "humanitarianImpact": {
-    "displaced": "10 million internally displaced (highest in the world)",
-    "refugees": "2 million Sudanese refugees in neighbouring countries",
-    "casualties": "Over 15,000 killed since April 2023",
-    "affected": "25 million people in need of humanitarian assistance"
+    "displaced": "Over **10 million** people internally displaced, making it the world's largest internal displacement crisis.",
+    "refugees": "More than **2 million** refugees have fled to neighbouring countries, including Chad, Egypt, and South Sudan.",
+    "casualties": "The official death toll of **15,000** is a significant underestimate; credible estimates suggest the real figure is over **150,000**.",
+    "affected": "**25 million** people—more than half the population—require urgent humanitarian aid, with **18 million** facing acute hunger."
   },
   "timeline": [
     {
       "year": "1899",
-      "event": "**Anglo-Egyptian Condominium established** - British rule begins over Sudan"
+      "event": "**Anglo-Egyptian Condominium**: British colonial rule is established over Sudan."
     },
     {
       "year": "1956",
-      "event": "**Independence** - Sudan gains independence from British-Egyptian rule"
-    },
-    {
-      "year": "1958",
-      "event": "**First military coup** - General Ibrahim Abboud seizes power"
+      "event": "**Independence**: Sudan gains independence, but the colonial power structure remains."
     },
     {
       "year": "1983-2005",
-      "event": "**Second Sudanese Civil War** - Conflict between North and South Sudan"
+      "event": "**Second Sudanese Civil War**: A brutal conflict between the central government and the south."
     },
     {
       "year": "2003",
-      "event": "**Darfur conflict begins** - Rebellion and ethnic violence in western Sudan"
+      "event": "**Genocide in Darfur**: The government unleashes Janjaweed militias to crush a rebellion."
     },
     {
       "year": "2011",
-      "event": "**South Sudan independence** - South Sudan secedes following referendum"
+      "event": "**South Sudan Secedes**: The South gains independence after decades of war."
     },
     {
       "year": "2019",
-      "event": "**Omar al-Bashir overthrown** - Military coup ends 30-year dictatorship"
-    },
-    {
-      "year": "2019-2021",
-      "event": "**Transitional government** - Civilian-military power-sharing arrangement"
+      "event": "**Sudanese Revolution**: A popular uprising overthrows dictator Omar al-Bashir."
     },
     {
       "year": "2021",
-      "event": "**Military coup** - General al-Burhan dissolves transitional government"
+      "event": "**Military Coup**: Generals al-Burhan and 'Hemedti' seize power, derailing the democratic transition."
     },
     {
       "year": "2023",
-      "event": "**Civil war begins** - SAF and RSF fight for control of Sudan"
+      "event": "**Civil War Erupts**: The army (SAF) and the RSF militia turn on each other in a struggle for absolute power."
     }
   ],
   "takeAction": {
     "donate": [
       {
-        "organisation": "Médecins Sans Frontières",
-        "description": "Medical aid in Sudan's conflict zones",
-        "url": "https://www.msf.org/sudan"
-      },
-      {
-        "organisation": "World Food Programme",
-        "description": "Emergency food assistance for displaced Sudanese",
-        "url": "https://www.wfp.org/countries/sudan"
-      },
-      {
         "organisation": "Islamic Relief",
-        "description": "Emergency aid and humanitarian assistance in Sudan",
+        "description": "Supporting emergency response and humanitarian relief for people affected by the Sudan crisis.",
         "url": "https://islamic-relief.org/appeals/sudan-emergency-appeal/"
       },
       {
-        "organisation": "Norwegian Refugee Council (NRC)",
-        "description": "Support for displaced Sudanese: shelter, protection, education, legal assistance",
-        "url": "https://www.nrc.no/countries/africa/sudan"
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "Delivering life-saving medical care in active conflict zones.",
+        "url": "https://www.msf.org/sudan"
+      },
+      {
+        "organisation": "Sudanese American Physicians Association (SAPA)",
+        "description": "A diaspora-led organisation providing direct medical and humanitarian support.",
+        "url": "https://sapa-usa.org/"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
+        "description": "Distributing emergency food aid to combat widespread hunger and famine.",
+        "url": "https://www.wfp.org/countries/sudan"
       }
     ],
     "awareness": [
-      "Raise awareness about Sudan's humanitarian crisis",
-      "Support Sudanese civil society and democratic movements",
-      "Advocate for international intervention and peacekeeping efforts"
+      "Amplify the voices of Sudanese civilian groups, like the Emergency Response Rooms.",
+      "Challenge international apathy and demand media coverage of the world's largest crisis."
     ],
     "boycott": [
-      "Advocate for sanctions and arms embargoes",
-      "Support accountability measures for war crimes"
+      "Demand targeted sanctions and an effective arms embargo on both warring parties and their foreign backers (e.g., the UAE).",
+      "Support efforts to document atrocities and hold perpetrators accountable at the ICC."
     ]
   }
 }

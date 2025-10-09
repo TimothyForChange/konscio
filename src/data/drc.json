@@ -1,91 +1,75 @@
 {
   "name": "Democratic Republic of the Congo",
-  "currentCrisisSummary": "The eastern DRC is the site of an escalating conflict involving **over 130 armed groups**, foreign-backed militias, and the Congolese army. Fought primarily over control of vast mineral wealth (**cobalt, coltan, gold**), the war has caused one of the world's largest displacement crises and is marked by the widespread, systematic use of **sexual violence as a weapon of war**.",
+  "currentCrisisSummary": "Eastern DRC is the epicentre of a war fought over its vast mineral wealth (cobalt, coltan, gold), essential for modern electronics. The conflict involves the Congolese army, over 100 armed groups, and foreign-backed militias (notably Rwanda's M23). It has created one of the world's worst displacement crises and is characterised by the systematic use of sexual violence as a weapon of war.",
   "colonialRoot": {
-    "colonialPower": "Belgium (King Leopold II's Congo Free State & later Belgian Congo)",
-    "legacy": "The DRC's current crises are rooted in one of history's most **brutal colonial regimes**. Under Leopold II's personal rule (1885-1908), the Congo Free State operated as a vast **forced labour camp** where millions died from violence, disease, and exhaustion in the pursuit of rubber profits. This systematic exploitation and terror—including the amputation of hands for failing to meet quotas—decimated the population whilst enriching European investors. Belgian colonial rule continued this **extractive model**, deliberately preventing local institutional development and education to maintain dependence. This colonial architecture of extraction created the template for ongoing **neocolonial relationships** where external actors exploit Congolese resources whilst the state remains deliberately weakened."
+    "colonialPower": "Belgium (King Leopold II & the Belgian State)",
+    "legacy": "The crisis is a direct legacy of Belgium's exceptionally brutal colonial rule. King Leopold II's personal Congo Free State (1885-1908) was a slave state built on a 'Red Rubber' terror system, where millions were killed or mutilated to extract rubber and ivory. The subsequent Belgian state continued this purely extractive model, intentionally building no viable local institutions and leaving behind a hollow state at independence. This colonial architecture of a weak state, designed for efficient extraction by outsiders, created the blueprint for the neocolonial scramble for resources that defines the DRC today."
   },
   "coreTerms": {
-    "externalInfluences": "The conflict involves various external actors, including neighbouring countries and multinational corporations responding to global demand for minerals used in clean energy technologies and electronics. These actors often support different armed groups to secure access to mineral resources, complicating peace efforts and governance.",
-    "structuralChallenges": "A key challenge is what economists call the **'resource curse'**—the paradox whereby countries rich in natural resources often struggle to translate that wealth into broad-based development. The DRC's weak state capacity, partly inherited from limited colonial institutional development, makes it difficult to effectively govern mineral-rich regions, leading to ongoing conflicts over **resource control**."
+    "conflictMineralsAndProxyWars": "The DRC's mineral wealth is a curse, fuelling a neocolonial proxy war. Neighbouring states, particularly Rwanda and Uganda, have repeatedly invaded and armed militias (like the M23) to illegally extract and traffic conflict minerals. Western tech and automotive companies create the demand, while these regional powers act as violent intermediaries, profiting from the chaos.",
+    "theHollowState": "The 'resource curse' is a political condition rooted in the hollow state left by Belgium. Post-independence, the CIA and Belgian-backed assassination of Patrice Lumumba and the installation of the kleptocrat Mobutu Sese Seko reinforced this system. Today, the state's weakness is actively exploited by external actors who benefit from the inability to control borders or regulate mining, ensuring resources flow out while violence stays in."
   },
   "humanitarianImpact": {
-    "displaced": "7 million internally displaced",
-    "refugees": "1 million Congolese refugees in neighbouring countries",
-    "casualties": "Over 6 million deaths since 1996 (mostly from disease and malnutrition)",
-    "affected": "26 million people in need of humanitarian assistance"
+    "displaced": "Over 7.3 million people are internally displaced, one of the largest displacement crises globally.",
+    "refugees": "More than 1 million refugees have sought safety in neighbouring African countries.",
+    "casualties": "An estimated 6 million people have died from conflict-related causes since 1996, the deadliest conflict since World War II.",
+    "affected": "Over 25.4 million people require humanitarian assistance, with millions facing crisis levels of hunger."
   },
   "timeline": [
     {
       "year": "1885",
-      "event": "**Congo Free State** - King Leopold II of Belgium establishes personal rule"
-    },
-    {
-      "year": "1908",
-      "event": "**Belgian Congo** - Territory becomes Belgian colony after international outcry"
+      "event": "**Congo Free State**: King Leopold II of Belgium establishes his personal slave colony."
     },
     {
       "year": "1960",
-      "event": "**Independence** - DRC gains independence from Belgium"
+      "event": "**Independence**: The DRC gains independence from Belgium."
     },
     {
-      "year": "1965",
-      "event": "**Mobutu coup** - Joseph-Désiré Mobutu seizes power in military coup"
+      "year": "1961",
+      "event": "**Patrice Lumumba Assassinated**: The first democratically elected Prime Minister is murdered with Belgian and US complicity."
+    },
+    {
+      "year": "1965-1997",
+      "event": "**Mobutu Dictatorship**: The US-backed kleptocrat rules and renames the country Zaire."
     },
     {
       "year": "1994",
-      "event": "**Rwandan genocide spillover** - Refugee crisis and regional conflicts destabilize eastern DRC"
-    },
-    {
-      "year": "1996-1997",
-      "event": "**First Congo War** - Laurent-Désiré Kabila overthrows Mobutu"
+      "event": "**Rwandan Genocide Aftermath**: The genocide's fallout spills into eastern DRC, becoming a pretext for foreign invasions."
     },
     {
       "year": "1998-2003",
-      "event": "**Second Congo War** - Regional conflict involving multiple African nations"
+      "event": "**Second Congo War**: 'Africa's World War' involves nine countries and kills millions."
     },
     {
-      "year": "2006",
-      "event": "**First democratic elections** - Joseph Kabila wins presidency"
-    },
-    {
-      "year": "2010",
-      "event": "**MONUSCO established** - UN peacekeeping mission begins operations in DRC"
-    },
-    {
-      "year": "2019",
-      "event": "**Félix Tshisekedi becomes president** - First peaceful transition of power in DRC"
-    },
-    {
-      "year": "2018-present",
-      "event": "**Eastern DRC conflict** - Ongoing violence involving 130+ armed groups"
+      "year": "2021-Present",
+      "event": "**M23 Resurgence**: The Rwandan-backed M23 militia reignites large-scale conflict in the east."
     }
   ],
   "takeAction": {
     "donate": [
       {
-        "organisation": "Médecins Sans Frontières",
-        "description": "Medical aid in eastern DRC conflict zones",
+        "organisation": "Friends of the Congo",
+        "description": "A Congolese-led advocacy organisation raising global awareness and supporting local institutions.",
+        "url": "https://friendsofthecongo.org/"
+      },
+      {
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "Delivers emergency medical aid to people affected by conflict and displacement.",
         "url": "https://www.msf.org/democratic-republic-congo"
       },
       {
-        "organisation": "World Food Programme DRC",
-        "description": "Emergency food assistance for displaced Congolese",
-        "url": "https://www.wfp.org/countries/democratic-republic-congo"
-      },
-      {
-        "organisation": "Norwegian Refugee Council (NRC)",
-        "description": "Displacement assistance, shelter, education, and legal aid for vulnerable communities",
-        "url": "https://www.nrc.no/countries/africa/dr-congo"
+        "organisation": "Panzi Foundation",
+        "description": "Founded by Nobel laureate Dr. Denis Mukwege, providing holistic support to survivors of sexual violence.",
+        "url": "https://panzifoundation.org/"
       }
     ],
     "awareness": [
-      "Learn about ethical sourcing of minerals in electronic devices",
-      "Support Congolese civil society and women's rights organisations"
+      "Demand a conflict-free supply chain for your electronics and electric vehicles.",
+      "Amplify the voices of Congolese human rights defenders and journalists."
     ],
     "boycott": [
-      "Support ethical electronics companies with transparent supply chains",
-      "Advocate for conflict-free mineral certification"
+      "Pressure tech and car companies (e.g., Apple, Tesla, Samsung) to ensure their supply chains are free from conflict minerals.",
+      "Demand sanctions on Rwandan and Ugandan officials complicit in the looting of DRC's resources."
     ]
   }
 }

@@ -1,88 +1,79 @@
 {
   "name": "Ukraine",
-  "currentCrisisSummary": "Since **2014**, Ukraine has been resisting a Russian war of aggression that escalated into a **full-scale invasion** in **February 2022**. The conflict has caused mass civilian casualties, millions of displaced people, large-scale destruction of infrastructure, and the systematic imposition of Russian rule and cultural suppression in occupied territories.",
+  "currentCrisisSummary": "An ongoing war of aggression since 2014, escalating with the 2022 full-scale invasion, has caused mass casualties, displacement, and the systematic destruction of civilian infrastructure.",
   "colonialRoot": {
     "colonialPower": "Russian Empire & Soviet Union",
-    "legacy": "The current war represents the latest phase of centuries of **Russian imperial domination** over Ukraine, characterised by systematic attempts to erase Ukrainian identity and sovereignty. The Russian Empire pursued aggressive **cultural colonisation** through Russification policies (including the 19th-century Valuev Circular and Ems Ukaz that banned Ukrainian language and culture), whilst the Soviet Union continued this **imperial project** through deliberate policies of cultural suppression and political control. The **Holodomor genocide (1932-33)**, which starved millions of Ukrainians to death, represented the extreme manifestation of this colonial violence. Throughout this history, Russian authorities consistently denied Ukrainian **national legitimacy** and treated Ukraine as a colonial possession rather than a distinct nation, setting the ideological foundation for today's **genocidal invasion**."
+    "legacy": "Centuries of **Russian imperial domination** have been marked by systematic attempts to erase Ukrainian sovereignty. The Russian Empire enforced **cultural colonisation** through Russification policies, banning the Ukrainian language (e.g., **Ems Ukaz, 1876**). The Soviet Union continued this **imperial project** through cultural suppression and political terror, culminating in the **Holodomor (1932-33)**, a man-made famine that killed millions. This long history of denying Ukraine's **national legitimacy** and treating it as a colonial possession provides the ideological basis for the current **genocidal war**."
   },
   "coreTerms": {
-    "contemporaryContext": "Russia's invasion and annexation of Ukrainian territory represents an attempt to reassert influence over areas it considers within its sphere of interest. Moscow's rejection of **Ukrainian sovereignty** and distinct national identity provides the ideological foundation for the military aggression and efforts to suppress Ukrainian culture and identity.",
-    "historicalPatterns": "Ukraine's resistance reflects its long struggle for national self-determination and independence. Russia's actions in occupied areas—including imposing Russian curricula, **forced citizenship programmes**, and deportation of children—echo historical patterns of **cultural assimilation policies** aimed at integrating subject populations and undermining distinct national identities."
+    "imperialAmbition": "Russia's invasion is a neocolonial project to re-establish a **sphere of influence** and reclaim its former imperial territories. The official denial of Ukraine's right to exist as a sovereign nation is a core justification for the war, framing it not as a conflict between states but as a colonial 'reunification'.",
+    "decolonisationAndResistance": "The fierce Ukrainian resistance is a continuation of a centuries-long struggle for decolonisation and self-determination. In occupied territories, Russia repeats its historical colonial playbook: imposing its language, enforcing citizenship, and systematically deporting children to erase Ukrainian identity and culture."
   },
   "humanitarianImpact": {
-    "displaced": "3.7 million internally displaced within Ukraine",
-    "refugees": "6.3 million Ukrainian refugees in neighbouring countries",
-    "casualties": "Over 10,000 civilian deaths confirmed (likely much higher)",
-    "affected": "14.6 million people in need of humanitarian assistance"
+    "displaced": "An estimated **3.7 million** people remain internally displaced within Ukraine.",
+    "refugees": "Nearly **6.3 million** refugees have been forced to flee, primarily to other European countries.",
+    "casualties": "Over **10,500** civilians confirmed killed (UN data), though the actual toll is believed to be significantly higher.",
+    "affected": "**14.6 million** people—around 40% of the population—require humanitarian assistance."
   },
   "timeline": [
     {
       "year": "1876",
-      "event": "**Ems Ukaz** - Russian Empire bans Ukrainian language in publications"
+      "event": "**Ems Ukaz**: The Russian Empire bans all publications in the Ukrainian language."
     },
     {
       "year": "1917-1921",
-      "event": "**Ukrainian independence attempts** - Brief independence during Russian Revolution"
+      "event": "**War for Independence**: The Ukrainian People's Republic is established but ultimately crushed by Soviet Russia."
     },
     {
       "year": "1932-1933",
-      "event": "**Holodomor** - Soviet-engineered famine kills millions of Ukrainians"
+      "event": "**The Holodomor**: A Soviet-engineered famine kills millions of Ukrainians in an act of genocide."
     },
     {
       "year": "1991",
-      "event": "**Independence** - Ukraine declares independence from Soviet Union"
+      "event": "**Independence Restored**: Ukraine declares independence from the collapsing Soviet Union."
     },
     {
       "year": "2004",
-      "event": "**Orange Revolution** - Pro-Western protests against election fraud"
-    },
-    {
-      "year": "2013-2014",
-      "event": "**Euromaidan** - Pro-EU protests lead to government change"
+      "event": "**Orange Revolution**: Mass protests overturn a fraudulent, Russian-backed presidential election."
     },
     {
       "year": "2014",
-      "event": "**Russian annexation of Crimea** - Russia occupies and annexes Crimean Peninsula"
+      "event": "**Revolution of Dignity**: Pro-European protests oust a pro-Russian president."
     },
     {
       "year": "2014",
-      "event": "**War in Donbas begins** - Russian-backed separatists fight Ukrainian forces"
+      "event": "**War Begins**: Russia illegally annexes Crimea and invades the Donbas region."
     },
     {
       "year": "2022",
-      "event": "**Full-scale invasion** - Russia launches comprehensive military assault on Ukraine"
+      "event": "**Full-Scale Invasion**: Russia launches a comprehensive military assault across Ukraine."
     }
   ],
   "takeAction": {
     "donate": [
       {
-        "organisation": "UNITED24",
-        "description": "Official fundraising platform of Ukraine",
-        "url": "https://u24.gov.ua/"
-      },
-      {
-        "organisation": "Razom for Ukraine",
-        "description": "Ukrainian-American non-profit providing humanitarian aid",
-        "url": "https://www.razomforukraine.org/"
-      },
-      {
         "organisation": "Nova Ukraine",
-        "description": "Humanitarian aid and support for Ukrainian refugees",
+        "description": "A diaspora-led organisation delivering targeted humanitarian aid across Ukraine.",
         "url": "https://novaukraine.org/"
       },
       {
-        "organisation": "Norwegian Refugee Council",
-        "description": "Displacement assistance and protection programs in Ukraine",
-        "url": "https://www.nrc.no/countries/europe/ukraine"
+        "organisation": "Razom for Ukraine",
+        "description": "Provides critical medical supplies and supports Ukrainian civil society.",
+        "url": "https://www.razomforukraine.org/"
+      },
+      {
+        "organisation": "UNITED24",
+        "description": "The official fundraising platform initiated by the President of Ukraine.",
+        "url": "https://u24.gov.ua/"
       }
     ],
     "awareness": [
-      "Share information about Ukrainian history and culture",
-      "Advocate for continued international support for Ukraine"
+      "Challenge Russian disinformation and imperialist narratives.",
+      "Amplify Ukrainian voices, art, and perspectives on decolonisation."
     ],
     "boycott": [
-      "Avoid Russian products and services",
-      "Support sanctions against Russian economy"
+      "Support comprehensive sanctions against the Russian state and its enablers.",
+      "Boycott companies that continue to operate in or fund the Russian war economy."
     ]
   }
 }

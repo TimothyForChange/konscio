@@ -76,7 +76,3 @@ Common environment variables:
 - `BROKEN_LINKS_FAIL_ON` — comma-separated list of numeric HTTP status codes that should be treated as failures.
 
 Example: copy the included `.env.example` into `.env`, set `BROKEN_LINKS_STRICT=1` and run a build to make the CI fail on broken external links.
-
-## License
-
-GPL-3.0 — see [LICENSE](./LICENSE).
