@@ -3,46 +3,46 @@
   "currentCrisisSummary": "Eastern DRC is the epicentre of a war fought over its vast mineral wealth (cobalt, coltan, gold), essential for modern electronics. The conflict involves the Congolese army, over 100 armed groups, and foreign-backed militias (notably Rwanda's M23). It has created one of the world's worst displacement crises and is characterised by the systematic use of sexual violence as a weapon of war.",
   "colonialRoot": {
     "colonialPower": "Belgium (King Leopold II & the Belgian State)",
-    "legacy": "The crisis is a direct legacy of Belgium's exceptionally brutal colonial rule. King Leopold II's personal Congo Free State (1885-1908) was a slave state built on a 'Red Rubber' terror system, where millions were killed or mutilated to extract rubber and ivory. The subsequent Belgian state continued this purely extractive model, intentionally building no viable local institutions and leaving behind a hollow state at independence. This colonial architecture of a weak state, designed for efficient extraction by outsiders, created the blueprint for the neocolonial scramble for resources that defines the DRC today."
+    "legacy": "The crisis is a direct legacy of Belgium's exceptionally brutal colonial rule. King Leopold II's personal Congo Free State (1885-1908) was a slave state built on a 'Red Rubber' terror system, where millions were killed or mutilated to extract rubber and ivory [Hochschild, 'King Leopold's Ghost', 1998]. The subsequent Belgian state continued this purely extractive model, intentionally building no viable local institutions and leaving behind a hollow state at independence [Young & Turner, 'The Rise and Decline of the Zairian State', 1985]. This colonial architecture of a weak state, designed for efficient extraction by outsiders, created the blueprint for the neocolonial scramble for resources that defines the DRC today."
   },
   "coreTerms": {
-    "conflictMineralsAndProxyWars": "The DRC's mineral wealth is a curse, fuelling a neocolonial proxy war. Neighbouring states, particularly Rwanda and Uganda, have repeatedly invaded and armed militias (like the M23) to illegally extract and traffic conflict minerals. Western tech and automotive companies create the demand, while these regional powers act as violent intermediaries, profiting from the chaos.",
-    "theHollowState": "The 'resource curse' is a political condition rooted in the hollow state left by Belgium. Post-independence, the CIA and Belgian-backed assassination of Patrice Lumumba and the installation of the kleptocrat Mobutu Sese Seko reinforced this system. Today, the state's weakness is actively exploited by external actors who benefit from the inability to control borders or regulate mining, ensuring resources flow out while violence stays in."
+    "conflictMineralsAndProxyWars": "The DRC's mineral wealth is a curse, fuelling a neocolonial proxy war. Neighbouring states, particularly Rwanda and Uganda, have repeatedly invaded and armed militias (like the M23) to illegally extract and traffic conflict minerals [UN Group of Experts reports, 2012-2024]. Western tech and automotive companies create the demand, while these regional powers act as violent intermediaries, profiting from the chaos.",
+    "theHollowState": "The 'resource curse' is a political condition rooted in the hollow state left by Belgium. Post-independence, the CIA and Belgian-backed assassination of Patrice Lumumba and the installation of the kleptocrat Mobutu Sese Seko reinforced this system [De Witte, 'The Assassination of Lumumba', 2001; US Senate Church Committee Report, 1975]. Today, the state's weakness is actively exploited by external actors who benefit from the inability to control borders or regulate mining, ensuring resources flow out while violence stays in."
   },
   "humanitarianImpact": {
-    "displaced": "Over 7.3 million people are internally displaced, one of the largest displacement crises globally.",
-    "refugees": "More than 1 million refugees have sought safety in neighbouring African countries.",
-    "casualties": "An estimated 6 million people have died from conflict-related causes since 1996, the deadliest conflict since World War II.",
-    "affected": "Over 25.4 million people require humanitarian assistance, with millions facing crisis levels of hunger."
+    "displaced": "Over 7.3 million people are internally displaced, one of the largest displacement crises globally [UNHCR/IOM, 2024].",
+    "refugees": "More than 1 million refugees have sought safety in neighbouring African countries [UNHCR, 2024].",
+    "casualties": "An estimated 6 million people have died from conflict-related causes since 1996, the deadliest conflict since World War II [International Rescue Committee, 2008; subsequent studies].",
+    "affected": "Over 25.4 million people require humanitarian assistance, with millions facing crisis levels of hunger [UN OCHA, 2024]."
   },
   "timeline": [
     {
       "year": "1885",
-      "event": "**Congo Free State**: King Leopold II of Belgium establishes his personal slave colony."
+      "event": "**Congo Free State**: King Leopold II of Belgium establishes his personal slave colony [Berlin Conference, 1884-85]."
     },
     {
       "year": "1960",
-      "event": "**Independence**: The DRC gains independence from Belgium."
+      "event": "**Independence**: The DRC gains independence from Belgium [30 June 1960]."
     },
     {
       "year": "1961",
-      "event": "**Patrice Lumumba Assassinated**: The first democratically elected Prime Minister is murdered with Belgian and US complicity."
+      "event": "**Patrice Lumumba Assassinated**: The first democratically elected Prime Minister is murdered with Belgian and US complicity [17 January 1961; De Witte, 2001]."
     },
     {
       "year": "1965-1997",
-      "event": "**Mobutu Dictatorship**: The US-backed kleptocrat rules and renames the country Zaire."
+      "event": "**Mobutu Dictatorship**: The US-backed kleptocrat rules and renames the country Zaire [Coup d'état, 24 November 1965]."
     },
     {
       "year": "1994",
-      "event": "**Rwandan Genocide Aftermath**: The genocide's fallout spills into eastern DRC, becoming a pretext for foreign invasions."
+      "event": "**Rwandan Genocide Aftermath**: The genocide's fallout spills into eastern DRC, becoming a pretext for foreign invasions [Post-April 1994]."
     },
     {
       "year": "1998-2003",
-      "event": "**Second Congo War**: 'Africa's World War' involves nine countries and kills millions."
+      "event": "**Second Congo War**: 'Africa's World War' involves nine countries and kills millions [Prunier, 'Africa's World War', 2009]."
     },
     {
       "year": "2021-Present",
-      "event": "**M23 Resurgence**: The Rwandan-backed M23 militia reignites large-scale conflict in the east."
+      "event": "**M23 Resurgence**: The Rwandan-backed M23 militia reignites large-scale conflict in the east [UN Group of Experts, 2022-2024]."
     }
   ],
   "takeAction": {
@@ -53,7 +53,7 @@
         "url": "https://friendsofthecongo.org/"
       },
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
+        "organisation": "Médecins Sans Frontières",
         "description": "Delivers emergency medical aid to people affected by conflict and displacement.",
         "url": "https://www.msf.org/democratic-republic-congo"
       },

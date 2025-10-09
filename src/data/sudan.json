@@ -3,50 +3,50 @@
   "currentCrisisSummary": "A devastating civil war since April 2023 has triggered the world's largest displacement crisis, widespread famine, and atrocities, including ethnic cleansing in Darfur.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "British colonial policy was built on **divide-and-rule tactics**. It institutionalised ethnic and regional divisions by concentrating power and investment in the riverine centre while systematically underdeveloping and marginalising peripheral regions like the South and **Darfur**. This **engineered inequality** created a parasitic central state and blocked unified resistance. By pitting communities against each other, Britain established the structural basis for the **centre-periphery conflicts** and extractive politics that have defined Sudan's post-independence history of civil war."
+    "legacy": "British colonial policy was built on **divide-and-rule tactics**. It institutionalised ethnic and regional divisions by concentrating power and investment in the riverine centre while systematically underdeveloping and marginalising peripheral regions like the South and **Darfur** [Daly, 'Imperial Sudan', 1991; Sharkey, 'Living with Colonialism', 2003]. This **engineered inequality** created a parasitic central state and blocked unified resistance [Johnson, 'The Root Causes of Sudan's Civil Wars', 2003]. By pitting communities against each other, Britain established the structural basis for the **centre-periphery conflicts** and extractive politics that have defined Sudan's post-independence history of civil war."
   },
   "coreTerms": {
-    "proxyWarForResources": "The civil war is fuelled by regional powers, particularly the **UAE**, competing for control of Sudan's resources and strategic location. Foreign backing for the warring factions transforms the internal power struggle into a proxy war for Sudan's **gold**, agricultural land, and Red Sea ports, prolonging the violence for geopolitical gain.",
-    "inheritedStateViolence": "The war is an extension of the **centre-periphery violence** institutionalised during the colonial era. The state has historically used militias recruited from marginalised communities (like the RSF's precursors, the Janjaweed) to suppress dissent in other marginalised regions, a tactic that has now backfired, leading to the implosion of the central state itself."
+    "proxyWarForResources": "The civil war is fuelled by regional powers, particularly the **UAE**, competing for control of Sudan's resources and strategic location [CNN investigation, 2024; various UN expert reports]. Foreign backing for the warring factions transforms the internal power struggle into a proxy war for Sudan's **gold**, agricultural land, and Red Sea ports, prolonging the violence for geopolitical gain.",
+    "inheritedStateViolence": "The war is an extension of the **centre-periphery violence** institutionalised during the colonial era. The state has historically used militias recruited from marginalised communities (like the RSF's precursors, the Janjaweed) to suppress dissent in other marginalised regions [De Waal, 'Famine Crimes', 1997; Flint & De Waal, 'Darfur: A New History of a Long War', 2008], a tactic that has now backfired, leading to the implosion of the central state itself."
   },
   "humanitarianImpact": {
-    "displaced": "Over **10 million** people internally displaced, making it the world's largest internal displacement crisis.",
-    "refugees": "More than **2 million** refugees have fled to neighbouring countries, including Chad, Egypt, and South Sudan.",
-    "casualties": "The official death toll of **15,000** is a significant underestimate; credible estimates suggest the real figure is over **150,000**.",
-    "affected": "**25 million** people—more than half the population—require urgent humanitarian aid, with **18 million** facing acute hunger."
+    "displaced": "Over **10 million** people internally displaced, making it the world's largest internal displacement crisis [IOM, 2024].",
+    "refugees": "More than **2 million** refugees have fled to neighbouring countries, including Chad, Egypt, and South Sudan [UNHCR, 2024].",
+    "casualties": "The official death toll of **15,000** is a significant underestimate; credible estimates suggest the real figure is over **150,000** [ACLED (Armed Conflict Location & Event Data Project), 2024; London School of Hygiene & Tropical Medicine study, 2024].",
+    "affected": "**25 million** people—more than half the population—require urgent humanitarian aid, with **18 million** facing acute hunger [UN OCHA, 2024; Integrated Food Security Phase Classification, 2024]."
   },
   "timeline": [
     {
       "year": "1899",
-      "event": "**Anglo-Egyptian Condominium**: British colonial rule is established over Sudan."
+      "event": "**Anglo-Egyptian Condominium**: British colonial rule is established over Sudan [19 January 1899]."
     },
     {
       "year": "1956",
-      "event": "**Independence**: Sudan gains independence, but the colonial power structure remains."
+      "event": "**Independence**: Sudan gains independence, but the colonial power structure remains [1 January 1956]."
     },
     {
       "year": "1983-2005",
-      "event": "**Second Sudanese Civil War**: A brutal conflict between the central government and the south."
+      "event": "**Second Sudanese Civil War**: A brutal conflict between the central government and the south [5 June 1983 - 9 January 2005; estimated 2 million deaths]."
     },
     {
       "year": "2003",
-      "event": "**Genocide in Darfur**: The government unleashes Janjaweed militias to crush a rebellion."
+      "event": "**Genocide in Darfur**: The government unleashes Janjaweed militias to crush a rebellion [February 2003 onwards; ICC indictment of Omar al-Bashir, 2009]."
     },
     {
       "year": "2011",
-      "event": "**South Sudan Secedes**: The South gains independence after decades of war."
+      "event": "**South Sudan Secedes**: The South gains independence after decades of war [9 July 2011]."
     },
     {
       "year": "2019",
-      "event": "**Sudanese Revolution**: A popular uprising overthrows dictator Omar al-Bashir."
+      "event": "**Sudanese Revolution**: A popular uprising overthrows dictator Omar al-Bashir [December 2018 - April 2019; Bashir ousted 11 April 2019]."
     },
     {
       "year": "2021",
-      "event": "**Military Coup**: Generals al-Burhan and 'Hemedti' seize power, derailing the democratic transition."
+      "event": "**Military Coup**: Generals al-Burhan and 'Hemedti' seize power, derailing the democratic transition [25 October 2021]."
     },
     {
       "year": "2023",
-      "event": "**Civil War Erupts**: The army (SAF) and the RSF militia turn on each other in a struggle for absolute power."
+      "event": "**Civil War Erupts**: The army (SAF) and the RSF militia turn on each other in a struggle for absolute power [15 April 2023]."
     }
   ],
   "takeAction": {
@@ -57,7 +57,7 @@
         "url": "https://islamic-relief.org/appeals/sudan-emergency-appeal/"
       },
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
+        "organisation": "Médecins Sans Frontières",
         "description": "Delivering life-saving medical care in active conflict zones.",
         "url": "https://www.msf.org/sudan"
       },
