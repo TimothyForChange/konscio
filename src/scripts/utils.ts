@@ -58,6 +58,21 @@ export function formatTermKey(key: string): string {
     regionalRivalries: 'Regional Rivalries',
     inheritedSectarianism: 'Inherited Sectarianism',
     stateCollapse: 'State Collapse',
+    conflictMineralsAndProxyWars: 'Conflict Minerals & Proxy Wars',
+    theHollowState: 'The Hollow State',
+    imperialAmbition: 'Imperial Ambition',
+    decolonisationAndResistance: 'Decolonisation & Resistance',
+    proxyWarForResources: 'Proxy War for Resources',
+    inheritedStateViolence: 'Inherited State Violence',
+    geopoliticalComplicity: 'Geopolitical Complicity',
+    settlerColonialismAndApartheid: 'Settler Colonialism & Apartheid',
+    ethnoNationalismAndFederalism: 'Ethno-Nationalism & Federalism',
+    militaryRuleAsInternalColonialism: 'Military Rule as Internal Colonialism',
+    neocolonialDebtAndExtraction: 'Neocolonial Debt & Extraction',
+    imperialInterventionAndOccupation: 'Imperial Intervention & Occupation',
+    federalismVsCentralism: 'Federalism vs. Centralism',
+    weaponisedGrievancesAndForeignIntervention:
+      'Weaponised Grievances & Foreign Intervention',
   };
 
   return keyMappings[key] || key.charAt(0).toUpperCase() + key.slice(1);
