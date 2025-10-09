@@ -62,7 +62,11 @@ const { countries } = userData as { countries: Country[] };
     border: 1px solid var(--border);
     border-radius: 8px;
     text-decoration: none;
-    transition: all 0.2s ease;
+    transition:
+      background-color 0.18s ease,
+      border-color 0.18s ease,
+      transform 0.12s ease,
+      box-shadow 0.12s ease;
     min-height: 60px;
     box-sizing: border-box;
   }
@@ -74,10 +78,12 @@ const { countries } = userData as { countries: Country[] };
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
-  .country-card:focus-visible {
-    outline: 2px solid var(--accent-primary);
-    outline-offset: 2px;
-    background: var(--bg-alt);
+  .country-card:active {
+    transform: scale(0.97) translateY(1.5px);
+    box-shadow: 0 1.5px 6px rgba(0, 0, 0, 0.08);
+    transition:
+      transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .country-flag {

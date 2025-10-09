@@ -153,6 +153,27 @@ a:focus-visible {
   outline-offset: 2px;
 }
 
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[role='button']:focus-visible,
+[role='link']:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px var(--focus-ring-soft);
+}
+
+.focus-strong:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px var(--focus-ring-soft);
+  background-color: var(--accent-primary);
+  color: var(--on-accent);
+  border-color: var(--accent-primary);
+}
+
 html::-webkit-scrollbar {
   width: var(--scrollbar-size);
   height: var(--scrollbar-size);

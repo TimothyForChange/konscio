@@ -7,7 +7,7 @@ export interface Props {
 const { href = '/', class: className = '' } = Astro.props;
 ---
 
-<a href={href} class={`back-button ${className}`}>
+<a href={href} class={`back-button ${className} focus-strong`}>
   <i class='ri-arrow-left-long-line'></i>
   Back to Home
 </a>
@@ -41,14 +41,6 @@ const { href = '/', class: className = '' } = Astro.props;
     color: var(--on-accent);
     border-color: var(--accent-primary);
     transform: translateY(-1px);
-  }
-
-  .back-button:focus-visible {
-    outline: 2px solid var(--accent-primary);
-    outline-offset: 2px;
-    background-color: var(--accent-primary);
-    color: var(--on-accent);
-    border-color: var(--accent-primary);
   }
 
   .back-button:active {

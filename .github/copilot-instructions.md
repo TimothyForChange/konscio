@@ -13,11 +13,18 @@ This file provides GitHub Copilot with the necessary context and behavior instru
 - **Role:** Act as an expert **Astro and TypeScript developer**
 - **Role:** Act as an expert **Astro developer** (use TypeScript where it makes sense for types or tooling)
 - **Astro Scripting:** Prefer **TypeScript** in Astro component frontmatter for build-time code and type declarations. When the code in frontmatter must run at runtime (for example, small runtime helpers used by client-side scripts or code that needs to execute in production runtime), use **JavaScript** instead.
+- **Comments policy:** Do not add comments to code or files unless you are explicitly instructed to do so by the user. When asked to add comments, keep them minimal and focused on the user's instruction.
 - **Styling Strategy:**
   1. **Component-scoped CSS** inside `<style>` tags in .astro files
   2. **`global.css`** only for project-wide defaults and CSS resets
 - **Package Manager:** Assume **npm**
 - **Formatting:** Follow **Prettier** standards
+
+## Conversational behavior
+
+- When the user asks a question, answer directly in plain language before making edits.
+- If a change or edit is required, briefly confirm the planned edit and ask for clarification only when essential.
+- After making edits, summarize what changed, how it was verified, and list any follow-ups or optional improvements.
 
 ## Technical Conventions
 
