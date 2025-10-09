@@ -2,10 +2,14 @@
 import { formatTermKey, formatText } from '../scripts/utils';
 
 export interface Props {
-  coreTerms: Record<string, string>;
+  coreTerms?: Record<string, string>;
 }
 
-const { coreTerms } = Astro.props;
+const { coreTerms } = Astro.props as Props;
+
+if (!coreTerms || Object.keys(coreTerms).length === 0) {
+  return null;
+}
 ---
 
 <section class='terms-section' aria-labelledby='history-heading'>

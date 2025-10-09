@@ -2,15 +2,19 @@
 import { formatText } from '../scripts/utils';
 
 interface TimelineEvent {
-  year: string;
-  event: string;
+  year?: string;
+  event?: string;
 }
 
 interface Props {
-  timeline: TimelineEvent[];
+  timeline?: TimelineEvent[] | Array<Record<string, string>>;
 }
 
-const { timeline } = Astro.props;
+const { timeline } = Astro.props as Props;
+
+if (!timeline || timeline.length === 0) {
+  return null;
+}
 ---
 
 <section class='timeline-section'>
@@ -21,7 +25,10 @@ const { timeline } = Astro.props;
         <div class='timeline-item'>
           <div class='timeline-content'>
             <div class='timeline-year'>{item.year}</div>
-            <div class='timeline-event' set:html={formatText(item.event)} />
+            <div
+              class='timeline-event'
+              set:html={formatText(item.event ?? '')}
+            />
           </div>
         </div>
       ))

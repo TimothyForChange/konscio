@@ -1,7 +1,18 @@
 ---
 import 'remixicon/fonts/remixicon.css';
 
-const { icon, title, description, url } = Astro.props;
+export interface Props {
+  icon?: string;
+  title?: string;
+  description?: string;
+  url?: string;
+}
+
+const { icon, title, description, url } = Astro.props as Props;
+
+if (!title || !url) {
+  return null;
+}
 ---
 
 <a href={url} class='link'>

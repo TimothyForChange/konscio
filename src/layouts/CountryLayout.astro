@@ -10,39 +10,67 @@ import HumanitarianImpact from '../components/HumanitarianImpact.astro';
 import TakeAction from '../components/TakeAction.astro';
 import Timeline from '../components/Timeline.astro';
 
-const { countryData } = Astro.props;
-const pageDescription = `Learn about the humanitarian crisis in ${countryData.name} - Timothy Brits (Mooship) raises awareness about ongoing conflicts and issues affecting communities worldwide.`;
-const canonicalUrl = `https://mooship.co.za/${countryData.name.toLowerCase()}`;
+export interface CountryData {
+  name?: string;
+  currentCrisisSummary?: string;
+  humanitarianImpact?: Record<string, string>;
+  timeline?: Array<Record<string, string>>;
+  colonialRoot?: {
+    colonialPower?: string;
+    legacy?: string;
+  };
+  coreTerms?: Record<string, string>;
+  takeAction?: Record<string, unknown>;
+}
+
+export interface Props {
+  countryData?: CountryData;
+  title?: string;
+}
+
+const { countryData } = Astro.props as Props;
+const passedTitle = (Astro.props as Props).title;
+const safeName = countryData?.name ?? 'Country';
+const pageDescription = `Learn about the humanitarian crisis in ${safeName} - Timothy Brits (Mooship) raises awareness about ongoing conflicts and issues affecting communities worldwide.`;
+const canonicalUrl = `https://mooship.co.za/${safeName.toLowerCase()}`;
 ---
 
 <Layout
-  title={`${countryData.name} Crisis - Timothy Brits | Mooship`}
+  title={passedTitle ?? `${safeName} Crisis - Timothy Brits | Mooship`}
   description={pageDescription}
   canonicalUrl={canonicalUrl}
 >
   <div class='page-wrapper'>
     <main class='container' id='container'>
       <div class='country-page'>
-        <CountryHeader countryName={countryData.name} />
+        <CountryHeader countryName={countryData?.name ?? safeName} />
 
-        <CrisisSection summary={countryData.currentCrisisSummary} />
+        <CrisisSection summary={countryData?.currentCrisisSummary ?? ''} />
 
         {
-          countryData.humanitarianImpact && (
+          countryData?.humanitarianImpact && (
             <HumanitarianImpact
               humanitarianImpact={countryData.humanitarianImpact}
             />
           )
         }
 
-        {countryData.timeline && <Timeline timeline={countryData.timeline} />}
-
-        <ColonialSection colonialRoot={countryData.colonialRoot} />
-
-        <HistoricalContext coreTerms={countryData.coreTerms} />
+        {countryData?.timeline && <Timeline timeline={countryData.timeline} />}
 
         {
-          countryData.takeAction && (
+          countryData?.colonialRoot && (
+            <ColonialSection colonialRoot={countryData.colonialRoot} />
+          )
+        }
+
+        {
+          countryData?.coreTerms && (
+            <HistoricalContext coreTerms={countryData.coreTerms} />
+          )
+        }
+
+        {
+          countryData?.takeAction && (
             <TakeAction takeAction={countryData.takeAction} />
           )
         }

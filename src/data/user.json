@@ -1,7 +1,51 @@
 {
   "name": "Timothy Brits",
   "profession": "Software Engineer",
-  "bio": "Pretoria-based .NET and Node.js developer, building useful and engaging digital tools. I believe in using my platform to raise awareness about global humanitarian issues and support communities in the DRC, Haiti, Myanmar, Palestine, Sudan, and Ukraine.",
+  "bio": "I use my platform to raise awareness about ongoing humanitarian crises around the world. I'm a .NET and Node.js developer based in Pretoria, building digital tools that hopefully make a difference. When I'm not at my computer, I'm probably playing with my dog, listening to audiobooks, or getting competitive over board games.",
+  "countries": [
+    {
+      "name": "Palestine",
+      "slug": "palestine",
+      "flag": "🇵🇸",
+      "description": "Ongoing occupation and humanitarian crisis"
+    },
+    {
+      "name": "Sudan",
+      "slug": "sudan",
+      "flag": "🇸🇩",
+      "description": "Civil war and displacement crisis"
+    },
+    {
+      "name": "Myanmar",
+      "slug": "myanmar",
+      "flag": "🇲🇲",
+      "description": "Military coup and persecution"
+    },
+    {
+      "name": "Ukraine",
+      "slug": "ukraine",
+      "flag": "🇺🇦",
+      "description": "War and refugee crisis"
+    },
+    {
+      "name": "DRC",
+      "slug": "drc",
+      "flag": "🇨🇩",
+      "description": "Ongoing conflict and humanitarian needs"
+    },
+    {
+      "name": "Haiti",
+      "slug": "haiti",
+      "flag": "🇭🇹",
+      "description": "Political instability and humanitarian crisis"
+    },
+    {
+      "name": "Ethiopia",
+      "slug": "ethiopia",
+      "flag": "🇪🇹",
+      "description": "Aftermath of the Tigray War and ongoing regional conflicts"
+    }
+  ],
   "links": [
     {
       "url": "https://www.instagram.com/brits.timothy/",

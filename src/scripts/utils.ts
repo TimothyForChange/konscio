@@ -15,6 +15,7 @@ export const countryMetadata: Record<
     ariaLabel: 'Democratic Republic of Congo flag',
   },
   Haiti: { emoji: '🇭🇹', ariaLabel: 'Haitian flag' },
+  Ethiopia: { emoji: '🇪🇹', ariaLabel: 'Ethiopian flag' },
 };
 
 export function formatTermKey(key: string): string {
@@ -31,6 +32,8 @@ export function formatTermKey(key: string): string {
     regionalInequalities: 'Regional Inequalities',
     historicalExtraction: 'Historical Extraction',
     externalInterventions: 'External Interventions',
+    ethnicFederalism: 'Ethnic Federalism vs. Centralisation',
+    regionalRivalries: 'Regional Rivalries',
   };
 
   return keyMappings[key] || key.charAt(0).toUpperCase() + key.slice(1);

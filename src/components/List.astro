@@ -5,23 +5,44 @@ import Link from './Link.astro';
 const items = dataList.links;
 ---
 
-<ul class='list' id='list'>
-  {
-    items.map((item, index) => (
-      <li class={`list-animated`} data-index={index}>
-        <Link
-          icon={item.icon}
-          title={item.title}
-          description={item.description}
-          url={item.url}
-          colorIndex={index}
-        />
-      </li>
-    ))
-  }
-</ul>
+<section class='links-section'>
+  <h2 class='links-heading'>Projects & Links</h2>
+  <ul class='list' id='list'>
+    {
+      items.map((item, index) => (
+        <li class={`list-animated`} data-index={index}>
+          <Link
+            icon={item.icon}
+            title={item.title}
+            description={item.description}
+            url={item.url}
+            colorIndex={index}
+          />
+        </li>
+      ))
+    }
+  </ul>
+</section>
 
 <style>
+  .links-section {
+    margin-top: 2rem;
+  }
+
+  .links-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .links-heading {
+      font-size: 1.125rem;
+    }
+  }
+
   .list {
     margin: 2rem 0;
     display: grid;

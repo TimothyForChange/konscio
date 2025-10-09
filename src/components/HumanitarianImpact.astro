@@ -2,15 +2,19 @@
 import { formatText } from '../scripts/utils';
 
 export interface Props {
-  humanitarianImpact: {
-    displaced: string;
-    refugees: string;
-    casualties: string;
-    affected: string;
+  humanitarianImpact?: {
+    displaced?: string;
+    refugees?: string;
+    casualties?: string;
+    affected?: string;
   };
 }
 
-const { humanitarianImpact } = Astro.props;
+const { humanitarianImpact } = Astro.props as Props;
+
+if (!humanitarianImpact) {
+  return null;
+}
 ---
 
 <section class='humanitarian-section' aria-labelledby='humanitarian-heading'>
@@ -18,19 +22,19 @@ const { humanitarianImpact } = Astro.props;
   <div class='impact-stats'>
     <div class='stat-item'>
       <strong>Displaced:</strong>{' '}
-      <span set:html={formatText(humanitarianImpact.displaced)} />
+      <span set:html={formatText(humanitarianImpact.displaced ?? '—')} />
     </div>
     <div class='stat-item'>
       <strong>Refugees:</strong>{' '}
-      <span set:html={formatText(humanitarianImpact.refugees)} />
+      <span set:html={formatText(humanitarianImpact.refugees ?? '—')} />
     </div>
     <div class='stat-item'>
       <strong>Casualties:</strong>{' '}
-      <span set:html={formatText(humanitarianImpact.casualties)} />
+      <span set:html={formatText(humanitarianImpact.casualties ?? '—')} />
     </div>
     <div class='stat-item'>
       <strong>Affected:</strong>{' '}
-      <span set:html={formatText(humanitarianImpact.affected)} />
+      <span set:html={formatText(humanitarianImpact.affected ?? '—')} />
     </div>
   </div>
 </section>

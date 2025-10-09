@@ -1,20 +1,23 @@
 ---
 import userData from '../data/user.json';
+import CountriesGrid from './CountriesGrid.astro';
 
-const { name, profession, bio } = userData;
+type Link = { url: string; icon?: string; title: string; description?: string };
+type Country = {
+  name: string;
+  slug: string;
+  flag?: string;
+  description?: string;
+};
+type User = {
+  name: string;
+  profession?: string;
+  bio?: string;
+  countries?: Country[];
+  links?: Link[];
+};
 
-const replacements: Array<[RegExp, string]> = [
-  [/Palestine/g, '<a href="/palestine" class="country-link">Palestine 🇵🇸</a>'],
-  [/Sudan/g, '<a href="/sudan" class="country-link">Sudan 🇸🇩</a>'],
-  [/Myanmar/g, '<a href="/myanmar" class="country-link">Myanmar 🇲🇲</a>'],
-  [/Ukraine/g, '<a href="/ukraine" class="country-link">Ukraine 🇺🇦</a>'],
-  [/the DRC/g, '<a href="/drc" class="country-link">the DRC 🇨🇩</a>'],
-  [/Haiti/g, '<a href="/haiti" class="country-link">Haiti 🇭🇹</a>'],
-];
-const bioHtml = replacements.reduce(
-  (acc, [pattern, value]) => acc.replace(pattern, value),
-  String(bio)
-);
+const { name, profession, bio } = userData as User;
 ---
 
 <header class='profile'>
@@ -35,10 +38,12 @@ const bioHtml = replacements.reduce(
     <h1 class='profile-name'>{name}</h1>
     <p class='profile-profession'>{profession}</p>
     <div class='profile-bio'>
-      <p class='profile-bio-text' set:html={bioHtml} />
+      <p class='profile-bio-text'>{bio}</p>
     </div>
   </div>
 </header>
+
+<CountriesGrid />
 
 <style>
   .profile {
@@ -106,79 +111,5 @@ const bioHtml = replacements.reduce(
     color: var(--text-primary);
     line-height: 1.6;
     text-align: center;
-  }
-
-  .profile-bio .profile-bio-text a:focus-visible {
-    outline: 2px solid var(--accent-primary);
-    outline-offset: 2px;
-  }
-
-  :global(.country-link) {
-    border-radius: 6px;
-    padding: 8px 6px;
-    margin: -4px -2px;
-    display: inline-flex;
-    align-items: center;
-    min-height: 44px;
-    min-width: 44px;
-    line-height: 1.4;
-    text-align: center;
-    font-weight: 600;
-    transition: background-color 0.2s ease;
-    position: relative;
-    box-sizing: border-box;
-  }
-
-  :global(.country-link:hover) {
-    background-color: var(--bg-alt);
-    color: var(--text-primary);
-    text-decoration: none;
-  }
-
-  :global(.country-link),
-  :global(.country-link:visited) {
-    color: var(--accent-secondary);
-    text-decoration: underline;
-    text-decoration-thickness: 1.2px;
-    text-underline-offset: 2px;
-    font-weight: 500;
-  }
-
-  :global(.country-link:focus-visible) {
-    outline: 2px solid var(--accent-primary);
-    outline-offset: 2px;
-    background-color: var(--bg-alt);
-    color: var(--text-primary);
-  }
-
-  @media (max-width: 768px) {
-    :global(.country-link) {
-      padding: 10px 8px;
-      margin: -6px -4px;
-      border-radius: 8px;
-      font-size: 1.1rem;
-      min-height: 48px;
-      min-width: 48px;
-    }
-  }
-
-  @media (hover: none) and (pointer: coarse) {
-    :global(.country-link) {
-      padding: 12px 10px;
-      margin: -8px -6px;
-      min-height: 48px;
-      min-width: 48px;
-      border-radius: 8px;
-    }
-
-    :global(.country-link:active) {
-      background-color: var(--bg-alt);
-      color: var(--text-primary);
-      text-decoration: none;
-      transform: scale(0.95);
-      transition:
-        background-color 0.1s ease,
-        transform 0.1s ease;
-    }
   }
 </style>

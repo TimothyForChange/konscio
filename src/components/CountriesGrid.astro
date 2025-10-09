@@ -1,0 +1,129 @@
+---
+import userData from '../data/user.json';
+
+type Country = {
+  name: string;
+  slug: string;
+  flag?: string;
+  description?: string;
+};
+
+const { countries } = userData as { countries: Country[] };
+---
+
+<section class='causes-section'>
+  <h2 class='causes-heading'>Supporting Communities In</h2>
+  <div class='countries-grid'>
+    {
+      countries.map((country) => (
+        <a href={`/${country.slug}`} class='country-card'>
+          <span class='country-flag' aria-hidden='true'>
+            {country.flag}
+          </span>
+          <span class='visually-hidden'>Flag of {country.name}</span>
+          <div class='country-info'>
+            <span class='country-name'>{country.name}</span>
+            <span class='country-description'>{country.description}</span>
+          </div>
+        </a>
+      ))
+    }
+  </div>
+</section>
+
+<style>
+  .causes-section {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .causes-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .countries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 0.75rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .country-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    min-height: 60px;
+    box-sizing: border-box;
+  }
+
+  .country-card:hover {
+    background: var(--bg-alt);
+    border-color: var(--accent-primary);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .country-card:focus-visible {
+    outline: 2px solid var(--accent-primary);
+    outline-offset: 2px;
+    background: var(--bg-alt);
+  }
+
+  .country-flag {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+
+  .country-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    min-width: 0;
+  }
+
+  .country-name {
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 1rem;
+  }
+
+  .country-description {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    line-height: 1.3;
+  }
+
+  @media (max-width: 768px) {
+    .countries-grid {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+
+    .country-card {
+      padding: 0.875rem;
+      min-height: 56px;
+    }
+
+    .causes-heading {
+      font-size: 1.125rem;
+    }
+  }
+
+  @media (hover: none) and (pointer: coarse) {
+    .country-card:active {
+      transform: scale(0.98);
+      transition: transform 0.1s ease;
+    }
+  }
+</style>

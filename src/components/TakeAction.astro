@@ -2,18 +2,22 @@
 import { formatText } from '../scripts/utils';
 
 export interface Props {
-  takeAction: {
-    donate: Array<{
-      organisation: string;
-      description: string;
-      url: string;
+  takeAction?: {
+    donate?: Array<{
+      organisation?: string;
+      description?: string;
+      url?: string;
     }>;
-    awareness: Array<string>;
-    boycott: Array<string>;
+    awareness?: Array<string>;
+    boycott?: Array<string>;
   };
 }
 
-const { takeAction } = Astro.props;
+const { takeAction } = Astro.props as Props;
+
+if (!takeAction) {
+  return null;
+}
 ---
 
 <section class='action-section'>
@@ -25,12 +29,12 @@ const { takeAction } = Astro.props;
     </h3>
     <div class='donate-organisations'>
       {
-        takeAction.donate.map((org) => (
+        (takeAction.donate ?? []).map((org) => (
           <div class='org-item'>
-            <h4>{org.organisation}</h4>
-            <p>{org.description}</p>
+            <h4>{org.organisation ?? 'Organisation'}</h4>
+            <p>{org.description ?? ''}</p>
             <a
-              href={org.url}
+              href={org.url ?? '#'}
               target='_blank'
               rel='noopener noreferrer'
               class='donate-link'
@@ -50,7 +54,7 @@ const { takeAction } = Astro.props;
     </h3>
     <div class='awareness-list'>
       {
-        takeAction.awareness.map((action) => (
+        (takeAction.awareness ?? []).map((action) => (
           <div class='action-card' set:html={formatText(action)} />
         ))
       }
@@ -63,7 +67,7 @@ const { takeAction } = Astro.props;
     </h3>
     <div class='boycott-list'>
       {
-        takeAction.boycott.map((action) => (
+        (takeAction.boycott ?? []).map((action) => (
           <div class='action-card'>{action}</div>
         ))
       }

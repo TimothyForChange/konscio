@@ -1,34 +1,15 @@
 ---
+import userData from '../data/user.json';
 import CountryLayout from '../layouts/CountryLayout.astro';
 
 export async function getStaticPaths() {
-  const countries = [
-    'palestine',
-    'ukraine',
-    'sudan',
-    'myanmar',
-    'drc',
-    'haiti',
-  ];
-
-  const paths = await Promise.all(
-    countries.map(async (country) => {
-      try {
-        const countryData = await import(`../data/${country}.json`);
-        return {
-          params: { country },
-          props: { countryData: countryData.default },
-        };
-      } catch {
-        return null;
-      }
-    })
-  );
-
-  return paths.filter(Boolean);
+  return (userData.countries || []).map((c) => ({
+    params: { country: c.slug },
+  }));
 }
 
-const { countryData } = Astro.props;
+const { country } = Astro.params;
+const countryData = (await import(`../data/${country}.json`)).default;
 ---
 
 <CountryLayout title={`${countryData.name} Crisis`} countryData={countryData} />
