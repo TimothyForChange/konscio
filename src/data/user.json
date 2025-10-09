@@ -4,6 +4,30 @@
   "bio": "I use my platform to raise awareness about ongoing humanitarian crises around the world. I'm a .NET and Node.js developer based in Pretoria, building digital tools that hopefully make a difference. When I'm not at my computer, I'm probably playing with my dog, listening to audiobooks, or getting competitive over board games.",
   "countries": [
     {
+      "name": "DRC",
+      "slug": "drc",
+      "flag": "🇨🇩",
+      "description": "Ongoing conflict and humanitarian needs"
+    },
+    {
+      "name": "Ethiopia",
+      "slug": "ethiopia",
+      "flag": "🇪🇹",
+      "description": "Aftermath of the Tigray War and ongoing regional conflicts"
+    },
+    {
+      "name": "Haiti",
+      "slug": "haiti",
+      "flag": "🇭🇹",
+      "description": "Political instability and humanitarian crisis"
+    },
+    {
+      "name": "Myanmar",
+      "slug": "myanmar",
+      "flag": "🇲🇲",
+      "description": "Military coup and persecution"
+    },
+    {
       "name": "Palestine",
       "slug": "palestine",
       "flag": "🇵🇸",
@@ -16,40 +40,16 @@
       "description": "Civil war and displacement crisis"
     },
     {
-      "name": "Myanmar",
-      "slug": "myanmar",
-      "flag": "🇲🇲",
-      "description": "Military coup and persecution"
+      "name": "Syria",
+      "slug": "syria",
+      "flag": "🇸🇾",
+      "description": "Protracted civil war, foreign intervention, and humanitarian collapse"
     },
     {
       "name": "Ukraine",
       "slug": "ukraine",
       "flag": "🇺🇦",
       "description": "War and refugee crisis"
-    },
-    {
-      "name": "DRC",
-      "slug": "drc",
-      "flag": "🇨🇩",
-      "description": "Ongoing conflict and humanitarian needs"
-    },
-    {
-      "name": "Haiti",
-      "slug": "haiti",
-      "flag": "🇭🇹",
-      "description": "Political instability and humanitarian crisis"
-    },
-    {
-      "name": "Ethiopia",
-      "slug": "ethiopia",
-      "flag": "🇪🇹",
-      "description": "Aftermath of the Tigray War and ongoing regional conflicts"
-    },
-    {
-      "name": "Syria",
-      "slug": "syria",
-      "flag": "🇸🇾",
-      "description": "Protracted civil war, foreign intervention, and humanitarian collapse"
     }
   ],
   "links": [
