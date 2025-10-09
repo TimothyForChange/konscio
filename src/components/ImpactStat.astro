@@ -1,0 +1,31 @@
+---
+export interface Props {
+  label: string;
+  value: string;
+}
+
+const { label, value } = Astro.props as Props;
+---
+
+<div class='stat-item'>
+  <strong>{label}:</strong>
+  <span set:html={value} />
+</div>
+
+<style>
+  .stat-item {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+  }
+  .stat-item strong {
+    color: var(--accent-primary);
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+</style>

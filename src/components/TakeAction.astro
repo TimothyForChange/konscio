@@ -1,5 +1,7 @@
 ---
 import { formatText } from '../scripts/utils';
+import ActionCard from './ActionCard.astro';
+import DonateOrgCard from './DonateOrgCard.astro';
 
 export interface Props {
   takeAction?: {
@@ -30,19 +32,11 @@ if (!takeAction) {
     <div class='donate-organisations'>
       {
         (takeAction.donate ?? []).map((org) => (
-          <div class='org-item'>
-            <h4>{org.organisation ?? 'Organisation'}</h4>
-            <p>{org.description ?? ''}</p>
-            <a
-              href={org.url ?? '#'}
-              target='_blank'
-              rel='noopener noreferrer'
-              class='donate-link'
-            >
-              <i class='ri-external-link-line' />
-              Donate
-            </a>
-          </div>
+          <DonateOrgCard
+            organisation={org.organisation}
+            description={org.description}
+            url={org.url}
+          />
         ))
       }
     </div>
@@ -55,7 +49,7 @@ if (!takeAction) {
     <div class='awareness-list'>
       {
         (takeAction.awareness ?? []).map((action) => (
-          <div class='action-card' set:html={formatText(action)} />
+          <ActionCard content={formatText(action)} html={true} />
         ))
       }
     </div>
@@ -68,7 +62,7 @@ if (!takeAction) {
     <div class='boycott-list'>
       {
         (takeAction.boycott ?? []).map((action) => (
-          <div class='action-card'>{action}</div>
+          <ActionCard content={action} />
         ))
       }
     </div>

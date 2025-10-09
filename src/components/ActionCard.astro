@@ -1,0 +1,27 @@
+---
+export interface ActionCardProps {
+  content: string;
+  html?: boolean;
+}
+const { content, html = false } = Astro.props as ActionCardProps;
+---
+
+<div class='action-card' set:html={html ? content : undefined}>
+  {html ? null : content}
+</div>
+
+<style>
+  .action-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+  }
+  @media (max-width: 768px) {
+    .action-card {
+      padding: 0.875rem;
+    }
+  }
+</style>

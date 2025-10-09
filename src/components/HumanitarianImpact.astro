@@ -1,5 +1,6 @@
 ---
 import { formatText } from '../scripts/utils';
+import ImpactStat from './ImpactStat.astro';
 
 export interface Props {
   humanitarianImpact?: {
@@ -20,22 +21,22 @@ if (!humanitarianImpact) {
 <section class='humanitarian-section' aria-labelledby='humanitarian-heading'>
   <h2 id='humanitarian-heading'>Humanitarian Impact</h2>
   <div class='impact-stats'>
-    <div class='stat-item'>
-      <strong>Displaced:</strong>{' '}
-      <span set:html={formatText(humanitarianImpact.displaced ?? '—')} />
-    </div>
-    <div class='stat-item'>
-      <strong>Refugees:</strong>{' '}
-      <span set:html={formatText(humanitarianImpact.refugees ?? '—')} />
-    </div>
-    <div class='stat-item'>
-      <strong>Casualties:</strong>{' '}
-      <span set:html={formatText(humanitarianImpact.casualties ?? '—')} />
-    </div>
-    <div class='stat-item'>
-      <strong>Affected:</strong>{' '}
-      <span set:html={formatText(humanitarianImpact.affected ?? '—')} />
-    </div>
+    <ImpactStat
+      label='Displaced'
+      value={formatText(humanitarianImpact.displaced ?? '—')}
+    />
+    <ImpactStat
+      label='Refugees'
+      value={formatText(humanitarianImpact.refugees ?? '—')}
+    />
+    <ImpactStat
+      label='Casualties'
+      value={formatText(humanitarianImpact.casualties ?? '—')}
+    />
+    <ImpactStat
+      label='Affected'
+      value={formatText(humanitarianImpact.affected ?? '—')}
+    />
   </div>
   <p class='humanitarian-disclaimer'>
     These figures are estimates — the situation is ongoing and may change.
@@ -66,13 +67,6 @@ if (!humanitarianImpact) {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1rem;
     margin-top: 1rem;
-  }
-
-  .stat-item {
-    background: var(--bg-surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1rem;
   }
 
   .humanitarian-disclaimer {
