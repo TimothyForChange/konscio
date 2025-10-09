@@ -1,5 +1,26 @@
+function escapeHtml(str: string): string {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 export function formatText(text: string): string {
-  return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  const escaped = escapeHtml(text);
+
+  let result = escaped.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+  result = result.replace(/\[([^\]]+)\](?!\()/g, (match, p1, offset, str) => {
+    const prevChar = offset > 0 ? str[offset - 1] : '';
+    if (prevChar === '!') {
+      return match;
+    }
+    return `<cite class="bracketed">${p1}</cite>`;
+  });
+
+  return result;
 }
 
 export const countryMetadata: Record<

@@ -209,6 +209,29 @@ html::-webkit-scrollbar-corner {
   margin-bottom: 1.5rem;
 }
 
+cite {
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 0.95em;
+  line-height: inherit;
+}
+cite.bracketed {
+  display: inline;
+}
+cite.bracketed::before,
+cite.bracketed::after {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+cite.bracketed::before {
+  content: '[';
+  margin-right: 0.15em;
+}
+cite.bracketed::after {
+  content: ']';
+  margin-left: 0.15em;
+}
+
 @media (max-width: 768px) {
   .section-heading {
     font-size: 1.25rem;
