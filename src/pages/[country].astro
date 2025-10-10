@@ -9,7 +9,7 @@ export async function getStaticPaths() {
 }
 
 const { country } = Astro.params;
-const countryData = (await import(`../data/${country}.json`)).default;
+const countryData = (await import(`../data/countries/${country}.json`)).default;
 ---
 
 <CountryLayout title={`${countryData.name} Crisis`} countryData={countryData} />
