@@ -23,9 +23,15 @@
     },
     {
       "url": "https://sharethemeal.org/campaigns",
-      "icon": "hand-heart-line",
+      "icon": hand-heart-line",
       "title": "ShareTheMeal",
       "description": "A UN World Food Programme initiative that lets you donate meals to children and families in crisis with just one tap."
-    }
+    },
+    {
+       "url": "https://donate.givedirectly.org"
+       "icon": "hand-coin-line",
+       "title": "GiveDirectly",
+       "description": "A highly rated charity that sends cash directly to people living in extreme poverty, empowering them to meet their own needs with dignity and choice."
+     }
   ]
 }
