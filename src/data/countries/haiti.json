@@ -62,6 +62,11 @@
         "organisation": "Haitian Bridge Alliance",
         "description": "A Haitian-led diaspora organisation providing support and advocacy for refugees and migrants.",
         "url": "https://haitianbridgealliance.org"
+      },
+      {
+        "organisation": "Share The Meal",
+        "description": "A UN World Food Programme initiative making it easy to donate meals to children and families in need in Haiti.",
+        "url": "https://sharethemeal.org/campaigns"
       }
     ],
     "awareness": [
