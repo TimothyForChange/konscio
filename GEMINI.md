@@ -1,6 +1,6 @@
-# Copilot Instructions
+# Gemini Instructions
 
-This file provides Copilot with the necessary context and behavior instructions for this specific project.
+This file provides Gemini with the necessary context and behavior instructions for this specific project.
 
 ### Project Context
 

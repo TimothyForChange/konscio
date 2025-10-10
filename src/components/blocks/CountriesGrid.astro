@@ -25,6 +25,7 @@ import CountryCard from './CountryCard.astro';
     margin-top: 2rem;
     width: 100%;
   }
+
   .causes-heading {
     font-size: 1.25rem;
     font-weight: 600;
@@ -32,6 +33,7 @@ import CountryCard from './CountryCard.astro';
     margin-bottom: 1rem;
     text-align: center;
   }
+
   .countries-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -39,6 +41,7 @@ import CountryCard from './CountryCard.astro';
     max-width: 600px;
     margin: 0 auto;
   }
+
   .country-card {
     display: flex;
     align-items: center;
@@ -56,12 +59,14 @@ import CountryCard from './CountryCard.astro';
     min-height: 60px;
     box-sizing: border-box;
   }
+
   .country-card:hover {
     background: var(--bg-alt);
     border-color: var(--accent-primary);
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
+
   .country-card:active {
     transform: scale(0.97) translateY(1.5px);
     box-shadow: 0 1.5px 6px rgba(0, 0, 0, 0.08);
@@ -69,26 +74,31 @@ import CountryCard from './CountryCard.astro';
       transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
       box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .country-flag {
     font-size: 1.5rem;
     flex-shrink: 0;
   }
+
   .country-info {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
     min-width: 0;
   }
+
   .country-name {
     font-weight: 600;
     color: var(--text-primary);
     font-size: 1rem;
   }
+
   .country-description {
     font-size: 0.875rem;
     color: var(--text-secondary);
     line-height: 1.3;
   }
+
   @media (max-width: 768px) {
     .countries-grid {
       grid-template-columns: 1fr;
@@ -104,6 +114,7 @@ import CountryCard from './CountryCard.astro';
       font-size: 1.125rem;
     }
   }
+
   @media (hover: none) and (pointer: coarse) {
     .country-card:active {
       transform: scale(0.98);

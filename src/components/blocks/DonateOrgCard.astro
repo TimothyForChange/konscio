@@ -28,17 +28,20 @@ const { organisation, description, url } = Astro.props as DonateOrgCardProps;
     border-radius: 8px;
     padding: 1.25rem;
   }
+
   .org-item h4 {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--text-primary);
     margin: 0 0 0.5rem 0;
   }
+
   .org-item p {
     color: var(--text-secondary);
     margin: 0 0 1rem 0;
     line-height: 1.5;
   }
+
   .donate-link {
     display: inline-flex;
     align-items: center;
@@ -57,38 +60,46 @@ const { organisation, description, url } = Astro.props as DonateOrgCardProps;
     min-height: 44px;
     box-sizing: border-box;
   }
+
   .donate-link:hover {
     background: var(--accent-secondary);
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   }
+
   .donate-link:active {
     transform: scale(0.95);
     transition: transform 0.1s ease;
   }
+
   .donate-link i {
     font-size: 1rem;
   }
+
   @media (max-width: 768px) {
     .org-item {
       padding: 1rem;
     }
+
     .donate-link {
       padding: 0.875rem 1.125rem;
       font-size: 0.9rem;
       min-height: 48px;
     }
   }
+
   @media (hover: none) and (pointer: coarse) {
     .donate-link {
       min-height: 48px;
       padding: 1rem 1.5rem;
     }
+
     .donate-link:active {
       background: var(--accent-tertiary);
       transform: scale(0.95);
     }
   }
+
   @media (prefers-reduced-motion: reduce) {
     .donate-link {
       transition: none;

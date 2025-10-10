@@ -29,6 +29,7 @@ const { slug, name, flag, description } = Astro.props as CountryCardProps;
     white-space: nowrap;
     border: 0;
   }
+
   .country-card {
     display: flex;
     align-items: center;
@@ -46,12 +47,14 @@ const { slug, name, flag, description } = Astro.props as CountryCardProps;
     min-height: 60px;
     box-sizing: border-box;
   }
+
   .country-card:hover {
     background: var(--bg-alt);
     border-color: var(--accent-primary);
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
+
   .country-card:active {
     transform: scale(0.97) translateY(1.5px);
     box-shadow: 0 1.5px 6px rgba(0, 0, 0, 0.08);
@@ -59,26 +62,31 @@ const { slug, name, flag, description } = Astro.props as CountryCardProps;
       transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
       box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .country-flag {
     font-size: 1.5rem;
     flex-shrink: 0;
   }
+
   .country-info {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
     min-width: 0;
   }
+
   .country-name {
     font-weight: 600;
     color: var(--text-primary);
     font-size: 1rem;
   }
+
   .country-description {
     font-size: 0.875rem;
     color: var(--text-secondary);
     line-height: 1.3;
   }
+
   @media (max-width: 768px) {
     .country-card {
       padding: 0.875rem;
