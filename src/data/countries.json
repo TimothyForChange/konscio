@@ -1,0 +1,50 @@
+[
+  {
+    "name": "DRC",
+    "slug": "drc",
+    "flag": "🇨🇩",
+    "description": "Ongoing conflict and humanitarian needs"
+  },
+  {
+    "name": "Ethiopia",
+    "slug": "ethiopia",
+    "flag": "🇪🇹",
+    "description": "Aftermath of the Tigray War and ongoing regional conflicts"
+  },
+  {
+    "name": "Haiti",
+    "slug": "haiti",
+    "flag": "🇭🇹",
+    "description": "Political instability and humanitarian crisis"
+  },
+  {
+    "name": "Myanmar",
+    "slug": "myanmar",
+    "flag": "🇲🇲",
+    "description": "Military coup and persecution"
+  },
+  {
+    "name": "Palestine",
+    "slug": "palestine",
+    "flag": "🇵🇸",
+    "description": "Ongoing occupation and humanitarian crisis"
+  },
+  {
+    "name": "Sudan",
+    "slug": "sudan",
+    "flag": "🇸🇩",
+    "description": "Civil war and displacement crisis"
+  },
+  {
+    "name": "Syria",
+    "slug": "syria",
+    "flag": "🇸🇾",
+    "description": "Protracted civil war, foreign intervention, and humanitarian collapse"
+  },
+  {
+    "name": "Ukraine",
+    "slug": "ukraine",
+    "flag": "🇺🇦",
+    "description": "War and refugee crisis"
+  }
+]

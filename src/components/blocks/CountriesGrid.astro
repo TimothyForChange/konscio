@@ -1,15 +1,6 @@
 ---
-import userData from '../../data/user.json';
+import countries from '../../data/countries.json';
 import CountryCard from './CountryCard.astro';
-
-type Country = {
-  name: string;
-  slug: string;
-  flag?: string;
-  description?: string;
-};
-
-const { countries } = userData as { countries: Country[] };
 ---
 
 <section class='causes-section'>
@@ -22,6 +13,7 @@ const { countries } = userData as { countries: Country[] };
           name={country.name}
           flag={country.flag}
           description={country.description}
+          href={`/${country.slug}`}
         />
       ))
     }
