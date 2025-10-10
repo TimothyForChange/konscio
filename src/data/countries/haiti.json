@@ -2,53 +2,53 @@
   "name": "Haiti",
   "emoji": "🇭🇹",
   "ariaLabel": "Haitian flag",
-  "currentCrisisSummary": "The near-total collapse of the state has ceded control of the capital to armed groups, unleashing extreme violence, mass displacement, and a catastrophic humanitarian emergency.",
+  "currentCrisisSummary": "A catastrophic humanitarian emergency, driven by a near-total collapse of the state. A power vacuum has ceded control of the capital, Port-au-Prince, to heavily armed groups, unleashing extreme violence and mass displacement.",
   "colonialRoot": {
     "colonialPower": "France (1697-1804)",
-    "legacy": "The crisis is rooted in France's brutal slave colony of Saint-Domingue. After the Haitian Revolution (1791-1804)—history's only successful slave revolt—France, backed by Western powers, extorted a crippling 'indemnity' from Haiti in 1825. This payment, demanded as compensation for the loss of enslaved people as 'property', forced Haiti to pay its former enslavers [The New York Times, 'The Ransom', 2022]. The resulting debt peonage crippled the Haitian state for over a century, systematically draining its wealth and preventing any investment in public institutions or infrastructure."
+    "legacy": "The crisis is a direct result of Haiti's punishment for its successful slave revolt (1791-1804). After defeating Napoleon's army, the world's first Black republic was treated as a pariah state. In 1825, under threat of military invasion, France extorted a crippling 'indemnity' from Haiti as compensation for the 'loss' of enslaved people as property. This foundational act of racial capitalism forced Haiti to pay its former enslavers, creating a debt peonage that crippled the state for over a century, systematically draining its wealth and preventing any investment in public institutions [The New York Times, 'The Ransom', 2022]."
   },
   "coreTerms": {
-    "neocolonialDebtAndExtraction": "The French indemnity was a foundational act of neocolonialism, ensuring Haiti's continued economic subjugation after political independence. By forcing Haiti to pay its former colonisers the modern equivalent of over $21 billion [The New York Times, 'The Ransom', 2022], France deliberately engineered a state of permanent underdevelopment. This initial act of extraction created a cycle of debt dependency and foreign control that has defined Haiti's history.",
-    "imperialInterventionAndOccupation": "From the US occupation (1915-1934) to a series of UN missions, repeated foreign interventions have systematically undermined Haitian sovereignty. These actions, often framed as 'stabilisation', have supported anti-democratic forces, imposed disastrous economic policies, and created a culture of impunity (e.g., the UN's introduction of cholera [UN Special Rapporteur Report, 2016]). This legacy of intervention has fostered instability and dependency, preventing the emergence of resilient, Haitian-led institutions."
+    "neocolonialDebtAndExtraction": "France pioneered a new form of neocolonialism with the 1825 indemnity, ensuring Haiti's economic subjugation long after political independence. By forcing Haiti to pay its former colonisers the modern equivalent of over $21 billion, France deliberately engineered a state of permanent underdevelopment. This initial act of extraction created a cycle of debt dependency and foreign control that has defined Haiti's history.",
+    "imperialInterventionAndOccupation": "From the US occupation (1915-1934) to a series of UN missions, repeated foreign interventions have systematically undermined Haitian sovereignty. These actions, often framed as 'stabilisation', have supported anti-democratic forces, imposed disastrous neoliberal economic policies, and created a culture of impunity (e.g., the UN's introduction of cholera [UN Special Rapporteur Report, 2016]). This legacy of foreign-imposed dependency has fostered chronic instability and prevented the emergence of resilient, Haitian-led institutions."
   },
   "humanitarianImpact": {
     "displaced": "Over 580,000 people internally displaced by extreme violence, the majority women and children [IOM, 2024].",
-    "refugees": "Hundreds of thousands of Haitians have been forced to flee the country, often facing racist and violent border policies.",
+    "refugees": "Hundreds of thousands of Haitians have been forced to flee the country, often facing racist and violent border policies in the Dominican Republic and the United States.",
     "casualties": "Over 8,000 people were killed by gang violence in the first nine months of 2024 alone [UN OHCHR, 2024].",
     "affected": "5.5 million people—nearly half the population—require humanitarian assistance to survive, with millions facing acute hunger [UN OCHA, 2024]."
   },
   "timeline": [
     {
       "year": "1791-1804",
-      "event": "**Haitian Revolution**: Enslaved people lead a successful revolt, establishing the first Black republic."
+      "event": "**Haitian Revolution**: Under leaders like Toussaint Louverture and Jean-Jacques Dessalines, enslaved people lead history's only successful slave revolt, establishing the first Black republic."
     },
     {
       "year": "1825",
-      "event": "**French Indemnity**: France forces Haiti to begin paying a crippling debt for its freedom."
+      "event": "**French Indemnity**: Threatened by warships, Haiti is forced to begin paying a crippling debt to France for its freedom."
     },
     {
       "year": "1915-1934",
-      "event": "**US Occupation**: The United States invades and occupies Haiti for 19 years."
+      "event": "**US Occupation**: The United States invades and occupies Haiti for 19 years to secure its financial and geopolitical interests."
     },
     {
       "year": "1957-1986",
-      "event": "**Duvalier Dictatorship**: The US-backed father-son dictatorship terrorises Haiti for decades."
+      "event": "**Duvalier Dictatorship**: The US-backed 'Papa Doc' and 'Baby Doc' dictatorship terrorises and loots Haiti for three decades."
     },
     {
       "year": "2004",
-      "event": "**Second Coup against Aristide**: The democratically elected president is ousted in a coup backed by the US, France, and Canada [Peter Hallward, 2007]."
+      "event": "**Second Coup against Aristide**: The democratically elected president is ousted in a coup backed by the US, France, and Canada, undermining democratic institutions [Peter Hallward, 'Damming the Flood', 2007]."
     },
     {
       "year": "2010",
-      "event": "**Devastating Earthquake**: Kills over 200,000 people and causes catastrophic damage [Haitian Government, 2011]."
+      "event": "**Devastating Earthquake**: Kills over 200,000 people. The subsequent influx of foreign aid and NGOs largely bypassed Haitian institutions, deepening dependency."
     },
     {
       "year": "2021",
-      "event": "**President Moïse Assassinated**: The murder deepens political instability and a power vacuum."
+      "event": "**President Moïse Assassinated**: The murder deepens political instability and a power vacuum that armed groups exploit."
     },
     {
       "year": "2024",
-      "event": "**Foreign Intervention**: A Kenyan-led, UN-backed security mission is deployed amid widespread protests and questions of legitimacy."
+      "event": "**Foreign Intervention**: A Kenyan-led, US-funded, UN-backed security mission is deployed amid widespread protests and questions of its legitimacy and accountability."
     }
   ],
   "takeAction": {
@@ -65,12 +65,12 @@
       }
     ],
     "awareness": [
-      "Amplify Haitian-led analysis of the crisis and challenge mainstream media narratives.",
-      "Learn and share the history of the Haitian Revolution and the French indemnity."
+      "Amplify Haitian-led analysis and challenge racist media narratives that blame Haitians for the crisis.",
+      "Educate your community on how the French indemnity and foreign interventions created the current instability."
     ],
     "boycott": [
-      "Demand France pay back the indemnity debt to Haiti with interest.",
-      "Oppose foreign military interventions that lack popular Haitian support and accountability."
+      "Demand that France pay back the indemnity debt to Haiti with interest.",
+      "Oppose foreign military interventions and demand an end to the policy of propping up unelected leaders."
     ]
   }
 }

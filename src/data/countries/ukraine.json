@@ -2,29 +2,29 @@
   "name": "Ukraine",
   "emoji": "🇺🇦",
   "ariaLabel": "Ukrainian flag",
-  "currentCrisisSummary": "An ongoing war of aggression since 2014, escalating with the 2022 full-scale invasion, has caused mass casualties, displacement, and the systematic destruction of civilian infrastructure.",
+  "currentCrisisSummary": "An unprovoked war of aggression since 2014, escalating with the 2022 full-scale invasion, has caused mass casualties, displacement, and the systematic destruction of civilian infrastructure and cultural heritage.",
   "colonialRoot": {
     "colonialPower": "Russian Empire & Soviet Union",
-    "legacy": "Centuries of Russian imperial domination have been marked by systematic attempts to erase Ukrainian sovereignty. The Russian Empire enforced cultural colonisation through Russification policies, banning the Ukrainian language (e.g., Ems Ukaz, 1876). The Soviet Union continued this imperial project through cultural suppression and political terror, culminating in the Holodomor (1932-33), a man-made famine that killed millions [Timothy Snyder, 2010]. This long history of denying Ukraine's national legitimacy and treating it as a colonial possession provides the ideological basis for the current genocidal war [New Lines Institute & Raoul Wallenberg Centre, 2022]."
+    "legacy": "Centuries of Russian imperial domination have been marked by systematic attempts to erase Ukrainian sovereignty and identity. The Russian Empire enforced cultural colonisation through Russification policies, banning the Ukrainian language (e.g., Ems Ukaz, 1876). The Soviet Union continued this imperial project through cultural suppression and political terror, culminating in the Holodomor (1932-33), a genocide by man-made famine that killed millions of Ukrainians [Timothy Snyder, 'Bloodlands', 2010]. This long history of denying Ukraine's national legitimacy and treating it as a colonial possession provides the ideological basis for the current genocidal war [New Lines Institute & Raoul Wallenberg Centre, 2022]."
   },
   "coreTerms": {
-    "imperialAmbition": "Russia's invasion is a neocolonial project to re-establish a sphere of influence and reclaim its former imperial territories. The official denial of Ukraine's right to exist as a sovereign nation is a core justification for the war, framing it not as a conflict between states but as a colonial 'reunification'.",
-    "decolonisationAndResistance": "The fierce Ukrainian resistance is a continuation of a centuries-long struggle for decolonisation and self-determination. In occupied territories, Russia repeats its historical colonial playbook: imposing its language, enforcing citizenship, and systematically deporting children to erase Ukrainian identity and culture [International Criminal Court, 2023]."
+    "imperialAmbition": "Russia's invasion is a neocolonial war of conquest intended to re-establish a sphere of influence and erase Ukraine from the map. The official denial of Ukraine's right to exist as a sovereign nation is a core justification for the war, framing it not as a conflict between states but as a colonial 'reunification'.",
+    "decolonisationAndResistance": "The fierce Ukrainian resistance is a continuation of a centuries-long struggle for decolonisation and self-determination. In occupied territories, Russia repeats its historical colonial playbook: imposing its language, enforcing citizenship, and systematically deporting children—a war crime for which the ICC has issued arrest warrants—to erase Ukrainian identity and culture [International Criminal Court, 2023]."
   },
   "humanitarianImpact": {
     "displaced": "An estimated 3.7 million people remain internally displaced within Ukraine [IOM, 2024].",
     "refugees": "Nearly 6.3 million refugees have been forced to flee, primarily to other European countries [UNHCR, 2024].",
-    "casualties": "Over 10,500 civilians confirmed killed (UN data), though the actual toll is believed to be significantly higher [UN OHCHR, 2024].",
-    "affected": "14.6 million people—around 40% of the population—require humanitarian assistance [UN OCHA, 2024]."
+    "casualties": "Over 10,500 civilians confirmed killed (UN data), though the actual toll is believed to be significantly higher due to Russian occupation and relentless bombardment [UN OHCHR, 2024].",
+    "affected": "14.6 million people—around 40% of the population—have been left reliant on humanitarian assistance to survive [UN OCHA, 2024]."
   },
   "timeline": [
     {
       "year": "1876",
-      "event": "**Ems Ukaz**: The Russian Empire bans all publications in the Ukrainian language."
+      "event": "**Ems Ukaz**: The Russian Empire bans all publications in the Ukrainian language, seeking to erase its cultural identity."
     },
     {
       "year": "1917-1921",
-      "event": "**War for Independence**: The Ukrainian People's Republic is established but ultimately crushed by Soviet Russia."
+      "event": "**War for Independence**: The Ukrainian People's Republic is established but ultimately crushed and occupied by Soviet Russia."
     },
     {
       "year": "1932-1933",
@@ -32,23 +32,19 @@
     },
     {
       "year": "1991",
-      "event": "**Independence Restored**: Ukraine declares independence from the collapsing Soviet Union."
+      "event": "**Independence Restored**: Ukraine overwhelmingly votes for independence, formally leaving the collapsing Soviet empire."
     },
     {
       "year": "2004",
-      "event": "**Orange Revolution**: Mass protests overturn a fraudulent, Russian-backed presidential election."
+      "event": "**Orange Revolution**: Mass protests overturn a fraudulent, Russian-backed presidential election, affirming a pro-sovereignty path."
     },
     {
       "year": "2014",
-      "event": "**Revolution of Dignity**: Pro-European protests oust a pro-Russian president."
-    },
-    {
-      "year": "2014",
-      "event": "**War Begins**: Russia illegally annexes Crimea [UN General Assembly Resolution 68/262] and invades the Donbas region."
+      "event": "**Revolution of Dignity & Start of War**: Pro-European protests oust a pro-Russian president, prompting Russia to illegally annex Crimea and invade the Donbas region [UN General Assembly Resolution 68/262]."
     },
     {
       "year": "2022",
-      "event": "**Full-Scale Invasion**: Russia launches a comprehensive military assault across Ukraine."
+      "event": "**Full-Scale Invasion**: Russia launches an unprovoked, comprehensive military assault across Ukraine to achieve its colonial ambitions."
     }
   ],
   "takeAction": {
@@ -60,22 +56,23 @@
       },
       {
         "organisation": "Razom for Ukraine",
-        "description": "Provides critical medical supplies and supports Ukrainian civil society.",
+        "description": "Provides critical medical supplies and supports Ukrainian civil society's resistance.",
         "url": "https://www.razomforukraine.org/"
       },
       {
         "organisation": "UNITED24",
-        "description": "The official fundraising platform initiated by the President of Ukraine.",
+        "description": "The official fundraising platform initiated by President Zelenskyy to defend and rebuild Ukraine.",
         "url": "https://u24.gov.ua/"
       }
     ],
     "awareness": [
-      "Challenge Russian disinformation and imperialist narratives.",
-      "Amplify Ukrainian voices, art, and perspectives on decolonisation."
+      "Challenge Russian disinformation and imperialist narratives that deny Ukrainian statehood.",
+      "Amplify Ukrainian voices, art, and perspectives on decolonisation.",
+      "Educate your community about Russia's long history of colonial violence in the region."
     ],
     "boycott": [
       "Support comprehensive sanctions against the Russian state and its enablers.",
-      "Boycott companies that continue to operate in or fund the Russian war economy."
+      "Boycott companies that continue to operate in or fund the Russian war economy. Consult the 'Leave Russia' list by the Kyiv School of Economics."
     ]
   }
 }

@@ -2,53 +2,49 @@
   "name": "Sudan",
   "emoji": "🇸🇩",
   "ariaLabel": "Sudanese flag",
-  "currentCrisisSummary": "A devastating civil war since April 2023 has triggered the world's largest displacement crisis, widespread famine, and atrocities, including ethnic cleansing in Darfur [Human Rights Watch, 2024].",
+  "currentCrisisSummary": "A devastating civil war between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia since April 2023 has triggered the world's largest displacement and hunger crises, widespread famine, and atrocities, including a renewed campaign of ethnic cleansing in Darfur [Human Rights Watch, 2024].",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "British colonial policy was built on divide-and-rule tactics [M.W. Daly, 2007]. It institutionalised ethnic and regional divisions by concentrating power and investment in the riverine centre while systematically underdeveloping and marginalising peripheral regions like the South and Darfur. This engineered inequality created a parasitic central state and blocked unified resistance. By pitting communities against each other, Britain established the structural basis for the centre-periphery conflicts and extractive politics that have defined Sudan's post-independence history of civil war."
+    "legacy": "British colonial policy was built on a 'divide-and-rule' strategy that racialised and institutionalised ethnic divisions [M.W. Daly, 2007]. It concentrated power and investment in a supposedly 'Arab' riverine centre while systematically underdeveloping and marginalising supposedly 'African' peripheral regions like Darfur and the South. This engineered inequality created a parasitic central state and blocked unified resistance. By pitting communities against each other, Britain established the structural basis for the centre-periphery conflicts that have defined Sudan's post-independence history."
   },
   "coreTerms": {
-    "proxyWarForResources": "The civil war is fuelled by regional powers, particularly the UAE [UN Panel of Experts on Sudan, 2024], competing for control of Sudan's resources and strategic location. Foreign backing for the warring factions transforms the internal power struggle into a proxy war for Sudan's gold, agricultural land, and Red Sea ports, prolonging the violence for geopolitical gain.",
-    "inheritedStateViolence": "The war is an extension of the centre-periphery violence institutionalised during the colonial era. The state has historically used militias recruited from marginalised communities (like the RSF's precursors, the Janjaweed) to suppress dissent in other marginalised regions, a tactic that has now backfired, leading to the implosion of the central state itself."
+    "proxyWarForResources": "The civil war is fuelled by regional and international powers, particularly the UAE and Russia's Wagner Group [UN Panel of Experts on Sudan, 2024], competing for control of Sudan's resources. Foreign backing for the warring factions—primarily the RSF—transforms the internal power struggle into a proxy war for Sudan's gold, agricultural land, and Red Sea ports, prolonging the violence for geopolitical gain.",
+    "inheritedStateViolence": "The war represents the implosion of the state's long-standing strategy of using proxy militias. The state has historically armed militias from marginalised communities (the Janjaweed) to suppress dissent in other marginalised regions. The RSF is the Frankenstein's monster of this policy—a state-created militia that grew too powerful and has now turned on its creator, the Sudanese army, to seize the state for itself."
   },
   "humanitarianImpact": {
     "displaced": "Over 10 million people internally displaced, making it the world's largest internal displacement crisis [IOM, 2024].",
     "refugees": "More than 2 million refugees have fled to neighbouring countries, including Chad, Egypt, and South Sudan [UNHCR, 2024].",
-    "casualties": "The official death toll of 15,000 is a significant underestimate; credible estimates suggest the real figure is over 150,000 [ACLED (Armed Conflict Location & Event Data Project), 2024; London School of Hygiene & Tropical Medicine study, 2024].",
-    "affected": "25 million people—more than half the population—require urgent humanitarian aid, with 18 million facing acute hunger [UN OCHA, 2024; Integrated Food Security Phase Classification, 2024]."
+    "casualties": "The official death toll of 15,000 is a gross underestimate; credible estimates suggest the real figure is over 150,000 [ACLED; Yale Humanitarian Research Lab, 2024].",
+    "affected": "25 million people—more than half the population—require urgent humanitarian aid, with 18 million facing acute hunger in what has become the world's largest hunger crisis [UN OCHA; IPC, 2024]."
   },
   "timeline": [
     {
       "year": "1899",
-      "event": "**Anglo-Egyptian Condominium**: British colonial rule is established over Sudan."
+      "event": "**Anglo-Egyptian Condominium**: British colonial rule is established, implementing a divide-and-rule strategy."
     },
     {
       "year": "1956",
-      "event": "**Independence**: Sudan gains independence, but the colonial power structure remains."
-    },
-    {
-      "year": "1983-2005",
-      "event": "**Second Sudanese Civil War**: A brutal conflict between the central government and the south; estimated 2 million deaths."
+      "event": "**Independence**: Sudan gains independence, but the colonial power structure favouring the centre remains."
     },
     {
       "year": "2003",
-      "event": "**Genocide in Darfur**: The government unleashes Janjaweed militias to crush a rebellion, leading to an indictment for genocide [International Criminal Court, 2009]."
+      "event": "**Genocide in Darfur**: The government unleashes Janjaweed militias to crush a rebellion. The RSF is the direct descendant of these militias [International Criminal Court, 2009]."
     },
     {
       "year": "2011",
-      "event": "**South Sudan Secedes**: The South gains independence after decades of war."
+      "event": "**South Sudan Secedes**: The South gains independence after decades of war against the central state."
     },
     {
       "year": "2019",
-      "event": "**Sudanese Revolution**: A popular uprising overthrows dictator Omar al-Bashir."
+      "event": "**Sudanese Revolution**: A mass popular uprising of civilian groups, led by Resistance Committees, overthrows dictator Omar al-Bashir."
     },
     {
       "year": "2021",
-      "event": "**Military Coup**: Generals al-Burhan and 'Hemedti' seize power, derailing the democratic transition."
+      "event": "**Military Coup**: Generals al-Burhan (SAF) and 'Hemedti' (RSF) jointly seize power, derailing the democratic transition they were meant to protect."
     },
     {
       "year": "2023",
-      "event": "**Civil War Erupts**: The army (SAF) and the RSF militia turn on each other in a struggle for absolute power."
+      "event": "**Civil War Erupts**: The army (SAF) and the RSF militia turn on each other in a violent struggle for absolute power."
     }
   ],
   "takeAction": {
@@ -60,7 +56,7 @@
       },
       {
         "organisation": "Sudanese American Physicians Association (SAPA)",
-        "description": "A diaspora-led organisation providing direct medical and humanitarian support.",
+        "description": "A diaspora-led organisation providing direct medical and humanitarian support to local initiatives like Emergency Response Rooms.",
         "url": "https://sapa-usa.org/"
       },
       {
@@ -70,12 +66,14 @@
       }
     ],
     "awareness": [
-      "Amplify the voices of Sudanese civilian groups, like the Emergency Response Rooms.",
-      "Challenge international apathy and demand media coverage of the world's largest crisis."
+      "Amplify the voices of Sudanese civilian democratic groups, like the Resistance Committees and Emergency Response Rooms.",
+      "Challenge international apathy and demand media coverage of the world's largest humanitarian crisis.",
+      "Share information about the role of foreign actors, particularly the UAE, in fuelling the war."
     ],
     "boycott": [
-      "Demand targeted sanctions and an effective arms embargo on both warring parties and their foreign backers (e.g., the UAE).",
-      "Support efforts to document atrocities and hold perpetrators accountable at the ICC."
+      "Demand an effective arms embargo and targeted sanctions on both warring parties and their foreign backers.",
+      "Support efforts to document atrocities and hold perpetrators accountable at the ICC and other international justice mechanisms.",
+      "Call for the divestment from any companies linked to the business empires of the SAF and RSF."
     ]
   }
 }

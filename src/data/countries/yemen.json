@@ -2,20 +2,20 @@
   "name": "Yemen",
   "emoji": "🇾🇪",
   "ariaLabel": "Yemeni flag",
-  "currentCrisisSummary": "Yemen faces a devastating humanitarian crisis, driven by a prolonged civil war between the Saudi-backed government and Iran-backed Houthis. Years of conflict have shattered infrastructure, caused widespread famine and disease, and left millions displaced and reliant on aid [UNHCR, 2024].",
+  "currentCrisisSummary": "Yemen is suffering one of the world's most severe humanitarian crises, driven by a brutal civil war and a devastating air and sea blockade. The conflict, a proxy war between a Saudi-led coalition and the Iran-aligned Houthis, has shattered infrastructure, caused a human-made famine, and left millions reliant on aid to survive [UN OCHA, 2024].",
   "colonialRoot": {
     "colonialPower": "British Empire & Ottoman Empire",
-    "legacy": "The crisis is deeply rooted in its colonial past. The British Empire's control of the strategic port of Aden and the south (1839-1967) and the Ottoman Empire's rule in the north created two distinct political entities. Britain's 'divide and rule' strategy, establishing protectorates and leaving a power vacuum upon its withdrawal, fostered instability. This division laid the groundwork for decades of internal conflict, weak governance, and regional tensions that were easily exploited, leading directly to the fractured state and proxy warfare we see today."
+    "legacy": "The crisis is deeply rooted in colonial division. The British Empire's control of the strategic port of Aden and the south (1839-1967) and Ottoman rule in the north created two distinct political entities. Britain's 'divide and rule' strategy deliberately kept the south fractured into numerous petty sultanates and sheikhdoms, fostering instability and leaving a power vacuum upon withdrawal. This colonial partition laid the groundwork for decades of internal conflict and a weak, fractured state easily exploited by regional powers."
   },
   "coreTerms": {
-    "proxyWarAndStateCollapse": "The conflict is fundamentally a proxy war between Saudi Arabia and Iran, fought on Yemeni soil. This has accelerated the total collapse of the Yemeni state, leaving it unable to provide basic services, secure its borders, or control its own territory. The war is not just a battle for political control but a regional power struggle for dominance, with Western powers like the US and UK implicated through their military support for the Saudi-led coalition [Chatham House, 2024].",
-    "theForgottenWar": "Despite the immense human suffering, the war in Yemen is often dubbed the 'forgotten war' due to the lack of sustained international media coverage and political attention compared to other global crises. This has allowed the conflict to fester, enabling widespread human rights violations by all parties with little accountability and perpetuating a cycle of aid dependency and despair."
+    "proxyWarAndWesternComplicity": "The conflict is fundamentally a proxy war between Saudi Arabia (backed by the UAE) and Iran, fought on Yemeni soil. It is enabled by Western powers, particularly the US and UK, which have provided the Saudi-led coalition with weapons, intelligence, and logistical support, making them complicit in the resulting war crimes [Chatham House, 2024; Mwatana for Human Rights]. This intervention has accelerated the total collapse of the Yemeni state for regional geopolitical gain.",
+    "theForgottenWar": "Despite the immense suffering, the war is often dubbed the 'forgotten war'. This is not accidental but a consequence of the perpetrators' key geopolitical alliances, which discourages sustained, critical media coverage in the West. This silence has allowed widespread human rights violations by all parties to continue with little accountability, perpetuating a cycle of aid dependency and despair."
   },
   "humanitarianImpact": {
-    "displaced": "Over 4.5 million people have been internally displaced, many of whom have been forced to flee multiple times [UNHCR, 2024].",
-    "refugees": "Tens of thousands of Yemenis have become refugees and asylum seekers in other countries, particularly in the Horn of Africa.",
-    "casualties": "Hundreds of thousands have died as a direct and indirect result of the conflict, including from violence, famine, and disease [UN, 2023].",
-    "affected": "An estimated 18.2 million people are in dire need of humanitarian assistance, with millions on the brink of starvation in what the UN has repeatedly called the world's worst humanitarian crisis [USA for UNHCR, 2024]."
+    "displaced": "Over 4.5 million people have been internally displaced, many forced to flee multiple times [UNHCR, 2024].",
+    "refugees": "Tens of thousands of Yemenis have become refugees and asylum seekers, particularly in the Horn of Africa.",
+    "casualties": "Hundreds of thousands have died from both direct causes (airstrikes, fighting) and indirect causes (famine, disease). The destruction of sanitation infrastructure led to one of the largest cholera epidemics in modern history [UN, 2023].",
+    "affected": "An estimated 18.2 million people require urgent humanitarian assistance, with millions on the brink of starvation in what the UN has repeatedly called the world's worst humanitarian crisis [USA for UNHCR, 2024]."
   },
   "timeline": [
     {
@@ -23,28 +23,28 @@
       "event": "**British Seize Aden**: The British Empire captures the port of Aden, beginning its colonial presence in southern Yemen."
     },
     {
-      "year": "1918",
-      "event": "**North Yemen Independence**: Following the collapse of the Ottoman Empire, North Yemen becomes an independent kingdom."
-    },
-    {
       "year": "1967",
-      "event": "**British Withdrawal**: Britain withdraws from southern Yemen, leading to the establishment of the People's Democratic Republic of Yemen (South Yemen)."
+      "event": "**British Withdrawal**: Britain withdraws from southern Yemen, leading to the establishment of the Marxist People's Democratic Republic of Yemen (South Yemen)."
     },
     {
       "year": "1990",
-      "event": "**Unification**: North and South Yemen unite to form the Republic of Yemen."
+      "event": "**Unification**: The capitalist North and socialist South Yemen unite to form the Republic of Yemen."
+    },
+    {
+      "year": "1994",
+      "event": "**Civil War**: A brief but brutal civil war erupts as the South attempts to secede. The North's victory deepens southern grievances."
     },
     {
       "year": "2011",
-      "event": "**Arab Spring**: Uprisings inspired by the Arab Spring force President Ali Abdullah Saleh to hand over power."
+      "event": "**Arab Spring**: Mass protests force long-time President Ali Abdullah Saleh to hand over power to his deputy, Abdrabbuh Mansur Hadi."
     },
     {
       "year": "2014-2015",
-      "event": "**Houthi Takeover & Coalition Intervention**: Houthi rebels capture the capital, Sana'a, prompting a military intervention by a Saudi-led coalition in March 2015."
+      "event": "**Houthi Takeover & Coalition Intervention**: Houthi rebels capture the capital, Sana'a. In response, a Saudi-led coalition, backed by the US and UK, begins a devastating bombing campaign to restore the Hadi government."
     },
     {
       "year": "2016-Present",
-      "event": "**Humanitarian Catastrophe**: The conflict escalates into a protracted war, leading to a devastating humanitarian crisis marked by famine, cholera outbreaks, and widespread civilian casualties."
+      "event": "**Humanitarian Catastrophe**: The conflict escalates into a protracted war of attrition and a blockade, creating a devastating, human-made famine and the world's worst humanitarian crisis."
     }
   ],
   "takeAction": {
@@ -61,17 +61,19 @@
       },
       {
         "organisation": "Yemen Relief and Reconstruction Foundation",
-        "description": "A Yemeni-led organisation providing direct aid and advocating for peace.",
+        "description": "A Yemeni-led diaspora organisation providing direct aid and advocating for peace.",
         "url": "https://yemenfoundation.org/"
       }
     ],
     "awareness": [
-      "Share information about the 'forgotten war' to combat media silence.",
-      "Support and amplify the voices of Yemeni journalists and civil society organisations."
+      "Combat media silence by sharing information about the 'forgotten war' and its human cost.",
+      "Amplify the voices of Yemeni journalists, artists, and civil society organisations calling for peace.",
+      "Educate your community about your own government's role in the arms trade that fuels the conflict."
     ],
     "boycott": [
-      "Demand that your government halts arms sales to all parties involved in the conflict, particularly Saudi Arabia and the UAE.",
-      "Urge for international accountability for war crimes and human rights violations committed by all sides."
+      "Demand your government immediately halt all arms sales and military support to Saudi Arabia and the UAE.",
+      "Support Yemeni-led peace initiatives and reject solutions imposed by foreign powers.",
+      "Call for international accountability for war crimes committed by all sides."
     ]
   }
 }

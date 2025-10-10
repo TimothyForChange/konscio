@@ -2,25 +2,25 @@
   "name": "Ethiopia",
   "emoji": "🇪🇹",
   "ariaLabel": "Ethiopian flag",
-  "currentCrisisSummary": "A fragile peace following the 2020-2022 Tigray War has left a legacy of mass atrocities, widespread famine, and ethnic cleansing [Amnesty International & HRW, 2022], with occupying forces still present in parts of the region.",
+  "currentCrisisSummary": "A fragile peace following the 2020-2022 Tigray War has left a legacy of mass atrocities, a man-made famine, and ethnic cleansing [Amnesty International & HRW, 2022]. Eritrean and Amhara forces continue to occupy parts of Tigray, preventing the return of the displaced and entrenching the gains of the war.",
   "colonialRoot": {
     "colonialPower": "Ethiopian Empire & subsequent centralist states",
-    "legacy": "Ethiopia's crisis stems from its history as an empire-state. The centralising Abyssinian core, primarily Amhara elites, expanded through conquest, imposing a unitary identity and suppressing the cultures of conquered peoples like the Oromo, Somali, and others. This internal colonialism created deep-seated grievances [Donald N. Levine, 2000]. The TPLF-led government (1991-2018) addressed this through ethnic federalism, granting self-rule to different nations. However, the rise of Prime Minister Abiy Ahmed and his recentralising 'Medemer' ideology represented a direct assault on this federal system, triggering a violent conflict over the fundamental nature of the Ethiopian state."
+    "legacy": "Ethiopia's crisis stems from its history as an empire-state. The centralising Abyssinian core, primarily Amhara elites, expanded through conquest, imposing a unitary identity and suppressing the cultures of conquered peoples like the Oromo, Somali, and others. This internal colonialism created deep-seated grievances [Donald N. Levine, 2000]. The TPLF-led government (1991-2018) addressed this legacy through ethnic federalism, granting self-rule to different 'nations, nationalities, and peoples'. Prime Minister Abiy Ahmed's recentralising 'Medemer' ideology is a modern iteration of this imperial project, representing a direct assault on the federal system and triggering a violent conflict over the fundamental nature of the state."
   },
   "coreTerms": {
-    "federalismVsCentralism": "The war was a violent struggle over the soul of the state. It pitted the principle of ethnic federalism—which grants self-determination to Ethiopia's diverse nations as enshrined in the 1995 constitution—against a resurgent unitarist ideology that seeks to impose a centralised, homogenous national identity. For Tigray and other marginalised groups, federalism is non-negotiable protection; for centralists, it is a threat to unity.",
-    "weaponisedGrievancesAndForeignIntervention": "The conflict was ignited by weaponising historical grievances. Amhara elites, seeking to reclaim territories like Welkait (Western Tigray), allied with the federal government. This alliance provided the domestic justification for the invasion. Externally, Eritrea's dictator Isaias Afwerki, driven by a long-standing vendetta against the TPLF, joined the invasion, and his forces committed some of the war's worst atrocities [Amnesty International, 2021; HRW, 2021]. This turned an internal constitutional dispute into a devastating regional war."
+    "federalismVsCentralism": "The war was a violent struggle over the soul of the state. It pitted the principle of multinational federalism—which grants self-determination to Ethiopia's diverse nations as enshrined in the 1995 constitution—against a resurgent unitarist ideology that seeks to impose a centralised, homogenous national identity. For Tigray and other marginalised groups, federalism is non-negotiable protection; for centralists, it is a threat to unity.",
+    "weaponisedGrievancesAndForeignIntervention": "Abiy's government and its allies ignited the conflict by weaponising historical grievances. Amhara expansionists, seeking to annex territories like Welkait (Western Tigray), allied with the federal government. Externally, Eritrea's dictator Isaias Afwerki, driven by a vendetta against the TPLF, joined the invasion, and his forces committed some of the war's worst atrocities [Amnesty International, 2021; HRW, 2021]. The use of foreign drones (from the UAE, Turkey, and China) further devastated civilian areas, turning a constitutional dispute into a high-tech regional war."
   },
   "humanitarianImpact": {
-    "displaced": "Over 2.6 million people were internally displaced at the war's peak, with hundreds of thousands still unable to return home [IOM, 2022].",
+    "displaced": "Over 2.6 million people were internally displaced at the war's peak, with hundreds of thousands still unable to return to their occupied homes [IOM, 2022].",
     "refugees": "More than 95,000 refugees, mostly women and children, were forced to flee into neighbouring Sudan [UNHCR, 2021].",
-    "casualties": "An estimated 300,000 to 600,000 civilians died from direct killing, starvation, and lack of medicine due to a deliberate siege [Ghent University, 2022; Olusegun Obasanjo, 2023].",
-    "affected": "The war left 5.2 million people in Tigray—90% of the population—in need of life-saving humanitarian aid [UN OCHA, 2022]."
+    "casualties": "An estimated 300,000 to 600,000 civilians died, the vast majority from starvation and lack of medicine caused by a deliberate government siege [Ghent University, 2022; Olusegun Obasanjo, 2023].",
+    "affected": "The war left 5.2 million people in Tigray—90% of the population—in need of life-saving aid. Sexual violence was also used as a weapon of war on a mass scale [UN, 2021]."
   },
   "timeline": [
     {
       "year": "1975",
-      "event": "**TPLF Founded**: The Tigray People's Liberation Front is formed to fight the Derg military junta."
+      "event": "**TPLF Founded**: The Tigray People's Liberation Front is formed to fight the Derg military junta and for Tigrayan self-determination."
     },
     {
       "year": "1991",
@@ -28,27 +28,27 @@
     },
     {
       "year": "1995",
-      "event": "**Ethnic Federalism Adopted**: A new constitution establishes a federal state based on ethno-linguistic regions."
+      "event": "**Multinational Federalism Adopted**: A new constitution establishes a federal state based on the rights of Ethiopia's 'nations, nationalities, and peoples'."
+    },
+    {
+      "year": "1998-2000",
+      "event": "**Ethiopia-Eritrea War**: A brutal border war between the TPLF-led government and Eritrea deepens the personal animosity of Isaias Afwerki towards the TPLF."
     },
     {
       "year": "2018",
-      "event": "**Abiy Ahmed Becomes PM**: Abiy's reforms and centralising ideology sideline the TPLF."
-    },
-    {
-      "year": "2019",
-      "event": "**Prosperity Party Formed**: Abiy dissolves the ruling ethnic-based coalition, which the TPLF refuses to join."
+      "event": "**Abiy Ahmed Becomes PM**: Abiy's reforms and centralising 'Medemer' ideology sideline the TPLF, threatening the federal arrangement."
     },
     {
       "year": "Nov 2020",
-      "event": "**War Begins**: A political dispute escalates into war as federal, Amhara, and Eritrean forces jointly invade Tigray."
+      "event": "**War Begins**: After months of preparation, federal, Amhara, and Eritrean forces jointly invade Tigray, using a TPLF attack on a military base as a pretext."
     },
     {
       "year": "2021",
-      "event": "**Humanitarian Siege**: Ethiopian and allied forces impose a near-total blockade on Tigray, engineering a famine [World Peace Foundation, 2021]."
+      "event": "**Humanitarian Siege**: Ethiopian and allied forces impose a near-total blockade on Tigray, weaponising starvation in an act of collective punishment [World Peace Foundation, 2021]."
     },
     {
       "year": "Nov 2022",
-      "event": "**Pretoria Peace Agreement**: A Cessation of Hostilities Agreement is signed in Pretoria, South Africa."
+      "event": "**Pretoria Peace Agreement**: A Cessation of Hostilities Agreement is signed in Pretoria, South Africa, ending the fighting."
     }
   ],
   "takeAction": {
@@ -65,12 +65,13 @@
       }
     ],
     "awareness": [
-      "Advocate for the full implementation of the Pretoria Peace Agreement, including the withdrawal of all non-federal forces from Tigray.",
-      "Demand independent investigations into war crimes and crimes against humanity by all parties."
+      "Advocate for the full implementation of the Pretoria Peace Agreement, including the withdrawal of Eritrean and Amhara forces from all parts of Tigray.",
+      "Combat state-sponsored disinformation and amplify the voices of Tigrayan journalists, scholars, and human rights defenders.",
+      "Demand independent investigations into war crimes, including the use of sexual violence and starvation as weapons of war."
     ],
     "boycott": [
-      "Support targeted sanctions against individuals and entities responsible for mass atrocities and humanitarian obstruction.",
-      "Call for international aid and reconstruction funds to be tied to verifiable human rights and accountability measures."
+      "Support targeted sanctions against individuals and entities from all sides responsible for atrocities and humanitarian obstruction.",
+      "Demand that the IMF, World Bank, and donor nations make all loans and aid conditional on verifiable accountability for war crimes and the full implementation of the peace deal."
     ]
   }
 }

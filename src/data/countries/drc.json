@@ -2,49 +2,49 @@
   "name": "Democratic Republic of the Congo",
   "emoji": "🇨🇩",
   "ariaLabel": "Democratic Republic of Congo flag",
-  "currentCrisisSummary": "Eastern DRC is the epicentre of a war fought over its vast mineral wealth (cobalt, coltan, gold), essential for modern electronics. The conflict involves the Congolese army, over 100 armed groups, and foreign-backed militias (notably Rwanda's M23 [UN Group of Experts on the DRC, 2023]). It has created one of the world's worst displacement crises and is characterised by the systematic use of sexual violence as a weapon of war [United Nations].",
+  "currentCrisisSummary": "Eastern DRC is the epicentre of a resource war fought over its vast mineral wealth—cobalt, coltan, and gold—that powers the global tech and 'green' energy industries. The conflict involves the Congolese army, over 100 armed groups, and foreign-backed militias, notably Rwanda's M23 [UN Group of Experts on the DRC, 2023]. It has created one of the world's worst displacement crises and is characterised by the systematic use of sexual violence as a weapon of war [United Nations].",
   "colonialRoot": {
     "colonialPower": "Belgium (King Leopold II & the Belgian State)",
-    "legacy": "The crisis is a direct legacy of Belgium's exceptionally brutal colonial rule. King Leopold II's personal Congo Free State (1885-1908) was a slave state built on a 'Red Rubber' terror system, where millions were killed or mutilated to extract rubber and ivory [Adam Hochschild, 1998]. The subsequent Belgian state continued this purely extractive model, intentionally building no viable local institutions and leaving behind a hollow state at independence. This colonial architecture of a weak state, designed for efficient extraction by outsiders, created the blueprint for the neocolonial scramble for resources that defines the DRC today."
+    "legacy": "The crisis is a direct legacy of Belgium's exceptionally brutal colonial rule. King Leopold II's personal Congo Free State (1885-1908) was a slave state built on a 'Red Rubber' terror system, where millions were killed or mutilated to extract rubber and ivory [Adam Hochschild, 'King Leopold's Ghost', 1998]. The subsequent Belgian state continued this purely extractive model, intentionally building no viable local institutions and leaving behind a hollow state at independence. This colonial architecture, designed for efficient extraction by outsiders, perfectly conditioned the nation for the neocolonial scramble for resources that defines the DRC today."
   },
   "coreTerms": {
-    "conflictMineralsAndProxyWars": "The DRC's mineral wealth is a curse, fuelling a neocolonial proxy war. Neighbouring states, particularly Rwanda and Uganda, have repeatedly invaded and armed militias (like the M23) to illegally extract and traffic conflict minerals [UN Group of Experts on the DRC, 2023]. Western tech and automotive companies create the demand, while these regional powers act as violent intermediaries, profiting from the chaos.",
-    "theHollowState": "The 'resource curse' is a political condition rooted in the hollow state left by Belgium. Post-independence, the CIA and Belgian-backed assassination of Patrice Lumumba [Belgian Parliamentary Commission, 2001] and the installation of the kleptocrat Mobutu Sese Seko reinforced this system. Today, the state's weakness is actively exploited by external actors who benefit from the inability to control borders or regulate mining, ensuring resources flow out while violence stays in."
+    "conflictMineralsAndProxyWars": "The DRC's mineral wealth is a curse, fuelling a neocolonial proxy war over 'blood minerals'. Neighbouring states, particularly Rwanda and Uganda, have repeatedly invaded and armed militias (like the M23) to illegally extract and traffic these resources [UN Group of Experts on the DRC, 2023]. Fueled by unchecked demand from Western tech and automotive companies, these regional powers act as violent intermediaries, profiting from the chaos.",
+    "theHollowState": "The 'resource curse' is a political condition rooted in the hollow state left by Belgium. This system was entrenched after independence with the CIA and Belgian-backed assassination of pan-Africanist leader Patrice Lumumba [Belgian Parliamentary Commission, 2001] and the installation of the kleptocrat Mobutu Sese Seko, a key Western ally during the Cold War. Today, the state's weakness is actively exploited by external actors who benefit from the inability to control borders or regulate mining, ensuring resources flow out while violence stays in."
   },
   "humanitarianImpact": {
     "displaced": "Over 7 million people are internally displaced, one of the largest displacement crises globally [UN OCHA, 2024].",
     "refugees": "More than 1 million refugees have sought safety in neighbouring African countries [UNHCR, 2024].",
-    "casualties": "An estimated 6 million people have died from conflict-related causes since 1996, the deadliest conflict since World War II [International Rescue Committee, 2007].",
+    "casualties": "An estimated 6 million people have died from conflict-related causes since 1996, making it the world's deadliest conflict since World War II [International Rescue Committee, 2007]. The death toll continues to climb.",
     "affected": "Over 25.4 million people require humanitarian assistance, with millions facing crisis levels of hunger [UN OCHA, 2024]."
   },
   "timeline": [
     {
       "year": "1885",
-      "event": "**Congo Free State**: King Leopold II of Belgium establishes his personal slave colony."
+      "event": "**Congo Free State**: King Leopold II of Belgium establishes his personal slave colony to plunder rubber and ivory."
     },
     {
       "year": "1960",
-      "event": "**Independence**: The DRC gains independence from Belgium."
+      "event": "**Independence & Crisis**: The DRC gains independence from Belgium. The army mutinies and the mineral-rich Katanga province secedes with Belgian support."
     },
     {
       "year": "1961",
-      "event": "**Patrice Lumumba Assassinated**: The first democratically elected Prime Minister is murdered with Belgian and US complicity [Belgian Parliamentary Commission, 2001]."
+      "event": "**Patrice Lumumba Assassinated**: The first democratically elected Prime Minister is murdered with Belgian and US complicity to thwart his anti-colonial, nationalist agenda [Belgian Parliamentary Commission, 2001]."
     },
     {
       "year": "1965-1997",
-      "event": "**Mobutu Dictatorship**: The US-backed kleptocrat rules and renames the country Zaire."
+      "event": "**Mobutu Dictatorship**: The US-backed kleptocrat Mobutu Sese Seko seizes power, rules for 32 years, and renames the country Zaire."
     },
     {
-      "year": "1994",
-      "event": "**Rwandan Genocide Aftermath**: The genocide's fallout spills into eastern DRC, becoming a pretext for foreign invasions."
+      "year": "1996-1997",
+      "event": "**First Congo War**: Rwanda and Uganda invade to overthrow Mobutu, installing Laurent-Désiré Kabila as president."
     },
     {
       "year": "1998-2003",
-      "event": "**Second Congo War**: 'Africa's World War' involves nine countries and kills millions [International Rescue Committee, 2007]."
+      "event": "**Second Congo War**: 'Africa's World War' erupts as Kabila orders Rwandan and Ugandan troops out. The war involves nine countries and kills millions [International Rescue Committee, 2007]."
     },
     {
       "year": "2021-Present",
-      "event": "**M23 Resurgence**: The Rwandan-backed M23 militia reignites large-scale conflict in the east [UN Group of Experts on the DRC, 2023]."
+      "event": "**M23 Resurgence**: The Rwandan-backed M23 militia reignites large-scale conflict in the east to control strategic mineral zones [UN Group of Experts on the DRC, 2023]."
     }
   ],
   "takeAction": {
@@ -66,11 +66,12 @@
       }
     ],
     "awareness": [
-      "Demand a conflict-free supply chain for your electronics and electric vehicles.",
-      "Amplify the voices of Congolese human rights defenders and journalists."
+      "Amplify the voices of Congolese human rights defenders, journalists, and activists.",
+      "Educate your community on the link between consumer electronics and the violence in the DRC."
     ],
     "boycott": [
-      "Pressure tech and car companies (e.g., Apple, Tesla, Samsung) to ensure their supply chains are free from conflict minerals.",
+      "Pressure tech and car companies (e.g., Apple, Tesla, Samsung) to prove their supply chains are free from conflict minerals.",
+      "Support the 'Right to Repair' movement to reduce overall demand for new devices and the minerals they contain.",
       "Demand sanctions on Rwandan and Ugandan officials complicit in the looting of DRC's resources."
     ]
   }
