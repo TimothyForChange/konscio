@@ -24,6 +24,12 @@
     "description": "Military junta vs. nationwide revolution and genocide"
   },
   {
+    "name": "Mozambique",
+    "slug": "mozambique",
+    "flag": "🇲🇿",
+    "description": "Resource-driven violence in Cabo Delgado, displacement, and foreign corporate complicity"
+  },
+  {
     "name": "Palestine",
     "slug": "palestine",
     "flag": "🇵🇸",
@@ -46,6 +52,12 @@
     "slug": "syria",
     "flag": "🇸🇾",
     "description": "Civil war, regime collapse, and humanitarian crisis"
+  },
+  {
+    "name": "The Sahel Region",
+    "slug": "sahel",
+    "flag": "🇧🇫🇲🇱🇳🇪",
+    "description": "State collapse, coups, jihadist insurgencies, and a deepening climate and humanitarian emergency"
   },
   {
     "name": "Ukraine",

@@ -38,5 +38,13 @@
   "yemen": {
     "proxyWarAndWesternComplicity": "Proxy War & Western Complicity",
     "theForgottenWar": "The Forgotten War"
+  },
+  "mozambique": {
+    "bloodGasAndNeocolonialExtraction": "Blood Gas & Neocolonial Extraction",
+    "destabilisationAndProxyWars": "Destabilisation & Proxy Wars"
+  },
+  "sahel": {
+    "françafriqueAndFailedIntervention": "Françafrique & Failed Intervention",
+    "climateCollapseAndInjustice": "Climate Collapse & Injustice"
   }
 }
