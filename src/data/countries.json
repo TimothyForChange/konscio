@@ -3,54 +3,60 @@
     "name": "DRC",
     "slug": "drc",
     "flag": "🇨🇩",
-    "description": "Ongoing conflict and humanitarian needs"
+    "description": "Deadliest conflict since WWII fueled by tech industry minerals"
   },
   {
     "name": "Ethiopia",
     "slug": "ethiopia",
     "flag": "🇪🇹",
-    "description": "Aftermath of the Tigray War and ongoing regional conflicts"
+    "description": "Post-war devastation and engineered famine in Tigray"
   },
   {
     "name": "Haiti",
     "slug": "haiti",
     "flag": "🇭🇹",
-    "description": "Political instability and humanitarian crisis"
+    "description": "State collapse, gang violence, and colonial debt legacy"
   },
   {
     "name": "Myanmar",
     "slug": "myanmar",
     "flag": "🇲🇲",
-    "description": "Military coup and persecution"
+    "description": "Military junta vs. nationwide revolution and genocide"
   },
   {
     "name": "Palestine",
     "slug": "palestine",
     "flag": "🇵🇸",
-    "description": "Ongoing occupation and humanitarian crisis"
+    "description": "Genocide in Gaza and decades of occupation"
   },
   {
     "name": "South Sudan",
     "slug": "south-sudan",
     "flag": "🇸🇸",
-    "description": "Civil war, climate disaster, and mass displacement"
+    "description": "Civil war, climate disaster, and famine risk"
   },
   {
     "name": "Sudan",
     "slug": "sudan",
     "flag": "🇸🇩",
-    "description": "Civil war and displacement crisis"
+    "description": "Civil war, famine, and displacement crisis"
   },
   {
     "name": "Syria",
     "slug": "syria",
     "flag": "🇸🇾",
-    "description": "Protracted civil war, foreign intervention, and humanitarian collapse"
+    "description": "Civil war, regime collapse, and humanitarian crisis"
   },
   {
     "name": "Ukraine",
     "slug": "ukraine",
     "flag": "🇺🇦",
-    "description": "War and refugee crisis"
+    "description": "Russian invasion and systematic infrastructure destruction"
+  },
+  {
+    "name": "Yemen",
+    "slug": "yemen",
+    "flag": "🇾🇪",
+    "description": "Decade-long crisis with Saudi-led blockade and famine"
   }
 ]

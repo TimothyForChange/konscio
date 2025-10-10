@@ -1,5 +1,7 @@
 {
   "name": "Sudan",
+  "emoji": "🇸🇩",
+  "ariaLabel": "Sudanese flag",
   "currentCrisisSummary": "A devastating civil war since April 2023 has triggered the world's largest displacement crisis, widespread famine, and atrocities, including ethnic cleansing in Darfur [Human Rights Watch, 2024].",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",

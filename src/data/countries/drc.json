@@ -1,5 +1,7 @@
 {
   "name": "Democratic Republic of the Congo",
+  "emoji": "🇨🇩",
+  "ariaLabel": "Democratic Republic of Congo flag",
   "currentCrisisSummary": "Eastern DRC is the epicentre of a war fought over its vast mineral wealth (cobalt, coltan, gold), essential for modern electronics. The conflict involves the Congolese army, over 100 armed groups, and foreign-backed militias (notably Rwanda's M23 [UN Group of Experts on the DRC, 2023]). It has created one of the world's worst displacement crises and is characterised by the systematic use of sexual violence as a weapon of war [United Nations].",
   "colonialRoot": {
     "colonialPower": "Belgium (King Leopold II & the Belgian State)",

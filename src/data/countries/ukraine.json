@@ -1,5 +1,7 @@
 {
   "name": "Ukraine",
+  "emoji": "🇺🇦",
+  "ariaLabel": "Ukrainian flag",
   "currentCrisisSummary": "An ongoing war of aggression since 2014, escalating with the 2022 full-scale invasion, has caused mass casualties, displacement, and the systematic destruction of civilian infrastructure.",
   "colonialRoot": {
     "colonialPower": "Russian Empire & Soviet Union",

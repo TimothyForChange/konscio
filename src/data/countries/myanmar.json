@@ -1,5 +1,7 @@
 {
   "name": "Myanmar",
+  "emoji": "🇲🇲",
+  "ariaLabel": "Myanmar flag",
   "currentCrisisSummary": "A nationwide armed revolution against the 2021 military coup has escalated into a full-scale civil war, causing a humanitarian catastrophe and the collapse of state control in large parts of the country.",
   "colonialRoot": {
     "colonialPower": "British Empire (1824-1948)",

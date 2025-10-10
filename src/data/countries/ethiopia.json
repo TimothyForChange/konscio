@@ -1,5 +1,7 @@
 {
   "name": "Ethiopia",
+  "emoji": "🇪🇹",
+  "ariaLabel": "Ethiopian flag",
   "currentCrisisSummary": "A fragile peace following the 2020-2022 Tigray War has left a legacy of mass atrocities, widespread famine, and ethnic cleansing [Amnesty International & HRW, 2022], with occupying forces still present in parts of the region.",
   "colonialRoot": {
     "colonialPower": "Ethiopian Empire & subsequent centralist states",

@@ -1,5 +1,7 @@
 {
   "name": "Haiti",
+  "emoji": "🇭🇹",
+  "ariaLabel": "Haitian flag",
   "currentCrisisSummary": "The near-total collapse of the state has ceded control of the capital to armed groups, unleashing extreme violence, mass displacement, and a catastrophic humanitarian emergency.",
   "colonialRoot": {
     "colonialPower": "France (1697-1804)",

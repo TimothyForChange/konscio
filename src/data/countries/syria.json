@@ -1,5 +1,7 @@
 {
   "name": "Syria",
+  "emoji": "🇸🇾",
+  "ariaLabel": "Syrian flag",
   "currentCrisisSummary": "Civil war since 2011, leading to the collapse of the Ba'athist regime in 2024, has fuelled a severe humanitarian crisis marked by mass displacement, state collapse, and foreign intervention.",
   "colonialRoot": {
     "colonialPower": "France (Mandate for Syria and the Lebanon)",

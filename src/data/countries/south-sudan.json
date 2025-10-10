@@ -1,6 +1,8 @@
 {
   "name": "South Sudan",
-  "currentCrisisSummary": "The world's youngest nation faces a catastrophic humanitarian emergency, where a violent elite power struggle, the devastating impacts of climate change (unprecedented flooding), and spillover from the Sudan war have left 75% of the population dependent on aid [UN OCHA, 2024].",
+  "emoji": "🇸🇸",
+  "ariaLabel": "South Sudanese flag",
+  "currentCrisisSummary": "South Sudan is gripped by a humanitarian emergency, with elite conflict, climate-driven flooding, and spillover from Sudan's war leaving most of the population dependent on aid [UN OCHA, 2024].",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
     "legacy": "Britain's colonial administration implemented the 'Southern Policy', which officially treated the south as a separate entity from the north [Douglas H. Johnson, 2011]. This policy deliberately blocked economic and educational development in the south, barred northern Sudanese from the region, and preserved a pre-modern, tribal structure. While the north was modernised and its elite incorporated into the state apparatus, the south was systematically underdeveloped and isolated. This engineered disparity created a foundation of extreme inequality and marginalisation, ensuring that upon independence, the South would be entirely subordinate to the centre in Khartoum, making decades of civil war almost inevitable."

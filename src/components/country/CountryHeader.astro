@@ -1,5 +1,5 @@
 ---
-import { countryMetadata } from '../../scripts/utils';
+import { getCountryMetadata } from '../../scripts/utils';
 import BackButton from '../shared/BackButton.astro';
 import CountryAvatar from '../ui/CountryAvatar.astro';
 
@@ -8,7 +8,7 @@ export interface Props {
 }
 
 const { countryName } = Astro.props;
-const flagInfo = countryMetadata[countryName];
+const flagInfo = await getCountryMetadata(countryName);
 ---
 
 <header class='country-header'>

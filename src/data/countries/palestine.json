@@ -1,5 +1,7 @@
 {
   "name": "Palestine",
+  "emoji": "🇵🇸",
+  "ariaLabel": "Palestinian flag",
   "currentCrisisSummary": "An intensifying humanitarian crisis across Gaza and the West Bank, marked by mass displacement, engineered famine, and an ICJ ruling on the plausibility of genocide in Gaza [International Court of Justice, 2024].",
   "colonialRoot": {
     "colonialPower": "British Empire",

@@ -1,3 +1,6 @@
+import countriesData from '../data/countries.json';
+import termMappingsData from '../data/termMappings.json';
+
 function escapeHtml(str: string): string {
   return str
     .replace(/&/g, '&amp;')
@@ -23,57 +26,29 @@ export function formatText(text: string): string {
   return result;
 }
 
-export const countryMetadata: Record<
-  string,
-  { emoji: string; ariaLabel: string }
-> = {
-  Palestine: { emoji: '🇵🇸', ariaLabel: 'Palestinian flag' },
-  Sudan: { emoji: '🇸🇩', ariaLabel: 'Sudanese flag' },
-  Myanmar: { emoji: '🇲🇲', ariaLabel: 'Myanmar flag' },
-  Ukraine: { emoji: '🇺🇦', ariaLabel: 'Ukrainian flag' },
-  'Democratic Republic of the Congo': {
-    emoji: '🇨🇩',
-    ariaLabel: 'Democratic Republic of Congo flag',
-  },
-  Haiti: { emoji: '🇭🇹', ariaLabel: 'Haitian flag' },
-  Ethiopia: { emoji: '🇪🇹', ariaLabel: 'Ethiopian flag' },
-  Syria: { emoji: '🇸🇾', ariaLabel: 'Syrian flag' },
-};
+export async function getCountryMetadata(
+  countryName: string
+): Promise<{ emoji: string; ariaLabel: string } | null> {
+  try {
+    const country = countriesData.find((c) => c.name === countryName);
+    if (!country) {
+      return null;
+    }
+
+    const countryData = (await import(`../data/countries/${country.slug}.json`))
+      .default;
+
+    return {
+      emoji: countryData.emoji,
+      ariaLabel: countryData.ariaLabel,
+    };
+  } catch {
+    return null;
+  }
+}
 
 export function formatTermKey(key: string): string {
-  const keyMappings: Record<string, string> = {
-    internationalDynamics: 'International Dynamics',
-    historicalLegacies: 'Historical Legacies',
-    contemporaryContext: 'Contemporary Context',
-    historicalPatterns: 'Historical Patterns',
-    centralisation: 'Centralisation',
-    historicalDivisions: 'Historical Divisions',
-    externalInfluences: 'External Influences',
-    structuralChallenges: 'Structural Challenges',
-    geopoliticalDimensions: 'Geopolitical Dimensions',
-    regionalInequalities: 'Regional Inequalities',
-    historicalExtraction: 'Historical Extraction',
-    externalInterventions: 'External Interventions',
-    ethnicFederalism: 'Ethnic Federalism vs. Centralisation',
-    regionalRivalries: 'Regional Rivalries',
-    inheritedSectarianism: 'Inherited Sectarianism',
-    stateCollapse: 'State Collapse',
-    conflictMineralsAndProxyWars: 'Conflict Minerals & Proxy Wars',
-    theHollowState: 'The Hollow State',
-    imperialAmbition: 'Imperial Ambition',
-    decolonisationAndResistance: 'Decolonisation & Resistance',
-    proxyWarForResources: 'Proxy War for Resources',
-    inheritedStateViolence: 'Inherited State Violence',
-    geopoliticalComplicity: 'Geopolitical Complicity',
-    settlerColonialismAndApartheid: 'Settler Colonialism & Apartheid',
-    ethnoNationalismAndFederalism: 'Ethno-Nationalism & Federalism',
-    militaryRuleAsInternalColonialism: 'Military Rule as Internal Colonialism',
-    neocolonialDebtAndExtraction: 'Neocolonial Debt & Extraction',
-    imperialInterventionAndOccupation: 'Imperial Intervention & Occupation',
-    federalismVsCentralism: 'Federalism vs. Centralism',
-    weaponisedGrievancesAndForeignIntervention:
-      'Weaponised Grievances & Foreign Intervention',
-  };
+  const keyMappings: Record<string, string> = termMappingsData;
 
   return keyMappings[key] || key.charAt(0).toUpperCase() + key.slice(1);
 }
