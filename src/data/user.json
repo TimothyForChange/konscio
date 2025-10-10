@@ -22,12 +22,6 @@
       "description": "A tool to translate cron expressions into natural language"
     },
     {
-      "url": "https://vortludo.mooship.co.za",
-      "icon": "gamepad-line",
-      "title": "Vortludo",
-      "description": "A Wordle-style word game (Vortludo means 'word game' in Esperanto)"
-    },
-    {
       "url": "https://sharethemeal.org/campaigns",
       "icon": "hand-heart-line",
       "title": "ShareTheMeal",
