@@ -15,14 +15,14 @@ const { content, html = false } = Astro.props as ActionCardProps;
     background: var(--bg-surface);
     border: 1px solid var(--border);
     border-radius: 6px;
-    padding: 1rem;
+    padding: 0.875rem;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 769px) {
     .action-card {
-      padding: 0.875rem;
+      padding: 1rem;
     }
   }
 </style>

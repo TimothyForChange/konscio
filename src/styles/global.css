@@ -121,7 +121,7 @@ body {
 .container {
   position: relative;
   padding: 0.3125rem;
-  max-width: 600px;
+  max-width: 660px;
   width: 90%;
   min-height: 100vh;
 }
@@ -206,7 +206,7 @@ html::-webkit-scrollbar-corner {
 }
 
 .section-heading {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--text-primary);
   margin-bottom: 1rem;
@@ -241,8 +241,8 @@ cite.bracketed::after {
   margin-left: 0.15em;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 769px) {
   .section-heading {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }

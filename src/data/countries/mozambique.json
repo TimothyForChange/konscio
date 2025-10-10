@@ -50,13 +50,8 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "Provides critical medical care, mental health support, and assistance to displaced people in Cabo Delgado.",
-        "url": "https://www.msf.org/mozambique"
-      },
-      {
         "organisation": "World Food Programme",
-        "description": "Delivers essential food assistance to hundreds of thousands of people displaced by the conflict and suffering from hunger.",
+        "description": "The UN organisation providing essential food assistance to people displaced and facing hunger in northern Mozambique.",
         "url": "https://www.wfp.org/emergencies/northern-mozambique-emergency"
       }
     ],

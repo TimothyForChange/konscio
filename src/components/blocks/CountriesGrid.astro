@@ -7,13 +7,14 @@ import CountryCard from './CountryCard.astro';
   <h2 class='causes-heading'>Supporting Communities In</h2>
   <div class='countries-grid'>
     {
-      countries.map((country) => (
+      countries.map((country, index) => (
         <CountryCard
           slug={country.slug}
           name={country.name}
           flag={country.flag}
           description={country.description}
           href={`/${country.slug}`}
+          style={`--i:${index}`}
         />
       ))
     }
@@ -27,7 +28,7 @@ import CountryCard from './CountryCard.astro';
   }
 
   .causes-heading {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 600;
     color: var(--text-primary);
     margin-bottom: 1rem;
@@ -36,10 +37,11 @@ import CountryCard from './CountryCard.astro';
 
   .countries-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 0.75rem;
-    max-width: 600px;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    max-width: 660px;
     margin: 0 auto;
+    --stagger-step: 80ms;
   }
 
   .country-card {
@@ -58,6 +60,10 @@ import CountryCard from './CountryCard.astro';
       box-shadow 0.12s ease;
     min-height: 60px;
     box-sizing: border-box;
+    opacity: 0;
+    transform: translateY(8px);
+    animation: fadeUp 360ms calc(var(--i, 0) * var(--stagger-step, 80ms)) ease
+      both;
   }
 
   .country-card:hover {
@@ -99,19 +105,19 @@ import CountryCard from './CountryCard.astro';
     line-height: 1.3;
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 769px) {
     .countries-grid {
-      grid-template-columns: 1fr;
-      gap: 0.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 0.75rem;
     }
 
     .country-card {
-      padding: 0.875rem;
-      min-height: 56px;
+      padding: 1rem;
+      min-height: 60px;
     }
 
     .causes-heading {
-      font-size: 1.125rem;
+      font-size: 1.25rem;
     }
   }
 
@@ -119,6 +125,26 @@ import CountryCard from './CountryCard.astro';
     .country-card:active {
       transform: scale(0.98);
       transition: transform 0.1s ease;
+    }
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .country-card {
+      animation: none !important;
+      transition: none !important;
+      transform: none !important;
+      opacity: 1 !important;
     }
   }
 </style>

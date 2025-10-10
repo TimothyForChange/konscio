@@ -30,14 +30,16 @@ if (!coreTerms || Object.keys(coreTerms).length === 0) {
   .terms-section {
     margin-bottom: 1.5rem;
   }
+
   .terms-section h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color: var(--text-primary);
     margin-bottom: 1rem;
     border-bottom: 2px solid var(--accent-primary);
     padding-bottom: 0.5rem;
   }
+
   .terms-section h3 {
     font-size: 1.25rem;
     font-weight: 600;
@@ -45,18 +47,21 @@ if (!coreTerms || Object.keys(coreTerms).length === 0) {
     margin-bottom: 0.75rem;
     margin-top: 1rem;
   }
+
   .term-group {
     margin-bottom: 1.25rem;
   }
+
   .term-group:last-child {
     margin-bottom: 0;
   }
+
   .term-group:first-child h3 {
     margin-top: 0;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 769px) {
     .terms-section h2 {
-      font-size: 1.25rem;
+      font-size: 1.5rem;
     }
   }
 </style>

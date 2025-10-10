@@ -50,7 +50,7 @@ if (!takeAction) {
     </div>
   </ActionGroup>
 
-  <ActionGroup icon='ri-shield-line' title='Economic Action'>
+  <ActionGroup icon='ri-shield-line' title='Economic Pressure'>
     <div class='boycott-list'>
       {
         (takeAction.boycott ?? []).map((action) => (
@@ -66,8 +66,8 @@ if (!takeAction) {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 12px;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
   }
 
   .action-section h2 {
@@ -91,6 +91,7 @@ if (!takeAction) {
   .action-group h3 {
     display: flex;
     align-items: center;
+
     gap: 0.5rem;
     font-size: 1.25rem;
     font-weight: 600;
@@ -120,6 +121,7 @@ if (!takeAction) {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--text-primary);
+
     margin: 0 0 0.5rem 0;
   }
 
@@ -180,24 +182,24 @@ if (!takeAction) {
     line-height: 1.5;
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 769px) {
     .action-section {
-      padding: 1.25rem;
-      margin-bottom: 1.5rem;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
     }
 
     .org-item {
-      padding: 1rem;
+      padding: 1.25rem;
     }
 
     .donate-link {
-      padding: 0.875rem 1.125rem;
-      font-size: 0.9rem;
-      min-height: 48px;
+      padding: 0.75rem 1.25rem;
+      font-size: 0.95rem;
+      min-height: 44px;
     }
 
     .action-card {
-      padding: 0.875rem;
+      padding: 1rem;
     }
   }
 

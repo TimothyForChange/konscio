@@ -20,9 +20,11 @@ const { year, event } = Astro.props as TimelineItemProps;
     position: relative;
     margin-bottom: 2rem;
   }
+
   .timeline-item:last-child {
     margin-bottom: 0;
   }
+
   .timeline-item::before {
     content: '';
     position: absolute;
@@ -37,6 +39,7 @@ const { year, event } = Astro.props as TimelineItemProps;
     box-shadow: 0 0 0 1px var(--accent-primary);
     z-index: 2;
   }
+
   .timeline-content {
     background: var(--bg-card);
     border: 1px solid var(--border);
@@ -44,6 +47,7 @@ const { year, event } = Astro.props as TimelineItemProps;
     padding: 1rem 1.25rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
+
   .timeline-year {
     font-weight: 700;
     font-size: 0.875rem;
@@ -52,6 +56,7 @@ const { year, event } = Astro.props as TimelineItemProps;
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
+
   .timeline-event {
     color: var(--text-secondary);
     line-height: 1.6;
@@ -61,20 +66,35 @@ const { year, event } = Astro.props as TimelineItemProps;
     color: var(--text-primary);
     font-weight: 600;
   }
-  @media (max-width: 768px) {
+  .timeline-item::before {
+    left: -1.875rem;
+    width: 10px;
+    height: 10px;
+  }
+  .timeline-content {
+    padding: 0.875rem 1rem;
+  }
+  .timeline-year {
+    font-size: 0.8rem;
+  }
+  .timeline-event {
+    font-size: 0.85rem;
+  }
+
+  @media (min-width: 769px) {
     .timeline-item::before {
-      left: -1.875rem;
-      width: 10px;
-      height: 10px;
+      left: -2.375rem;
+      width: 12px;
+      height: 12px;
     }
     .timeline-content {
-      padding: 0.875rem 1rem;
+      padding: 1rem 1.25rem;
     }
     .timeline-year {
-      font-size: 0.8rem;
+      font-size: 0.875rem;
     }
     .timeline-event {
-      font-size: 0.85rem;
+      font-size: 0.9rem;
     }
   }
 </style>

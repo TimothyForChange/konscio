@@ -33,6 +33,7 @@ if (!timeline || timeline.length === 0) {
     margin: 2rem 0;
     padding: 1.5rem 0;
   }
+
   .timeline-title {
     font-size: 1.5rem;
     font-weight: 600;
@@ -42,9 +43,10 @@ if (!timeline || timeline.length === 0) {
     border-bottom: 2px solid var(--accent-primary);
     padding-bottom: 0.5rem;
   }
+
   .timeline-container {
     position: relative;
-    padding-left: 2rem;
+    padding-left: 1.5rem;
     border-left: 3px solid var(--accent-primary);
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -94,23 +96,23 @@ if (!timeline || timeline.length === 0) {
     color: var(--text-primary);
     font-weight: 600;
   }
-  @media (max-width: 768px) {
+  @media (min-width: 769px) {
     .timeline-container {
-      padding-left: 1.5rem;
+      padding-left: 2rem;
     }
     .timeline-item::before {
-      left: -1.875rem;
-      width: 10px;
-      height: 10px;
+      left: -2.375rem;
+      width: 12px;
+      height: 12px;
     }
     .timeline-content {
-      padding: 0.875rem 1rem;
+      padding: 1rem 1.25rem;
     }
     .timeline-year {
-      font-size: 0.8rem;
+      font-size: 0.875rem;
     }
     .timeline-event {
-      font-size: 0.85rem;
+      font-size: 0.9rem;
     }
   }
 

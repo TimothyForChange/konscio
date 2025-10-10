@@ -16,13 +16,14 @@ const { emoji, ariaLabel, countryName } = Astro.props as CountryAvatarProps;
 
 <style>
   .country-avatar {
-    font-size: 2.5rem;
+    font-size: 2rem;
     vertical-align: middle;
     margin-right: 0.5rem;
   }
-  @media (max-width: 768px) {
+
+  @media (min-width: 769px) {
     .country-avatar {
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
   }
 </style>
