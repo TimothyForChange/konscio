@@ -79,6 +79,11 @@
         "organisation": "UNRWA",
         "description": "The primary UN agency providing essential services to Palestinian refugees, despite facing political attacks.",
         "url": "https://www.unrwa.org/"
+      },
+      {
+        "organisation": "World Food Programme",
+        "description": "The United Nations' organisation dedicated to fighting hunger globally, providing food assistance to those in need, and working towards a world without hunger.",
+        "url": "https://www.wfp.org/emergencies/palestine-emergency"
       }
     ],
     "awareness": [
