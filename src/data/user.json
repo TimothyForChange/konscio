@@ -16,12 +16,6 @@
       "description": "Personal projects and open-source contributions"
     },
     {
-      "url": "https://kronilo.mooship.co.za",
-      "icon": "translate",
-      "title": "Kronilo",
-      "description": "A tool to translate cron expressions into natural language"
-    },
-    {
       "url": "https://sharethemeal.org/campaigns",
       "icon": "hand-heart-line",
       "title": "ShareTheMeal",
