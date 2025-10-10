@@ -1,6 +1,6 @@
 ---
-import { formatText } from '../scripts/utils';
-import ImpactStat from './ImpactStat.astro';
+import { formatText } from '../../scripts/utils';
+import ImpactGrid from '../blocks/ImpactGrid.astro';
 
 export interface Props {
   humanitarianImpact?: {
@@ -20,24 +20,26 @@ if (!humanitarianImpact) {
 
 <section class='humanitarian-section' aria-labelledby='humanitarian-heading'>
   <h2 id='humanitarian-heading'>Humanitarian Impact</h2>
-  <div class='impact-stats'>
-    <ImpactStat
-      label='Displaced'
-      value={formatText(humanitarianImpact.displaced ?? '—')}
-    />
-    <ImpactStat
-      label='Refugees'
-      value={formatText(humanitarianImpact.refugees ?? '—')}
-    />
-    <ImpactStat
-      label='Casualties'
-      value={formatText(humanitarianImpact.casualties ?? '—')}
-    />
-    <ImpactStat
-      label='Affected'
-      value={formatText(humanitarianImpact.affected ?? '—')}
-    />
-  </div>
+  <ImpactGrid
+    stats={[
+      {
+        label: 'Displaced',
+        value: formatText(humanitarianImpact.displaced ?? '—'),
+      },
+      {
+        label: 'Refugees',
+        value: formatText(humanitarianImpact.refugees ?? '—'),
+      },
+      {
+        label: 'Casualties',
+        value: formatText(humanitarianImpact.casualties ?? '—'),
+      },
+      {
+        label: 'Affected',
+        value: formatText(humanitarianImpact.affected ?? '—'),
+      },
+    ]}
+  />
   <p class='humanitarian-disclaimer'>
     These figures are estimates — the situation is ongoing and may change.
   </p>

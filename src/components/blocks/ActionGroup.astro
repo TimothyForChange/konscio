@@ -1,0 +1,42 @@
+---
+export interface Props {
+  icon?: string;
+  title: string;
+}
+
+const { icon, title } = Astro.props as Props;
+---
+
+<div class='action-group'>
+  <h3>
+    {icon ? <i class={icon} /> : null}
+    {title}
+  </h3>
+  <slot />
+</div>
+
+<style>
+  .action-group {
+    margin-bottom: 2rem;
+  }
+
+  .action-group:last-child {
+    margin-bottom: 0;
+  }
+
+  .action-group h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  .action-group h3 i {
+    color: var(--accent-primary);
+    font-size: 1.25rem;
+  }
+</style>

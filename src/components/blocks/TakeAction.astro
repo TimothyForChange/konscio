@@ -1,6 +1,7 @@
 ---
-import { formatText } from '../scripts/utils';
+import { formatText } from '../../scripts/utils';
 import ActionCard from './ActionCard.astro';
+import ActionGroup from './ActionGroup.astro';
 import DonateOrgCard from './DonateOrgCard.astro';
 
 export interface Props {
@@ -25,10 +26,7 @@ if (!takeAction) {
 <section class='action-section'>
   <h2>How You Can Help</h2>
 
-  <div class='action-group'>
-    <h3>
-      <i class='ri-heart-line'></i> Donate
-    </h3>
+  <ActionGroup icon='ri-heart-line' title='Donate'>
     <div class='donate-organisations'>
       {
         (takeAction.donate ?? []).map((org) => (
@@ -40,12 +38,9 @@ if (!takeAction) {
         ))
       }
     </div>
-  </div>
+  </ActionGroup>
 
-  <div class='action-group'>
-    <h3>
-      <i class='ri-megaphone-line'></i> Raise Awareness
-    </h3>
+  <ActionGroup icon='ri-megaphone-line' title='Raise Awareness'>
     <div class='awareness-list'>
       {
         (takeAction.awareness ?? []).map((action) => (
@@ -53,12 +48,9 @@ if (!takeAction) {
         ))
       }
     </div>
-  </div>
+  </ActionGroup>
 
-  <div class='action-group'>
-    <h3>
-      <i class='ri-shield-line'></i> Economic Action
-    </h3>
+  <ActionGroup icon='ri-shield-line' title='Economic Action'>
     <div class='boycott-list'>
       {
         (takeAction.boycott ?? []).map((action) => (
@@ -66,7 +58,7 @@ if (!takeAction) {
         ))
       }
     </div>
-  </div>
+  </ActionGroup>
 </section>
 
 <style>

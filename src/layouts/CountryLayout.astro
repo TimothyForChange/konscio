@@ -1,14 +1,14 @@
 ---
+import TakeAction from '../components/blocks/TakeAction.astro';
+import ColonialSection from '../components/country/ColonialSection.astro';
+import CountryHeader from '../components/country/CountryHeader.astro';
+import CrisisSection from '../components/country/CrisisSection.astro';
+import HistoricalContext from '../components/country/HistoricalContext.astro';
+import HumanitarianImpact from '../components/country/HumanitarianImpact.astro';
+import Timeline from '../components/country/Timeline.astro';
+import BackButton from '../components/shared/BackButton.astro';
 import Layout from './Layout.astro';
 import 'remixicon/fonts/remixicon.css';
-import BackButton from '../components/BackButton.astro';
-import ColonialSection from '../components/ColonialSection.astro';
-import CountryHeader from '../components/CountryHeader.astro';
-import CrisisSection from '../components/CrisisSection.astro';
-import HistoricalContext from '../components/HistoricalContext.astro';
-import HumanitarianImpact from '../components/HumanitarianImpact.astro';
-import TakeAction from '../components/TakeAction.astro';
-import Timeline from '../components/Timeline.astro';
 
 export interface CountryData {
   name?: string;

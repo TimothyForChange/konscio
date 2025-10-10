@@ -1,6 +1,6 @@
 ---
-import dataList from '../data/user.json';
-import Link from './Link.astro';
+import dataList from '../../data/user.json';
+import Link from '../shared/Link.astro';
 
 const items = dataList.links;
 ---
@@ -16,7 +16,6 @@ const items = dataList.links;
             title={item.title}
             description={item.description}
             url={item.url}
-            colorIndex={index}
           />
         </li>
       ))
