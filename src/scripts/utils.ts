@@ -1,6 +1,13 @@
 import countriesData from '../data/countries.json';
 import termMappingsData from '../data/termMappings.json';
 
+export function getSouthAfricaEmoji(): { emoji: string; ariaLabel: string } {
+  return {
+    emoji: '🇿🇦',
+    ariaLabel: 'South African flag',
+  };
+}
+
 function escapeHtml(str: string): string {
   return str
     .replace(/&/g, '&amp;')
@@ -47,8 +54,12 @@ export async function getCountryMetadata(
   }
 }
 
-export function formatTermKey(key: string): string {
-  const keyMappings: Record<string, string> = termMappingsData;
-
-  return keyMappings[key] || key.charAt(0).toUpperCase() + key.slice(1);
+export function formatTermKey(termKey: string, countrySlug: string): string {
+  const countryTerms = (
+    termMappingsData as Record<string, Record<string, string>>
+  )[countrySlug];
+  if (countryTerms && countryTerms[termKey]) {
+    return countryTerms[termKey];
+  }
+  return termKey.charAt(0).toUpperCase() + termKey.slice(1);
 }

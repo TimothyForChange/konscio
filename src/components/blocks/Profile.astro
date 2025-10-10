@@ -1,5 +1,6 @@
 ---
 import userData from '../../data/user.json';
+import { getSouthAfricaEmoji } from '../../scripts/utils';
 import CountriesGrid from './CountriesGrid.astro';
 
 type Link = { url: string; icon?: string; title: string; description?: string };
@@ -38,7 +39,32 @@ const { name, profession, bio } = userData as User;
     <h1 class='profile-name'>{name}</h1>
     <p class='profile-profession'>{profession}</p>
     <div class='profile-bio'>
-      <p class='profile-bio-text'>{bio}</p>
+      <p class='profile-bio-text'>
+        {
+          (() => {
+            const pretoriaIndex = bio?.indexOf('Pretoria');
+            if (bio && pretoriaIndex !== undefined && pretoriaIndex !== -1) {
+              const before = bio.slice(0, pretoriaIndex + 'Pretoria'.length);
+              const after = bio.slice(pretoriaIndex + 'Pretoria'.length);
+              const { emoji, ariaLabel } = getSouthAfricaEmoji();
+              return (
+                <>
+                  {before}{' '}
+                  <span
+                    role='img'
+                    aria-label={ariaLabel}
+                    style='font-size:1.1em;'
+                  >
+                    {emoji}
+                  </span>
+                  {after}
+                </>
+              );
+            }
+            return bio;
+          })()
+        }
+      </p>
     </div>
   </div>
 </header>
@@ -53,14 +79,12 @@ const { name, profession, bio } = userData as User;
     flex-direction: column;
     align-items: center;
   }
-
   .profile-picture-content {
     padding: 0.25rem;
     border-radius: 100%;
     border: 2px solid var(--border);
     background: var(--bg-card);
   }
-
   .profile-picture {
     width: 80px;
     height: 80px;
@@ -73,7 +97,6 @@ const { name, profession, bio } = userData as User;
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
   }
-
   .profile-picture img {
     width: 80px;
     height: 80px;
@@ -81,30 +104,25 @@ const { name, profession, bio } = userData as User;
     object-position: center;
     display: block;
   }
-
   .profile-data {
     margin-top: 1.125rem;
     text-align: center;
   }
-
   .profile-name {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: 0.25rem;
   }
-
   .profile-profession {
     font-size: 1rem;
     font-weight: 400;
     color: var(--text-secondary);
   }
-
   .profile-bio {
     margin-top: 1rem;
     max-width: 24rem;
   }
-
   .profile-bio-text {
     font-size: 1.1rem;
     font-weight: 400;

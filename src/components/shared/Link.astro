@@ -50,13 +50,11 @@ if (!title || !url) {
     border-collapse: separate;
     background-clip: padding-box;
   }
-
   .link:hover {
     border-color: var(--link-accent);
     background: var(--bg-surface);
     transform: translateY(-1px);
   }
-
   .link:active {
     transform: scale(0.97) translateY(1.5px);
     box-shadow: 0 1.5px 6px 0 rgba(0, 0, 0, 0.1);
@@ -66,7 +64,6 @@ if (!title || !url) {
       transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
       box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
   }
-
   .link-icon {
     width: 3rem;
     height: 3rem;
@@ -82,7 +79,6 @@ if (!title || !url) {
     flex-shrink: 0;
     color: var(--text-secondary);
   }
-
   .link-content {
     flex: 1;
     display: flex;
@@ -90,32 +86,27 @@ if (!title || !url) {
     justify-content: center;
     text-align: left;
   }
-
   .link-icon i {
     font-size: 1.25rem;
     color: currentColor;
     transition: color 0.2s ease;
   }
-
   .link:hover .link-icon {
     background: var(--link-accent);
     color: var(--on-accent);
   }
-
   .link-title {
     color: var(--text-primary);
     font-weight: 700;
     font-size: 1.05rem;
     margin-bottom: 0.25rem;
   }
-
   .link-description {
     color: var(--text-secondary);
     font-weight: 400;
     font-size: 0.9rem;
     line-height: 1.5;
   }
-
   @media (hover: none) and (pointer: coarse) {
     .link:hover,
     .link:active {

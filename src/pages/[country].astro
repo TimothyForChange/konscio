@@ -12,4 +12,8 @@ const { country } = Astro.params;
 const countryData = (await import(`../data/countries/${country}.json`)).default;
 ---
 
-<CountryLayout title={`${countryData.name} Crisis`} countryData={countryData} />
+<CountryLayout
+  title={`${countryData.name} Crisis`}
+  countryData={countryData}
+  countrySlug={country}
+/>

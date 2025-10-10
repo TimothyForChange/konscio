@@ -1,24 +1,42 @@
 {
-  "ethnicFederalism": "Ethnic Federalism vs. Centralisation",
-  "regionalRivalries": "Regional Rivalries",
-  "inheritedSectarianism": "Inherited Sectarianism",
-  "stateCollapse": "State Collapse",
-  "conflictMineralsAndProxyWars": "Conflict Minerals & Proxy Wars",
-  "theHollowState": "The Hollow State",
-  "imperialAmbition": "Imperial Ambition",
-  "decolonisationAndResistance": "Decolonisation & Resistance",
-  "proxyWarForResources": "Proxy War for Resources",
-  "inheritedStateViolence": "Inherited State Violence",
-  "geopoliticalComplicity": "Geopolitical Complicity",
-  "settlerColonialismAndApartheid": "Settler Colonialism & Apartheid",
-  "ethnoNationalismAndFederalism": "Ethno-Nationalism & Federalism",
-  "militaryRuleAsInternalColonialism": "Military Rule as Internal Colonialism",
-  "neocolonialDebtAndExtraction": "Neocolonial Debt & Extraction",
-  "imperialInterventionAndOccupation": "Imperial Intervention & Occupation",
-  "federalismVsCentralism": "Federalism vs. Centralism",
-  "weaponisedGrievancesAndForeignIntervention": "Weaponised Grievances & Foreign Intervention",
-  "resourceDrivenEliteConflict": "Resource-Driven Elite Conflict",
-  "climateConflictMultiplier": "Climate Conflict Multiplier",
-  "proxyWarAndStateCollapse": "Proxy War & State Collapse",
-  "theForgottenWar": "The Forgotten War"
+  "drc": {
+    "conflictMineralsAndProxyWars": "Conflict Minerals & Proxy Wars",
+    "theHollowState": "The Hollow State"
+  },
+  "ethiopia": {
+    "federalismVsCentralism": "Federalism vs. Centralism",
+    "weaponisedGrievancesAndForeignIntervention": "Weaponised Grievances & Foreign Intervention"
+  },
+  "haiti": {
+    "neocolonialDebtAndExtraction": "Neocolonial Debt & Extraction",
+    "imperialInterventionAndOccupation": "Imperial Intervention & Occupation"
+  },
+  "myanmar": {
+    "ethnoNationalismAndFederalism": "Ethno-Nationalism & Federalism",
+    "militaryRuleAsInternalColonialism": "Military Rule as Internal Colonialism"
+  },
+  "palestine": {
+    "geopoliticalComplicity": "Geopolitical Complicity",
+    "settlerColonialismAndApartheid": "Settler Colonialism & Apartheid"
+  },
+  "south-sudan": {
+    "kleptocracyAndEliteConflict": "Kleptocracy & Elite Conflict",
+    "climateInjusticeAndConflict": "Climate Injustice & Conflict"
+  },
+  "sudan": {
+    "proxyWarForResources": "Proxy War for Resources",
+    "inheritedStateViolence": "Inherited State Violence"
+  },
+  "syria": {
+    "weaponisedSectarianism": "Weaponised Sectarianism",
+    "inheritedStateRepression": "Inherited State Repression"
+  },
+  "ukraine": {
+    "imperialAmbition": "Imperial Ambition",
+    "decolonisationAndResistance": "Decolonisation & Resistance"
+  },
+  "yemen": {
+    "proxyWarAndWesternComplicity": "Proxy War & Western Complicity",
+    "theForgottenWar": "The Forgotten War"
+  }
 }
