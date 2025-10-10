@@ -1,64 +1,64 @@
 {
   "name": "Palestine",
-  "currentCrisisSummary": "An intensifying humanitarian crisis across Gaza and the West Bank, marked by mass displacement, engineered famine, and an ICJ ruling on the plausibility of genocide in Gaza.",
+  "currentCrisisSummary": "An intensifying humanitarian crisis across Gaza and the West Bank, marked by mass displacement, engineered famine, and an ICJ ruling on the plausibility of genocide in Gaza [International Court of Justice, 2024].",
   "colonialRoot": {
     "colonialPower": "British Empire",
-    "legacy": "The crisis is rooted in Britain's Mandate (1920-1948). The **Balfour Declaration (1917)**, issued without Palestinian consent, promised their homeland to the Zionist movement [British Foreign Office declaration, 2 November 1917]. British policy **deliberately fostered conflict** by promoting mass colonial settlement while suppressing Palestinian rights [Khalidi, 'The Iron Cage', 2006; Pappe, 'Britain and the Arab-Israeli Conflict', 1988]. By 1948, Britain **abandoned its Mandate**, leaving a manufactured crisis for the UN to handle [Mandate terminated 14 May 1948]. This abdication directly enabled the **1948 Nakba** ('catastrophe'), where over 750,000 Palestinians were forcibly displaced, creating a refugee crisis Britain refused to resolve [Morris, 'The Birth of the Palestinian Refugee Problem Revisited', 2004; Masalha, 'Expulsion of the Palestinians', 1992]. The ongoing **Israeli occupation** is a direct continuation of this colonial legacy of dispossession."
+    "legacy": "The crisis is rooted in Britain's Mandate (1920-1948). The Balfour Declaration (1917), issued without Palestinian consent, promised their homeland to the Zionist movement [British Foreign Office declaration, 2 November 1917]. British policy deliberately fostered conflict by promoting mass colonial settlement while suppressing Palestinian rights [Khalidi, 'The Iron Cage', 2006; Pappe, 'Britain and the Arab-Israeli Conflict', 1988]. By 1948, Britain abandoned its Mandate, leaving a manufactured crisis for the UN to handle [Mandate terminated 14 May 1948]. This abdication directly enabled the 1948 Nakba ('catastrophe'), where over 750,000 Palestinians were forcibly displaced, creating a refugee crisis Britain refused to resolve [Morris, 'The Birth of the Palestinian Refugee Problem Revisited', 2004; Masalha, 'Expulsion of the Palestinians', 1992]. The ongoing Israeli occupation is a direct continuation of this colonial legacy of dispossession."
   },
   "coreTerms": {
-    "geopoliticalComplicity": "The conflict is sustained by international powers, primarily the **United States**, which provides Israel with billions in unconditional military aid and diplomatic cover at the UN. This imperial backing enables the ongoing occupation and undermines Palestinian self-determination.",
-    "settlerColonialismAndApartheid": "The current crisis is a result of unresolved colonial injustices. Key issues include the **right of return** for Palestinian refugees, the illegality of settlements, and the **military occupation**. Leading human rights organisations now describe the system of Israeli control as **apartheid**."
+    "geopoliticalComplicity": "The conflict is sustained by international powers, primarily the United States, which provides Israel with billions in unconditional military aid [Congressional Research Service, 2024] and diplomatic cover at the UN. This imperial backing enables the ongoing occupation and undermines Palestinian self-determination.",
+    "settlerColonialismAndApartheid": "The current crisis is a result of unresolved colonial injustices. Key issues include the right of return for Palestinian refugees, the illegality of settlements, and the military occupation. Leading human rights organisations now describe the system of Israeli control as apartheid [B'Tselem, 2021; Human Rights Watch, 2021; Amnesty International, 2022]."
   },
   "humanitarianImpact": {
-    "displaced": "Over **1.9 million** internally displaced in Gaza (nearly 85% of the population), plus ongoing displacement in the West Bank [UN OCHA, 2024].",
-    "refugees": "**5.9 million** registered Palestinian refugees (UNRWA), descendants of those displaced since 1948 [UNRWA, 2024].",
-    "casualties": "Over **45,000** killed in Gaza since October 2023, with thousands more missing, presumed dead under the rubble [Gaza Ministry of Health, 2024; verified by UN and international agencies].",
-    "affected": "Gaza's entire population of **2.3 million** faces a catastrophic humanitarian crisis, including engineered famine and a decimated healthcare system [UN OCHA; Integrated Food Security Phase Classification, 2024]."
+    "displaced": "Over 1.9 million internally displaced in Gaza (nearly 85% of the population), plus ongoing displacement in the West Bank [UN OCHA, 2024].",
+    "refugees": "5.9 million registered Palestinian refugees (UNRWA), descendants of those displaced since 1948 [UNRWA, 2024].",
+    "casualties": "Over 45,000 killed in Gaza since October 2023, with thousands more missing, presumed dead under the rubble [Gaza Ministry of Health, 2024; verified by UN and international agencies].",
+    "affected": "Gaza's entire population of 2.3 million faces a catastrophic humanitarian crisis, including engineered famine and a decimated healthcare system [UN OCHA; Integrated Food Security Phase Classification, 2024]."
   },
   "timeline": [
     {
       "year": "1917",
-      "event": "**Balfour Declaration**: Britain promises a 'national home for the Jewish people' in Palestine [2 November 1917]."
+      "event": "**Balfour Declaration**: Britain promises a 'national home for the Jewish people' in Palestine."
     },
     {
       "year": "1920-1948",
-      "event": "**British Mandate**: British colonial administration governs the territory, enabling settler-colonialism [League of Nations Mandate, 1920]."
+      "event": "**British Mandate**: British colonial administration governs the territory, enabling settler-colonialism."
     },
     {
       "year": "1948",
-      "event": "**The Nakba**: 750,000 Palestinians are ethnically cleansed to establish the state of Israel [May 1948 onwards; documented in Israeli and Palestinian archives]."
+      "event": "**The Nakba**: 750,000 Palestinians are ethnically cleansed to establish the state of Israel."
     },
     {
       "year": "1967",
-      "event": "**Six-Day War**: Israel occupies the West Bank, Gaza Strip, and East Jerusalem [5-10 June 1967]."
+      "event": "**Six-Day War**: Israel occupies the West Bank, Gaza Strip, and East Jerusalem."
     },
     {
       "year": "1987-1993",
-      "event": "**First Intifada**: A mass popular uprising against Israeli occupation [December 1987 - 1993]."
+      "event": "**First Intifada**: A mass popular uprising against Israeli occupation."
     },
     {
       "year": "1993",
-      "event": "**Oslo Accords**: A flawed peace process that failed to secure Palestinian sovereignty [13 September 1993, Washington DC]."
+      "event": "**Oslo Accords**: A flawed peace process that failed to secure Palestinian sovereignty."
     },
     {
       "year": "2000-2005",
-      "event": "**Second Intifada**: A renewed Palestinian uprising against the ongoing occupation [September 2000 - February 2005]."
+      "event": "**Second Intifada**: A renewed Palestinian uprising against the ongoing occupation."
     },
     {
       "year": "2007-Present",
-      "event": "**Gaza Blockade**: Israel imposes a devastating siege on the Gaza Strip [June 2007 onwards; UN describes as 'collective punishment']."
+      "event": "**Gaza Blockade**: Israel imposes a devastating siege on the Gaza Strip, which the UN describes as 'collective punishment' illegal under international law [UN OHCHR]."
     },
     {
       "year": "2018-2019",
-      "event": "**Great March of Return**: Mass protests in Gaza are met with lethal force by Israel, killing hundreds [30 March 2018 - December 2019; UN Commission of Inquiry, 2019]."
+      "event": "**Great March of Return**: Mass protests in Gaza are met with lethal force by Israel, killing hundreds [UN Commission of Inquiry, 2019]."
     },
     {
       "year": "2023",
-      "event": "**October 7th**: Hamas leads an attack on Israel; Israel launches a devastating assault on Gaza [7 October 2023]."
+      "event": "**October 7th**: Hamas leads an attack on Israel; Israel launches a devastating assault on Gaza."
     },
     {
       "year": "2024",
-      "event": "**ICJ Plausible Genocide Ruling**: The ICJ rules that claims of genocide in Gaza are plausible [26 January 2024, provisional measures ordered]."
+      "event": "**ICJ Plausible Genocide Ruling**: The ICJ rules it has jurisdiction and that claims of genocide in Gaza are plausible, ordering provisional measures [International Court of Justice, 2024]."
     }
   ],
   "takeAction": {

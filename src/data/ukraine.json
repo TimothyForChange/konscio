@@ -3,17 +3,17 @@
   "currentCrisisSummary": "An ongoing war of aggression since 2014, escalating with the 2022 full-scale invasion, has caused mass casualties, displacement, and the systematic destruction of civilian infrastructure.",
   "colonialRoot": {
     "colonialPower": "Russian Empire & Soviet Union",
-    "legacy": "Centuries of **Russian imperial domination** have been marked by systematic attempts to erase Ukrainian sovereignty. The Russian Empire enforced **cultural colonisation** through Russification policies, banning the Ukrainian language (e.g., **Ems Ukaz, 1876**). The Soviet Union continued this **imperial project** through cultural suppression and political terror, culminating in the **Holodomor (1932-33)**, a man-made famine that killed millions. This long history of denying Ukraine's **national legitimacy** and treating it as a colonial possession provides the ideological basis for the current **genocidal war**."
+    "legacy": "Centuries of Russian imperial domination have been marked by systematic attempts to erase Ukrainian sovereignty. The Russian Empire enforced cultural colonisation through Russification policies, banning the Ukrainian language (e.g., Ems Ukaz, 1876). The Soviet Union continued this imperial project through cultural suppression and political terror, culminating in the Holodomor (1932-33), a man-made famine that killed millions [Timothy Snyder, 2010]. This long history of denying Ukraine's national legitimacy and treating it as a colonial possession provides the ideological basis for the current genocidal war [New Lines Institute & Raoul Wallenberg Centre, 2022]."
   },
   "coreTerms": {
-    "imperialAmbition": "Russia's invasion is a neocolonial project to re-establish a **sphere of influence** and reclaim its former imperial territories. The official denial of Ukraine's right to exist as a sovereign nation is a core justification for the war, framing it not as a conflict between states but as a colonial 'reunification'.",
-    "decolonisationAndResistance": "The fierce Ukrainian resistance is a continuation of a centuries-long struggle for decolonisation and self-determination. In occupied territories, Russia repeats its historical colonial playbook: imposing its language, enforcing citizenship, and systematically deporting children to erase Ukrainian identity and culture."
+    "imperialAmbition": "Russia's invasion is a neocolonial project to re-establish a sphere of influence and reclaim its former imperial territories. The official denial of Ukraine's right to exist as a sovereign nation is a core justification for the war, framing it not as a conflict between states but as a colonial 'reunification'.",
+    "decolonisationAndResistance": "The fierce Ukrainian resistance is a continuation of a centuries-long struggle for decolonisation and self-determination. In occupied territories, Russia repeats its historical colonial playbook: imposing its language, enforcing citizenship, and systematically deporting children to erase Ukrainian identity and culture [International Criminal Court, 2023]."
   },
   "humanitarianImpact": {
-    "displaced": "An estimated **3.7 million** people remain internally displaced within Ukraine.",
-    "refugees": "Nearly **6.3 million** refugees have been forced to flee, primarily to other European countries.",
-    "casualties": "Over **10,500** civilians confirmed killed (UN data), though the actual toll is believed to be significantly higher.",
-    "affected": "**14.6 million** people—around 40% of the population—require humanitarian assistance."
+    "displaced": "An estimated 3.7 million people remain internally displaced within Ukraine [IOM, 2024].",
+    "refugees": "Nearly 6.3 million refugees have been forced to flee, primarily to other European countries [UNHCR, 2024].",
+    "casualties": "Over 10,500 civilians confirmed killed (UN data), though the actual toll is believed to be significantly higher [UN OHCHR, 2024].",
+    "affected": "14.6 million people—around 40% of the population—require humanitarian assistance [UN OCHA, 2024]."
   },
   "timeline": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "year": "1932-1933",
-      "event": "**The Holodomor**: A Soviet-engineered famine kills millions of Ukrainians in an act of genocide."
+      "event": "**The Holodomor**: A Soviet-engineered famine kills millions of Ukrainians in an act of genocide [Recognised by the European Parliament and numerous states]."
     },
     {
       "year": "1991",
@@ -42,7 +42,7 @@
     },
     {
       "year": "2014",
-      "event": "**War Begins**: Russia illegally annexes Crimea and invades the Donbas region."
+      "event": "**War Begins**: Russia illegally annexes Crimea [UN General Assembly Resolution 68/262] and invades the Donbas region."
     },
     {
       "year": "2022",

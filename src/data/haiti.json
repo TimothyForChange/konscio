@@ -1,79 +1,75 @@
 {
-  "name": "Haiti",
-  "currentCrisisSummary": "The near-total collapse of the state has ceded control of the capital to armed groups, unleashing extreme violence, mass displacement, and a catastrophic humanitarian emergency.",
+  "name": "Myanmar",
+  "currentCrisisSummary": "A nationwide armed revolution against the 2021 military coup has escalated into a full-scale civil war, causing a humanitarian catastrophe and the collapse of state control in large parts of the country.",
   "colonialRoot": {
-    "colonialPower": "France (1697-1804)",
-    "legacy": "The crisis is rooted in France's brutal slave colony of **Saint-Domingue**. After the **Haitian Revolution (1791-1804)**—history's only successful slave revolt—France, backed by Western powers, extorted a crippling 'indemnity' from Haiti in 1825. This payment, demanded as compensation for the loss of enslaved people as 'property', forced Haiti to pay its former enslavers. The resulting **debt peonage** crippled the Haitian state for over a century, systematically draining its wealth and preventing any investment in public institutions or infrastructure."
+    "colonialPower": "British Empire (1824-1948)",
+    "legacy": "British rule was built on divide-and-rule tactics that shattered pre-colonial societal structures [Thant Myint-U, 2006]. The British created and racialised ethnic categories, administering the Bamar heartland separately from the ethnic minority 'Frontier Areas'. They strategically used certain minorities in the colonial army against the Bamar majority, manufacturing inter-ethnic resentment. By institutionalising ethnic hierarchies and blocking the development of a unified national identity, Britain left a legacy of a fractured state, laying the groundwork for the world's longest-running civil wars."
   },
   "coreTerms": {
-    "neocolonialDebtAndExtraction": "The French indemnity was a foundational act of neocolonialism, ensuring Haiti's continued economic subjugation after political independence. By forcing Haiti to pay its former colonisers the modern equivalent of over **$21 billion**, France deliberately engineered a state of **permanent underdevelopment**. This initial act of extraction created a cycle of debt dependency and foreign control that has defined Haiti's history.",
-    "imperialInterventionAndOccupation": "From the **US occupation (1915-1934)** to a series of UN missions, repeated foreign interventions have systematically undermined **Haitian sovereignty**. These actions, often framed as 'stabilisation', have supported anti-democratic forces, imposed disastrous economic policies, and created a culture of impunity (e.g., the UN's introduction of cholera). This legacy of intervention has fostered instability and dependency, preventing the emergence of resilient, Haitian-led institutions."
+    "ethnoNationalismAndFederalism": "The post-independence state, dominated by the Bamar military (Tatmadaw), has violently enforced a singular, Bamar-centric national identity. The struggle of ethnic resistance organisations for federalism and self-determination is a direct challenge to this chauvinistic, centralised model of the state inherited from the colonial era.",
+    "militaryRuleAsInternalColonialism": "The Tatmadaw's rule functions as a form of internal colonialism. It uses extreme violence to control ethnic peripheries and exploit their natural resources for the benefit of a central military elite. The Rohingya genocide [UN Fact-Finding Mission on Myanmar, 2018] and the denial of citizenship are the most extreme manifestations of this system, which uses colonial-era ethnic classifications to exclude and persecute."
   },
   "humanitarianImpact": {
-    "displaced": "Over **580,000** people internally displaced by extreme violence, the majority women and children.",
-    "refugees": "Hundreds of thousands of Haitians have been forced to flee the country, often facing racist and violent border policies.",
-    "casualties": "Over **8,000** people were killed by gang violence in the first nine months of 2024 alone.",
-    "affected": "**5.5 million** people—nearly half the population—require humanitarian assistance to survive, with millions facing acute hunger."
+    "displaced": "Over 3 million people internally displaced since the 2021 coup, with millions more displaced by decades of prior conflict [UNHCR/OCHA, 2024].",
+    "refugees": "Nearly 1 million Rohingya refugees remain in camps in Bangladesh, with no prospect for safe return [UNHCR, 2024].",
+    "casualties": "While over 6,000 civilians are confirmed killed by the junta, the total conflict death toll is estimated to be over 50,000 [AAPP (Assistance Association for Political Prisoners), 2024; Institute for Strategy and Policy - Myanmar].",
+    "affected": "18.6 million people—one-third of the population—require urgent humanitarian aid as the economy and healthcare system collapse [UN OCHA, 2024]."
   },
   "timeline": [
     {
-      "year": "1791-1804",
-      "event": "**Haitian Revolution**: Enslaved people lead a successful revolt, establishing the first Black republic."
+      "year": "1885",
+      "event": "**British Conquest**: Britain completes its conquest of Burma, incorporating it into its empire."
     },
     {
-      "year": "1825",
-      "event": "**French Indemnity**: France forces Haiti to begin paying a crippling debt for its freedom."
+      "year": "1948",
+      "event": "**Independence**: Burma gains independence, inheriting a state fractured by colonial policies."
     },
     {
-      "year": "1915-1934",
-      "event": "**US Occupation**: The United States invades and occupies Haiti for 19 years."
+      "year": "1962",
+      "event": "**First Military Coup**: General Ne Win seizes power, ending parliamentary democracy."
     },
     {
-      "year": "1957-1986",
-      "event": "**Duvalier Dictatorship**: The US-backed father-son dictatorship terrorises Haiti for decades."
+      "year": "1988",
+      "event": "**8888 Uprising**: The military brutally crushes a nationwide pro-democracy uprising, killing an estimated 3,000-10,000 people [Bertil Lintner, 1989]."
     },
     {
-      "year": "2004",
-      "event": "**Second Coup against Aristide**: The democratically elected president is ousted in a coup backed by the US, France, and Canada."
-    },
-    {
-      "year": "2010",
-      "event": "**Devastating Earthquake**: Kills over 200,000 people and causes catastrophic damage."
+      "year": "2017",
+      "event": "**Rohingya Genocide**: The military launches a campaign of ethnic cleansing against the Rohingya, with actions later defined as genocidal by a UN fact-finding mission [UN Fact-Finding Mission on Myanmar, 2018]."
     },
     {
       "year": "2021",
-      "event": "**President Moïse Assassinated**: The murder deepens political instability and a power vacuum."
+      "event": "**Military Coup & Revolution**: The Tatmadaw overthrows the elected government, triggering a nationwide armed uprising."
     },
     {
-      "year": "2024",
-      "event": "**Foreign Intervention**: A Kenyan-led, UN-backed security mission is deployed amid widespread protests and questions of legitimacy."
+      "year": "2023-Present",
+      "event": "**Operation 1027**: A coordinated offensive by ethnic armies inflicts major defeats on the junta."
     }
   ],
   "takeAction": {
     "donate": [
       {
-        "organisation": "Fonkoze",
-        "description": "A Haitian organisation providing financial inclusion and development services to rural communities.",
-        "url": "https://fonkoze.org/"
+        "organisation": "Burma Campaign UK",
+        "description": "An advocacy group working for human rights and democracy in Myanmar.",
+        "url": "https://burmacampaign.org.uk/"
       },
       {
-        "organisation": "Haitian Bridge Alliance",
-        "description": "A Haitian-led diaspora organisation providing support and advocacy for refugees and migrants.",
-        "url": "https://haitianbridgealliance.org"
+        "organisation": "Free Burma Rangers",
+        "description": "Provides front-line humanitarian relief, medical care, and documentation in conflict zones.",
+        "url": "https://www.freeburmarangers.org"
       },
       {
-        "organisation": "Médecins Sans Frontières",
-        "description": "Providing emergency medical care to victims of violence in Port-au-Prince.",
-        "url": "https://www.msf.org/haiti"
+        "organisation": "Mutual Aid Myanmar",
+        "description": "Direct, flexible funding to grassroots activists and civil society groups inside the country.",
+        "url": "https://www.mutualaidmyanmar.org/"
       }
     ],
     "awareness": [
-      "Amplify Haitian-led analysis of the crisis and challenge mainstream media narratives.",
-      "Learn and share the history of the Haitian Revolution and the French indemnity."
+      "Amplify the voices of Myanmar's diverse pro-democracy movement and ethnic resistance organisations.",
+      "Support the Rohingya people's demands for justice, citizenship, and safe repatriation."
     ],
     "boycott": [
-      "Demand France pay back the indemnity debt to Haiti with interest.",
-      "Oppose foreign military interventions that lack popular Haitian support and accountability."
+      "Support targeted sanctions on the junta's leaders and their economic interests, particularly in the oil and gas sector.",
+      "Boycott companies that are complicit in funding the military regime."
     ]
   }
 }
