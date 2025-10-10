@@ -30,6 +30,12 @@
     "description": "Ongoing occupation and humanitarian crisis"
   },
   {
+    "name": "South Sudan",
+    "slug": "south-sudan",
+    "flag": "🇸🇸",
+    "description": "Civil war, climate disaster, and mass displacement"
+  },
+  {
     "name": "Sudan",
     "slug": "sudan",
     "flag": "🇸🇩",

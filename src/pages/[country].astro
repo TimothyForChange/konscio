@@ -1,9 +1,9 @@
 ---
-import userData from '../data/user.json';
 import CountryLayout from '../layouts/CountryLayout.astro';
 
 export async function getStaticPaths() {
-  return (userData.countries || []).map((c) => ({
+  const countries = (await import('../data/countries.json')).default;
+  return (countries || []).map((c) => ({
     params: { country: c.slug },
   }));
 }

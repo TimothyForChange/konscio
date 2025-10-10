@@ -57,19 +57,14 @@
         "url": "https://islamic-relief.org/appeals/sudan-emergency-appeal/"
       },
       {
-        "organisation": "Médecins Sans Frontières",
-        "description": "Provides emergency medical care and humanitarian assistance in conflict-affected areas.",
-        "url": "https://www.msf.org/sudan"
-      },
-      {
         "organisation": "Sudanese American Physicians Association (SAPA)",
         "description": "A diaspora-led organisation providing direct medical and humanitarian support.",
         "url": "https://sapa-usa.org/"
       },
       {
-        "organisation": "World Food Programme (WFP)",
-        "description": "Distributing emergency food aid to combat widespread hunger and famine.",
-        "url": "https://www.wfp.org/countries/sudan"
+        "organisation": "Share The Meal",
+        "description": "A UN World Food Programme initiative making it easy to donate meals to children and families in need in Sudan.",
+        "url": "https://sharethemeal.org/campaigns/sudan2"
       }
     ],
     "awareness": [

@@ -1,0 +1,75 @@
+{
+  "name": "South Sudan",
+  "currentCrisisSummary": "The world's youngest nation faces a catastrophic humanitarian emergency, where a violent elite power struggle, the devastating impacts of climate change (unprecedented flooding), and spillover from the Sudan war have left 75% of the population dependent on aid [UN OCHA, 2024].",
+  "colonialRoot": {
+    "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
+    "legacy": "Britain's colonial administration implemented the 'Southern Policy', which officially treated the south as a separate entity from the north [Douglas H. Johnson, 2011]. This policy deliberately blocked economic and educational development in the south, barred northern Sudanese from the region, and preserved a pre-modern, tribal structure. While the north was modernised and its elite incorporated into the state apparatus, the south was systematically underdeveloped and isolated. This engineered disparity created a foundation of extreme inequality and marginalisation, ensuring that upon independence, the South would be entirely subordinate to the centre in Khartoum, making decades of civil war almost inevitable."
+  },
+  "coreTerms": {
+    "resourceDrivenEliteConflict": "The civil war is not primarily an ethnic conflict but a violent struggle between a predatory political and military elite, fighting for control over the state apparatus and its vast oil revenues [UN Panel of Experts on South Sudan, 2024]. State resources are systematically looted and diverted to fund personal militias and patronage networks, transforming the government into an engine of extraction that fuels the conflict and perpetuates the humanitarian crisis for personal gain.",
+    "climateConflictMultiplier": "South Sudan is one of the countries most vulnerable to climate change. Years of unprecedented, catastrophic flooding—a direct consequence of a warming climate—have submerged entire regions, destroying livelihoods, displacing hundreds of thousands, and blocking humanitarian access [FEWS NET, 2024]. This ecological collapse acts as a conflict multiplier, intensifying competition over scarce resources like grazing land and clean water, and driving cycles of intercommunal violence that overlay the political conflict."
+  },
+  "humanitarianImpact": {
+    "displaced": "Over 2 million people are internally displaced by conflict and flooding [IOM, 2024].",
+    "refugees": "More than 2.2 million refugees have fled to neighbouring countries, primarily Uganda, Sudan, and Ethiopia, making it Africa's largest refugee crisis [UNHCR, 2024].",
+    "casualties": "While precise figures are difficult to obtain, a 2018 study estimated that nearly 400,000 excess deaths were attributable to the civil war since 2013 [London School of Hygiene & Tropical Medicine study, 2018].",
+    "affected": "9 million people require urgent humanitarian assistance, with 7.1 million facing crisis levels of hunger, and parts of the country at risk of famine [UN OCHA, 2024; Integrated Food Security Phase Classification, 2024]."
+  },
+  "timeline": [
+    {
+      "year": "1920s",
+      "event": "**'Southern Policy'**: British administrators formalise the political and economic separation of the south from the north."
+    },
+    {
+      "year": "1955-1972",
+      "event": "**First Sudanese Civil War**: The conflict begins a year before Sudan's independence, as southern forces demand regional autonomy."
+    },
+    {
+      "year": "1983-2005",
+      "event": "**Second Sudanese Civil War**: The war resumes after autonomy is revoked, resulting in an estimated 2 million deaths and laying the groundwork for secession."
+    },
+    {
+      "year": "2005",
+      "event": "**Comprehensive Peace Agreement (CPA)**: The agreement ends the civil war and grants Southern Sudan autonomy and the right to a referendum on independence."
+    },
+    {
+      "year": "2011",
+      "event": "**Independence**: South Sudan becomes the world's newest country after an overwhelming vote for secession."
+    },
+    {
+      "year": "2013",
+      "event": "**Civil War Erupts**: A political power struggle between President Salva Kiir and Vice President Riek Machar plunges the nation into a devastating civil war."
+    },
+    {
+      "year": "2018",
+      "event": "**Revitalised Peace Agreement**: A fragile peace deal is signed, but core elements, including security sector reform, remain unimplemented."
+    },
+    {
+      "year": "2023-Present",
+      "event": "**Escalating Crises**: The country faces catastrophic flooding, a massive influx of refugees fleeing the war in Sudan, and ongoing sub-national violence."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Humanitarian Development Consortium (HDC Africa)",
+        "description": "A South Sudanese-led NGO providing emergency relief, food security, and development programs for vulnerable communities.",
+        "url": "https://www.hdcafrica.org"
+      },
+      {
+        "organisation": "Share The Meal",
+        "description": "A UN World Food Programme initiative making it easy to donate meals to children and families in need in South Sudan.",
+        "url": "https://sharethemeal.org/campaigns/southsudan3"
+      }
+    ],
+    "awareness": [
+      "Highlight that the crisis is severely underfunded and driven by a combination of elite conflict and climate change.",
+      "Amplify the voices of South Sudanese civil society groups and human rights defenders."
+    ],
+    "advocacy": [
+      "Demand enforcement of the UN arms embargo to stop the flow of weapons that fuels the conflict.",
+      "Support targeted sanctions against political and military leaders responsible for corruption and human rights violations.",
+      "Call for the establishment of the Hybrid Court for South Sudan to ensure accountability for war crimes."
+    ]
+  }
+}

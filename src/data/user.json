@@ -2,56 +2,6 @@
   "name": "Timothy Brits",
   "profession": "Software Engineer",
   "bio": "I use my platform to raise awareness about ongoing humanitarian crises around the world. I'm a .NET and Node.js developer based in Pretoria, building digital tools that hopefully make a difference. When I'm not at my computer, I'm probably playing with my dog, listening to audiobooks, or getting competitive over board games.",
-  "countries": [
-    {
-      "name": "DRC",
-      "slug": "drc",
-      "flag": "🇨🇩",
-      "description": "Ongoing conflict and humanitarian needs"
-    },
-    {
-      "name": "Ethiopia",
-      "slug": "ethiopia",
-      "flag": "🇪🇹",
-      "description": "Aftermath of the Tigray War and ongoing regional conflicts"
-    },
-    {
-      "name": "Haiti",
-      "slug": "haiti",
-      "flag": "🇭🇹",
-      "description": "Political instability and humanitarian crisis"
-    },
-    {
-      "name": "Myanmar",
-      "slug": "myanmar",
-      "flag": "🇲🇲",
-      "description": "Military coup and persecution"
-    },
-    {
-      "name": "Palestine",
-      "slug": "palestine",
-      "flag": "🇵🇸",
-      "description": "Ongoing occupation and humanitarian crisis"
-    },
-    {
-      "name": "Sudan",
-      "slug": "sudan",
-      "flag": "🇸🇩",
-      "description": "Civil war and displacement crisis"
-    },
-    {
-      "name": "Syria",
-      "slug": "syria",
-      "flag": "🇸🇾",
-      "description": "Protracted civil war, foreign intervention, and humanitarian collapse"
-    },
-    {
-      "name": "Ukraine",
-      "slug": "ukraine",
-      "flag": "🇺🇦",
-      "description": "War and refugee crisis"
-    }
-  ],
   "links": [
     {
       "url": "https://www.instagram.com/brits.timothy/",
@@ -78,16 +28,22 @@
       "description": "A Wordle-style word game (Vortludo means 'word game' in Esperanto)"
     },
     {
-      "url": "https://www.nrc.no",
-      "icon": "hand-heart-line",
-      "title": "Norwegian Refugee Council",
-      "description": "Delivering emergency relief, legal aid, and education programs for displaced populations."
-    },
-    {
       "url": "https://drc.ngo",
       "icon": "empathize-line",
       "title": "Danish Refugee Council",
       "description": "Supporting protection services, livelihood initiatives, and durable solutions for refugees and IDPs."
+    },
+    {
+      "url": "https://www.msf.org",
+      "icon": "hospital-line",
+      "title": "Médecins Sans Frontières",
+      "description": "Emergency medical care and humanitarian relief worldwide."
+    },
+    {
+      "url": "https://www.nrc.no",
+      "icon": "hand-heart-line",
+      "title": "Norwegian Refugee Council",
+      "description": "Delivering emergency relief, legal aid, and education programs for displaced populations."
     }
   ]
 }
