@@ -28,22 +28,10 @@
       "description": "A Wordle-style word game (Vortludo means 'word game' in Esperanto)"
     },
     {
-      "url": "https://drc.ngo",
-      "icon": "empathize-line",
-      "title": "Danish Refugee Council",
-      "description": "Supporting protection services, livelihood initiatives, and durable solutions for refugees and IDPs."
-    },
-    {
-      "url": "https://www.msf.org",
-      "icon": "hospital-line",
-      "title": "Médecins Sans Frontières",
-      "description": "Emergency medical care and humanitarian relief worldwide."
-    },
-    {
-      "url": "https://www.nrc.no",
-      "icon": "hand-heart-line",
-      "title": "Norwegian Refugee Council",
-      "description": "Delivering emergency relief, legal aid, and education programs for displaced populations."
+      "url": "https://sharethemeal.org/campaigns",
+      "icon": "restaurant-2-line",
+      "title": "ShareTheMeal",
+      "description": "A UN World Food Programme initiative that lets you donate meals to children and families in crisis with just one tap."
     }
   ]
 }
