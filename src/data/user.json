@@ -10,6 +10,12 @@
       "description": "My life in pictures"
     },
     {
+      "url": "https://www.threads.com/@livelongandtim",
+      "icon": "threads-line",
+      "title": "Threads",
+      "description": "The unspooled thoughts"
+    },
+    {
       "url": "https://github.com/mooship",
       "icon": "github-line",
       "title": "GitHub",
