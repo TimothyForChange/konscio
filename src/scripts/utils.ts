@@ -34,10 +34,10 @@ export function formatText(text: string): string {
 }
 
 export async function getCountryMetadata(
-  countryName: string
+  countrySlug: string
 ): Promise<{ emoji: string; ariaLabel: string } | null> {
   try {
-    const country = countriesData.find((c) => c.name === countryName);
+    const country = countriesData.find((c) => c.slug === countrySlug);
     if (!country) {
       return null;
     }

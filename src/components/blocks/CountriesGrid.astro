@@ -23,7 +23,7 @@ import CountryCard from './CountryCard.astro';
 
 <style>
   .causes-section {
-    margin-top: 2rem;
+    margin-top: var(--section-gap);
     width: 100%;
   }
 
@@ -39,7 +39,7 @@ import CountryCard from './CountryCard.astro';
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.5rem;
-    max-width: 680px;
+    max-width: 600px;
     margin: 0 auto;
     --stagger-step: 80ms;
   }

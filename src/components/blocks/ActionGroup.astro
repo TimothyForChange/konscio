@@ -17,7 +17,7 @@ const { icon, title } = Astro.props as Props;
 
 <style>
   .action-group {
-    margin-bottom: 2rem;
+    margin-bottom: calc(var(--section-gap) * 0.9);
   }
 
   .action-group:last-child {
@@ -31,7 +31,7 @@ const { icon, title } = Astro.props as Props;
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--text-primary);
-    margin-bottom: 1rem;
+    margin-bottom: var(--heading-gap);
     margin-top: 0;
   }
 

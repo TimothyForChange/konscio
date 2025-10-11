@@ -30,6 +30,12 @@
     "description": "Resource-driven violence in Cabo Delgado, displacement, and foreign corporate complicity"
   },
   {
+    "name": "Nigeria",
+    "slug": "nigeria",
+    "flag": "🇳🇬",
+    "description": "Multiple overlapping humanitarian crises and resource-driven conflict"
+  },
+  {
     "name": "Palestine",
     "slug": "palestine",
     "flag": "🇵🇸",

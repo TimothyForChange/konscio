@@ -6,7 +6,7 @@ const items = dataList.links;
 ---
 
 <section class='links-section'>
-  <h2 class='links-heading'>Projects & Links</h2>
+  <h2 class='links-heading'>Links</h2>
   <ul class='list' id='list'>
     {
       items.map((item, index) => (
@@ -25,7 +25,7 @@ const items = dataList.links;
 
 <style>
   .links-section {
-    margin-top: 2rem;
+    margin-top: var(--section-gap);
   }
 
   .links-heading {
@@ -42,7 +42,7 @@ const items = dataList.links;
     }
   }
   .list {
-    margin: 2rem 0;
+    margin: 0;
     display: grid;
     gap: 1rem;
     list-style: none;

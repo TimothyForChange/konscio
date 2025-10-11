@@ -66,8 +66,8 @@ if (!takeAction) {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 12px;
-    padding: 1.25rem;
-    margin-bottom: 1.5rem;
+    padding: var(--section-gap);
+    margin-bottom: var(--section-gap);
   }
 
   .action-section h2 {
@@ -77,11 +77,11 @@ if (!takeAction) {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--text-primary);
-    margin-bottom: 1rem;
+    margin-bottom: var(--heading-gap);
   }
 
   .action-group {
-    margin-bottom: 2rem;
+    margin-bottom: calc(var(--section-gap) * 0.9);
   }
 
   .action-group:last-child {
@@ -96,7 +96,7 @@ if (!takeAction) {
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--text-primary);
-    margin-bottom: 1rem;
+    margin-bottom: var(--heading-gap);
     margin-top: 0;
   }
 
@@ -114,7 +114,7 @@ if (!takeAction) {
     background: var(--bg-surface);
     border: 1px solid var(--border);
     border-radius: 8px;
-    padding: 1.25rem;
+    padding: calc(var(--heading-gap) * 1);
   }
 
   .org-item h4 {
@@ -122,12 +122,12 @@ if (!takeAction) {
     font-weight: 600;
     color: var(--text-primary);
 
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 calc(var(--heading-gap) / 2) 0;
   }
 
   .org-item p {
     color: var(--text-secondary);
-    margin: 0 0 1rem 0;
+    margin: 0 0 var(--heading-gap) 0;
     line-height: 1.5;
   }
 
@@ -184,12 +184,12 @@ if (!takeAction) {
 
   @media (min-width: 769px) {
     .action-section {
-      padding: 1.5rem;
-      margin-bottom: 2rem;
+      padding: calc(var(--section-gap) + 0.25rem);
+      margin-bottom: calc(var(--section-gap) + 0.25rem);
     }
 
     .org-item {
-      padding: 1.25rem;
+      padding: calc(var(--heading-gap) * 1.1);
     }
 
     .donate-link {

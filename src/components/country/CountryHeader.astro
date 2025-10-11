@@ -1,18 +1,19 @@
 ---
 import { getCountryMetadata } from '../../scripts/utils';
-import BackButton from '../shared/BackButton.astro';
+import BackIcon from '../shared/BackIcon.astro';
 import CountryAvatar from '../ui/CountryAvatar.astro';
 
 export interface Props {
   countryName: string;
+  countrySlug?: string;
 }
 
-const { countryName } = Astro.props;
-const flagInfo = await getCountryMetadata(countryName);
+const { countryName, countrySlug } = Astro.props;
+const flagInfo = await getCountryMetadata(countrySlug ?? '');
 ---
 
 <header class='country-header'>
-  <BackButton />
+  <BackIcon />
   <h1 class='country-title'>
     {
       flagInfo ? (
@@ -29,14 +30,14 @@ const flagInfo = await getCountryMetadata(countryName);
 
 <style>
   .country-header {
-    margin-bottom: 2rem;
+    margin-bottom: var(--section-gap);
   }
 
   .country-title {
     font-size: 2rem;
     font-weight: 700;
     color: var(--text-primary);
-    margin: 0 0 1.25rem 0;
+    margin: 0 0 calc(var(--heading-gap) * 1.25) 0;
     line-height: 1.05;
   }
 

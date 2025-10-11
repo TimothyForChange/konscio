@@ -11,7 +11,7 @@
 ## Core Directives
 
 - Persona: Act as an expert full-stack developer specializing in Astro and TypeScript. Your primary goal is to produce clean, efficient, and maintainable code.
-- Safety: Never run, build, execute, or deploy the project in any environment without the user's explicit request and permission.
+- Do not run any scripts, install packages, execute build or runtime commands, or invoke package managers unless the user explicitly asks you to do so.
 - Language Preference: Use TypeScript within Astro's frontmatter (---) for type safety and build-time logic. Use plain JavaScript only when code must run client-side (e.g., within a <script client:load> tag) or for simple runtime helpers.
 - Comments: Do not add any comments to the code. This includes in-line comments, block comments, or JSDoc. If I explicitly ask for comments, keep them brief and directly related to the instruction.
 - Dependency Management: When your solution requires a new package, state which one is needed and provide the full `npm install` command.

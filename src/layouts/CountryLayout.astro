@@ -44,7 +44,10 @@ const canonicalUrl = `https://mooship.co.za/${safeName.toLowerCase()}`;
   <div class='page-wrapper'>
     <main class='container' id='container'>
       <div class='country-page'>
-        <CountryHeader countryName={countryData?.name ?? safeName} />
+        <CountryHeader
+          countryName={countryData?.name ?? safeName}
+          countrySlug={countrySlug as string}
+        />
 
         <CrisisSection summary={countryData?.currentCrisisSummary ?? ''} />
 

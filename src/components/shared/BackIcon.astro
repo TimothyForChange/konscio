@@ -1,0 +1,54 @@
+---
+export interface Props {
+  href?: string;
+  class?: string;
+}
+
+const { href = '/', class: className = '' } = Astro.props;
+---
+
+<a href={href} class={`back-icon ${className}`} aria-label='Back' title='Back'>
+  <i class='ri-arrow-left-long-line' aria-hidden='true'></i>
+</a>
+
+<style>
+  .back-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0 0 0.25rem 0;
+    font-size: inherit;
+    line-height: 1;
+    transition:
+      color 0.12s ease,
+      transform 0.12s ease;
+  }
+
+  .back-icon i {
+    font-size: 1.25rem;
+    display: block;
+  }
+
+  .back-icon:hover {
+    color: var(--text-primary);
+    transform: translateX(-2px);
+  }
+
+  .back-icon:active {
+    transform: translateX(0);
+  }
+
+  @media (hover: none) and (pointer: coarse) {
+    .back-icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+</style>

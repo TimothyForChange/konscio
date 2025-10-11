@@ -1,7 +1,6 @@
 ---
 import userData from '../../data/user.json';
 import { getSouthAfricaEmoji } from '../../scripts/utils';
-import CountriesGrid from './CountriesGrid.astro';
 
 type Link = { url: string; icon?: string; title: string; description?: string };
 type Country = {
@@ -69,11 +68,9 @@ const { name, profession, bio } = userData as User;
   </div>
 </header>
 
-<CountriesGrid />
-
 <style>
   .profile {
-    margin-top: 2rem;
+    margin-top: var(--section-gap);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -109,7 +106,7 @@ const { name, profession, bio } = userData as User;
   }
 
   .profile-data {
-    margin-top: 1.125rem;
+    margin-top: calc(var(--heading-gap) * 1.125);
     text-align: center;
   }
 
@@ -127,7 +124,7 @@ const { name, profession, bio } = userData as User;
   }
 
   .profile-bio {
-    margin-top: 1rem;
+    margin-top: var(--heading-gap);
     max-width: 24rem;
   }
 

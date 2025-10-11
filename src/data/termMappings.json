@@ -46,5 +46,13 @@
   "sahel": {
     "françafriqueAndFailedIntervention": "Françafrique & Failed Intervention",
     "climateCollapseAndInjustice": "Climate Collapse & Injustice"
+  },
+  "nigeria": {
+    "theNationalQuestion": "The National Question",
+    "theOilCurseAndNeocolonialExtraction": "The Oil Curse & Neocolonial Extraction"
+  },
+  "car": {
+    "laCentrafriqueProfonde": "La Centrafrique Profonde (Deep Central Africa)",
+    "theMercenaryStateAndProxyPlunder": "The Mercenary-State & Proxy Plunder"
   }
 }

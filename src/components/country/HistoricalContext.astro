@@ -28,14 +28,14 @@ if (!coreTerms || Object.keys(coreTerms).length === 0) {
 
 <style>
   .terms-section {
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--section-gap);
   }
 
   .terms-section h2 {
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--text-primary);
-    margin-bottom: 1rem;
+    margin-bottom: var(--heading-gap);
     border-bottom: 2px solid var(--accent-primary);
     padding-bottom: 0.5rem;
   }
@@ -45,11 +45,11 @@ if (!coreTerms || Object.keys(coreTerms).length === 0) {
     font-weight: 600;
     color: var(--text-primary);
     margin-bottom: 0.75rem;
-    margin-top: 1rem;
+    margin-top: var(--heading-gap);
   }
 
   .term-group {
-    margin-bottom: 1.25rem;
+    margin-bottom: calc(var(--heading-gap) * 1.25);
   }
 
   .term-group:last-child {
