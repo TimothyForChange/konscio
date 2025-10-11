@@ -16,22 +16,16 @@
       "description": "Personal projects and open-source contributions"
     },
     {
-      "url": "https://kronilo.mooship.co.za",
-      "icon": "translate",
-      "title": "Kronilo",
-      "description": "A tool to translate cron expressions into natural language"
-    },
-    {
       "url": "https://sharethemeal.org/campaigns",
       "icon": "hand-heart-line",
       "title": "ShareTheMeal",
       "description": "A UN World Food Programme initiative that lets you donate meals to children and families in crisis with just one tap."
     },
     {
-      "url": "https://donate.givedirectly.org",
-      "icon": "hand-coin-line",
-      "title": "GiveDirectly",
-      "description": "A highly rated charity that sends cash directly to people living in extreme poverty, empowering them to meet their own needs with dignity and choice."
+      "url": "https://www.wateraid.org/",
+      "icon": "drop-line",
+      "title": "WaterAid",
+      "description": "An international non-profit working to make clean water, decent toilets, and good hygiene normal for everyone, everywhere."
     }
   ]
 }
