@@ -121,7 +121,7 @@ body {
 .container {
   position: relative;
   padding: 0.3125rem;
-  max-width: 660px;
+  max-width: 680px;
   width: 90%;
   min-height: 100vh;
 }
