@@ -50,6 +50,11 @@
   "takeAction": {
     "donate": [
       {
+        "organisation": "CARE Australia",
+        "description": "Works with remote and vulnerable communities on women's empowerment, health, and responding to humanitarian emergencies and climate change.",
+        "url": "https://www.care.org.au/country/papua-new-guinea/"
+      },
+      {
         "organisation": "Médecins Sans Frontières (MSF)",
         "description": "MSF has run projects providing surgical care to victims of violence in the Highlands and tackling tuberculosis. Their presence varies based on security and funding.",
         "url": "https://www.msf.org/papua-new-guinea"
