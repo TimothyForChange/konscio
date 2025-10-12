@@ -65,6 +65,11 @@
         "url": "https://panzifoundation.org/"
       },
       {
+        "organisation": "UNHCR",
+        "description": "The UN Refugee Agency provides shelter, protection, and camp management for millions of people displaced by extreme violence within the DRC and as refugees across Africa.",
+        "url": "https://www.unhcr.org/emergencies/dr-congo-emergency"
+      },
+      {
         "organisation": "World Food Programme (WFP)",
         "description": "The UN organisation providing life-saving food and nutrition to millions displaced by conflict in eastern DRC.",
         "url": "https://www.wfp.org/emergencies/drc-emergency"

@@ -59,6 +59,11 @@
         "url": "https://sossahel.ngo/"
       },
       {
+        "organisation": "UNHCR",
+        "description": "The UN Refugee Agency provides critical assistance and protection to millions displaced by conflict, insecurity, and the climate crisis across the Sahel.",
+        "url": "https://www.unhcr.org/emergencies/sahel-emergency"
+      },
+      {
         "organisation": "World Food Programme (WFP)",
         "description": "The UN organisation providing life-saving food assistance to millions facing acute hunger across the Sahel.",
         "url": "https://www.wfp.org/emergencies/sahel-emergency"

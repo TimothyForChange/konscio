@@ -57,6 +57,11 @@
         "organisation": "Médecins Sans Frontières (MSF)",
         "description": "In CAR, one of its oldest and largest missions, MSF provides basic and emergency healthcare in a country where the state is largely absent and conflict has created a permanent humanitarian crisis.",
         "url": "https://www.msf.org/central-african-republic"
+      },
+      {
+        "organisation": "UNHCR",
+        "description": "The UN Refugee Agency provides protection and life-saving aid to Central Africans displaced by conflict within CAR and as refugees in neighbouring countries.",
+        "url": "https://www.unhcr.org/emergencies/central-african-republic-emergency"
       }
     ],
     "awareness": [
