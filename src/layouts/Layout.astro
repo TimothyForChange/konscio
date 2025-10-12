@@ -13,11 +13,11 @@ const ldObject = {
   '@graph': [
     {
       '@type': 'Person',
-      '@id': 'https://timothyforchange.co.za/#person',
+      '@id': 'https://www.timothyforchange.co.za/#person',
       name: 'Timothy Brits',
       alternateName: 'Timothy',
-      url: 'https://timothyforchange.co.za',
-      image: 'https://timothyforchange.co.za/me.webp',
+      url: 'https://www.timothyforchange.co.za',
+      image: 'https://www.timothyforchange.co.za/me.webp',
       jobTitle: 'Software Engineer',
       address: {
         '@type': 'PostalAddress',
@@ -39,20 +39,20 @@ const ldObject = {
     },
     {
       '@type': 'WebSite',
-      '@id': 'https://timothyforchange.co.za/#website',
-      url: 'https://timothyforchange.co.za',
+      '@id': 'https://www.timothyforchange.co.za/#website',
+      url: 'https://www.timothyforchange.co.za',
       name: 'Timothy Brits',
       description:
         'Timothy Brits - Software Engineer raising awareness about global humanitarian crises',
       publisher: {
-        '@id': 'https://timothyforchange.co.za/#person',
+        '@id': 'https://www.timothyforchange.co.za/#person',
       },
       potentialAction: {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
           urlTemplate:
-            'https://timothyforchange.co.za/?search={search_term_string}',
+            'https://www.timothyforchange.co.za/?search={search_term_string}',
         },
         'query-input': 'required name=search_term_string',
       },
@@ -60,32 +60,62 @@ const ldObject = {
   ],
 };
 const ldJson = JSON.stringify(ldObject, null, 2);
-const defaultDescription =
-  'Timothy Brits - Software Engineer, raising awareness about global humanitarian crises. Learn about ongoing conflicts and humanitarian issues in Ukraine, Palestine, the DRC, Sudan, and Myanmar.';
-const pageDescription = description || defaultDescription;
-const pageCanonicalUrl = canonicalUrl || 'https://timothyforchange.co.za/';
+const countriesList = (await import('../data/countries.json')).default;
+const countryNames = Array.isArray(countriesList)
+  ? countriesList
+      .map((c) => c.name)
+      .filter(Boolean)
+      .join(', ')
+  : '';
+const defaultDescription = `Timothy Brits - Software Engineer, raising awareness about global humanitarian crises. Learn about ongoing conflicts and humanitarian issues in ${countryNames}.`;
+const baseKeywords = [
+  'Timothy Brits',
+  'developer',
+  'software engineer',
+  'advocacy',
+  'humanitarian awareness',
+  'global crises',
+  'social justice',
+  'humanitarian aid',
+  'conflict awareness',
+  'Pretoria',
+];
+const countryNamesArray = Array.isArray(countriesList)
+  ? countriesList.map((c) => c.name).filter(Boolean)
+  : [];
+const keywordsList = [...baseKeywords, ...countryNamesArray].join(', ');
+function trimDescription(desc: string, max = 160) {
+  if (!desc) {
+    return '';
+  }
+  const cleaned = desc.replace(/\s+/g, ' ').trim();
+  return cleaned.length > max
+    ? cleaned.slice(0, max - 1).trimEnd() + '…'
+    : cleaned;
+}
+
+const rawDescription = description || defaultDescription;
+const pageDescription = trimDescription(rawDescription, 160);
+const pageCanonicalUrl = canonicalUrl || 'https://www.timothyforchange.co.za/';
 ---
 
 <!doctype html>
-<html lang='en'>
+<html lang='en-GB'>
   <head>
     <meta charset='UTF-8' />
     <meta name='description' content={pageDescription} />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <meta name='author' content='Timothy Brits' />
-    <meta
-      name='keywords'
-      content='Timothy Brits, developer, software engineer, advocacy, advocate, humanitarian awareness, global crises, Ukraine, Palestine, DRC, Sudan, Myanmar, social justice, humanitarian aid, conflict awareness, Pretoria developer'
-    />
+    <meta name='keywords' content={keywordsList} />
     <meta name='robots' content='index, follow' />
     <meta property='og:type' content='website' />
-    <meta property='og:url' content='https://timothyforchange.co.za/' />
+    <meta property='og:url' content={pageCanonicalUrl} />
     <meta property='og:title' content={title} />
     <meta property='og:description' content={pageDescription} />
     <meta property='og:site_name' content='Timothy Brits' />
     <meta
       property='og:image'
-      content='https://timothyforchange.co.za/apple-touch-icon.png'
+      content='https://www.timothyforchange.co.za/apple-touch-icon.png'
     />
     <meta name='color-scheme' content='light dark' />
     <link rel='canonical' href={pageCanonicalUrl} />
@@ -93,7 +123,6 @@ const pageCanonicalUrl = canonicalUrl || 'https://timothyforchange.co.za/';
     <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
     <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
     <link rel='manifest' href='/site.webmanifest' />
-    <meta name='generator' content={Astro.generator} />
     <title>{title}</title>
     <link rel='sitemap' href='/sitemap-index.xml' />
     <script type='application/ld+json' set:html={ldJson} />

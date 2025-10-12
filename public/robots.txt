@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://timothyforchange.co.za/sitemap-index.xml
+Sitemap: https://www.timothyforchange.co.za/sitemap-index.xml
 Crawl-delay: 1

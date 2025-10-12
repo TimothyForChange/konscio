@@ -1,0 +1,75 @@
+{
+  "name": "Venezuela",
+  "emoji": "🇻🇪",
+  "ariaLabel": "Venezuelan flag",
+  "currentCrisisSummary": "Venezuela is enduring a complex humanitarian emergency driven by a catastrophic economic collapse, political polarisation, and crippling external sanctions. The implosion of the state has destroyed public services, triggered hyperinflation, and created one of the largest migrant and refugee crises in the world, leaving millions unable to access food or healthcare [UN OCHA, 2025].",
+  "colonialRoot": {
+    "colonialPower": "Spanish Empire",
+    "legacy": "The crisis is rooted in the colonial-era extractive model established by Spain. At independence, Venezuela inherited a non-industrialised, commodity-dependent economy. The 20th-century discovery of oil did not break this neocolonial pattern but intensified it, transforming Venezuela into a quintessential 'petro-state' [Fernando Coronil, 'The Magical State', 1997]. The entire national economy became dependent on oil exports, creating extreme vulnerability to global price shocks and fostering a political culture of corruption and patronage, while preventing the development of a diversified, resilient economic base."
+  },
+  "coreTerms": {
+    "theOilCurseAndPetroStateCollapse": "Venezuela's immense oil wealth became a curse. It created a 'petro-state' where politics was reduced to a battle for control over oil revenues. When oil prices were high, the state could maintain a social contract; when they collapsed in the 2010s, the entire system imploded. The current crisis is not a failure of one ideology, but the predictable, catastrophic failure of the neocolonial petro-state model itself, a structure that is inherently unstable and unsustainable.",
+    "hybridWarfareAndCoerciveMeasures": "While internal factors triggered the crisis, its severity has been deliberately and massively amplified by the United States' policy of 'maximum pressure'. Crippling economic sanctions imposed since 2017 function as a form of hybrid warfare, targeting the entire economy to achieve regime change. These coercive measures have blocked the country's access to international financial markets, prevented the import of food, medicine, and essential equipment, and are directly responsible for tens of thousands of civilian deaths, constituting a form of collective punishment [CEPR, 2019]."
+  },
+  "humanitarianImpact": {
+    "displaced": "Over 7.7 million Venezuelans have left the country, creating the largest refugee and migrant crisis in the recent history of the Americas [R4V Platform, 2025].",
+    "refugees": "The vast majority of those who have fled remain in Latin American and Caribbean countries, placing immense strain on the region.",
+    "casualties": "While conflict casualties are low compared to other crises, excess mortality from the collapse of the health system and malnutrition is vast. US sanctions were estimated to have caused more than 40,000 deaths between 2017-2018 alone [CEPR, 2019].",
+    "affected": "An estimated 19 million people inside Venezuela have urgent humanitarian needs, with the healthcare system in a state of collapse and millions facing severe food insecurity [Humanitarian Response Plan, 2025]."
+  },
+  "timeline": [
+    {
+      "year": "c. 1922",
+      "event": "**Oil Discovery**: Major petroleum discoveries transform Venezuela into a leading global oil exporter, cementing its status as a 'petro-state'."
+    },
+    {
+      "year": "1989",
+      "event": "**The 'Caracazo'**: Hundreds are killed in riots against IMF-backed neoliberal austerity measures, shattering the illusion of petro-state stability."
+    },
+    {
+      "year": "1998",
+      "event": "**Chávez Elected**: Hugo Chávez wins the presidency, initiating the 'Bolivarian Revolution' which uses high oil prices to fund extensive social programs."
+    },
+    {
+      "year": "2002",
+      "event": "**US-Backed Coup Attempt**: A short-lived coup temporarily ousts Chávez. Evidence points to US knowledge and support for the plot."
+    },
+    {
+      "year": "2013",
+      "event": "**Maduro Presidency & Oil Price Crash**: Chávez dies and Nicolás Maduro takes office just as global oil prices begin a steep and sustained decline, triggering economic crisis."
+    },
+    {
+      "year": "2017-Present",
+      "event": "**'Maximum Pressure' Sanctions**: The US imposes devastating sectoral sanctions designed to collapse Venezuela's economy, leading to a catastrophic decline in oil production and a humanitarian emergency."
+    },
+    {
+      "year": "2019",
+      "event": "**Failed 'Interim Government'**: The US and its allies recognise opposition figure Juan Guaidó as 'interim president' in a failed, multi-year effort to achieve regime change."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "MSF works inside Venezuela and in neighbouring countries like Colombia, providing essential healthcare to vulnerable Venezuelans affected by the economic collapse and displacement.",
+        "url": "https://www.msf.org/venezuela"
+      },
+      {
+        "organisation": "UNHCR",
+        "description": "The UN Refugee Agency leads the regional response, providing protection and assistance to millions of Venezuelan refugees and migrants across the Americas.",
+        "url": "https://www.unhcr.org/emergencies/venezuela-situation"
+      }
+    ],
+    "awareness": [
+      "Amplify the voices of ordinary Venezuelans to understand the human impact of the economic collapse and foreign sanctions.",
+      "Challenge simplistic, partisan narratives that ignore either the failures of the government or the devastating role of US sanctions in the humanitarian crisis.",
+      "Educate your community that broad economic sanctions are a form of collective punishment that disproportionately harms the most vulnerable civilians."
+    ],
+    "advocacy": [
+      "Demand the immediate and unconditional lifting of US and European economic sanctions that are crippling the country and preventing economic recovery.",
+      "Call for the protection of the rights of all Venezuelan refugees and migrants, and an end to xenophobic border policies.",
+      "Support a negotiated, inclusive political solution to the crisis that is led by Venezuelans and is free from external imposition.",
+      "Lobby for the release of Venezuela's frozen assets held in foreign banks to be used for humanitarian imports like food, medicine, and infrastructure repair."
+    ]
+  }
+}

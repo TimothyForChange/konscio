@@ -1,0 +1,88 @@
+{
+  "name": "Somalia",
+  "emoji": "🇸🇴",
+  "ariaLabel": "Somali flag",
+  "currentCrisisSummary": "Somalia is caught in a convergence of catastrophic crises: a protracted civil war, a resilient al-Shabaab insurgency, and a devastating cycle of climate-driven droughts and floods. This perfect storm has led to a near-permanent state of humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises [UN OCHA, 2025].",
+  "colonialRoot": {
+    "colonialPower": "Britain & Italy",
+    "legacy": "The crisis is a direct legacy of the colonial partition of the Somali nation. In the 'Scramble for Africa', Britain and Italy (along with France) carved up a culturally and linguistically homogenous people into five separate territories, shattering its social and economic fabric. The artificial borders and the hasty, ill-planned merger of the British and Italian colonies at independence in 1960 created a dysfunctional state from its inception [I.M. Lewis, 'A Modern History of the Somali', 2002]. This colonial vivisection and the failure to address the 'national question' of a divided people created the deep-seated grievances that have fuelled decades of conflict."
+  },
+  "coreTerms": {
+    "theFragmentedState": "The state's implosion in 1991 was a direct result of its colonial creation being supercharged by the Cold War. The Siad Barre dictatorship was armed and propped up first by the Soviet Union and then the United States, who used Somalia as a geopolitical pawn. This external support for a hyper-centralised, violent state crushed organic political development. After its collapse, foreign interventions—from the failed US-led UN mission in the 1990s to the modern 'war on terror' framework—have often exacerbated fragmentation, prioritising counter-terrorism over a genuine, Somali-led process of national reconciliation and state-building.",
+    "climateCatastropheAndPermanentCrisis": "Somalia is a ground-zero for climate injustice. Despite having negligible carbon emissions, it is suffering from record-breaking droughts and catastrophic floods driven by the climate crisis created by the Global North. This ecological collapse has decimated pastoral and agricultural livelihoods, acting as a primary driver of mass displacement and a powerful recruitment tool for armed groups like al-Shabaab, which exploits the resulting desperation. Climate change has transformed a political crisis into a permanent, self-perpetuating humanitarian catastrophe, where cycles of famine are now a predictable feature."
+  },
+  "humanitarianImpact": {
+    "displaced": "Nearly 4 million people are internally displaced by conflict and climate shocks [UNHCR, 2025].",
+    "refugees": "Over 1 million Somalis live as refugees and asylum-seekers, primarily in neighbouring Kenya, Ethiopia, and Yemen [UNHCR, O2025].",
+    "casualties": "While no definitive figure exists for the entire civil war, an estimated 500,000 people have died from violent conflict-related causes since 1991. The 2011 famine alone killed an estimated 260,000 people [UN/USAID, 2013].",
+    "affected": "An estimated 8.3 million people require life-saving humanitarian assistance, with over 6.6 million facing acute food insecurity [UN OCHA, 2025]."
+  },
+  "timeline": [
+    {
+      "year": "c. 1880s",
+      "event": "**Colonial Partition**: Britain, Italy, and France carve up the Somali-inhabited lands, creating five separate colonial territories."
+    },
+    {
+      "year": "1960",
+      "event": "**Independence & Unification**: The former British and Italian Somalilands unite to form the Somali Republic. The other three territories remain under foreign rule."
+    },
+    {
+      "year": "1969",
+      "event": "**Siad Barre's Coup**: General Siad Barre seizes power in a military coup, establishing a dictatorship aligned with the Soviet Union."
+    },
+    {
+      "year": "1977-1978",
+      "event": "**Ogaden War**: Somalia's attempt to reclaim the Somali-inhabited Ogaden region from Ethiopia ends in defeat, prompting Barre to switch allegiance from the USSR to the United States."
+    },
+    {
+      "year": "1991",
+      "event": "**State Collapse**: Barre's regime is overthrown by a coalition of clan-based rebel groups. The state disintegrates, plunging the country into a devastating civil war."
+    },
+    {
+      "year": "1992-1995",
+      "event": "**US/UN Intervention**: A US-led UN humanitarian intervention ('Operation Restore Hope') ends in failure and withdrawal after the 'Black Hawk Down' battle in Mogadishu."
+    },
+    {
+      "year": "2006-Present",
+      "event": "**Rise of Al-Shabaab**: The extremist group al-Shabaab emerges from the Islamic Courts Union, becoming the dominant insurgency and waging a brutal war against the internationally-backed government."
+    },
+    {
+      "year": "2011",
+      "event": "**Catastrophic Famine**: A devastating famine, exacerbated by conflict and drought, kills a quarter of a million people."
+    },
+    {
+      "year": "2022-Present",
+      "event": "**Climate Extremes**: The country suffers its worst drought in 40 years, followed by catastrophic floods, pushing millions to the brink of starvation."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Adeso Africa",
+        "description": "A Somali-led humanitarian and development organisation that provides direct cash assistance and advocates for decolonising the aid system.",
+        "url": "https://adesoafrica.org"
+      },
+      {
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "In Somalia, MSF provides essential medical care in a country with one of the world's highest mortality rates, running hospitals and clinics in conflict-affected and remote areas.",
+        "url": "https://www.msf.org/somalia"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
+        "description": "The UN's frontline agency providing emergency food and nutrition support to millions displaced by conflict and recurring climate shocks.",
+        "url": "https://www.wfp.org/emergencies/somalia-emergency"
+      }
+    ],
+    "awareness": [
+      "Amplify the voices of Somali peacebuilders, journalists, and diaspora communities who are leading recovery and reconciliation efforts.",
+      "Challenge the simplistic 'failed state' narrative. Frame the crisis as a product of colonial partition, Cold War manipulation, and extreme climate injustice.",
+      "Educate your community on how the climate crisis, driven by the Global North, is a primary cause of famine and conflict in Somalia."
+    ],
+    "advocacy": [
+      "Demand wealthy nations pay their climate debt by financing a Loss and Damage fund to support Somali communities devastated by climate change.",
+      "Advocate for a decolonisation of aid, calling on international donors to channel more funding directly through local Somali organisations.",
+      "Call for a shift away from purely militaristic 'counter-terrorism' strategies towards investment in Somali-led peace and state-building initiatives.",
+      "Support a comprehensive UN arms embargo to reduce the flow of weapons that fuels the conflict."
+    ]
+  }
+}

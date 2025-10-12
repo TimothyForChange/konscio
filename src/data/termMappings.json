@@ -62,5 +62,13 @@
   "papua-new-guinea": {
     "theUnseenStateCollapse": "The Unseen State Collapse",
     "extractiveViolenceAndResourceWars": "Extractive Violence & Resource Wars"
+  },
+  "venezuela": {
+    "theOilCurseAndPetroStateCollapse": "The Oil Curse & Petro-State Collapse",
+    "hybridWarfareAndCoerciveMeasures": "Hybrid Warfare & Coercive Measures"
+  },
+  "somalia": {
+    "theFragmentedState": "The Fragmented State",
+    "climateCatastropheAndPermanentCrisis": "Climate Catastrophe & Permanent Crisis"
   }
 }

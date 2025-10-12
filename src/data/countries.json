@@ -77,6 +77,13 @@
     "category": "Insurgency & Resource Conflict"
   },
   {
+    "name": "Somalia",
+    "slug": "somalia",
+    "flag": "🇸🇴",
+    "description": "Protracted civil war, al-Shabaab insurgency, and catastrophic climate-driven famine",
+    "category": "State Collapse & Civil War"
+  },
+  {
     "name": "South Sudan",
     "slug": "south-sudan",
     "flag": "🇸🇸",
@@ -103,6 +110,13 @@
     "flag": "🇺🇦",
     "description": "Russian invasion and systematic infrastructure destruction",
     "category": "Systematic Persecution & Invasion"
+  },
+  {
+    "name": "Venezuela",
+    "slug": "venezuela",
+    "flag": "🇻🇪",
+    "description": "Catastrophic economic collapse and the largest refugee crisis in the Americas",
+    "category": "Post-Conflict & Economic Collapse"
   },
   {
     "name": "Yemen",
