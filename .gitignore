@@ -25,6 +25,3 @@ pnpm-debug.log*
 
 # eslint cache
 .eslintcache
-
-# link checker cache (generated, ephemeral)
-.link-check-cache.json
