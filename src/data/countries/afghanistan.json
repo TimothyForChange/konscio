@@ -14,7 +14,7 @@
   "humanitarianImpact": {
     "displaced": "An estimated 5.7 million people are internally displaced due to decades of conflict and recent crises [UN OCHA, 2025].",
     "refugees": "There are over 8.2 million Afghans hosted abroad, primarily in neighbouring Pakistan and Iran, comprising one of the largest protracted refugee situations in the world [UNHCR, 2025].",
-    "casualties": "Hundreds of thousands of people have been killed in the conflict since 2001, including over 70,000 civilians. The post-2021 economic collapse is now driving excess deaths from starvation and disease [Costs of War Project, Brown University].",
+    "casualties": "Hundreds of thousands of people have been killed in the conflict since 2001, including over 70,000 civilians. The post-2021 economic collapse is now driving excess deaths from starvation and disease.",
     "affected": "An estimated 23.7 million people—more than half the population—require urgent humanitarian assistance to survive, with millions on the brink of famine [UN OCHA, 2025]."
   },
   "timeline": [
@@ -23,8 +23,20 @@
       "event": "**The Great Game**: A century of imperial rivalry between Britain and Russia sees three Anglo-Afghan wars as Britain seeks to create a buffer state to protect its Indian empire."
     },
     {
+      "year": "1919-1929",
+      "event": "**Independence & Failed Modernisation**: King Amanullah Khan wins full independence from Britain after the Third Anglo-Afghan War. His radical attempts to modernise and centralise the state trigger a conservative backlash, allegedly stoked by Britain, leading to his overthrow."
+    },
+    {
+      "year": "1953-1973",
+      "event": "**The Cold War Pawn**: Afghanistan becomes a key Cold War battleground. The US and USSR compete for influence by funding massive infrastructure and military projects, creating a dependent state and embedding superpower rivalry into Afghan politics."
+    },
+    {
+      "year": "1978",
+      "event": "**The Saur Revolution**: A Soviet-backed communist party (the PDPA) seizes power in a violent coup. Its brutal and unpopular reforms spark a nationwide anti-communist uprising, setting the stage for the Soviet invasion."
+    },
+    {
       "year": "1979",
-      "event": "**Soviet Invasion**: The USSR invades to prop up a pro-Soviet government, beginning a brutal decade-long occupation."
+      "event": "**Soviet Invasion**: The USSR invades to prop up the collapsing PDPA government, beginning a brutal decade-long occupation."
     },
     {
       "year": "1979-1989",

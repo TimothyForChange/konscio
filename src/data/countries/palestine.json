@@ -14,7 +14,7 @@
   "humanitarianImpact": {
     "displaced": "Over 1.9 million internally displaced in Gaza (nearly 85% of the population), plus ongoing displacement in the West Bank, including East Jerusalem [UN OCHA, 2024].",
     "refugees": "5.9 million registered Palestinian refugees (UNRWA), descendants of those displaced since 1948 [UNRWA, 2024].",
-    "casualties": "Over 67,000 killed in Gaza since October 2023, with thousands more missing, presumed dead under the rubble [Gaza Ministry of Health, 2024; verified by UN and international agencies].",
+    "casualties": "Over 67,000 killed in Gaza since October 2023, with thousands more missing, presumed dead under the rubble [Gaza Ministry of Health, 2024] (verified by UN and international agencies).",
     "affected": "Gaza's entire population of 2.3 million faces a catastrophic humanitarian crisis, including engineered famine and the systematic dismantling of its healthcare system [UN OCHA; Integrated Food Security Phase Classification, 2024]."
   },
   "timeline": [
@@ -48,7 +48,7 @@
     },
     {
       "year": "2007-Present",
-      "event": "**Gaza Blockade**: Israel imposes a devastating land, air, and sea siege on the Gaza Strip, which the UN describes as 'collective punishment' illegal under international law [UN OHCHR]."
+      "event": "**Gaza Blockade**: Israel imposes a devastating land, air, and sea siege on the Gaza Strip, which the UN describes as 'collective punishment' illegal under international law."
     },
     {
       "year": "2018-2019",
