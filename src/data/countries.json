@@ -3,7 +3,7 @@
     "name": "DRC",
     "slug": "drc",
     "flag": "🇨🇩",
-    "description": "Deadliest conflict since WWII fueled by tech industry minerals"
+    "description": "Deadliest conflict since WWII fuelled by tech industry minerals"
   },
   {
     "name": "Ethiopia",
@@ -27,13 +27,13 @@
     "name": "Mozambique",
     "slug": "mozambique",
     "flag": "🇲🇿",
-    "description": "Resource-driven violence in Cabo Delgado, displacement, and foreign corporate complicity"
+    "description": "Jihadist insurgency in Cabo Delgado, fuelled by gas revenues and vast inequality."
   },
   {
     "name": "Nigeria",
     "slug": "nigeria",
     "flag": "🇳🇬",
-    "description": "Multiple overlapping humanitarian crises and resource-driven conflict"
+    "description": "Jihadist insurgency, widespread banditry, and spiralling resource conflicts."
   },
   {
     "name": "Palestine",
@@ -57,7 +57,7 @@
     "name": "Syria",
     "slug": "syria",
     "flag": "🇸🇾",
-    "description": "Civil war, regime collapse, and humanitarian crisis"
+    "description": "Protracted civil war, state fragmentation, and a catastrophic humanitarian crisis."
   },
   {
     "name": "Sahel",
@@ -75,6 +75,6 @@
     "name": "Yemen",
     "slug": "yemen",
     "flag": "🇾🇪",
-    "description": "Decade-long crisis with Saudi-led blockade and famine"
+    "description": "Civil war intensified by a Saudi-led blockade, creating one of the world's worst humanitarian crises."
   }
 ]

@@ -20,8 +20,8 @@
 
 ## Astro Component & Rendering Protocol
 
-- PRIMARY COMPONENT TYPE: All new or edited components MUST be Astro components with the .astro file extension.
-- NO JSX/REACT: This is a PURE ASTRO PROJECT. DO NOT use or suggest JSX, React, or any other UI framework components (.jsx, .tsx, .vue, .svelte) unless the task is explicitly to add a small, interactive island. Focus on server-side rendering to static HTML.
+- Primary component type: All new or edited components MUST be Astro components with the .astro file extension.
+- No JSX/React: This is a PURE ASTRO PROJECT. DO NOT use or suggest JSX, React, or any other UI framework components (.jsx, .tsx, .vue, .svelte) unless the task is explicitly to add a small, interactive island. Focus on server-side rendering to static HTML.
 - Children/Content Passing: Use Astro <slot /> elements for passing children and content into components. DO NOT use `props.children` or a JSX-style approach.
 
 ---

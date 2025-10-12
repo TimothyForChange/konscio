@@ -1,4 +1,4 @@
-# QWEN.md
+# AGENTS.md
 
 ## Project Context
 
