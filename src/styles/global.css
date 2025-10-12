@@ -12,7 +12,7 @@
   --text-secondary: #483a28;
   --text-muted: #5c4a35;
   --focus-ring: #8b6914;
-  --focus-ring-soft: rgba(139, 105, 20, 0.35);
+  --focus-ring-soft: rgb(139 105 20 / 35%);
   --scrollbar-size: 10px;
   --scrollbar-track-bg: var(--bg-alt);
   --scrollbar-track-border: var(--bg-alt);
@@ -30,6 +30,15 @@
   --scrollbar-corner-bg: var(--bg-alt);
   --section-gap: 2rem;
   --heading-gap: 1rem;
+  --container-max-width: 800px;
+  --grid-max-width: 600px;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --shadow-sm: 0 1.5px 6px rgb(0 0 0 / 8%);
+  --shadow-md: 0 4px 12px rgb(0 0 0 / 12%);
+  --card-radius: 8px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,8 +56,7 @@
     --text-secondary: #c4b59f;
     --text-muted: #9c8c73;
     --focus-ring: #d4b570;
-    --focus-ring-soft: rgba(212, 181, 112, 0.4);
-
+    --focus-ring-soft: rgb(212 181 112 / 40%);
     --scrollbar-thumb-bg: color-mix(
       in srgb,
       var(--accent-secondary) 55%,
@@ -71,7 +79,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
-  src: url(@fontsource-variable/geist/files/geist-latin-wght-normal.woff2)
+  src: url('@fontsource-variable/geist/files/geist-latin-wght-normal.woff2')
     format('woff2-variations');
   unicode-range:
     U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
@@ -79,7 +87,7 @@
     U+2215, U+FEFF, U+FFFD;
 }
 
-@media (min-width: 1024px) {
+@media (width >= 1024px) {
   :root {
     --scrollbar-size: 12px;
   }
@@ -96,10 +104,7 @@ html {
     Roboto,
     'Helvetica Neue',
     Arial,
-    sans-serif,
-    'Apple Color Emoji',
-    'Segoe UI Emoji',
-    'Noto Color Emoji';
+    sans-serif;
   background: var(--bg);
   color: var(--text-primary);
   overflow-x: hidden;
@@ -168,10 +173,12 @@ html::-webkit-scrollbar {
   width: var(--scrollbar-size);
   height: var(--scrollbar-size);
 }
+
 html::-webkit-scrollbar-track {
   background: var(--scrollbar-track-bg);
   border-left: 1px solid var(--scrollbar-track-border);
 }
+
 html::-webkit-scrollbar-thumb {
   background: var(--scrollbar-thumb-bg);
   border-radius: 999px;
@@ -179,23 +186,22 @@ html::-webkit-scrollbar-thumb {
   box-shadow: 0 0 0 1px var(--border) inset;
   transition: background-color 0.2s ease;
 }
+
 html::-webkit-scrollbar-thumb:hover {
   background: var(--scrollbar-thumb-bg-hover);
 }
+
 html:focus-within::-webkit-scrollbar-thumb {
   box-shadow:
     0 0 0 1px var(--accent-primary) inset,
     0 0 0 3px color-mix(in srgb, var(--accent-primary) 40%, transparent);
 }
+
 html::-webkit-scrollbar-corner {
   background: var(--scrollbar-corner-bg);
 }
 
-.page-wrapper {
-  overflow: visible;
-}
-
-@media (min-width: 768px) {
+@media (width >= 768px) {
   .page-wrapper {
     padding: 0 20px;
   }
@@ -215,11 +221,12 @@ html::-webkit-scrollbar-corner {
   background: var(--accent-primary);
   color: var(--on-accent);
   padding: 0.5rem 0.75rem;
-  border-radius: 0 0 6px 0;
+  border-radius: 0 0 6px;
   z-index: 9999;
   text-decoration: none;
   font-weight: 600;
 }
+
 .skip-link:focus {
   transform: translateY(0%);
   outline: 3px solid var(--focus-ring);
@@ -231,7 +238,7 @@ html::-webkit-scrollbar-corner {
   height: 1px;
   width: 1px;
   overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
   white-space: nowrap;
 }
 
@@ -254,24 +261,28 @@ cite {
   font-size: 0.95em;
   line-height: inherit;
 }
+
 cite.bracketed {
   display: inline;
 }
+
 cite.bracketed::before,
 cite.bracketed::after {
   color: var(--text-muted);
   font-weight: 400;
 }
+
 cite.bracketed::before {
   content: '[';
   margin-right: 0.15em;
 }
+
 cite.bracketed::after {
   content: ']';
   margin-left: 0.15em;
 }
 
-@media (min-width: 769px) {
+@media (width >= 768px) {
   .section-heading {
     font-size: 1.5rem;
   }

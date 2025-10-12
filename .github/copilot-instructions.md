@@ -35,6 +35,7 @@
 - Formatting & Tooling:
   - Package Manager: Always use npm.
   - Formatting: Strictly adhere to Prettier for all code formatting.
+  - Linting: We use Oxlint for repository-wide linting and Stylelint to lint CSS and .astro embedded styles.
 - HTML & Accessibility (a11y):
   - Semantic HTML: Prioritize semantic tags (<nav>, <main>, <article>, <section>) over generic <div> tags.
   - Accessibility: Ensure all code follows a11y best practices (e.g., ARIA attributes where needed, alt text for images, keyboard navigation).

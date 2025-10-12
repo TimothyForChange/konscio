@@ -45,7 +45,7 @@ const { year, event } = Astro.props as TimelineItemProps;
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 1rem 1.25rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 5%);
   }
 
   .timeline-year {
@@ -62,37 +62,27 @@ const { year, event } = Astro.props as TimelineItemProps;
     line-height: 1.6;
     font-size: 0.9rem;
   }
-  .timeline-event :global(strong) {
+
+  .timeline-event strong {
     color: var(--text-primary);
     font-weight: 600;
   }
-  .timeline-item::before {
-    left: -1.875rem;
-    width: 10px;
-    height: 10px;
-  }
-  .timeline-content {
-    padding: 0.875rem 1rem;
-  }
-  .timeline-year {
-    font-size: 0.8rem;
-  }
-  .timeline-event {
-    font-size: 0.85rem;
-  }
 
-  @media (min-width: 769px) {
+  @media (width >= 768px) {
     .timeline-item::before {
       left: -2.375rem;
       width: 12px;
       height: 12px;
     }
+
     .timeline-content {
       padding: 1rem 1.25rem;
     }
+
     .timeline-year {
       font-size: 0.875rem;
     }
+
     .timeline-event {
       font-size: 0.9rem;
     }

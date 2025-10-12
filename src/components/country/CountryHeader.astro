@@ -37,11 +37,11 @@ const flagInfo = await getCountryMetadata(countrySlug ?? '');
     font-size: 2rem;
     font-weight: 700;
     color: var(--text-primary);
-    margin: 0 0 calc(var(--heading-gap) * 1.25) 0;
+    margin: 0 0 calc(var(--heading-gap) * 1.25);
     line-height: 1.05;
   }
 
-  @media (min-width: 769px) {
+  @media (width >= 768px) {
     .country-title {
       font-size: 2.5rem;
     }

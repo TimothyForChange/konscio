@@ -92,7 +92,7 @@ const canonicalUrl = `https://timothyforchange.co.za/${safeName.toLowerCase()}`;
 
 <style>
   .country-page {
-    max-width: 800px;
+    max-width: var(--container-max-width);
     margin: 0 auto;
     padding: 1rem;
   }
@@ -100,7 +100,7 @@ const canonicalUrl = `https://timothyforchange.co.za/${safeName.toLowerCase()}`;
   .country-bottom-back {
     display: flex;
     justify-content: center;
-    margin: 1.25rem 0 0.5rem 0;
+    margin: 1.25rem 0 0.5rem;
   }
 
   .country-page p {
@@ -109,10 +109,11 @@ const canonicalUrl = `https://timothyforchange.co.za/${safeName.toLowerCase()}`;
     margin-bottom: 1rem;
   }
 
-  @media (min-width: 769px) {
+  @media (width >= 768px) {
     .country-page {
       padding: 1.5rem;
     }
+
     .country-title {
       font-size: 2rem;
       display: flex;
@@ -120,6 +121,7 @@ const canonicalUrl = `https://timothyforchange.co.za/${safeName.toLowerCase()}`;
       align-items: center;
       gap: 1rem;
     }
+
     .country-flag {
       font-size: 1.5rem;
     }

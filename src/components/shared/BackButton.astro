@@ -35,7 +35,6 @@ const { href = '/', class: className = '' } = Astro.props;
   }
 
   .back-button:hover {
-    color: var(--text-primary);
     background-color: var(--accent-primary);
     color: var(--on-accent);
     border-color: var(--accent-primary);
@@ -49,7 +48,6 @@ const { href = '/', class: className = '' } = Astro.props;
     transform: scale(0.95) translateY(0);
     transition:
       background-color 0.1s ease,
-      color 0.1s ease,
       transform 0.1s ease;
   }
 
@@ -60,12 +58,14 @@ const { href = '/', class: className = '' } = Astro.props;
       min-width: 48px;
       border-radius: 10px;
     }
+
     .back-button:hover {
       background-color: var(--bg-surface);
       color: var(--text-secondary);
       border-color: var(--border);
       transform: none;
     }
+
     .back-button:active {
       background-color: var(--accent-primary);
       color: var(--on-accent);
@@ -74,7 +74,7 @@ const { href = '/', class: className = '' } = Astro.props;
     }
   }
 
-  @media (min-width: 769px) {
+  @media (width >= 768px) {
     .back-button {
       padding: 10px 14px;
       min-height: 44px;

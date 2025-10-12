@@ -91,13 +91,16 @@ if (!takeAction) {
   .action-group h3 {
     display: flex;
     align-items: center;
-
     gap: 0.5rem;
     font-size: 1.25rem;
     font-weight: 600;
     color: var(--text-primary);
     margin-bottom: var(--heading-gap);
     margin-top: 0;
+  }
+
+  .donate-link i {
+    font-size: 1rem;
   }
 
   .action-group h3 i {
@@ -121,8 +124,7 @@ if (!takeAction) {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--text-primary);
-
-    margin: 0 0 calc(var(--heading-gap) / 2) 0;
+    margin: 0 0 calc(var(--heading-gap) / 2);
   }
 
   .org-item p {
@@ -153,16 +155,12 @@ if (!takeAction) {
   .donate-link:hover {
     background: var(--accent-secondary);
     transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
   }
 
   .donate-link:active {
     transform: scale(0.95);
     transition: transform 0.1s ease;
-  }
-
-  .donate-link i {
-    font-size: 1rem;
   }
 
   .awareness-list,
@@ -182,7 +180,7 @@ if (!takeAction) {
     line-height: 1.5;
   }
 
-  @media (min-width: 769px) {
+  @media (width >= 768px) {
     .action-section {
       padding: calc(var(--section-gap) + 0.25rem);
       margin-bottom: calc(var(--section-gap) + 0.25rem);
@@ -212,6 +210,27 @@ if (!takeAction) {
     .donate-link:active {
       background: var(--accent-tertiary);
       transform: scale(0.95);
+    }
+  }
+
+  @media (width >= 768px) {
+    .action-section {
+      padding: calc(var(--section-gap) + 0.25rem);
+      margin-bottom: calc(var(--section-gap) + 0.25rem);
+    }
+
+    .org-item {
+      padding: calc(var(--heading-gap) * 1.1);
+    }
+
+    .donate-link {
+      padding: 0.75rem 1.25rem;
+      font-size: 0.95rem;
+      min-height: 44px;
+    }
+
+    .action-card {
+      padding: 1rem;
     }
   }
 

@@ -72,9 +72,9 @@ if (!humanitarianImpact) {
   }
 
   .humanitarian-disclaimer {
-    margin: 0.6rem 0 0 0;
+    margin: 0.6rem 0 0;
     font-size: 0.88rem;
-    color: var(--text-muted, #9a9a9a);
+    color: var(--text-muted);
     font-style: italic;
     line-height: 1.2;
     padding-top: 0.25rem;
@@ -92,19 +92,22 @@ if (!humanitarianImpact) {
     letter-spacing: 0.5px;
   }
 
-  @media (min-width: 769px) {
+  @media (width >= 768px) {
     .humanitarian-section {
       padding: calc(var(--section-gap) + 0.25rem)
         calc(var(--section-gap) + 0.25rem) calc(var(--section-gap) - 0.25rem);
       margin-bottom: var(--section-gap);
     }
+
     .impact-stats {
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 1rem;
     }
+
     .stat-item {
       padding: 0.875rem;
     }
+
     .humanitarian-disclaimer {
       justify-content: center;
       padding-top: 0.15rem;
