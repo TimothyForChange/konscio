@@ -4,11 +4,13 @@ export interface CountryCardProps {
   name: string;
   flag?: string;
   description?: string;
+  category?: string;
 }
-const { slug, name, flag, description } = Astro.props as CountryCardProps;
+const { slug, name, flag, description, category } =
+  Astro.props as CountryCardProps;
 ---
 
-<a href={`/${slug}`} class='country-card'>
+<a href={`/${slug}`} class='country-card' data-category={category}>
   <span class='country-flag' aria-hidden='true'>{flag}</span>
   <span class='visually-hidden'>Flag of {name}</span>
   <div class='country-info'>

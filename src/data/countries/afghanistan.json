@@ -1,0 +1,85 @@
+{
+  "name": "Afghanistan",
+  "emoji": "🇦🇫",
+  "ariaLabel": "Afghanistan flag",
+  "currentCrisisSummary": "Following the chaotic US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. This is not simply a consequence of the new regime, but a direct result of a US-led economic war. The freezing of Afghanistan's central bank assets and crippling sanctions have deliberately induced a famine, collapsed the healthcare system, and erased two decades of fragile gains, particularly for women and girls, who face a systematic gender apartheid [UN Special Rapporteurs, 2023].",
+  "colonialRoot": {
+    "colonialPower": "British Empire, Russian Empire, Soviet Union & United States",
+    "legacy": "Afghanistan's tragedy is a product of being treated as a strategic chessboard for imperial powers for over two centuries. The 19th-century Anglo-Russian 'Great Game' carved up the region and established a pattern of foreign interference that destroyed indigenous political development. This imperial dynamic was supercharged during the Cold War, when the US and USSR turned Afghanistan into their proxy battleground. The CIA's Operation Cyclone armed and funded the Mujahideen to bleed the Soviets [Steve Coll, 'Ghost Wars', 2004], deliberately fostering a radicalised militancy and shattering the Afghan state, leaving it perfectly primed for decades of perpetual conflict."
+  },
+  "coreTerms": {
+    "theGraveyardOfEmpiresMyth": "This colonial moniker is a self-serving imperial myth. It deceptively frames Afghanistan as an inherently chaotic and ungovernable land, obscuring the truth that it is the empires themselves that do the grave-digging. Each invasion—British, Soviet, American—systematically destroyed local institutions, armed factional clients, and obliterated social cohesion. The invaders then cite the resulting chaos, which they manufactured, as proof of Afghan backwardness, thus absolving themselves of their role as the primary architects of the nation's destruction.",
+    "humanitarianBlackmailAndEconomicWarfare": "The current famine is not a natural disaster; it is a political choice. After their military defeat, the US and its allies weaponised the global financial system to wage economic war. By freezing $7 billion of Afghanistan's own sovereign wealth and enforcing a punitive sanctions regime, they have effectively held 40 million Afghan civilians hostage [Center for Economic and Policy Research, 2022]. This constitutes collective punishment on a mass scale, using the manufactured suffering of ordinary people as a tool of geopolitical leverage against the Taliban regime."
+  },
+  "humanitarianImpact": {
+    "displaced": "An estimated 5.7 million people are internally displaced due to decades of conflict and recent crises [UN OCHA, 2025].",
+    "refugees": "There are over 8.2 million Afghans hosted abroad, primarily in neighbouring Pakistan and Iran, comprising one of the largest protracted refugee situations in the world [UNHCR, 2025].",
+    "casualties": "Hundreds of thousands of people have been killed in the conflict since 2001, including over 70,000 civilians. The post-2021 economic collapse is now driving excess deaths from starvation and disease [Costs of War Project, Brown University].",
+    "affected": "An estimated 23.7 million people—more than half the population—require urgent humanitarian assistance to survive, with millions on the brink of famine [UN OCHA, 2025]."
+  },
+  "timeline": [
+    {
+      "year": "1839-1919",
+      "event": "**The Great Game**: A century of imperial rivalry between Britain and Russia sees three Anglo-Afghan wars as Britain seeks to create a buffer state to protect its Indian empire."
+    },
+    {
+      "year": "1979",
+      "event": "**Soviet Invasion**: The USSR invades to prop up a pro-Soviet government, beginning a brutal decade-long occupation."
+    },
+    {
+      "year": "1979-1989",
+      "event": "**US Proxy War**: The CIA launches 'Operation Cyclone', one of its largest covert operations, funnelling billions to arm and train Mujahideen fighters to fight the Soviets, fuelling radicalisation."
+    },
+    {
+      "year": "1996",
+      "event": "**First Taliban Rule**: Emerging from the civil war that followed the Soviet withdrawal, the Taliban seize control of Kabul and impose their rule."
+    },
+    {
+      "year": "2001",
+      "event": "**US Invasion**: Following the 9/11 attacks, the US invades Afghanistan, topples the Taliban, and begins a 20-year nation-building project and military occupation."
+    },
+    {
+      "year": "2021",
+      "event": "**US Withdrawal & Taliban Takeover**: The US withdraws in a chaotic exit, leading to the collapse of the US-backed government and the Taliban's return to power."
+    },
+    {
+      "year": "2021-Present",
+      "event": "**Economic Warfare**: The US freezes Afghanistan's $7 billion in foreign reserves, and international sanctions trigger a catastrophic economic collapse and humanitarian crisis [Human Rights Watch, 2022]."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Afghanaid",
+        "description": "A British humanitarian and development organisation that works with millions of deprived and excluded families in some of the poorest and most remote communities in Afghanistan.",
+        "url": "https://www.afghanaid.org.uk"
+      },
+      {
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "MSF remains one of the few international organisations providing essential free medical care, including maternal health, malnutrition treatment, and emergency surgery, across several provinces.",
+        "url": "https://www.msf.org/afghanistan"
+      },
+      {
+        "organisation": "UNHCR",
+        "description": "The UN Refugee Agency provides protection and assistance to the millions of displaced Afghans inside the country and the millions more living as refugees in the region.",
+        "url": "https://www.unhcr.org/emergencies/afghanistan-emergency"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
+        "description": "The UN's frontline agency fighting the hunger crisis, providing emergency food assistance to millions of Afghans pushed into famine by the economic collapse.",
+        "url": "https://www.wfp.org/emergencies/afghanistan"
+      }
+    ],
+    "awareness": [
+      "Amplify the voices of Afghan women, journalists, and artists resisting the Taliban's gender apartheid and cultural erasure.",
+      "Educate your community on the politics of famine: show how the freezing of assets and sanctions are forms of economic warfare targeting civilians.",
+      "Deconstruct the 'Graveyard of Empires' myth, reframing the narrative to focus on the culpability of imperial invaders for the country's destruction."
+    ],
+    "advocacy": [
+      "Demand your government lobby for the unfreezing of Afghanistan's sovereign assets, to be managed by a transparent trust for the direct benefit of the Afghan people.",
+      "Pressure elected officials to dismantle the sanctions regime that collectively punishes millions and obstructs vital humanitarian aid.",
+      "Support campaigns for the creation of safe and legal pathways for Afghan refugees fleeing persecution.",
+      "Back calls for international legal action to hold all parties accountable for war crimes committed during the 20-year occupation."
+    ]
+  }
+}

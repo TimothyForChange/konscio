@@ -1,86 +1,114 @@
 [
   {
+    "name": "Afghanistan",
+    "slug": "afghanistan",
+    "flag": "🇦🇫",
+    "description": "Economic collapse, widespread famine, and systematic gender apartheid",
+    "category": "Systematic Persecution & Invasion"
+  },
+  {
     "name": "CAR",
     "slug": "car",
     "flag": "🇨🇫",
-    "description": "Violent state collapse, foreign mercenary influence, and resource-driven exploitation"
+    "description": "Violent state collapse, foreign mercenary influence, and resource-driven exploitation",
+    "category": "Insurgency & Resource Conflict"
   },
   {
     "name": "DRC",
     "slug": "drc",
     "flag": "🇨🇩",
-    "description": "Deadliest conflict since WWII fuelled by tech industry minerals"
+    "description": "Deadliest conflict since WWII fuelled by tech industry minerals",
+    "category": "Insurgency & Resource Conflict"
   },
   {
     "name": "Ethiopia",
     "slug": "ethiopia",
     "flag": "🇪🇹",
-    "description": "Post-war devastation and engineered famine in Tigray"
+    "description": "Post-war devastation and engineered famine in Tigray",
+    "category": "Post-Conflict & Economic Collapse"
   },
   {
     "name": "Haiti",
     "slug": "haiti",
     "flag": "🇭🇹",
-    "description": "State collapse, gang violence, and colonial debt legacy"
+    "description": "State collapse, gang violence, and colonial debt legacy",
+    "category": "State Collapse & Civil War"
   },
   {
     "name": "Myanmar",
     "slug": "myanmar",
     "flag": "🇲🇲",
-    "description": "Military junta vs. nationwide revolution and genocide"
+    "description": "Military junta vs. nationwide revolution and genocide",
+    "category": "Systematic Persecution & Invasion"
   },
   {
     "name": "Mozambique",
     "slug": "mozambique",
     "flag": "🇲🇿",
-    "description": "Jihadist insurgency in Cabo Delgado, fuelled by gas revenues and vast inequality"
+    "description": "Jihadist insurgency in Cabo Delgado, fuelled by gas revenues and vast inequality",
+    "category": "Insurgency & Resource Conflict"
   },
   {
     "name": "Nigeria",
     "slug": "nigeria",
     "flag": "🇳🇬",
-    "description": "Jihadist insurgency, widespread banditry, and spiralling resource conflicts"
+    "description": "Jihadist insurgency, widespread banditry, and spiralling resource conflicts",
+    "category": "Insurgency & Resource Conflict"
   },
   {
     "name": "Palestine",
     "slug": "palestine",
     "flag": "🇵🇸",
-    "description": "Genocide in Gaza and decades of occupation"
+    "description": "Genocide in Gaza and decades of occupation",
+    "category": "Systematic Persecution & Invasion"
   },
   {
-    "name": "South Sudan",
-    "slug": "south-sudan",
-    "flag": "🇸🇸",
-    "description": "Civil war, climate disaster, and famine risk"
-  },
-  {
-    "name": "Sudan",
-    "slug": "sudan",
-    "flag": "🇸🇩",
-    "description": "Civil war, famine, and displacement crisis"
-  },
-  {
-    "name": "Syria",
-    "slug": "syria",
-    "flag": "🇸🇾",
-    "description": "Protracted civil war, state fragmentation, and a catastrophic humanitarian crisis"
+    "name": "Papua New Guinea",
+    "slug": "papua-new-guinea",
+    "flag": "🇵🇬",
+    "description": "Extreme intercommunal violence, state failure, and a hidden war in the Highlands",
+    "category": "Insurgency & Resource Conflict"
   },
   {
     "name": "Sahel",
     "slug": "sahel",
     "flag": "🇧🇫🇲🇱🇳🇪",
-    "description": "State collapse, coups, jihadist insurgencies, and a deepening climate and humanitarian emergency"
+    "description": "State collapse, coups, jihadist insurgencies, and a deepening climate and humanitarian emergency",
+    "category": "Insurgency & Resource Conflict"
+  },
+  {
+    "name": "South Sudan",
+    "slug": "south-sudan",
+    "flag": "🇸🇸",
+    "description": "Civil war, climate disaster, and famine risk",
+    "category": "State Collapse & Civil War"
+  },
+  {
+    "name": "Sudan",
+    "slug": "sudan",
+    "flag": "🇸🇩",
+    "description": "Civil war, famine, and displacement crisis",
+    "category": "State Collapse & Civil War"
+  },
+  {
+    "name": "Syria",
+    "slug": "syria",
+    "flag": "🇸🇾",
+    "description": "Protracted civil war, state fragmentation, and a catastrophic humanitarian crisis",
+    "category": "State Collapse & Civil War"
   },
   {
     "name": "Ukraine",
     "slug": "ukraine",
     "flag": "🇺🇦",
-    "description": "Russian invasion and systematic infrastructure destruction"
+    "description": "Russian invasion and systematic infrastructure destruction",
+    "category": "Systematic Persecution & Invasion"
   },
   {
     "name": "Yemen",
     "slug": "yemen",
     "flag": "🇾🇪",
-    "description": "Civil war intensified by a Saudi-led blockade, creating one of the world's worst humanitarian crises"
+    "description": "Civil war intensified by a Saudi-led blockade, creating one of the world's worst humanitarian crises",
+    "category": "State Collapse & Civil War"
   }
 ]

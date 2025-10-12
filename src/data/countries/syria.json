@@ -66,7 +66,7 @@
       {
         "organisation": "Médecins Sans Frontières (MSF)",
         "description": "In Syria, MSF supports hospitals and clinics in the northwest, providing maternal and child health, burns care, and mental health services to people displaced by 13 years of brutal civil war.",
-        "url": "https'://www.msf.org/syria"
+        "url": "https://www.msf.org/syria"
       },
       {
         "organisation": "Syrian American Medical Society (SAMS)",
@@ -75,13 +75,15 @@
       }
     ],
     "awareness": [
-      "Amplify the voices of Syrian journalists, artists, and civil society organisations working for a democratic future.",
-      "Demand unconditional humanitarian access to all regions of Syria and reject the politicisation of aid.",
-      "Challenge narratives that reduce the conflict to a simple choice between authoritarianism and extremism."
+      "Amplify the voices of Syrian journalists, artists, and civil society leaders who continue to work for a democratic and pluralistic future.",
+      "Challenge the false binary that reduces the conflict to a choice between the Assad regime and extremism, erasing the original democratic aims of the 2011 uprising.",
+      "Educate your community on the colonial roots of the conflict, showing how France's 'divide and rule' strategy manufactured the sectarian divisions that were later weaponised."
     ],
-    "boycott": [
-      "Advocate for targeted sanctions against individuals and entities from all sides responsible for war crimes and mass atrocities.",
-      "Oppose reconstruction efforts that enrich warlords and foreign powers at the expense of the Syrian people."
+    "advocacy": [
+      "Demand unconditional and unhindered humanitarian access to all communities in Syria and reject the politicisation of aid by any party.",
+      "Call for targeted sanctions against individuals and entities from all sides responsible for war crimes and the systematic destruction of the country.",
+      "Support international efforts to document atrocities and prosecute war crimes and crimes against humanity, ensuring there is no impunity for the Assad regime or any other perpetrator.",
+      "Oppose any reconstruction plans that reward war criminals, entrench demographic change, or serve the interests of foreign powers over the Syrian people."
     ]
   }
 }

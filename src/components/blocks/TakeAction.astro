@@ -12,7 +12,7 @@ export interface Props {
       url?: string;
     }>;
     awareness?: Array<string>;
-    boycott?: Array<string>;
+    advocacy?: Array<string>;
   };
 }
 
@@ -50,10 +50,10 @@ if (!takeAction) {
     </div>
   </ActionGroup>
 
-  <ActionGroup icon='ri-shield-line' title='Economic Pressure'>
-    <div class='boycott-list'>
+  <ActionGroup icon='ri-flag-line' title='Advocacy'>
+    <div class='advocacy-list'>
       {
-        (takeAction.boycott ?? []).map((action) => (
+        (takeAction.advocacy ?? []).map((action) => (
           <ActionCard content={action} />
         ))
       }
@@ -164,7 +164,7 @@ if (!takeAction) {
   }
 
   .awareness-list,
-  .boycott-list {
+  .advocacy-list {
     padding: 0;
     margin: 0;
     display: grid;

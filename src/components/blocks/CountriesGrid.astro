@@ -1,11 +1,18 @@
 ---
 import countries from '../../data/countries.json';
+import CategoryFilter from './CategoryFilter.astro';
 import CountryCard from './CountryCard.astro';
+
+const categories = [...new Set(countries.map((country) => country.category))];
+const allCategories = ['All', ...categories];
 ---
 
 <section class='causes-section'>
   <h2 class='causes-heading'>Supporting Communities In</h2>
-  <div class='countries-grid'>
+
+  <CategoryFilter categories={allCategories} activeCategory='All' />
+
+  <div class='countries-grid' id='countries-grid'>
     {
       countries.map((country, index) => (
         <CountryCard
@@ -13,6 +20,7 @@ import CountryCard from './CountryCard.astro';
           name={country.name}
           flag={country.flag}
           description={country.description}
+          category={country.category}
           href={`/${country.slug}`}
           style={`--i:${index}`}
         />
@@ -20,6 +28,40 @@ import CountryCard from './CountryCard.astro';
     }
   </div>
 </section>
+
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    function filterCountries(selectedCategory) {
+      const grid = document.getElementById('countries-grid');
+      const buttons = document.querySelectorAll('.category-btn');
+      const cards = document.querySelectorAll('.country-card');
+
+      buttons.forEach((btn) => {
+        if (btn.getAttribute('data-category') === selectedCategory) {
+          btn.classList.add('active');
+        } else {
+          btn.classList.remove('active');
+        }
+      });
+
+      cards.forEach((card) => {
+        const cardCategory = card.getAttribute('data-category');
+        if (selectedCategory === 'All' || cardCategory === selectedCategory) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    const categoryButtons = document.querySelectorAll('.category-btn');
+    categoryButtons.forEach((button) => {
+      button.addEventListener('click', function () {
+        filterCountries(this.getAttribute('data-category'));
+      });
+    });
+  });
+</script>
 
 <style>
   .causes-section {

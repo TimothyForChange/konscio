@@ -1,0 +1,70 @@
+{
+  "name": "Papua New Guinea",
+  "emoji": "🇵🇬",
+  "ariaLabel": "Papua New Guinea flag",
+  "currentCrisisSummary": "Papua New Guinea, particularly its Highlands region, is gripped by an invisible war. Extreme intercommunal violence, fuelled by a flood of modern automatic weapons, has led to a catastrophic collapse of state services and a level of brutality that goes almost entirely unnoticed by the outside world. This is not 'tribal tradition'; it is a modern conflict driven by resource competition and state failure, characterised by mass killings and some of the highest rates of gender-based and sorcery accusation-related violence on Earth [UN OHCHR, 2023].",
+  "colonialRoot": {
+    "colonialPower": "Germany, Britain & Australia",
+    "legacy": "The crisis is a direct legacy of a colonial project designed for pure extraction. After Germany and Britain divided the island, administration was passed to Australia, which treated the territory as a resource bank. Australia's colonial policy was defined by racist paternalism and a deliberate failure to build any viable national institutions or social cohesion among the island's 800+ distinct ethnic groups [John Saun, 'The Colonial Origins of Conflict', 2018]. At independence in 1975, Papua New Guinea was a hollow state by design, with artificial borders and a system of governance utterly unequipped to manage the country, leaving a vacuum of authority that is now filled by violence."
+  },
+  "coreTerms": {
+    "theUnseenStateCollapse": "Papua New Guinea represents a slow-motion state failure that is rendered invisible by colonial narratives. Because the violence is not a conventional civil war between two clear sides, the West dismisses it as 'tribal fighting'—a primitive, domestic affair. This racist framing masks the reality: a complete withdrawal of state authority from vast territories, the collapse of healthcare and justice systems, and a humanitarian catastrophe on par with more publicised war zones. It is an unseen collapse because the victims and the nature of the conflict do not fit the neat categories of Western media and diplomacy.",
+    "extractiveViolenceAndResourceWars": "The hyper-violence in the Highlands is directly linked to the neocolonial scramble for Papua New Guinea's vast natural wealth (gas, gold, timber). Massive resource projects, operated by multinational corporations like ExxonMobil and Barrick Gold, enrich a corrupt national elite and foreign shareholders while funnelling almost no benefits to local communities, who are left with environmental ruin and social decay [Oakland Institute, 2022]. This intense inequality turns traditional land disputes into modern warfare, as communities fight over the crumbs of resource wealth and political power, often with guns sourced from the very security and logistics networks that service the extractive industries."
+  },
+  "humanitarianImpact": {
+    "displaced": "Tens of thousands are internally displaced by fighting in the Highlands, particularly in Enga, Hela, and Southern Highlands provinces, but exact numbers are unknown due to a lack of humanitarian access.",
+    "refugees": "This is primarily a crisis of internal displacement, not external refugee flows.",
+    "casualties": "While no reliable national figures exist, mass casualty events are common. In February 2024 alone, at least 64 people were massacred in one ambush in Enga province. Thousands have been killed in the violence over the past decade [Australian Broadcasting Corporation, 2024].",
+    "affected": "An estimated 3 million people live in the seven Highlands provinces where the rule of law has collapsed. Two in three women have experienced gender-based violence, one of the highest rates in the world outside a war zone [UN Women]."
+  },
+  "timeline": [
+    {
+      "year": "1884",
+      "event": "**Colonial Division**: Imperial Germany colonises the northeast (New Guinea) and Britain claims the southeast (Papua) in the European 'Scramble for the Pacific'."
+    },
+    {
+      "year": "1920",
+      "event": "**Australian Administration**: After WWI, Australia is granted a League of Nations mandate to govern the former German territory, consolidating its control over the entire eastern half of the island."
+    },
+    {
+      "year": "1942-1945",
+      "event": "**WWII Battleground**: Papua New Guinea becomes the site of a brutal campaign between Japanese and Allied forces, with immense suffering and dislocation for the local population used as porters and labourers."
+    },
+    {
+      "year": "1975",
+      "event": "**Independence**: Australia grants Papua New Guinea independence, leaving behind a profoundly fragmented nation with almost no experienced administrators or cohesive national identity."
+    },
+    {
+      "year": "1988-1998",
+      "event": "**Bougainville Civil War**: A brutal 10-year war for secession, sparked by disputes over the Australian-owned Panguna copper mine, kills up to 20,000 people."
+    },
+    {
+      "year": "2000s-Present",
+      "event": "**Highlands War**: Escalating violence grips the Highlands, transforming into a state of endemic warfare with the influx of modern weapons and intensified conflict over resources and political power."
+    },
+    {
+      "year": "2024",
+      "event": "**Enga Massacre**: Dozens are killed in the deadliest known instance of violence in the Highlands, drawing rare but fleeting international attention to the unseen war."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "MSF has run projects providing surgical care to victims of violence in the Highlands and tackling tuberculosis. Their presence varies based on security and funding.",
+        "url": "https://www.msf.org/papua-new-guinea"
+      }
+    ],
+    "awareness": [
+      "Challenge the racist, colonial narrative that dismisses the violence as 'tribal fighting'. Frame it correctly as a modern conflict driven by state failure and resource extraction.",
+      "Amplify the voices of Papua New Guinean human rights defenders, especially women on the frontlines of peacebuilding and the fight against gender-based violence.",
+      "Educate your community on 'extractive violence', showing the direct link between multinational gas, gold, and logging projects and the hyper-violence in the Highlands."
+    ],
+    "advocacy": [
+      "Pressure multinational corporations (ExxonMobil, Barrick Gold etc.) to conduct transparent, independent human rights impact assessments for all their projects in the Highlands.",
+      "Demand the Australian government use its diplomatic and aid leverage to prioritise civilian protection and peacebuilding in the Highlands, not just its strategic interests in Port Moresby.",
+      "Call for dedicated international support for local initiatives that provide protection, justice, and holistic care for survivors of gender-based and sorcery accusation-related violence.",
+      "Support a regional strategy to halt the trafficking of modern automatic weapons into the Highlands, which has transformed the scale and lethality of the violence."
+    ]
+  }
+}
