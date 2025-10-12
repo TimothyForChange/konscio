@@ -1,0 +1,73 @@
+{
+  "name": "CAR",
+  "emoji": "🇨🇫",
+  "ariaLabel": "Central African Republic flag",
+  "currentCrisisSummary": "A protracted civil war has rendered the state almost entirely non-existent outside the capital, Bangui. The conflict is characterised by extreme violence between a weak, mercenary-dependent government and a fragmented array of armed groups. Foreign powers, notably France and Russia, intervene not to build peace but to secure geopolitical influence and plunder the nation's vast mineral wealth (diamonds, gold, uranium), perpetuating a catastrophic, and intentionally overlooked, humanitarian crisis.",
+  "colonialRoot": {
+    "colonialPower": "France (Ubangi-Shari, 1894-1960)",
+    "legacy": "The Central African Republic is a purely artificial colonial creation, violently forged by France from diverse societies with no shared history. Its sole purpose was the brutal, large-scale extraction of resources like ivory and rubber through a concessionary system that institutionalised forced labour and extreme violence [Gérard Prunier, 2013]. The French regime destroyed indigenous political structures and established a predatory state apparatus designed only for plunder. This system of a 'hollow state' was handed over at independence in 1960 and perpetuated through the 'Françafrique' system of client dictators (like the infamous Emperor Bokassa), ensuring the country remained a source of raw materials for France, devoid of genuine sovereignty or development [Roland Marchal, 2017]."
+  },
+  "coreTerms": {
+    "stateFailureByDesign": "The post-colonial state in CAR inherited the logic of its French colonial predecessor: it was never designed to provide services or security to its people, but to extract wealth for a tiny elite and their foreign backers. This foundational emptiness means that when the state is challenged, it doesn't just weaken, it evaporates, creating a power vacuum that armed groups, warlords, and foreign mercenaries—from French 'advisors' to Russia's Wagner Group (now Africa Corps)—are quick to fill.",
+    "predatoryInternationalIntervention": "Foreign interventions are framed as humanitarian or stabilising missions but function as a continuation of colonial exploitation. France's multiple military operations (e.g., Sangaris) have consistently prioritised French interests over Central African lives, often re-shuffling the political elite without addressing root causes. More recently, Russia's Wagner Group has propped up the state in exchange for unimpeded access to mineral concessions, operating with total impunity and committing mass atrocities to secure mining sites. The population is trapped between a phantom state and foreign predators fighting over its resources."
+  },
+  "humanitarianImpact": {
+    "displaced": "Over 536,000 people are internally displaced (IDPs), living in constant fear and with little to no access to aid [UN OCHA, 2025].",
+    "refugees": "Over 750,000 refugees have been forced to flee into neighbouring Cameroon, DRC, and Chad, where they face precarious conditions [UNHCR, 2025].",
+    "casualties": "While no exact figure exists due to the chaos, tens of thousands of civilians have been killed in successive waves of conflict since 2012. Atrocities, including mass killings and sexual violence used as a weapon of war, are widespread [Human Rights Watch, 2024].",
+    "affected": "3.4 million people, over half the entire population, are in dire need of humanitarian assistance and protection to survive [UN OCHA, 2025]."
+  },
+  "timeline": [
+    {
+      "year": "1894",
+      "event": "**French Colonisation**: France establishes the colony of Ubangi-Shari, beginning a reign of terror based on forced labour for rubber and ivory."
+    },
+    {
+      "year": "1928-1931",
+      "event": "**Kongo-Wara Rebellion**: A massive, widespread uprising against the brutality of the French concessionary companies is violently crushed."
+    },
+    {
+      "year": "1960",
+      "event": "**Nominal Independence**: France grants independence, installing a client regime under David Dacko to maintain its economic and political control."
+    },
+    {
+      "year": "1966-1979",
+      "event": "**Bokassa's Reign of Terror**: Jean-Bédel Bokassa, a French-backed dictator, seizes power. He later declares himself Emperor in a notoriously lavish, French-funded ceremony while his people starve. He is ultimately removed by French paratroopers when he becomes an embarrassment."
+    },
+    {
+      "year": "2013",
+      "event": "**Séléka Coup**: The Séléka, a coalition of armed groups from the marginalised north, captures Bangui. Their rule is marked by extreme violence, leading to the formation of 'anti-balaka' militias and plunging the country into sectarian warfare."
+    },
+    {
+      "year": "2013-2016",
+      "event": "**Opération Sangaris**: France intervenes militarily, ostensibly to stop the bloodshed but ultimately to manage the crisis in its favour, disarming one side while inadvertently empowering the other."
+    },
+    {
+      "year": "2018-Present",
+      "event": "**Russian Intervention**: The government invites Russia's Wagner Group mercenaries to provide security. They seize control of key mining areas, committing atrocities and plundering resources while entrenching Russian influence at France's expense."
+    },
+    {
+      "year": "2023",
+      "event": "**Constitutional Referendum**: President Touadéra pushes through a controversial new constitution, removing presidential term limits and solidifying his power with the backing of Russian mercenaries."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "In CAR, one of its oldest and largest missions, MSF provides basic and emergency healthcare in a country where the state is largely absent and conflict has created a permanent humanitarian crisis.",
+        "url": "https://www.msf.org/central-african-republic"
+      }
+    ],
+    "awareness": [
+      "Challenge the international silence on CAR. Demand media and political attention for this 'forgotten crisis'.",
+      "Expose the role of foreign powers, including Russia and France, in fuelling the conflict for geopolitical gain and resource extraction.",
+      "Amplify the work of Central African peacebuilders and civil society leaders working on the frontlines of reconciliation."
+    ],
+    "boycott": [
+      "Advocate for robust implementation of the Kimberley Process to halt the flow of conflict diamonds from CAR.",
+      "Demand targeted sanctions against foreign entities (like the Africa Corps/Wagner Group) and corporations complicit in the illegal plunder of gold, diamonds, and other natural resources.",
+      "Support calls for an international arms embargo on all actors in the conflict to stop the flow of weapons."
+    ]
+  }
+}

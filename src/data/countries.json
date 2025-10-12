@@ -1,5 +1,11 @@
 [
   {
+    "name": "CAR",
+    "slug": "car",
+    "flag": "🇨🇫",
+    "description": "Violent state collapse, foreign mercenary influence, and resource-driven exploitation"
+  },
+  {
     "name": "DRC",
     "slug": "drc",
     "flag": "🇨🇩",

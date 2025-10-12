@@ -207,6 +207,34 @@ html::-webkit-scrollbar-corner {
   }
 }
 
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-120%);
+  background: var(--accent-primary);
+  color: var(--on-accent);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0 0 6px 0;
+  z-index: 9999;
+  text-decoration: none;
+  font-weight: 600;
+}
+.skip-link:focus {
+  transform: translateY(0%);
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
 .section-heading {
   font-size: 1.25rem;
   font-weight: 600;

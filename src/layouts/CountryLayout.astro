@@ -32,12 +32,12 @@ export interface Props {
 const { countryData, countrySlug } = Astro.props as Props;
 const passedTitle = (Astro.props as Props).title;
 const safeName = countryData?.name ?? 'Country';
-const pageDescription = `Learn about the humanitarian crisis in ${safeName} - Timothy Brits (Mooship) raises awareness about ongoing conflicts and issues affecting communities worldwide.`;
+const pageDescription = `Learn about the humanitarian crisis in ${safeName} - Timothy Brits raises awareness about ongoing conflicts and issues affecting communities worldwide.`;
 const canonicalUrl = `https://mooship.co.za/${safeName.toLowerCase()}`;
 ---
 
 <Layout
-  title={passedTitle ?? `${safeName} Crisis - Timothy Brits | Mooship`}
+  title={passedTitle ?? `${safeName} Crisis - Timothy Brits`}
   description={pageDescription}
   canonicalUrl={canonicalUrl}
 >

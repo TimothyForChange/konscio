@@ -9,6 +9,7 @@ const { emoji, ariaLabel, countryName } = Astro.props as CountryAvatarProps;
 
 <span
   class='country-avatar'
+  role='img'
   aria-label={ariaLabel ? `${countryName} ${ariaLabel}` : countryName}
 >
   {emoji ? emoji : ''}

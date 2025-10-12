@@ -55,12 +55,17 @@
         "url": "https://friendsofthecongo.org/"
       },
       {
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "In one of its largest global responses, MSF provides emergency medical care to people affected by armed conflict, displacement, and recurring disease outbreaks across 21 provinces of DRC.",
+        "url": "https://www.msf.org/democratic-republic-congo-drc"
+      },
+      {
         "organisation": "Panzi Foundation",
         "description": "Founded by Nobel laureate Dr. Denis Mukwege, providing holistic support to survivors of sexual violence.",
         "url": "https://panzifoundation.org/"
       },
       {
-        "organisation": "World Food Programme",
+        "organisation": "World Food Programme (WFP)",
         "description": "The UN organisation providing life-saving food and nutrition to millions displaced by conflict in eastern DRC.",
         "url": "https://www.wfp.org/emergencies/drc-emergency"
       }

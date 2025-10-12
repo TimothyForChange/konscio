@@ -59,7 +59,12 @@
         "url": "https://www.hdcafrica.org"
       },
       {
-        "organisation": "World Food Programme",
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "In South Sudan, MSF delivers basic and specialist healthcare and responds to disease outbreaks in a context of chronic conflict, mass displacement, and a severely weakened health system.",
+        "url": "https://www.msf.org/south-sudan"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
         "description": "The UN organisation delivering life-saving food assistance to families displaced by conflict and flooding in South Sudan.",
         "url": "https://www.wfp.org/emergencies/south-sudan-emergency"
       }

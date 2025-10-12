@@ -4,7 +4,7 @@ import '../styles/reset.css';
 import '../styles/global.css';
 import Footer from '../components/layout/Footer.astro';
 
-export let title = 'Timothy Brits | Mooship';
+export let title = 'Timothy Brits';
 export let description = undefined;
 export let canonicalUrl = undefined;
 
@@ -15,7 +15,7 @@ const ldObject = {
       '@type': 'Person',
       '@id': 'https://mooship.co.za/#person',
       name: 'Timothy Brits',
-      alternateName: 'Mooship',
+      alternateName: 'Timothy',
       url: 'https://mooship.co.za',
       image: 'https://mooship.co.za/me.webp',
       jobTitle: 'Software Engineer',
@@ -40,9 +40,9 @@ const ldObject = {
       '@type': 'WebSite',
       '@id': 'https://mooship.co.za/#website',
       url: 'https://mooship.co.za',
-      name: 'Timothy Brits (Mooship)',
+      name: 'Timothy Brits',
       description:
-        'Timothy Brits (aka Mooship) - Software Engineer raising awareness about global humanitarian crises',
+        'Timothy Brits - Software Engineer raising awareness about global humanitarian crises',
       publisher: {
         '@id': 'https://mooship.co.za/#person',
       },
@@ -59,7 +59,7 @@ const ldObject = {
 };
 const ldJson = JSON.stringify(ldObject, null, 2);
 const defaultDescription =
-  'Timothy Brits - Software Engineer, also known online as Mooship, raising awareness about global humanitarian crises. Learn about ongoing conflicts and humanitarian issues in Ukraine, Palestine, the DRC, Sudan, and Myanmar.';
+  'Timothy Brits - Software Engineer, raising awareness about global humanitarian crises. Learn about ongoing conflicts and humanitarian issues in Ukraine, Palestine, the DRC, Sudan, and Myanmar.';
 const pageDescription = description || defaultDescription;
 const pageCanonicalUrl = canonicalUrl || 'https://mooship.co.za/';
 ---
@@ -73,14 +73,14 @@ const pageCanonicalUrl = canonicalUrl || 'https://mooship.co.za/';
     <meta name='author' content='Timothy Brits' />
     <meta
       name='keywords'
-      content='Timothy Brits, Mooship, developer, software engineer, humanitarian awareness, global crises, Ukraine, Palestine, DRC, Sudan, Myanmar, social justice, humanitarian aid, conflict awareness, Pretoria developer'
+      content='Timothy Brits, developer, software engineer, humanitarian awareness, global crises, Ukraine, Palestine, DRC, Sudan, Myanmar, social justice, humanitarian aid, conflict awareness, Pretoria developer'
     />
     <meta name='robots' content='index, follow' />
     <meta property='og:type' content='website' />
     <meta property='og:url' content='https://mooship.co.za/' />
     <meta property='og:title' content={title} />
     <meta property='og:description' content={pageDescription} />
-    <meta property='og:site_name' content='Timothy Brits (Mooship)' />
+    <meta property='og:site_name' content='Timothy Brits' />
     <meta
       property='og:image'
       content='https://mooship.co.za/apple-touch-icon.png'
@@ -97,6 +97,7 @@ const pageCanonicalUrl = canonicalUrl || 'https://mooship.co.za/';
     <script type='application/ld+json' set:html={ldJson} />
   </head>
   <body>
+    <a class='skip-link' href='#container'>Skip to main content</a>
     <slot />
     <Footer />
   </body>

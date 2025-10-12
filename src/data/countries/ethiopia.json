@@ -59,9 +59,19 @@
         "url": "https://www.hpn4tigray.org/"
       },
       {
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "In Ethiopia, MSF provides critical healthcare in regions devastated by conflict like Tigray and Amhara, responding to mass displacement, nutritional crises, and outbreaks of disease.",
+        "url": "https://www.msf.org/ethiopia"
+      },
+      {
         "organisation": "Omna Tigray",
         "description": "A global diaspora organisation focused on humanitarian aid, rebuilding, and accountability.",
         "url": "https://omnatigray.org/"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
+        "description": "The UN organisation delivering life-saving food aid to millions in northern Ethiopia recovering from conflict and facing extreme hunger.",
+        "url": "https://www.wfp.org/emergencies/ethiopia-emergency"
       }
     ],
     "awareness": [

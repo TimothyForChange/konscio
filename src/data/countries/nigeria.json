@@ -54,6 +54,11 @@
         "organisation": "Herwa Community Development Initiative",
         "description": "A grassroots organisation delivering direct aid to vulnerable communities at the epicentre of the North-East crisis.",
         "url": "https://herwa.org.ng/"
+      },
+      {
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "In Nigeria, MSF provides life-saving medical care in response to the humanitarian crisis in the northeast, widespread banditry, and severe outbreaks of diseases like measles and diphtheria.",
+        "url": "https://www.msf.org/nigeria"
       }
     ],
     "awareness": [

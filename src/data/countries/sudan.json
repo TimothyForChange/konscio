@@ -55,12 +55,17 @@
         "url": "https://islamic-relief.org/appeals/sudan-emergency-appeal/"
       },
       {
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "In Sudan, MSF provides emergency trauma care and supports overwhelmed hospitals, while responding to mass displacement and disease outbreaks driven by the brutal civil war.",
+        "url": "https://www.msf.org/sudan"
+      },
+      {
         "organisation": "Sudanese American Physicians Association (SAPA)",
         "description": "A diaspora-led organisation providing direct medical and humanitarian support to local initiatives like Emergency Response Rooms.",
         "url": "https://sapa-usa.org/"
       },
       {
-        "organisation": "World Food Programme",
+        "organisation": "World Food Programme (WFP)",
         "description": "The UN organisation providing life-saving food assistance to families displaced by civil war and at risk of famine in Sudan.",
         "url": "https://www.wfp.org/emergencies/sudan-emergency"
       }

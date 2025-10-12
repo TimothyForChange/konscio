@@ -64,7 +64,12 @@
         "url": "https://haitianbridgealliance.org"
       },
       {
-        "organisation": "World Food Programme",
+        "organisation": "Médecins Sans Frontières (MSF)",
+        "description": "In Haiti, MSF provides critical trauma surgery and emergency medical services to victims of extreme gang violence amid the total collapse of the country's health system.",
+        "url": "https://www.msf.org/haiti"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
         "description": "The UN organisation delivering essential food assistance to millions affected by violence and displacement in Haiti.",
         "url": "https://www.wfp.org/emergencies/haiti-emergency"
       }
