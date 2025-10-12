@@ -33,13 +33,13 @@
     "name": "Mozambique",
     "slug": "mozambique",
     "flag": "🇲🇿",
-    "description": "Jihadist insurgency in Cabo Delgado, fuelled by gas revenues and vast inequality."
+    "description": "Jihadist insurgency in Cabo Delgado, fuelled by gas revenues and vast inequality"
   },
   {
     "name": "Nigeria",
     "slug": "nigeria",
     "flag": "🇳🇬",
-    "description": "Jihadist insurgency, widespread banditry, and spiralling resource conflicts."
+    "description": "Jihadist insurgency, widespread banditry, and spiralling resource conflicts"
   },
   {
     "name": "Palestine",
@@ -63,7 +63,7 @@
     "name": "Syria",
     "slug": "syria",
     "flag": "🇸🇾",
-    "description": "Protracted civil war, state fragmentation, and a catastrophic humanitarian crisis."
+    "description": "Protracted civil war, state fragmentation, and a catastrophic humanitarian crisis"
   },
   {
     "name": "Sahel",
@@ -81,6 +81,6 @@
     "name": "Yemen",
     "slug": "yemen",
     "flag": "🇾🇪",
-    "description": "Civil war intensified by a Saudi-led blockade, creating one of the world's worst humanitarian crises."
+    "description": "Civil war intensified by a Saudi-led blockade, creating one of the world's worst humanitarian crises"
   }
 ]
