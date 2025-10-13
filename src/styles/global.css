@@ -43,18 +43,18 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1a1611;
-    --bg-alt: #211c16;
-    --bg-surface: #2a241c;
-    --bg-card: #1f1b15;
-    --border: #3d3426;
+    --bg: #2a241c;
+    --bg-alt: #342d22;
+    --bg-surface: #3e3528;
+    --bg-card: #2f291f;
+    --border: #5a4c38;
     --accent-primary: #d4b570;
     --accent-secondary: #c4a560;
     --accent-tertiary: #e6c875;
-    --on-accent: #1a1611;
-    --text-primary: #e8e0d1;
-    --text-secondary: #c4b59f;
-    --text-muted: #9c8c73;
+    --on-accent: #2a241c;
+    --text-primary: #f0e8d8;
+    --text-secondary: #d6c6b2;
+    --text-muted: #b5a28a;
     --focus-ring: #d4b570;
     --focus-ring-soft: rgb(212 181 112 / 40%);
     --scrollbar-thumb-bg: color-mix(
