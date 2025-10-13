@@ -2,23 +2,23 @@
   "name": "Afghanistan",
   "emoji": "🇦🇫",
   "ariaLabel": "Afghanistan flag",
-  "currentCrisisSummary": "Following the chaotic US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. This is not simply a consequence of the new regime, but a direct result of a US-led economic war. The freezing of Afghanistan's central bank assets and crippling sanctions have deliberately induced a famine and collapsed the healthcare system. This has erased two decades of fragile gains, which were themselves built on a hollow, aid-dependent model that primarily benefited foreign contractors and a small domestic elite, leaving the nation vulnerable to collapse. Women and girls now face a systematic gender apartheid [UN Special Rapporteurs, 2023].",
+  "currentCrisisSummary": "Following the chaotic US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. This is not simply a consequence of the new regime, but a direct result of a US-led economic war. The freezing of Afghanistan's central bank assets and crippling sanctions have deliberately induced a famine and collapsed the healthcare system. This has erased two decades of fragile gains, which were themselves built on a hollow, aid-dependent model that primarily benefited foreign contractors and a small domestic elite, leaving the nation vulnerable to collapse. Women and girls now face a systematic gender apartheid.",
   "colonialRoot": {
     "colonialPower": "British Empire, Russian Empire, Soviet Union & United States",
-    "legacy": "Afghanistan's tragedy is a product of being treated as a strategic chessboard for imperial powers for over two centuries. The 19th-century Anglo-Russian 'Great Game' carved up the region to protect the immense wealth Britain extracted from its Indian colony, establishing a pattern of foreign interference that destroyed indigenous political development. This dynamic was supercharged during the Cold War, when the US and USSR turned Afghanistan into a proxy battleground in their global conflict between capitalism and communism. The CIA's Operation Cyclone armed the Mujahideen to bleed the Soviets [Steve Coll, 'Ghost Wars', 2004], deliberately fostering a radicalised militancy and shattering the Afghan state, leaving it perfectly primed for decades of perpetual conflict."
+    "legacy": "Afghanistan's tragedy is a product of being treated as a strategic chessboard for imperial powers for over two centuries. The 19th-century Anglo-Russian 'Great Game' carved up the region to protect the immense wealth Britain extracted from its Indian colony, establishing a pattern of foreign interference that destroyed indigenous political development. This dynamic was supercharged during the Cold War, when the US and USSR turned Afghanistan into a proxy battleground in their global conflict between capitalism and communism. The CIA's Operation Cyclone armed the Mujahideen to bleed the Soviets, deliberately fostering a radicalised militancy and shattering the Afghan state, leaving it perfectly primed for decades of perpetual conflict."
   },
   "coreTerms": {
     "theGraveyardOfEmpiresMyth": "This colonial moniker is a self-serving imperial myth. It deceptively frames Afghanistan as an inherently chaotic land, obscuring the truth that it is the empires themselves that do the grave-digging. Each invasion—British, Soviet, American—sought to violently reorder Afghan society to serve external economic and strategic interests, systematically destroying local institutions and obliterating social cohesion. The invaders then cite the resulting chaos, which they manufactured, as proof of Afghan backwardness, thus absolving themselves of their role as the primary architects of the nation's destruction.",
-    "humanitarianBlackmailAndEconomicWarfare": "The current famine is not a natural disaster; it is a political choice. After their military defeat, the US and its allies weaponised the US-dominated architecture of global capitalism to wage economic war. By freezing $7 billion of Afghanistan's own sovereign wealth and enforcing a punitive sanctions regime, they have effectively held 40 million Afghan civilians hostage [Center for Economic and Policy Research, 2022]. This is collective punishment on a mass scale, using the manufactured suffering of ordinary people as a tool to discipline a state that has defied the Western-led economic order."
+    "humanitarianBlackmailAndEconomicWarfare": "The current famine is not a natural disaster; it is a political choice. After their military defeat, the US and its allies weaponised the US-dominated architecture of global capitalism to wage economic war. By freezing $7 billion of Afghanistan's own sovereign wealth and enforcing a punitive sanctions regime, they have effectively held 40 million Afghan civilians hostage. This is collective punishment on a mass scale, using the manufactured suffering of ordinary people as a tool to discipline a state that has defied the Western-led economic order."
   },
   "humanitarianImpact": {
-    "displaced": "An estimated 5.7 million people are internally displaced due to decades of conflict and recent crises [UN OCHA, 2025].",
-    "refugees": "There are over 8.2 million Afghans hosted abroad, primarily in neighbouring Pakistan and Iran, comprising one of the largest protracted refugee situations in the world [UNHCR, 2025].",
+    "displaced": "An estimated 5.7 million people are internally displaced due to decades of conflict and recent crises.",
+    "refugees": "There are over 8.2 million Afghans hosted abroad, primarily in neighbouring Pakistan and Iran, comprising one of the largest protracted refugee situations in the world.",
     "casualties": "Hundreds of thousands of people have been killed in the conflict since 2001, including over 70,000 civilians. The post-2021 economic collapse is now driving excess deaths from starvation and disease.",
-    "affected": "An estimated 23.7 million people—more than half the population—require urgent humanitarian assistance to survive, with millions on the brink of famine [UN OCHA, 2025].",
-    "poverty": "More than 90% of the population lives below the poverty line, a dramatic increase since the 2021 economic crisis [UNDP, 2023].",
-    "healthSystemCollapsed": "The public health system has collapsed, with 75% of health facilities lacking basic functionality due to sanctions and economic warfare [WHO, 2024].",
-    "foodInsecurity": "Over 20 million people face acute food insecurity, with 7.8 million on the brink of famine [WFP, 2024]."
+    "affected": "An estimated 23.7 million people—more than half the population—require urgent humanitarian assistance to survive, with millions on the brink of famine.",
+    "poverty": "More than 90% of the population lives below the poverty line, a dramatic increase since the 2021 economic crisis.",
+    "healthSystemCollapsed": "The public health system has collapsed, with 75% of health facilities lacking basic functionality due to sanctions and economic warfare.",
+    "foodInsecurity": "Over 20 million people face acute food insecurity, with 7.8 million on the brink of famine."
   },
   "timeline": [
     {
@@ -59,7 +59,7 @@
     },
     {
       "year": "2021-Present",
-      "event": "**Economic Warfare**: The US freezes Afghanistan's $7 billion in foreign reserves, and international sanctions trigger a catastrophic economic collapse and humanitarian crisis [Human Rights Watch, 2022]."
+      "event": "**Economic Warfare**: The US freezes Afghanistan's $7 billion in foreign reserves, and international sanctions trigger a catastrophic economic collapse and humanitarian crisis."
     }
   ],
   "takeAction": {

@@ -5,21 +5,21 @@
   "currentCrisisSummary": "A protracted civil war has rendered the state almost entirely non-existent outside the capital, Bangui. The conflict is characterised by extreme violence between a weak, mercenary-dependent government and a fragmented array of armed groups. Foreign powers, notably France and Russia, intervene not to build peace but to secure geopolitical influence and plunder the nation's vast mineral wealth (diamonds, gold, uranium) to feed global markets, perpetuating a catastrophic, and intentionally overlooked, humanitarian crisis.",
   "colonialRoot": {
     "colonialPower": "France (Ubangi-Shari, 1894-1960)",
-    "legacy": "The Central African Republic is a purely artificial colonial creation, violently forged by France from diverse societies with no shared history. Its sole purpose was the brutal, large-scale extraction of resources like ivory and rubber through a concessionary company system that institutionalised forced labour and extreme violence [Gérard Prunier, 2013]. The French regime destroyed indigenous political structures, establishing a predatory state designed only for plunder. This system of a 'hollow state' was perpetuated through the 'Françafrique' network of client dictators (like the infamous Emperor Bokassa), ensuring the country remained a source of raw materials for French corporations, devoid of genuine sovereignty. This architecture of extraction, designed purely for profit, remains the fundamental logic of the state today [Roland Marchal, 2017]."
+    "legacy": "The Central African Republic is a purely artificial colonial creation, violently forged by France from diverse societies with no shared history. Its sole purpose was the brutal, large-scale extraction of resources like ivory and rubber through a concessionary company system that institutionalised forced labour and extreme violence. The French regime destroyed indigenous political structures, establishing a predatory state designed only for plunder. This system of a 'hollow state' was perpetuated through the 'Françafrique' network of client dictators (like the infamous Emperor Bokassa), ensuring the country remained a source of raw materials for French corporations, devoid of genuine sovereignty. This architecture of extraction, designed purely for profit, remains the fundamental logic of the state today."
   },
   "coreTerms": {
     "laCentrafriqueProfonde": "The post-colonial state in CAR inherited the logic of its French predecessor: it was never designed to provide services or security, but to extract wealth for a tiny elite and their foreign corporate and state backers. This foundational emptiness means that when the state is challenged, it doesn't just weaken, it evaporates. This creates a power vacuum that armed groups, warlords, and foreign mercenaries—from French 'advisors' to Russia's Africa Corps—are quick to fill, turning the entire country into a violent free-for-all for resources.",
     "mercenaryStateAndProxyPlunder": "Foreign interventions, framed as stabilising missions, are a continuation of colonial exploitation. France's multiple operations (e.g., Sangaris) have consistently prioritised French interests over Central African lives. More recently, Russia's Wagner Group (now Africa Corps) has propped up the state in exchange for unimpeded access to mineral concessions, committing mass atrocities to secure mining sites. This represents a raw competition between rival capitalist powers, with Central African bodies paying the price for control over strategic resources."
   },
   "humanitarianImpact": {
-    "displaced": "Over 536,000 people are internally displaced (IDPs), living in constant fear and with little to no access to aid [UN OCHA, 2025].",
-    "refugees": "Over 750,000 refugees have been forced to flee into neighbouring Cameroon, DRC, and Chad, where they face precarious conditions [UNHCR, 2025].",
-    "casualties": "While no exact figure exists due to the chaos, tens of thousands of civilians have been killed in successive waves of conflict since 2012. Atrocities, including mass killings and sexual violence used as a weapon of war, are widespread [Human Rights Watch, 2024].",
-    "affected": "3.4 million people, over half the entire population, are in dire need of humanitarian assistance and protection to survive [UN OCHA, 2025].",
-    "childrenOutOfSchool": "Over 300,000 children are out of school due to the ongoing conflict and insecurity [UNICEF, 2023].",
-    "healthSystemCollapsed": "Only 30% of health facilities are fully functional, with most lacking basic supplies and staff due to conflict [WHO, 2023].",
-    "foodInsecurity": "Over 2.8 million people face acute food insecurity, including 86,000 in catastrophic hunger [WFP, 2023].",
-    "waterAccess": "More than 1.3 million people lack access to safe drinking water due to damaged infrastructure and insecurity [UNICEF, 2023]."
+    "displaced": "Over 536,000 people are internally displaced (IDPs), living in constant fear and with little to no access to aid.",
+    "refugees": "Over 750,000 refugees have been forced to flee into neighbouring Cameroon, DRC, and Chad, where they face precarious conditions.",
+    "casualties": "While no exact figure exists due to the chaos, tens of thousands of civilians have been killed in successive waves of conflict since 2012. Atrocities, including mass killings and sexual violence used as a weapon of war, are widespread.",
+    "affected": "3.4 million people, over half the entire population, are in dire need of humanitarian assistance and protection to survive.",
+    "childrenOutOfSchool": "Over 300,000 children are out of school due to the ongoing conflict and insecurity.",
+    "healthSystemCollapsed": "Only 30% of health facilities are fully functional, with most lacking basic supplies and staff due to conflict.",
+    "foodInsecurity": "Over 2.8 million people face acute food insecurity, including 86,000 in catastrophic hunger.",
+    "waterAccess": "More than 1.3 million people lack access to safe drinking water due to damaged infrastructure and insecurity."
   },
   "timeline": [
     {

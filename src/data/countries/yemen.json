@@ -2,24 +2,24 @@
   "name": "Yemen",
   "emoji": "🇾🇪",
   "ariaLabel": "Yemeni flag",
-  "currentCrisisSummary": "Yemen is suffering one of the world's most severe humanitarian crises, driven by a brutal civil war over control of the state and its strategic position on one of the world's most important trade routes, and a devastating air and sea blockade. The conflict, a proxy war between a Saudi-led coalition and the Iran-aligned Houthis, has shattered infrastructure, caused a human-made famine, and left millions reliant on aid to survive [UN OCHA, 2024].",
+  "currentCrisisSummary": "Yemen is suffering one of the world's most severe humanitarian crises, driven by a brutal civil war over control of the state and its strategic position on one of the world's most important trade routes, and a devastating air and sea blockade. The conflict, a proxy war between a Saudi-led coalition and the Iran-aligned Houthis, has shattered infrastructure, caused a human-made famine, and left millions reliant on aid to survive.",
   "colonialRoot": {
     "colonialPower": "British Empire & Ottoman Empire",
     "legacy": "The crisis is deeply rooted in colonial division. The British Empire's control of the strategic port of Aden and the south (1839-1967) and Ottoman rule in the north created two distinct political entities. Britain's 'divide and rule' strategy deliberately kept the south fractured, fostering instability and leaving a power vacuum upon withdrawal. This colonial partition laid the groundwork for decades of internal conflict and a weak, fractured state easily exploited by regional powers."
   },
   "coreTerms": {
     "geopoliticalChokepointAndLogisticsCapitalism": "The war is a violent struggle to control one of the most critical chokepoints of global capitalism: the Bab-el-Mandeb strait. This sea lane is a vital artery for oil tankers and container ships moving between Asia and Europe. Regional powers like Saudi Arabia and the UAE, backed by the West, seek to control Yemen's coastline to dominate this strategic node, ensuring their own commercial and energy security. The conflict is a brutal manifestation of how the geography of global trade becomes a site of imperialist war.",
-    "armsIndustryProfitsAndWesternComplicity": "The proxy war is enabled and sustained by the Western military-industrial complex. The US and UK are not just allies of the Saudi-led coalition; they are its primary arms dealers. Companies like BAE Systems, Raytheon, and Lockheed Martin have reaped billions in profits from selling the bombs, jets, and logistical support used to devastate Yemen. This makes Western governments complicit in war crimes, acting as partners in a conflict that is enormously profitable for their national arms industries [Chatham House, 2024]."
+    "armsIndustryProfitsAndWesternComplicity": "The proxy war is enabled and sustained by the Western military-industrial complex. The US and UK are not just allies of the Saudi-led coalition; they are its primary arms dealers. Companies like BAE Systems, Raytheon, and Lockheed Martin have reaped billions in profits from selling the bombs, jets, and logistical support used to devastate Yemen. This makes Western governments complicit in war crimes, acting as partners in a conflict that is enormously profitable for their national arms industries."
   },
   "humanitarianImpact": {
-    "displaced": "Over 4.5 million people have been internally displaced, many forced to flee multiple times [UNHCR, 2024].",
+    "displaced": "Over 4.5 million people have been internally displaced, many forced to flee multiple times.",
     "refugees": "Tens of thousands of Yemenis have become refugees and asylum seekers, particularly in the Horn of Africa.",
-    "casualties": "Hundreds of thousands have died from both direct causes (airstrikes, fighting) and indirect causes (famine, disease). The destruction of sanitation infrastructure led to one of the largest cholera epidemics in modern history [UN, 2023].",
-    "affected": "An estimated 18.2 million people require urgent humanitarian assistance, with millions on the brink of starvation in what the UN has repeatedly called the world's worst humanitarian crisis [USA for UNHCR, 2024].",
-    "childrenOutOfSchool": "Over 2 million children are out of school due to conflict, destruction of educational infrastructure, and economic hardship [UNICEF, 2023].",
-    "healthSystemCollapsed": "Only 50% of health facilities are fully functional, and the healthcare system is on the verge of total collapse [WHO, 2023].",
-    "foodInsecurity": "More than 16 million people face food insecurity, with over 5 million on the brink of famine [WFP, 2023].",
-    "waterAccess": "More than 15 million people lack access to safe drinking water due to infrastructure destruction and contamination [UNICEF, 2023]."
+    "casualties": "Hundreds of thousands have died from both direct causes (airstrikes, fighting) and indirect causes (famine, disease). The destruction of sanitation infrastructure led to one of the largest cholera epidemics in modern history.",
+    "affected": "An estimated 18.2 million people require urgent humanitarian assistance, with millions on the brink of starvation in what the UN has repeatedly called the world's worst humanitarian crisis.",
+    "childrenOutOfSchool": "Over 2 million children are out of school due to conflict, destruction of educational infrastructure, and economic hardship.",
+    "healthSystemCollapsed": "Only 50% of health facilities are fully functional, and the healthcare system is on the verge of total collapse.",
+    "foodInsecurity": "More than 16 million people face food insecurity, with over 5 million on the brink of famine.",
+    "waterAccess": "More than 15 million people lack access to safe drinking water due to infrastructure destruction and contamination."
   },
   "timeline": [
     {

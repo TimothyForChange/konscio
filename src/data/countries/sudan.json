@@ -2,25 +2,25 @@
   "name": "Sudan",
   "emoji": "🇸🇩",
   "ariaLabel": "Sudanese flag",
-  "currentCrisisSummary": "A devastating civil war between two factions of a parasitic military elite—the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia—has triggered the world's largest displacement and hunger crises, widespread famine, and atrocities, including a renewed campaign of ethnic cleansing in Darfur [Human Rights Watch, 2024].",
+  "currentCrisisSummary": "A devastating civil war between two factions of a parasitic military elite—the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia—has triggered the world's largest displacement and hunger crises, widespread famine, and atrocities, including a renewed campaign of ethnic cleansing in Darfur.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "British colonial policy was built on a 'divide-and-rule' strategy that racialised and institutionalised ethnic divisions [M.W. Daly, 2007]. It concentrated power in a supposedly 'Arab' riverine centre while systematically marginalising peripheral regions like Darfur. This engineered inequality created a parasitic central state that became the ultimate prize for competing factions of military and mercenary capitalists in the post-independence era."
+    "legacy": "British colonial policy was built on a 'divide-and-rule' strategy that racialised and institutionalised ethnic divisions. It concentrated power in a supposedly 'Arab' riverine centre while systematically marginalising peripheral regions like Darfur. This engineered inequality created a parasitic central state that became the ultimate prize for competing factions of military and mercenary capitalists in the post-independence era."
   },
   "coreTerms": {
     "militaryVsMercenaryCapitalism": "The war is a violent conflict between two rival capitalist factions fighting to control the state. The Sudanese Armed Forces (SAF) represents the old guard of 'military capitalism'—a crony system controlling formal sectors of the economy. The Rapid Support Forces (RSF) represents a more agile, transnational 'mercenary capitalism', with wealth built on looting gold mines and operating as a private army for foreign powers. The war is the implosion of this parasitic system, as both factions now seek total control.",
-    "counterRevolutionAndForeignPlunder": "The 2021 coup and subsequent war are a brutal counter-revolution against the 2019 popular uprising, which sought to dismantle the military's economic empire. This counter-revolution is bankrolled by foreign powers, particularly the UAE, which backs the RSF to secure its own interests: a direct supply of plundered gold, control over strategic Red Sea ports, and access to vast tracts of agricultural land for its own food security. This transforms the conflict into a proxy war for neocolonial plunder [UN Panel of Experts, 2024]."
+    "counterRevolutionAndForeignPlunder": "The 2021 coup and subsequent war are a brutal counter-revolution against the 2019 popular uprising, which sought to dismantle the military's economic empire. This counter-revolution is bankrolled by foreign powers, particularly the UAE, which backs the RSF to secure its own interests: a direct supply of plundered gold, control over strategic Red Sea ports, and access to vast tracts of agricultural land for its own food security. This transforms the conflict into a proxy war for neocolonial plunder."
   },
   "humanitarianImpact": {
-    "displaced": "Over 10 million people internally displaced, making it the world's largest internal displacement crisis [IOM, 2024].",
-    "refugees": "More than 2 million refugees have fled to neighbouring countries, including Chad, Egypt, and South Sudan [UNHCR, 2024].",
-    "casualties": "The official death toll of 15,000 is a gross underestimate; credible estimates suggest the real figure is over 150,000 [ACLED; Yale Humanitarian Research Lab, 2024].",
-    "affected": "25 million people—more than half the population—require urgent humanitarian aid, with 18 million facing acute hunger in what has become the world's largest hunger crisis [UN OCHA; IPC, 2024].",
-    "childrenOutOfSchool": "More than 5 million children are out of school due to conflict, displacement, and destruction of educational infrastructure [UNICEF, 2024].",
-    "healthSystemCollapsed": "The health system has collapsed with only 30% of facilities functional, and 70% of medical staff have fled conflict areas [WHO, 2024].",
-    "foodInsecurity": "More than 18 million people face acute food insecurity, with over 3 million in catastrophic hunger [WFP, 2024].",
-    "waterAccess": "More than 12 million people lack access to safe drinking water due to damaged infrastructure and conflict [UNICEF, 2024].",
-    "poverty": "More than 80% of the population now lives below the poverty line due to economic collapse and conflict [World Bank, 2024]."
+    "displaced": "Over 10 million people internally displaced, making it the world's largest internal displacement crisis.",
+    "refugees": "More than 2 million refugees have fled to neighbouring countries, including Chad, Egypt, and South Sudan.",
+    "casualties": "The official death toll of 15,000 is a gross underestimate; credible estimates suggest the real figure is over 150,000.",
+    "affected": "25 million people—more than half the population—require urgent humanitarian aid, with 18 million facing acute hunger in what has become the world's largest hunger crisis.",
+    "childrenOutOfSchool": "More than 5 million children are out of school due to conflict, displacement, and destruction of educational infrastructure.",
+    "healthSystemCollapsed": "The health system has collapsed with only 30% of facilities functional, and 70% of medical staff have fled conflict areas.",
+    "foodInsecurity": "More than 18 million people face acute food insecurity, with over 3 million in catastrophic hunger.",
+    "waterAccess": "More than 12 million people lack access to safe drinking water due to damaged infrastructure and conflict.",
+    "poverty": "More than 80% of the population now lives below the poverty line due to economic collapse and conflict."
   },
   "timeline": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "year": "2003",
-      "event": "**Genocide in Darfur**: The government unleashes Janjaweed militias to crush a rebellion. The RSF is the direct descendant of these militias [International Criminal Court, 2009]."
+      "event": "**Genocide in Darfur**: The government unleashes Janjaweed militias to crush a rebellion. The RSF is the direct descendant of these militias."
     },
     {
       "year": "2019",

@@ -5,19 +5,19 @@
   "currentCrisisSummary": "A brutal civil war, sparked in 2011 by a popular uprising against both authoritarianism and brutal neoliberal reforms, and culminating in the collapse of the Ba'athist regime in 2024, has fuelled a severe humanitarian crisis. The conflict is marked by mass displacement, the fragmentation of the state, and the deep entanglement of foreign powers.",
   "colonialRoot": {
     "colonialPower": "France (Mandate for Syria and the Lebanon, 1923-1946)",
-    "legacy": "Ignoring Syrian calls for self-determination, France and Britain imposed a colonial Mandate rooted in the Sykes-Picot Agreement (1916). France enforced a 'divide and rule' strategy, fracturing Syria into sectarian statelets to weaken national identity [James L. Gelvin, 2021]. This policy, combined with exploitative economics and a repressive state structure, left a legacy of instability. This inherited framework of repression was later perfected by the Ba'athist state to enforce a system of violent crony capitalism."
+    "legacy": "Ignoring Syrian calls for self-determination, France and Britain imposed a colonial Mandate rooted in the Sykes-Picot Agreement (1916). France enforced a 'divide and rule' strategy, fracturing Syria into sectarian statelets to weaken national identity. This policy, combined with exploitative economics and a repressive state structure, left a legacy of instability. This inherited framework of repression was later perfected by the Ba'athist state to enforce a system of violent crony capitalism."
   },
   "coreTerms": {
     "neoliberalismAndCronyCapitalism": "The 2011 uprising was a revolt against not only tyranny but also the brutal neoliberal policies of Bashar al-Assad. His regime's 'reforms' dismantled public services and enriched a tiny, politically-connected crony capitalist class while impoverishing the rural population. This state-led dispossession, exacerbated by a severe drought, created the conditions for a social explosion. The regime was fundamentally a system of plunder by a ruling family and their business partners.",
     "proxyWarAndWarlordEconomy": "Foreign powers intervened to protect their economic and strategic interests: Russia to secure its naval base and energy contracts; Iran to secure a trade and military corridor; and Gulf states to pursue pipeline politics. This transformed the civil war into a proxy battle and shattered the national economy, replacing it with a patchwork of predatory warlord economies where militias from all sides profited from looting, extortion, and the black market."
   },
   "humanitarianImpact": {
-    "displaced": "Over 7.2 million internally displaced (IDPs), one of the world's largest internal displacement crises [UNHCR/OCHA, 2024].",
-    "refuges": "Over 5.2 million refugees, mostly in neighbouring Türkiye, Lebanon, and Jordan, creating immense regional strain [UNHCR, 2024].",
-    "casualties": "Over 350,000 confirmed civilian deaths, though the actual toll is estimated to be over 600,000. The war has also seen the systematic destruction of civilian infrastructure, including hospitals and schools [UN Human Rights Office, 2022; SOHR, 2024].",
-    "childrenOutOfSchool": "More than 2.5 million children are out of school, one of the highest figures globally [UNICEF, 2023].",
-    "poverty": "More than 90% of Syrians live below the poverty line, with extreme poverty affecting over 80% of the population [World Bank, 2024].",
-    "waterAccess": "Only 40% of the population has access to safe drinking water due to infrastructure destruction [UNICEF, 2023]."
+    "displaced": "Over 7.2 million internally displaced (IDPs), one of the world's largest internal displacement crises.",
+    "refuges": "Over 5.2 million refugees, mostly in neighbouring Türkiye, Lebanon, and Jordan, creating immense regional strain.",
+    "casualties": "Over 350,000 confirmed civilian deaths, though the actual toll is estimated to be over 600,000. The war has also seen the systematic destruction of civilian infrastructure, including hospitals and schools.",
+    "childrenOutOfSchool": "More than 2.5 million children are out of school, one of the highest figures globally.",
+    "poverty": "More than 90% of Syrians live below the poverty line, with extreme poverty affecting over 80% of the population.",
+    "waterAccess": "Only 40% of the population has access to safe drinking water due to infrastructure destruction."
   },
   "timeline": [
     {

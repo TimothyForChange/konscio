@@ -2,10 +2,10 @@
   "name": "Somalia",
   "emoji": "🇸🇴",
   "ariaLabel": "Somali flag",
-  "currentCrisisSummary": "Somalia is caught in a convergence of catastrophic crises: a protracted civil war, a resilient al-Shabaab insurgency, and a devastating cycle of climate-driven droughts and floods. This perfect storm, fuelled by the predatory logic of global resource competition and climate injustice, has led to a near-permanent state of humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises [UN OCHA, 2025].",
+  "currentCrisisSummary": "Somalia is caught in a convergence of catastrophic crises: a protracted civil war, a resilient al-Shabaab insurgency, and a devastating cycle of climate-driven droughts and floods. This perfect storm, fuelled by the predatory logic of global resource competition and climate injustice, has led to a near-permanent state of humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises.",
   "colonialRoot": {
     "colonialPower": "Britain & Italy",
-    "legacy": "The crisis is a direct legacy of the colonial partition of the Somali nation. In the 'Scramble for Africa', Britain and Italy (along with France) carved up a culturally and linguistically homogenous people into five separate territories, shattering its social and economic fabric. The artificial borders and the hasty, ill-planned merger of the British and Italian colonies at independence in 1960 created a dysfunctional state from its inception [I.M. Lewis, 'A Modern History of the Somali', 2002]. This colonial vivisection created the deep-seated grievances that have fuelled decades of conflict."
+    "legacy": "The crisis is a direct legacy of the colonial partition of the Somali nation. In the 'Scramble for Africa', Britain and Italy (along with France) carved up a culturally and linguistically homogenous people into five separate territories, shattering its social and economic fabric. The artificial borders and the hasty, ill-planned merger of the British and Italian colonies at independence in 1960 created a dysfunctional state from its inception. This colonial vivisection created the deep-seated grievances that have fuelled decades of conflict."
   },
   "coreTerms": {
     "theFragmentedState": "The state's implosion in 1991 was supercharged by the Cold War. The Siad Barre dictatorship was armed first by the USSR and then the US, who used Somalia as a pawn to control the strategic sea lanes vital for global oil shipments. After its collapse, foreign interventions—from the failed US-led mission to the modern 'war on terror', a profitable industry for the Western security-industrial complex—have often exacerbated fragmentation, prioritising counter-terrorism over a genuine, Somali-led process of state-building.",
@@ -13,13 +13,13 @@
   },
   "humanitarianImpact": {
     "displaced": "Nearly 4 million people are internally displaced by conflict and climate shocks [UNHCR, 2025].",
-    "refugees": "Over 1 million Somalis live as refugees and asylum-seekers, primarily in neighbouring Kenya, Ethiopia, and Yemen [UNHCR, O2025].",
-    "casualties": "While no definitive figure exists for the entire civil war, an estimated 500,000 people have died from violent conflict-related causes since 1991. The 2011 famine alone killed an estimated 260,000 people [UN/USAID, 2013].",
-    "affected": "An estimated 8.3 million people require life-saving humanitarian assistance, with over 6.6 million facing acute food insecurity [UN OCHA, 2025].",
-    "childrenOutOfSchool": "More than 1.5 million children are out of school due to conflict, displacement, and lack of educational infrastructure [UNICEF, 2024].",
-    "healthSystemCollapsed": "The healthcare system remains weak with only 50% of health facilities functional due to decades of conflict and underfunding [WHO, 2023].",
-    "foodInsecurity": "More than 6.5 million people face acute food insecurity, with over 1 million in catastrophic hunger [WFP, 2024].",
-    "waterAccess": "More than 4 million people lack access to safe drinking water due to damaged infrastructure and recurrent droughts [UNICEF, 2023]."
+    "refugees": "Over 1 million Somalis live as refugees and asylum-seekers, primarily in neighbouring Kenya, Ethiopia, and Yemen.",
+    "casualties": "While no definitive figure exists for the entire civil war, an estimated 500,000 people have died from violent conflict-related causes since 1991. The 2011 famine alone killed an estimated 260,000 people.",
+    "affected": "An estimated 8.3 million people require life-saving humanitarian assistance, with over 6.6 million facing acute food insecurity.",
+    "childrenOutOfSchool": "More than 1.5 million children are out of school due to conflict, displacement, and lack of educational infrastructure.",
+    "healthSystemCollapsed": "The healthcare system remains weak with only 50% of health facilities functional due to decades of conflict and underfunding.",
+    "foodInsecurity": "More than 6.5 million people face acute food insecurity, with over 1 million in catastrophic hunger.",
+    "waterAccess": "More than 4 million people lack access to safe drinking water due to damaged infrastructure and recurrent droughts."
   },
   "timeline": [
     {

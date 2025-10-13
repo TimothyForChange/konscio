@@ -5,19 +5,19 @@
   "currentCrisisSummary": "A nationwide pro-democracy revolution against the 2021 military coup—an act designed to protect the military's vast economic empire from democratic reform—has escalated into a full-scale civil war. The junta is losing control over the country, triggering a humanitarian catastrophe and state collapse.",
   "colonialRoot": {
     "colonialPower": "British Empire (1824-1948)",
-    "legacy": "British rule was built on a 'divide-and-rule' strategy that shattered pre-colonial societal structures [Thant Myint-U, 'The River of Lost Footsteps', 2006]. The British created and racialised ethnic categories, administering the Bamar heartland separately from the 'Frontier Areas' of ethnic minorities. They strategically used minorities like the Karen, Kachin, and Chin in the colonial army to suppress the Bamar majority, deliberately manufacturing inter-ethnic resentment. By institutionalising these ethnic hierarchies, Britain left a legacy of a fractured state, laying the groundwork for the world's longest-running civil wars."
+    "legacy": "British rule was built on a 'divide-and-rule' strategy that shattered pre-colonial societal structures. The British created and racialised ethnic categories, administering the Bamar heartland separately from the 'Frontier Areas' of ethnic minorities. They strategically used minorities like the Karen, Kachin, and Chin in the colonial army to suppress the Bamar majority, deliberately manufacturing inter-ethnic resentment. By institutionalising these ethnic hierarchies, Britain left a legacy of a fractured state, laying the groundwork for the world's longest-running civil wars."
   },
   "coreTerms": {
     "militaryCapitalismAndCorporateComplicity": "The Tatmadaw is not just an army; it is a criminal economic enterprise. Through its two conglomerates, MEHL and MEC, the military controls huge swathes of the economy, enriching a small class of generals. The 2021 coup was a move to protect this business empire. This system is sustained by international corporations, particularly in the extractive sector (oil, gas, gems), that have historically partnered with the military, providing a stream of revenue that directly funds the junta's atrocities.",
-    "militaryRuleAsInternalColonialism": "The Tatmadaw's rule functions as a form of internal colonialism. It uses extreme violence to control ethnic peripheries and exploit their natural resources (jade, timber, gas) through its own conglomerates and international corporate partners. The Rohingya genocide is the most extreme manifestation of this system, which uses colonial-era ethnic classifications to exclude and persecute. A UN mission found evidence of 'genocidal intent' in the military's actions [UN Fact-Finding Mission on Myanmar, 2018]."
+    "militaryRuleAsInternalColonialism": "The Tatmadaw's rule functions as a form of internal colonialism. It uses extreme violence to control ethnic peripheries and exploit their natural resources (jade, timber, gas) through its own conglomerates and international corporate partners. The Rohingya genocide is the most extreme manifestation of this system, which uses colonial-era ethnic classifications to exclude and persecute. A UN mission found evidence of 'genocidal intent' in the military's actions."
   },
   "humanitarianImpact": {
-    "displaced": "Over 3 million people internally displaced since the 2021 coup, with millions more displaced by decades of prior conflict [UNHCR/OCHA, 2024].",
-    "refugees": "Nearly 1 million stateless Rohingya refugees remain in camps in Bangladesh, with no prospect for safe return [UNHCR, 2024].",
+    "displaced": "Over 3 million people internally displaced since the 2021 coup, with millions more displaced by decades of prior conflict.",
+    "refugees": "Nearly 1 million stateless Rohingya refugees remain in camps in Bangladesh, with no prospect for safe return.",
     "casualties": "Over 6,000 civilians are confirmed killed by the junta since the coup, though the total conflict death toll since 2021 is estimated to be over 50,000.",
-    "affected": "18.6 million people—one-third of the population—require urgent humanitarian aid as the economy and healthcare system collapse [UN OCHA, 2024].",
-    "childrenOutOfSchool": "Over 1.5 million children are out of school due to conflict and military occupation of educational facilities [UNICEF, 2023].",
-    "healthSystemCollapsed": "More than 70% of the public healthcare system has collapsed due to military attacks and staff strikes [MSF, 2023]."
+    "affected": "18.6 million people—one-third of the population—require urgent humanitarian aid as the economy and healthcare system collapse.",
+    "childrenOutOfSchool": "Over 1.5 million children are out of school due to conflict and military occupation of educational facilities.",
+    "healthSystemCollapsed": "More than 70% of the public healthcare system has collapsed due to military attacks and staff strikes."
   },
   "timeline": [
     {
@@ -38,7 +38,7 @@
     },
     {
       "year": "2017",
-      "event": "**Rohingya Genocide**: The military launches a genocidal campaign of clearance operations against the Rohingya, forcing over 740,000 to flee to Bangladesh [UN Fact-Finding Mission on Myanmar, 2018]."
+      "event": "**Rohingya Genocide**: The military launches a genocidal campaign of clearance operations against the Rohingya, forcing over 740,000 to flee to Bangladesh."
     },
     {
       "year": "2021",

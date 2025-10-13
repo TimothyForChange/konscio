@@ -5,20 +5,20 @@
   "currentCrisisSummary": "Nigeria faces multiple, overlapping humanitarian crises. In the North-East, the Boko Haram and ISWAP insurgencies have created one of Africa's most severe displacement crises. The North-West is terrorised by armed bandit groups engaged in mass kidnapping. Across the country, escalating conflict between herders and farmers deepens the instability. These crises are symptoms of a fractured state, hollowed out by decades of neoliberal economic policies and struggling with the violent legacies of its colonial creation.",
   "colonialRoot": {
     "colonialPower": "Britain",
-    "legacy": "Nigeria's crisis is rooted in its forced creation by Britain. The 1914 amalgamation welded over 250 distinct ethnic nationalities into a single entity without consent. Britain's 'divide and rule' policy institutionalised a political imbalance, creating permanent fault lines for conflict [Walter Rodney]. The colonial economy was purely extractive, leaving behind a state designed not for governance but for plunder. This model was later supercharged by oil and entrenched by neoliberal reforms that dismantled public services."
+    "legacy": "Nigeria's crisis is rooted in its forced creation by Britain. The 1914 amalgamation welded over 250 distinct ethnic nationalities into a single entity without consent. Britain's 'divide and rule' policy institutionalised a political imbalance, creating permanent fault lines for conflict. The colonial economy was purely extractive, leaving behind a state designed not for governance but for plunder. This model was later supercharged by oil and entrenched by neoliberal reforms that dismantled public services."
   },
   "coreTerms": {
     "theNationalQuestion": "This refers to the unresolved contradictions baked into the Nigerian state. The fundamental issue is whether the disparate peoples forcibly amalgamated by Britain can ever form a unified nation. Control of the state's oil-funded apparatus is the primary route to wealth accumulation, making political competition a violent, zero-sum game. The state's legitimacy is perpetually in question because its very foundation is colonial and illegitimate.",
-    "theOilCurseAndNeocolonialExtraction": "Nigeria is a textbook case of the 'resource curse'. Vast oil wealth is siphoned out of the Niger Delta by multinational corporations (Shell, Eni, Chevron) in partnership with a comprador ruling class. This system was locked in place by IMF/World Bank structural adjustment programs in the 1980s, which destroyed Nigeria's domestic economy, deepened its dependency on oil, and created mass poverty, fuelling social breakdown and the violent suppression of communities demanding justice [Amnesty International]."
+    "theOilCurseAndNeocolonialExtraction": "Nigeria is a textbook case of the 'resource curse'. Vast oil wealth is siphoned out of the Niger Delta by multinational corporations (Shell, Eni, Chevron) in partnership with a comprador ruling class. This system was locked in place by IMF/World Bank structural adjustment programs in the 1980s, which destroyed Nigeria's domestic economy, deepened its dependency on oil, and created mass poverty, fuelling social breakdown and the violent suppression of communities demanding justice."
   },
   "humanitarianImpact": {
-    "displaced": "Over 3 million people are internally displaced by conflict, the vast majority in the North-East [UN OCHA, 2024].",
-    "refugees": "More than 340,000 Nigerian refugees have fled to neighbouring Cameroon, Chad, and Niger [UNHCR, 2024].",
-    "casualties": "The conflict in the North-East alone has directly and indirectly caused over 350,000 deaths since 2009, with half being children under five [UNDP, 2021]. Thousands more have been killed by bandits and in farmer-herder clashes.",
-    "affected": "In the North-East, 7.9 million people require urgent humanitarian assistance, with millions facing crisis levels of hunger and malnutrition [UN OCHA, 2024].",
-    "childrenOutOfSchool": "Over 600,000 children are out of school due to conflict, displacement, and destroyed educational infrastructure [UNICEF, 2023].",
-    "poverty": "More than 90 million Nigerians live below the poverty line, the largest number of poor people in any country [World Bank, 2023].",
-    "foodInsecurity": "Over 20 million people face acute food insecurity, with over 700,000 in catastrophic hunger [WFP, 2024]."
+    "displaced": "Over 3 million people are internally displaced by conflict, the vast majority in the North-East.",
+    "refugees": "More than 340,000 Nigerian refugees have fled to neighbouring Cameroon, Chad, and Niger.",
+    "casualties": "The conflict in the North-East alone has directly and indirectly caused over 350,000 deaths since 2009, with half being children under five. Thousands more have been killed by bandits and in farmer-herder clashes.",
+    "affected": "In the North-East, 7.9 million people require urgent humanitarian assistance, with millions facing crisis levels of hunger and malnutrition.",
+    "childrenOutOfSchool": "Over 600,000 children are out of school due to conflict, displacement, and destroyed educational infrastructure.",
+    "poverty": "More than 90 million Nigerians live below the poverty line, the largest number of poor people in any country.",
+    "foodInsecurity": "Over 20 million people face acute food insecurity, with over 700,000 in catastrophic hunger."
   },
   "timeline": [
     {

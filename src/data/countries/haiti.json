@@ -5,21 +5,21 @@
   "currentCrisisSummary": "A catastrophic humanitarian emergency, driven by a near-total collapse of the state. A power vacuum has ceded control of the capital, Port-au-Prince, to heavily armed groups which are often deeply integrated with the country's political and economic elite, unleashing extreme violence and mass displacement.",
   "colonialRoot": {
     "colonialPower": "France (1697-1804)",
-    "legacy": "The crisis is a direct result of Haiti's punishment for its successful slave revolt (1791-1804). After defeating Napoleon's army, the world's first Black republic was treated as a pariah state. In 1825, under threat of invasion, France extorted a crippling 'indemnity' from Haiti as compensation for the 'loss' of enslaved people as property. This foundational act of racial capitalism, with French banks financing the loans, created a debt peonage that crippled the state for a century, systematically draining its wealth and protecting the wider profits of the Atlantic slave economy [The New York Times, 'The Ransom', 2022]."
+    "legacy": "The crisis is a direct result of Haiti's punishment for its successful slave revolt (1791-1804). After defeating Napoleon's army, the world's first Black republic was treated as a pariah state. In 1825, under threat of invasion, France extorted a crippling 'indemnity' from Haiti as compensation for the 'loss' of enslaved people as property. This foundational act of racial capitalism, with French banks financing the loans, created a debt peonage that crippled the state for a century, systematically draining its wealth and protecting the wider profits of the Atlantic slave economy."
   },
   "coreTerms": {
     "neocolonialDebtAndExtraction": "France pioneered a new form of neocolonialism with the 1825 indemnity, establishing a devastatingly effective model for finance capital to enforce imperial domination long after the colonial flags came down. By forcing Haiti to pay its former colonisers the modern equivalent of over $21 billion, France deliberately engineered a state of permanent underdevelopment, creating a cycle of debt dependency and foreign control that has defined Haiti's history.",
-    "imperialInterventionAndOccupation": "From the US occupation (1915-1934)—in which Marines seized Haiti's gold reserves for New York banks and rewrote the constitution to allow foreign land ownership—foreign interventions have systematically undermined Haitian sovereignty. These actions have imposed disastrous neoliberal policies, such as slashing tariffs on imported US rice, which destroyed local agriculture and created chronic food dependency. This has fostered instability and prevented the emergence of Haitian-led institutions, a process compounded by the UN's introduction of cholera [UN Special Rapporteur Report, 2016]."
+    "imperialInterventionAndOccupation": "From the US occupation (1915-1934)—in which Marines seized Haiti's gold reserves for New York banks and rewrote the constitution to allow foreign land ownership—foreign interventions have systematically undermined Haitian sovereignty. These actions have imposed disastrous neoliberal policies, such as slashing tariffs on imported US rice, which destroyed local agriculture and created chronic food dependency. This has fostered instability and prevented the emergence of Haitian-led institutions, a process compounded by the UN's introduction of cholera."
   },
   "humanitarianImpact": {
-    "displaced": "Over 580,000 people internally displaced by extreme violence, the majority women and children [IOM, 2024].",
+    "displaced": "Over 580,000 people internally displaced by extreme violence, the majority women and children.",
     "refugees": "Hundreds of thousands of Haitians have been forced to flee the country, often facing racist and violent border policies in the Dominican Republic and the United States.",
-    "casualties": "Over 8,000 people were killed by gang violence in the first nine months of 2024 alone [UN OHCHR, 2024].",
-    "affected": "5.5 million people—nearly half the population—require humanitarian assistance to survive, with millions facing acute hunger [UN OCHA, 2024].",
-    "childrenOutOfSchool": "More than 500,000 children are out of school due to insecurity and destruction of educational infrastructure [UNICEF, 2024].",
-    "healthSystemCollapsed": "The healthcare system is in a state of collapse, with only 50% of health facilities functional due to attacks, kidnappings, and fuel shortages [WHO, 2024].",
-    "foodInsecurity": "Over 4.7 million people face acute food insecurity, with 19,000 in catastrophic hunger [WFP, 2024].",
-    "waterAccess": "More than 3 million people lack access to safe drinking water due to infrastructure damage and insecurity [UNICEF, 2024]."
+    "casualties": "Over 8,000 people were killed by gang violence in the first nine months of 2024 alone.",
+    "affected": "5.5 million people—nearly half the population—require humanitarian assistance to survive, with millions facing acute hunger.",
+    "childrenOutOfSchool": "More than 500,000 children are out of school due to insecurity and destruction of educational infrastructure.",
+    "healthSystemCollapsed": "The healthcare system is in a state of collapse, with only 50% of health facilities functional due to attacks, kidnappings, and fuel shortages.",
+    "foodInsecurity": "Over 4.7 million people face acute food insecurity, with 19,000 in catastrophic hunger.",
+    "waterAccess": "More than 3 million people lack access to safe drinking water due to infrastructure damage and insecurity."
   },
   "timeline": [
     {
@@ -40,7 +40,7 @@
     },
     {
       "year": "2004",
-      "event": "**Second Coup against Aristide**: The democratically elected president is ousted in a coup backed by the US, France, and Canada after he pursued modest social reforms, like raising the minimum wage, that challenged elite and foreign corporate interests [Peter Hallward, 'Damming the Flood', 2007]."
+      "event": "**Second Coup against Aristide**: The democratically elected president is ousted in a coup backed by the US, France, and Canada after he pursued modest social reforms, like raising the minimum wage, that challenged elite and foreign corporate interests."
     },
     {
       "year": "2010",

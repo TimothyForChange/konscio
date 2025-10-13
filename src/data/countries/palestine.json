@@ -2,24 +2,24 @@
   "name": "Palestine",
   "emoji": "🇵🇸",
   "ariaLabel": "Palestinian flag",
-  "currentCrisisSummary": "An intensifying humanitarian crisis across occupied Palestine, marked by mass displacement, engineered famine, and an ICJ ruling on the plausibility of genocide in Gaza [International Court of Justice, 2024], a crisis that serves the strategic interests of Western imperialism in the region.",
+  "currentCrisisSummary": "An intensifying humanitarian crisis across occupied Palestine, marked by mass displacement, engineered famine, and an ICJ ruling on the plausibility of genocide in Gaza [ICJ, 26 January 2024], a crisis that serves the strategic interests of Western imperialism in the region.",
   "colonialRoot": {
     "colonialPower": "British Empire",
-    "legacy": "The crisis is rooted in Britain's Mandate (1920-1948). The Balfour Declaration (1917) promised their homeland to the Zionist movement without Palestinian consent [British Foreign Office, 1917]. British policy deliberately fostered conflict by promoting mass colonial settlement while suppressing Palestinian rights [Khalidi, 2006]. Britain's 1948 abdication directly enabled the Nakba ('catastrophe'), where over 750,000 Palestinians were ethnically cleansed to establish the state of Israel, creating a refugee crisis Britain refused to resolve [Morris, 2004]. The ongoing Israeli occupation is a direct continuation of this colonial legacy of dispossession."
+    "legacy": "The crisis is rooted in Britain's Mandate (1920-1948). The Balfour Declaration (1917) promised their homeland to the Zionist movement without Palestinian consent. British policy deliberately fostered conflict by promoting mass colonial settlement while suppressing Palestinian rights. Britain's 1948 abdication directly enabled the Nakba ('catastrophe'), where over 750,000 Palestinians were ethnically cleansed to establish the state of Israel, creating a refugee crisis Britain refused to resolve. The ongoing Israeli occupation is a direct continuation of this colonial legacy of dispossession."
   },
   "coreTerms": {
     "geopoliticalComplicity": "The conflict is sustained by Western powers, primarily the US and UK, which provide Israel with billions in unconditional military aid. This imperial backing is not ideological; it ensures Israel remains a strategic garrison for protecting Western control over Middle East resources and serves as a highly profitable, 'battle-testing' ground for the Western arms industry.",
-    "settlerColonialismAndApartheid": "The crisis is a result of unresolved colonial injustices, including the right of return for refugees and the illegality of settlements. Leading human rights organisations now describe the system of Israeli control as apartheid [B'Tselem, 2021; HRW, 2021; Amnesty, 2022]. This system is also profitable, enabling the expropriation of Palestinian land and water resources and the exploitation of a captive labour market."
+    "settlerColonialismAndApartheid": "The crisis is a result of unresolved colonial injustices, including the right of return for refugees and the illegality of settlements. Leading human rights organisations now describe the system of Israeli control as apartheid. This system is also profitable, enabling the expropriation of Palestinian land and water resources and the exploitation of a captive labour market."
   },
   "humanitarianImpact": {
-    "displaced": "Over 1.9 million internally displaced in Gaza (nearly 85% of the population), plus ongoing displacement in the West Bank, including East Jerusalem [UN OCHA, 2024].",
-    "refugees": "5.9 million registered Palestinian refugees (UNRWA), descendants of those displaced since 1948 [UNRWA, 2024].",
-    "casualties": "Over 67,000 killed in Gaza since October 2023, with thousands more missing, presumed dead under the rubble [Gaza Ministry of Health, 2024] (verified by UN and international agencies).",
-    "affected": "Gaza's entire population of 2.3 million faces a catastrophic humanitarian crisis, including engineered famine and the systematic dismantling of its healthcare system [UN OCHA; IPC, 2024].",
-    "childrenOutOfSchool": "Over 600,000 children are out of school due to destruction of educational infrastructure and ongoing conflict [UNICEF, 2024].",
-    "healthSystemCollapsed": "The healthcare system in Gaza has completely collapsed with only 30% of essential services available [WHO, 2024].",
-    "waterAccess": "95% of Gaza's water is undrinkable due to contamination from damaged infrastructure and conflict debris [UNICEF, 2024].",
-    "foodInsecurity": "Over 1 million people in Gaza face catastrophic levels of hunger [WFP, 2024]."
+    "displaced": "Over 1.9 million internally displaced in Gaza (nearly 90% of the population) [UN OCHA, 2024], plus ongoing displacement in the West Bank, including East Jerusalem.",
+    "refugees": "5.9 million registered Palestinian refugees (UNRWA), descendants of those displaced since 1948.",
+    "casualties": "Between 64,000 [LSHTM study, The Lancet, January 2025] and 67,000 killed in Gaza since October 2023, with thousands more missing, presumed dead under the rubble.",
+    "affected": "Gaza's entire population of 2.3 million faces a catastrophic humanitarian crisis, including engineered famine and the systematic dismantling of its healthcare system.",
+    "childrenOutOfSchool": "Over 600,000 children are out of school due to destruction of educational infrastructure and ongoing conflict.",
+    "healthSystemCollapsed": "The healthcare system in Gaza has completely collapsed with only 30% of essential services available.",
+    "waterAccess": "95% of Gaza's water is undrinkable due to contamination from damaged infrastructure and conflict debris.",
+    "foodInsecurity": "Over 1 million people in Gaza face catastrophic levels of hunger."
   },
   "timeline": [
     {
@@ -44,7 +44,7 @@
     },
     {
       "year": "2018-2019",
-      "event": "**Great March of Return**: Mass civilian protests in Gaza demanding the right of return are met with lethal force by Israeli snipers, killing hundreds [UN Commission of Inquiry, 2019]."
+      "event": "**Great March of Return**: Mass civilian protests in Gaza demanding the right of return are met with lethal force by Israeli snipers, killing hundreds."
     },
     {
       "year": "2023",
@@ -52,7 +52,7 @@
     },
     {
       "year": "2024",
-      "event": "**ICJ Plausible Genocide Ruling**: The ICJ rules it has jurisdiction and that claims of genocide in Gaza are plausible, ordering provisional measures against Israel [International Court of Justice, 2024]."
+      "event": "**ICJ Plausible Genocide Ruling**: The ICJ rules it has jurisdiction and that claims of genocide in Gaza are plausible [ICJ, 26 January 2024], ordering provisional measures against Israel."
     }
   ],
   "takeAction": {

@@ -2,22 +2,22 @@
   "name": "South Sudan",
   "emoji": "🇸🇸",
   "ariaLabel": "South Sudanese flag",
-  "currentCrisisSummary": "South Sudan is gripped by a humanitarian emergency, fuelled by a kleptocratic elite conflict over the profits of a violent oil-extraction industry, catastrophic climate-driven flooding, and spillover from Sudan's war. These converging crises have left most of the population dependent on aid and facing one of the world's most severe hunger crises [UN OCHA, 2024].",
+  "currentCrisisSummary": "South Sudan is gripped by a humanitarian emergency, fuelled by a kleptocratic elite conflict over the profits of a violent oil-extraction industry, catastrophic climate-driven flooding, and spillover from Sudan's war. These converging crises have left most of the population dependent on aid and facing one of the world's most severe hunger crises.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "Britain's 'Southern Policy' was a divide-and-rule strategy that sealed the south off from the 'Arab' north, deliberately blocking its development [Douglas H. Johnson, 2011]. This engineered disparity created a foundation of extreme inequality, making decades of civil war almost inevitable. This weakness also ensured that any future independent state would be highly susceptible to neocolonial penetration and resource exploitation."
+    "legacy": "Britain's 'Southern Policy' was a divide-and-rule strategy that sealed the south off from the 'Arab' north, deliberately blocking its development. This engineered disparity created a foundation of extreme inequality, making decades of civil war almost inevitable. This weakness also ensured that any future independent state would be highly susceptible to neocolonial penetration and resource exploitation."
   },
   "coreTerms": {
-    "kleptocracyAndTheGlobalFinancialSystem": "The civil war is a violent struggle between a predatory elite fighting for control of the state, which functions as a machine for looting oil money. This kleptocracy is enabled by the architecture of global finance capitalism; the ruling class uses international banks, shell companies, and the global luxury property market to launder and hide billions in stolen wealth. The conflict itself is used as a cover for this mass theft [UN Panel of Experts on South Sudan, 2024].",
+    "kleptocracyAndTheGlobalFinancialSystem": "The civil war is a violent struggle between a predatory elite fighting for control of the state, which functions as a machine for looting oil money. This kleptocracy is enabled by the architecture of global finance capitalism; the ruling class uses international banks, shell companies, and the global luxury property market to launder and hide billions in stolen wealth. The conflict itself is used as a cover for this mass theft.",
     "bloodOilAndClimateInjustice": "South Sudan's agony is driven by two forms of extraction. Firstly, its oil is 'blood oil', extracted by foreign corporations (primarily Chinese, Malaysian, and Indian) in partnership with the kleptocratic elite. This revenue directly funds the war. Secondly, it suffers from extreme climate injustice. Unprecedented flooding, caused by the emissions of the industrialised Global North, has destroyed livelihoods and acts as a conflict multiplier, intensifying the violent competition over resources that the oil economy has already inflamed."
   },
   "humanitarianImpact": {
-    "displaced": "Over 2 million people are internally displaced by conflict and flooding [IOM, 2024].",
-    "refugees": "More than 2.2 million refugees have fled to neighbouring countries, making it Africa's largest refugee crisis [UNHCR, 2024].",
-    "casualties": "A 2018 study estimated that nearly 400,000 excess deaths were attributable to the civil war since 2013 [London School of Hygiene & Tropical Medicine study, 2018].",
-    "affected": "9 million people require urgent humanitarian assistance. 7.1 million face crisis levels of hunger, with parts of the country facing a man-made risk of famine driven by conflict and the obstruction of aid [UN OCHA; IPC, 2024].",
-    "childrenOutOfSchool": "More than 2.2 million children are out of school, one of the highest numbers in the world, due to conflict and destruction of educational infrastructure [UNICEF, 2023].",
-    "poverty": "More than 80% of the population lives below the poverty line, making South Sudan one of the poorest countries globally [World Bank, 2024]."
+    "displaced": "Over 2 million people are internally displaced by conflict and flooding.",
+    "refugees": "More than 2.2 million refugees have fled to neighbouring countries, making it Africa's largest refugee crisis.",
+    "casualties": "A 2018 study estimated that nearly 400,000 excess deaths were attributable to the civil war since 2013.",
+    "affected": "9 million people require urgent humanitarian assistance. 7.1 million face crisis levels of hunger, with parts of the country facing a man-made risk of famine driven by conflict and the obstruction of aid.",
+    "childrenOutOfSchool": "More than 2.2 million children are out of school, one of the highest numbers in the world, due to conflict and destruction of educational infrastructure.",
+    "poverty": "More than 80% of the population lives below the poverty line, making South Sudan one of the poorest countries globally."
   },
   "timeline": [
     {

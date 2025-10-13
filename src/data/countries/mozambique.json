@@ -2,23 +2,23 @@
   "name": "Mozambique",
   "emoji": "🇲🇿",
   "ariaLabel": "Mozambique flag",
-  "currentCrisisSummary": "The northern province of Cabo Delgado is the centre of a violent conflict over some of the largest natural gas reserves in Africa. The insurgency, led by the group Ahlu Sunnah wa Jama'a (ASWJ), is rooted in local grievances against a ruling elite and its multinational corporate partners (e.g., TotalEnergies, ExxonMobil) that have captured the region's wealth while displacing the local population. The conflict is characterised by extreme brutality, with the intervention of foreign troops seen as protecting corporate assets over Mozambican lives [ACLED, 2024].",
+  "currentCrisisSummary": "The northern province of Cabo Delgado is the centre of a violent conflict over some of the largest natural gas reserves in Africa. The insurgency, led by the group Ahlu Sunnah wa Jama'a (ASWJ), is rooted in local grievances against a ruling elite and its multinational corporate partners (e.g., TotalEnergies, ExxonMobil) that have captured the region's wealth while displacing the local population. The conflict is characterised by extreme brutality, with the intervention of foreign troops seen as protecting corporate assets over Mozambican lives.",
   "colonialRoot": {
     "colonialPower": "Portugal",
-    "legacy": "The crisis is a legacy of 500 years of Portuguese colonial exploitation, based on forced labour and resource extraction. At independence in 1975, following a liberation war led by FRELIMO, Portugal sabotaged the nation's infrastructure [Allen Isaacman, 1983]. The post-civil war era saw this weakness exploited by the IMF and World Bank, which forced FRELIMO to abandon its socialist project for neoliberal reforms that paved the way for today's resource war."
+    "legacy": "The crisis is a legacy of 500 years of Portuguese colonial exploitation, based on forced labour and resource extraction. At independence in 1975, following a liberation war led by FRELIMO, Portugal sabotaged the nation's infrastructure. The post-civil war era saw this weakness exploited by the IMF and World Bank, which forced FRELIMO to abandon its socialist project for neoliberal reforms that paved the way for today's resource war."
   },
   "coreTerms": {
     "bloodGasAndNeocolonialExtraction": "The vast offshore gas fields are a modern 'resource curse', fuelling a conflict over 'blood gas' which is greenwashed as a 'transition fuel' for the Global North. The FRELIMO elite acts as a comprador class, managing the violent dispossession of its own people on behalf of foreign capital. This arrangement mirrors the colonial model, where resources are funnelled out of the country, leaving communities with only the environmental and social costs.",
-    "destabilisationAndProxyWars": "Mozambique's post-independence history is defined by foreign-backed destabilisation. The devastating civil war (1977-1992) was a proxy war waged by the Rhodesian and Apartheid South African regimes [Joseph Hanlon, 1986]. This legacy is compounded by modern financial destabilisation, such as the 'hidden debts' scandal, where banks like Credit Suisse colluded with state officials to indebt the nation for billions, enforcing austerity on the poor while enriching a tiny elite."
+    "destabilisationAndProxyWars": "Mozambique's post-independence history is defined by foreign-backed destabilisation. The devastating civil war (1977-1992) was a proxy war waged by the Rhodesian and Apartheid South African regimes. This legacy is compounded by modern financial destabilisation, such as the 'hidden debts' scandal, where banks like Credit Suisse colluded with state officials to indebt the nation for billions, enforcing austerity on the poor while enriching a tiny elite."
   },
   "humanitarianImpact": {
-    "displaced": "Over 1 million people have been internally displaced by the conflict in the north [UN OCHA, 2024].",
-    "refugees": "Tens of thousands have fled as refugees and asylum seekers, primarily to Tanzania [UNHCR, 2024].",
-    "casualties": "More than 5,000 people have been killed in organised violence since the insurgency began in 2017 [ACLED, 2024].",
-    "affected": "Nearly 2 million people in the northern provinces require life-saving humanitarian assistance and protection [UN OCHA, 2024].",
-    "childrenOutOfSchool": "More than 150,000 children are out of school due to the conflict and displacement [UNICEF, 2023].",
-    "healthSystemCollapsed": "Only 40% of health facilities in Cabo Delgado are fully functional due to attacks and staff fleeing the region [WHO, 2023].",
-    "foodInsecurity": "Over 1 million people in northern Mozambique face crisis levels of food insecurity [WFP, 2023]."
+    "displaced": "Over 1 million people have been internally displaced by the conflict in the north.",
+    "refugees": "Tens of thousands have fled as refugees and asylum seekers, primarily to Tanzania.",
+    "casualties": "More than 5,000 people have been killed in organised violence since the insurgency began in 2017.",
+    "affected": "Nearly 2 million people in the northern provinces require life-saving humanitarian assistance and protection.",
+    "childrenOutOfSchool": "More than 150,000 children are out of school due to the conflict and displacement.",
+    "healthSystemCollapsed": "Only 40% of health facilities in Cabo Delgado are fully functional due to attacks and staff fleeing the region.",
+    "foodInsecurity": "Over 1 million people in northern Mozambique face crisis levels of food insecurity."
   },
   "timeline": [
     {

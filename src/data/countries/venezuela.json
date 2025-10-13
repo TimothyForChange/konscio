@@ -2,25 +2,25 @@
   "name": "Venezuela",
   "emoji": "🇻🇪",
   "ariaLabel": "Venezuelan flag",
-  "currentCrisisSummary": "Venezuela is enduring a complex humanitarian emergency driven by the catastrophic collapse of its neocolonial, oil-dependent model of capitalist development, political polarisation, and crippling external sanctions. The implosion of the state has destroyed public services, triggered hyperinflation, and created one of the largest migrant and refugee crises in the world [UN OCHA, 2025].",
+  "currentCrisisSummary": "Venezuela is enduring a complex humanitarian emergency driven by the catastrophic collapse of its neocolonial, oil-dependent model of capitalist development, political polarisation, and crippling external sanctions. The implosion of the state has destroyed public services, triggered hyperinflation, and created one of the largest migrant and refugee crises in the world.",
   "colonialRoot": {
     "colonialPower": "Spanish Empire",
-    "legacy": "The crisis is rooted in the colonial-era extractive model. The 20th-century discovery of oil intensified this neocolonial pattern, transforming Venezuela into a quintessential 'petro-state' [Fernando Coronil, 1997]. The entire national economy became dependent on oil exports, creating a corrupt, rentier political culture and preventing the development of a diversified economic base."
+    "legacy": "The crisis is rooted in the colonial-era extractive model. The 20th-century discovery of oil intensified this neocolonial pattern, transforming Venezuela into a quintessential 'petro-state'. The entire national economy became dependent on oil exports, creating a corrupt, rentier political culture and preventing the development of a diversified economic base."
   },
   "coreTerms": {
     "theOilCurseAndPetroStateCollapse": "Venezuela's oil wealth became a curse, creating a 'petro-state' where politics was a battle between elite factions to control oil rents. The 'Bolivarian Revolution' redirected this rent towards social programs but failed to break from the extractive model, creating a 'petro-socialism' that remained hostage to the global oil market. The current crisis is the predictable failure of this neocolonial petro-state model, a structure that is inherently unsustainable regardless of its political orientation.",
-    "hybridWarfareAndCoerciveMeasures": "While internal factors triggered the crisis, its severity has been massively amplified by US 'maximum pressure'. This represents the weaponization of the US-dominated global financial system, using sanctions as a tool of hybrid warfare to destroy a national economy. These coercive measures, which have blocked access to food and medicine and are directly responsible for tens of thousands of deaths, constitute a form of collective punishment designed to enforce imperial discipline [CEPR, 2019]."
+    "hybridWarfareAndCoerciveMeasures": "While internal factors triggered the crisis, its severity has been massively amplified by US 'maximum pressure'. This represents the weaponization of the US-dominated global financial system, using sanctions as a tool of hybrid warfare to destroy a national economy. These coercive measures, which have blocked access to food and medicine and are directly responsible for tens of thousands of deaths, constitute a form of collective punishment designed to enforce imperial discipline."
   },
   "humanitarianImpact": {
-    "displaced": "Over 7.7 million Venezuelans have left the country, creating the largest refugee and migrant crisis in the recent history of the Americas [R4V Platform, 2025].",
+    "displaced": "Over 7.7 million Venezuelans have left the country, creating the largest refugee and migrant crisis in the recent history of the Americas.",
     "refugees": "The vast majority of those who have fled remain in Latin American and Caribbean countries, placing immense strain on the region.",
-    "casualties": "While conflict casualties are low, excess mortality from the collapse of the health system is vast. US sanctions were estimated to have caused more than 40,000 deaths between 2017-2018 alone [CEPR, 2019].",
-    "affected": "An estimated 19 million people inside Venezuela have urgent humanitarian needs, with the healthcare system in a state of collapse and millions facing severe food insecurity [Humanitarian Response Plan, 2025].",
-    "childrenOutOfSchool": "More than 1.5 million children are out of school due to economic crisis, migration, and lack of functioning educational infrastructure [UNICEF, 2023].",
-    "healthSystemCollapsed": "The healthcare system has collapsed with 75% of hospitals lacking basic medical supplies and equipment due to economic sanctions and crisis [WHO, 2023].",
-    "foodInsecurity": "More than 6 million people face food insecurity due to economic collapse and hyperinflation [WFP, 2023].",
-    "waterAccess": "More than 4 million people lack access to safe drinking water due to infrastructure collapse [UNICEF, 2023].",
-    "poverty": "More than 90% of the population lives in poverty due to economic collapse and hyperinflation [World Bank, 2024]."
+    "casualties": "While conflict casualties are low, excess mortality from the collapse of the health system is vast. US sanctions were estimated to have caused more than 40,000 deaths between 2017-2018 alone.",
+    "affected": "An estimated 19 million people inside Venezuela have urgent humanitarian needs, with the healthcare system in a state of collapse and millions facing severe food insecurity.",
+    "childrenOutOfSchool": "More than 1.5 million children are out of school due to economic crisis, migration, and lack of functioning educational infrastructure.",
+    "healthSystemCollapsed": "The healthcare system has collapsed with 75% of hospitals lacking basic medical supplies and equipment due to economic sanctions and crisis.",
+    "foodInsecurity": "More than 6 million people face food insecurity due to economic collapse and hyperinflation.",
+    "waterAccess": "More than 4 million people lack access to safe drinking water due to infrastructure collapse.",
+    "poverty": "More than 90% of the population lives in poverty due to economic collapse and hyperinflation."
   },
   "timeline": [
     {
