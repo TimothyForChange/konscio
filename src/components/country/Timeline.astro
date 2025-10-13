@@ -62,7 +62,7 @@ if (!timeline || !Array.isArray(timeline) || timeline.length === 0) {
     --timeline-gutter: 48px;
     display: grid;
     grid-template-columns: var(--timeline-gutter) 1fr;
-    gap: 0 1rem;
+    gap: 0.25rem 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
@@ -78,10 +78,13 @@ if (!timeline || !Array.isArray(timeline) || timeline.length === 0) {
     position: relative;
     grid-column: 1 / 2;
     z-index: 2;
+    margin-top: -0.5rem;
   }
 
   .timeline-body {
     grid-column: 2 / -1;
+    display: flex;
+    align-items: center;
   }
 
   .timeline-content {
@@ -90,7 +93,6 @@ if (!timeline || !Array.isArray(timeline) || timeline.length === 0) {
     border-radius: 8px;
     padding: 1rem 1.25rem;
     box-shadow: 0 2px 4px rgb(0 0 0 / 5%);
-    margin-bottom: 2rem;
   }
 
   .timeline-year {
@@ -135,8 +137,8 @@ if (!timeline || !Array.isArray(timeline) || timeline.length === 0) {
     content: '';
     position: absolute;
     left: calc(var(--timeline-gutter) / 2);
-    top: 0;
-    bottom: 0;
+    top: calc(var(--timeline-dot-size) / 2);
+    bottom: calc(var(--timeline-dot-size) / 2);
     width: var(--timeline-border);
     background: var(--accent-primary);
     transform: translateX(-50%);
