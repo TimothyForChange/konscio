@@ -9,8 +9,6 @@ export interface Props {
     casualties?: string;
     affected?: string;
     poverty?: string;
-    hospitalsAffected?: string;
-    schoolsAffected?: string;
     childrenOutOfSchool?: string;
     healthSystemCollapsed?: string;
     foodInsecurity?: string;
@@ -62,18 +60,6 @@ if (humanitarianImpact.poverty !== undefined) {
   stats.push({
     label: 'Living Below Poverty Line',
     value: formatText(humanitarianImpact.poverty ?? '—'),
-  });
-}
-if (humanitarianImpact.hospitalsAffected !== undefined) {
-  stats.push({
-    label: 'Hospitals Affected',
-    value: formatText(humanitarianImpact.hospitalsAffected ?? '—'),
-  });
-}
-if (humanitarianImpact.schoolsAffected !== undefined) {
-  stats.push({
-    label: 'Schools Affected',
-    value: formatText(humanitarianImpact.schoolsAffected ?? '—'),
   });
 }
 if (humanitarianImpact.childrenOutOfSchool !== undefined) {
