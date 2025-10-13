@@ -1,9 +1,10 @@
 ---
 import countries from '../../data/countries.json';
+import type { Country } from '../../types/Country';
 import CategoryFilter from './CategoryFilter.astro';
 import CountryCard from './CountryCard.astro';
 
-const validCountries = Array.isArray(countries)
+const validCountries: Country[] = Array.isArray(countries)
   ? countries.filter(
       (country) =>
         country &&

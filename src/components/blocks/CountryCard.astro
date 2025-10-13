@@ -1,10 +1,9 @@
 ---
-export interface CountryCardProps {
+import type { Country } from '../../types/Country';
+
+export interface CountryCardProps extends Partial<Country> {
   slug: string;
   name: string;
-  flag?: string;
-  description?: string;
-  category?: string;
 }
 const { slug, name, flag, description, category } =
   Astro.props as CountryCardProps;

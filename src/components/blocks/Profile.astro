@@ -1,21 +1,7 @@
 ---
 import userData from '../../data/user.json';
 import { getSouthAfricaEmoji } from '../../scripts/utils';
-
-type Link = { url: string; icon?: string; title: string; description?: string };
-type Country = {
-  name: string;
-  slug: string;
-  flag?: string;
-  description?: string;
-};
-type User = {
-  name: string;
-  profession?: string;
-  bio?: string;
-  countries?: Country[];
-  links?: Link[];
-};
+import type { User } from '../../types/User';
 
 const user = userData as User;
 const { name = 'Unknown User', profession, bio } = user;

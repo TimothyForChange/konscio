@@ -9,7 +9,7 @@ const { icon, title } = Astro.props as Props;
 
 <div class='action-group'>
   <h3>
-    {icon ? <i class={icon} /> : null}
+    {icon ? <i class={icon} aria-hidden='true' /> : null}
     {title}
   </h3>
   <slot />

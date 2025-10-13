@@ -1,5 +1,6 @@
 import countriesData from '../data/countries.json';
 import termMappingsData from '../data/termMappings.json';
+import type { Country } from '../types/Country';
 
 export function getSouthAfricaEmoji(): { emoji: string; ariaLabel: string } {
   return {
@@ -37,7 +38,9 @@ export async function getCountryMetadata(
   countrySlug: string
 ): Promise<{ emoji: string; ariaLabel: string } | null> {
   try {
-    const country = countriesData.find((c) => c.slug === countrySlug);
+    const country = (countriesData as Country[]).find(
+      (c) => c.slug === countrySlug
+    );
     if (!country) {
       return null;
     }

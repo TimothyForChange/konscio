@@ -1,14 +1,19 @@
 ---
-export interface DonateOrgCardProps {
-  organisation?: string;
-  description?: string;
-  url?: string;
-}
-const { organisation, description, url } = Astro.props as DonateOrgCardProps;
+import type { Link } from '../../types/Country';
 
-const safeOrganisation =
+export interface DonateOrgCardProps extends Partial<Link> {
+  organisation?: string;
+}
+const { organisation, description, url, title } =
+  Astro.props as DonateOrgCardProps;
+
+const rawTitle =
   typeof organisation === 'string' && organisation.trim() !== ''
     ? organisation
+    : title;
+const safeOrganisation =
+  typeof rawTitle === 'string' && rawTitle.trim() !== ''
+    ? rawTitle
     : 'Organisation';
 const safeDescription = typeof description === 'string' ? description : '';
 const safeUrl =
@@ -28,8 +33,9 @@ const safeUrl =
     target='_blank'
     rel='noopener noreferrer'
     class='donate-link'
+    aria-label={`Donate to ${safeOrganisation}`}
   >
-    <i class='ri-external-link-line'></i>
+    <i class='ri-external-link-line' aria-hidden='true'></i>
     Donate
   </a>
 </div>
