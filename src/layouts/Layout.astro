@@ -7,6 +7,7 @@ import Footer from '../components/layout/Footer.astro';
 export let title = 'Timothy Brits';
 export let description = undefined;
 export let canonicalUrl = undefined;
+export let countrySlug: string | undefined = undefined;
 
 const ldObject = {
   '@context': 'https://schema.org',
@@ -97,6 +98,12 @@ function trimDescription(desc: string, max = 160) {
 const rawDescription = description || defaultDescription;
 const pageDescription = trimDescription(rawDescription, 160);
 const pageCanonicalUrl = canonicalUrl || 'https://www.timothyforchange.co.za/';
+const isCountryPage =
+  typeof countrySlug === 'string' &&
+  Array.isArray(countriesList) &&
+  countriesList.some((c) => c.slug === countrySlug);
+const defaultImage = '/me.webp';
+const socialImage = isCountryPage ? undefined : defaultImage;
 ---
 
 <!doctype html>
@@ -113,10 +120,25 @@ const pageCanonicalUrl = canonicalUrl || 'https://www.timothyforchange.co.za/';
     <meta property='og:title' content={title} />
     <meta property='og:description' content={pageDescription} />
     <meta property='og:site_name' content='Timothy Brits' />
-    <meta
-      property='og:image'
-      content='https://www.timothyforchange.co.za/apple-touch-icon.png'
-    />
+    {
+      socialImage ? (
+        <>
+          <meta
+            property='og:image'
+            content={`https://www.timothyforchange.co.za${socialImage}`}
+          />
+          <meta name='twitter:card' content='summary_large_image' />
+          <meta name='twitter:title' content={title} />
+          <meta name='twitter:description' content={pageDescription} />
+          <meta
+            name='twitter:image'
+            content={`https://www.timothyforchange.co.za${socialImage}`}
+          />
+        </>
+      ) : (
+        <meta name='twitter:card' content='summary' />
+      )
+    }
     <meta name='color-scheme' content='light dark' />
     <link rel='canonical' href={pageCanonicalUrl} />
     <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
