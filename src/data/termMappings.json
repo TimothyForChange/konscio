@@ -12,7 +12,7 @@
     "imperialInterventionAndOccupation": "Imperial Intervention & Occupation"
   },
   "myanmar": {
-    "ethnoNationalismAndFederalism": "Ethno-Nationalism & Federalism",
+    "militaryCapitalismAndCorporateComplicity": "Military Capitalism & Corporate Complicity",
     "militaryRuleAsInternalColonialism": "Military Rule as Internal Colonialism"
   },
   "palestine": {
@@ -20,27 +20,27 @@
     "settlerColonialismAndApartheid": "Settler Colonialism & Apartheid"
   },
   "south-sudan": {
-    "kleptocracyAndEliteConflict": "Kleptocracy & Elite Conflict",
-    "climateInjusticeAndConflict": "Climate Injustice & Conflict"
+    "kleptocracyAndTheGlobalFinancialSystem": "Kleptocracy & the Global Financial System",
+    "bloodOilAndClimateInjustice": "Oil, Conflict & Climate Challenges"
   },
   "sudan": {
-    "proxyWarForResources": "Proxy War for Resources",
-    "inheritedStateViolence": "Inherited State Violence"
+    "militaryVsMercenaryCapitalism": "Military vs. Mercenary Capitalism",
+    "counterRevolutionAndForeignPlunder": "Political Upheaval & Foreign Interests"
   },
   "syria": {
-    "weaponisedSectarianism": "Weaponised Sectarianism",
-    "inheritedStateRepression": "Inherited State Repression"
+    "neoliberalismAndCronyCapitalism": "Neoliberalism & Crony Capitalism",
+    "proxyWarAndWarlordEconomy": "Proxy War & Warlord Economy"
   },
   "ukraine": {
-    "imperialAmbition": "Imperial Ambition",
-    "decolonisationAndResistance": "Decolonisation & Resistance"
+    "fossilFuelImperialism": "Fossil Fuel Geopolitics",
+    "decolonisationAndTheOligarchs": "Decolonisation & the Oligarchs"
   },
   "yemen": {
     "geopoliticalChokepointAndLogisticsCapitalism": "Geopolitical Chokepoint & Logistics Capitalism",
-    "armsIndustryProfitsAndWesternComplicity": "Arms Industry Profits & Western Complicity"
+    "armsIndustryProfitsAndWesternComplicity": "Arms Trade & International Involvement"
   },
   "mozambique": {
-    "bloodGasAndNeocolonialExtraction": "Blood Gas & Neocolonial Extraction",
+    "bloodGasAndNeocolonialExtraction": "Natural Gas, Conflict & External Influence",
     "destabilisationAndProxyWars": "Destabilisation & Proxy Wars"
   },
   "sahel": {
@@ -61,6 +61,6 @@
   },
   "somalia": {
     "theFragmentedState": "The Fragmented State",
-    "climateCatastropheAndPermanentCrisis": "Climate Catastrophe & Permanent Crisis"
+    "climateColonialismAndPredatoryCapitalism": "Climate Crisis & Economic Exploitation"
   }
 }
