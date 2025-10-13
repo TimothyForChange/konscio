@@ -19,19 +19,13 @@ const ldObject = {
       alternateName: 'Timothy',
       url: 'https://www.timothyforchange.co.za',
       image: 'https://www.timothyforchange.co.za/me.webp',
-      jobTitle: 'Software Engineer',
+      jobTitle: 'Humanitarian Advocate',
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Pretoria',
         addressCountry: 'ZA',
       },
-      knowsAbout: [
-        'Software Development',
-        '.NET',
-        'Node.js',
-        'Humanitarian Awareness',
-        'Global Crises',
-      ],
+      knowsAbout: ['Humanitarian Awareness', 'Global Crises'],
       sameAs: [
         'https://github.com/TimothyForChange',
         'https://www.instagram.com/timothyforchange/',
@@ -44,7 +38,7 @@ const ldObject = {
       url: 'https://www.timothyforchange.co.za',
       name: 'Timothy Brits',
       description:
-        'Timothy Brits - Software Engineer raising awareness about global humanitarian crises',
+        'Timothy Brits - Humanitarian advocate raising awareness about global humanitarian crises',
       publisher: {
         '@id': 'https://www.timothyforchange.co.za/#person',
       },
@@ -68,13 +62,13 @@ const countryNames = Array.isArray(countriesList)
       .filter(Boolean)
       .join(', ')
   : '';
-const defaultDescription = `Timothy Brits - Software Engineer, raising awareness about global humanitarian crises. Learn about ongoing conflicts and humanitarian issues in ${countryNames}.`;
+const defaultDescription = `Timothy Brits - Humanitarian advocate, raising awareness about global humanitarian crises. Learn about ongoing conflicts and humanitarian issues in ${countryNames}.`;
 const baseKeywords = [
   'Timothy Brits',
-  'developer',
-  'software engineer',
   'advocacy',
+  'advocate',
   'humanitarian awareness',
+  'human rights',
   'global crises',
   'social justice',
   'humanitarian aid',
