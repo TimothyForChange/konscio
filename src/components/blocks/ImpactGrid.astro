@@ -7,13 +7,24 @@ export interface Props {
 
 const { stats } = Astro.props as Props;
 
-if (!stats || stats.length === 0) {
+const safeStats = Array.isArray(stats)
+  ? stats
+      .filter(
+        (stat) => stat && typeof stat === 'object' && stat.label && stat.value
+      )
+      .map((stat) => ({
+        label: typeof stat.label === 'string' ? stat.label : 'Label',
+        value: typeof stat.value === 'string' ? stat.value : '—',
+      }))
+  : [];
+
+if (!safeStats || safeStats.length === 0) {
   return null;
 }
 ---
 
 <div class='impact-stats'>
-  {stats.map((s) => <ImpactStat label={s.label} value={s.value} />)}
+  {safeStats.map((s) => <ImpactStat label={s.label} value={s.value} />)}
 </div>
 
 <style>

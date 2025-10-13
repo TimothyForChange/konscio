@@ -4,10 +4,11 @@ export interface ActionCardProps {
   html?: boolean;
 }
 const { content, html = false } = Astro.props as ActionCardProps;
+const safeContent = content || '';
 ---
 
-<div class='action-card' set:html={html ? content : undefined}>
-  {html ? null : content}
+<div class='action-card' set:html={html ? safeContent : undefined}>
+  {html ? null : safeContent}
 </div>
 
 <style>

@@ -17,7 +17,8 @@ type User = {
   links?: Link[];
 };
 
-const { name, profession, bio } = userData as User;
+const user = userData as User;
+const { name = 'Unknown User', profession, bio } = user;
 ---
 
 <header class='profile'>
@@ -36,35 +37,37 @@ const { name, profession, bio } = userData as User;
 
   <div class='profile-data'>
     <h1 class='profile-name'>{name}</h1>
-    <p class='profile-profession'>{profession}</p>
-    <div class='profile-bio'>
-      <p class='profile-bio-text'>
-        {
-          (() => {
-            const pretoriaIndex = bio?.indexOf('Pretoria');
-            if (bio && pretoriaIndex !== undefined && pretoriaIndex !== -1) {
-              const before = bio.slice(0, pretoriaIndex + 'Pretoria'.length);
-              const after = bio.slice(pretoriaIndex + 'Pretoria'.length);
-              const { emoji, ariaLabel } = getSouthAfricaEmoji();
-              return (
-                <>
-                  {before}{' '}
-                  <span
-                    role='img'
-                    aria-label={ariaLabel}
-                    style='font-size:1.1em;'
-                  >
-                    {emoji}
-                  </span>
-                  {after}
-                </>
-              );
-            }
-            return bio;
-          })()
-        }
-      </p>
-    </div>
+    {profession && <p class='profile-profession'>{profession}</p>}
+    {
+      bio && (
+        <div class='profile-bio'>
+          <p class='profile-bio-text'>
+            {(() => {
+              const pretoriaIndex = bio?.indexOf('Pretoria');
+              if (bio && pretoriaIndex !== undefined && pretoriaIndex !== -1) {
+                const before = bio.slice(0, pretoriaIndex + 'Pretoria'.length);
+                const after = bio.slice(pretoriaIndex + 'Pretoria'.length);
+                const { emoji, ariaLabel } = getSouthAfricaEmoji();
+                return (
+                  <>
+                    {before}{' '}
+                    <span
+                      role='img'
+                      aria-label={ariaLabel}
+                      style='font-size:1.1em;'
+                    >
+                      {emoji}
+                    </span>
+                    {after}
+                  </>
+                );
+              }
+              return bio;
+            })()}
+          </p>
+        </div>
+      )
+    }
   </div>
 </header>
 

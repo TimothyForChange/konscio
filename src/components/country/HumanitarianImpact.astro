@@ -13,7 +13,17 @@ export interface Props {
 
 const { humanitarianImpact } = Astro.props as Props;
 
-if (!humanitarianImpact) {
+if (!humanitarianImpact || typeof humanitarianImpact !== 'object') {
+  return null;
+}
+
+const hasData =
+  humanitarianImpact.displaced ||
+  humanitarianImpact.refugees ||
+  humanitarianImpact.casualties ||
+  humanitarianImpact.affected;
+
+if (!hasData) {
   return null;
 }
 ---

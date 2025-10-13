@@ -3,7 +3,26 @@ import countries from '../../data/countries.json';
 import CategoryFilter from './CategoryFilter.astro';
 import CountryCard from './CountryCard.astro';
 
-const categories = [...new Set(countries.map((country) => country.category))];
+const validCountries = Array.isArray(countries)
+  ? countries.filter(
+      (country) =>
+        country &&
+        typeof country === 'object' &&
+        typeof country.slug === 'string' &&
+        country.slug.trim() !== '' &&
+        typeof country.name === 'string' &&
+        country.name.trim() !== ''
+    )
+  : [];
+
+const categories = [
+  ...new Set(
+    validCountries
+      .map((country) => country.category)
+      .filter((cat) => typeof cat === 'string' && cat.trim() !== '')
+  ),
+];
+
 const allCategories = ['All', ...categories];
 ---
 
@@ -14,14 +33,19 @@ const allCategories = ['All', ...categories];
 
   <div class='countries-grid' id='countries-grid'>
     {
-      countries.map((country, index) => (
+      validCountries.map((country, index) => (
         <CountryCard
           slug={country.slug}
           name={country.name}
-          flag={country.flag}
-          description={country.description}
-          category={country.category}
-          href={`/${country.slug}`}
+          flag={typeof country.flag === 'string' ? country.flag : undefined}
+          description={
+            typeof country.description === 'string'
+              ? country.description
+              : undefined
+          }
+          category={
+            typeof country.category === 'string' ? country.category : undefined
+          }
           style={`--i:${index}`}
         />
       ))

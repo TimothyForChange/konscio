@@ -12,7 +12,7 @@ interface Props {
 
 const { timeline } = Astro.props as Props;
 
-if (!timeline || timeline.length === 0) {
+if (!timeline || !Array.isArray(timeline) || timeline.length === 0) {
   return null;
 }
 ---
@@ -21,14 +21,16 @@ if (!timeline || timeline.length === 0) {
   <h2 class='timeline-title'>Historical Timeline</h2>
   <div class='timeline-container'>
     {
-      timeline.map((item) => (
-        <div class='timeline-row'>
-          <div class='timeline-gutter' />
-          <div class='timeline-body'>
-            <TimelineItem year={item.year} event={item.event} />
+      timeline
+        .filter((item) => item && (item.year || item.event))
+        .map((item) => (
+          <div class='timeline-row'>
+            <div class='timeline-gutter' />
+            <div class='timeline-body'>
+              <TimelineItem year={item.year} event={item.event} />
+            </div>
           </div>
-        </div>
-      ))
+        ))
     }
   </div>
 </section>

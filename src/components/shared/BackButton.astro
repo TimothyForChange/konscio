@@ -5,9 +5,16 @@ export interface Props {
 }
 
 const { href = '/', class: className = '' } = Astro.props;
+
+const sanitizedHref =
+  href && typeof href === 'string'
+    ? href.startsWith('/') || href.startsWith('http')
+      ? href
+      : '/'
+    : '/';
 ---
 
-<a href={href} class={`back-button ${className} focus-strong`}>
+<a href={sanitizedHref} class={`back-button ${className} focus-strong`}>
   <i class='ri-arrow-left-long-line'></i>
   Back to Home
 </a>

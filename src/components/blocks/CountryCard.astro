@@ -8,14 +8,33 @@ export interface CountryCardProps {
 }
 const { slug, name, flag, description, category } =
   Astro.props as CountryCardProps;
+
+const safeSlug = slug || 'unknown';
+const safeName = name || 'Unknown Country';
+const safeDescription = description || '';
+const safeCategory = category || '';
 ---
 
-<a href={`/${slug}`} class='country-card' data-category={category}>
-  <span class='country-flag' aria-hidden='true'>{flag}</span>
-  <span class='visually-hidden'>Flag of {name}</span>
+<a href={`/${safeSlug}`} class='country-card' data-category={safeCategory}>
+  {
+    flag ? (
+      <>
+        <span class='country-flag' aria-hidden='true'>
+          {flag}
+        </span>
+        <span class='visually-hidden'>Flag of {safeName}</span>
+      </>
+    ) : (
+      <span class='visually-hidden'>No flag available for {safeName}</span>
+    )
+  }
   <div class='country-info'>
-    <span class='country-name'>{name}</span>
-    <span class='country-description'>{description}</span>
+    <span class='country-name'>{safeName}</span>
+    {
+      safeDescription && (
+        <span class='country-description'>{safeDescription}</span>
+      )
+    }
   </div>
 </a>
 

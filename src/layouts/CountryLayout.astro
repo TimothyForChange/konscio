@@ -30,27 +30,37 @@ export interface Props {
 }
 
 const { countryData, countrySlug } = Astro.props as Props;
+const safeCountrySlug =
+  typeof countrySlug === 'string' ? countrySlug : 'unknown';
 const passedTitle = (Astro.props as Props).title;
-const safeName = countryData?.name ?? 'Country';
+const safeName =
+  countryData?.name && typeof countryData.name === 'string'
+    ? countryData.name
+    : 'Country';
+
 const pageDescription = `Learn about the humanitarian crisis in ${safeName} - Timothy Brits raises awareness about ongoing conflicts and issues affecting communities worldwide.`;
-const canonicalUrl = `https://www.timothyforchange.co.za/${encodeURIComponent(String(countrySlug))}`;
+const canonicalUrl = `https://www.timothyforchange.co.za/${encodeURIComponent(safeCountrySlug)}`;
 ---
 
 <Layout
-  title={passedTitle ?? `${safeName} Crisis - Timothy Brits`}
+  title={passedTitle && typeof passedTitle === 'string'
+    ? passedTitle
+    : `${safeName} Crisis - Timothy Brits`}
   description={pageDescription}
   canonicalUrl={canonicalUrl}
-  countrySlug={countrySlug as string}
+  countrySlug={safeCountrySlug}
 >
   <div class='page-wrapper'>
     <main class='container' id='container'>
       <div class='country-page'>
-        <CountryHeader
-          countryName={countryData?.name ?? safeName}
-          countrySlug={countrySlug as string}
-        />
+        <CountryHeader countryName={safeName} countrySlug={safeCountrySlug} />
 
-        <CrisisSection summary={countryData?.currentCrisisSummary ?? ''} />
+        {
+          countryData?.currentCrisisSummary &&
+            typeof countryData.currentCrisisSummary === 'string' && (
+              <CrisisSection summary={countryData.currentCrisisSummary} />
+            )
+        }
 
         {
           countryData?.humanitarianImpact && (
@@ -60,27 +70,35 @@ const canonicalUrl = `https://www.timothyforchange.co.za/${encodeURIComponent(St
           )
         }
 
-        {countryData?.timeline && <Timeline timeline={countryData.timeline} />}
-
         {
-          countryData?.colonialRoot && (
-            <ColonialSection colonialRoot={countryData.colonialRoot} />
-          )
+          Array.isArray(countryData?.timeline) &&
+            countryData.timeline.length > 0 && (
+              <Timeline timeline={countryData.timeline} />
+            )
         }
 
         {
-          countryData?.coreTerms && (
-            <HistoricalContext
-              coreTerms={countryData.coreTerms}
-              countrySlug={countrySlug}
-            />
-          )
+          countryData?.colonialRoot &&
+            typeof countryData.colonialRoot === 'object' && (
+              <ColonialSection colonialRoot={countryData.colonialRoot} />
+            )
         }
 
         {
-          countryData?.takeAction && (
-            <TakeAction takeAction={countryData.takeAction} />
-          )
+          countryData?.coreTerms &&
+            typeof countryData.coreTerms === 'object' && (
+              <HistoricalContext
+                coreTerms={countryData.coreTerms}
+                countrySlug={safeCountrySlug}
+              />
+            )
+        }
+
+        {
+          countryData?.takeAction &&
+            typeof countryData.takeAction === 'object' && (
+              <TakeAction takeAction={countryData.takeAction} />
+            )
         }
 
         <div class='country-bottom-back'>

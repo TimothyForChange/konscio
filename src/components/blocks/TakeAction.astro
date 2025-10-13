@@ -18,47 +18,61 @@ export interface Props {
 
 const { takeAction } = Astro.props as Props;
 
-if (!takeAction) {
+if (!takeAction || typeof takeAction !== 'object') {
   return null;
 }
+
+const donateData = Array.isArray(takeAction.donate) ? takeAction.donate : [];
+const awarenessData = Array.isArray(takeAction.awareness)
+  ? takeAction.awareness
+  : [];
+const advocacyData = Array.isArray(takeAction.advocacy)
+  ? takeAction.advocacy
+  : [];
 ---
 
 <section class='action-section'>
   <h2>How You Can Help</h2>
 
-  <ActionGroup icon='ri-heart-line' title='Donate'>
-    <div class='donate-organisations'>
-      {
-        (takeAction.donate ?? []).map((org) => (
-          <DonateOrgCard
-            organisation={org.organisation}
-            description={org.description}
-            url={org.url}
-          />
-        ))
-      }
-    </div>
-  </ActionGroup>
+  {
+    donateData.length > 0 && (
+      <ActionGroup icon='ri-heart-line' title='Donate'>
+        <div class='donate-organisations'>
+          {donateData.map((org) => (
+            <DonateOrgCard
+              organisation={org.organisation}
+              description={org.description}
+              url={org.url}
+            />
+          ))}
+        </div>
+      </ActionGroup>
+    )
+  }
 
-  <ActionGroup icon='ri-megaphone-line' title='Raise Awareness'>
-    <div class='awareness-list'>
-      {
-        (takeAction.awareness ?? []).map((action) => (
-          <ActionCard content={formatText(action)} html={true} />
-        ))
-      }
-    </div>
-  </ActionGroup>
+  {
+    awarenessData.length > 0 && (
+      <ActionGroup icon='ri-megaphone-line' title='Raise Awareness'>
+        <div class='awareness-list'>
+          {awarenessData.map((action) => (
+            <ActionCard content={formatText(action ?? '')} html={true} />
+          ))}
+        </div>
+      </ActionGroup>
+    )
+  }
 
-  <ActionGroup icon='ri-flag-line' title='Advocacy'>
-    <div class='advocacy-list'>
-      {
-        (takeAction.advocacy ?? []).map((action) => (
-          <ActionCard content={action} />
-        ))
-      }
-    </div>
-  </ActionGroup>
+  {
+    advocacyData.length > 0 && (
+      <ActionGroup icon='ri-flag-line' title='Advocacy'>
+        <div class='advocacy-list'>
+          {advocacyData.map((action) => (
+            <ActionCard content={action ?? ''} />
+          ))}
+        </div>
+      </ActionGroup>
+    )
+  }
 </section>
 
 <style>

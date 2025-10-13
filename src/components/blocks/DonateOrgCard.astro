@@ -5,14 +5,26 @@ export interface DonateOrgCardProps {
   url?: string;
 }
 const { organisation, description, url } = Astro.props as DonateOrgCardProps;
+
+const safeOrganisation =
+  typeof organisation === 'string' && organisation.trim() !== ''
+    ? organisation
+    : 'Organisation';
+const safeDescription = typeof description === 'string' ? description : '';
+const safeUrl =
+  typeof url === 'string' && url.trim() !== ''
+    ? url.startsWith('http')
+      ? url
+      : `https://${url}`
+    : '#';
 ---
 
 <div class='org-item'>
-  <h4>{organisation ?? 'Organisation'}</h4>
+  <h4>{safeOrganisation}</h4>
 
-  <p>{description ?? ''}</p>
+  {safeDescription && <p>{safeDescription}</p>}
   <a
-    href={url ?? '#'}
+    href={safeUrl}
     target='_blank'
     rel='noopener noreferrer'
     class='donate-link'

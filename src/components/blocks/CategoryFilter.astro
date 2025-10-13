@@ -6,17 +6,24 @@ export interface CategoryFilterProps {
 
 const { categories, activeCategory = 'All' } =
   Astro.props as CategoryFilterProps;
+
+const safeCategories = Array.isArray(categories)
+  ? categories.filter((cat) => typeof cat === 'string' && cat.trim() !== '')
+  : [];
+
+const safeActiveCategory =
+  typeof activeCategory === 'string' ? activeCategory : 'All';
 ---
 
 <div class='category-filters' id='category-filters'>
   {
-    categories.map((category) => (
+    safeCategories.map((category) => (
       <button
-        class={`category-btn ${category === activeCategory ? 'active' : ''}`}
+        class={`category-btn ${category === safeActiveCategory ? 'active' : ''}`}
         data-category={category}
         type='button'
         role='tab'
-        aria-selected={category === activeCategory}
+        aria-selected={category === safeActiveCategory}
       >
         {category}
       </button>

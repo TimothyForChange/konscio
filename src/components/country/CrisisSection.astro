@@ -6,11 +6,16 @@ export interface Props {
 }
 
 const { summary } = Astro.props;
+
+const safeSummary = typeof summary === 'string' ? summary : '';
+if (!safeSummary.trim()) {
+  return null;
+}
 ---
 
 <section class='crisis-section' aria-labelledby='crisis-heading'>
   <h2 id='crisis-heading'>Current Crisis Summary</h2>
-  <p set:html={formatText(summary)} />
+  <p set:html={formatText(safeSummary)} />
 </section>
 
 <style>

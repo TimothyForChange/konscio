@@ -8,7 +8,25 @@ export interface Props {
 
 const { coreTerms, countrySlug } = Astro.props as Props;
 
-if (!coreTerms || Object.keys(coreTerms).length === 0) {
+const safeCountrySlug = typeof countrySlug === 'string' ? countrySlug : '';
+if (!safeCountrySlug) {
+  return null;
+}
+
+const safeCoreTerms =
+  coreTerms && typeof coreTerms === 'object' && !Array.isArray(coreTerms)
+    ? coreTerms
+    : {};
+
+const hasTerms = Object.keys(safeCoreTerms).length > 0;
+if (!hasTerms) {
+  return null;
+}
+
+const hasContent = Object.values(safeCoreTerms).some(
+  (value) => typeof value === 'string' && value.trim() !== ''
+);
+if (!hasContent) {
   return null;
 }
 ---
@@ -17,12 +35,20 @@ if (!coreTerms || Object.keys(coreTerms).length === 0) {
   <h2 id='history-heading'>Historical Context</h2>
 
   {
-    Object.entries(coreTerms).map(([key, value]) => (
-      <div class='term-group'>
-        <h3>{formatTermKey(key, countrySlug)}</h3>
-        <p set:html={formatText(value)} />
-      </div>
-    ))
+    Object.entries(safeCoreTerms)
+      .filter(
+        ([key, value]) =>
+          typeof key === 'string' &&
+          typeof value === 'string' &&
+          key.trim() !== '' &&
+          value.trim() !== ''
+      )
+      .map(([key, value]) => (
+        <div class='term-group'>
+          <h3>{formatTermKey(key, safeCountrySlug)}</h3>
+          <p set:html={formatText(value)} />
+        </div>
+      ))
   }
 </section>
 

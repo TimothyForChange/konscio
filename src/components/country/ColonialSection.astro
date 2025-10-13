@@ -8,19 +8,33 @@ export interface Props {
   };
 }
 
-const { colonialRoot } = Astro.props as Props | Record<string, unknown>;
+const { colonialRoot } = Astro.props as Props;
 
-if (!colonialRoot || typeof colonialRoot !== 'object') {
+if (
+  !colonialRoot ||
+  typeof colonialRoot !== 'object' ||
+  Array.isArray(colonialRoot)
+) {
   return null;
 }
 
-const colonial = colonialRoot as { colonialPower?: string; legacy?: string };
+const hasData = colonialRoot.colonialPower || colonialRoot.legacy;
+if (!hasData) {
+  return null;
+}
+
+const safeColonialPower =
+  typeof colonialRoot.colonialPower === 'string'
+    ? colonialRoot.colonialPower
+    : '';
+const safeLegacy =
+  typeof colonialRoot.legacy === 'string' ? colonialRoot.legacy : '';
 ---
 
 <section class='colonial-section' aria-labelledby='colonial-heading'>
   <h2 id='colonial-heading'>The Colonial Root</h2>
-  <h3>{colonial.colonialPower ?? '—'}</h3>
-  {colonial.legacy ? <p set:html={formatText(colonial.legacy)} /> : null}
+  <h3>{safeColonialPower || '—'}</h3>
+  {safeLegacy && <p set:html={formatText(safeLegacy)} />}
 </section>
 
 <style>
