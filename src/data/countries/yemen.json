@@ -15,7 +15,13 @@
     "displaced": "Over 4.5 million people have been internally displaced, many forced to flee multiple times [UNHCR, 2024].",
     "refugees": "Tens of thousands of Yemenis have become refugees and asylum seekers, particularly in the Horn of Africa.",
     "casualties": "Hundreds of thousands have died from both direct causes (airstrikes, fighting) and indirect causes (famine, disease). The destruction of sanitation infrastructure led to one of the largest cholera epidemics in modern history [UN, 2023].",
-    "affected": "An estimated 18.2 million people require urgent humanitarian assistance, with millions on the brink of starvation in what the UN has repeatedly called the world's worst humanitarian crisis [USA for UNHCR, 2024]."
+    "affected": "An estimated 18.2 million people require urgent humanitarian assistance, with millions on the brink of starvation in what the UN has repeatedly called the world's worst humanitarian crisis [USA for UNHCR, 2024].",
+    "hospitalsAffected": "More than 50% of Yemen's healthcare facilities have been destroyed, damaged, or are no longer functional due to conflict [WHO, 2023].",
+    "schoolsAffected": "More than 3,500 schools have been destroyed, damaged, or are being used by armed forces, affecting over 1.5 million children [UNICEF, 2023].",
+    "childrenOutOfSchool": "Over 2 million children are out of school due to conflict, destruction of educational infrastructure, and economic hardship [UNICEF, 2023].",
+    "healthSystemCollapsed": "Only 50% of health facilities are fully functional, and the healthcare system is on the verge of total collapse [WHO, 2023].",
+    "foodInsecurity": "More than 16 million people face food insecurity, with over 5 million on the brink of famine [WFP, 2023].",
+    "waterAccess": "More than 15 million people lack access to safe drinking water due to infrastructure destruction and contamination [UNICEF, 2023]."
   },
   "timeline": [
     {
@@ -46,9 +52,9 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Islamic Relief",
-        "description": "Delivers emergency aid and long-term support to crisis-affected Yemenis.",
-        "url": "https://www.islamic-relief.org.za/yemen-emergency-appeal/"
+        "organisation": "Action Against Hunger",
+        "description": "In Yemen, where conflict has engineered one of the world's worst hunger crises, Action Against Hunger runs health facilities to prevent and treat malnutrition, while also providing clean water and sanitation to stop the spread of cholera.",
+        "url": "https://www.actionagainsthunger.org/location/middle-east/yemen/"
       },
       {
         "organisation": "Médecins Sans Frontières (MSF)",
@@ -56,14 +62,14 @@
         "url": "https://www.msf.org/yemen"
       },
       {
-        "organisation": "World Food Programme (WFP)",
-        "description": "The UN organisation providing emergency food and specialised nutrition to millions at risk of famine in Yemen.",
-        "url": "https://www.wfp.org/emergencies/yemen-emergency"
+        "organisation": "Norwegian Refugee Council (NRC)",
+        "description": "In Yemen, where conflict has created one of the world's worst humanitarian crises, NRC provides millions of vulnerable people with clean water, shelter, emergency food, and support for children's education in the most dangerous and hard-to-reach areas.",
+        "url": "https://www.nrc.no/countries/middle-east/yemen"
       },
       {
         "organisation": "Yemen Relief and Reconstruction Foundation",
         "description": "A Yemeni-led diaspora organisation providing direct aid and advocating for peace.",
-        "url": "https://yemenfoundation.org/"
+        "url": "https://yemenfoundation.org"
       }
     ],
     "awareness": [

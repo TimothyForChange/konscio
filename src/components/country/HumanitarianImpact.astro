@@ -8,6 +8,14 @@ export interface Props {
     refugees?: string;
     casualties?: string;
     affected?: string;
+    poverty?: string;
+    hospitalsAffected?: string;
+    schoolsAffected?: string;
+    childrenOutOfSchool?: string;
+    healthSystemCollapsed?: string;
+    foodInsecurity?: string;
+    waterAccess?: string;
+    other?: string;
   };
 }
 
@@ -17,39 +25,92 @@ if (!humanitarianImpact || typeof humanitarianImpact !== 'object') {
   return null;
 }
 
-const hasData =
-  humanitarianImpact.displaced ||
-  humanitarianImpact.refugees ||
-  humanitarianImpact.casualties ||
-  humanitarianImpact.affected;
+const hasData = Object.values(humanitarianImpact).some(
+  (value) => value !== undefined && value !== ''
+);
 
 if (!hasData) {
   return null;
+}
+
+const stats = [];
+if (humanitarianImpact.displaced !== undefined) {
+  stats.push({
+    label: 'Displaced',
+    value: formatText(humanitarianImpact.displaced ?? '—'),
+  });
+}
+if (humanitarianImpact.refugees !== undefined) {
+  stats.push({
+    label: 'Refugees',
+    value: formatText(humanitarianImpact.refugees ?? '—'),
+  });
+}
+if (humanitarianImpact.casualties !== undefined) {
+  stats.push({
+    label: 'Casualties',
+    value: formatText(humanitarianImpact.casualties ?? '—'),
+  });
+}
+if (humanitarianImpact.affected !== undefined) {
+  stats.push({
+    label: 'Affected',
+    value: formatText(humanitarianImpact.affected ?? '—'),
+  });
+}
+if (humanitarianImpact.poverty !== undefined) {
+  stats.push({
+    label: 'Living Below Poverty Line',
+    value: formatText(humanitarianImpact.poverty ?? '—'),
+  });
+}
+if (humanitarianImpact.hospitalsAffected !== undefined) {
+  stats.push({
+    label: 'Hospitals Affected',
+    value: formatText(humanitarianImpact.hospitalsAffected ?? '—'),
+  });
+}
+if (humanitarianImpact.schoolsAffected !== undefined) {
+  stats.push({
+    label: 'Schools Affected',
+    value: formatText(humanitarianImpact.schoolsAffected ?? '—'),
+  });
+}
+if (humanitarianImpact.childrenOutOfSchool !== undefined) {
+  stats.push({
+    label: 'Children Out of School',
+    value: formatText(humanitarianImpact.childrenOutOfSchool ?? '—'),
+  });
+}
+if (humanitarianImpact.healthSystemCollapsed !== undefined) {
+  stats.push({
+    label: 'Health System Collapsed',
+    value: formatText(humanitarianImpact.healthSystemCollapsed ?? '—'),
+  });
+}
+if (humanitarianImpact.foodInsecurity !== undefined) {
+  stats.push({
+    label: 'Food Insecurity',
+    value: formatText(humanitarianImpact.foodInsecurity ?? '—'),
+  });
+}
+if (humanitarianImpact.waterAccess !== undefined) {
+  stats.push({
+    label: 'Lack of Water Access',
+    value: formatText(humanitarianImpact.waterAccess ?? '—'),
+  });
+}
+if (humanitarianImpact.other !== undefined) {
+  stats.push({
+    label: 'Other',
+    value: formatText(humanitarianImpact.other ?? '—'),
+  });
 }
 ---
 
 <section class='humanitarian-section' aria-labelledby='humanitarian-heading'>
   <h2 id='humanitarian-heading'>Humanitarian Impact</h2>
-  <ImpactGrid
-    stats={[
-      {
-        label: 'Displaced',
-        value: formatText(humanitarianImpact.displaced ?? '—'),
-      },
-      {
-        label: 'Refugees',
-        value: formatText(humanitarianImpact.refugees ?? '—'),
-      },
-      {
-        label: 'Casualties',
-        value: formatText(humanitarianImpact.casualties ?? '—'),
-      },
-      {
-        label: 'Affected',
-        value: formatText(humanitarianImpact.affected ?? '—'),
-      },
-    ]}
-  />
+  <ImpactGrid stats={stats} />
   <p class='humanitarian-disclaimer'>
     These figures are estimates — the situation is ongoing and may change.
   </p>

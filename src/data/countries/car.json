@@ -15,7 +15,13 @@
     "displaced": "Over 536,000 people are internally displaced (IDPs), living in constant fear and with little to no access to aid [UN OCHA, 2025].",
     "refugees": "Over 750,000 refugees have been forced to flee into neighbouring Cameroon, DRC, and Chad, where they face precarious conditions [UNHCR, 2025].",
     "casualties": "While no exact figure exists due to the chaos, tens of thousands of civilians have been killed in successive waves of conflict since 2012. Atrocities, including mass killings and sexual violence used as a weapon of war, are widespread [Human Rights Watch, 2024].",
-    "affected": "3.4 million people, over half the entire population, are in dire need of humanitarian assistance and protection to survive [UN OCHA, 2025]."
+    "affected": "3.4 million people, over half the entire population, are in dire need of humanitarian assistance and protection to survive [UN OCHA, 2025].",
+    "hospitalsAffected": "Over 300 health facilities have been damaged or destroyed since the beginning of the crisis, limiting access to essential healthcare [WHO, 2023].",
+    "schoolsAffected": "More than 2,000 schools have been closed due to conflict, affecting over 300,000 children's access to education [UNICEF, 2023].",
+    "childrenOutOfSchool": "Over 300,000 children are out of school due to the ongoing conflict and insecurity [UNICEF, 2023].",
+    "healthSystemCollapsed": "Only 30% of health facilities are fully functional, with most lacking basic supplies and staff due to conflict [WHO, 2023].",
+    "foodInsecurity": "Over 2.8 million people face acute food insecurity, including 86,000 in catastrophic hunger [WFP, 2023].",
+    "waterAccess": "More than 1.3 million people lack access to safe drinking water due to damaged infrastructure and insecurity [UNICEF, 2023]."
   },
   "timeline": [
     {

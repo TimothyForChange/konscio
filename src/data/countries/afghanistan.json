@@ -15,7 +15,10 @@
     "displaced": "An estimated 5.7 million people are internally displaced due to decades of conflict and recent crises [UN OCHA, 2025].",
     "refugees": "There are over 8.2 million Afghans hosted abroad, primarily in neighbouring Pakistan and Iran, comprising one of the largest protracted refugee situations in the world [UNHCR, 2025].",
     "casualties": "Hundreds of thousands of people have been killed in the conflict since 2001, including over 70,000 civilians. The post-2021 economic collapse is now driving excess deaths from starvation and disease.",
-    "affected": "An estimated 23.7 million people—more than half the population—require urgent humanitarian assistance to survive, with millions on the brink of famine [UN OCHA, 2025]."
+    "affected": "An estimated 23.7 million people—more than half the population—require urgent humanitarian assistance to survive, with millions on the brink of famine [UN OCHA, 2025].",
+    "poverty": "More than 90% of the population lives below the poverty line, a dramatic increase since the 2021 economic crisis [UNDP, 2023].",
+    "healthSystemCollapsed": "The public health system has collapsed, with 75% of health facilities lacking basic functionality due to sanctions and economic warfare [WHO, 2024].",
+    "foodInsecurity": "Over 20 million people face acute food insecurity, with 7.8 million on the brink of famine [WFP, 2024]."
   },
   "timeline": [
     {
@@ -62,6 +65,11 @@
   "takeAction": {
     "donate": [
       {
+        "organisation": "Action Against Hunger",
+        "description": "In Afghanistan, Action Against Hunger runs mobile health clinics and nutrition centres to treat acute malnutrition in children, while also improving access to clean water and sanitation to prevent disease.",
+        "url": "https://www.actionagainsthunger.org/location/asia/afghanistan/"
+      },
+      {
         "organisation": "Afghanaid",
         "description": "A British humanitarian and development organisation that works with millions of deprived and excluded families in some of the poorest and most remote communities in Afghanistan.",
         "url": "https://www.afghanaid.org.uk"
@@ -72,14 +80,9 @@
         "url": "https://www.msf.org/afghanistan"
       },
       {
-        "organisation": "UNHCR",
-        "description": "The UN Refugee Agency provides protection and assistance to the millions of displaced Afghans inside the country and the millions more living as refugees in the region.",
-        "url": "https://www.unhcr.org/emergencies/afghanistan-emergency"
-      },
-      {
-        "organisation": "World Food Programme (WFP)",
-        "description": "The UN's frontline agency fighting the hunger crisis, providing emergency food assistance to millions of Afghans pushed into famine by the economic collapse.",
-        "url": "https://www.wfp.org/emergencies/afghanistan"
+        "organisation": "Norwegian Refugee Council (NRC)",
+        "description": "In Afghanistan, NRC provides displaced families and vulnerable communities with essential services, including clean water, shelter, food security, education, and legal assistance to help them survive and rebuild.",
+        "url": "https://www.nrc.no/countries/asia/afghanistan"
       }
     ],
     "awareness": [

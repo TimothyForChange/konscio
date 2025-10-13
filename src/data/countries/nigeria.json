@@ -15,7 +15,12 @@
     "displaced": "Over 3 million people are internally displaced by conflict, the vast majority in the North-East [UN OCHA, 2024].",
     "refugees": "More than 340,000 Nigerian refugees have fled to neighbouring Cameroon, Chad, and Niger [UNHCR, 2024].",
     "casualties": "The conflict in the North-East alone has directly and indirectly caused over 350,000 deaths since 2009, with half being children under five [UNDP, 2021]. Thousands more have been killed by bandits and in farmer-herder clashes.",
-    "affected": "In the North-East, 7.9 million people require urgent humanitarian assistance, with millions facing crisis levels of hunger and malnutrition [UN OCHA, 2024]."
+    "affected": "In the North-East, 7.9 million people require urgent humanitarian assistance, with millions facing crisis levels of hunger and malnutrition [UN OCHA, 2024].",
+    "hospitalsAffected": "Over 400 health facilities have been destroyed or damaged by Boko Haram and ISWAP attacks, with many completely looted [WHO, 2023].",
+    "schoolsAffected": "More than 2,000 schools have been destroyed, damaged, or are no longer functional due to conflict in the North-East, affecting over 600,000 children [UNICEF, 2023].",
+    "childrenOutOfSchool": "Over 600,000 children are out of school due to conflict, displacement, and destroyed educational infrastructure [UNICEF, 2023].",
+    "poverty": "More than 90 million Nigerians live below the poverty line, the largest number of poor people in any country [World Bank, 2023].",
+    "foodInsecurity": "Over 20 million people face acute food insecurity, with over 700,000 in catastrophic hunger [WFP, 2024]."
   },
   "timeline": [
     {

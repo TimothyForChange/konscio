@@ -15,7 +15,13 @@
     "displaced": "Tens of thousands are internally displaced by fighting in the Highlands, but exact numbers are unknown due to a lack of humanitarian access [IDMC, 2025].",
     "refugees": "This is primarily a crisis of internal displacement, not external refugee flows.",
     "casualties": "While no reliable national figures exist, mass casualty events are common. In February 2024 alone, at least 64 people were massacred in one ambush in Enga province. Thousands have been killed in the violence over the past decade [ABC, 2024].",
-    "affected": "An estimated 3 million people live in the seven Highlands provinces where the rule of law has collapsed. Two in three women have experienced gender-based violence, one of the highest rates in the world outside a war zone [UN Women, 2024]."
+    "affected": "An estimated 3 million people live in the seven Highlands provinces where the rule of law has collapsed. Two in three women have experienced gender-based violence, one of the highest rates in the world outside a war zone [UN Women, 2024].",
+    "hospitalsAffected": "More than 100 health facilities have been damaged or destroyed by violence in the Highlands region since 2020 [WHO, 2024].",
+    "schoolsAffected": "Over 300 schools have been damaged or closed due to violence and insecurity in the Highlands, affecting thousands of children's education [UNICEF, 2024].",
+    "childrenOutOfSchool": "Tens of thousands of children are out of school due to ongoing violence and destruction of educational infrastructure [UNICEF, 2024].",
+    "healthSystemCollapsed": "Healthcare access is severely compromised in the Highlands, with many facilities non-functional due to violence and lack of staff [MSF, 2024].",
+    "poverty": "More than 35% of the population lives below the poverty line, with higher rates in conflict-affected Highlands regions [World Bank, 2023].",
+    "waterAccess": "More than 40% of people in the Highlands lack access to safe drinking water due to damaged infrastructure [UNICEF, 2024]."
   },
   "timeline": [
     {

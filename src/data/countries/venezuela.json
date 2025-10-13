@@ -15,7 +15,14 @@
     "displaced": "Over 7.7 million Venezuelans have left the country, creating the largest refugee and migrant crisis in the recent history of the Americas [R4V Platform, 2025].",
     "refugees": "The vast majority of those who have fled remain in Latin American and Caribbean countries, placing immense strain on the region.",
     "casualties": "While conflict casualties are low, excess mortality from the collapse of the health system is vast. US sanctions were estimated to have caused more than 40,000 deaths between 2017-2018 alone [CEPR, 2019].",
-    "affected": "An estimated 19 million people inside Venezuela have urgent humanitarian needs, with the healthcare system in a state of collapse and millions facing severe food insecurity [Humanitarian Response Plan, 2025]."
+    "affected": "An estimated 19 million people inside Venezuela have urgent humanitarian needs, with the healthcare system in a state of collapse and millions facing severe food insecurity [Humanitarian Response Plan, 2025].",
+    "hospitalsAffected": "More than 60% of healthcare facilities lack adequate staffing and basic supplies due to economic crisis and emigration of medical professionals [WHO, 2023].",
+    "schoolsAffected": "More than 1,000 schools have been closed or are non-functional due to lack of infrastructure, teachers, and basic services [UNICEF, 2023].",
+    "childrenOutOfSchool": "More than 1.5 million children are out of school due to economic crisis, migration, and lack of functioning educational infrastructure [UNICEF, 2023].",
+    "healthSystemCollapsed": "The healthcare system has collapsed with 75% of hospitals lacking basic medical supplies and equipment due to economic sanctions and crisis [WHO, 2023].",
+    "foodInsecurity": "More than 6 million people face food insecurity due to economic collapse and hyperinflation [WFP, 2023].",
+    "waterAccess": "More than 4 million people lack access to safe drinking water due to infrastructure collapse [UNICEF, 2023].",
+    "poverty": "More than 90% of the population lives in poverty due to economic collapse and hyperinflation [World Bank, 2024]."
   },
   "timeline": [
     {
@@ -51,9 +58,9 @@
         "url": "https://www.msf.org/venezuela"
       },
       {
-        "organisation": "UNHCR",
-        "description": "The UN Refugee Agency leads the regional response, providing protection and assistance to millions of Venezuelan refugees and migrants across the Americas.",
-        "url": "https://www.unhcr.org/emergencies/venezuela-situation"
+        "organisation": "Norwegian Refugee Council (NRC)",
+        "description": "In response to the Venezuelan crisis, NRC provides life-saving assistance including clean water, food, and educational materials, while also offering legal assistance to help displaced people obtain the critical documents needed to rebuild their lives.",
+        "url": "https://www.nrc.no/countries/south-america/venezuela"
       }
     ],
     "awareness": [

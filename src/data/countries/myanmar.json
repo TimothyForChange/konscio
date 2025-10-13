@@ -15,7 +15,11 @@
     "displaced": "Over 3 million people internally displaced since the 2021 coup, with millions more displaced by decades of prior conflict [UNHCR/OCHA, 2024].",
     "refugees": "Nearly 1 million stateless Rohingya refugees remain in camps in Bangladesh, with no prospect for safe return [UNHCR, 2024].",
     "casualties": "Over 6,000 civilians are confirmed killed by the junta since the coup, though the total conflict death toll since 2021 is estimated to be over 50,000.",
-    "affected": "18.6 million people—one-third of the population—require urgent humanitarian aid as the economy and healthcare system collapse [UN OCHA, 2024]."
+    "affected": "18.6 million people—one-third of the population—require urgent humanitarian aid as the economy and healthcare system collapse [UN OCHA, 2024].",
+    "hospitalsAffected": "More than 500 health facilities have been attacked by the military, with many completely destroyed or looted [WHO, 2023].",
+    "schoolsAffected": "Over 4,000 schools were closed due to attacks and military occupation, affecting over 1.5 million students [UNICEF, 2023].",
+    "childrenOutOfSchool": "Over 1.5 million children are out of school due to conflict and military occupation of educational facilities [UNICEF, 2023].",
+    "healthSystemCollapsed": "More than 70% of the public healthcare system has collapsed due to military attacks and staff strikes [MSF, 2023]."
   },
   "timeline": [
     {
@@ -52,7 +56,7 @@
       {
         "organisation": "Burma Campaign UK",
         "description": "An advocacy group working for human rights, democracy, and targeted sanctions against the junta.",
-        "url": "https://burmacampaign.org.uk/"
+        "url": "https://burmacampaign.org.uk"
       },
       {
         "organisation": "Free Burma Rangers",
@@ -67,12 +71,12 @@
       {
         "organisation": "Mutual Aid Myanmar",
         "description": "Direct, flexible funding to grassroots activists and civil society groups inside the country.",
-        "url": "https://www.mutualaidmyanmar.org/"
+        "url": "https://www.mutualaidmyanmar.org"
       },
       {
-        "organisation": "UNHCR",
-        "description": "The UN Refugee Agency provides life-saving assistance to people displaced by the escalating conflict in Myanmar and advocates for the rights and safe return of Rohingya refugees.",
-        "url": "https://www.unhcr.org/emergencies/myanmar-emergency"
+        "organisation": "Norwegian Refugee Council (NRC)",
+        "description": "In Myanmar, where millions have been displaced by conflict, NRC provides life-saving support including shelter, access to education for conflict-affected children, and vital protection services for displaced communities.",
+        "url": "https://www.nrc.no/countries/asia/myanmar"
       }
     ],
     "awareness": [

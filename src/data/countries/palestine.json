@@ -15,7 +15,13 @@
     "displaced": "Over 1.9 million internally displaced in Gaza (nearly 85% of the population), plus ongoing displacement in the West Bank, including East Jerusalem [UN OCHA, 2024].",
     "refugees": "5.9 million registered Palestinian refugees (UNRWA), descendants of those displaced since 1948 [UNRWA, 2024].",
     "casualties": "Over 67,000 killed in Gaza since October 2023, with thousands more missing, presumed dead under the rubble [Gaza Ministry of Health, 2024] (verified by UN and international agencies).",
-    "affected": "Gaza's entire population of 2.3 million faces a catastrophic humanitarian crisis, including engineered famine and the systematic dismantling of its healthcare system [UN OCHA; IPC, 2024]."
+    "affected": "Gaza's entire population of 2.3 million faces a catastrophic humanitarian crisis, including engineered famine and the systematic dismantling of its healthcare system [UN OCHA; IPC, 2024].",
+    "hospitalsAffected": "More than 70% of Gaza's hospitals have been destroyed or severely damaged, with most no longer functional [WHO, 2024].",
+    "schoolsAffected": "More than 200 schools have been destroyed and over 150 damaged, affecting the education of over 600,000 students [UNICEF, 2024].",
+    "childrenOutOfSchool": "Over 600,000 children are out of school due to destruction of educational infrastructure and ongoing conflict [UNICEF, 2024].",
+    "healthSystemCollapsed": "The healthcare system in Gaza has completely collapsed with only 30% of essential services available [WHO, 2024].",
+    "waterAccess": "95% of Gaza's water is undrinkable due to contamination from damaged infrastructure and conflict debris [UNICEF, 2024].",
+    "foodInsecurity": "Over 1 million people in Gaza face catastrophic levels of hunger [WFP, 2024]."
   },
   "timeline": [
     {
@@ -59,14 +65,19 @@
         "url": "https://www.map.org.uk/"
       },
       {
+        "organisation": "Norwegian Refugee Council (NRC)",
+        "description": "In Palestine, NRC is on the ground delivering life-saving assistance, including clean water and sanitation, while helping families rebuild their homes and providing psychosocial support to children who have experienced trauma.",
+        "url": "https://www.nrc.no/countries/middle-east/palestine"
+      },
+      {
         "organisation": "Palestine Children's Relief Fund (PCRF)",
         "description": "Offers free medical care for injured and sick children.",
-        "url": "https://www.pcrf.net/"
+        "url": "https://www.pcrf.net"
       },
       {
         "organisation": "UNRWA",
         "description": "The primary UN agency providing essential services to Palestinian refugees, despite facing political attacks.",
-        "url": "https://www.unrwa.org/"
+        "url": "https://www.unrwa.org"
       }
     ],
     "awareness": [
