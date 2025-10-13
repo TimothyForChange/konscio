@@ -63,13 +63,6 @@
     "category": "Systematic Persecution & Invasion"
   },
   {
-    "name": "Papua New Guinea",
-    "slug": "papua-new-guinea",
-    "flag": "🇵🇬",
-    "description": "Extreme intercommunal violence, state failure, and a hidden war in the Highlands",
-    "category": "Insurgency & Resource Conflict"
-  },
-  {
     "name": "Sahel",
     "slug": "sahel",
     "flag": "🇧🇫🇲🇱🇳🇪",
@@ -110,13 +103,6 @@
     "flag": "🇺🇦",
     "description": "Russian invasion and systematic infrastructure destruction",
     "category": "Systematic Persecution & Invasion"
-  },
-  {
-    "name": "Venezuela",
-    "slug": "venezuela",
-    "flag": "🇻🇪",
-    "description": "Catastrophic economic collapse and the largest refugee crisis in the Americas",
-    "category": "Post-Conflict & Economic Collapse"
   },
   {
     "name": "Yemen",
