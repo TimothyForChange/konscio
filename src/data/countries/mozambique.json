@@ -54,6 +54,11 @@
   "takeAction": {
     "donate": [
       {
+        "organisation": "Equip Mozambique",
+        "description": "A non-profit organisation supporting community development and leadership training projects in Mozambique.",
+        "url": "https://equipmoz.org"
+      },
+      {
         "organisation": "Médecins Sans Frontières (MSF)",
         "description": "In Mozambique, MSF provides vital medical and mental healthcare to people displaced by the conflict in Cabo Delgado, alongside responding to climate emergencies and disease outbreaks.",
         "url": "https://www.msf.org/mozambique"
