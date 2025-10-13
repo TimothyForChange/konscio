@@ -2,18 +2,18 @@
   "name": "Nigeria",
   "emoji": "🇳🇬",
   "ariaLabel": "Nigeria flag",
-  "currentCrisisSummary": "Nigeria faces multiple, overlapping humanitarian crises. In the North-East, the Boko Haram and ISWAP insurgencies have created one of Africa's most severe displacement crises. The North-West is terrorised by armed bandit groups engaged in mass kidnapping. Across the country, escalating conflict between herders and farmers deepens the instability. These crises are symptoms of a fractured state, hollowed out by decades of neoliberal economic policies and struggling with the violent legacies of its colonial creation.",
+  "currentCrisisSummary": "Nigeria faces multiple, overlapping humanitarian crises. In the North-East, the Boko Haram and ISWAP insurgencies have created one of Africa's most severe displacement crises. The North-West is terrorised by armed bandit groups engaged in mass kidnapping, while escalating conflict between herders and farmers deepens instability nationwide. These crises are symptoms of a fractured state, weakened by decades of neoliberal economic policies and struggling with the violent legacies of its colonial creation.",
   "colonialRoot": {
     "colonialPower": "Britain",
-    "legacy": "Nigeria's crisis is rooted in its forced creation by Britain. The 1914 amalgamation welded over 250 distinct ethnic nationalities into a single entity without consent. Britain's 'divide and rule' policy institutionalised a political imbalance, creating permanent fault lines for conflict. The colonial economy was purely extractive, leaving behind a state designed not for governance but for plunder. This model was later supercharged by oil and entrenched by neoliberal reforms that dismantled public services."
+    "legacy": "Nigeria's instability is rooted in its forced creation by Britain. The 1914 amalgamation merged over 250 distinct ethnic nationalities into a single entity without their consent, while 'divide and rule' policies institutionalised a political imbalance that created lasting fault lines for conflict. The colonial economy was primarily extractive, leaving behind a state apparatus designed for resource exploitation rather than public welfare. This model was later intensified by the discovery of oil and entrenched by neoliberal reforms."
   },
   "coreTerms": {
-    "theNationalQuestion": "This refers to the unresolved contradictions baked into the Nigerian state. The fundamental issue is whether the disparate peoples forcibly amalgamated by Britain can ever form a unified nation. Control of the state's oil-funded apparatus is the primary route to wealth accumulation, making political competition a violent, zero-sum game. The state's legitimacy is perpetually in question because its very foundation is colonial and illegitimate.",
-    "theOilCurseAndNeocolonialExtraction": "Nigeria is a textbook case of the 'resource curse'. Vast oil wealth is siphoned out of the Niger Delta by multinational corporations (Shell, Eni, Chevron) in partnership with a comprador ruling class. This system was locked in place by IMF/World Bank structural adjustment programs in the 1980s, which destroyed Nigeria's domestic economy, deepened its dependency on oil, and created mass poverty, fuelling social breakdown and the violent suppression of communities demanding justice."
+    "theNationalQuestion": "This refers to the unresolved contradictions inherent in the Nigerian state's colonial formation. The fundamental issue is whether the disparate peoples forcibly amalgamated by Britain can form a cohesive nation. Because control of the state's oil-funded apparatus is the primary route to wealth, political competition often becomes a violent, zero-sum contest. The state's legitimacy is therefore perpetually challenged, as its very foundations are seen as artificial and imposed.",
+    "theOilCurseAndNeocolonialExtraction": "Nigeria is a textbook case of the 'resource curse'. Vast oil wealth is extracted from the Niger Delta by multinational corporations (Shell, Eni, Chevron) in partnership with a domestic ruling class that facilitates this process. This system was entrenched by IMF and World Bank structural adjustment programs in the 1980s. These policies dismantled Nigeria's domestic industries, deepened its dependency on oil exports, and imposed austerity measures that created mass poverty, fuelling the social breakdown seen today."
   },
   "humanitarianImpact": {
     "displaced": "Over 3 million people are internally displaced by conflict, the vast majority in the North-East.",
-    "refugees": "More than 340,000 Nigerian refugees have fled to neighbouring Cameroon, Chad, and Niger.",
+    "refuges": "More than 340,000 Nigerian refugees have fled to neighbouring Cameroon, Chad, and Niger.",
     "casualties": "The conflict in the North-East alone has directly and indirectly caused over 350,000 deaths since 2009, with half being children under five. Thousands more have been killed by bandits and in farmer-herder clashes.",
     "affected": "In the North-East, 7.9 million people require urgent humanitarian assistance, with millions facing crisis levels of hunger and malnutrition.",
     "childrenOutOfSchool": "Over 600,000 children are out of school due to conflict, displacement, and destroyed educational infrastructure.",
@@ -35,7 +35,7 @@
     },
     {
       "year": "1986",
-      "event": "**Structural Adjustment Program**: The military regime accepts an IMF/World Bank SAP, imposing brutal austerity and neoliberal reforms that decimate the economy and public services, creating mass immiseration."
+      "event": "**Structural Adjustment Program**: The military regime accepts an IMF/World Bank SAP, imposing harsh austerity and neoliberal reforms that dismantled public services and severely damaged the domestic economy, contributing to mass poverty."
     },
     {
       "year": "1995",

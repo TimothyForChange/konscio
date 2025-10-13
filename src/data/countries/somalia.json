@@ -2,17 +2,17 @@
   "name": "Somalia",
   "emoji": "🇸🇴",
   "ariaLabel": "Somali flag",
-  "currentCrisisSummary": "Somalia is caught in a convergence of catastrophic crises: a protracted civil war, a resilient al-Shabaab insurgency, and a devastating cycle of climate-driven droughts and floods. This perfect storm, fuelled by the predatory logic of global resource competition and climate injustice, has led to a near-permanent state of humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises.",
+  "currentCrisisSummary": "Somalia is caught in a convergence of catastrophic crises: a protracted civil war, a resilient al-Shabaab insurgency, and a devastating cycle of climate-driven droughts and floods. This convergence of crises, fuelled by geopolitical competition for resources and severe climate injustice, has led to a near-permanent state of humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises.",
   "colonialRoot": {
     "colonialPower": "Britain & Italy",
-    "legacy": "The crisis is a direct legacy of the colonial partition of the Somali nation. In the 'Scramble for Africa', Britain and Italy (along with France) carved up a culturally and linguistically homogenous people into five separate territories, shattering its social and economic fabric. The artificial borders and the hasty, ill-planned merger of the British and Italian colonies at independence in 1960 created a dysfunctional state from its inception. This colonial vivisection created the deep-seated grievances that have fuelled decades of conflict."
+    "legacy": "The crisis is a direct legacy of the colonial partition of the Somali nation. In the 'Scramble for Africa', Britain and Italy (along with France) carved up a culturally and linguistically homogenous people into five separate territories, shattering its social and economic fabric. The artificial borders and the hasty, ill-planned merger of the British and Italian colonies at independence in 1960 created a dysfunctional state from its inception. This colonial partition of a homogenous people created the deep-seated grievances that have fuelled decades of conflict."
   },
   "coreTerms": {
-    "theFragmentedState": "The state's implosion in 1991 was supercharged by the Cold War. The Siad Barre dictatorship was armed first by the USSR and then the US, who used Somalia as a pawn to control the strategic sea lanes vital for global oil shipments. After its collapse, foreign interventions—from the failed US-led mission to the modern 'war on terror', a profitable industry for the Western security-industrial complex—have often exacerbated fragmentation, prioritising counter-terrorism over a genuine, Somali-led process of state-building.",
-    "climateCrisisAndEconomicExploitation": "Somalia is ground-zero for crises driven by global capitalism. Firstly, it suffers extreme climate injustice; catastrophic droughts and floods caused by the Global North's emissions decimate livelihoods and fuel conflict. Secondly, with the state's collapse, its unguarded coastline became a frontier for predatory extraction, with international fleets engaging in illegal fishing and Western companies dumping toxic waste with impunity. This plunder is now being followed by a corporate scramble for offshore oil and gas, threatening a new cycle of extractive conflict."
+    "theFragmentedState": "The state's implosion in 1991 was intensified by the Cold War. The Siad Barre dictatorship was armed first by the USSR and then the US, who used Somalia as a pawn to control the strategic sea lanes vital for global oil shipments. After its collapse, foreign interventions—from the failed US-led mission to the modern 'war on terror', which funnels vast resources to the Western security-industrial complex—have often exacerbated fragmentation by prioritising external counter-terrorism goals over a genuine, Somali-led process of state-building.",
+    "climateCrisisAndEconomicExploitation": "Somalia is on the front line of crises driven by the global economic system. Firstly, it suffers extreme climate injustice; catastrophic droughts and floods caused by the Global North's emissions decimate pastoralist and agricultural livelihoods, fuelling conflict. Secondly, the state's collapse left its coastline vulnerable to foreign exploitation, with international fleets engaging in illegal fishing and companies reportedly dumping toxic waste. This resource depletion is now being followed by corporate competition for offshore oil and gas, threatening a new cycle of conflict."
   },
   "humanitarianImpact": {
-    "displaced": "Nearly 4 million people are internally displaced by conflict and climate shocks [UNHCR, 2025].",
+    "displaced": "Nearly 4 million people are internally displaced by conflict and climate shocks.",
     "refugees": "Over 1 million Somalis live as refugees and asylum-seekers, primarily in neighbouring Kenya, Ethiopia, and Yemen.",
     "casualties": "While no definitive figure exists for the entire civil war, an estimated 500,000 people have died from violent conflict-related causes since 1991. The 2011 famine alone killed an estimated 260,000 people.",
     "affected": "An estimated 8.3 million people require life-saving humanitarian assistance, with over 6.6 million facing acute food insecurity.",
@@ -40,7 +40,7 @@
     },
     {
       "year": "1991",
-      "event": "**State Collapse**: Barre's regime is overthrown. The state disintegrates, plunging the country into civil war and leaving its resources open to foreign plunder."
+      "event": "**State Collapse**: Barre's regime is overthrown. The state disintegrates, plunging the country into civil war and leaving its resources vulnerable to foreign exploitation."
     },
     {
       "year": "1992-1995",

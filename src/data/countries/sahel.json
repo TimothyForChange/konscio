@@ -2,14 +2,14 @@
   "name": "Sahel",
   "emoji": "🇧🇫🇲🇱🇳🇪",
   "ariaLabel": "Flags of Burkina Faso, Mali, and Niger",
-  "currentCrisisSummary": "The Central Sahel is the epicentre of the world's most neglected crisis, a convergence of state collapse, jihadist insurgencies, and extreme climate shocks. A wave of military coups in Burkina Faso, Mali, and Niger has been framed as a popular, anti-colonial rejection of a failed French-led intervention and a struggle for sovereignty over natural resources, creating a new geopolitical frontline characterised by extreme violence and mass displacement.",
+  "currentCrisisSummary": "The Central Sahel is the epicentre of a severe and neglected crisis, defined by a convergence of state collapse, jihadist insurgencies, and extreme climate shocks. A recent wave of military coups in Burkina Faso, Mali, and Niger has been framed as a popular, anti-colonial rejection of a failed French-led security strategy and a struggle for national sovereignty, creating a new geopolitical frontline characterised by extreme violence and mass displacement.",
   "colonialRoot": {
     "colonialPower": "France",
-    "legacy": "The crisis is a direct legacy of French colonial policies. France conquered the region, shattered ancient political and economic systems, and carved out artificial states. At independence around 1960, France left behind fragile states and maintained its dominance through 'Françafrique', using monetary control via the CFA franc and military pacts to trap the region in a cycle of poverty and raw material extraction, creating the perfect conditions for state failure."
+    "legacy": "The crisis is a direct legacy of French colonial policies that dismantled pre-existing political and economic systems and carved out artificial states. Upon independence around 1960, France maintained its dominance through the 'Françafrique' system. This network of monetary control via the CFA franc and military pacts perpetuated a model of raw material extraction, leaving behind fragile state structures and creating the conditions for the current instability."
   },
   "coreTerms": {
-    "françafriqueAndFailedIntervention": "The crisis is an indictment of 'Françafrique'—France's strategy of maintaining economic and military dominance. Its key pillars were the CFA franc, a colonial currency that prevented monetary sovereignty, and a military presence to protect French corporate interests, such as uranium mines in Niger. The failed 'war on terror', which enriched the French arms industry, was the final stage of this system. The expulsion of French forces signals a historic break from a neocolonial relationship that extracted wealth while providing neither security nor development.",
-    "climateCollapseAndInjustice": "The Sahel is ground-zero for climate injustice. Despite contributing almost nothing to global emissions, the region is warming at 1.5 times the global average, leading to catastrophic desertification. This climate collapse, caused by the industrialised Global North, has destroyed livelihoods, deepened conflicts over land and water, and created a vast recruiting pool for armed groups. The crisis is an acute example of climate colonialism, where the devastating costs of Western consumption are paid for in Sahelian lives."
+    "françafriqueAndFailedIntervention": "The crisis highlights the failure of 'Françafrique'—France's strategy for maintaining economic and military influence. Its pillars were the CFA franc, a currency system that limited monetary sovereignty, and a military presence often used to protect French corporate interests, such as uranium mines in Niger. The recent French-led 'war on terror' not only failed to stop the spread of violence but also created a lucrative market for the French arms industry. The expulsion of French forces signals a historic break from a neocolonial relationship that critics argue extracted wealth while providing neither security nor development.",
+    "climateCollapseAndInjustice": "The Sahel is on the front line of climate injustice. Despite contributing almost nothing to global emissions, the region is warming at 1.5 times the global average, leading to catastrophic desertification. This climate collapse, driven by the industrialised Global North, has destroyed agricultural livelihoods, deepened conflicts over scarce resources, and created a vast recruiting pool for armed groups. This represents a form of climate colonialism, where the environmental costs of industrialisation in the North are disproportionately borne by populations in the Sahel."
   },
   "humanitarianImpact": {
     "displaced": "Over 3.5 million people are internally displaced across the Central Sahel due to the conflict.",
@@ -36,7 +36,7 @@
     },
     {
       "year": "2013-2022",
-      "event": "**French Intervention**: France launches Operation Barkhane. The decade-long campaign, meant to secure French economic interests (like uranium in Niger), fails to contain the insurgency, which spreads across the region."
+      "event": "**French Intervention**: France launches Operation Barkhane. The decade-long campaign was criticised for prioritising French economic interests (like uranium in Niger) and ultimately failed to contain the insurgency, which spread across the region."
     },
     {
       "year": "2020-2023",

@@ -2,18 +2,18 @@
   "name": "Syria",
   "emoji": "🇸🇾",
   "ariaLabel": "Syrian flag",
-  "currentCrisisSummary": "A brutal civil war, sparked in 2011 by a popular uprising against both authoritarianism and brutal neoliberal reforms, and culminating in the collapse of the Ba'athist regime in 2024, has fuelled a severe humanitarian crisis. The conflict is marked by mass displacement, the fragmentation of the state, and the deep entanglement of foreign powers.",
+  "currentCrisisSummary": "A devastating civil war, sparked in 2011 by a popular uprising against both authoritarian rule and harsh neoliberal reforms, and culminating in the collapse of the Ba'athist regime in 2024, has fuelled a severe humanitarian crisis. The conflict is marked by mass displacement, the fragmentation of the state, and the deep entanglement of foreign powers.",
   "colonialRoot": {
     "colonialPower": "France (Mandate for Syria and the Lebanon, 1923-1946)",
-    "legacy": "Ignoring Syrian calls for self-determination, France and Britain imposed a colonial Mandate rooted in the Sykes-Picot Agreement (1916). France enforced a 'divide and rule' strategy, fracturing Syria into sectarian statelets to weaken national identity. This policy, combined with exploitative economics and a repressive state structure, left a legacy of instability. This inherited framework of repression was later perfected by the Ba'athist state to enforce a system of violent crony capitalism."
+    "legacy": "Ignoring Syrian calls for self-determination, France and Britain imposed a colonial Mandate rooted in the Sykes-Picot Agreement (1916). France enforced a 'divide and rule' strategy, fracturing Syria into sectarian statelets to weaken national identity. This policy, combined with exploitative economics, left a legacy of instability. This inherited framework of a repressive, centralised state was later adapted by the Ba'athist regime to enforce its own system of crony capitalism."
   },
   "coreTerms": {
-    "neoliberalismAndCronyCapitalism": "The 2011 uprising was a revolt against not only tyranny but also the brutal neoliberal policies of Bashar al-Assad. His regime's 'reforms' dismantled public services and enriched a tiny, politically-connected crony capitalist class while impoverishing the rural population. This state-led dispossession, exacerbated by a severe drought, created the conditions for a social explosion. The regime was fundamentally a system of plunder by a ruling family and their business partners.",
-    "proxyWarAndWarlordEconomy": "Foreign powers intervened to protect their economic and strategic interests: Russia to secure its naval base and energy contracts; Iran to secure a trade and military corridor; and Gulf states to pursue pipeline politics. This transformed the civil war into a proxy battle and shattered the national economy, replacing it with a patchwork of predatory warlord economies where militias from all sides profited from looting, extortion, and the black market."
+    "neoliberalismAndCronyCapitalism": "The 2011 uprising was a revolt against not only political tyranny but also the harsh neoliberal policies implemented by Bashar al-Assad. His regime's 'reforms' involved dismantling public services and privatising state assets, which enriched a politically-connected elite while impoverishing rural populations. This process of state-led dispossession, exacerbated by a severe drought, created the conditions for the uprising.",
+    "proxyWarAndWarlordEconomy": "Foreign powers intervened to protect their economic and strategic interests: Russia to secure its naval base and energy contracts; Iran to maintain a trade and military corridor; and Gulf states to advance their regional energy ambitions. This transformed the civil war into a proxy battle and shattered the national economy, replacing it with a patchwork of warlord economies where armed groups profited from controlling resources, extortion, and black markets."
   },
   "humanitarianImpact": {
     "displaced": "Over 7.2 million internally displaced (IDPs), one of the world's largest internal displacement crises.",
-    "refuges": "Over 5.2 million refugees, mostly in neighbouring Türkiye, Lebanon, and Jordan, creating immense regional strain.",
+    "refugees": "Over 5.2 million refugees, mostly in neighbouring Türkiye, Lebanon, and Jordan, creating immense regional strain.",
     "casualties": "Over 350,000 confirmed civilian deaths, though the actual toll is estimated to be over 600,000. The war has also seen the systematic destruction of civilian infrastructure, including hospitals and schools.",
     "childrenOutOfSchool": "More than 2.5 million children are out of school, one of the highest figures globally.",
     "poverty": "More than 90% of Syrians live below the poverty line, with extreme poverty affecting over 80% of the population.",
@@ -30,7 +30,7 @@
     },
     {
       "year": "2000",
-      "event": "**Bashar al-Assad's Succession**: Assad inherits power and begins implementing brutal neoliberal 'reforms' that create massive inequality and enrich a new class of crony capitalists."
+      "event": "**Bashar al-Assad's Succession**: Assad inherits power and begins implementing harsh neoliberal 'reforms' that create massive inequality and enrich a new class of crony capitalists."
     },
     {
       "year": "2011",

@@ -2,14 +2,14 @@
   "name": "Central African Republic",
   "emoji": "🇨🇫",
   "ariaLabel": "Central African Republic flag",
-  "currentCrisisSummary": "A protracted civil war has rendered the state almost entirely non-existent outside the capital, Bangui. The conflict is characterised by extreme violence between a weak, mercenary-dependent government and a fragmented array of armed groups. Foreign powers, notably France and Russia, intervene not to build peace but to secure geopolitical influence and plunder the nation's vast mineral wealth (diamonds, gold, uranium) to feed global markets, perpetuating a catastrophic, and intentionally overlooked, humanitarian crisis.",
+  "currentCrisisSummary": "A protracted civil war has rendered the state largely non-existent outside the capital, Bangui. The conflict is characterised by extreme violence between a weak, foreign-backed government and a fragmented array of armed groups. Foreign powers, notably France and Russia, have intervened to secure geopolitical influence and access to the nation's vast mineral wealth (diamonds, gold, uranium). This competition for resources perpetuates the conflict and fuels a catastrophic humanitarian crisis that receives little international attention.",
   "colonialRoot": {
     "colonialPower": "France (Ubangi-Shari, 1894-1960)",
-    "legacy": "The Central African Republic is a purely artificial colonial creation, violently forged by France from diverse societies with no shared history. Its sole purpose was the brutal, large-scale extraction of resources like ivory and rubber through a concessionary company system that institutionalised forced labour and extreme violence. The French regime destroyed indigenous political structures, establishing a predatory state designed only for plunder. This system of a 'hollow state' was perpetuated through the 'Françafrique' network of client dictators (like the infamous Emperor Bokassa), ensuring the country remained a source of raw materials for French corporations, devoid of genuine sovereignty. This architecture of extraction, designed purely for profit, remains the fundamental logic of the state today."
+    "legacy": "The Central African Republic's borders are a colonial creation, forged by France from diverse societies with little shared history. The colonial economy was based on the large-scale extraction of resources like ivory and rubber, primarily through a concessionary company system that relied on forced labour and extreme violence. France dismantled existing political structures, replacing them with a state apparatus designed for resource extraction rather than public welfare. After independence, this model was perpetuated through the 'Françafrique' network, which supported client dictators like Emperor Bokassa to ensure French corporate access to raw materials. This legacy of a state built for extraction, not governance, remains a root cause of its chronic instability."
   },
   "coreTerms": {
-    "laCentrafriqueProfonde": "The post-colonial state in CAR inherited the logic of its French predecessor: it was never designed to provide services or security, but to extract wealth for a tiny elite and their foreign corporate and state backers. This foundational emptiness means that when the state is challenged, it doesn't just weaken, it evaporates. This creates a power vacuum that armed groups, warlords, and foreign mercenaries—from French 'advisors' to Russia's Africa Corps—are quick to fill, turning the entire country into a violent free-for-all for resources.",
-    "mercenaryStateAndProxyPlunder": "Foreign interventions, framed as stabilising missions, are a continuation of colonial exploitation. France's multiple operations (e.g., Sangaris) have consistently prioritised French interests over Central African lives. More recently, Russia's Wagner Group (now Africa Corps) has propped up the state in exchange for unimpeded access to mineral concessions, committing mass atrocities to secure mining sites. This represents a raw competition between rival capitalist powers, with Central African bodies paying the price for control over strategic resources."
+    "laCentrafriqueProfonde": "The post-colonial state in CAR inherited the logic of its French predecessor: a structure focused on extracting wealth for a small elite and their foreign partners, rather than providing security or services to the population. This lack of genuine state function means that outside the capital, state authority often collapses entirely when challenged. The resulting power vacuum is filled by armed groups, local warlords, and foreign mercenaries, such as Russia's Africa Corps, who compete violently for control over territory and resources.",
+    "mercenaryStateAndProxyPlunder": "Foreign interventions, often framed as stabilising missions, frequently function as a continuation of resource-driven exploitation. France's operations, such as Sangaris, have been criticised for prioritising French strategic interests. More recently, Russia's Africa Corps (formerly Wagner Group) has provided critical security for the government in exchange for lucrative mineral concessions, with its forces being accused of mass atrocities while securing mining sites. The country has become an arena for competition between foreign powers, where control over strategic resources is paid for by the lives of Central Africans."
   },
   "humanitarianImpact": {
     "displaced": "Over 536,000 people are internally displaced (IDPs), living in constant fear and with little to no access to aid.",
@@ -24,11 +24,11 @@
   "timeline": [
     {
       "year": "1894",
-      "event": "**French Colonisation**: France establishes the colony of Ubangi-Shari, beginning a reign of terror based on forced labour to extract rubber and ivory for European markets."
+      "event": "**French Colonisation**: France establishes the colony of Ubangi-Shari, beginning an administration based on forced labour to extract rubber and ivory for European markets."
     },
     {
       "year": "1928-1931",
-      "event": "**Kongo-Wara Rebellion**: A massive uprising against the hyper-exploitative French concessionary companies is violently crushed, resulting in tens of thousands of deaths."
+      "event": "**Kongo-Wara Rebellion**: A massive uprising against the exploitative French concessionary companies is violently crushed, resulting in tens of thousands of deaths."
     },
     {
       "year": "1960",
@@ -48,7 +48,7 @@
     },
     {
       "year": "2018-Present",
-      "event": "**Russian Intervention**: The government invites Russia's Wagner Group mercenaries to provide security. They enforce a model of violent resource extraction for their corporate network, committing atrocities to seize control of key mining areas from rival groups."
+      "event": "**Russian Intervention**: The government invites Russia's Wagner Group (now Africa Corps) mercenaries to provide security in exchange for mineral concessions, with its operatives committing atrocities to seize control of key mining areas."
     },
     {
       "year": "2023",
@@ -65,7 +65,7 @@
       {
         "organisation": "UNHCR",
         "description": "The UN Refugee Agency provides protection and life-saving aid to Central Africans displaced by conflict within CAR and as refugees in neighbouring countries.",
-        "url": "https://www.unhr.org/emergencies/central-african-republic-emergency"
+        "url": "https://www.unhcr.org/emergencies/central-african-republic-emergency"
       }
     ],
     "advocacy": [
