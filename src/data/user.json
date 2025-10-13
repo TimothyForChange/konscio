@@ -10,12 +10,6 @@
       "description": "My life in pictures"
     },
     {
-      "url": "https://www.threads.com/@timothyforchange",
-      "icon": "threads-line",
-      "title": "Threads",
-      "description": "My unspooled thoughts"
-    },
-    {
       "url": "https://github.com/TimothyForChange",
       "icon": "github-line",
       "title": "GitHub",
