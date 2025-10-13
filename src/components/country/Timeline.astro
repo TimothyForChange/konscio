@@ -25,7 +25,9 @@ if (!timeline || !Array.isArray(timeline) || timeline.length === 0) {
         .filter((item) => item && (item.year || item.event))
         .map((item) => (
           <div class='timeline-row'>
-            <div class='timeline-gutter' />
+            <div class='timeline-gutter'>
+              <div class='timeline-dot' />
+            </div>
             <div class='timeline-body'>
               <TimelineItem year={item.year} event={item.event} />
             </div>
@@ -75,6 +77,7 @@ if (!timeline || !Array.isArray(timeline) || timeline.length === 0) {
     justify-content: center;
     position: relative;
     grid-column: 1 / 2;
+    z-index: 2;
   }
 
   .timeline-body {
@@ -131,11 +134,22 @@ if (!timeline || !Array.isArray(timeline) || timeline.length === 0) {
   .timeline-container::before {
     content: '';
     position: absolute;
-    left: calc(var(--timeline-gutter) / 2 - (var(--timeline-border) / 2));
+    left: calc(var(--timeline-gutter) / 2);
     top: 0;
     bottom: 0;
     width: var(--timeline-border);
     background: var(--accent-primary);
+    transform: translateX(-50%);
+  }
+
+  .timeline-dot {
+    position: relative;
+    width: var(--timeline-dot-size);
+    height: var(--timeline-dot-size);
+    border: var(--timeline-dot-border) solid var(--accent-primary);
+    border-radius: 50%;
+    background: var(--bg);
+    z-index: 1;
   }
 
   @media (prefers-reduced-motion: reduce) {
