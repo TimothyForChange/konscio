@@ -2,14 +2,14 @@
   "name": "Ethiopia",
   "emoji": "🇪🇹",
   "ariaLabel": "Ethiopian flag",
-  "currentCrisisSummary": "A fragile peace following the 2020-2022 Tigray War has left a legacy of mass atrocities, a man-made famine, and ethnic cleansing [Amnesty International & HRW, 2022]. Eritrean and Amhara forces continue to occupy parts of Tigray, preventing the return of the displaced and entrenching the gains of the war.",
+  "currentCrisisSummary": "A fragile peace following the 2020-2022 Tigray War has left a legacy of mass atrocities, a man-made famine, and ethnic cleansing [Amnesty International & HRW, 2022]. The conflict represents a brutal contest over the country's political and economic future, pitting a state-led development model against a push for neoliberal liberalisation. Eritrean and Amhara forces continue to occupy parts of Tigray, preventing the return of the displaced.",
   "colonialRoot": {
     "colonialPower": "Ethiopian Empire & subsequent centralist states",
-    "legacy": "Ethiopia's crisis stems from its history as an empire-state. The centralising Abyssinian core, primarily Amhara elites, expanded through conquest, imposing a unitary identity and suppressing the cultures of conquered peoples like the Oromo, Somali, and others. This internal colonialism created deep-seated grievances [Donald N. Levine, 2000]. The TPLF-led government (1991-2018) addressed this legacy through ethnic federalism, granting self-rule to different 'nations, nationalities, and peoples'. Prime Minister Abiy Ahmed's recentralising 'Medemer' ideology is a modern iteration of this imperial project, representing a direct assault on the federal system and triggering a violent conflict over the fundamental nature of the state."
+    "legacy": "Ethiopia's crisis stems from its history as an empire-state. The centralising Abyssinian core, primarily Amhara elites, expanded through conquest, creating a system of internal colonialism [Donald N. Levine, 2000]. The TPLF-led government (1991-2018) addressed this through ethnic federalism and a state-capitalist development model that, while reducing poverty, also concentrated wealth within a new political class. Prime Minister Abiy Ahmed's recentralising project, championed by international financial institutions, seeks to dismantle both the federal system and the state-led economy in favour of privatisation and foreign investment, triggering a violent conflict over the fundamental nature of the state."
   },
   "coreTerms": {
-    "federalismVsCentralism": "The war was a violent struggle over the soul of the state. It pitted the principle of multinational federalism—which grants self-determination to Ethiopia's diverse nations as enshrined in the 1995 constitution—against a resurgent unitarist ideology that seeks to impose a centralised, homogenous national identity. For Tigray and other marginalised groups, federalism is non-negotiable protection; for centralists, it is a threat to unity.",
-    "weaponisedGrievancesAndForeignIntervention": "Abiy's government and its allies ignited the conflict by weaponising historical grievances. Amhara expansionists, seeking to annex territories like Welkait (Western Tigray), allied with the federal government. Externally, Eritrea's dictator Isaias Afwerki, driven by a vendetta against the TPLF, joined the invasion, and his forces committed some of the war's worst atrocities [Amnesty International, 2021; HRW, 2021]. The use of foreign drones (from the UAE, Turkey, and China) further devastated civilian areas, turning a constitutional dispute into a high-tech regional war."
+    "federalismVsCentralism": "The war was a violent struggle over the soul of the state. It pitted multinational federalism—which grants self-determination to Ethiopia's diverse nations—against a unitarist ideology seeking a centralised identity. Economically, it is a fight over resources and development. Federalism allows regions to manage their own economic destinies, while centralism concentrates that power, making it easier for a national elite to strike deals with foreign capital and international financial institutions.",
+    "weaponisedGrievancesAndForeignIntervention": "Abiy's government ignited the conflict by weaponising historical grievances. Amhara expansionists, seeking to annex fertile land in Western Tigray, allied with the federal government. Externally, Eritrea's dictator Isaias Afwerki joined the invasion, committing some of the war's worst atrocities [Amnesty International, 2021]. The use of foreign drones (from the UAE, Turkey, and China)—sold for profit and to advance the buyers' own geostrategic and economic interests—turned a constitutional dispute into a high-tech proxy war."
   },
   "humanitarianImpact": {
     "displaced": "Over 2.6 million people were internally displaced at the war's peak, with hundreds of thousands still unable to return to their occupied homes [IOM, 2022].",
@@ -24,7 +24,7 @@
     },
     {
       "year": "1991",
-      "event": "**Derg Overthrown**: The TPLF-led EPRDF coalition takes power in Ethiopia."
+      "event": "**Derg Overthrown**: The TPLF-led EPRDF coalition takes power, instituting ethnic federalism and a state-led 'developmental state' economic model."
     },
     {
       "year": "1995",
@@ -36,7 +36,7 @@
     },
     {
       "year": "2018",
-      "event": "**Abiy Ahmed Becomes PM**: Abiy's reforms and centralising 'Medemer' ideology sideline the TPLF, threatening the federal arrangement."
+      "event": "**Abiy Ahmed Becomes PM**: Abiy's reforms, centralising ideology, and promises to liberalise the economy and privatise state assets threaten the federal arrangement and sideline the TPLF."
     },
     {
       "year": "Nov 2020",
@@ -76,14 +76,14 @@
     ],
     "awareness": [
       "Combat state-sponsored disinformation that seeks to obscure the genocide, and amplify the voices of Tigrayan journalists, scholars, and human rights defenders.",
-      "Educate your community on the core conflict between multinational federalism and the imperial project of a centralist state, the foundational issue behind the war.",
+      "Educate your community on the core conflict between multinational federalism and a centralist state, and the underlying struggle between a state-led development model and a neoliberal, privatised one.",
       "Expose the deliberate use of starvation as a weapon of war, ensuring the man-made famine is understood as a calculated act of collective punishment, not a byproduct of conflict."
     ],
     "advocacy": [
       "Demand the full and unconditional implementation of the Pretoria Peace Agreement, starting with the immediate withdrawal of all Eritrean and Amhara forces from Tigrayan territory.",
       "Call for independent, international investigations into all atrocities, including the use of sexual violence as a weapon of war, to pave the way for accountability.",
       "Support targeted sanctions against Ethiopian and Eritrean officials responsible for war crimes, ethnic cleansing, and the deliberate obstruction of humanitarian aid.",
-      "Lobby the IMF, World Bank, and donor nations to condition all non-humanitarian aid on verifiable accountability and the complete implementation of the peace deal."
+      "Challenge the role of the IMF and World Bank in promoting neoliberal reforms that exacerbate political tensions. Demand all financial assistance be conditioned on verifiable accountability."
     ]
   }
 }

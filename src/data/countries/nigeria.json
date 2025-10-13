@@ -2,14 +2,14 @@
   "name": "Nigeria",
   "emoji": "🇳🇬",
   "ariaLabel": "Nigeria flag",
-  "currentCrisisSummary": "Nigeria faces multiple, overlapping humanitarian crises. In the North-East, the Boko Haram and ISWAP insurgencies have created one of Africa's most severe displacement and food crises. The North-West is terrorised by armed bandit groups engaged in mass kidnapping and plunder. Across the country, particularly in the Middle Belt, escalating conflict between herders and farmers, driven by climate change and resource scarcity, deepens the instability. These crises are symptoms of a fractured state struggling with the violent legacies of its colonial creation.",
+  "currentCrisisSummary": "Nigeria faces multiple, overlapping humanitarian crises. In the North-East, the Boko Haram and ISWAP insurgencies have created one of Africa's most severe displacement crises. The North-West is terrorised by armed bandit groups engaged in mass kidnapping. Across the country, escalating conflict between herders and farmers deepens the instability. These crises are symptoms of a fractured state, hollowed out by decades of neoliberal economic policies and struggling with the violent legacies of its colonial creation.",
   "colonialRoot": {
     "colonialPower": "Britain",
-    "legacy": "Nigeria's crisis is rooted in its forced creation by Britain. The 1914 amalgamation of the Northern and Southern Protectorates welded over 250 distinct ethnic nationalities into a single entity without consent. Britain's 'divide and rule' policy institutionalised a political imbalance between the predominantly Muslim North and Christian South, creating permanent fault lines for ethno-religious conflict [Walter Rodney, 'How Europe Underdeveloped Africa']. The colonial economy was purely extractive, building infrastructure only to export resources like palm oil and tin, leaving behind a state structure designed not for governance but for efficient plunder by a small elite."
+    "legacy": "Nigeria's crisis is rooted in its forced creation by Britain. The 1914 amalgamation welded over 250 distinct ethnic nationalities into a single entity without consent. Britain's 'divide and rule' policy institutionalised a political imbalance, creating permanent fault lines for conflict [Walter Rodney]. The colonial economy was purely extractive, leaving behind a state designed not for governance but for plunder. This model was later supercharged by oil and entrenched by neoliberal reforms that dismantled public services."
   },
   "coreTerms": {
-    "theNationalQuestion": "This refers to the unresolved contradictions baked into the Nigerian state by its colonial architects. The fundamental issue is whether the disparate peoples forcibly amalgamated by Britain can ever form a unified nation. It manifests in a constant struggle for power and resources between ethnic and religious groups, fuelling everything from the Biafran War (1967-70) to contemporary secessionist movements and violent political competition. The state's legitimacy is perpetually in question because its very foundation is colonial and illegitimate.",
-    "theOilCurseAndNeocolonialExtraction": "Nigeria is a textbook case of the 'resource curse', a direct continuation of the colonial extractive model. The discovery of oil created a neocolonial system where vast wealth is siphoned out of the Niger Delta by multinational corporations (like Shell, Eni, and Chevron) in partnership with a deeply corrupt Nigerian ruling class [Amnesty International]. This has led to catastrophic environmental degradation, the violent suppression of local communities demanding justice, and a political economy where control of the state is a zero-sum battle for oil revenues, fuelling nationwide instability."
+    "theNationalQuestion": "This refers to the unresolved contradictions baked into the Nigerian state. The fundamental issue is whether the disparate peoples forcibly amalgamated by Britain can ever form a unified nation. Control of the state's oil-funded apparatus is the primary route to wealth accumulation, making political competition a violent, zero-sum game. The state's legitimacy is perpetually in question because its very foundation is colonial and illegitimate.",
+    "theOilCurseAndNeocolonialExtraction": "Nigeria is a textbook case of the 'resource curse'. Vast oil wealth is siphoned out of the Niger Delta by multinational corporations (Shell, Eni, Chevron) in partnership with a comprador ruling class. This system was locked in place by IMF/World Bank structural adjustment programs in the 1980s, which destroyed Nigeria's domestic economy, deepened its dependency on oil, and created mass poverty, fuelling social breakdown and the violent suppression of communities demanding justice [Amnesty International]."
   },
   "humanitarianImpact": {
     "displaced": "Over 3 million people are internally displaced by conflict, the vast majority in the North-East [UN OCHA, 2024].",
@@ -28,19 +28,19 @@
     },
     {
       "year": "1967-1970",
-      "event": "**Biafran War**: The Republic of Biafra's attempt to secede from Nigeria leads to a brutal civil war. Over 1 million civilians die, mostly from starvation caused by a Nigerian blockade supported by Britain."
+      "event": "**Biafran War**: The Republic of Biafra's attempt to secede leads to a brutal civil war. Over 1 million civilians die, mostly from starvation caused by a Nigerian blockade supported by Britain."
     },
     {
-      "year": "1990s-Present",
-      "event": "**Niger Delta Insurgency**: Non-violent protests against environmental devastation by oil companies evolve into an armed struggle for resource control by groups like MEND."
+      "year": "1986",
+      "event": "**Structural Adjustment Program**: The military regime accepts an IMF/World Bank SAP, imposing brutal austerity and neoliberal reforms that decimate the economy and public services, creating mass immiseration."
+    },
+    {
+      "year": "1995",
+      "event": "**Execution of Ken Saro-Wiwa**: The military junta executes the writer and environmental activist Ken Saro-Wiwa and eight other Ogoni leaders for their campaign against Shell's devastation of their homeland."
     },
     {
       "year": "2009",
       "event": "**Boko Haram Uprising**: The extrajudicial killing of its leader triggers a full-blown insurgency in the North-East, which becomes one of the world's most brutal conflicts."
-    },
-    {
-      "year": "2015-Present",
-      "event": "**Crises Escalate & Converge**: The Boko Haram insurgency splinters with the rise of the deadlier ISWAP faction, while militarised banditry overwhelms the North-West, blurring lines between ideological and criminal violence."
     }
   ],
   "takeAction": {
@@ -64,12 +64,12 @@
     "awareness": [
       "Amplify the analysis of Nigerian journalists, academics, and activists who expose the deep-rooted causes of the country's overlapping crises.",
       "Educate your community on the neocolonial nature of the oil industry, showing how corporate extraction in the Niger Delta mirrors the logic of the colonial state.",
-      "Challenge simplistic narratives that reduce Nigeria's conflicts to 'religious extremism' or 'tribalism', highlighting their true roots in colonial state-building, climate change, and political corruption."
+      "Challenge simplistic narratives of 'tribalism', highlighting the true roots of conflict in colonial state-building, neoliberal reforms, and the violent logic of fossil fuel capitalism."
     ],
     "advocacy": [
       "Demand that multinational oil corporations like Shell, Eni, and Chevron pay reparations for the ecocide committed in the Niger Delta and fund a comprehensive, community-led clean-up.",
-      "Lobby your government to cease all arms sales and military support to Nigerian security forces, which are consistently implicated in mass atrocities against civilians.",
       "Support campaigns for a global, legally binding treaty to hold transnational corporations accountable for human rights abuses and environmental crimes.",
+      "Support calls for debt justice and a radical overhaul of the IMF and World Bank, whose structural adjustment programs locked Nigeria into a cycle of poverty and extraction.",
       "Back international legal efforts to prosecute corporate executives for their complicity in the violent suppression of environmental defenders in the Niger Delta."
     ]
   }

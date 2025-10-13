@@ -2,14 +2,14 @@
   "name": "Afghanistan",
   "emoji": "🇦🇫",
   "ariaLabel": "Afghanistan flag",
-  "currentCrisisSummary": "Following the chaotic US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. This is not simply a consequence of the new regime, but a direct result of a US-led economic war. The freezing of Afghanistan's central bank assets and crippling sanctions have deliberately induced a famine, collapsed the healthcare system, and erased two decades of fragile gains, particularly for women and girls, who face a systematic gender apartheid [UN Special Rapporteurs, 2023].",
+  "currentCrisisSummary": "Following the chaotic US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. This is not simply a consequence of the new regime, but a direct result of a US-led economic war. The freezing of Afghanistan's central bank assets and crippling sanctions have deliberately induced a famine and collapsed the healthcare system. This has erased two decades of fragile gains, which were themselves built on a hollow, aid-dependent model that primarily benefited foreign contractors and a small domestic elite, leaving the nation vulnerable to collapse. Women and girls now face a systematic gender apartheid [UN Special Rapporteurs, 2023].",
   "colonialRoot": {
     "colonialPower": "British Empire, Russian Empire, Soviet Union & United States",
-    "legacy": "Afghanistan's tragedy is a product of being treated as a strategic chessboard for imperial powers for over two centuries. The 19th-century Anglo-Russian 'Great Game' carved up the region and established a pattern of foreign interference that destroyed indigenous political development. This imperial dynamic was supercharged during the Cold War, when the US and USSR turned Afghanistan into their proxy battleground. The CIA's Operation Cyclone armed and funded the Mujahideen to bleed the Soviets [Steve Coll, 'Ghost Wars', 2004], deliberately fostering a radicalised militancy and shattering the Afghan state, leaving it perfectly primed for decades of perpetual conflict."
+    "legacy": "Afghanistan's tragedy is a product of being treated as a strategic chessboard for imperial powers for over two centuries. The 19th-century Anglo-Russian 'Great Game' carved up the region to protect the immense wealth Britain extracted from its Indian colony, establishing a pattern of foreign interference that destroyed indigenous political development. This dynamic was supercharged during the Cold War, when the US and USSR turned Afghanistan into a proxy battleground in their global conflict between capitalism and communism. The CIA's Operation Cyclone armed the Mujahideen to bleed the Soviets [Steve Coll, 'Ghost Wars', 2004], deliberately fostering a radicalised militancy and shattering the Afghan state, leaving it perfectly primed for decades of perpetual conflict."
   },
   "coreTerms": {
-    "theGraveyardOfEmpiresMyth": "This colonial moniker is a self-serving imperial myth. It deceptively frames Afghanistan as an inherently chaotic and ungovernable land, obscuring the truth that it is the empires themselves that do the grave-digging. Each invasion—British, Soviet, American—systematically destroyed local institutions, armed factional clients, and obliterated social cohesion. The invaders then cite the resulting chaos, which they manufactured, as proof of Afghan backwardness, thus absolving themselves of their role as the primary architects of the nation's destruction.",
-    "humanitarianBlackmailAndEconomicWarfare": "The current famine is not a natural disaster; it is a political choice. After their military defeat, the US and its allies weaponised the global financial system to wage economic war. By freezing $7 billion of Afghanistan's own sovereign wealth and enforcing a punitive sanctions regime, they have effectively held 40 million Afghan civilians hostage [Center for Economic and Policy Research, 2022]. This constitutes collective punishment on a mass scale, using the manufactured suffering of ordinary people as a tool of geopolitical leverage against the Taliban regime."
+    "theGraveyardOfEmpiresMyth": "This colonial moniker is a self-serving imperial myth. It deceptively frames Afghanistan as an inherently chaotic land, obscuring the truth that it is the empires themselves that do the grave-digging. Each invasion—British, Soviet, American—sought to violently reorder Afghan society to serve external economic and strategic interests, systematically destroying local institutions and obliterating social cohesion. The invaders then cite the resulting chaos, which they manufactured, as proof of Afghan backwardness, thus absolving themselves of their role as the primary architects of the nation's destruction.",
+    "humanitarianBlackmailAndEconomicWarfare": "The current famine is not a natural disaster; it is a political choice. After their military defeat, the US and its allies weaponised the US-dominated architecture of global capitalism to wage economic war. By freezing $7 billion of Afghanistan's own sovereign wealth and enforcing a punitive sanctions regime, they have effectively held 40 million Afghan civilians hostage [Center for Economic and Policy Research, 2022]. This is collective punishment on a mass scale, using the manufactured suffering of ordinary people as a tool to discipline a state that has defied the Western-led economic order."
   },
   "humanitarianImpact": {
     "displaced": "An estimated 5.7 million people are internally displaced due to decades of conflict and recent crises [UN OCHA, 2025].",
@@ -20,19 +20,19 @@
   "timeline": [
     {
       "year": "1839-1919",
-      "event": "**The Great Game**: A century of imperial rivalry between Britain and Russia sees three Anglo-Afghan wars as Britain seeks to create a buffer state to protect its Indian empire."
+      "event": "**The Great Game**: A century of imperial rivalry between Britain and Russia sees three Anglo-Afghan wars as Britain seeks to create a buffer state to protect the immense wealth it extracted from its Indian colony."
     },
     {
       "year": "1919-1929",
-      "event": "**Independence & Failed Modernisation**: King Amanullah Khan wins full independence from Britain after the Third Anglo-Afghan War. His radical attempts to modernise and centralise the state trigger a conservative backlash, allegedly stoked by Britain, leading to his overthrow."
+      "event": "**Independence & Failed Modernisation**: King Amanullah Khan wins full independence from Britain. His radical attempts to modernise and centralise the state trigger a conservative backlash, allegedly stoked by Britain, leading to his overthrow."
     },
     {
       "year": "1953-1973",
-      "event": "**The Cold War Pawn**: Afghanistan becomes a key Cold War battleground. The US and USSR compete for influence by funding massive infrastructure and military projects, creating a dependent state and embedding superpower rivalry into Afghan politics."
+      "event": "**The Cold War Pawn**: The US and USSR compete to lock Afghanistan into their respective economic orbits—capitalist and state-communist—by funding massive projects that created dependency and embedded superpower rivalry into Afghan politics."
     },
     {
       "year": "1978",
-      "event": "**The Saur Revolution**: A Soviet-backed communist party (the PDPA) seizes power in a violent coup. Its brutal and unpopular reforms spark a nationwide anti-communist uprising, setting the stage for the Soviet invasion."
+      "event": "**The Saur Revolution**: A Soviet-backed communist party (the PDPA) seizes power in a violent coup. Its brutal and unpopular reforms spark a nationwide uprising, setting the stage for the Soviet invasion."
     },
     {
       "year": "1979",
@@ -48,7 +48,7 @@
     },
     {
       "year": "2001",
-      "event": "**US Invasion**: Following the 9/11 attacks, the US invades Afghanistan, topples the Taliban, and begins a 20-year nation-building project and military occupation."
+      "event": "**US Invasion**: Following the 9/11 attacks, the US invades, topples the Taliban, and begins a 20-year military occupation and a disastrous project to forcibly remake Afghanistan into a liberal, market-based client state."
     },
     {
       "year": "2021",
@@ -84,14 +84,14 @@
     ],
     "awareness": [
       "Amplify the voices of Afghan women, journalists, and artists resisting the Taliban's gender apartheid and cultural erasure.",
-      "Educate your community on the politics of famine: show how the freezing of assets and sanctions are forms of economic warfare targeting civilians.",
+      "Educate your community on the politics of famine: show how freezing assets and sanctions are tools of a global financial system designed to enforce compliance with Western economic interests.",
       "Deconstruct the 'Graveyard of Empires' myth, reframing the narrative to focus on the culpability of imperial invaders for the country's destruction."
     ],
     "advocacy": [
       "Demand your government lobby for the unfreezing of Afghanistan's sovereign assets, to be managed by a transparent trust for the direct benefit of the Afghan people.",
       "Pressure elected officials to dismantle the sanctions regime that collectively punishes millions and obstructs vital humanitarian aid.",
       "Support campaigns for the creation of safe and legal pathways for Afghan refugees fleeing persecution.",
-      "Back calls for international legal action to hold all parties accountable for war crimes committed during the 20-year occupation."
+      "Demand accountability not just for military leaders, but also for the corporate contractors and war profiteers who reaped billions from the 20-year occupation."
     ]
   }
 }

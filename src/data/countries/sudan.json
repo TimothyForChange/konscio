@@ -2,14 +2,14 @@
   "name": "Sudan",
   "emoji": "🇸🇩",
   "ariaLabel": "Sudanese flag",
-  "currentCrisisSummary": "A devastating civil war between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia since April 2023 has triggered the world's largest displacement and hunger crises, widespread famine, and atrocities, including a renewed campaign of ethnic cleansing in Darfur [Human Rights Watch, 2024].",
+  "currentCrisisSummary": "A devastating civil war between two factions of a parasitic military elite—the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia—has triggered the world's largest displacement and hunger crises, widespread famine, and atrocities, including a renewed campaign of ethnic cleansing in Darfur [Human Rights Watch, 2024].",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "British colonial policy was built on a 'divide-and-rule' strategy that racialised and institutionalised ethnic divisions [M.W. Daly, 2007]. It concentrated power and investment in a supposedly 'Arab' riverine centre while systematically underdeveloping and marginalising supposedly 'African' peripheral regions like Darfur and the South. This engineered inequality created a parasitic central state and blocked unified resistance. By pitting communities against each other, Britain established the structural basis for the centre-periphery conflicts that have defined Sudan's post-independence history."
+    "legacy": "British colonial policy was built on a 'divide-and-rule' strategy that racialised and institutionalised ethnic divisions [M.W. Daly, 2007]. It concentrated power in a supposedly 'Arab' riverine centre while systematically marginalising peripheral regions like Darfur. This engineered inequality created a parasitic central state that became the ultimate prize for competing factions of military and mercenary capitalists in the post-independence era."
   },
   "coreTerms": {
-    "proxyWarForResources": "The civil war is fuelled by regional and international powers, particularly the UAE and Russia's Wagner Group [UN Panel of Experts on Sudan, 2024], competing for control of Sudan's resources. Foreign backing for the warring factions—primarily the RSF—transforms the internal power struggle into a proxy war for Sudan's gold, agricultural land, and Red Sea ports, prolonging the violence for geopolitical gain.",
-    "inheritedStateViolence": "The war represents the implosion of the state's long-standing strategy of using proxy militias. The state has historically armed militias from marginalised communities (the Janjaweed) to suppress dissent in other marginalised regions. The RSF is the Frankenstein's monster of this policy—a state-created militia that grew too powerful and has now turned on its creator, the Sudanese army, to seize the state for itself."
+    "militaryVsMercenaryCapitalism": "The war is a violent conflict between two rival capitalist factions fighting to control the state. The Sudanese Armed Forces (SAF) represents the old guard of 'military capitalism'—a crony system controlling formal sectors of the economy. The Rapid Support Forces (RSF) represents a more agile, transnational 'mercenary capitalism', with wealth built on looting gold mines and operating as a private army for foreign powers. The war is the implosion of this parasitic system, as both factions now seek total control.",
+    "counterRevolutionAndForeignPlunder": "The 2021 coup and subsequent war are a brutal counter-revolution against the 2019 popular uprising, which sought to dismantle the military's economic empire. This counter-revolution is bankrolled by foreign powers, particularly the UAE, which backs the RSF to secure its own interests: a direct supply of plundered gold, control over strategic Red Sea ports, and access to vast tracts of agricultural land for its own food security. This transforms the conflict into a proxy war for neocolonial plunder [UN Panel of Experts, 2024]."
   },
   "humanitarianImpact": {
     "displaced": "Over 10 million people internally displaced, making it the world's largest internal displacement crisis [IOM, 2024].",
@@ -23,28 +23,20 @@
       "event": "**Anglo-Egyptian Condominium**: British colonial rule is established, implementing a divide-and-rule strategy."
     },
     {
-      "year": "1956",
-      "event": "**Independence**: Sudan gains independence, but the colonial power structure favouring the centre remains."
-    },
-    {
       "year": "2003",
       "event": "**Genocide in Darfur**: The government unleashes Janjaweed militias to crush a rebellion. The RSF is the direct descendant of these militias [International Criminal Court, 2009]."
     },
     {
-      "year": "2011",
-      "event": "**South Sudan Secedes**: The South gains independence after decades of war against the central state."
-    },
-    {
       "year": "2019",
-      "event": "**Sudanese Revolution**: A mass popular uprising of civilian groups, led by Resistance Committees, overthrows dictator Omar al-Bashir."
+      "event": "**Sudanese Revolution**: A mass popular uprising, led by Resistance Committees, overthrows dictator Omar al-Bashir in a rejection of both his tyranny and the brutal neoliberal austerity that impoverished the nation."
     },
     {
       "year": "2021",
-      "event": "**Military Coup**: Generals al-Burhan (SAF) and 'Hemedti' (RSF) jointly seize power, derailing the democratic transition they were meant to protect."
+      "event": "**Military Coup**: Generals al-Burhan (SAF) and 'Hemedti' (RSF) jointly seize power to protect their vast, corrupt business empires from the democratic transition's planned reforms."
     },
     {
       "year": "2023",
-      "event": "**Civil War Erupts**: The army (SAF) and the RSF militia turn on each other in a violent struggle for absolute power."
+      "event": "**Civil War Erupts**: The alliance between the army's military capitalists and the RSF's mercenary capitalists implodes into a violent struggle for absolute control of the state."
     }
   ],
   "takeAction": {
@@ -63,20 +55,15 @@
         "organisation": "Sudanese American Physicians Association (SAPA)",
         "description": "A diaspora-led organisation providing direct medical and humanitarian support to local initiatives like Emergency Response Rooms.",
         "url": "https://sapa-usa.org/"
-      },
-      {
-        "organisation": "World Food Programme (WFP)",
-        "description": "The UN organisation providing life-saving food assistance to families displaced by civil war and at risk of famine in Sudan.",
-        "url": "https://www.wfp.org/emergencies/sudan-emergency"
       }
     ],
     "awareness": [
       "Amplify the voices of Sudan's civilian democratic movement—especially the Resistance Committees and Emergency Response Rooms—to ensure their revolutionary goals are not erased.",
-      "Challenge the narrative that this is simply a 'two generals' fight'. Frame it as a counter-revolutionary war waged by the military and their foreign backers to crush Sudan's popular revolution.",
-      "Break the international media blackout and educate your community on the scale of the world's largest hunger and displacement crises, and the role of foreign powers like the UAE in fuelling it."
+      "Challenge the narrative that this is simply a 'two generals' fight'. Frame it as a counter-revolutionary war between two parasitic economic factions (military and mercenary capitalists) waged to crush Sudan's popular revolution.",
+      "Break the international media blackout and educate your community on the scale of the world's largest hunger crisis and the role of foreign powers like the UAE in fuelling it."
     ],
     "advocacy": [
-      "Demand a comprehensive and enforced international arms embargo, alongside targeted sanctions on the leaders of the SAF, the RSF, and their foreign state backers.",
+      "Demand a comprehensive and enforced international arms embargo, alongside targeted sanctions on the leaders of the SAF, the RSF, and their foreign state backers, particularly the United Arab Emirates.",
       "Call for the divestment of all public and private funds from companies linked to the business empires of the warring parties.",
       "Support international efforts to document atrocities and pursue justice for the genocide in Darfur and other war crimes through the ICC and other legal mechanisms.",
       "Lobby for the creation of secure humanitarian corridors and demand that international aid is channelled directly through local networks like Emergency Response Rooms."

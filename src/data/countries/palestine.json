@@ -2,29 +2,25 @@
   "name": "Palestine",
   "emoji": "🇵🇸",
   "ariaLabel": "Palestinian flag",
-  "currentCrisisSummary": "An intensifying humanitarian crisis across occupied Palestine, including Gaza, the West Bank, and East Jerusalem, marked by mass displacement, engineered famine, and an ICJ ruling on the plausibility of genocide in Gaza [International Court of Justice, 2024].",
+  "currentCrisisSummary": "An intensifying humanitarian crisis across occupied Palestine, marked by mass displacement, engineered famine, and an ICJ ruling on the plausibility of genocide in Gaza [International Court of Justice, 2024], a crisis that serves the strategic interests of Western imperialism in the region.",
   "colonialRoot": {
     "colonialPower": "British Empire",
-    "legacy": "The crisis is rooted in Britain's Mandate (1920-1948). The Balfour Declaration (1917), issued without Palestinian consent, promised their homeland to the Zionist movement [British Foreign Office declaration, 2 November 1917]. British policy deliberately fostered conflict by promoting mass colonial settlement while suppressing Palestinian rights and national aspirations [Khalidi, 'The Iron Cage', 2006; Pappe, 'Britain and the Arab-Israeli Conflict', 1988]. By 1948, Britain abandoned its Mandate, leaving a manufactured crisis for the UN to handle [Mandate terminated 14 May 1948]. This abdication directly enabled the 1948 Nakba ('catastrophe'), where over 750,000 Palestinians were ethnically cleansed to establish the state of Israel, creating a refugee crisis Britain refused to resolve [Morris, 'The Birth of the Palestinian Refugee Problem Revisited', 2004; Masalha, 'Expulsion of the Palestinians', 1992]. The ongoing Israeli occupation is a direct continuation of this colonial legacy of dispossession."
+    "legacy": "The crisis is rooted in Britain's Mandate (1920-1948). The Balfour Declaration (1917) promised their homeland to the Zionist movement without Palestinian consent [British Foreign Office, 1917]. British policy deliberately fostered conflict by promoting mass colonial settlement while suppressing Palestinian rights [Khalidi, 2006]. Britain's 1948 abdication directly enabled the Nakba ('catastrophe'), where over 750,000 Palestinians were ethnically cleansed to establish the state of Israel, creating a refugee crisis Britain refused to resolve [Morris, 2004]. The ongoing Israeli occupation is a direct continuation of this colonial legacy of dispossession."
   },
   "coreTerms": {
-    "geopoliticalComplicity": "The conflict is sustained by Western powers, primarily the United States and the United Kingdom, which provide Israel with billions in unconditional military aid and diplomatic cover at the UN. This imperial backing enables the ongoing occupation and undermines Palestinian self-determination.",
-    "settlerColonialismAndApartheid": "The current crisis is a result of unresolved colonial injustices. Key issues include the right of return for Palestinian refugees, the illegality of settlements under international law, and the military occupation. Leading human rights organisations now describe the system of Israeli control as apartheid [B'Tselem, 2021; Human Rights Watch, 2021; Amnesty International, 2022]."
+    "geopoliticalComplicity": "The conflict is sustained by Western powers, primarily the US and UK, which provide Israel with billions in unconditional military aid. This imperial backing is not ideological; it ensures Israel remains a strategic garrison for protecting Western control over Middle East resources and serves as a highly profitable, 'battle-testing' ground for the Western arms industry.",
+    "settlerColonialismAndApartheid": "The crisis is a result of unresolved colonial injustices, including the right of return for refugees and the illegality of settlements. Leading human rights organisations now describe the system of Israeli control as apartheid [B'Tselem, 2021; HRW, 2021; Amnesty, 2022]. This system is also profitable, enabling the expropriation of Palestinian land and water resources and the exploitation of a captive labour market."
   },
   "humanitarianImpact": {
     "displaced": "Over 1.9 million internally displaced in Gaza (nearly 85% of the population), plus ongoing displacement in the West Bank, including East Jerusalem [UN OCHA, 2024].",
     "refugees": "5.9 million registered Palestinian refugees (UNRWA), descendants of those displaced since 1948 [UNRWA, 2024].",
     "casualties": "Over 67,000 killed in Gaza since October 2023, with thousands more missing, presumed dead under the rubble [Gaza Ministry of Health, 2024] (verified by UN and international agencies).",
-    "affected": "Gaza's entire population of 2.3 million faces a catastrophic humanitarian crisis, including engineered famine and the systematic dismantling of its healthcare system [UN OCHA; Integrated Food Security Phase Classification, 2024]."
+    "affected": "Gaza's entire population of 2.3 million faces a catastrophic humanitarian crisis, including engineered famine and the systematic dismantling of its healthcare system [UN OCHA; IPC, 2024]."
   },
   "timeline": [
     {
       "year": "1917",
       "event": "**Balfour Declaration**: Britain promises a 'national home for the Jewish people' in Palestine, disregarding the indigenous population."
-    },
-    {
-      "year": "1920-1948",
-      "event": "**British Mandate**: British colonial administration governs the territory, facilitating mass Zionist immigration and suppressing Palestinian resistance."
     },
     {
       "year": "1948",
@@ -35,20 +31,12 @@
       "event": "**Six-Day War**: Israel occupies the West Bank, Gaza Strip, and East Jerusalem, imposing military rule."
     },
     {
-      "year": "1987-1993",
-      "event": "**First Intifada**: A mass popular uprising against decades of Israeli occupation."
-    },
-    {
       "year": "1993",
-      "event": "**Oslo Accords**: A flawed peace process that entrenched the occupation and failed to secure Palestinian sovereignty."
-    },
-    {
-      "year": "2000-2005",
-      "event": "**Second Intifada**: A renewed Palestinian uprising against the ongoing occupation and the failure of the Oslo process."
+      "event": "**Oslo Accords**: A flawed peace process whose economic protocols entrenched the occupation by institutionalising Palestinian dependency and preventing genuine sovereignty."
     },
     {
       "year": "2007-Present",
-      "event": "**Gaza Blockade**: Israel imposes a devastating land, air, and sea siege on the Gaza Strip, which the UN describes as 'collective punishment' illegal under international law."
+      "event": "**Gaza Blockade**: Israel imposes a devastating land, air, and sea siege on the Gaza Strip, which the UN describes as illegal 'collective punishment'."
     },
     {
       "year": "2018-2019",
@@ -56,7 +44,7 @@
     },
     {
       "year": "2023",
-      "event": "**October 7th**: Hamas leads an attack on Israel; Israel launches a disproportionate and devastating assault on Gaza in response."
+      "event": "**October 7th**: After 16 years of a brutal Israeli blockade, Hamas leads an attack on Israel; Israel launches a disproportionate and devastating assault on Gaza in response."
     },
     {
       "year": "2024",
@@ -79,21 +67,16 @@
         "organisation": "UNRWA",
         "description": "The primary UN agency providing essential services to Palestinian refugees, despite facing political attacks.",
         "url": "https://www.unrwa.org/"
-      },
-      {
-        "organisation": "World Food Programme (WFP)",
-        "description": "The UN organisation delivering vital food and nutrition support in Gaza and cash assistance in the West Bank amid the humanitarian emergency.",
-        "url": "https://www.wfp.org/emergencies/palestine-emergency"
       }
     ],
     "awareness": [
       "Amplify the voices, art, and analysis of Palestinians who are documenting their own lives and struggle against occupation and apartheid.",
-      "Educate your community on the history of the Nakba and the reality of Israeli apartheid, as documented by Palestinian and international human rights organisations.",
+      "Expose the military-industrial complex that profits from this conflict by showing how arms companies in our own countries are directly enabling the violence.",
       "Challenge mainstream media bias that sanitises the occupation and decontextualises Palestinian resistance."
     ],
     "advocacy": [
       "Support the Palestinian-led Boycott, Divestment, Sanctions (BDS) movement as a non-violent tool to pressure Israel to comply with international law.",
-      "Demand your government, particularly in the US, UK, and Germany, immediately halt all military aid and arms sales to Israel.",
+      "Demand your government halt all military aid and arms sales to Israel, which function as massive subsidies to the arms industry.",
       "Call for targeted sanctions on Israeli officials and entities responsible for war crimes, apartheid policies, and the illegal settlement enterprise.",
       "Lobby your government to support the genocide case against Israel at the International Court of Justice (ICJ) and investigations at the International Criminal Court (ICC)."
     ]

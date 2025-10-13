@@ -2,26 +2,22 @@
   "name": "South Sudan",
   "emoji": "🇸🇸",
   "ariaLabel": "South Sudanese flag",
-  "currentCrisisSummary": "South Sudan is gripped by a humanitarian emergency, fuelled by a kleptocratic elite conflict, catastrophic climate-driven flooding, and spillover from Sudan's war. These converging crises have left most of the population dependent on aid and facing one of the world's most severe hunger crises [UN OCHA, 2024].",
+  "currentCrisisSummary": "South Sudan is gripped by a humanitarian emergency, fuelled by a kleptocratic elite conflict over the profits of a violent oil-extraction industry, catastrophic climate-driven flooding, and spillover from Sudan's war. These converging crises have left most of the population dependent on aid and facing one of the world's most severe hunger crises [UN OCHA, 2024].",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "Britain's colonial administration implemented the 'Southern Policy', a divide-and-rule strategy that treated the south as a separate, 'African' entity to be sealed off from the 'Arab' north [Douglas H. Johnson, 2011]. This policy deliberately blocked economic and educational development, barred northern Sudanese from the region, and aimed to stop the spread of Islam. While the north was modernised, the south was systematically underdeveloped and isolated. This engineered disparity created a foundation of extreme inequality, ensuring that upon independence, the South would be entirely subordinate to Khartoum, making decades of civil war almost inevitable."
+    "legacy": "Britain's 'Southern Policy' was a divide-and-rule strategy that sealed the south off from the 'Arab' north, deliberately blocking its development [Douglas H. Johnson, 2011]. This engineered disparity created a foundation of extreme inequality, making decades of civil war almost inevitable. This weakness also ensured that any future independent state would be highly susceptible to neocolonial penetration and resource exploitation."
   },
   "coreTerms": {
-    "kleptocracyAndEliteConflict": "The civil war is not primarily an ethnic conflict but a violent struggle between a predatory elite fighting for control over the state's vast oil revenues. The state itself functions as a kleptocracy—a system of rule by theft—where resources are systematically looted to fund personal militias and patronage networks. The government has become an engine of extraction that fuels the conflict for the personal enrichment of its leaders [UN Panel of Experts on South Sudan, 2024].",
-    "climateInjusticeAndConflict": "South Sudan is on the front line of climate injustice, suffering catastrophic consequences from a crisis it did almost nothing to create. Years of unprecedented flooding have submerged entire regions, destroying livelihoods and displacing hundreds of thousands [FEWS NET, 2024]. This ecological collapse acts as a conflict multiplier, intensifying competition over scarce resources and driving cycles of intercommunal violence that are exploited by political elites."
+    "kleptocracyAndTheGlobalFinancialSystem": "The civil war is a violent struggle between a predatory elite fighting for control of the state, which functions as a machine for looting oil money. This kleptocracy is enabled by the architecture of global finance capitalism; the ruling class uses international banks, shell companies, and the global luxury property market to launder and hide billions in stolen wealth. The conflict itself is used as a cover for this mass theft [UN Panel of Experts on South Sudan, 2024].",
+    "bloodOilAndClimateInjustice": "South Sudan's agony is driven by two forms of extraction. Firstly, its oil is 'blood oil', extracted by foreign corporations (primarily Chinese, Malaysian, and Indian) in partnership with the kleptocratic elite. This revenue directly funds the war. Secondly, it suffers from extreme climate injustice. Unprecedented flooding, caused by the emissions of the industrialised Global North, has destroyed livelihoods and acts as a conflict multiplier, intensifying the violent competition over resources that the oil economy has already inflamed."
   },
   "humanitarianImpact": {
     "displaced": "Over 2 million people are internally displaced by conflict and flooding [IOM, 2024].",
-    "refugees": "More than 2.2 million refugees have fled to neighbouring countries, primarily Uganda, Sudan, and Ethiopia, making it Africa's largest refugee crisis [UNHCR, 2024].",
+    "refugees": "More than 2.2 million refugees have fled to neighbouring countries, making it Africa's largest refugee crisis [UNHCR, 2024].",
     "casualties": "A 2018 study estimated that nearly 400,000 excess deaths were attributable to the civil war since 2013 [London School of Hygiene & Tropical Medicine study, 2018].",
     "affected": "9 million people require urgent humanitarian assistance. 7.1 million face crisis levels of hunger, with parts of the country facing a man-made risk of famine driven by conflict and the obstruction of aid [UN OCHA; IPC, 2024]."
   },
   "timeline": [
-    {
-      "year": "1920s",
-      "event": "**'Southern Policy'**: British administrators formalise the political and economic separation of the south from the north."
-    },
     {
       "year": "1955-1972",
       "event": "**First Sudanese Civil War**: The conflict begins a year before Sudan's independence as southern forces demand regional autonomy."
@@ -32,7 +28,7 @@
     },
     {
       "year": "2005",
-      "event": "**Comprehensive Peace Agreement (CPA)**: The agreement ends the civil war and grants Southern Sudan autonomy and the right to a referendum."
+      "event": "**Comprehensive Peace Agreement (CPA)**: The agreement ends the civil war, but its wealth-sharing arrangements are based almost entirely on oil revenues, entrenching the 'resource curse' from day one."
     },
     {
       "year": "2011",
@@ -40,15 +36,11 @@
     },
     {
       "year": "2013",
-      "event": "**Civil War Erupts**: A power struggle between President Salva Kiir (Dinka) and his deputy Riek Machar (Nuer) plunges the nation into a devastating civil war, with elites manipulating ethnic identity to mobilise fighters."
+      "event": "**Civil War Erupts**: A power struggle plunges the nation into a devastating civil war over control of the state and its oil resources, with elites manipulating ethnic identity to mobilise fighters."
     },
     {
       "year": "2018",
       "event": "**Revitalised Peace Agreement**: A fragile peace deal is signed, but core elements, including security reforms and accountability for war crimes, remain unimplemented."
-    },
-    {
-      "year": "2023-Present",
-      "event": "**Converging Crises**: The country faces catastrophic flooding, a massive influx of refugees fleeing the war in Sudan, and ongoing sub-national violence."
     }
   ],
   "takeAction": {
@@ -72,10 +64,10 @@
     "awareness": [
       "Amplify the voices of South Sudanese civil society activists, peacebuilders, and journalists who are demanding an end to elite kleptocracy.",
       "Challenge the simplistic 'ethnic conflict' narrative. Frame the war correctly as a power struggle between a predatory elite who manipulate identity to control oil wealth.",
-      "Educate your community on the convergence of crises in South Sudan: a kleptocratic war, devastating climate injustice, and chronic international neglect."
+      "Expose the complicity of the international oil companies and global banks that enable the kleptocracy, showing how profits are laundered out of the country while the people starve."
     ],
     "advocacy": [
-      "Demand your government rigorously enforce the UN arms embargo and impose targeted sanctions on political and military leaders responsible for fuelling the conflict.",
+      "Demand targeted sanctions not only on the kleptocratic elite but also on the international corporations, banks, and arms dealers who enable and profit from the conflict.",
       "Call for the immediate establishment and full funding of the Hybrid Court for South Sudan, as mandated by the peace agreement, to ensure justice for war crimes.",
       "Lobby for wealthy, high-polluting nations to pay their climate debt by financing a Loss and Damage fund to support South Sudanese communities devastated by climate collapse.",
       "Pressure international donors to increase humanitarian funding and ensure aid is delivered in partnership with local South Sudanese organisations."

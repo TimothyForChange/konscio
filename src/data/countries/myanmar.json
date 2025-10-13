@@ -2,14 +2,14 @@
   "name": "Myanmar",
   "emoji": "🇲🇲",
   "ariaLabel": "Myanmar flag",
-  "currentCrisisSummary": "A nationwide pro-democracy revolution against the 2021 military coup has escalated into a full-scale civil war. The junta is losing control over vast swathes of the country, triggering a humanitarian catastrophe and state collapse.",
+  "currentCrisisSummary": "A nationwide pro-democracy revolution against the 2021 military coup—an act designed to protect the military's vast economic empire from democratic reform—has escalated into a full-scale civil war. The junta is losing control over the country, triggering a humanitarian catastrophe and state collapse.",
   "colonialRoot": {
     "colonialPower": "British Empire (1824-1948)",
     "legacy": "British rule was built on a 'divide-and-rule' strategy that shattered pre-colonial societal structures [Thant Myint-U, 'The River of Lost Footsteps', 2006]. The British created and racialised ethnic categories, administering the Bamar heartland separately from the 'Frontier Areas' of ethnic minorities. They strategically used minorities like the Karen, Kachin, and Chin in the colonial army to suppress the Bamar majority, deliberately manufacturing inter-ethnic resentment. By institutionalising these ethnic hierarchies, Britain left a legacy of a fractured state, laying the groundwork for the world's longest-running civil wars."
   },
   "coreTerms": {
-    "ethnoNationalismAndFederalism": "The post-independence state, dominated by the Bamar military (Tatmadaw), has violently enforced a singular, Bamar-centric national identity. The struggle of ethnic resistance organisations for a federal democracy and self-determination is a direct challenge to this chauvinistic, centralised model of the state inherited from the colonial era.",
-    "militaryRuleAsInternalColonialism": "The Tatmadaw's rule functions as a form of internal colonialism. It uses extreme violence to control ethnic peripheries and exploit their natural resources (jade, timber, gas) for the benefit of a central military elite. The Rohingya genocide is the most extreme manifestation of this system, which uses colonial-era ethnic classifications to exclude and persecute. A UN mission found evidence of 'genocidal intent' in the military's actions [UN Fact-Finding Mission on Myanmar, 2018]."
+    "militaryCapitalismAndCorporateComplicity": "The Tatmadaw is not just an army; it is a criminal economic enterprise. Through its two conglomerates, MEHL and MEC, the military controls huge swathes of the economy, enriching a small class of generals. The 2021 coup was a move to protect this business empire. This system is sustained by international corporations, particularly in the extractive sector (oil, gas, gems), that have historically partnered with the military, providing a stream of revenue that directly funds the junta's atrocities.",
+    "militaryRuleAsInternalColonialism": "The Tatmadaw's rule functions as a form of internal colonialism. It uses extreme violence to control ethnic peripheries and exploit their natural resources (jade, timber, gas) through its own conglomerates and international corporate partners. The Rohingya genocide is the most extreme manifestation of this system, which uses colonial-era ethnic classifications to exclude and persecute. A UN mission found evidence of 'genocidal intent' in the military's actions [UN Fact-Finding Mission on Myanmar, 2018]."
   },
   "humanitarianImpact": {
     "displaced": "Over 3 million people internally displaced since the 2021 coup, with millions more displaced by decades of prior conflict [UNHCR/OCHA, 2024].",
@@ -28,11 +28,11 @@
     },
     {
       "year": "1962",
-      "event": "**First Military Coup**: General Ne Win seizes power, ending parliamentary democracy and ushering in decades of isolationist military rule."
+      "event": "**First Military Coup**: General Ne Win seizes power, ushering in decades of isolationist military rule and the construction of a vast economic empire controlled by the generals."
     },
     {
-      "year": "1988",
-      "event": "**8888 Uprising**: The military brutally crushes a nationwide pro-democracy uprising, killing thousands and cementing its hold on power [Bertil Lintner, 1989]."
+      "year": "1990",
+      "event": "**Military Conglomerates Formed**: The junta establishes the military-owned conglomerates MEHL and MEC, formalising its capture of the national economy."
     },
     {
       "year": "2017",
@@ -40,11 +40,11 @@
     },
     {
       "year": "2021",
-      "event": "**Military Coup & Revolution**: The Tatmadaw overthrows the elected government of Aung San Suu Kyi, triggering a nationwide armed uprising."
+      "event": "**Military Coup & Revolution**: The Tatmadaw overthrows the elected government to protect its economic empire from reform, triggering a nationwide armed uprising."
     },
     {
       "year": "2023-Present",
-      "event": "**Operation 1027**: A coordinated offensive by the Three Brotherhood Alliance of ethnic armies inflicts unprecedented defeats on the junta, shifting the civil war's momentum."
+      "event": "**Operation 1027**: A coordinated offensive by ethnic armies inflicts unprecedented defeats on the junta, shifting the civil war's momentum."
     }
   ],
   "takeAction": {
@@ -76,13 +76,13 @@
       }
     ],
     "awareness": [
-      "Amplify the voices of Myanmar's diverse pro-democracy movement, ensuring that ethnic resistance organisations are seen as central, not peripheral, to the revolution.",
-      "Challenge simplistic narratives of the conflict, framing it correctly as a struggle for a federal democracy against the military's internal colonialism and Bamar chauvinism.",
+      "Amplify the voices of Myanmar's diverse pro-democracy movement, ensuring that ethnic resistance organisations are seen as central to the revolution.",
+      "Expose the Tatmadaw as a commercial enterprise, showing how foreign corporations in sectors like oil and gas have historically funded its reign of terror.",
       "Educate your community on the Rohingya genocide as the ultimate expression of the military's ethnonationalist project, not as an isolated event."
     ],
     "advocacy": [
       "Demand comprehensive sanctions on the junta's economic interests, especially the Myanma Oil and Gas Enterprise (MOGE), and on companies supplying aviation fuel to the military.",
-      "Pressure all foreign companies to completely divest from Myanmar to cut the flow of revenue that funds the junta's war machine.",
+      "Demand all foreign companies completely divest from Myanmar to sever the flow of revenue, technology, and legitimacy that sustains military capitalism.",
       "Call for a comprehensive global arms embargo to stop the flow of weapons and technology to the military junta.",
       "Support the Rohingya people's demands for justice, full citizenship rights, and a safe repatriation, and back the genocide case against Myanmar at the International Court of Justice (ICJ)."
     ]

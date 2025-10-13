@@ -2,14 +2,14 @@
   "name": "Somalia",
   "emoji": "🇸🇴",
   "ariaLabel": "Somali flag",
-  "currentCrisisSummary": "Somalia is caught in a convergence of catastrophic crises: a protracted civil war, a resilient al-Shabaab insurgency, and a devastating cycle of climate-driven droughts and floods. This perfect storm has led to a near-permanent state of humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises [UN OCHA, 2025].",
+  "currentCrisisSummary": "Somalia is caught in a convergence of catastrophic crises: a protracted civil war, a resilient al-Shabaab insurgency, and a devastating cycle of climate-driven droughts and floods. This perfect storm, fuelled by the predatory logic of global resource competition and climate injustice, has led to a near-permanent state of humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises [UN OCHA, 2025].",
   "colonialRoot": {
     "colonialPower": "Britain & Italy",
-    "legacy": "The crisis is a direct legacy of the colonial partition of the Somali nation. In the 'Scramble for Africa', Britain and Italy (along with France) carved up a culturally and linguistically homogenous people into five separate territories, shattering its social and economic fabric. The artificial borders and the hasty, ill-planned merger of the British and Italian colonies at independence in 1960 created a dysfunctional state from its inception [I.M. Lewis, 'A Modern History of the Somali', 2002]. This colonial vivisection and the failure to address the 'national question' of a divided people created the deep-seated grievances that have fuelled decades of conflict."
+    "legacy": "The crisis is a direct legacy of the colonial partition of the Somali nation. In the 'Scramble for Africa', Britain and Italy (along with France) carved up a culturally and linguistically homogenous people into five separate territories, shattering its social and economic fabric. The artificial borders and the hasty, ill-planned merger of the British and Italian colonies at independence in 1960 created a dysfunctional state from its inception [I.M. Lewis, 'A Modern History of the Somali', 2002]. This colonial vivisection created the deep-seated grievances that have fuelled decades of conflict."
   },
   "coreTerms": {
-    "theFragmentedState": "The state's implosion in 1991 was a direct result of its colonial creation being supercharged by the Cold War. The Siad Barre dictatorship was armed and propped up first by the Soviet Union and then the United States, who used Somalia as a geopolitical pawn. This external support for a hyper-centralised, violent state crushed organic political development. After its collapse, foreign interventions—from the failed US-led UN mission in the 1990s to the modern 'war on terror' framework—have often exacerbated fragmentation, prioritising counter-terrorism over a genuine, Somali-led process of national reconciliation and state-building.",
-    "climateCatastropheAndPermanentCrisis": "Somalia is a ground-zero for climate injustice. Despite having negligible carbon emissions, it is suffering from record-breaking droughts and catastrophic floods driven by the climate crisis created by the Global North. This ecological collapse has decimated pastoral and agricultural livelihoods, acting as a primary driver of mass displacement and a powerful recruitment tool for armed groups like al-Shabaab, which exploits the resulting desperation. Climate change has transformed a political crisis into a permanent, self-perpetuating humanitarian catastrophe, where cycles of famine are now a predictable feature."
+    "theFragmentedState": "The state's implosion in 1991 was supercharged by the Cold War. The Siad Barre dictatorship was armed first by the USSR and then the US, who used Somalia as a pawn to control the strategic sea lanes vital for global oil shipments. After its collapse, foreign interventions—from the failed US-led mission to the modern 'war on terror', a profitable industry for the Western security-industrial complex—have often exacerbated fragmentation, prioritising counter-terrorism over a genuine, Somali-led process of state-building.",
+    "climateColonialismAndPredatoryCapitalism": "Somalia is ground-zero for crises driven by global capitalism. Firstly, it suffers extreme climate injustice; catastrophic droughts and floods caused by the Global North's emissions decimate livelihoods and fuel conflict. Secondly, with the state's collapse, its unguarded coastline became a frontier for predatory extraction, with international fleets engaging in illegal fishing and Western companies dumping toxic waste with impunity. This plunder is now being followed by a corporate scramble for offshore oil and gas, threatening a new cycle of extractive conflict."
   },
   "humanitarianImpact": {
     "displaced": "Nearly 4 million people are internally displaced by conflict and climate shocks [UNHCR, 2025].",
@@ -24,19 +24,19 @@
     },
     {
       "year": "1960",
-      "event": "**Independence & Unification**: The former British and Italian Somalilands unite to form the Somali Republic. The other three territories remain under foreign rule."
+      "event": "**Independence & Unification**: The former British and Italian Somalilands unite to form the Somali Republic."
     },
     {
       "year": "1969",
-      "event": "**Siad Barre's Coup**: General Siad Barre seizes power in a military coup, establishing a dictatorship aligned with the Soviet Union."
+      "event": "**Siad Barre's Coup**: General Siad Barre seizes power, establishing a dictatorship aligned with the Soviet Union."
     },
     {
       "year": "1977-1978",
-      "event": "**Ogaden War**: Somalia's attempt to reclaim the Somali-inhabited Ogaden region from Ethiopia ends in defeat, prompting Barre to switch allegiance from the USSR to the United States."
+      "event": "**Ogaden War**: Somalia's attempt to reclaim the Ogaden region from Ethiopia ends in defeat, prompting Barre to switch allegiance to the United States in the Cold War struggle to control the Horn of Africa's strategic shipping lanes."
     },
     {
       "year": "1991",
-      "event": "**State Collapse**: Barre's regime is overthrown by a coalition of clan-based rebel groups. The state disintegrates, plunging the country into a devastating civil war."
+      "event": "**State Collapse**: Barre's regime is overthrown. The state disintegrates, plunging the country into civil war and leaving its resources open to foreign plunder."
     },
     {
       "year": "1992-1995",
@@ -44,11 +44,7 @@
     },
     {
       "year": "2006-Present",
-      "event": "**Rise of Al-Shabaab**: The extremist group al-Shabaab emerges from the Islamic Courts Union, becoming the dominant insurgency and waging a brutal war against the internationally-backed government."
-    },
-    {
-      "year": "2011",
-      "event": "**Catastrophic Famine**: A devastating famine, exacerbated by conflict and drought, kills a quarter of a million people."
+      "event": "**Rise of Al-Shabaab**: The extremist group al-Shabaab emerges, becoming the dominant insurgency and waging a brutal war against the internationally-backed government."
     },
     {
       "year": "2022-Present",
@@ -76,13 +72,13 @@
     "awareness": [
       "Amplify the voices of Somali peacebuilders, journalists, and diaspora communities who are leading recovery and reconciliation efforts.",
       "Challenge the simplistic 'failed state' narrative. Frame the crisis as a product of colonial partition, Cold War manipulation, and extreme climate injustice.",
-      "Educate your community on how the climate crisis, driven by the Global North, is a primary cause of famine and conflict in Somalia."
+      "Expose the history of corporate criminality in Somalia, from illegal industrial fishing and toxic waste dumping to the new 'scramble' for offshore oil and gas."
     ],
     "advocacy": [
       "Demand wealthy nations pay their climate debt by financing a Loss and Damage fund to support Somali communities devastated by climate change.",
-      "Advocate for a decolonisation of aid, calling on international donors to channel more funding directly through local Somali organisations.",
-      "Call for a shift away from purely militaristic 'counter-terrorism' strategies towards investment in Somali-led peace and state-building initiatives.",
-      "Support a comprehensive UN arms embargo to reduce the flow of weapons that fuels the conflict."
+      "Challenge the 'aid industrial complex' by demanding that donors channel funding directly through local Somali organisations and away from profit-making Western contractors.",
+      "Demand international accountability and reparations for decades of illegal fishing and toxic waste dumping by foreign corporations in Somali waters.",
+      "Call for a shift away from purely militaristic 'counter-terrorism' strategies towards investment in Somali-led peace and state-building initiatives."
     ]
   }
 }

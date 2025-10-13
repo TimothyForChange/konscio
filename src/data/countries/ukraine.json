@@ -2,14 +2,14 @@
   "name": "Ukraine",
   "emoji": "🇺🇦",
   "ariaLabel": "Ukrainian flag",
-  "currentCrisisSummary": "An unprovoked war of aggression since 2014, escalating with the 2022 full-scale invasion, has caused mass casualties, displacement, and the systematic destruction of civilian infrastructure and cultural heritage.",
+  "currentCrisisSummary": "An unprovoked war of aggression by Russia's oligarchic, fossil-fuel-driven regime since 2014, escalating with the 2022 full-scale invasion, has caused mass casualties, displacement, and the systematic destruction of civilian infrastructure and cultural heritage.",
   "colonialRoot": {
     "colonialPower": "Russian Empire & Soviet Union",
-    "legacy": "Centuries of Russian imperial domination have been marked by systematic attempts to erase Ukrainian sovereignty and identity. The Russian Empire enforced cultural colonisation through Russification policies, banning the Ukrainian language (e.g., Ems Ukaz, 1876). The Soviet Union continued this imperial project through cultural suppression and political terror, culminating in the Holodomor (1932-33), a genocide by man-made famine that killed millions of Ukrainians [Timothy Snyder, 'Bloodlands', 2010]. This long history of denying Ukraine's national legitimacy and treating it as a colonial possession provides the ideological basis for the current genocidal war [New Lines Institute & Raoul Wallenberg Centre, 2022]."
+    "legacy": "Centuries of Russian imperial domination have been marked by systematic attempts to erase Ukrainian sovereignty and identity, from Tsarist Russification to the Soviet-engineered Holodomor genocide [Timothy Snyder, 'Bloodlands', 2010]. This history of treating Ukraine as a colonial possession provides the ideological basis for the current genocidal war. The Soviet Union also left behind a centralised state economy that, upon its collapse, was rapidly captured by a new oligarchic class."
   },
   "coreTerms": {
-    "imperialAmbition": "Russia's invasion is a neocolonial war of conquest intended to re-establish a sphere of influence and erase Ukraine from the map. The official denial of Ukraine's right to exist as a sovereign nation is a core justification for the war, framing it not as a conflict between states but as a colonial 'reunification'.",
-    "decolonisationAndResistance": "The fierce Ukrainian resistance is a continuation of a centuries-long struggle for decolonisation and self-determination. In occupied territories, Russia repeats its historical colonial playbook: imposing its language, enforcing citizenship, and systematically deporting children—a war crime for which the ICC has issued arrest warrants—to erase Ukrainian identity and culture [International Criminal Court, 2023]."
+    "fossilFuelImperialism": "Russia's invasion is a neocolonial war driven by its specific model of kleptocratic state capitalism. A ruling class of oligarchs and security officials, whose wealth derives from the control of fossil fuels, seeks to seize Ukraine's industrial assets, agricultural land, and offshore energy reserves. The war is an attempt to violently expand this parasitic economic model and eliminate a sovereign, democratic alternative on its border.",
+    "decolonisationAndTheOligarchs": "The Ukrainian resistance is a dual struggle: a war for national decolonisation against Russian imperialism, and an internal fight to build a just society free from its own legacy of post-Soviet oligarchic capitalism. Western support, while crucial, has often been tied to socially painful neoliberal reforms demanded by institutions like the IMF. The challenge is to win the war while building a sovereign economy that serves the Ukrainian people, not just foreign capital or domestic oligarchs."
   },
   "humanitarianImpact": {
     "displaced": "An estimated 3.7 million people remain internally displaced within Ukraine [IOM, 2024].",
@@ -19,20 +19,12 @@
   },
   "timeline": [
     {
-      "year": "1876",
-      "event": "**Ems Ukaz**: The Russian Empire bans all publications in the Ukrainian language, seeking to erase its cultural identity."
-    },
-    {
-      "year": "1917-1921",
-      "event": "**War for Independence**: The Ukrainian People's Republic is established but ultimately crushed and occupied by Soviet Russia."
-    },
-    {
       "year": "1932-1933",
       "event": "**The Holodomor**: A Soviet-engineered famine kills millions of Ukrainians in an act of genocide, recognised by the European Parliament and numerous states."
     },
     {
       "year": "1991",
-      "event": "**Independence Restored**: Ukraine overwhelmingly votes for independence, formally leaving the collapsing Soviet empire."
+      "event": "**Independence Restored**: Ukraine overwhelmingly votes for independence, formally leaving the collapsing Soviet empire. The subsequent chaotic privatisation of state assets leads to the rise of a powerful oligarchic class."
     },
     {
       "year": "2004",
@@ -40,7 +32,7 @@
     },
     {
       "year": "2014",
-      "event": "**Revolution of Dignity & Start of War**: Pro-European protests oust a pro-Russian president, prompting Russia to illegally annex Crimea and invade the Donbas region [UN General Assembly Resolution 68/262]."
+      "event": "**Revolution of Dignity & Start of War**: Pro-European protests against corruption and the domestic oligarchic system oust a pro-Russian president, prompting Russia to illegally annex Crimea and invade the Donbas region."
     },
     {
       "year": "2022",
@@ -63,23 +55,18 @@
         "organisation": "Razom for Ukraine",
         "description": "Provides critical medical supplies and supports Ukrainian civil society's resistance.",
         "url": "https://www.razomforukraine.org/"
-      },
-      {
-        "organisation": "UNITED24",
-        "description": "The official fundraising platform initiated by President Zelenskyy to defend and rebuild Ukraine.",
-        "url": "https://u24.gov.ua/"
       }
     ],
     "awareness": [
-      "Actively challenge and debunk Russian disinformation that falsely portrays the invasion as a 'denazification' effort and denies Ukrainian statehood.",
+      "Actively challenge and debunk Russian disinformation that obscures the imperialist and oligarchic-capitalist nature of the Russian regime.",
       "Amplify the voices, art, and analysis of Ukrainians to centre their perspectives and support their cultural resistance against colonial erasure.",
       "Educate your community on Russia's long history of imperial violence in the region, including the genocide of the Holodomor, to contextualise the current war of aggression."
     ],
     "advocacy": [
-      "Demand your government provide sustained and sufficient military, economic, and humanitarian aid to enable Ukraine to defend its sovereignty.",
+      "Demand your government provide sustained military, economic, and humanitarian aid to enable Ukraine to defend its sovereignty.",
       "Call for the strengthening and enforcement of comprehensive sanctions against the Russian state and all entities enabling its war economy.",
-      "Support the boycott of companies that continue to operate in Russia, thereby funding the invasion. Consult the 'Leave Russia' list by the Kyiv School of Economics.",
-      "Lobby for international legal accountability, including supporting the ICC's arrest warrants for Russian officials and the creation of a special tribunal for the crime of aggression."
+      "Support the boycott of companies that continue to operate in Russia. Consult the 'Leave Russia' list by the Kyiv School of Economics.",
+      "Advocate for a just, Ukrainian-led reconstruction that prioritises public services and local communities over the profits of multinational corporations, rejecting the logic of disaster capitalism."
     ]
   }
 }

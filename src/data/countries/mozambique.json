@@ -2,14 +2,14 @@
   "name": "Mozambique",
   "emoji": "🇲🇿",
   "ariaLabel": "Mozambique flag",
-  "currentCrisisSummary": "The northern province of Cabo Delgado is the centre of a violent conflict over some of the largest natural gas reserves in Africa. The insurgency, led by the group Ahlu Sunnah wa Jama'a (ASWJ), is rooted in local grievances against a state and multinational energy corporations (e.g., TotalEnergies, ExxonMobil) that have captured the region's wealth while displacing the local population. The conflict is characterised by extreme brutality, with the intervention of foreign troops (from Rwanda and the SADC) seen as protecting foreign corporate interests over Mozambican lives [ACLED, 2024].",
+  "currentCrisisSummary": "The northern province of Cabo Delgado is the centre of a violent conflict over some of the largest natural gas reserves in Africa. The insurgency, led by the group Ahlu Sunnah wa Jama'a (ASWJ), is rooted in local grievances against a ruling elite and its multinational corporate partners (e.g., TotalEnergies, ExxonMobil) that have captured the region's wealth while displacing the local population. The conflict is characterised by extreme brutality, with the intervention of foreign troops seen as protecting corporate assets over Mozambican lives [ACLED, 2024].",
   "colonialRoot": {
     "colonialPower": "Portugal",
-    "legacy": "The crisis is a direct legacy of nearly 500 years of Portuguese colonial exploitation. Portugal's rule was based on forced labour ('chibalo' system), resource extraction, and a deliberate policy of underdevelopment. At independence in 1975, following a brutal liberation war led by FRELIMO, the Portuguese sabotaged the nation's infrastructure and left behind a state with virtually no skilled professionals [Allen Isaacman, 'Mozambique: From Colonialism to Revolution', 1983]. This created a chronically weak state, predisposed to internal conflict and neocolonial penetration, laying the groundwork for today's resource war in Cabo Delgado."
+    "legacy": "The crisis is a legacy of 500 years of Portuguese colonial exploitation, based on forced labour and resource extraction. At independence in 1975, following a liberation war led by FRELIMO, Portugal sabotaged the nation's infrastructure [Allen Isaacman, 1983]. The post-civil war era saw this weakness exploited by the IMF and World Bank, which forced FRELIMO to abandon its socialist project for neoliberal reforms that paved the way for today's resource war."
   },
   "coreTerms": {
-    "bloodGasAndNeocolonialExtraction": "The vast offshore gas fields are a modern 'resource curse', fuelling a conflict over 'blood gas'. The promise of national prosperity has proven to be a mirage for the people of Cabo Delgado, who have lost their land and fishing grounds to corporate projects. The insurgency is a direct response to this dispossession and the state's role as a facilitator for multinational corporations. This arrangement mirrors the colonial extractive model, where resources are violently secured and funnelled out of the country, leaving local communities with only the environmental and social costs.",
-    "destabilisationAndProxyWars": "Mozambique's post-independence history is defined by foreign-backed destabilisation. The devastating Mozambican Civil War (1977-1992) was a proxy war in which the socialist FRELIMO government was attacked by RENAMO, an insurgency created and sustained by the white-minority regimes of Rhodesia and Apartheid South Africa to punish Mozambique for supporting anti-colonial liberation movements [Joseph Hanlon, 'Beggar Your Neighbours', 1986]. This history of externally engineered conflict shattered the social fabric and entrenched a political culture of violence, the legacy of which continues to shape the state's militarised response in Cabo Delgado."
+    "bloodGasAndNeocolonialExtraction": "The vast offshore gas fields are a modern 'resource curse', fuelling a conflict over 'blood gas' which is greenwashed as a 'transition fuel' for the Global North. The FRELIMO elite acts as a comprador class, managing the violent dispossession of its own people on behalf of foreign capital. This arrangement mirrors the colonial model, where resources are funnelled out of the country, leaving communities with only the environmental and social costs.",
+    "destabilisationAndProxyWars": "Mozambique's post-independence history is defined by foreign-backed destabilisation. The devastating civil war (1977-1992) was a proxy war waged by the Rhodesian and Apartheid South African regimes [Joseph Hanlon, 1986]. This legacy is compounded by modern financial destabilisation, such as the 'hidden debts' scandal, where banks like Credit Suisse colluded with state officials to indebt the nation for billions, enforcing austerity on the poor while enriching a tiny elite."
   },
   "humanitarianImpact": {
     "displaced": "Over 1 million people have been internally displaced by the conflict in the north [UN OCHA, 2024].",
@@ -20,11 +20,7 @@
   "timeline": [
     {
       "year": "1505",
-      "event": "**Portuguese Colonization Begins**: Following Vasco da Gama's arrival in 1498, Portugal establishes trading posts and begins a gradual process of colonization, marking the start of over four centuries of rule and exploitation."
-    },
-    {
-      "year": "1885-1902",
-      "event": "**Conquest of the Interior**: Prompted by the 'Scramble for Africa', Portugal launches military campaigns to establish effective control, defeating local kingdoms like the Gaza Empire to solidify its colonial rule."
+      "event": "**Portuguese Colonization Begins**: Following Vasco da Gama's arrival, Portugal establishes trading posts, marking the start of four centuries of exploitation."
     },
     {
       "year": "1964-1974",
@@ -32,27 +28,27 @@
     },
     {
       "year": "1975",
-      "event": "**Independence**: Mozambique becomes independent, with FRELIMO's Samora Machel as its first president. Portugal's settler population flees, sabotaging the economy."
+      "event": "**Independence**: Mozambique becomes independent. FRELIMO, under Samora Machel, embarks on a socialist project of nationalisation and social services."
     },
     {
       "year": "1977-1992",
-      "event": "**Civil War**: A devastating proxy war erupts. The Rhodesian and later South African apartheid regimes create and fund the RENAMO insurgency to destabilise the FRELIMO government."
+      "event": "**Civil War**: A devastating proxy war erupts, with apartheid regimes in Rhodesia and South Africa creating and funding the RENAMO insurgency to destroy the FRELIMO government."
     },
     {
       "year": "1992",
-      "event": "**Peace Accord**: The Rome General Peace Accords are signed, ending the civil war that killed an estimated 1 million people."
+      "event": "**Peace Accord & Neoliberal Turn**: The Rome Accords end the civil war. Forced by the IMF and World Bank, FRELIMO abandons socialism and adopts structural adjustment programs, privatising the economy."
     },
     {
-      "year": "2010",
-      "event": "**Gas Discovery**: Massive offshore natural gas reserves are discovered off the coast of Cabo Delgado, attracting major multinational energy corporations."
+      "year": "2016",
+      "event": "**'Hidden Debts' Scandal**: It is revealed that state officials and international banks (e.g., Credit Suisse) secretly arranged over $2 billion in fraudulent loans, plunging the country into a debt crisis."
     },
     {
       "year": "2017",
-      "event": "**Insurgency Begins**: The Islamist group ASWJ launches its first attack in Cabo Delgado, capitalising on local grievances over poverty and the gas projects."
+      "event": "**Insurgency Begins**: The Islamist group ASWJ launches its first attack in Cabo Delgado, capitalising on grievances over poverty and the elite capture of gas wealth."
     },
     {
       "year": "2021-Present",
-      "event": "**Foreign Intervention**: Following a major attack on the town of Palma, foreign troops from Rwanda and the SADC region deploy to secure the gas-rich districts."
+      "event": "**Foreign Intervention**: Following a major attack on Palma, foreign troops from Rwanda and SADC deploy to protect the gas infrastructure of multinational corporations, not the displaced civilian population."
     }
   ],
   "takeAction": {
@@ -70,13 +66,13 @@
     ],
     "awareness": [
       "Amplify the voices of journalists and civil society organisations from Cabo Delgado who are documenting the conflict's true causes and human cost.",
-      "Challenge the greenwashing of liquefied natural gas (LNG) by exposing the 'blood gas' reality: a resource war that displaces communities and fuels extreme violence.",
-      "Educate your community that the insurgency is rooted in legitimate grievances against a neocolonial extractive model that enriches foreign corporations while impoverishing local people."
+      "Challenge the greenwashing of liquefied natural gas (LNG) by exposing the 'blood gas' reality: a resource war that displaces communities for corporate profit.",
+      "Educate your community that the insurgency is rooted in grievances against a model where a domestic ruling class facilitates the extraction of wealth for foreign corporations."
     ],
     "advocacy": [
-      "Demand that energy giants (TotalEnergies, ExxonMobil, Eni) conduct independent human rights impact assessments and publicly disclose their security agreements with state and foreign forces.",
-      "Lobby for international pressure on the Mozambican government to ensure all gas revenues are managed transparently and a guaranteed portion is invested in the development of Cabo Delgado.",
-      "Call for accountability for the foreign military forces operating in Mozambique, ensuring their mandate is to protect civilians, not just gas infrastructure.",
+      "Demand that energy giants (TotalEnergies, ExxonMobil, Eni) publicly disclose their security agreements with state and foreign forces.",
+      "Lobby for international pressure to ensure gas revenues are managed transparently and a guaranteed portion is invested in the development of Cabo Delgado.",
+      "Demand the cancellation of Mozambique's odious 'hidden debts' and the prosecution of the international bankers and officials who orchestrated the fraud.",
       "Support a moratorium on new fossil fuel projects in conflict zones, arguing that human rights must take precedence over corporate profits."
     ]
   }

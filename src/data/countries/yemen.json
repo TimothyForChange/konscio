@@ -2,14 +2,14 @@
   "name": "Yemen",
   "emoji": "🇾🇪",
   "ariaLabel": "Yemeni flag",
-  "currentCrisisSummary": "Yemen is suffering one of the world's most severe humanitarian crises, driven by a brutal civil war and a devastating air and sea blockade. The conflict, a proxy war between a Saudi-led coalition and the Iran-aligned Houthis, has shattered infrastructure, caused a human-made famine, and left millions reliant on aid to survive [UN OCHA, 2024].",
+  "currentCrisisSummary": "Yemen is suffering one of the world's most severe humanitarian crises, driven by a brutal civil war over control of the state and its strategic position on one of the world's most important trade routes, and a devastating air and sea blockade. The conflict, a proxy war between a Saudi-led coalition and the Iran-aligned Houthis, has shattered infrastructure, caused a human-made famine, and left millions reliant on aid to survive [UN OCHA, 2024].",
   "colonialRoot": {
     "colonialPower": "British Empire & Ottoman Empire",
-    "legacy": "The crisis is deeply rooted in colonial division. The British Empire's control of the strategic port of Aden and the south (1839-1967) and Ottoman rule in the north created two distinct political entities. Britain's 'divide and rule' strategy deliberately kept the south fractured into numerous petty sultanates and sheikhdoms, fostering instability and leaving a power vacuum upon withdrawal. This colonial partition laid the groundwork for decades of internal conflict and a weak, fractured state easily exploited by regional powers."
+    "legacy": "The crisis is deeply rooted in colonial division. The British Empire's control of the strategic port of Aden and the south (1839-1967) and Ottoman rule in the north created two distinct political entities. Britain's 'divide and rule' strategy deliberately kept the south fractured, fostering instability and leaving a power vacuum upon withdrawal. This colonial partition laid the groundwork for decades of internal conflict and a weak, fractured state easily exploited by regional powers."
   },
   "coreTerms": {
-    "proxyWarAndWesternComplicity": "The conflict is fundamentally a proxy war between Saudi Arabia (backed by the UAE) and Iran, fought on Yemeni soil. It is enabled by Western powers, particularly the US and UK, which have provided the Saudi-led coalition with weapons, intelligence, and logistical support, making them complicit in the resulting war crimes [Chatham House, 2024; Mwatana for Human Rights]. This intervention has accelerated the total collapse of the Yemeni state for regional geopolitical gain.",
-    "theForgottenWar": "Despite the immense suffering, the war is often dubbed the 'forgotten war'. This is not accidental but a consequence of the perpetrators' key geopolitical alliances, which discourages sustained, critical media coverage in the West. This silence has allowed widespread human rights violations by all parties to continue with little accountability, perpetuating a cycle of aid dependency and despair."
+    "geopoliticalChokepointAndLogisticsCapitalism": "The war is a violent struggle to control one of the most critical chokepoints of global capitalism: the Bab-el-Mandeb strait. This sea lane is a vital artery for oil tankers and container ships moving between Asia and Europe. Regional powers like Saudi Arabia and the UAE, backed by the West, seek to control Yemen's coastline to dominate this strategic node, ensuring their own commercial and energy security. The conflict is a brutal manifestation of how the geography of global trade becomes a site of imperialist war.",
+    "armsIndustryProfitsAndWesternComplicity": "The proxy war is enabled and sustained by the Western military-industrial complex. The US and UK are not just allies of the Saudi-led coalition; they are its primary arms dealers. Companies like BAE Systems, Raytheon, and Lockheed Martin have reaped billions in profits from selling the bombs, jets, and logistical support used to devastate Yemen. This makes Western governments complicit in war crimes, acting as partners in a conflict that is enormously profitable for their national arms industries [Chatham House, 2024]."
   },
   "humanitarianImpact": {
     "displaced": "Over 4.5 million people have been internally displaced, many forced to flee multiple times [UNHCR, 2024].",
@@ -20,15 +20,11 @@
   "timeline": [
     {
       "year": "1839",
-      "event": "**British Seize Aden**: The British Empire captures the port of Aden, beginning its colonial presence in southern Yemen."
-    },
-    {
-      "year": "1967",
-      "event": "**British Withdrawal**: Britain withdraws from southern Yemen, leading to the establishment of the Marxist People's Democratic Republic of Yemen (South Yemen)."
+      "event": "**British Seize Aden**: The British Empire captures the port of Aden, beginning its colonial presence in southern Yemen to control the sea route to India."
     },
     {
       "year": "1990",
-      "event": "**Unification**: The capitalist North and socialist South Yemen unite to form the Republic of Yemen."
+      "event": "**Unification**: The capitalist North and socialist South Yemen unite. The subsequent Saleh regime embraces IMF-backed neoliberal policies, creating widespread inequality."
     },
     {
       "year": "1994",
@@ -36,11 +32,11 @@
     },
     {
       "year": "2011",
-      "event": "**Arab Spring**: Mass protests force long-time President Ali Abdullah Saleh to hand over power to his deputy, Abdrabbuh Mansur Hadi."
+      "event": "**Arab Spring**: Mass protests against corruption and poverty force long-time President Ali Abdullah Saleh to hand over power to his deputy, Abdrabbuh Mansur Hadi."
     },
     {
       "year": "2014-2015",
-      "event": "**Houthi Takeover & Coalition Intervention**: Houthi rebels capture the capital, Sana'a. In response, a Saudi-led coalition, backed by the US and UK, begins a devastating bombing campaign to restore the Hadi government."
+      "event": "**Houthi Takeover & Coalition Intervention**: Capitalising on popular anger, Houthi rebels capture the capital, Sana'a. In response, a Saudi-led coalition, backed by the US and UK, begins a devastating bombing campaign to restore the Hadi government."
     },
     {
       "year": "2016-Present",
@@ -71,12 +67,12 @@
       }
     ],
     "awareness": [
-      "Break the media silence that has allowed this to become a 'forgotten war'. Educate your community on the human cost of the conflict and the West's direct complicity.",
+      "Expose the blood money trail: show how major Western arms manufacturers are directly profiting from the slaughter and starvation of Yemeni civilians.",
       "Amplify the voices and analysis of Yemeni journalists, human rights defenders, and artists who are documenting the war and imagining a peaceful future.",
-      "Challenge the narrative that this is merely a 'local' or 'sectarian' conflict. Frame it correctly as a regional proxy war enabled by Western arms and diplomatic cover."
+      "Challenge the narrative that this is merely a 'sectarian' conflict. Frame it correctly as a regional proxy war enabled by Western arms and diplomatic cover."
     ],
     "advocacy": [
-      "Demand your government—particularly in the US and UK—immediately halt all arms sales, intelligence sharing, and military support to the Saudi-led coalition.",
+      "Demand your government—particularly in the US and UK—immediately halt all arms sales, prioritising human lives over the profits of the arms industry.",
       "Call for an immediate and permanent lifting of the Saudi-led air and sea blockade, which is a form of collective punishment that has engineered the famine.",
       "Lobby for international support for a genuinely inclusive, Yemeni-led peace process that is free from the dictates of foreign powers.",
       "Support efforts to document atrocities and pursue international legal accountability for war crimes committed by all parties to the conflict."

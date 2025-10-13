@@ -2,14 +2,14 @@
   "name": "Sahel",
   "emoji": "🇧🇫🇲🇱🇳🇪",
   "ariaLabel": "Flags of Burkina Faso, Mali, and Niger",
-  "currentCrisisSummary": "The Central Sahel is the epicentre of the world's most neglected and fastest-growing crisis, a convergence of state collapse, jihadist insurgencies, and extreme climate shocks. A wave of military coups in Burkina Faso, Mali, and Niger has been framed as a popular, anti-colonial rejection of the failed, decade-long French-led military intervention [International Crisis Group, 2023]. The withdrawal of Western forces has left a security vacuum, creating a humanitarian catastrophe and a new geopolitical frontline characterised by extreme violence and mass displacement.",
+  "currentCrisisSummary": "The Central Sahel is the epicentre of the world's most neglected crisis, a convergence of state collapse, jihadist insurgencies, and extreme climate shocks. A wave of military coups in Burkina Faso, Mali, and Niger has been framed as a popular, anti-colonial rejection of a failed French-led intervention and a struggle for sovereignty over natural resources, creating a new geopolitical frontline characterised by extreme violence and mass displacement.",
   "colonialRoot": {
     "colonialPower": "France",
-    "legacy": "The crisis is a direct legacy of French colonial policies. France conquered the region in the late 19th century, shattered ancient political and economic systems, and carved out artificial states with arbitrary borders that fuelled ethnic tensions. The French governed through a policy of assimilation and coercion, building an extractive economy while neglecting local institutions. At independence around 1960, France left behind fragile, dependent states and maintained its dominance through a neocolonial system known as 'Françafrique', which trapped the region in a cycle of poverty and weak governance, creating the perfect conditions for state failure."
+    "legacy": "The crisis is a direct legacy of French colonial policies. France conquered the region, shattered ancient political and economic systems, and carved out artificial states. At independence around 1960, France left behind fragile states and maintained its dominance through 'Françafrique', using monetary control via the CFA franc and military pacts to trap the region in a cycle of poverty and raw material extraction, creating the perfect conditions for state failure."
   },
   "coreTerms": {
-    "françafriqueAndFailedIntervention": "The crisis is an indictment of 'Françafrique'—France's strategy of maintaining economic and military dominance over its former African colonies. The recent military coups are a direct backlash against this system and the failure of the French-led 'war on terror' (Operation Barkhane), which locals saw as an occupying force propping up corrupt elites. The expulsion of the French ambassador and troops from these nations signals a historic, sovereign break from a neocolonial relationship that failed to provide security or development for the Sahelian people.",
-    "climateCollapseAndInjustice": "The Sahel is a ground-zero for climate injustice. Despite contributing almost nothing to global carbon emissions, the region is warming at 1.5 times the global average, leading to catastrophic desertification and resource scarcity [IPCC, 2022]. This climate collapse, caused by the industrialised Global North, has destroyed traditional livelihoods, deepened ethnic conflicts over land and water, and created a vast recruiting pool for armed groups. The crisis is an acute example of climate colonialism, where the devastating costs of Western consumption are paid for in Sahelian lives."
+    "françafriqueAndFailedIntervention": "The crisis is an indictment of 'Françafrique'—France's strategy of maintaining economic and military dominance. Its key pillars were the CFA franc, a colonial currency that prevented monetary sovereignty, and a military presence to protect French corporate interests, such as uranium mines in Niger. The failed 'war on terror', which enriched the French arms industry, was the final stage of this system. The expulsion of French forces signals a historic break from a neocolonial relationship that extracted wealth while providing neither security nor development.",
+    "climateCollapseAndInjustice": "The Sahel is ground-zero for climate injustice. Despite contributing almost nothing to global emissions, the region is warming at 1.5 times the global average, leading to catastrophic desertification [IPCC, 2022]. This climate collapse, caused by the industrialised Global North, has destroyed livelihoods, deepened conflicts over land and water, and created a vast recruiting pool for armed groups. The crisis is an acute example of climate colonialism, where the devastating costs of Western consumption are paid for in Sahelian lives."
   },
   "humanitarianImpact": {
     "displaced": "Over 3.5 million people are internally displaced across the Central Sahel due to the conflict [UN OCHA, 2024].",
@@ -24,7 +24,7 @@
     },
     {
       "year": "1960",
-      "event": "**Nominal Independence**: Burkina Faso (then Upper Volta), Mali, and Niger gain independence, but remain under French economic and military influence."
+      "event": "**Nominal Independence**: Burkina Faso, Mali, and Niger gain independence, but remain trapped in a French-controlled monetary system (the CFA franc) and an economy based on raw material exports to Europe."
     },
     {
       "year": "2012",
@@ -32,19 +32,15 @@
     },
     {
       "year": "2013-2022",
-      "event": "**French Intervention**: France launches Operation Serval, later Barkhane. The decade-long military campaign fails to contain the insurgency, which spreads to Burkina Faso and Niger."
+      "event": "**French Intervention**: France launches Operation Barkhane. The decade-long campaign, meant to secure French economic interests (like uranium in Niger), fails to contain the insurgency, which spreads across the region."
     },
     {
       "year": "2020-2023",
-      "event": "**Wave of Coups**: Popular-backed military juntas seize power in Mali (2020, 2021), Burkina Faso (2022), and Niger (2023), all demanding the withdrawal of French forces."
+      "event": "**Wave of Coups**: Popular-backed military juntas seize power in Mali, Burkina Faso, and Niger, expelling French forces and seeking to exit the neocolonial monetary and security framework."
     },
     {
       "year": "2023",
-      "event": "**Alliance of Sahel States (AES)**: The three junta-led nations form a new mutual defence pact, cementing a political and security break from France and its allies."
-    },
-    {
-      "year": "January 2024",
-      "event": "**ECOWAS Withdrawal**: Burkina Faso, Mali, and Niger announce their immediate withdrawal from the Economic Community of West African States (ECOWAS), citing 'inhumane' sanctions and the bloc's failure to support their fight against terrorism."
+      "event": "**Alliance of Sahel States (AES)**: The three junta-led nations form a mutual defence pact, cementing a political and security break from France and its allies."
     },
     {
       "year": "2024-Present",
@@ -70,15 +66,15 @@
       }
     ],
     "awareness": [
-      "Amplify the analysis of Sahelian academics, journalists, and activists who are explaining the popular rejection of the French-led neocolonial order.",
-      "Challenge the failed 'war on terror' narrative, showing how it served as a pretext for foreign intervention that ultimately exacerbated the crisis.",
+      "Amplify the analysis of Sahelian academics and activists who are explaining the popular rejection of the French-led neocolonial order.",
+      "Expose the economic underpinnings of neocolonialism, from the CFA franc that denies monetary sovereignty to the corporate extraction of uranium and gold that leaves nations impoverished.",
       "Educate your community on climate justice, framing the Sahel crisis as a clear case of 'climate colonialism' where the Global North's emissions fuel conflict in the Global South."
     ],
     "advocacy": [
       "Demand Western governments abandon failed counter-terrorism strategies and support African-led diplomatic and development solutions instead.",
       "Call for radical climate action, including the payment of climate reparations from industrialised nations to fund locally-led adaptation projects in the Sahel.",
       "Lobby for the immediate lifting of the 'inhumane' sanctions imposed on these countries, which collectively punish civilians and hinder humanitarian response.",
-      "Advocate for a decolonisation of aid by demanding that international donors prioritise funding for local food sovereignty and peacebuilding initiatives."
+      "Advocate for a decolonisation of economic relations, supporting Sahelian sovereignty over their currency and natural resources, and demanding trade justice, not just aid."
     ]
   }
 }
