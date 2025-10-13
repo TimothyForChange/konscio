@@ -11,7 +11,6 @@ export interface Props {
       description?: string;
       url?: string;
     }>;
-    awareness?: Array<string>;
     advocacy?: Array<string>;
   };
 }
@@ -23,9 +22,6 @@ if (!takeAction || typeof takeAction !== 'object') {
 }
 
 const donateData = Array.isArray(takeAction.donate) ? takeAction.donate : [];
-const awarenessData = Array.isArray(takeAction.awareness)
-  ? takeAction.awareness
-  : [];
 const advocacyData = Array.isArray(takeAction.advocacy)
   ? takeAction.advocacy
   : [];
@@ -51,20 +47,8 @@ const advocacyData = Array.isArray(takeAction.advocacy)
   }
 
   {
-    awarenessData.length > 0 && (
-      <ActionGroup icon='ri-megaphone-line' title='Raise Awareness'>
-        <div class='awareness-list'>
-          {awarenessData.map((action) => (
-            <ActionCard content={formatText(action ?? '')} html={true} />
-          ))}
-        </div>
-      </ActionGroup>
-    )
-  }
-
-  {
     advocacyData.length > 0 && (
-      <ActionGroup icon='ri-flag-line' title='Advocacy'>
+      <ActionGroup icon='ri-megaphone-line' title='Advocacy'>
         <div class='advocacy-list'>
           {advocacyData.map((action) => (
             <ActionCard content={action ?? ''} />

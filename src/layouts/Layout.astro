@@ -3,6 +3,7 @@ import '@fontsource-variable/geist';
 import '../styles/reset.css';
 import '../styles/global.css';
 import Footer from '../components/layout/Footer.astro';
+import countriesList from '../data/countries.json';
 
 export let title = 'Timothy Brits';
 export let description = undefined;
@@ -55,7 +56,6 @@ const ldObject = {
   ],
 };
 const ldJson = JSON.stringify(ldObject, null, 2);
-const countriesList = (await import('../data/countries.json')).default;
 const countryNames = Array.isArray(countriesList)
   ? countriesList
       .map((c) => c.name)

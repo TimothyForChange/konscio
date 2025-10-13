@@ -1,11 +1,9 @@
 ---
+import countries from '../data/countries.json';
 import CountryLayout from '../layouts/CountryLayout.astro';
 import type { Country } from '../types/Country';
 
-export async function getStaticPaths() {
-  const countries = (await import('../data/countries.json')).default as
-    | Country[]
-    | undefined;
+export function getStaticPaths() {
   return (countries || []).map((c) => ({
     params: { country: c.slug },
   }));
