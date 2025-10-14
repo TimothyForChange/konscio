@@ -2,32 +2,24 @@
   "name": "Myanmar",
   "emoji": "🇲🇲",
   "ariaLabel": "Myanmar flag",
-  "currentCrisisSummary": "A nationwide pro-democracy revolution against the 2021 military coup—an act designed to protect the military's vast economic empire from democratic reform—has escalated into a full-scale civil war. The junta is losing control over the country, triggering a humanitarian catastrophe and state collapse.",
+  "currentCrisisSummary": "A nationwide pro-democracy revolution against the 2021 military coup has escalated into a full-scale civil war, triggering a humanitarian catastrophe and state collapse. This unfolds alongside the ongoing effects of the 2017 Rohingya genocide, which has forced nearly one million survivors into sprawling refugee camps in Bangladesh, creating a multi-faceted regional crisis.",
   "colonialRoot": {
     "colonialPower": "British Empire (1824-1948)",
     "legacy": "British rule was built on a 'divide-and-rule' strategy that profoundly altered pre-colonial societal structures. The British created and racialised ethnic categories, administering the Bamar heartland separately from the 'Frontier Areas' of ethnic minorities. They strategically employed minorities like the Karen, Kachin, and Chin in the colonial army to suppress the Bamar majority, a policy which fostered deep inter-ethnic resentment. By institutionalising these ethnic hierarchies, Britain left a legacy of a fractured state, laying the groundwork for the world's longest-running civil wars."
   },
   "coreTerms": {
     "militaryCapitalismAndCorporateComplicity": "The Tatmadaw functions as both a military and a vast economic enterprise. Through its two conglomerates, MEHL and MEC, it controls huge swathes of the economy, from banking to mining, enriching a small class of generals. The 2021 coup is widely seen as a move to protect this business empire from democratic oversight. This system of military capitalism is sustained by revenue from international corporations, particularly in the extractive sector (oil, gas, gems), whose partnerships provide a crucial source of funds that enables the junta's human rights abuses.",
-    "militaryRuleAsInternalColonialism": "The Tatmadaw's rule over ethnic minority regions functions as a form of internal colonialism. It uses extreme violence to control these peripheries, allowing its conglomerates and international partners to exploit their natural resources (jade, timber, gas). The Rohingya genocide is the most extreme manifestation of this system, which relies on colonial-era ethnic classifications to justify exclusion and persecution. A UN fact-finding mission found that the military's actions displayed 'genocidal intent'."
+    "militaryRuleAsInternalColonialism": "The Tatmadaw's rule over ethnic minority regions functions as a form of internal colonialism. It uses extreme violence to control these peripheries, allowing its conglomerates and international partners to exploit their natural resources (jade, timber, gas). The Rohingya genocide is the most extreme manifestation of this system, culminating in the violent expulsion of nearly a million people into neighbouring Bangladesh. A UN fact-finding mission found that the military's actions displayed 'genocidal intent'."
   },
   "humanitarianImpact": {
     "displaced": "Over 3.5 million people internally displaced since the 2021 coup [UN OCHA, February 2025], with millions more displaced by decades of prior conflict.",
-    "refugees": "Nearly 1 million Rohingya refugees remain in camps in Bangladesh [UNHCR, 2024-2025], with no prospect for safe return.",
+    "refugees": "Nearly 1 million Rohingya refugees, survivors of the 2017 genocide, remain in overcrowded camps in Bangladesh, living in precarious conditions with no legal status or prospect for a safe return [UNHCR, 2024-2025].",
     "casualties": "Over 6,000 civilians confirmed killed by the junta since the coup [UN OHCHR, December 2024], though the total conflict death toll since 2021 is estimated to be over 50,000.",
     "affected": "18.6 million people—one-third of the population—require urgent humanitarian aid as the economy and healthcare system collapse [UN OHCHR, September 2024].",
-    "childrenOutOfSchool": "Over 1.5 million children have had their education disrupted due to conflict and military occupation of schools **[Education Cluster, 2024]**.",
-    "healthSystemCollapsed": "The public healthcare system has collapsed due to systematic military attacks and health workers joining the pro-democracy Civil Disobedience Movement **[Physicians for Human Rights, 2024]**."
+    "childrenOutOfSchool": "Over 1.5 million children have had their education disrupted due to conflict and military occupation of schools [Education Cluster, 2024].",
+    "healthSystemCollapsed": "The public healthcare system has collapsed due to systematic military attacks and health workers joining the pro-democracy Civil Disobedience Movement [Physicians for Human Rights, 2024]."
   },
   "timeline": [
-    {
-      "year": "1885",
-      "event": "**British Conquest**: Britain completes its conquest of Burma, incorporating it into its empire and dismantling traditional systems of governance."
-    },
-    {
-      "year": "1948",
-      "event": "**Independence**: Burma gains independence, inheriting a state deeply fractured by colonial policies."
-    },
     {
       "year": "1962",
       "event": "**First Military Coup**: General Ne Win seizes power, ushering in decades of isolationist military rule and the construction of a vast economic empire controlled by the generals."
@@ -38,7 +30,7 @@
     },
     {
       "year": "2017",
-      "event": "**Rohingya Genocide**: The military launches a genocidal campaign of clearance operations against the Rohingya, forcing over 740,000 to flee to Bangladesh."
+      "event": "**Rohingya Genocide**: The military launches a genocidal campaign of 'clearance operations' against the Rohingya. This wave of extreme violence forces over 740,000 people to flee to Bangladesh in a matter of months, creating the world's largest refugee camp."
     },
     {
       "year": "2021",
@@ -57,31 +49,25 @@
         "url": "https://burmacampaign.org.uk"
       },
       {
-        "organisation": "Free Burma Rangers",
-        "description": "Provides front-line humanitarian relief, medical care, and documentation in conflict zones.",
-        "url": "https://www.freeburmarangers.org"
-      },
-      {
         "organisation": "Mutual Aid Myanmar",
         "description": "Direct, flexible funding to grassroots activists and civil society groups inside the country.",
         "url": "https://www.mutualaidmyanmar.org"
       },
       {
-        "organisation": "UNHCR",
-        "description": "In Myanmar, UNHCR supports those displaced by the nationwide revolution against a kleptocratic military junta. It provides aid to civilians and Rohingya refugees fleeing a crisis rooted in British 'divide-and-rule' colonialism and sustained by the military's vast, corrupt economic empire.",
-        "url": "https://www.unhcr.org/emergencies/myanmar-emergency"
+        "organisation": "Free Burma Rangers",
+        "description": "Provides front-line humanitarian relief, medical care, and documentation in conflict zones.",
+        "url": "https://www.freeburmarangers.org"
       },
       {
-        "organisation": "World Food Programme (WFP)",
-        "description": "In Myanmar, WFP provides food assistance to those displaced by the nationwide revolution against a brutal military-capitalist junta. It supports communities whose livelihoods have been destroyed by a military that prioritises its economic empire over the lives of its people.",
-        "url": "https://www.wfp.org/emergencies/myanmar-emergency"
+        "organisation": "UNHCR",
+        "description": "UNHCR provides life-saving assistance to Rohingya refugees in Bangladesh, the survivors of a genocidal campaign rooted in colonial-era ethnic divisions. It addresses the consequences of state-sponsored ethnic cleansing, providing shelter and basic services to a stateless people trapped in the world's largest refugee camp.",
+        "url": "https://www.unhcr.org/emergencies/rohingya-emergency"
       }
     ],
     "advocacy": [
       "Demand comprehensive sanctions on the junta's economic interests, targeting the Myanma Oil and Gas Enterprise (MOGE) and aviation fuel suppliers.",
-      "Demand the complete divestment of all foreign companies from Myanmar to cut revenue flows that sustain military capitalism.",
       "Demand a comprehensive global arms embargo to stop the flow of weapons and military technology to the junta.",
-      "Support Rohingya demands for justice, citizenship, and safe return, and back the genocide case against Myanmar at the ICJ."
+      "Support Rohingya demands for justice, citizenship, and a safe, dignified, and voluntary return, and back the genocide case against Myanmar at the ICJ."
     ]
   }
 }
