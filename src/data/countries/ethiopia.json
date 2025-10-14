@@ -45,12 +45,12 @@
     "donate": [
       {
         "organisation": "Ethiopian Red Cross Society (ERCS)",
-        "description": "The Ethiopian Red Cross Society is the largest national humanitarian organisation in the country, providing life-saving aid amid the collapse of state services. Its volunteers operate across front lines in conflicts like the wars in Tigray and Amhara, offering a neutral, indigenous response to a crisis driven by the state's violent internal politics.",
+        "description": "As the largest national humanitarian organisation in Ethiopia, the ERCS provides life-saving aid across the country. Its volunteers and ambulance services are on the front lines in conflict-affected regions like Amhara and Tigray, providing impartial medical care and emergency relief to all civilians in need.",
         "url": "https://redcrosseth.org"
       },
       {
         "organisation": "World Food Programme (WFP)",
-        "description": "In Ethiopia, WFP responds to the devastating hunger caused by internal conflicts rooted in the violent politics of a post-imperial state. It delivers food aid to millions displaced by wars in regions like Tigray and Amhara.",
+        "description": "WFP is on the ground in Ethiopia, delivering emergency food and nutrition assistance to millions of people displaced by conflict and affected by drought. Their work is critical in fighting the severe hunger crisis across regions like Amhara, Tigray, and Oromia.",
         "url": "https://www.wfp.org/emergencies/ethiopia-emergency"
       }
     ],

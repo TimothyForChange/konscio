@@ -60,12 +60,12 @@
     "donate": [
       {
         "organisation": "Adeso Africa",
-        "description": "A Somali-led humanitarian and development organisation that provides direct cash assistance and advocates for decolonising the aid system.",
+        "description": "A Somali-led humanitarian and development organisation providing direct cash assistance, water, and sanitation support to communities affected by conflict and climate change.",
         "url": "https://adesoafrica.org"
       },
       {
         "organisation": "World Food Programme (WFP)",
-        "description": "In Somalia, WFP fights a catastrophic hunger crisis driven by the convergence of state collapse, protracted conflict, and devastating climate injustice. It provides life-saving food in a country fragmented by colonial partition and ravaged by climate shocks it did not create.",
+        "description": "WFP delivers life-saving food and nutrition assistance to millions of people in Somalia affected by conflict, drought, and floods. They are on the front lines, working to prevent famine and treat acute malnutrition in children and mothers.",
         "url": "https://www.wfp.org/emergencies/somalia-emergency"
       }
     ],
