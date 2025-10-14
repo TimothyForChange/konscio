@@ -13,7 +13,12 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "jsx": "preserve",
-    "strict": true
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "types": ["astro/client"]
   },
   "exclude": ["dist", ".astro"],
   "include": ["src/**/*", ".astro/types.d.ts"]

@@ -1,10 +1,3 @@
-export interface User {
-  name: string;
-  profession: string;
-  bio: string;
-  links?: ResourceLink[];
-}
-
 export interface Mission {
   name: string;
   mission: string;
