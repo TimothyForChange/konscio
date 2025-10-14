@@ -1,0 +1,102 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title='Page Not Found - Timothy Brits'>
+  <div class='page-wrapper'>
+    <main class='container' id='container'>
+      <section class='error-section'>
+        <h1>404</h1>
+        <h2>Page Not Found</h2>
+        <p>Sorry, we couldn't find the page you're looking for.</p>
+        <div class='error-actions'>
+          <a href='/' class='back-home-button'>Return to Home</a>
+        </div>
+      </section>
+    </main>
+  </div>
+</Layout>
+
+<style>
+  .error-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 2rem auto;
+    max-width: var(--container-max-width);
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .error-section h1 {
+    font-size: 4rem;
+    margin: 0;
+    color: var(--accent-primary);
+    line-height: 1;
+  }
+
+  .error-section h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0.5rem 0 1rem;
+  }
+
+  .error-section p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin: 0 0 2rem;
+    line-height: 1.6;
+  }
+
+  .error-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .back-home-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: var(--accent-primary);
+    color: var(--on-accent);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+    min-width: 200px;
+    text-align: center;
+  }
+
+  .back-home-button:hover {
+    background: var(--accent-secondary);
+  }
+
+  .back-home-button:active {
+    background: var(--accent-tertiary);
+  }
+
+  @media (width >= 768px) {
+    .error-section {
+      padding: 3rem 1rem;
+    }
+
+    .error-section h1 {
+      font-size: 5rem;
+    }
+
+    .error-section h2 {
+      font-size: 2rem;
+    }
+
+    .error-section p {
+      font-size: 1.1rem;
+      max-width: 32rem;
+      margin: 0 auto 2rem;
+    }
+  }
+</style>
