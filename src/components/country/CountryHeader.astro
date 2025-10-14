@@ -2,6 +2,7 @@
 import { getCountryMetadata } from '../../scripts/utils';
 import BackIcon from '../shared/BackIcon.astro';
 import CountryAvatar from '../ui/CountryAvatar.astro';
+import DonateButton from '../ui/DonateButton.astro';
 
 export interface Props {
   countryName: string;
@@ -13,7 +14,10 @@ const flagInfo = await getCountryMetadata(countrySlug ?? '');
 ---
 
 <header class='country-header'>
-  <BackIcon />
+  <div class='header-content'>
+    <BackIcon />
+    <DonateButton href='#take-action' />
+  </div>
   <h1 class='country-title'>
     {
       flagInfo ? (
@@ -33,12 +37,25 @@ const flagInfo = await getCountryMetadata(countrySlug ?? '');
     margin-bottom: var(--section-gap);
   }
 
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
   .country-title {
     font-size: 2rem;
     font-weight: 700;
     color: var(--text-primary);
     margin: 0 0 calc(var(--heading-gap) * 1.25);
     line-height: 1.05;
+  }
+
+  @media (width < 768px) {
+    .country-title {
+      margin-top: 1rem;
+    }
   }
 
   @media (width >= 768px) {

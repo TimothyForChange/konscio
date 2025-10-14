@@ -108,7 +108,10 @@ const canonicalUrl = `https://www.timothyforchange.co.za/${encodeURIComponent(sa
         {
           countryData?.takeAction &&
             typeof countryData.takeAction === 'object' && (
-              <TakeAction takeAction={countryData.takeAction} />
+              <TakeAction
+                takeAction={countryData.takeAction}
+                id='take-action'
+              />
             )
         }
 

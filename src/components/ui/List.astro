@@ -1,8 +1,9 @@
 ---
 import dataList from '../../data/user.json';
+import type { Link, User } from '../../types/User';
 import Link from '../shared/Link.astro';
 
-const items = dataList.links;
+const items = (dataList as User).links;
 ---
 
 <section class='links-section'>

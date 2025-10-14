@@ -1,7 +1,7 @@
 ---
-import type { Link } from '../../types/Country';
+import type * as CountryTypes from '../../types/Country';
 
-export interface DonateOrgCardProps extends Partial<Link> {
+export interface DonateOrgCardProps extends Partial<CountryTypes.Link> {
   organisation?: string;
 }
 const { organisation, description, url, title } =

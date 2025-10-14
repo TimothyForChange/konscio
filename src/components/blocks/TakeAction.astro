@@ -13,9 +13,10 @@ export interface Props {
     }>;
     advocacy?: Array<string>;
   };
+  id?: string;
 }
 
-const { takeAction } = Astro.props as Props;
+const { takeAction, id } = Astro.props as Props;
 
 if (!takeAction || typeof takeAction !== 'object') {
   return null;
@@ -27,7 +28,7 @@ const advocacyData = Array.isArray(takeAction.advocacy)
   : [];
 ---
 
-<section class='action-section'>
+<section class='action-section' {...id ? { id } : {}}>
   <h2>How You Can Help</h2>
 
   {

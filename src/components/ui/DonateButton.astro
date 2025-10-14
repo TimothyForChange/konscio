@@ -1,0 +1,73 @@
+---
+export interface Props {
+  href?: string;
+  class?: string;
+}
+
+const { href = '#', class: className = '' } = Astro.props;
+---
+
+<a
+  href={href}
+  class={`donate-button ${className}`}
+  aria-label='Skip to donation options'
+>
+  <i class='ri-heart-line' aria-hidden='true'></i>
+  <span>Donate</span>
+</a>
+
+<style>
+  .donate-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--accent-primary);
+    color: var(--on-accent);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.85rem;
+    transition: background-color 0.2s ease;
+    min-height: 36px;
+    box-sizing: border-box;
+    border: none;
+  }
+
+  .donate-button:hover {
+    background: var(--accent-secondary);
+  }
+
+  .donate-button:active {
+    background: var(--accent-tertiary);
+  }
+
+  .donate-button i {
+    font-size: 0.9rem;
+  }
+
+  @media (width >= 768px) {
+    .donate-button {
+      font-size: 0.9rem;
+      padding: 0.6rem 1.2rem;
+      min-height: 40px;
+    }
+  }
+
+  @media (hover: none) and (pointer: coarse) {
+    .donate-button {
+      min-height: 44px;
+      padding: 0.7rem 1.3rem;
+    }
+
+    .donate-button:active {
+      background: var(--accent-tertiary);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .donate-button {
+      transition: none;
+    }
+  }
+</style>

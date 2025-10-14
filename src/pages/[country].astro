@@ -1,10 +1,10 @@
 ---
 import countries from '../data/countries.json';
 import CountryLayout from '../layouts/CountryLayout.astro';
-import type { Country } from '../types/Country';
+import type * as CountryTypes from '../types/Country';
 
 export function getStaticPaths() {
-  return (countries || []).map((c) => ({
+  return ((countries as CountryTypes.Country[]) || []).map((c) => ({
     params: { country: c.slug },
   }));
 }
