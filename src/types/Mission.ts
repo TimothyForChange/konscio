@@ -2,17 +2,17 @@ export interface User {
   name: string;
   profession: string;
   bio: string;
-  links?: Link[];
+  links?: ResourceLink[];
 }
 
 export interface Mission {
   name: string;
-  profession: string;
-  bio: string;
-  links?: Link[];
+  mission: string;
+  description: string;
+  links?: ResourceLink[];
 }
 
-export interface Link {
+export interface ResourceLink {
   url: string;
   icon: string;
   title: string;

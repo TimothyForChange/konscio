@@ -1,10 +1,10 @@
-# Konscio
+# Timothy For Change
 
 Personal portfolio and humanitarian advocacy site built with Astro.
 
 ## Overview
 
-Profiles professional work and curated advocacy pages for multiple country crises, with historical context, impact data, and vetted resources.
+A platform for critical humanitarian analysis, deconstructing the imperialist and capitalist roots of crises across the Global South.
 
 ## Stack
 

@@ -5,7 +5,7 @@ import '../styles/global.css';
 import Footer from '../components/layout/Footer.astro';
 import countriesList from '../data/countries.json';
 
-export let title = 'Timothy Brits';
+export let title = 'Timothy For Change';
 export let description = undefined;
 export let canonicalUrl = undefined;
 export let countrySlug: string | undefined = undefined;
@@ -19,7 +19,6 @@ const ldObject = {
       name: 'Timothy Brits',
       alternateName: 'Timothy',
       url: 'https://www.timothyforchange.co.za',
-      image: 'https://www.timothyforchange.co.za/me.webp',
       jobTitle: 'Humanitarian Advocate',
       address: {
         '@type': 'PostalAddress',
@@ -37,9 +36,9 @@ const ldObject = {
       '@type': 'WebSite',
       '@id': 'https://www.timothyforchange.co.za/#website',
       url: 'https://www.timothyforchange.co.za',
-      name: 'Timothy Brits',
+      name: 'Timothy For Change',
       description:
-        'Timothy Brits - Humanitarian advocate raising awareness about global humanitarian crises',
+        'Timothy For Change - A platform for critical humanitarian analysis',
       publisher: {
         '@id': 'https://www.timothyforchange.co.za/#person',
       },
@@ -62,18 +61,18 @@ const countryNames = Array.isArray(countriesList)
       .filter(Boolean)
       .join(', ')
   : '';
-const defaultDescription = `Timothy Brits - Humanitarian advocate, raising awareness about global humanitarian crises. Learn about ongoing conflicts and humanitarian issues in ${countryNames}.`;
+const defaultDescription = `Timothy For Change - A platform for critical humanitarian analysis. Learn about ongoing conflicts and humanitarian issues in ${countryNames}.`;
 const baseKeywords = [
-  'Timothy Brits',
-  'advocacy',
-  'advocate',
-  'humanitarian awareness',
-  'human rights',
+  'Timothy For Change',
+  'humanitarian analysis',
+  'critical analysis',
   'global crises',
+  'human rights',
   'social justice',
-  'humanitarian aid',
-  'conflict awareness',
-  'Pretoria',
+  'humanitarian awareness',
+  'imperialism',
+  'capitalism',
+  'global south',
 ];
 const countryNamesArray = Array.isArray(countriesList)
   ? countriesList.map((c) => c.name).filter(Boolean)
@@ -92,12 +91,6 @@ function trimDescription(desc: string, max = 160) {
 const rawDescription = description || defaultDescription;
 const pageDescription = trimDescription(rawDescription, 160);
 const pageCanonicalUrl = canonicalUrl || 'https://www.timothyforchange.co.za/';
-const isCountryPage =
-  typeof countrySlug === 'string' &&
-  Array.isArray(countriesList) &&
-  countriesList.some((c) => c.slug === countrySlug);
-const defaultImage = '/me.webp';
-const socialImage = isCountryPage ? undefined : defaultImage;
 ---
 
 <!doctype html>
@@ -106,33 +99,17 @@ const socialImage = isCountryPage ? undefined : defaultImage;
     <meta charset='UTF-8' />
     <meta name='description' content={pageDescription} />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
-    <meta name='author' content='Timothy Brits' />
+    <meta name='author' content='Timothy For Change' />
     <meta name='keywords' content={keywordsList} />
     <meta name='robots' content='index, follow' />
     <meta property='og:type' content='website' />
     <meta property='og:url' content={pageCanonicalUrl} />
     <meta property='og:title' content={title} />
     <meta property='og:description' content={pageDescription} />
-    <meta property='og:site_name' content='Timothy Brits' />
-    {
-      socialImage ? (
-        <>
-          <meta
-            property='og:image'
-            content={`https://www.timothyforchange.co.za${socialImage}`}
-          />
-          <meta name='twitter:card' content='summary_large_image' />
-          <meta name='twitter:title' content={title} />
-          <meta name='twitter:description' content={pageDescription} />
-          <meta
-            name='twitter:image'
-            content={`https://www.timothyforchange.co.za${socialImage}`}
-          />
-        </>
-      ) : (
-        <meta name='twitter:card' content='summary' />
-      )
-    }
+    <meta property='og:site_name' content='Timothy For Change' />
+    <meta name='twitter:card' content='summary' />
+    <meta name='twitter:title' content={title} />
+    <meta name='twitter:description' content={pageDescription} />
     <meta name='color-scheme' content='light dark' />
     <link rel='canonical' href={pageCanonicalUrl} />
     <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />

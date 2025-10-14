@@ -4,16 +4,11 @@ import type * as CountryTypes from '../../types/Country';
 export interface DonateOrgCardProps extends Partial<CountryTypes.Organisation> {
   organisation?: string;
 }
-const { organisation, description, url, title } =
-  Astro.props as DonateOrgCardProps;
+const { organisation, description, url } = Astro.props as DonateOrgCardProps;
 
-const rawTitle =
+const safeOrganisation =
   typeof organisation === 'string' && organisation.trim() !== ''
     ? organisation
-    : title;
-const safeOrganisation =
-  typeof rawTitle === 'string' && rawTitle.trim() !== ''
-    ? rawTitle
     : 'Organisation';
 const safeDescription = typeof description === 'string' ? description : '';
 const safeUrl =

@@ -6,7 +6,7 @@ export interface Country {
   category?: string;
 }
 
-export interface Link {
+export interface ExternalLink {
   url: string;
   icon?: string;
   title?: string;

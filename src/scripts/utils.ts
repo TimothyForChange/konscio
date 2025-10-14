@@ -3,13 +3,6 @@ import termMappingsData from '../data/termMappings.json';
 import type * as CountryTypes from '../types/Country';
 import type { TermMappings } from '../types/TermMappings';
 
-export function getSouthAfricaEmoji(): { emoji: string; ariaLabel: string } {
-  return {
-    emoji: '🇿🇦',
-    ariaLabel: 'South African flag',
-  };
-}
-
 function escapeHtml(str: string): string {
   return str
     .replace(/&/g, '&amp;')
