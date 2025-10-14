@@ -10,13 +10,11 @@ Technical Implementation:
 
 - This is a pure Astro project. All components must be `.astro` files. Use `<slot />` for children, not `props.children`.
 - Use TypeScript in Astro's frontmatter. Use plain JavaScript only for client-side scripts.
-- All styling must be mobile-first, using scoped `<style>` tags inside `.astro` components. `src/styles/global.css` is only for resets, fonts, and global CSS variables.
+- All styling must be mobile-first, using scoped `<style>` tags inside `.astro` components. `src/styles/global.css` is only for fonts, shared CSS, and global CSS variables.
 - Use `npm` as the package manager. Strictly adhere to Prettier, Oxlint, and Stylelint.
 - Prioritize semantic HTML and follow a11y best practices.
 
 Project Conventions:
 
-- Component files use PascalCase (e.g., `CountryCard.astro`).
-- Component props use camelCase (e.g., `isVisible`).
 - Icons are implemented using Remixicon class names.
 - All page and component data is sourced from static JSON files in `src/data/`.
