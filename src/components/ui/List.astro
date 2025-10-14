@@ -1,9 +1,9 @@
 ---
-import dataList from '../../data/user.json';
-import type { Link, User } from '../../types/User';
+import missionData from '../../data/mission.json';
+import type { Link, Mission } from '../../types/Mission';
 import Link from '../shared/Link.astro';
 
-const items = (dataList as User).links;
+const items = (missionData as Mission).links;
 ---
 
 <section class='links-section'>

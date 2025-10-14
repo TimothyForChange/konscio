@@ -1,0 +1,60 @@
+---
+import missionData from '../../data/mission.json';
+import type { Link, Mission } from '../../types/Mission';
+
+const mission = missionData as Mission;
+const { name = 'Unknown Mission', profession, bio } = mission;
+---
+
+<header class='mission'>
+  <div class='mission-content'>
+    <h1 class='mission-name'>{name}</h1>
+    {profession && <p class='mission-profession'>{profession}</p>}
+    
+    {bio && (
+      <div class='mission-bio'>
+        <p class='mission-bio-text'>{bio}</p>
+      </div>
+    )}
+  </div>
+</header>
+
+<style>
+  .mission {
+    margin-top: var(--section-gap);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mission-content {
+    text-align: center;
+  }
+
+  .mission-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: var(--space-xs);
+  }
+
+  .mission-profession {
+    font-size: var(--font-size-base);
+    font-weight: 400;
+    color: var(--text-secondary);
+  }
+
+  .mission-bio {
+    margin-top: var(--heading-gap);
+    max-width: 32rem;
+  }
+
+  .mission-bio-text {
+    font-size: var(--font-size-lg);
+    font-weight: 400;
+    color: var(--text-primary);
+    line-height: 1.6;
+    text-align: center;
+  }
+</style>

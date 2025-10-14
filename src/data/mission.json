@@ -1,26 +1,8 @@
 {
-  "name": "Timothy Brits",
-  "profession": "Humanitarian Advocate",
-  "bio": "Humanitarian advocate in Pretoria. I raise awareness about crises affecting Palestine and Ukraine and broader challenges across the Global South, and share practical ways people can help.",
+  "name": "Timothy For Change",
+  "profession": "A Platform for Critical Humanitarian Analysis",
+  "bio": "Deconstructing the imperialist and capitalist roots of humanitarian crises across the Global South, from Palestine to the Sahel. The goal is to move beyond conventional charity and towards informed, meaningful solidarity with movements for justice.",
   "links": [
-    {
-      "url": "https://www.instagram.com/timothyforchange/",
-      "icon": "instagram-line",
-      "title": "Instagram",
-      "description": "My life in pictures"
-    },
-    {
-      "url": "https://www.threads.com/@timothyforchange",
-      "icon": "threads-line",
-      "title": "Threads",
-      "description": "My unspooled thoughts"
-    },
-    {
-      "url": "https://github.com/TimothyForChange",
-      "icon": "github-line",
-      "title": "GitHub",
-      "description": "Personal projects and open-source contributions"
-    },
     {
       "url": "https://www.givedirectly.org",
       "icon": "hand-coin-line",

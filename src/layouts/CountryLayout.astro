@@ -7,9 +7,9 @@ import HistoricalContext from '../components/country/HistoricalContext.astro';
 import HumanitarianImpact from '../components/country/HumanitarianImpact.astro';
 import Timeline from '../components/country/Timeline.astro';
 import BackButton from '../components/shared/BackButton.astro';
+import type { CountryData } from '../types/Country';
 import Layout from './Layout.astro';
 import 'remixicon/fonts/remixicon.css';
-import { CountryData } from '../types/Country';
 
 export interface Props {
   countryData?: CountryData;
