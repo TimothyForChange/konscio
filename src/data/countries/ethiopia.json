@@ -2,84 +2,62 @@
   "name": "Ethiopia",
   "emoji": "🇪🇹",
   "ariaLabel": "Ethiopian flag",
-  "currentCrisisSummary": "A fragile peace follows the 2020-2022 Tigray War, which was marked by mass atrocities, a famine widely described as man-made, and acts of ethnic cleansing [Amnesty International & HRW, 2022]. The conflict was a violent struggle over Ethiopia's political and economic future, pitting the established state-led development model against a centralising agenda of neoliberal reform. Eritrean and Amhara forces continue to occupy parts of Tigray, obstructing the return of displaced people.",
+  "currentCrisisSummary": "While a fragile peace holds in Tigray, Ethiopia is now engulfed by a devastating war in the Amhara region and ongoing conflict in Oromia. The war in Amhara, which erupted in 2023, pits the federal government against the Fano militia, its former allies in the Tigray War. This new conflict, marked by brutal drone warfare and a state of emergency, has triggered a catastrophic humanitarian crisis, creating millions of newly displaced people and compounding the unresolved trauma of the 2020-2022 war.",
   "colonialRoot": {
     "colonialPower": "Ethiopian Empire & subsequent centralist states",
-    "legacy": "Ethiopia's crisis is rooted in its history as an empire-state. The historical Abyssinian core expanded through conquest, creating a system of internal colonialism that marginalised numerous ethnic groups [Donald N. Levine, 2000]. The TPLF-led government (1991-2018) addressed this with a model of multinational federalism and state-led development, which reduced poverty but also saw wealth concentrated within a new political elite. Prime Minister Abiy Ahmed's recentralising project—which aligns with the privatisation goals of international financial institutions—threatens to dismantle this federal system. This clash over the state's structure and economic direction was a key trigger for the conflict."
+    "legacy": "Ethiopia's crisis is rooted in its history as an empire-state. The historical Abyssinian core expanded through conquest, creating a system of internal colonialism that marginalised numerous ethnic groups [Donald N. Levine, 2000]. The TPLF-led government (1991-2018) addressed this with a model of multinational federalism and state-led development, which reduced poverty but also saw wealth concentrated within a new political elite. Prime Minister Abiy Ahmed's recentralising project—which aligns with the privatisation goals of international financial institutions—threatens to dismantle this federal system. This clash over the state's structure and economic direction was a key trigger for both the Tigray and Amhara wars."
   },
   "coreTerms": {
-    "federalismVsCentralism": "The war was fundamentally a conflict over the structure of the Ethiopian state. It pitted multinational federalism—which constitutionally grants self-determination to Ethiopia's diverse nations—against a unitarist ideology aiming to re-establish a centralised identity. This political struggle has a critical economic dimension: federalism allows regions greater control over their resources and development, whereas centralism consolidates economic power, simplifying the process for a national elite to implement privatisation and secure deals with foreign capital.",
-    "weaponisedGrievancesAndForeignIntervention": "The federal government mobilised support for the war by inflaming historical grievances, particularly by allying with Amhara expansionist ambitions over territory in Western Tigray. The conflict was internationalised from the start, as Eritrea's dictator Isaias Afwerki—a long-time foe of the TPLF—invaded in concert with federal forces, committing some of the war's worst atrocities [Amnesty International, 2021]. The widespread use of foreign drones (from the UAE, Turkey, and China) transformed a political and constitutional dispute into a high-tech war with multiple international actors pursuing their own geostrategic interests."
+    "federalismVsCentralism": "The conflicts are fundamentally a struggle over the structure of the Ethiopian state. They pit multinational federalism—which constitutionally grants self-determination to Ethiopia's diverse nations—against a unitarist ideology aiming to re-establish a centralised identity. This political struggle has a critical economic dimension: federalism allows regions greater control over their resources, whereas centralism consolidates economic power, simplifying the process for a national elite to implement privatisation and secure deals with foreign capital.",
+    "weaponisedGrievancesAndForeignIntervention": "The federal government's strategy involves shifting, opportunistic alliances. After allying with Amhara forces to crush the TPLF, the government's subsequent move to dissolve regional forces was seen as a betrayal in Amhara, igniting the current war. In both conflicts, the widespread use of foreign drones (from the UAE, Turkey, and China)—sold for profit and geostrategic leverage—has transformed internal political disputes into high-tech wars, causing immense civilian devastation."
   },
   "humanitarianImpact": {
-    "displaced": "Over 2.6 million people were internally displaced at the war's peak, with hundreds of thousands still unable to return to their occupied homes [IOM, 2022].",
-    "refugees": "More than 95,000 refugees, mostly women and children, were forced to flee into neighbouring Sudan [UNHCR, 2021].",
-    "casualties": "An estimated 300,000 to 600,000 civilians died, the vast majority from starvation and lack of medicine caused by a deliberate government siege [Ghent University, 2022; Olusegun Obasanjo, 2023].",
-    "affected": "The war left 5.2 million people in Tigray—90% of the population—in need of life-saving aid. Sexual violence was also used as a weapon of war on a mass scale [UN, 2021].",
-    "childrenOutOfSchool": "Over 1.5 million children were out of school due to conflict and destruction of educational infrastructure [UNICEF, 2022]."
+    "displaced": "Over 3.5 million people are internally displaced nationwide due to conflict and climate shocks, with the majority now in the Amhara and Oromia regions [UN OCHA, 2025].",
+    "refugees": "Hundreds of thousands of Ethiopians remain refugees in neighbouring countries, including Sudan, Kenya, and Somalia [UNHCR, 2025].",
+    "casualties": "An estimated 300,000 to 600,000 people died in the Tigray War [Ghent University, 2022], with tens of thousands more killed since 2023 in the Amhara and Oromia conflicts [ACLED, 2025].",
+    "affected": "An estimated 20 million people across Ethiopia require urgent humanitarian assistance, with the most acute needs now concentrated in the Amhara region, alongside ongoing recovery in Tigray [UN OCHA, 2025].",
+    "childrenOutOfSchool": "Over 3 million children are out of school in conflict-affected regions, particularly Amhara, where the education system has largely collapsed [UNICEF, 2025]."
   },
   "timeline": [
-    {
-      "year": "1975",
-      "event": "**TPLF Founded**: The Tigray People's Liberation Front is formed to fight the Derg military junta and for Tigrayan self-determination."
-    },
-    {
-      "year": "1991",
-      "event": "**Derg Overthrown**: The TPLF-led EPRDF coalition takes power, instituting ethnic federalism and a state-led 'developmental state' economic model."
-    },
     {
       "year": "1995",
       "event": "**Multinational Federalism Adopted**: A new constitution establishes a federal state based on the rights of Ethiopia's 'nations, nationalities, and peoples'."
     },
     {
-      "year": "1998-2000",
-      "event": "**Ethiopia-Eritrea War**: A brutal border war between the TPLF-led government and Eritrea deepens the personal animosity of Isaias Afwerki towards the TPLF."
-    },
-    {
       "year": "2018",
-      "event": "**Abiy Ahmed Becomes PM**: Abiy's reforms, centralising ideology, and promises to liberalise the economy and privatise state assets threaten the federal arrangement and sideline the TPLF."
+      "event": "**Abiy Ahmed Becomes PM**: Abiy's reforms, centralising ideology, and promises to liberalise the economy threaten the federal arrangement."
     },
     {
-      "year": "Nov 2020",
-      "event": "**War Begins**: Following months of escalating political tensions, the TPLF attacks the federal army's Northern Command in Tigray. The federal government, along with allied Amhara and Eritrean forces, uses this event to launch a full-scale invasion of the region."
+      "year": "2020-2022",
+      "event": "**Tigray War**: A brutal war between the federal government (allied with Eritrea and Amhara forces) and the TPLF devastates the Tigray region, ending with the Pretoria Peace Agreement."
     },
     {
-      "year": "2021",
-      "event": "**Humanitarian Siege**: Ethiopian and allied forces impose a near-total blockade on Tigray, weaponising starvation in an act of collective punishment [World Peace Foundation, 2021]."
+      "year": "2023",
+      "event": "**War Erupts in Amhara**: The federal government's decision to dissolve regional special forces triggers a widespread armed conflict with the Fano militia, the government's former allies."
     },
     {
-      "year": "Nov 2022",
-      "event": "**Pretoria Peace Agreement**: A Cessation of Hostilities Agreement is signed in Pretoria, South Africa, ending the fighting."
+      "year": "2024-Present",
+      "event": "**Humanitarian Crisis in Amhara**: The escalating war, a prolonged state of emergency, and widespread drone strikes create a new, catastrophic humanitarian crisis, displacing millions and causing a collapse of public services."
     }
   ],
   "takeAction": {
     "donate": [
       {
         "organisation": "Action Against Hunger",
-        "description": "In Ethiopia, Action Against Hunger's teams work in conflict- and drought-affected regions like Tigray, providing nutrition treatment for malnourished children and supporting families with clean water and sanitation.",
+        "description": "In Ethiopia, Action Against Hunger's teams work in conflict- and drought-affected regions like Tigray and Amhara, providing nutrition treatment for malnourished children and supporting families with clean water.",
         "url": "https://www.actionagainsthunger.org/location/africa/ethiopia/"
-      },
-      {
-        "organisation": "Health Professionals Network for Tigray (HPN4T)",
-        "description": "A diaspora network of health professionals providing direct medical relief and advocacy.",
-        "url": "https://www.hpn4tigray.org"
       },
       {
         "organisation": "Médecins Sans Frontières (MSF)",
         "description": "In Ethiopia, MSF provides critical healthcare in regions devastated by conflict like Tigray and Amhara, responding to mass displacement, nutritional crises, and outbreaks of disease.",
         "url": "https://www.msf.org/ethiopia"
-      },
-      {
-        "organisation": "Omna Tigray",
-        "description": "A global diaspora organisation focused on humanitarian aid, rebuilding, and accountability.",
-        "url": "https://omnatigray.org"
       }
     ],
     "advocacy": [
-      "Amplify the voices of Tigrayan journalists, scholars, and activists, and combat disinformation that seeks to deny or minimise the scale of atrocities committed.",
-      "Demand the full implementation of the Pretoria Peace Agreement, including the immediate withdrawal of all Eritrean and Amhara forces from Tigray.",
-      "Demand accountability for war crimes through independent international investigations and targeted sanctions against Ethiopian and Eritrean officials.",
-      "Challenge the role of the IMF and World Bank in pushing neoliberal reforms, and demand all financial aid be conditioned on accountability for atrocities."
+      "Amplify the voices of journalists and human rights defenders in Amhara, Oromia, and Tigray.",
+      "Demand an end to the state of emergency in Amhara and a halt to the use of drone strikes against civilian populations.",
+      "Demand accountability for war crimes committed in all of Ethiopia's conflicts through independent international investigations.",
+      "Challenge the role of the IMF and World Bank in pushing neoliberal reforms, and demand all financial aid be conditioned on peace and human rights."
     ]
   }
 }
