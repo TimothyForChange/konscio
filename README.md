@@ -1,4 +1,4 @@
-# Ligilarbo
+# Konscio
 
 Personal portfolio and humanitarian advocacy site built with Astro.
 
