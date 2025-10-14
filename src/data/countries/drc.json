@@ -2,6 +2,7 @@
   "name": "Democratic Republic of the Congo",
   "emoji": "🇨🇩",
   "ariaLabel": "Democratic Republic of Congo flag",
+  "lastUpdated": "2025-10-14",
   "currentCrisisSummary": "Eastern DRC is the epicentre of a resource war fought over its vast mineral wealth—cobalt, coltan, and gold—which is essential for the global tech and 'green' energy industries. This creates a stark contradiction: the Global North's transition to 'clean' energy is directly reliant on supply chains fuelled by extreme violence in the Global South. The conflict involves the Congolese army, over 100 armed groups, and foreign-backed militias, notably Rwanda's M23 [UN Group of Experts, 2023]. It has created one of the world's worst displacement crises and is characterised by the systematic use of sexual violence as a weapon of war [UN, 2024].",
   "colonialRoot": {
     "colonialPower": "Belgium (King Leopold II & the Belgian State)",
@@ -56,11 +57,6 @@
         "url": "https://friendsofthecongo.org/"
       },
       {
-        "organisation": "Oxfam",
-        "description": "In the DRC, Oxfam provides life-saving aid to communities caught in the crossfire of a neocolonial resource war. They distribute essentials like clean water and cash, and work to restore sanitation infrastructure, addressing the immediate humanitarian fallout of a conflict fuelled by foreign corporate interests.",
-        "url": "https://www.oxfam.org/en/what-we-do/emergencies/crisis-democratic-republic-congo"
-      },
-      {
         "organisation": "Panzi Foundation",
         "description": "Founded by Nobel laureate Dr. Denis Mukwege, providing holistic support to survivors of sexual violence.",
         "url": "https://panzifoundation.org"
@@ -69,11 +65,6 @@
         "organisation": "UNHCR",
         "description": "In the DRC, UNHCR responds to one of the world's worst displacement crises, a direct result of the neocolonial scramble for conflict minerals. It provides aid to millions fleeing a war that feeds the supply chains of global tech and energy corporations, a violent legacy of Belgian colonial brutality.",
         "url": "https://www.unhcr.org/emergencies/dr-congo-emergency"
-      },
-      {
-        "organisation": "World Food Programme (WFP)",
-        "description": "In the DRC, WFP delivers food assistance to millions caught in the crossfire of a neocolonial resource war. It battles the catastrophic hunger driven by a conflict that serves the global demand for minerals, leaving communities dispossessed and starving.",
-        "url": "https://www.wfp.org/emergencies/drc-emergency"
       }
     ],
     "advocacy": [

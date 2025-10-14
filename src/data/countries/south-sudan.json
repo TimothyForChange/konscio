@@ -2,6 +2,7 @@
   "name": "South Sudan",
   "emoji": "🇸🇸",
   "ariaLabel": "South Sudanese flag",
+  "lastUpdated": "2025-10-14",
   "currentCrisisSummary": "South Sudan is gripped by a humanitarian emergency, fuelled by an elite conflict over the profits of a violent oil-extraction industry, catastrophic climate-driven flooding, and spillover from Sudan's war. These converging crises, driven by a system of kleptocracy, have left most of the population dependent on aid and facing one of the world's most severe hunger crises.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
@@ -51,11 +52,6 @@
         "organisation": "Humanitarian Development Consortium (HDC Africa)",
         "description": "A South Sudanese-led NGO providing emergency relief and development programs.",
         "url": "https://www.hdcafrica.org"
-      },
-      {
-        "organisation": "Oxfam",
-        "description": "In South Sudan, Oxfam provides emergency aid to communities shattered by a kleptocratic civil war and climate collapse. They distribute life-saving food, clean water, and sanitation supplies, addressing the devastating humanitarian consequences of a conflict funded by oil wealth and enabled by the global financial system.",
-        "url": "https://www.oxfam.org/en/what-we-do/emergencies/refugee-crisis-south-sudan"
       },
       {
         "organisation": "UNHCR",

@@ -13,6 +13,7 @@ import 'remixicon/fonts/remixicon.css';
 export interface CountryData {
   name?: string;
   currentCrisisSummary?: string;
+  lastUpdated?: string;
   humanitarianImpact?: {
     displaced?: string;
     refugees?: string;
@@ -77,6 +78,7 @@ const canonicalUrl = `https://www.timothyforchange.co.za/${encodeURIComponent(sa
           countryData?.humanitarianImpact && (
             <HumanitarianImpact
               humanitarianImpact={countryData.humanitarianImpact}
+              lastUpdated={countryData.lastUpdated}
             />
           )
         }

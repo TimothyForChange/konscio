@@ -15,9 +15,10 @@ export interface Props {
     waterAccess?: string;
     other?: string;
   };
+  lastUpdated?: string;
 }
 
-const { humanitarianImpact } = Astro.props as Props;
+const { humanitarianImpact, lastUpdated } = Astro.props as Props;
 
 if (!humanitarianImpact || typeof humanitarianImpact !== 'object') {
   return null;
@@ -98,7 +99,7 @@ if (humanitarianImpact.other !== undefined) {
   <h2 id='humanitarian-heading'>Humanitarian Impact</h2>
   <ImpactGrid stats={stats} />
   <p class='humanitarian-disclaimer'>
-    These figures are estimates — the situation is ongoing and may change.
+    {lastUpdated ? `Last updated: ${lastUpdated}` : ''}
   </p>
 </section>
 

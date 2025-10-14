@@ -2,6 +2,7 @@
   "name": "Ethiopia",
   "emoji": "🇪🇹",
   "ariaLabel": "Ethiopian flag",
+  "lastUpdated": "2025-10-14",
   "currentCrisisSummary": "While a fragile peace holds in Tigray, Ethiopia is now engulfed by a devastating war in the Amhara region and ongoing conflict in Oromia. The war in Amhara, which erupted in 2023, pits the federal government against the Fano militia, its former allies in the Tigray War. This new conflict, marked by brutal drone warfare and a state of emergency, has triggered a catastrophic humanitarian crisis, creating millions of newly displaced people and compounding the unresolved trauma of the 2020-2022 war.",
   "colonialRoot": {
     "colonialPower": "Ethiopian Empire & subsequent centralist states",
@@ -42,6 +43,11 @@
   ],
   "takeAction": {
     "donate": [
+      {
+        "organisation": "Ethiopian Red Cross Society (ERCS)",
+        "description": "The Ethiopian Red Cross Society is the largest national humanitarian organisation in the country, providing life-saving aid amid the collapse of state services. Its volunteers operate across front lines in conflicts like the wars in Tigray and Amhara, offering a neutral, indigenous response to a crisis driven by the state's violent internal politics.",
+        "url": "https://redcrosseth.org"
+      },
       {
         "organisation": "World Food Programme (WFP)",
         "description": "In Ethiopia, WFP responds to the devastating hunger caused by internal conflicts rooted in the violent politics of a post-imperial state. It delivers food aid to millions displaced by wars in regions like Tigray and Amhara, conflicts driven by struggles over the nation's economic and political future.",

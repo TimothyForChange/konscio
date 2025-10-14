@@ -1,7 +1,8 @@
 {
   "name": "Nigeria",
   "emoji": "🇳🇬",
-  "ariaLabel": "Nigeria flag",
+  "ariaLabel": "Nigerian flag",
+  "lastUpdated": "2025-10-14",
   "currentCrisisSummary": "Nigeria faces multiple, overlapping humanitarian crises. In the North-East, the Boko Haram and ISWAP insurgencies have created one of Africa's most severe displacement crises. The North-West is terrorised by armed bandit groups engaged in mass kidnapping, while escalating conflict between herders and farmers deepens instability nationwide. These crises are symptoms of a fractured state, weakened by decades of neoliberal economic policies and struggling with the violent legacies of its colonial creation.",
   "colonialRoot": {
     "colonialPower": "Britain",

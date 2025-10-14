@@ -2,6 +2,7 @@
   "name": "Syria",
   "emoji": "🇸🇾",
   "ariaLabel": "Syrian flag",
+  "lastUpdated": "2025-10-14",
   "currentCrisisSummary": "A devastating civil war, sparked in 2011 by a popular uprising against both authoritarian rule and harsh neoliberal reforms, and culminating in the collapse of the Ba'athist regime in 2024, has fuelled a severe humanitarian crisis. The conflict is marked by mass displacement, the fragmentation of the state, and the deep entanglement of foreign powers.",
   "colonialRoot": {
     "colonialPower": "France (Mandate for Syria and the Lebanon, 1923-1946)",
@@ -52,19 +53,9 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Oxfam",
-        "description": "In Syria, Oxfam works with communities devastated by a decade of proxy wars and state collapse. They provide life-saving aid, including clean water and sanitation, and support refugees in making a living, addressing the humanitarian consequences of a conflict driven by foreign intervention and internal tyranny.",
-        "url": "https://www.oxfam.org/en/what-we-do/emergencies/crisis-syria"
-      },
-      {
         "organisation": "Syrian American Medical Society (SAMS)",
         "description": "Provides direct medical care and supports hospitals inside Syria and for refugees.",
         "url": "https://www.sams-usa.net"
-      },
-      {
-        "organisation": "UNHCR",
-        "description": "In Syria, UNHCR assists millions of refugees and displaced people, the human cost of a decade-long proxy war. It provides essential aid to a population whose country was shattered by foreign powers intervening to secure their own strategic and economic interests.",
-        "url": "https://www.unhcr.org/emergencies/syria-emergency"
       },
       {
         "organisation": "The White Helmets (Syria Civil Defence)",

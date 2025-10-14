@@ -2,14 +2,15 @@
   "name": "Myanmar",
   "emoji": "🇲🇲",
   "ariaLabel": "Myanmar flag",
+  "lastUpdated": "2025-10-14",
   "currentCrisisSummary": "A nationwide pro-democracy revolution against the 2021 military coup has escalated into a full-scale civil war, triggering a humanitarian catastrophe and state collapse. This unfolds alongside the ongoing effects of the 2017 Rohingya genocide, which has forced nearly one million survivors into sprawling refugee camps in Bangladesh, creating a multi-faceted regional crisis.",
   "colonialRoot": {
     "colonialPower": "British Empire (1824-1948)",
     "legacy": "British rule was built on a 'divide-and-rule' strategy that profoundly altered pre-colonial societal structures. The British created and racialised ethnic categories, administering the Bamar heartland separately from the 'Frontier Areas' of ethnic minorities. They strategically employed minorities like the Karen, Kachin, and Chin in the colonial army to suppress the Bamar majority, a policy which fostered deep inter-ethnic resentment. By institutionalising these ethnic hierarchies, Britain left a legacy of a fractured state, laying the groundwork for the world's longest-running civil wars."
   },
   "coreTerms": {
-    "militaryCapitalismAndCorporateComplicity": "The Tatmadaw functions as both a military and a vast economic enterprise. Through its two conglomerates, MEHL and MEC, it controls huge swathes of the economy, from banking to mining, enriching a small class of generals. The 2021 coup is widely seen as a move to protect this business empire from democratic oversight. This system of military capitalism is sustained by revenue from international corporations, particularly in the extractive sector (oil, gas, gems), whose partnerships provide a crucial source of funds that enables the junta's human rights abuses.",
-    "militaryRuleAsInternalColonialism": "The Tatmadaw's rule over ethnic minority regions functions as a form of internal colonialism. It uses extreme violence to control these peripheries, allowing its conglomerates and international partners to exploit their natural resources (jade, timber, gas). The Rohingya genocide is the most extreme manifestation of this system, culminating in the violent expulsion of nearly a million people into neighbouring Bangladesh. A UN fact-finding mission found that the military's actions displayed 'genocidal intent'."
+    "militaryCapitalismAndCorporateComplicity": "The Tatmadaw functions as both a military and a vast economic enterprise. Through its conglomerates, it controls huge swathes of the economy, enriching a small class of generals. The 2021 coup is widely seen as a move to protect this business empire from democratic oversight. This system of military capitalism, which treats ethnic states as resource colonies to be plundered, is a direct continuation of the British colonial economic model.",
+    "militaryRuleAsInternalColonialism": "The Tatmadaw's rule over ethnic minority regions functions as a form of internal colonialism. It uses extreme violence to control these peripheries to exploit their natural resources. The Rohingya genocide is the most extreme manifestation of this system, which weaponises the racial hierarchies established during British rule to justify exclusion and persecution. A UN fact-finding mission found that the military's actions displayed 'genocidal intent'."
   },
   "humanitarianImpact": {
     "displaced": "Over 3.5 million people internally displaced since the 2021 coup [UN OCHA, February 2025], with millions more displaced by decades of prior conflict.",
@@ -20,6 +21,14 @@
     "healthSystemCollapsed": "The public healthcare system has collapsed due to systematic military attacks and health workers joining the pro-democracy Civil Disobedience Movement [Physicians for Human Rights, 2024]."
   },
   "timeline": [
+    {
+      "year": "1885",
+      "event": "**British Conquest**: Britain completes its conquest of Burma, incorporating it into its empire and institutionalising a 'divide-and-rule' strategy."
+    },
+    {
+      "year": "1948",
+      "event": "**Independence**: Burma gains independence, inheriting a state deeply fractured along ethnic lines by deliberate colonial policy."
+    },
     {
       "year": "1962",
       "event": "**First Military Coup**: General Ne Win seizes power, ushering in decades of isolationist military rule and the construction of a vast economic empire controlled by the generals."
@@ -52,11 +61,6 @@
         "organisation": "Mutual Aid Myanmar",
         "description": "Direct, flexible funding to grassroots activists and civil society groups inside the country.",
         "url": "https://www.mutualaidmyanmar.org"
-      },
-      {
-        "organisation": "Free Burma Rangers",
-        "description": "Provides front-line humanitarian relief, medical care, and documentation in conflict zones.",
-        "url": "https://www.freeburmarangers.org"
       },
       {
         "organisation": "UNHCR",
