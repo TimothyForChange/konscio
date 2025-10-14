@@ -25,8 +25,16 @@
   },
   "timeline": [
     {
-      "year": "1899",
+      "year": "1899-1956",
       "event": "**Anglo-Egyptian Condominium**: British colonial rule is established, implementing a divide-and-rule strategy."
+    },
+    {
+      "year": "1956",
+      "event": "**Independence**: Sudan gains independence from Britain. The new state retains the divisive colonial structure that concentrates power and wealth in the 'Arab' riverine centre at the expense of marginalised peripheries like Darfur and the South, setting the stage for future civil wars."
+    },
+    {
+      "year": "1989",
+      "event": "**Bashir's Islamist Coup**: General Omar al-Bashir seizes power in a military coup backed by Islamists. His 30-year rule is defined by brutal counter-insurgency tactics, the empowerment of the military-security state, and the deliberate use of proxy militias to crush rebellions in the country's peripheries."
     },
     {
       "year": "2003",
