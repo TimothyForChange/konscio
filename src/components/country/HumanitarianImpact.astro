@@ -1,20 +1,10 @@
 ---
 import { formatText } from '../../scripts/utils';
+import { HumanitarianImpact } from '../../types/Country';
 import ImpactGrid from '../blocks/ImpactGrid.astro';
 
 export interface Props {
-  humanitarianImpact?: {
-    displaced?: string;
-    refugees?: string;
-    casualties?: string;
-    affected?: string;
-    poverty?: string;
-    childrenOutOfSchool?: string;
-    healthSystemCollapsed?: string;
-    foodInsecurity?: string;
-    waterAccess?: string;
-    other?: string;
-  };
+  humanitarianImpact?: HumanitarianImpact;
   lastUpdated?: string;
 }
 

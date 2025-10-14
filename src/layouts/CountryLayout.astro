@@ -9,31 +9,7 @@ import Timeline from '../components/country/Timeline.astro';
 import BackButton from '../components/shared/BackButton.astro';
 import Layout from './Layout.astro';
 import 'remixicon/fonts/remixicon.css';
-
-export interface CountryData {
-  name?: string;
-  currentCrisisSummary?: string;
-  lastUpdated?: string;
-  humanitarianImpact?: {
-    displaced?: string;
-    refugees?: string;
-    casualties?: string;
-    affected?: string;
-    poverty?: string;
-    childrenOutOfSchool?: string;
-    healthSystemCollapsed?: string;
-    foodInsecurity?: string;
-    waterAccess?: string;
-    other?: string;
-  };
-  timeline?: Array<Record<string, string>>;
-  colonialRoot?: {
-    colonialPower?: string;
-    legacy?: string;
-  };
-  coreTerms?: Record<string, string>;
-  takeAction?: Record<string, unknown>;
-}
+import { CountryData } from '../types/Country';
 
 export interface Props {
   countryData?: CountryData;
