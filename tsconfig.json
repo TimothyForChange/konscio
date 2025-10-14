@@ -12,10 +12,9 @@
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "allowJs": true,
     "jsx": "preserve",
     "strict": true
   },
-  "exclude": ["${configDir}/dist"],
-  "include": ["${configDir}/.astro/types.d.ts", "${configDir}/**/*"]
+  "exclude": ["dist", ".astro"],
+  "include": ["src/**/*", ".astro/types.d.ts"]
 }

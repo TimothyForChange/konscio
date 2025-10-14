@@ -1,6 +1,6 @@
 ---
 import countries from '../../data/countries.json';
-import type { Country } from '../../types/Country';
+import type { Country } from '../../types/country';
 import CategoryFilter from './CategoryFilter.astro';
 import CountryCard from './CountryCard.astro';
 
@@ -57,7 +57,6 @@ const allCategories = ['All', ...categories];
 <script is:inline>
   document.addEventListener('DOMContentLoaded', () => {
     function filterCountries(selectedCategory) {
-      const grid = document.getElementById('countries-grid');
       const buttons = document.querySelectorAll('.category-btn');
       const cards = document.querySelectorAll('.country-card');
 

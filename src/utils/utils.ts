@@ -1,6 +1,6 @@
 import countriesData from '../data/countries.json';
 import termMappingsData from '../data/termMappings.json';
-import type * as CountryTypes from '../types/Country';
+import type * as CountryTypes from '../types/country';
 import type { TermMappings } from '../types/TermMappings';
 
 function escapeHtml(str: string): string {

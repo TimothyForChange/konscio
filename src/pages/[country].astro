@@ -1,7 +1,7 @@
 ---
 import countries from '../data/countries.json';
 import CountryLayout from '../layouts/CountryLayout.astro';
-import type * as CountryTypes from '../types/Country';
+import type * as CountryTypes from '../types/country';
 
 export function getStaticPaths() {
   return ((countries as CountryTypes.Country[]) || []).map((c) => ({
