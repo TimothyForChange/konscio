@@ -50,19 +50,14 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Action Against Hunger",
-        "description": "In Yemen, where conflict has engineered one of the world's worst hunger crises, Action Against Hunger runs health facilities to prevent and treat malnutrition, while also providing clean water and sanitation to stop the spread of cholera.",
-        "url": "https://www.actionagainsthunger.org/location/middle-east/yemen/"
+        "organisation": "Oxfam",
+        "description": "In Yemen, Oxfam responds to the catastrophic crisis engineered by the Saudi-led blockade and Western-backed war. They provide food, clean water, and cash to millions facing famine, while working to rehabilitate water systems destroyed by the conflict and create cash-for-work opportunities to empower women in a shattered economy.",
+        "url": "https://www.oxfam.org/en/what-we-do/emergencies/crisis-yemen"
       },
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "In Yemen, MSF supports hospitals and health centres to provide essential medical care in a health system devastated by a decade of war and a crippling Saudi-led blockade.",
-        "url": "https://www.msf.org/yemen"
-      },
-      {
-        "organisation": "Norwegian Refugee Council (NRC)",
-        "description": "In Yemen, where conflict has created one of the world's worst humanitarian crises, NRC provides millions of vulnerable people with clean water, shelter, emergency food, and support for children's education in the most dangerous and hard-to-reach areas.",
-        "url": "https://www.nrc.no/countries/middle-east/yemen"
+        "organisation": "World Food Programme (WFP)",
+        "description": "In Yemen, WFP battles a man-made famine engineered by a Saudi-led blockade and a brutal war enabled by the Western arms trade. It provides emergency food assistance to millions pushed to the brink of starvation by a conflict fought over control of global trade routes.",
+        "url": "https://www.wfp.org/emergencies/yemen-emergency"
       },
       {
         "organisation": "Yemen Relief and Reconstruction Foundation",

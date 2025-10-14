@@ -58,19 +58,14 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Action Against Hunger",
-        "description": "In Haiti, where violence and economic collapse have created a hunger crisis, Action Against Hunger provides emergency food and cash assistance, alongside running mobile clinics and clean water programs.",
-        "url": "https://www.actionagainsthunger.org/location/americas/haiti/"
-      },
-      {
         "organisation": "Fonkoze",
         "description": "A Haitian organisation providing financial inclusion and development services to rural communities.",
         "url": "https://fonkoze.org/"
       },
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "In Haiti, MSF provides critical trauma surgery and emergency medical services to victims of extreme gang violence amid the total collapse of the country's health system.",
-        "url": "https://www.msf.org/haiti"
+        "organisation": "World Food Programme (WFP)",
+        "description": "In Haiti, WFP provides critical food assistance to a nation facing total state collapse—the direct legacy of centuries of colonial punishment and foreign intervention. It delivers meals in communities terrorised by armed groups, addressing the acute hunger crisis in a country systematically undermined by external powers.",
+        "url": "https://www.wfp.org/emergencies/haiti-emergency"
       }
     ],
     "advocacy": [

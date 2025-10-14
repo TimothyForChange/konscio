@@ -65,24 +65,19 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Action Against Hunger",
-        "description": "In Afghanistan, Action Against Hunger runs mobile health clinics and nutrition centres to treat acute malnutrition in children, while also improving access to clean water and sanitation to prevent disease.",
-        "url": "https://www.actionagainsthunger.org/location/asia/afghanistan/"
-      },
-      {
         "organisation": "Afghanaid",
         "description": "A British humanitarian and development organisation that works with millions of deprived and excluded families in some of the poorest and most remote communities in Afghanistan.",
         "url": "https://www.afghanaid.org.uk"
       },
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "MSF remains one of the few international organisations providing essential free medical care, including maternal health, malnutrition treatment, and emergency surgery, across several provinces.",
-        "url": "https://www.msf.org/afghanistan"
+        "organisation": "UNHCR",
+        "description": "In Afghanistan, UNHCR provides critical aid to millions displaced by the predictable consequences of four decades of imperialist intervention. It addresses one of the world's largest and most protracted refugee crises, a direct legacy of failed invasions and the current economic war being waged against the Afghan people.",
+        "url": "https://www.unhcr.org/emergencies/afghanistan-emergency"
       },
       {
-        "organisation": "Norwegian Refugee Council (NRC)",
-        "description": "In Afghanistan, NRC provides displaced families and vulnerable communities with essential services, including clean water, shelter, food security, education, and legal assistance to help them survive and rebuild.",
-        "url": "https://www.nrc.no/countries/asia/afghanistan"
+        "organisation": "World Food Programme (WFP)",
+        "description": "In Afghanistan, WFP provides emergency food aid to a population pushed to the brink of starvation by Western economic warfare. It confronts a man-made famine caused by sanctions and the freezing of national assets, which have shattered the country's economy.",
+        "url": "https://www.wfp.org/emergencies/afghanistan"
       }
     ],
     "advocacy": [

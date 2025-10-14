@@ -58,14 +58,9 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Medical Aid for Palestinians (MAP)",
-        "description": "Provides essential medical services and supplies on the ground.",
-        "url": "https://www.map.org.uk/"
-      },
-      {
-        "organisation": "Norwegian Refugee Council (NRC)",
-        "description": "In Palestine, NRC is on the ground delivering life-saving assistance, including clean water and sanitation, while helping families rebuild their homes and providing psychosocial support to children who have experienced trauma.",
-        "url": "https://www.nrc.no/countries/middle-east/palestine"
+        "organisation": "Oxfam",
+        "description": "In occupied Palestine, particularly Gaza, Oxfam works with local partners to counter the devastating humanitarian impact of the Israeli occupation and blockade. They provide emergency aid like food and clean water, repair critical infrastructure destroyed by military assaults, and support long-term economic survival for farmers and women in the face of systematic dispossession.",
+        "url": "https://www.oxfam.org/en/what-we-do/emergencies/gaza-crisis-appeal"
       },
       {
         "organisation": "Palestine Children's Relief Fund (PCRF)",
@@ -73,9 +68,19 @@
         "url": "https://www.pcrf.net"
       },
       {
-        "organisation": "UNRWA",
+        "organisation": "Palestine Red Crescent Society (PRCS)",
+        "description": "The PRCS is a vital, indigenous Palestinian organisation providing front-line emergency and medical services. Its medics and volunteers risk their lives under fire, responding to the devastating human cost of military occupation and a crisis sustained by Western imperialist powers. Supporting the PRCS is a direct act of solidarity with Palestinian resilience against systematic destruction.",
+        "url": "https://www.palestinercs.org/en"
+      },
+      {
+        "organisation": "United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA)",
         "description": "The primary UN agency providing essential services to Palestinian refugees, despite facing political attacks.",
         "url": "https://www.unrwa.org"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
+        "description": "In occupied Palestine, WFP confronts a catastrophic and engineered famine in Gaza. It provides emergency food and nutrition to a population enduring a brutal siege and the systematic destruction of its food system—a direct consequence of military occupation and the unwavering support of Western imperialist powers.",
+        "url": "https://www.wfp.org/emergencies/palestine-emergency"
       }
     ],
     "advocacy": [

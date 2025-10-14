@@ -47,24 +47,19 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Action Against Hunger",
-        "description": "In response to the devastating war in Sudan, Action Against Hunger's teams are on the ground screening and treating children for malnutrition while also providing emergency healthcare to displaced families.",
-        "url": "https://www.actionagainsthunger.org/location/africa/sudan/"
-      },
-      {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "In Sudan, MSF provides emergency trauma care and supports overwhelmed hospitals, while responding to mass displacement and disease outbreaks driven by the brutal civil war.",
-        "url": "https://www.msf.org/sudan"
-      },
-      {
-        "organisation": "Norwegian Refugee Council (NRC)",
-        "description": "Amid the devastating war in Sudan, NRC provides emergency assistance including water and sanitation systems, shelter, and cash assistance, while also working to ensure displaced children can continue their education.",
-        "url": "https://www.nrc.no/countries/africa/sudan"
-      },
-      {
         "organisation": "Sudanese American Physicians Association (SAPA)",
         "description": "A diaspora-led organisation providing direct medical and humanitarian support to local initiatives like Emergency Response Rooms.",
         "url": "https://sapa-usa.org"
+      },
+      {
+        "organisation": "UNHCR",
+        "description": "In Sudan, UNHCR confronts the world's largest displacement crisis, the result of a parasitic war between two factions of a military elite. It provides emergency aid to millions fleeing a conflict that has its roots in British colonial 'divide-and-rule' tactics and is now fuelled by foreign powers vying for gold and strategic influence.",
+        "url": "https://www.unhcr.org/emergencies/sudan-emergency"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
+        "description": "In Sudan, WFP is on the front lines of the world's largest hunger crisis—a direct result of a brutal war between two military-capitalist factions fighting for control of the state. WFP provides emergency food and nutrition to millions facing a famine engineered by conflict.",
+        "url": "https://www.wfp.org/emergencies/sudan"
       }
     ],
     "advocacy": [

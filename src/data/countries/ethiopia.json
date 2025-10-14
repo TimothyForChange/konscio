@@ -43,14 +43,9 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Action Against Hunger",
-        "description": "In Ethiopia, Action Against Hunger's teams work in conflict- and drought-affected regions like Tigray and Amhara, providing nutrition treatment for malnourished children and supporting families with clean water.",
-        "url": "https://www.actionagainsthunger.org/location/africa/ethiopia/"
-      },
-      {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "In Ethiopia, MSF provides critical healthcare in regions devastated by conflict like Tigray and Amhara, responding to mass displacement, nutritional crises, and outbreaks of disease.",
-        "url": "https://www.msf.org/ethiopia"
+        "organisation": "World Food Programme (WFP)",
+        "description": "In Ethiopia, WFP responds to the devastating hunger caused by internal conflicts rooted in the violent politics of a post-imperial state. It delivers food aid to millions displaced by wars in regions like Tigray and Amhara, conflicts driven by struggles over the nation's economic and political future.",
+        "url": "https://www.wfp.org/emergencies/ethiopia-emergency"
       }
     ],
     "advocacy": [

@@ -58,24 +58,14 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Action Against Hunger",
-        "description": "In Somalia, a country on the front line of the climate crisis, Action Against Hunger operates nutrition clinics and health centres to treat malnutrition driven by recurring droughts and floods.",
-        "url": "https://www.actionagainsthunger.org/location/africa/somalia/"
-      },
-      {
         "organisation": "Adeso Africa",
         "description": "A Somali-led humanitarian and development organisation that provides direct cash assistance and advocates for decolonising the aid system.",
         "url": "https://adesoafrica.org"
       },
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "In Somalia, MSF provides essential medical care in a country with one of the world's highest mortality rates, running hospitals and clinics in conflict-affected and remote areas.",
-        "url": "https://www.msf.org/somalia"
-      },
-      {
-        "organisation": "Norwegian Refugee Council (NRC)",
-        "description": "In response to decades of conflict and devastating climate shocks in Somalia, NRC provides essential aid such as food, water, and shelter in hard-to-reach areas, while also running education and food security programs.",
-        "url": "https://www.nrc.no/countries/africa/somalia"
+        "organisation": "World Food Programme (WFP)",
+        "description": "In Somalia, WFP fights a catastrophic hunger crisis driven by the convergence of state collapse, protracted conflict, and devastating climate injustice. It provides life-saving food in a country fragmented by colonial partition and ravaged by climate shocks it did not create.",
+        "url": "https://www.wfp.org/emergencies/somalia-emergency"
       }
     ],
     "advocacy": [

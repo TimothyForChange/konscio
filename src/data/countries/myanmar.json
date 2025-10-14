@@ -62,19 +62,19 @@
         "url": "https://www.freeburmarangers.org"
       },
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "In Myanmar, MSF delivers healthcare to communities affected by the civil war and persecution, filling critical gaps left by a public health system that has collapsed since the 2021 military coup.",
-        "url": "https://www.msf.org/myanmar"
-      },
-      {
         "organisation": "Mutual Aid Myanmar",
         "description": "Direct, flexible funding to grassroots activists and civil society groups inside the country.",
         "url": "https://www.mutualaidmyanmar.org"
       },
       {
-        "organisation": "Norwegian Refugee Council (NRC)",
-        "description": "In Myanmar, where millions have been displaced by conflict, NRC provides life-saving support including shelter, access to education for conflict-affected children, and vital protection services for displaced communities.",
-        "url": "https://www.nrc.no/countries/asia/myanmar"
+        "organisation": "UNHCR",
+        "description": "In Myanmar, UNHCR supports those displaced by the nationwide revolution against a kleptocratic military junta. It provides aid to civilians and Rohingya refugees fleeing a crisis rooted in British 'divide-and-rule' colonialism and sustained by the military's vast, corrupt economic empire.",
+        "url": "https://www.unhcr.org/emergencies/myanmar-emergency"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
+        "description": "In Myanmar, WFP provides food assistance to those displaced by the nationwide revolution against a brutal military-capitalist junta. It supports communities whose livelihoods have been destroyed by a military that prioritises its economic empire over the lives of its people.",
+        "url": "https://www.wfp.org/emergencies/myanmar-emergency"
       }
     ],
     "advocacy": [

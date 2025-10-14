@@ -45,11 +45,6 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "In Ukraine, MSF runs a medical train to evacuate the wounded, provides trauma care near the frontlines, and operates mobile clinics delivering care to people displaced by the Russian invasion.",
-        "url": "https://www.msf.org/ukraine"
-      },
-      {
         "organisation": "Nova Ukraine",
         "description": "A diaspora-led organisation delivering targeted humanitarian aid across Ukraine.",
         "url": "https://novaukraine.org/"

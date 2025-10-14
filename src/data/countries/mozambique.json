@@ -57,19 +57,14 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Action Against Hunger",
-        "description": "In Mozambique's conflict-torn Cabo Delgado province, Action Against Hunger focuses on preventing and treating malnutrition while also providing vital mental health support to people displaced by the violence.",
-        "url": "https://www.actionagainsthunger.org/location/africa/mozambique/"
-      },
-      {
         "organisation": "Equip Mozambique",
         "description": "A non-profit organisation supporting community development and leadership training projects in Mozambique.",
         "url": "https://equipmoz.org"
       },
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "In Mozambique, MSF provides vital medical and mental healthcare to people displaced by the conflict in Cabo Delgado, alongside responding to climate emergencies and disease outbreaks.",
-        "url": "https://www.msf.org/mozambique"
+        "organisation": "World Food Programme (WFP)",
+        "description": "In Northern Mozambique, WFP delivers food aid to communities displaced by a brutal resource war over natural gas. It addresses the hunger crisis caused by a conflict that benefits a corrupt elite and multinational energy corporations at the expense of the local population.",
+        "url": "https://www.wfp.org/emergencies/northern-mozambique-emergency"
       }
     ],
     "advocacy": [

@@ -58,9 +58,9 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "In CAR, one of its oldest and largest missions, MSF provides basic and emergency healthcare in a country where the state is largely absent and conflict has created a permanent humanitarian crisis.",
-        "url": "https://www.msf.org/central-african-republic"
+        "organisation": "Concordis International",
+        "description": "In the Central African Republic, a state hollowed out by a neocolonial resource war, Concordis International addresses the root causes of violence. By empowering local communities to mediate conflicts over land and water, they offer a bottom-up alternative to the failed top-down interventions that have served foreign interests and perpetuated the crisis.",
+        "url": "https://concordis.international"
       },
       {
         "organisation": "UNHCR",

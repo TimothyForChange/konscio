@@ -51,29 +51,29 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Action Against Hunger",
-        "description": "In DR Congo, where conflict has driven one of the world's largest hunger crises, Action Against Hunger provides lifesaving nutrition treatment, emergency food aid, and clean water to displaced families.",
-        "url": "https://www.actionagainsthunger.org/location/africa/democratic-republic-congo/"
-      },
-      {
         "organisation": "Friends of the Congo",
         "description": "A Congolese-led advocacy organisation raising global awareness and supporting local institutions.",
         "url": "https://friendsofthecongo.org/"
       },
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "In one of its largest global responses, MSF provides emergency medical care to people affected by armed conflict, displacement, and recurring disease outbreaks across 21 provinces of DRC.",
-        "url": "https://www.msf.org/democratic-republic-congo-drc"
-      },
-      {
-        "organisation": "Norwegian Refugee Council (NRC)",
-        "description": "In DR Congo, home to Africa's largest displacement crisis, NRC delivers emergency aid, shelter, and educational opportunities while also providing legal assistance to help people fight forced evictions and claim their rights.",
-        "url": "https://www.nrc.no/countries/africa/dr-congo"
+        "organisation": "Oxfam",
+        "description": "In the DRC, Oxfam provides life-saving aid to communities caught in the crossfire of a neocolonial resource war. They distribute essentials like clean water and cash, and work to restore sanitation infrastructure, addressing the immediate humanitarian fallout of a conflict fuelled by foreign corporate interests.",
+        "url": "https://www.oxfam.org/en/what-we-do/emergencies/crisis-democratic-republic-congo"
       },
       {
         "organisation": "Panzi Foundation",
         "description": "Founded by Nobel laureate Dr. Denis Mukwege, providing holistic support to survivors of sexual violence.",
         "url": "https://panzifoundation.org"
+      },
+      {
+        "organisation": "UNHCR",
+        "description": "In the DRC, UNHCR responds to one of the world's worst displacement crises, a direct result of the neocolonial scramble for conflict minerals. It provides aid to millions fleeing a war that feeds the supply chains of global tech and energy corporations, a violent legacy of Belgian colonial brutality.",
+        "url": "https://www.unhcr.org/emergencies/dr-congo-emergency"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
+        "description": "In the DRC, WFP delivers food assistance to millions caught in the crossfire of a neocolonial resource war. It battles the catastrophic hunger driven by a conflict that serves the global demand for minerals, leaving communities dispossessed and starving.",
+        "url": "https://www.wfp.org/emergencies/drc-emergency"
       }
     ],
     "advocacy": [

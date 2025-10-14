@@ -48,24 +48,24 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Action Against Hunger",
-        "description": "In South Sudan, where conflict and climate-driven floods have created a severe risk of famine, Action Against Hunger runs nutrition programs and works to prevent the outbreak of waterborne diseases.",
-        "url": "https://www.actionagainsthunger.org/location/africa/south-sudan/"
-      },
-      {
         "organisation": "Humanitarian Development Consortium (HDC Africa)",
         "description": "A South Sudanese-led NGO providing emergency relief and development programs.",
         "url": "https://www.hdcafrica.org"
       },
       {
-        "organisation": "Médecins Sans Frontières (MSF)",
-        "description": "In South Sudan, MSF delivers basic and specialist healthcare and responds to disease outbreaks in a context of chronic conflict, mass displacement, and a severely weakened health system.",
-        "url": "https://www.msf.org/south-sudan"
+        "organisation": "Oxfam",
+        "description": "In South Sudan, Oxfam provides emergency aid to communities shattered by a kleptocratic civil war and climate collapse. They distribute life-saving food, clean water, and sanitation supplies, addressing the devastating humanitarian consequences of a conflict funded by oil wealth and enabled by the global financial system.",
+        "url": "https://www.oxfam.org/en/what-we-do/emergencies/refugee-crisis-south-sudan"
       },
       {
-        "organisation": "Norwegian Refugee Council (NRC)",
-        "description": "In South Sudan, NRC is on the front lines providing food, clean water, and shelter, while also offering legal assistance to help families reclaim their rights to housing and land amid conflict and climate collapse.",
-        "url": "https://www.nrc.no/countries/africa/south-sudan"
+        "organisation": "UNHCR",
+        "description": "In South Sudan, UNHCR responds to Africa's largest refugee crisis, a catastrophe fuelled by a kleptocratic elite's war over oil profits. It provides life-saving aid to people displaced by a conflict enabled by the global financial system and rooted in the divisive legacy of British colonial policy.",
+        "url": "https://www.unhcr.org/emergencies/south-sudan-emergency"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
+        "description": "In South Sudan, WFP battles a catastrophic hunger crisis driven by a kleptocratic civil war and devastating, climate-driven flooding. It delivers emergency food aid to millions facing famine—a direct consequence of a conflict funded by oil wealth and a climate crisis the nation did not create.",
+        "url": "https://www.wfp.org/emergencies/south-sudan-emergency"
       }
     ],
     "advocacy": [
