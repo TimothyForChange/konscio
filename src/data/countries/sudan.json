@@ -2,14 +2,14 @@
   "name": "Sudan",
   "emoji": "🇸🇩",
   "ariaLabel": "Sudanese flag",
-  "currentCrisisSummary": "A devastating civil war between two factions of a military elite—the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia—has triggered the world's largest displacement and hunger crises, widespread famine, and atrocities, including a renewed campaign of ethnic cleansing in Darfur.",
+  "currentCrisisSummary": "A devastating civil war between two factions of a military elite—the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia—has triggered the world's largest displacement and hunger crises, widespread famine, and atrocities, including a renewed campaign of ethnic cleansing in Darfur [Human Rights Watch, 2024].",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
     "legacy": "British colonial policy was built on a 'divide-and-rule' strategy that racialised and institutionalised ethnic divisions. It concentrated power in a supposedly 'Arab' riverine centre while systematically marginalising peripheral regions like Darfur. This engineered inequality created an extractive central state that became the ultimate prize for competing military and mercenary factions in the post-independence era."
   },
   "coreTerms": {
-    "militaryVsMercenaryCapitalism": "The war is a violent conflict between two rival factions of a military-capitalist class fighting for control of the state. The Sudanese Armed Forces (SAF) represents the old guard's control over formal sectors of the economy. The Rapid Support Forces (RSF) represents a more agile, transnational model, with wealth built on looting gold mines and operating as a private army for foreign powers. The war is the violent breakdown of this extractive system, as both factions now seek total control.",
-    "politicalUpheavalAndForeignInterests": "The 2021 coup and subsequent war are a brutal counter-revolution against the 2019 popular uprising, which sought to dismantle the military's economic empire. This counter-revolution is bankrolled by foreign powers, particularly the UAE, which backs the RSF to secure its own interests: a direct supply of gold, control over strategic Red Sea ports, and access to agricultural land. This transforms the internal conflict into a proxy war for regional influence and resources."
+    "militaryVsMercenaryCapitalism": "The war is a violent conflict between two rival factions of a military-capitalist class fighting for control of the state. The Sudanese Armed Forces (SAF) represents the old guard's control over formal sectors of the economy. The Rapid Support Forces (RSF) represents a more agile, transnational model, with wealth built on looting gold mines and operating as a private army for foreign powers [UN Panel of Experts, 2023]. The war is the violent breakdown of this extractive system, as both factions now seek total control.",
+    "politicalUpheavalAndForeignInterests": "The 2021 coup and subsequent war are a brutal counter-revolution against the 2019 popular uprising, which sought to dismantle the military's economic empire. This counter-revolution is bankrolled by foreign powers, particularly the UAE, which backs the RSF to secure its own interests: a direct supply of gold, control over strategic Red Sea ports, and access to agricultural land [UN Panel of Experts, 2024]. This transforms the internal conflict into a proxy war for regional influence and resources."
   },
   "humanitarianImpact": {
     "displaced": "Over 11 million people internally displaced [UNHCR/IOM, end of 2024], making it the world's largest internal displacement crisis.",
@@ -29,7 +29,7 @@
     },
     {
       "year": "2003",
-      "event": "**Genocide in Darfur**: The government unleashes Janjaweed militias to crush a rebellion. The RSF is the direct descendant of these militias."
+      "event": "**Genocide in Darfur**: The government unleashes Janjaweed militias to crush a rebellion, leading to an indictment for genocide by the ICC. The RSF is the direct descendant of these militias."
     },
     {
       "year": "2019",

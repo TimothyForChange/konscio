@@ -2,7 +2,7 @@
   "name": "Afghanistan",
   "emoji": "🇦🇫",
   "ariaLabel": "Afghanistan flag",
-  "currentCrisisSummary": "Following the US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. The crisis has been severely exacerbated by international economic policies, including the freezing of Afghanistan's central bank assets and broad sanctions. These measures have crippled the economy, precipitating the collapse of the healthcare system and fuelling widespread famine. This has erased two decades of fragile gains, which were built on an aid-dependent model that often benefited foreign contractors and a small domestic elite more than the general populace, leaving the nation vulnerable. Women and girls now face systematic oppression, described by many human rights experts as gender apartheid.",
+  "currentCrisisSummary": "Following the US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. The crisis has been severely exacerbated by international economic policies, including the freezing of Afghanistan's central bank assets and broad sanctions. These measures have crippled the economy, precipitating the collapse of the healthcare system and fuelling widespread famine [UNDP, 2023]. This has erased two decades of fragile gains, which were built on an aid-dependent model that often benefited foreign contractors and a small domestic elite more than the general populace. Women and girls now face systematic oppression, described by human rights experts as gender apartheid [UN Special Rapporteur, 2023; Amnesty International, 2023].",
   "colonialRoot": {
     "colonialPower": "British Empire, Russian Empire, Soviet Union & United States",
     "legacy": "Afghanistan's history has been shaped by its position as a strategic chessboard for imperial powers. During the 19th-century 'Great Game', the British and Russian Empires vied for influence, establishing a pattern of foreign interference that undermined local political development to serve their own interests. This dynamic intensified during the Cold War, as the US and USSR turned Afghanistan into a proxy battleground. The CIA's Operation Cyclone, which armed and funded the Mujahideen to fight the Soviets, had the long-term consequence of fostering radical militancy and contributing to the fragmentation of the Afghan state, setting the stage for decades of conflict."
@@ -12,18 +12,18 @@
     "humanitarianBlackmailAndEconomicWarfare": "The current humanitarian crisis is not a natural disaster but the consequence of political and economic decisions. Following the 2021 withdrawal, the US and its allies used economic tools as a primary form of leverage. By freezing $7 billion of Afghanistan's sovereign wealth and enforcing a punitive sanctions regime, they have effectively cut the country off from the global financial system. This has triggered an economic collapse, amounting to a form of collective punishment that has inflicted immense suffering on millions of ordinary Afghans, who now face famine and a collapsed health system."
   },
   "humanitarianImpact": {
-    "displaced": "An estimated 5.7 million people are internally displaced due to decades of conflict and recent crises.",
-    "refugees": "There are over 8.2 million Afghans hosted abroad, primarily in neighbouring Pakistan and Iran, comprising one of the largest protracted refugee situations in the world.",
-    "casualties": "Hundreds of thousands of people have been killed in the conflict since 2001, including over 70,000 civilians. The post-2021 economic collapse is now driving excess deaths from starvation and disease.",
-    "affected": "An estimated 23.7 million people—more than half the population—require urgent humanitarian assistance to survive, with millions on the brink of famine.",
-    "poverty": "More than 90% of the population lives below the poverty line, a dramatic increase since the 2021 economic crisis.",
-    "healthSystemCollapsed": "The public health system has collapsed, with 75% of health facilities lacking basic functionality due to sanctions and economic warfare.",
-    "foodInsecurity": "Over 20 million people face acute food insecurity, with 7.8 million on the brink of famine."
+    "displaced": "Over 6.3 million people are internally displaced by conflict and climate shocks [UN OCHA, 2025].",
+    "refugees": "There are over 8.2 million Afghans hosted abroad, primarily in neighbouring Pakistan and Iran, making it one of the largest protracted refugee situations in the world [UNHCR, 2025].",
+    "casualties": "An estimated 71,000 Afghan and Pakistani civilians have died as a direct result of the war since 2001 [Costs of War Project, Brown University, 2023].",
+    "affected": "An estimated 23.7 million people—more than half the population—require urgent humanitarian assistance to survive [UN OCHA, 2024-2025].",
+    "poverty": "An estimated 85% of the population lives below the poverty line, a dramatic increase since the 2021 economic crisis [UNDP, 2023].",
+    "healthSystemCollapsed": "The public health system has been pushed to the brink of collapse, with thousands of facilities facing closure or severe service reduction due to funding cuts [WHO, 2024].",
+    "foodInsecurity": "An estimated 15.8 million people face acute food insecurity, with millions at emergency levels of hunger [WFP/IPC, 2025]."
   },
   "timeline": [
     {
       "year": "1839-1919",
-      "event": "**The Great Game**: A century of imperial rivalry between Britain and Russia sees three Anglo-Afghan wars as Britain seeks to create a buffer state to protect the immense wealth it extracted from its Indian colony."
+      "event": "**The Great Game**: A century of imperial rivalry between Britain and Russia sees three Anglo-Afghan wars as Britain seeks to create a buffer state to protect its colonial interests in India."
     },
     {
       "year": "1919-1929",
@@ -31,7 +31,7 @@
     },
     {
       "year": "1953-1973",
-      "event": "**The Cold War Pawn**: The US and USSR compete to lock Afghanistan into their respective economic orbits—capitalist and state-communist—by funding massive projects that created dependency and embedded superpower rivalry into Afghan politics."
+      "event": "**The Cold War Pawn**: The US and USSR compete to lock Afghanistan into their respective economic orbits by funding massive projects that created dependency and embedded superpower rivalry into Afghan politics."
     },
     {
       "year": "1978",
@@ -43,7 +43,7 @@
     },
     {
       "year": "1979-1989",
-      "event": "**US Proxy War**: The CIA launches 'Operation Cyclone', one of its largest covert operations, funnelling billions to arm and train Mujahideen fighters to fight the Soviets, fuelling radicalisation."
+      "event": "**US Proxy War**: The CIA launches 'Operation Cyclone', one of its largest covert operations, funnelling billions to arm and train Mujahideen fighters to fight the Soviets, fuelling radicalisation [National Security Archive, 2019]."
     },
     {
       "year": "1996",
@@ -59,7 +59,7 @@
     },
     {
       "year": "2021-Present",
-      "event": "**Economic Warfare**: The US freezes Afghanistan's $7 billion in foreign reserves, and international sanctions trigger a catastrophic economic collapse and humanitarian crisis."
+      "event": "**Economic Warfare**: The US freezes Afghanistan's $7 billion in foreign reserves, and international sanctions trigger a catastrophic economic collapse and humanitarian crisis [CEPR, 2022]."
     }
   ],
   "takeAction": {

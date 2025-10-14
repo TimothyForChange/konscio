@@ -2,21 +2,21 @@
   "name": "Democratic Republic of the Congo",
   "emoji": "🇨🇩",
   "ariaLabel": "Democratic Republic of Congo flag",
-  "currentCrisisSummary": "Eastern DRC is the epicentre of a resource war fought over its vast mineral wealth—cobalt, coltan, and gold—which is essential for the global tech and 'green' energy industries. This creates a stark contradiction: the Global North's transition to 'clean' energy is directly reliant on supply chains fuelled by extreme violence in the Global South. The conflict involves the Congolese army, over 100 armed groups, and foreign-backed militias, notably Rwanda's M23. It has created one of the world's worst displacement crises and is characterised by the systematic use of sexual violence as a weapon of war.",
+  "currentCrisisSummary": "Eastern DRC is the epicentre of a resource war fought over its vast mineral wealth—cobalt, coltan, and gold—which is essential for the global tech and 'green' energy industries. This creates a stark contradiction: the Global North's transition to 'clean' energy is directly reliant on supply chains fuelled by extreme violence in the Global South. The conflict involves the Congolese army, over 100 armed groups, and foreign-backed militias, notably Rwanda's M23 [UN Group of Experts, 2023]. It has created one of the world's worst displacement crises and is characterised by the systematic use of sexual violence as a weapon of war [UN, 2024].",
   "colonialRoot": {
     "colonialPower": "Belgium (King Leopold II & the Belgian State)",
     "legacy": "The crisis is a direct legacy of Belgium's notoriously brutal colonial rule. King Leopold II's personal Congo Free State (1885-1908) functioned as a slave state, leading to the deaths and mutilation of millions to extract rubber and ivory. After taking over, the Belgian state continued a model of pure extraction, deliberately neglecting the development of viable local institutions. This colonial structure, designed solely for resource exploitation, left the nation deeply vulnerable to the neocolonial scramble for minerals that benefits multinational corporations today."
   },
   "coreTerms": {
-    "conflictMineralsAndProxyWars": "The DRC's mineral wealth has fuelled a neocolonial conflict over what are often termed 'conflict minerals'. The system functions as a violent supply chain where neighbouring states, particularly Rwanda and Uganda, arm proxy militias like M23 to control mines and smuggle resources. These minerals are then fed into global markets, where multinational tech and automotive companies benefit from cheap raw materials. This structure allows corporations to profit while claiming plausible deniability about the violent origins of their components.",
-    "theHollowState": "The 'resource curse' is a political condition rooted in the hollow state left by Belgium. This was entrenched after independence with the CIA and Belgian-backed assassination of Patrice Lumumba, the DRC's first prime minister. Lumumba was eliminated because his vision of resource sovereignty threatened Western corporate control. His removal and the subsequent installation of the kleptocrat Mobutu Sese Seko ensured the state remained weak and unable to regulate mining. This system allows external actors to exploit the violence and extract resources with minimal local oversight."
+    "conflictMineralsAndProxyWars": "The DRC's mineral wealth has fuelled a neocolonial conflict over what are often termed 'conflict minerals'. The system functions as a violent supply chain where neighbouring states, particularly Rwanda, arm proxy militias like M23 to control mines and smuggle resources [UN Group of Experts, 2023]. These minerals are then fed into global markets, where multinational tech and automotive companies benefit from cheap raw materials. This structure allows corporations to profit while claiming plausible deniability about the violent origins of their components.",
+    "theHollowState": "The 'resource curse' is a political condition rooted in the hollow state left by Belgium. This was entrenched after independence with the CIA and Belgian-backed assassination of Patrice Lumumba, the DRC's first prime minister [Belgian Parliamentary Commission, 2001]. Lumumba was eliminated because his vision of resource sovereignty threatened Western corporate control. His removal and the subsequent installation of the kleptocrat Mobutu Sese Seko ensured the state remained weak and unable to regulate mining. This system allows external actors to exploit the violence and extract resources with minimal local oversight."
   },
   "humanitarianImpact": {
-    "displaced": "Over 7 million people are internally displaced, one of the largest displacement crises globally.",
-    "refugees": "More than 1 million refugees have sought safety in neighbouring African countries.",
-    "casualties": "An estimated 6 million people have died from conflict-related causes since 1996, making it the world's deadliest conflict since World War II. The death toll continues to climb.",
-    "affected": "Over 25.4 million people require humanitarian assistance, with millions facing crisis levels of hunger.",
-    "childrenOutOfSchool": "Over 4.5 million children are out of school, one of the highest numbers in the world."
+    "displaced": "Nearly 7 million people are internally displaced, one of the largest displacement crises globally [UN OCHA, 2025].",
+    "refugees": "More than 1 million refugees and asylum-seekers have sought safety in neighbouring African countries [UNHCR, 2025].",
+    "casualties": "An estimated 6 million people have died from conflict-related causes since 1998, making it one of the world's deadliest conflicts since World War II [IRC, 2007]. The death toll continues to climb.",
+    "affected": "An estimated 25.4 million people require humanitarian assistance, with millions facing crisis levels of hunger [UN OCHA, 2025].",
+    "childrenOutOfSchool": "Over 3.5 million children are out of school in the conflict-affected eastern provinces alone [Education Cluster, 2024]."
   },
   "timeline": [
     {
@@ -29,7 +29,7 @@
     },
     {
       "year": "1961",
-      "event": "**Patrice Lumumba Assassinated**: The first democratically elected Prime Minister is murdered with Belgian and US complicity to thwart his agenda of reclaiming the DRC's mineral wealth from foreign control."
+      "event": "**Patrice Lumumba Assassinated**: The first democratically elected Prime Minister is murdered with Belgian and US complicity to thwart his agenda of reclaiming the DRC's mineral wealth from foreign control [Belgian Parliamentary Commission, 2001]."
     },
     {
       "year": "1965-1997",
@@ -45,7 +45,7 @@
     },
     {
       "year": "2021-Present",
-      "event": "**M23 Resurgence**: The Rwandan-backed M23 militia reignites large-scale conflict in the east to control strategic zones rich in minerals essential for the global production of smartphones and electric vehicles."
+      "event": "**M23 Resurgence**: The Rwandan-backed M23 militia reignites large-scale conflict in the east to control strategic zones rich in minerals essential for the global production of smartphones and electric vehicles [UN Group of Experts, 2023]."
     }
   ],
   "takeAction": {

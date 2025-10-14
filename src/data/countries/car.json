@@ -2,24 +2,24 @@
   "name": "Central African Republic",
   "emoji": "🇨🇫",
   "ariaLabel": "Central African Republic flag",
-  "currentCrisisSummary": "A protracted civil war has rendered the state largely non-existent outside the capital, Bangui. The conflict is characterised by extreme violence between a weak, foreign-backed government and a fragmented array of armed groups. Foreign powers, notably France and Russia, have intervened to secure geopolitical influence and access to the nation's vast mineral wealth (diamonds, gold, uranium). This competition for resources perpetuates the conflict and fuels a catastrophic humanitarian crisis that receives little international attention.",
+  "currentCrisisSummary": "A protracted civil war has rendered the state largely non-existent outside the capital, Bangui. The conflict is characterised by extreme violence between a weak, foreign-backed government and a fragmented array of armed groups. Foreign powers, notably France and Russia, have intervened to secure geopolitical influence and access to the nation's vast mineral wealth (diamonds, gold, uranium). This competition for resources perpetuates the conflict and fuels a catastrophic humanitarian crisis that consistently ranks among the world's most neglected [NRC, 2024].",
   "colonialRoot": {
     "colonialPower": "France (Ubangi-Shari, 1894-1960)",
     "legacy": "The Central African Republic's borders are a colonial creation, forged by France from diverse societies with little shared history. The colonial economy was based on the large-scale extraction of resources like ivory and rubber, primarily through a concessionary company system that relied on forced labour and extreme violence. France dismantled existing political structures, replacing them with a state apparatus designed for resource extraction rather than public welfare. After independence, this model was perpetuated through the 'Françafrique' network, which supported client dictators like Emperor Bokassa to ensure French corporate access to raw materials. This legacy of a state built for extraction, not governance, remains a root cause of its chronic instability."
   },
   "coreTerms": {
     "laCentrafriqueProfonde": "The post-colonial state in CAR inherited the logic of its French predecessor: a structure focused on extracting wealth for a small elite and their foreign partners, rather than providing security or services to the population. This lack of genuine state function means that outside the capital, state authority often collapses entirely when challenged. The resulting power vacuum is filled by armed groups, local warlords, and foreign mercenaries, such as Russia's Africa Corps, who compete violently for control over territory and resources.",
-    "mercenaryStateAndProxyPlunder": "Foreign interventions, often framed as stabilising missions, frequently function as a continuation of resource-driven exploitation. France's operations, such as Sangaris, have been criticised for prioritising French strategic interests. More recently, Russia's Africa Corps (formerly Wagner Group) has provided critical security for the government in exchange for lucrative mineral concessions, with its forces being accused of mass atrocities while securing mining sites. The country has become an arena for competition between foreign powers, where control over strategic resources is paid for by the lives of Central Africans."
+    "mercenaryStateAndProxyPlunder": "Foreign interventions, often framed as stabilising missions, frequently function as a continuation of resource-driven exploitation. France's operations, such as Sangaris, have been criticised for prioritising French strategic interests. More recently, Russia's Africa Corps (formerly Wagner Group) has provided critical security for the government in exchange for lucrative mineral concessions, with its forces being accused of mass atrocities while securing mining sites [UN Panel of Experts, 2023; Human Rights Watch, 2022]."
   },
   "humanitarianImpact": {
-    "displaced": "Over 536,000 people are internally displaced (IDPs), living in constant fear and with little to no access to aid.",
-    "refugees": "Over 750,000 refugees have been forced to flee into neighbouring Cameroon, DRC, and Chad, where they face precarious conditions.",
-    "casualties": "While no exact figure exists due to the chaos, tens of thousands of civilians have been killed in successive waves of conflict since 2012. Atrocities, including mass killings and sexual violence used as a weapon of war, are widespread.",
-    "affected": "3.4 million people, over half the entire population, are in dire need of humanitarian assistance and protection to survive.",
-    "childrenOutOfSchool": "Over 300,000 children are out of school due to the ongoing conflict and insecurity.",
-    "healthSystemCollapsed": "Only 30% of health facilities are fully functional, with most lacking basic supplies and staff due to conflict.",
-    "foodInsecurity": "Over 2.8 million people face acute food insecurity, including 86,000 in catastrophic hunger.",
-    "waterAccess": "More than 1.3 million people lack access to safe drinking water due to damaged infrastructure and insecurity."
+    "displaced": "Over 500,000 people are internally displaced (IDPs), living in constant fear and with little to no access to aid [UN OCHA, 2025].",
+    "refugees": "Nearly 750,000 refugees have been forced to flee into neighbouring Cameroon, DRC, and Chad [UNHCR, 2025].",
+    "casualties": "The conflict has killed tens of thousands of civilians since 2012, with atrocities, including mass killings and sexual violence used as a weapon of war, being widespread [ACLED, 2024].",
+    "affected": "An estimated 2.8 million people—nearly half the population—are in dire need of humanitarian assistance to survive [UN OCHA, 2025].",
+    "childrenOutOfSchool": "One in three children are out of school due to the ongoing conflict and insecurity [Education Cluster, 2024].",
+    "healthSystemCollapsed": "Less than half of the country's health facilities are fully operational, with most lacking basic supplies and staff due to conflict [WHO, 2024].",
+    "foodInsecurity": "An estimated 2 million people face acute food insecurity, with hundreds of thousands at emergency levels of hunger [WFP/IPC, 2025].",
+    "waterAccess": "More than 2.5 million people lack access to safe drinking water and basic sanitation due to damaged infrastructure and insecurity [WASH Cluster, 2024]."
   },
   "timeline": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "year": "2018-Present",
-      "event": "**Russian Intervention**: The government invites Russia's Wagner Group (now Africa Corps) mercenaries to provide security in exchange for mineral concessions, with its operatives committing atrocities to seize control of key mining areas."
+      "event": "**Russian Intervention**: The government invites Russia's Africa Corps (formerly Wagner Group) to provide security in exchange for mineral concessions, with its operatives committing atrocities to seize control of key mining areas [Human Rights Watch, 2022]."
     },
     {
       "year": "2023",

@@ -9,16 +9,16 @@
   },
   "coreTerms": {
     "naturalGasConflictAndExternalInfluence": "The vast offshore gas fields are a modern 'resource curse', fuelling a conflict over resources that are marketed to the Global North as a 'transition fuel', despite the intense violence associated with their extraction. Critics argue that the political elite facilitates the dispossession of local communities on behalf of foreign corporations in exchange for a share of the profits. This arrangement mirrors the colonial model, where raw materials are funnelled out of the country, leaving local populations with the environmental damage and social collapse.",
-    "destabilisationAndProxyWars": "Mozambique's post-independence history has been shaped by foreign-backed destabilisation. The devastating civil war (1977-1992) was a proxy war waged by the white-minority regimes in Rhodesia and Apartheid South Africa to undermine the FRELIMO government. This legacy of external interference is echoed in modern financial scandals, such as the 'hidden debts' crisis, where international banks like Credit Suisse worked with state officials to arrange billions in fraudulent loans. This plunged the nation into debt, leading to austerity for the poor while enriching a small elite."
+    "destabilisationAndProxyWars": "Mozambique's post-independence history has been shaped by foreign-backed destabilisation. The devastating civil war (1977-1992) was a proxy war waged by the white-minority regimes in Rhodesia and Apartheid South Africa to undermine the FRELIMO government. This legacy of external interference is echoed in modern financial scandals, such as the 'hidden debts' crisis, where international banks like Credit Suisse worked with state officials to arrange billions in fraudulent loans [Chatham House, 2020]. This plunged the nation into debt, leading to austerity for the poor while enriching a small elite."
   },
   "humanitarianImpact": {
-    "displaced": "Over 1 million people have been internally displaced by the conflict in the north.",
-    "refugees": "Tens of thousands have fled as refugees and asylum seekers, primarily to Tanzania.",
-    "casualties": "More than 5,000 people have been killed in organised violence since the insurgency began in 2017.",
-    "affected": "Nearly 2 million people in the northern provinces require life-saving humanitarian assistance and protection.",
-    "childrenOutOfSchool": "More than 150,000 children are out of school due to the conflict and displacement.",
-    "healthSystemCollapsed": "Only 40% of health facilities in Cabo Delgado are fully functional due to attacks and staff fleeing the region.",
-    "foodInsecurity": "Over 1 million people in northern Mozambique face crisis levels of food insecurity."
+    "displaced": "Over 600,000 people remain internally displaced by the conflict in the north [IOM, 2025].",
+    "refugees": "Tens of thousands have fled as refugees and asylum seekers, primarily to Tanzania [UNHCR, 2025].",
+    "casualties": "More than 6,000 civilians have been killed in organised violence since the insurgency began in 2017 [ACLED, 2024].",
+    "affected": "An estimated 1.7 million people in the northern provinces require life-saving humanitarian assistance [UN OCHA, 2025].",
+    "childrenOutOfSchool": "Thousands of children are out of school due to the conflict and displacement, with hundreds of schools destroyed or closed [Education Cluster, 2024].",
+    "healthSystemCollapsed": "The conflict has severely damaged the health system, with dozens of facilities destroyed and many more non-functional in Cabo Delgado [WHO, 2024].",
+    "foodInsecurity": "Over 700,000 people in northern Mozambique face crisis levels of food insecurity [WFP/IPC, 2025]."
   },
   "timeline": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "year": "2016",
-      "event": "**'Hidden Debts' Scandal**: It is revealed that state officials and international banks (e.g., Credit Suisse) secretly arranged over $2 billion in fraudulent loans, plunging the country into a debt crisis."
+      "event": "**'Hidden Debts' Scandal**: It is revealed that state officials and international banks (e.g., Credit Suisse) secretly arranged over $2 billion in fraudulent loans, plunging the country into a debt crisis [Chatham House, 2020]."
     },
     {
       "year": "2017",
