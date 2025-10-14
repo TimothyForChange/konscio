@@ -30,23 +30,23 @@ const items = (dataList as User).links;
   }
 
   .links-heading {
-    font-size: 1.125rem;
-    font-weight: 600;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
     color: var(--text-primary);
-    margin-bottom: 1rem;
+    margin-bottom: var(--gap);
     text-align: center;
   }
 
   @media (width >= 768px) {
     .links-heading {
-      font-size: 1.25rem;
+      font-size: var(--font-size-xl);
     }
   }
 
   .list {
     margin: 0;
     display: grid;
-    gap: 1rem;
+    gap: var(--gap-lg);
     list-style: none;
     padding: 0;
 

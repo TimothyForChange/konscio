@@ -22,15 +22,15 @@ const { year, event } = Astro.props as TimelineItemProps;
 
   .timeline-content {
     background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1rem 1.25rem;
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    padding: var(--card-padding) var(--card-padding-lg);
     box-shadow: 0 2px 4px rgb(0 0 0 / 5%);
   }
 
   .timeline-year {
     font-weight: 700;
-    font-size: 0.875rem;
+    font-size: var(--font-size-sm);
     color: var(--accent-primary);
     margin-bottom: calc(var(--heading-gap) / 2);
     text-transform: uppercase;
@@ -40,12 +40,12 @@ const { year, event } = Astro.props as TimelineItemProps;
   .timeline-event {
     color: var(--text-secondary);
     line-height: 1.6;
-    font-size: 0.9rem;
+    font-size: var(--font-size-sm);
   }
 
   .timeline-event strong {
     color: var(--text-primary);
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
   }
 
   @media (width >= 768px) {
@@ -54,15 +54,15 @@ const { year, event } = Astro.props as TimelineItemProps;
     }
 
     .timeline-content {
-      padding: 1rem 1.25rem;
+      padding: var(--card-padding) var(--card-padding-lg);
     }
 
     .timeline-year {
-      font-size: 0.875rem;
+      font-size: var(--font-size-sm);
     }
 
     .timeline-event {
-      font-size: 0.9rem;
+      font-size: var(--font-size-sm);
     }
   }
 </style>

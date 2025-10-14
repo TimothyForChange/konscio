@@ -42,19 +42,15 @@ const iconClass = icon && typeof icon === 'string' ? `ri-${icon}` : 'ri-link';
   .link {
     --link-accent: var(--accent-primary);
 
-    padding: 1rem;
+    padding: var(--card-padding);
     display: flex;
-    border: 1px solid var(--border);
-    border-radius: 12px;
+    border: var(--card-border);
+    border-radius: var(--card-radius);
     text-decoration: none;
     background: var(--bg-card);
     min-height: 5.5rem;
     align-items: center;
-    transition:
-      background-color 0.18s ease,
-      border-color 0.18s ease,
-      transform 0.12s ease,
-      box-shadow 0.12s ease;
+    transition: var(--card-transition);
     cursor: pointer;
     font: inherit;
     line-height: inherit;
@@ -66,12 +62,12 @@ const iconClass = icon && typeof icon === 'string' ? `ri-${icon}` : 'ri-link';
   .link:hover {
     border-color: var(--link-accent);
     background: var(--bg-surface);
-    transform: translateY(-1px);
+    transform: var(--hover-transform);
   }
 
   .link:active {
-    transform: scale(0.97) translateY(1.5px);
-    box-shadow: 0 1.5px 6px 0 rgb(0 0 0 / 10%);
+    transform: var(--active-transform);
+    box-shadow: var(--active-shadow);
     background: var(--bg-surface);
     border-color: var(--link-accent);
     transition:
@@ -82,9 +78,9 @@ const iconClass = icon && typeof icon === 'string' ? `ri-${icon}` : 'ri-link';
   .link-icon {
     width: 3rem;
     height: 3rem;
-    margin-right: 1rem;
+    margin-right: var(--gap-lg);
     background: var(--bg-surface);
-    border-radius: 12px;
+    border-radius: var(--card-radius);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,8 +120,8 @@ const iconClass = icon && typeof icon === 'string' ? `ri-${icon}` : 'ri-link';
   .link-description {
     color: var(--text-secondary);
     font-weight: 400;
-    font-size: 0.9rem;
-    line-height: 1.5;
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-base);
   }
 
   @media (hover: none) and (pointer: coarse) {

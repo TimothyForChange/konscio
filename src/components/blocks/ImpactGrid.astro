@@ -31,18 +31,18 @@ if (!safeStats || safeStats.length === 0) {
   .impact-stats {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 0.75rem;
+    gap: var(--gap);
     margin-top: var(--heading-gap);
   }
 
   @media (width >= 768px) {
     .impact-stats {
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1rem;
+      gap: var(--gap-lg);
     }
 
     .stat-item {
-      padding: 0.875rem;
+      padding: var(--card-padding-sm);
     }
   }
 </style>

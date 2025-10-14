@@ -24,17 +24,17 @@ if (!safeSummary.trim()) {
   }
 
   .crisis-section h2 {
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: var(--section-heading-size);
+    font-weight: var(--font-weight-bold);
     color: var(--text-primary);
     margin-bottom: var(--heading-gap);
-    border-bottom: 2px solid var(--accent-primary);
-    padding-bottom: 0.5rem;
+    border-bottom: var(--section-heading-border);
+    padding-bottom: var(--section-heading-padding-bottom);
   }
 
   @media (width >= 768px) {
     .crisis-section h2 {
-      font-size: 1.5rem;
+      font-size: var(--section-heading-size-lg);
     }
   }
 </style>

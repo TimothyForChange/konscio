@@ -19,7 +19,7 @@ const { emoji, ariaLabel, countryName } = Astro.props as CountryAvatarProps;
   .country-avatar {
     font-size: 2rem;
     vertical-align: middle;
-    margin-right: 0.5rem;
+    margin-right: var(--gap-sm);
   }
 
   @media (width >= 768px) {

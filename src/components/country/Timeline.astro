@@ -45,12 +45,12 @@ if (!timeline || !Array.isArray(timeline) || timeline.length === 0) {
 
   .timeline-title {
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
     color: var(--text-primary);
     margin-bottom: var(--heading-gap);
     text-align: left;
-    border-bottom: 2px solid var(--accent-primary);
-    padding-bottom: 0.5rem;
+    border-bottom: var(--section-heading-border);
+    padding-bottom: var(--section-heading-padding-bottom);
   }
 
   .timeline-container {
@@ -62,9 +62,9 @@ if (!timeline || !Array.isArray(timeline) || timeline.length === 0) {
     --timeline-gutter: 48px;
     display: grid;
     grid-template-columns: var(--timeline-gutter) 1fr;
-    gap: 0.25rem 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    gap: var(--space-xs) var(--gap-lg);
+    padding-top: var(--section-heading-padding-bottom);
+    padding-bottom: var(--section-heading-padding-bottom);
   }
 
   .timeline-row {
@@ -78,7 +78,7 @@ if (!timeline || !Array.isArray(timeline) || timeline.length === 0) {
     position: relative;
     grid-column: 1 / 2;
     z-index: 2;
-    margin-top: -0.5rem;
+    margin-top: calc(var(--section-heading-padding-bottom) * -1);
   }
 
   .timeline-body {

@@ -41,7 +41,7 @@ const flagInfo = await getCountryMetadata(countrySlug ?? '');
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: var(--gap-sm);
   }
 
   .country-title {
@@ -54,7 +54,7 @@ const flagInfo = await getCountryMetadata(countrySlug ?? '');
 
   @media (width < 768px) {
     .country-title {
-      margin-top: 1rem;
+      margin-top: var(--gap);
     }
   }
 

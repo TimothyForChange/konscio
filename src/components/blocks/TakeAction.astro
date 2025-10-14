@@ -63,65 +63,41 @@ const advocacyData = Array.isArray(takeAction.advocacy)
 <style>
   .action-section {
     background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
+    border: var(--card-border);
+    border-radius: var(--card-radius);
     padding: var(--section-gap);
     margin-bottom: var(--section-gap);
   }
 
   .action-section h2 {
     margin-top: 0;
-    border-bottom: 2px solid var(--accent-primary);
-    padding-bottom: 0.5rem;
+    border-bottom: var(--section-heading-border);
+    padding-bottom: var(--section-heading-padding-bottom);
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
     color: var(--text-primary);
     margin-bottom: var(--heading-gap);
-  }
-
-  .action-group {
-    margin-bottom: calc(var(--section-gap) * 0.9);
-  }
-
-  .action-group:last-child {
-    margin-bottom: 0;
-  }
-
-  .action-group h3 {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: var(--heading-gap);
-    margin-top: 0;
   }
 
   .donate-link i {
     font-size: 1rem;
   }
 
-  .action-group h3 i {
-    color: var(--accent-primary);
-    font-size: 1.25rem;
-  }
-
   .donate-organisations {
     display: grid;
-    gap: 1rem;
+    gap: var(--gap-lg);
   }
 
   .org-item {
     background: var(--bg-surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: calc(var(--heading-gap) * 1);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    padding: var(--heading-gap);
   }
 
   .org-item h4 {
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
     color: var(--text-primary);
     margin: 0 0 calc(var(--heading-gap) / 2);
   }
@@ -129,32 +105,29 @@ const advocacyData = Array.isArray(takeAction.advocacy)
   .org-item p {
     color: var(--text-secondary);
     margin: 0 0 var(--heading-gap) 0;
-    line-height: 1.5;
+    line-height: var(--line-height-base);
   }
 
   .donate-link {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: var(--gap-sm);
     background: var(--accent-primary);
     color: var(--on-accent);
     text-decoration: none;
     padding: 0.75rem 1.25rem;
-    border-radius: 6px;
-    font-weight: 500;
+    border-radius: var(--button-radius);
+    font-weight: var(--font-weight-semibold);
     font-size: 0.95rem;
-    transition:
-      background-color 0.2s ease,
-      transform 0.2s ease,
-      box-shadow 0.2s ease;
+    transition: var(--link-transition);
     min-height: 44px;
     box-sizing: border-box;
   }
 
   .donate-link:hover {
     background: var(--accent-secondary);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    transform: var(--hover-transform);
+    box-shadow: var(--hover-shadow);
   }
 
   .donate-link:active {
@@ -167,22 +140,22 @@ const advocacyData = Array.isArray(takeAction.advocacy)
     padding: 0;
     margin: 0;
     display: grid;
-    gap: 0.75rem;
+    gap: var(--gap);
   }
 
   .action-card {
     background: var(--bg-surface);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 1rem;
+    border: var(--card-border);
+    border-radius: var(--button-radius);
+    padding: var(--card-padding);
     color: var(--text-secondary);
-    line-height: 1.5;
+    line-height: var(--line-height-base);
   }
 
   @media (width >= 768px) {
     .action-section {
-      padding: calc(var(--section-gap) + 0.25rem);
-      margin-bottom: calc(var(--section-gap) + 0.25rem);
+      padding: calc(var(--section-gap) + var(--space-xs));
+      margin-bottom: calc(var(--section-gap) + var(--space-xs));
     }
 
     .org-item {
@@ -196,7 +169,7 @@ const advocacyData = Array.isArray(takeAction.advocacy)
     }
 
     .action-card {
-      padding: 1rem;
+      padding: var(--card-padding);
     }
   }
 
@@ -214,8 +187,8 @@ const advocacyData = Array.isArray(takeAction.advocacy)
 
   @media (width >= 768px) {
     .action-section {
-      padding: calc(var(--section-gap) + 0.25rem);
-      margin-bottom: calc(var(--section-gap) + 0.25rem);
+      padding: calc(var(--section-gap) + var(--space-xs));
+      margin-bottom: calc(var(--section-gap) + var(--space-xs));
     }
 
     .org-item {
@@ -229,7 +202,7 @@ const advocacyData = Array.isArray(takeAction.advocacy)
     }
 
     .action-card {
-      padding: 1rem;
+      padding: var(--card-padding);
     }
   }
 

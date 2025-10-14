@@ -95,17 +95,17 @@ const allCategories = ['All', ...categories];
   }
 
   .causes-heading {
-    font-size: 1.125rem;
-    font-weight: 600;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
     color: var(--text-primary);
-    margin-bottom: 1rem;
+    margin-bottom: var(--gap);
     text-align: center;
   }
 
   .countries-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 0.5rem;
+    gap: var(--gap-sm);
     max-width: var(--grid-max-width);
     margin: 0 auto;
 
@@ -115,18 +115,14 @@ const allCategories = ['All', ...categories];
   .country-card {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
-    padding: 1rem;
+    gap: var(--gap);
+    padding: var(--card-padding);
     background: var(--bg-card);
-    border: 1px solid var(--border);
+    border: var(--card-border);
     border-radius: var(--card-radius);
     text-decoration: none;
-    transition:
-      background-color 0.18s ease,
-      border-color 0.18s ease,
-      transform 0.12s ease,
-      box-shadow 0.12s ease;
-    min-height: 60px;
+    transition: var(--card-transition);
+    min-height: var(--min-height-card-lg);
     box-sizing: border-box;
     opacity: 0;
     transform: translateY(8px);
@@ -137,13 +133,13 @@ const allCategories = ['All', ...categories];
   .country-card:hover {
     background: var(--bg-alt);
     border-color: var(--accent-primary);
-    transform: translateY(-1px);
-    box-shadow: var(--shadow-md);
+    transform: var(--hover-transform);
+    box-shadow: var(--hover-shadow);
   }
 
   .country-card:active {
-    transform: scale(0.97) translateY(1.5px);
-    box-shadow: var(--shadow-sm);
+    transform: var(--active-transform);
+    box-shadow: var(--active-shadow);
     transition:
       transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
       box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
@@ -157,18 +153,18 @@ const allCategories = ['All', ...categories];
   .country-info {
     display: flex;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: var(--space-xs);
     min-width: 0;
   }
 
   .country-name {
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
     color: var(--text-primary);
-    font-size: 1rem;
+    font-size: var(--font-size-base);
   }
 
   .country-description {
-    font-size: 0.875rem;
+    font-size: var(--font-size-sm);
     color: var(--text-secondary);
     line-height: 1.3;
   }
@@ -176,16 +172,16 @@ const allCategories = ['All', ...categories];
   @media (width >= 768px) {
     .countries-grid {
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 0.75rem;
+      gap: var(--gap);
     }
 
     .country-card {
-      padding: 1rem;
-      min-height: 60px;
+      padding: var(--card-padding);
+      min-height: var(--min-height-card-lg);
     }
 
     .causes-heading {
-      font-size: 1.25rem;
+      font-size: var(--font-size-xl);
     }
   }
 

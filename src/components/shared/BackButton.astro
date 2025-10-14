@@ -23,16 +23,16 @@ const sanitizedHref =
   .back-button {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: var(--gap-sm);
     color: var(--text-secondary);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: var(--font-weight-semibold);
     padding: 10px 14px;
-    border-radius: 8px;
+    border-radius: var(--card-radius);
     min-height: 44px;
     min-width: 44px;
     background: var(--bg-surface);
-    border: 1px solid var(--border);
+    border: var(--card-border);
     transition:
       color 0.2s ease,
       background-color 0.2s ease,
@@ -45,7 +45,7 @@ const sanitizedHref =
     background-color: var(--accent-primary);
     color: var(--on-accent);
     border-color: var(--accent-primary);
-    transform: translateY(-1px);
+    transform: var(--hover-transform);
   }
 
   .back-button:active {
@@ -87,7 +87,7 @@ const sanitizedHref =
       min-height: 44px;
       min-width: 44px;
       font-size: inherit;
-      border-radius: 8px;
+      border-radius: var(--card-radius);
     }
   }
 </style>

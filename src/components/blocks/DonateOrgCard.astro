@@ -43,47 +43,44 @@ const safeUrl =
 <style>
   .org-item {
     background: var(--bg-surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
+    border: var(--card-border);
+    border-radius: var(--card-radius);
     padding: calc(var(--heading-gap) * 0.9);
   }
 
   .org-item h4 {
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
     color: var(--text-primary);
-    margin: 0 0 0.5rem;
+    margin: 0 0 var(--gap-sm);
   }
 
   .org-item p {
     color: var(--text-secondary);
-    margin: 0 0 calc(var(--heading-gap));
-    line-height: 1.5;
+    margin: 0 0 var(--heading-gap);
+    line-height: var(--line-height-base);
   }
 
   .donate-link {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: var(--gap-sm);
     background: var(--accent-primary);
     color: var(--on-accent);
     text-decoration: none;
     padding: 0.75rem 1.25rem;
-    border-radius: 6px;
-    font-weight: 500;
+    border-radius: var(--button-radius);
+    font-weight: var(--font-weight-semibold);
     font-size: 0.95rem;
-    transition:
-      background-color 0.2s ease,
-      transform 0.2s ease,
-      box-shadow 0.2s ease;
+    transition: var(--link-transition);
     min-height: 44px;
     box-sizing: border-box;
   }
 
   .donate-link:hover {
     background: var(--accent-secondary);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    transform: var(--hover-transform);
+    box-shadow: var(--hover-shadow);
   }
 
   .donate-link:active {
@@ -97,7 +94,7 @@ const safeUrl =
 
   @media (width >= 768px) {
     .org-item {
-      padding: 1.25rem;
+      padding: var(--gap-xl);
     }
 
     .donate-link {

@@ -43,19 +43,19 @@ const safeLegacy =
   }
 
   .colonial-section h2 {
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: var(--section-heading-size);
+    font-weight: var(--font-weight-bold);
     color: var(--text-primary);
     margin-bottom: var(--heading-gap);
-    border-bottom: 2px solid var(--accent-primary);
-    padding-bottom: 0.5rem;
+    border-bottom: var(--section-heading-border);
+    padding-bottom: var(--section-heading-padding-bottom);
   }
 
   .colonial-section h3 {
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
     color: var(--text-primary);
-    margin-bottom: 0.75rem;
+    margin-bottom: var(--gap);
     margin-top: var(--heading-gap);
   }
 
@@ -65,7 +65,7 @@ const safeLegacy =
 
   @media (width >= 768px) {
     .colonial-section h2 {
-      font-size: 1.5rem;
+      font-size: var(--section-heading-size-lg);
     }
   }
 </style>

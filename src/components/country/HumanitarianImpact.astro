@@ -105,27 +105,20 @@ if (humanitarianImpact.other !== undefined) {
 <style>
   .humanitarian-section {
     background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
+    border: var(--card-border);
+    border-radius: var(--card-radius);
     padding: var(--section-gap);
-    margin-bottom: calc(var(--section-gap) - 0.5rem);
+    margin-bottom: calc(var(--section-gap) - var(--gap-sm));
   }
 
   .humanitarian-section h2 {
     margin-top: 0;
-    border-bottom: 2px solid var(--accent-primary);
-    padding-bottom: 0.5rem;
+    border-bottom: var(--section-heading-border);
+    padding-bottom: var(--section-heading-padding-bottom);
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
     color: var(--text-primary);
     margin-bottom: var(--heading-gap);
-  }
-
-  .impact-stats {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.75rem;
-    margin-top: var(--heading-gap);
   }
 
   .humanitarian-disclaimer {
@@ -134,41 +127,42 @@ if (humanitarianImpact.other !== undefined) {
     color: var(--text-muted);
     font-style: italic;
     line-height: 1.2;
-    padding-top: 0.25rem;
+    padding-top: var(--space-xs);
     text-align: center;
     opacity: 0.95;
   }
 
   .stat-item strong {
     color: var(--accent-primary);
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
     display: block;
-    margin-bottom: 0.25rem;
-    font-size: 0.9rem;
+    margin-bottom: var(--space-xs);
+    font-size: var(--font-size-sm);
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }
 
   @media (width >= 768px) {
     .humanitarian-section {
-      padding: calc(var(--section-gap) + 0.25rem)
-        calc(var(--section-gap) + 0.25rem) calc(var(--section-gap) - 0.25rem);
+      padding: calc(var(--section-gap) + var(--space-xs))
+        calc(var(--section-gap) + var(--space-xs))
+        calc(var(--section-gap) - var(--space-xs));
       margin-bottom: var(--section-gap);
     }
 
     .impact-stats {
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1rem;
+      gap: var(--gap-lg);
     }
 
     .stat-item {
-      padding: 0.875rem;
+      padding: var(--card-padding-sm);
     }
 
     .humanitarian-disclaimer {
       justify-content: center;
       padding-top: 0.15rem;
-      margin-top: 1rem;
+      margin-top: var(--gap);
     }
   }
 </style>

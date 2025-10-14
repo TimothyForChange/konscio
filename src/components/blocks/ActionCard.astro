@@ -15,15 +15,15 @@ const safeContent = content || '';
   .action-card {
     background: var(--bg-surface);
     border: 1px solid var(--border);
-    border-radius: 6px;
-    padding: 0.875rem;
+    border-radius: var(--button-radius);
+    padding: var(--card-padding-sm);
     color: var(--text-secondary);
-    line-height: 1.5;
+    line-height: var(--line-height-base);
   }
 
   @media (width >= 768px) {
     .action-card {
-      padding: 1rem;
+      padding: var(--card-padding);
     }
   }
 </style>

@@ -39,6 +39,40 @@
   --shadow-sm: 0 1.5px 6px rgb(0 0 0 / 8%);
   --shadow-md: 0 4px 12px rgb(0 0 0 / 12%);
   --card-radius: 8px;
+  --card-padding-sm: 0.875rem;
+  --card-padding: 1rem;
+  --card-padding-lg: 1.25rem;
+  --button-radius: 6px;
+  --button-padding-y: 0.5rem;
+  --button-padding-x: 1rem;
+  --section-heading-size: 1.25rem;
+  --section-heading-size-lg: 1.5rem;
+  --section-heading-weight: 600;
+  --section-heading-color: var(--text-primary);
+  --section-heading-border: 2px solid var(--accent-primary);
+  --section-heading-padding-bottom: 0.5rem;
+  --card-border: 1px solid var(--border);
+  --card-transition:
+    background-color 0.18s ease, border-color 0.18s ease, transform 0.12s ease,
+    box-shadow 0.12s ease;
+  --hover-transform: translateY(-1px);
+  --hover-shadow: var(--shadow-md);
+  --active-transform: scale(0.97) translateY(1.5px);
+  --active-shadow: var(--shadow-sm);
+  --min-height-card: 56px;
+  --min-height-card-lg: 60px;
+  --gap-sm: 0.5rem;
+  --gap: 0.75rem;
+  --gap-lg: 1rem;
+  --gap-xl: 1.25rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.1rem;
+  --font-size-xl: 1.25rem;
+  --font-weight-bold: 600;
+  --font-weight-semibold: 500;
+  --line-height-base: 1.5;
+  --link-transition: color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -243,16 +277,91 @@ html::-webkit-scrollbar-corner {
 }
 
 .section-heading {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--text-primary);
+  font-size: var(--section-heading-size);
+  font-weight: var(--section-heading-weight);
+  color: var(--section-heading-color);
   margin-bottom: 1rem;
-  border-bottom: 2px solid var(--accent-primary);
-  padding-bottom: 0.5rem;
+  border-bottom: var(--section-heading-border);
+  padding-bottom: var(--section-heading-padding-bottom);
 }
 
 .section-container {
   margin-bottom: 1.5rem;
+}
+
+.card-base {
+  background: var(--bg-card);
+  border: var(--card-border);
+  border-radius: var(--card-radius);
+  padding: var(--card-padding);
+  text-decoration: none;
+  transition: var(--card-transition);
+  min-height: var(--min-height-card);
+  box-sizing: border-box;
+}
+
+.card-base:hover {
+  background: var(--bg-alt);
+  border-color: var(--accent-primary);
+  transform: var(--hover-transform);
+  box-shadow: var(--hover-shadow);
+}
+
+.card-base:active {
+  transform: var(--active-transform);
+  box-shadow: var(--active-shadow);
+  transition:
+    transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-base {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--gap-sm);
+  background: var(--accent-primary);
+  color: var(--on-accent);
+  text-decoration: none;
+  padding: var(--button-padding-y) var(--button-padding-x);
+  border-radius: var(--button-radius);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-base);
+  transition: var(--link-transition);
+  min-height: 36px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.button-base:hover {
+  background: var(--accent-secondary);
+}
+
+.button-base:active {
+  background: var(--accent-tertiary);
+}
+
+.action-group {
+  margin-bottom: calc(var(--section-gap) * 0.9);
+}
+
+.action-group:last-child {
+  margin-bottom: 0;
+}
+
+.action-group h3 {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
+  margin-bottom: var(--heading-gap);
+  margin-top: 0;
+}
+
+.action-group h3 i {
+  color: var(--accent-primary);
+  font-size: var(--font-size-xl);
 }
 
 cite {
@@ -284,7 +393,7 @@ cite.bracketed::after {
 
 @media (width >= 768px) {
   .section-heading {
-    font-size: 1.5rem;
+    font-size: var(--section-heading-size-lg);
   }
 
   :root {

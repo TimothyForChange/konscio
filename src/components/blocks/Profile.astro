@@ -67,7 +67,7 @@ const { name = 'Unknown User', profession, bio } = user;
   }
 
   .profile-picture-content {
-    padding: 0.25rem;
+    padding: var(--space-xs);
     border-radius: 100%;
     border: 2px solid var(--border);
     background: var(--bg-card);
@@ -102,11 +102,11 @@ const { name = 'Unknown User', profession, bio } = user;
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: 0.25rem;
+    margin-bottom: var(--space-xs);
   }
 
   .profile-profession {
-    font-size: 1rem;
+    font-size: var(--font-size-base);
     font-weight: 400;
     color: var(--text-secondary);
   }
@@ -117,7 +117,7 @@ const { name = 'Unknown User', profession, bio } = user;
   }
 
   .profile-bio-text {
-    font-size: 1.1rem;
+    font-size: var(--font-size-lg);
     font-weight: 400;
     color: var(--text-primary);
     line-height: 1.6;

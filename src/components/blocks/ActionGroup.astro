@@ -16,20 +16,12 @@ const { icon, title } = Astro.props as Props;
 </div>
 
 <style>
-  .action-group {
-    margin-bottom: calc(var(--section-gap) * 0.9);
-  }
-
-  .action-group:last-child {
-    margin-bottom: 0;
-  }
-
   .action-group h3 {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    font-size: 1.25rem;
-    font-weight: 600;
+    gap: var(--gap-sm);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
     color: var(--text-primary);
     margin-bottom: var(--heading-gap);
     margin-top: 0;
@@ -37,6 +29,6 @@ const { icon, title } = Astro.props as Props;
 
   .action-group h3 i {
     color: var(--accent-primary);
-    font-size: 1.25rem;
+    font-size: var(--font-size-xl);
   }
 </style>

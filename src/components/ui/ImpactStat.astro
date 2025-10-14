@@ -15,17 +15,17 @@ const { label, value } = Astro.props as Props;
 <style>
   .stat-item {
     background: var(--bg-surface);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1rem;
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    padding: var(--card-padding);
   }
 
   .stat-item strong {
     color: var(--accent-primary);
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
     display: block;
     margin-bottom: calc(var(--heading-gap) / 4);
-    font-size: 0.9rem;
+    font-size: var(--font-size-sm);
     text-transform: uppercase;
     letter-spacing: 0.5px;
   }

@@ -20,13 +20,13 @@ const { href = '#', class: className = '' } = Astro.props;
   .donate-button {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: var(--gap-sm);
     background: var(--accent-primary);
     color: var(--on-accent);
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    font-weight: 500;
+    padding: var(--button-padding-y) var(--button-padding-x);
+    border-radius: var(--button-radius);
+    font-weight: var(--font-weight-semibold);
     font-size: 0.85rem;
     transition: background-color 0.2s ease;
     min-height: 36px;
