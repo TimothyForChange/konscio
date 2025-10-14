@@ -35,18 +35,18 @@
     "category": "State Collapse & Civil War"
   },
   {
-    "name": "Myanmar",
-    "slug": "myanmar",
-    "flag": "🇲🇲",
-    "description": "Military junta vs. nationwide revolution and genocide",
-    "category": "Systematic Persecution & Invasion"
-  },
-  {
     "name": "Mozambique",
     "slug": "mozambique",
     "flag": "🇲🇿",
     "description": "Jihadist insurgency in Cabo Delgado, fuelled by gas revenues and vast inequality",
     "category": "Insurgency & Resource Conflict"
+  },
+  {
+    "name": "Myanmar",
+    "slug": "myanmar",
+    "flag": "🇲🇲",
+    "description": "Military junta vs. nationwide revolution and genocide",
+    "category": "Systematic Persecution & Invasion"
   },
   {
     "name": "Nigeria",
