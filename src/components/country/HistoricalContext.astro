@@ -1,5 +1,5 @@
 ---
-import { isObject, isString } from 'radash';
+import { isEmpty, isObject, isString, keys } from 'radash';
 import { formatTermKey, formatText } from '../../utils/utils';
 
 export interface Props {
@@ -16,7 +16,7 @@ if (!safeCountrySlug) {
 
 const safeCoreTerms = isObject(coreTerms) ? coreTerms : {};
 
-const hasTerms = Object.keys(safeCoreTerms).length > 0;
+const hasTerms = !isEmpty(keys(safeCoreTerms));
 if (!hasTerms) {
   return null;
 }

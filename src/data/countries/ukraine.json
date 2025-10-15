@@ -4,13 +4,13 @@
   "ariaLabel": "Ukrainian flag",
   "lastUpdated": "2025-10-14",
   "currentCrisisSummary": "An unprovoked war of aggression by Russia's oligarchic, fossil-fuel-driven regime since 2014, escalating with the 2022 full-scale invasion, has caused mass casualties, displacement, and the systematic destruction of civilian infrastructure and cultural heritage.",
-  "colonialRoot": {
-    "colonialPower": "Russian Empire & Soviet Union",
+  "imperialRoot": {
+    "imperialPower": "Russian Empire & Soviet Union",
     "legacy": "Centuries of Russian imperial domination have been marked by systematic attempts to erase Ukrainian sovereignty and identity, from Tsarist Russification to the Soviet-engineered Holodomor genocide. This history of treating Ukraine as a colonial possession provides the ideological basis for the current war, which many scholars argue has genocidal characteristics. The Soviet Union also left behind a centralised state economy that, upon its collapse, was rapidly captured by a new oligarchic class."
   },
   "coreTerms": {
-    "fossilFuelGeopolitics": "Russia's invasion is a neocolonial war driven by its specific model of kleptocratic state capitalism. A ruling class of oligarchs and security officials, whose wealth derives from the control of fossil fuels, seeks to seize Ukraine's industrial assets, agricultural land, and offshore energy reserves. The war is an attempt to violently expand this extractive economic model and eliminate a sovereign, democratic alternative on its border.",
-    "decolonisationAndTheOligarchs": "The Ukrainian resistance is a dual struggle: a war for national decolonisation against Russian imperialism, and an internal fight to build a just society free from its own legacy of post-Soviet oligarchic capitalism. Western support, while crucial, has been tied to socially painful neoliberal reforms—such as austerity and privatisation—demanded by institutions like the IMF. The challenge is to win the war while building a sovereign economy that serves the Ukrainian people, not just foreign capital or domestic oligarchs."
+    "fossilFuelGeopolitics": "Russia's invasion is an imperial war driven by its specific model of kleptocratic state capitalism. A ruling class of oligarchs and security officials, whose wealth derives from the control of fossil fuels, seeks to seize Ukraine's industrial assets, agricultural land, and offshore energy reserves. The war is an attempt to violently expand this extractive economic model and eliminate a sovereign, democratic alternative on its border.",
+    "deimperialisationAndTheOligarchs": "The Ukrainian resistance is a dual struggle: a war for national deimperialisation against Russian imperialism, and an internal fight to build a just society free from its own legacy of post-Soviet oligarchic capitalism. Western support, while crucial, has been tied to socially painful neoliberal reforms—such as austerity and privatisation—demanded by institutions like the IMF. The challenge is to win the war while building a sovereign economy that serves the Ukrainian people, not just foreign capital or domestic oligarchs."
   },
   "humanitarianImpact": {
     "displaced": "An estimated 3.7 million people remain internally displaced within Ukraine [IOM, October 2024].",
@@ -40,7 +40,7 @@
     },
     {
       "year": "2022",
-      "event": "**Full-Scale Invasion**: Russia launches an unprovoked, comprehensive military assault across Ukraine to achieve its colonial ambitions."
+      "event": "**Full-Scale Invasion**: Russia launches an unprovoked, comprehensive military assault across Ukraine to achieve its imperial ambitions."
     }
   ],
   "takeAction": {

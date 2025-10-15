@@ -2,6 +2,7 @@
 import '@fontsource-variable/geist';
 import '../styles/reset.css';
 import '../styles/global.css';
+import { sift } from 'radash';
 import Footer from '../components/layout/Footer.astro';
 import countriesList from '../data/countries.json';
 
@@ -56,10 +57,7 @@ const ldObject = {
 };
 const ldJson = JSON.stringify(ldObject, null, 2);
 const countryNames = Array.isArray(countriesList)
-  ? countriesList
-      .map((c) => c.name)
-      .filter(Boolean)
-      .join(', ')
+  ? sift(countriesList.map((c) => c.name)).join(', ')
   : '';
 const defaultDescription = `Timothy for Change - A platform for critical humanitarian analysis. Learn about ongoing conflicts and humanitarian issues in ${countryNames}.`;
 const baseKeywords = [
@@ -77,7 +75,7 @@ const baseKeywords = [
   'Timothy Brits',
 ];
 const countryNamesArray = Array.isArray(countriesList)
-  ? countriesList.map((c) => c.name).filter(Boolean)
+  ? sift(countriesList.map((c) => c.name))
   : [];
 const keywordsList = [...baseKeywords, ...countryNamesArray].join(', ');
 function trimDescription(desc: string, max = 160) {
@@ -109,9 +107,11 @@ const pageCanonicalUrl = canonicalUrl || 'https://www.timothyforchange.co.za/';
     <meta property='og:title' content={title} />
     <meta property='og:description' content={pageDescription} />
     <meta property='og:site_name' content='Timothy for Change' />
+    <meta property='og:image' content='/united-nations.webp' />
     <meta name='twitter:card' content='summary' />
     <meta name='twitter:title' content={title} />
     <meta name='twitter:description' content={pageDescription} />
+    <meta name='twitter:image' content='/united-nations.webp' />
     <meta name='color-scheme' content='light dark' />
     <link rel='canonical' href={pageCanonicalUrl} />
     <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />

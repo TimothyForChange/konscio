@@ -1,4 +1,5 @@
 ---
+import { isEmpty } from 'radash';
 import TakeAction from '../components/blocks/TakeAction.astro';
 import ColonialSection from '../components/country/ColonialSection.astro';
 import CountryHeader from '../components/country/CountryHeader.astro';
@@ -62,7 +63,7 @@ const canonicalUrl = `https://www.timothyforchange.co.za/${encodeURIComponent(sa
 
         {
           Array.isArray(countryData?.timeline) &&
-            countryData.timeline.length > 0 && (
+            !isEmpty(countryData.timeline) && (
               <Timeline timeline={countryData.timeline} />
             )
         }

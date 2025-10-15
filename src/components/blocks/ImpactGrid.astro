@@ -1,5 +1,5 @@
 ---
-import { isArray, isObject, isString } from 'radash';
+import { isArray, isEmpty, isObject, isString } from 'radash';
 import ImpactStat from '../ui/ImpactStat.astro';
 
 export interface Props {
@@ -17,7 +17,7 @@ const safeStats = isArray(stats)
       }))
   : [];
 
-if (safeStats.length === 0) {
+if (isEmpty(safeStats)) {
   return null;
 }
 ---

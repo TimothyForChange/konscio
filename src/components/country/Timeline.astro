@@ -1,5 +1,5 @@
 ---
-import { isArray } from 'radash';
+import { isArray, isEmpty } from 'radash';
 import TimelineItem from '../ui/TimelineItem.astro';
 
 interface TimelineEvent {
@@ -14,7 +14,7 @@ interface Props {
 const { timeline } = Astro.props as Props;
 
 const safeTimeline = isArray(timeline) ? timeline : [];
-if (safeTimeline.length === 0) {
+if (isEmpty(safeTimeline)) {
   return null;
 }
 ---
@@ -57,11 +57,13 @@ if (safeTimeline.length === 0) {
 
   .timeline-container {
     position: relative;
+
     --timeline-pad: 1.5rem;
     --timeline-border: 3px;
     --timeline-dot-size: 12px;
     --timeline-dot-border: 3px;
     --timeline-gutter: 48px;
+
     display: grid;
     grid-template-columns: var(--timeline-gutter) 1fr;
     gap: var(--space-xs) var(--gap-lg);

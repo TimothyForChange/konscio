@@ -1,5 +1,5 @@
 ---
-import { isArray, isObject } from 'radash';
+import { isArray, isObject, keys } from 'radash';
 import ActionCard from './ActionCard.astro';
 import ActionGroup from './ActionGroup.astro';
 import DonateOrgCard from './DonateOrgCard.astro';
@@ -19,7 +19,7 @@ export interface Props {
 const { takeAction, id } = Astro.props as Props;
 
 const safeTakeAction = isObject(takeAction) ? takeAction : {};
-if (Object.keys(safeTakeAction).length === 0) {
+if (keys(safeTakeAction).length === 0) {
   return null;
 }
 
