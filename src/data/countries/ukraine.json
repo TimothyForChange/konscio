@@ -1,0 +1,71 @@
+{
+  "name": "Ukraine",
+  "emoji": "🇺🇦",
+  "ariaLabel": "Ukrainian flag",
+  "lastUpdated": "2025-10-14",
+  "currentCrisisSummary": "An unprovoked war of aggression by Russia's oligarchic, fossil-fuel-driven regime since 2014, escalating with the 2022 full-scale invasion, has caused mass casualties, displacement, and the systematic destruction of civilian infrastructure and cultural heritage.",
+  "colonialRoot": {
+    "colonialPower": "Russian Empire & Soviet Union",
+    "legacy": "Centuries of Russian imperial domination have been marked by systematic attempts to erase Ukrainian sovereignty and identity, from Tsarist Russification to the Soviet-engineered Holodomor genocide. This history of treating Ukraine as a colonial possession provides the ideological basis for the current war, which many scholars argue has genocidal characteristics. The Soviet Union also left behind a centralised state economy that, upon its collapse, was rapidly captured by a new oligarchic class."
+  },
+  "coreTerms": {
+    "fossilFuelGeopolitics": "Russia's invasion is a neocolonial war driven by its specific model of kleptocratic state capitalism. A ruling class of oligarchs and security officials, whose wealth derives from the control of fossil fuels, seeks to seize Ukraine's industrial assets, agricultural land, and offshore energy reserves. The war is an attempt to violently expand this extractive economic model and eliminate a sovereign, democratic alternative on its border.",
+    "decolonisationAndTheOligarchs": "The Ukrainian resistance is a dual struggle: a war for national decolonisation against Russian imperialism, and an internal fight to build a just society free from its own legacy of post-Soviet oligarchic capitalism. Western support, while crucial, has been tied to socially painful neoliberal reforms—such as austerity and privatisation—demanded by institutions like the IMF. The challenge is to win the war while building a sovereign economy that serves the Ukrainian people, not just foreign capital or domestic oligarchs."
+  },
+  "humanitarianImpact": {
+    "displaced": "An estimated 3.7 million people remain internally displaced within Ukraine [IOM, October 2024].",
+    "refugees": "Over 6.3 million refugees have been forced to flee, primarily to other European countries [UNHCR, 2024-2025].",
+    "casualties": "Over 12,000 civilians confirmed killed (as of mid-2025), though the actual toll is believed to be significantly higher due to Russian occupation and relentless bombardment [UN OHCHR, 2025]. Note: Earlier figure of 10,582 deaths was recorded in February 2024 [UN OHCHR, February 2024].",
+    "affected": "12.7 million people—around 40% of the population—have been left reliant on humanitarian assistance to survive [UN OCHA, 2024-2025].",
+    "childrenOutOfSchool": "Over one million children are unable to access in-person learning due to insecurity and the destruction of over 3,790 educational facilities [UNICEF, 2025].",
+    "healthSystemCollapsed": "The healthcare system has been severely impacted, with over 1,500 attacks on health facilities and personnel verified by the WHO since February 2022 [WHO, 2025].",
+    "waterAccess": "An estimated 11.2 million people lack secure access to safe water, sanitation, and hygiene services due to infrastructure damage [WASH Cluster, 2025]."
+  },
+  "timeline": [
+    {
+      "year": "1932-1933",
+      "event": "**The Holodomor**: A Soviet-engineered famine kills millions of Ukrainians in an act of genocide, recognised by the European Parliament and numerous states."
+    },
+    {
+      "year": "1991",
+      "event": "**Independence Restored**: Ukraine overwhelmingly votes for independence, formally leaving the collapsing Soviet empire. The subsequent chaotic privatisation of state assets leads to the rise of a powerful oligarchic class."
+    },
+    {
+      "year": "2004",
+      "event": "**Orange Revolution**: Mass protests overturn a fraudulent, Russian-backed presidential election, affirming a pro-sovereignty path."
+    },
+    {
+      "year": "2014",
+      "event": "**Revolution of Dignity & Start of War**: Pro-European protests against corruption and the domestic oligarchic system oust a pro-Russian president, prompting Russia to illegally annex Crimea and invade the Donbas region."
+    },
+    {
+      "year": "2022",
+      "event": "**Full-Scale Invasion**: Russia launches an unprovoked, comprehensive military assault across Ukraine to achieve its colonial ambitions."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Nova Ukraine",
+        "description": "A diaspora-led organisation delivering targeted humanitarian aid across Ukraine.",
+        "url": "https://novaukraine.org/"
+      },
+      {
+        "organisation": "Razom for Ukraine",
+        "description": "Provides critical medical supplies and supports Ukrainian civil society's resistance.",
+        "url": "https://www.razomforukraine.org/"
+      },
+      {
+        "organisation": "UNITED24",
+        "description": "The official fundraising platform initiated by the President of Ukraine to support the country's defence, humanitarian needs, and reconstruction efforts.",
+        "url": "https://u24.gov.ua/"
+      }
+    ],
+    "advocacy": [
+      "Demand sustained military, economic, and humanitarian aid to help Ukraine defend its sovereignty.",
+      "Demand stronger and fully enforced sanctions against the Russian state and all entities enabling its war economy.",
+      "Support the boycott of companies still operating in Russia and funding its war machine.",
+      "Demand a just, Ukrainian-led reconstruction that prioritises people over corporate profits, rejecting the logic of disaster capitalism."
+    ]
+  }
+}
