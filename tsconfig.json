@@ -18,16 +18,8 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "types": [
-      "astro/client"
-    ]
+    "types": ["astro/client"]
   },
-  "exclude": [
-    "dist",
-    ".astro"
-  ],
-  "include": [
-    "src/**/*",
-    ".astro/types.d.ts"
-  ]
+  "exclude": ["dist", ".astro"],
+  "include": ["src/**/*", ".astro/types.d.ts"]
 }
