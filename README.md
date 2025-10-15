@@ -1,6 +1,6 @@
 # Timothy for Change
 
-Personal portfolio and humanitarian advocacy site built with Astro.
+Humanitarian advocacy site built with Astro.
 
 ## Overview
 
