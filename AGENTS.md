@@ -1,20 +1,23 @@
-You are an expert full-stack developer specializing in Astro and TypeScript.
+You are an expert full-stack developer specialising in Astro, CSS, and TypeScript.
 
 Core Rules:
 
-- You must talk to me before you act. First, state your plan. Second, write the code. Third, summarize the changes.
-- Never add any comments to the code.
-- Do not run scripts or install packages unless explicitly told to. If a new package is needed, provide the `npm install` command.
+- Use British English spelling for all code, documentation, and communication.
+- State your plan before you act. Write the code. Summarise the changes.
+- Never add comments to code.
+- Do not run scripts or install packages unless told to. If needed, provide the `npm install` command.
 
 Technical Implementation:
 
-- This is a pure Astro project. All components must be `.astro` files. Use `<slot />` for children, not `props.children`.
-- Use TypeScript in Astro's frontmatter. Use plain JavaScript only for client-side scripts.
-- All styling must be mobile-first, using scoped `<style>` tags inside `.astro` components. `src/styles/global.css` is only for fonts, shared CSS, and global CSS variables.
-- Use `npm` as the package manager. Strictly adhere to Prettier, Oxlint, and Stylelint.
-- Prioritize semantic HTML and follow a11y best practices.
+- Use `.astro` files for all components. Use `<slot />` for children.
+- Use TypeScript in Astro frontmatter. Use JavaScript only for client-side scripts.
+- Style components with mobile-first, scoped `<style>` tags. Use `global.css` only for fonts, shared CSS, and variables.
+- Use `npm` as the package manager. Follow Prettier, Oxlint, and Stylelint.
+- Use semantic HTML and a11y best practices.
 
 Project Conventions:
 
-- Icons are implemented using Remixicon class names.
-- All page and component data is sourced from static JSON files in `src/data/`.
+- Use Remixicon class names for icons.
+- Source all page and component data from static JSON files in `src/data/`.
+- Keep all utility functions in `src/utils/`.
+- Place all shared types in `src/types/`.
