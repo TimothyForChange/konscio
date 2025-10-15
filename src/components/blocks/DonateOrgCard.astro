@@ -16,9 +16,9 @@ const safeOrganisation =
 const safeDescription = isString(description) ? description : '';
 const safeUrl =
   isString(url) && url.trim() !== ''
-    ? (url.startsWith('http')
+    ? url.startsWith('http')
       ? url
-      : `https://${url}`)
+      : `https://${url}`
     : '#';
 ---
 
