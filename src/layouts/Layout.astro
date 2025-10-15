@@ -10,8 +10,10 @@ export let title = 'Timothy for Change';
 export let description = undefined;
 export let canonicalUrl = undefined;
 export let countrySlug: string | undefined = undefined;
+export let articleSchema: Record<string, unknown> | undefined = undefined;
+export let noIndex: boolean | undefined = undefined;
 
-const ldObject = {
+const baseLdObject = {
   '@context': 'https://schema.org',
   '@graph': [
     {
@@ -55,6 +57,13 @@ const ldObject = {
     },
   ],
 };
+
+const ldObject = articleSchema
+  ? {
+      ...baseLdObject,
+      '@graph': [...baseLdObject['@graph'], articleSchema],
+    }
+  : baseLdObject;
 const ldJson = JSON.stringify(ldObject, null, 2);
 const countryNames = Array.isArray(countriesList)
   ? sift(countriesList.map((c) => c.name)).join(', ')
@@ -101,7 +110,10 @@ const pageCanonicalUrl = canonicalUrl || 'https://www.timothyforchange.co.za/';
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <meta name='author' content='Timothy for Change' />
     <meta name='keywords' content={keywordsList} />
-    <meta name='robots' content='index, follow' />
+    <meta
+      name='robots'
+      content={noIndex ? 'noindex, follow' : 'index, follow'}
+    />
     <meta property='og:type' content='website' />
     <meta property='og:url' content={pageCanonicalUrl} />
     <meta property='og:title' content={title} />

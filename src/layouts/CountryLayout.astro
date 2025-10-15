@@ -30,6 +30,26 @@ const safeName =
 
 const pageDescription = `Learn about the humanitarian crisis in ${safeName} - Timothy for Change provides critical analysis of global humanitarian issues.`;
 const canonicalUrl = `https://www.timothyforchange.co.za/${encodeURIComponent(safeCountrySlug)}`;
+
+const articleSchema = {
+  '@type': 'Article',
+  '@id': `https://www.timothyforchange.co.za/${safeCountrySlug}/#article`,
+  headline:
+    passedTitle && typeof passedTitle === 'string'
+      ? passedTitle
+      : `${safeName} Crisis - Timothy for Change`,
+  description: pageDescription,
+  author: {
+    '@id': 'https://www.timothyforchange.co.za/#person',
+  },
+  publisher: {
+    '@id': 'https://www.timothyforchange.co.za/#person',
+  },
+  datePublished:
+    countryData?.lastUpdated || new Date().toISOString().split('T')[0],
+  dateModified:
+    countryData?.lastUpdated || new Date().toISOString().split('T')[0],
+};
 ---
 
 <Layout
@@ -39,6 +59,7 @@ const canonicalUrl = `https://www.timothyforchange.co.za/${encodeURIComponent(sa
   description={pageDescription}
   canonicalUrl={canonicalUrl}
   countrySlug={safeCountrySlug}
+  articleSchema={articleSchema}
 >
   <div class='page-wrapper'>
     <main class='container' id='container'>
