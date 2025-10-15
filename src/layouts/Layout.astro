@@ -7,11 +7,11 @@ import Footer from '../components/layout/Footer.astro';
 import countriesList from '../data/countries.json';
 
 export let title = 'Timothy for Change';
-export let description = undefined;
-export let canonicalUrl = undefined;
-export let countrySlug: string | undefined = undefined;
-export let articleSchema: Record<string, unknown> | undefined = undefined;
-export let noIndex: boolean | undefined = undefined;
+export let description: string | undefined;
+export let canonicalUrl: string | undefined;
+export let countrySlug: string | undefined;
+export let articleSchema: Record<string, unknown> | undefined;
+export let noIndex: boolean | undefined;
 
 const baseLdObject = {
   '@context': 'https://schema.org',
@@ -64,7 +64,7 @@ const ldObject = articleSchema
       '@graph': [...baseLdObject['@graph'], articleSchema],
     }
   : baseLdObject;
-const ldJson = JSON.stringify(ldObject, null, 2);
+const ldJson = JSON.stringify(ldObject, undefined, 2);
 const countryNames = Array.isArray(countriesList)
   ? sift(countriesList.map((c) => c.name)).join(', ')
   : '';
@@ -91,7 +91,7 @@ function trimDescription(desc: string, max = 160) {
   if (!desc) {
     return '';
   }
-  const cleaned = desc.replace(/\s+/g, ' ').trim();
+  const cleaned = desc.replaceAll(/\s+/g, ' ').trim();
   return cleaned.length > max
     ? cleaned.slice(0, max - 1).trimEnd() + '…'
     : cleaned;
@@ -105,7 +105,7 @@ const pageCanonicalUrl = canonicalUrl || 'https://www.timothyforchange.co.za/';
 <!doctype html>
 <html lang='en'>
   <head>
-    <meta charset='UTF-8' />
+    <meta charset='utf8' />
     <meta name='description' content={pageDescription} />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     <meta name='author' content='Timothy for Change' />
@@ -140,12 +140,11 @@ const pageCanonicalUrl = canonicalUrl || 'https://www.timothyforchange.co.za/';
     <Footer />
     <script is:inline>
       document.addEventListener('DOMContentLoaded', () => {
-        // Add focus management for skip link
         const skipLink = document.querySelector('.skip-link');
         if (skipLink) {
-          skipLink.addEventListener('click', (e) => {
-            e.preventDefault();
-            const target = document.getElementById('container');
+          skipLink.addEventListener('click', (event_) => {
+            event_.preventDefault();
+            const target = document.querySelector('#container');
             if (target) {
               target.focus();
               target.scrollIntoView({ behavior: 'smooth', block: 'start' });

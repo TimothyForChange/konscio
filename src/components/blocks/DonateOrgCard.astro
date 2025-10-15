@@ -2,10 +2,12 @@
 import { isString } from 'radash';
 import type * as CountryTypes from '../../types/country';
 
-export interface DonateOrgCardProps extends Partial<CountryTypes.Organisation> {
+export interface DonateOrgCardProperties
+  extends Partial<CountryTypes.Organisation> {
   organisation?: string;
 }
-const { organisation, description, url } = Astro.props as DonateOrgCardProps;
+const { organisation, description, url } =
+  Astro.props as DonateOrgCardProperties;
 
 const safeOrganisation =
   isString(organisation) && organisation.trim() !== ''

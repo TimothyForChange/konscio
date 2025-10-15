@@ -1,13 +1,13 @@
 ---
 import { isArray, isString } from 'radash';
 
-export interface CategoryFilterProps {
+export interface CategoryFilterProperties {
   categories: string[];
   activeCategory?: string;
 }
 
 const { categories, activeCategory = 'All' } =
-  Astro.props as CategoryFilterProps;
+  Astro.props as CategoryFilterProperties;
 
 const safeCategories = isArray(categories) ? categories : [];
 const filteredCategories = safeCategories.filter(
@@ -26,8 +26,8 @@ const safeActiveCategory = isString(activeCategory) ? activeCategory : 'All';
         type='button'
         role='tab'
         aria-selected={category === safeActiveCategory}
-        id={`tab-${category.replace(/\s+/g, '-').toLowerCase()}`}
-        aria-controls={`panel-${category.replace(/\s+/g, '-').toLowerCase()}`}
+        id={`tab-${category.replaceAll(/\s+/g, '-').toLowerCase()}`}
+        aria-controls={`panel-${category.replaceAll(/\s+/g, '-').toLowerCase()}`}
       >
         {category}
       </button>

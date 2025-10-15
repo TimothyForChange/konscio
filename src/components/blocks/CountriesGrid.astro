@@ -63,32 +63,31 @@ const allCategories = ['All', ...categories];
       const buttons = document.querySelectorAll('.category-btn');
       const cards = document.querySelectorAll('.country-card');
 
-      buttons.forEach((btn) => {
-        if (btn.getAttribute('data-category') === selectedCategory) {
-          btn.classList.add('active');
-          btn.setAttribute('aria-selected', 'true');
+      for (const button of buttons) {
+        if (button.dataset.category === selectedCategory) {
+          button.classList.add('active');
+          button.setAttribute('aria-selected', 'true');
         } else {
-          btn.classList.remove('active');
-          btn.setAttribute('aria-selected', 'false');
+          button.classList.remove('active');
+          button.setAttribute('aria-selected', 'false');
         }
-      });
+      }
 
-      cards.forEach((card) => {
-        const cardCategory = card.getAttribute('data-category');
-        if (selectedCategory === 'All' || cardCategory === selectedCategory) {
-          card.style.display = 'flex';
-        } else {
-          card.style.display = 'none';
-        }
-      });
+      for (const card of cards) {
+        const cardCategory = card.dataset.category;
+        card.style.display =
+          selectedCategory === 'All' || cardCategory === selectedCategory
+            ? 'flex'
+            : 'none';
+      }
     }
 
     const categoryButtons = document.querySelectorAll('.category-btn');
-    categoryButtons.forEach((button) => {
+    for (const button of categoryButtons) {
       button.addEventListener('click', function () {
-        filterCountries(this.getAttribute('data-category'));
+        filterCountries(this.dataset.category);
       });
-    });
+    }
   });
 </script>
 

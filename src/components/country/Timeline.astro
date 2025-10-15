@@ -1,21 +1,17 @@
 ---
 import { isArray, isEmpty } from 'radash';
+import type { TimelineEvent } from '../../types';
 import TimelineItem from '../ui/TimelineItem.astro';
 
-interface TimelineEvent {
-  year?: string;
-  event?: string;
-}
-
-interface Props {
+interface Properties {
   timeline?: TimelineEvent[] | Array<Record<string, string>>;
 }
 
-const { timeline } = Astro.props as Props;
+const { timeline } = Astro.props as Properties;
 
 const safeTimeline = isArray(timeline) ? timeline : [];
 if (isEmpty(safeTimeline)) {
-  return null;
+  return;
 }
 ---
 
@@ -23,7 +19,7 @@ if (isEmpty(safeTimeline)) {
   <h2 class='timeline-title'>Historical Timeline</h2>
   <div class='timeline-container'>
     {
-      timeline
+      safeTimeline
         .filter((item) => item && (item.year || item.event))
         .map((item) => (
           <div class='timeline-row'>

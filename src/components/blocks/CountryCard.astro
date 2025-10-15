@@ -1,25 +1,20 @@
 ---
 import type { Country } from '../../types/country';
 
-export interface CountryCardProps extends Partial<Country> {
+export interface CountryCardProperties extends Partial<Country> {
   slug: string;
   name: string;
 }
 const { slug, name, flag, description, category } =
-  Astro.props as CountryCardProps;
-
-const safeSlug = slug || 'unknown';
-const safeName = name || 'Unknown Country';
-const safeDescription = description || '';
-const safeCategory = category || '';
+  Astro.props as CountryCardProperties;
 ---
 
 <a
-  href={`/${safeSlug}`}
+  href={`/${slug ?? 'unknown'}`}
   class='country-card'
-  data-category={safeCategory}
+  data-category={category ?? ''}
   role='listitem'
-  aria-label={`Learn about ${safeName}. ${safeDescription ? safeDescription : ''}`}
+  aria-label={`Learn about ${name ?? 'Unknown Country'}. ${description ?? ''}`}
 >
   {
     flag ? (
@@ -33,12 +28,8 @@ const safeCategory = category || '';
     )
   }
   <div class='country-info'>
-    <span class='country-name'>{safeName}</span>
-    {
-      safeDescription && (
-        <span class='country-description'>{safeDescription}</span>
-      )
-    }
+    <span class='country-name'>{name ?? 'Unknown Country'}</span>
+    {description && <span class='country-description'>{description}</span>}
   </div>
 </a>
 

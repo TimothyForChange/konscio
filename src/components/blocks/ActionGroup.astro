@@ -1,15 +1,15 @@
 ---
-export interface Props {
+export interface Properties {
   icon?: string;
   title: string;
 }
 
-const { icon, title } = Astro.props as Props;
+const { icon, title } = Astro.props as Properties;
 ---
 
 <div class='action-group'>
   <h3>
-    {icon ? <i class={icon} aria-hidden='true' /> : null}
+    {icon ? <i class={icon} aria-hidden='true' /> : undefined}
     {title}
   </h3>
   <slot />

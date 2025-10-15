@@ -1,21 +1,21 @@
 ---
 import { isObject, isString } from 'radash';
-import { formatText } from '../../utils/utils';
+import { formatText } from '../../utils';
 
-export interface Props {
+export interface Properties {
   colonialRoot?: {
     colonialPower?: string;
     legacy?: string;
   };
 }
 
-const { colonialRoot } = Astro.props as Props;
+const { colonialRoot } = Astro.props as Properties;
 
 const safeColonialRoot = isObject(colonialRoot) ? colonialRoot : {};
 
 const hasData = safeColonialRoot.colonialPower || safeColonialRoot.legacy;
 if (!hasData) {
-  return null;
+  return;
 }
 
 const safeColonialPower = isString(safeColonialRoot.colonialPower)

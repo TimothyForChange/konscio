@@ -1,11 +1,11 @@
 ---
-import { formatText } from '../../utils/utils';
+import { formatText } from '../../utils';
 
-export interface TimelineItemProps {
+export interface TimelineItemProperties {
   year?: string;
   event?: string;
 }
-const { year, event } = Astro.props as TimelineItemProps;
+const { year, event } = Astro.props as TimelineItemProperties;
 ---
 
 <div class='timeline-item'>

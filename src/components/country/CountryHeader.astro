@@ -1,10 +1,10 @@
 ---
-import { getCountryMetadata } from '../../utils/utils';
+import { getCountryMetadata } from '../../utils';
 import BackIcon from '../shared/BackIcon.astro';
 import CountryAvatar from '../ui/CountryAvatar.astro';
 import DonateButton from '../ui/DonateButton.astro';
 
-export interface Props {
+export interface Properties {
   countryName: string;
   countrySlug?: string;
 }
@@ -26,7 +26,7 @@ const flagInfo = await getCountryMetadata(countrySlug ?? '');
           ariaLabel={flagInfo.ariaLabel}
           countryName={countryName}
         />
-      ) : null
+      ) : undefined
     }
     {countryName}
   </h1>

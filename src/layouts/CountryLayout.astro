@@ -9,20 +9,20 @@ import HumanitarianImpact from '../components/country/HumanitarianImpact.astro';
 import ImperialLegacy from '../components/country/ImperialLegacy.astro';
 import Timeline from '../components/country/Timeline.astro';
 import BackButton from '../components/shared/BackButton.astro';
-import type { CountryData } from '../types/country';
+import type { CountryData } from '../types';
 import Layout from './Layout.astro';
 import 'remixicon/fonts/remixicon.css';
 
-export interface Props {
+export interface Properties {
   countryData?: CountryData;
   title?: string;
   countrySlug: string;
 }
 
-const { countryData, countrySlug } = Astro.props as Props;
+const { countryData, countrySlug } = Astro.props as Properties;
 const safeCountrySlug =
   typeof countrySlug === 'string' ? countrySlug : 'unknown';
-const passedTitle = (Astro.props as Props).title;
+const passedTitle = (Astro.props as Properties).title;
 const safeName =
   countryData?.name && typeof countryData.name === 'string'
     ? countryData.name

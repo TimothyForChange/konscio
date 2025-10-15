@@ -1,18 +1,19 @@
 ---
-export interface CountryAvatarProps {
+export interface CountryAvatarProperties {
   emoji?: string;
   ariaLabel?: string;
   countryName: string;
 }
-const { emoji, ariaLabel, countryName } = Astro.props as CountryAvatarProps;
+const { emoji, ariaLabel, countryName } =
+  Astro.props as CountryAvatarProperties;
 ---
 
 <span
   class='country-avatar'
   role='img'
-  aria-label={ariaLabel ? `${countryName} ${ariaLabel}` : countryName}
+  aria-label={(ariaLabel && `${countryName} ${ariaLabel}`) || countryName}
 >
-  {emoji ? emoji : ''}
+  {emoji ?? ''}
 </span>
 
 <style>

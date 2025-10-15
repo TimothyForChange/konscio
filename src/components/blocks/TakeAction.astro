@@ -4,7 +4,7 @@ import ActionCard from './ActionCard.astro';
 import ActionGroup from './ActionGroup.astro';
 import DonateOrgCard from './DonateOrgCard.astro';
 
-export interface Props {
+export interface Properties {
   takeAction?: {
     donate?: Array<{
       organisation?: string;
@@ -16,11 +16,11 @@ export interface Props {
   id?: string;
 }
 
-const { takeAction, id } = Astro.props as Props;
+const { takeAction, id } = Astro.props as Properties;
 
 const safeTakeAction = isObject(takeAction) ? takeAction : {};
 if (keys(safeTakeAction).length === 0) {
-  return null;
+  return;
 }
 
 const donateData = isArray(safeTakeAction.donate) ? safeTakeAction.donate : [];

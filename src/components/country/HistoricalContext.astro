@@ -1,31 +1,31 @@
 ---
 import { isEmpty, isObject, isString, keys } from 'radash';
-import { formatTermKey, formatText } from '../../utils/utils';
+import { formatTermKey, formatText } from '../../utils';
 
-export interface Props {
+export interface Properties {
   coreTerms?: Record<string, string>;
   countrySlug: string;
 }
 
-const { coreTerms, countrySlug } = Astro.props as Props;
+const { coreTerms, countrySlug } = Astro.props as Properties;
 
 const safeCountrySlug = isString(countrySlug) ? countrySlug : '';
 if (!safeCountrySlug) {
-  return null;
+  return;
 }
 
 const safeCoreTerms = isObject(coreTerms) ? coreTerms : {};
 
 const hasTerms = !isEmpty(keys(safeCoreTerms));
 if (!hasTerms) {
-  return null;
+  return;
 }
 
 const hasContent = Object.values(safeCoreTerms).some(
   (value) => isString(value) && value.trim() !== ''
 );
 if (!hasContent) {
-  return null;
+  return;
 }
 ---
 

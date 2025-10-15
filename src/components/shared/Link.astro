@@ -2,7 +2,7 @@
 import 'remixicon/fonts/remixicon.css';
 import { isString } from 'radash';
 
-export interface Props {
+export interface Properties {
   icon?: string;
   title?: string;
   description?: string;
@@ -10,13 +10,13 @@ export interface Props {
   colorIndex?: number;
 }
 
-const { icon, title, description, url } = Astro.props as Props;
+const { icon, title, description, url } = Astro.props as Properties;
 
 const safeTitle = isString(title) ? title : '';
 const safeUrl = isString(url) ? url : '';
 
 if (!safeTitle || !safeUrl) {
-  return null;
+  return;
 }
 
 const sanitizedUrl = safeUrl.startsWith('http')

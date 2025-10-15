@@ -1,15 +1,18 @@
 ---
-export interface ActionCardProps {
+export interface ActionCardProperties {
   content: string;
   html?: boolean;
 }
-const { content, html = false } = Astro.props as ActionCardProps;
-const safeContent = content || '';
+const { content, html = false } = Astro.props as ActionCardProperties;
 ---
 
-<div class='action-card' set:html={html ? safeContent : undefined}>
-  {html ? null : safeContent}
-</div>
+{
+  html ? (
+    <div class='action-card' set:html={content ?? ''} />
+  ) : (
+    <div class='action-card'>{content ?? ''}</div>
+  )
+}
 
 <style>
   .action-card {

@@ -1,17 +1,17 @@
 ---
-import type { HumanitarianImpact } from '../../types/Country';
-import { formatText } from '../../utils/utils';
+import type { HumanitarianImpact } from '../../types';
+import { formatText } from '../../utils';
 import ImpactGrid from '../blocks/ImpactGrid.astro';
 
-export interface Props {
+export interface Properties {
   humanitarianImpact?: HumanitarianImpact;
   lastUpdated?: string;
 }
 
-const { humanitarianImpact, lastUpdated } = Astro.props as Props;
+const { humanitarianImpact, lastUpdated } = Astro.props as Properties;
 
 if (!humanitarianImpact || typeof humanitarianImpact !== 'object') {
-  return null;
+  return;
 }
 
 const hasData = Object.values(humanitarianImpact).some(
@@ -19,7 +19,7 @@ const hasData = Object.values(humanitarianImpact).some(
 );
 
 if (!hasData) {
-  return null;
+  return;
 }
 
 const stats = [];
