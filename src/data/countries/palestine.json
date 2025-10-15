@@ -63,6 +63,11 @@
   "takeAction": {
     "donate": [
       {
+        "organisation": "B'Tselem",
+        "description": "An Israeli human rights organisation that documents and exposes the apartheid regime and human rights violations in the Occupied Palestinian Territories.",
+        "url": "https://www.btselem.org"
+      },
+      {
         "organisation": "Palestine Children's Relief Fund (PCRF)",
         "description": "A non-political, non-profit organisation that provides free medical care to injured and ill children who lack access to care within the local health system.",
         "url": "https://www.pcrf.net"
@@ -76,6 +81,11 @@
         "organisation": "UNRWA",
         "description": "The primary UN agency providing essential services, including education, healthcare, and emergency aid, to millions of registered Palestinian refugees.",
         "url": "https://www.unrwa.org"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
+        "description": "WFP is on the ground in Gaza, delivering emergency food, hot meals, and nutritional support to hundreds of thousands of people. Their work is critical in fighting the catastrophic hunger crisis and preventing famine.",
+        "url": "https://www.wfp.org/emergencies/palestine-emergency"
       }
     ],
     "advocacy": [
