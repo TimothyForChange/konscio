@@ -3,14 +3,14 @@
   "emoji": "🇨🇫",
   "ariaLabel": "Central African Republic flag",
   "lastUpdated": "2025-10-15",
-  "currentCrisisSummary": "A protracted civil war has rendered the state largely non-existent outside the capital, Bangui. The conflict is characterised by extreme violence between a weak, foreign-backed government and a fragmented array of armed groups. Foreign powers, notably former colonial ruler France and Russia, intervene to secure geopolitical influence and control over the nation's vast mineral wealth (diamonds, gold, uranium). This neo-imperial competition for resources perpetuates the conflict, creating a permanent war economy that fuels a catastrophic humanitarian crisis, consistently ranked among the world's most neglected [NRC, 2024].",
+  "currentCrisisSummary": "A protracted civil war has weakened state authority outside the capital, Bangui. The conflict is characterised by violence between a weak government, which receives foreign support, and a fragmented array of armed groups. Foreign powers, including the former colonial ruler France and Russia, have intervened to protect their geopolitical interests and access the nation's vast mineral wealth (diamonds, gold, uranium). This competition for resources has been a major factor perpetuating the conflict and has contributed to a severe humanitarian crisis, consistently ranked among the world's most neglected [NRC, 2024].",
   "colonialRoot": {
     "colonialPower": "France (Ubangi-Shari, 1894-1960)",
-    "legacy": "The Central African Republic's borders are a colonial creation, forged by France from diverse societies with little shared history. The colonial economy was based on the large-scale extraction of resources like ivory and rubber, primarily through a concessionary company system that relied on forced labour and extreme violence. France dismantled existing political structures, replacing them with a state apparatus designed solely for resource extraction, not public welfare. After independence, this model was perpetuated through the 'Françafrique' network, which supported client dictators like Emperor Bokassa to ensure French corporate access to raw materials. This legacy of a state built for extraction, not governance, remains a root cause of its chronic instability."
+    "legacy": "The Central African Republic's borders were established during the colonial era, forged by France from diverse societies with little shared history. The colonial economy was based on the large-scale extraction of resources like ivory and rubber, primarily through a concessionary company system that relied on forced labour and resulted in significant violence. France altered existing political structures, replacing them with a state apparatus designed for resource extraction, not public welfare. After independence, this model continued, with close ties between French and Central African elites ensuring continued access to raw materials for French corporations. This legacy of a state focused on extraction rather than broad-based governance is considered a root cause of its chronic instability."
   },
   "coreTerms": {
-    "laCentrafriqueProfonde": "The post-colonial state in CAR inherited the logic of its French predecessor: a structure focused on extracting wealth for a small elite and their foreign partners, rather than providing security or services. This lack of genuine state function means that outside the capital, state authority often collapses entirely. The resulting power vacuum is filled by predatory economic actors—armed groups, local warlords, and foreign mercenaries like Russia's Africa Corps—who compete violently for control over territory and resources.",
-    "mercenaryStateAndProxyPlunder": "Foreign interventions, publicly framed as stabilising missions, are in reality a continuation of resource-driven exploitation. The private motive of profit and geopolitical control is masked by the public justification of humanitarianism. France's operations, such as Sangaris, have been criticised for prioritising French strategic interests. More recently, Russia's Africa Corps (formerly Wagner Group) has provided security for the government in exchange for lucrative mineral concessions, with its forces accused of mass atrocities while securing mining sites [UN Panel of Experts, 2023; Human Rights Watch, 2022]."
+    "laCentrafriqueProfonde": "The post-colonial state in CAR largely continued the structure of its French predecessor, which was focused on extracting wealth for a small elite and their foreign partners, rather than providing security or services. This lack of state function means that outside the capital, state authority often collapses. The resulting power vacuum is filled by various actors, including armed groups, local warlords, and foreign security contractors like Russia's Africa Corps, who compete for control over territory and resources.",
+    "foreignInterventionAndResourceExtraction": "Foreign interventions, often publicly framed as stabilising missions, are seen by critics as a continuation of resource-driven exploitation. Critics argue that motives of profit and geopolitical control are sometimes masked by public justifications of humanitarianism. France's operations, such as Sangaris, have been criticised for prioritising French strategic interests. More recently, Russia's Africa Corps (formerly Wagner Group) has provided security for the government in exchange for mineral concessions, and its forces have been accused of significant human rights abuses while securing mining sites [UN Panel of Experts, 2023; Human Rights Watch, 2022]."
   },
   "humanitarianImpact": {
     "displaced": "Over 500,000 people are internally displaced (IDPs), living in constant fear and with little to no access to aid [UN OCHA, 2025].",
@@ -29,19 +29,19 @@
     },
     {
       "year": "1928-1931",
-      "event": "**Kongo-Wara Rebellion**: A massive uprising against the exploitative French concessionary companies is violently crushed, resulting in tens of thousands of deaths."
+      "event": "**Kongo-Wara Rebellion**: A massive uprising against the French concessionary companies is violently crushed, resulting in tens of thousands of deaths."
     },
     {
       "year": "1960",
-      "event": "**Nominal Independence**: France grants independence, installing a client regime under David Dacko to ensure French corporate and political interests remain secure under the 'Françafrique' system."
+      "event": "**Independence**: France grants independence, and a government is installed under David Dacko that maintained close ties with France, ensuring French corporate and political interests remained secure."
     },
     {
       "year": "1966-1979",
-      "event": "**Bokassa's Reign of Terror**: Jean-Bédel Bokassa, a French-backed dictator, seizes power. He later declares himself Emperor in a lavish, French-funded ceremony while his people starve, guaranteeing the uninterrupted flow of uranium and diamonds to France."
+      "event": "**Bokassa's Rule**: Jean-Bédel Bokassa, a dictator who received French support, seizes power. He later declares himself Emperor in a lavish, French-funded ceremony, ensuring the continued flow of uranium and diamonds to France."
     },
     {
       "year": "1990s",
-      "event": "**Structural Adjustment**: The IMF and World Bank impose harsh structural adjustment programmes, forcing privatisation and deep cuts to public services. This policy further hollows out the state, exacerbating poverty and instability."
+      "event": "**Structural Adjustment**: The IMF and World Bank introduce structural adjustment programmes, forcing privatisation and cuts to public services. This policy weakened the state's capacity, exacerbating poverty and instability."
     },
     {
       "year": "2013",
@@ -49,15 +49,15 @@
     },
     {
       "year": "2013-2016",
-      "event": "**Opération Sangaris**: France intervenes militarily, ostensibly to stop bloodshed but ultimately to manage the crisis in its favour and secure its long-term strategic interests."
+      "event": "**Opération Sangaris**: France intervenes militarily, with the stated goal of stopping bloodshed, though critics argue it also served to protect French strategic interests."
     },
     {
       "year": "2018-Present",
-      "event": "**Russian Intervention**: The government invites Russia's Africa Corps (formerly Wagner Group) to provide security in exchange for mineral concessions, with its operatives committing atrocities to seize control of key mining areas [Human Rights Watch, 2022]."
+      "event": "**Russian Intervention**: The government invites Russia's Africa Corps (formerly Wagner Group) to provide security in exchange for mineral concessions. Its operatives have been accused of committing atrocities while seizing control of key mining areas [Human Rights Watch, 2022]."
     },
     {
       "year": "2023",
-      "event": "**Constitutional Referendum**: President Touadéra pushes through a controversial new constitution, removing presidential term limits and solidifying his power with the backing of Russian mercenaries."
+      "event": "**Constitutional Referendum**: President Touadéra pushes through a controversial new constitution, removing presidential term limits and solidifying his power with the backing of Russian security contractors."
     }
   ],
   "takeAction": {
@@ -74,11 +74,11 @@
       }
     ],
     "advocacy": [
-      "Demand sanctions against corporations and mercenary groups complicit in the plunder of CAR's natural resources.",
-      "Demand a universally enforced arms embargo to stop the flow of weapons fuelling the conflict.",
-      "Support international investigations to hold all parties accountable for war crimes and crimes against humanity.",
-      "Demand binding laws that hold corporations legally liable for using conflict minerals, replacing toothless schemes like the Kimberley Process.",
-      "Advocate for the cancellation of odious debts accrued by colonial-era and post-colonial dictatorships."
+      "Advocate for sanctions against corporations and armed groups involved in the illicit extraction of CAR's natural resources.",
+      "Support a universally enforced arms embargo to stop the flow of weapons fuelling the conflict.",
+      "Support international investigations into war crimes and crimes against humanity.",
+      "Advocate for stronger regulations and enforcement mechanisms to hold corporations accountable for their role in the conflict mineral trade, and for reforms to initiatives like the Kimberley Process.",
+      "Support the cancellation of debts accrued under past authoritarian regimes."
     ]
   }
 }

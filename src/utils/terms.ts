@@ -1,10 +1,16 @@
-import termMappingsData from '../data/termMappings.json';
-import type { TermMappings } from '../types';
-
-export function formatTermKey(termKey: string, countrySlug: string): string {
-  const countryTerms = (termMappingsData as TermMappings)[countrySlug];
-  if (countryTerms && countryTerms[termKey]) {
-    return countryTerms[termKey];
+export function formatTermKey(termKey: string): string {
+  if (termKey === 'laCentrafriqueProfonde') {
+    return 'La Centrafrique Profonde (Deep Central Africa)';
   }
-  return termKey.charAt(0).toUpperCase() + termKey.slice(1);
+
+  const spaced = termKey.replaceAll(/([A-Z])/g, ' $1');
+
+  let formatted = spaced.charAt(0).toUpperCase() + spaced.slice(1);
+
+  formatted = formatted.replaceAll(' And ', ' & ');
+  formatted = formatted.replaceAll(' Vs ', ' vs. ');
+  formatted = formatted.replaceAll(' Of ', ' of ');
+  formatted = formatted.replaceAll(' As ', ' as ');
+
+  return formatted;
 }

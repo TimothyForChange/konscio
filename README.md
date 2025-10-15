@@ -4,7 +4,7 @@ Humanitarian advocacy site built with Astro.
 
 ## Overview
 
-A platform for critical humanitarian analysis, deconstructing the imperialist and capitalist roots of crises across the Global South.
+A platform for critical humanitarian analysis, exploring the historical and economic roots of crises across the Global South.
 
 ## Stack
 

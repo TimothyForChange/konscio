@@ -3,14 +3,14 @@
   "emoji": "🇺🇦",
   "ariaLabel": "Ukrainian flag",
   "lastUpdated": "2025-10-15",
-  "currentCrisisSummary": "An unprovoked war of aggression by Russia's oligarchic, fossil-fuel-driven regime since 2014, escalating with the 2022 full-scale invasion, has caused mass casualties, displacement, and the systematic destruction of civilian infrastructure and cultural heritage.",
+  "currentCrisisSummary": "A war of aggression by Russia since 2014, escalating with the 2022 full-scale invasion, has caused mass casualties, displacement, and the destruction of civilian infrastructure and cultural heritage.",
   "imperialRoot": {
     "imperialPower": "Russian Empire & Soviet Union (1654-1991)",
-    "legacy": "Centuries of Russian imperial domination have been marked by systematic attempts to erase Ukrainian sovereignty and identity, from Tsarist Russification to the Soviet-engineered Holodomor genocide. This history of treating Ukraine as a colonial possession provides the ideological basis for the current war, which many scholars argue has genocidal characteristics. The Soviet Union also left behind a centralised state economy that, upon its collapse, was rapidly captured by a new oligarchic class."
+    "legacy": "Centuries of Russian rule have been marked by attempts to suppress Ukrainian sovereignty and identity, from Tsarist Russification to the Holodomor, a Soviet-era famine that many states recognise as a genocide. This history of treating Ukraine as a subordinate territory provides the ideological basis for the current war, which many scholars argue has genocidal characteristics. The Soviet Union also left behind a centralised state economy that, upon its collapse, was captured by a new oligarchic class."
   },
   "coreTerms": {
-    "fossilFuelGeopolitics": "Russia's invasion is an imperial war driven by its specific model of kleptocratic state capitalism. A ruling class of oligarchs and security officials, whose wealth derives from the control of fossil fuels, seeks to seize Ukraine's industrial assets, agricultural land, and offshore energy reserves. The war is an attempt to violently expand this extractive economic model and eliminate a sovereign, democratic alternative on its border.",
-    "deimperialisationAndTheOligarchs": "The Ukrainian resistance is a dual struggle: a war for national deimperialisation against Russian imperialism, and an internal fight to build a just society free from its own legacy of post-Soviet oligarchic capitalism. Western support, while crucial, has been tied to socially painful neoliberal reforms—such as austerity and privatisation—demanded by institutions like the IMF. The challenge is to win the war while building a sovereign economy that serves the Ukrainian people, not just foreign capital or domestic oligarchs."
+    "fossilFuelGeopolitics": "Russia's invasion is a war driven by its specific model of state capitalism. A ruling class of oligarchs and security officials, whose wealth derives from the control of fossil fuels, seeks to control Ukraine's industrial assets, agricultural land, and offshore energy reserves. The war is an attempt to expand this extractive economic model and eliminate a sovereign, democratic alternative on its border.",
+    "nationalSovereigntyAndTheOligarchs": "The Ukrainian resistance is a dual struggle: a war for national sovereignty against Russia, and an internal fight to build a society free from its own legacy of post-Soviet oligarchic capitalism. Western support, while crucial, has been tied to economic reforms—such as austerity and privatisation—demanded by institutions like the IMF. The challenge is to win the war while building a sovereign economy that serves the Ukrainian people, not just foreign capital or domestic oligarchs."
   },
   "humanitarianImpact": {
     "displaced": "An estimated 3.7 million people remain internally displaced within Ukraine [IOM, October 2024].",
@@ -24,11 +24,11 @@
   "timeline": [
     {
       "year": "1932-1933",
-      "event": "**The Holodomor**: A Soviet-engineered famine kills millions of Ukrainians in an act of genocide, recognised by the European Parliament and numerous states."
+      "event": "**The Holodomor**: A Soviet-era famine kills millions of Ukrainians in an event recognised as a genocide by the European Parliament and numerous states."
     },
     {
       "year": "1991",
-      "event": "**Independence Restored**: Ukraine overwhelmingly votes for independence, formally leaving the collapsing Soviet empire. The subsequent chaotic privatisation of state assets leads to the rise of a powerful oligarchic class."
+      "event": "**Independence Restored**: Ukraine overwhelmingly votes for independence, formally leaving the collapsing Soviet empire. The subsequent privatisation of state assets leads to the rise of a powerful oligarchic class."
     },
     {
       "year": "2004",
@@ -36,11 +36,11 @@
     },
     {
       "year": "2014",
-      "event": "**Revolution of Dignity & Start of War**: Pro-European protests against corruption and the domestic oligarchic system oust a pro-Russian president, prompting Russia to illegally annex Crimea and invade the Donbas region."
+      "event": "**Revolution of Dignity & Start of War**: Pro-European protests against corruption and the government oust a pro-Russian president, prompting Russia to illegally annex Crimea and invade the Donbas region."
     },
     {
       "year": "2022",
-      "event": "**Full-Scale Invasion**: Russia launches an unprovoked, comprehensive military assault across Ukraine to achieve its imperial ambitions."
+      "event": "**Full-Scale Invasion**: Russia launches a full-scale military assault across Ukraine."
     }
   ],
   "takeAction": {
@@ -62,10 +62,10 @@
       }
     ],
     "advocacy": [
-      "Demand sustained military, economic, and humanitarian aid to help Ukraine defend its sovereignty.",
-      "Demand stronger and fully enforced sanctions against the Russian state and all entities enabling its war economy.",
-      "Support the boycott of companies still operating in Russia and funding its war machine.",
-      "Demand a just, Ukrainian-led reconstruction that prioritises people over corporate profits, rejecting the logic of disaster capitalism."
+      "Advocate for sustained military, economic, and humanitarian aid to help Ukraine defend its sovereignty.",
+      "Advocate for stronger and fully enforced sanctions against the Russian state and all entities enabling its war economy.",
+      "Support the boycott of companies still operating in Russia and contributing to its war economy.",
+      "Advocate for a just, Ukrainian-led reconstruction that prioritises people over corporate profits and avoids the pitfalls of 'disaster capitalism'."
     ]
   }
 }

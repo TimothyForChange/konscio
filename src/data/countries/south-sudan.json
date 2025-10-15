@@ -3,14 +3,14 @@
   "emoji": "🇸🇸",
   "ariaLabel": "South Sudanese flag",
   "lastUpdated": "2025-10-15",
-  "currentCrisisSummary": "South Sudan is gripped by a humanitarian emergency, fuelled by an elite conflict over the profits of a violent oil-extraction industry, catastrophic climate-driven flooding, and spillover from Sudan's war. These converging crises, driven by a system of kleptocracy, have left most of the population dependent on aid and facing one of the world's most severe hunger crises.",
+  "currentCrisisSummary": "South Sudan is facing a humanitarian emergency, fuelled by an elite conflict over oil revenues, severe climate-driven flooding, and spillover from Sudan's war. These converging crises, driven by a system of widespread corruption, have left most of the population dependent on aid and facing one of the world's most severe hunger crises.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "Britain's 'Southern Policy' was a divide-and-rule strategy that sealed the south off from the 'Arab' north, deliberately blocking its economic and political development. This engineered disparity created a foundation of extreme inequality that made decades of civil war almost inevitable. This weakness also ensured that any future independent state would be highly vulnerable to foreign influence and resource exploitation."
+    "legacy": "Britain's 'Southern Policy' was a divide-and-rule strategy that administered the south separately from the north, hindering its economic and political development. This created a foundation of inequality that contributed to decades of civil war. This weakness also ensured that a future independent state would be vulnerable to foreign influence and resource exploitation."
   },
   "coreTerms": {
-    "kleptocracyAndTheGlobalFinancialSystem": "The civil war is a violent struggle between political elites for control of the state, which functions primarily as a mechanism for diverting oil revenues. This system of kleptocracy is not just a local problem; it is enabled by the global financial system. The deliberate opacity of international banking, shell companies, and luxury property markets allows the ruling class to launder and hide billions in stolen wealth, often using the conflict itself as a cover [The Sentry, 2019].",
-    "oilConflictAndClimateChallenges": "South Sudan's crisis is driven by two forms of extraction. Firstly, its oil industry, operated by foreign corporations (primarily Chinese, Malaysian, and Indian) in partnership with the ruling elite, is designed to privatise profits while socialising the costs of environmental devastation and conflict onto the civilian population. Secondly, the country suffers from extreme climate injustice. Unprecedented flooding, caused by the emissions of the industrialised Global North, has destroyed livelihoods and acts as a conflict multiplier."
+    "corruptionAndTheGlobalFinancialSystem": "The civil war is a struggle between political elites for control of the state, which functions primarily as a mechanism for diverting oil revenues. This system of corruption is not just a local problem; it is enabled by the global financial system. The opacity of international banking, shell companies, and luxury property markets allows the ruling class to launder and hide billions in stolen wealth, often using the conflict as a cover [The Sentry, 2019].",
+    "oilConflictAndClimateChallenges": "South Sudan's crisis is driven by two main factors. Firstly, its oil industry, operated by foreign corporations (primarily Chinese, Malaysian, and Indian) in partnership with the ruling elite, has been criticized for privatising profits while the costs of environmental damage and conflict are borne by the civilian population. Secondly, the country suffers from the severe impacts of climate change. Unprecedented flooding, linked to the emissions of the industrialised Global North, has destroyed livelihoods and acts as a conflict multiplier."
   },
   "humanitarianImpact": {
     "displaced": "Over 4 million people are displaced within South Sudan and as refugees, including over 2 million internally displaced by conflict and flooding [UN OCHA, 2025].",
@@ -23,7 +23,7 @@
   "timeline": [
     {
       "year": "1899-1956",
-      "event": "**Anglo-Egyptian Condominium**: Britain establishes effective colonial control. It implements its 'Southern Policy', a divide-and-rule strategy that administers the south separately from the 'Arabised' north, deliberately blocking its development and creating the inequalities that would fuel decades of civil war."
+      "event": "**Anglo-Egyptian Condominium**: Britain establishes effective colonial control. It implements its 'Southern Policy', a divide-and-rule strategy that administers the south separately from the 'Arabised' north, hindering its development and creating the inequalities that would fuel decades of civil war."
     },
     {
       "year": "1955-1972",
@@ -35,7 +35,7 @@
     },
     {
       "year": "2005",
-      "event": "**Comprehensive Peace Agreement (CPA)**: The agreement ends the civil war, but its wealth-sharing arrangements, based almost entirely on oil revenues, entrench the 'resource curse' from day one."
+      "event": "**Comprehensive Peace Agreement (CPA)**: The agreement ends the civil war, but its wealth-sharing arrangements, based almost entirely on oil revenues, entrenched the 'resource curse' from the beginning."
     },
     {
       "year": "2011",
@@ -43,7 +43,7 @@
     },
     {
       "year": "2013",
-      "event": "**Civil War Erupts**: A power struggle plunges the nation into a devastating civil war over control of the state and its oil resources, with elites manipulating ethnic identity to mobilise fighters [UNHRC, 2017]."
+      "event": "**Civil War Erupts**: A power struggle plunges the nation into a civil war over control of the state and its oil resources, with elites using ethnic identity to mobilise fighters [UNHRC, 2017]."
     },
     {
       "year": "2018",
@@ -69,10 +69,10 @@
       }
     ],
     "advocacy": [
-      "Demand targeted sanctions on the kleptocratic elite and the international corporations, banks, and arms dealers who enable their war.",
-      "Demand the immediate establishment and funding of the Hybrid Court for South Sudan to ensure justice for war crimes.",
-      "Demand wealthy nations pay their climate debt to support South Sudanese communities devastated by climate collapse.",
-      "Demand increased humanitarian funding and that aid is delivered in direct partnership with local South Sudanese organisations."
+      "Advocate for targeted sanctions on the corrupt elite and the international corporations, banks, and arms dealers who enable the conflict.",
+      "Advocate for the immediate establishment and funding of the Hybrid Court for South Sudan to ensure justice for war crimes.",
+      "Advocate for wealthy nations to provide climate financing to support South Sudanese communities affected by climate change.",
+      "Advocate for increased humanitarian funding and for aid to be delivered in direct partnership with local South Sudanese organisations."
     ]
   }
 }

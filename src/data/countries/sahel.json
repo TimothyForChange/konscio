@@ -3,14 +3,14 @@
   "emoji": "🇧🇫🇲🇱🇳🇪",
   "ariaLabel": "Flags of Burkina Faso, Mali, and Niger",
   "lastUpdated": "2025-10-15",
-  "currentCrisisSummary": "The Central Sahel is the epicentre of one of the world's most neglected crises [NRC, 2024], defined by a convergence of state collapse, jihadist insurgencies, and extreme climate shocks. A recent wave of military coups in Burkina Faso, Mali, and Niger has been framed as a popular, anti-colonial rejection of a failed French-led security strategy. This has created a new geopolitical frontline in a 21st-century 'scramble for Africa', with external powers competing for influence amid extreme violence and mass displacement.",
+  "currentCrisisSummary": "The Central Sahel is the epicentre of a severe and neglected crisis [NRC, 2024], defined by a convergence of weak governance, jihadist insurgencies, and severe climate shocks. A recent wave of military coups in Burkina Faso, Mali, and Niger has been framed as a popular rejection of a French-led security strategy that was seen as ineffective. This has created a new geopolitical frontline, with external powers competing for influence amid extreme violence and mass displacement.",
   "colonialRoot": {
     "colonialPower": "France (French West Africa, c. 1890s-1960)",
-    "legacy": "The crisis is a direct legacy of French colonial policies that dismantled pre-existing political and economic systems and carved out artificial states. Upon independence around 1960, France maintained its dominance through the 'Françafrique' system. This network of monetary control via the CFA franc and military pacts perpetuated a model of raw material extraction, leaving behind fragile state structures and creating the conditions for the current instability."
+    "legacy": "The crisis is a direct legacy of French colonial policies that altered pre-existing political and economic systems and created new states. Upon independence around 1960, France maintained its influence through a system sometimes called \'Françafrique\'. This network, which included monetary control via the CFA franc and military pacts, perpetuated a model of raw material extraction, leaving behind fragile state structures and contributing to the conditions for the current instability."
   },
   "coreTerms": {
-    "françafriqueAndFailedIntervention": "The crisis highlights the failure of 'Françafrique'—France's strategy for maintaining economic and military influence. Its pillars were the CFA franc, a currency that limited monetary sovereignty, and a military presence often used to protect French corporate interests, such as uranium mines in Niger. The recent French-led 'war on terror' not only failed to stop the spread of violence but also created a lucrative market for the French arms industry. The expulsion of French forces signals a historic break from a neo-colonial relationship that extracted wealth while providing neither security nor development.",
-    "climateCollapseAndInjustice": "The Sahel is on the front line of climate injustice. Despite contributing almost nothing to global emissions, the region is warming at 1.5 times the global average [UNDP, 2023], leading to catastrophic desertification. This climate collapse, driven by the industrialised Global North, has destroyed agricultural livelihoods and deepened conflicts over scarce resources. This represents a form of climate colonialism, where the environmental costs of Northern industrialisation are violently outsourced to the Sahel, creating an 'ecological debt' that is yet to be paid."
+    "postColonialRelationsAndForeignIntervention": "The crisis highlights the challenges of \'Françafrique\', France\'s strategy for maintaining economic and military influence. Its pillars were the CFA franc, a currency that critics argue limited monetary sovereignty, and a military presence often used to protect French corporate interests, such as uranium mines in Niger. The recent French-led \'war on terror\' did not stop the spread of violence and, according to critics, created a market for the French arms industry. The expulsion of French forces signals a significant break from a post-colonial relationship that, according to critics, extracted wealth while providing neither security nor development.",
+    "climateChangeAndRegionalInstability": "The Sahel is on the front line of the climate crisis. Despite contributing almost nothing to global emissions, the region is warming at 1.5 times the global average [UNDP, 2023], leading to severe desertification. This climate change, driven by the industrialised Global North, has damaged agricultural livelihoods and exacerbated conflicts over scarce resources. Critics describe this as a form of \'climate colonialism\', where the environmental costs of Northern industrialisation are disproportionately borne by the Sahel, creating what they term an \'ecological debt\'."
   },
   "humanitarianImpact": {
     "displaced": "Over 3.3 million people are internally displaced across the Central Sahel (Burkina Faso, Mali, and Niger) due to conflict [UNHCR, 2025].",
@@ -25,35 +25,35 @@
   "timeline": [
     {
       "year": "c. 1890s",
-      "event": "**French Conquest**: France brutally colonises the region, incorporating it into French West Africa and imposing artificial borders."
+      "event": "**French Conquest**: France colonises the region, incorporating it into French West Africa and imposing new borders."
     },
     {
       "year": "1960",
-      "event": "**Nominal Independence**: Burkina Faso, Mali, and Niger gain independence, but remain trapped in a French-controlled monetary system (the CFA franc) and an economy based on raw material exports to Europe."
+      "event": "**Nominal Independence**: Burkina Faso, Mali, and Niger gain independence, but remain in a French-controlled monetary system (the CFA franc) with an economy based on raw material exports to Europe."
     },
     {
       "year": "2011",
-      "event": "**NATO Intervention in Libya**: The NATO-backed overthrow of Muammar Gaddafi leads to state collapse in Libya, flooding the Sahel with weapons and battle-hardened fighters, which directly fuels the subsequent regional insurgency."
+      "event": "**NATO Intervention in Libya**: The NATO-backed overthrow of Muammar Gaddafi leads to state collapse in Libya, which results in weapons and fighters moving into the Sahel, fuelling the subsequent regional insurgency."
     },
     {
       "year": "2012",
-      "event": "**Conflict Erupts in Mali**: A Tuareg rebellion in northern Mali is co-opted by jihadist groups armed with Libyan weapons, triggering a regional crisis."
+      "event": "**Conflict Erupts in Mali**: A Tuareg rebellion in northern Mali is co-opted by jihadist groups, some armed with Libyan weapons, triggering a regional crisis."
     },
     {
       "year": "2013-2022",
-      "event": "**French Intervention**: France launches Operation Barkhane. The decade-long campaign was criticised for prioritising French economic interests (like uranium in Niger) and ultimately failed to contain the insurgency, which spread across the region."
+      "event": "**French Intervention**: France launches Operation Barkhane. The decade-long campaign was criticised for prioritising French economic interests (like uranium in Niger) and for failing to contain the insurgency, which spread across the region."
     },
     {
       "year": "2020-2023",
-      "event": "**Wave of Coups**: Popular-backed military juntas seize power in Mali, Burkina Faso, and Niger, expelling French forces and seeking to exit the neo-colonial monetary and security framework."
+      "event": "**Wave of Coups**: Military juntas, often with popular support, seize power in Mali, Burkina Faso, and Niger. They have expelled French forces and sought to exit the existing monetary and security framework."
     },
     {
       "year": "2023",
-      "event": "**Alliance of Sahel States (AES)**: The three junta-led nations form a mutual defence pact, cementing a political and security break from France and its allies."
+      "event": "**Alliance of Sahel States (AES)**: The three junta-led nations form a mutual defence pact, cementing a political and security break from France and its regional allies."
     },
     {
       "year": "2024-Present",
-      "event": "**Deepening Crisis**: The conflict intensifies, with jihadist groups encircling major towns and creating one of the world's worst humanitarian emergencies."
+      "event": "**Deepening Crisis**: The conflict intensifies, with jihadist groups encircling major towns and creating a severe humanitarian emergency."
     }
   ],
   "takeAction": {
@@ -75,10 +75,10 @@
       }
     ],
     "advocacy": [
-      "Demand an end to failed Western counter-terrorism strategies and support for Sahelian-led diplomatic and development solutions.",
-      "Demand climate reparations from industrialised nations to fund locally-led adaptation projects in the Sahel.",
-      "Demand the immediate lifting of inhumane sanctions that collectively punish civilians and obstruct humanitarian aid.",
-      "Support the decolonisation of economic relations by demanding Sahelian sovereignty over currency, resources, and trade."
+      "Advocate for a shift away from purely military counter-terrorism strategies towards Sahelian-led diplomatic and development solutions.",
+      "Advocate for climate financing from industrialised nations to fund locally-led adaptation projects in the Sahel.",
+      "Advocate for the immediate lifting of sanctions that harm civilians and obstruct humanitarian aid.",
+      "Support greater Sahelian sovereignty over currency, resources, and trade."
     ]
   }
 }

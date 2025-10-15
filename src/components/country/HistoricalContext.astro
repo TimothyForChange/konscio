@@ -4,15 +4,9 @@ import { formatTermKey, formatText } from '../../utils';
 
 export interface Properties {
   coreTerms?: Record<string, string>;
-  countrySlug: string;
 }
 
-const { coreTerms, countrySlug } = Astro.props as Properties;
-
-const safeCountrySlug = isString(countrySlug) ? countrySlug : '';
-if (!safeCountrySlug) {
-  return;
-}
+const { coreTerms } = Astro.props as Properties;
 
 const safeCoreTerms = isObject(coreTerms) ? coreTerms : {};
 
@@ -43,7 +37,7 @@ if (!hasContent) {
       )
       .map(([key, value]) => (
         <div class='term-group'>
-          <h3>{formatTermKey(key, safeCountrySlug)}</h3>
+          <h3>{formatTermKey(key)}</h3>
           <p set:html={formatText(value)} />
         </div>
       ))

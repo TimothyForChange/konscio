@@ -3,14 +3,14 @@
   "emoji": "🇸🇾",
   "ariaLabel": "Syrian flag",
   "lastUpdated": "2025-10-15",
-  "currentCrisisSummary": "A devastating civil war, sparked in 2011 by a popular uprising against both authoritarian rule and harsh neoliberal reforms, and culminating in the collapse of the Ba'athist regime in 2024, has fuelled a severe humanitarian crisis. The conflict is marked by mass displacement, the fragmentation of the state, and the deep entanglement of foreign powers.",
+  "currentCrisisSummary": "A civil war, sparked in 2011 by a popular uprising against authoritarian rule and economic hardship, and culminating in the collapse of the Ba'athist regime in 2024, has fuelled a severe humanitarian crisis. The conflict is marked by mass displacement, the fragmentation of the state, and the involvement of foreign powers.",
   "imperialRoot": {
     "imperialPower": "France (Mandate for Syria and the Lebanon, 1923-1946)",
-    "legacy": "Ignoring Syrian calls for self-determination, France and Britain imposed an imperial Mandate rooted in the Sykes-Picot Agreement (1916). France enforced a 'divide and rule' strategy, fracturing Syria into sectarian statelets to weaken national identity and maintain imperial control. This policy, combined with exploitative economic arrangements that prioritised French interests, left a legacy of political instability. This inherited framework of a repressive, centralised state was later adapted by successive regimes to enforce systems of authoritarian control and crony capitalism."
+    "legacy": "France and Britain imposed a Mandate rooted in the Sykes-Picot Agreement (1916), ignoring Syrian calls for self-determination. France enforced a 'divide and rule' strategy, dividing Syria into sectarian statelets to weaken national identity and maintain control. This policy, combined with economic arrangements that prioritised French interests, left a legacy of political instability. This inherited framework of a repressive, centralised state was later adapted by successive regimes to enforce authoritarian control and a system of crony capitalism."
   },
   "coreTerms": {
-    "neoliberalismAndCronyCapitalism": "The 2011 uprising was a revolt against not only political tyranny but also the harsh neoliberal policies implemented by Bashar al-Assad. His regime's 'reforms' involved dismantling public services and privatising state assets, which enriched a politically-connected elite while impoverishing rural populations. This process of state-led dispossession, exacerbated by a severe drought, created the conditions for the uprising [Hinnebusch, 2012].",
-    "proxyWarAndWarlordEconomy": "Foreign powers intervened to protect their economic and strategic interests: Russia to secure its naval base and energy contracts; Iran to maintain a trade and military corridor; and Gulf states to advance their regional ambitions. This transformed the civil war into a proxy battle and shattered the national economy, replacing it with a patchwork of warlord economies where armed groups profited from controlling resources, extortion, and black markets."
+    "economicPoliciesAndCronyCapitalism": "The 2011 uprising was a revolt against not only political repression but also the economic policies implemented by Bashar al-Assad. His regime's 'reforms' involved dismantling public services and privatising state assets, which enriched a politically-connected elite while rural populations became impoverished. This process, exacerbated by a severe drought, created the conditions for the uprising [Hinnebusch, 2012].",
+    "proxyWarAndWarlordEconomy": "Foreign powers intervened to protect their economic and strategic interests: Russia to secure its naval base and energy contracts; Iran to maintain a trade and military corridor; and Gulf states to advance their regional ambitions. This transformed the civil war into a proxy battle and damaged the national economy, replacing it with a patchwork of warlord economies where armed groups profited from controlling resources, extortion, and black markets."
   },
   "humanitarianImpact": {
     "displaced": "Over 7.2 million people are internally displaced (IDPs), one of the world's largest internal displacement crises [UN OCHA, 2025].",
@@ -23,11 +23,11 @@
   "timeline": [
     {
       "year": "1916",
-      "event": "**Sykes-Picot Agreement**: In a secret act of imperialist statecraft, Britain and France sign an agreement to carve up the Ottoman Empire's Arab provinces between them. This plan designates Syria for French control, betraying Arab allies who were promised independence."
+      "event": "**Sykes-Picot Agreement**: In a secret agreement, Britain and France sign an agreement to carve up the Ottoman Empire's Arab provinces between them. This plan designates Syria for French control, betraying Arab allies who were promised independence."
     },
     {
       "year": "1920",
-      "event": "**French Mandate & Overthrow of Kingdom**: French forces crush the short-lived independent Arab Kingdom of Syria at the Battle of Maysalun and impose imperial control, fracturing the country along sectarian lines."
+      "event": "**French Mandate & Overthrow of Kingdom**: French forces defeat the short-lived independent Arab Kingdom of Syria at the Battle of Maysalun and impose their control, dividing the country along sectarian lines."
     },
     {
       "year": "1970",
@@ -35,15 +35,15 @@
     },
     {
       "year": "1982",
-      "event": "**Hama Massacre**: The regime brutally crushes an uprising in the city of Hama, killing tens of thousands. This event sets a precedent for the extreme violence used against dissent in 2011."
+      "event": "**Hama Massacre**: The regime crushes an uprising in the city of Hama, killing tens of thousands. This event sets a precedent for the violence used against dissent in 2011."
     },
     {
       "year": "2000",
-      "event": "**Bashar al-Assad's Succession**: Assad inherits power and begins implementing harsh neoliberal 'reforms' that create massive inequality and enrich a new class of crony capitalists [Hinnebusch, 2012]."
+      "event": "**Bashar al-Assad's Succession**: Assad inherits power and begins implementing economic 'reforms' that create inequality and enrich a new class of crony capitalists [Hinnebusch, 2012]."
     },
     {
       "year": "2011",
-      "event": "**Uprising Begins**: Inspired by the Arab Spring, a popular uprising against both state tyranny and neoliberal poverty is met with extreme violence, escalating into civil war."
+      "event": "**Uprising Begins**: Inspired by the Arab Spring, a popular uprising against the government is met with violence, escalating into civil war."
     },
     {
       "year": "2014",
@@ -77,9 +77,9 @@
       }
     ],
     "advocacy": [
-      "Demand unconditional humanitarian access to all communities in Syria, free from political manipulation.",
-      "Demand accountability for war crimes through international prosecutions and targeted sanctions against all responsible parties.",
-      "Oppose any reconstruction plans that function as 'disaster capitalism' by rewarding war criminals or serving foreign interests.",
+      "Advocate for unconditional humanitarian access to all communities in Syria, free from political manipulation.",
+      "Advocate for accountability for war crimes through international prosecutions and targeted sanctions against all responsible parties.",
+      "Oppose reconstruction plans that could function as 'disaster capitalism' by rewarding those responsible for the conflict or serving foreign interests.",
       "Support the right of all Syrian refugees and displaced people to a safe, voluntary, and dignified return."
     ]
   }

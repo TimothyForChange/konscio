@@ -3,14 +3,14 @@
   "emoji": "🇪🇹",
   "ariaLabel": "Ethiopian flag",
   "lastUpdated": "2025-10-15",
-  "currentCrisisSummary": "While a fragile peace holds in Tigray, Ethiopia is engulfed by a devastating war in the Amhara region and ongoing conflict in Oromia. The war in Amhara, which erupted in 2023, pits the federal government against the Fano militia, its former allies. This new conflict, marked by brutal drone warfare and a state of emergency, has triggered a catastrophic humanitarian crisis. These wars represent a violent breakdown of the state, compounding the unresolved trauma of the 2020-2022 Tigray war and creating millions of newly displaced people.",
+  "currentCrisisSummary": "While a fragile peace holds in Tigray, Ethiopia is facing a devastating war in the Amhara region and ongoing conflict in Oromia. The war in Amhara, which erupted in 2023, pits the federal government against the Fano militia, its former allies. This new conflict, marked by the use of drone warfare and a state of emergency, has triggered a severe humanitarian crisis. These wars represent a serious challenge to the state, compounding the unresolved tensions of the 2020-2022 Tigray war and creating millions of newly displaced people.",
   "imperialRoot": {
     "imperialPower": "Ethiopian Empire (Abyssinian expansion, c. 12th-20th centuries)",
-    "legacy": "Ethiopia's crisis is rooted in its legacy as an empire-state. The historical Abyssinian core expanded through conquest, creating a system of internal colonial domination that subjugated numerous ethnic groups under a centralised highland elite [Donald N. Levine, 2000]. The TPLF-led government (1991-2018) attempted to address this through multinational federalism and a state-led development model. While this reduced poverty, it also concentrated wealth within a new political elite. Prime Minister Abiy Ahmed's centralising project—which aligns with the privatisation goals of international financial institutions like the IMF and World Bank—threatens to dismantle this federal system. These institutions favour centralisation as it simplifies the imposition of neoliberal reforms, such as the selling-off of state assets, with minimal regional opposition. This clash over the state's structure and economic soul was a key trigger for the recent wars."
+    "legacy": "Ethiopia's crisis is rooted in its history as an empire-state. The historical Abyssinian core expanded through conquest, creating a system where numerous ethnic groups were incorporated under a centralised highland administration [Donald N. Levine, 2000]. The TPLF-led government (1991-2018) attempted to address this through multinational federalism and a state-led development model. While this reduced poverty, it also led to wealth concentration within a new political elite. Prime Minister Abiy Ahmed's centralising project, which includes economic reforms favoured by international financial institutions like the IMF and World Bank, is seen by some as a threat to this federal system. These institutions often favour centralisation as it can simplify the implementation of economic reforms, such as the privatisation of state assets. This clash over the state's structure and economic direction was a key trigger for the recent wars."
   },
   "coreTerms": {
-    "federalismVsCentralism": "The conflicts are fundamentally a struggle over the structure of the Ethiopian state. They pit multinational federalism—which constitutionally grants self-determination to Ethiopia's diverse nations—against a unitarist ideology aiming to re-establish a centralised identity. This political struggle has a critical economic dimension: federalism allows regions greater control over their resources, whereas centralism consolidates economic power, simplifying the process for a national elite to implement privatisation and secure deals with foreign capital.",
-    "weaponisedGrievancesAndForeignIntervention": "The federal government's strategy involves shifting, opportunistic alliances. After allying with Amhara forces to crush the TPLF, its move to dissolve regional forces was seen as a betrayal, igniting the current war. In these conflicts, the widespread use of foreign drones (from the UAE, Turkey, and China) transforms internal political disputes into high-tech wars, causing immense civilian devastation. This is a key feature of modern neo-imperialism, where drone sales provide profit and geostrategic leverage, turning the Global South into a testing ground for advanced weaponry."
+    "federalismVsCentralism": "The conflicts are a fundamental struggle over the structure of the Ethiopian state. They pit multinational federalism—which constitutionally grants self-determination to Ethiopia's diverse nations—against a unitarist ideology aiming to re-establish a more centralised identity. This political struggle has a critical economic dimension: federalism allows regions greater control over their resources, whereas centralism consolidates economic power, which can simplify the process for a national elite to implement privatisation and secure deals with foreign investors.",
+    "shiftingAlliancesAndForeignIntervention": "The federal government's strategy has involved shifting alliances. After allying with Amhara forces to crush the TPLF, its move to dissolve regional forces was seen as a betrayal by its former allies, igniting the current war. In these conflicts, the widespread use of foreign drones (from the UAE, Turkey, and China) has transformed internal political disputes into high-tech conflicts, causing immense civilian devastation. Critics describe this as a feature of modern foreign policy, where drone sales provide profit and geostrategic leverage, turning conflict zones into testing grounds for advanced weaponry."
   },
   "humanitarianImpact": {
     "displaced": "Over 3.5 million people are internally displaced nationwide due to conflict and climate shocks, with the majority now in the Amhara and Oromia regions [UN OCHA, 2025].",
@@ -22,11 +22,11 @@
   "timeline": [
     {
       "year": "Late 19th Century",
-      "event": "**Imperial Conquest**: Emperor Menelik II massively expands the Abyssinian empire, conquering vast territories in the south and east. This violent process forges the borders of modern Ethiopia, incorporating diverse peoples into a centralised, hierarchical state."
+      "event": "**Imperial Conquest**: Emperor Menelik II massively expands the Abyssinian empire, conquering vast territories in the south and east. This process forges the borders of modern Ethiopia, incorporating diverse peoples into a centralised, hierarchical state."
     },
     {
       "year": "1977-1978",
-      "event": "**The Red Terror**: The Derg military junta unleashes a campaign of mass killings against political opponents. This extreme state violence fuels the growth of armed rebellions in the periphery, including in Tigray and Eritrea."
+      "event": "**The Red Terror**: The Derg military junta unleashes a campaign of killings against political opponents. This state violence fuels the growth of armed rebellions in the periphery, including in Tigray and Eritrea."
     },
     {
       "year": "1991",
@@ -38,19 +38,19 @@
     },
     {
       "year": "2018",
-      "event": "**Abiy Ahmed Becomes PM**: Abiy's reforms, centralising 'Medemer' ideology, and promises to liberalise the economy threaten the federal arrangement, alienating key regional actors."
+      "event": "**Abiy Ahmed Becomes PM**: Abiy's reforms, centralising 'Medemer' ideology, and promises to liberalise the economy have challenged the federal arrangement, alienating key regional actors."
     },
     {
       "year": "2020-2022",
-      "event": "**Tigray War**: A brutal war between the federal government (allied with Eritrea and Amhara forces) and the TPLF devastates the Tigray region, ending with the Pretoria Peace Agreement."
+      "event": "**Tigray War**: A war between the federal government (allied with Eritrea and Amhara forces) and the TPLF devastates the Tigray region, ending with the Pretoria Peace Agreement."
     },
     {
       "year": "2023",
-      "event": "**War Erupts in Amhara**: The federal government's decision to dissolve regional special forces triggers a widespread armed conflict with the Fano militia, the government's former allies."
+      "event": "**War Erupts in Amhara**: The federal government's decision to dissolve regional special forces triggers an armed conflict with the Fano militia, the government's former allies."
     },
     {
       "year": "2024-Present",
-      "event": "**Humanitarian Crisis in Amhara**: The escalating war, a prolonged state of emergency, and widespread drone strikes create a new, catastrophic humanitarian crisis, displacing millions."
+      "event": "**Humanitarian Crisis in Amhara**: The escalating war, a prolonged state of emergency, and widespread drone strikes create a new, severe humanitarian crisis, displacing millions."
     }
   ],
   "takeAction": {
@@ -67,10 +67,10 @@
       }
     ],
     "advocacy": [
-      "Amplify the voices of journalists and human rights defenders in Amhara, Oromia, and Tigray.",
-      "Demand an end to the state of emergency in Amhara and a halt to the use of drone strikes against civilian populations.",
-      "Demand accountability for war crimes committed in all of Ethiopia's conflicts through independent international investigations.",
-      "Challenge the role of the IMF and World Bank in pushing neoliberal reforms, and demand all financial aid be conditioned on peace and human rights."
+      "Support journalists and human rights defenders in Amhara, Oromia, and Tigray.",
+      "Advocate for an end to the state of emergency in Amhara and a halt to drone strikes against civilian populations.",
+      "Support calls for accountability for war crimes committed in all of Ethiopia's conflicts through independent international investigations.",
+      "Encourage a review of the role of the IMF and World Bank in promoting economic reforms, and advocate for all financial aid to be conditioned on peace and human rights."
     ]
   }
 }

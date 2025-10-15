@@ -3,14 +3,14 @@
   "emoji": "🇸🇴",
   "ariaLabel": "Somali flag",
   "lastUpdated": "2025-10-15",
-  "currentCrisisSummary": "Somalia is caught in a convergence of catastrophic crises: a protracted civil war, a resilient al-Shabaab insurgency, and a devastating cycle of climate-driven droughts and floods. This convergence, fuelled by geopolitical competition and severe climate injustice, has led to a near-permanent state of humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises.",
+  "currentCrisisSummary": "Somalia is caught in a convergence of severe crises: a protracted civil war, an al-Shabaab insurgency, and a cycle of climate-driven droughts and floods. This convergence, fuelled by geopolitical competition and climate change, has led to a long-term humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises.",
   "colonialRoot": {
     "colonialPower": "Britain & Italy (c. 1880s-1960)",
-    "legacy": "The crisis is a direct legacy of the colonial partition of the Somali nation. In the 'Scramble for Africa', Britain and Italy (along with France) carved up a culturally and linguistically homogenous people into five separate territories, shattering its social and economic fabric. The artificial borders and the hasty, ill-planned merger of the British and Italian colonies at independence in 1960 created a dysfunctional state from its inception. This colonial vivisection of a homogenous people created the deep-seated grievances that have fuelled decades of conflict."
+    "legacy": "The crisis is a direct legacy of the colonial partition of Somali-inhabited lands. In the 'Scramble for Africa', Britain and Italy (along with France) divided a culturally and linguistically homogenous people into five separate territories, disrupting its social and economic fabric. The artificial borders and the hasty merger of the British and Italian colonies at independence in 1960 created challenges for the new state from its inception. This colonial division of a homogenous people created grievances that have fuelled decades of conflict."
   },
   "coreTerms": {
-    "theFragmentedState": "The state's implosion in 1991 was intensified by the Cold War. The Siad Barre dictatorship was armed first by the USSR and then the US, who used Somalia as a pawn to control the strategic sea lanes vital for global oil shipments. After its collapse, foreign interventions—from the failed US-led mission to the modern 'war on terror', which funnels vast resources to the Western security-industrial complex—have often exacerbated fragmentation by prioritising external counter-terrorism goals over a genuine, Somali-led process of state-building.",
-    "climateCrisisAndEconomicExploitation": "Somalia is on the front line of crises driven by the global economic system. It suffers extreme climate injustice, as catastrophic droughts caused by the Global North's emissions decimate livelihoods. Simultaneously, the state's collapse created a vacuum exploited by predatory capitalism: international fleets engaged in illegal fishing and companies reportedly dumped toxic waste [UNEP, 2005]. This resource plunder is now being followed by corporate competition for offshore oil, threatening a new cycle of conflict."
+    "theFragmentedState": "The state's collapse in 1991 was intensified by the Cold War. The Siad Barre dictatorship was armed first by the USSR and then the US, who saw Somalia as a strategic location for controlling sea lanes vital for global oil shipments. After its collapse, foreign interventions—from the US-led mission in the 1990s to the modern 'war on terror'—have often exacerbated fragmentation by prioritising external counter-terrorism goals over a Somali-led process of state-building.",
+    "climateChangeAndEconomicExploitation": "Somalia is on the front line of crises linked to the global economic system. It suffers from the severe impacts of climate change, as droughts, linked to global emissions, damage livelihoods. Simultaneously, the state's collapse created a vacuum exploited by external actors: international fleets engaged in illegal fishing and companies reportedly dumped toxic waste [UNEP, 2005]. This resource exploitation is now being followed by corporate competition for offshore oil, which could create a new cycle of conflict."
   },
   "humanitarianImpact": {
     "displaced": "Nearly 4 million people are internally displaced by conflict and climate shocks [UNHCR, 2025].",
@@ -25,11 +25,11 @@
   "timeline": [
     {
       "year": "c. 1880s",
-      "event": "**Colonial Partition**: Britain, Italy, and France carve up the Somali-inhabited lands, creating five separate colonial territories and shattering a homogenous nation."
+      "event": "**Colonial Partition**: Britain, Italy, and France carve up the Somali-inhabited lands, creating five separate colonial territories and dividing a homogenous nation."
     },
     {
       "year": "1960",
-      "event": "**Independence & Unification**: The former British and Italian Somalilands unite to form the Somali Republic, an inherently unstable state."
+      "event": "**Independence & Unification**: The former British and Italian Somalilands unite to form the Somali Republic, a state facing inherent challenges."
     },
     {
       "year": "1969",
@@ -41,19 +41,19 @@
     },
     {
       "year": "1991",
-      "event": "**State Collapse**: Barre's regime is overthrown. The state disintegrates, plunging the country into civil war and leaving its resources vulnerable to foreign exploitation."
+      "event": "**State Collapse**: Barre's regime is overthrown. The state disintegrates, plunging the country into civil war and leaving its resources vulnerable to exploitation."
     },
     {
       "year": "1992-1995",
-      "event": "**US/UN Intervention**: A US-led UN humanitarian intervention ('Operation Restore Hope') ends in failure and withdrawal after the 'Black Hawk Down' battle in Mogadishu."
+      "event": "**US/UN Intervention**: A US-led UN humanitarian intervention ('Operation Restore Hope') ends in withdrawal after the 'Black Hawk Down' battle in Mogadishu."
     },
     {
       "year": "2006-Present",
-      "event": "**Rise of Al-Shabaab**: The extremist group al-Shabaab emerges, becoming the dominant insurgency and waging a brutal war against the internationally-backed government."
+      "event": "**Rise of Al-Shabaab**: The extremist group al-Shabaab emerges, becoming a dominant insurgency and waging a violent war against the internationally-backed government."
     },
     {
       "year": "2022-2023",
-      "event": "**Climate Extremes**: The country suffers its worst drought in 40 years, followed by catastrophic floods, pushing millions to the brink of starvation [UN OCHA, 2023]."
+      "event": "**Climate Extremes**: The country suffers its worst drought in 40 years, followed by severe floods, pushing millions to the brink of starvation [UN OCHA, 2023]."
     }
   ],
   "takeAction": {
@@ -70,10 +70,10 @@
       }
     ],
     "advocacy": [
-      "Demand wealthy nations pay their climate debt to support Somali communities devastated by climate change.",
-      "Challenge the 'aid industrial complex' by demanding funding be channelled directly through local Somali organisations.",
-      "Demand reparations and accountability for decades of illegal fishing and toxic waste dumping by foreign corporations.",
-      "Demand a shift from militaristic 'counter-terrorism' towards investment in Somali-led peace and state-building initiatives."
+      "Advocate for wealthy nations to provide climate financing to support Somali communities affected by climate change.",
+      "Advocate for more funding to be channelled directly through local Somali organisations.",
+      "Advocate for accountability for illegal fishing and toxic waste dumping by foreign corporations.",
+      "Advocate for a shift from purely military 'counter-terrorism' towards investment in Somali-led peace and state-building initiatives."
     ]
   }
 }

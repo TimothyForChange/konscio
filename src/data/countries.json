@@ -3,56 +3,56 @@
     "name": "Afghanistan",
     "slug": "afghanistan",
     "flag": "🇦🇫",
-    "description": "Economic warfare & gender apartheid",
-    "category": "Systematic Persecution & Invasion"
+    "description": "Economic pressure & gender apartheid",
+    "category": "Invasion & Occupation"
   },
   {
     "name": "Central African Republic",
     "slug": "car",
     "flag": "🇨🇫",
-    "description": "State collapse & mercenary plunder",
+    "description": "State collapse & resource conflict",
     "category": "Insurgency & Resource Conflict"
   },
   {
     "name": "Democratic Republic of the Congo",
     "slug": "drc",
     "flag": "🇨🇩",
-    "description": "Deadly conflict for tech minerals",
+    "description": "Conflict over strategic minerals",
     "category": "Insurgency & Resource Conflict"
   },
   {
     "name": "Ethiopia",
     "slug": "ethiopia",
     "flag": "🇪🇹",
-    "description": "War over a contested imperial legacy",
-    "category": "State Collapse & Civil War"
+    "description": "Conflict over a contested national identity",
+    "category": "Ethnic & Historical Conflicts"
   },
   {
     "name": "Haiti",
     "slug": "haiti",
     "flag": "🇭🇹",
-    "description": "State collapse & colonial extortion",
+    "description": "State collapse & foreign debt",
     "category": "State Collapse & Civil War"
   },
   {
     "name": "Mozambique",
     "slug": "mozambique",
     "flag": "🇲🇿",
-    "description": "Resource war for natural gas",
+    "description": "Conflict over natural gas reserves",
     "category": "Insurgency & Resource Conflict"
   },
   {
     "name": "Myanmar",
     "slug": "myanmar",
     "flag": "🇲🇲",
-    "description": "Revolution against a genocidal junta",
-    "category": "Systematic Persecution & Invasion"
+    "description": "Uprising against military rule",
+    "category": "State Collapse & Civil War"
   },
   {
     "name": "Nigeria",
     "slug": "nigeria",
     "flag": "🇳🇬",
-    "description": "Insurgencies fuelled by the oil curse",
+    "description": "Insurgencies linked to oil wealth",
     "category": "Insurgency & Resource Conflict"
   },
   {
@@ -60,55 +60,55 @@
     "slug": "palestine",
     "flag": "🇵🇸",
     "description": "Genocide, apartheid & settler colonialism",
-    "category": "Systematic Persecution & Invasion"
+    "category": "Occupation & Dispossession"
   },
   {
     "name": "Sahel",
     "slug": "sahel",
     "flag": "🇧🇫🇲🇱🇳🇪",
-    "description": "Anti-colonial uprising & climate collapse",
+    "description": "Regional insurgency & climate change",
     "category": "Insurgency & Resource Conflict"
   },
   {
     "name": "Somalia",
     "slug": "somalia",
     "flag": "🇸🇴",
-    "description": "Collapse rooted in colonial partition",
+    "description": "State collapse & historical divisions",
     "category": "State Collapse & Civil War"
   },
   {
     "name": "South Sudan",
     "slug": "south-sudan",
     "flag": "🇸🇸",
-    "description": "Kleptocratic war for oil profits",
-    "category": "State Collapse & Civil War"
+    "description": "Conflict over control of oil revenues",
+    "category": "Insurgency & Resource Conflict"
   },
   {
     "name": "Sudan",
     "slug": "sudan",
     "flag": "🇸🇩",
-    "description": "War of rival military capitalists",
+    "description": "War between rival military factions",
     "category": "State Collapse & Civil War"
   },
   {
     "name": "Syria",
     "slug": "syria",
     "flag": "🇸🇾",
-    "description": "Revolt against tyranny & neoliberalism",
-    "category": "State Collapse & Civil War"
+    "description": "Uprising against authoritarian rule",
+    "category": "Insurgency & Resource Conflict"
   },
   {
     "name": "Ukraine",
     "slug": "ukraine",
     "flag": "🇺🇦",
-    "description": "Imperial war by a fossil fuel regime",
-    "category": "Systematic Persecution & Invasion"
+    "description": "War of aggression & energy politics",
+    "category": "Invasion & Occupation"
   },
   {
     "name": "Yemen",
     "slug": "yemen",
     "flag": "🇾🇪",
-    "description": "War over a global trade chokepoint",
+    "description": "Conflict over a strategic trade route",
     "category": "State Collapse & Civil War"
   }
 ]
