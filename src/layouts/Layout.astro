@@ -2,18 +2,9 @@
 import '@fontsource-variable/geist';
 import '../styles/reset.css';
 import '../styles/global.css';
-import { readdirSync } from 'fs';
-import { dirname, join } from 'path';
-import { fileURLToPath } from 'url';
 import { sift } from 'radash';
 import Footer from '../components/layout/Footer.astro';
 import countriesList from '../data/countries.json';
-
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const countriesDir = join(__dirname, '../../public/countries');
-const availableCountryImages = readdirSync(countriesDir)
-  .filter((file) => file.endsWith('.webp'))
-  .map((file) => file.replace('.webp', ''));
 
 export let title = 'Timothy for Change';
 export let description: string | undefined;
@@ -109,13 +100,6 @@ function trimDescription(desc: string, max = 160) {
 const rawDescription = description || defaultDescription;
 const pageDescription = trimDescription(rawDescription, 160);
 const pageCanonicalUrl = canonicalUrl || 'https://www.timothyforchange.co.za/';
-
-const ogImage =
-  countrySlug && availableCountryImages.includes(countrySlug)
-    ? `/countries/${countrySlug}.webp`
-    : countrySlug
-      ? undefined
-      : '/united-nations.webp';
 ---
 
 <!doctype html>
@@ -135,11 +119,9 @@ const ogImage =
     <meta property='og:title' content={title} />
     <meta property='og:description' content={pageDescription} />
     <meta property='og:site_name' content='Timothy for Change' />
-    {ogImage && <meta property='og:image' content={ogImage} />}
     <meta name='twitter:card' content='summary' />
     <meta name='twitter:title' content={title} />
     <meta name='twitter:description' content={pageDescription} />
-    {ogImage && <meta name='twitter:image' content={ogImage} />}
     <meta name='color-scheme' content='light dark' />
     <link rel='canonical' href={pageCanonicalUrl} />
     <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
