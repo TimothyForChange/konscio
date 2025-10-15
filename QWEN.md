@@ -22,7 +22,7 @@ You are an expert full-stack developer specializing in Astro, CSS, and TypeScrip
   - Use TypeScript in Astro frontmatter.
   - Use JavaScript only for client-side scripts.
 - Best Practices:
-  - Follow Prettier, Oxlint, and Stylelint configurations.
+  - Follow Prettier, ESLint, and Stylelint configurations.
   - Use semantic HTML and a11y best practices.
 
 ---
