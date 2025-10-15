@@ -4,9 +4,9 @@
   "ariaLabel": "Palestinian flag",
   "lastUpdated": "2025-10-14",
   "currentCrisisSummary": "An intensifying humanitarian crisis across occupied Palestine, marked by mass displacement, engineered famine, and an International Court of Justice ruling on the plausibility of genocide in Gaza [ICJ, 26 January 2024]. This crisis is sustained by the unwavering geopolitical and military support of Western powers for the occupation.",
-  "colonialRoot": {
-    "colonialPower": "British Empire",
-    "legacy": "The crisis is rooted in Britain's Mandate for Palestine (1920-1948). The Balfour Declaration (1917) promised a 'national home for the Jewish people' in Palestine, without the consent of the indigenous majority. British policy facilitated mass colonial settlement while suppressing Palestinian political rights. Britain's withdrawal in 1948 directly enabled the Nakba ('catastrophe'), during which over 750,000 Palestinians were ethnically cleansed to establish the state of Israel. This created a refugee crisis that continues to this day, making the ongoing Israeli occupation a direct continuation of this colonial legacy."
+  "imperialRoot": {
+    "imperialPower": "British Empire",
+    "legacy": "The crisis is rooted in Britain's imperial Mandate for Palestine (1920-1948). The Balfour Declaration (1917) promised a 'national home for the Jewish people' in Palestine without the consent of the indigenous majority, exemplifying the imperial practice of determining the fate of subject peoples without their participation. British policy facilitated mass settler colonisation while suppressing Palestinian political rights, implementing a strategy of divide and rule that entrenched communal tensions. Britain's withdrawal in 1948 directly enabled the Nakba ('catastrophe'), during which over 750,000 Palestinians were ethnically cleansed to establish the state of Israel. This created a refugee crisis that continues to this day, making the ongoing Israeli occupation a direct continuation of this imperial legacy that prioritised Western geopolitical interests over Palestinian self-determination."
   },
   "coreTerms": {
     "geopoliticalComplicity": "The occupation is sustained by Western powers, primarily the US and UK, which provide Israel with billions in unconditional military aid. This backing ensures Israel functions as a key strategic ally, projecting Western influence over Middle Eastern resources. It also serves the arms industry by providing a highly profitable, 'battle-tested' market for advanced weaponry.",
@@ -29,7 +29,7 @@
     },
     {
       "year": "1897",
-      "event": "**First Zionist Congress**: Held in Basel, Switzerland, the congress formally establishes the political Zionist movement. Its goal is to create a Jewish state in Palestine, driven by a European settler-colonial ideology that seeks to displace the indigenous Palestinian population."
+      "event": "**First Zionist Congress**: Held in Basel, Switzerland, the congress formally establishes the political Zionist movement. Its goal is to create a Jewish state in Palestine, driven by a European settler-colonial project backed by imperial powers that seeks to displace the indigenous Palestinian population."
     },
     {
       "year": "1917",

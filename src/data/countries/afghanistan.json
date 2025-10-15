@@ -4,12 +4,12 @@
   "ariaLabel": "Afghanistan flag",
   "lastUpdated": "2025-10-14",
   "currentCrisisSummary": "Following the US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. The crisis has been severely exacerbated by international economic policies, including the freezing of Afghanistan's central bank assets and broad sanctions. These measures have crippled the economy, precipitating the collapse of the healthcare system and fuelling widespread famine [UNDP, 2023]. This has erased two decades of fragile gains, which were built on an aid-dependent model that often benefited foreign contractors and a small domestic elite more than the general populace. Women and girls now face systematic oppression, described by human rights experts as gender apartheid [UN Special Rapporteur, 2023; Amnesty International, 2023].",
-  "colonialRoot": {
-    "colonialPower": "British Empire, Russian Empire, Soviet Union & United States",
-    "legacy": "Afghanistan's history has been shaped by its position as a strategic chessboard for imperial powers. During the 19th-century 'Great Game', the British and Russian Empires vied for influence, establishing a pattern of foreign interference that undermined local political development to serve their own interests. This dynamic intensified during the Cold War, as the US and USSR turned Afghanistan into a proxy battleground. The CIA's Operation Cyclone, which armed and funded the Mujahideen to fight the Soviets, had the long-term consequence of fostering radical militancy and contributing to the fragmentation of the Afghan state, setting the stage for decades of conflict."
+  "imperialRoot": {
+    "imperialPower": "British Empire, Russian Empire, Soviet Union & United States",
+    "legacy": "Afghanistan's crisis is rooted in a centuries-long history of imperial intervention that has consistently destabilised the region to serve external interests. The 19th-century 'Great Game' saw the British and Russian Empires compete for hegemony over Afghan territory, establishing a pattern of foreign interference that undermined local political development. This imperial rivalry intensified during the Cold War, as the US and USSR turned Afghanistan into a proxy battleground. The CIA's Operation Cyclone, which armed and funded the Mujahideen to fight the Soviets, had the long-term consequence of fostering radical militancy and contributing to the fragmentation of the Afghan state. This continuous imperial meddling has created a cycle of instability that external powers continue to exploit for geopolitical leverage."
   },
   "coreTerms": {
-    "theGraveyardOfEmpiresMyth": "This colonial-era moniker is a self-serving myth. It frames Afghanistan as an inherently ungovernable land, obscuring the reality that foreign intervention is a primary driver of its instability. Each major invasion—British, Soviet, American—sought to reorder Afghan society to serve external interests. These interventions consistently weakened or destroyed local institutions, fractured social cohesion, and fuelled resistance. The resulting instability is then often cited by external powers as evidence of Afghan 'backwardness', a narrative that deflects responsibility from their own destructive role.",
+    "theGraveyardOfEmpiresMyth": "This imperial-era moniker is a self-serving myth. It frames Afghanistan as an inherently ungovernable land, obscuring the reality that foreign intervention is a primary driver of its instability. Each major invasion—British, Soviet, American—sought to reorder Afghan society to serve external interests. These interventions consistently weakened or destroyed local institutions, fractured social cohesion, and fuelled resistance. The resulting instability is then often cited by external powers as evidence of Afghan 'backwardness', a narrative that deflects responsibility from their own destructive role.",
     "humanitarianBlackmailAndEconomicWarfare": "The current humanitarian crisis is not a natural disaster but the consequence of political and economic decisions. Following the 2021 withdrawal, the US and its allies used economic tools as a primary form of leverage. By freezing $7 billion of Afghanistan's sovereign wealth and enforcing a punitive sanctions regime, they have effectively cut the country off from the global financial system. This has triggered an economic collapse, amounting to a form of collective punishment that has inflicted immense suffering on millions of ordinary Afghans, who now face famine and a collapsed health system."
   },
   "humanitarianImpact": {
@@ -24,7 +24,7 @@
   "timeline": [
     {
       "year": "1839-1919",
-      "event": "**The Great Game**: A century of imperial rivalry between Britain and Russia sees three Anglo-Afghan wars as Britain seeks to create a buffer state to protect its colonial interests in India."
+      "event": "**The Great Game**: A century of imperial rivalry between Britain and Russia sees three Anglo-Afghan wars as Britain seeks to create a buffer state to protect its imperial interests in India."
     },
     {
       "year": "1919-1929",

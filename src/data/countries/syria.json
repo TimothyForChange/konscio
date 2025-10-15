@@ -4,9 +4,9 @@
   "ariaLabel": "Syrian flag",
   "lastUpdated": "2025-10-14",
   "currentCrisisSummary": "A devastating civil war, sparked in 2011 by a popular uprising against both authoritarian rule and harsh neoliberal reforms, and culminating in the collapse of the Ba'athist regime in 2024, has fuelled a severe humanitarian crisis. The conflict is marked by mass displacement, the fragmentation of the state, and the deep entanglement of foreign powers.",
-  "colonialRoot": {
-    "colonialPower": "France (Mandate for Syria and the Lebanon, 1923-1946)",
-    "legacy": "Ignoring Syrian calls for self-determination, France and Britain imposed a colonial Mandate rooted in the Sykes-Picot Agreement (1916). France enforced a 'divide and rule' strategy, fracturing Syria into sectarian statelets to weaken national identity. This policy, combined with exploitative economics, left a legacy of instability. This inherited framework of a repressive, centralised state was later adapted by the Ba'athist regime to enforce its own system of crony capitalism."
+  "imperialRoot": {
+    "imperialPower": "France (Mandate for Syria and the Lebanon, 1923-1946)",
+    "legacy": "Ignoring Syrian calls for self-determination, France and Britain imposed an imperial Mandate rooted in the Sykes-Picot Agreement (1916). France enforced a 'divide and rule' strategy, fracturing Syria into sectarian statelets to weaken national identity and maintain imperial control. This policy, combined with exploitative economic arrangements that prioritised French interests, left a legacy of political instability and regional fragmentation. This inherited framework of a repressive, centralised state was later adapted by successive regimes, including the Ba'athist government, to enforce systems of authoritarian control and crony capitalism that persist today."
   },
   "coreTerms": {
     "neoliberalismAndCronyCapitalism": "The 2011 uprising was a revolt against not only political tyranny but also the harsh neoliberal policies implemented by Bashar al-Assad. His regime's 'reforms' involved dismantling public services and privatising state assets, which enriched a politically-connected elite while impoverishing rural populations. This process of state-led dispossession, exacerbated by a severe drought, created the conditions for the uprising [Hinnebusch, 2012].",
@@ -31,7 +31,7 @@
     },
     {
       "year": "1920",
-      "event": "**French Mandate & Overthrow of Kingdom**: French forces crush the short-lived independent Arab Kingdom of Syria at the Battle of Maysalun and impose colonial control."
+      "event": "**French Mandate & Overthrow of Kingdom**: French forces crush the short-lived independent Arab Kingdom of Syria at the Battle of Maysalun and impose imperial control."
     },
     {
       "year": "1970",

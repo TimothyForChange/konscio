@@ -6,13 +6,6 @@ export interface Country {
   category?: string;
 }
 
-export interface ExternalLink {
-  url: string;
-  icon?: string;
-  title?: string;
-  description?: string;
-}
-
 export interface HumanitarianImpact {
   displaced?: string;
   refugees?: string;
@@ -28,6 +21,11 @@ export interface HumanitarianImpact {
 
 export interface ColonialRoot {
   colonialPower?: string;
+  legacy?: string;
+}
+
+export interface ImperialRoot {
+  imperialPower?: string;
   legacy?: string;
 }
 
@@ -54,6 +52,7 @@ export interface CountryData {
   humanitarianImpact?: HumanitarianImpact;
   timeline?: TimelineEvent[];
   colonialRoot?: ColonialRoot;
+  imperialRoot?: ImperialRoot;
   coreTerms?: Record<string, string>;
   takeAction?: TakeAction;
 }

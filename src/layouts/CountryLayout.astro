@@ -5,6 +5,7 @@ import CountryHeader from '../components/country/CountryHeader.astro';
 import CrisisSection from '../components/country/CrisisSection.astro';
 import HistoricalContext from '../components/country/HistoricalContext.astro';
 import HumanitarianImpact from '../components/country/HumanitarianImpact.astro';
+import ImperialLegacy from '../components/country/ImperialLegacy.astro';
 import Timeline from '../components/country/Timeline.astro';
 import BackButton from '../components/shared/BackButton.astro';
 import type { CountryData } from '../types/country';
@@ -70,6 +71,13 @@ const canonicalUrl = `https://www.timothyforchange.co.za/${encodeURIComponent(sa
           countryData?.colonialRoot &&
             typeof countryData.colonialRoot === 'object' && (
               <ColonialSection colonialRoot={countryData.colonialRoot} />
+            )
+        }
+
+        {
+          countryData?.imperialRoot &&
+            typeof countryData.imperialRoot === 'object' && (
+              <ImperialLegacy imperialRoot={countryData.imperialRoot} />
             )
         }
 

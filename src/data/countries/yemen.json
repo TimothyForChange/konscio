@@ -4,9 +4,9 @@
   "ariaLabel": "Yemeni flag",
   "lastUpdated": "2025-10-14",
   "currentCrisisSummary": "Yemen is suffering one of the world's most severe humanitarian crises, driven by a devastating civil war over control of the state and its strategic position on a key global trade route. The conflict, a proxy war between a Saudi-led coalition and the Iran-aligned Houthis and sustained by a brutal blockade, has shattered infrastructure, caused a human-made famine, and left millions reliant on aid to survive.",
-  "colonialRoot": {
-    "colonialPower": "British Empire & Ottoman Empire",
-    "legacy": "The crisis is deeply rooted in colonial division. The British Empire's control of the strategic port of Aden and the south (1839-1967) and Ottoman rule in the north created two distinct political entities. Britain's 'divide and rule' strategy administered the south through a patchwork of protectorates, a policy which prevented political unity, fostered instability, and left a power vacuum upon withdrawal. This colonial partition laid the groundwork for decades of internal conflict."
+  "imperialRoot": {
+    "imperialPower": "British Empire & Ottoman Empire",
+    "legacy": "The crisis is deeply rooted in imperial division and strategic competition. The British Empire's control of the strategic port of Aden and the south (1839-1967) and Ottoman rule in the north created two distinct political entities with separate administrative systems. Britain's 'divide and rule' strategy administered the south through a patchwork of protectorates, a policy which prevented political unity, fostered instability, and left a power vacuum upon withdrawal. This imperial partition, driven by the strategic imperatives of competing empires, laid the groundwork for decades of internal conflict as the separate territories struggled to form a cohesive state after decolonisation."
   },
   "coreTerms": {
     "geopoliticalChokepointAndLogisticsCapitalism": "The war is a violent struggle to control one of the most critical chokepoints of global capitalism: the Bab-el-Mandeb strait. This sea lane is a vital artery for oil tankers and container ships. Regional powers like Saudi Arabia and the UAE, backed by the West, seek to control Yemen's coastline to dominate this strategic node and ensure their own commercial security. This demonstrates how the geography of global trade can become a site of intense geopolitical conflict.",
@@ -25,7 +25,7 @@
   "timeline": [
     {
       "year": "1839",
-      "event": "**British Seize Aden**: The British Empire captures the port of Aden, beginning its colonial presence in southern Yemen to control the sea route to India."
+      "event": "**British Seize Aden**: The British Empire captures the port of Aden, beginning its imperial presence in southern Yemen to control the sea route to India."
     },
     {
       "year": "1990",
