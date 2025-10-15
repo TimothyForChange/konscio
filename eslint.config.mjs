@@ -1,6 +1,7 @@
 import eslint from '@eslint/js';
 import eslintPluginAstro from 'eslint-plugin-astro';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
+import eslintConfigPrettier from 'eslint-config-prettier/flat';
 import { defineConfig } from 'eslint/config';
 import tseslint from 'typescript-eslint';
 
@@ -18,5 +19,6 @@ export default defineConfig(
       'unicorn/prefer-module': 'off',
       'unicorn/prevent-abbreviations': 'off',
     },
-  }
+  },
+  eslintConfigPrettier,
 );
