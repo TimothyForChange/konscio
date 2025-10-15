@@ -48,6 +48,9 @@ const allCategories = ['All', ...categories];
             typeof country.category === 'string' ? country.category : undefined
           }
           style={`--i:${index}`}
+          data-category={
+            typeof country.category === 'string' ? country.category : 'All'
+          }
         />
       ))
     }
@@ -63,8 +66,10 @@ const allCategories = ['All', ...categories];
       buttons.forEach((btn) => {
         if (btn.getAttribute('data-category') === selectedCategory) {
           btn.classList.add('active');
+          btn.setAttribute('aria-selected', 'true');
         } else {
           btn.classList.remove('active');
+          btn.setAttribute('aria-selected', 'false');
         }
       });
 
