@@ -2,19 +2,19 @@
   "name": "Somalia",
   "emoji": "🇸🇴",
   "ariaLabel": "Somali flag",
-  "lastUpdated": "2025-10-14",
-  "currentCrisisSummary": "Somalia is caught in a convergence of catastrophic crises: a protracted civil war, a resilient al-Shabaab insurgency, and a devastating cycle of climate-driven droughts and floods. This convergence of crises, fuelled by geopolitical competition for resources and severe climate injustice, has led to a near-permanent state of humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises.",
+  "lastUpdated": "2025-10-15",
+  "currentCrisisSummary": "Somalia is caught in a convergence of catastrophic crises: a protracted civil war, a resilient al-Shabaab insurgency, and a devastating cycle of climate-driven droughts and floods. This convergence, fuelled by geopolitical competition and severe climate injustice, has led to a near-permanent state of humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises.",
   "colonialRoot": {
     "colonialPower": "Britain & Italy (c. 1880s-1960)",
-    "legacy": "The crisis is a direct legacy of the colonial partition of the Somali nation. In the 'Scramble for Africa', Britain and Italy (along with France) carved up a culturally and linguistically homogenous people into five separate territories, shattering its social and economic fabric. The artificial borders and the hasty, ill-planned merger of the British and Italian colonies at independence in 1960 created a dysfunctional state from its inception. This colonial partition of a homogenous people created the deep-seated grievances that have fuelled decades of conflict."
+    "legacy": "The crisis is a direct legacy of the colonial partition of the Somali nation. In the 'Scramble for Africa', Britain and Italy (along with France) carved up a culturally and linguistically homogenous people into five separate territories, shattering its social and economic fabric. The artificial borders and the hasty, ill-planned merger of the British and Italian colonies at independence in 1960 created a dysfunctional state from its inception. This colonial vivisection of a homogenous people created the deep-seated grievances that have fuelled decades of conflict."
   },
   "coreTerms": {
     "theFragmentedState": "The state's implosion in 1991 was intensified by the Cold War. The Siad Barre dictatorship was armed first by the USSR and then the US, who used Somalia as a pawn to control the strategic sea lanes vital for global oil shipments. After its collapse, foreign interventions—from the failed US-led mission to the modern 'war on terror', which funnels vast resources to the Western security-industrial complex—have often exacerbated fragmentation by prioritising external counter-terrorism goals over a genuine, Somali-led process of state-building.",
-    "climateCrisisAndEconomicExploitation": "Somalia is on the front line of crises driven by the global economic system. Firstly, it suffers extreme climate injustice; catastrophic droughts and floods caused by the Global North's emissions decimate pastoralist and agricultural livelihoods, fuelling conflict. Secondly, the state's collapse left its coastline vulnerable to foreign exploitation, with international fleets engaging in illegal fishing and companies reportedly dumping toxic waste [UNEP, 2005]. This resource depletion is now being followed by corporate competition for offshore oil and gas, threatening a new cycle of conflict."
+    "climateCrisisAndEconomicExploitation": "Somalia is on the front line of crises driven by the global economic system. It suffers extreme climate injustice, as catastrophic droughts caused by the Global North's emissions decimate livelihoods. Simultaneously, the state's collapse created a vacuum exploited by predatory capitalism: international fleets engaged in illegal fishing and companies reportedly dumped toxic waste [UNEP, 2005]. This resource plunder is now being followed by corporate competition for offshore oil, threatening a new cycle of conflict."
   },
   "humanitarianImpact": {
     "displaced": "Nearly 4 million people are internally displaced by conflict and climate shocks [UNHCR, 2025].",
-    "refugees": "Nearly 1 million Somalis live as refugees and asylum-seekers, primarily in neighbouring Kenya, Ethiopia, and Yemen [UNHCR, 2025].",
+    "refuges": "Nearly 1 million Somalis live as refugees and asylum-seekers, primarily in neighbouring Kenya, Ethiopia, and Yemen [UNHCR, 2025].",
     "casualties": "While no definitive figure exists for the entire civil war, an estimated 500,000 people have died from violent conflict-related causes since 1991. The 2011 famine alone killed an estimated 260,000 people [FSNAU/FEWS NET, 2013].",
     "affected": "An estimated 7.7 million people require life-saving humanitarian assistance [UN OCHA, 2025].",
     "childrenOutOfSchool": "An estimated 3 million children are out of school due to conflict, displacement, and lack of educational infrastructure [UNICEF, 2024].",
@@ -25,11 +25,11 @@
   "timeline": [
     {
       "year": "c. 1880s",
-      "event": "**Colonial Partition**: Britain, Italy, and France carve up the Somali-inhabited lands, creating five separate colonial territories."
+      "event": "**Colonial Partition**: Britain, Italy, and France carve up the Somali-inhabited lands, creating five separate colonial territories and shattering a homogenous nation."
     },
     {
       "year": "1960",
-      "event": "**Independence & Unification**: The former British and Italian Somalilands unite to form the Somali Republic."
+      "event": "**Independence & Unification**: The former British and Italian Somalilands unite to form the Somali Republic, an inherently unstable state."
     },
     {
       "year": "1969",
@@ -37,7 +37,7 @@
     },
     {
       "year": "1977-1978",
-      "event": "**Ogaden War**: Somalia's attempt to reclaim the Ogaden region from Ethiopia ends in defeat, prompting Barre to switch allegiance to the United States in the Cold War struggle to control the Horn of Africa's strategic shipping lanes."
+      "event": "**Ogaden War**: Somalia's attempt to reclaim the Ogaden region from Ethiopia ends in defeat, prompting Barre to switch allegiance to the United States in the Cold War struggle for control of the Horn of Africa."
     },
     {
       "year": "1991",

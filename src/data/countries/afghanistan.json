@@ -2,15 +2,15 @@
   "name": "Afghanistan",
   "emoji": "🇦🇫",
   "ariaLabel": "Afghanistan flag",
-  "lastUpdated": "2025-10-14",
-  "currentCrisisSummary": "Following the US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. The crisis has been severely exacerbated by international economic policies, including the freezing of Afghanistan's central bank assets and broad sanctions. These measures have crippled the economy, precipitating the collapse of the healthcare system and fuelling widespread famine [UNDP, 2023]. This has erased two decades of fragile gains, which were built on an aid-dependent model that often benefited foreign contractors and a small domestic elite more than the general populace. Women and girls now face systematic oppression, described by human rights experts as gender apartheid [UN Special Rapporteur, 2023; Amnesty International, 2023].",
+  "lastUpdated": "2025-10-15",
+  "currentCrisisSummary": "Following the US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. The crisis is a direct result of international economic warfare, including the freezing of Afghanistan's central bank assets and broad sanctions. These policies have intentionally crippled the economy, precipitating the collapse of the healthcare system and fuelling widespread famine [UNDP, 2023]. This has erased two decades of fragile gains, which were built on a neo-colonial, aid-dependent model designed to enrich foreign contractors and a small domestic elite rather than foster genuine Afghan sovereignty. Women and girls now face systematic oppression under what human rights experts have defined as gender apartheid [UN Special Rapporteur, 2023; Amnesty International, 2023].",
   "imperialRoot": {
     "imperialPower": "British Empire, Russian Empire, Soviet Union & United States (1839-1919, 1979-1989, 2001-2021)",
-    "legacy": "Afghanistan's crisis is rooted in a centuries-long history of imperial intervention that has consistently destabilised the region to serve external interests. The 19th-century 'Great Game' saw the British and Russian Empires compete for hegemony over Afghan territory, establishing a pattern of foreign interference that undermined local political development. This imperial rivalry intensified during the Cold War, as the US and USSR turned Afghanistan into a proxy battleground. The CIA's Operation Cyclone, which armed and funded the Mujahideen to fight the Soviets, had the long-term consequence of fostering radical militancy and contributing to the fragmentation of the Afghan state. This continuous imperial meddling has created a cycle of instability that external powers continue to exploit for geopolitical leverage."
+    "legacy": "Afghanistan's crisis is rooted in a centuries-long history of imperial intervention that has consistently destabilised the region to serve external geopolitical and economic interests. The 19th-century 'Great Game' saw the British and Russian Empires compete for hegemony over Afghan territory, establishing a pattern of foreign interference that undermined local political development. This rivalry intensified during the Cold War, as the US and USSR turned Afghanistan into a proxy battleground. The CIA's Operation Cyclone, which armed and funded the Mujahideen to fight the Soviets, had the long-term consequence of fostering radical militancy and contributing to the fragmentation of the Afghan state. This continuous imperial meddling has created a cycle of instability that external powers continue to exploit for geopolitical leverage and control over regional resources."
   },
   "coreTerms": {
-    "theGraveyardOfEmpiresMyth": "This imperial-era moniker is a self-serving myth. It frames Afghanistan as an inherently ungovernable land, obscuring the reality that foreign intervention is a primary driver of its instability. Each major invasion—British, Soviet, American—sought to reorder Afghan society to serve external interests. These interventions consistently weakened or destroyed local institutions, fractured social cohesion, and fuelled resistance. The resulting instability is then often cited by external powers as evidence of Afghan 'backwardness', a narrative that deflects responsibility from their own destructive role.",
-    "humanitarianBlackmailAndEconomicWarfare": "The current humanitarian crisis is not a natural disaster but the consequence of political and economic decisions. Following the 2021 withdrawal, the US and its allies used economic tools as a primary form of leverage. By freezing $7 billion of Afghanistan's sovereign wealth and enforcing a punitive sanctions regime, they have effectively cut the country off from the global financial system. This has triggered an economic collapse, amounting to a form of collective punishment that has inflicted immense suffering on millions of ordinary Afghans, who now face famine and a collapsed health system."
+    "theGraveyardOfEmpiresMyth": "This imperial-era moniker is a self-serving myth. It frames Afghanistan as an inherently ungovernable land, obscuring the reality that foreign intervention is a primary driver of its instability. Each major invasion—British, Soviet, American—sought to reorder Afghan society to serve external interests. These interventions consistently weakened or destroyed local institutions, fractured social cohesion, and fuelled resistance. The resulting instability is then cited by external powers as evidence of Afghan 'backwardness'—an orientalist narrative that deflects responsibility from their own destructive role.",
+    "humanitarianBlackmailAndEconomicWarfare": "The current humanitarian crisis is not an accident but the deliberate consequence of political and economic decisions. Following the 2021 withdrawal, the US and its allies weaponised the international financial system. By freezing $7 billion of Afghanistan's sovereign wealth and enforcing a punitive sanctions regime, they have effectively cut the country off from the global economy. This constitutes a form of collective punishment against an entire population, inflicting immense suffering on millions of ordinary Afghans who now face famine and a collapsed health system. It is a textbook example of modern neo-imperialism, where economic coercion is used to enforce political compliance."
   },
   "humanitarianImpact": {
     "displaced": "Over 6.3 million people are internally displaced by conflict and climate shocks [UN OCHA, 2025].",
@@ -24,15 +24,15 @@
   "timeline": [
     {
       "year": "1839-1919",
-      "event": "**The Great Game**: A century of imperial rivalry between Britain and Russia sees three Anglo-Afghan wars as Britain seeks to create a buffer state to protect its imperial interests in India."
+      "event": "**The Great Game**: A century of imperial rivalry between Britain and Russia sees three Anglo-Afghan wars as Britain seeks to create a buffer state to protect its colonial interests in India."
     },
     {
       "year": "1919-1929",
-      "event": "**Independence & Failed Modernisation**: King Amanullah Khan wins full independence from Britain. His radical attempts to modernise and centralise the state trigger a conservative backlash, allegedly stoked by Britain, leading to his overthrow."
+      "event": "**Independence & Imperial Sabotage**: King Amanullah Khan wins full independence from Britain. His radical attempts to modernise and centralise the state trigger a conservative backlash, actively stoked by British intelligence to prevent a strong, independent Afghanistan from inspiring anti-colonial movements in British India."
     },
     {
       "year": "1953-1973",
-      "event": "**The Cold War Pawn**: The US and USSR compete to lock Afghanistan into their respective economic orbits by funding massive projects that created dependency and embedded superpower rivalry into Afghan politics."
+      "event": "**The Cold War Pawn**: The US and USSR compete to lock Afghanistan into their respective economic orbits, funding massive 'development' projects that created dependency and embedded superpower rivalry into Afghan politics."
     },
     {
       "year": "1978",
@@ -40,27 +40,27 @@
     },
     {
       "year": "1979",
-      "event": "**Soviet Invasion**: The USSR invades to prop up the collapsing PDPA government, beginning a brutal decade-long occupation."
+      "event": "**Soviet Invasion**: The USSR invades to prop up the collapsing PDPA government, beginning a brutal decade-long occupation that killed over a million Afghans."
     },
     {
       "year": "1979-1989",
-      "event": "**US Proxy War**: The CIA launches 'Operation Cyclone', one of its largest covert operations, funnelling billions to arm and train Mujahideen fighters to fight the Soviets, fuelling radicalisation [National Security Archive, 2019]."
+      "event": "**US Proxy War**: The CIA launches 'Operation Cyclone', one of its largest covert operations, funnelling billions to arm and train Mujahideen fighters, including extremist factions, to bleed the Soviets, fuelling long-term radicalisation [National Security Archive, 2019]."
     },
     {
       "year": "1996",
-      "event": "**First Taliban Rule**: Emerging from the civil war that followed the Soviet withdrawal, the Taliban seize control of Kabul and impose their rule."
+      "event": "**First Taliban Rule**: Emerging from the devastating civil war that followed the Soviet withdrawal, the Taliban seize control of Kabul and impose their reactionary rule."
     },
     {
       "year": "2001",
-      "event": "**US Invasion**: Following the 9/11 attacks, the US invades, topples the Taliban, and begins a 20-year occupation. The project aimed to remake Afghanistan into a market-based state aligned with Western interests, but ultimately ended in failure and state collapse."
+      "event": "**US Invasion & Corporate War**: Following the 9/11 attacks, the US invades, topples the Taliban, and begins a 20-year occupation. The project aimed to remake Afghanistan into a market-based state aligned with Western interests, funnelling billions into the military-industrial complex and private contractors, which ultimately ended in state collapse."
     },
     {
       "year": "2021",
-      "event": "**US Withdrawal & Taliban Takeover**: The US withdraws in a chaotic exit, leading to the collapse of the US-backed government and the Taliban's return to power."
+      "event": "**US Withdrawal & Taliban Takeover**: The US withdraws in a chaotic exit, leading to the collapse of the US-backed government and the Taliban's swift return to power."
     },
     {
       "year": "2021-Present",
-      "event": "**Economic Warfare**: The US freezes Afghanistan's $7 billion in foreign reserves, and international sanctions trigger a catastrophic economic collapse and humanitarian crisis [CEPR, 2022]."
+      "event": "**Economic Warfare**: The US freezes Afghanistan's $7 billion in foreign reserves, and international sanctions trigger a catastrophic economic collapse and humanitarian crisis, used as leverage against the Afghan people [CEPR, 2022]."
     }
   ],
   "takeAction": {
@@ -83,9 +83,10 @@
     ],
     "advocacy": [
       "Amplify the voices of Afghan women, journalists, and artists resisting gender apartheid and cultural erasure.",
-      "Demand an end to the crippling economic policies by calling for the unfreezing of Afghanistan's sovereign assets and the lifting of sanctions that are harming civilians.",
+      "Support Afghan-led civil society organisations working on the ground to deliver aid and defend human rights.",
+      "Demand an end to economic warfare: call for the unconditional and immediate return of Afghanistan's sovereign assets and the lifting of sanctions that are harming civilians.",
       "Demand safe and legal pathways for Afghan refugees fleeing persecution.",
-      "Demand accountability for the corporate contractors and war profiteers who reaped billions from the 20-year occupation."
+      "Demand accountability for the politicians, corporate contractors, and war profiteers who reaped billions from the 20-year occupation."
     ]
   }
 }

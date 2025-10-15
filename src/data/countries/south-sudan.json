@@ -2,15 +2,15 @@
   "name": "South Sudan",
   "emoji": "🇸🇸",
   "ariaLabel": "South Sudanese flag",
-  "lastUpdated": "2025-10-14",
+  "lastUpdated": "2025-10-15",
   "currentCrisisSummary": "South Sudan is gripped by a humanitarian emergency, fuelled by an elite conflict over the profits of a violent oil-extraction industry, catastrophic climate-driven flooding, and spillover from Sudan's war. These converging crises, driven by a system of kleptocracy, have left most of the population dependent on aid and facing one of the world's most severe hunger crises.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
     "legacy": "Britain's 'Southern Policy' was a divide-and-rule strategy that sealed the south off from the 'Arab' north, deliberately blocking its economic and political development. This engineered disparity created a foundation of extreme inequality that made decades of civil war almost inevitable. This weakness also ensured that any future independent state would be highly vulnerable to foreign influence and resource exploitation."
   },
   "coreTerms": {
-    "kleptocracyAndTheGlobalFinancialSystem": "The civil war is a violent struggle between political elites for control of the state, which functions primarily as a mechanism for diverting oil revenues. This system of kleptocracy is enabled by the global financial system; the ruling class uses international banks, shell companies, and the global luxury property market to launder and hide billions in stolen wealth, often using the conflict itself as a cover [The Sentry, 2019].",
-    "oilConflictAndClimateChallenges": "South Sudan's crisis is driven by two forms of extraction. Firstly, its oil industry, operated by foreign corporations (primarily Chinese, Malaysian, and Indian) in partnership with the ruling elite, directly funds the conflict. Secondly, the country suffers from extreme climate injustice. Unprecedented flooding, caused by the emissions of the industrialised Global North, has destroyed livelihoods and acts as a conflict multiplier, intensifying competition over resources."
+    "kleptocracyAndTheGlobalFinancialSystem": "The civil war is a violent struggle between political elites for control of the state, which functions primarily as a mechanism for diverting oil revenues. This system of kleptocracy is not just a local problem; it is enabled by the global financial system. The deliberate opacity of international banking, shell companies, and luxury property markets allows the ruling class to launder and hide billions in stolen wealth, often using the conflict itself as a cover [The Sentry, 2019].",
+    "oilConflictAndClimateChallenges": "South Sudan's crisis is driven by two forms of extraction. Firstly, its oil industry, operated by foreign corporations (primarily Chinese, Malaysian, and Indian) in partnership with the ruling elite, is designed to privatise profits while socialising the costs of environmental devastation and conflict onto the civilian population. Secondly, the country suffers from extreme climate injustice. Unprecedented flooding, caused by the emissions of the industrialised Global North, has destroyed livelihoods and acts as a conflict multiplier."
   },
   "humanitarianImpact": {
     "displaced": "Over 4 million people are displaced within South Sudan and as refugees, including over 2 million internally displaced by conflict and flooding [UN OCHA, 2025].",
@@ -23,7 +23,7 @@
   "timeline": [
     {
       "year": "1899-1956",
-      "event": "**Anglo-Egyptian Condominium**: Britain establishes effective colonial control over Sudan. It implements its infamous 'Southern Policy', a divide-and-rule strategy that administers the south separately from the 'Arabised' north, deliberately blocking its economic and political development and creating the deep-seated inequalities that would fuel decades of civil war."
+      "event": "**Anglo-Egyptian Condominium**: Britain establishes effective colonial control. It implements its 'Southern Policy', a divide-and-rule strategy that administers the south separately from the 'Arabised' north, deliberately blocking its development and creating the inequalities that would fuel decades of civil war."
     },
     {
       "year": "1955-1972",
@@ -35,7 +35,7 @@
     },
     {
       "year": "2005",
-      "event": "**Comprehensive Peace Agreement (CPA)**: The agreement ends the civil war, but its wealth-sharing arrangements are based almost entirely on oil revenues, entrenching the 'resource curse' from day one."
+      "event": "**Comprehensive Peace Agreement (CPA)**: The agreement ends the civil war, but its wealth-sharing arrangements, based almost entirely on oil revenues, entrench the 'resource curse' from day one."
     },
     {
       "year": "2011",
@@ -54,7 +54,7 @@
     "donate": [
       {
         "organisation": "Humanitarian Development Consortium (HDC Africa)",
-        "description": "A South Sudanese-led NGO providing emergency relief and development programs.",
+        "description": "A South Sudanese-led NGO providing emergency relief and development programmes.",
         "url": "https://www.hdcafrica.org"
       },
       {

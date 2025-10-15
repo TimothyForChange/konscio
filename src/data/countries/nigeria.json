@@ -2,15 +2,15 @@
   "name": "Nigeria",
   "emoji": "🇳🇬",
   "ariaLabel": "Nigerian flag",
-  "lastUpdated": "2025-10-14",
-  "currentCrisisSummary": "Nigeria faces multiple, overlapping humanitarian crises. In the North-East, the Boko Haram and ISWAP insurgencies have created one of Africa's most severe displacement crises. The North-West is terrorised by armed bandit groups engaged in mass kidnapping, while escalating conflict between herders and farmers deepens instability nationwide. These crises are symptoms of a fractured state, weakened by decades of neoliberal economic policies and struggling with the violent legacies of its colonial creation.",
+  "lastUpdated": "2025-10-15",
+  "currentCrisisSummary": "Nigeria faces multiple, overlapping humanitarian crises. In the North-East, the Boko Haram and ISWAP insurgencies have created one of Africa's most severe displacement crises. The North-West is terrorised by armed bandit groups engaged in mass kidnapping, while escalating conflict between herders and farmers deepens instability nationwide. These crises are symptoms of a fractured state whose primary function is to secure oil extraction for foreign capital, not to provide security for its citizens. The state's weakness is the direct result of decades of neoliberal economic policies and the violent legacies of its colonial creation.",
   "colonialRoot": {
     "colonialPower": "Britain (various protectorates, 1885-1960)",
     "legacy": "Nigeria's instability is rooted in its forced creation by Britain. The 1914 amalgamation merged over 250 distinct ethnic nationalities into a single entity without their consent, while 'divide and rule' policies institutionalised a political imbalance that created lasting fault lines for conflict. The colonial economy was primarily extractive, leaving behind a state apparatus designed for resource exploitation rather than public welfare. This model was later intensified by the discovery of oil and entrenched by neoliberal reforms."
   },
   "coreTerms": {
     "theNationalQuestion": "This refers to the unresolved contradictions inherent in the Nigerian state's colonial formation. The fundamental issue is whether the disparate peoples forcibly amalgamated by Britain can form a cohesive nation. Because control of the state's oil-funded apparatus is the primary route to wealth, political competition often becomes a violent, zero-sum contest. The state's legitimacy is therefore perpetually challenged, as its very foundations are seen as artificial and imposed.",
-    "theOilCurseAndNeocolonialExtraction": "Nigeria is a textbook case of the 'resource curse'. Vast oil wealth is extracted from the Niger Delta by multinational corporations (Shell, Eni, Chevron) in partnership with a domestic ruling class that facilitates this process. This system was entrenched by IMF and World Bank structural adjustment programs in the 1980s. These policies dismantled Nigeria's domestic industries, deepened its dependency on oil exports, and imposed austerity measures that created mass poverty, fuelling the social breakdown seen today."
+    "theOilCurseAndNeocolonialExtraction": "Nigeria is a textbook case of the 'resource curse'. Vast oil wealth is extracted from the Niger Delta by multinational corporations (Shell, Eni, Chevron) in partnership with a domestic ruling class. This system was entrenched by IMF and World Bank structural adjustment programmes in the 1980s. These policies were designed to lock Nigeria into dependency on oil exports, dismantling its domestic industries and imposing austerity that created mass poverty, fuelling the social breakdown seen today."
   },
   "humanitarianImpact": {
     "displaced": "Over 3.1 million people are internally displaced by conflict and disasters, the vast majority in the North-East [IOM, 2025].",
@@ -24,11 +24,11 @@
   "timeline": [
     {
       "year": "c. 1885",
-      "event": "**The Scramble for Africa**: Following the Berlin Conference, Britain establishes protectorates over the Niger Delta and surrounding areas to formalise its economic dominance. It grants a charter to the Royal Niger Company, which uses brutal force to monopolise the palm oil trade, laying the groundwork for the colonial state's purely extractive logic."
+      "event": "**The Scramble for Africa**: Following the Berlin Conference, Britain establishes protectorates over the Niger Delta and surrounding areas. It grants a charter to the Royal Niger Company, which uses brutal force to monopolise the palm oil trade, laying the groundwork for the colonial state's purely extractive logic."
     },
     {
       "year": "1914",
-      "event": "**Forced Amalgamation**: Britain merges the Southern and Northern Protectorates into the Colony and Protectorate of Nigeria, creating an inherently unstable political entity."
+      "event": "**Forced Amalgamation**: Britain merges the Southern and Northern Protectorates into the Colony and Protectorate of Nigeria, creating an inherently unstable political entity for administrative convenience and economic control."
     },
     {
       "year": "1960",
@@ -36,11 +36,11 @@
     },
     {
       "year": "1967-1970",
-      "event": "**Biafran War**: The Republic of Biafra's attempt to secede leads to a brutal civil war. Over 1 million civilians die, mostly from starvation caused by a Nigerian blockade supported by Britain."
+      "event": "**Biafran War**: The Republic of Biafra's attempt to secede leads to a brutal civil war. Over 1 million civilians die, mostly from starvation caused by a Nigerian blockade supported by Britain, which sought to protect its oil interests."
     },
     {
       "year": "1986",
-      "event": "**Structural Adjustment Program**: The military regime accepts an IMF/World Bank SAP, imposing harsh austerity and neoliberal reforms that dismantled public services and severely damaged the domestic economy, contributing to mass poverty."
+      "event": "**Structural Adjustment Programme**: The military regime accepts an IMF/World Bank SAP, imposing harsh austerity and neoliberal reforms that dismantled public services and severely damaged the domestic economy, contributing to mass poverty."
     },
     {
       "year": "1995",
@@ -73,7 +73,7 @@
       "Demand that oil corporations like Shell pay reparations for the ecocide in the Niger Delta and fund a community-led clean-up.",
       "Support the prosecution of corporate executives complicit in the violent suppression of environmental defenders.",
       "Support a binding global treaty to hold transnational corporations accountable for human rights and environmental crimes.",
-      "Demand debt justice and an overhaul of the IMF and World Bank, whose neoliberal programs entrench poverty."
+      "Demand debt justice and an overhaul of the IMF and World Bank, whose neoliberal programmes entrench poverty."
     ]
   }
 }

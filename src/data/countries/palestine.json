@@ -2,50 +2,46 @@
   "name": "Palestine",
   "emoji": "🇵🇸",
   "ariaLabel": "Palestinian flag",
-  "lastUpdated": "2025-10-14",
-  "currentCrisisSummary": "An intensifying humanitarian crisis across occupied Palestine, marked by mass displacement, engineered famine, and an International Court of Justice ruling on the plausibility of genocide in Gaza [ICJ, 26 January 2024]. This crisis is sustained by the unwavering geopolitical and military support of Western powers for the occupation.",
+  "lastUpdated": "2025-10-15",
+  "currentCrisisSummary": "An intensifying humanitarian catastrophe across occupied Palestine, marked by mass displacement, engineered famine, and an International Court of Justice ruling on the plausibility of genocide in Gaza [ICJ, 26 January 2024]. This crisis is sustained by the unwavering geopolitical, military, and economic support of Western powers, primarily the United States, for the occupation.",
   "imperialRoot": {
     "imperialPower": "British Empire (Mandate for Palestine, 1920-1948)",
-    "legacy": "The crisis is rooted in Britain's imperial Mandate for Palestine (1920-1948). The Balfour Declaration (1917) promised a 'national home for the Jewish people' in Palestine without the consent of the indigenous majority, exemplifying the imperial practice of determining the fate of subject peoples without their participation. British policy facilitated mass settler colonisation while suppressing Palestinian political rights, implementing a strategy of divide and rule that entrenched communal tensions. Britain's withdrawal in 1948 directly enabled the Nakba ('catastrophe'), during which over 750,000 Palestinians were ethnically cleansed to establish the state of Israel. This created a refugee crisis that continues to this day, making the ongoing Israeli occupation a direct continuation of this imperial legacy that prioritised Western geopolitical interests over Palestinian self-determination."
+    "legacy": "The crisis is rooted in Britain's imperial Mandate. The Balfour Declaration (1917) promised a 'national home for the Jewish people' in Palestine, flagrantly disregarding the rights and aspirations of the indigenous Arab majority. British policy facilitated mass Zionist colonisation while violently suppressing Palestinian resistance, implementing a strategy of divide and rule that entrenched communal tensions. Britain's withdrawal in 1948 directly enabled the Nakba ('catastrophe'), during which Zionist militias ethnically cleansed over 750,000 Palestinians to establish the state of Israel. This created a refugee crisis that continues to this day, making the ongoing Israeli occupation a direct continuation of this imperial legacy."
   },
   "coreTerms": {
-    "geopoliticalComplicity": "The occupation is sustained by Western powers, primarily the US and UK, which provide Israel with billions in unconditional military aid. This backing ensures Israel functions as a key strategic ally, projecting Western influence over Middle Eastern resources. It also serves the arms industry by providing a highly profitable, 'battle-tested' market for advanced weaponry.",
-    "settlerColonialismAndApartheid": "The crisis is driven by an ongoing process of settler colonialism, marked by the illegal expansion of settlements and the systematic dispossession of Palestinians. Leading human rights organisations (Amnesty International, Human Rights Watch, B'Tselem) now describe the system of Israeli control as apartheid. This system enables the expropriation of Palestinian land and water resources and the exploitation of a captive Palestinian labour market."
+    "geopoliticalComplicity": "The occupation is sustained by Western powers, primarily the US, UK, and Germany, which provide Israel with billions in unconditional military aid and diplomatic cover. This backing ensures Israel functions as a key strategic ally, projecting Western power over Middle Eastern resources. It also serves the arms industry by providing a highly profitable, 'battle-tested' market for advanced weaponry, effectively subsidising military corporations.",
+    "settlerColonialismAndApartheid": "The crisis is driven by an ongoing process of settler colonialism, marked by the illegal expansion of settlements and the systematic dispossession of Palestinians. Leading human rights organisations (Amnesty International, Human Rights Watch, B'Tselem) now describe the system of Israeli control as apartheid. This system is not just political but economic: it enables the expropriation of Palestinian land and water, exploits a captive Palestinian labour market, and actively prevents the development of a sovereign Palestinian economy, ensuring structural dependency."
   },
   "humanitarianImpact": {
     "displaced": "Over 1.9 million internally displaced in Gaza (nearly 90% of the population) [UN OCHA, 2024], plus ongoing displacement in the West Bank, including East Jerusalem.",
-    "refugees": "5.9 million registered Palestinian refugees, descendants of those displaced since 1948, rely on the agency for essential services [UNRWA, 2024].",
-    "casualties": "Between 64,000 [LSHTM study, The Lancet, January 2025] and 67,000 killed in Gaza since October 2023, with thousands more missing, presumed dead under the rubble.",
+    "refugees": "5.9 million registered Palestinian refugees, descendants of those displaced since 1948, rely on UNRWA for essential services [UNRWA, 2024].",
+    "casualties": "An estimated 64,000 to 67,000 people have been killed in Gaza since October 2023, with thousands more missing, presumed dead under the rubble [LSHTM study, The Lancet, January 2025].",
     "affected": "Gaza's entire population of 2.3 million faces a catastrophic humanitarian crisis, including engineered famine and the systematic dismantling of its healthcare system [UN OCHA, 2025].",
     "childrenOutOfSchool": "Over 625,000 primary and secondary school children in Gaza have no access to education due to the complete destruction of the school system [Education Cluster/UNICEF, 2024].",
-    "healthSystemCollapsed": "The healthcare system in Gaza has been systematically dismantled, with the majority of hospitals rendered non-functional and attacks on health facilities commonplace [WHO, 2025].",
+    "healthSystemCollapsed": "The healthcare system in Gaza has been systematically dismantled, with the majority of hospitals rendered non-functional and repeated attacks on health facilities commonplace [WHO, 2025].",
     "waterAccess": "The water and sanitation system has almost completely collapsed, leaving over 95% of Gaza's water contaminated and unfit for human consumption [WASH Cluster, 2024].",
     "foodInsecurity": "The entire population of Gaza is facing crisis levels of food insecurity, with over 1 million people facing catastrophic hunger (IPC Phase 5) [IPC, 2024]."
   },
   "timeline": [
     {
-      "year": "c. 1517-1917",
-      "event": "**Ottoman Rule**: For four centuries, Palestine is a province of the Ottoman Empire. It is a multi-religious and multi-ethnic society, overwhelmingly Arab, with deep economic, cultural, and political connections to the wider region, particularly Damascus and Beirut."
-    },
-    {
       "year": "1897",
-      "event": "**First Zionist Congress**: Held in Basel, Switzerland, the congress formally establishes the political Zionist movement. Its goal is to create a Jewish state in Palestine, driven by a European settler-colonial project backed by imperial powers that seeks to displace the indigenous Palestinian population."
+      "event": "**First Zionist Congress**: Held in Basel, Switzerland, the congress formally establishes the political Zionist movement. Its goal is to create a Jewish state in Palestine, driven by a European settler-colonial project that seeks to displace the indigenous Palestinian population."
     },
     {
       "year": "1917",
-      "event": "**Balfour Declaration**: Britain promises a 'national home for the Jewish people' in Palestine, disregarding the indigenous population."
+      "event": "**Balfour Declaration**: Britain, an imperial power, promises Palestine—a land that is not its own—to the Zionist movement, disregarding the indigenous population."
     },
     {
       "year": "1948",
-      "event": "**The Nakba**: Over 750,000 Palestinians are ethnically cleansed from their homes and land to establish the state of Israel."
+      "event": "**The Nakba ('Catastrophe')**: Over 750,000 Palestinians are ethnically cleansed from their homes and land by Zionist militias to establish the state of Israel."
     },
     {
       "year": "1967",
-      "event": "**Six-Day War**: Israel occupies the West Bank, Gaza Strip, and East Jerusalem, imposing military rule."
+      "event": "**The Naksa ('Setback')**: Israel occupies the West Bank, Gaza Strip, and East Jerusalem in the Six-Day War, imposing a brutal military rule that continues to this day."
     },
     {
       "year": "1993",
-      "event": "**Oslo Accords**: A flawed peace process whose economic protocols entrenched the occupation by institutionalising Palestinian dependency and preventing genuine sovereignty."
+      "event": "**Oslo Accords**: A flawed 'peace process' that entrenches the occupation by creating a Palestinian Authority with no sovereignty, institutionalising economic dependency, and serving as a cover for accelerated illegal settlement expansion."
     },
     {
       "year": "2007-Present",
@@ -53,43 +49,38 @@
     },
     {
       "year": "2018-2019",
-      "event": "**Great March of Return**: Mass civilian protests in Gaza demanding the right of return are met with lethal force by Israeli snipers, killing hundreds."
+      "event": "**Great March of Return**: Mass civilian protests in Gaza demanding the right of return are met with lethal force by Israeli snipers, killing hundreds and wounding tens of thousands."
     },
     {
       "year": "2023",
-      "event": "**October 7th**: After 16 years of a brutal Israeli blockade, Hamas leads an attack on Israel; Israel launches a devastating assault on Gaza in response, which international legal bodies are now scrutinising."
+      "event": "**October 7th**: After 16 years of a brutal Israeli blockade, Hamas leads an attack on Israel; Israel launches a devastating assault on Gaza in response, which international legal bodies are now scrutinising as a plausible genocide."
     },
     {
       "year": "2024",
-      "event": "**ICJ Plausible Genocide Ruling**: The ICJ rules it has jurisdiction and that claims of genocide in Gaza are plausible [ICJ, 26 January 2024], ordering provisional measures against Israel."
+      "event": "**ICJ Plausible Genocide Ruling**: The International Court of Justice rules that claims of genocide in Gaza are plausible, ordering provisional measures against Israel [ICJ, 26 January 2024]."
     }
   ],
   "takeAction": {
     "donate": [
       {
         "organisation": "Palestine Children's Relief Fund (PCRF)",
-        "description": "Offers free medical care for injured and sick children.",
+        "description": "A non-political, non-profit organisation that provides free medical care to injured and ill children who lack access to care within the local health system.",
         "url": "https://www.pcrf.net"
       },
       {
         "organisation": "Palestine Red Crescent Society (PRCS)",
-        "description": "The PRCS is the primary emergency service provider in Palestine, operating ambulances and delivering life-saving medical care in crisis zones. Its medics and volunteers are on the front lines, providing impartial aid to the wounded and displaced.",
+        "description": "The primary emergency service provider in Palestine, operating ambulances and delivering life-saving medical care. Its medics and volunteers provide impartial aid on the front lines.",
         "url": "https://www.palestinercs.org/en"
       },
       {
         "organisation": "UNRWA",
-        "description": "UNRWA is the primary UN agency providing essential services, including education, healthcare, and emergency aid, to millions of registered Palestinian refugees across the Middle East.",
+        "description": "The primary UN agency providing essential services, including education, healthcare, and emergency aid, to millions of registered Palestinian refugees.",
         "url": "https://www.unrwa.org"
-      },
-      {
-        "organisation": "World Food Programme (WFP)",
-        "description": "WFP is on the ground in Gaza, delivering emergency food, hot meals, and nutritional support to hundreds of thousands of people. Their work is critical in fighting the catastrophic hunger crisis and preventing famine.",
-        "url": "https://www.wfp.org/emergencies/palestine-emergency"
       }
     ],
     "advocacy": [
       "Support the Palestinian-led Boycott, Divestment, Sanctions (BDS) movement to pressure Israel to comply with international law.",
-      "Demand an end to all military aid and arms sales to Israel, which subsidise the arms industry and enable war crimes.",
+      "Demand an end to all military aid and arms sales to Israel, which enable war crimes and subsidise the global arms industry.",
       "Demand targeted sanctions on Israeli officials and entities responsible for war crimes, apartheid, and illegal settlements.",
       "Support the genocide case against Israel at the ICJ and war crimes investigations at the ICC."
     ]

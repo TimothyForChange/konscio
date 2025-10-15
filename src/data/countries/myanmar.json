@@ -2,15 +2,15 @@
   "name": "Myanmar",
   "emoji": "🇲🇲",
   "ariaLabel": "Myanmar flag",
-  "lastUpdated": "2025-10-14",
-  "currentCrisisSummary": "A nationwide pro-democracy revolution against the 2021 military coup has escalated into a full-scale civil war, triggering a humanitarian catastrophe and state collapse. This unfolds alongside the ongoing effects of the 2017 Rohingya genocide, which has forced nearly one million survivors into sprawling refugee camps in Bangladesh, creating a multi-faceted regional crisis.",
+  "lastUpdated": "2025-10-15",
+  "currentCrisisSummary": "A nationwide pro-democracy revolution against the 2021 military coup has escalated into a full-scale civil war, triggering a humanitarian catastrophe. This multi-ethnic uprising seeks to dismantle the entire system of military-led internal colonialism. The war unfolds alongside the ongoing effects of the 2017 Rohingya genocide, which has forced nearly one million survivors into sprawling refugee camps in Bangladesh, creating a multi-faceted regional crisis.",
   "colonialRoot": {
     "colonialPower": "British Empire (1824-1948)",
     "legacy": "British rule was built on a 'divide-and-rule' strategy that profoundly altered pre-colonial societal structures. The British created and racialised ethnic categories, administering the Bamar heartland separately from the 'Frontier Areas' of ethnic minorities. They strategically employed minorities like the Karen, Kachin, and Chin in the colonial army to suppress the Bamar majority, a policy which fostered deep inter-ethnic resentment. By institutionalising these ethnic hierarchies, Britain left a legacy of a fractured state, laying the groundwork for the world's longest-running civil wars."
   },
   "coreTerms": {
-    "militaryCapitalismAndCorporateComplicity": "The Tatmadaw functions as both a military and a vast economic enterprise. Through its conglomerates, it controls huge swathes of the economy, enriching a small class of generals. The 2021 coup is widely seen as a move to protect this business empire from democratic oversight. This system of military capitalism, which treats ethnic states as resource colonies to be plundered, is a direct continuation of the British colonial economic model.",
-    "militaryRuleAsInternalColonialism": "The Tatmadaw's rule over ethnic minority regions functions as a form of internal colonialism. It uses extreme violence to control these peripheries to exploit their natural resources. The Rohingya genocide is the most extreme manifestation of this system, which weaponises the racial hierarchies established during British rule to justify exclusion and persecution. A UN fact-finding mission found that the military's actions displayed 'genocidal intent'."
+    "militaryCapitalismAndCorporateComplicity": "The Tatmadaw functions as both a military and a vast economic enterprise. Through its conglomerates, it controls huge swathes of the economy, enriching a small class of generals. This system of military capitalism, which treats ethnic states as resource colonies to be plundered, is a direct continuation of the British colonial economic model. For decades, international corporations, particularly in the oil and gas sector (e.g., TotalEnergies, Chevron), have been complicit in this system, providing the junta with a key source of revenue and legitimacy.",
+    "militaryRuleAsInternalColonialism": "The Tatmadaw's rule over ethnic minority regions functions as a form of internal colonialism. It uses extreme violence to control these peripheries to exploit their natural resources (timber, jade, gas). The Rohingya genocide is the most extreme manifestation of this system, which weaponises the racial hierarchies established during British rule to justify exclusion, dispossession, and persecution. A UN fact-finding mission found that the military's actions displayed 'genocidal intent'."
   },
   "humanitarianImpact": {
     "displaced": "Over 3.5 million people internally displaced since the 2021 coup [UN OCHA, February 2025], with millions more displaced by decades of prior conflict.",
@@ -35,7 +35,7 @@
     },
     {
       "year": "1990",
-      "event": "**Military Conglomerates Formed**: The junta establishes the military-owned conglomerates MEHL and MEC, formalising its capture of the national economy."
+      "event": "**Military Conglomerates Formed**: The junta establishes the military-owned conglomerates Myanma Economic Holdings Limited (MEHL) and Myanmar Economic Corporation (MEC), formalising its capture of the national economy."
     },
     {
       "year": "2017",
@@ -47,7 +47,7 @@
     },
     {
       "year": "2023-Present",
-      "event": "**Operation 1027**: A coordinated offensive by ethnic armies inflicts unprecedented defeats on the junta, shifting the civil war's momentum."
+      "event": "**Operation 1027**: A coordinated offensive by ethnic armies inflicts unprecedented defeats on the junta, shifting the civil war's momentum and challenging the military's grip on power."
     }
   ],
   "takeAction": {
@@ -74,7 +74,8 @@
       }
     ],
     "advocacy": [
-      "Demand comprehensive sanctions on the junta's economic interests, targeting the Myanma Oil and Gas Enterprise (MOGE) and aviation fuel suppliers.",
+      "Demand comprehensive sanctions on the junta's economic interests, especially the Myanma Oil and Gas Enterprise (MOGE) and its military conglomerates (MEHL and MEC).",
+      "Demand sanctions on the supply of aviation fuel to stop the junta's indiscriminate air strikes on civilian targets.",
       "Demand a comprehensive global arms embargo to stop the flow of weapons and military technology to the junta.",
       "Support Rohingya demands for justice, citizenship, and a safe, dignified, and voluntary return, and back the genocide case against Myanmar at the ICJ."
     ]
