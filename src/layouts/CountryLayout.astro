@@ -69,21 +69,24 @@ const canonicalUrl = `https://www.timothyforchange.co.za/${encodeURIComponent(sa
 
         {
           countryData?.colonialRoot &&
-            typeof countryData.colonialRoot === 'object' && (
+            typeof countryData.colonialRoot === 'object' &&
+            !Array.isArray(countryData.colonialRoot) && (
               <ColonialSection colonialRoot={countryData.colonialRoot} />
             )
         }
 
         {
           countryData?.imperialRoot &&
-            typeof countryData.imperialRoot === 'object' && (
+            typeof countryData.imperialRoot === 'object' &&
+            !Array.isArray(countryData.imperialRoot) && (
               <ImperialLegacy imperialRoot={countryData.imperialRoot} />
             )
         }
 
         {
           countryData?.coreTerms &&
-            typeof countryData.coreTerms === 'object' && (
+            typeof countryData.coreTerms === 'object' &&
+            !Array.isArray(countryData.coreTerms) && (
               <HistoricalContext
                 coreTerms={countryData.coreTerms}
                 countrySlug={safeCountrySlug}

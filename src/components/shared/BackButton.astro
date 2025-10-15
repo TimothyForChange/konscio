@@ -1,4 +1,6 @@
 ---
+import { isString } from 'radash';
+
 export interface Props {
   href?: string;
   class?: string;
@@ -6,12 +8,12 @@ export interface Props {
 
 const { href = '/', class: className = '' } = Astro.props;
 
-const sanitizedHref =
-  href && typeof href === 'string'
-    ? href.startsWith('/') || href.startsWith('http')
-      ? href
-      : '/'
-    : '/';
+const safeHref = isString(href) ? href : '';
+const sanitizedHref = safeHref
+  ? safeHref.startsWith('/') || safeHref.startsWith('http')
+    ? safeHref
+    : '/'
+  : '/';
 ---
 
 <a href={sanitizedHref} class={`back-button ${className} focus-strong`}>

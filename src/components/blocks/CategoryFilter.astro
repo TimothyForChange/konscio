@@ -1,4 +1,6 @@
 ---
+import { isArray, isString } from 'radash';
+
 export interface CategoryFilterProps {
   categories: string[];
   activeCategory?: string;
@@ -7,17 +9,17 @@ export interface CategoryFilterProps {
 const { categories, activeCategory = 'All' } =
   Astro.props as CategoryFilterProps;
 
-const safeCategories = Array.isArray(categories)
-  ? categories.filter((cat) => typeof cat === 'string' && cat.trim() !== '')
-  : [];
+const safeCategories = isArray(categories) ? categories : [];
+const filteredCategories = safeCategories.filter(
+  (cat) => isString(cat) && cat.trim() !== ''
+);
 
-const safeActiveCategory =
-  typeof activeCategory === 'string' ? activeCategory : 'All';
+const safeActiveCategory = isString(activeCategory) ? activeCategory : 'All';
 ---
 
 <div class='category-filters' id='category-filters'>
   {
-    safeCategories.map((category) => (
+    filteredCategories.map((category) => (
       <button
         class={`category-btn ${category === safeActiveCategory ? 'active' : ''}`}
         data-category={category}

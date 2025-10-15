@@ -1,4 +1,5 @@
 ---
+import { isArray } from 'radash';
 import TimelineItem from '../ui/TimelineItem.astro';
 
 interface TimelineEvent {
@@ -12,7 +13,8 @@ interface Props {
 
 const { timeline } = Astro.props as Props;
 
-if (!timeline || !Array.isArray(timeline) || timeline.length === 0) {
+const safeTimeline = isArray(timeline) ? timeline : [];
+if (safeTimeline.length === 0) {
   return null;
 }
 ---

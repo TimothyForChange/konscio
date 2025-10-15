@@ -1,4 +1,5 @@
 ---
+import { isObject, isString } from 'radash';
 import { formatText } from '../../utils/utils';
 
 export interface Props {
@@ -10,25 +11,19 @@ export interface Props {
 
 const { colonialRoot } = Astro.props as Props;
 
-if (
-  !colonialRoot ||
-  typeof colonialRoot !== 'object' ||
-  Array.isArray(colonialRoot)
-) {
-  return null;
-}
+const safeColonialRoot = isObject(colonialRoot) ? colonialRoot : {};
 
-const hasData = colonialRoot.colonialPower || colonialRoot.legacy;
+const hasData = safeColonialRoot.colonialPower || safeColonialRoot.legacy;
 if (!hasData) {
   return null;
 }
 
-const safeColonialPower =
-  typeof colonialRoot.colonialPower === 'string'
-    ? colonialRoot.colonialPower
-    : '';
-const safeLegacy =
-  typeof colonialRoot.legacy === 'string' ? colonialRoot.legacy : '';
+const safeColonialPower = isString(safeColonialRoot.colonialPower)
+  ? safeColonialRoot.colonialPower
+  : '';
+const safeLegacy = isString(safeColonialRoot.legacy)
+  ? safeColonialRoot.legacy
+  : '';
 ---
 
 <section class='colonial-section' aria-labelledby='colonial-heading'>

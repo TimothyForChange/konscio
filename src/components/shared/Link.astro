@@ -1,5 +1,6 @@
 ---
 import 'remixicon/fonts/remixicon.css';
+import { isString } from 'radash';
 
 export interface Props {
   icon?: string;
@@ -11,8 +12,8 @@ export interface Props {
 
 const { icon, title, description, url } = Astro.props as Props;
 
-const safeTitle = title && typeof title === 'string' ? title : '';
-const safeUrl = url && typeof url === 'string' ? url : '';
+const safeTitle = isString(title) ? title : '';
+const safeUrl = isString(url) ? url : '';
 
 if (!safeTitle || !safeUrl) {
   return null;
@@ -21,7 +22,7 @@ if (!safeTitle || !safeUrl) {
 const sanitizedUrl = safeUrl.startsWith('http')
   ? safeUrl
   : `https://${safeUrl}`;
-const iconClass = icon && typeof icon === 'string' ? `ri-${icon}` : 'ri-link';
+const iconClass = isString(icon) ? `ri-${icon}` : 'ri-link';
 ---
 
 <a href={sanitizedUrl} class='link' target='_blank' rel='noopener noreferrer'>

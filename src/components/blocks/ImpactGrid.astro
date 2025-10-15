@@ -1,4 +1,5 @@
 ---
+import { isArray, isObject, isString } from 'radash';
 import ImpactStat from '../ui/ImpactStat.astro';
 
 export interface Props {
@@ -7,18 +8,16 @@ export interface Props {
 
 const { stats } = Astro.props as Props;
 
-const safeStats = Array.isArray(stats)
+const safeStats = isArray(stats)
   ? stats
-      .filter(
-        (stat) => stat && typeof stat === 'object' && stat.label && stat.value
-      )
+      .filter((stat) => stat && isObject(stat) && stat.label && stat.value)
       .map((stat) => ({
-        label: typeof stat.label === 'string' ? stat.label : 'Label',
-        value: typeof stat.value === 'string' ? stat.value : '—',
+        label: isString(stat.label) ? stat.label : 'Label',
+        value: isString(stat.value) ? stat.value : '—',
       }))
   : [];
 
-if (!safeStats || safeStats.length === 0) {
+if (safeStats.length === 0) {
   return null;
 }
 ---

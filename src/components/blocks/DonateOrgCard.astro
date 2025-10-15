@@ -1,4 +1,5 @@
 ---
+import { isString } from 'radash';
 import type * as CountryTypes from '../../types/country';
 
 export interface DonateOrgCardProps extends Partial<CountryTypes.Organisation> {
@@ -7,12 +8,12 @@ export interface DonateOrgCardProps extends Partial<CountryTypes.Organisation> {
 const { organisation, description, url } = Astro.props as DonateOrgCardProps;
 
 const safeOrganisation =
-  typeof organisation === 'string' && organisation.trim() !== ''
+  isString(organisation) && organisation.trim() !== ''
     ? organisation
     : 'Organisation';
-const safeDescription = typeof description === 'string' ? description : '';
+const safeDescription = isString(description) ? description : '';
 const safeUrl =
-  typeof url === 'string' && url.trim() !== ''
+  isString(url) && url.trim() !== ''
     ? url.startsWith('http')
       ? url
       : `https://${url}`

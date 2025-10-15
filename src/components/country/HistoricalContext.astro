@@ -1,4 +1,5 @@
 ---
+import { isObject, isString } from 'radash';
 import { formatTermKey, formatText } from '../../utils/utils';
 
 export interface Props {
@@ -8,15 +9,12 @@ export interface Props {
 
 const { coreTerms, countrySlug } = Astro.props as Props;
 
-const safeCountrySlug = typeof countrySlug === 'string' ? countrySlug : '';
+const safeCountrySlug = isString(countrySlug) ? countrySlug : '';
 if (!safeCountrySlug) {
   return null;
 }
 
-const safeCoreTerms =
-  coreTerms && typeof coreTerms === 'object' && !Array.isArray(coreTerms)
-    ? coreTerms
-    : {};
+const safeCoreTerms = isObject(coreTerms) ? coreTerms : {};
 
 const hasTerms = Object.keys(safeCoreTerms).length > 0;
 if (!hasTerms) {
@@ -24,7 +22,7 @@ if (!hasTerms) {
 }
 
 const hasContent = Object.values(safeCoreTerms).some(
-  (value) => typeof value === 'string' && value.trim() !== ''
+  (value) => isString(value) && value.trim() !== ''
 );
 if (!hasContent) {
   return null;
@@ -38,8 +36,8 @@ if (!hasContent) {
     Object.entries(safeCoreTerms)
       .filter(
         ([key, value]) =>
-          typeof key === 'string' &&
-          typeof value === 'string' &&
+          isString(key) &&
+          isString(value) &&
           key.trim() !== '' &&
           value.trim() !== ''
       )
