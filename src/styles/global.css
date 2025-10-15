@@ -267,6 +267,10 @@ html::-webkit-scrollbar-corner {
   outline-offset: 2px;
 }
 
+#container:focus {
+  outline: none;
+}
+
 .visually-hidden {
   position: absolute !important;
   height: 1px;

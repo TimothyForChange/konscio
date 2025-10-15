@@ -6,9 +6,9 @@ import Link from '../shared/Link.astro';
 const items: ResourceLink[] = (missionData as Mission).links || [];
 ---
 
-<section class='links-section'>
-  <h2 class='links-heading'>Links</h2>
-  <ul class='list' id='list'>
+<section class='links-section' aria-labelledby='links-heading'>
+  <h2 id='links-heading' class='links-heading'>Links</h2>
+  <ul class='list' id='list' role='list'>
     {
       items.map((item: ResourceLink, index: number) => (
         <li class={`list-animated`} style={`--i:${index}`}>

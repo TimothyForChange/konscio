@@ -27,12 +27,12 @@ const categories = [
 const allCategories = ['All', ...categories];
 ---
 
-<section class='causes-section'>
-  <h2 class='causes-heading'>Supporting Communities In</h2>
+<section class='causes-section' aria-labelledby='causes-heading'>
+  <h2 id='causes-heading' class='causes-heading'>Supporting Communities In</h2>
 
   <CategoryFilter categories={allCategories} activeCategory='All' />
 
-  <div class='countries-grid' id='countries-grid'>
+  <ul class='countries-grid' id='countries-grid' role='list'>
     {
       validCountries.map((country, index) => (
         <CountryCard
@@ -54,7 +54,7 @@ const allCategories = ['All', ...categories];
         />
       ))
     }
-  </div>
+  </ul>
 </section>
 
 <script is:inline>

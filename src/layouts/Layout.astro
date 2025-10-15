@@ -103,7 +103,7 @@ const pageCanonicalUrl = canonicalUrl || 'https://www.timothyforchange.co.za/';
 ---
 
 <!doctype html>
-<html lang='en-GB'>
+<html lang='en'>
   <head>
     <meta charset='UTF-8' />
     <meta name='description' content={pageDescription} />
@@ -138,5 +138,21 @@ const pageCanonicalUrl = canonicalUrl || 'https://www.timothyforchange.co.za/';
     <a class='skip-link' href='#container'>Skip to main content</a>
     <slot />
     <Footer />
+    <script is:inline>
+      document.addEventListener('DOMContentLoaded', () => {
+        // Add focus management for skip link
+        const skipLink = document.querySelector('.skip-link');
+        if (skipLink) {
+          skipLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            const target = document.getElementById('container');
+            if (target) {
+              target.focus();
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          });
+        }
+      });
+    </script>
   </body>
 </html>

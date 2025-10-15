@@ -25,7 +25,13 @@ const sanitizedUrl = safeUrl.startsWith('http')
 const iconClass = isString(icon) ? `ri-${icon}` : 'ri-link';
 ---
 
-<a href={sanitizedUrl} class='link' target='_blank' rel='noopener noreferrer'>
+<a
+  href={sanitizedUrl}
+  class='link'
+  target='_blank'
+  rel='noopener noreferrer'
+  aria-label={`${safeTitle} (opens in new tab)`}
+>
   <span class='link-icon' aria-hidden='true'>
     <i class={iconClass} aria-hidden='true'></i>
   </span>

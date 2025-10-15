@@ -14,17 +14,22 @@ const safeDescription = description || '';
 const safeCategory = category || '';
 ---
 
-<a href={`/${safeSlug}`} class='country-card' data-category={safeCategory}>
+<a
+  href={`/${safeSlug}`}
+  class='country-card'
+  data-category={safeCategory}
+  role='listitem'
+  aria-label={`Learn about ${safeName}. ${safeDescription ? safeDescription : ''}`}
+>
   {
     flag ? (
-      <>
-        <span class='country-flag' aria-hidden='true'>
-          {flag}
-        </span>
-        <span class='visually-hidden'>Flag of {safeName}</span>
-      </>
+      <span class='country-flag' aria-hidden='true'>
+        {flag}
+      </span>
     ) : (
-      <span class='visually-hidden'>No flag available for {safeName}</span>
+      <span class='country-flag-placeholder' aria-hidden='true'>
+        🌍
+      </span>
     )
   }
   <div class='country-info'>

@@ -16,7 +16,11 @@ const sanitizedHref = safeHref
   : '/';
 ---
 
-<a href={sanitizedHref} class={`back-button ${className} focus-strong`}>
+<a
+  href={sanitizedHref}
+  class={`back-button ${className} focus-strong`}
+  aria-label='Go back to previous page'
+>
   <i class='ri-arrow-left-long-line' aria-hidden='true'></i>
   Back to Home
 </a>

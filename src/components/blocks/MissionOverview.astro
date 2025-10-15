@@ -10,9 +10,9 @@ const {
 } = mission;
 ---
 
-<header class='mission'>
+<section class='mission' aria-labelledby='mission-name'>
   <div class='mission-content'>
-    <h1 class='mission-name'>{name}</h1>
+    <h1 id='mission-name' class='mission-name'>{name}</h1>
     {missionStatement && <p class='mission-profession'>{missionStatement}</p>}
 
     {
@@ -23,7 +23,7 @@ const {
       )
     }
   </div>
-</header>
+</section>
 
 <style>
   .mission {

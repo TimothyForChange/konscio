@@ -29,8 +29,12 @@ const advocacyData = isArray(safeTakeAction.advocacy)
   : [];
 ---
 
-<section class='action-section' {...id ? { id } : {}}>
-  <h2>How You Can Help</h2>
+<section
+  class='action-section'
+  {...id ? { id } : {}}
+  aria-labelledby='how-you-can-help'
+>
+  <h2 id='how-you-can-help'>How You Can Help</h2>
 
   {
     donateData.length > 0 && (
