@@ -13,12 +13,12 @@
     "militaryRuleAndEthnicMinorities": "The Tatmadaw's rule over ethnic minority regions has been described as a form of internal colonialism. It uses violence to control these peripheral areas and exploit their natural resources (timber, jade, gas). The 2017 Rohingya crisis is the most extreme manifestation of this system, which uses ethnic hierarchies established during British rule to justify exclusion, dispossession, and persecution. A UN fact-finding mission found that the military's actions displayed 'genocidal intent'."
   },
   "humanitarianImpact": {
-    "displaced": "Over 3.5 million people internally displaced since the 2021 coup [UN OCHA, February 2025], with millions more displaced by decades of prior conflict.",
-    "refugees": "Nearly 1 million Rohingya refugees, survivors of the 2017 genocide, remain in overcrowded camps in Bangladesh, living in precarious conditions with no legal status or prospect for a safe return [UNHCR, 2024-2025].",
-    "casualties": "Over 6,000 civilians confirmed killed by the junta since the coup [UN OHCHR, December 2024], though the total conflict death toll since 2021 is estimated to be over 50,000.",
-    "affected": "18.6 million people—one-third of the population—require urgent humanitarian aid as the economy and healthcare system collapse [UN OHCHR, September 2024].",
-    "childrenOutOfSchool": "Over 1.5 million children have had their education disrupted due to conflict and military occupation of schools [Education Cluster, 2024].",
-    "healthSystemCollapsed": "The public healthcare system has collapsed due to systematic military attacks and health workers joining the pro-democracy Civil Disobedience Movement [Physicians for Human Rights, 2024]."
+    "displaced": "Over 3.5 million people internally displaced since the 2021 coup, with millions more displaced by decades of prior conflict.",
+    "refugees": "Nearly 1 million Rohingya refugees, survivors of the 2017 genocide, remain in overcrowded camps in Bangladesh, living in precarious conditions with no legal status or prospect for a safe return.",
+    "casualties": "Over 6,000 civilians confirmed killed by the junta since the coup, though the total conflict death toll since 2021 is estimated to be over 50,000.",
+    "affected": "18.6 million people—one-third of the population—require urgent humanitarian aid as the economy and healthcare system collapse.",
+    "childrenOutOfSchool": "Over 1.5 million children have had their education disrupted due to conflict and military occupation of schools.",
+    "healthSystemCollapsed": "The public healthcare system has collapsed due to systematic military attacks and health workers joining the pro-democracy Civil Disobedience Movement."
   },
   "timeline": [
     {
@@ -80,21 +80,21 @@
       "Support Rohingya demands for justice, citizenship, and a safe, dignified, and voluntary return, and support the genocide case against Myanmar at the ICJ."
     ]
   },
-  "sources": [
+  "reading": [
     {
-      "title": "The Rohingya Crisis",
-      "url": "https://www.amazon.com/Rohingya-Crisis-Humanitarian-Catastrophe/dp/0190915880",
-      "description": "A comprehensive analysis of the Rohingya genocide and the military's role in Myanmar's ethnic conflicts."
+      "title": "The River of Lost Footsteps: A Personal History of Burma",
+      "url": "https://www.goodreads.com/book/show/28122.The_River_of_Lost_Footsteps",
+      "description": "Written by historian Thant Myint-U, this book provides a sweeping yet personal history of Myanmar, skillfully weaving together the country's complex past and present."
     },
     {
-      "title": "The River of Lost Footsteps",
-      "url": "https://www.amazon.com/River-Lost-Footsteps-Thant-Myint-U/dp/0865477406",
-      "description": "Thant Myint-U's history of Myanmar from ancient times to the present."
+      "title": "Burma's Spring: A Story of Revolution, Resistance, and the New Struggle for a New Nation",
+      "url": "https://www.goodreads.com/book/show/124765922-burma-s-spring",
+      "description": "Journalist Jason Szep offers a compelling narrative of the 2021 revolution, drawing on extensive reporting to tell the story of the popular uprising against military rule."
     },
     {
-      "title": "From the Land of Green Ghosts",
-      "url": "https://www.amazon.com/Land-Green-Ghosts-Pascal-Todd/dp/0156031230",
-      "description": "Pascal Khoo Thwe's memoir of growing up in Burma and the country's struggle for democracy."
+      "title": "From the Land of Green Ghosts: A Burmese Odyssey",
+      "url": "https://www.goodreads.com/book/show/85149.From_the_Land_of_Green_Ghosts",
+      "description": "A powerful memoir by Pascal Khoo Thwe that offers a rare glimpse into the life of the Padaung people and the broader struggle of ethnic minorities against the central government."
     }
   ]
 }

@@ -9,18 +9,18 @@
     "legacy": "The roots of the crisis lie in the international reaction to Haiti's successful revolution (1791-1804). The world's first Black republic was diplomatically isolated and economically pressured. In 1825, under the threat of military invasion, France imposed a significant 'indemnity' on Haiti to compensate former slaveholders. This indemnity, financed through French banks, is an example of post-colonial economic pressure: it forced the new nation to pay for its freedom, creating a cycle of debt that drained the state's wealth for over a century and undermined its development from the very beginning."
   },
   "coreTerms": {
-    "postColonialDebtAndExtraction": "The 1825 indemnity established a model of post-colonial control through debt. By forcing Haiti to pay its former colonisers a sum estimated to be worth over $21 billion today [The New York Times, 2022], France placed the new nation in a state of financial dependency. This policy contributed to chronic underdevelopment, creating a cycle of foreign debt and external control that has shaped Haiti's entire history, ensuring wealth flowed out of the country rather than being invested in its people.",
-    "foreignInterventionAndOccupation": "Subsequent foreign interventions have consistently undermined Haitian sovereignty. During the US occupation (1915-1934), US Marines transferred Haiti's gold reserves to New York banks and rewrote the constitution to permit foreign land ownership. More recent interventions have promoted economic policies associated with the 'Washington Consensus', such as slashing tariffs on imported US rice, which damaged local agriculture, created food dependency, and privatised state assets, often benefiting foreign capital. These actions weakened Haitian-led institutions, a process compounded by the introduction of a deadly cholera epidemic by UN peacekeepers in 2010 [UN, Alston Report, 2016]."
+    "postColonialDebtAndExtraction": "The 1825 indemnity established a model of post-colonial control through debt. By forcing Haiti to pay its former colonisers a sum estimated to be worth over $21 billion today, France placed the new nation in a state of financial dependency. This policy contributed to chronic underdevelopment, creating a cycle of foreign debt and external control that has shaped Haiti's entire history, ensuring wealth flowed out of the country rather than being invested in its people.",
+    "foreignInterventionAndOccupation": "Subsequent foreign interventions have consistently undermined Haitian sovereignty. During the US occupation (1915-1934), US Marines transferred Haiti's gold reserves to New York banks and rewrote the constitution to permit foreign land ownership. More recent interventions have promoted economic policies associated with the 'Washington Consensus', such as slashing tariffs on imported US rice, which damaged local agriculture, created food dependency, and privatised state assets, often benefiting foreign capital. These actions weakened Haitian-led institutions, a process compounded by the introduction of a deadly cholera epidemic by UN peacekeepers in 2010."
   },
   "humanitarianImpact": {
-    "displaced": "Over 578,000 people are internally displaced by extreme violence, the majority women and children [IOM, 2024].",
+    "displaced": "Over 578,000 people are internally displaced by extreme violence, the majority women and children.",
     "refugees": "Hundreds of thousands of Haitians have been forced to flee the country, often facing racist and violent border policies in the Dominican Republic and the United States.",
-    "casualties": "More than 2,500 people were killed or injured due to gang violence in the first quarter of 2024 alone [UN OHCHR, 2024].",
-    "affected": "An estimated 5.5 million people—nearly half the population—require humanitarian assistance to survive [UN OCHA, 2025].",
-    "childrenOutOfSchool": "Over half a million children are out of school in the Port-au-Prince metropolitan area alone due to insecurity [Education Cluster, 2024].",
-    "healthSystemCollapsed": "The healthcare system is on the verge of collapse, with many facilities closed or inaccessible due to violence and shortages [WHO, 2024].",
-    "foodInsecurity": "Nearly 5 million people face acute food insecurity (IPC Phase 3 or above), with over 1.6 million at emergency levels (IPC Phase 4) [WFP/IPC, 2024].",
-    "waterAccess": "More than one-third of the population lacks access to basic drinking water services [WASH Cluster, 2024]."
+    "casualties": "More than 2,500 people were killed or injured due to gang violence in the first quarter of 2024 alone.",
+    "affected": "An estimated 5.5 million people—nearly half the population—require humanitarian assistance to survive.",
+    "childrenOutOfSchool": "Over half a million children are out of school in the Port-au-Prince metropolitan area alone due to insecurity.",
+    "healthSystemCollapsed": "The healthcare system is on the verge of collapse, with many facilities closed or inaccessible due to violence and shortages.",
+    "foodInsecurity": "Nearly 5 million people face acute food insecurity, with over 1.6 million at emergency levels.",
+    "waterAccess": "More than one-third of the population lacks access to basic drinking water services."
   },
   "timeline": [
     {
@@ -33,7 +33,7 @@
     },
     {
       "year": "1825",
-      "event": "**French Indemnity**: Threatened by warships, Haiti is forced to begin paying a large debt to France for its freedom, a debt financed by French banks that took over a century to pay off [The New York Times, 2022]."
+      "event": "**French Indemnity**: Threatened by warships, Haiti is forced to begin paying a large debt to France for its freedom, a debt financed by French banks that took over a century to pay off."
     },
     {
       "year": "1915-1934",
@@ -49,7 +49,7 @@
     },
     {
       "year": "2010",
-      "event": "**Devastating Earthquake**: Kills over 200,000 people. The subsequent foreign aid response led to what some call 'disaster capitalism', where aid efforts often bypassed Haitian institutions and benefited NGOs and foreign contractors [CEPR, 2014]."
+      "event": "**Devastating Earthquake**: Kills over 200,000 people. The subsequent foreign aid response led to what some call 'disaster capitalism', where aid efforts often bypassed Haitian institutions and benefited NGOs and foreign contractors."
     },
     {
       "year": "2021",
@@ -80,21 +80,21 @@
       "Advocate for reparations and full accountability from the UN for its role in the 2010s cholera epidemic."
     ]
   },
-  "sources": [
+  "reading": [
     {
-      "title": "The Black Jacobins",
-      "url": "https://www.amazon.com/Black-Jacobins-Toussaint-Louverture-Revolution/dp/0679724672",
-      "description": "C.L.R. James' classic account of the Haitian Revolution and its global significance."
+      "title": "The Black Jacobins: Toussaint L'Ouverture and the San Domingo Revolution",
+      "url": "https://www.goodreads.com/book/show/77603.The_Black_Jacobins",
+      "description": "C. L. R. James's seminal history of the Haitian Revolution, a foundational text of postcolonial studies."
     },
     {
       "title": "The Uses of Haiti",
-      "url": "https://www.amazon.com/Uses-Haiti-Paul-Farmer/dp/1583671512",
-      "description": "Paul Farmer's examination of Haiti's history of foreign intervention and exploitation."
+      "url": "https://www.goodreads.com/book/show/15966.The_Uses_of_Haiti",
+      "description": "Paul Farmer's classic and searing critique of U.S. foreign policy and intervention in Haiti over the 20th century."
     },
     {
       "title": "Haiti: The Aftershocks of History",
-      "url": "https://www.amazon.com/Haiti-Aftershocks-History-Laurent-Dubois/dp/1250078011",
-      "description": "Laurent Dubois' history of Haiti from the revolution to the present day."
+      "url": "https://www.goodreads.com/book/show/12341203-haiti",
+      "description": "Laurent Dubois provides a comprehensive and accessible history of Haiti, from the revolution to the aftermath of the 2010 earthquake."
     }
   ]
 }

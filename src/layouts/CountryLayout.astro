@@ -1,12 +1,12 @@
 ---
 import { isEmpty } from 'radash';
+import AdditionalReading from '../components/country/AdditionalReading.astro';
 import Colonial from '../components/country/Colonial.astro';
 import CountryHeader from '../components/country/CountryHeader.astro';
 import Crisis from '../components/country/Crisis.astro';
 import HistoricalContext from '../components/country/HistoricalContext.astro';
 import HumanitarianImpact from '../components/country/HumanitarianImpact.astro';
 import ImperialLegacy from '../components/country/ImperialLegacy.astro';
-import Sources from '../components/country/Sources.astro';
 import TakeAction from '../components/country/TakeAction.astro';
 import Timeline from '../components/country/Timeline.astro';
 import BackButton from '../components/shared/BackButton.astro';
@@ -128,10 +128,10 @@ const articleSchema = {
         }
 
         {
-          countryData?.sources &&
-            Array.isArray(countryData.sources) &&
-            countryData.sources.length > 0 && (
-              <Sources sources={countryData.sources} id='sources' />
+          countryData?.reading &&
+            Array.isArray(countryData.reading) &&
+            countryData.reading.length > 0 && (
+              <AdditionalReading reading={countryData.reading} id='sources' />
             )
         }
 

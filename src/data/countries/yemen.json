@@ -10,17 +10,17 @@
   },
   "coreTerms": {
     "geopoliticalChokepointAndGlobalTrade": "The war is a struggle to control one of the most critical chokepoints for global trade: the Bab-el-Mandeb strait. This sea lane is a vital artery for oil tankers and container ships. Regional powers like Saudi Arabia and the UAE, with Western backing, seek to control Yemen's coastline to have influence over this strategic node. This demonstrates how the geography of global trade can become a site of intense geopolitical conflict.",
-    "armsTradeAndInternationalInvolvement": "The proxy war is enabled and sustained by the international arms trade. The US and UK are not just allies of the Saudi-led coalition; they are its primary arms suppliers. Companies like BAE Systems, Raytheon, and Lockheed Martin have secured billions in profits from selling bombs, jets, and logistical support used in Yemen [CAAT, 2023]. Critics argue this material support makes Western governments complicit in the coalition's alleged war crimes, and that it prioritises arms industry profits over international law."
+    "armsTradeAndInternationalInvolvement": "The proxy war is enabled and sustained by the international arms trade. The US and UK are not just allies of the Saudi-led coalition; they are its primary arms suppliers. Companies like BAE Systems, Raytheon, and Lockheed Martin have secured billions in profits from selling bombs, jets, and logistical support used in Yemen. Critics argue this material support makes Western governments complicit in the coalition's alleged war crimes, and that it prioritises arms industry profits over international law."
   },
   "humanitarianImpact": {
-    "displaced": "Over 4.5 million people have been internally displaced, many forced to flee multiple times [UN OCHA, 2024].",
-    "refugees": "Nearly 100,000 Yemenis have become refugees and asylum seekers, particularly in the Horn of Africa [UNHCR, 2024].",
-    "casualties": "An estimated 377,000 people had died by the end of 2021 from both direct causes (fighting) and indirect causes (famine, disease) [UNDP, 2021]. The death toll has continued to climb.",
-    "affected": "An estimated 18.2 million people require urgent humanitarian assistance [UN OCHA, 2024].",
-    "childrenOutOfSchool": "Over 2 million children are out of school, with thousands of schools destroyed or damaged [UNICEF, 2024].",
-    "healthSystemCollapsed": "Only half of all health facilities are fully functional, leaving millions without access to basic care [WHO, 2024].",
-    "foodInsecurity": "An estimated 17 million people face acute food insecurity, with millions at emergency levels of hunger [WFP/IPC, 2024].",
-    "waterAccess": "More than 15 million people lack access to safe drinking water and sanitation, fuelling outbreaks of diseases like cholera [WASH Cluster, 2024]."
+    "displaced": "Over 4.5 million people have been internally displaced, many forced to flee multiple times.",
+    "refugees": "Nearly 100,000 Yemenis have become refugees and asylum seekers, particularly in the Horn of Africa.",
+    "casualties": "An estimated 377,000 people had died by the end of 2021 from both direct causes (fighting) and indirect causes (famine, disease). The death toll has continued to climb.",
+    "affected": "An estimated 18.2 million people require urgent humanitarian assistance.",
+    "childrenOutOfSchool": "Over 2 million children are out of school, with thousands of schools destroyed or damaged.",
+    "healthSystemCollapsed": "Only half of all health facilities are fully functional, leaving millions without access to basic care.",
+    "foodInsecurity": "An estimated 17 million people face acute food insecurity, with millions at emergency levels of hunger.",
+    "waterAccess": "More than 15 million people lack access to safe drinking water and sanitation, fuelling outbreaks of diseases like cholera."
   },
   "timeline": [
     {
@@ -49,7 +49,7 @@
     },
     {
       "year": "2016-Present",
-      "event": "**Humanitarian Catastrophe**: The conflict escalates into a protracted war of attrition and a blockade, creating what the UN has repeatedly called the world's worst humanitarian crisis [UN, 2023]."
+      "event": "**Humanitarian Catastrophe**: The conflict escalates into a protracted war of attrition and a blockade, creating what the UN has repeatedly called the world's worst humanitarian crisis."
     }
   ],
   "takeAction": {
@@ -77,21 +77,21 @@
       "Support international efforts to prosecute war crimes committed by all parties to the conflict."
     ]
   },
-  "sources": [
+  "reading": [
     {
-      "title": "Yemen: Dancing on the Heads of Snakes",
-      "url": "https://www.amazon.com/Yemen-Dancing-Heads-Snakes/dp/1787380029",
-      "description": "Victoria Clark's history of Yemen and its modern conflicts."
+      "title": "Destroying Yemen: What Chaos in Arabia Tells Us about the World",
+      "url": "https://www.goodreads.com/book/show/36555238-destroying-yemen",
+      "description": "Isa Blumi's critical history argues that the war is a result of decades of Western imperial intervention designed to prevent Yemeni economic independence."
     },
     {
-      "title": "The Yemen Model",
-      "url": "https://www.amazon.com/Yemen-Model-Asaib-Ghailan/dp/194976235X",
-      "description": "Asaib Ghailan's analysis of Yemen's revolution and the Saudi-led intervention."
+      "title": "Yemen in Crisis: The Road to War",
+      "url": "https://www.goodreads.com/book/show/36384214-yemen-in-crisis",
+      "description": "Helen Lackner provides a detailed account of the political and social dynamics that led to the current conflict, drawing on decades of experience in the country."
     },
     {
-      "title": "Destroying Yemen",
-      "url": "https://www.amazon.com/Destroying-Yemen-Impossible-Revolution/dp/0520296141",
-      "description": "Isa Blumi's examination of Yemen's history and the current crisis."
+      "title": "The War on Yemen: Made in the USA and the UK",
+      "url": "https://www.goodreads.com/en/book/show/123188548",
+      "description": "A collection of articles and interviews detailing the direct role of American and British arms sales and military support in enabling the Saudi-led coalition's devastating war."
     }
   ]
 }

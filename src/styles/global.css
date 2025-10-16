@@ -375,26 +375,6 @@ cite {
   line-height: inherit;
 }
 
-cite.bracketed {
-  display: inline;
-}
-
-cite.bracketed::before,
-cite.bracketed::after {
-  color: var(--text-muted);
-  font-weight: 400;
-}
-
-cite.bracketed::before {
-  content: '[';
-  margin-right: 0.15em;
-}
-
-cite.bracketed::after {
-  content: ']';
-  margin-left: 0.15em;
-}
-
 @media (width >= 768px) {
   .section-heading {
     font-size: var(--section-heading-size-lg);

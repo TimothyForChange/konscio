@@ -9,16 +9,16 @@
     "legacy": "Britain's 'Southern Policy' was a divide-and-rule strategy that administered the south separately from the north, hindering its economic and political development. This created a foundation of inequality that contributed to decades of civil war. This weakness also ensured that a future independent state would be vulnerable to foreign influence and resource exploitation."
   },
   "coreTerms": {
-    "corruptionAndTheGlobalFinancialSystem": "The civil war is a struggle between political elites for control of the state, which functions primarily as a mechanism for diverting oil revenues. This system of corruption is not just a local problem; it is enabled by the global financial system. The opacity of international banking, shell companies, and luxury property markets allows the ruling class to launder and hide billions in stolen wealth, often using the conflict as a cover [The Sentry, 2019].",
+    "corruptionAndTheGlobalFinancialSystem": "The civil war is a struggle between political elites for control of the state, which functions primarily as a mechanism for diverting oil revenues. This system of corruption is not just a local problem; it is enabled by the global financial system. The opacity of international banking, shell companies, and luxury property markets allows the ruling class to launder and hide billions in stolen wealth, often using the conflict as a cover.",
     "oilConflictAndClimateChallenges": "South Sudan's crisis is driven by two main factors. Firstly, its oil industry, operated by foreign corporations (primarily Chinese, Malaysian, and Indian) in partnership with the ruling elite, has been criticized for privatising profits while the costs of environmental damage and conflict are borne by the civilian population. Secondly, the country suffers from the severe impacts of climate change. Unprecedented flooding, linked to the emissions of the industrialised Global North, has destroyed livelihoods and acts as a conflict multiplier."
   },
   "humanitarianImpact": {
-    "displaced": "Over 4 million people are displaced within South Sudan and as refugees, including over 2 million internally displaced by conflict and flooding [UN OCHA, 2025].",
-    "refugees": "More than 2.3 million refugees and asylum-seekers have fled to neighbouring countries, making it Africa's largest refugee crisis [UNHCR, 2025].",
-    "casualties": "A 2018 study estimated that nearly 400,000 excess deaths were attributable to the civil war between 2013 and 2018 [LSHTM, 2018].",
-    "affected": "An estimated 9 million people—around 75% of the population—require urgent humanitarian assistance [UN OCHA, 2025].",
-    "childrenOutOfSchool": "An estimated 2.8 million children are out of school, one of the highest rates in the world, due to conflict, climate shocks, and displacement [UNICEF, 2024].",
-    "poverty": "More than 80% of the population lives in extreme poverty, making South Sudan one of the poorest countries globally [World Bank, 2024]."
+    "displaced": "Over 4 million people are displaced within South Sudan and as refugees, including over 2 million internally displaced by conflict and flooding.",
+    "refugees": "More than 2.3 million refugees and asylum-seekers have fled to neighbouring countries, making it Africa's largest refugee crisis.",
+    "casualties": "A 2018 study estimated that nearly 400,000 excess deaths were attributable to the civil war between 2013 and 2018.",
+    "affected": "An estimated 9 million people—around 75% of the population—require urgent humanitarian assistance.",
+    "childrenOutOfSchool": "An estimated 2.8 million children are out of school, one of the highest rates in the world, due to conflict, climate shocks, and displacement.",
+    "poverty": "More than 80% of the population lives in extreme poverty, making South Sudan one of the poorest countries globally."
   },
   "timeline": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "year": "2013",
-      "event": "**Civil War Erupts**: A power struggle plunges the nation into a civil war over control of the state and its oil resources, with elites using ethnic identity to mobilise fighters [UNHRC, 2017]."
+      "event": "**Civil War Erupts**: A power struggle plunges the nation into a civil war over control of the state and its oil resources, with elites using ethnic identity to mobilise fighters."
     },
     {
       "year": "2018",
@@ -75,21 +75,21 @@
       "Advocate for increased humanitarian funding and for aid to be delivered in direct partnership with local South Sudanese organisations."
     ]
   },
-  "sources": [
+  "reading": [
     {
-      "title": "The White Man's Burden",
-      "url": "https://www.amazon.com/White-Mans-Burden-War-End/dp/0143038826",
-      "description": "Susan Sontag's reflections on the humanitarian interventions in Somalia and Sudan."
+      "title": "A Rope from the Sky: The Making and Unmaking of the World's Newest State",
+      "url": "https://www.goodreads.com/book/show/34964642-a-rope-from-the-sky",
+      "description": "Journalist Zach Vertin provides a deeply reported account of South Sudan's journey from liberation to a devastating civil war."
     },
     {
-      "title": "They Poured Fire on Us From the Sky",
-      "url": "https://www.amazon.com/They-Poured-Fire-Us-Sky/dp/1586481606",
-      "description": "The story of three Lost Boys of Sudan and their journey to America."
+      "title": "First Raise a Flag: How South Sudan Won the Longest War but Lost the Peace",
+      "url": "https://www.goodreads.com/book/show/23282220-first-raise-a-flag",
+      "description": "Peter Martell's history of South Sudan's struggle for independence and the subsequent collapse into a kleptocratic civil war."
     },
     {
-      "title": "The Root Causes of Sudan's Civil Wars",
-      "url": "https://www.amazon.com/Root-Causes-Sudans-Civil-Wars/dp/1847010296",
-      "description": "Douglas H. Johnson's analysis of the historical roots of conflict in Sudan."
+      "title": "South Sudan: The Untold Story from Independence to Civil War",
+      "url": "https://www.goodreads.com/book/show/44139414-south-sudan",
+      "description": "Hilde F. Johnson, the former UN Special Representative, gives an insider's account of the failures of international state-building in South Sudan."
     }
   ]
 }

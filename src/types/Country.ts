@@ -46,16 +46,16 @@ export interface TakeAction {
 }
 
 export interface CountryData {
-  name?: string;
-  currentCrisisSummary?: string;
-  lastUpdated?: string;
+  name: string;
+  currentCrisisSummary: string;
+  lastUpdated: string;
   humanitarianImpact?: HumanitarianImpact;
   timeline?: TimelineEvent[];
   colonialRoot?: ColonialRoot;
   imperialRoot?: ImperialRoot;
   coreTerms?: Record<string, string>;
   takeAction?: TakeAction;
-  sources?: Source[];
+  reading?: Source[];
 }
 
 export interface Source {

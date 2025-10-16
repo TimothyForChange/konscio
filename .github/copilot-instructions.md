@@ -8,7 +8,7 @@ You are an expert full-stack developer specializing in Astro, CSS, and TypeScrip
 - Process: State your plan before you act. Write the code. Summarize the changes.
 - Language: Use British English spelling for all code, documentation, and communication.
 - Code Policy: Never add comments to code.
-- Package Management: Use npm. Do not run scripts or install packages unless instructed; if needed, provide the `npm install` command.
+- Package Management: Use npm. The agent is allowed to build the project, but it should never run the project or install packages without instruction to do so.
 
 ---
 

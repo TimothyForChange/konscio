@@ -3,25 +3,25 @@
   "emoji": "🇸🇩",
   "ariaLabel": "Sudanese flag",
   "lastUpdated": "2025-10-15",
-  "currentCrisisSummary": "A civil war between two factions of the military elite—the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia—has triggered the world's largest displacement and hunger crises, widespread famine, and atrocities, including a renewed campaign of reported ethnic cleansing in Darfur [Human Rights Watch, 2024].",
+  "currentCrisisSummary": "A civil war between two factions of the military elite—the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia—has triggered the world's largest displacement and hunger crises, widespread famine, and atrocities, including a renewed campaign of reported ethnic cleansing in Darfur.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
     "legacy": "British colonial policy was built on a 'divide-and-rule' strategy that institutionalised ethnic divisions. It concentrated power in the 'Arab' riverine centre while marginalising peripheral regions like Darfur. This inequality created an extractive central state that became the prize for competing military factions in the post-independence era."
   },
   "coreTerms": {
-    "rivalMilitaryEconomicModels": "The war is a conflict between two rival factions of a military-economic class fighting for control of the state. The Sudanese Armed Forces (SAF) represents the traditional military's control over formal sectors of the economy. The Rapid Support Forces (RSF) represents a more agile, transnational model, with wealth built on controlling gold mines and operating as a private military force for foreign powers [UN Panel of Experts, 2023]. The war is the breakdown of this extractive system, as both factions now seek total control.",
-    "politicalUpheavalAndForeignInterests": "The 2021 coup and subsequent war are a counter-revolution against the 2019 popular uprising, which sought to dismantle the military's economic empire. This counter-revolution is supported by foreign powers, particularly the UAE, which backs the RSF to secure its own interests: a supply of gold, influence over strategic Red Sea ports, and access to agricultural land [UN Panel of Experts, 2024]. This transforms the internal conflict into a proxy war for regional influence and resources."
+    "rivalMilitaryEconomicModels": "The war is a conflict between two rival factions of a military-economic class fighting for control of the state. The Sudanese Armed Forces (SAF) represents the traditional military's control over formal sectors of the economy. The Rapid Support Forces (RSF) represents a more agile, transnational model, with wealth built on controlling gold mines and operating as a private military force for foreign powers. The war is the breakdown of this extractive system, as both factions now seek total control.",
+    "politicalUpheavalAndForeignInterests": "The 2021 coup and subsequent war are a counter-revolution against the 2019 popular uprising, which sought to dismantle the military's economic empire. This counter-revolution is supported by foreign powers, particularly the UAE, which backs the RSF to secure its own interests: a supply of gold, influence over strategic Red Sea ports, and access to agricultural land. This transforms the internal conflict into a proxy war for regional influence and resources."
   },
   "humanitarianImpact": {
-    "displaced": "Over 11 million people internally displaced [UNHCR/IOM, end of 2024], making it the world's largest internal displacement crisis.",
-    "refugees": "Over 2.7 million refugees have fled to neighbouring countries, including Chad, Egypt, and South Sudan [UNHCR, end of 2024].",
-    "casualties": "The official death toll is approximately 19,000 killed and 33,000 injured [CSIS, July 2024], though credible estimates suggest the real figure is significantly higher due to inaccessible conflict zones.",
-    "affected": "25 million people—more than half the population—require urgent humanitarian aid [UN OHCHR, 2024], with over 24 million facing acute food insecurity [IRC, 2025], making it the world's largest hunger crisis.",
-    "childrenOutOfSchool": "An estimated 19 million children are out of school due to the nationwide collapse of the education system [UNICEF, 2025].",
-    "healthSystemCollapsed": "The health system has collapsed, with 70-80% of health facilities in conflict-affected areas non-functional [WHO, 2025].",
-    "foodInsecurity": "Over 24 million people face acute food insecurity [IRC, 2025], with famine confirmed in Zamzam camp (North Darfur) since August 2024 [WFP, 2024] and over 635,000 people experiencing catastrophic famine conditions [IRC, 2025].",
-    "waterAccess": "Access to safe water has dropped by over 50% since the conflict began, affecting millions of people [WASH Cluster, 2024].",
-    "poverty": "The conflict has pushed millions into poverty, with the national poverty rate estimated to have doubled since 2023 [World Bank, 2024]."
+    "displaced": "Over 11 million people internally displaced, making it the world's largest internal displacement crisis.",
+    "refugees": "Over 2.7 million refugees have fled to neighbouring countries, including Chad, Egypt, and South Sudan.",
+    "casualties": "The official death toll is approximately 19,000 killed and 33,000 injured, though credible estimates suggest the real figure is significantly higher due to inaccessible conflict zones.",
+    "affected": "25 million people—more than half the population—require urgent humanitarian aid, with over 24 million facing acute food insecurity, making it the world's largest hunger crisis.",
+    "childrenOutOfSchool": "An estimated 19 million children are out of school due to the nationwide collapse of the education system.",
+    "healthSystemCollapsed": "The health system has collapsed, with 70-80% of health facilities in conflict-affected areas non-functional.",
+    "foodInsecurity": "Over 24 million people face acute food insecurity, with famine confirmed in Zamzam camp (North Darfur) and over 635,000 people experiencing catastrophic famine conditions.",
+    "waterAccess": "Access to safe water has dropped by over 50% since the conflict began, affecting millions of people.",
+    "poverty": "The conflict has pushed millions into poverty, with the national poverty rate estimated to have doubled since 2023."
   },
   "timeline": [
     {
@@ -78,21 +78,21 @@
       "Advocate for secure humanitarian corridors and for aid to be channelled directly through local networks like Sudan's Emergency Response Rooms."
     ]
   },
-  "sources": [
+  "reading": [
     {
-      "title": "The Root Causes of Sudan's Civil Wars",
-      "url": "https://www.amazon.com/Root-Causes-Sudans-Civil-Wars/dp/1847010296",
-      "description": "Douglas H. Johnson's analysis of the historical roots of conflict in Sudan."
+      "title": "A History of the Sudanese Conflict: The New Thirty Years' War, 1989-2019",
+      "url": "https://www.goodreads.com/book/show/59806660-a-history-of-the-sudanese-conflict",
+      "description": "Alex de Waal's comprehensive analysis of the long war under Omar al-Bashir, providing essential context for the current conflict's origins."
     },
     {
       "title": "Darfur: The Ambiguous Genocide",
-      "url": "https://www.amazon.com/Darfur-Ambiguous-Genocide-Gerard-Prunier/dp/0801444500",
-      "description": "Gérard Prunier's account of the Darfur conflict and its international dimensions."
+      "url": "https://www.goodreads.com/book/show/159483.Darfur",
+      "description": "Gérard Prunier's authoritative account of the Darfur genocide, explaining its historical roots and the mechanics of the violence."
     },
     {
-      "title": "The White Man's Burden",
-      "url": "https://www.amazon.com/White-Mans-Burden-War-End/dp/0143038826",
-      "description": "Susan Sontag's reflections on humanitarian interventions in Sudan."
+      "title": "Sudan's Unfinished Revolution",
+      "url": "https://www.goodreads.com/book/show/58591871-sudan-s-unfinished-revolution",
+      "description": "A collection of essays from Sudanese activists and scholars on the 2019 popular uprising and the challenges of achieving a democratic future."
     }
   ]
 }

@@ -3,7 +3,7 @@
   "emoji": "🇦🇫",
   "ariaLabel": "Afghanistan flag",
   "lastUpdated": "2025-10-15",
-  "currentCrisisSummary": "Following the US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. The situation has been exacerbated by international economic policies, including the freezing of Afghanistan's central bank assets and broad sanctions. These policies have severely impacted the economy, contributing to the collapse of the healthcare system and widespread famine [UNDP, 2023]. This has reversed two decades of fragile gains, which were built on an aid-dependent model that struggled to foster sustainable development. Women and girls now face systematic oppression and gender apartheid [UN Special Rapporteur, 2023; Amnesty International, 2023].",
+  "currentCrisisSummary": "Following the US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. The situation has been exacerbated by international economic policies, including the freezing of Afghanistan's central bank assets and broad sanctions. These policies have severely impacted the economy, contributing to the collapse of the healthcare system and widespread famine. This has reversed two decades of fragile gains, which were built on an aid-dependent model that struggled to foster sustainable development. Women and girls now face systematic oppression and gender apartheid.",
   "imperialRoot": {
     "imperialPower": "British Empire, Russian Empire, Soviet Union & United States (1839-1919, 1979-1989, 2001-2021)",
     "legacy": "Afghanistan's stability has been impacted by a long history of foreign intervention. The 19th-century 'Great Game' saw the British and Russian Empires compete for influence over Afghan territory, establishing a pattern of foreign interference that often undermined local political development. This rivalry intensified during the Cold War, as the US and USSR turned Afghanistan into a proxy battleground. The CIA's Operation Cyclone, which armed and funded the Mujahideen to fight the Soviets, had the long-term consequence of fostering militancy and contributing to the fragmentation of the Afghan state. This continuous foreign involvement has created a cycle of instability that external powers have sometimes used for geopolitical leverage and to control regional resources."
@@ -13,13 +13,13 @@
     "economicPressureAndSanctions": "The current humanitarian crisis is widely seen as a direct consequence of political and economic decisions. Following the 2021 withdrawal, the US and its allies utilised the international financial system to exert pressure. By freezing $7 billion of Afghanistan's sovereign wealth and enforcing a broad sanctions regime, they have effectively isolated the country from the global economy. Critics argue this constitutes a form of collective punishment against an entire population, inflicting immense suffering on millions of ordinary Afghans who now face famine and a collapsed health system. Some analysts describe this as a form of modern economic coercion used to achieve political objectives."
   },
   "humanitarianImpact": {
-    "displaced": "Over 6.3 million people are internally displaced by conflict and climate shocks [UN OCHA, 2025].",
-    "refugees": "There are over 8.2 million Afghans hosted abroad, primarily in neighbouring Pakistan and Iran, making it one of the largest protracted refugee situations in the world [UNHCR, 2025].",
-    "casualties": "An estimated 71,000 Afghan and Pakistani civilians have died as a direct result of the war since 2001 [Costs of War Project, Brown University, 2023].",
-    "affected": "An estimated 23.7 million people—more than half the population—require urgent humanitarian assistance to survive [UN OCHA, 2024-2025].",
-    "poverty": "An estimated 85% of the population lives below the poverty line, a dramatic increase since the 2021 economic crisis [UNDP, 2023].",
-    "healthSystemCollapsed": "The public health system has been pushed to the brink of collapse, with thousands of facilities facing closure or severe service reduction due to funding cuts [WHO, 2024].",
-    "foodInsecurity": "An estimated 15.8 million people face acute food insecurity, with millions at emergency levels of hunger [WFP/IPC, 2025]."
+    "displaced": "Over 6.3 million people are internally displaced by conflict and climate shocks.",
+    "refugees": "There are over 8.2 million Afghans hosted abroad, primarily in neighbouring Pakistan and Iran, making it one of the largest protracted refugee situations in the world.",
+    "casualties": "An estimated 71,000 Afghan and Pakistani civilians have died as a direct result of the war since 2001.",
+    "affected": "An estimated 23.7 million people—more than half the population—require urgent humanitarian assistance to survive.",
+    "poverty": "An estimated 85% of the population lives below the poverty line, a dramatic increase since the 2021 economic crisis.",
+    "healthSystemCollapsed": "The public health system has been pushed to the brink of collapse, with thousands of facilities facing closure or severe service reduction due to funding cuts.",
+    "foodInsecurity": "An estimated 15.8 million people face acute food insecurity, with millions at emergency levels of hunger."
   },
   "timeline": [
     {
@@ -44,7 +44,7 @@
     },
     {
       "year": "1979-1989",
-      "event": "**US Support for Mujahideen**: The CIA launches 'Operation Cyclone', one of its largest covert operations, funnelling billions to arm and train Mujahideen fighters, including extremist factions, to fight the Soviets, which contributed to long-term radicalisation [National Security Archive, 2019]."
+      "event": "**US Support for Mujahideen**: The CIA launches 'Operation Cyclone', one of its largest covert operations, funnelling billions to arm and train Mujahideen fighters, including extremist factions, to fight the Soviets, which contributed to long-term radicalisation."
     },
     {
       "year": "1996",
@@ -60,7 +60,7 @@
     },
     {
       "year": "2021-Present",
-      "event": "**Economic Pressure**: The US freezes Afghanistan's $7 billion in foreign reserves, and international sanctions trigger a catastrophic economic collapse and humanitarian crisis, used as leverage against the new government [CEPR, 2022]."
+      "event": "**Economic Pressure**: The US freezes Afghanistan's $7 billion in foreign reserves, and international sanctions trigger a catastrophic economic collapse and humanitarian crisis, used as leverage against the new government."
     }
   ],
   "takeAction": {
@@ -89,21 +89,21 @@
       "Advocate for accountability for those who profited from the 20-year occupation."
     ]
   },
-  "sources": [
+  "reading": [
     {
-      "title": "The Afghanistan Papers",
-      "url": "https://www.washingtonpost.com/graphics/2019/investigations/afghanistan-papers/afghanistan-war-confidential-documents/",
-      "description": "A Washington Post investigation revealing internal government documents about the failures of the US war in Afghanistan."
+      "title": "Ghost Wars: The Secret History of the CIA, Afghanistan, and Bin Laden, from the Soviet Invasion to September 10, 2001",
+      "url": "https://www.goodreads.com/book/show/71983.Ghost_Wars",
+      "description": "Steve Coll's Pulitzer Prize-winning investigation into the CIA's covert war in Afghanistan and the rise of al-Qaeda."
     },
     {
-      "title": "Ghost Wars",
-      "url": "https://www.amazon.com/Ghost-Wars-Afghanistan-1979-1989/dp/0143034669",
-      "description": "Steve Coll's Pulitzer Prize-winning account of the CIA's covert operations in Afghanistan during the Soviet-Afghan War."
+      "title": "Directorate S: The C.I.A. and America's Secret Wars in Afghanistan and Pakistan",
+      "url": "https://www.goodreads.com/book/show/35542038-directorate-s",
+      "description": "The sequel to 'Ghost Wars', this book by Steve Coll details the failures and contradictions of the US war in Afghanistan post-9/11."
     },
     {
-      "title": "The Wrong Enemy",
-      "url": "https://www.amazon.com/Wrong-Enemy-Carlotta-Gall/dp/0544045688",
-      "description": "Carlotta Gall's investigation into the failures of the US strategy in Afghanistan and Pakistan."
+      "title": "No Good Men Among the Living: America, the Taliban, and the War through Afghan Eyes",
+      "url": "https://www.goodreads.com/book/show/18282195-no-good-men-among-the-living",
+      "description": "Anand Gopal's groundbreaking work that tells the story of the US war from the perspective of ordinary Afghans, exposing crucial blunders."
     }
   ]
 }

@@ -3,21 +3,21 @@
   "emoji": "🇨🇩",
   "ariaLabel": "Democratic Republic of Congo flag",
   "lastUpdated": "2025-10-15",
-  "currentCrisisSummary": "Eastern DRC is the epicentre of a conflict over its vast mineral wealth—cobalt, coltan, and gold—which are important for global tech and renewable energy industries. This has led to a situation some have termed 'green colonialism', where the Global North's transition to cleaner energy relies on supply chains linked to violence and child labour in the Global South. The conflict involves the Congolese army, over 100 armed groups, and militias with foreign support, notably Rwanda's M23 [UN Group of Experts, 2023]. It has created one of the world's worst displacement crises and is characterised by the widespread use of sexual violence as a weapon of war [UN, 2024].",
+  "currentCrisisSummary": "Eastern DRC is the epicentre of a conflict over its vast mineral wealth—cobalt, coltan, and gold—which are important for global tech and renewable energy industries. This has led to a situation some have termed 'green colonialism', where the Global North's transition to cleaner energy relies on supply chains linked to violence and child labour in the Global South. The conflict involves the Congolese army, over 100 armed groups, and militias with foreign support, notably Rwanda's M23. It has created one of the world's worst displacement crises and is characterised by the widespread use of sexual violence as a weapon of war.",
   "colonialRoot": {
     "colonialPower": "Belgium (Congo Free State & Belgian Congo, 1885-1960)",
     "legacy": "The crisis is a direct legacy of Belgium's colonial rule. King Leopold II's Congo Free State (1885-1908) functioned as a private state controlled by the king, leading to the deaths of millions from forced labour and violence associated with rubber and ivory extraction. After taking over, the Belgian state continued a model of resource extraction and did not prioritise the development of local institutions. This colonial structure, designed for resource exploitation, left the nation vulnerable to foreign competition for its mineral resources, which benefits multinational corporations today."
   },
   "coreTerms": {
-    "conflictMineralsAndForeignInfluence": "The DRC's mineral wealth has fuelled a conflict over what are often termed 'conflict minerals'. The system involves a violent supply chain where neighbouring states, particularly Rwanda, have been accused of arming proxy militias like M23 to control mines and smuggle resources [UN Group of Experts, 2023]. These minerals are then integrated into global markets through complex and often opaque supply chains. This structure allows multinational tech and automotive companies to access raw materials at low costs, while facing criticism for a lack of transparency about the origins of their components.",
-    "thePostColonialState": "The 'resource curse' is a political condition rooted in the weak state institutions inherited from Belgium. This was entrenched after independence with the assassination of Patrice Lumumba, the DRC's first prime minister, an act in which the CIA and Belgian authorities were complicit [Belgian Parliamentary Commission, 2001]. Lumumba's murder is seen by many as a foundational moment of foreign interference in post-colonial Congo, sending a clear message that resource sovereignty would be contested. His removal and the subsequent installation of Mobutu Sese Seko, whose rule was marked by widespread corruption, ensured the state remained a facilitator for foreign resource extraction, unable to regulate mining or protect its citizens. This system allows external actors to benefit from the instability and extract resources with little oversight."
+    "conflictMineralsAndForeignInfluence": "The DRC's mineral wealth has fuelled a conflict over what are often termed 'conflict minerals'. The system involves a violent supply chain where neighbouring states, particularly Rwanda, have been accused of arming proxy militias like M23 to control mines and smuggle resources. These minerals are then integrated into global markets through complex and often opaque supply chains. This structure allows multinational tech and automotive companies to access raw materials at low costs, while facing criticism for a lack of transparency about the origins of their components.",
+    "thePostColonialState": "The 'resource curse' is a political condition rooted in the weak state institutions inherited from Belgium. This was entrenched after independence with the assassination of Patrice Lumumba, the DRC's first prime minister, an act in which the CIA and Belgian authorities were complicit. Lumumba's murder is seen by many as a foundational moment of foreign interference in post-colonial Congo, sending a clear message that resource sovereignty would be contested. His removal and the subsequent installation of Mobutu Sese Seko, whose rule was marked by widespread corruption, ensured the state remained a facilitator for foreign resource extraction, unable to regulate mining or protect its citizens. This system allows external actors to benefit from the instability and extract resources with little oversight."
   },
   "humanitarianImpact": {
-    "displaced": "Nearly 7 million people are internally displaced, one of the largest displacement crises globally [UN OCHA, 2025].",
-    "refugees": "More than 1 million refugees and asylum-seekers have sought safety in neighbouring African countries [UNHCR, 2025].",
-    "casualties": "An estimated 6 million people have died from conflict-related causes since 1998, making it one of the world's deadliest conflicts since World War II [IRC, 2007]. The death toll continues to climb.",
-    "affected": "An estimated 25.4 million people require humanitarian assistance, with millions facing crisis levels of hunger [UN OCHA, 2025].",
-    "childrenOutOfSchool": "Over 3.5 million children are out of school in the conflict-affected eastern provinces alone [Education Cluster, 2024]."
+    "displaced": "Nearly 7 million people are internally displaced, one of the largest displacement crises globally.",
+    "refugees": "More than 1 million refugees and asylum-seekers have sought safety in neighbouring African countries.",
+    "casualties": "An estimated 6 million people have died from conflict-related causes since 1998, making it one of the world's deadliest conflicts since World War II. The death toll continues to climb.",
+    "affected": "An estimated 25.4 million people require humanitarian assistance, with millions facing crisis levels of hunger.",
+    "childrenOutOfSchool": "Over 3.5 million children are out of school in the conflict-affected eastern provinces alone."
   },
   "timeline": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "year": "1961",
-      "event": "**Patrice Lumumba Assassinated**: The first democratically elected Prime Minister is murdered with Belgian and US complicity, halting his agenda to reclaim the DRC's mineral wealth from foreign control [Belgian Parliamentary Commission, 2001]."
+      "event": "**Patrice Lumumba Assassinated**: The first democratically elected Prime Minister is murdered with Belgian and US complicity, halting his agenda to reclaim the DRC's mineral wealth from foreign control."
     },
     {
       "year": "1965-1997",
@@ -46,7 +46,7 @@
     },
     {
       "year": "2021-Present",
-      "event": "**M23 Resurgence**: The M23 militia, reportedly with Rwandan backing, reignites large-scale conflict in the east to control strategic zones rich in minerals important for the global production of smartphones and electric vehicles [UN Group of Experts, 2023]."
+      "event": "**M23 Resurgence**: The M23 militia, reportedly with Rwandan backing, reignites large-scale conflict in the east to control strategic zones rich in minerals important for the global production of smartphones and electric vehicles."
     }
   ],
   "takeAction": {
@@ -75,21 +75,21 @@
       "Support Congolese efforts to build local refining and manufacturing capacity to move beyond raw material extraction."
     ]
   },
-  "sources": [
+  "reading": [
     {
-      "title": "King Leopold's Ghost",
-      "url": "https://www.amazon.com/King-Leopolds-Ghost-Greeds-Genocide/dp/0618001905",
-      "description": "Adam Hochschild's account of the brutal exploitation of the Congo Free State under King Leopold II."
+      "title": "King Leopold's Ghost: A Story of Greed, Terror, and Heroism in Colonial Africa",
+      "url": "https://www.goodreads.com/book/show/22467.King_Leopold_s_Ghost",
+      "description": "Adam Hochschild's essential account of the brutal exploitation of the Congo Free State and the world's first major human rights movement that rose against it."
     },
     {
-      "title": "The Congo Wars",
-      "url": "https://www.amazon.com/Congo-Wars-Thomas-Turner/dp/1842776891",
-      "description": "Thomas Turner's analysis of the two Congo wars and their roots in colonial exploitation."
+      "title": "The Assassination of Lumumba",
+      "url": "https://www.goodreads.com/book/show/163905.The_Assassination_of_Lumumba",
+      "description": "Ludo De Witte's groundbreaking investigation that exposed the role of the Belgian government and the CIA in the murder of Patrice Lumumba."
     },
     {
-      "title": "Blood Minerals",
-      "url": "https://www.amazon.com/Blood-Minerals-Conflict-Congo/dp/0199323537",
-      "description": "A report on how minerals fuel conflict in the DRC and the global supply chain."
+      "title": "Cobalt Red: How the Blood of the Congo Powers Our Lives",
+      "url": "https://www.goodreads.com/book/show/61244199-cobalt-red",
+      "description": "Siddharth Kara's investigation into the harrowing reality of cobalt mining in the DRC, linking the violence and exploitation directly to the global tech and electric vehicle industries."
     }
   ]
 }

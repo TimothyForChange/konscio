@@ -10,17 +10,17 @@
   },
   "coreTerms": {
     "theFragmentedState": "The state's collapse in 1991 was intensified by the Cold War. The Siad Barre dictatorship was armed first by the USSR and then the US, who saw Somalia as a strategic location for controlling sea lanes vital for global oil shipments. After its collapse, foreign interventions—from the US-led mission in the 1990s to the modern 'war on terror'—have often exacerbated fragmentation by prioritising external counter-terrorism goals over a Somali-led process of state-building.",
-    "climateChangeAndEconomicExploitation": "Somalia is on the front line of crises linked to the global economic system. It suffers from the severe impacts of climate change, as droughts, linked to global emissions, damage livelihoods. Simultaneously, the state's collapse created a vacuum exploited by external actors: international fleets engaged in illegal fishing and companies reportedly dumped toxic waste [UNEP, 2005]. This resource exploitation is now being followed by corporate competition for offshore oil, which could create a new cycle of conflict."
+    "climateChangeAndEconomicExploitation": "Somalia is on the front line of crises linked to the global economic system. It suffers from the severe impacts of climate change, as droughts, linked to global emissions, damage livelihoods. Simultaneously, the state's collapse created a vacuum exploited by external actors: international fleets engaged in illegal fishing and companies reportedly dumped toxic waste. This resource exploitation is now being followed by corporate competition for offshore oil, which could create a new cycle of conflict."
   },
   "humanitarianImpact": {
-    "displaced": "Nearly 4 million people are internally displaced by conflict and climate shocks [UNHCR, 2025].",
-    "refuges": "Nearly 1 million Somalis live as refugees and asylum-seekers, primarily in neighbouring Kenya, Ethiopia, and Yemen [UNHCR, 2025].",
-    "casualties": "While no definitive figure exists for the entire civil war, an estimated 500,000 people have died from violent conflict-related causes since 1991. The 2011 famine alone killed an estimated 260,000 people [FSNAU/FEWS NET, 2013].",
-    "affected": "An estimated 7.7 million people require life-saving humanitarian assistance [UN OCHA, 2025].",
-    "childrenOutOfSchool": "An estimated 3 million children are out of school due to conflict, displacement, and lack of educational infrastructure [UNICEF, 2024].",
-    "healthSystemCollapsed": "The healthcare system remains severely weakened, with recurrent disease outbreaks and one of the highest maternal mortality rates in the world [WHO, 2024].",
-    "foodInsecurity": "An estimated 4 million people face acute food insecurity, with 1.7 million children facing acute malnutrition [WFP/IPC, 2025].",
-    "waterAccess": "More than half of the population lacks access to safe drinking water, sanitation, and hygiene [WASH Cluster, 2024]."
+    "displaced": "Nearly 4 million people are internally displaced by conflict and climate shocks.",
+    "refuges": "Nearly 1 million Somalis live as refugees and asylum-seekers, primarily in neighbouring Kenya, Ethiopia, and Yemen.",
+    "casualties": "While no definitive figure exists for the entire civil war, an estimated 500,000 people have died from violent conflict-related causes since 1991. The 2011 famine alone killed an estimated 260,000 people.",
+    "affected": "An estimated 7.7 million people require life-saving humanitarian assistance.",
+    "childrenOutOfSchool": "An estimated 3 million children are out of school due to conflict, displacement, and lack of educational infrastructure.",
+    "healthSystemCollapsed": "The healthcare system remains severely weakened, with recurrent disease outbreaks and one of the highest maternal mortality rates in the world.",
+    "foodInsecurity": "An estimated 4 million people face acute food insecurity, with 1.7 million children facing acute malnutrition.",
+    "waterAccess": "More than half of the population lacks access to safe drinking water, sanitation, and hygiene."
   },
   "timeline": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "year": "1992-1995",
-      "event": "**US/UN Intervention**: A US-led UN humanitarian intervention ('Operation Restore Hope') ends in withdrawal after the 'Black Hawk Down' battle in Mogadishu."
+      "event": "**US/UN Intervention**: A US-led UN humanitarian intervention ('Operation Restore Hope') ends in withdrawal after the deadly 1993 Battle of Mogadishu."
     },
     {
       "year": "2006-Present",
@@ -53,7 +53,7 @@
     },
     {
       "year": "2022-2023",
-      "event": "**Climate Extremes**: The country suffers its worst drought in 40 years, followed by severe floods, pushing millions to the brink of starvation [UN OCHA, 2023]."
+      "event": "**Climate Extremes**: The country suffers its worst drought in 40 years, followed by severe floods, pushing millions to the brink of starvation."
     }
   ],
   "takeAction": {
@@ -76,21 +76,21 @@
       "Advocate for a shift from purely military 'counter-terrorism' towards investment in Somali-led peace and state-building initiatives."
     ]
   },
-  "sources": [
+  "reading": [
     {
-      "title": "Black Hawk Down",
-      "url": "https://www.amazon.com/Black-Hawk-Down-Somalia-Operation/dp/0871137380",
-      "description": "Mark Bowden's account of the 1993 Battle of Mogadishu and US intervention in Somalia."
+      "title": "The World's Most Dangerous Place: Inside the Outlaw State of Somalia",
+      "url": "https://www.goodreads.com/book/show/13592183-the-world-s-most-dangerous-place",
+      "description": "Journalist James Fergusson provides a compelling look at Somalia post-state collapse, exploring the rise of piracy and al-Shabaab from a ground-level perspective."
     },
     {
-      "title": "The Somali Civil War",
-      "url": "https://www.amazon.com/Somali-Civil-War-Abdi-Sheik-Abdi/dp/1569022601",
-      "description": "Abdi Sheik-Abdi's analysis of the Somali civil war and its international dimensions."
+      "title": "Making Sense of Somali History: Volume 1",
+      "url": "https://www.goodreads.com/book/show/26890336-making-sense-of-somali-history",
+      "description": "Abdurahman Abdullahi (Baadiyow) offers a comprehensive history of Somalia, providing crucial context on the pre-colonial, colonial, and post-colonial periods."
     },
     {
-      "title": "Invisible Governance",
-      "url": "https://www.amazon.com/Invisible-Governance-Politics-Somalia/dp/1911284611",
-      "description": "A study of how Somalia functions without a central government."
+      "title": "The Mayor of Mogadishu: A Story of Chaos and Redemption in the Ruins of Somalia",
+      "url": "https://www.goodreads.com/book/show/25814239-the-mayor-of-mogadishu",
+      "description": "Andrew Harding's biography of Mohamud 'Tarzan' Nur, telling the story of modern Somalia through the life of one of its most dynamic and controversial figures."
     }
   ]
 }
