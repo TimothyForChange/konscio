@@ -75,9 +75,11 @@ function trimDescription(desc: string, max = 160) {
   if (!desc) {
     return '';
   }
+
   const cleaned = desc.replaceAll(/\s+/g, ' ').trim();
+
   return cleaned.length > max
-    ? cleaned.slice(0, max - 1).trimEnd() + '…'
+    ? `${cleaned.slice(0, max - 1).trimEnd()}…`
     : cleaned;
 }
 
@@ -125,10 +127,12 @@ const pageImage = image || 'https://timothyforchange.co.za/united-nations.webp';
     <script is:inline>
       document.addEventListener('DOMContentLoaded', () => {
         const skipLink = document.querySelector('.skip-link');
+
         if (skipLink) {
           skipLink.addEventListener('click', (event_) => {
             event_.preventDefault();
             const target = document.querySelector('#container');
+
             if (target) {
               target.focus();
               target.scrollIntoView({ behavior: 'smooth', block: 'start' });

@@ -21,24 +21,18 @@ export interface Properties {
 }
 
 const { countryData, countrySlug } = Astro.props as Properties;
-const safeCountrySlug =
-  typeof countrySlug === 'string' ? countrySlug : 'unknown';
 const passedTitle = (Astro.props as Properties).title;
-const safeName =
-  countryData?.name && typeof countryData.name === 'string'
-    ? countryData.name
-    : 'Country';
 
-const pageDescription = `Learn about the humanitarian crisis in ${safeName} - Timothy for Change provides critical analysis of global humanitarian issues.`;
-const canonicalUrl = `https://timothyforchange.co.za/${encodeURIComponent(safeCountrySlug)}`;
+const pageDescription = `Learn about the humanitarian crisis in ${countryData?.name} - Timothy for Change provides critical analysis of global humanitarian issues.`;
+const canonicalUrl = `https://timothyforchange.co.za/${encodeURIComponent(countrySlug)}`;
 
 const articleSchema = {
   '@type': 'Article',
-  '@id': `https://timothyforchange.co.za/${safeCountrySlug}/#article`,
+  '@id': `https://timothyforchange.co.za/${countrySlug}/#article`,
   headline:
     passedTitle && typeof passedTitle === 'string'
       ? passedTitle
-      : `${safeName} Crisis - Timothy for Change`,
+      : `${countryData?.name} Crisis - Timothy for Change`,
   description: pageDescription,
   author: {
     '@id': 'https://timothyforchange.co.za/#person',
@@ -56,16 +50,19 @@ const articleSchema = {
 <Layout
   title={passedTitle && typeof passedTitle === 'string'
     ? passedTitle
-    : `${safeName} Crisis - Timothy for Change`}
+    : `${countryData?.name} Crisis - Timothy for Change`}
   description={pageDescription}
   canonicalUrl={canonicalUrl}
-  countrySlug={safeCountrySlug}
+  countrySlug={countrySlug}
   articleSchema={articleSchema}
 >
   <div class='page-wrapper'>
     <main class='container' id='container' tabindex='-1'>
       <div class='country-page'>
-        <CountryHeader countryName={safeName} countrySlug={safeCountrySlug} />
+        <CountryHeader
+          countryName={countryData?.name}
+          countrySlug={countrySlug}
+        />
 
         {
           countryData?.currentCrisisSummary &&
@@ -112,7 +109,7 @@ const articleSchema = {
             !Array.isArray(countryData.coreTerms) && (
               <HistoricalContext
                 coreTerms={countryData.coreTerms}
-                countrySlug={safeCountrySlug}
+                countrySlug={countrySlug}
               />
             )
         }

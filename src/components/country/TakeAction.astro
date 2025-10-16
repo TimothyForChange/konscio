@@ -1,5 +1,5 @@
 ---
-import { isArray, isObject, keys } from 'radash';
+import { isArray, keys } from 'radash';
 import ActionSection from './ActionSection.astro';
 import type { ActionGroupData } from './ActionSection.astro';
 
@@ -17,15 +17,12 @@ export interface Properties {
 
 const { takeAction, id } = Astro.props as Properties;
 
-const safeTakeAction = isObject(takeAction) ? takeAction : {};
-if (keys(safeTakeAction).length === 0) {
+if (keys(takeAction!).length === 0) {
   return;
 }
 
-const donateData = isArray(safeTakeAction.donate) ? safeTakeAction.donate : [];
-const advocacyData = isArray(safeTakeAction.advocacy)
-  ? safeTakeAction.advocacy
-  : [];
+const donateData = isArray(takeAction!.donate) ? takeAction!.donate : [];
+const advocacyData = isArray(takeAction!.advocacy) ? takeAction!.advocacy : [];
 
 const groups: ActionGroupData[] = [];
 

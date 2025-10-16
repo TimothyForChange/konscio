@@ -3,7 +3,7 @@ import missionData from '../../data/mission.json';
 import type { Mission, ResourceLink } from '../../types/mission';
 import Link from '../shared/Link.astro';
 
-const items: ResourceLink[] = (missionData as Mission).links || [];
+const items: ResourceLink[] = (missionData as Mission).links!;
 ---
 
 <section class='links-section' aria-labelledby='links-heading'>

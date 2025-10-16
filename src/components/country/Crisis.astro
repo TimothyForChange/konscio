@@ -1,5 +1,4 @@
 ---
-import { isString } from 'radash';
 import { formatText } from '../../utils';
 
 export interface Properties {
@@ -7,16 +6,11 @@ export interface Properties {
 }
 
 const { summary } = Astro.props;
-
-const safeSummary = isString(summary) ? summary : '';
-if (!safeSummary.trim()) {
-  return;
-}
 ---
 
 <section class='crisis-section' aria-labelledby='crisis-heading'>
   <h2 id='crisis-heading'>Current Crisis Summary</h2>
-  <p set:html={formatText(safeSummary)} />
+  <p set:html={formatText(summary)} />
 </section>
 
 <style>

@@ -1,35 +1,20 @@
 ---
-import { isObject, isString } from 'radash';
 import { formatText } from '../../utils';
 
 export interface Properties {
-  imperialRoot?: {
+  imperialRoot: {
     imperialPower?: string;
     legacy?: string;
   };
 }
 
 const { imperialRoot } = Astro.props as Properties;
-
-const safeImperialRoot = isObject(imperialRoot) ? imperialRoot : {};
-
-const hasData = safeImperialRoot.imperialPower || safeImperialRoot.legacy;
-if (!hasData) {
-  return;
-}
-
-const safeImperialPower = isString(safeImperialRoot.imperialPower)
-  ? safeImperialRoot.imperialPower
-  : '';
-const safeLegacy = isString(safeImperialRoot.legacy)
-  ? safeImperialRoot.legacy
-  : '';
 ---
 
 <section class='imperial-section' aria-labelledby='imperial-heading'>
   <h2 id='imperial-heading'>The Imperial Root</h2>
-  <h3>{safeImperialPower || '—'}</h3>
-  {safeLegacy && <p set:html={formatText(safeLegacy)} />}
+  <h3>{imperialRoot.imperialPower || '—'}</h3>
+  {imperialRoot.legacy && <p set:html={formatText(imperialRoot.legacy)} />}
 </section>
 
 <style>

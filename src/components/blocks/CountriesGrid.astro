@@ -1,40 +1,34 @@
 ---
+import { DEFAULT_CATEGORY } from '../../constants';
 import countries from '../../data/countries.json';
 import type { Country } from '../../types/country';
 import CategoryFilter from './CategoryFilter.astro';
 import CountryCard from './CountryCard.astro';
 
-const validCountries: Country[] = Array.isArray(countries)
-  ? countries.filter(
-      (country) =>
-        country &&
-        typeof country === 'object' &&
-        typeof country.slug === 'string' &&
-        country.slug.trim() !== '' &&
-        typeof country.name === 'string' &&
-        country.name.trim() !== ''
-    )
-  : [];
+const countriesData: Country[] = countries as Country[];
 
 const categories = [
   ...new Set(
-    validCountries
+    countriesData
       .map((country) => country.category)
       .filter((cat) => typeof cat === 'string' && cat.trim() !== '')
   ),
 ];
 
-const allCategories = ['All', ...categories];
+const allCategories = [DEFAULT_CATEGORY, ...categories];
 ---
 
 <section class='causes-section' aria-labelledby='causes-heading'>
   <h2 id='causes-heading' class='causes-heading'>Supporting Communities In</h2>
 
-  <CategoryFilter categories={allCategories} activeCategory='All' />
+  <CategoryFilter
+    categories={allCategories}
+    activeCategory={DEFAULT_CATEGORY}
+  />
 
   <ul class='countries-grid' id='countries-grid' role='list'>
     {
-      validCountries.map((country, index) => (
+      countriesData.map((country, index) => (
         <CountryCard
           slug={country.slug}
           name={country.name}
@@ -49,7 +43,9 @@ const allCategories = ['All', ...categories];
           }
           style={`--i:${index}`}
           data-category={
-            typeof country.category === 'string' ? country.category : 'All'
+            typeof country.category === 'string'
+              ? country.category
+              : DEFAULT_CATEGORY
           }
         />
       ))
@@ -58,6 +54,8 @@ const allCategories = ['All', ...categories];
 </section>
 
 <script is:inline>
+  const DEFAULT_CATEGORY = 'All';
+
   document.addEventListener('DOMContentLoaded', () => {
     function filterCountries(selectedCategory) {
       const buttons = document.querySelectorAll('.category-btn');
@@ -75,17 +73,22 @@ const allCategories = ['All', ...categories];
 
       for (const card of cards) {
         const cardCategory = card.dataset.category;
+
         card.style.display =
-          selectedCategory === 'All' || cardCategory === selectedCategory
+          selectedCategory === DEFAULT_CATEGORY ||
+          cardCategory === selectedCategory
             ? 'flex'
             : 'none';
       }
     }
 
     const categoryButtons = document.querySelectorAll('.category-btn');
+
     for (const button of categoryButtons) {
-      button.addEventListener('click', function () {
-        filterCountries(this.dataset.category);
+      button.addEventListener('click', (event) => {
+        const target = event.target;
+
+        filterCountries(target.dataset.category);
       });
     }
   });

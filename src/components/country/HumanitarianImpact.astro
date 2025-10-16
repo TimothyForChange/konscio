@@ -23,60 +23,70 @@ if (!hasData) {
 }
 
 const stats = [];
+
 if (humanitarianImpact.displaced !== undefined) {
   stats.push({
     label: 'Displaced',
     value: formatText(humanitarianImpact.displaced ?? '—'),
   });
 }
+
 if (humanitarianImpact.refugees !== undefined) {
   stats.push({
     label: 'Refugees',
     value: formatText(humanitarianImpact.refugees ?? '—'),
   });
 }
+
 if (humanitarianImpact.casualties !== undefined) {
   stats.push({
     label: 'Casualties',
     value: formatText(humanitarianImpact.casualties ?? '—'),
   });
 }
+
 if (humanitarianImpact.affected !== undefined) {
   stats.push({
     label: 'Affected',
     value: formatText(humanitarianImpact.affected ?? '—'),
   });
 }
+
 if (humanitarianImpact.poverty !== undefined) {
   stats.push({
     label: 'Living Below Poverty Line',
     value: formatText(humanitarianImpact.poverty ?? '—'),
   });
 }
+
 if (humanitarianImpact.childrenOutOfSchool !== undefined) {
   stats.push({
     label: 'Children Out of School',
     value: formatText(humanitarianImpact.childrenOutOfSchool ?? '—'),
   });
 }
+
 if (humanitarianImpact.healthSystemCollapsed !== undefined) {
   stats.push({
     label: 'Health System Collapsed',
     value: formatText(humanitarianImpact.healthSystemCollapsed ?? '—'),
   });
 }
+
 if (humanitarianImpact.foodInsecurity !== undefined) {
   stats.push({
     label: 'Food Insecurity',
     value: formatText(humanitarianImpact.foodInsecurity ?? '—'),
   });
 }
+
 if (humanitarianImpact.waterAccess !== undefined) {
   stats.push({
     label: 'Lack of Water Access',
     value: formatText(humanitarianImpact.waterAccess ?? '—'),
   });
 }
+
 if (humanitarianImpact.other !== undefined) {
   stats.push({
     label: 'Other',

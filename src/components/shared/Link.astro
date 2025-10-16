@@ -12,16 +12,11 @@ export interface Properties {
 
 const { icon, title, description, url } = Astro.props as Properties;
 
-const safeTitle = isString(title) ? title : '';
-const safeUrl = isString(url) ? url : '';
-
-if (!safeTitle || !safeUrl) {
+if (!title || !url) {
   return;
 }
 
-const sanitizedUrl = safeUrl.startsWith('http')
-  ? safeUrl
-  : `https://${safeUrl}`;
+const sanitizedUrl = url.startsWith('http') ? url : `https://${url}`;
 const iconClass = isString(icon) ? `ri-${icon}` : 'ri-link';
 ---
 
@@ -30,13 +25,13 @@ const iconClass = isString(icon) ? `ri-${icon}` : 'ri-link';
   class='link'
   target='_blank'
   rel='noopener noreferrer'
-  aria-label={`${safeTitle} (opens in new tab)`}
+  aria-label={`${title} (opens in new tab)`}
 >
   <span class='link-icon' aria-hidden='true'>
     <i class={iconClass} aria-hidden='true'></i>
   </span>
   <div class='link-content'>
-    <h2 class='link-title'>{safeTitle}</h2>
+    <h2 class='link-title'>{title}</h2>
     {
       description && typeof description === 'string' && (
         <p class='link-description'>{description}</p>

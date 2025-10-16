@@ -10,11 +10,11 @@ const { slug, name, flag, description, category } =
 ---
 
 <a
-  href={`/${slug ?? 'unknown'}`}
+  href={`/${slug}`}
   class='country-card'
   data-category={category ?? ''}
   role='listitem'
-  aria-label={`Learn about ${name ?? 'Unknown Country'}. ${description ?? ''}`}
+  aria-label={`Learn about ${name}. ${description ?? ''}`}
 >
   {
     flag ? (
@@ -28,7 +28,7 @@ const { slug, name, flag, description, category } =
     )
   }
   <div class='country-info'>
-    <span class='country-name'>{name ?? 'Unknown Country'}</span>
+    <span class='country-name'>{name}</span>
     {description && <span class='country-description'>{description}</span>}
   </div>
 </a>

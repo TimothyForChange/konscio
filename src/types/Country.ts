@@ -55,10 +55,10 @@ export interface CountryData {
   imperialRoot?: ImperialRoot;
   coreTerms?: Record<string, string>;
   takeAction?: TakeAction;
-  reading?: Source[];
+  reading?: Reading[];
 }
 
-export interface Source {
+export interface Reading {
   title: string;
   url: string;
   description?: string;

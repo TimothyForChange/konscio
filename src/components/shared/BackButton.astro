@@ -1,6 +1,4 @@
 ---
-import { isString } from 'radash';
-
 export interface Properties {
   href?: string;
   class?: string;
@@ -8,10 +6,9 @@ export interface Properties {
 
 const { href = '/', class: className = '' } = Astro.props;
 
-const safeHref = isString(href) ? href : '';
-const sanitizedHref = safeHref
-  ? safeHref.startsWith('/') || safeHref.startsWith('http')
-    ? safeHref
+const sanitizedHref = href
+  ? href.startsWith('/') || href.startsWith('http')
+    ? href
     : '/'
   : '/';
 ---

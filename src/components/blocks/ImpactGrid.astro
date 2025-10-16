@@ -1,5 +1,4 @@
 ---
-import { isArray, isEmpty, isObject, isString } from 'radash';
 import ImpactStat from '../ui/ImpactStat.astro';
 
 export interface Properties {
@@ -7,23 +6,10 @@ export interface Properties {
 }
 
 const { stats } = Astro.props as Properties;
-
-const safeStats = isArray(stats)
-  ? stats
-      .filter((stat) => stat && isObject(stat) && stat.label && stat.value)
-      .map((stat) => ({
-        label: isString(stat.label) ? stat.label : 'Label',
-        value: isString(stat.value) ? stat.value : '—',
-      }))
-  : [];
-
-if (isEmpty(safeStats)) {
-  return;
-}
 ---
 
 <div class='impact-stats'>
-  {safeStats.map((s) => <ImpactStat label={s.label} value={s.value} />)}
+  {stats.map((s) => <ImpactStat label={s.label} value={s.value} />)}
 </div>
 
 <style>

@@ -1,5 +1,5 @@
 ---
-import { isEmpty, isObject, isString, keys } from 'radash';
+import { isString } from 'radash';
 import { formatTermKey, formatText } from '../../utils';
 
 export interface Properties {
@@ -7,27 +7,13 @@ export interface Properties {
 }
 
 const { coreTerms } = Astro.props as Properties;
-
-const safeCoreTerms = isObject(coreTerms) ? coreTerms : {};
-
-const hasTerms = !isEmpty(keys(safeCoreTerms));
-if (!hasTerms) {
-  return;
-}
-
-const hasContent = Object.values(safeCoreTerms).some(
-  (value) => isString(value) && value.trim() !== ''
-);
-if (!hasContent) {
-  return;
-}
 ---
 
 <section class='terms-section' aria-labelledby='history-heading'>
   <h2 id='history-heading'>Historical Context</h2>
 
   {
-    Object.entries(safeCoreTerms)
+    Object.entries(coreTerms!)
       .filter(
         ([key, value]) =>
           isString(key) &&

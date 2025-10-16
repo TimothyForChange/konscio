@@ -8,6 +8,7 @@ export async function getCountryMetadata(
     const country = (countriesData as CountryTypes.Country[]).find(
       (c) => c.slug === countrySlug
     );
+
     if (!country) {
       return undefined;
     }

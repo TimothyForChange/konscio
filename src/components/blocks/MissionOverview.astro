@@ -3,11 +3,7 @@ import missionData from '../../data/mission.json';
 import type { Mission } from '../../types';
 
 const mission = missionData as Mission;
-const {
-  name = 'Unknown Mission',
-  mission: missionStatement,
-  description,
-} = mission;
+const { name, mission: missionStatement, description } = mission;
 ---
 
 <section class='mission' aria-labelledby='mission-name'>

@@ -1,5 +1,4 @@
 ---
-import { isArray, isEmpty } from 'radash';
 import type { TimelineEvent } from '../../types';
 import TimelineItem from '../ui/TimelineItem.astro';
 
@@ -8,18 +7,13 @@ interface Properties {
 }
 
 const { timeline } = Astro.props as Properties;
-
-const safeTimeline = isArray(timeline) ? timeline : [];
-if (isEmpty(safeTimeline)) {
-  return;
-}
 ---
 
 <section class='timeline-section'>
   <h2 class='timeline-title'>Historical Timeline</h2>
   <div class='timeline-container'>
     {
-      safeTimeline
+      (timeline! as TimelineEvent[])
         .filter((item) => item && (item.year || item.event))
         .map((item) => (
           <div class='timeline-row'>
