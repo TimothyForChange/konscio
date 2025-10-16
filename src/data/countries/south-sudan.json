@@ -2,7 +2,7 @@
   "name": "South Sudan",
   "emoji": "🇸🇸",
   "ariaLabel": "South Sudanese flag",
-  "lastUpdated": "2025-10-15",
+  "lastUpdated": "2025-10-16",
   "currentCrisisSummary": "South Sudan is facing a humanitarian emergency, fuelled by an elite conflict over oil revenues, severe climate-driven flooding, and spillover from Sudan's war. These converging crises, driven by a system of widespread corruption, have left most of the population dependent on aid and facing one of the world's most severe hunger crises.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
@@ -18,7 +18,7 @@
     "casualties": "A 2018 study estimated that nearly 400,000 excess deaths were attributable to the civil war between 2013 and 2018.",
     "affected": "An estimated 9 million people—around 75% of the population—require urgent humanitarian assistance.",
     "childrenOutOfSchool": "An estimated 2.8 million children are out of school, one of the highest rates in the world, due to conflict, climate shocks, and displacement.",
-    "poverty": "More than 80% of the population lives in extreme poverty, making South Sudan one of the poorest countries globally."
+    "livingInPoverty": "More than 80% of the population lives in extreme poverty, making South Sudan one of the poorest countries globally."
   },
   "timeline": [
     {
@@ -50,6 +50,26 @@
       "event": "**Revitalised Peace Agreement**: A fragile peace deal is signed, but core elements, including security reforms and accountability for war crimes, remain unimplemented."
     }
   ],
+  "environmentalImpact": {
+    "climateVulnerabilityAndFlooding": "South Sudan is highly vulnerable to climate change. Despite negligible carbon emissions, it is one of the countries most affected by climate change. Catastrophic, multi-year flooding linked to global warming has submerged vast areas of the country, displacing hundreds of thousands, destroying livelihoods, and intensifying resource conflicts.",
+    "environmentalDamageFromOilIndustry": "The oil industry has caused significant environmental damage. Oil spills have contaminated agricultural land and drinking water across the country, leading to health problems for local communities and livestock. Environmental protection measures have been inadequate in the context of oil extraction operations."
+  },
+  "economicOverview": {
+    "oilDependentEconomy": "South Sudan has an economy heavily dependent on oil. Over 90% of the state's revenue comes from oil, a resource controlled by a small political and military elite in partnership with foreign oil companies. The state has struggled to provide services effectively, with oil revenues flowing through complex financial systems. This system was embedded in the state's design by the 2005 peace agreement.",
+    "limitedEconomicDiversification": "The country's productive sectors, particularly agriculture, have been affected by decades of war and the state's focus on oil. As a result, South Sudan, a country with immense agricultural potential, is heavily dependent on humanitarian food aid. The national budget is directed largely towards security, rather than health, education, or infrastructure."
+  },
+  "culturalHeritage": {
+    "aRichTapestryOfCultures": "South Sudan is home to more than 60 different major ethnic groups, each with its own distinct language, traditions, and cultural practices. This diversity is expressed through a rich heritage of music, dance, and oral storytelling. The tradition of cattle-keeping, particularly among the Dinka and Nuer peoples, is a central pillar of cultural and social identity.",
+    "ethnicTensions": "The country's rich ethnic diversity has been affected by political conflicts. In the struggle for control of the state and its oil resources, leaders have mobilised different groups, creating tensions. This has turned cultural identity into a marker of political allegiance, affecting the social fabric of the new nation."
+  },
+  "geography": {
+    "landlockedAndVulnerable": "South Sudan is a vast, landlocked country in East-Central Africa. Its lack of a coastline makes it entirely dependent on its neighbours for access to the sea. Crucially, the pipeline for its oil—the country's only significant source of revenue—runs through the territory of its northern neighbour, Sudan, giving Khartoum significant leverage.",
+    "theSuddWetland": "The country's geography is dominated by the Sudd, one of the world's largest wetlands. Formed by the White Nile, this immense swampy region is a globally important ecosystem but also poses a major obstacle to transport and infrastructure, effectively dividing the country. Recent catastrophic flooding has caused the Sudd to expand significantly."
+  },
+  "futureOutlook": {
+    "challengesToDevelopment": "South Sudan's potential has been affected by elite conflicts that have prioritised control of resources over nation-building. As long as these patterns persist, the cycle of violence, poverty, and humanitarian crisis is likely to continue.",
+    "pathToStability": "A viable future would require addressing governance challenges, including accountability for past actions, and restructuring the state to better serve the population. This includes mechanisms to manage the country's resources in the interests of its people."
+  },
   "takeAction": {
     "donate": [
       {
@@ -78,17 +98,17 @@
   "reading": [
     {
       "title": "A Rope from the Sky: The Making and Unmaking of the World's Newest State",
-      "url": "https://www.goodreads.com/book/show/34964642-a-rope-from-the-sky",
+      "url": "https://www.goodreads.com/book/show/40554550",
       "description": "Journalist Zach Vertin provides a deeply reported account of South Sudan's journey from liberation to a devastating civil war."
     },
     {
       "title": "First Raise a Flag: How South Sudan Won the Longest War but Lost the Peace",
-      "url": "https://www.goodreads.com/book/show/23282220-first-raise-a-flag",
+      "url": "https://www.goodreads.com/book/show/36345370",
       "description": "Peter Martell's history of South Sudan's struggle for independence and the subsequent collapse into a kleptocratic civil war."
     },
     {
       "title": "South Sudan: The Untold Story from Independence to Civil War",
-      "url": "https://www.goodreads.com/book/show/44139414-south-sudan",
+      "url": "https://www.goodreads.com/book/show/31135978",
       "description": "Hilde F. Johnson, the former UN Special Representative, gives an insider's account of the failures of international state-building in South Sudan."
     }
   ]

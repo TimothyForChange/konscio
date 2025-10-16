@@ -4,6 +4,11 @@ import AdditionalReading from '../components/country/AdditionalReading.astro';
 import Colonial from '../components/country/Colonial.astro';
 import CountryHeader from '../components/country/CountryHeader.astro';
 import Crisis from '../components/country/Crisis.astro';
+import CulturalHeritage from '../components/country/CulturalHeritage.astro';
+import EconomicOverview from '../components/country/EconomicOverview.astro';
+import EnvironmentalImpact from '../components/country/EnvironmentalImpact.astro';
+import FutureOutlook from '../components/country/FutureOutlook.astro';
+import Geography from '../components/country/Geography.astro';
 import HistoricalContext from '../components/country/HistoricalContext.astro';
 import HumanitarianImpact from '../components/country/HumanitarianImpact.astro';
 import ImperialLegacy from '../components/country/ImperialLegacy.astro';
@@ -86,6 +91,14 @@ const articleSchema = {
               <Timeline timeline={countryData.timeline} />
             )
         }
+
+        <EnvironmentalImpact
+          environmentalImpact={countryData?.environmentalImpact}
+        />
+        <EconomicOverview economicOverview={countryData?.economicOverview} />
+        <Geography geography={countryData?.geography} />
+        <CulturalHeritage culturalHeritage={countryData?.culturalHeritage} />
+        <FutureOutlook futureOutlook={countryData?.futureOutlook} />
 
         {
           countryData?.colonialRoot &&

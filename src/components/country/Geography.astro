@@ -3,39 +3,41 @@ import { isString } from 'radash';
 import { formatKeyToTitle, formatText } from '../../utils';
 
 export interface Properties {
-  coreTerms?: Record<string, string>;
+  geography?: Record<string, string>;
 }
 
-const { coreTerms } = Astro.props as Properties;
+const { geography } = Astro.props as Properties;
 ---
 
-<section class='terms-section' aria-labelledby='history-heading'>
-  <h2 id='history-heading'>Historical Context</h2>
+{
+  geography && Object.keys(geography).length > 0 && (
+    <section class='geography-section' aria-labelledby='geography-heading'>
+      <h2 id='geography-heading'>Geography</h2>
 
-  {
-    Object.entries(coreTerms!)
-      .filter(
-        ([key, value]) =>
-          isString(key) &&
-          isString(value) &&
-          key.trim() !== '' &&
-          value.trim() !== ''
-      )
-      .map(([key, value]) => (
-        <div class='term-group'>
-          <h3>{formatKeyToTitle(key)}</h3>
-          <p set:html={formatText(value)} />
-        </div>
-      ))
-  }
-</section>
+      {Object.entries(geography)
+        .filter(
+          ([key, value]) =>
+            isString(key) &&
+            isString(value) &&
+            key.trim() !== '' &&
+            value.trim() !== ''
+        )
+        .map(([key, value]) => (
+          <div class='term-group'>
+            <h3>{formatKeyToTitle(key)}</h3>
+            <p set:html={formatText(value)} />
+          </div>
+        ))}
+    </section>
+  )
+}
 
 <style>
-  .terms-section {
+  .geography-section {
     margin-bottom: var(--section-gap);
   }
 
-  .terms-section h2 {
+  .geography-section h2 {
     font-size: var(--section-heading-size);
     font-weight: var(--font-weight-bold);
     color: var(--text-primary);
@@ -44,7 +46,7 @@ const { coreTerms } = Astro.props as Properties;
     padding-bottom: var(--section-heading-padding-bottom);
   }
 
-  .terms-section h3 {
+  .geography-section h3 {
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-bold);
     color: var(--text-primary);
@@ -65,7 +67,7 @@ const { coreTerms } = Astro.props as Properties;
   }
 
   @media (width >= 768px) {
-    .terms-section h2 {
+    .geography-section h2 {
       font-size: var(--section-heading-size-lg);
     }
   }

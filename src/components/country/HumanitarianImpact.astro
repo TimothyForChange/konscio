@@ -1,6 +1,6 @@
 ---
 import type { HumanitarianImpact } from '../../types';
-import { formatText } from '../../utils';
+import { formatKeyToTitle, formatText } from '../../utils';
 import ImpactGrid from '../blocks/ImpactGrid.astro';
 
 export interface Properties {
@@ -22,77 +22,25 @@ if (!hasData) {
   return;
 }
 
-const stats = [];
+const keyToLabel: Record<string, string> = {
+  displaced: 'Displaced',
+  refugees: 'Refugees',
+  casualties: 'Casualties',
+  affected: 'Affected',
+  livingInPoverty: 'Living in Poverty',
+  childrenOutOfSchool: 'Children Out of School',
+  healthSystemCollapsed: 'Health System Collapsed',
+  foodInsecurity: 'Food Insecurity',
+  lackOfWaterAccess: 'Lack of Water Access',
+  other: 'Other',
+};
 
-if (humanitarianImpact.displaced !== undefined) {
-  stats.push({
-    label: 'Displaced',
-    value: formatText(humanitarianImpact.displaced ?? '—'),
-  });
-}
-
-if (humanitarianImpact.refugees !== undefined) {
-  stats.push({
-    label: 'Refugees',
-    value: formatText(humanitarianImpact.refugees ?? '—'),
-  });
-}
-
-if (humanitarianImpact.casualties !== undefined) {
-  stats.push({
-    label: 'Casualties',
-    value: formatText(humanitarianImpact.casualties ?? '—'),
-  });
-}
-
-if (humanitarianImpact.affected !== undefined) {
-  stats.push({
-    label: 'Affected',
-    value: formatText(humanitarianImpact.affected ?? '—'),
-  });
-}
-
-if (humanitarianImpact.poverty !== undefined) {
-  stats.push({
-    label: 'Living Below Poverty Line',
-    value: formatText(humanitarianImpact.poverty ?? '—'),
-  });
-}
-
-if (humanitarianImpact.childrenOutOfSchool !== undefined) {
-  stats.push({
-    label: 'Children Out of School',
-    value: formatText(humanitarianImpact.childrenOutOfSchool ?? '—'),
-  });
-}
-
-if (humanitarianImpact.healthSystemCollapsed !== undefined) {
-  stats.push({
-    label: 'Health System Collapsed',
-    value: formatText(humanitarianImpact.healthSystemCollapsed ?? '—'),
-  });
-}
-
-if (humanitarianImpact.foodInsecurity !== undefined) {
-  stats.push({
-    label: 'Food Insecurity',
-    value: formatText(humanitarianImpact.foodInsecurity ?? '—'),
-  });
-}
-
-if (humanitarianImpact.waterAccess !== undefined) {
-  stats.push({
-    label: 'Lack of Water Access',
-    value: formatText(humanitarianImpact.waterAccess ?? '—'),
-  });
-}
-
-if (humanitarianImpact.other !== undefined) {
-  stats.push({
-    label: 'Other',
-    value: formatText(humanitarianImpact.other ?? '—'),
-  });
-}
+const stats = Object.entries(humanitarianImpact)
+  .filter(([, value]) => value !== undefined && value !== '')
+  .map(([key, value]) => ({
+    label: keyToLabel[key] || formatKeyToTitle(key),
+    value: formatText(value),
+  }));
 ---
 
 <section class='humanitarian-section' aria-labelledby='humanitarian-heading'>

@@ -2,7 +2,7 @@
   "name": "Afghanistan",
   "emoji": "🇦🇫",
   "ariaLabel": "Afghanistan flag",
-  "lastUpdated": "2025-10-15",
+  "lastUpdated": "2025-10-16",
   "currentCrisisSummary": "Following the US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. The situation has been exacerbated by international economic policies, including the freezing of Afghanistan's central bank assets and broad sanctions. These policies have severely impacted the economy, contributing to the collapse of the healthcare system and widespread famine. This has reversed two decades of fragile gains, which were built on an aid-dependent model that struggled to foster sustainable development. Women and girls now face systematic oppression and gender apartheid.",
   "imperialRoot": {
     "imperialPower": "British Empire, Russian Empire, Soviet Union & United States (1839-1919, 1979-1989, 2001-2021)",
@@ -17,7 +17,7 @@
     "refugees": "There are over 8.2 million Afghans hosted abroad, primarily in neighbouring Pakistan and Iran, making it one of the largest protracted refugee situations in the world.",
     "casualties": "An estimated 71,000 Afghan and Pakistani civilians have died as a direct result of the war since 2001.",
     "affected": "An estimated 23.7 million people—more than half the population—require urgent humanitarian assistance to survive.",
-    "poverty": "An estimated 85% of the population lives below the poverty line, a dramatic increase since the 2021 economic crisis.",
+    "livingInPoverty": "An estimated 85% of the population lives below the poverty line, a dramatic increase since the 2021 economic crisis.",
     "healthSystemCollapsed": "The public health system has been pushed to the brink of collapse, with thousands of facilities facing closure or severe service reduction due to funding cuts.",
     "foodInsecurity": "An estimated 15.8 million people face acute food insecurity, with millions at emergency levels of hunger."
   },
@@ -63,6 +63,26 @@
       "event": "**Economic Pressure**: The US freezes Afghanistan's $7 billion in foreign reserves, and international sanctions trigger a catastrophic economic collapse and humanitarian crisis, used as leverage against the new government."
     }
   ],
+  "environmentalImpact": {
+    "climateInjustice": "Afghanistan is one of the world's most climate-vulnerable nations despite contributing minimally to global emissions. Decades of conflict have weakened environmental governance, while severe droughts, intensified by climate change, have destroyed agricultural livelihoods and deepened the humanitarian crisis.",
+    "warAndPollution": "The landscape bears the scars of decades of conflict, including unexploded ordnance and pollution from military activities. The long-term environmental and health consequences of exposure to military waste and toxic materials remain largely unaddressed."
+  },
+  "economicOverview": {
+    "aidDependentAndHollowedOut": "The post-2001 economy was heavily dependent on foreign aid and military spending. This model enriched foreign contractors and a small domestic elite, fostering corruption while failing to build a sustainable productive base. The agricultural sector, the traditional backbone of the economy, was neglected.",
+    "economicPressure": "Since 2021, the economy has faced significant challenges. The freezing of state assets and international sanctions have cut Afghanistan off from the global financial system, triggering hyperinflation, a collapse of the banking sector, and mass unemployment, with severe impacts on the general population."
+  },
+  "culturalHeritage": {
+    "ancientCrossroads": "Afghanistan's position as a crossroads of empires—linking Central Asia, South Asia, and the Middle East—has produced an incredibly rich cultural heritage. This includes ancient Buddhist sites like the Bamiyan Buddhas (destroyed in 2001), Greco-Bactrian cities, and magnificent Islamic architecture.",
+    "culturalChallenges": "Decades of conflict have led to the looting of archaeological sites and the destruction of cultural heritage. Today, cultural expression faces restrictions, particularly affecting women, artists, and musicians. Despite this, cultural traditions persist, especially in the diaspora, through poetry, music, and film."
+  },
+  "geography": {
+    "strategicAndMountainous": "Landlocked and mountainous, Afghanistan's terrain has historically made it a formidable challenge for military campaigns and a natural buffer state between empires. The towering Hindu Kush mountain range divides the country and has shaped its diverse ethnic and linguistic landscape.",
+    "resourceRichAndUntapped": "Despite its image of barren mountains, Afghanistan possesses vast and largely untapped mineral wealth, including lithium, copper, and rare earth elements, estimated to be worth over a trillion dollars. These resources have long been a factor in foreign interest in the country."
+  },
+  "futureOutlook": {
+    "compoundingChallenges": "Afghanistan's future is precarious, defined by the convergence of a catastrophic humanitarian crisis, economic collapse, severe climate shocks, and governance challenges. Without a resolution to the economic isolation and a dramatic increase in humanitarian aid, the suffering is set to deepen.",
+    "struggleForRights": "The primary challenge ahead is for the restoration of basic human rights, especially for women and girls, and the achievement of economic and political stability, while navigating the cycles of foreign engagement and internal conflict that have defined its modern history."
+  },
   "takeAction": {
     "donate": [
       {
@@ -92,17 +112,17 @@
   "reading": [
     {
       "title": "Ghost Wars: The Secret History of the CIA, Afghanistan, and Bin Laden, from the Soviet Invasion to September 10, 2001",
-      "url": "https://www.goodreads.com/book/show/71983.Ghost_Wars",
+      "url": "https://www.goodreads.com/book/show/71984",
       "description": "Steve Coll's Pulitzer Prize-winning investigation into the CIA's covert war in Afghanistan and the rise of al-Qaeda."
     },
     {
       "title": "Directorate S: The C.I.A. and America's Secret Wars in Afghanistan and Pakistan",
-      "url": "https://www.goodreads.com/book/show/35542038-directorate-s",
+      "url": "https://www.goodreads.com/book/show/35997409",
       "description": "The sequel to 'Ghost Wars', this book by Steve Coll details the failures and contradictions of the US war in Afghanistan post-9/11."
     },
     {
-      "title": "No Good Men Among the Living: America, the Taliban, and the War through Afghan Eyes",
-      "url": "https://www.goodreads.com/book/show/18282195-no-good-men-among-the-living",
+      "title": "No Good Men Among the Living",
+      "url": "https://www.goodreads.com/book/show/22857243",
       "description": "Anand Gopal's groundbreaking work that tells the story of the US war from the perspective of ordinary Afghans, exposing crucial blunders."
     }
   ]

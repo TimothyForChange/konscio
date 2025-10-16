@@ -2,7 +2,7 @@
   "name": "Sahel",
   "emoji": "🇧🇫🇲🇱🇳🇪",
   "ariaLabel": "Flags of Burkina Faso, Mali, and Niger",
-  "lastUpdated": "2025-10-15",
+  "lastUpdated": "2025-10-16",
   "currentCrisisSummary": "The Central Sahel is the epicentre of a severe and neglected crisis, defined by a convergence of weak governance, jihadist insurgencies, and severe climate shocks. A recent wave of military coups in Burkina Faso, Mali, and Niger has been framed as a popular rejection of a French-led security strategy that was seen as ineffective. This has created a new geopolitical frontline, with external powers competing for influence amid extreme violence and mass displacement.",
   "colonialRoot": {
     "colonialPower": "France (French West Africa, c. 1890s-1960)",
@@ -20,7 +20,7 @@
     "childrenOutOfSchool": "Over 12,000 schools are non-operational due to insecurity across the region, affecting millions of children.",
     "healthSystemCollapsed": "In conflict-affected areas, hundreds of health centres have been closed or are offering minimal services due to attacks and insecurity.",
     "foodInsecurity": "An estimated 17 million people in the Central Sahel face acute food insecurity.",
-    "waterAccess": "The convergence of conflict and climate change has left millions without reliable access to safe drinking water."
+    "lackOfWaterAccess": "The convergence of conflict and climate change has left millions without reliable access to safe drinking water."
   },
   "timeline": [
     {
@@ -56,6 +56,26 @@
       "event": "**Deepening Crisis**: The conflict intensifies, with jihadist groups encircling major towns and creating a severe humanitarian emergency."
     }
   ],
+  "environmentalImpact": {
+    "climateChallenges": "The Sahel faces severe climate challenges. As one of the world's fastest-warming regions, it experiences significant desertification, water scarcity, and agricultural difficulties. These impacts, linked to global emissions, act as factors that exacerbate conflicts over scarce resources, affecting livelihoods across the region.",
+    "resourceExtraction": "The region's significant natural resources, particularly uranium in Niger and gold in Burkina Faso and Mali, are extracted with benefits that flow to various stakeholders. This extraction model has created areas where environmental damage and pollution from mining operations affect local communities, who may see limited benefits from their local resources."
+  },
+  "economicOverview": {
+    "economicDependency": "The economies of the Sahel have been characterised by dependency relationships. For decades, the French-backed CFA franc tied the region's monetary system to the euro. The economies are dominated by the export of raw materials (uranium, gold, cotton) to other regions, a model that limits the development of a diversified industrial base and results in wealth flow patterns that do not fully benefit local populations.",
+    "securityEconomy": "The international 'war on terror' created a significant security-focused economy. This security-first approach directed funds into military contracts and foreign security firms rather than sustainable development. This approach failed to bring stability, and created economic structures around conflict, which has now been challenged by the new military regimes."
+  },
+  "culturalHeritage": {
+    "empiresAndManuscripts": "The Sahel is a region of epic history, once home to great empires like the Mali and Songhai Empires. The city of Timbuktu in Mali was a legendary centre of Islamic scholarship, housing hundreds of thousands of priceless ancient manuscripts. This heritage reflects a deep history of intellectual and cultural achievement.",
+    "heritageUnderThreat": "This rich heritage has faced threats during the current conflict. In 2012, groups occupying Timbuktu destroyed ancient Sufi mausoleums and burned manuscripts. This cultural destruction highlights the threat the conflict poses to the region's shared history and identity."
+  },
+  "geography": {
+    "aVastTransitionZone": "The Sahel is a vast semi-arid belt that stretches across Africa, separating the Sahara Desert to the north from the savannas to the south. This transitional nature makes it a fragile ecosystem, highly sensitive to climatic shifts like desertification, which is now advancing southwards at an alarming rate.",
+    "aRegionOfInterest": "The landlocked nature of the Central Sahel states (Mali, Burkina Faso, Niger) has made them subject to external influences. The recent expulsion of French forces has created new dynamics, with various international actors seeking to secure strategic and economic interests in the region."
+  },
+  "futureOutlook": {
+    "assertingIndependence": "The Sahel is experiencing a significant shift as new military leadership seeks to establish greater autonomy. The new military leaders are attempting to reduce influence from former colonial powers, seeking new security and economic partnerships. This shift has popular support, but creates risks of instability and international challenges.",
+    "complexChallenges": "The future of the region faces multiple challenges: ongoing conflict, governance issues, extreme climate change, and a humanitarian crisis. Addressing these challenges will require comprehensive approaches that go beyond military interventions, including climate adaptation and economic partnerships that benefit local populations."
+  },
   "takeAction": {
     "donate": [
       {
@@ -84,18 +104,18 @@
   "reading": [
     {
       "title": "The Wretched of the Earth",
-      "url": "https://www.goodreads.com/book/show/66933.The_Wretched_of_the_Earth",
+      "url": "https://www.goodreads.com/book/show/66933",
       "description": "Frantz Fanon's classic and foundational text on the psychology of colonialism and the violent logic of decolonisation, essential for understanding the Sahel's anti-French turn."
     },
     {
-      "title": "The Gilded Cage: A History of the CFA Franc",
-      "url": "https://www.goodreads.com/book/show/60678001-the-gilded-cage",
-      "description": "A critical history of the CFA Franc, explaining how this colonial-era currency has functioned as a tool of French neo-colonial control in the Sahel and West Africa."
+      "title": "The Terror Factory: Inside the FBI's Manufactured War on Terrorism",
+      "url": "https://www.goodreads.com/book/show/13591775",
+      "description": "While focused on the US, Trevor Aaronson's investigation provides a critical framework for understanding how the global 'war on terror' can exacerbate and even create the problems it claims to solve."
     },
     {
-      "title": "The Terror Factory: Inside the FBI's Manufactured War on Terrorism",
-      "url": "https://www.goodreads.com/book/show/15814187-the-terror-factory",
-      "description": "While focused on the US, Trevor Aaronson's investigation provides a critical framework for understanding how the global 'war on terror' can exacerbate and even create the problems it claims to solve."
+      "title": "The Scramble for Africa",
+      "url": "https://www.goodreads.com/book/show/28534426",
+      "description": "Thomas Pakenham's comprehensive account of European colonisation of Africa, providing essential context for understanding the Sahel's colonial legacy."
     }
   ]
 }

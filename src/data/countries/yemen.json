@@ -2,7 +2,7 @@
   "name": "Yemen",
   "emoji": "🇾🇪",
   "ariaLabel": "Yemeni flag",
-  "lastUpdated": "2025-10-15",
+  "lastUpdated": "2025-10-16",
   "currentCrisisSummary": "Yemen is suffering one of the world's most severe humanitarian crises, driven by a civil war over control of the state and its strategic position on a key global trade route. The conflict, which involves a Saudi-led coalition and the Iran-aligned Houthis and has been sustained by a blockade, has damaged infrastructure, caused a famine, and left millions reliant on aid to survive.",
   "imperialRoot": {
     "imperialPower": "British Empire & Ottoman Empire (Aden from 1839-1967, Ottoman rule in north until 1918)",
@@ -20,7 +20,7 @@
     "childrenOutOfSchool": "Over 2 million children are out of school, with thousands of schools destroyed or damaged.",
     "healthSystemCollapsed": "Only half of all health facilities are fully functional, leaving millions without access to basic care.",
     "foodInsecurity": "An estimated 17 million people face acute food insecurity, with millions at emergency levels of hunger.",
-    "waterAccess": "More than 15 million people lack access to safe drinking water and sanitation, fuelling outbreaks of diseases like cholera."
+    "lackOfWaterAccess": "More than 15 million people lack access to safe drinking water and sanitation, fuelling outbreaks of diseases like cholera."
   },
   "timeline": [
     {
@@ -52,6 +52,26 @@
       "event": "**Humanitarian Catastrophe**: The conflict escalates into a protracted war of attrition and a blockade, creating what the UN has repeatedly called the world's worst humanitarian crisis."
     }
   ],
+  "environmentalImpact": {
+    "aWaterCrisisExacerbatedByConflict": "Yemen is one of the most water-scarce countries on earth, a crisis made significantly worse by the war. The conflict has damaged water infrastructure, including reservoirs, wells, and pipelines. This destruction has severely limited access to safe drinking water for millions and contributed to disease outbreaks including cholera.",
+    "famineAndAgriculturalDamage": "The war and restrictions on movement have damaged Yemen's agricultural sector. The bombing of farms, restrictions on fuel needed for irrigation pumps, and economic collapse have contributed to severe food insecurity. This has caused significant hunger and long-term damage to agricultural land."
+  },
+  "economicOverview": {
+    "anEconomyInCrisis": "Yemen's economy has collapsed significantly during the conflict. Restrictions on imports of food, fuel, and medicine, combined with the disruption of banking systems, have triggered hyperinflation and economic collapse. The main economic activity for many people is focused on basic survival in the challenging circumstances.",
+    "armsSalesAndInternationalSupport": "The conflict has involved significant international arms sales. The UK and US governments have approved billions of dollars in arms sales to Saudi Arabia and the UAE, providing military equipment and support used in the conflict. This has raised questions about the role of the arms trade in the conflict."
+  },
+  "culturalHeritage": {
+    "theCradleOfArabia": "Yemen possesses an extraordinarily rich cultural heritage, often referred to as the cradle of Arab civilisation. This includes the ancient kingdoms of Saba (Sheba), the stunning vernacular architecture of the Old City of Sana'a and the 'mud skyscrapers' of Shibam—both UNESCO World Heritage sites—and a deep tradition of poetry and music.",
+    "heritageAtRisk": "This irreplaceable heritage has faced damage during the war. Air strikes have affected historical sites, including parts of the Old City of Sana'a and ancient structures. This represents a significant loss for Yemen and the global cultural heritage."
+  },
+  "geography": {
+    "theBabElMandebStrait": "Yemen's geography is strategically important. It sits on the Bab-el-Mandeb strait, a narrow chokepoint that connects the Red Sea to the Indian Ocean. Around 10% of all global maritime trade, including vast quantities of oil and gas, passes through this strait each year, making it a location of strategic interest.",
+    "aDividedLand": "The country has a diverse geography, from the mountainous highlands of the north to the arid coastal plains and the remote deserts of the 'Empty Quarter'. This terrain has historically fostered regional identities and political divisions, dynamics that continue to influence the current conflict."
+  },
+  "futureOutlook": {
+    "challengesToUnity": "Even if the current fighting subsides, Yemen faces significant challenges. The conflict has created multiple zones of control and empowered various armed groups, deepening historical divisions between north and south. Rebuilding national unity will require significant effort.",
+    "longTermConsequences": "The war has affected an entire generation of children whose education has been disrupted and who have experienced conflict and hardship. The effects of the conflict on health and education systems will impact Yemeni society for years to come, even after hostilities end."
+  },
   "takeAction": {
     "donate": [
       {
@@ -80,18 +100,18 @@
   "reading": [
     {
       "title": "Destroying Yemen: What Chaos in Arabia Tells Us about the World",
-      "url": "https://www.goodreads.com/book/show/36555238-destroying-yemen",
+      "url": "https://www.goodreads.com/book/show/34688137",
       "description": "Isa Blumi's critical history argues that the war is a result of decades of Western imperial intervention designed to prevent Yemeni economic independence."
     },
     {
       "title": "Yemen in Crisis: The Road to War",
-      "url": "https://www.goodreads.com/book/show/36384214-yemen-in-crisis",
+      "url": "https://www.goodreads.com/book/show/43612111",
       "description": "Helen Lackner provides a detailed account of the political and social dynamics that led to the current conflict, drawing on decades of experience in the country."
     },
     {
-      "title": "The War on Yemen: Made in the USA and the UK",
-      "url": "https://www.goodreads.com/en/book/show/123188548",
-      "description": "A collection of articles and interviews detailing the direct role of American and British arms sales and military support in enabling the Saudi-led coalition's devastating war."
+      "title": "Yemen in Crisis: Autocracy, Neo-Liberalism and the Disintegration of a State",
+      "url": "https://www.goodreads.com/book/show/34381064",
+      "description": "An examination of how autocratic governance and neo-liberal policies contributed to the disintegration of the Yemeni state."
     }
   ]
 }

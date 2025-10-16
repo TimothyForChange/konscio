@@ -3,39 +3,44 @@ import { isString } from 'radash';
 import { formatKeyToTitle, formatText } from '../../utils';
 
 export interface Properties {
-  coreTerms?: Record<string, string>;
+  environmentalImpact?: Record<string, string>;
 }
 
-const { coreTerms } = Astro.props as Properties;
+const { environmentalImpact } = Astro.props as Properties;
 ---
 
-<section class='terms-section' aria-labelledby='history-heading'>
-  <h2 id='history-heading'>Historical Context</h2>
+{
+  environmentalImpact && Object.keys(environmentalImpact).length > 0 && (
+    <section
+      class='environmental-section'
+      aria-labelledby='environmental-heading'
+    >
+      <h2 id='environmental-heading'>Environmental Impact</h2>
 
-  {
-    Object.entries(coreTerms!)
-      .filter(
-        ([key, value]) =>
-          isString(key) &&
-          isString(value) &&
-          key.trim() !== '' &&
-          value.trim() !== ''
-      )
-      .map(([key, value]) => (
-        <div class='term-group'>
-          <h3>{formatKeyToTitle(key)}</h3>
-          <p set:html={formatText(value)} />
-        </div>
-      ))
-  }
-</section>
+      {Object.entries(environmentalImpact)
+        .filter(
+          ([key, value]) =>
+            isString(key) &&
+            isString(value) &&
+            key.trim() !== '' &&
+            value.trim() !== ''
+        )
+        .map(([key, value]) => (
+          <div class='term-group'>
+            <h3>{formatKeyToTitle(key)}</h3>
+            <p set:html={formatText(value)} />
+          </div>
+        ))}
+    </section>
+  )
+}
 
 <style>
-  .terms-section {
+  .environmental-section {
     margin-bottom: var(--section-gap);
   }
 
-  .terms-section h2 {
+  .environmental-section h2 {
     font-size: var(--section-heading-size);
     font-weight: var(--font-weight-bold);
     color: var(--text-primary);
@@ -44,7 +49,7 @@ const { coreTerms } = Astro.props as Properties;
     padding-bottom: var(--section-heading-padding-bottom);
   }
 
-  .terms-section h3 {
+  .environmental-section h3 {
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-bold);
     color: var(--text-primary);
@@ -65,7 +70,7 @@ const { coreTerms } = Astro.props as Properties;
   }
 
   @media (width >= 768px) {
-    .terms-section h2 {
+    .environmental-section h2 {
       font-size: var(--section-heading-size-lg);
     }
   }

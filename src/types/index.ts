@@ -8,5 +8,10 @@ export type {
   TakeAction,
   CountryData,
   Reading,
+  EnvironmentalImpact,
+  EconomicOverview,
+  CulturalHeritage,
+  Geography,
+  FutureOutlook,
 } from './country';
 export type { Mission, ResourceLink } from './mission';

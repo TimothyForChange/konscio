@@ -2,7 +2,7 @@
   "name": "Myanmar",
   "emoji": "🇲🇲",
   "ariaLabel": "Myanmar flag",
-  "lastUpdated": "2025-10-15",
+  "lastUpdated": "2025-10-16",
   "currentCrisisSummary": "A nationwide pro-democracy movement against the 2021 military coup has escalated into a full-scale civil war, triggering a humanitarian crisis. This multi-ethnic uprising seeks to challenge the system of military-led governance. The war unfolds alongside the ongoing effects of the 2017 crisis, which the UN has described as a genocide, and which has forced nearly one million survivors into sprawling refugee camps in Bangladesh, creating a multi-faceted regional crisis.",
   "colonialRoot": {
     "colonialPower": "British Empire (1824-1948)",
@@ -50,6 +50,26 @@
       "event": "**Operation 1027**: A coordinated offensive by ethnic armies inflicts significant defeats on the junta, shifting the civil war's momentum and challenging the military's grip on power."
     }
   ],
+  "environmentalImpact": {
+    "resourceExtraction": "Myanmar's rich natural resources, particularly jade, timber, and rare earth minerals, are central to its long-running conflicts. The military and various armed groups engage in extensive, often unregulated extraction, leading to deforestation, habitat destruction, and water pollution. This extraction functions as a source of funding for armed groups while damaging local ecosystems.",
+    "environmentalDamage": "The military has a history of causing environmental damage. Its 'four cuts' strategy involves the burning of villages, crops, and forests to deny resources to resistance forces. Since the 2021 coup, these tactics have intensified, causing significant ecological damage and affecting the agricultural livelihoods of entire communities."
+  },
+  "economicOverview": {
+    "militaryEconomy": "Myanmar's economy includes a large military-controlled sector. The Tatmadaw controls significant parts of the economy through two conglomerates (MEHL and MEC). This military business network, which includes everything from banking and brewing to mining and telecommunications, allows the military to fund its operations.",
+    "aFalteringEconomy": "Since the 2021 coup, the formal economy has weakened. The military authorities have printed money to fund operations, triggering inflation and currency instability. The banking system has been disrupted, and international investment has declined. In its place, an economy focused on resources and trade has emerged, based on resource extraction, taxation, and cross-border activities."
+  },
+  "culturalHeritage": {
+    "aLandOfPagodasAndDiversity": "Myanmar has a rich cultural heritage, from the ancient temple-strewn plains of Bagan to the unique traditions of its more than 135 recognised ethnic groups. Its history is one of powerful kingdoms and deep Buddhist traditions, but also of immense cultural diversity in the highland regions.",
+    "heritageAtRisk": "The military has often promoted a Bamar-centric vision of the nation's culture, which has sometimes affected the languages and traditions of ethnic minorities. Since the coup, historical and religious sites have been damaged in air strikes and fighting, representing a loss for the country's cultural heritage."
+  },
+  "geography": {
+    "strategicPosition": "Myanmar's location gives it strategic importance. It borders both India and China, providing China with a route to the Indian Ocean. It also sits astride major maritime trade routes in the Bay of Bengal. This geopolitical position has made it a location of interest for regional and global powers.",
+    "aDiverseLandscape": "The country's geography is defined by a central plain, the heartland of the Bamar majority, surrounded by a horseshoe of rugged, mountainous highlands inhabited by ethnic minority groups. This physical separation, which has historical roots, has been a factor in the country's civil conflicts, with the peripheries having different relationships with the centre."
+  },
+  "futureOutlook": {
+    "aPeriodOfUncertainty": "Myanmar is experiencing a period of significant political change. The multi-ethnic resistance and the parallel civil disobedience movement are working to oppose the 2021 coup and change the system of military rule. The outcome of these efforts will shape the country's future.",
+    "stateChallenges": "The military is facing challenges in controlling many areas of the country, and state institutions are facing difficulties. The future is uncertain, with various possible outcomes including changes in governance structures or continued challenges in different regions. The humanitarian crisis is likely to continue in the near term."
+  },
   "takeAction": {
     "donate": [
       {
@@ -82,18 +102,18 @@
   },
   "reading": [
     {
-      "title": "The River of Lost Footsteps: A Personal History of Burma",
-      "url": "https://www.goodreads.com/book/show/28122.The_River_of_Lost_Footsteps",
+      "title": "The River of Lost Footsteps",
+      "url": "https://www.goodreads.com/book/show/1940555",
       "description": "Written by historian Thant Myint-U, this book provides a sweeping yet personal history of Myanmar, skillfully weaving together the country's complex past and present."
     },
     {
-      "title": "Burma's Spring: A Story of Revolution, Resistance, and the New Struggle for a New Nation",
-      "url": "https://www.goodreads.com/book/show/124765922-burma-s-spring",
+      "title": "The Burma Spring: Aung San Suu Kyi and the New Struggle for the Soul of a Nation",
+      "url": "https://www.goodreads.com/book/show/22514246",
       "description": "Journalist Jason Szep offers a compelling narrative of the 2021 revolution, drawing on extensive reporting to tell the story of the popular uprising against military rule."
     },
     {
       "title": "From the Land of Green Ghosts: A Burmese Odyssey",
-      "url": "https://www.goodreads.com/book/show/85149.From_the_Land_of_Green_Ghosts",
+      "url": "https://www.goodreads.com/book/show/103148",
       "description": "A powerful memoir by Pascal Khoo Thwe that offers a rare glimpse into the life of the Padaung people and the broader struggle of ethnic minorities against the central government."
     }
   ]

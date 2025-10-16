@@ -2,7 +2,7 @@
   "name": "Somalia",
   "emoji": "🇸🇴",
   "ariaLabel": "Somali flag",
-  "lastUpdated": "2025-10-15",
+  "lastUpdated": "2025-10-16",
   "currentCrisisSummary": "Somalia is caught in a convergence of severe crises: a protracted civil war, an al-Shabaab insurgency, and a cycle of climate-driven droughts and floods. This convergence, fuelled by geopolitical competition and climate change, has led to a long-term humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises.",
   "colonialRoot": {
     "colonialPower": "Britain & Italy (c. 1880s-1960)",
@@ -14,13 +14,13 @@
   },
   "humanitarianImpact": {
     "displaced": "Nearly 4 million people are internally displaced by conflict and climate shocks.",
-    "refuges": "Nearly 1 million Somalis live as refugees and asylum-seekers, primarily in neighbouring Kenya, Ethiopia, and Yemen.",
+    "refugees": "Nearly 1 million Somalis live as refugees and asylum-seekers, primarily in neighbouring Kenya, Ethiopia, and Yemen.",
     "casualties": "While no definitive figure exists for the entire civil war, an estimated 500,000 people have died from violent conflict-related causes since 1991. The 2011 famine alone killed an estimated 260,000 people.",
     "affected": "An estimated 7.7 million people require life-saving humanitarian assistance.",
     "childrenOutOfSchool": "An estimated 3 million children are out of school due to conflict, displacement, and lack of educational infrastructure.",
     "healthSystemCollapsed": "The healthcare system remains severely weakened, with recurrent disease outbreaks and one of the highest maternal mortality rates in the world.",
     "foodInsecurity": "An estimated 4 million people face acute food insecurity, with 1.7 million children facing acute malnutrition.",
-    "waterAccess": "More than half of the population lacks access to safe drinking water, sanitation, and hygiene."
+    "lackOfWaterAccess": "More than half of the population lacks access to safe drinking water, sanitation, and hygiene."
   },
   "timeline": [
     {
@@ -56,6 +56,26 @@
       "event": "**Climate Extremes**: The country suffers its worst drought in 40 years, followed by severe floods, pushing millions to the brink of starvation."
     }
   ],
+  "environmentalImpact": {
+    "climateVulnerability": "Somalia is one of the most climate-vulnerable nations despite having one of the lowest carbon footprints in the world. A cycle of extreme droughts and floods, linked to global emissions, has affected its largely pastoralist and agricultural society, contributing to resource conflicts and mass displacement.",
+    "maritimeChallenges": "The absence of effective governance left Somalia's long coastline, one of the most resource-rich in Africa, vulnerable. For decades, illegal international fishing by foreign vessels depleted fish stocks and affected local livelihoods. There have also been reports of toxic waste being dumped along the coast by foreign companies, creating environmental and health challenges."
+  },
+  "economicOverview": {
+    "fromColdWarInvolvementToStateChallenges": "Somalia's formal economy was affected by Cold War dynamics. It received support from superpowers competing for influence, creating a dependency that ended when the Cold War concluded and the state collapsed. In the absence of a central government, an informal economy has emerged, dominated by remittances from the vast Somali diaspora, telecommunications, and livestock trade.",
+    "securityFocusedEconomy": "Since the early 2000s, the dominant external economic influence has been the 'war on terror'. This has channelled funds into security operations, creating an economy focused on counter-terrorism that benefits foreign contractors and some domestic actors. This approach has prioritised military solutions over sustainable development, continuing the cycle of conflict."
+  },
+  "culturalHeritage": {
+    "theLandOfPoets": "Often called a 'Nation of Poets', Somalia has an exceptionally rich oral culture, with poetry serving as the primary medium for political commentary, history, and social expression for centuries. This tradition, along with its unique music and dance, forms the core of a resilient national identity.",
+    "heritageAtRisk": "Decades of civil war have affected both tangible and intangible heritage. Ancient historical sites, such as the Laas Geel cave paintings, are located in fragile regions and lack protection. The conflict has also disrupted traditional nomadic lifestyles that are central to Somali culture, while the ideology of al-Shabaab has restricted cultural practices like music and traditional expressions."
+  },
+  "geography": {
+    "theHornOfAfrica": "Somalia occupies a position of immense geostrategic importance on the Horn of Africa. It has the longest coastline in mainland Africa, giving it control over the southern coast of the Gulf of Aden and the sea lanes connecting the Red Sea and the Indian Ocean. This strategic location has made it significant for global trade and international engagement.",
+    "aNationShapedByColonialBoundaries": "The geography of the Somali people extends beyond the borders of the modern state. The colonial partition left significant Somali populations in Ethiopia's Ogaden region, Djibouti, and northern Kenya. This distribution of the Somali population remains a factor in regional relations and Somali national consciousness."
+  },
+  "futureOutlook": {
+    "aPathToStability": "Somalia's future involves addressing the cycle of conflict, climate shocks, and external engagement. While federal state-building efforts continue, they face challenges from the ongoing al-Shabaab insurgency and internal political differences. The discovery of offshore oil and gas reserves presents both opportunities and potential challenges for resource management.",
+    "resilienceAndDevelopment": "Despite decades of crisis, Somali society has shown remarkable resilience, developing local governance and economic systems in the absence of a central state. The challenge is to build on this grassroots resilience to create stable institutions that can manage the country's resources and support sustainable development led by Somalis."
+  },
   "takeAction": {
     "donate": [
       {
@@ -79,17 +99,17 @@
   "reading": [
     {
       "title": "The World's Most Dangerous Place: Inside the Outlaw State of Somalia",
-      "url": "https://www.goodreads.com/book/show/13592183-the-world-s-most-dangerous-place",
+      "url": "https://www.goodreads.com/book/show/17168288",
       "description": "Journalist James Fergusson provides a compelling look at Somalia post-state collapse, exploring the rise of piracy and al-Shabaab from a ground-level perspective."
     },
     {
       "title": "Making Sense of Somali History: Volume 1",
-      "url": "https://www.goodreads.com/book/show/26890336-making-sense-of-somali-history",
+      "url": "https://www.goodreads.com/book/show/40886842",
       "description": "Abdurahman Abdullahi (Baadiyow) offers a comprehensive history of Somalia, providing crucial context on the pre-colonial, colonial, and post-colonial periods."
     },
     {
       "title": "The Mayor of Mogadishu: A Story of Chaos and Redemption in the Ruins of Somalia",
-      "url": "https://www.goodreads.com/book/show/25814239-the-mayor-of-mogadishu",
+      "url": "https://www.goodreads.com/book/show/28220668",
       "description": "Andrew Harding's biography of Mohamud 'Tarzan' Nur, telling the story of modern Somalia through the life of one of its most dynamic and controversial figures."
     }
   ]
