@@ -6,8 +6,7 @@ import { FontaineTransform } from 'fontaine';
 
 const fontaineOptions = {
   fallbacks: [
-    'Geist Variable',
-    'Geist',
+    'Inter Variable',
     'Inter',
     '-apple-system',
     'system-ui',
