@@ -279,79 +279,6 @@ html::-webkit-scrollbar-corner {
   outline: none;
 }
 
-.visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip-path: inset(50%);
-  white-space: nowrap;
-}
-
-.section-heading {
-  font-size: var(--section-heading-size);
-  font-weight: var(--section-heading-weight);
-  color: var(--section-heading-color);
-  margin-bottom: 1rem;
-  border-bottom: var(--section-heading-border);
-  padding-bottom: var(--section-heading-padding-bottom);
-}
-
-.section-container {
-  margin-bottom: 1.5rem;
-}
-
-.card-base {
-  background: var(--bg-card);
-  border: var(--card-border);
-  border-radius: var(--card-radius);
-  padding: var(--card-padding);
-  text-decoration: none;
-  transition: var(--card-transition);
-  min-height: var(--min-height-card);
-  box-sizing: border-box;
-}
-
-.card-base:hover {
-  background: var(--bg-alt);
-  border-color: var(--accent-primary);
-  transform: var(--hover-transform);
-  box-shadow: var(--hover-shadow);
-}
-
-.card-base:active {
-  transform: var(--active-transform);
-  box-shadow: var(--active-shadow);
-  transition:
-    transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-base {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--gap-sm);
-  background: var(--accent-primary);
-  color: var(--on-accent);
-  text-decoration: none;
-  padding: var(--button-padding-y) var(--button-padding-x);
-  border-radius: var(--button-radius);
-  font-weight: var(--font-weight-semibold);
-  font-size: var(--font-size-base);
-  transition: var(--link-transition);
-  min-height: 36px;
-  box-sizing: border-box;
-  border: none;
-}
-
-.button-base:hover {
-  background: var(--accent-secondary);
-}
-
-.button-base:active {
-  background: var(--accent-tertiary);
-}
-
 .action-group {
   margin-bottom: calc(var(--section-gap) * 0.9);
 }
@@ -376,18 +303,7 @@ html::-webkit-scrollbar-corner {
   font-size: var(--font-size-xl);
 }
 
-cite {
-  font-style: italic;
-  color: var(--text-muted);
-  font-size: 0.95em;
-  line-height: inherit;
-}
-
 @media (width >= 768px) {
-  .section-heading {
-    font-size: var(--section-heading-size-lg);
-  }
-
   :root {
     --section-gap: 2.25rem;
     --heading-gap: 1.125rem;
