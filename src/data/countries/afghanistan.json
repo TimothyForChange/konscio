@@ -3,107 +3,104 @@
   "emoji": "🇦🇫",
   "ariaLabel": "Afghanistan flag",
   "lastUpdated": "2025-10-16",
-  "currentCrisisSummary": "Following the US withdrawal and Taliban takeover in 2021, Afghanistan has been plunged into one of the world's worst humanitarian crises. The situation has been exacerbated by international economic policies, including the freezing of Afghanistan's central bank assets and broad sanctions. These policies have severely impacted the economy, contributing to the collapse of the healthcare system and widespread famine. This has reversed two decades of fragile gains, which were built on an aid-dependent model that struggled to foster sustainable development. Women and girls now face systematic oppression and gender apartheid.",
+  "currentCrisisSummary": "Since the US withdrawal and the Taliban takeover in August 2021, Afghanistan has descended into a deep and protracted humanitarian emergency. Millions face acute food insecurity and malnutrition, public services have largely collapsed, and the economy has been crippled by the freezing of central bank assets and broad financial restrictions that isolate the country from the global economy.\n\nThese policies — including the effective freezing of roughly $7 billion of sovereign reserves abroad — and a regime of sanctions and de-facto financial exclusion have drastically reduced state capacity and access to imports, with acute consequences for health, food, shelter and employment. The situation reverses fragile development gains that were dependent on external financing and has produced mass displacement, rising poverty, and heightened vulnerability for women, girls and minorities who now face systematic restrictions and exclusion.\n\nThe humanitarian emergency is not only the result of internal political change but is also sustained by international economic and geopolitical choices: Western governments' asset freezes, conditionalities and wide sanctions regimes have had direct, measurable effects on livelihoods and public services. The immediate needs are immense, and the country requires large-scale, sustained humanitarian support that is accountable to Afghan civil society and led by Afghan organisations where possible.",
   "imperialRoot": {
-    "imperialPower": "British Empire, Russian Empire, Soviet Union & United States (1839-1919, 1979-1989, 2001-2021)",
-    "legacy": "Afghanistan's stability has been impacted by a long history of foreign intervention. The 19th-century 'Great Game' saw the British and Russian Empires compete for influence over Afghan territory, establishing a pattern of foreign interference that often undermined local political development.\n\nThis rivalry intensified during the Cold War, as the US and USSR turned Afghanistan into a proxy battleground. The CIA's Operation Cyclone, which armed and funded the Mujahideen to fight the Soviets, had the long-term consequence of fostering militancy and contributing to the fragmentation of the Afghan state.\n\nThis continuous foreign involvement has created a cycle of instability that external powers have sometimes used for geopolitical leverage and to control regional resources."
+    "imperialPower": "British Empire, Russian Empire, Soviet Union & United States (19th century - present)",
+    "legacy": "Afghanistan's contemporary fragility is embedded in a long history of foreign intervention. In the 19th century the 'Great Game' between the British and Russian empires reshaped frontier politics and weakened indigenous centres of authority. Soviet intervention (1979-1989) and the Cold War proxy struggles that preceded it precipitated decades of violent conflict and state collapse. The US intervention after 2001 and the subsequent two decades of military occupation and large-scale external contracting produced a rentier, aid-dependent political economy centred on security expenditure and external flows.\n\nEach major intervention reshaped Afghan social, economic and political institutions, often entrenching dependency, fragmenting local governance and amplifying violent non-state actors. The repeated external remaking of Afghanistan has therefore been a structural driver of instability and humanitarian vulnerability."
   },
   "historicalContext": {
-    "theGraveyardOfEmpiresMyth": "This historical moniker is often described as a narrative that frames Afghanistan as an inherently ungovernable land. Critics argue this view can obscure the role of foreign intervention as a primary driver of instability. Each major invasion—British, Soviet, American—sought to reorder Afghan society to serve external interests. These interventions often weakened or destroyed local institutions, fractured social cohesion, and fuelled resistance. The resulting instability has sometimes been cited by external powers as evidence of internal failings, a narrative that critics argue deflects responsibility from the impact of foreign involvement.",
-    "economicPressureAndSanctions": "The current humanitarian crisis is widely seen as a direct consequence of political and economic decisions. Following the 2021 withdrawal, the US and its allies utilised the international financial system to exert pressure. By freezing $7 billion of Afghanistan's sovereign wealth and enforcing a broad sanctions regime, they have effectively isolated the country from the global economy. Critics argue this constitutes a form of collective punishment against an entire population, inflicting immense suffering on millions of ordinary Afghans who now face famine and a collapsed health system. Some analysts describe this as a form of modern economic coercion used to achieve political objectives."
+    "theGraveyardOfEmpiresMyth": "The phrase 'graveyard of empires' is a trope that individualises failure and obscures the central role of sustained foreign interference. Successive imperial and great-power campaigns sought to reorder Afghan society and state institutions to serve external strategic aims — a process that frequently undermined local political autonomy and social cohesion. Rather than an inherent incapacity, much of Afghanistan's instability must be read as the product of repeated external interventions and extractive geopolitical competition.",
+    "economicPressureAndSanctions": "After August 2021 international financial measures — notably the freezing of roughly $7 billion in central bank reserves held overseas and restrictions on formal banking relations — have constrained Afghanistan's ability to import, pay salaries and deliver public services. Multilateral and unilateral sanctions, plus restrictive de-risking by international banks and donors' conditionalities, have contributed to economic contraction, spiralling unemployment, and a sharp deterioration in living standards. Many analysts and humanitarian actors argue that these measures, as they have been applied, function as forms of economic coercion that disproportionately punish civilians and limit humanitarian space.\n\nThese pressures have compounded the impacts of climate shocks, conflict and displacement, producing one of the largest humanitarian crises in the world today.",
+    "internationalLawAndAccountability": "While the post-2021 context raises urgent humanitarian questions, there are also accountability dimensions connected to earlier interventions and the conduct of armed actors. Investigations, reporting and academic research have documented violations and long-term harm associated with successive periods of foreign military action, proxy support and state collapse. Although formal international accountability mechanisms have been limited or contested, documenting abuses and supporting Afghan civil society and survivors remains essential for redress and longer-term justice."
   },
   "humanitarianImpact": {
-    "displaced": "Over 6.3 million people are internally displaced by conflict and climate shocks.",
-    "refugees": "There are over 8.2 million Afghans hosted abroad, primarily in neighbouring Pakistan and Iran, making it one of the largest protracted refugee situations in the world.",
-    "casualties": "An estimated 71,000 Afghan and Pakistani civilians have died as a direct result of the war since 2001.",
-    "affected": "An estimated 23.7 million people—more than half the population—require urgent humanitarian assistance to survive.",
-    "livingInPoverty": "An estimated 85% of the population lives below the poverty line, a dramatic increase since the 2021 economic crisis.",
-    "healthSystemCollapsed": "The public health system has been pushed to the brink of collapse, with thousands of facilities facing closure or severe service reduction due to funding cuts.",
-    "foodInsecurity": "An estimated 15.8 million people face acute food insecurity, with millions at emergency levels of hunger."
+    "displaced": "Over 6.3 million people are internally displaced by conflict, economic pressures and climate shocks, many living in precarious informal settlements and at high risk of eviction.",
+    "refugees": "More than 8.2 million Afghans are hosted abroad or are in refugee-like situations in neighbouring countries, primarily Iran and Pakistan, contributing to one of the world's largest protracted displacement crises.",
+    "casualties": "Civilian deaths and injury totals vary by source and methodology; UN and independent research document tens of thousands of civilian deaths directly from conflict since 2001, while broader estimates that include indirect deaths from disruption to healthcare, malnutrition and infrastructure are substantially higher.",
+    "affected": "Between 22.9 and 23.7 million people (roughly half the population) require humanitarian assistance to survive, according to UN humanitarian planning documents and global assessments.",
+    "livingInPoverty": "Extreme poverty and deprivation have surged since 2021. Multiple UN and development assessments report that a large majority of households suffer severe income losses and that tens of millions live in conditions of deep economic insecurity (some analyses highlight rates of roughly 85% living at or below extreme poverty thresholds by certain metrics during the most acute collapse).",
+    "healthSystemCollapsed": "The public health system has been pushed to the brink, with thousands of facilities facing closure or severe curtailment of services because of funding shortfalls, supply constraints and staff losses.",
+    "foodInsecurity": "Acute food insecurity remains at crisis levels: IPC and UN planning documents estimate around 15.8 million people facing crisis or worse at peak lean seasons, while WFP reports several million people currently severely food insecure and rising needs as donor funding falls."
   },
   "timeline": [
     {
       "year": "1839-1919",
-      "event": "**The Great Game**: A century of imperial rivalry between Britain and Russia sees three Anglo-Afghan wars as Britain seeks to create a buffer state to protect its colonial interests in India."
+      "event": "**The Great Game**: A century of imperial rivalry between Britain and Russia reshapes Afghan frontiers and politics, with three Anglo-Afghan wars and repeated interventions that undermine indigenous political autonomy."
     },
     {
-      "year": "1919-1929",
-      "event": "**Independence & Foreign Interference**: King Amanullah Khan wins full independence from Britain. His attempts to modernise and centralise the state trigger a conservative backlash, which some historians argue was encouraged by British intelligence to prevent a strong, independent Afghanistan from inspiring anti-colonial movements in British India."
-    },
-    {
-      "year": "1953-1973",
-      "event": "**Cold War Competition**: The US and USSR compete to lock Afghanistan into their respective economic orbits, funding massive development projects that created dependency and embedded superpower rivalry into Afghan politics."
+      "year": "1919-1978",
+      "event": "**Independence, Modernisation and Interference**: Afghanistan achieves formal independence in 1919 but experiences recurring foreign influence and internal contestation as attempts to centralise and modernise are mediated by regional and imperial pressures."
     },
     {
       "year": "1978",
-      "event": "**The Saur Revolution**: A Soviet-backed communist party (the PDPA) seizes power in a violent coup. Its brutal and unpopular reforms spark a nationwide uprising, setting the stage for the Soviet invasion."
-    },
-    {
-      "year": "1979",
-      "event": "**Soviet Invasion**: The USSR invades to prop up the collapsing PDPA government, beginning a brutal decade-long occupation that killed over a million Afghans."
+      "event": "**The Saur Revolution**: A coup brings the PDPA to power; radical social reforms and violent repression provoke widespread unrest."
     },
     {
       "year": "1979-1989",
-      "event": "**US Support for Mujahideen**: The CIA launches 'Operation Cyclone', one of its largest covert operations, funnelling billions to arm and train Mujahideen fighters, including extremist factions, to fight the Soviets, which contributed to long-term radicalisation."
+      "event": "**Soviet Invasion and Occupation**: The USSR intervenes militarily to support the PDPA, triggering a decade of war that causes mass death, displacement and the destruction of infrastructure."
+    },
+    {
+      "year": "1979-1989",
+      "event": "**US Covert Support for Mujahideen**: The CIA's Operation Cyclone funds and arms insurgent groups resisting Soviet forces; this proxy warfare has long-term consequences for militancy and state collapse."
     },
     {
       "year": "1996",
-      "event": "**First Taliban Rule**: Emerging from the devastating civil war that followed the Soviet withdrawal, the Taliban seize control of Kabul and impose their rule."
+      "event": "**Taliban First Rule**: The Taliban seize Kabul after civil war and impose a repressive regime that severely curtails rights, especially for women and girls."
     },
     {
       "year": "2001",
-      "event": "**US Invasion & Occupation**: Following the 9/11 attacks, the US invades, topples the Taliban, and begins a 20-year occupation. The project aimed to remake Afghanistan into a market-based state aligned with Western interests, funnelling billions into military and private contractors, which ultimately ended in state collapse."
+      "event": "**US Invasion & Occupation**: Following 9/11 the US and coalition forces overthrow the Taliban and initiate a two-decade intervention that channels vast resources into security, contracting and technocratic projects that deepen dependence on foreign aid and military spending."
     },
     {
       "year": "2021",
-      "event": "**US Withdrawal & Taliban Takeover**: The US withdraws in a chaotic exit, leading to the collapse of the US-backed government and the Taliban's swift return to power."
+      "event": "**US Withdrawal & Taliban Return**: The chaotic US withdrawal in August 2021 precipitates the rapid collapse of the internationally backed government and the return of the Taliban to national power."
     },
     {
       "year": "2021-Present",
-      "event": "**Economic Pressure**: The US freezes Afghanistan's $7 billion in foreign reserves, and international sanctions trigger a catastrophic economic collapse and humanitarian crisis, used as leverage against the new government."
+      "event": "**Economic Shock & Humanitarian Crisis**: International asset freezes, sanctions and de-risking of the financial sector, combined with climate shocks and displacement, produce a deepening humanitarian emergency with tens of millions needing assistance."
     }
   ],
   "takeAction": {
     "donate": [
       {
         "organisation": "Afghanaid",
-        "description": "A British humanitarian and development organisation that works with millions of deprived and excluded families in some of the poorest and most remote communities in Afghanistan.",
+        "description": "A British humanitarian and development organisation working with deprived and excluded communities across Afghanistan.",
         "url": "https://www.afghanaid.org.uk"
       },
       {
         "organisation": "UNHCR",
-        "description": "UNHCR provides life-saving aid, shelter, and protection to millions of displaced people and returning refugees in Afghanistan, addressing one of the world's largest and most protracted displacement crises.",
+        "description": "Provides protection and assistance to refugees, returnees and internally displaced people from and within Afghanistan.",
         "url": "https://www.unhcr.org/emergencies/afghanistan-emergency"
       },
       {
         "organisation": "World Food Programme (WFP)",
-        "description": "WFP provides emergency food and nutritional support to millions of people across Afghanistan, working on the front lines to combat the country's catastrophic hunger crisis and prevent widespread famine.",
+        "description": "Delivers emergency food and nutrition support to communities across Afghanistan and is critical in preventing famine.",
         "url": "https://www.wfp.org/emergencies/afghanistan"
       }
     ],
     "advocacy": [
-      "Amplify the voices of Afghan women, journalists, and artists facing oppression and cultural erasure.",
-      "Support Afghan-led civil society organisations working on the ground to deliver aid and defend human rights.",
-      "Advocate for a resolution to the economic pressures on Afghanistan, including the return of its sovereign assets and a review of sanctions impacting civilians.",
-      "Advocate for safe and legal pathways for Afghan refugees fleeing persecution.",
-      "Advocate for accountability for those who profited from the 20-year occupation."
+      "Amplify Afghan civil society voices, especially women's rights activists, journalists and human-rights defenders.",
+      "Support Afghan-led organisations delivering aid and protection on the ground, and demand funding channels that enable direct, accountable transfers to local partners.",
+      "Advocate for the unfreezing or conditional, accountable release of sovereign assets to ensure civilians can access essential imports, salaries and public services.",
+      "Push for safe and legal routes for refugees and for humanitarian exemptions to sanctions that impede life-saving assistance.",
+      "Demand transparency and accountability for the costs and consequences of decades of foreign interventions and profiteering."
     ]
   },
   "reading": [
     {
       "title": "Ghost Wars: The Secret History of the CIA, Afghanistan, and Bin Laden, from the Soviet Invasion to September 10, 2001",
       "url": "https://www.goodreads.com/book/show/71984",
-      "description": "Steve Coll's Pulitzer Prize-winning investigation into the CIA's covert war in Afghanistan and the rise of al-Qaeda."
-    },
-    {
-      "title": "Directorate S: The C.I.A. and America's Secret Wars in Afghanistan and Pakistan",
-      "url": "https://www.goodreads.com/book/show/35997409",
-      "description": "The sequel to 'Ghost Wars', this book by Steve Coll details the failures and contradictions of the US war in Afghanistan post-9/11."
+      "description": "Steve Coll's investigative account of US covert operations and their longer-term effects in Afghanistan."
     },
     {
       "title": "No Good Men Among the Living",
       "url": "https://www.goodreads.com/book/show/22857243",
-      "description": "Anand Gopal's groundbreaking work that tells the story of the US war from the perspective of ordinary Afghans, exposing crucial blunders."
+      "description": "Anand Gopal's reporting on ordinary Afghans' experiences of war, occupation and the post-2001 political order."
+    },
+    {
+      "title": "The Wars of Afghanistan: Messianic Terrorism, Tribal Conflicts, and the Failures of Great Powers",
+      "url": "https://www.goodreads.com/book/show/11331856",
+      "description": "A critical study of how external interventions and local dynamics have interacted to shape Afghanistan's modern history."
     }
   ]
 }

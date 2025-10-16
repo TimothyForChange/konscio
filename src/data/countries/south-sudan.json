@@ -3,93 +3,99 @@
   "emoji": "🇸🇸",
   "ariaLabel": "South Sudanese flag",
   "lastUpdated": "2025-10-16",
-  "currentCrisisSummary": "South Sudan is facing a humanitarian emergency, fuelled by an elite conflict over oil revenues, severe climate-driven flooding, and spillover from Sudan's war. These converging crises, driven by a system of widespread corruption, have left most of the population dependent on aid and facing one of the world's most severe hunger crises.",
+  "currentCrisisSummary": "South Sudan is in the grip of a severe, multi-dimensional humanitarian emergency driven by elite competition over oil revenues, recurrent climate-driven flooding, and regional spillover from Sudan's war.\n\nA political economy of corruption and elite capture turns the state into a battlefield over oil rents, while climate extremes — notably catastrophic floods — have destroyed harvests and settlements, multiplying displacement and food insecurity. The conflict dynamics accelerated after 2013 have produced high mortality and enduring protection crises; renewed political tensions in 2025 risk reversing fragile gains in peace and humanitarian access.\n\nThe immediate needs are enormous: humanitarian planning for 2025 identifies millions in need of assistance, while the country hosts and produces one of Africa's largest refugee and displacement crises. Durable solutions require ending the impunity of predatory elites, ensuring accountability for abuses, and redirecting oil revenues and international finance toward locally led recovery and climate resilience.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "Britain's 'Southern Policy' was a divide-and-rule strategy that administered the south separately from the north, hindering its economic and political development. This created a foundation of inequality that contributed to decades of civil war.\n\nThis weakness also ensured that a future independent state would be vulnerable to foreign influence and resource exploitation."
+    "legacy": "British colonial administration pursued a 'Southern Policy' that governed the south separately from the north, entrenching political and economic divisions. This divide-and-rule approach limited investment in southern institutions and left a legacy of structural marginalisation that contributed to subsequent insurgency and weak governance.\n\nThe administrative boundaries, uneven development and externally mediated leadership formations created conditions that later made the territory vulnerable to elite predation and resource-capture after independence."
   },
   "historicalContext": {
-    "corruptionAndTheGlobalFinancialSystem": "The civil war is a struggle between political elites for control of the state, which functions primarily as a mechanism for diverting oil revenues. This system of corruption is not just a local problem; it is enabled by the global financial system. The opacity of international banking, shell companies, and luxury property markets allows the ruling class to launder and hide billions in stolen wealth, often using the conflict as a cover.",
-    "oilConflictAndClimateChallenges": "South Sudan's crisis is driven by two main factors. Firstly, its oil industry, operated by foreign corporations (primarily Chinese, Malaysian, and Indian) in partnership with the ruling elite, has been criticized for privatising profits while the costs of environmental damage and conflict are borne by the civilian population. Secondly, the country suffers from the severe impacts of climate change. Unprecedented flooding, linked to the emissions of the industrialised Global North, has destroyed livelihoods and acts as a conflict multiplier."
+    "corruptionAndTheGlobalFinancialSystem": "South Sudan's politics are shaped by an elite scramble for oil revenue. The state has functioned as an apparatus for capturing rents rather than delivering public goods. International banks, opaque corporate structures and the global financial system have enabled the laundering and concealment of stolen wealth, permitting elites to profit while public infrastructure and services collapse.\n\nInternationally enabled financial opacity and weak enforcement of due diligence are therefore structural enablers of the country's crisis.",
+    "oilConflictAndClimateChallenges": "The oil sector has fuelled rent-seeking and patronage networks; foreign energy companies operating in partnership with local elites have often prioritised extraction over community reinvestment. Simultaneously, extreme floods — worsened by global heating — have destroyed crops, displaced communities and aggravated food insecurity. Climate shocks act as a conflict multiplier in a state already weakened by governance failures.",
+    "internationalLawAndAccountability": "Serious violations of international humanitarian and human-rights law have been documented during cycles of violence. Independent research has estimated large numbers of excess deaths associated with the 2013-2018 civil war. Calls for accountability include proposals for a Hybrid Court for South Sudan and targeted sanctions on those who facilitate violence and steal public assets. Effective accountability must combine criminal responsibility for grave abuses with structural measures to recover stolen assets and reform resource governance."
   },
   "humanitarianImpact": {
-    "displaced": "Over 4 million people are displaced within South Sudan and as refugees, including over 2 million internally displaced by conflict and flooding.",
-    "refugees": "More than 2.3 million refugees and asylum-seekers have fled to neighbouring countries, making it Africa's largest refugee crisis.",
-    "casualties": "A 2018 study estimated that nearly 400,000 excess deaths were attributable to the civil war between 2013 and 2018.",
-    "affected": "An estimated 9 million people—around 75% of the population—require urgent humanitarian assistance.",
-    "childrenOutOfSchool": "An estimated 2.8 million children are out of school, one of the highest rates in the world, due to conflict, climate shocks, and displacement.",
-    "livingInPoverty": "More than 80% of the population lives in extreme poverty, making South Sudan one of the poorest countries globally."
+    "displaced": "Approximately 2.0-2.1 million people are internally displaced within South Sudan, living in camps, informal settlements and host communities; many more are affected by seasonal and flood-related displacement.\n\n(Additional regional displacement and refugee figures bring the combined displacement burden to over 4 million people when refugees and returnees are included.)",
+    "refugees": "More than 2.3 million South Sudanese are refugees or asylum-seekers across the region, making it one of Africa's largest refugee situations and placing heavy burdens on neighbouring states and host communities.",
+    "casualties": "Independent mortality research estimates nearly 400,000 excess deaths attributable to the conflict since 2013, with a substantial portion due to violence and a large share from indirect causes such as food insecurity and disrupted health services.",
+    "affected": "Humanitarian planning figures for 2025 identify roughly 9.0-9.4 million people in need of assistance (approximately two-thirds of the population in some planning baselines), reflecting acute food, protection, shelter and health needs.",
+    "childrenOutOfSchool": "Millions of children are out of school due to conflict, displacement and damaged infrastructure, creating a generational education deficit that hinders long-term recovery.",
+    "livingInPoverty": "A majority of households face extreme poverty and food shortages; limited state capacity and endemic corruption constrain economic recovery and livelihoods.",
+    "foodInsecurity": "Large swathes of the population face severe food insecurity driven by flooding, displacement and market disruption; millions require urgent food and nutrition assistance."
   },
   "timeline": [
     {
       "year": "1899-1956",
-      "event": "**Anglo-Egyptian Condominium**: Britain establishes effective colonial control. It implements its 'Southern Policy', a divide-and-rule strategy that administers the south separately from the 'Arabised' north, hindering its development and creating the inequalities that would fuel decades of civil war."
+      "event": "**Anglo-Egyptian Condominium**: Britain administered the south under a 'Southern Policy' that separated it administratively from northern Sudan, entrenching regional inequalities."
     },
     {
       "year": "1955-1972",
-      "event": "**First Sudanese Civil War**: The conflict begins a year before Sudan's independence as southern forces demand regional autonomy."
+      "event": "**First Sudanese Civil War**: Southern rebellions for autonomy and justice begin before Sudan's independence, sowing the seeds of later fragmentation."
     },
     {
       "year": "1983-2005",
-      "event": "**Second Sudanese Civil War**: The war resumes, resulting in an estimated 2 million deaths and laying the groundwork for secession."
+      "event": "**Second Sudanese Civil War**: A brutal renewed war causes mass displacement and millions of deaths, creating conditions for later secession."
     },
     {
       "year": "2005",
-      "event": "**Comprehensive Peace Agreement (CPA)**: The agreement ends the civil war, but its wealth-sharing arrangements, based almost entirely on oil revenues, entrenched the 'resource curse' from the beginning."
+      "event": "**Comprehensive Peace Agreement (CPA)**: A peace deal creates a power-sharing and wealth-sharing framework, centring oil revenues — arrangements that ultimately entrenched the resource curse when implementation faltered."
     },
     {
       "year": "2011",
-      "event": "**Independence**: South Sudan becomes the world's newest country after an overwhelming vote for secession."
+      "event": "**Independence**: South Sudan becomes the world's newest state after a referendum, inheriting weak institutions and an oil-dependent economy."
     },
     {
       "year": "2013",
-      "event": "**Civil War Erupts**: A power struggle plunges the nation into a civil war over control of the state and its oil resources, with elites using ethnic identity to mobilise fighters."
+      "event": "**Civil War Erupts**: Political rivalry between elites escalates into wide-scale violence, producing mass displacement and severe humanitarian collapse."
     },
     {
       "year": "2018",
-      "event": "**Revitalised Peace Agreement**: A fragile peace deal is signed, but core elements, including security reforms and accountability for war crimes, remain unimplemented."
+      "event": "**Revitalised Peace Agreement**: A fragile power-sharing agreement is signed but many core reforms, notably security-sector reform and accountability measures, remain incomplete."
+    },
+    {
+      "year": "2025",
+      "event": "**Renewed Tensions & Flooding**: Political tensions, contested prosecutions and catastrophic floods in recent years have combined to deepen displacement, food insecurity and protection risks, threatening fragile peace gains."
     }
   ],
   "takeAction": {
     "donate": [
       {
         "organisation": "Humanitarian Development Consortium (HDC Africa)",
-        "description": "A South Sudanese-led NGO providing emergency relief and development programmes.",
+        "description": "A South Sudanese-led NGO providing emergency relief and community development programming in contested and hard-to-reach areas.",
         "url": "https://www.hdcafrica.org"
       },
       {
         "organisation": "UNHCR",
-        "description": "UNHCR is on the ground in South Sudan, responding to Africa's largest refugee crisis. They provide essential shelter, protection, and life-saving aid to millions of refugees and internally displaced people uprooted by conflict and climate shocks.",
+        "description": "Provides protection, shelter and assistance to refugees, returnees and internally displaced people in and from South Sudan.",
         "url": "https://www.unhcr.org/emergencies/south-sudan-emergency"
       },
       {
         "organisation": "World Food Programme (WFP)",
-        "description": "WFP delivers emergency food and nutrition assistance to millions of people in South Sudan facing one of the world's most severe hunger crises. Their work is critical in preventing famine and supporting communities devastated by conflict and catastrophic flooding.",
+        "description": "Delivers emergency food and nutrition support across South Sudan and is central to preventing famine during flood and conflict-related shocks.",
         "url": "https://www.wfp.org/emergencies/south-sudan-emergency"
       }
     ],
     "advocacy": [
-      "Advocate for targeted sanctions on the corrupt elite and the international corporations, banks, and arms dealers who enable the conflict.",
-      "Advocate for the immediate establishment and funding of the Hybrid Court for South Sudan to ensure justice for war crimes.",
-      "Advocate for wealthy nations to provide climate financing to support South Sudanese communities affected by climate change.",
-      "Advocate for increased humanitarian funding and for aid to be delivered in direct partnership with local South Sudanese organisations."
+      "Push for targeted sanctions and asset-recovery measures against corrupt elites and intermediaries who divert oil revenues and undermine peace.",
+      "Advocate for establishment and proper funding of the Hybrid Court for South Sudan to ensure credible accountability for war crimes and crimes against humanity.",
+      "Demand that oil contracts and resource revenues be renegotiated with transparent, community-centred benefit-sharing and robust oversight.",
+      "Call for scaled, flexible humanitarian and climate finance that is channelled through South Sudanese organisations and local institutions to build resilience."
     ]
   },
   "reading": [
     {
       "title": "A Rope from the Sky: The Making and Unmaking of the World's Newest State",
       "url": "https://www.goodreads.com/book/show/40554550",
-      "description": "Journalist Zach Vertin provides a deeply reported account of South Sudan's journey from liberation to a devastating civil war."
+      "description": "Zach Vertin's detailed reporting on South Sudan's formation, political failures and the collapse into civil war."
     },
     {
       "title": "First Raise a Flag: How South Sudan Won the Longest War but Lost the Peace",
       "url": "https://www.goodreads.com/book/show/36345370",
-      "description": "Peter Martell's history of South Sudan's struggle for independence and the subsequent collapse into a kleptocratic civil war."
+      "description": "Peter Martell's analysis of South Sudan's independence and the subsequent challenges that led to violent competition over the state."
     },
     {
       "title": "South Sudan: The Untold Story from Independence to Civil War",
       "url": "https://www.goodreads.com/book/show/31135978",
-      "description": "Hilde F. Johnson, the former UN Special Representative, gives an insider's account of the failures of international state-building in South Sudan."
+      "description": "Hilde F. Johnson's insider account of international state-building attempts and their failures in South Sudan."
     }
   ]
 }

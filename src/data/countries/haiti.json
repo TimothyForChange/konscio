@@ -3,98 +3,93 @@
   "emoji": "🇭🇹",
   "ariaLabel": "Haitian flag",
   "lastUpdated": "2025-10-16",
-  "currentCrisisSummary": "Haiti is facing a severe humanitarian emergency, driven by a near-total collapse of state functions. This is the result of centuries of foreign intervention and economic extraction that have undermined the country's development. A power vacuum has allowed heavily armed groups, often with ties to the country's political and economic elite, to seize control of the capital, Port-au-Prince, unleashing extreme violence and mass displacement.",
+  "currentCrisisSummary": "Haiti is experiencing a severe, multi-dimensional humanitarian and governance collapse driven by decades of foreign intervention, economic extraction and chronic elite capture.\n\nA near-total collapse of state functions has allowed heavily armed gangs — often with ties to political and economic elites — to seize control of large parts of Port-au-Prince and other urban centres, imposing extortion, mass violence and mass displacement. Humanitarian access is constrained by insecurity, blockades and attacks on health and aid infrastructure, producing acute food insecurity, rising mortality and a rapidly expanding population of internally displaced people.\n\nAn internationally backed, Kenyan-led Multinational Security Support mission has deployed to assist the Haitian National Police, but the mission remains heavily understaffed and constrained by funding, logistics and contested legitimacy. The crisis is rooted in a long history of colonial expropriation, odious debt and intrusive foreign policy, and is compounded by years of policy choices that undermined local agriculture, public services and sovereign development.",
   "colonialRoot": {
     "colonialPower": "France (1697-1804)",
-    "legacy": "The roots of the crisis lie in the international reaction to Haiti's successful revolution (1791-1804). The world's first Black republic was diplomatically isolated and economically pressured.\n\nIn 1825, under the threat of military invasion, France imposed a significant 'indemnity' on Haiti to compensate former slaveholders. This indemnity, financed through French banks, is an example of post-colonial economic pressure: it forced the new nation to pay for its freedom, creating a cycle of debt that drained the state's wealth for over a century and undermined its development from the very beginning."
+    "legacy": "Haiti's modern fragility traces back to the international reaction to the Haitian Revolution. The world's first Black republic was diplomatically isolated, economically pressured and forced to buy recognition.\n\nIn 1825 France imposed an indemnity on Haiti to 'compensate' former slaveholders. Financed through foreign loans and paid over generations, the indemnity drained the new state's resources and entrenched dependency — a formative example of how post-colonial debt has been used to perpetuate extraction and limit sovereign development."
   },
   "historicalContext": {
-    "postColonialDebtAndExtraction": "The 1825 indemnity established a model of post-colonial control through debt. By forcing Haiti to pay its former colonisers a sum estimated to be worth over $21 billion today, France placed the new nation in a state of financial dependency. This policy contributed to chronic underdevelopment, creating a cycle of foreign debt and external control that has shaped Haiti's entire history, ensuring wealth flowed out of the country rather than being invested in its people.",
-    "foreignInterventionAndOccupation": "Subsequent foreign interventions have consistently undermined Haitian sovereignty. During the US occupation (1915-1934), US Marines transferred Haiti's gold reserves to New York banks and rewrote the constitution to permit foreign land ownership. More recent interventions have promoted economic policies associated with the 'Washington Consensus', such as slashing tariffs on imported US rice, which damaged local agriculture, created food dependency, and privatised state assets, often benefiting foreign capital. These actions weakened Haitian-led institutions, a process compounded by the introduction of a deadly cholera epidemic by UN peacekeepers in 2010."
+    "postColonialDebtAndExtraction": "The 1825 indemnity established a pattern of external economic control that shaped Haiti's fiscal and development trajectory. Successive loans, debt-servicing obligations and mercantilist trade pressures channelled wealth outwards rather than funding broad-based investment, undermining agricultural resilience, infrastructure and state capacity.\n\nThese structural pressures were reinforced across the 19th and 20th centuries by discriminatory trade policies, foreign business interests and conditional financial relations that favoured foreign capital over local development.",
+    "foreignInterventionAndOccupation": "Foreign interventions have repeatedly undermined Haitian sovereignty. The US occupation (1915-1934) centralised fiscal control, moved gold reserves offshore and rewrote key legal frameworks to favour foreign interests. Later international economic prescriptions — tariff liberalisation, privatisation and donor-driven policy conditionalities — weakened domestic agriculture and industry, increasing dependence on imports and external aid.\n\nInternational actors have also played direct political roles, including support for coups and pressure on elected governments, leaving Haiti with chronically weakened institutions and limited capacity to manage recurrent shocks.",
+    "publicHealthAndUNRESPONSIBILITY": "International presence has also inflicted direct harm: UN peacekeepers inadvertently introduced a cholera epidemic in 2010 that caused thousands of deaths and provoked a protracted public health disaster for which the UN has since acknowledged responsibility. This episode deepened mistrust of international actors and highlighted the risks of poorly governed external interventions.",
+    "internationalLawAndAccountability": "There are multiple accountability threads — historical (the 1825 indemnity and colonial expropriation), transitional (investigations into the 2021 assassination of President Moïse), and contemporaneous (documentation of human-rights abuses by gangs and by public actors). Formal international responses, including human-rights monitoring and UN Security Council authorisations for multilateral missions, exist but face political contestation and remain insufficient to meet victims' demands for justice and reparations."
   },
   "humanitarianImpact": {
-    "displaced": "Over 578,000 people are internally displaced by extreme violence, the majority women and children.",
-    "refugees": "Hundreds of thousands of Haitians have been forced to flee the country, often facing racist and violent border policies in the Dominican Republic and the United States.",
-    "casualties": "More than 2,500 people were killed or injured due to gang violence in the first quarter of 2024 alone.",
-    "affected": "An estimated 5.5 million people—nearly half the population—require humanitarian assistance to survive.",
-    "childrenOutOfSchool": "Over half a million children are out of school in the Port-au-Prince metropolitan area alone due to insecurity.",
-    "healthSystemCollapsed": "The healthcare system is on the verge of collapse, with many facilities closed or inaccessible due to violence and shortages.",
-    "foodInsecurity": "Nearly 5 million people face acute food insecurity, with over 1.6 million at emergency levels.",
-    "lackOfWaterAccess": "More than one-third of the population lacks access to basic drinking water services."
+    "displaced": "More than 1.3 million people are internally displaced (a record high as of mid-2025), with displacement driven by gang sieges, extortion and repeated attacks on civilian areas.",
+    "refugees": "Hundreds of thousands of Haitians have fled the country in recent years, and many more face deportation or forced returns that further strain local coping mechanisms and regional systems.",
+    "casualties": "Violence levels have surged. The first quarter of 2024 saw around 2,500 people killed or injured in gang violence, and UN reporting recorded more than 5,600 people killed across 2024 as gangs escalated their attacks, kidnappings and reprisals.",
+    "affected": "Approximately 5.5-6.0 million people — roughly half the population — require humanitarian assistance, driven by food insecurity, protection risks, WASH needs and healthcare collapse.",
+    "childrenOutOfSchool": "Hundreds of thousands of children, particularly in Port-au-Prince and conflict-affected departments, are out of school because of insecurity, displacement and the closure of education facilities.",
+    "healthSystemCollapsed": "A large share of health facilities in Port-au-Prince and elsewhere are non-functional or inaccessible due to attacks, staff flight and supply disruptions, producing severe gaps in essential care and epidemic control.",
+    "foodInsecurity": "Acute food insecurity has reached crisis levels: recent IPC and WFP assessments identify roughly 5.7 million people facing high levels of acute food insecurity, with around 1.9 million at emergency levels of hunger.",
+    "lackOfWaterAccess": "Millions lack reliable access to safe drinking water and sanitation, compounding malnutrition and infectious-disease risks and worsening the public-health emergency."
   },
   "timeline": [
     {
       "year": "c. 1789",
-      "event": "**The 'Pearl of the Antilles'**: The French colony of Saint-Domingue becomes the most profitable colony in the world. Its sugar and coffee plantation economy, built on the labour of half a million enslaved Africans, supplies nearly half of Europe's sugar and coffee and generates immense wealth for the French empire."
+      "event": "**The 'Pearl of the Antilles'**: Saint-Domingue becomes the most profitable colony in the Americas, producing vast sugar and coffee wealth built on the labour of enslaved Africans."
     },
     {
       "year": "1791-1804",
-      "event": "**Haitian Revolution**: Enslaved people lead a successful slave revolt that established the first Black republic and became a symbol of liberation."
+      "event": "**Haitian Revolution**: Enslaved people and free Black insurgents overthrow colonial rule, culminating in independence and the world's first Black republic."
     },
     {
       "year": "1825",
-      "event": "**French Indemnity**: Threatened by warships, Haiti is forced to begin paying a large debt to France for its freedom, a debt financed by French banks that took over a century to pay off."
+      "event": "**French Indemnity**: Under threat of military action, Haiti agrees to pay France an indemnity to secure diplomatic recognition. The payments, financed with foreign loans, imposed a long-term fiscal burden on the new state."
     },
     {
       "year": "1915-1934",
-      "event": "**US Occupation**: The US invades to enforce debt claims for US banks, transferring Haiti's gold reserves and rewriting the constitution to allow foreign ownership of land."
-    },
-    {
-      "year": "1957-1986",
-      "event": "**Duvalier Dictatorship**: The US-backed Duvalier dictatorship ruled Haiti, providing a stable, anti-communist climate for US corporations to establish low-wage assembly plants."
-    },
-    {
-      "year": "2004",
-      "event": "**Second Coup against Aristide**: The democratically elected president is ousted in a coup with support from the US, France, and Canada after he pursued social reforms, like raising the minimum wage, that were opposed by elite and foreign corporate interests."
+      "event": "**US Occupation**: US Marines occupy Haiti, centralise fiscal control, move reserves overseas and rework institutions in ways that served foreign commercial interests and weakened sovereign governance."
     },
     {
       "year": "2010",
-      "event": "**Devastating Earthquake**: Kills over 200,000 people. The subsequent foreign aid response led to what some call 'disaster capitalism', where aid efforts often bypassed Haitian institutions and benefited NGOs and foreign contractors."
+      "event": "**Earthquake & Cholera**: A catastrophic earthquake kills over 200,000 people. In the disaster's aftermath UN peacekeepers introduce cholera to Haiti, causing thousands of deaths and a prolonged public-health crisis for which the UN later accepted responsibility."
     },
     {
       "year": "2021",
-      "event": "**President Moïse Assassinated**: The murder deepens political instability and a power vacuum that armed groups, often with ties to the oligarchy, have exploited."
+      "event": "**Assassination of President Moïse**: The killing of Jovenel Moïse deepens political instability and accelerates the collapse of security institutions, contributing to expanding gang control."
     },
     {
-      "year": "2024",
-      "event": "**Foreign Intervention**: A Kenyan-led, US-funded, UN-backed security mission is deployed amid widespread protests and questions about its legitimacy and accountability."
+      "year": "2024-2025",
+      "event": "**Gang Siege and International Mission**: Violent gang campaigns seize large parts of Port-au-Prince, triggering mass displacement and a humanitarian emergency. A Kenyan-led, UN-backed Multinational Security Support mission has deployed to assist the Haitian National Police but is constrained by limited troop contributions, logistics and contested legitimacy."
     }
   ],
   "takeAction": {
     "donate": [
       {
         "organisation": "Fonkoze",
-        "description": "A Haitian organisation providing financial inclusion and development services to rural communities.",
+        "description": "A Haitian organisation providing financial inclusion, livelihoods and community development services to rural families.",
         "url": "https://fonkoze.org/"
       },
       {
         "organisation": "World Food Programme (WFP)",
-        "description": "WFP is on the ground in Haiti, delivering life-saving food and school meals to vulnerable families, children, and people displaced by the extreme violence and political instability.",
+        "description": "WFP delivers emergency food and nutrition assistance in Haiti and coordinates food security response efforts.",
         "url": "https://www.wfp.org/emergencies/haiti-emergency"
       }
     ],
     "advocacy": [
-      "Advocate for financial reparations from France for the 1825 'indemnity', which created a long-term economic burden for Haiti.",
-      "Oppose foreign military interventions that undermine Haitian sovereignty and support unelected leaders.",
-      "Support Haitian peasant movements working for food sovereignty and resisting the import of subsidised foreign goods.",
-      "Advocate for reparations and full accountability from the UN for its role in the 2010s cholera epidemic."
+      "Demand financial reparations and a serious, public accounting from France for the harms and long-term economic damage caused by the 1825 indemnity.",
+      "Oppose external military interventions that undermine Haitian sovereignty unless they are accountable, properly mandated and centred on civilian protection and Haitian consent.",
+      "Support Haitian-led peasant movements and campaigns for food sovereignty and oppose trade and aid policies that privilege imports over local agriculture.",
+      "Push for full accountability for the UN's role in the cholera epidemic and for reparative measures, while supporting locally led public-health rebuilding.",
+      "Amplify Haitian civil-society voices and fund Haitian organisations directly to ensure aid reaches affected communities and strengthens local capacity."
     ]
   },
   "reading": [
     {
       "title": "The Black Jacobins: Toussaint L'Ouverture and the San Domingo Revolution",
       "url": "https://www.goodreads.com/book/show/965175",
-      "description": "C. L. R. James's seminal history of the Haitian Revolution, a foundational text of postcolonial studies."
+      "description": "C. L. R. James's classic history of the Haitian Revolution and its global significance."
     },
     {
       "title": "The Uses of Haiti",
       "url": "https://www.goodreads.com/en/book/show/10234",
-      "description": "Paul Farmer's classic and searing critique of U.S. foreign policy and intervention in Haiti over the 20th century."
+      "description": "Paul Farmer's critique of international policy and humanitarian response in Haiti over several decades."
     },
     {
       "title": "Haiti: The Aftershocks of History",
       "url": "https://www.goodreads.com/book/show/13083846",
-      "description": "Laurent Dubois provides a comprehensive and accessible history of Haiti, from the revolution to the aftermath of the 2010 earthquake."
+      "description": "Laurent Dubois's accessible history of Haiti from the revolution through contemporary crises."
     }
   ]
 }

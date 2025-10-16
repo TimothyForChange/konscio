@@ -3,99 +3,100 @@
   "emoji": "🇧🇫🇲🇱🇳🇪",
   "ariaLabel": "Flags of Burkina Faso, Mali, and Niger",
   "lastUpdated": "2025-10-16",
-  "currentCrisisSummary": "The Central Sahel is the epicentre of a severe and neglected crisis, defined by a convergence of weak governance, jihadist insurgencies, and severe climate shocks. A recent wave of military coups in Burkina Faso, Mali, and Niger has been framed as a popular rejection of a French-led security strategy that was seen as ineffective. This has created a new geopolitical frontline, with external powers competing for influence amid extreme violence and mass displacement.",
+  "currentCrisisSummary": "The Central Sahel (Burkina Faso, Mali and Niger) is the epicentre of a severe, neglected crisis defined by the convergence of weak governance, jihadist insurgencies, recurrent coups and accelerating climate shocks.\n\nA recent wave of military takeovers has been framed domestically as a rejection of a French-led security model perceived as ineffective; regionally it has created a new geopolitical frontline with external powers competing for influence. The violence is fuelled by armed groups, intercommunal conflict and predatory control of land and resources, producing mass displacement, chronic food insecurity and a collapsing public-service base.\n\nThe human cost is amplified by long-term patterns of extractive relations and external interventions that have shaped monetary, security and economic policy since independence. The crisis demands Sahelian-led political solutions, urgent humanitarian scale-up and an end to extractive and militarised responses that entrench local suffering.",
   "colonialRoot": {
     "colonialPower": "France (French West Africa, c. 1890s-1960)",
-    "legacy": "The crisis is a direct legacy of French colonial policies that altered pre-existing political and economic systems and created new states.\n\nUpon independence around 1960, France maintained its influence through a system sometimes called 'Françafrique'. This network, which included monetary control via the CFA franc and military pacts, perpetuated a model of raw material extraction, leaving behind fragile state structures and contributing to the conditions for the current instability."
+    "legacy": "French colonial rule reorganised borders, economies and governance in ways that privileged extraction and centre-periphery hierarchies. At independence around 1960, formal sovereignty did not erase these structures: monetary arrangements (notably the CFA franc), security pacts and dense political networks known as 'Françafrique' allowed continued French influence over economic policy, resource flows and military cooperation.\n\nThese arrangements left fragile state institutions, economies oriented towards raw-material export, and governance models that were poorly resourced to provide security and services for rural populations — conditions that contributed to the later emergence of violent insurgency and chronic instability."
   },
   "historicalContext": {
-    "postColonialRelationsAndForeignIntervention": "The crisis highlights the challenges of 'Françafrique', France's strategy for maintaining economic and military influence. Its pillars were the CFA franc, a currency that critics argue limited monetary sovereignty, and a military presence often used to protect French corporate interests, such as uranium mines in Niger. The recent French-led 'war on terror' did not stop the spread of violence and, according to critics, created a market for the French arms industry. The expulsion of French forces signals a significant break from a post-colonial relationship that, according to critics, extracted wealth while providing neither security nor development.",
-    "climateChangeAndRegionalInstability": "The Sahel is on the front line of the climate crisis. Despite contributing almost nothing to global emissions, the region is warming at 1.5 times the global average, leading to severe desertification. This climate change, driven by the industrialised Global North, has damaged agricultural livelihoods and exacerbated conflicts over scarce resources. Critics describe this as a form of 'climate colonialism', where the environmental costs of Northern industrialisation are disproportionately borne by the Sahel, creating what they term an 'ecological debt'."
+    "postColonialRelationsAndForeignIntervention": "The Sahel's instability must be read in the context of post-colonial geopolitical competition. France's long-running security interventions (culminating in Operation Barkhane) and subsequent shifts in posture created both dependency and popular backlash. In the last five years a series of coups in Mali, Burkina Faso and Niger further transformed the regional balance, with the formation of the Alliance/Confederation of Sahel States signalling a political realignment.\n\nExternal actors have often prioritised military responses to insurgency rather than political, social and economic solutions, helping create a market for arms and security services while doing little to address structural drivers of violence.",
+    "climateChangeAndRegionalInstability": "The Sahel is on the frontline of the climate emergency despite contributing minimally to global emissions. Accelerating desertification, changing rainfall patterns and extreme weather events undermine pastoral and agrarian livelihoods, worsening competition over land and water and increasing community vulnerability. Many analysts describe this as a form of climatic injustice — or 'climate colonialism' — in which the costs of Northern industrialisation are disproportionately borne by Sahelian communities.",
+    "internationalLawAndAccountability": "There are growing calls for accountability around cross-border military support, illicit trafficking of arms and natural-resource exploitation that help sustain armed groups. UN panels, regional bodies and civil-society investigations have documented illicit resource flows and external support to armed actors; addressing these transnational dynamics is essential for long-term peace and reparative justice."
   },
   "humanitarianImpact": {
-    "displaced": "Over 3.3 million people are internally displaced across the Central Sahel (Burkina Faso, Mali, and Niger) due to conflict.",
-    "refugees": "Nearly 1 million refugees and asylum-seekers have been forced to flee across borders within the region.",
-    "casualties": "The conflict has killed tens of thousands of people, making the Central Sahel one of the deadliest conflict zones in the world.",
-    "affected": "An estimated 15.5 million people require urgent humanitarian assistance across the Central Sahel.",
-    "childrenOutOfSchool": "Over 12,000 schools are non-operational due to insecurity across the region, affecting millions of children.",
-    "healthSystemCollapsed": "In conflict-affected areas, hundreds of health centres have been closed or are offering minimal services due to attacks and insecurity.",
-    "foodInsecurity": "An estimated 17 million people in the Central Sahel face acute food insecurity.",
-    "lackOfWaterAccess": "The convergence of conflict and climate change has left millions without reliable access to safe drinking water."
+    "displaced": "Over 3.3 million people are internally displaced across the Central Sahel (Burkina Faso, Mali and Niger), driven mainly by violence and insecurity.",
+    "refugees": "Nearly 1 million refugees and asylum-seekers have been forced to flee across borders within the region and to neighbouring countries.",
+    "casualties": "The conflict has killed and injured tens of thousands of people and created protracted protection crises; the precise toll varies by source and methodology but the human losses are substantial and ongoing.",
+    "affected": "An estimated 15.5-18 million people across the Central Sahel require urgent humanitarian assistance, reflecting escalating protection, food, health and shelter needs.",
+    "childrenOutOfSchool": "Over 11,000-13,000 schools are non-operational across the Central Sahel due to insecurity and attacks on education, depriving millions of children of schooling.",
+    "healthSystemCollapsed": "In many conflict-affected districts hundreds of health centres have been closed or provide only minimal services following attacks, staff flight and supply shortages.",
+    "foodInsecurity": "Rising conflict and climate shocks have produced deep food insecurity: millions in the Central Sahel face acute hunger and many programmes face funding shortfalls that risk further cuts to assistance.",
+    "lackOfWaterAccess": "The combined pressures of conflict, climate stress and infrastructure destruction have left large populations without reliable access to safe drinking water and sanitation."
   },
   "timeline": [
     {
       "year": "c. 1890s",
-      "event": "**French Conquest**: France colonises the region, incorporating it into French West Africa and imposing new borders."
+      "event": "**French Conquest**: France consolidates control across West Africa, imposing borders and administrative systems that reconfigured local polities."
     },
     {
       "year": "1960",
-      "event": "**Nominal Independence**: Burkina Faso, Mali, and Niger gain independence, but remain in a French-controlled monetary system (the CFA franc) with an economy based on raw material exports to Europe."
+      "event": "**Nominal Independence**: Burkina Faso, Mali and Niger gain independence but remain embedded in post-colonial monetary and security arrangements linked to France."
     },
     {
       "year": "2011",
-      "event": "**NATO Intervention in Libya**: The NATO-backed overthrow of Muammar Gaddafi leads to state collapse in Libya, which results in weapons and fighters moving into the Sahel, fuelling the subsequent regional insurgency."
+      "event": "**NATO Intervention in Libya**: The collapse of Libya's state after 2011 disperses weapons and fighters across the Sahel, amplifying regional insecurity."
     },
     {
       "year": "2012",
-      "event": "**Conflict Erupts in Mali**: A Tuareg rebellion in northern Mali is co-opted by jihadist groups, some armed with Libyan weapons, triggering a regional crisis."
+      "event": "**Northern Mali Insurgency**: A Tuareg rebellion in northern Mali is overtaken by jihadist groups, triggering a major regional crisis."
     },
     {
       "year": "2013-2022",
-      "event": "**French Intervention**: France launches Operation Barkhane. The decade-long campaign was criticised for prioritising French economic interests (like uranium in Niger) and for failing to contain the insurgency, which spread across the region."
+      "event": "**Operation Barkhane & French Engagement**: France deploys Operation Barkhane and other counter-insurgency efforts across the Sahel; despite sustained military effort, jihadist violence spreads and French strategy becomes a focal point for criticism."
     },
     {
       "year": "2020-2023",
-      "event": "**Wave of Coups**: Military juntas, often with popular support, seize power in Mali, Burkina Faso, and Niger. They have expelled French forces and sought to exit the existing monetary and security framework."
+      "event": "**Wave of Coups**: Military juntas seize power in Mali, Burkina Faso and Niger (among others), expel French forces in many cases and contest existing regional security structures."
     },
     {
-      "year": "2023",
-      "event": "**Alliance of Sahel States (AES)**: The three junta-led nations form a mutual defence pact, cementing a political and security break from France and its regional allies."
+      "year": "2023-2024",
+      "event": "**Alliance/Confederation of Sahel States**: Mali, Niger and Burkina Faso form an alliance/confederation that signals a break with ECOWAS and existing Francophone security arrangements, shifting the region's geopolitical alignments."
     },
     {
       "year": "2024-Present",
-      "event": "**Deepening Crisis**: The conflict intensifies, with jihadist groups encircling major towns and creating a severe humanitarian emergency."
+      "event": "**Deepening Crisis**: Violence intensifies in many areas as jihadist groups and intercommunal conflict spread, producing rising displacement, protection crises and severe humanitarian need."
     }
   ],
   "takeAction": {
     "donate": [
       {
         "organisation": "SOS Sahel",
-        "description": "An African-led organisation that partners with rural communities to tackle the root causes of the crisis, focusing on long-term food security and climate resilience.",
+        "description": "An African-led organisation partnering with rural communities on food security and climate-resilient livelihoods.",
         "url": "https://sossahel.ngo"
       },
       {
         "organisation": "UNHCR",
-        "description": "The UN Refugee Agency provides critical assistance and protection to millions displaced by conflict, insecurity, and the climate crisis across the Sahel.",
+        "description": "Provides urgent protection and assistance to refugees and internally displaced people across the Sahel.",
         "url": "https://www.unhcr.org/emergencies/sahel-emergency"
       },
       {
         "organisation": "World Food Programme (WFP)",
-        "description": "The UN organisation providing life-saving food assistance to millions facing acute hunger across the Sahel.",
+        "description": "Delivers life-saving food assistance and nutrition support to millions facing acute hunger across the Sahel.",
         "url": "https://www.wfp.org/emergencies/sahel-emergency"
       }
     ],
     "advocacy": [
-      "Advocate for a shift away from purely military counter-terrorism strategies towards Sahelian-led diplomatic and development solutions.",
-      "Advocate for climate financing from industrialised nations to fund locally-led adaptation projects in the Sahel.",
-      "Advocate for the immediate lifting of sanctions that harm civilians and obstruct humanitarian aid.",
-      "Support greater Sahelian sovereignty over currency, resources, and trade."
+      "Push for a shift away from militarised counter-terrorism strategies towards Sahelian-led political, social and development solutions that address root causes.",
+      "Demand transparency and enforceable corporate due diligence on mineral and agricultural supply chains that link Northern consumption to local dispossession.",
+      "Advocate for climate reparations and increased, flexible climate finance for locally led adaptation and resilience-building projects.",
+      "Call for targeted measures to cut illicit arms flows and for international mechanisms to investigate and sanction external actors found to be materially supporting armed groups."
     ]
   },
   "reading": [
     {
       "title": "The Wretched of the Earth",
       "url": "https://www.goodreads.com/book/show/66933",
-      "description": "Frantz Fanon's classic and foundational text on the psychology of colonialism and the violent logic of decolonisation, essential for understanding the Sahel's anti-French turn."
+      "description": "Frantz Fanon's foundational text on colonialism, decolonisation and the political psychology of liberation — essential for understanding the Sahel's anti-French turn."
     },
     {
       "title": "The Terror Factory: Inside the FBI's Manufactured War on Terrorism",
       "url": "https://www.goodreads.com/book/show/13591775",
-      "description": "While focused on the US, Trevor Aaronson's investigation provides a critical framework for understanding how the global 'war on terror' can exacerbate and even create the problems it claims to solve."
+      "description": "Trevor Aaronson's critique of how counter-terror architectures can generate the problems they claim to solve, a useful frame for analysing Sahel security policy."
     },
     {
       "title": "The Scramble for Africa",
       "url": "https://www.goodreads.com/book/show/28534426",
-      "description": "Thomas Pakenham's comprehensive account of European colonisation of Africa, providing essential context for understanding the Sahel's colonial legacy."
+      "description": "Thomas Pakenham's account of colonial conquest across Africa, providing historical context for current Sahel dynamics."
     }
   ]
 }

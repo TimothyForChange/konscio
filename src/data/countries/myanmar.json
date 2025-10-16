@@ -3,98 +3,100 @@
   "emoji": "🇲🇲",
   "ariaLabel": "Myanmar flag",
   "lastUpdated": "2025-10-16",
-  "currentCrisisSummary": "A nationwide pro-democracy movement against the 2021 military coup has escalated into a full-scale civil war, triggering a humanitarian crisis. This multi-ethnic uprising seeks to challenge the system of military-led governance. The war unfolds alongside the ongoing effects of the 2017 crisis, which the UN has described as a genocide, and which has forced nearly one million survivors into sprawling refugee camps in Bangladesh, creating a multi-faceted regional crisis.",
+  "currentCrisisSummary": "A nationwide pro-democracy movement against the 2021 military coup has escalated into a wide-ranging civil war, producing one of the region's most severe humanitarian catastrophes.\n\nThe conflict is multi-front and multi-ethnic: anti-coup resistance groups, ethnic armed organisations and local defence forces contest territory with the Tatmadaw (the military), which has responded with scorched-earth tactics, sieges, air strikes and mass arrests. The violence compounds the aftermath of the 2017 campaign against the Rohingya, which generated a major refugee emergency in Bangladesh and prompted international legal action.\n\nHumanitarian indicators are stark: more than 3.5 million people are internally displaced across Myanmar, nearly 1 million Rohingya refugees remain in overcrowded camps in Bangladesh, and humanitarian needs in 2025 approach 19.9-21.9 million people. The junta's campaign has produced thousands of civilian deaths and widespread destruction of livelihoods, health and education systems. International accountability processes (including the ICJ case brought over the Rohingya) run alongside calls for arms embargoes, targeted sanctions and strengthened humanitarian access.",
   "colonialRoot": {
     "colonialPower": "British Empire (1824-1948)",
-    "legacy": "British rule was built on a 'divide-and-rule' strategy that altered pre-colonial societal structures. The British formalised ethnic categories, administering the Bamar heartland separately from the 'Frontier Areas' of ethnic minorities.\n\nThey employed minorities like the Karen, Kachin, and Chin in the colonial army to suppress the Bamar majority, a policy which fostered inter-ethnic resentment. By institutionalising these ethnic hierarchies, Britain left a legacy of a divided state, which contributed to the country's long-running civil wars."
+    "legacy": "British colonial rule reorganised territory and identity through a 'divide and rule' approach that separated the Bamar heartland from the so-called 'Frontier Areas' inhabited by ethnic minorities. The colonial state institutionalised ethnic categories, employed minorities (Karen, Kachin, Chin) in colonial security forces, and allocated resources in ways that entrenched regional inequalities.\n\nThis administrative and political architecture left a fractured post-colonial state in which peripheral regions were treated as resource frontiers — a structural condition later reproduced by military rule and extractive corporate projects."
   },
   "historicalContext": {
-    "militaryEconomyAndCorporateInvolvement": "The Tatmadaw (Myanmar's armed forces) functions as both a military and a major economic enterprise. Through its conglomerates, it controls large parts of the economy, enriching a small class of generals. This system, where ethnic states are treated as resource-rich territories for exploitation, has parallels with the British colonial economic model. For decades, some international corporations, particularly in the oil and gas sector (e.g., TotalEnergies, Chevron), have been involved in this system, providing the military government with a key source of revenue.",
-    "militaryRuleAndEthnicMinorities": "The Tatmadaw's rule over ethnic minority regions has been described as a form of internal colonialism. It uses violence to control these peripheral areas and exploit their natural resources (timber, jade, gas). The 2017 Rohingya crisis is the most extreme manifestation of this system, which uses ethnic hierarchies established during British rule to justify exclusion, dispossession, and persecution. A UN fact-finding mission found that the military's actions displayed 'genocidal intent'."
+    "militaryEconomyAndCorporateInvolvement": "The Tatmadaw operates as a political-economic complex: military conglomerates, control of natural-resource revenues and state capture generate revenue streams that insulate senior officers from civilian oversight. Military economic interests are central to why the junta resists reform and violent challenges.\n\nFor decades some international corporations, particularly in extractive sectors, have engaged with or profited from arrangements that bolstered military finances. Ending this dependence is a central demand of pro-democracy and rights groups.",
+    "militaryRuleAndEthnicMinorities": "The Tatmadaw's long rule over ethnic minority regions resembles an internal colonial dynamic: resource extraction, forced labour, population displacement and military governance that curtail local autonomy. The 2017 clearance operations in Rakhine State — which UN investigators have found displayed genocidal intent towards the Rohingya — are a profound illustration of how ethnic hierarchies can be mobilised to justify dispossession and mass violence.\n\nThese dynamics have produced protracted refugee flows, communal polarisation and repeated cycles of armed insurgency.",
+    "internationalLawAndAccountability": "International legal and accountability processes are active but contested. The Gambia's ICJ case alleging violations of the Genocide Convention and subsequent ICJ orders concern the 2017 abuses against the Rohingya. Human-rights organisations, the UN and regional actors continue to document atrocity crimes, call for targeted sanctions, push for an arms embargo and press for criminal accountability through international mechanisms. These processes matter politically and legally even as enforcement remains difficult."
   },
   "humanitarianImpact": {
-    "displaced": "Over 3.5 million people internally displaced since the 2021 coup, with millions more displaced by decades of prior conflict.",
-    "refugees": "Nearly 1 million Rohingya refugees, survivors of the 2017 genocide, remain in overcrowded camps in Bangladesh, living in precarious conditions with no legal status or prospect for a safe return.",
-    "casualties": "Over 6,000 civilians confirmed killed by the junta since the coup, though the total conflict death toll since 2021 is estimated to be over 50,000.",
-    "affected": "18.6 million people—one-third of the population—require urgent humanitarian aid as the economy and healthcare system collapse.",
-    "childrenOutOfSchool": "Over 1.5 million children have had their education disrupted due to conflict and military occupation of schools.",
-    "healthSystemCollapsed": "The public healthcare system has collapsed due to systematic military attacks and health workers joining the pro-democracy Civil Disobedience Movement."
+    "displaced": "More than 3.5 million people are internally displaced across Myanmar as of early-mid 2025, with large concentrations in the Northwest, Rakhine, Kachin and parts of the south and southeast.",
+    "refugees": "Nearly 1 million Rohingya refugees continue to live in overcrowded camps in Bangladesh, mostly in Cox's Bazar, with precarious access to services and limited prospects for safe, voluntary return.",
+    "casualties": "Official and independent counts indicate at least several thousand civilian deaths since the 2021 coup; OHCHR reporting noted civilian deaths exceeding 6,000 by late 2024. Broader conflict-related fatalities — including combatant deaths, unreported killings and indirect mortality from disruption to services — are likely much higher and various estimates place total conflict deaths in the tens of thousands.",
+    "affected": "Humanitarian planning and UN appeals for 2025 identify roughly 19.9-21.9 million people in need of assistance — well over a third of the population — driven by widespread displacement, loss of livelihoods, food insecurity and public-service collapse.",
+    "childrenOutOfSchool": "Millions of children face severe educational disruption: UNICEF and humanitarian partners report several million children with limited or no access to learning, as schools are closed, occupied or unsafe in large parts of the country.",
+    "healthSystemCollapsed": "The public health system has been severely weakened by attacks on facilities, shortages of medicines and staff departures, with humanitarian actors warning of collapsing services for maternal and child health, communicable-disease control and emergency care.",
+    "foodInsecurity": "Food insecurity affects large parts of the country. WFP and humanitarian assessments warn of a deepening hunger crisis as conflict, economic contraction and access constraints reduce food availability and assistance."
   },
   "timeline": [
     {
       "year": "1885",
-      "event": "**British Conquest**: Britain completes its conquest of Burma, incorporating it into its empire and instituting a 'divide-and-rule' strategy."
+      "event": "**British Conquest**: Britain completes the conquest of Burma and integrates it into the imperial order, instituting policies that separate the Bamar lowlands from 'frontier' ethnic areas."
     },
     {
       "year": "1948",
-      "event": "**Independence**: Burma gains independence, inheriting a state fractured along ethnic lines, a legacy of colonial policy."
+      "event": "**Independence**: Burma attains independence, inheriting a state divided along lines shaped by colonial administration and facing immediate ethnic and regional tensions."
     },
     {
       "year": "1962",
-      "event": "**First Military Coup**: General Ne Win seizes power, ushering in decades of isolationist military rule and the construction of a large economic empire controlled by the generals."
+      "event": "**First Military Coup**: General Ne Win seizes power, inaugurating decades of military rule, nationalisation and the growth of military economic interests."
     },
     {
-      "year": "1990",
-      "event": "**Military Conglomerates Formed**: The junta establishes the military-owned conglomerates Myanma Economic Holdings Limited (MEHL) and Myanmar Economic Corporation (MEC), formalising its control over the national economy."
+      "year": "1990s",
+      "event": "**Military Conglomerates & Resource Control**: The junta consolidates military conglomerates and state control over lucrative resource sectors, deepening the Tatmadaw's economic entrenchment."
     },
     {
       "year": "2017",
-      "event": "**Rohingya Genocide**: The military launches a campaign of 'clearance operations' against the Rohingya, which the UN has called a genocide. This wave of violence forces over 740,000 people to flee to Bangladesh in a matter of months, creating the world's largest refugee camp."
+      "event": "**Rohingya Clearance Operations**: Large-scale operations against Rohingya communities in Rakhine State force over 700,000 people to flee to Bangladesh. UN investigators report serious violations with findings of genocidal intent in some of the military's actions."
     },
     {
       "year": "2021",
-      "event": "**Military Coup & Revolution**: The Tatmadaw overthrows the elected government, citing election fraud, in a move seen by many as a way to protect its economic interests from reform. The coup triggered a nationwide armed uprising."
+      "event": "**Military Coup & Popular Resistance**: The Tatmadaw stages a coup on 1 February 2021. A nationwide civil disobedience movement and armed resistance follow, escalating into widespread armed conflict."
     },
     {
       "year": "2023-Present",
-      "event": "**Operation 1027**: A coordinated offensive by ethnic armies inflicts significant defeats on the junta, shifting the civil war's momentum and challenging the military's grip on power."
+      "event": "**Escalation & Multi-front Conflict**: Large-scale offensives by ethnic armed organisations and newly formed People's Defence Forces alter frontlines in several regions, producing significant displacement, humanitarian need and new dynamics of territorial control."
     }
   ],
   "takeAction": {
     "donate": [
       {
         "organisation": "Burma Campaign UK",
-        "description": "An advocacy group working for human rights, democracy, and targeted sanctions against the junta.",
+        "description": "Advocacy group campaigning for human rights, targeted sanctions and an end to impunity in Myanmar.",
         "url": "https://burmacampaign.org.uk"
       },
       {
         "organisation": "Mutual Aid Myanmar",
-        "description": "Direct, flexible funding to grassroots activists and civil society groups inside the country.",
+        "description": "Network supporting grassroots mutual aid, direct relief and community resilience inside Myanmar.",
         "url": "https://www.mutualaidmyanmar.org"
       },
       {
         "organisation": "UNHCR",
-        "description": "UNHCR provides essential shelter, protection, and life-saving aid to nearly one million Rohingya refugees in Bangladesh, supporting survivors of the 2017 violence living in the world's largest refugee camp.",
+        "description": "Provides protection, shelter and essential services to Rohingya refugees in Bangladesh and to other displaced populations in the region.",
         "url": "https://www.unhcr.org/emergencies/rohingya-emergency"
       },
       {
         "organisation": "World Food Programme (WFP)",
-        "description": "WFP delivers emergency food and nutrition support to millions of people displaced by the conflict inside Myanmar, working to reach families in hard-to-access areas who have lost their homes and livelihoods.",
+        "description": "Delivers emergency food assistance across Myanmar and to displaced and food-insecure populations.",
         "url": "https://www.wfp.org/emergencies/myanmar-emergency"
       }
     ],
     "advocacy": [
-      "Advocate for comprehensive sanctions on the military's economic interests, especially the Myanma Oil and Gas Enterprise (MOGE) and its conglomerates (MEHL and MEC).",
-      "Advocate for sanctions on the supply of aviation fuel to stop air strikes on civilian targets.",
-      "Support a comprehensive global arms embargo to stop the flow of weapons and military technology to the military.",
-      "Support Rohingya demands for justice, citizenship, and a safe, dignified, and voluntary return, and support the genocide case against Myanmar at the ICJ."
+      "Press for an immediate and comprehensive UN and regional arms embargo to halt the flow of weapons to the Tatmadaw.",
+      "Support targeted sanctions on military economic interests and the personal assets of senior commanders while safeguarding humanitarian exemptions.",
+      "Demand strengthened humanitarian access and funding, and insist that assistance be accountable to communities and delivered in ways that protect civilians.",
+      "Back Rohingya and other survivors' demands for justice, citizenship and safe, voluntary return, and support international legal processes including the ICJ proceedings."
     ]
   },
   "reading": [
     {
       "title": "The River of Lost Footsteps",
       "url": "https://www.goodreads.com/book/show/1940555",
-      "description": "Written by historian Thant Myint-U, this book provides a sweeping yet personal history of Myanmar, skillfully weaving together the country's complex past and present."
+      "description": "Thant Myint-U's sweeping history of Myanmar, tracing historical forces that shape the present crisis."
     },
     {
       "title": "The Burma Spring: Aung San Suu Kyi and the New Struggle for the Soul of a Nation",
       "url": "https://www.goodreads.com/book/show/22514246",
-      "description": "Journalist Jason Szep offers a compelling narrative of the 2021 revolution, drawing on extensive reporting to tell the story of the popular uprising against military rule."
+      "description": "Jason Szep's reporting on Myanmar's contemporary pro-democracy movement and its challenges."
     },
     {
       "title": "From the Land of Green Ghosts: A Burmese Odyssey",
       "url": "https://www.goodreads.com/book/show/103148",
-      "description": "A powerful memoir by Pascal Khoo Thwe that offers a rare glimpse into the life of the Padaung people and the broader struggle of ethnic minorities against the central government."
+      "description": "Pascal Khoo Thwe's memoir offering perspective on ethnic minority life and resistance in Burma/Myanmar."
     }
   ]
 }

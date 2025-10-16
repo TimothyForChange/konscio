@@ -3,94 +3,99 @@
   "emoji": "🇸🇴",
   "ariaLabel": "Somali flag",
   "lastUpdated": "2025-10-16",
-  "currentCrisisSummary": "Somalia is caught in a convergence of severe crises: a protracted civil war, an al-Shabaab insurgency, and a cycle of climate-driven droughts and floods. This convergence, fuelled by geopolitical competition and climate change, has led to a long-term humanitarian emergency, with millions displaced and facing one of the world's most severe hunger crises.",
+  "currentCrisisSummary": "Somalia faces a convergence of severe, interlocking crises: a protracted civil war, an entrenched al-Shabaab insurgency, and repeated climate-driven droughts and floods that have devastated livelihoods.\n\nThese dynamics — amplified by geopolitical competition, external military interventions and extractive practices such as illegal fishing and contested resource claims — have produced a long-term humanitarian emergency. Millions are displaced, public services are fragile or non-functional in many areas, and food and nutrition emergencies recur with alarming frequency.\n\nHumanitarian response is repeatedly undermined by access constraints, funding shortfalls and insecurity. A Somali-led political solution, protection of civilian space, and large-scale, locally accountable humanitarian and climate adaptation support are essential to prevent repeated cycles of famine and displacement.",
   "colonialRoot": {
     "colonialPower": "Britain & Italy (c. 1880s-1960)",
-    "legacy": "The crisis is a direct legacy of the colonial partition of Somali-inhabited lands. In the 'Scramble for Africa', Britain and Italy (along with France) divided a culturally and linguistically homogenous people into five separate territories, disrupting its social and economic fabric.\n\nThe artificial borders and the hasty merger of the British and Italian colonies at independence in 1960 created challenges for the new state from its inception. This colonial division of a homogenous people created grievances that have fuelled decades of conflict."
+    "legacy": "The crisis is rooted in the colonial partitioning of Somali-inhabited lands during the Scramble for Africa. Britain, Italy (and France in neighbouring territories) divided a culturally and linguistically cohesive people into separate political entities and imposed artificial borders that disrupted traditional economic and social systems.\n\nThe rushed post-colonial merger of former British and Italian territories in 1960 left a state with unresolved territorial, clan and governance tensions, a fragility that was later compounded by Cold War geopolitics and frequent external interventions."
   },
   "historicalContext": {
-    "theFragmentedState": "The state's collapse in 1991 was intensified by the Cold War. The Siad Barre dictatorship was armed first by the USSR and then the US, who saw Somalia as a strategic location for controlling sea lanes vital for global oil shipments. After its collapse, foreign interventions—from the US-led mission in the 1990s to the modern 'war on terror'—have often exacerbated fragmentation by prioritising external counter-terrorism goals over a Somali-led process of state-building.",
-    "climateChangeAndEconomicExploitation": "Somalia is on the front line of crises linked to the global economic system. It suffers from the severe impacts of climate change, as droughts, linked to global emissions, damage livelihoods. Simultaneously, the state's collapse created a vacuum exploited by external actors: international fleets engaged in illegal fishing and companies reportedly dumped toxic waste. This resource exploitation is now being followed by corporate competition for offshore oil, which could create a new cycle of conflict."
+    "theFragmentedState": "The collapse of central authority in 1991 unfolded in a Cold War context where Siad Barre's regime had been alternately supported by the USSR and the United States. The post-collapse period saw repeated external interventions — from humanitarian missions in the 1990s to later counter-terrorism operations — that too often prioritised military objectives over Somali-led political settlement and resilient local governance.\n\nThis chronic fragmentation created vacuums that armed groups exploited and left Somali institutions weakened and highly dependent on external finance and security architectures.",
+    "climateChangeAndEconomicExploitation": "Somalia is on the frontline of climate change: repeated failed rainy seasons, prolonged droughts and sudden floods have destroyed crops, killed livestock and deepened food insecurity. At the same time, the state's collapse opened space for illicit economic activity: illegal fishing by foreign fleets and documented toxic-waste dumping have eroded coastal livelihoods, while new competition for offshore resources risks generating fresh conflict dynamics.\n\nThese interlocking drivers — climate shocks, resource predation and political fragmentation — create what many analysts describe as ecological and economic injustice: the global north's emissions and commercial practices impose heavy costs on Somali communities."
   },
+  "historitarianLawAndAccountability": "International responsibility is contested and partial. Human rights organisations, UN panels and investigative journalists have repeatedly documented abuses by state and non-state actors, including violations of humanitarian law in counter-insurgency operations and patterns of exploitation by transnational actors. Accountability mechanisms exist unevenly; strengthening independent documentation, protection of witnesses and Somali-centred transitional justice processes remains a priority.",
   "humanitarianImpact": {
-    "displaced": "Nearly 4 million people are internally displaced by conflict and climate shocks.",
-    "refugees": "Nearly 1 million Somalis live as refugees and asylum-seekers, primarily in neighbouring Kenya, Ethiopia, and Yemen.",
-    "casualties": "While no definitive figure exists for the entire civil war, an estimated 500,000 people have died from violent conflict-related causes since 1991. The 2011 famine alone killed an estimated 260,000 people.",
-    "affected": "An estimated 7.7 million people require life-saving humanitarian assistance.",
-    "childrenOutOfSchool": "An estimated 3 million children are out of school due to conflict, displacement, and lack of educational infrastructure.",
-    "healthSystemCollapsed": "The healthcare system remains severely weakened, with recurrent disease outbreaks and one of the highest maternal mortality rates in the world.",
-    "foodInsecurity": "An estimated 4 million people face acute food insecurity, with 1.7 million children facing acute malnutrition.",
-    "lackOfWaterAccess": "More than half of the population lacks access to safe drinking water, sanitation, and hygiene."
+    "displaced": "About 3.5 million people are internally displaced by conflict and climate shocks, living in camps, informal sites and host communities with precarious access to services. :contentReference[oaicite:0]{index=0}",
+    "refugees": "Approximately 714,000 Somali refugees and asylum-seekers are hosted in neighbouring countries (Kenya, Ethiopia, Yemen and others), with protracted protection needs. :contentReference[oaicite:1]{index=1}",
+    "casualties": "Estimates of conflict-related deaths since 1991 vary by methodology and period. Large-scale mortality from war, famine and disease has periodically reached the hundreds of thousands; the 2011 famine alone has been estimated at around 258,000 excess deaths in scientific surveys. :contentReference[oaicite:2]{index=2}",
+    "affected": "Humanitarian planning documents and response plans for 2025 identify roughly 6-7.7 million people in need of assistance depending on the planning baseline used. :contentReference[oaicite:3]{index=3}",
+    "childrenOutOfSchool": "An estimated 3 million children are out of school because of conflict, displacement and damaged infrastructure, with long-term impacts on education and protection.",
+    "healthSystemCollapsed": "Large parts of the public health system are severely weakened: recurrent disease outbreaks, limited access to maternal and child health, and shortages of medicines and personnel are widespread.",
+    "foodInsecurity": "About 4.4 million people face high levels of acute food insecurity, with children and pastoralist communities especially at risk; nutrition assessments project roughly 1.7 million children at risk of acute malnutrition in 2025. :contentReference[oaicite:4]{index=4}",
+    "lackOfWaterAccess": "More than half the population lacks reliable access to safe drinking water, sanitation and hygiene in many affected areas, increasing risks of disease during droughts and floods."
   },
   "timeline": [
     {
       "year": "c. 1880s",
-      "event": "**Colonial Partition**: Britain, Italy, and France carve up the Somali-inhabited lands, creating five separate colonial territories and dividing a homogenous nation."
+      "event": "**Colonial Partition**: Britain, Italy and France carve up Somali-inhabited lands during the Scramble for Africa, creating artificial borders and political fragmentation."
     },
     {
       "year": "1960",
-      "event": "**Independence & Unification**: The former British and Italian Somalilands unite to form the Somali Republic, a state facing inherent challenges."
+      "event": "**Independence & Unification**: Former British and Italian territories unite to form the Somali Republic, inheriting complex clan, regional and governance challenges."
     },
     {
       "year": "1969",
-      "event": "**Siad Barre's Coup**: General Siad Barre seizes power, establishing a dictatorship aligned with the Soviet Union."
+      "event": "**Siad Barre's Coup**: General Siad Barre seizes power, later aligning with the USSR; subsequent policies centralise power and sow grievances."
     },
     {
       "year": "1977-1978",
-      "event": "**Ogaden War**: Somalia's attempt to reclaim the Ogaden region from Ethiopia ends in defeat, prompting Barre to switch allegiance to the United States in the Cold War struggle for control of the Horn of Africa."
+      "event": "**Ogaden War**: Somalia's intervention in Ethiopia ends in military defeat and shifts Cold War alignments, accelerating militarisation."
     },
     {
       "year": "1991",
-      "event": "**State Collapse**: Barre's regime is overthrown. The state disintegrates, plunging the country into civil war and leaving its resources vulnerable to exploitation."
+      "event": "**State Collapse**: Barre's overthrow precipitates state collapse, civil war and the fragmentation of authority that creates long-term displacement and insecurity."
     },
     {
       "year": "1992-1995",
-      "event": "**US/UN Intervention**: A US-led UN humanitarian intervention ('Operation Restore Hope') ends in withdrawal after the deadly 1993 Battle of Mogadishu."
+      "event": "**International Intervention**: A US-led, UN-mandated humanitarian intervention ('Operation Restore Hope') withdraws after the 1993 Battle of Mogadishu; international engagement shifts repeatedly between humanitarian and military imperatives."
     },
     {
       "year": "2006-Present",
-      "event": "**Rise of Al-Shabaab**: The extremist group al-Shabaab emerges, becoming a dominant insurgency and waging a violent war against the internationally-backed government."
+      "event": "**Rise of Al-Shabaab**: Al-Shabaab emerges as a dominant insurgency, contesting the internationally backed government and conducting attacks domestically and regionally."
     },
     {
-      "year": "2022-2023",
-      "event": "**Climate Extremes**: The country suffers its worst drought in 40 years, followed by severe floods, pushing millions to the brink of starvation."
+      "year": "2011",
+      "event": "**Famine & Drought**: A catastrophic famine and severe food insecurity event causes very high mortality and displacement, with later studies estimating around 258,000 excess deaths during 2010-2012. :contentReference[oaicite:5]{index=5}"
+    },
+    {
+      "year": "2021-Present",
+      "event": "**Climate Extremes & Renewed Crisis**: Repeated failed rainy seasons, severe drought followed by floods, and funding shortfalls drive renewed waves of displacement and acute food and nutrition needs."
     }
   ],
   "takeAction": {
     "donate": [
       {
         "organisation": "Adeso Africa",
-        "description": "A Somali-led humanitarian and development organisation providing direct cash assistance, water, and sanitation support to communities affected by conflict and climate change.",
+        "description": "A Somali-led humanitarian and development organisation delivering cash, water and sanitation support and locally led resilience programming.",
         "url": "https://adesoafrica.org"
       },
       {
         "organisation": "World Food Programme (WFP)",
-        "description": "WFP delivers life-saving food and nutrition assistance to millions of people in Somalia affected by conflict, drought, and floods. They are on the front lines, working to prevent famine and treat acute malnutrition in children and mothers.",
+        "description": "Delivers emergency food and nutrition support across Somalia and to internally displaced and food-insecure populations.",
         "url": "https://www.wfp.org/emergencies/somalia-emergency"
       }
     ],
     "advocacy": [
-      "Advocate for wealthy nations to provide climate financing to support Somali communities affected by climate change.",
-      "Advocate for more funding to be channelled directly through local Somali organisations.",
-      "Advocate for accountability for illegal fishing and toxic waste dumping by foreign corporations.",
-      "Advocate for a shift from purely military 'counter-terrorism' towards investment in Somali-led peace and state-building initiatives."
+      "Push for increased, flexible climate finance and humanitarian funding that is channelled directly to Somali-led organisations and community networks.",
+      "Demand accountability for illegal fishing and toxic-waste dumping, and support coastal communities' rights to their marine resources.",
+      "Advocate for a shift from predominately militarised counter-terror strategies to Somali-led political processes, inclusive governance and investment in resilient livelihoods.",
+      "Support expanded humanitarian access, protection for civilians and strengthened monitoring of rights abuses by all armed actors."
     ]
   },
   "reading": [
     {
       "title": "The World's Most Dangerous Place: Inside the Outlaw State of Somalia",
       "url": "https://www.goodreads.com/book/show/17168288",
-      "description": "Journalist James Fergusson provides a compelling look at Somalia post-state collapse, exploring the rise of piracy and al-Shabaab from a ground-level perspective."
+      "description": "James Fergusson's reporting from post-collapse Somalia, exploring piracy, insurgency and local economies."
     },
     {
       "title": "Making Sense of Somali History: Volume 1",
       "url": "https://www.goodreads.com/book/show/40886842",
-      "description": "Abdurahman Abdullahi (Baadiyow) offers a comprehensive history of Somalia, providing crucial context on the pre-colonial, colonial, and post-colonial periods."
+      "description": "Abdurahman Abdullahi (Baadiyow) offers a scholarly account of Somali history across pre-colonial, colonial and post-colonial periods."
     },
     {
       "title": "The Mayor of Mogadishu: A Story of Chaos and Redemption in the Ruins of Somalia",
       "url": "https://www.goodreads.com/book/show/28220668",
-      "description": "Andrew Harding's biography of Mohamud 'Tarzan' Nur, telling the story of modern Somalia through the life of one of its most dynamic and controversial figures."
+      "description": "Andrew Harding's biography of Mohamud 'Tarzan' Nur, tracing recent efforts at local governance and reconstruction."
     }
   ]
 }
