@@ -202,6 +202,19 @@ p:last-child {
   margin-bottom: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: pretty;
+}
+
+li {
+  text-wrap: pretty;
+}
+
 .focus-strong:focus-visible {
   outline: 2px solid var(--focus-ring);
   outline-offset: 2px;
