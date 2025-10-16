@@ -1,4 +1,4 @@
-import { escapeHtml } from './html';
+import { escapeHtml } from './html.ts';
 
 export function formatKeyToTitle(key: string): string {
   if (key === 'laCentrafriqueProfonde') {

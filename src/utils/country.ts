@@ -1,5 +1,5 @@
 import countriesData from '../data/countries.json';
-import type * as CountryTypes from '../types/country';
+import type * as CountryTypes from '../types/country.ts';
 
 export async function getCountryMetadata(
   countrySlug: string
