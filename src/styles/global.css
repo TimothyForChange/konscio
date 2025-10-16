@@ -195,6 +195,7 @@ textarea:focus-visible,
 
 p {
   margin-bottom: 1rem;
+  text-wrap: pretty;
 }
 
 p:last-child {
