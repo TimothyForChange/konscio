@@ -77,5 +77,22 @@
       "Support international efforts to prosecute those responsible for the genocide in Darfur and other war crimes through the ICC.",
       "Advocate for secure humanitarian corridors and for aid to be channelled directly through local networks like Sudan's Emergency Response Rooms."
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "The Root Causes of Sudan's Civil Wars",
+      "url": "https://www.amazon.com/Root-Causes-Sudans-Civil-Wars/dp/1847010296",
+      "description": "Douglas H. Johnson's analysis of the historical roots of conflict in Sudan."
+    },
+    {
+      "title": "Darfur: The Ambiguous Genocide",
+      "url": "https://www.amazon.com/Darfur-Ambiguous-Genocide-Gerard-Prunier/dp/0801444500",
+      "description": "Gérard Prunier's account of the Darfur conflict and its international dimensions."
+    },
+    {
+      "title": "The White Man's Burden",
+      "url": "https://www.amazon.com/White-Mans-Burden-War-End/dp/0143038826",
+      "description": "Susan Sontag's reflections on humanitarian interventions in Sudan."
+    }
+  ]
 }

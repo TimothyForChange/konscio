@@ -80,5 +80,22 @@
       "Advocate for the immediate lifting of sanctions that harm civilians and obstruct humanitarian aid.",
       "Support greater Sahelian sovereignty over currency, resources, and trade."
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "The Scramble for Africa",
+      "url": "https://www.amazon.com/Scramble-Africa-Thomas-Pakenham/dp/0380719991",
+      "description": "Thomas Pakenham's account of the European partition of Africa and its lasting impact."
+    },
+    {
+      "title": "How Europe Underdeveloped Africa",
+      "url": "https://www.amazon.com/How-Europe-Underdeveloped-Africa-Walter/dp/0948390026",
+      "description": "Walter Rodney's analysis of how European colonialism drained Africa's wealth."
+    },
+    {
+      "title": "The Fate of Africa",
+      "url": "https://www.amazon.com/Fate-Africa-Continent-Hope-Despair/dp/1586483986",
+      "description": "Martin Meredith's history of Africa from independence to the present."
+    }
+  ]
 }

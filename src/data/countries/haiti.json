@@ -79,5 +79,22 @@
       "Support Haitian peasant movements working for food sovereignty and resisting the import of subsidised foreign goods.",
       "Advocate for reparations and full accountability from the UN for its role in the 2010s cholera epidemic."
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "The Black Jacobins",
+      "url": "https://www.amazon.com/Black-Jacobins-Toussaint-Louverture-Revolution/dp/0679724672",
+      "description": "C.L.R. James' classic account of the Haitian Revolution and its global significance."
+    },
+    {
+      "title": "The Uses of Haiti",
+      "url": "https://www.amazon.com/Uses-Haiti-Paul-Farmer/dp/1583671512",
+      "description": "Paul Farmer's examination of Haiti's history of foreign intervention and exploitation."
+    },
+    {
+      "title": "Haiti: The Aftershocks of History",
+      "url": "https://www.amazon.com/Haiti-Aftershocks-History-Laurent-Dubois/dp/1250078011",
+      "description": "Laurent Dubois' history of Haiti from the revolution to the present day."
+    }
+  ]
 }

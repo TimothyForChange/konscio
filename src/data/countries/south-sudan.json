@@ -74,5 +74,22 @@
       "Advocate for wealthy nations to provide climate financing to support South Sudanese communities affected by climate change.",
       "Advocate for increased humanitarian funding and for aid to be delivered in direct partnership with local South Sudanese organisations."
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "The White Man's Burden",
+      "url": "https://www.amazon.com/White-Mans-Burden-War-End/dp/0143038826",
+      "description": "Susan Sontag's reflections on the humanitarian interventions in Somalia and Sudan."
+    },
+    {
+      "title": "They Poured Fire on Us From the Sky",
+      "url": "https://www.amazon.com/They-Poured-Fire-Us-Sky/dp/1586481606",
+      "description": "The story of three Lost Boys of Sudan and their journey to America."
+    },
+    {
+      "title": "The Root Causes of Sudan's Civil Wars",
+      "url": "https://www.amazon.com/Root-Causes-Sudans-Civil-Wars/dp/1847010296",
+      "description": "Douglas H. Johnson's analysis of the historical roots of conflict in Sudan."
+    }
+  ]
 }

@@ -94,5 +94,22 @@
       "Demand targeted sanctions on Israeli officials and entities responsible for war crimes, apartheid, and illegal settlements.",
       "Support the genocide case against Israel at the ICJ and war crimes investigations at the ICC."
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "Palestine",
+      "url": "https://www.amazon.com/Palestine-Joe-Sacco/dp/156097432X",
+      "description": "A graphic novel by Joe Sacco that provides a detailed and accessible account of life in the occupied territories."
+    },
+    {
+      "title": "From Beirut to Jerusalem",
+      "url": "https://www.amazon.com/Beirut-Jerusalem-Thomas-Friedman/dp/0385413726",
+      "description": "Thomas Friedman's Pulitzer Prize-winning account of the Middle East, including the Palestinian perspective."
+    },
+    {
+      "title": "The Question of Palestine",
+      "url": "https://www.amazon.com/Question-Palestine-Edward-Said/dp/0679739882",
+      "description": "Edward Said's seminal work on the Palestinian struggle and the role of Western media and scholarship."
+    }
+  ]
 }

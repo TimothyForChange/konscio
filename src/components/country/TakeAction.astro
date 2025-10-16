@@ -1,0 +1,126 @@
+---
+import { isArray, isObject, keys } from 'radash';
+import ActionSection from './ActionSection.astro';
+import type { ActionGroupData } from './ActionSection.astro';
+
+export interface Properties {
+  takeAction?: {
+    donate?: Array<{
+      organisation?: string;
+      description?: string;
+      url?: string;
+    }>;
+    advocacy?: Array<string>;
+  };
+  id?: string;
+}
+
+const { takeAction, id } = Astro.props as Properties;
+
+const safeTakeAction = isObject(takeAction) ? takeAction : {};
+if (keys(safeTakeAction).length === 0) {
+  return;
+}
+
+const donateData = isArray(safeTakeAction.donate) ? safeTakeAction.donate : [];
+const advocacyData = isArray(safeTakeAction.advocacy)
+  ? safeTakeAction.advocacy
+  : [];
+
+const groups: ActionGroupData[] = [];
+
+if (donateData.length > 0) {
+  groups.push({
+    icon: 'ri-heart-line',
+    title: 'Donate',
+    type: 'links',
+    items: donateData.map((org) => ({
+      title: org.organisation || 'Organisation',
+      description: org.description,
+      url: org.url || '#',
+      buttonText: 'Donate',
+    })),
+  });
+}
+---
+
+<section class='action-section' {...id ? { id } : {}}>
+  <h2>How You Can Help</h2>
+
+  {
+    groups.length > 0 && (
+      <ActionSection sectionTitle='' groups={groups} standalone={false} />
+    )
+  }
+
+  {
+    advocacyData.length > 0 && (
+      <>
+        <h3>
+          <i class='ri-megaphone-line' aria-hidden='true' />
+          Advocacy
+        </h3>
+        <div class='awareness-list'>
+          {advocacyData.map((item) => (
+            <div class='action-card'>{item}</div>
+          ))}
+        </div>
+      </>
+    )
+  }
+</section>
+
+<style>
+  .action-section {
+    background: var(--bg-card);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    padding: var(--section-gap);
+    margin-bottom: var(--section-gap);
+  }
+
+  .action-section h2 {
+    margin-top: 0;
+    border-bottom: var(--section-heading-border);
+    padding-bottom: var(--section-heading-padding-bottom);
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    margin-bottom: var(--heading-gap);
+  }
+
+  .action-section h3 {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    margin: var(--heading-gap) 0 var(--gap);
+    display: flex;
+    align-items: center;
+    gap: var(--gap-sm);
+  }
+
+  .action-section h3 i {
+    font-size: 1.1rem;
+  }
+
+  .awareness-list {
+    display: grid;
+    gap: var(--gap);
+  }
+
+  .action-card {
+    background: var(--bg-surface);
+    border: var(--card-border);
+    border-radius: var(--button-radius);
+    padding: var(--card-padding);
+    color: var(--text-secondary);
+    line-height: var(--line-height-base);
+  }
+
+  @media (width >= 768px) {
+    .action-section {
+      padding: calc(var(--section-gap) + var(--space-xs));
+      margin-bottom: calc(var(--section-gap) + var(--space-xs));
+    }
+  }
+</style>

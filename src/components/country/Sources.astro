@@ -1,0 +1,34 @@
+---
+import { isArray } from 'radash';
+import type { Source } from '../../types';
+import ActionSection from './ActionSection.astro';
+import type { ActionGroupData } from './ActionSection.astro';
+
+export interface Properties {
+  sources?: Source[];
+  id?: string;
+}
+
+const { sources, id } = Astro.props as Properties;
+
+const safeSources = isArray(sources) ? sources : [];
+if (safeSources.length === 0) {
+  return;
+}
+
+const groups: ActionGroupData[] = [
+  {
+    icon: 'ri-book-open-line',
+    title: 'Further Reading',
+    type: 'links',
+    items: safeSources.map((source) => ({
+      title: source.title,
+      description: source.description,
+      url: source.url,
+      buttonText: 'Read more',
+    })),
+  },
+];
+---
+
+<ActionSection sectionTitle='Sources' groups={groups} id={id} />

@@ -1,12 +1,13 @@
 ---
 import { isEmpty } from 'radash';
-import TakeAction from '../components/blocks/TakeAction.astro';
-import ColonialSection from '../components/country/ColonialSection.astro';
+import Colonial from '../components/country/Colonial.astro';
 import CountryHeader from '../components/country/CountryHeader.astro';
-import CrisisSection from '../components/country/CrisisSection.astro';
+import Crisis from '../components/country/Crisis.astro';
 import HistoricalContext from '../components/country/HistoricalContext.astro';
 import HumanitarianImpact from '../components/country/HumanitarianImpact.astro';
 import ImperialLegacy from '../components/country/ImperialLegacy.astro';
+import Sources from '../components/country/Sources.astro';
+import TakeAction from '../components/country/TakeAction.astro';
 import Timeline from '../components/country/Timeline.astro';
 import BackButton from '../components/shared/BackButton.astro';
 import type { CountryData } from '../types';
@@ -69,7 +70,7 @@ const articleSchema = {
         {
           countryData?.currentCrisisSummary &&
             typeof countryData.currentCrisisSummary === 'string' && (
-              <CrisisSection summary={countryData.currentCrisisSummary} />
+              <Crisis summary={countryData.currentCrisisSummary} />
             )
         }
 
@@ -93,7 +94,7 @@ const articleSchema = {
           countryData?.colonialRoot &&
             typeof countryData.colonialRoot === 'object' &&
             !Array.isArray(countryData.colonialRoot) && (
-              <ColonialSection colonialRoot={countryData.colonialRoot} />
+              <Colonial colonialRoot={countryData.colonialRoot} />
             )
         }
 
@@ -123,6 +124,14 @@ const articleSchema = {
                 takeAction={countryData.takeAction}
                 id='take-action'
               />
+            )
+        }
+
+        {
+          countryData?.sources &&
+            Array.isArray(countryData.sources) &&
+            countryData.sources.length > 0 && (
+              <Sources sources={countryData.sources} id='sources' />
             )
         }
 

@@ -88,5 +88,22 @@
       "Advocate for safe and legal pathways for Afghan refugees fleeing persecution.",
       "Advocate for accountability for those who profited from the 20-year occupation."
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "The Afghanistan Papers",
+      "url": "https://www.washingtonpost.com/graphics/2019/investigations/afghanistan-papers/afghanistan-war-confidential-documents/",
+      "description": "A Washington Post investigation revealing internal government documents about the failures of the US war in Afghanistan."
+    },
+    {
+      "title": "Ghost Wars",
+      "url": "https://www.amazon.com/Ghost-Wars-Afghanistan-1979-1989/dp/0143034669",
+      "description": "Steve Coll's Pulitzer Prize-winning account of the CIA's covert operations in Afghanistan during the Soviet-Afghan War."
+    },
+    {
+      "title": "The Wrong Enemy",
+      "url": "https://www.amazon.com/Wrong-Enemy-Carlotta-Gall/dp/0544045688",
+      "description": "Carlotta Gall's investigation into the failures of the US strategy in Afghanistan and Pakistan."
+    }
+  ]
 }

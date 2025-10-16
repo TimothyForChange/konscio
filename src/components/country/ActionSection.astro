@@ -1,0 +1,226 @@
+---
+import { isArray } from 'radash';
+import ActionCard from './ActionCard.astro';
+import ActionGroup from './ActionGroup.astro';
+
+export interface ActionItem {
+  title: string;
+  description?: string;
+  url: string;
+  buttonText: string;
+}
+
+export interface ActionGroupData {
+  icon: string;
+  title: string;
+  type: 'links' | 'cards';
+  items: (ActionItem | string)[];
+}
+
+export interface Properties {
+  sectionTitle: string;
+  groups: ActionGroupData[];
+  id?: string;
+  standalone?: boolean;
+}
+
+const {
+  sectionTitle,
+  groups,
+  id,
+  standalone = true,
+} = Astro.props as Properties;
+
+const safeGroups = isArray(groups) ? groups : [];
+if (safeGroups.length === 0) {
+  return;
+}
+---
+
+{
+  standalone ? (
+    <section
+      class='action-section'
+      {...(id ? { id } : {})}
+      aria-labelledby={id || 'action-section'}
+    >
+      <h2 id={id || 'action-section'}>{sectionTitle}</h2>
+
+      {safeGroups.map((group) => (
+        <ActionGroup icon={group.icon} title={group.title}>
+          {group.type === 'links' ? (
+            <div class='donate-organisations'>
+              {(group.items as ActionItem[]).map((item) => (
+                <div class='org-item'>
+                  <h4>{item.title}</h4>
+                  {item.description && <p>{item.description}</p>}
+                  <a
+                    href={item.url}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    class='donate-link'
+                    aria-label={`${item.buttonText} ${item.title}`}
+                  >
+                    <i class='ri-external-link-line' aria-hidden='true' />
+                    {item.buttonText}
+                  </a>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div class='advocacy-list'>
+              {(group.items as string[]).map((content) => (
+                <ActionCard content={content} />
+              ))}
+            </div>
+          )}
+        </ActionGroup>
+      ))}
+    </section>
+  ) : (
+    <>
+      {safeGroups.map((group) => (
+        <ActionGroup icon={group.icon} title={group.title}>
+          {group.type === 'links' ? (
+            <div class='donate-organisations'>
+              {(group.items as ActionItem[]).map((item) => (
+                <div class='org-item'>
+                  <h4>{item.title}</h4>
+                  {item.description && <p>{item.description}</p>}
+                  <a
+                    href={item.url}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    class='donate-link'
+                    aria-label={`${item.buttonText} ${item.title}`}
+                  >
+                    <i class='ri-external-link-line' aria-hidden='true' />
+                    {item.buttonText}
+                  </a>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div class='advocacy-list'>
+              {(group.items as string[]).map((content) => (
+                <ActionCard content={content} />
+              ))}
+            </div>
+          )}
+        </ActionGroup>
+      ))}
+    </>
+  )
+}
+
+<style>
+  .action-section {
+    background: var(--bg-card);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    padding: var(--section-gap);
+    margin-bottom: var(--section-gap);
+  }
+
+  .action-section h2 {
+    margin-top: 0;
+    border-bottom: var(--section-heading-border);
+    padding-bottom: var(--section-heading-padding-bottom);
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    margin-bottom: var(--heading-gap);
+  }
+
+  .donate-organisations {
+    display: grid;
+    gap: var(--gap-lg);
+  }
+
+  .org-item {
+    background: var(--bg-surface);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    padding: calc(var(--heading-gap) * 0.9);
+  }
+
+  .org-item h4 {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    margin: 0 0 var(--gap-sm);
+  }
+
+  .org-item p {
+    color: var(--text-secondary);
+    margin: 0 0 var(--heading-gap) 0;
+    line-height: var(--line-height-base);
+  }
+
+  .donate-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--gap-sm);
+    background: var(--accent-primary);
+    color: var(--on-accent);
+    text-decoration: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: var(--button-radius);
+    font-weight: var(--font-weight-semibold);
+    font-size: 0.95rem;
+    transition: var(--link-transition);
+    min-height: 44px;
+    box-sizing: border-box;
+  }
+
+  .donate-link:hover {
+    background: var(--accent-secondary);
+    transform: var(--hover-transform);
+    box-shadow: var(--hover-shadow);
+  }
+
+  .donate-link:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+  }
+
+  .donate-link i {
+    font-size: 1rem;
+  }
+
+  @media (width >= 768px) {
+    .action-section {
+      padding: calc(var(--section-gap) + var(--space-xs));
+      margin-bottom: calc(var(--section-gap) + var(--space-xs));
+    }
+
+    .org-item {
+      padding: var(--gap-xl);
+    }
+
+    .donate-link {
+      padding: 0.75rem 1.25rem;
+      font-size: 0.95rem;
+      min-height: 44px;
+    }
+  }
+
+  @media (hover: none) and (pointer: coarse) {
+    .donate-link {
+      min-height: 48px;
+      padding: 1rem 1.5rem;
+    }
+
+    .donate-link:active {
+      background: var(--accent-tertiary);
+      transform: scale(0.95);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .donate-link {
+      transition: none;
+      transform: none;
+    }
+  }
+</style>

@@ -75,5 +75,22 @@
       "Advocate for accountability for illegal fishing and toxic waste dumping by foreign corporations.",
       "Advocate for a shift from purely military 'counter-terrorism' towards investment in Somali-led peace and state-building initiatives."
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "Black Hawk Down",
+      "url": "https://www.amazon.com/Black-Hawk-Down-Somalia-Operation/dp/0871137380",
+      "description": "Mark Bowden's account of the 1993 Battle of Mogadishu and US intervention in Somalia."
+    },
+    {
+      "title": "The Somali Civil War",
+      "url": "https://www.amazon.com/Somali-Civil-War-Abdi-Sheik-Abdi/dp/1569022601",
+      "description": "Abdi Sheik-Abdi's analysis of the Somali civil war and its international dimensions."
+    },
+    {
+      "title": "Invisible Governance",
+      "url": "https://www.amazon.com/Invisible-Governance-Politics-Somalia/dp/1911284611",
+      "description": "A study of how Somalia functions without a central government."
+    }
+  ]
 }

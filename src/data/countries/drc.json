@@ -74,5 +74,22 @@
       "Support calls for reparations from Belgium and multinational corporations for their historic and ongoing role in the exploitation of Congolese resources.",
       "Support Congolese efforts to build local refining and manufacturing capacity to move beyond raw material extraction."
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "King Leopold's Ghost",
+      "url": "https://www.amazon.com/King-Leopolds-Ghost-Greeds-Genocide/dp/0618001905",
+      "description": "Adam Hochschild's account of the brutal exploitation of the Congo Free State under King Leopold II."
+    },
+    {
+      "title": "The Congo Wars",
+      "url": "https://www.amazon.com/Congo-Wars-Thomas-Turner/dp/1842776891",
+      "description": "Thomas Turner's analysis of the two Congo wars and their roots in colonial exploitation."
+    },
+    {
+      "title": "Blood Minerals",
+      "url": "https://www.amazon.com/Blood-Minerals-Conflict-Congo/dp/0199323537",
+      "description": "A report on how minerals fuel conflict in the DRC and the global supply chain."
+    }
+  ]
 }

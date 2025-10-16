@@ -79,5 +79,22 @@
       "Support a comprehensive global arms embargo to stop the flow of weapons and military technology to the military.",
       "Support Rohingya demands for justice, citizenship, and a safe, dignified, and voluntary return, and support the genocide case against Myanmar at the ICJ."
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "The Rohingya Crisis",
+      "url": "https://www.amazon.com/Rohingya-Crisis-Humanitarian-Catastrophe/dp/0190915880",
+      "description": "A comprehensive analysis of the Rohingya genocide and the military's role in Myanmar's ethnic conflicts."
+    },
+    {
+      "title": "The River of Lost Footsteps",
+      "url": "https://www.amazon.com/River-Lost-Footsteps-Thant-Myint-U/dp/0865477406",
+      "description": "Thant Myint-U's history of Myanmar from ancient times to the present."
+    },
+    {
+      "title": "From the Land of Green Ghosts",
+      "url": "https://www.amazon.com/Land-Green-Ghosts-Pascal-Todd/dp/0156031230",
+      "description": "Pascal Khoo Thwe's memoir of growing up in Burma and the country's struggle for democracy."
+    }
+  ]
 }

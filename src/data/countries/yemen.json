@@ -76,5 +76,22 @@
       "Support a genuinely inclusive, Yemeni-led peace process, free from the interference of foreign powers.",
       "Support international efforts to prosecute war crimes committed by all parties to the conflict."
     ]
-  }
+  },
+  "sources": [
+    {
+      "title": "Yemen: Dancing on the Heads of Snakes",
+      "url": "https://www.amazon.com/Yemen-Dancing-Heads-Snakes/dp/1787380029",
+      "description": "Victoria Clark's history of Yemen and its modern conflicts."
+    },
+    {
+      "title": "The Yemen Model",
+      "url": "https://www.amazon.com/Yemen-Model-Asaib-Ghailan/dp/194976235X",
+      "description": "Asaib Ghailan's analysis of Yemen's revolution and the Saudi-led intervention."
+    },
+    {
+      "title": "Destroying Yemen",
+      "url": "https://www.amazon.com/Destroying-Yemen-Impossible-Revolution/dp/0520296141",
+      "description": "Isa Blumi's examination of Yemen's history and the current crisis."
+    }
+  ]
 }
