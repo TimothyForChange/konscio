@@ -28,7 +28,7 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
 
   <ul class='countries-grid' id='countries-grid' role='list'>
     {
-      countriesData.map((country, index) => (
+      countriesData.map((country) => (
         <CountryCard
           slug={country.slug}
           name={country.name}
@@ -41,7 +41,6 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
           category={
             typeof country.category === 'string' ? country.category : undefined
           }
-          style={`--i:${index}`}
           data-category={
             typeof country.category === 'string'
               ? country.category
@@ -114,26 +113,15 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
     gap: var(--gap-sm);
     max-width: var(--grid-max-width);
     margin: 0 auto;
-
-    --stagger-step: 80ms;
   }
 
   .country-card {
-    display: flex;
-    align-items: center;
-    gap: var(--gap);
-    padding: var(--card-padding);
-    background: var(--bg-card);
-    border: var(--card-border);
-    border-radius: var(--card-radius);
+    display: block;
     text-decoration: none;
     transition: var(--card-transition);
-    min-height: var(--min-height-card-lg);
+    height: 120px;
     box-sizing: border-box;
-    opacity: 0;
-    transform: translateY(8px);
-    animation: fade-up 360ms calc(var(--i, 0) * var(--stagger-step, 80ms)) ease
-      both;
+    box-shadow: var(--shadow-sm);
   }
 
   .country-card:hover {
@@ -182,8 +170,12 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
     }
 
     .country-card {
+      height: 120px;
+    }
+
+    .country-card .country-card-inner {
+      height: 100%;
       padding: var(--card-padding);
-      min-height: var(--min-height-card-lg);
     }
 
     .causes-heading {
@@ -195,27 +187,6 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
     .country-card:active {
       transform: scale(0.98);
       transition: transform 0.1s ease;
-    }
-  }
-
-  @keyframes fade-up {
-    from {
-      opacity: 0;
-      transform: translateY(8px);
-    }
-
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .country-card {
-      animation: none !important;
-      transition: none !important;
-      transform: none !important;
-      opacity: 1 !important;
     }
   }
 </style>

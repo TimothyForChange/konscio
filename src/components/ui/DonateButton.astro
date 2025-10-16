@@ -32,10 +32,12 @@ const { href = '#', class: className = '' } = Astro.props;
     min-height: 36px;
     box-sizing: border-box;
     border: none;
+    box-shadow: var(--shadow-sm);
   }
 
   .donate-button:hover {
     background: var(--accent-secondary);
+    box-shadow: var(--hover-shadow);
   }
 
   .donate-button:active {

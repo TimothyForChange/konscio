@@ -16,35 +16,43 @@ const { slug, name, flag, description, category } =
   role='listitem'
   aria-label={`Learn about ${name}. ${description ?? ''}`}
 >
-  {
-    flag ? (
-      <span class='country-flag' aria-hidden='true'>
-        {flag}
-      </span>
-    ) : (
-      <span class='country-flag-placeholder' aria-hidden='true'>
-        🌍
-      </span>
-    )
-  }
-  <div class='country-info'>
-    <span class='country-name'>{name}</span>
-    {description && <span class='country-description'>{description}</span>}
+  <div class='country-card-inner'>
+    {
+      flag ? (
+        <span class='country-flag' aria-hidden='true'>
+          {flag}
+        </span>
+      ) : (
+        <span class='country-flag-placeholder' aria-hidden='true'>
+          🌍
+        </span>
+      )
+    }
+    <div class='country-info'>
+      <span class='country-name'>{name}</span>
+      {description && <span class='country-description'>{description}</span>}
+    </div>
   </div>
 </a>
 
 <style>
   .country-card {
-    display: flex;
-    align-items: center;
-    gap: var(--gap);
-    padding: var(--card-padding-sm);
+    display: block;
     background: var(--bg-card);
     border: var(--card-border);
     border-radius: var(--card-radius);
     text-decoration: none;
     transition: var(--card-transition);
+    box-sizing: border-box;
+    box-shadow: var(--shadow-sm);
     min-height: var(--min-height-card);
+  }
+
+  .country-card-inner {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+    padding: var(--card-padding);
     box-sizing: border-box;
   }
 
