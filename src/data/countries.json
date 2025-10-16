@@ -7,25 +7,11 @@
     "category": "Invasion & Occupation"
   },
   {
-    "name": "Central African Republic",
-    "slug": "car",
-    "flag": "🇨🇫",
-    "description": "State collapse & resource conflict",
-    "category": "Insurgency & Resource Conflict"
-  },
-  {
     "name": "Democratic Republic of the Congo",
     "slug": "drc",
     "flag": "🇨🇩",
     "description": "Conflict over strategic minerals",
     "category": "Insurgency & Resource Conflict"
-  },
-  {
-    "name": "Ethiopia",
-    "slug": "ethiopia",
-    "flag": "🇪🇹",
-    "description": "Conflict over a contested national identity",
-    "category": "Ethnic & Historical Conflicts"
   },
   {
     "name": "Haiti",
@@ -35,25 +21,11 @@
     "category": "State Collapse & Civil War"
   },
   {
-    "name": "Mozambique",
-    "slug": "mozambique",
-    "flag": "🇲🇿",
-    "description": "Conflict over natural gas reserves",
-    "category": "Insurgency & Resource Conflict"
-  },
-  {
     "name": "Myanmar",
     "slug": "myanmar",
     "flag": "🇲🇲",
     "description": "Uprising against military rule",
     "category": "State Collapse & Civil War"
-  },
-  {
-    "name": "Nigeria",
-    "slug": "nigeria",
-    "flag": "🇳🇬",
-    "description": "Insurgencies linked to oil wealth",
-    "category": "Insurgency & Resource Conflict"
   },
   {
     "name": "Palestine",
@@ -89,20 +61,6 @@
     "flag": "🇸🇩",
     "description": "War between rival military factions",
     "category": "State Collapse & Civil War"
-  },
-  {
-    "name": "Syria",
-    "slug": "syria",
-    "flag": "🇸🇾",
-    "description": "Uprising against authoritarian rule",
-    "category": "Insurgency & Resource Conflict"
-  },
-  {
-    "name": "Ukraine",
-    "slug": "ukraine",
-    "flag": "🇺🇦",
-    "description": "War of aggression & energy politics",
-    "category": "Invasion & Occupation"
   },
   {
     "name": "Yemen",
