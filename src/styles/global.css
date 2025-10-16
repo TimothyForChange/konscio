@@ -194,6 +194,14 @@ textarea:focus-visible,
   box-shadow: 0 0 0 3px var(--focus-ring-soft);
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
 .focus-strong:focus-visible {
   outline: 2px solid var(--focus-ring);
   outline-offset: 2px;

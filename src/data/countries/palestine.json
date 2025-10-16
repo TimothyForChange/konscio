@@ -6,7 +6,7 @@
   "currentCrisisSummary": "An intensifying humanitarian crisis across occupied Palestine, marked by mass displacement, conditions of famine, and an International Court of Justice ruling on the plausibility of genocide in Gaza. This crisis is sustained by the geopolitical, military, and economic support of Western powers, primarily the United States, for the occupation.",
   "imperialRoot": {
     "imperialPower": "British Empire (Mandate for Palestine, 1920-1948)",
-    "legacy": "The crisis is rooted in the British Mandate. The Balfour Declaration (1917) promised a 'national home for the Jewish people' in Palestine, disregarding the rights and aspirations of the Arab majority. British policy facilitated mass Zionist immigration and settlement while suppressing Palestinian resistance, implementing a strategy that entrenched communal tensions. Britain's withdrawal in 1948 directly enabled the 1948 war and the subsequent Nakba ('catastrophe'), during which Zionist militias expelled over 750,000 Palestinians in the process of establishing the state of Israel. This created a refugee crisis that continues to this day, making the ongoing Israeli occupation a continuation of this legacy."
+    "legacy": "The crisis is rooted in the British Mandate. The Balfour Declaration (1917) promised a 'national home for the Jewish people' in Palestine, disregarding the rights and aspirations of the Arab majority.\n\nBritish policy facilitated mass Zionist immigration and settlement while suppressing Palestinian resistance, implementing a strategy that entrenched communal tensions. Britain's withdrawal in 1948 directly enabled the 1948 war and the subsequent Nakba ('catastrophe'), during which Zionist militias expelled over 750,000 Palestinians in the process of establishing the state of Israel.\n\nThis created a refugee crisis that continues to this day, making the ongoing Israeli occupation a continuation of this legacy."
   },
   "historicalContext": {
     "geopoliticalInvolvement": "The occupation is sustained by Western powers, primarily the US, UK, and Germany, which provide Israel with billions in military aid and diplomatic cover. This backing helps Israel function as a key strategic ally for Western interests in the Middle East. It also serves the arms industry by providing a 'battle-tested' market for advanced weaponry.",
@@ -107,9 +107,14 @@
       "description": "A collection of conversations between Noam Chomsky and Ilan Pappé, two of the world's leading critical voices on the history and politics of the occupation."
     },
     {
-      "title": "Palestine: Peace Not Apartheid",
-      "url": "https://www.goodreads.com/book/show/9345",
-      "description": "Jimmy Carter's examination of the Palestinian-Israeli conflict and the need for a two-state solution."
+      "title": "Justice for Some: Law and the Question of Palestine",
+      "url": "https://www.goodreads.com/book/show/43154949",
+      "description": "Noura Erakat examines how international law has been both used and manipulated in the Palestinian struggle, exploring the limits of legal frameworks in securing justice."
+    },
+    {
+      "title": "The Ethnic Cleansing of Palestine",
+      "url": "https://www.goodreads.com/book/show/57540",
+      "description": "Ilan Pappé presents a provocative account, supported by archival evidence, arguing that the displacement of Palestinians in 1948 was a planned policy rather than a by-product of war."
     }
   ]
 }
