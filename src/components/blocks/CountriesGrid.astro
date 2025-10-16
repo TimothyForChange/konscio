@@ -110,6 +110,7 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
   .countries-grid {
     display: grid;
     grid-template-columns: 1fr;
+    grid-auto-rows: minmax(80px, auto);
     gap: var(--gap-sm);
     max-width: var(--grid-max-width);
     margin: 0 auto;
@@ -119,7 +120,6 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
     display: block;
     text-decoration: none;
     transition: var(--card-transition);
-    height: 120px;
     box-sizing: border-box;
     box-shadow: var(--shadow-sm);
   }
@@ -165,17 +165,12 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
 
   @media (width >= 768px) {
     .countries-grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: var(--gap);
-    }
-
-    .country-card {
-      height: 120px;
+      gap: var(--gap-sm);
     }
 
     .country-card .country-card-inner {
       height: 100%;
-      padding: var(--card-padding);
+      padding: var(--card-padding-sm);
     }
 
     .causes-heading {
