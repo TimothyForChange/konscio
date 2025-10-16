@@ -53,7 +53,7 @@ export interface CountryData {
   timeline?: TimelineEvent[];
   colonialRoot?: ColonialRoot;
   imperialRoot?: ImperialRoot;
-  coreTerms?: Record<string, string>;
+  historicalContext?: Record<string, string>;
   takeAction?: TakeAction;
   reading?: Reading[];
 }

@@ -1,7 +1,7 @@
 ---
 import { isEmpty } from 'radash';
 import AdditionalReading from '../components/country/AdditionalReading.astro';
-import Colonial from '../components/country/Colonial.astro';
+import ColonialLegacy from '../components/country/ColonialLegacy.astro';
 import CountryHeader from '../components/country/CountryHeader.astro';
 import Crisis from '../components/country/Crisis.astro';
 import HistoricalContext from '../components/country/HistoricalContext.astro';
@@ -91,7 +91,7 @@ const articleSchema = {
           countryData?.colonialRoot &&
             typeof countryData.colonialRoot === 'object' &&
             !Array.isArray(countryData.colonialRoot) && (
-              <Colonial colonialRoot={countryData.colonialRoot} />
+              <ColonialLegacy colonialRoot={countryData.colonialRoot} />
             )
         }
 
@@ -104,11 +104,11 @@ const articleSchema = {
         }
 
         {
-          countryData?.coreTerms &&
-            typeof countryData.coreTerms === 'object' &&
-            !Array.isArray(countryData.coreTerms) && (
+          countryData?.historicalContext &&
+            typeof countryData.historicalContext === 'object' &&
+            !Array.isArray(countryData.historicalContext) && (
               <HistoricalContext
-                coreTerms={countryData.coreTerms}
+                historicalContext={countryData.historicalContext}
                 countrySlug={countrySlug}
               />
             )

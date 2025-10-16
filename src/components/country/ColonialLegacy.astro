@@ -1,5 +1,5 @@
 ---
-import { formatText } from '../../utils/text.ts';
+import { formatParagraphs } from '../../utils/text.ts';
 
 export interface Properties {
   colonialRoot: {
@@ -17,10 +17,9 @@ const { colonialRoot } = Astro.props as Properties;
       <h2 id='colonial-heading'>The Colonial Root</h2>
       <h3>{colonialRoot.colonialPower || '—'}</h3>
       {colonialRoot.legacy &&
-        colonialRoot.legacy
-          .split('\n\n')
-          .filter((para) => para.trim())
-          .map((para) => <p set:html={formatText(para)} />)}
+        formatParagraphs(colonialRoot.legacy).map((html: string) => (
+          <p set:html={html} />
+        ))}
     </section>
   )
 }

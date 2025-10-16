@@ -1,5 +1,5 @@
 ---
-import { formatText } from '../../utils/text.ts';
+import { formatParagraphs } from '../../utils/text.ts';
 
 export interface Properties {
   imperialRoot: {
@@ -14,7 +14,12 @@ const { imperialRoot } = Astro.props as Properties;
 <section class='imperial-section' aria-labelledby='imperial-heading'>
   <h2 id='imperial-heading'>The Imperial Root</h2>
   <h3>{imperialRoot.imperialPower || '—'}</h3>
-  {imperialRoot.legacy && <p set:html={formatText(imperialRoot.legacy)} />}
+  {
+    imperialRoot.legacy &&
+      formatParagraphs(imperialRoot.legacy).map((html: string) => (
+        <p set:html={html} />
+      ))
+  }
 </section>
 
 <style>

@@ -24,3 +24,10 @@ export function formatText(text: string): string {
 
   return result;
 }
+
+export function formatParagraphs(text: string): string[] {
+  return text
+    .split('\n\n')
+    .filter((para: string) => para.trim())
+    .map((para: string) => formatText(para));
+}

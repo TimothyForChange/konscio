@@ -1,19 +1,19 @@
 ---
 import { isString } from 'radash';
-import { formatKeyToTitle, formatText } from '../../utils/text.ts';
+import { formatKeyToTitle, formatParagraphs } from '../../utils/text.ts';
 
 export interface Properties {
-  coreTerms?: Record<string, string>;
+  historicalContext?: Record<string, string>;
 }
 
-const { coreTerms } = Astro.props as Properties;
+const { historicalContext } = Astro.props as Properties;
 ---
 
 <section class='terms-section' aria-labelledby='history-heading'>
   <h2 id='history-heading'>Historical Context</h2>
 
   {
-    Object.entries(coreTerms!)
+    Object.entries(historicalContext!)
       .filter(
         ([key, value]) =>
           isString(key) &&
@@ -24,7 +24,9 @@ const { coreTerms } = Astro.props as Properties;
       .map(([key, value]) => (
         <div class='term-group'>
           <h3>{formatKeyToTitle(key)}</h3>
-          <p set:html={formatText(value)} />
+          {formatParagraphs(value).map((html: string) => (
+            <p set:html={html} />
+          ))}
         </div>
       ))
   }

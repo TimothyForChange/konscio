@@ -1,5 +1,5 @@
 ---
-import { formatText } from '../../utils/text.ts';
+import { formatParagraphs } from '../../utils/text.ts';
 
 export interface Properties {
   summary: string;
@@ -10,7 +10,7 @@ const { summary } = Astro.props;
 
 <section class='crisis-section' aria-labelledby='crisis-heading'>
   <h2 id='crisis-heading'>Current Crisis Summary</h2>
-  <p set:html={formatText(summary)} />
+  {formatParagraphs(summary).map((html: string) => <p set:html={html} />)}
 </section>
 
 <style>
