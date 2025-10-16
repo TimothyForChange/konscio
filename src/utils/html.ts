@@ -1,4 +1,4 @@
-function escapeHtml(string_: string): string {
+export function escapeHtml(string_: string): string {
   return string_
     .replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
@@ -6,5 +6,3 @@ function escapeHtml(string_: string): string {
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#39;');
 }
-
-export { escapeHtml };
