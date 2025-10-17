@@ -1,16 +1,17 @@
 export interface Country {
   name: string;
   slug: string;
-  flag?: string;
-  description?: string;
-  category?: string;
+  flag: string;
+  description: string;
+  seoDescription: string;
+  category: string;
 }
 
 export interface HumanitarianImpact {
-  displaced?: string;
-  refugees?: string;
-  casualties?: string;
-  affected?: string;
+  displaced: string;
+  refugees: string;
+  casualties: string;
+  affected: string;
   livingInPoverty?: string;
   childrenOutOfSchool?: string;
   healthSystemCollapsed?: string;
@@ -20,17 +21,17 @@ export interface HumanitarianImpact {
 }
 
 export interface ColonialRoot {
-  colonialPower?: string;
-  legacy?: string;
+  colonialPower: string;
+  legacy: string;
 }
 
 export interface ImperialRoot {
-  imperialPower?: string;
-  legacy?: string;
+  imperialPower: string;
+  legacy: string;
 }
 
 export interface TimelineEvent {
-  year?: string;
+  year: string;
   event?: string;
 }
 
@@ -41,21 +42,21 @@ export interface Organisation {
 }
 
 export interface TakeAction {
-  donate?: Organisation[];
-  advocacy?: string[];
+  donate: Organisation[];
+  advocacy: string[];
 }
 
 export interface CountryData {
   name: string;
   currentCrisisSummary: string;
   lastUpdated: string;
-  humanitarianImpact?: HumanitarianImpact;
-  timeline?: TimelineEvent[];
+  humanitarianImpact: HumanitarianImpact;
+  timeline: TimelineEvent[];
   colonialRoot?: ColonialRoot;
   imperialRoot?: ImperialRoot;
-  historicalContext?: Record<string, string>;
-  takeAction?: TakeAction;
-  reading?: Reading[];
+  historicalContext: Record<string, string>;
+  takeAction: TakeAction;
+  reading: Reading[];
 }
 
 export interface Reading {

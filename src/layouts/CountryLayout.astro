@@ -13,6 +13,7 @@ import BackButton from '../components/shared/BackButton.astro';
 import type { CountryData } from '../types/country.ts';
 import Layout from './Layout.astro';
 import 'remixicon/fonts/remixicon.css';
+import countriesList from '../data/mapping/countries.json';
 
 export interface Properties {
   countryData?: CountryData;
@@ -27,7 +28,12 @@ const countryImageModules = import.meta.glob('/countries/*.webp');
 const hasImage = `/countries/${countrySlug}.webp` in countryImageModules;
 const image = hasImage ? `/countries/${countrySlug}.webp` : undefined;
 
-const pageDescription = `Learn about the humanitarian crisis in ${countryData?.name} - Timothy for Change provides critical analysis of global humanitarian issues.`;
+const countryMapping = Array.isArray(countriesList)
+  ? countriesList.find((c) => c.slug === countrySlug)
+  : undefined;
+const pageDescription =
+  countryMapping?.seoDescription ||
+  `Learn about the humanitarian crisis in ${countryData?.name} - Timothy for Change provides critical analysis of global humanitarian issues.`;
 const canonicalUrl = `https://timothyforchange.co.za/${encodeURIComponent(countrySlug)}`;
 
 const articleSchema = {
@@ -38,6 +44,11 @@ const articleSchema = {
       ? passedTitle
       : `${countryData?.name} Crisis - Timothy for Change`,
   description: pageDescription,
+  image: image ? `https://timothyforchange.co.za${image}` : undefined,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': canonicalUrl,
+  },
   author: {
     '@id': 'https://timothyforchange.co.za/#person',
   },
@@ -48,6 +59,23 @@ const articleSchema = {
     countryData?.lastUpdated || new Date().toISOString().split('T')[0],
   dateModified:
     countryData?.lastUpdated || new Date().toISOString().split('T')[0],
+  about: [
+    {
+      '@type': 'Place',
+      name: countryData?.name,
+      addressCountry: countrySlug === 'palestine' ? 'PS' : undefined,
+    },
+    {
+      '@type': 'Thing',
+      name: 'Humanitarian Crisis',
+    },
+  ],
+  keywords: [
+    countryData?.name,
+    'humanitarian crisis',
+    'human rights',
+    countryMapping?.category?.toLowerCase(),
+  ].filter(Boolean),
 };
 ---
 

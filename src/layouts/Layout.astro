@@ -14,6 +14,28 @@ export let articleSchema: Record<string, unknown> | undefined;
 export let noIndex: boolean | undefined;
 export let image: string | undefined;
 
+const countryNames = Array.isArray(countriesList)
+  ? sift(countriesList.map((c) => c.name)).join(', ')
+  : '';
+const defaultDescription = `Timothy for Change - A platform for critical humanitarian analysis. Learn about ongoing conflicts and humanitarian issues in ${countryNames}.`;
+
+function trimDescription(desc: string, max = 160) {
+  if (!desc) {
+    return '';
+  }
+
+  const cleaned = desc.replaceAll(/\s+/g, ' ').trim();
+
+  return cleaned.length > max
+    ? `${cleaned.slice(0, max - 1).trimEnd()}…`
+    : cleaned;
+}
+
+const rawDescription = description || defaultDescription;
+const pageDescription = trimDescription(rawDescription, 160);
+const pageCanonicalUrl = canonicalUrl || 'https://timothyforchange.co.za/';
+const pageImage = image || 'https://timothyforchange.co.za/united-nations.webp';
+
 const baseLdObject = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -56,37 +78,62 @@ const baseLdObject = {
         'query-input': 'required name=search_term_string',
       },
     },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': 'https://timothyforchange.co.za/#breadcrumb',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: 'https://timothyforchange.co.za',
+        },
+        ...(countrySlug
+          ? [
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: Array.isArray(countriesList)
+                  ? countriesList.find((c) => c.slug === countrySlug)?.name ||
+                    countrySlug
+                  : countrySlug,
+                item: `https://timothyforchange.co.za/${countrySlug}`,
+              },
+            ]
+          : []),
+      ],
+    },
+    {
+      '@type': 'WebPage',
+      '@id': `${pageCanonicalUrl}#webpage`,
+      url: pageCanonicalUrl,
+      name: title,
+      description: pageDescription,
+      inLanguage: 'en-ZA',
+      isPartOf: {
+        '@id': 'https://timothyforchange.co.za/#website',
+      },
+      primaryImageOfPage: pageImage
+        ? {
+            '@type': 'ImageObject',
+            url: pageImage,
+          }
+        : undefined,
+      breadcrumb: {
+        '@id': 'https://timothyforchange.co.za/#breadcrumb',
+      },
+    },
   ],
 };
 
-const ldObject = articleSchema
-  ? {
-      ...baseLdObject,
-      '@graph': [...baseLdObject['@graph'], articleSchema],
-    }
-  : baseLdObject;
+const ldObject = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    ...baseLdObject['@graph'],
+    ...(articleSchema ? [articleSchema] : []),
+  ],
+};
 const ldJson = JSON.stringify(ldObject, undefined, 2);
-const countryNames = Array.isArray(countriesList)
-  ? sift(countriesList.map((c) => c.name)).join(', ')
-  : '';
-const defaultDescription = `Timothy for Change - A platform for critical humanitarian analysis. Learn about ongoing conflicts and humanitarian issues in ${countryNames}.`;
-
-function trimDescription(desc: string, max = 160) {
-  if (!desc) {
-    return '';
-  }
-
-  const cleaned = desc.replaceAll(/\s+/g, ' ').trim();
-
-  return cleaned.length > max
-    ? `${cleaned.slice(0, max - 1).trimEnd()}…`
-    : cleaned;
-}
-
-const rawDescription = description || defaultDescription;
-const pageDescription = trimDescription(rawDescription, 160);
-const pageCanonicalUrl = canonicalUrl || 'https://timothyforchange.co.za/';
-const pageImage = image || 'https://timothyforchange.co.za/united-nations.webp';
 ---
 
 <!doctype html>

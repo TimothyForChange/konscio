@@ -1,10 +1,6 @@
 import { escapeHtml } from './html.ts';
 
 export function formatKeyToTitle(key: string): string {
-  if (key === 'laCentrafriqueProfonde') {
-    return 'La Centrafrique Profonde (Deep Central Africa)';
-  }
-
   const spaced = key.replaceAll(/([A-Z])/g, ' $1');
 
   let formatted = spaced.charAt(0).toUpperCase() + spaced.slice(1);

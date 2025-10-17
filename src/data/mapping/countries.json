@@ -4,6 +4,7 @@
     "slug": "afghanistan",
     "flag": "🇦🇫",
     "description": "Economic pressure & gender apartheid",
+    "seoDescription": "Afghanistan faces severe humanitarian crisis under Taliban rule: economic collapse, gender apartheid, and over two decades of foreign occupation.",
     "category": "Invasion & Occupation"
   },
   {
@@ -11,6 +12,7 @@
     "slug": "drc",
     "flag": "🇨🇩",
     "description": "Conflict over strategic minerals",
+    "seoDescription": "DRC's endless war over strategic minerals has displaced millions. Discover the colonial legacy, foreign exploitation, and path to lasting peace.",
     "category": "Insurgency & Resource Conflict"
   },
   {
@@ -18,6 +20,7 @@
     "slug": "haiti",
     "flag": "🇭🇹",
     "description": "State collapse & foreign debt",
+    "seoDescription": "Haiti's state collapse and crushing foreign debt create widespread chaos. Learn about the 200-year struggle for sovereignty and international responsibility.",
     "category": "State Collapse & Civil War"
   },
   {
@@ -25,6 +28,7 @@
     "slug": "myanmar",
     "flag": "🇲🇲",
     "description": "Uprising against military rule",
+    "seoDescription": "Myanmar's military junta faces massive popular uprising after 2021 coup. Explore ethnic conflicts, Rohingya crisis, and path to democratic transition.",
     "category": "State Collapse & Civil War"
   },
   {
@@ -32,6 +36,7 @@
     "slug": "palestine",
     "flag": "🇵🇸",
     "description": "Genocide, apartheid & settler colonialism",
+    "seoDescription": "Palestine's intensifying humanitarian catastrophe: genocide in Gaza, apartheid system, and 75 years of dispossession. Critical analysis of settler colonialism.",
     "category": "Occupation & Dispossession"
   },
   {
@@ -39,6 +44,7 @@
     "slug": "sahel",
     "flag": "🇧🇫🇲🇱🇳🇪",
     "description": "Regional insurgency & climate change",
+    "seoDescription": "The Sahel region's deadly jihadist insurgency compounds the climate crisis. Armed groups, foreign military interventions, and the fight for regional stability.",
     "category": "Insurgency & Resource Conflict"
   },
   {
@@ -46,6 +52,7 @@
     "slug": "somalia",
     "flag": "🇸🇴",
     "description": "State collapse & historical divisions",
+    "seoDescription": "Somalia's 30-year state collapse: al-Shabaab insurgency, climate disasters, and artificial colonial borders. Understanding famine and foreign interventions.",
     "category": "State Collapse & Civil War"
   },
   {
@@ -53,6 +60,7 @@
     "slug": "south-sudan",
     "flag": "🇸🇸",
     "description": "Conflict over control of oil revenues",
+    "seoDescription": "South Sudan's oil-fuelled civil war has displaced millions. The world's newest nation struggles with corruption, ethnic violence, and fragile peace agreements.",
     "category": "Insurgency & Resource Conflict"
   },
   {
@@ -60,6 +68,7 @@
     "slug": "sudan",
     "flag": "🇸🇩",
     "description": "War between rival military factions",
+    "seoDescription": "Sudan's military factions battle for power following the 2021 coup. Mass displacement, economic collapse, and the struggle for democratic transition.",
     "category": "State Collapse & Civil War"
   },
   {
@@ -67,6 +76,7 @@
     "slug": "yemen",
     "flag": "🇾🇪",
     "description": "Conflict over a strategic trade route",
+    "seoDescription": "Yemen's proxy war over Red Sea trade routes creates the world's worst humanitarian crisis. Saudi-UAE intervention and Houthi resistance since 2015.",
     "category": "State Collapse & Civil War"
   }
 ]
