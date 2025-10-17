@@ -9,8 +9,8 @@ export interface Properties {
 const { historicalContext } = Astro.props as Properties;
 ---
 
-<section class='terms-section' aria-labelledby='history-heading'>
-  <h2 id='history-heading'>Historical Context</h2>
+<section class='terms-section section' aria-labelledby='history-heading'>
+  <h2 id='history-heading' class='section-heading'>Historical Context</h2>
 
   {
     Object.entries(historicalContext!)
@@ -23,7 +23,7 @@ const { historicalContext } = Astro.props as Properties;
       )
       .map(([key, value]) => (
         <div class='term-group'>
-          <h3>{formatKeyToTitle(key)}</h3>
+          <h3 class='sub-heading'>{formatKeyToTitle(key)}</h3>
           {formatParagraphs(value).map((html: string) => (
             <p set:html={html} />
           ))}
@@ -33,27 +33,6 @@ const { historicalContext } = Astro.props as Properties;
 </section>
 
 <style>
-  .terms-section {
-    margin-bottom: var(--section-gap);
-  }
-
-  .terms-section h2 {
-    font-size: var(--section-heading-size);
-    font-weight: var(--font-weight-bold);
-    color: var(--text-primary);
-    margin-bottom: var(--heading-gap);
-    border-bottom: var(--section-heading-border);
-    padding-bottom: var(--section-heading-padding-bottom);
-  }
-
-  .terms-section h3 {
-    font-size: var(--font-size-xl);
-    font-weight: var(--font-weight-bold);
-    color: var(--text-primary);
-    margin-bottom: var(--gap);
-    margin-top: var(--heading-gap);
-  }
-
   .term-group {
     margin-bottom: calc(var(--heading-gap) * 1.25);
   }

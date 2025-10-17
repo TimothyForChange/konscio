@@ -35,11 +35,13 @@ const {
 {
   standalone ? (
     <section
-      class='action-section'
+      class='action-section section'
       {...(id ? { id } : {})}
       aria-labelledby={id || 'action-section'}
     >
-      <h2 id={id || 'action-section'}>{sectionTitle}</h2>
+      <h2 id={id || 'action-section'} class='section-heading'>
+        {sectionTitle}
+      </h2>
 
       {groups.map((group) => (
         <ActionGroup icon={group.icon} title={group.title}>
@@ -104,12 +106,7 @@ const {
 
   .action-section h2 {
     margin-top: 0;
-    border-bottom: var(--section-heading-border);
-    padding-bottom: var(--section-heading-padding-bottom);
-    font-size: 1.5rem;
-    font-weight: var(--font-weight-bold);
-    color: var(--text-primary);
-    margin-bottom: var(--heading-gap);
+    font-size: var(--section-heading-size-lg);
   }
 
   .donate-organisations {

@@ -1,12 +1,12 @@
 ---
 import { isEmpty } from 'radash';
 import AdditionalReading from '../components/country/AdditionalReading.astro';
-import ColonialLegacy from '../components/country/ColonialLegacy.astro';
+import ColonialLegacySection from '../components/country/ColonialLegacySection.astro';
 import CountryHeader from '../components/country/CountryHeader.astro';
-import Crisis from '../components/country/Crisis.astro';
-import HistoricalContext from '../components/country/HistoricalContext.astro';
+import CrisisSection from '../components/country/CrisisSection.astro';
+import HistoricalContextSection from '../components/country/HistoricalContextSection.astro';
 import HumanitarianImpact from '../components/country/HumanitarianImpact.astro';
-import ImperialLegacy from '../components/country/ImperialLegacy.astro';
+import ImperialLegacySection from '../components/country/ImperialLegacySection.astro';
 import TakeAction from '../components/country/TakeAction.astro';
 import Timeline from '../components/country/Timeline.astro';
 import BackButton from '../components/shared/BackButton.astro';
@@ -100,7 +100,7 @@ const articleSchema = {
         {
           countryData?.currentCrisisSummary &&
             typeof countryData.currentCrisisSummary === 'string' && (
-              <Crisis summary={countryData.currentCrisisSummary} />
+              <CrisisSection summary={countryData.currentCrisisSummary} />
             )
         }
 
@@ -124,7 +124,7 @@ const articleSchema = {
           countryData?.colonialRoot &&
             typeof countryData.colonialRoot === 'object' &&
             !Array.isArray(countryData.colonialRoot) && (
-              <ColonialLegacy colonialRoot={countryData.colonialRoot} />
+              <ColonialLegacySection colonialRoot={countryData.colonialRoot} />
             )
         }
 
@@ -132,7 +132,7 @@ const articleSchema = {
           countryData?.imperialRoot &&
             typeof countryData.imperialRoot === 'object' &&
             !Array.isArray(countryData.imperialRoot) && (
-              <ImperialLegacy imperialRoot={countryData.imperialRoot} />
+              <ImperialLegacySection imperialRoot={countryData.imperialRoot} />
             )
         }
 
@@ -140,7 +140,7 @@ const articleSchema = {
           countryData?.historicalContext &&
             typeof countryData.historicalContext === 'object' &&
             !Array.isArray(countryData.historicalContext) && (
-              <HistoricalContext
+              <HistoricalContextSection
                 historicalContext={countryData.historicalContext}
                 countrySlug={countrySlug}
               />

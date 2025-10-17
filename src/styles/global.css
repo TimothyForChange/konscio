@@ -322,3 +322,24 @@ html::-webkit-scrollbar-corner {
     --heading-gap: 1.125rem;
   }
 }
+
+.section {
+  margin-bottom: var(--section-gap);
+}
+
+.section-heading {
+  font-size: var(--section-heading-size);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
+  margin-bottom: var(--heading-gap);
+  border-bottom: var(--section-heading-border);
+  padding-bottom: var(--section-heading-padding-bottom);
+}
+
+.sub-heading {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--text-primary);
+  margin-bottom: var(--gap);
+  margin-top: var(--heading-gap);
+}

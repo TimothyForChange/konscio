@@ -1,0 +1,22 @@
+---
+import { formatParagraphs } from '../../utils/text.ts';
+
+export interface Properties {
+  summary: string;
+}
+
+const { summary } = Astro.props;
+---
+
+<section class='crisis-section section' aria-labelledby='crisis-heading'>
+  <h2 id='crisis-heading' class='section-heading'>Current Crisis Summary</h2>
+  {formatParagraphs(summary).map((html: string) => <p set:html={html} />)}
+</section>
+
+<style>
+  @media (width >= 768px) {
+    .crisis-section h2 {
+      font-size: var(--section-heading-size-lg);
+    }
+  }
+</style>
