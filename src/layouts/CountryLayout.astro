@@ -23,6 +23,10 @@ export interface Properties {
 const { countryData, countrySlug } = Astro.props as Properties;
 const passedTitle = (Astro.props as Properties).title;
 
+const countryImageModules = import.meta.glob('/countries/*.webp');
+const hasImage = `/countries/${countrySlug}.webp` in countryImageModules;
+const image = hasImage ? `/countries/${countrySlug}.webp` : undefined;
+
 const pageDescription = `Learn about the humanitarian crisis in ${countryData?.name} - Timothy for Change provides critical analysis of global humanitarian issues.`;
 const canonicalUrl = `https://timothyforchange.co.za/${encodeURIComponent(countrySlug)}`;
 
@@ -55,6 +59,7 @@ const articleSchema = {
   canonicalUrl={canonicalUrl}
   countrySlug={countrySlug}
   articleSchema={articleSchema}
+  image={image}
 >
   <div class='page-wrapper'>
     <main class='container' id='container' tabindex='-1'>
