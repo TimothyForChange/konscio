@@ -1,4 +1,4 @@
-import countriesData from '../data/countries.json';
+import countriesData from '../data/mapping/countries.json';
 import type * as CountryTypes from '../types/country.ts';
 
 export async function getCountryMetadata(

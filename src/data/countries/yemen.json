@@ -3,95 +3,96 @@
   "emoji": "🇾🇪",
   "ariaLabel": "Yemeni flag",
   "lastUpdated": "2025-10-16",
-  "currentCrisisSummary": "Yemen is suffering one of the world's most severe humanitarian crises, driven by a civil war over control of the state and its strategic position on a key global trade route. The conflict, which involves a Saudi-led coalition and the Iran-aligned Houthis and has been sustained by a blockade, has damaged infrastructure, caused a famine, and left millions reliant on aid to survive.",
+  "currentCrisisSummary": "Yemen is enduring one of the world's most severe humanitarian crises, driven by a protracted war over control of the state and its strategic position on a key global trade route. The conflict, involving a Saudi-led coalition and Iran-aligned forces in the north, has been sustained in many areas by blockades, sieges and repeated attacks on infrastructure.\n\nThe violence and restrictions on trade and aid have devastated the economy, wrecked public services and produced catastrophic hunger and disease. Large-scale diversion and politicisation of aid in some areas have further reduced humanitarian access and increased civilian suffering. The crisis is sustained by international arms flows, regional rivalries and global economic interests that place strategic and commercial gains above civilian protection.",
   "imperialRoot": {
-    "imperialPower": "British Empire & Ottoman Empire (Aden from 1839-1967, Ottoman rule in north until 1918)",
-    "legacy": "The crisis is deeply rooted in colonial-era divisions. The British Empire's control of the strategic port of Aden and the south (1839-1967) and Ottoman rule in the north created two distinct political entities.\n\nBritain's 'divide and rule' strategy administered the south through a patchwork of protectorates, which hindered political unity and left a power vacuum upon withdrawal. This colonial-era partition, driven by the strategic imperatives of competing empires, laid the groundwork for decades of internal conflict as the separate territories struggled to form a cohesive state."
+    "imperialPower": "British Empire & Ottoman Empire (Aden 1839=1967; Ottoman presence in the north until 1918)",
+    "legacy": "The crisis draws on deep colonial-era divisions. British control of Aden and the south, alongside Ottoman administration in the north, produced two distinct political and administrative legacies. Britain's patchwork of protectorates and indirect rule in the south hindered political unity and left a governance vacuum on withdrawal.\n\nThese colonial partitions, combined with later Cold War geopolitics and international economic policies, helped create fault-lines that were later exploited by domestic elites and foreign powers, contributing to repeated cycles of conflict and external intervention."
   },
   "historicalContext": {
-    "geopoliticalChokepointAndGlobalTrade": "The war is a struggle to control one of the most critical chokepoints for global trade: the Bab-el-Mandeb strait. This sea lane is a vital artery for oil tankers and container ships. Regional powers like Saudi Arabia and the UAE, with Western backing, seek to control Yemen's coastline to have influence over this strategic node. This demonstrates how the geography of global trade can become a site of intense geopolitical conflict.",
-    "armsTradeAndInternationalInvolvement": "The proxy war is enabled and sustained by the international arms trade. The US and UK are not just allies of the Saudi-led coalition; they are its primary arms suppliers. Companies like BAE Systems, Raytheon, and Lockheed Martin have secured billions in profits from selling bombs, jets, and logistical support used in Yemen. Critics argue this material support makes Western governments complicit in the coalition's alleged war crimes, and that it prioritises arms industry profits over international law."
+    "geopoliticalChokepointAndGlobalTrade": "Yemen's geography places it astride the Bab-el-Mandeb strait, a vital chokepoint for global trade and energy shipments. Regional powers and global actors have repeatedly sought influence over Yemen's coastline and ports, turning local politics into a theatre for wider strategic competition. Control of maritime access, ports and related infrastructure has therefore been a persistent strategic objective for external actors.",
+    "armsTradeAndInternationalInvolvement": "The war has been sustained by large-scale international arms transfers and military support to coalition partners. Major defence suppliers in the West and the region have provided the equipment used in air campaigns and blockades. This material support has been widely criticised for enabling persistent violations of international humanitarian law and for prioritising geopolitical or commercial goals over civilian protection.",
+    "internationalLawAndAccountability": "Allegations of unlawful attacks on civilians, blockade-induced starvation and diversion of aid have prompted repeated calls for independent investigation and accountability. UN bodies, rights organisations and some states have documented potential war crimes and human-rights violations. Accountability efforts remain politically contested, but they are central to any longer-term prospect of justice and deterrence."
   },
   "humanitarianImpact": {
-    "displaced": "Over 4.5 million people have been internally displaced, many forced to flee multiple times.",
-    "refugees": "Nearly 100,000 Yemenis have become refugees and asylum seekers, particularly in the Horn of Africa.",
-    "casualties": "An estimated 377,000 people had died by the end of 2021 from both direct causes (fighting) and indirect causes (famine, disease). The death toll has continued to climb.",
-    "affected": "An estimated 18.2 million people require urgent humanitarian assistance.",
-    "childrenOutOfSchool": "Over 2 million children are out of school, with thousands of schools destroyed or damaged.",
-    "healthSystemCollapsed": "Only half of all health facilities are fully functional, leaving millions without access to basic care.",
-    "foodInsecurity": "An estimated 17 million people face acute food insecurity, with millions at emergency levels of hunger.",
-    "lackOfWaterAccess": "More than 15 million people lack access to safe drinking water and sanitation, fuelling outbreaks of diseases like cholera."
+    "displaced": "Around 4.5 million people are internally displaced, many forced to flee repeatedly by conflict, floods and economic collapse.",
+    "refugees": "Tens of thousands of Yemenis are registered as refugees or asylum-seekers abroad, with additional irregular movements to the Horn of Africa and beyond.",
+    "casualties": "A landmark UN/UNDP-backed estimate placed total deaths attributable to the war (direct and indirect) at roughly 377,000 by the end of 2021; conflict-related and crisis-driven mortality has continued since then, largely through indirect causes such as hunger and disease.",
+    "affected": "Humanitarian planning documents estimate roughly 19.5 million people in need of humanitarian assistance and protection in 2025.",
+    "childrenOutOfSchool": "More than 2 million children are out of school because of damage to education infrastructure, repeated displacement and insecurity.",
+    "healthSystemCollapsed": "Health services are severely degraded: roughly half of health facilities across the country are non-functional or only partially functional, with acute shortages of staff, medicines and supplies.",
+    "foodInsecurity": "More than 17 million people face crisis-level or worse acute food insecurity (IPC Phase 3+) in recent IPC/UN assessments; pockets of IPC Phase 5 (catastrophe) have been projected or reported in siege-affected areas.",
+    "lackOfWaterAccess": "Over 15 million people lack reliable access to safe drinking water and sanitation, fuelling recurrent cholera and other disease outbreaks."
   },
   "timeline": [
     {
       "year": "1839",
-      "event": "**British Seize Aden**: The British Empire captures the port of Aden, beginning its colonial presence in southern Yemen to control the sea route to India."
+      "event": "**British seize Aden**: The British Empire captures the port of Aden, beginning a prolonged colonial presence in southern Yemen that would shape later regional divisions."
+    },
+    {
+      "year": "1918-1960s",
+      "event": "**Ottoman withdrawal & fragmented rule**: Ottoman influence in the north recedes after World War I; multiple sultanates, imamates and protectorates coexist until mid-20th century state formations."
     },
     {
       "year": "1990",
-      "event": "**Unification**: The capitalist North and socialist South Yemen unite. The subsequent Saleh regime embraces IMF-backed economic policies, which created widespread inequality."
+      "event": "**Unification**: North (Yemen Arab Republic) and South (People's Democratic Republic of Yemen) formally unite. Structural economic and political differences produce long-standing grievances."
     },
     {
       "year": "1994",
-      "event": "**Civil War**: A brief but violent civil war erupts as the South attempts to secede. The North's victory deepens southern grievances."
+      "event": "**Southern secession attempt and civil war**: A short but bitter conflict deepens regional divides and entrenches political exclusion in the south."
     },
     {
       "year": "2000s",
-      "event": "**US 'War on Terror'**: The US launches a covert drone war in Yemen, which results in civilian casualties, violates Yemeni sovereignty, and fuels anti-American sentiment that armed groups later exploit."
-    },
-    {
-      "year": "2011",
-      "event": "**Arab Spring**: Mass protests against corruption and poverty lead President Ali Abdullah Saleh to hand over power to his deputy, Abdrabbuh Mansur Hadi."
+      "event": "**'War on terror' & drone strikes**: The US and allied counter-terror operations expand in Yemen, including covert strikes and special forces deployments that alter local conflict dynamics."
     },
     {
       "year": "2014-2015",
-      "event": "**Houthi Takeover & Coalition Intervention**: Capitalising on popular anger, Houthi rebels capture the capital, Sana'a. In response, a Saudi-led coalition, backed by the US and UK, begins a bombing campaign to restore the Hadi government."
+      "event": "**Houthi advance & coalition intervention**: Houthi forces seize large parts of the country, including Sana'a; a Saudi-led coalition launches an air and naval campaign and enforces blockades, precipitating the large-scale humanitarian catastrophe that follows."
     },
     {
       "year": "2016-Present",
-      "event": "**Humanitarian Catastrophe**: The conflict escalates into a protracted war of attrition and a blockade, creating what the UN has repeatedly called the world's worst humanitarian crisis."
+      "event": "**Protracted humanitarian catastrophe**: Years of siege, economic collapse, aid displacement and repeated attacks on infrastructure create a chronic humanitarian emergency that the UN repeatedly describes as among the world’s worst."
     }
   ],
   "takeAction": {
     "donate": [
       {
         "organisation": "Oxfam",
-        "description": "Oxfam is on the ground in Yemen, providing life-saving essentials like clean water, food, and cash to millions of people affected by the conflict. They also work to rehabilitate water systems and support livelihoods to help communities rebuild.",
+        "description": "Provides emergency water, sanitation, cash assistance and livelihoods support to displaced and vulnerable communities across Yemen.",
         "url": "https://www.oxfam.org/en/what-we-do/emergencies/crisis-yemen"
       },
       {
         "organisation": "World Food Programme (WFP)",
-        "description": "WFP is on the front lines of the hunger crisis in Yemen, providing emergency food assistance to millions of people facing starvation. Their work is critical in preventing widespread famine and treating malnutrition, especially in children.",
+        "description": "Delivers emergency food assistance and nutrition support to millions of people in Yemen; critical to preventing famine and treating severe malnutrition.",
         "url": "https://www.wfp.org/emergencies/yemen-emergency"
       },
       {
         "organisation": "Yemen Relief and Reconstruction Foundation",
-        "description": "A Yemeni-led diaspora organisation providing direct aid and advocating for peace.",
+        "description": "A Yemeni-led diaspora organisation providing direct aid, cash assistance and advocacy for reconstruction and peace.",
         "url": "https://yemenfoundation.org"
       }
     ],
     "advocacy": [
-      "Advocate for Western governments, particularly the US and UK, to halt all arms sales that fuel the war.",
-      "Advocate for an end to the Saudi-led blockade, which has contributed to famine.",
-      "Support a genuinely inclusive, Yemeni-led peace process, free from the interference of foreign powers.",
-      "Support international efforts to prosecute war crimes committed by all parties to the conflict."
+      "Demand an immediate end to blockades and sieges and insist on unimpeded, independent humanitarian access to all civilians.",
+      "Call on Western and regional governments to suspend arms transfers that enable indiscriminate attacks and to condition support on respect for international humanitarian law.",
+      "Support Yemeni-led peace initiatives and ensure that any diplomatic settlement protects civilians, restores services and addresses economic and political grievances.",
+      "Push for independent investigations into alleged war crimes and for accountability mechanisms that centre victims' rights and reparations."
     ]
   },
   "reading": [
     {
       "title": "Destroying Yemen: What Chaos in Arabia Tells Us about the World",
       "url": "https://www.goodreads.com/book/show/34688137",
-      "description": "Isa Blumi's critical history argues that the war is a result of decades of Western imperial intervention designed to prevent Yemeni economic independence."
+      "description": "Isa Blumi's critical history linking Yemen's modern fracture to regional and global interventions."
     },
     {
       "title": "Yemen in Crisis: The Road to War",
       "url": "https://www.goodreads.com/book/show/43612111",
-      "description": "Helen Lackner provides a detailed account of the political and social dynamics that led to the current conflict, drawing on decades of experience in the country."
+      "description": "Helen Lackner's detailed study of the political, social and economic drivers of Yemen's long crisis."
     },
     {
       "title": "Yemen in Crisis: Autocracy, Neo-Liberalism and the Disintegration of a State",
       "url": "https://www.goodreads.com/book/show/34381064",
-      "description": "An examination of how autocratic governance and neo-liberal policies contributed to the disintegration of the Yemeni state."
+      "description": "Analysis of governance failures and economic policies that contributed to state collapse."
     }
   ]
 }

@@ -12,15 +12,15 @@
     "theFragmentedState": "The collapse of central authority in 1991 unfolded in a Cold War context where Siad Barre's regime had been alternately supported by the USSR and the United States. The post-collapse period saw repeated external interventions — from humanitarian missions in the 1990s to later counter-terrorism operations — that too often prioritised military objectives over Somali-led political settlement and resilient local governance.\n\nThis chronic fragmentation created vacuums that armed groups exploited and left Somali institutions weakened and highly dependent on external finance and security architectures.",
     "climateChangeAndEconomicExploitation": "Somalia is on the frontline of climate change: repeated failed rainy seasons, prolonged droughts and sudden floods have destroyed crops, killed livestock and deepened food insecurity. At the same time, the state's collapse opened space for illicit economic activity: illegal fishing by foreign fleets and documented toxic-waste dumping have eroded coastal livelihoods, while new competition for offshore resources risks generating fresh conflict dynamics.\n\nThese interlocking drivers — climate shocks, resource predation and political fragmentation — create what many analysts describe as ecological and economic injustice: the global north's emissions and commercial practices impose heavy costs on Somali communities."
   },
-  "historitarianLawAndAccountability": "International responsibility is contested and partial. Human rights organisations, UN panels and investigative journalists have repeatedly documented abuses by state and non-state actors, including violations of humanitarian law in counter-insurgency operations and patterns of exploitation by transnational actors. Accountability mechanisms exist unevenly; strengthening independent documentation, protection of witnesses and Somali-centred transitional justice processes remains a priority.",
+  "internationalLawAndAccountability": "International responsibility is contested and partial. Human rights organisations, UN panels and investigative journalists have repeatedly documented abuses by state and non-state actors, including violations of humanitarian law in counter-insurgency operations and patterns of exploitation by transnational actors. Accountability mechanisms exist unevenly; strengthening independent documentation, protection of witnesses and Somali-centred transitional justice processes remains a priority.",
   "humanitarianImpact": {
-    "displaced": "About 3.5 million people are internally displaced by conflict and climate shocks, living in camps, informal sites and host communities with precarious access to services. :contentReference[oaicite:0]{index=0}",
-    "refugees": "Approximately 714,000 Somali refugees and asylum-seekers are hosted in neighbouring countries (Kenya, Ethiopia, Yemen and others), with protracted protection needs. :contentReference[oaicite:1]{index=1}",
-    "casualties": "Estimates of conflict-related deaths since 1991 vary by methodology and period. Large-scale mortality from war, famine and disease has periodically reached the hundreds of thousands; the 2011 famine alone has been estimated at around 258,000 excess deaths in scientific surveys. :contentReference[oaicite:2]{index=2}",
-    "affected": "Humanitarian planning documents and response plans for 2025 identify roughly 6-7.7 million people in need of assistance depending on the planning baseline used. :contentReference[oaicite:3]{index=3}",
+    "displaced": "About 3.5 million people are internally displaced by conflict and climate shocks, living in camps, informal sites and host communities with precarious access to services.",
+    "refugees": "Approximately 714,000 Somali refugees and asylum-seekers are hosted in neighbouring countries (Kenya, Ethiopia, Yemen and others), with protracted protection needs.",
+    "casualties": "Estimates of conflict-related deaths since 1991 vary by methodology and period. Large-scale mortality from war, famine and disease has periodically reached the hundreds of thousands; the 2011 famine alone has been estimated at around 258,000 excess deaths in scientific surveys.",
+    "affected": "Humanitarian planning documents and response plans for 2025 identify roughly 6-7.7 million people in need of assistance depending on the planning baseline used.",
     "childrenOutOfSchool": "An estimated 3 million children are out of school because of conflict, displacement and damaged infrastructure, with long-term impacts on education and protection.",
     "healthSystemCollapsed": "Large parts of the public health system are severely weakened: recurrent disease outbreaks, limited access to maternal and child health, and shortages of medicines and personnel are widespread.",
-    "foodInsecurity": "About 4.4 million people face high levels of acute food insecurity, with children and pastoralist communities especially at risk; nutrition assessments project roughly 1.7 million children at risk of acute malnutrition in 2025. :contentReference[oaicite:4]{index=4}",
+    "foodInsecurity": "About 4.4 million people face high levels of acute food insecurity, with children and pastoralist communities especially at risk; nutrition assessments project roughly 1.7 million children at risk of acute malnutrition in 2025.",
     "lackOfWaterAccess": "More than half the population lacks reliable access to safe drinking water, sanitation and hygiene in many affected areas, increasing risks of disease during droughts and floods."
   },
   "timeline": [
@@ -54,7 +54,7 @@
     },
     {
       "year": "2011",
-      "event": "**Famine & Drought**: A catastrophic famine and severe food insecurity event causes very high mortality and displacement, with later studies estimating around 258,000 excess deaths during 2010-2012. :contentReference[oaicite:5]{index=5}"
+      "event": "**Famine & Drought**: A catastrophic famine and severe food insecurity event causes very high mortality and displacement, with later studies estimating around 258,000 excess deaths during 2010-2012."
     },
     {
       "year": "2021-Present",

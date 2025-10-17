@@ -3,96 +3,101 @@
   "emoji": "🇸🇩",
   "ariaLabel": "Sudanese flag",
   "lastUpdated": "2025-10-16",
-  "currentCrisisSummary": "A civil war between two factions of the military elite—the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia—has triggered the world's largest displacement and hunger crises, widespread famine, and atrocities, including a renewed campaign of reported ethnic cleansing in Darfur.",
+  "currentCrisisSummary": "Sudan is engulfed in a brutal civil war between two factions of the military elite — the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia — which has unleashed the world's largest displacement crisis and one of the worst hunger emergencies in modern memory.\n\nThe conflict has triggered mass famine, widespread atrocities and a renewed campaign of ethnic cleansing, notably in Darfur. El Fasher and other Darfuri cities are under siege and cut off from aid. The warring factions compete not only for territory but for control of economic rails like gold, land, agriculture and external patronage. The resulting humanitarian collapse has overwhelmed Sudan;s people and the region.\n\nInternational humanitarian agencies warn that the crisis is worsening: more than half the population faces acute food insecurity, health systems are collapsing, and safe access to civilians is increasingly obstructed by the siege tactics and airstrikes used by both sides. The war is not isolated — it is sustained by external actors, transnational flows of arms and resources, and weak enforcement of international norms.",
   "colonialRoot": {
     "colonialPower": "Anglo-Egyptian Condominium (British Rule, 1899-1956)",
-    "legacy": "British colonial policy was built on a 'divide-and-rule' strategy that institutionalised ethnic divisions. It concentrated power in the 'Arab' riverine centre while marginalising peripheral regions like Darfur.\n\nThis inequality created an extractive central state that became the prize for competing military factions in the post-independence era."
+    "legacy": "British colonial governance in Sudan employed a classic divide-and-rule strategy, concentrating power in the 'Arab' riverine north while marginalising peripheral regions like Darfur and Kordofan. This structural inequality institutionalised regional grievance and set the groundwork for recurring rebellions and civil wars.\n\nBy privileging the centre and denying development to the margins, colonial rule created a centralised, extractive state whose control over resources and institutions became the prize of military competition post-independence."
   },
   "historicalContext": {
-    "rivalMilitaryEconomicModels": "The war is a conflict between two rival factions of a military-economic class fighting for control of the state. The Sudanese Armed Forces (SAF) represents the traditional military's control over formal sectors of the economy. The Rapid Support Forces (RSF) represents a more agile, transnational model, with wealth built on controlling gold mines and operating as a private military force for foreign powers. The war is the breakdown of this extractive system, as both factions now seek total control.",
-    "politicalUpheavalAndForeignInterests": "The 2021 coup and subsequent war are a counter-revolution against the 2019 popular uprising, which sought to dismantle the military's economic empire. This counter-revolution is supported by foreign powers, particularly the UAE, which backs the RSF to secure its own interests: a supply of gold, influence over strategic Red Sea ports, and access to agricultural land. This transforms the internal conflict into a proxy war for regional influence and resources."
+    "rivalMilitaryEconomicModels": "The current war is a breakdown of an entrenched military elite order. The SAF represents the old guard's hold on formal sectors (bureaucracy, security, agriculture), whereas the RSF acts as a more entrepreneurial, informal military-economic actor controlling gold, illicit trade routes and private paramilitary roles. Both compete over the spoils of Sudan — land, mining, agriculture, and foreign leasing arrangements.\n\nThis struggle is not new: economic control, militia patronage and resource extraction have long been central to Sudanese elite survival, with successive regimes co-opted by foreign capital and external actors seeking influence.\n\nThe 2021 military coup was a counter-revolution against popular pressure to dismantle the military's economic empire. The RSF is backed by regional states, notably the UAE, which is accused of providing arms, financial support and logistical backing. These external actors seek influence, access to Sudanese gold, agricultural land and control of strategic Red Sea ports.\n\nRecent investigative reports document advanced weapons, drone systems and heavy artillery traced to external supply chains used by the RSF — raising credible allegations of external complicity in sustaining, and escalating, Sudan's war.",
+    "internationalLawAndAccountability": "Multiple international and regional legal processes are underway or proposed. Sudan has filed claims and complaints alleging external complicity in grave abuses. UN Security Council expert panels, human-rights organisations and the International Criminal Court are documenting war crimes, crimes against humanity and atrocity patterns committed by both SAF and RSF. The challenge is enforcing accountability in a conflict with shifting frontlines, obstructed access and powerful external proxies; protecting witnesses, securing evidence and dismantling economic networks that enable conflict profiteering are central to any credible justice effort."
   },
   "humanitarianImpact": {
-    "displaced": "Over 11 million people internally displaced, making it the world's largest internal displacement crisis.",
-    "refugees": "Over 2.7 million refugees have fled to neighbouring countries, including Chad, Egypt, and South Sudan.",
-    "casualties": "The official death toll is approximately 19,000 killed and 33,000 injured, though credible estimates suggest the real figure is significantly higher due to inaccessible conflict zones.",
-    "affected": "25 million people—more than half the population—require urgent humanitarian aid, with over 24 million facing acute food insecurity, making it the world's largest hunger crisis.",
-    "childrenOutOfSchool": "An estimated 19 million children are out of school due to the nationwide collapse of the education system.",
-    "healthSystemCollapsed": "The health system has collapsed, with 70-80% of health facilities in conflict-affected areas non-functional.",
-    "foodInsecurity": "Over 24 million people face acute food insecurity, with famine confirmed in Zamzam camp (North Darfur) and over 635,000 people experiencing catastrophic famine conditions.",
-    "lackOfWaterAccess": "Access to safe water has dropped by over 50% since the conflict began, affecting millions of people.",
-    "livingInPoverty": "The conflict has pushed millions into poverty, with the national poverty rate estimated to have doubled since 2023."
+    "displaced": "More than 11-12 million people are internally displaced, making Sudan the world's largest internal displacement crisis.",
+    "refugees": "Over 4 million Sudanese have fled abroad since the conflict began.",
+    "casualties": "Official statistics record approximately 19,000 killed and 33,000 injured, but these figures understate the true impact — independent estimates place tens of thousands dead due to direct combat and many more from starvation, disease and collapse of services.",
+    "affected": "Over 30 million people — more than half the population — are estimated to require humanitarian assistance.",
+    "childrenOutOfSchool": "It is estimated that up to 19 million children are out of school due to displacement, conflict damage to educational infrastructure, and insecurity.",
+    "healthSystemCollapsed": "Large percentages of health facilities (especially in Darfur and conflict zones) are non-functional; targeted attacks on hospitals, shortages of staff and medicines, and siege conditions have broken down access to basic care. A hospital in El Fasher has been struck in attacks that caused many casualties.",
+    "foodInsecurity": "Over 24 million people face acute food insecurity; in some areas (for example, camps under siege in Darfur) famine conditions have been reported.",
+    "lackOfWaterAccess": "Access to water and sanitation has declined sharply; many urban and displacement areas lack safe drinking water. Cholera and other disease outbreaks have surged alongside the war.",
+    "livingInPoverty": "The conflict has pushed millions into deeper poverty; regions once marginal are now destitute, with destruction of livelihoods, markets and infrastructure compounding collapse."
   },
   "timeline": [
     {
       "year": "1899-1956",
-      "event": "**Anglo-Egyptian Condominium**: British colonial rule is established, implementing a divide-and-rule strategy that entrenches ethnic divisions."
+      "event": "**Anglo-Egyptian Condominium**: British colonial rule imposed structures that privileged the 'Arab' north and marginalised peripheries like Darfur and Kordofan, embedding regional inequality."
     },
     {
       "year": "1956",
-      "event": "**Independence**: Sudan gains independence from Britain. The new state retains the colonial structure that concentrates power and wealth in the 'Arab' riverine centre at the expense of marginalised peripheries like Darfur and the South, setting the stage for future civil wars."
+      "event": "**Independence**: Sudan gains independence, inheriting a centralised state structure that concentrated power and resources in the north."
     },
     {
       "year": "1989",
-      "event": "**Bashir's Islamist Coup**: General Omar al-Bashir seizes power in a military coup backed by Islamists. His 30-year rule is defined by brutal counter-insurgency tactics, the empowerment of the military-security state, and the use of proxy militias to crush rebellions."
+      "event": "**Bashir's Islamist Coup**: Omar al-Bashir seizes power, consolidates military and Islamist control, and deploys proxy militias to suppress rebellious peripheries, especially in Darfur."
     },
     {
       "year": "2003",
-      "event": "**Genocide in Darfur**: The government uses Janjaweed militias to crush a rebellion, leading to an indictment for genocide by the ICC. The RSF is the direct descendant of these militias."
+      "event": "**Darfur Conflict / Genocide**: The Bashir government deploys Janjaweed militias in Darfur to crush rebellions; mass atrocities and ethnic cleansing follow. The RSF is a later institutional successor to these militias."
     },
     {
       "year": "2019",
-      "event": "**Sudanese Revolution**: A mass popular uprising, led by Resistance Committees, overthrows dictator Omar al-Bashir in a rejection of his rule and the economic austerity that impoverished the nation."
+      "event": "**Sudanese Revolution**: Mass popular uprising topples Bashir, triggering a fragile transition and calls for dismantling the military-economic complex."
     },
     {
       "year": "2021",
-      "event": "**Military Coup**: Generals al-Burhan (SAF) and 'Hemedti' (RSF) jointly seize power to protect their business empires from the democratic transition's planned reforms."
+      "event": "**Military Coup**: Generals al-Burhan and Hemedti (RSF) remove the transitional civilian government to protect their economic and security interests."
     },
     {
       "year": "2023",
-      "event": "**Civil War Erupts**: The alliance between the SAF and RSF breaks down into a violent struggle for absolute control of the state."
+      "event": "**Civil War Breaks Out**: The SAF-RSF alliance fractures into full-blown war. Territorial control, air and drone bombardments, sieges and proxy warfare spread across Sudan."
+    },
+    {
+      "year": "2024-2025",
+      "event": "**Sieges, Famine & Cruelty in Darfur**: El Fasher and Darfur camps face siege, repeated drone and artillery attacks, famine conditions, mass displacement and reported massacres in camps such as Zamzam and Abu Shouk."
     }
   ],
   "takeAction": {
     "donate": [
       {
         "organisation": "Sudanese American Physicians Association (SAPA)",
-        "description": "A diaspora-led organisation providing direct medical and humanitarian support to local initiatives like Emergency Response Rooms.",
+        "description": "A diaspora-led network delivering medical and humanitarian support through local Emergency Response Rooms and health services.",
         "url": "https://sapa-usa.org"
       },
       {
         "organisation": "UNHCR",
-        "description": "UNHCR is responding to the world's largest displacement crisis in Sudan. They provide emergency shelter, protection, and core relief items to millions of refugees and internally displaced people forced to flee their homes.",
+        "description": "Providing protection, shelter and core relief support to millions of refugees and internally displaced people inside Sudan and across its borders.",
         "url": "https://www.unhcr.org/emergencies/sudan-emergency"
       },
       {
         "organisation": "World Food Programme (WFP)",
-        "description": "WFP is on the front lines of the world's largest hunger crisis in Sudan. They provide life-saving food and nutrition support to millions of people facing catastrophic hunger and famine conditions due to the conflict.",
+        "description": "At the front lines of Sudan's hunger crisis, WFP provides life-saving food and nutrition support across conflict-affected regions.",
         "url": "https://www.wfp.org/emergencies/sudan"
       }
     ],
     "advocacy": [
-      "Advocate for an arms embargo and targeted sanctions on the SAF, the RSF, and their foreign backers, particularly the UAE.",
-      "Encourage divestment from all companies linked to the business empires of the warring parties.",
-      "Support international efforts to prosecute those responsible for the genocide in Darfur and other war crimes through the ICC.",
-      "Advocate for secure humanitarian corridors and for aid to be channelled directly through local networks like Sudan's Emergency Response Rooms."
+      "Press for an international arms embargo targeting both the SAF and RSF and for sanctions on external backers such as the UAE and others complicit in sustaining the war.",
+      "Demand divestment from companies linked to the Sudanese war economy, including gold trade, land deals and military supply chains.",
+      "Support ICC prosecutions and UN accountability processes for genocide, war crimes and crimes against humanity in Darfur and other conflict zones.",
+      "Advocate for protected humanitarian corridors, ceasefires and politically negotiated transitions that place civilians' safety and governance reform at the center.",
+      "Push for restoration and reinvestment in Sudan's public services, infrastructure and social safety nets in a post-conflict future."
     ]
   },
   "reading": [
     {
       "title": "Darfur: The Ambiguous Genocide",
       "url": "https://www.goodreads.com/book/show/256311",
-      "description": "Gérard Prunier's authoritative account of the Darfur genocide, explaining its historical roots and the mechanics of the violence."
+      "description": "Gérard Prunier's account of the Darfur genocide, the roots of rebellion and the international response."
     },
     {
       "title": "A River of Swords: The Battle for the Sudan",
       "url": "https://www.goodreads.com/book/show/256312",
-      "description": "A historical account of the conflicts in Sudan, providing context for the long-standing divisions between north and south."
+      "description": "A historical narrative of Sudan's long wars, clan politics and geopolitical contestation."
     },
     {
       "title": "Sudan, South Sudan and Darfur: A Short History",
       "url": "https://www.goodreads.com/book/show/256313",
-      "description": "An overview of the historical, political, and ethnic factors that have shaped Sudan's conflicts."
+      "description": "An accessible overview of the historical, political, and ethnic factors that have shaped Sudan's conflicts."
     }
   ]
 }
