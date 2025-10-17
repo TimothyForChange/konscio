@@ -1,6 +1,7 @@
 ---
 import missionData from '../../data/mission.json';
 import type { Mission } from '../../types/mission.ts';
+import { formatParagraphs } from '../../utils/text.ts';
 
 const mission = missionData as Mission;
 const { name, mission: missionStatement, description } = mission;
@@ -14,7 +15,9 @@ const { name, mission: missionStatement, description } = mission;
     {
       description && (
         <div class='mission-bio'>
-          <p class='mission-bio-text'>{description}</p>
+          {formatParagraphs(description).map((html: string) => (
+            <p class='mission-bio-text' set:html={html} />
+          ))}
         </div>
       )
     }
@@ -52,12 +55,16 @@ const { name, mission: missionStatement, description } = mission;
     max-width: 32rem;
   }
 
-  .mission-bio-text {
+  .mission-bio .mission-bio-text {
     font-size: var(--font-size-lg);
     font-weight: 400;
     color: var(--text-primary);
     line-height: 1.6;
     text-align: center;
-    min-height: 3em;
+    margin-top: 1em;
+  }
+
+  .mission-bio .mission-bio-text:first-child {
+    margin-top: 0;
   }
 </style>
