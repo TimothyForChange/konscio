@@ -16,19 +16,24 @@ const { href = '/', class: className = '' } = Astro.props;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
     color: var(--text-secondary);
     text-decoration: none;
-    background: transparent;
-    border: none;
+    background: var(--bg-surface);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
     padding: 0;
     margin: 0 0 var(--space-xs);
     font-size: inherit;
     line-height: 1;
+    box-shadow: var(--shadow-sm);
     transition:
-      color 0.12s ease,
-      transform 0.12s ease;
+      color 0.2s ease,
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
   }
 
   .back-icon i {
@@ -37,12 +42,21 @@ const { href = '/', class: className = '' } = Astro.props;
   }
 
   .back-icon:hover {
-    color: var(--text-primary);
-    transform: translateX(-2px);
+    background-color: var(--accent-primary);
+    color: var(--on-accent);
+    border-color: var(--accent-primary);
+    transform: var(--hover-transform);
+    box-shadow: var(--hover-shadow);
   }
 
   .back-icon:active {
-    transform: translateX(0);
+    background-color: var(--accent-secondary);
+    color: var(--on-accent);
+    border-color: var(--accent-secondary);
+    transform: scale(0.95) translateY(0);
+    transition:
+      background-color 0.1s ease,
+      transform 0.1s ease;
   }
 
   @media (hover: none) and (pointer: coarse) {
