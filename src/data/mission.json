@@ -1,25 +1,25 @@
 {
   "name": "Timothy for Change",
   "mission": "Critical Humanitarian Analysis",
-  "description": "Exploring the historical and economic roots of humanitarian crises across the Global South, from Palestine to the Sahel. The goal is to teach people how to help and advocate for informed, meaningful support.",
+  "description": "Examining the historical, economic, and political forces that shape humanitarian crises across the Global South—from Palestine to the Sahel. This includes the legacies of colonialism and imperialism, the dynamics of global capitalism, and the ways these systems persist in neo-colonial and neo-imperialist forms today. Our goal is to equip people with the knowledge to advocate effectively, provide informed support, and engage in meaningful action that addresses both immediate needs and systemic injustice.",
   "links": [
     {
       "url": "https://www.givedirectly.org",
       "icon": "hand-coin-line",
       "title": "GiveDirectly",
-      "description": "A non-profit that sends money directly to people living in extreme poverty, letting them decide how to best improve their lives"
+      "description": "A non-profit that sends cash directly to people living in extreme poverty, empowering them to make choices that improve their lives on their own terms."
     },
     {
       "url": "https://sharethemeal.org",
       "icon": "restaurant-2-line",
       "title": "ShareTheMeal",
-      "description": "Quick and easy way to donate meals to children and families in crisis with just a few taps"
+      "description": "A simple, tech-driven way to provide meals to children and families in crisis, connecting everyday actions to global hunger relief."
     },
     {
       "url": "https://www.wateraid.org/",
       "icon": "drop-line",
       "title": "WaterAid",
-      "description": "An international non-profit working to make clean water, decent toilets, and good hygiene normal for everyone, everywhere"
+      "description": "An international non-profit working to ensure clean water, decent toilets, and good hygiene are accessible to all, tackling inequalities in health and infrastructure."
     }
   ]
 }
