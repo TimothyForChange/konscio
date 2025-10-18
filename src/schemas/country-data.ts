@@ -10,6 +10,8 @@ const HumanitarianImpactSchema = z.object({
   healthSystemCollapsed: z.string().optional(),
   foodInsecurity: z.string().optional(),
   lackOfWaterAccess: z.string().optional(),
+  sexualViolence: z.string().optional(),
+  livelihoodsAndEconomicLoss: z.string().optional(),
   other: z.string().optional(),
 });
 
@@ -46,6 +48,7 @@ const ReadingSchema = z.object({
 });
 
 const CountryDataSchema = z.object({
+  $schema: z.string().optional(),
   name: z.string(),
   emoji: z.string(),
   ariaLabel: z.string(),
@@ -58,6 +61,7 @@ const CountryDataSchema = z.object({
   colonialRoot: ColonialRootSchema.optional(),
   imperialRoot: ImperialRootSchema.optional(),
   historicalContext: z.record(z.string()),
+  internationalLawAndAccountability: z.string().optional(),
   takeAction: TakeActionSchema,
   reading: z.array(ReadingSchema),
 });

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../schemas/country-data.schema.json",
   "name": "Yemen",
   "emoji": "🇾🇪",
   "ariaLabel": "Yemeni flag",

@@ -1,6 +1,9 @@
 {
   "type": "object",
   "properties": {
+    "$schema": {
+      "type": "string"
+    },
     "name": {
       "type": "string"
     },
@@ -47,11 +50,22 @@
         "lackOfWaterAccess": {
           "type": "string"
         },
+        "sexualViolence": {
+          "type": "string"
+        },
+        "livelihoodsAndEconomicLoss": {
+          "type": "string"
+        },
         "other": {
           "type": "string"
         }
       },
-      "required": ["displaced", "refugees", "casualties", "affected"],
+      "required": [
+        "displaced",
+        "refugees",
+        "casualties",
+        "affected"
+      ],
       "additionalProperties": false
     },
     "timeline": {
@@ -66,7 +80,9 @@
             "type": "string"
           }
         },
-        "required": ["year"],
+        "required": [
+          "year"
+        ],
         "additionalProperties": false
       }
     },
@@ -80,7 +96,10 @@
           "type": "string"
         }
       },
-      "required": ["colonialPower", "legacy"],
+      "required": [
+        "colonialPower",
+        "legacy"
+      ],
       "additionalProperties": false
     },
     "imperialRoot": {
@@ -93,7 +112,10 @@
           "type": "string"
         }
       },
-      "required": ["imperialPower", "legacy"],
+      "required": [
+        "imperialPower",
+        "legacy"
+      ],
       "additionalProperties": false
     },
     "historicalContext": {
@@ -101,6 +123,9 @@
       "additionalProperties": {
         "type": "string"
       }
+    },
+    "internationalLawAndAccountability": {
+      "type": "string"
     },
     "takeAction": {
       "type": "object",
@@ -121,7 +146,11 @@
                 "format": "uri"
               }
             },
-            "required": ["organisation", "description", "url"],
+            "required": [
+              "organisation",
+              "description",
+              "url"
+            ],
             "additionalProperties": false
           }
         },
@@ -132,7 +161,10 @@
           }
         }
       },
-      "required": ["donate", "advocacy"],
+      "required": [
+        "donate",
+        "advocacy"
+      ],
       "additionalProperties": false
     },
     "reading": {
@@ -151,7 +183,10 @@
             "type": "string"
           }
         },
-        "required": ["title", "url"],
+        "required": [
+          "title",
+          "url"
+        ],
         "additionalProperties": false
       }
     }

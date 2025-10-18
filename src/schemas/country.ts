@@ -15,4 +15,3 @@ const CountrySchema = z.object({
 const CountriesSchema = z.array(CountrySchema);
 
 export { CountrySchema, CountriesSchema };
-export type CountryType = z.infer<typeof CountrySchema>;

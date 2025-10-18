@@ -1,18 +1,10 @@
-import { CountriesSchema, CountrySchema } from '../schemas/country';
-import type { Country } from '../types/country';
+import { CountriesSchema, CountrySchema } from '../schemas/country.ts';
+import type { Country } from '../types/country.ts';
 
 export async function loadAndValidateCountries(): Promise<Country[]> {
-  const countriesModule = await import('../data/mapping/countries.json');
+  const countriesModule = await import('../data/mapping/countries.ts');
   const rawData = countriesModule.default;
-  const result = CountriesSchema.safeParse(rawData);
-
-  if (!result.success) {
-    throw new Error(
-      `Countries data validation failed: ${result.error.message}`
-    );
-  }
-
-  return result.data;
+  return validateCountries(rawData);
 }
 
 export function validateCountry(countryData: unknown): Country {

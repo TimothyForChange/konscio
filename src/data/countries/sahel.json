@@ -1,4 +1,5 @@
 {
+  "$schema": "../../schemas/country-data.schema.json",
   "name": "The Sahel",
   "emoji": "🇧🇫🇲🇱🇳🇪",
   "ariaLabel": "Flags of Burkina Faso, Mali, and Niger",

@@ -8,6 +8,7 @@ const ResourceLinkSchema = z.object({
 });
 
 const MissionSchema = z.object({
+  $schema: z.string().optional(),
   name: z.string(),
   mission: z.string(),
   description: z.string(),

@@ -1,6 +1,9 @@
 {
   "type": "object",
   "properties": {
+    "$schema": {
+      "type": "string"
+    },
     "name": {
       "type": "string"
     },
@@ -29,12 +32,21 @@
             "type": "string"
           }
         },
-        "required": ["url", "icon", "title", "description"],
+        "required": [
+          "url",
+          "icon",
+          "title",
+          "description"
+        ],
         "additionalProperties": false
       }
     }
   },
-  "required": ["name", "mission", "description"],
+  "required": [
+    "name",
+    "mission",
+    "description"
+  ],
   "additionalProperties": false,
   "$schema": "http://json-schema.org/draft-07/schema#"
 }

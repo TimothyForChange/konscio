@@ -1,0 +1,96 @@
+import type { Country } from '../../types/country';
+
+const countries: Country[] = [
+  {
+    name: 'Afghanistan',
+    slug: 'afghanistan',
+    flag: '🇦🇫',
+    description: 'Economic collapse & gender apartheid',
+    seoDescription:
+      'Afghanistan faces severe humanitarian crisis under Taliban rule: economic collapse, gender apartheid, and over two decades of foreign occupation.',
+    category: 'Invasion & Occupation',
+  },
+  {
+    name: 'Democratic Republic of the Congo',
+    slug: 'drc',
+    flag: '🇨🇩',
+    description: 'Conflict over minerals & foreign exploitation',
+    seoDescription:
+      "DRC's endless war over strategic minerals has displaced millions. Discover the colonial legacy, foreign exploitation, and path to lasting peace.",
+    category: 'Insurgency & Resource Conflict',
+  },
+  {
+    name: 'Haiti',
+    slug: 'haiti',
+    flag: '🇭🇹',
+    description: 'State collapse, debt & foreign interference',
+    seoDescription:
+      "Haiti's state collapse and crushing foreign debt create widespread chaos. Learn about the 200-year struggle for sovereignty and international responsibility.",
+    category: 'State Collapse & Civil War',
+  },
+  {
+    name: 'Myanmar',
+    slug: 'myanmar',
+    flag: '🇲🇲',
+    description: 'Popular uprising against military rule',
+    seoDescription:
+      "Myanmar's military junta faces massive popular uprising after 2021 coup. Explore ethnic conflicts, Rohingya crisis, and path to democratic transition.",
+    category: 'State Collapse & Civil War',
+  },
+  {
+    name: 'Palestine',
+    slug: 'palestine',
+    flag: '🇵🇸',
+    description: 'Genocide, apartheid & settler colonialism',
+    seoDescription:
+      "Palestine's intensifying humanitarian catastrophe: genocide in Gaza, apartheid system, and 75 years of dispossession. Critical analysis of settler colonialism.",
+    category: 'Occupation & Dispossession',
+  },
+  {
+    name: 'The Sahel',
+    slug: 'sahel',
+    flag: '🇧🇫🇲🇱🇳🇪',
+    description: 'Insurgency, climate crisis & foreign intervention',
+    seoDescription:
+      "The Sahel region's deadly jihadist insurgency compounds the climate crisis. Armed groups, foreign military interventions, and the fight for regional stability.",
+    category: 'Insurgency & Resource Conflict',
+  },
+  {
+    name: 'Somalia',
+    slug: 'somalia',
+    flag: '🇸🇴',
+    description: 'State collapse & colonial legacies',
+    seoDescription:
+      "Somalia's 30-year state collapse: al-Shabaab insurgency, climate disasters, and artificial colonial borders. Understanding famine and foreign interventions.",
+    category: 'State Collapse & Civil War',
+  },
+  {
+    name: 'South Sudan',
+    slug: 'south-sudan',
+    flag: '🇸🇸',
+    description: 'Conflict over oil, power & ethnicity',
+    seoDescription:
+      "South Sudan's oil-fuelled civil war has displaced millions. The world's newest nation struggles with corruption, ethnic violence, and fragile peace agreements.",
+    category: 'Insurgency & Resource Conflict',
+  },
+  {
+    name: 'Sudan',
+    slug: 'sudan',
+    flag: '🇸🇩',
+    description: 'War between rival military factions',
+    seoDescription:
+      "Sudan's military factions battle for power following the 2021 coup. Mass displacement, economic collapse, and the struggle for democratic transition.",
+    category: 'State Collapse & Civil War',
+  },
+  {
+    name: 'Yemen',
+    slug: 'yemen',
+    flag: '🇾🇪',
+    description: 'Proxy war over strategic trade routes',
+    seoDescription:
+      "Yemen's proxy war over Red Sea trade routes creates the world's worst humanitarian crisis. Saudi-UAE intervention and Houthi resistance since 2015.",
+    category: 'State Collapse & Civil War',
+  },
+];
+
+export default countries;

@@ -1,4 +1,5 @@
 {
+  "$schema": "../../schemas/country-data.schema.json",
   "name": "Democratic Republic of the Congo",
   "emoji": "🇨🇩",
   "ariaLabel": "Democratic Republic of Congo flag",
