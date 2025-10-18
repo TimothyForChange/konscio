@@ -1,5 +1,5 @@
 {
-  "name": "Sahel",
+  "name": "The Sahel",
   "emoji": "🇧🇫🇲🇱🇳🇪",
   "ariaLabel": "Flags of Burkina Faso, Mali, and Niger",
   "lastUpdated": "2025-10-16",
@@ -14,14 +14,14 @@
     "internationalLawAndAccountability": "There are growing calls for accountability around cross-border military support, illicit trafficking of arms and natural-resource exploitation that help sustain armed groups. UN panels, regional bodies and civil-society investigations have documented illicit resource flows and external support to armed actors; addressing these transnational dynamics is essential for long-term peace and reparative justice."
   },
   "humanitarianImpact": {
-    "displaced": "Over 3.3 million people are internally displaced across the Central Sahel (Burkina Faso, Mali and Niger), driven mainly by violence and insecurity.",
-    "refugees": "Nearly 1 million refugees and asylum-seekers have been forced to flee across borders within the region and to neighbouring countries.",
-    "casualties": "The conflict has killed and injured tens of thousands of people and created protracted protection crises; the precise toll varies by source and methodology but the human losses are substantial and ongoing.",
-    "affected": "An estimated 15.5-18 million people across the Central Sahel require urgent humanitarian assistance, reflecting escalating protection, food, health and shelter needs.",
-    "childrenOutOfSchool": "Over 11,000-13,000 schools are non-operational across the Central Sahel due to insecurity and attacks on education, depriving millions of children of schooling.",
-    "healthSystemCollapsed": "In many conflict-affected districts hundreds of health centres have been closed or provide only minimal services following attacks, staff flight and supply shortages.",
-    "foodInsecurity": "Rising conflict and climate shocks have produced deep food insecurity: millions in the Central Sahel face acute hunger and many programmes face funding shortfalls that risk further cuts to assistance.",
-    "lackOfWaterAccess": "The combined pressures of conflict, climate stress and infrastructure destruction have left large populations without reliable access to safe drinking water and sanitation."
+    "displaced": "Over 3.3 million people internally displaced across the Central Sahel due to violence and insecurity.",
+    "refugees": "Nearly 1 million refugees and asylum-seekers have fled to neighbouring countries.",
+    "casualties": "Tens of thousands killed and injured in the conflict with ongoing substantial human losses.",
+    "affected": "An estimated 15.5-18 million people require urgent humanitarian assistance.",
+    "childrenOutOfSchool": "Over 11,000-13,000 schools non-operational due to insecurity, depriving millions of children of education.",
+    "healthSystemCollapsed": "Hundreds of health centres closed or minimally functional due to attacks and staff flight.",
+    "foodInsecurity": "Millions in the Central Sahel face acute hunger due to conflict and climate shocks.",
+    "lackOfWaterAccess": "Large populations lack access to safe drinking water and sanitation due to conflict and infrastructure destruction."
   },
   "timeline": [
     {

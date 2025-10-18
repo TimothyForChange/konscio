@@ -14,13 +14,13 @@
     "internationalLawAndAccountability": "Serious violations of international humanitarian and human-rights law have been documented during cycles of violence. Independent research has estimated large numbers of excess deaths associated with the 2013-2018 civil war. Calls for accountability include proposals for a Hybrid Court for South Sudan and targeted sanctions on those who facilitate violence and steal public assets. Effective accountability must combine criminal responsibility for grave abuses with structural measures to recover stolen assets and reform resource governance."
   },
   "humanitarianImpact": {
-    "displaced": "Approximately 2.0-2.1 million people are internally displaced within South Sudan, living in camps, informal settlements and host communities; many more are affected by seasonal and flood-related displacement.\n\n(Additional regional displacement and refugee figures bring the combined displacement burden to over 4 million people when refugees and returnees are included.)",
-    "refugees": "More than 2.3 million South Sudanese are refugees or asylum-seekers across the region, making it one of Africa's largest refugee situations and placing heavy burdens on neighbouring states and host communities.",
-    "casualties": "Independent mortality research estimates nearly 400,000 excess deaths attributable to the conflict since 2013, with a substantial portion due to violence and a large share from indirect causes such as food insecurity and disrupted health services.",
-    "affected": "Humanitarian planning figures for 2025 identify roughly 9.0-9.4 million people in need of assistance (approximately two-thirds of the population in some planning baselines), reflecting acute food, protection, shelter and health needs.",
-    "childrenOutOfSchool": "Millions of children are out of school due to conflict, displacement and damaged infrastructure, creating a generational education deficit that hinders long-term recovery.",
-    "livingInPoverty": "A majority of households face extreme poverty and food shortages; limited state capacity and endemic corruption constrain economic recovery and livelihoods.",
-    "foodInsecurity": "Large swathes of the population face severe food insecurity driven by flooding, displacement and market disruption; millions require urgent food and nutrition assistance."
+    "displaced": "Approximately 2.0-2.1 million people internally displaced within South Sudan, with combined displacement burden over 4 million including refugees and returnees.",
+    "refugees": "More than 2.3 million South Sudanese are refugees or asylum-seekers, one of Africa's largest refugee situations.",
+    "casualties": "Nearly 400,000 excess deaths attributable to the conflict since 2013.",
+    "affected": "Roughly 9.0-9.4 million people in need of assistance (approximately two-thirds of the population).",
+    "childrenOutOfSchool": "Millions of children out of school due to conflict and displacement.",
+    "livingInPoverty": "A majority of households face extreme poverty and food shortages.",
+    "foodInsecurity": "Large population faces severe food insecurity driven by flooding, displacement and market disruption."
   },
   "timeline": [
     {

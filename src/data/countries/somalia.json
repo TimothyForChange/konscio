@@ -14,14 +14,14 @@
   },
   "internationalLawAndAccountability": "International responsibility is contested and partial. Human rights organisations, UN panels and investigative journalists have repeatedly documented abuses by state and non-state actors, including violations of humanitarian law in counter-insurgency operations and patterns of exploitation by transnational actors. Accountability mechanisms exist unevenly; strengthening independent documentation, protection of witnesses and Somali-centred transitional justice processes remains a priority.",
   "humanitarianImpact": {
-    "displaced": "About 3.5 million people are internally displaced by conflict and climate shocks, living in camps, informal sites and host communities with precarious access to services.",
-    "refugees": "Approximately 714,000 Somali refugees and asylum-seekers are hosted in neighbouring countries (Kenya, Ethiopia, Yemen and others), with protracted protection needs.",
-    "casualties": "Estimates of conflict-related deaths since 1991 vary by methodology and period. Large-scale mortality from war, famine and disease has periodically reached the hundreds of thousands; the 2011 famine alone has been estimated at around 258,000 excess deaths in scientific surveys.",
-    "affected": "Humanitarian planning documents and response plans for 2025 identify roughly 6-7.7 million people in need of assistance depending on the planning baseline used.",
-    "childrenOutOfSchool": "An estimated 3 million children are out of school because of conflict, displacement and damaged infrastructure, with long-term impacts on education and protection.",
-    "healthSystemCollapsed": "Large parts of the public health system are severely weakened: recurrent disease outbreaks, limited access to maternal and child health, and shortages of medicines and personnel are widespread.",
-    "foodInsecurity": "About 4.4 million people face high levels of acute food insecurity, with children and pastoralist communities especially at risk; nutrition assessments project roughly 1.7 million children at risk of acute malnutrition in 2025.",
-    "lackOfWaterAccess": "More than half the population lacks reliable access to safe drinking water, sanitation and hygiene in many affected areas, increasing risks of disease during droughts and floods."
+    "displaced": "About 3.5 million people internally displaced by conflict and climate shocks.",
+    "refugees": "Approximately 714,000 Somali refugees and asylum-seekers in neighbouring countries.",
+    "casualties": "Conflict-related deaths periodically reach hundreds of thousands; 2011 famine alone caused around 258,000 excess deaths.",
+    "affected": "Roughly 6-7.7 million people in need of humanitarian assistance.",
+    "childrenOutOfSchool": "An estimated 3 million children out of school due to conflict and displacement.",
+    "healthSystemCollapsed": "Public health system severely weakened with recurrent disease outbreaks and medicine shortages.",
+    "foodInsecurity": "About 4.4 million people face high levels of acute food insecurity, with 1.7 million children at risk of acute malnutrition.",
+    "lackOfWaterAccess": "More than half the population lacks access to safe drinking water and sanitation."
   },
   "timeline": [
     {

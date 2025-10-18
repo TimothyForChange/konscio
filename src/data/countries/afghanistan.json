@@ -14,13 +14,13 @@
     "internationalLawAndAccountability": "While the post-2021 context raises urgent humanitarian questions, there are also accountability dimensions connected to earlier interventions and the conduct of armed actors. Investigations, reporting and academic research have documented violations and long-term harm associated with successive periods of foreign military action, proxy support and state collapse. Although formal international accountability mechanisms have been limited or contested, documenting abuses and supporting Afghan civil society and survivors remains essential for redress and longer-term justice."
   },
   "humanitarianImpact": {
-    "displaced": "Over 6.3 million people are internally displaced by conflict, economic pressures and climate shocks, many living in precarious informal settlements and at high risk of eviction.",
-    "refugees": "More than 8.2 million Afghans are hosted abroad or are in refugee-like situations in neighbouring countries, primarily Iran and Pakistan, contributing to one of the world's largest protracted displacement crises.",
-    "casualties": "Civilian deaths and injury totals vary by source and methodology; UN and independent research document tens of thousands of civilian deaths directly from conflict since 2001, while broader estimates that include indirect deaths from disruption to healthcare, malnutrition and infrastructure are substantially higher.",
-    "affected": "Between 22.9 and 23.7 million people (roughly half the population) require humanitarian assistance to survive, according to UN humanitarian planning documents and global assessments.",
-    "livingInPoverty": "Extreme poverty and deprivation have surged since 2021. Multiple UN and development assessments report that a large majority of households suffer severe income losses and that tens of millions live in conditions of deep economic insecurity (some analyses highlight rates of roughly 85% living at or below extreme poverty thresholds by certain metrics during the most acute collapse).",
-    "healthSystemCollapsed": "The public health system has been pushed to the brink, with thousands of facilities facing closure or severe curtailment of services because of funding shortfalls, supply constraints and staff losses.",
-    "foodInsecurity": "Acute food insecurity remains at crisis levels: IPC and UN planning documents estimate around 15.8 million people facing crisis or worse at peak lean seasons, while WFP reports several million people currently severely food insecure and rising needs as donor funding falls."
+    "displaced": "Over 6.3 million people internally displaced by conflict, economic pressures and climate shocks.",
+    "refugees": "More than 8.2 million Afghans are refugees or in refugee-like situations in neighbouring countries.",
+    "casualties": "Tens of thousands of civilian deaths directly from conflict since 2001, with indirect deaths from healthcare disruption and malnutrition substantially higher.",
+    "affected": "Between 22.9 and 23.7 million people (roughly half the population) require humanitarian assistance.",
+    "livingInPoverty": "Extreme poverty has surged since 2021, with tens of millions living in conditions of deep economic insecurity.",
+    "healthSystemCollapsed": "Thousands of health facilities face closure or severe service cuts due to funding shortfalls.",
+    "foodInsecurity": "Around 15.8 million people face crisis-level food insecurity at peak lean seasons."
   },
   "timeline": [
     {

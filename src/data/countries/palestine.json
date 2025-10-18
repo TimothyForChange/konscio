@@ -14,14 +14,14 @@
     "internationalLawAndAccountability": "Since October 2023 multiple international legal processes have been activated. The ICJ case brought by South Africa resulted in provisional measures after the Court found that allegations of genocide in Gaza were plausible. The ICC has open preliminary examinations and investigations relating to alleged war crimes. National courts, UN fact-finding missions and independent rights bodies have also documented potential violations of international humanitarian and human rights law.\n\nThese mechanisms are contested politically and their outcomes remain uncertain, but they represent formal avenues of accountability and a record of documented abuses that organisations, victims and states continue to use in advocacy and legal strategies."
   },
   "humanitarianImpact": {
-    "displaced": "Over 1.9 million internally displaced in Gaza (nearly 90% of the population), plus ongoing displacement in the West Bank, including East Jerusalem.",
-    "refugees": "5.9 million registered Palestinian refugees, descendants of those displaced since 1948, rely on UNRWA for essential services.",
-    "casualties": "An estimated 64,000 to 67,000 people have been killed in Gaza since October 2023, with thousands more missing, presumed dead under the rubble.",
-    "affected": "Gaza's entire population of 2.3 million faces a catastrophic humanitarian crisis, including engineered famine and the systematic dismantling of its healthcare system.",
-    "childrenOutOfSchool": "Over 625,000 primary and secondary school children in Gaza have no access to education due to the complete destruction of the school system.",
-    "healthSystemCollapsed": "The healthcare system in Gaza has been systematically dismantled, with the majority of hospitals rendered non-functional and repeated attacks on health facilities commonplace.",
-    "lackOfWaterAccess": "The water and sanitation system has almost completely collapsed, leaving over 95% of Gaza's water contaminated and unfit for human consumption.",
-    "foodInsecurity": "The entire population of Gaza is facing crisis levels of food insecurity, with over 1 million people facing catastrophic hunger."
+    "displaced": "Over 1.9 million internally displaced in Gaza (nearly 90% of the population).",
+    "refugees": "5.9 million registered Palestinian refugees rely on UNRWA for essential services.",
+    "casualties": "An estimated 64,000 to 67,000 people killed in Gaza since October 2023.",
+    "affected": "Gaza's entire population of 2.3 million faces catastrophic humanitarian crisis.",
+    "childrenOutOfSchool": "Over 625,000 school children in Gaza have no access to education.",
+    "healthSystemCollapsed": "Healthcare system in Gaza systematically dismantled with most hospitals non-functional.",
+    "lackOfWaterAccess": "Over 95% of Gaza's water contaminated and unfit for human consumption.",
+    "foodInsecurity": "Entire Gaza population faces crisis-level food insecurity with over 1 million facing catastrophic hunger."
   },
   "timeline": [
     {
