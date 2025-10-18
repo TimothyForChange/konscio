@@ -13,18 +13,29 @@ const { timeline } = Astro.props as Properties;
   <h2 class='timeline-title'>Historical Timeline</h2>
   <div class='timeline-container'>
     {
-      (timeline! as TimelineEvent[])
-        .filter((item) => item && (item.year || item.event))
-        .map((item) => (
-          <div class='timeline-row'>
-            <div class='timeline-gutter'>
-              <div class='timeline-dot' />
+      (() => {
+        // Safely handle timeline data with proper type checking
+        const timelineToUse = Array.isArray(timeline) ? timeline : [];
+
+        return timelineToUse
+          .filter(
+            (item): item is TimelineEvent =>
+              item !== null &&
+              typeof item === 'object' &&
+              ('year' in item || 'event' in item) &&
+              (item.year !== undefined || item.event !== undefined)
+          )
+          .map((item) => (
+            <div class='timeline-row'>
+              <div class='timeline-gutter'>
+                <div class='timeline-dot' />
+              </div>
+              <div class='timeline-body'>
+                <TimelineItem year={item.year} event={item.event} />
+              </div>
             </div>
-            <div class='timeline-body'>
-              <TimelineItem year={item.year} event={item.event} />
-            </div>
-          </div>
-        ))
+          ));
+      })()
     }
   </div>
 </section>

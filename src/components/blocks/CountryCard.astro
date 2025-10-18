@@ -29,8 +29,8 @@ const { slug, name, flag, description, category } =
       )
     }
     <div class='country-info'>
-      <span class='country-name'>{name}</span>
-      {description && <span class='country-description'>{description}</span>}
+      <h3 class='country-name'>{name}</h3>
+      {description && <p class='country-description'>{description}</p>}
     </div>
   </div>
 </a>
@@ -90,12 +90,14 @@ const { slug, name, flag, description, category } =
     font-weight: var(--font-weight-bold);
     color: var(--text-primary);
     font-size: var(--font-size-base);
+    margin: 0;
   }
 
   .country-description {
     font-size: var(--font-size-sm);
     color: var(--text-secondary);
     line-height: 1.3;
+    margin: 0;
   }
 
   @media (width >= 768px) {

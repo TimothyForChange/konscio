@@ -22,23 +22,10 @@ if (!hasData) {
   return;
 }
 
-const keyToLabel: Record<string, string> = {
-  displaced: 'Displaced',
-  refugees: 'Refugees',
-  casualties: 'Casualties',
-  affected: 'Affected',
-  livingInPoverty: 'Living in Poverty',
-  childrenOutOfSchool: 'Children Out of School',
-  healthSystemCollapsed: 'Health System Collapsed',
-  foodInsecurity: 'Food Insecurity',
-  lackOfWaterAccess: 'Lack of Water Access',
-  other: 'Other',
-};
-
 const stats = Object.entries(humanitarianImpact)
   .filter(([, value]) => value !== undefined && value !== '')
   .map(([key, value]) => ({
-    label: keyToLabel[key] || formatKeyToTitle(key),
+    label: formatKeyToTitle(key),
     value: formatText(value),
   }));
 ---

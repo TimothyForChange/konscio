@@ -1,5 +1,6 @@
 ---
 import { isArray, keys } from 'radash';
+import ActionCard from './ActionCard.astro';
 import ActionSection from './ActionSection.astro';
 import type { ActionGroupData } from './ActionSection.astro';
 
@@ -52,17 +53,19 @@ if (donateData.length > 0) {
 
   {
     advocacyData.length > 0 && (
-      <>
-        <h3>
+      <section aria-labelledby='advocacy-heading'>
+        <h3 id='advocacy-heading'>
           <i class='ri-megaphone-line' aria-hidden='true' />
           Advocacy
         </h3>
-        <div class='awareness-list'>
-          {advocacyData.map((item) => (
-            <div class='action-card'>{item}</div>
+        <ul class='awareness-list' role='list'>
+          {advocacyData.map((item, index) => (
+            <li key={index} class='action-card-item'>
+              <ActionCard content={item} />
+            </li>
           ))}
-        </div>
-      </>
+        </ul>
+      </section>
     )
   }
 </section>
@@ -103,6 +106,13 @@ if (donateData.length > 0) {
   .awareness-list {
     display: grid;
     gap: var(--gap);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .action-card-item {
+    list-style: none;
   }
 
   .action-card {

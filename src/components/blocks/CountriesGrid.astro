@@ -26,35 +26,37 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
     activeCategory={DEFAULT_CATEGORY}
   />
 
-  <ul class='countries-grid' id='countries-grid' role='list'>
-    {
-      countriesData.map((country) => (
-        <CountryCard
-          slug={country.slug}
-          name={country.name}
-          flag={typeof country.flag === 'string' ? country.flag : undefined}
-          description={
-            typeof country.description === 'string'
-              ? country.description
-              : undefined
-          }
-          category={
-            typeof country.category === 'string' ? country.category : undefined
-          }
-          data-category={
-            typeof country.category === 'string'
-              ? country.category
-              : DEFAULT_CATEGORY
-          }
-        />
-      ))
-    }
-  </ul>
+  <div class='countries-container' id='countries-container'>
+    <ul class='countries-grid' id='countries-grid'>
+      {
+        countriesData.map((country) => (
+          <CountryCard
+            slug={country.slug}
+            name={country.name}
+            flag={typeof country.flag === 'string' ? country.flag : undefined}
+            description={
+              typeof country.description === 'string'
+                ? country.description
+                : undefined
+            }
+            category={
+              typeof country.category === 'string'
+                ? country.category
+                : undefined
+            }
+            data-category={
+              typeof country.category === 'string'
+                ? country.category
+                : DEFAULT_CATEGORY
+            }
+          />
+        ))
+      }
+    </ul>
+  </div>
 </section>
 
 <script is:inline>
-  const DEFAULT_CATEGORY = 'All';
-
   document.addEventListener('DOMContentLoaded', () => {
     function filterCountries(selectedCategory) {
       const buttons = document.querySelectorAll('.category-btn');
@@ -74,9 +76,8 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
         const cardCategory = card.dataset.category;
 
         card.style.display =
-          selectedCategory === DEFAULT_CATEGORY ||
-          cardCategory === selectedCategory
-            ? 'flex'
+          selectedCategory === 'All' || cardCategory === selectedCategory
+            ? 'block'
             : 'none';
       }
     }

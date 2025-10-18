@@ -33,65 +33,47 @@ const {
 ---
 
 {
-  standalone ? (
-    <section
-      class='action-section section'
-      {...(id ? { id } : {})}
-      aria-labelledby={id || 'action-section'}
-    >
-      <h2 id={id || 'action-section'} class='section-heading'>
-        {sectionTitle}
-      </h2>
+  (() => {
+    // Reusable function to render groups
+    const renderGroups = () =>
+      groups.map((group) => (
+        <ActionGroup icon={group.icon} title={group.title}>
+          {group.type === 'links' ? (
+            <div class='donate-organisations'>
+              {(group.items as ActionItem[]).map((item) => (
+                <LinkButton
+                  title={item.title}
+                  description={item.description}
+                  url={item.url}
+                  buttonText={item.buttonText}
+                />
+              ))}
+            </div>
+          ) : (
+            <div class='advocacy-list'>
+              {(group.items as string[]).map((content) => (
+                <ActionCard content={content} />
+              ))}
+            </div>
+          )}
+        </ActionGroup>
+      ));
 
-      {groups.map((group) => (
-        <ActionGroup icon={group.icon} title={group.title}>
-          {group.type === 'links' ? (
-            <div class='donate-organisations'>
-              {(group.items as ActionItem[]).map((item) => (
-                <LinkButton
-                  title={item.title}
-                  description={item.description}
-                  url={item.url}
-                  buttonText={item.buttonText}
-                />
-              ))}
-            </div>
-          ) : (
-            <div class='advocacy-list'>
-              {(group.items as string[]).map((content) => (
-                <ActionCard content={content} />
-              ))}
-            </div>
-          )}
-        </ActionGroup>
-      ))}
-    </section>
-  ) : (
-    <>
-      {groups.map((group) => (
-        <ActionGroup icon={group.icon} title={group.title}>
-          {group.type === 'links' ? (
-            <div class='donate-organisations'>
-              {(group.items as ActionItem[]).map((item) => (
-                <LinkButton
-                  title={item.title}
-                  description={item.description}
-                  url={item.url}
-                  buttonText={item.buttonText}
-                />
-              ))}
-            </div>
-          ) : (
-            <div class='advocacy-list'>
-              {(group.items as string[]).map((content) => (
-                <ActionCard content={content} />
-              ))}
-            </div>
-          )}
-        </ActionGroup>
-      ))}
-    </>
-  )
+    return standalone ? (
+      <section
+        class='action-section section'
+        {...(id ? { id } : {})}
+        aria-labelledby={id || 'action-section'}
+      >
+        <h2 id={id || 'action-section'} class='section-heading'>
+          {sectionTitle}
+        </h2>
+        {renderGroups()}
+      </section>
+    ) : (
+      <>{renderGroups()}</>
+    );
+  })()
 }
 
 <style>
