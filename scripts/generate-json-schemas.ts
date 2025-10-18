@@ -1,16 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import { zodToJsonSchema } from 'zod-to-json-schema';
+import { CountryDataSchema } from '../src/schemas/country-data.ts';
+import { MissionSchema } from '../src/schemas/mission.ts';
 
-async function generateSchemas() {
-  const missionSchemaModule = await import('../src/schemas/mission.ts');
-  const countryDataSchemaModule = await import(
-    '../src/schemas/country-data.ts'
-  );
-
-  const { MissionSchema } = missionSchemaModule;
-  const { CountryDataSchema } = countryDataSchemaModule;
-
+function generateSchemas() {
   const schemasDir = path.join(process.cwd(), 'src', 'schemas');
   if (!fs.existsSync(schemasDir)) {
     fs.mkdirSync(schemasDir, { recursive: true });
@@ -28,8 +22,12 @@ async function generateSchemas() {
     strictUnions: true,
   });
 
-  const missionPath = path.join(schemasDir, 'mission.schema.json');
-  const countryDataPath = path.join(schemasDir, 'country-data.schema.json');
+  const missionPath = path.join(schemasDir, 'json', 'mission.schema.json');
+  const countryDataPath = path.join(
+    schemasDir,
+    'json',
+    'country-data.schema.json'
+  );
 
   fs.writeFileSync(missionPath, JSON.stringify(missionJsonSchema, null, 2));
   console.log(`Wrote mission schema to ${missionPath}`);
@@ -43,7 +41,9 @@ async function generateSchemas() {
   console.log('JSON schemas generated successfully!');
 }
 
-generateSchemas().catch((error) => {
+try {
+  generateSchemas();
+} catch (error) {
   console.error('Error generating JSON schemas:', error);
   process.exit(1);
-});
+}

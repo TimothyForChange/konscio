@@ -1,5 +1,5 @@
 {
-  "$schema": "../../schemas/country-data.schema.json",
+  "$schema": "../../schemas/json/country-data.schema.json",
   "name": "Haiti",
   "emoji": "🇭🇹",
   "ariaLabel": "Haitian flag",
