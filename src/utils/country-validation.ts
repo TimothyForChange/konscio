@@ -1,4 +1,4 @@
-import { CountriesSchema, CountrySchema } from '../schemas/country-schema';
+import { CountriesSchema, CountrySchema } from '../schemas/country';
 import type { Country } from '../types/country';
 
 export async function loadAndValidateCountries(): Promise<Country[]> {

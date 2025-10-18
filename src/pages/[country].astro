@@ -2,6 +2,7 @@
 import countries from '../data/mapping/countries.json';
 import CountryLayout from '../layouts/CountryLayout.astro';
 import type * as CountryTypes from '../types/country.ts';
+import { loadCountryData } from '../utils/data-loaders';
 
 export function getStaticPaths() {
   return ((countries as CountryTypes.Country[]) || []).map((c) => ({
@@ -10,10 +11,7 @@ export function getStaticPaths() {
 }
 
 const { country } = Astro.params;
-const countryModule = await import(`../data/countries/${country}.json`);
-const countryData = countryModule.default as Record<string, unknown> & {
-  name?: string;
-};
+const countryData = await loadCountryData(country);
 ---
 
 <CountryLayout

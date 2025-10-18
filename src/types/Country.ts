@@ -48,6 +48,8 @@ export interface TakeAction {
 
 export interface CountryData {
   name: string;
+  emoji: string;
+  ariaLabel: string;
   currentCrisisSummary: string;
   lastUpdated: string;
   humanitarianImpact: HumanitarianImpact;

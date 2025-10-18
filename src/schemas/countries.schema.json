@@ -1,37 +1,26 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "array",
-  "title": "Countries Mapping Schema",
-  "description": "Schema for the countries mapping data",
   "items": {
     "type": "object",
-    "title": "Country",
-    "description": "A country entry in the mapping",
     "properties": {
       "name": {
-        "type": "string",
-        "description": "The full name of the country"
+        "type": "string"
       },
       "slug": {
         "type": "string",
-        "description": "The URL-friendly identifier for the country",
         "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
       },
       "flag": {
-        "type": "string",
-        "description": "The emoji representation of the country's flag"
+        "type": "string"
       },
       "description": {
-        "type": "string",
-        "description": "A brief description of the crisis in the country"
+        "type": "string"
       },
       "seoDescription": {
-        "type": "string",
-        "description": "SEO-friendly description of the country's crisis"
+        "type": "string"
       },
       "category": {
         "type": "string",
-        "description": "The category of the humanitarian crisis",
         "enum": [
           "Invasion & Occupation",
           "Insurgency & Resource Conflict",
@@ -49,5 +38,6 @@
       "category"
     ],
     "additionalProperties": false
-  }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
 }

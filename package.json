@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "astro": "astro",
-    "build": "astro build",
-    "dev": "tsc --noEmit && astro dev",
+    "build": "npm run generate:schemas && astro build",
+    "dev": "tsc --noEmit && npm run generate:schemas && astro dev",
     "format": "prettier --write .",
+    "generate:schemas": "tsx scripts/generate-json-schemas.ts",
     "lint": "eslint . --fix --cache --cache-location .eslintcache",
     "preview": "astro preview",
     "start": "astro dev"
@@ -36,8 +37,10 @@
     "prettier-plugin-packagejson": "^2.5.19",
     "radash": "^12.1.1",
     "remixicon": "^4.7.0",
+    "tsx": "^4.20.6",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.46.1",
-    "zod": "^3.25.76"
+    "zod": "^3.25.76",
+    "zod-to-json-schema": "^3.24.6"
   }
 }
