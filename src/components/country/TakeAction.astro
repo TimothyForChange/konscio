@@ -1,6 +1,5 @@
 ---
 import { isArray, keys } from 'radash';
-import ActionCard from './ActionCard.astro';
 import ActionSection from './ActionSection.astro';
 import type { ActionGroupData } from './ActionSection.astro';
 
@@ -40,30 +39,21 @@ if (donateData.length > 0) {
     })),
   });
 }
+
+if (advocacyData.length > 0) {
+  groups.push({
+    icon: 'ri-megaphone-line',
+    title: 'Advocacy',
+    type: 'cards',
+    items: advocacyData,
+  });
+}
 ---
 
 <section class='action-section' {...id ? { id } : {}}>
   <h2>How You Can Help</h2>
 
   {groups.length > 0 && <ActionSection sectionTitle='' groups={groups} standalone={false} />}
-
-  {
-    advocacyData.length > 0 && (
-      <section aria-labelledby='advocacy-heading'>
-        <h3 id='advocacy-heading'>
-          <i class='ri-megaphone-line' aria-hidden='true' />
-          Advocacy
-        </h3>
-        <ul class='awareness-list' role='list'>
-          {advocacyData.map((item, index) => (
-            <li key={index} class='action-card-item'>
-              <ActionCard content={item} />
-            </li>
-          ))}
-        </ul>
-      </section>
-    )
-  }
 </section>
 
 <style>
@@ -83,41 +73,6 @@ if (donateData.length > 0) {
     font-weight: var(--font-weight-bold);
     color: var(--text-primary);
     margin-bottom: var(--heading-gap);
-  }
-
-  .action-section h3 {
-    font-size: var(--font-size-lg);
-    font-weight: var(--font-weight-bold);
-    color: var(--text-primary);
-    margin: var(--heading-gap) 0 var(--gap);
-    display: flex;
-    align-items: center;
-    gap: var(--gap-sm);
-  }
-
-  .action-section h3 i {
-    font-size: 1.1rem;
-  }
-
-  .awareness-list {
-    display: grid;
-    gap: var(--gap);
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .action-card-item {
-    list-style: none;
-  }
-
-  .action-card {
-    background: var(--bg-surface);
-    border: var(--card-border);
-    border-radius: var(--button-radius);
-    padding: var(--card-padding);
-    color: var(--text-secondary);
-    line-height: var(--line-height-base);
   }
 
   @media (width >= 768px) {

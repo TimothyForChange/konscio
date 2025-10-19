@@ -90,6 +90,11 @@ const { sectionTitle, groups, id, standalone = true } = Astro.props as Propertie
     gap: var(--gap-lg);
   }
 
+  .advocacy-list {
+    display: grid;
+    gap: var(--gap-lg);
+  }
+
   @media (width >= 768px) {
     .action-section {
       padding: calc(var(--section-gap) + var(--space-xs));

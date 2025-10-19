@@ -27,8 +27,9 @@ const { icon, title } = Astro.props as Properties;
     margin-top: 0;
   }
 
-  .action-group h3 i {
+  .action-group h3 > i {
     color: var(--accent-primary);
     font-size: var(--font-size-xl);
+    margin-right: var(--gap-sm);
   }
 </style>
