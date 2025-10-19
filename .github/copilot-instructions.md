@@ -30,6 +30,7 @@
 
 - Install & Run: Never run the project or install packages without instruction from the user. If recommending new packages, check `package.json` for existing dependencies. Install dependencies: `npm install` (only if instructed). Start dev server: `npm run dev` (only if instructed). Build static site: `npm run build` (only if instructed). Preview build: `npm run preview` (only if instructed).
 - Schema Generation: Run `npm run generate:schemas` to convert Zod schemas to JSON schemas (happens automatically in dev/build).
+- JSON Schemas: Files in `src/schemas/json/` are auto-generated and should never be manually edited.
 - Type Checking: `npm run dev` includes `tsc --noEmit` for TypeScript validation.
 - Linting & Formatting: `npm run lint` (ESLint with auto-fix) and `npm run format` (Prettier).
 - Data Updates: To add or update country/crisis data, edit the relevant JSON in `src/data/countries/`. Ensure data matches Zod schemas in `src/schemas/country-data.ts`.
