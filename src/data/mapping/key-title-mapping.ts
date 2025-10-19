@@ -42,6 +42,8 @@ export const keyToTitleMap: Record<string, string> = {
   corruptionAndTheGlobalFinancialSystem: 'Corruption and the Global Financial System',
   oilConflictAndClimateChallenges: 'Oil Conflict and Climate Challenges',
   postColonialRelationsAndForeignIntervention: 'Post-Colonial Relations and Foreign Intervention',
+  geopoliticalInvolvement: 'Geopolitical Involvement',
+  settlerColonialismAndApartheid: 'Settler Colonialism and Apartheid',
 };
 
 export default keyToTitleMap;
