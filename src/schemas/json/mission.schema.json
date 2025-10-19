@@ -4,9 +4,6 @@
     "$schema": {
       "type": "string"
     },
-    "name": {
-      "type": "string"
-    },
     "mission": {
       "type": "string"
     },
@@ -43,7 +40,6 @@
     }
   },
   "required": [
-    "name",
     "mission",
     "description"
   ],

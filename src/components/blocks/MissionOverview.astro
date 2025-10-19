@@ -4,13 +4,12 @@ import type { Mission } from '../../types/mission.ts';
 import { formatParagraphs } from '../../utils/text.ts';
 
 const mission = missionData as Mission;
-const { name, mission: missionStatement, description } = mission;
+const { mission: missionStatement, description } = mission;
 ---
 
-<section class='mission' aria-labelledby='mission-name'>
+<section class='mission'>
   <div class='mission-content'>
-    <h1 id='mission-name' class='mission-name'>{name}</h1>
-    {missionStatement && <p class='mission-profession'>{missionStatement}</p>}
+    {missionStatement && <h1 class='mission-statement'>{missionStatement}</h1>}
 
     {
       description && (
@@ -37,11 +36,11 @@ const { name, mission: missionStatement, description } = mission;
     text-align: center;
   }
 
-  .mission-name {
+  .mission-statement {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: var(--space-xs);
+    margin: 0 0 var(--space-xs);
   }
 
   .mission-profession {

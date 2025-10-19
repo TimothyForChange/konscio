@@ -1,0 +1,244 @@
+---
+import 'remixicon/fonts/remixicon.css';
+
+interface Properties {
+  siteTitle?: string;
+}
+
+const { siteTitle = 'Timothy for Change' } = Astro.props as Properties;
+let isMobileMenuOpen = false;
+---
+
+<header class='navbar-header'>
+  <nav class='navbar' aria-label='Main navigation'>
+    <div class='navbar-container'>
+      <a
+        href='/'
+        class='navbar-brand'
+        aria-label='Timothy for Change home page'
+      >
+        <span class='navbar-title'>{siteTitle}</span>
+      </a>
+
+      <button
+        class='navbar-toggle'
+        aria-expanded={isMobileMenuOpen}
+        aria-controls='navbar-menu'
+        aria-label='Toggle navigation menu'
+        type='button'
+        onclick='toggleMobileMenu()'
+      >
+        <i class='ri-menu-line navbar-icon' aria-hidden='true'></i>
+      </button>
+
+      <div id='navbar-menu' class='navbar-menu' role='menubar'>
+        <ul class='navbar-nav' role='menu'>
+          <li class='nav-item' role='none'>
+            <a
+              href='/#causes-heading'
+              class='nav-link'
+              role='menuitem'
+              tabindex='0'>Countries</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<script is:inline>
+  function toggleMobileMenu() {
+    const menu = document.getElementById('navbar-menu');
+    const toggle = document.querySelector('.navbar-toggle');
+
+    if (!menu || !toggle) {
+      return;
+    }
+
+    const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+    const newExpanded = !isExpanded;
+
+    toggle.setAttribute('aria-expanded', String(newExpanded));
+    menu.classList.toggle('show', newExpanded);
+  }
+
+  document.addEventListener('click', function (event) {
+    const menu = document.getElementById('navbar-menu');
+    const toggle = document.querySelector('.navbar-toggle');
+
+    if (!menu || !toggle) {
+      return;
+    }
+
+    if (!menu.contains(event.target) && !toggle.contains(event.target)) {
+      menu.classList.remove('show');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  document.addEventListener('click', function (event) {
+    const link = event.target.closest('.nav-link');
+    if (link) {
+      const menu = document.getElementById('navbar-menu');
+      const toggle = document.querySelector('.navbar-toggle');
+
+      if (menu && toggle) {
+        menu.classList.remove('show');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+    }
+  });
+</script>
+
+<style>
+  .navbar-header {
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+  }
+
+  .navbar-brand {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-title {
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    font-size: 1.1rem;
+  }
+
+  .navbar-toggle {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: var(--button-radius);
+    color: var(--text-primary);
+    width: 44px;
+    height: 44px;
+  }
+
+  .navbar-toggle:hover {
+    background: var(--bg-alt);
+  }
+
+  .navbar-toggle:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px var(--focus-ring-soft);
+  }
+
+  .navbar-icon {
+    font-size: 1.5rem;
+  }
+
+  .navbar-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-top: none;
+    border-radius: 0 0 var(--card-radius) var(--card-radius);
+    box-shadow: var(--shadow-md);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 999;
+  }
+
+  .navbar-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .navbar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    color: var(--text-primary);
+    border-radius: var(--button-radius);
+    transition: background 0.2s ease;
+  }
+
+  .nav-link:hover {
+    background: var(--bg-alt);
+  }
+
+  .nav-link:focus {
+    background: var(--bg-alt);
+    outline: 2px solid var(--focus-ring);
+    outline-offset: -2px;
+  }
+
+  @media (width >= 768px) {
+    .navbar-toggle {
+      display: none;
+    }
+
+    .navbar-menu {
+      position: static;
+      display: flex;
+      opacity: 1;
+      visibility: visible;
+      transform: none;
+      box-shadow: none;
+      background: transparent;
+      border: none;
+      border-radius: 0;
+      z-index: auto;
+    }
+
+    .navbar-nav {
+      flex-direction: row;
+      padding: 0;
+      gap: 1.5rem;
+    }
+
+    .nav-item {
+      width: auto;
+    }
+
+    .nav-link {
+      padding: 0.5rem 0.75rem;
+    }
+  }
+</style>

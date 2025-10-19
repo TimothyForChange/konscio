@@ -4,6 +4,7 @@ import '../styles/reset.css';
 import '../styles/global.css';
 import { sift } from 'radash';
 import Footer from '../components/layout/Footer.astro';
+import Navbar from '../components/layout/Navbar.astro';
 import countriesList from '../data/mapping/countries.ts';
 
 export interface Properties {
@@ -181,6 +182,7 @@ const ldJson = JSON.stringify(ldObject, undefined, 2);
   </head>
   <body>
     <a class='skip-link' href='#container'>Skip to main content</a>
+    <Navbar siteTitle={'Timothy for Change'} />
     <slot />
     <Footer />
     <script is:inline>
