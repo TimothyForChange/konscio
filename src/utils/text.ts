@@ -11,6 +11,7 @@ export function formatKeyToTitle(key: string): string {
   formatted = formatted.replaceAll(' As ', ' as ');
   formatted = formatted.replaceAll(' In ', ' in ');
   formatted = formatted.replaceAll(' Out ', ' out ');
+  formatted = formatted.replaceAll(' Nato ', ' NATO ');
 
   return formatted;
 }

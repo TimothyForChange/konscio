@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/json/country-data.schema.json",
+  "name": "Ethiopia",
+  "emoji": "🇪🇹",
+  "ariaLabel": "Ethiopian flag",
+  "lastUpdated": "2025-10-19",
+  "currentCrisisSummary": "Ethiopia is grappling with multiple, overlapping humanitarian crises stemming from the violent breakdown of its ethnic federalist political system. The country is reeling from the devastating after-effects of the 2020-2022 war in the Tigray region, while simultaneously facing large-scale armed conflicts between the federal government and regional forces in Amhara and Oromia.\n\nThis series of conflicts represents a catastrophic failure to resolve political questions of autonomy, identity, and power through negotiation, resorting instead to brutal military force. The result is mass displacement, widespread human rights atrocities, the collapse of essential services, and acute food insecurity across vast swathes of the country. The crises are not isolated ethnic grievances but symptoms of a deep structural crisis of the Ethiopian state, exacerbated by external geopolitical interests in the strategically vital Horn of Africa.",
+  "imperialRoot": {
+    "imperialPower": "Ethiopian Empire (internal expansion, 19th-20th century), Italy (1936-1941), US & Soviet Union (Cold War era)",
+    "legacy": "The modern Ethiopian state was largely formed through a process of internal imperial expansion in the late 19th century. Under emperors like Menelik II, the Amhara-dominated centre conquered and forcibly incorporated diverse southern peoples, including the Oromo, creating a multi-ethnic 'prison of nations' held together by a centralised, authoritarian structure. The historical grievances stemming from this violent state formation—over land, language, and political subjugation—are the primary root of today's conflicts.\n\nThis internal legacy was layered with external pressures: a brief but disruptive Italian colonial occupation and, more significantly, Cold War patronage. The US-backed monarchy and the subsequent Soviet-backed Derg regime both used foreign military aid to suppress internal dissent and wage wars against independence movements, further militarising the state and entrenching a culture of violent political consolidation."
+  },
+  "historicalContext": {
+    "theFailureOfEthnicFederalism": "The 1995 constitution established a system of ethnic federalism, an ambitious attempt to resolve the historical 'national question' by granting self-governance rights to Ethiopia's major ethnic groups. For decades, this system was managed through the authoritarian dominance of the TPLF-led coalition. The current Prime Minister's centralising reforms shattered this delicate balance, leading to a violent clash between the federal government's vision of a unified state and the demands for regional autonomy. The wars in Tigray, and now Amhara and Oromia, are the direct result of this model's violent collapse.",
+    "geopoliticsOfTheHornAndProxyInterests": "As a dominant power in the Horn of Africa, Ethiopia is a focal point of intense geopolitical competition. External actors—including Eritrea, the UAE, Turkey, the US, and China—have pursued their strategic interests through diplomatic, economic, and military means. The provision of foreign drones, particularly from the UAE, was a decisive factor in the Tigray war and continues to fuel the conflicts in Amhara and Oromia. These interventions are not neutral; they provide the tools for war and prioritise external strategic goals, such as control over Red Sea routes and influence over the Nile's waters, over sustainable peace.",
+    "aidDependencyAndTheDevelopmentalState": "Ethiopia's economic model has long been a 'developmental state' heavily reliant on foreign aid, loans, and investment from Western nations and institutions like the World Bank and IMF. While this model produced economic growth, it was tied to a repressive political system and did not resolve underlying inequalities. This dependency also serves as a tool of geopolitical leverage, with the threat of aid suspension used by Western powers to influence the conflict, creating economic shocks that disproportionately harm the civilian population and hinder the state's capacity to provide services."
+  },
+  "humanitarianImpact": {
+    "displaced": "Over 3.5 million people are internally displaced due to conflict and climate shocks across the country.",
+    "refugees": "Ethiopia hosts nearly 1 million refugees from neighbouring countries, while hundreds of thousands of Ethiopians have sought refuge abroad.",
+    "casualties": "The war in Tigray alone resulted in an estimated 300,000 to 600,000 deaths from fighting, starvation, and lack of healthcare. Casualties in Amhara and Oromia are significant but difficult to verify.",
+    "affected": "Over 20 million people require humanitarian assistance and protection due to the combined impacts of conflict, drought, and economic instability.",
+    "foodInsecurity": "An estimated 15.8 million people face crisis levels of food insecurity, particularly in conflict-affected regions of Tigray, Amhara, and Oromia.",
+    "sexualViolence": "Systematic and widespread conflict-related sexual violence, including rape and sexual slavery, was used as a deliberate weapon of war by all sides, especially in the Tigray conflict."
+  },
+  "timeline": [
+    {
+      "year": "1974",
+      "event": "**End of the Monarchy**: Emperor Haile Selassie is overthrown by the Derg, a Marxist-Leninist military junta backed by the Soviet Union, which intensifies repression."
+    },
+    {
+      "year": "1976-1978",
+      "event": "**The 'Red Terror'**: The Derg regime unleashes a campaign of violent political repression against its opponents, killing tens of thousands. The brutality of the state radicalises many ethno-nationalist movements, including the TPLF, cementing armed struggle as the only viable path to power."
+    },
+    {
+      "year": "1991",
+      "event": "**Fall of the Derg**: A coalition of ethno-nationalist rebel groups, led by the TPLF, overthrows the Derg regime."
+    },
+    {
+      "year": "1995",
+      "event": "**Ethnic Federalism Established**: A new constitution is adopted, restructuring Ethiopia as a federation of ethnic-based regions."
+    },
+    {
+      "year": "1998-2000",
+      "event": "**Ethiopia-Eritrea War**: A brutal, conventional border war erupts between the two former allies, resulting in immense casualties. The conflict entrenches deep animosity between the TPLF-led government in Ethiopia and the Eritrean state, a key factor in Eritrea's intervention in the 2020 Tigray War."
+    },
+    {
+      "year": "2018",
+      "event": "**New Leadership**: Following years of protests, Abiy Ahmed becomes Prime Minister, initially promising democratic reforms but soon pursuing a centralising agenda."
+    },
+    {
+      "year": "2020-2022",
+      "event": "**Tigray War**: A brutal war breaks out between the federal government and the TPLF. The conflict involves Eritrean and Amhara regional forces and leads to a catastrophic humanitarian crisis."
+    },
+    {
+      "year": "2022",
+      "event": "**Pretoria Peace Agreement**: A peace deal is signed, formally ending the war in Tigray, but its implementation remains fraught with challenges."
+    },
+    {
+      "year": "2023-Present",
+      "event": "**New Fronts Open**: Large-scale armed conflict erupts between federal forces and the Fano militia in Amhara and intensifies against the Oromo Liberation Army (OLA) in Oromia."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Ethiopiaid",
+        "description": "A charity that partners with local Ethiopian organisations to support maternal health, education, and the empowerment of women and girls.",
+        "url": "https://ethiopiaid.org.uk"
+      },
+      {
+        "organisation": "Ethiopian Red Cross Society",
+        "description": "The primary national humanitarian organisation, providing emergency response, ambulance services, and assistance to vulnerable communities.",
+        "url": "https://redcrosseth.org"
+      },
+      {
+        "organisation": "UNHCR",
+        "description": "The UN Refugee Agency provides protection, shelter, and essential services to internally displaced people and refugees in Ethiopia.",
+        "url": "https://www.unhcr.org/emergencies/ethiopia-emergency"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
+        "description": "Delivers emergency food and nutrition assistance to millions of people facing hunger due to conflict and climate change.",
+        "url": "https://www.wfp.org/emergencies/ethiopia-emergency"
+      }
+    ],
+    "advocacy": [
+      "Demand an end to military operations and support inclusive, negotiated political solutions to the conflicts in Amhara, Oromia, and other regions.",
+      "Call for independent investigations and accountability for war crimes and crimes against humanity committed by all parties in the Tigray war.",
+      "Advocate for the full implementation of the Pretoria Peace Agreement and ensure unfettered humanitarian access to all conflict zones.",
+      "Oppose the sale of arms and military technology, including armed drones, to the Ethiopian government and other armed actors in the region.",
+      "Amplify the voices of Ethiopian human rights defenders, journalists, and civil society organisations working for peace and justice."
+    ]
+  },
+  "reading": [
+    {
+      "title": "The Real Politics of the Horn of Africa: Money, War and the Business of Power",
+      "url": "https://www.goodreads.com/book/show/24905008",
+      "description": "Alex de Waal provides a critical analysis of how the political economies of the region, based on a market for political loyalty and violence, drive conflict."
+    },
+    {
+      "title": "Layers of Time: A History of Ethiopia",
+      "url": "https://www.goodreads.com/book/show/617268",
+      "description": "Paul B. Henze's comprehensive history offers essential background on the deep historical roots of the cultures and political structures that shape Ethiopia today."
+    }
+  ]
+}

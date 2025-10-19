@@ -1,0 +1,93 @@
+{
+  "$schema": "../../schemas/json/country-data.schema.json",
+  "name": "Venezuela",
+  "emoji": "🇻🇪",
+  "ariaLabel": "Venezuelan flag",
+  "lastUpdated": "2025-10-19",
+  "currentCrisisSummary": "Venezuela is experiencing a protracted and severe humanitarian crisis, driven by a deep economic collapse and hyperinflation. This has led to the breakdown of public services, acute shortages of food, medicine and basic goods, and one of the largest mass displacement events in the world.\n\nThe crisis is not solely the result of internal policy, but has been deliberately and significantly intensified by a years-long 'maximum pressure' campaign of unilateral economic sanctions, primarily imposed by the United States. These measures, which include an embargo on the crucial oil sector and the freezing of billions in state assets held overseas, have crippled the country's main source of revenue, isolated it from global financial markets, and severely impeded its capacity to import essential goods. The result is a form of economic coercion that has had a devastating and measurable impact on the civilian population.",
+  "imperialRoot": {
+    "imperialPower": "Spanish Empire (16th-19th century) & United States (20th-21st century)",
+    "legacy": "The roots of Venezuela's contemporary vulnerability lie in its historical integration into global systems as a resource-exporting periphery. The Spanish Empire established an extractive colonial economy that created deep inequalities and a reliance on primary commodity exports. After independence, this structure was repurposed rather than dismantled.\n\nIn the 20th century, the United States and its corporations came to dominate Venezuela's burgeoning oil industry, shaping the nation into a quintessential petro-state dependent on oil revenues and US markets. This arrangement, enforced through political and economic influence in line with the Monroe Doctrine, enriched foreign capital and a small domestic elite but prevented diversified, sovereign economic development. The Bolivarian Revolution's attempts since 1999 to assert national control over resources were met with sustained hostility from the US, including support for a failed coup in 2002, laying the groundwork for the later escalation of economic warfare."
+  },
+  "historicalContext": {
+    "economicPressureAndSanctions": "Since 2014, and escalating dramatically from 2017, the US has imposed a comprehensive regime of sanctions on Venezuela. These go far beyond targeting individuals, constituting a broad financial and sectoral blockade. The measures effectively prohibit the state oil company, PDVSA, from trading in US markets, block access to international credit, and have enabled the seizure of critical overseas assets like the CITGO refinery and gold reserves held in the UK. UN Special Rapporteurs and independent economic analysis have concluded that these sanctions have caused a catastrophic decline in living standards, contributing to excess deaths and a spiralling humanitarian emergency. They function as a form of collective punishment against the population to achieve political ends.",
+    "theResourceCurseAndDependency": "Venezuela's immense oil wealth became a structural vulnerability. Its economy was fundamentally dependent on oil exports, making it susceptible to global price fluctuations. This dependency was not a natural state but a historical construction, shaped by decades of foreign corporate dominance and a lack of investment in other sectors. When the sanctions regime targeted this single source of income, it was able to induce a near-total economic collapse, demonstrating how resource dependency can be weaponised by imperial powers.",
+    "internationalLawAndAccountability": "The unilateral sanctions imposed on Venezuela are considered illegal under international law by many experts and UN officials, as they were enacted outside the framework of the UN Security Council and constitute a violation of the nation's sovereignty. In response, Venezuela has filed a complaint with the International Criminal Court (ICC), arguing that the sanctions constitute a crime against humanity. Furthermore, the US-led recognition of a parallel 'interim government' in 2019 created a pretext for the seizure of state assets abroad, a move that further undermined the rule of law and exacerbated the economic crisis."
+  },
+  "humanitarianImpact": {
+    "displaced": "Internal displacement is significant due to violence, loss of livelihoods, and lack of services, though precise figures are difficult to ascertain due to monitoring challenges.",
+    "refugees": "Over 7.7 million refugees and migrants have left Venezuela, creating one of the largest external displacement crises in the world.",
+    "casualties": "Multiple independent studies estimate tens of thousands of excess civilian deaths since 2017 are attributable to the severe impact of economic sanctions on access to food, medicine, and healthcare.",
+    "affected": "An estimated 19 million people inside the country require some form of humanitarian assistance.",
+    "livingInPoverty": "Extreme poverty has surged, with some estimates indicating it affects over 80% of the population.",
+    "healthSystemCollapsed": "The health system has collapsed due to lack of resources, leading to a resurgence of preventable diseases and a crisis in maternal and child health.",
+    "foodInsecurity": "An estimated 15.5 million people are food insecure, with high rates of child malnutrition."
+  },
+  "timeline": [
+    {
+      "year": "1914",
+      "event": "**Oil Discovery**: Large-scale oil reserves are discovered, rapidly transforming Venezuela into a petro-state dominated by foreign corporations."
+    },
+    {
+      "year": "1976",
+      "event": "**Oil Nationalisation**: Venezuela nationalises its oil industry, taking it out of the hands of foreign corporations like Exxon and Shell. This act of economic sovereignty sets a precedent for the resource nationalism that would later be expanded under Hugo Chávez."
+    },
+    {
+      "year": "1989",
+      "event": "**El Caracazo**: A popular uprising against IMF-mandated neoliberal austerity measures is brutally repressed by the state, killing hundreds and exposing the illegitimacy of the old political order."
+    },
+    {
+      "year": "1998",
+      "event": "**Hugo Chávez Elected**: Hugo Chávez is elected president on an anti-neoliberal and anti-imperialist platform, initiating the Bolivarian Revolution to assert national sovereignty and redirect oil wealth towards social programmes."
+    },
+    {
+      "year": "2002",
+      "event": "**US-Backed Coup Attempt**: A coup d'état briefly removes Chávez from power. The US government is shown to have had prior knowledge and provided support to the coup plotters."
+    },
+    {
+      "year": "2014-2017",
+      "event": "**Sanctions Begin**: The US begins imposing targeted sanctions, which lay the groundwork for a broader economic assault."
+    },
+    {
+      "year": "2017-Present",
+      "event": "**Economic Blockade**: The US imposes crippling sectoral sanctions targeting Venezuela's oil industry, financial system and access to international markets, leading to a catastrophic economic contraction."
+    },
+    {
+      "year": "2019",
+      "event": "**Parallel Government & Asset Seizure**: The US and its allies recognise an opposition leader as 'interim president,' a move used to justify the seizure of billions of dollars in Venezuelan state assets held abroad."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "UNHCR",
+        "description": "Provides protection and assistance to the millions of Venezuelan refugees and migrants displaced across the region.",
+        "url": "https://www.unhcr.org/emergencies/venezuela-situation"
+      },
+      {
+        "organisation": "Caritas Venezuela",
+        "description": "A well-established national aid organisation delivering food, healthcare and nutritional support directly to communities across the country.",
+        "url": "https://caritasvenezuela.org"
+      }
+    ],
+    "advocacy": [
+      "Demand an immediate and unconditional lifting of broad unilateral economic sanctions that collectively punish the civilian population.",
+      "Advocate for the unfreezing and return of all Venezuelan state assets held in foreign banks and jurisdictions.",
+      "Oppose all forms of foreign military or political intervention and support sovereign, diplomatic solutions to internal political disputes.",
+      "Amplify reports from UN experts and human rights organisations documenting the devastating human impact of economic coercion.",
+      "Support accountability efforts at the International Criminal Court (ICC) to investigate the sanctions as potential crimes against humanity."
+    ]
+  },
+  "reading": [
+    {
+      "title": "Open Veins of Latin America: Five Centuries of the Pillage of a Continent",
+      "url": "https://www.goodreads.com/book/show/187149",
+      "description": "Eduardo Galeano's foundational text on the history of imperialist and capitalist exploitation in Latin America, providing essential context for Venezuela's story."
+    },
+    {
+      "title": "We Created Chávez: A People's History of the Venezuelan Revolution",
+      "url": "https://www.goodreads.com/book/show/16033290",
+      "description": "George Ciccariello-Maher's history of the Bolivarian Revolution, focusing on the grassroots social movements that brought it to power."
+    }
+  ]
+}

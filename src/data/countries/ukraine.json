@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/json/country-data.schema.json",
+  "name": "Ukraine",
+  "emoji": "🇺🇦",
+  "ariaLabel": "Ukrainian flag",
+  "lastUpdated": "2025-10-19",
+  "currentCrisisSummary": "Since Russia's full-scale invasion in February 2022, Ukraine has been the site of a devastating international armed conflict, resulting in a humanitarian catastrophe of immense scale. Millions have been displaced, cities have been destroyed, and tens of thousands of civilians have been killed or injured.\n\nThe war is an act of brutal aggression by a resurgent Russian imperialism, seeking to reassert its sphere of influence. However, it cannot be understood outside the context of a decades-long eastward expansion of NATO, a US-led military bloc. The conflict is a catastrophic outcome of inter-imperialist rivalry, where competing geopolitical and economic interests have turned Ukraine into a tragic proxy battleground. The massive influx of Western arms and financing sustains the war effort but also deepens Ukraine's dependency and integrates it further into a Western-dominated security and economic architecture, with its people paying the ultimate price.",
+  "imperialRoot": {
+    "imperialPower": "Russian Empire & Soviet Union (17th century - 1991), United States/NATO (1991 - present)",
+    "legacy": "Ukraine's history is deeply marked by its position between competing empires. For centuries, it was subjected to the Russian Empire, which suppressed Ukrainian language and identity in a project of colonial Russification. In the Soviet period, this continued through centralised control from Moscow, political purges, and the engineered famine of the Holodomor, which killed millions. This long history of domination informs both modern Ukrainian national identity and Russia's neo-imperial claims over the country.\n\nFollowing the collapse of the USSR in 1991, the United States and its NATO allies engaged in a triumphalist eastward expansion. This process treated Eastern Europe as a strategic frontier to be absorbed, breaking informal assurances given to Soviet leaders and progressively encircling Russia. This expansion of a rival military and economic bloc created the structural conditions for today's conflict by ignoring security red lines and fostering instability."
+  },
+  "historicalContext": {
+    "postSovietNeoliberalismAndOligarchy": "The 'shock therapy' economic policies promoted by Western institutions like the IMF in the 1990s were imposed on both Russia and Ukraine. This rapid, mass privatisation of state assets allowed a small class of politically connected individuals—the oligarchs—to accumulate vast wealth and power. This process hollowed out the state, created deep-seated corruption, and made both countries' economies dependent on raw material exports and vulnerable to external pressures. The current conflict is, in part, a violent struggle between these rival oligarchic capitalist states.",
+    "natoEastwardExpansion": "The post-Cold War expansion of NATO into the former Warsaw Pact countries and Baltic states was a primary driver of the escalating geopolitical crisis. Framed in the West as a defensive measure for new democracies, it was perceived by Russia as an aggressive encroachment on its sphere of influence and a direct security threat. This relentless military expansion, against the warnings of many strategists, created a zero-sum security dilemma that ultimately shattered the European peace and contributed directly to the decision by Russia to invade.",
+    "internationalLawAndAccountability": "Russia's invasion is a clear violation of the UN Charter and international law. There is extensive documentation of war crimes, including indiscriminate attacks on civilian areas, summary executions, and torture. The International Criminal Court (ICC) has issued arrest warrants for Russian officials. Simultaneously, critics point to the selective application of international law by Western powers, who have themselves engaged in illegal invasions and interventions (e.g., Iraq, Libya) without facing accountability, thereby weakening the international legal order that they now invoke."
+  },
+  "humanitarianImpact": {
+    "displaced": "Approximately 3.7 million people remain internally displaced within Ukraine, having fled their homes due to active fighting and occupation.",
+    "refugees": "Over 6.5 million Ukrainians are registered as refugees globally, having sought safety in other countries.",
+    "casualties": "Tens of thousands of civilians have been killed, with the UN recording over 10,000 deaths, though the true figure is believed to be substantially higher. Military casualties on both sides are estimated in the hundreds of thousands.",
+    "affected": "An estimated 14.6 million people inside Ukraine—around 40% of the population—require urgent humanitarian assistance.",
+    "healthSystemCollapsed": "Over 1,500 attacks on the healthcare system have been verified, crippling access to medical care for millions.",
+    "livelihoodsAndEconomicLoss": "The war has shrunk Ukraine's economy by a third, destroying critical infrastructure and agricultural land, and plunging millions into poverty."
+  },
+  "timeline": [
+    {
+      "year": "1932-1933",
+      "event": "**The Holodomor ('Death by Hunger')**: A man-made famine engineered by the Soviet state under Joseph Stalin kills millions of Ukrainians. The event is a foundational national trauma that informs Ukraine's deep-seated desire for sovereignty and its suspicion of Moscow's intentions."
+    },
+    {
+      "year": "1991",
+      "event": "**Independence**: Ukraine declares independence from the Soviet Union, marking a new era of sovereignty but also of geopolitical vulnerability between Russia and the West."
+    },
+    {
+      "year": "1999",
+      "event": "**First Wave of NATO Expansion**: Poland, Hungary and the Czech Republic join NATO, beginning the alliance's formal eastward push that Russia perceives as a threat."
+    },
+    {
+      "year": "2004",
+      "event": "**Orange Revolution**: Mass protests overturn a fraudulent presidential election, installing a pro-Western government. The event highlights the escalating tug-of-war over Ukraine's geopolitical alignment."
+    },
+    {
+      "year": "2008",
+      "event": "**Bucharest NATO Summit**: At its summit in Bucharest, NATO formally declares that Ukraine and Georgia 'will become members of NATO'. The declaration crosses a major Russian red line and is cited by many critical analysts as the point where a future conflict became highly probable."
+    },
+    {
+      "year": "2014",
+      "event": "**Maidan Uprising & Annexation of Crimea**: A popular uprising, which includes significant far-right elements, overthrows the elected pro-Russian government. Russia responds by illegally annexing Crimea and instigating a separatist war in the Donbas region."
+    },
+    {
+      "year": "2022",
+      "event": "**Full-Scale Russian Invasion**: Citing NATO expansion and the protection of Russian speakers, Russia launches a full-scale invasion of Ukraine, triggering the largest conventional war in Europe since WWII."
+    },
+    {
+      "year": "2022-Present",
+      "event": "**War of Attrition & Proxy Conflict**: The war settles into a brutal conflict heavily supplied by NATO, confirming its status as a proxy war between Russia and the West fought on Ukrainian soil."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Nova Ukraine",
+        "description": "A US-based non-profit that provides humanitarian aid to vulnerable populations and supports Ukraine in its efforts to build a strong civil society.",
+        "url": "https://novaukraine.org"
+      },
+      {
+        "organisation": "Razom for Ukraine",
+        "description": "Provides critical humanitarian aid and works to build a prosperous, democratic and sovereign Ukraine.",
+        "url": "https://www.razomforukraine.org"
+      },
+      {
+        "organisation": "Ukraine Red Cross",
+        "description": "A national society providing on-the-ground emergency aid, first aid, shelter, and psychosocial support to civilians affected by the conflict.",
+        "url": "https://redcross.org.ua/en/"
+      },
+      {
+        "organisation": "United24",
+        "description": "The official fundraising platform of Ukraine, initiated by President Volodymyr Zelenskyy, which directs funds to defence, medical aid and rebuilding.",
+        "url": "https://u24.gov.ua"
+      },
+      {
+        "organisation": "Voices of Children",
+        "description": "A Ukrainian charitable foundation that provides psychological and psychosocial support to children affected by the war.",
+        "url": "https://voices.org.ua"
+      }
+    ],
+    "advocacy": [
+      "Oppose all imperialist aggression, including Russia's invasion of Ukraine and the decades-long military expansion of NATO that created the conditions for war.",
+      "Call for an immediate ceasefire and a negotiated diplomatic settlement to end the bloodshed, rather than military escalation.",
+      "Advocate for the cancellation of Ukraine's foreign debt to ensure that post-war reconstruction benefits its people, not international financial institutions and corporations.",
+      "Support peace movements and conscientious objectors in Russia, Ukraine, and Belarus who oppose the war.",
+      "Demand self-determination for the Ukrainian people, free from domination by any foreign power, whether from the East or the West."
+    ]
+  },
+  "reading": [
+    {
+      "title": "Frontline Ukraine: Crisis in the Borderlands",
+      "url": "https://www.goodreads.com/book/show/24717077",
+      "description": "Richard Sakwa provides a detailed academic analysis of the roots of the crisis, focusing on Ukraine's internal divisions and the dual pressures from Russia and the West."
+    },
+    {
+      "title": "The Tragedy of Great Power Politics",
+      "url": "https://www.goodreads.com/book/show/18378022",
+      "description": "John Mearsheimer's foundational text on 'offensive realism,' which provides the theoretical basis for understanding the war as a predictable outcome of great power competition and NATO expansion."
+    }
+  ]
+}
