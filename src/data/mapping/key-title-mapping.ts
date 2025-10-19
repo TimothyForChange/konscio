@@ -13,37 +13,65 @@ export const keyToTitleMap: Record<string, string> = {
   livelihoodsAndEconomicLoss: 'Livelihoods and Economic Loss',
   other: 'Other',
 
-  // Keys from historicalContext objects
+  // Afghanistan
   theGraveyardOfEmpiresMyth: 'The "Graveyard of Empires" Myth',
   economicPressureAndSanctions: 'Economic Pressure and Sanctions',
-  internationalLawAndAccountability: 'International Law and Accountability',
+
+  // DRC
   conflictMineralsAndForeignInfluence: 'Conflict Minerals and Foreign Influence',
   thePostColonialStateAndExternalInterference: 'The Post-Colonial State and External Interference',
+
+  // Ethiopia
   theFailureOfEthnicFederalism: 'The Failure of Ethnic Federalism',
   geopoliticsOfTheHornAndProxyInterests: 'Geopolitics of the Horn and Proxy Interests',
   aidDependencyAndTheDevelopmentalState: 'Aid Dependency and the Developmental State',
+
+  // Haiti
   postColonialDebtAndExtraction: 'Post-Colonial Debt and Extraction',
   foreignInterventionAndOccupation: 'Foreign Intervention and Occupation',
   publicHealthAndUnresponsibility: 'Public Health and Unresponsibility',
+
+  // Myanmar
   militaryEconomyAndCorporateInvolvement: 'Military Economy and Corporate Involvement',
   militaryRuleAndEthnicMinorities: 'Military Rule and Ethnic Minorities',
+
+  // Palestine
+  geopoliticalInvolvement: 'Geopolitical Involvement',
+  settlerColonialismAndApartheid: 'Settler Colonialism and Apartheid',
+
+  // Sahel
+  postColonialRelationsAndForeignIntervention: 'Post-Colonial Relations and Foreign Intervention',
+  climateChangeAndRegionalInstability: 'Climate Change and Regional Instability',
+
+  // Somalia
+  theFragmentedState: 'The Fragmented State',
+  climateChangeAndEconomicExploitation: 'Climate Change and Economic Exploitation',
+
+  // South Sudan
+  corruptionAndTheGlobalFinancialSystem: 'Corruption and the Global Financial System',
+  oilConflictAndClimateChallenges: 'Oil Conflict and Climate Challenges',
+
+  // Sudan
   rivalMilitaryEconomicModels: 'Rival Military Economic Models',
+
+  // Syria
   internationalisedProxyWarfare: 'Internationalised Proxy Warfare',
   preWarNeoliberalReforms: 'Pre-War Neoliberal Reforms',
   fragmentationAndTheWarOnTerror: 'Fragmentation and the War on Terror',
+
+  // Ukraine
   postSovietNeoliberalismAndOligarchy: 'Post-Soviet Neoliberalism and Oligarchy',
   natoEastwardExpansion: 'NATO Eastward Expansion',
+
+  // Venezuela
   theResourceCurseAndDependency: 'The Resource Curse and Dependency',
+
+  // Yemen
   geopoliticalChokepointAndGlobalTrade: 'Geopolitical Chokepoint and Global Trade',
   armsTradeAndInternationalInvolvement: 'Arms Trade and International Involvement',
-  theFragmentedState: 'The Fragmented State',
-  climateChangeAndEconomicExploitation: 'Climate Change and Economic Exploitation',
-  climateChangeAndRegionalInstability: 'Climate Change and Regional Instability',
-  corruptionAndTheGlobalFinancialSystem: 'Corruption and the Global Financial System',
-  oilConflictAndClimateChallenges: 'Oil Conflict and Climate Challenges',
-  postColonialRelationsAndForeignIntervention: 'Post-Colonial Relations and Foreign Intervention',
-  geopoliticalInvolvement: 'Geopolitical Involvement',
-  settlerColonialismAndApartheid: 'Settler Colonialism and Apartheid',
+
+  // Shared across multiple countries
+  internationalLawAndAccountability: 'International Law and Accountability',
 };
 
 export default keyToTitleMap;

@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "astro": "astro",
-    "build": "npm run generate:schemas && astro build",
-    "dev": "tsc --noEmit && npm run generate:schemas && astro dev",
+    "build": "astro build",
+    "dev": "tsc --noEmit && astro dev",
     "format": "prettier --write .",
-    "generate:schemas": "tsx scripts/generate-json-schemas.ts",
     "lint": "eslint . --fix --cache --cache-location .eslintcache",
     "prepare": "husky",
     "preview": "astro preview",

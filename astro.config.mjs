@@ -3,6 +3,16 @@ import playformCompress from '@playform/compress';
 import playformInline from '@playform/inline';
 import { defineConfig } from 'astro/config';
 import { FontaineTransform } from 'fontaine';
+import { generateSchemas } from './scripts/generate-json-schemas.ts';
+
+const generateJsonSchemas = () => ({
+  name: 'generate-json-schemas',
+  hooks: {
+    'astro:build:start': ({ logger }) => {
+      generateSchemas(logger);
+    },
+  },
+});
 
 const fontaineOptions = {
   fallbacks: [
@@ -22,7 +32,7 @@ const fontaineOptions = {
 };
 
 export default defineConfig({
-  integrations: [sitemap(), playformCompress(), playformInline()],
+  integrations: [sitemap(), playformCompress(), playformInline(), generateJsonSchemas()],
   site: 'https://timothyforchange.co.za',
   trailingSlash: 'never',
   output: 'static',
