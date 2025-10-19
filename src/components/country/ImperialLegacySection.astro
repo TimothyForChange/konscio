@@ -16,9 +16,7 @@ const { imperialRoot } = Astro.props as Properties;
   <h3 class='sub-heading'>{imperialRoot.imperialPower || '—'}</h3>
   {
     imperialRoot.legacy &&
-      formatParagraphs(imperialRoot.legacy).map((html: string) => (
-        <p set:html={html} />
-      ))
+      formatParagraphs(imperialRoot.legacy).map((html: string) => <p set:html={html} />)
   }
 </section>
 

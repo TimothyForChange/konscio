@@ -21,9 +21,7 @@ export function validateCountries(countriesData: unknown[]): Country[] {
   const result = CountriesSchema.safeParse(countriesData);
 
   if (!result.success) {
-    throw new Error(
-      `Countries array validation failed: ${result.error.message}`
-    );
+    throw new Error(`Countries array validation failed: ${result.error.message}`);
   }
 
   return result.data;

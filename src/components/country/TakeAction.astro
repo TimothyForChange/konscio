@@ -45,11 +45,7 @@ if (donateData.length > 0) {
 <section class='action-section' {...id ? { id } : {}}>
   <h2>How You Can Help</h2>
 
-  {
-    groups.length > 0 && (
-      <ActionSection sectionTitle='' groups={groups} standalone={false} />
-    )
-  }
+  {groups.length > 0 && <ActionSection sectionTitle='' groups={groups} standalone={false} />}
 
   {
     advocacyData.length > 0 && (

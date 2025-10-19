@@ -6,11 +6,7 @@ export interface Properties {
 
 const { href = '/', class: className = '' } = Astro.props;
 
-const sanitizedHref = href
-  ? href.startsWith('/') || href.startsWith('http')
-    ? href
-    : '/'
-  : '/';
+const sanitizedHref = href ? (href.startsWith('/') || href.startsWith('http') ? href : '/') : '/';
 ---
 
 <a

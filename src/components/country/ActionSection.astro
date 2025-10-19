@@ -24,12 +24,7 @@ export interface Properties {
   standalone?: boolean;
 }
 
-const {
-  sectionTitle,
-  groups,
-  id,
-  standalone = true,
-} = Astro.props as Properties;
+const { sectionTitle, groups, id, standalone = true } = Astro.props as Properties;
 ---
 
 {

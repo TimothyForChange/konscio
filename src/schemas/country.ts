@@ -3,9 +3,7 @@ import { COUNTRY_CATEGORIES } from '../constants/category';
 
 const CountrySchema = z.object({
   name: z.string(),
-  slug: z
-    .string()
-    .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Slug must be URL-friendly'),
+  slug: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Slug must be URL-friendly'),
   flag: z.string(),
   description: z.string(),
   seoDescription: z.string(),

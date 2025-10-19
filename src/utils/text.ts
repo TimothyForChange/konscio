@@ -1,26 +1,27 @@
+import keyToTitleMap from '../data/mapping/key-title-mapping';
 import { escapeHtml } from './html.ts';
 
 export function formatKeyToTitle(key: string): string {
+  if (keyToTitleMap[key]) {
+    return keyToTitleMap[key];
+  }
+
   const spaced = key.replaceAll(/([A-Z])/g, ' $1');
+  let formatted = spaced.charAt(0).toUpperCase() + spaced.slice(1);
 
-  let formatted = spaced;
-
-  formatted = formatted.replaceAll(/\s?nato\s/gi, ' NATO ');
-  formatted = formatted.replaceAll(/\s?un\s/gi, ' UN ');
-  formatted = formatted.replaceAll(/\s?imf\s/gi, ' IMF ');
-  formatted = formatted.replaceAll(/\s?eu\s/gi, ' EU ');
-  formatted = formatted.replaceAll(/\s?uk\s/gi, ' UK ');
-  formatted = formatted.replaceAll(/\s?us\s/gi, ' US ');
-  formatted = formatted.replaceAll(/\s?ussr\s/gi, ' USSR ');
-
-  formatted = formatted.charAt(0).toUpperCase() + formatted.slice(1);
-
-  formatted = formatted.replaceAll(' And ', ' & ');
-  formatted = formatted.replaceAll(' Vs ', ' vs. ');
-  formatted = formatted.replaceAll(' Of ', ' of ');
-  formatted = formatted.replaceAll(' As ', ' as ');
-  formatted = formatted.replaceAll(' In ', ' in ');
-  formatted = formatted.replaceAll(' Out ', ' out ');
+  formatted = formatted.replaceAll(/\bNato\b/g, 'NATO');
+  formatted = formatted.replaceAll(/\bUn\b/g, 'UN');
+  formatted = formatted.replaceAll(/\bImf\b/g, 'IMF');
+  formatted = formatted.replaceAll(/\bEu\b/g, 'EU');
+  formatted = formatted.replaceAll(/\bUk\b/g, 'UK');
+  formatted = formatted.replaceAll(/\bUs\b/g, 'US');
+  formatted = formatted.replaceAll(/\bUssr\b/g, 'USSR');
+  formatted = formatted.replaceAll(/\bAnd\b/g, ' & ');
+  formatted = formatted.replaceAll(/\bVs\b/g, ' vs. ');
+  formatted = formatted.replaceAll(/\bOf\b/g, ' of ');
+  formatted = formatted.replaceAll(/\bAs\b/g, ' as ');
+  formatted = formatted.replaceAll(/\bIn\b/g, ' in ');
+  formatted = formatted.replaceAll(/\bOut\b/g, ' out ');
 
   return formatted;
 }

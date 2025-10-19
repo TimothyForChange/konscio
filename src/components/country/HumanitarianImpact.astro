@@ -1,5 +1,5 @@
 ---
-import type { HumanitarianImpact } from '../../types/country.ts';
+import type { HumanitarianImpact } from '../../types/country';
 import { formatKeyToTitle, formatText } from '../../utils/text.ts';
 import ImpactGrid from '../blocks/ImpactGrid.astro';
 
@@ -81,8 +81,7 @@ const stats = Object.entries(humanitarianImpact)
 
   @media (width >= 768px) {
     .humanitarian-section {
-      padding: calc(var(--section-gap) + var(--space-xs))
-        calc(var(--section-gap) + var(--space-xs))
+      padding: calc(var(--section-gap) + var(--space-xs)) calc(var(--section-gap) + var(--space-xs))
         calc(var(--section-gap) - var(--space-xs));
       margin-bottom: var(--section-gap);
     }

@@ -13,18 +13,13 @@ const { colonialRoot } = Astro.props as Properties;
 
 {
   (colonialRoot.colonialPower || colonialRoot.legacy) && (
-    <section
-      class='colonial-section section'
-      aria-labelledby='colonial-heading'
-    >
+    <section class='colonial-section section' aria-labelledby='colonial-heading'>
       <h2 id='colonial-heading' class='section-heading'>
         The Colonial Root
       </h2>
       <h3 class='sub-heading'>{colonialRoot.colonialPower || '—'}</h3>
       {colonialRoot.legacy &&
-        formatParagraphs(colonialRoot.legacy).map((html: string) => (
-          <p set:html={html} />
-        ))}
+        formatParagraphs(colonialRoot.legacy).map((html: string) => <p set:html={html} />)}
     </section>
   )
 }

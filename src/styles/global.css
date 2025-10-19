@@ -16,16 +16,8 @@
   --scrollbar-size: 10px;
   --scrollbar-track-bg: var(--bg-alt);
   --scrollbar-track-border: var(--bg-alt);
-  --scrollbar-thumb-bg: color-mix(
-    in srgb,
-    var(--accent-secondary) 55%,
-    var(--bg-surface)
-  );
-  --scrollbar-thumb-bg-hover: color-mix(
-    in srgb,
-    var(--accent-secondary) 80%,
-    var(--bg-surface)
-  );
+  --scrollbar-thumb-bg: color-mix(in srgb, var(--accent-secondary) 55%, var(--bg-surface));
+  --scrollbar-thumb-bg-hover: color-mix(in srgb, var(--accent-secondary) 80%, var(--bg-surface));
   --scrollbar-thumb-border: var(--bg-surface);
   --scrollbar-corner-bg: var(--bg-alt);
   --section-gap: 2rem;
@@ -91,16 +83,8 @@
     --text-muted: #b5a28a;
     --focus-ring: #d4b570;
     --focus-ring-soft: rgb(212 181 112 / 40%);
-    --scrollbar-thumb-bg: color-mix(
-      in srgb,
-      var(--accent-secondary) 55%,
-      var(--bg-surface)
-    );
-    --scrollbar-thumb-bg-hover: color-mix(
-      in srgb,
-      var(--accent-secondary) 80%,
-      var(--bg-surface)
-    );
+    --scrollbar-thumb-bg: color-mix(in srgb, var(--accent-secondary) 55%, var(--bg-surface));
+    --scrollbar-thumb-bg-hover: color-mix(in srgb, var(--accent-secondary) 80%, var(--bg-surface));
     --scrollbar-track-border: var(--border);
     --scrollbar-track-bg: var(--bg-alt);
     --scrollbar-thumb-border: var(--bg-surface);
@@ -116,9 +100,8 @@
   src: url('@fontsource-variable/inter/files/inter-latin-wght-normal.woff2')
     format('woff2-variations');
   unicode-range:
-    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
-    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212,
-    U+2215, U+FEFF, U+FFFD;
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @media (width >= 1024px) {

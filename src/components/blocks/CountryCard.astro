@@ -1,12 +1,11 @@
 ---
-import type { Country } from '../../types/country.ts';
+import type { Country } from '../../types/country';
 
 export interface CountryCardProperties extends Partial<Country> {
   slug: string;
   name: string;
 }
-const { slug, name, flag, description, category } =
-  Astro.props as CountryCardProperties;
+const { slug, name, flag, description, category } = Astro.props as CountryCardProperties;
 ---
 
 <a

@@ -1,5 +1,5 @@
 import { MissionSchema } from '../schemas/mission';
-import type { Mission } from '../types/Mission';
+import type { Mission } from '../types/mission';
 
 export function validateMission(missionData: unknown): Mission {
   const result = MissionSchema.safeParse(missionData);

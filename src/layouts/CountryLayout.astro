@@ -1,10 +1,5 @@
 ---
-import {
-  isArray,
-  isEmpty,
-  isObject as radashIsObject,
-  isString as radashIsString,
-} from 'radash';
+import { isArray, isEmpty, isObject as radashIsObject, isString as radashIsString } from 'radash';
 import AdditionalReading from '../components/country/AdditionalReading.astro';
 import ColonialLegacySection from '../components/country/ColonialLegacySection.astro';
 import CountryHeader from '../components/country/CountryHeader.astro';
@@ -15,7 +10,7 @@ import ImperialLegacySection from '../components/country/ImperialLegacySection.a
 import TakeAction from '../components/country/TakeAction.astro';
 import Timeline from '../components/country/Timeline.astro';
 import BackButton from '../components/shared/BackButton.astro';
-import type { CountryData } from '../types/country.ts';
+import type { CountryData } from '../types/country';
 import { generateSlug } from '../utils/helpers.ts';
 import Layout from './Layout.astro';
 import 'remixicon/fonts/remixicon.css';
@@ -61,10 +56,8 @@ const articleSchema = {
   publisher: {
     '@id': 'https://timothyforchange.co.za/#person',
   },
-  datePublished:
-    countryData?.lastUpdated || new Date().toISOString().split('T')[0],
-  dateModified:
-    countryData?.lastUpdated || new Date().toISOString().split('T')[0],
+  datePublished: countryData?.lastUpdated || new Date().toISOString().split('T')[0],
+  dateModified: countryData?.lastUpdated || new Date().toISOString().split('T')[0],
   about: [
     {
       '@type': 'Place',
@@ -98,10 +91,7 @@ const articleSchema = {
   <div class='page-wrapper'>
     <main class='container' id='container' tabindex='-1'>
       <div class='country-page'>
-        <CountryHeader
-          countryName={countryData?.name}
-          countrySlug={countrySlug}
-        />
+        <CountryHeader countryName={countryData?.name} countrySlug={countrySlug} />
 
         {
           radashIsString(countryData?.currentCrisisSummary) && (

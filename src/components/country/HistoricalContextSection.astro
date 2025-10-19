@@ -16,10 +16,7 @@ const { historicalContext } = Astro.props as Properties;
     Object.entries(historicalContext!)
       .filter(
         ([key, value]) =>
-          isString(key) &&
-          isString(value) &&
-          key.trim() !== '' &&
-          value.trim() !== ''
+          isString(key) && isString(value) && key.trim() !== '' && value.trim() !== ''
       )
       .map(([key, value]) => (
         <div class='term-group'>

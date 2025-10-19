@@ -12,9 +12,7 @@ export async function loadCountries(): Promise<Country[]> {
   }
 }
 
-export async function loadCountryData(
-  countrySlug: string
-): Promise<CountryData> {
+export async function loadCountryData(countrySlug: string): Promise<CountryData> {
   try {
     const countryModule = await import(`../data/countries/${countrySlug}.json`);
     const rawData = countryModule.default;

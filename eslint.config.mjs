@@ -10,16 +10,10 @@ import { defineConfig } from 'eslint/config';
 
 export default defineConfig(
   {
-    ignores: [
-      'dist/**',
-      '**/node_modules/**',
-      '.astro/**',
-      '.qwen/**',
-      '.vscode/**',
-    ],
+    ignores: ['dist/**', '**/node_modules/**', '.astro/**', '.qwen/**', '.vscode/**'],
   },
   {
-    files: ['*.js', '*.cjs', '*.mjs'],
+    files: ['*.js', '*.mjs'],
     languageOptions: {
       parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
     },
@@ -56,7 +50,7 @@ export default defineConfig(
     rules: json.configs.recommended.rules,
   },
   {
-    files: ['*.js', '*.ts', '*.cjs', '*.astro'],
+    files: ['*.js', '*.ts', '*.mjs', '*.astro'],
     plugins: { unicorn },
     rules: {
       ...unicorn.configs.recommended.rules,

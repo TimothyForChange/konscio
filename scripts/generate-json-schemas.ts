@@ -23,19 +23,12 @@ function generateSchemas() {
   });
 
   const missionPath = path.join(schemasDir, 'json', 'mission.schema.json');
-  const countryDataPath = path.join(
-    schemasDir,
-    'json',
-    'country-data.schema.json'
-  );
+  const countryDataPath = path.join(schemasDir, 'json', 'country-data.schema.json');
 
   fs.writeFileSync(missionPath, JSON.stringify(missionJsonSchema, null, 2));
   console.log(`Wrote mission schema to ${missionPath}`);
 
-  fs.writeFileSync(
-    countryDataPath,
-    JSON.stringify(countryDataJsonSchema, null, 2)
-  );
+  fs.writeFileSync(countryDataPath, JSON.stringify(countryDataJsonSchema, null, 2));
   console.log(`Wrote country-data schema to ${countryDataPath}`);
 
   console.log('JSON schemas generated successfully!');
