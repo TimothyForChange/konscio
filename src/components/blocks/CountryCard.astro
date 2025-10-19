@@ -11,7 +11,7 @@ const { slug, name, flag, description, category } =
 
 <a
   class:list={['country-card', slug === 'palestine' && 'palestine-card']}
-  href={`/${slug}`}
+  href={`/countries/${slug}`}
   data-category={category ?? ''}
   role='listitem'
   aria-label={`Learn about ${name}. ${description ?? ''}`}

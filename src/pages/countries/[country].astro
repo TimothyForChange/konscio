@@ -1,8 +1,8 @@
 ---
-import countries from '../data/mapping/countries.ts';
-import CountryLayout from '../layouts/CountryLayout.astro';
-import type * as CountryTypes from '../types/country.ts';
-import { loadCountryData } from '../utils/data-loaders';
+import countries from '../../data/mapping/countries.ts';
+import CountryLayout from '../../layouts/CountryLayout.astro';
+import type * as CountryTypes from '../../types/country.ts';
+import { loadCountryData } from '../../utils/data-loaders';
 
 export function getStaticPaths() {
   return ((countries as CountryTypes.Country[]) || []).map((c) => ({
