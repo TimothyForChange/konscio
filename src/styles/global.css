@@ -31,7 +31,7 @@
   --section-gap: 2rem;
   --heading-gap: 1rem;
   --container-max-width: 800px;
-  --grid-max-width: 600px;
+  --grid-max-width: 640px;
   --space-xs: 0.25rem;
   --space-sm: 0.5rem;
   --space-md: 1rem;
@@ -161,7 +161,7 @@ body {
 .container {
   position: relative;
   padding: 0.3125rem;
-  max-width: 600px;
+  max-width: 640px;
   width: 90%;
   min-height: 100vh;
 }
