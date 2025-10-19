@@ -14,6 +14,7 @@ const { timeline } = Astro.props as Properties;
   <div class='timeline-container'>
     {
       (() => {
+        // Safely handle timeline data with proper type checking
         const timelineToUse = Array.isArray(timeline) ? timeline : [];
 
         return timelineToUse

@@ -1,4 +1,5 @@
 export interface Mission {
+  name: string;
   mission: string;
   description: string;
   links?: ResourceLink[];
