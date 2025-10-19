@@ -2,6 +2,7 @@
 import { DEFAULT_CATEGORY } from '../../constants/category.ts';
 import countries from '../../data/mapping/countries.ts';
 import type { Country } from '../../types/country.ts';
+import { generateSlug } from '../../utils/helpers.ts';
 import CategoryFilter from './CategoryFilter.astro';
 import CountryCard from './CountryCard.astro';
 
@@ -30,15 +31,15 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
     {
       allCategories.map((category) => (
         <div
-          id={`panel-${category.replaceAll(/\s+/g, '-').toLowerCase()}`}
+          id={`panel-${generateSlug(category)}`}
           role='tabpanel'
           class='category-panel'
-          aria-labelledby={`tab-${category.replaceAll(/\s+/g, '-').toLowerCase()}`}
+          aria-labelledby={`tab-${generateSlug(category)}`}
           hidden={category !== DEFAULT_CATEGORY}
         >
           <ul
             class='countries-grid'
-            id={`countries-grid-${category.replaceAll(/\s+/g, '-').toLowerCase()}`}
+            id={`countries-grid-${generateSlug(category)}`}
           >
             {countriesData
               .filter(
@@ -79,6 +80,10 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
 
 <script is:inline>
   document.addEventListener('DOMContentLoaded', () => {
+    function generateSlug(str) {
+      return str.toLowerCase().replace(/\s+/g, '-');
+    }
+
     function showCategoryPanel(selectedCategory) {
       const buttons = document.querySelectorAll('.category-btn');
       const panels = document.querySelectorAll('.category-panel');
@@ -96,10 +101,7 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
       }
 
       for (const panel of panels) {
-        if (
-          panel.id ===
-          `panel-${selectedCategory.toLowerCase().replace(/\\s+/g, '-')}`
-        ) {
+        if (panel.id === `panel-${generateSlug(selectedCategory)}`) {
           panel.removeAttribute('hidden');
         } else {
           panel.setAttribute('hidden', '');

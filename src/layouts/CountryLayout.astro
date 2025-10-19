@@ -11,6 +11,12 @@ import TakeAction from '../components/country/TakeAction.astro';
 import Timeline from '../components/country/Timeline.astro';
 import BackButton from '../components/shared/BackButton.astro';
 import type { CountryData } from '../types/country.ts';
+import {
+  generateSlug,
+  isNonEmptyArray,
+  isObject,
+  isString,
+} from '../utils/helpers.ts';
 import Layout from './Layout.astro';
 import 'remixicon/fonts/remixicon.css';
 import countriesList from '../data/mapping/countries.ts';
@@ -98,10 +104,9 @@ const articleSchema = {
         />
 
         {
-          countryData?.currentCrisisSummary &&
-            typeof countryData.currentCrisisSummary === 'string' && (
-              <CrisisSection summary={countryData.currentCrisisSummary} />
-            )
+          isString(countryData?.currentCrisisSummary) && (
+            <CrisisSection summary={countryData.currentCrisisSummary} />
+          )
         }
 
         {
@@ -114,55 +119,42 @@ const articleSchema = {
         }
 
         {
-          Array.isArray(countryData?.timeline) &&
-            !isEmpty(countryData.timeline) && (
-              <Timeline timeline={countryData.timeline} />
-            )
+          isNonEmptyArray(countryData?.timeline) && (
+            <Timeline timeline={countryData.timeline} />
+          )
         }
 
         {
-          countryData?.colonialRoot &&
-            typeof countryData.colonialRoot === 'object' &&
-            !Array.isArray(countryData.colonialRoot) && (
-              <ColonialLegacySection colonialRoot={countryData.colonialRoot} />
-            )
+          isObject(countryData?.colonialRoot) && (
+            <ColonialLegacySection colonialRoot={countryData.colonialRoot} />
+          )
         }
 
         {
-          countryData?.imperialRoot &&
-            typeof countryData.imperialRoot === 'object' &&
-            !Array.isArray(countryData.imperialRoot) && (
-              <ImperialLegacySection imperialRoot={countryData.imperialRoot} />
-            )
+          isObject(countryData?.imperialRoot) && (
+            <ImperialLegacySection imperialRoot={countryData.imperialRoot} />
+          )
         }
 
         {
-          countryData?.historicalContext &&
-            typeof countryData.historicalContext === 'object' &&
-            !Array.isArray(countryData.historicalContext) && (
-              <HistoricalContextSection
-                historicalContext={countryData.historicalContext}
-                countrySlug={countrySlug}
-              />
-            )
+          isObject(countryData?.historicalContext) && (
+            <HistoricalContextSection
+              historicalContext={countryData.historicalContext}
+              countrySlug={countrySlug}
+            />
+          )
         }
 
         {
-          countryData?.takeAction &&
-            typeof countryData.takeAction === 'object' && (
-              <TakeAction
-                takeAction={countryData.takeAction}
-                id='take-action'
-              />
-            )
+          isObject(countryData?.takeAction) && (
+            <TakeAction takeAction={countryData.takeAction} id='take-action' />
+          )
         }
 
         {
-          countryData?.reading &&
-            Array.isArray(countryData.reading) &&
-            countryData.reading.length > 0 && (
-              <AdditionalReading reading={countryData.reading} id='sources' />
-            )
+          isNonEmptyArray(countryData?.reading) && (
+            <AdditionalReading reading={countryData.reading} id='sources' />
+          )
         }
 
         <div class='country-bottom-back'>

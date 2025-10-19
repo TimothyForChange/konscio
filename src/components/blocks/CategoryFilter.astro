@@ -1,6 +1,7 @@
 ---
 import { isString } from 'radash';
 import { DEFAULT_CATEGORY } from '../../constants/category.ts';
+import { generateSlug } from '../../utils/helpers.ts';
 
 export interface CategoryFilterProperties {
   categories: string[];
@@ -13,8 +14,6 @@ const { categories, activeCategory = DEFAULT_CATEGORY } =
 const filteredCategories = categories.filter(
   (cat) => isString(cat) && cat.trim() !== ''
 );
-
-const spaceRegex = /\s+/g;
 ---
 
 <div
@@ -31,8 +30,8 @@ const spaceRegex = /\s+/g;
         type='button'
         role='tab'
         aria-selected={category === activeCategory}
-        id={`tab-${category.replaceAll(spaceRegex, '-').toLowerCase()}`}
-        aria-controls={`panel-${category.replaceAll(spaceRegex, '-').toLowerCase()}`}
+        id={`tab-${generateSlug(category)}`}
+        aria-controls={`panel-${generateSlug(category)}`}
         aria-posinset={index + 1}
         aria-setsize={filteredCategories.length}
       >

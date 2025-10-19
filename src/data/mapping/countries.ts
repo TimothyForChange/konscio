@@ -20,6 +20,15 @@ const countries: Country[] = [
     category: 'Insurgency & Resource Conflict',
   },
   {
+    name: 'Ethiopia',
+    slug: 'ethiopia',
+    flag: '🇪🇹',
+    description: 'Ethnic conflict & famine',
+    seoDescription:
+      "Ethiopia faces a humanitarian catastrophe in Tigray and beyond: ethnic violence, famine, and mass displacement. The Horn of Africa's largest nation struggles with political instability and war.",
+    category: 'Civil War & Ethnic Conflict',
+  },
+  {
     name: 'Haiti',
     slug: 'haiti',
     flag: '🇭🇹',
@@ -47,7 +56,7 @@ const countries: Country[] = [
     category: 'Occupation & Dispossession',
   },
   {
-    name: 'The Sahel',
+    name: 'Sahel',
     slug: 'sahel',
     flag: '🇧🇫🇲🇱🇳🇪',
     description: 'Insurgency, climate crisis & foreign intervention',
@@ -81,6 +90,33 @@ const countries: Country[] = [
     seoDescription:
       "Sudan's military factions battle for power following the 2021 coup. Mass displacement, economic collapse, and the struggle for democratic transition.",
     category: 'State Collapse & Civil War',
+  },
+  {
+    name: 'Syria',
+    slug: 'syria',
+    flag: '🇸🇾',
+    description: 'Civil war & foreign interventions',
+    seoDescription:
+      'Syria has endured over a decade of civil war, foreign interventions, and widespread destruction. Millions displaced and human rights violations persist, making it a central humanitarian crisis in the Middle East.',
+    category: 'State Collapse & Civil War',
+  },
+  {
+    name: 'Ukraine',
+    slug: 'ukraine',
+    flag: '🇺🇦',
+    description: 'Invasion & mass displacement',
+    seoDescription:
+      "Ukraine faces a devastating war following Russia's 2022 invasion. Millions displaced, cities destroyed, and ongoing human rights violations highlight Europe's largest humanitarian crisis since WWII.",
+    category: 'Invasion & Occupation',
+  },
+  {
+    name: 'Venezuela',
+    slug: 'venezuela',
+    flag: '🇻🇪',
+    description: 'Economic collapse & mass migration',
+    seoDescription:
+      "Venezuela's economic implosion has triggered widespread food and medicine shortages, hyperinflation, and one of the largest migration crises in the Americas. Political repression compounds the humanitarian emergency.",
+    category: 'Economic Collapse & Political Repression',
   },
   {
     name: 'Yemen',
