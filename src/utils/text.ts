@@ -11,6 +11,7 @@ export function formatKeyToTitle(key: string): string {
   formatted = formatted.replaceAll(/\s?eu\s/gi, ' EU ');
   formatted = formatted.replaceAll(/\s?uk\s/gi, ' UK ');
   formatted = formatted.replaceAll(/\s?us\s/gi, ' US ');
+  formatted = formatted.replaceAll(/\s?ussr\s/gi, ' USSR ');
 
   formatted = formatted.charAt(0).toUpperCase() + formatted.slice(1);
 
