@@ -14,13 +14,17 @@ const filteredCategories = categories.filter(
   (cat) => isString(cat) && cat.trim() !== ''
 );
 
-// Cache regex for better performance
 const spaceRegex = /\s+/g;
 ---
 
-<div class='category-filters' id='category-filters' role='tablist'>
+<div
+  class='category-filters'
+  id='category-filters'
+  role='tablist'
+  aria-label='Category filters'
+>
   {
-    filteredCategories.map((category) => (
+    filteredCategories.map((category, index) => (
       <button
         class={`category-btn ${category === activeCategory ? 'active' : ''}`}
         data-category={category}
@@ -29,6 +33,8 @@ const spaceRegex = /\s+/g;
         aria-selected={category === activeCategory}
         id={`tab-${category.replaceAll(spaceRegex, '-').toLowerCase()}`}
         aria-controls={`panel-${category.replaceAll(spaceRegex, '-').toLowerCase()}`}
+        aria-posinset={index + 1}
+        aria-setsize={filteredCategories.length}
       >
         {category}
       </button>

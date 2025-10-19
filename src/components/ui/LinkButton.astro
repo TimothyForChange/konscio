@@ -19,7 +19,7 @@ const sanitizedUrl = url.startsWith('http') ? url : `https://${url}`;
     class='link-button'
     target='_blank'
     rel='noopener noreferrer'
-    aria-label={`${buttonText} ${title}`}
+    aria-label={`${title} (opens in new tab)`}
   >
     {buttonText}
     <i class='ri-external-link-line' aria-hidden='true'></i>

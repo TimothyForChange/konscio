@@ -27,58 +27,83 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
   />
 
   <div class='countries-container' id='countries-container'>
-    <ul class='countries-grid' id='countries-grid'>
-      {
-        countriesData.map((country) => (
-          <CountryCard
-            slug={country.slug}
-            name={country.name}
-            flag={typeof country.flag === 'string' ? country.flag : undefined}
-            description={
-              typeof country.description === 'string'
-                ? country.description
-                : undefined
-            }
-            category={
-              typeof country.category === 'string'
-                ? country.category
-                : undefined
-            }
-            data-category={
-              typeof country.category === 'string'
-                ? country.category
-                : DEFAULT_CATEGORY
-            }
-          />
-        ))
-      }
-    </ul>
+    {
+      allCategories.map((category) => (
+        <div
+          id={`panel-${category.replaceAll(/\s+/g, '-').toLowerCase()}`}
+          role='tabpanel'
+          class='category-panel'
+          aria-labelledby={`tab-${category.replaceAll(/\s+/g, '-').toLowerCase()}`}
+          hidden={category !== DEFAULT_CATEGORY}
+        >
+          <ul
+            class='countries-grid'
+            id={`countries-grid-${category.replaceAll(/\s+/g, '-').toLowerCase()}`}
+          >
+            {countriesData
+              .filter(
+                (country) =>
+                  category === DEFAULT_CATEGORY ||
+                  (typeof country.category === 'string' &&
+                    country.category === category)
+              )
+              .map((country) => (
+                <li class='country-item'>
+                  <CountryCard
+                    slug={country.slug}
+                    name={country.name}
+                    flag={
+                      typeof country.flag === 'string'
+                        ? country.flag
+                        : undefined
+                    }
+                    description={
+                      typeof country.description === 'string'
+                        ? country.description
+                        : undefined
+                    }
+                    category={
+                      typeof country.category === 'string'
+                        ? country.category
+                        : undefined
+                    }
+                  />
+                </li>
+              ))}
+          </ul>
+        </div>
+      ))
+    }
   </div>
 </section>
 
 <script is:inline>
   document.addEventListener('DOMContentLoaded', () => {
-    function filterCountries(selectedCategory) {
+    function showCategoryPanel(selectedCategory) {
       const buttons = document.querySelectorAll('.category-btn');
-      const cards = document.querySelectorAll('.country-card');
+      const panels = document.querySelectorAll('.category-panel');
 
       for (const button of buttons) {
         if (button.dataset.category === selectedCategory) {
           button.classList.add('active');
           button.setAttribute('aria-selected', 'true');
+          button.setAttribute('tabindex', '0');
         } else {
           button.classList.remove('active');
           button.setAttribute('aria-selected', 'false');
+          button.setAttribute('tabindex', '-1');
         }
       }
 
-      for (const card of cards) {
-        const cardCategory = card.dataset.category;
-
-        card.style.display =
-          selectedCategory === 'All' || cardCategory === selectedCategory
-            ? 'block'
-            : 'none';
+      for (const panel of panels) {
+        if (
+          panel.id ===
+          `panel-${selectedCategory.toLowerCase().replace(/\\s+/g, '-')}`
+        ) {
+          panel.removeAttribute('hidden');
+        } else {
+          panel.setAttribute('hidden', '');
+        }
       }
     }
 
@@ -87,8 +112,15 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
     for (const button of categoryButtons) {
       button.addEventListener('click', (event) => {
         const target = event.target;
+        showCategoryPanel(target.dataset.category);
+      });
 
-        filterCountries(target.dataset.category);
+      // Add keyboard support
+      button.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          showCategoryPanel(event.target.dataset.category);
+        }
       });
     }
   });
@@ -115,6 +147,12 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
     gap: var(--gap-sm);
     max-width: var(--grid-max-width);
     margin: 0 auto;
+    list-style: none;
+    padding: 0;
+  }
+
+  .country-item {
+    margin: 0;
   }
 
   .country-card {
@@ -123,6 +161,7 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
     transition: var(--card-transition);
     box-sizing: border-box;
     box-shadow: var(--shadow-sm);
+    height: 100%;
   }
 
   .country-card:hover {
@@ -177,6 +216,14 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
     .causes-heading {
       font-size: var(--font-size-xl);
     }
+  }
+
+  .category-panel {
+    display: block;
+  }
+
+  .category-panel[hidden] {
+    display: none;
   }
 
   @media (hover: none) and (pointer: coarse) {
