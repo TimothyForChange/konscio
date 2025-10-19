@@ -4,6 +4,7 @@ import json from '@eslint/json';
 import ts from '@typescript-eslint/eslint-plugin';
 import prettier from 'eslint-config-prettier/flat';
 import astro from 'eslint-plugin-astro';
+import sonarjs from 'eslint-plugin-sonarjs';
 import unicorn from 'eslint-plugin-unicorn';
 import { defineConfig } from 'eslint/config';
 
@@ -22,12 +23,19 @@ export default defineConfig(
     languageOptions: {
       parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
     },
-    ...eslint.configs.recommended,
+    plugins: { sonarjs },
+    rules: {
+      ...eslint.configs.recommended.rules,
+      ...sonarjs.configs.recommended.rules,
+    },
   },
   {
-    files: ['*.ts', '*.tsx'],
-    plugins: { '@typescript-eslint': ts },
-    rules: ts.configs.recommended.rules,
+    files: ['*.ts', '*.astro'],
+    plugins: { '@typescript-eslint': ts, sonarjs },
+    rules: {
+      ...ts.configs.recommended.rules,
+      ...sonarjs.configs.recommended.rules,
+    },
   },
   {
     files: ['*.astro'],
@@ -48,7 +56,7 @@ export default defineConfig(
     rules: json.configs.recommended.rules,
   },
   {
-    files: ['*.js', '*.ts', '*.tsx', '*.astro'],
+    files: ['*.js', '*.ts', '*.cjs', '*.astro'],
     plugins: { unicorn },
     rules: {
       ...unicorn.configs.recommended.rules,
