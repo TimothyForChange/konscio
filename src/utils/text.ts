@@ -3,7 +3,16 @@ import { escapeHtml } from './html.ts';
 export function formatKeyToTitle(key: string): string {
   const spaced = key.replaceAll(/([A-Z])/g, ' $1');
 
-  let formatted = spaced.charAt(0).toUpperCase() + spaced.slice(1);
+  let formatted = spaced;
+
+  formatted = formatted.replaceAll(/\s?nato\s/gi, ' NATO ');
+  formatted = formatted.replaceAll(/\s?un\s/gi, ' UN ');
+  formatted = formatted.replaceAll(/\s?imf\s/gi, ' IMF ');
+  formatted = formatted.replaceAll(/\s?eu\s/gi, ' EU ');
+  formatted = formatted.replaceAll(/\s?uk\s/gi, ' UK ');
+  formatted = formatted.replaceAll(/\s?us\s/gi, ' US ');
+
+  formatted = formatted.charAt(0).toUpperCase() + formatted.slice(1);
 
   formatted = formatted.replaceAll(' And ', ' & ');
   formatted = formatted.replaceAll(' Vs ', ' vs. ');
@@ -11,7 +20,6 @@ export function formatKeyToTitle(key: string): string {
   formatted = formatted.replaceAll(' As ', ' as ');
   formatted = formatted.replaceAll(' In ', ' in ');
   formatted = formatted.replaceAll(' Out ', ' out ');
-  formatted = formatted.replaceAll(' Nato ', ' NATO ');
 
   return formatted;
 }

@@ -1,120 +1,120 @@
 {
-    "$schema": "../../schemas/json/country-data.schema.json",
-    "name": "Syria",
-    "emoji": "🇸🇾",
-    "ariaLabel": "Syrian flag",
-    "lastUpdated": "2025-10-19",
-    "currentCrisisSummary": "Following the sudden collapse of the Assad regime in December 2024, Syria has entered a fragile and uncertain transitional period. The country remains a shattered state, enduring one of the most severe humanitarian crises in the world. A transitional government is grappling with establishing authority over a territory still fractured by various armed factions and occupied by foreign powers, including Turkey, the United States, and Russia.\n\nThe initial popular uprising for dignity and democracy in 2011 was systematically transformed into an internationalised proxy war. Competing regional and global powers exploited the conflict to pursue their own geopolitical agendas, fuelling the violence, prolonging the suffering, and ultimately causing the collapse of the state and society. Today, millions are displaced, the economy and infrastructure are in ruins, and the vast majority of the population depends on humanitarian aid to survive.",
-    "imperialRoot": {
-        "imperialPower": "French Empire (Mandate, 1923-1946), United States & Soviet Union/Russia (Cold War - present)",
-        "legacy": "The modern Syrian state is a direct product of imperial design. The 1916 Sykes-Picot Agreement between Britain and France carved up the Ottoman Empire, and the subsequent French Mandate created Syria's artificial borders. France implemented classic 'divide-and-rule' tactics, exacerbating sectarian tensions by favouring certain minority groups, particularly the Alawites, in the colonial military and administration. This policy deliberately fragmented national identity and laid the structural foundations for the sectarian dimensions of the later conflict.\n\nDuring the Cold War, Syria became a key client state of the Soviet Union, positioning it as a frontline in the regional rivalry with the US and its allies. This entrenched an authoritarian, security-dominated state structure and deepened its geopolitical isolation from Western powers, setting the stage for the intense foreign interventions that followed the 2011 uprising."
+  "$schema": "../../schemas/json/country-data.schema.json",
+  "name": "Syria",
+  "emoji": "🇸🇾",
+  "ariaLabel": "Syrian flag",
+  "lastUpdated": "2025-10-19",
+  "currentCrisisSummary": "Following the sudden collapse of the Assad regime in December 2024, Syria has entered a fragile and uncertain transitional period. The country remains a shattered state, enduring one of the most severe humanitarian crises in the world. A transitional government is grappling with establishing authority over a territory still fractured by various armed factions and occupied by foreign powers, including Turkey, the United States, and Russia.\n\nThe initial popular uprising for dignity and democracy in 2011 was systematically transformed into an internationalised proxy war. Competing regional and global powers exploited the conflict to pursue their own geopolitical agendas, fuelling the violence, prolonging the suffering, and ultimately causing the collapse of the state and society. Today, millions are displaced, the economy and infrastructure are in ruins, and the vast majority of the population depends on humanitarian aid to survive.",
+  "imperialRoot": {
+    "imperialPower": "French Empire (Mandate, 1923-1946), United States & Soviet Union/Russia (Cold War - present)",
+    "legacy": "The modern Syrian state is a direct product of imperial design. The 1916 Sykes-Picot Agreement between Britain and France carved up the Ottoman Empire, and the subsequent French Mandate created Syria's artificial borders. France implemented classic 'divide-and-rule' tactics, exacerbating sectarian tensions by favouring certain minority groups, particularly the Alawites, in the colonial military and administration. This policy deliberately fragmented national identity and laid the structural foundations for the sectarian dimensions of the later conflict.\n\nDuring the Cold War, Syria became a key client state of the Soviet Union, positioning it as a frontline in the regional rivalry with the US and its allies. This entrenched an authoritarian, security-dominated state structure and deepened its geopolitical isolation from Western powers, setting the stage for the intense foreign interventions that followed the 2011 uprising."
+  },
+  "historicalContext": {
+    "internationalisedProxyWarfare": "The Syrian conflict is a catastrophic example of a domestic uprising being hijacked by external forces. Seeking regime change, the United States, Turkey, Saudi Arabia, and Qatar provided financial and military support to a fragmented and increasingly radicalised opposition. In response, Russia and Iran intervened decisively to preserve the Syrian government and secure their own strategic interests, including Russia's key naval base at Tartus. This transformed the conflict into a multi-sided proxy war, fought to the last Syrian, for geopolitical dominance.",
+    "preWarNeoliberalReforms": "A key catalyst for the 2011 uprising was the economic policy of the preceding decade. Encouraged by the IMF and World Bank, the government of Bashar al-Assad implemented a series of neoliberal 'reforms' that dismantled state subsidies, privatised public assets, and opened the economy to foreign capital. This process enriched a small crony-capitalist class connected to the regime while creating mass unemployment and deepening poverty, especially in rural areas. The protests were, in large part, a rebellion against this rising inequality.",
+    "fragmentationAndTheWarOnTerror": "The chaos of the war, itself fuelled by the 2003 US invasion of Iraq, enabled the rise of ISIS, which seized large swathes of Syrian territory. The subsequent US-led intervention to combat ISIS, while defeating the group's territorial 'caliphate,' resulted in the de-facto US military occupation of northeast Syria. This intervention further fragmented the country, placed its most productive oil and agricultural lands under the control of US-backed proxy forces, and added another layer of imperial entanglement to the conflict."
+  },
+  "humanitarianImpact": {
+    "displaced": "Over 7.2 million people are internally displaced, many having been forced to flee multiple times.",
+    "refugees": "Over 6.8 million Syrians are refugees and asylum-seekers, constituting the largest refugee population in the world.",
+    "casualties": "At least 300,000 civilians have been killed in the conflict, with total deaths estimated to be well over half a million.",
+    "affected": "An estimated 16.7 million people inside Syria require humanitarian assistance to meet their basic needs.",
+    "livingInPoverty": "Over 90% of the population lives below the poverty line, facing extreme economic hardship.",
+    "foodInsecurity": "An estimated 12.9 million people are food insecure, with millions facing acute hunger.",
+    "childrenOutOfSchool": "Over 2.4 million school-aged children inside Syria are out of school, with the education system decimated."
+  },
+  "timeline": [
+    {
+      "year": "1916",
+      "event": "**Sykes-Picot Agreement**: Britain and France sign a secret treaty to partition the Ottoman Middle East. The accord draws artificial lines on the map, creating the colonial mandates for Syria and Iraq and embedding inter-sectarian and regional tensions that persist to this day."
     },
-    "historicalContext": {
-        "internationalisedProxyWarfare": "The Syrian conflict is a catastrophic example of a domestic uprising being hijacked by external forces. Seeking regime change, the United States, Turkey, Saudi Arabia, and Qatar provided financial and military support to a fragmented and increasingly radicalised opposition. In response, Russia and Iran intervened decisively to preserve the Syrian government and secure their own strategic interests, including Russia's key naval base at Tartus. This transformed the conflict into a multi-sided proxy war, fought to the last Syrian, for geopolitical dominance.",
-        "preWarNeoliberalReforms": "A key catalyst for the 2011 uprising was the economic policy of the preceding decade. Encouraged by the IMF and World Bank, the government of Bashar al-Assad implemented a series of neoliberal 'reforms' that dismantled state subsidies, privatised public assets, and opened the economy to foreign capital. This process enriched a small crony-capitalist class connected to the regime while creating mass unemployment and deepening poverty, especially in rural areas. The protests were, in large part, a rebellion against this rising inequality.",
-        "fragmentationAndTheWarOnTerror": "The chaos of the war, itself fuelled by the 2003 US invasion of Iraq, enabled the rise of ISIS, which seized large swathes of Syrian territory. The subsequent US-led intervention to combat ISIS, while defeating the group's territorial 'caliphate,' resulted in the de-facto US military occupation of northeast Syria. This intervention further fragmented the country, placed its most productive oil and agricultural lands under the control of US-backed proxy forces, and added another layer of imperial entanglement to the conflict."
+    {
+      "year": "1920",
+      "event": "**French Mandate**: France defeats a local Arab army at the Battle of Maysalun and imposes its colonial mandate, creating the modern Syrian state."
     },
-    "humanitarianImpact": {
-        "displaced": "Over 7.2 million people are internally displaced, many having been forced to flee multiple times.",
-        "refugees": "Over 6.8 million Syrians are refugees and asylum-seekers, constituting the largest refugee population in the world.",
-        "casualties": "At least 300,000 civilians have been killed in the conflict, with total deaths estimated to be well over half a million.",
-        "affected": "An estimated 16.7 million people inside Syria require humanitarian assistance to meet their basic needs.",
-        "livingInPoverty": "Over 90% of the population lives below the poverty line, facing extreme economic hardship.",
-        "foodInsecurity": "An estimated 12.9 million people are food insecure, with millions facing acute hunger.",
-        "childrenOutOfSchool": "Over 2.4 million school-aged children inside Syria are out of school, with the education system decimated."
+    {
+      "year": "1970",
+      "event": "**The 'Corrective Movement'**: Hafez al-Assad seizes power in a coup, consolidating the rule of the Ba'ath Party and establishing a highly centralised authoritarian state."
     },
-    "timeline": [
-        {
-            "year": "1916",
-            "event": "**Sykes-Picot Agreement**: Britain and France sign a secret treaty to partition the Ottoman Middle East. The accord draws artificial lines on the map, creating the colonial mandates for Syria and Iraq and embedding inter-sectarian and regional tensions that persist to this day."
-        },
-        {
-            "year": "1920",
-            "event": "**French Mandate**: France defeats a local Arab army at the Battle of Maysalun and imposes its colonial mandate, creating the modern Syrian state."
-        },
-        {
-            "year": "1970",
-            "event": "**The 'Corrective Movement'**: Hafez al-Assad seizes power in a coup, consolidating the rule of the Ba'ath Party and establishing a highly centralised authoritarian state."
-        },
-        {
-            "year": "1982",
-            "event": "**Hama Massacre**: The government of Hafez al-Assad brutally crushes an Islamist uprising in the city of Hama, killing tens of thousands of civilians. The event establishes a precedent for the state's capacity for extreme internal violence and shapes its ruthless response to the 2011 uprising."
-        },
-        {
-            "year": "2000",
-            "event": "**Inheritance of Power**: Bashar al-Assad succeeds his father and begins a period of limited economic liberalisation that exacerbates social inequality."
-        },
-        {
-            "year": "2011",
-            "event": "**Popular Uprising**: Inspired by the Arab Spring, mass protests demanding democratic reforms begin in Daraa and spread across the country. The government responds with lethal force."
-        },
-        {
-            "year": "2015",
-            "event": "**Russian Military Intervention**: Russia launches a major, direct military intervention on behalf of the Syrian government, decisively altering the course of the war."
-        },
-        {
-            "year": "2019",
-            "event": "**US Caesar Act Enacted**: The US imposes a devastating regime of sanctions targeting any entity involved in Syria's reconstruction. The act functions as a form of economic warfare that collectively punishes the civilian population and cripples the post-war economy."
-        },
-        {
-            "year": "2024",
-            "event": "**'Deterrence of Aggression' Offensive**: A coalition of opposition forces launches a surprise offensive in northwest Syria, leading to the rapid collapse of government defensive lines."
-        },
-        {
-            "year": "2024",
-            "event": "**Fall of Damascus & End of Assad Regime**: On December 8, opposition forces enter Damascus with little resistance as the 54-year rule of the Assad family collapses. Bashar al-Assad flees the country, marking a seismic shift in the conflict."
-        },
-        {
-            "year": "2024-Present",
-            "event": "**Transitional Period**: Following the regime's collapse, a transitional government is formed to manage state institutions, navigate the complex security environment, and begin the process of political reconstruction amidst ongoing foreign military presences."
-        }
+    {
+      "year": "1982",
+      "event": "**Hama Massacre**: The government of Hafez al-Assad brutally crushes an Islamist uprising in the city of Hama, killing tens of thousands of civilians. The event establishes a precedent for the state's capacity for extreme internal violence and shapes its ruthless response to the 2011 uprising."
+    },
+    {
+      "year": "2000",
+      "event": "**Inheritance of Power**: Bashar al-Assad succeeds his father and begins a period of limited economic liberalisation that exacerbates social inequality."
+    },
+    {
+      "year": "2011",
+      "event": "**Popular Uprising**: Inspired by the Arab Spring, mass protests demanding democratic reforms begin in Daraa and spread across the country. The government responds with lethal force."
+    },
+    {
+      "year": "2015",
+      "event": "**Russian Military Intervention**: Russia launches a major, direct military intervention on behalf of the Syrian government, decisively altering the course of the war."
+    },
+    {
+      "year": "2019",
+      "event": "**US Caesar Act Enacted**: The US imposes a devastating regime of sanctions targeting any entity involved in Syria's reconstruction. The act functions as a form of economic warfare that collectively punishes the civilian population and cripples the post-war economy."
+    },
+    {
+      "year": "2024",
+      "event": "**'Deterrence of Aggression' Offensive**: A coalition of opposition forces launches a surprise offensive in northwest Syria, leading to the rapid collapse of government defensive lines."
+    },
+    {
+      "year": "2024",
+      "event": "**Fall of Damascus & End of Assad Regime**: On December 8, opposition forces enter Damascus with little resistance as the 54-year rule of the Assad family collapses. Bashar al-Assad flees the country, marking a seismic shift in the conflict."
+    },
+    {
+      "year": "2024-Present",
+      "event": "**Transitional Period**: Following the regime's collapse, a transitional government is formed to manage state institutions, navigate the complex security environment, and begin the process of political reconstruction amidst ongoing foreign military presences."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Syrian Arab Red Crescent (SARC)",
+        "description": "The main provider of humanitarian aid across the entire country, operating with the mandate of the International Red Cross and Red Crescent Movement.",
+        "url": "https://www.sarc.sy/en/"
+      },
+      {
+        "organisation": "The White Helmets",
+        "description": "A volunteer organisation of Syrian rescue workers who operate in formerly opposition-held areas to save people from the rubble of bombardments.",
+        "url": "https://www.syriacivildefence.org/"
+      },
+      {
+        "organisation": "UNHCR",
+        "description": "The UN Refugee Agency provides critical protection and assistance to millions of Syrian refugees in neighbouring countries and the internally displaced.",
+        "url": "https://www.unhcr.org/emergencies/syria-emergency"
+      },
+      {
+        "organisation": "World Food Programme (WFP)",
+        "description": "Delivers life-saving emergency food assistance to millions of people across Syria who are facing acute hunger.",
+        "url": "https://www.wfp.org/emergencies/syria-emergency"
+      }
     ],
-    "takeAction": {
-        "donate": [
-            {
-                "organisation": "Syrian Arab Red Crescent (SARC)",
-                "description": "The main provider of humanitarian aid across the entire country, operating with the mandate of the International Red Cross and Red Crescent Movement.",
-                "url": "https://www.sarc.sy/en/"
-            },
-            {
-                "organisation": "The White Helmets",
-                "description": "A volunteer organisation of Syrian rescue workers who operate in formerly opposition-held areas to save people from the rubble of bombardments.",
-                "url": "https://www.syriacivildefence.org/"
-            },
-            {
-                "organisation": "UNHCR",
-                "description": "The UN Refugee Agency provides critical protection and assistance to millions of Syrian refugees in neighbouring countries and the internally displaced.",
-                "url": "https://www.unhcr.org/emergencies/syria-emergency"
-            },
-            {
-                "organisation": "World Food Programme (WFP)",
-                "description": "Delivers life-saving emergency food assistance to millions of people across Syria who are facing acute hunger.",
-                "url": "https://www.wfp.org/emergencies/syria-emergency"
-            }
-        ],
-        "advocacy": [
-            "Support a Syrian-led, inclusive political transition that protects the rights of all communities and prevents a new cycle of authoritarianism or civil conflict.",
-            "Demand the complete withdrawal of all foreign military forces to restore Syrian sovereignty.",
-            "Advocate for the lifting of broad unilateral sanctions to allow for reconstruction and the revival of the civilian economy.",
-            "Push for international support for truth and accountability commissions to address the war crimes committed by the former regime and all other parties.",
-            "Uphold the right of return for Syrian refugees by demanding safe, voluntary, and dignified conditions."
-        ]
-    },
-    "reading": [
-        {
-            "title": "Burning Country: Syrians in Revolution and War",
-            "url": "https://www.goodreads.com/en/book/show/26153738",
-            "description": "Written by Robin Yassin-Kassab and Leila Al-Shami, this book centres Syrian voices to tell the story of the uprising and its descent into a catastrophic war."
-        },
-        {
-            "title": "The Impossible Revolution: Making Sense of the Syrian Tragedy",
-            "url": "https://www.goodreads.com/book/show/34144862",
-            "description": "A powerful analysis from Yassin al-Haj Saleh, a leading Syrian leftist writer and former political prisoner, on the nature of the Assad regime and the revolution."
-        },
-        {
-            "title": "Syria After the Uprisings: The Political Economy of State Resilience",
-            "url": "https://www.goodreads.com/book/show/46168334",
-            "description": "Joseph Daher offers a sharp analysis of the pre-war neoliberal policies and the political economy that enabled the Syrian state's structure."
-        }
+    "advocacy": [
+      "Support a Syrian-led, inclusive political transition that protects the rights of all communities and prevents a new cycle of authoritarianism or civil conflict.",
+      "Demand the complete withdrawal of all foreign military forces to restore Syrian sovereignty.",
+      "Advocate for the lifting of broad unilateral sanctions to allow for reconstruction and the revival of the civilian economy.",
+      "Push for international support for truth and accountability commissions to address the war crimes committed by the former regime and all other parties.",
+      "Uphold the right of return for Syrian refugees by demanding safe, voluntary, and dignified conditions."
     ]
+  },
+  "reading": [
+    {
+      "title": "Burning Country: Syrians in Revolution and War",
+      "url": "https://www.goodreads.com/en/book/show/26153738",
+      "description": "Written by Robin Yassin-Kassab and Leila Al-Shami, this book centres Syrian voices to tell the story of the uprising and its descent into a catastrophic war."
+    },
+    {
+      "title": "The Impossible Revolution: Making Sense of the Syrian Tragedy",
+      "url": "https://www.goodreads.com/book/show/34144862",
+      "description": "A powerful analysis from Yassin al-Haj Saleh, a leading Syrian leftist writer and former political prisoner, on the nature of the Assad regime and the revolution."
+    },
+    {
+      "title": "Syria After the Uprisings: The Political Economy of State Resilience",
+      "url": "https://www.goodreads.com/book/show/46168334",
+      "description": "Joseph Daher offers a sharp analysis of the pre-war neoliberal policies and the political economy that enabled the Syrian state's structure."
+    }
+  ]
 }
