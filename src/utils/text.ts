@@ -1,6 +1,13 @@
 import keyToTitleMap from '../data/mapping/key-title-mapping';
 import { escapeHtml } from './html.ts';
 
+/**
+ * Formats a technical key into a human-readable title using a predefined map.
+ *
+ * @param key - The key to format (e.g., 'livingInPoverty').
+ * @returns The corresponding title (e.g., 'Living in Poverty').
+ * @throws If the key is not found in the mapping file.
+ */
 export function formatKeyToTitle(key: string): string {
   if (keyToTitleMap[key]) {
     return keyToTitleMap[key];
@@ -9,6 +16,12 @@ export function formatKeyToTitle(key: string): string {
   throw new Error(`Missing key-to-title mapping for key: "${key}"`);
 }
 
+/**
+ * Formats a string by escaping HTML and converting markdown-like bold syntax to `<strong>` tags.
+ *
+ * @param text - The text to format.
+ * @returns The formatted HTML string.
+ */
 export function formatText(text: string): string {
   const escaped = escapeHtml(text);
 
@@ -17,6 +30,13 @@ export function formatText(text: string): string {
   return result;
 }
 
+/**
+ * Splits a block of text into paragraphs and formats each one.
+ * Paragraphs are assumed to be separated by double newlines.
+ *
+ * @param text - The block of text to process.
+ * @returns An array of formatted HTML paragraph strings.
+ */
 export function formatParagraphs(text: string): string[] {
   return text
     .split('\n\n')

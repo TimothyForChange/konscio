@@ -4,21 +4,26 @@ import { zodToJsonSchema } from 'zod-to-json-schema';
 import { CountryDataSchema } from '../src/schemas/country-data.ts';
 import { MissionSchema } from '../src/schemas/mission.ts';
 
+/**
+ * Generates JSON schemas from Zod schemas and saves them to the file system.
+ * This function is used to convert Zod schemas for mission and country data into
+ * JSON schema format, which can then be used for validation or other purposes.
+ *
+ * @param logger An optional logger object with an `info` method for logging output. Defaults to the global console object.
+ */
 export function generateSchemas(logger = console) {
   const jsonSchemasDir = path.join(process.cwd(), 'src', 'schemas', 'json');
   if (!fs.existsSync(jsonSchemasDir)) {
     fs.mkdirSync(jsonSchemasDir, { recursive: true });
   }
 
-  logger.info('Converting Zod schemas to JSON schemas...');
-
   const missionJsonSchema = zodToJsonSchema(MissionSchema, {
-    target: 'jsonSchema7',
+    target: 'jsonSchema2019-09',
     strictUnions: true,
   });
 
   const countryDataJsonSchema = zodToJsonSchema(CountryDataSchema, {
-    target: 'jsonSchema7',
+    target: 'jsonSchema2019-09',
     strictUnions: true,
   });
 
@@ -30,6 +35,4 @@ export function generateSchemas(logger = console) {
 
   fs.writeFileSync(countryDataPath, JSON.stringify(countryDataJsonSchema, null, 2));
   logger.info(`Wrote country-data schema to ${countryDataPath}`);
-
-  logger.info('JSON schemas generated successfully!');
 }
