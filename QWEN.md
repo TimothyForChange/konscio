@@ -9,7 +9,7 @@
 
 - Use context7 to retrieve the latest documentation for packages, libraries, and frameworks before making recommendations or code changes.
 - Always use British English spelling when writing or editing content, documentation, or comments.
-- Follow DRY (Don't Repeat Yourself) and YAGNI (You Aren't Gonna Need It) principles when making code changes.
+- Follow DRY (Don't Repeat Yourself), YAGNI (You Aren't Gonna Need It), and KISS (Keep It Simple, Stupid) principles when making code changes.
 
 ## Architecture & Conventions
 
