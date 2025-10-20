@@ -6,7 +6,7 @@
   "lastUpdated": "2025-10-16",
   "currentCrisisSummary": "Somalia faces a convergence of severe, interlocking crises: a protracted civil war, an entrenched al-Shabaab insurgency, and repeated climate-driven droughts and floods that have devastated livelihoods.\n\nThese dynamics — amplified by geopolitical competition, external military interventions and extractive practices such as illegal fishing and contested resource claims — have produced a long-term humanitarian emergency. Millions are displaced, public services are fragile or non-functional in many areas, and food and nutrition emergencies recur with alarming frequency.\n\nHumanitarian response is repeatedly undermined by access constraints, funding shortfalls and insecurity. A Somali-led political solution, protection of civilian space, and large-scale, locally accountable humanitarian and climate adaptation support are essential to prevent repeated cycles of famine and displacement.",
   "colonialRoot": {
-    "colonialPower": "Britain & Italy (c. 1880s-1960)",
+    "colonialPower": "British Empire & Italy (c. 1880s-1960)",
     "legacy": "The crisis is rooted in the colonial partitioning of Somali-inhabited lands during the Scramble for Africa. Britain, Italy (and France in neighbouring territories) divided a culturally and linguistically cohesive people into separate political entities and imposed artificial borders that disrupted traditional economic and social systems.\n\nThe rushed post-colonial merger of former British and Italian territories in 1960 left a state with unresolved territorial, clan and governance tensions, a fragility that was later compounded by Cold War geopolitics and frequent external interventions."
   },
   "historicalContext": {
@@ -27,7 +27,7 @@
   "timeline": [
     {
       "year": "c. 1880s",
-      "event": "**Colonial Partition**: Britain, Italy and France carve up Somali-inhabited lands during the Scramble for Africa, creating artificial borders and political fragmentation."
+      "event": "**Colonial Partition**: The British, Italian, and French empires carve up Somali-inhabited lands during the Scramble for Africa, creating artificial borders and political fragmentation."
     },
     {
       "year": "1960",
@@ -66,7 +66,7 @@
     "donate": [
       {
         "organisation": "Adeso Africa",
-        "description": "A Somali-led humanitarian and development organisation delivering cash, water and sanitation support and locally led resilience programming.",
+        "description": "A Somali-led humanitarian and development organisation delivering cash, water and sanitation support and locally led resilience programmes.",
         "url": "https://adesoafrica.org"
       },
       {

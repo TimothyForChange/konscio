@@ -55,6 +55,9 @@
         },
         "livelihoodsAndEconomicLoss": {
           "type": "string"
+        },
+        "lackOfRightsAndLivelihoods": {
+          "type": "string"
         }
       },
       "required": [

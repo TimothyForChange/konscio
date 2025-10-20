@@ -11,10 +11,16 @@ export const keyToTitleMap: Record<string, string> = {
   lackOfWaterAccess: 'Lack of Water Access',
   sexualViolence: 'Sexual Violence',
   livelihoodsAndEconomicLoss: 'Livelihoods and Economic Loss',
+  lackOfRightsAndLivelihoods: 'Lack of Rights and Livelihoods',
 
   // Afghanistan
   theGraveyardOfEmpiresMyth: 'The "Graveyard of Empires" Myth',
   economicPressureAndSanctions: 'Economic Pressure and Sanctions',
+
+  // Bangladesh
+  StateSponsoredPersecutionAndStatelessness: 'State-Sponsored Persecution and Statelessness',
+  EthnicCleansingAndGenocidalViolence: 'Ethnic Cleansing and Genocidal Violence',
+  GeopoliticalIndifferenceAndImpunity: 'Geopolitical Indifference and Impunity',
 
   // DRC
   conflictMineralsAndForeignInfluence: 'Conflict Minerals and Foreign Influence',
@@ -41,8 +47,9 @@ export const keyToTitleMap: Record<string, string> = {
   publicHealthAndUnresponsibility: 'Public Health and Unresponsibility',
 
   // Myanmar
-  militaryEconomyAndCorporateInvolvement: 'Military Economy and Corporate Involvement',
-  militaryRuleAndEthnicMinorities: 'Military Rule and Ethnic Minorities',
+  TheMilitaryAsAStateWithinAState: 'The Military As A State Within A State',
+  PostCoupRevolutionAndEthnicSolidarity: 'Post-Coup Revolution and Ethnic Solidarity',
+  GeopoliticalEnablersAndCorporateComplicity: 'Geopolitical Enablers and Corporate Complicity',
 
   // Palestine
   geopoliticalInvolvement: 'Geopolitical Involvement',
