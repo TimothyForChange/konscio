@@ -17,7 +17,7 @@ const countries: Country[] = [
     description: 'Anglophone conflict & internal displacement',
     seoDescription:
       "Cameroon faces a brutal conflict between Anglophone separatists and the central government. Widespread human rights abuses, displacement, and repression mark one of Africa's least-reported humanitarian crises.",
-    category: 'Resource Exploitation & Foreign Interference',
+    category: 'Displacement & Humanitarian Catastrophe',
   },
   {
     name: 'Central African Republic',
@@ -44,7 +44,7 @@ const countries: Country[] = [
     description: 'Ethnic conflict & famine',
     seoDescription:
       "Ethiopia faces a humanitarian catastrophe in Tigray and beyond: ethnic violence, famine, and mass displacement. The Horn of Africa's largest nation struggles with political instability and war.",
-    category: 'State Collapse & Civil War',
+    category: 'Displacement & Humanitarian Catastrophe',
   },
   {
     name: 'Haiti',
@@ -89,7 +89,7 @@ const countries: Country[] = [
     description: 'State collapse & colonial legacies',
     seoDescription:
       "Somalia's 30-year state collapse: al-Shabaab insurgency, climate disasters, and artificial colonial borders. Understanding famine and foreign interventions.",
-    category: 'State Collapse & Civil War',
+    category: 'Displacement & Humanitarian Catastrophe',
   },
   {
     name: 'South Sudan',
@@ -116,7 +116,7 @@ const countries: Country[] = [
     description: 'Civil war & foreign interventions',
     seoDescription:
       'Syria has endured over a decade of civil war, foreign interventions, and widespread destruction. Millions displaced and human rights violations persist, making it a central humanitarian crisis in the Middle East.',
-    category: 'State Collapse & Civil War',
+    category: 'Displacement & Humanitarian Catastrophe',
   },
   {
     name: 'Ukraine',
@@ -143,7 +143,7 @@ const countries: Country[] = [
     description: 'Proxy war over strategic trade routes',
     seoDescription:
       "Yemen's proxy war over Red Sea trade routes creates the world's worst humanitarian crisis. Saudi-UAE intervention and Houthi resistance since 2015.",
-    category: 'State Collapse & Civil War',
+    category: 'Displacement & Humanitarian Catastrophe',
   },
 ];
 
