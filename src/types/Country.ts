@@ -23,7 +23,6 @@ export interface HumanitarianImpact {
   healthSystemCollapsed?: string;
   foodInsecurity?: string;
   lackOfWaterAccess?: string;
-  other?: string;
 }
 
 /**

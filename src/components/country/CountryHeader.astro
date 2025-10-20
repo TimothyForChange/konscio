@@ -1,6 +1,6 @@
 ---
 import { getCountryMetadata } from '../../utils/country.ts';
-import BackIcon from '../shared/BackIcon.astro';
+import BackButton from '../shared/BackButton.astro';
 import CountryAvatar from '../ui/CountryAvatar.astro';
 import DonateButton from '../ui/DonateButton.astro';
 
@@ -15,7 +15,7 @@ const flagInfo = await getCountryMetadata(countrySlug ?? '');
 
 <header class='country-header'>
   <div class='header-content'>
-    <BackIcon />
+    <BackButton showText={false} />
     <DonateButton href='#take-action' />
   </div>
   <h1 class='country-title'>

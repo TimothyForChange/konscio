@@ -2,9 +2,10 @@
 export interface Properties {
   href?: string;
   class?: string;
+  showText?: boolean;
 }
 
-const { href = '/', class: className = '' } = Astro.props;
+const { href = '/', class: className = '', showText = true } = Astro.props;
 
 const sanitizedHref = href ? (href.startsWith('/') || href.startsWith('http') ? href : '/') : '/';
 ---
@@ -15,7 +16,7 @@ const sanitizedHref = href ? (href.startsWith('/') || href.startsWith('http') ? 
   aria-label='Go back to previous page'
 >
   <i class='ri-arrow-left-long-line' aria-hidden='true'></i>
-  Back to Home
+  {showText && <span>Back to Home</span>}
 </a>
 
 <style>

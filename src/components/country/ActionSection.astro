@@ -21,54 +21,48 @@ export interface Properties {
   sectionTitle: string;
   groups: ActionGroupData[];
   id?: string;
-  standalone?: boolean;
 }
 
-const { sectionTitle, groups, id, standalone = true } = Astro.props as Properties;
+const { sectionTitle, groups, id } = Astro.props as Properties;
 ---
 
-{
-  (() => {
-    const renderGroups = () =>
-      groups.map((group) => (
-        <ActionGroup icon={group.icon} title={group.title}>
-          {group.type === 'links' ? (
-            <div class='donate-organisations'>
-              {(group.items as ActionItem[]).map((item) => (
-                <LinkButton
-                  title={item.title}
-                  description={item.description}
-                  url={item.url}
-                  buttonText={item.buttonText}
-                />
-              ))}
-            </div>
-          ) : (
-            <div class='advocacy-list'>
-              {(group.items as string[]).map((content) => (
-                <ActionCard content={content} />
-              ))}
-            </div>
-          )}
-        </ActionGroup>
-      ));
-
-    return standalone ? (
-      <section
-        class='action-section section'
-        {...(id ? { id } : {})}
-        aria-labelledby={id || 'action-section'}
-      >
-        <h2 id={id || 'action-section'} class='section-heading'>
-          {sectionTitle}
-        </h2>
-        {renderGroups()}
-      </section>
-    ) : (
-      <>{renderGroups()}</>
-    );
-  })()
-}
+<section
+  class='action-section section'
+  {...id ? { id } : {}}
+  aria-labelledby={id || 'action-section'}
+>
+  {
+    sectionTitle && (
+      <h2 id={id || 'action-section'} class='section-heading'>
+        {sectionTitle}
+      </h2>
+    )
+  }
+  {
+    groups.map((group) => (
+      <ActionGroup icon={group.icon} title={group.title}>
+        {group.type === 'links' ? (
+          <div class='donate-organisations'>
+            {(group.items as ActionItem[]).map((item) => (
+              <LinkButton
+                title={item.title}
+                description={item.description}
+                url={item.url}
+                buttonText={item.buttonText}
+              />
+            ))}
+          </div>
+        ) : (
+          <div class='advocacy-list'>
+            {(group.items as string[]).map((content) => (
+              <ActionCard content={content} />
+            ))}
+          </div>
+        )}
+      </ActionGroup>
+    ))
+  }
+</section>
 
 <style>
   .action-section {

@@ -7,34 +7,31 @@ interface Properties {
 }
 
 const { timeline } = Astro.props as Properties;
+
+const timelineToUse = Array.isArray(timeline) ? timeline : [];
+const filteredTimeline = timelineToUse.filter(
+  (item): item is TimelineEvent =>
+    item !== null &&
+    typeof item === 'object' &&
+    ('year' in item || 'event' in item) &&
+    (item.year !== undefined || item.event !== undefined)
+);
 ---
 
 <section class='timeline-section'>
   <h2 class='timeline-title'>Historical Timeline</h2>
   <div class='timeline-container'>
     {
-      (() => {
-        const timelineToUse = Array.isArray(timeline) ? timeline : [];
-
-        return timelineToUse
-          .filter(
-            (item): item is TimelineEvent =>
-              item !== null &&
-              typeof item === 'object' &&
-              ('year' in item || 'event' in item) &&
-              (item.year !== undefined || item.event !== undefined)
-          )
-          .map((item) => (
-            <div class='timeline-row'>
-              <div class='timeline-gutter'>
-                <div class='timeline-dot' />
-              </div>
-              <div class='timeline-body'>
-                <TimelineItem year={item.year} event={item.event} />
-              </div>
-            </div>
-          ));
-      })()
+      filteredTimeline.map((item) => (
+        <div class='timeline-row'>
+          <div class='timeline-gutter'>
+            <div class='timeline-dot' />
+          </div>
+          <div class='timeline-body'>
+            <TimelineItem year={item.year} event={item.event} />
+          </div>
+        </div>
+      ))
     }
   </div>
 </section>

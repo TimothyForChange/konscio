@@ -1,12 +1,12 @@
 ---
 import { isArray, isEmpty, isObject as radashIsObject, isString as radashIsString } from 'radash';
 import AdditionalReading from '../components/country/AdditionalReading.astro';
-import ColonialLegacySection from '../components/country/ColonialLegacySection.astro';
 import CountryHeader from '../components/country/CountryHeader.astro';
 import CrisisSection from '../components/country/CrisisSection.astro';
 import HistoricalContextSection from '../components/country/HistoricalContextSection.astro';
 import HumanitarianImpact from '../components/country/HumanitarianImpact.astro';
 import ImperialLegacySection from '../components/country/ImperialLegacySection.astro';
+import LegacySection from '../components/country/LegacySection.astro';
 import TakeAction from '../components/country/TakeAction.astro';
 import Timeline from '../components/country/Timeline.astro';
 import BackButton from '../components/shared/BackButton.astro';
@@ -116,13 +116,21 @@ const articleSchema = {
 
         {
           radashIsObject(countryData?.colonialRoot) && (
-            <ColonialLegacySection colonialRoot={countryData.colonialRoot} />
+            <LegacySection
+              title='The Colonial Root'
+              power={countryData.colonialRoot.colonialPower}
+              legacy={countryData.colonialRoot.legacy}
+            />
           )
         }
 
         {
           radashIsObject(countryData?.imperialRoot) && (
-            <ImperialLegacySection imperialRoot={countryData.imperialRoot} />
+            <LegacySection
+              title='The Imperial Root'
+              power={countryData.imperialRoot.imperialPower}
+              legacy={countryData.imperialRoot.legacy}
+            />
           )
         }
 

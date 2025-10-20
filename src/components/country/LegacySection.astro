@@ -1,0 +1,35 @@
+---
+import { formatParagraphs } from '../../utils/text.ts';
+
+export interface Properties {
+  title: string;
+  power?: string;
+  legacy?: string;
+}
+
+const { title, power, legacy } = Astro.props as Properties;
+---
+
+{
+  (power || legacy) && (
+    <section class='legacy-section section' aria-labelledby='legacy-heading'>
+      <h2 id='legacy-heading' class='section-heading'>
+        {title}
+      </h2>
+      <h3 class='sub-heading'>{power || '—'}</h3>
+      {legacy && formatParagraphs(legacy).map((html: string) => <p set:html={html} />)}
+    </section>
+  )
+}
+
+<style>
+  .legacy-section h3:first-of-type {
+    margin-top: 0;
+  }
+
+  @media (width >= 768px) {
+    .legacy-section h2 {
+      font-size: var(--section-heading-size-lg);
+    }
+  }
+</style>

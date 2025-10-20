@@ -50,35 +50,4 @@ if (advocacyData.length > 0) {
 }
 ---
 
-<section class='action-section' {...id ? { id } : {}}>
-  <h2>How You Can Help</h2>
-
-  {groups.length > 0 && <ActionSection sectionTitle='' groups={groups} standalone={false} />}
-</section>
-
-<style>
-  .action-section {
-    background: var(--bg-card);
-    border: var(--card-border);
-    border-radius: var(--card-radius);
-    padding: var(--section-gap);
-    margin-bottom: var(--section-gap);
-  }
-
-  .action-section h2 {
-    margin-top: 0;
-    border-bottom: var(--section-heading-border);
-    padding-bottom: var(--section-heading-padding-bottom);
-    font-size: 1.5rem;
-    font-weight: var(--font-weight-bold);
-    color: var(--text-primary);
-    margin-bottom: var(--heading-gap);
-  }
-
-  @media (width >= 768px) {
-    .action-section {
-      padding: calc(var(--section-gap) + var(--space-xs));
-      margin-bottom: calc(var(--section-gap) + var(--space-xs));
-    }
-  }
-</style>
+{groups.length > 0 && <ActionSection sectionTitle='How You Can Help' groups={groups} id={id} />}
