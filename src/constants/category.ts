@@ -12,4 +12,5 @@ export const COUNTRY_CATEGORIES = [
   'Insurgency & Resource Conflict',
   'State Collapse & Civil War',
   'Occupation & Dispossession',
+  'Economic Collapse & Political Repression',
 ] as const;

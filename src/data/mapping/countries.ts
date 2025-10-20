@@ -26,7 +26,7 @@ const countries: Country[] = [
     description: 'Ethnic conflict & famine',
     seoDescription:
       "Ethiopia faces a humanitarian catastrophe in Tigray and beyond: ethnic violence, famine, and mass displacement. The Horn of Africa's largest nation struggles with political instability and war.",
-    category: 'Civil War & Ethnic Conflict',
+    category: 'State Collapse & Civil War',
   },
   {
     name: 'Haiti',
