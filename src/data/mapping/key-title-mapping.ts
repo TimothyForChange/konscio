@@ -11,7 +11,6 @@ export const keyToTitleMap: Record<string, string> = {
   lackOfWaterAccess: 'Lack of Water Access',
   sexualViolence: 'Sexual Violence',
   livelihoodsAndEconomicLoss: 'Livelihoods and Economic Loss',
-  other: 'Other',
 
   // Afghanistan
   theGraveyardOfEmpiresMyth: 'The "Graveyard of Empires" Myth',
