@@ -15,13 +15,13 @@
     "internationalLawAndAccountability": "The unilateral sanctions imposed on Venezuela are considered illegal under international law by many experts and UN officials, as they were enacted outside the framework of the UN Security Council and constitute a violation of the nation's sovereignty. In response, Venezuela has filed a complaint with the International Criminal Court (ICC), arguing that the sanctions constitute a crime against humanity. Furthermore, the US-led recognition of a parallel 'interim government' in 2019 created a pretext for the seizure of state assets abroad, a move that further undermined the rule of law and exacerbated the economic crisis."
   },
   "humanitarianImpact": {
-    "displaced": "Internal displacement is significant due to violence, loss of livelihoods, and lack of services, though precise figures are difficult to ascertain due to monitoring challenges.",
-    "refugees": "Over 7.7 million refugees and migrants have left Venezuela, creating one of the largest external displacement crises in the world.",
     "casualties": "Multiple independent studies estimate tens of thousands of excess civilian deaths since 2017 are attributable to the severe impact of economic sanctions on access to food, medicine, and healthcare.",
     "affected": "An estimated 19 million people inside the country require some form of humanitarian assistance.",
-    "livingInPoverty": "Extreme poverty has surged, with some estimates indicating it affects over 80% of the population.",
+    "foodInsecurity": "An estimated 15.5 million people are food insecure, with high rates of child malnutrition.",
+    "displaced": "Internal displacement is significant due to violence, loss of livelihoods, and lack of services, though precise figures are difficult to ascertain due to monitoring challenges.",
+    "refugees": "Over 7.7 million refugees and migrants have left Venezuela, creating one of the largest external displacement crises in the world.",
     "healthSystemCollapsed": "The health system has collapsed due to lack of resources, leading to a resurgence of preventable diseases and a crisis in maternal and child health.",
-    "foodInsecurity": "An estimated 15.5 million people are food insecure, with high rates of child malnutrition."
+    "livingInPoverty": "Extreme poverty has surged, with some estimates indicating it affects over 80% of the population."
   },
   "timeline": [
     {

@@ -15,13 +15,13 @@
     "internationalLawAndAccountability": "International legal and accountability processes are active but contested. The Gambia's ICJ case alleging violations of the Genocide Convention and subsequent ICJ orders concern the 2017 abuses against the Rohingya. Human-rights organisations, the UN and regional actors continue to document atrocity crimes, call for targeted sanctions, push for an arms embargo and press for criminal accountability through international mechanisms. These processes matter politically and legally even as enforcement remains difficult."
   },
   "humanitarianImpact": {
-    "displaced": "More than 3.5 million people internally displaced across Myanmar as of mid-2025.",
-    "refugees": "Nearly 1 million Rohingya refugees in overcrowded camps in Bangladesh with limited return prospects.",
     "casualties": "Over 6,000 civilian deaths since the 2021 coup, with total conflict deaths likely in tens of thousands.",
     "affected": "Roughly 21.9 million people need assistance — well over a third of the population.",
-    "childrenOutOfSchool": "Millions of children with limited or no access to education as schools close or become unsafe.",
+    "foodInsecurity": "Food insecurity affects large parts of the country with deepening hunger crisis.",
+    "displaced": "More than 3.5 million people internally displaced across Myanmar as of mid-2025.",
+    "refugees": "Nearly 1 million Rohingya refugees in overcrowded camps in Bangladesh with limited return prospects.",
     "healthSystemCollapsed": "Health system severely weakened by attacks, medicine shortages and staff departures.",
-    "foodInsecurity": "Food insecurity affects large parts of the country with deepening hunger crisis."
+    "childrenOutOfSchool": "Millions of children with limited or no access to education as schools close or become unsafe."
   },
   "timeline": [
     {

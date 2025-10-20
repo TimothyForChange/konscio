@@ -15,11 +15,11 @@
     "aidDependencyAndTheDevelopmentalState": "Ethiopia's economic model has long been a 'developmental state' heavily reliant on foreign aid, loans, and investment from Western nations and institutions like the World Bank and IMF. While this model produced economic growth, it was tied to a repressive political system and did not resolve underlying inequalities. This dependency also serves as a tool of geopolitical leverage, with the threat of aid suspension used by Western powers to influence the conflict, creating economic shocks that disproportionately harm the civilian population and hinder the state's capacity to provide services."
   },
   "humanitarianImpact": {
-    "displaced": "Over 3.5 million people are internally displaced due to conflict and climate shocks across the country.",
-    "refugees": "Ethiopia hosts nearly 1 million refugees from neighbouring countries, while hundreds of thousands of Ethiopians have sought refuge abroad.",
     "casualties": "The war in Tigray alone resulted in an estimated 300,000 to 600,000 deaths from fighting, starvation, and lack of healthcare. Casualties in Amhara and Oromia are significant but difficult to verify.",
     "affected": "Over 20 million people require humanitarian assistance and protection due to the combined impacts of conflict, drought, and economic instability.",
     "foodInsecurity": "An estimated 15.8 million people face crisis levels of food insecurity, particularly in conflict-affected regions of Tigray, Amhara, and Oromia.",
+    "displaced": "Over 3.5 million people are internally displaced due to conflict and climate shocks across the country.",
+    "refugees": "Ethiopia hosts nearly 1 million refugees from neighbouring countries, while hundreds of thousands of Ethiopians have sought refuge abroad.",
     "sexualViolence": "Systematic and widespread conflict-related sexual violence, including rape and sexual slavery, was used as a deliberate weapon of war by all sides, especially in the Tigray conflict."
   },
   "timeline": [

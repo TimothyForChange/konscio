@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schemas/json/country-data.schema.json",
+  "name": "Cameroon",
+  "emoji": "🇨🇲",
+  "ariaLabel": "Cameroonian flag",
+  "lastUpdated": "2025-10-20",
+  "currentCrisisSummary": "Cameroon is contending with multiple, severe crises rooted in the violent and unresolved legacies of its colonial construction. The most acute is the armed conflict in the Anglophone Northwest and Southwest regions, where state repression of protests against political and cultural marginalisation has escalated into a brutal war of secession.\n\nThis conflict is the direct result of a hyper-centralised, authoritarian state model—inherited from French colonial rule—that has systematically dismantled the autonomy and identity of the Anglophone minority. In the Far North, the state's long-term neglect has created fertile ground for the insurgency of groups like Boko Haram. Both crises are sustained by a political economy of elite enrichment, where the country's vast oil, timber, and agricultural wealth is extracted for the benefit of a long-ruling clique and its foreign corporate partners, while regional grievances are managed with violence rather than political solutions.",
+  "colonialRoot": {
+    "colonialPower": "Germany (1884-1916), partitioned by France & Britain (1916-1961)",
+    "legacy": "Cameroon's contemporary fractures were engineered by its partition after WWI. Germany's initial colony was divided, with the vast majority handed to France and a smaller sliver to Britain. The two territories were administered under fundamentally different colonial philosophies: French assimilation and direct, centralised rule versus British indirect rule and administrative autonomy.\n\nAt independence, the 1961 'reunification' was not a merger of equals but an absorption of the smaller, Anglophone territory into the dominant Francophone state. The federal structure promised as a guarantee of minority rights was quickly abolished. This foundational act of centralisation imposed a foreign legal, educational, and political system on the Anglophone population, creating a dynamic of internal colonialism that has defined the nation's politics and ultimately led to war."
+  },
+  "historicalContext": {
+    "ViolentDecolonisationAndNeoColonialControl": "Cameroon's independence was born in extreme violence. In the 1950s and 60s, France waged a clandestine and brutal war against the popular anti-colonial movement, the Union of the Populations of Cameroon (UPC). After crushing the UPC in a conflict that killed tens of thousands, France installed a compliant, authoritarian regime. This ensured that French economic interests—in agriculture, timber, oil, and infrastructure—remained secure, establishing a durable neo-colonial relationship that persists to this day and defines the state's repressive character.",
+    "TheAnglophoneProblemAndForcedAssimilation": "The Anglophone crisis is the culmination of decades of systematic marginalisation. The abolition of the federal system in 1972 was the key turning point, initiating a deliberate policy of assimilation. Anglophone legal and educational systems were eroded, English-speaking regions were economically neglected, and key administrative posts were filled by Francophones who often did not speak English. These policies were designed to break Anglophone identity and consolidate the power of the centralised state, transforming a political grievance into an existential struggle for cultural survival.",
+    "ResourceExtractionAndEliteEnrichment": "For over four decades, Cameroon has been ruled by a static elite that has used state power to control and divert revenues from oil, timber, and cash crops. This system, often facilitated by foreign corporations, has entrenched corruption and created vast inequality. The state's primary function is not public service delivery but the management of extractive contracts. The severe underdevelopment in regions like the Anglophone territories and the Far North is not an accident, but a direct consequence of a political economy that concentrates wealth and deliberately marginalises the periphery.",
+    "internationalLawAndAccountability": "There is extensive and credible documentation of severe human rights violations by both government forces and separatist groups in the Anglophone conflict, including extrajudicial killings, torture, and the burning of villages. However, there has been a profound failure of international accountability. Key geopolitical partners, notably France and the US, have prioritised regional 'stability' and their security interests, offering only muted criticism and continuing to provide military and financial support to the regime. This impunity has emboldened perpetrators on all sides and ensures the cycle of violence continues."
+  },
+  "humanitarianImpact": {
+    "casualties": "An estimated 6,000 civilians have been killed in the Anglophone crisis since 2017.",
+    "affected": "Over 4.7 million people across Cameroon require humanitarian assistance.",
+    "foodInsecurity": "An estimated 2.6 million people face high levels of acute food insecurity, concentrated in the conflict-affected regions.",
+    "displaced": "Over 712,000 people are internally displaced due to the Anglophone crisis, with an additional 340,000 displaced by conflict in the Far North.",
+    "refugees": "More than 87,000 people from the Anglophone regions have been forced to flee as refugees, primarily to Nigeria.",
+    "healthSystemCollapsed": "In the Anglophone regions, some 80% of health facilities are non-functional or only partially functional due to attacks and insecurity.",
+    "childrenOutOfSchool": "More than 600,000 children have had their education disrupted in the Anglophone regions due to attacks on schools and enforced boycotts."
+  },
+  "timeline": [
+    {
+      "year": "1884",
+      "event": "**German Colonisation**: Germany declares the protectorate of Kamerun, initiating a period of brutal colonial exploitation. German companies establish vast plantations for rubber and cocoa, built on the violent expropriation of land and a system of extensive forced labour."
+    },
+    {
+      "year": "1914-1916",
+      "event": "**WWI Conquest**: During the inter-imperialist conflict of World War I, British and French forces invade and conquer German Kamerun. The territory and its people are treated as spoils of a European war, setting the stage for its eventual partition."
+    },
+    {
+      "year": "1919",
+      "event": "**Colonial Partition**: The former German colony of Kamerun is divided under the Treaty of Versailles, creating French Cameroun and British Cameroons and embedding two different colonial systems."
+    },
+    {
+      "year": "1955-1971",
+      "event": "**France's 'Hidden War'**: French forces wage a brutal counter-insurgency war to destroy the nationalist UPC movement, ensuring a pro-French, authoritarian government assumes power at independence."
+    },
+    {
+      "year": "1961",
+      "event": "**Reunification**: Following a UN-backed plebiscite, British Southern Cameroons joins the newly independent Republic of Cameroon, forming a two-state federation."
+    },
+    {
+      "year": "1972",
+      "event": "**Abolition of Federalism**: President Ahmadou Ahidjo holds a rigged referendum that abolishes the federal system, creating a unitary state and marking the beginning of the systematic erosion of Anglophone autonomy."
+    },
+    {
+      "year": "1982",
+      "event": "**Paul Biya Takes Power**: Biya becomes president, consolidating the centralised, authoritarian system and ruling for over four decades through a combination of patronage and repression."
+    },
+    {
+      "year": "2016",
+      "event": "**Anglophone Protests Erupt**: Lawyers and teachers in the Anglophone regions lead peaceful protests against the imposition of French-speaking judges and teachers. The state responds with violent repression."
+    },
+    {
+      "year": "2017-Present",
+      "event": "**Descent into War**: The state's crackdown catalyses the formation of armed separatist groups. The escalating conflict becomes a full-blown civil war, causing a devastating humanitarian crisis."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "Cameroon Catalyst",
+        "description": "A UK-based charity that partners with rural Cameroonian communities to fund and build small-scale, sustainable development projects like solar-powered water systems and health centres.",
+        "url": "https://www.camerooncatalyst.org"
+      },
+      {
+        "organisation": "Hand on Heart Cameroon",
+        "description": "A community-based organisation providing education, healthcare, and welfare support to underprivileged and displaced children affected by the ongoing crises.",
+        "url": "https://handonheartcameroon.com"
+      }
+    ],
+    "advocacy": [
+      "Demand that foreign governments, especially France and the US, halt military assistance and security cooperation with Cameroonian state forces implicated in human rights abuses.",
+      "Call for targeted international sanctions on government officials and separatist leaders responsible for atrocities and for obstructing a peaceful resolution to the Anglophone crisis.",
+      "Advocate for an inclusive, internationally-mediated dialogue to address the root causes of the Anglophone conflict, including constitutional reform and governance.",
+      "Support Cameroonian human rights defenders and civil society organisations documenting abuses and working towards a just and peaceful future.",
+      "Urge investigations into the role of foreign corporations in resource extraction that fuels corruption and exacerbates regional inequalities."
+    ]
+  },
+  "reading": [
+    {
+      "title": "Imperialism and Nationalism in the Fertile Crescent",
+      "url": "https://www.goodreads.com/book/show/4738696",
+      "description": "By Richard Allen. A detailed account of the hidden war waged by France against the UPC, exposing the violent foundations of Cameroon's post-colonial state."
+    },
+    {
+      "title": "On the Postcolony",
+      "url": "https://www.goodreads.com/book/show/149757",
+      "description": "By Achille Mbembe. A seminal theoretical work by a leading Cameroonian philosopher that explores the nature of power, violence, and subjectivity in post-colonial Africa, using Cameroon as a key example."
+    }
+  ]
+}

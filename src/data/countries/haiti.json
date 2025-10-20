@@ -16,14 +16,14 @@
     "internationalLawAndAccountability": "There are multiple accountability threads — historical (the 1825 indemnity and colonial expropriation), transitional (investigations into the 2021 assassination of President Moïse), and contemporaneous (documentation of human-rights abuses by gangs and by public actors). Formal international responses, including human-rights monitoring and UN Security Council authorisations for multilateral missions, exist but face political contestation and remain insufficient to meet victims' demands for justice and reparations."
   },
   "humanitarianImpact": {
-    "displaced": "More than 1.3 million people internally displaced (a record high), driven by gang violence and attacks.",
-    "refugees": "Hundreds of thousands of Haitians have fled the country, with more facing deportation.",
     "casualties": "Over 5,600 people killed in 2024, with gang violence escalating significantly.",
     "affected": "Approximately 6 million people (roughly half the population) require humanitarian assistance.",
-    "childrenOutOfSchool": "Hundreds of thousands of children out of school due to insecurity and displacement.",
-    "healthSystemCollapsed": "Many health facilities non-functional due to attacks and staff flight.",
     "foodInsecurity": "Roughly 5.7 million people face high levels of acute food insecurity.",
-    "lackOfWaterAccess": "Millions lack access to safe drinking water and sanitation."
+    "displaced": "More than 1.3 million people internally displaced (a record high), driven by gang violence and attacks.",
+    "refugees": "Hundreds of thousands of Haitians have fled the country, with more facing deportation.",
+    "healthSystemCollapsed": "Many health facilities non-functional due to attacks and staff flight.",
+    "lackOfWaterAccess": "Millions lack access to safe drinking water and sanitation.",
+    "childrenOutOfSchool": "Hundreds of thousands of children out of school due to insecurity and displacement."
   },
   "timeline": [
     {

@@ -8,9 +8,9 @@ export const DEFAULT_CATEGORY = 'All';
  * `as const` ensures the array is read-only and its values can be used as a type.
  */
 export const COUNTRY_CATEGORIES = [
-  'Invasion & Occupation',
-  'Insurgency & Resource Conflict',
+  'Occupation & Imperialism',
   'State Collapse & Civil War',
-  'Occupation & Dispossession',
-  'Economic Collapse & Political Repression',
+  'Resource Exploitation & Foreign Interference',
+  'Economic Collapse & Repression',
+  'Displacement & Humanitarian Catastrophe',
 ] as const;

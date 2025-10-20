@@ -1,0 +1,89 @@
+{
+  "$schema": "../../schemas/json/country-data.schema.json",
+  "name": "Central African Republic",
+  "emoji": "🇨🇫",
+  "ariaLabel": "Central African Republic flag",
+  "lastUpdated": "2025-10-20",
+  "currentCrisisSummary": "The Central African Republic (CAR) is in a state of protracted collapse, shaped by decades of foreign interference, a predatory state structure inherited from colonialism, and the systematic extraction of its natural resources. The central government's authority is limited, with much of the country controlled by a constellation of armed groups and foreign mercenaries.\n\nThis power vacuum is the direct legacy of a post-colonial model where external powers, historically France and more recently Russia, have cultivated client relationships to secure access to diamonds, gold, and uranium. The current phase of the crisis is characterised by the government's reliance on Russian private military contractors (the Africa Corps, formerly Wagner Group) who provide security in exchange for lucrative mining concessions. This arrangement perpetuates a cycle of violence, displaces civilians, and ensures that the nation's wealth is siphoned offshore rather than invested in public services, leaving the population in a state of extreme humanitarian distress.",
+  "colonialRoot": {
+    "colonialPower": "France (c. 1894-1960)",
+    "legacy": "French colonial rule in Ubangi-Shari was exceptionally brutal and extractive. The territory was carved up and leased to private concessionary companies, which were granted total power to exploit rubber, ivory, and diamonds using a system of forced labour. This model established the state not as a provider of public goods, but as an instrument of violent resource extraction for foreign enrichment.\n\nThis foundational structure was never dismantled. At independence, France handed power to a compliant elite who perpetuated the predatory system. The legacy is a chronically weak state, devoid of legitimacy and institutional capacity, where control over resources remains the primary motive for political power and the ultimate driver of conflict."
+  },
+  "historicalContext": {
+    "postColonialFrenchIntervention": "For decades after 'independence' in 1960, CAR remained a key outpost of 'Françafrique'—a system of neo-colonial control. France repeatedly intervened militarily to install, protect, and depose client rulers (such as Jean-Bédel Bokassa) to safeguard its strategic and economic interests, including access to uranium. This persistent interference prevented the development of genuine sovereignty and entrenched a political culture of dependency on an external patron.",
+    "resourceCurseAndPredatoryElites": "CAR's immense mineral wealth has been a curse, fuelling conflict and enriching a small domestic elite and their foreign partners while the population remains impoverished. The diamond trade, in particular, is deeply linked to illicit arms trafficking and the financing of armed groups. The state's function has been reduced to managing the contracts and security for foreign extractive industries, creating a permanent incentive for rival factions to seize power through violence to gain control of these revenue streams.",
+    "proxyBattlegroundAndMercenaryEconomy": "In recent years, CAR has become a key theatre for geopolitical competition between a declining French influence and a resurgent Russia. The government's turn to the Wagner Group (now Africa Corps) represents a shift from one imperial patron to another. This new model trades sovereign mineral rights directly for mercenary services, bypassing even the pretence of state-building. It has created a parallel economy of violence and extraction, where Russian mercenaries and their corporate affiliates operate with impunity, committing widespread human rights abuses in their campaign to secure mines and territory.",
+    "internationalLawAndAccountability": "Despite the presence of a UN peacekeeping mission (MINUSCA) and the establishment of a Special Criminal Court (SCC) to try war crimes, accountability remains elusive. The ICC has also opened investigations. However, these legal mechanisms are critically under-resourced, politically constrained, and unable to address the actions of the most powerful actors, particularly foreign mercenaries who enjoy de facto immunity. Justice is further undermined by the selective focus on local armed groups while the foreign corporations and state actors who profit from the illicit resource trade face little to no scrutiny."
+  },
+  "humanitarianImpact": {
+    "casualties": "Thousands of civilians have been killed in the conflict since 2013, with ongoing atrocities committed by all parties.",
+    "affected": "Approximately 2.8 million people, nearly half the population, require urgent humanitarian assistance to survive.",
+    "foodInsecurity": "Over 2 million people face high levels of acute food insecurity, with chronic malnutrition stunting a generation of children.",
+    "displaced": "Over 500,000 people are internally displaced, forced from their homes by violence.",
+    "refugees": "More than 750,000 refugees have fled to neighbouring countries like Cameroon, DRC, and Chad.",
+    "healthSystemCollapsed": "The healthcare system is near total collapse, with less than half of medical facilities functional. Life expectancy is one of the lowest in the world.",
+    "lackOfWaterAccess": "Roughly two-thirds of the population lacks access to basic sanitation, and half lacks access to safe drinking water."
+  },
+  "timeline": [
+    {
+      "year": "c. 1894",
+      "event": "**French Conquest**: In the imperial 'Scramble for Africa', and competing directly with King Leopold's brutal Congo Free State, France conquers the territory. It is named Ubangi-Shari and its colonisation is driven by the pursuit of ivory and the potential for rubber, establishing the legal and military basis for a system of pure extraction."
+    },
+    {
+      "year": "c. 1900-1930",
+      "event": "**Red Rubber Regime**: French concessionary companies impose a reign of terror, using forced labour and extreme violence to extract rubber, resulting in a massive depopulation of the territory."
+    },
+    {
+      "year": "1960",
+      "event": "**Nominal Independence**: France grants independence but maintains deep military, political, and economic control through the 'Françafrique' system."
+    },
+    {
+      "year": "1966-1979",
+      "event": "**Bokassa's Empire**: Jean-Bédel Bokassa, initially backed by France, rules as a brutal dictator and later self-proclaimed emperor. He is ultimately removed by a French military operation when his utility wanes."
+    },
+    {
+      "year": "2013",
+      "event": "**Séléka Coup**: The Séléka, a predominantly Muslim coalition of rebel groups from the marginalised north, captures the capital, Bangui. The coup triggers the formation of 'anti-balaka' militias, plunging the country into widespread sectarian violence."
+    },
+    {
+      "year": "2014",
+      "event": "**Opération Sangaris**: France intervenes militarily, followed by the deployment of a UN peacekeeping force (MINUSCA). The intervention contains the worst of the violence but fails to address the root causes of the conflict."
+    },
+    {
+      "year": "2018",
+      "event": "**Enter Wagner**: The CAR government, seeking to break its dependency on the West, invites the Russian private military company Wagner Group to provide security and training in exchange for untaxed mining concessions."
+    },
+    {
+      "year": "2020-Present",
+      "event": "**Mercenary State**: Wagner forces become integral to the regime's survival, fighting rebels and securing key mining sites. Widespread, credible reports document their involvement in massacres, torture, and looting, solidifying a new neo-colonial model of resource-for-security."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "UNHCR (The UN Refugee Agency)",
+        "description": "UNHCR provides critical protection and assistance to refugees and internally displaced people, delivering shelter, aid, and support to those forced to flee the violence in CAR.",
+        "url": "https://www.unhcr.org/emergencies/central-african-republic-emergency"
+      }
+    ],
+    "advocacy": [
+      "Demand sanctions on foreign corporations and individuals, including those affiliated with the Africa Corps/Wagner Group, involved in the illicit trade of CAR's 'blood diamonds' and gold.",
+      "Oppose all forms of foreign military interference, whether through official state armies or private mercenary companies, that serves to extract resources and prop up illegitimate regimes.",
+      "Call for the unconditional cancellation of CAR's external debt, which serves to perpetuate dependency and divert state funds away from essential services.",
+      "Support and amplify the voices of Central African civil society organisations working on peacebuilding, human rights, and good governance.",
+      "Advocate for strengthening the Special Criminal Court and other justice mechanisms with the resources and political independence to prosecute all perpetrators of war crimes, including foreign actors."
+    ]
+  },
+  "reading": [
+    {
+      "title": "The Wonga Coup: A Stirring Tale of Swashbuckling Mercenaries, Texas Oilmen, and a Tiny African Country",
+      "url": "https://www.goodreads.com/book/show/36813343",
+      "description": "By Adam Roberts. An exposé on a failed coup in Equatorial Guinea that masterfully illustrates the enduring model of private military companies and elite interests colluding to seize African resources."
+    },
+    {
+      "title": "The New Scramble for Africa",
+      "url": "https://www.goodreads.com/book/show/11117502-the-new-scramble-for-africa",
+      "description": "By Pádraig Carmody. This book analyses the renewed strategic competition over Africa's resources, providing a framework for understanding the roles of both Western powers and new actors like China and Russia in the 21st century."
+    }
+  ]
+}

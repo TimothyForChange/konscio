@@ -15,14 +15,14 @@
     "internationalLawAndAccountability": "Since October 2023 multiple international legal processes have been activated. The ICJ case brought by South Africa resulted in provisional measures after the Court found that allegations of genocide in Gaza were plausible. The ICC has open preliminary examinations and investigations relating to alleged war crimes. National courts, UN fact-finding missions and independent rights bodies have also documented potential violations of international humanitarian and human rights law.\n\nThese mechanisms are contested politically and their outcomes remain uncertain, but they represent formal avenues of accountability and a record of documented abuses that organisations, victims and states continue to use in advocacy and legal strategies."
   },
   "humanitarianImpact": {
-    "displaced": "Over 1.9 million internally displaced in Gaza (nearly 90% of the population).",
-    "refugees": "5.9 million registered Palestinian refugees rely on UNRWA for essential services.",
     "casualties": "An estimated 67,000 people killed in Gaza since October 2023.",
     "affected": "Gaza's entire population of 2.3 million faces catastrophic humanitarian crisis.",
-    "childrenOutOfSchool": "Over 625,000 school children in Gaza have no access to education.",
+    "foodInsecurity": "Entire Gaza population faces crisis-level food insecurity with over 1 million facing catastrophic hunger.",
+    "displaced": "Over 1.9 million internally displaced in Gaza (nearly 90% of the population).",
+    "refugees": "5.9 million registered Palestinian refugees rely on UNRWA for essential services.",
     "healthSystemCollapsed": "Healthcare system in Gaza systematically dismantled with most hospitals non-functional.",
     "lackOfWaterAccess": "Over 95% of Gaza's water contaminated and unfit for human consumption.",
-    "foodInsecurity": "Entire Gaza population faces crisis-level food insecurity with over 1 million facing catastrophic hunger."
+    "childrenOutOfSchool": "Over 625,000 school children in Gaza have no access to education."
   },
   "timeline": [
     {

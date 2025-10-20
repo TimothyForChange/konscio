@@ -8,7 +8,25 @@ const countries: Country[] = [
     description: 'Economic collapse & gender apartheid',
     seoDescription:
       'Afghanistan faces severe humanitarian crisis under Taliban rule: economic collapse, gender apartheid, and over two decades of foreign occupation.',
-    category: 'Invasion & Occupation',
+    category: 'Occupation & Imperialism',
+  },
+  {
+    name: 'Cameroon',
+    slug: 'cameroon',
+    flag: '🇨🇲',
+    description: 'Anglophone conflict & internal displacement',
+    seoDescription:
+      "Cameroon faces a brutal conflict between Anglophone separatists and the central government. Widespread human rights abuses, displacement, and repression mark one of Africa's least-reported humanitarian crises.",
+    category: 'Resource Exploitation & Foreign Interference',
+  },
+  {
+    name: 'Central African Republic',
+    slug: 'car',
+    flag: '🇨🇫',
+    description: 'Chronic instability & foreign mercenary involvement',
+    seoDescription:
+      'The Central African Republic endures years of conflict involving armed groups, foreign mercenaries, and state collapse. Millions displaced amid resource exploitation and a fragile peace process.',
+    category: 'State Collapse & Civil War',
   },
   {
     name: 'Democratic Republic of the Congo',
@@ -17,7 +35,7 @@ const countries: Country[] = [
     description: 'Conflict over minerals & foreign exploitation',
     seoDescription:
       "DRC's endless war over strategic minerals has displaced millions. Discover the colonial legacy, foreign exploitation, and path to lasting peace.",
-    category: 'Insurgency & Resource Conflict',
+    category: 'Resource Exploitation & Foreign Interference',
   },
   {
     name: 'Ethiopia',
@@ -35,7 +53,7 @@ const countries: Country[] = [
     description: 'State collapse, debt & foreign interference',
     seoDescription:
       "Haiti's state collapse and crushing foreign debt create widespread chaos. Learn about the 200-year struggle for sovereignty and international responsibility.",
-    category: 'State Collapse & Civil War',
+    category: 'Economic Collapse & Repression',
   },
   {
     name: 'Myanmar',
@@ -44,7 +62,7 @@ const countries: Country[] = [
     description: 'Popular uprising against military rule',
     seoDescription:
       "Myanmar's military junta faces massive popular uprising after 2021 coup. Explore ethnic conflicts, Rohingya crisis, and path to democratic transition.",
-    category: 'State Collapse & Civil War',
+    category: 'Economic Collapse & Repression',
   },
   {
     name: 'Palestine',
@@ -53,7 +71,7 @@ const countries: Country[] = [
     description: 'Genocide, apartheid & settler colonialism',
     seoDescription:
       "Palestine's intensifying humanitarian catastrophe: genocide in Gaza, apartheid system, and 75 years of dispossession. Critical analysis of settler colonialism.",
-    category: 'Occupation & Dispossession',
+    category: 'Occupation & Imperialism',
   },
   {
     name: 'Sahel',
@@ -62,7 +80,7 @@ const countries: Country[] = [
     description: 'Insurgency, climate crisis & foreign intervention',
     seoDescription:
       "The Sahel region's deadly jihadist insurgency compounds the climate crisis. Armed groups, foreign military interventions, and the fight for regional stability.",
-    category: 'Insurgency & Resource Conflict',
+    category: 'Resource Exploitation & Foreign Interference',
   },
   {
     name: 'Somalia',
@@ -80,7 +98,7 @@ const countries: Country[] = [
     description: 'Conflict over oil, power & ethnicity',
     seoDescription:
       "South Sudan's oil-fuelled civil war has displaced millions. The world's newest nation struggles with corruption, ethnic violence, and fragile peace agreements.",
-    category: 'Insurgency & Resource Conflict',
+    category: 'Resource Exploitation & Foreign Interference',
   },
   {
     name: 'Sudan',
@@ -107,7 +125,7 @@ const countries: Country[] = [
     description: 'Invasion & mass displacement',
     seoDescription:
       "Ukraine faces a devastating war following Russia's 2022 invasion. Millions displaced, cities destroyed, and ongoing human rights violations highlight Europe's largest humanitarian crisis since WWII.",
-    category: 'Invasion & Occupation',
+    category: 'Occupation & Imperialism',
   },
   {
     name: 'Venezuela',
@@ -116,7 +134,7 @@ const countries: Country[] = [
     description: 'Economic collapse & mass migration',
     seoDescription:
       "Venezuela's economic implosion has triggered widespread food and medicine shortages, hyperinflation, and one of the largest migration crises in the Americas. Political repression compounds the humanitarian emergency.",
-    category: 'Economic Collapse & Political Repression',
+    category: 'Economic Collapse & Repression',
   },
   {
     name: 'Yemen',

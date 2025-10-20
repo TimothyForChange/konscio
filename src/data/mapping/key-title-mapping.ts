@@ -20,6 +20,16 @@ export const keyToTitleMap: Record<string, string> = {
   conflictMineralsAndForeignInfluence: 'Conflict Minerals and Foreign Influence',
   thePostColonialStateAndExternalInterference: 'The Post-Colonial State and External Interference',
 
+  // Cameroon
+  ViolentDecolonisationAndNeoColonialControl: 'Violent Decolonisation and Neo-Colonial Control',
+  TheAnglophoneProblemAndForcedAssimilation: 'The Anglophone Problem and Forced Assimilation',
+  ResourceExtractionAndEliteEnrichment: 'Resource Extraction and Elite Enrichment',
+
+  // Central African Republic
+  postColonialFrenchIntervention: 'Post-Colonial French Intervention',
+  resourceCurseAndPredatoryElites: 'Resource Curse and Predatory Elites',
+  proxyBattlegroundAndMercenaryEconomy: 'Proxy Battleground and Mercenary Economy',
+
   // Ethiopia
   theFailureOfEthnicFederalism: 'The Failure of Ethnic Federalism',
   geopoliticsOfTheHornAndProxyInterests: 'Geopolitics of the Horn and Proxy Interests',

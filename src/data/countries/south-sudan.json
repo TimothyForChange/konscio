@@ -15,13 +15,13 @@
     "internationalLawAndAccountability": "Serious violations of international humanitarian and human-rights law have been documented during cycles of violence. Independent research has estimated large numbers of excess deaths associated with the 2013-2018 civil war. Calls for accountability include proposals for a Hybrid Court for South Sudan and targeted sanctions on those who facilitate violence and steal public assets. Effective accountability must combine criminal responsibility for grave abuses with structural measures to recover stolen assets and reform resource governance."
   },
   "humanitarianImpact": {
-    "displaced": "Approximately 2.1 million people internally displaced within South Sudan, with combined displacement burden over 4 million including refugees and returnees.",
-    "refugees": "More than 2.3 million South Sudanese are refugees or asylum-seekers, one of Africa's largest refugee situations.",
     "casualties": "Nearly 400,000 excess deaths attributable to the conflict since 2013.",
     "affected": "Roughly 9.4 million people in need of assistance (approximately two-thirds of the population).",
+    "foodInsecurity": "Large population faces severe food insecurity driven by flooding, displacement and market disruption.",
+    "displaced": "Approximately 2.1 million people internally displaced within South Sudan, with combined displacement burden over 4 million including refugees and returnees.",
+    "refugees": "More than 2.3 million South Sudanese are refugees or asylum-seekers, one of Africa's largest refugee situations.",
     "childrenOutOfSchool": "Millions of children out of school due to conflict and displacement.",
-    "livingInPoverty": "A majority of households face extreme poverty and food shortages.",
-    "foodInsecurity": "Large population faces severe food insecurity driven by flooding, displacement and market disruption."
+    "livingInPoverty": "A majority of households face extreme poverty and food shortages."
   },
   "timeline": [
     {

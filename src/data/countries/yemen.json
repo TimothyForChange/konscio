@@ -15,14 +15,14 @@
     "internationalLawAndAccountability": "Allegations of unlawful attacks on civilians, blockade-induced starvation and diversion of aid have prompted repeated calls for independent investigation and accountability. UN bodies, rights organisations and some states have documented potential war crimes and human-rights violations. Accountability efforts remain politically contested, but they are central to any longer-term prospect of justice and deterrence."
   },
   "humanitarianImpact": {
-    "displaced": "Around 4.5 million people internally displaced by conflict, floods and economic collapse.",
-    "refugees": "Tens of thousands of Yemenis are registered refugees or asylum-seekers abroad.",
     "casualties": "Total deaths attributable to the war estimated at roughly 377,000 by end of 2021.",
     "affected": "Roughly 19.5 million people in need of humanitarian assistance and protection.",
-    "childrenOutOfSchool": "More than 2 million children out of school due to infrastructure damage and displacement.",
-    "healthSystemCollapsed": "Roughly half of health facilities non-functional or partially functional with acute shortages.",
     "foodInsecurity": "More than 17 million people face crisis-level or worse acute food insecurity.",
-    "lackOfWaterAccess": "Over 15 million people lack access to safe drinking water and sanitation."
+    "displaced": "Around 4.5 million people internally displaced by conflict, floods and economic collapse.",
+    "refugees": "Tens of thousands of Yemenis are registered refugees or asylum-seekers abroad.",
+    "healthSystemCollapsed": "Roughly half of health facilities non-functional or partially functional with acute shortages.",
+    "lackOfWaterAccess": "Over 15 million people lack access to safe drinking water and sanitation.",
+    "childrenOutOfSchool": "More than 2 million children out of school due to infrastructure damage and displacement."
   },
   "timeline": [
     {

@@ -15,14 +15,14 @@
     "internationalLawAndAccountability": "There are growing calls for accountability around cross-border military support, illicit trafficking of arms and natural-resource exploitation that help sustain armed groups. UN panels, regional bodies and civil-society investigations have documented illicit resource flows and external support to armed actors; addressing these transnational dynamics is essential for long-term peace and reparative justice."
   },
   "humanitarianImpact": {
-    "displaced": "Over 3.3 million people internally displaced across the Central Sahel due to violence and insecurity.",
-    "refugees": "Nearly 1 million refugees and asylum-seekers have fled to neighbouring countries.",
     "casualties": "Tens of thousands killed and injured in the conflict with ongoing substantial human losses.",
     "affected": "An estimated 18 million people require urgent humanitarian assistance.",
-    "childrenOutOfSchool": "Over 13,000 schools non-operational due to insecurity, depriving millions of children of education.",
-    "healthSystemCollapsed": "Hundreds of health centres closed or minimally functional due to attacks and staff flight.",
     "foodInsecurity": "Millions in the Central Sahel face acute hunger due to conflict and climate shocks.",
-    "lackOfWaterAccess": "Large populations lack access to safe drinking water and sanitation due to conflict and infrastructure destruction."
+    "displaced": "Over 3.3 million people internally displaced across the Central Sahel due to violence and insecurity.",
+    "refugees": "Nearly 1 million refugees and asylum-seekers have fled to neighbouring countries.",
+    "healthSystemCollapsed": "Hundreds of health centres closed or minimally functional due to attacks and staff flight.",
+    "lackOfWaterAccess": "Large populations lack access to safe drinking water and sanitation due to conflict and infrastructure destruction.",
+    "childrenOutOfSchool": "Over 13,000 schools non-operational due to insecurity, depriving millions of children of education."
   },
   "timeline": [
     {

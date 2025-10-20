@@ -15,10 +15,10 @@
     "internationalLawAndAccountability": "Multiple international mechanisms have engaged with the DRC crisis. The UN Group of Experts on the DRC has repeatedly documented regional support for armed groups and illicit exploitation of resources (notably in reports such as S/2024/432). National and international investigations, civil-society documentation and occasional prosecutions have exposed abuses, but systemic accountability remains limited. Remedies require both criminal accountability for serious violations and structural reforms to ensure resource governance, corporate responsibility and reparations for affected communities."
   },
   "humanitarianImpact": {
-    "displaced": "Nearly 7 million people internally displaced, the highest level in recent DRC history.",
-    "refugees": "More than 1 million DRC refugees and asylum-seekers in neighbouring countries.",
     "casualties": "Conflict-related deaths since the late 1990s likely number in the millions.",
     "affected": "Roughly 25.4 million people in need of humanitarian assistance.",
+    "displaced": "Nearly 7 million people internally displaced, the highest level in recent DRC history.",
+    "refugees": "More than 1 million DRC refugees and asylum-seekers in neighbouring countries.",
     "childrenOutOfSchool": "Millions of children out of school due to conflict and displacement.",
     "sexualViolence": "Sexual and gender-based violence is endemic; tens of thousands of survivors treated annually.",
     "livelihoodsAndEconomicLoss": "Mining communities face dispossession and forced labour as armed groups control resources."
@@ -93,6 +93,11 @@
       "title": "Cobalt Red: How the Blood of the Congo Powers Our Lives",
       "url": "https://goodreads.com/book/show/60784614",
       "description": "An investigation linking cobalt mining in the DRC to corporate supply chains, labour abuses and environmental harms."
+    },
+    {
+      "title": "Dancing in the Glory of Monsters: The Collapse of the Congo and the Great War of Africa",
+      "url": "https://www.goodreads.com/book/show/10046142",
+      "description": "By Jason Stearns. Though centred on the DRC, this book provides essential context on the regional dynamics of conflict, resource extraction, and state failure in Central Africa."
     },
     {
       "title": "The Assassination of Lumumba",
