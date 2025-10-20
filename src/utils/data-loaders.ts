@@ -47,7 +47,7 @@ export async function loadAndValidateKeyTitleMapping(): Promise<KeyTitleMapping>
   try {
     const mappingModule = await import('../data/mapping/key-title-mapping.ts');
     const rawData = mappingModule.default;
-    return validateKeyTitleMapping(rawData);
+    return validateKeyTitleMapping({ keyToTitleMap: rawData });
   } catch (error) {
     throw error;
   }
