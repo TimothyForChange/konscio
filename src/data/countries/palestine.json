@@ -3,7 +3,7 @@
   "name": "Palestine",
   "emoji": "🇵🇸",
   "ariaLabel": "Palestinian flag",
-  "lastUpdated": "2025-10-16",
+  "lastUpdated": "2025-10-20",
   "currentCrisisSummary": "An acute, intensifying humanitarian catastrophe across occupied Palestine — especially the Gaza Strip — characterised by mass displacement, widespread civilian death, the effective collapse of public services, and crisis levels of food insecurity and disease.\n\nThe International Court of Justice has found that claims of genocide in Gaza are plausible and ordered provisional measures; concurrent efforts at the International Criminal Court and other accountability mechanisms are ongoing. The immediate violence and structural deprivation are sustained and amplified by geopolitical, military and economic support from Western powers — principally the United States — which provide Israel with large-scale military assistance and diplomatic cover.\n\nThese dynamics occur within a longer pattern of settler colonialism, dispossession and legal-political structures that restrict Palestinian self-determination.",
   "imperialRoot": {
     "imperialPower": "British Empire (1920-1948)",
@@ -15,7 +15,7 @@
     "internationalLawAndAccountability": "Since October 2023 multiple international legal processes have been activated. The ICJ case brought by South Africa resulted in provisional measures after the Court found that allegations of genocide in Gaza were plausible. The ICC has open preliminary examinations and investigations relating to alleged war crimes. National courts, UN fact-finding missions and independent rights bodies have also documented potential violations of international humanitarian and human rights law.\n\nThese mechanisms are contested politically and their outcomes remain uncertain, but they represent formal avenues of accountability and a record of documented abuses that organisations, victims and states continue to use in advocacy and legal strategies."
   },
   "humanitarianImpact": {
-    "casualties": "An estimated 67,000 people killed in Gaza since October 2023.",
+    "casualties": "An estimated 68,000 people killed in Gaza since October 2023.",
     "affected": "Gaza's entire population of 2.3 million faces catastrophic humanitarian crisis.",
     "foodInsecurity": "Entire Gaza population faces crisis-level food insecurity with over 1 million facing catastrophic hunger.",
     "displaced": "Over 1.9 million internally displaced in Gaza (nearly 90% of the population).",
@@ -55,11 +55,15 @@
     },
     {
       "year": "2023",
-      "event": "**October 7th**: After 16 years of an Israeli blockade, Hamas leads an attack on Israel; Israel launches a massive assault on Gaza in response. The International Court of Justice has since ruled that claims of genocide in Gaza are plausible."
+      "event": "**October 7th**: After 16 years of an Israeli blockade, Hamas leads an attack on Israel; Israel launches a massive assault on Gaza in response."
     },
     {
       "year": "2024",
       "event": "**ICJ Plausible Genocide Ruling**: The International Court of Justice rules that claims of genocide in Gaza are plausible, ordering provisional measures against Israel."
+    },
+    {
+      "year": "2025",
+      "event": "**Ceasefire Agreement**: A ceasefire is declared on 10 October. However, in the first 10 days, it is violated over 47 times by Israel through bombing, blocking humantarian aid, and other hostile actions."
     }
   ],
   "takeAction": {
