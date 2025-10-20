@@ -92,7 +92,7 @@ const stats = Object.entries(humanitarianImpact)
     }
 
     .impact-stats {
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(var(--grid-min-width, 280px), 1fr));
       gap: var(--gap-lg);
     }
 

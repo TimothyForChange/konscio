@@ -57,12 +57,12 @@ const sanitizedUrl = url.startsWith('http') ? url : `https://${url}`;
     background: var(--accent-primary);
     color: var(--on-accent);
     text-decoration: none;
-    padding: 0.75rem 1.25rem;
+    padding: var(--button-padding-y) var(--button-padding-x);
     border-radius: var(--button-radius);
     font-weight: var(--font-weight-semibold);
-    font-size: 0.95rem;
+    font-size: var(--font-size-base);
     transition: var(--link-transition);
-    min-height: 44px;
+    min-height: var(--min-height-card);
     box-sizing: border-box;
   }
 
