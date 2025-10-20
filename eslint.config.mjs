@@ -8,56 +8,70 @@ import sonarjs from 'eslint-plugin-sonarjs';
 import unicorn from 'eslint-plugin-unicorn';
 import { defineConfig } from 'eslint/config';
 
+const jsFiles = ['*.js', '*.mjs'];
+const tsFiles = ['*.ts'];
+const astroFiles = ['*.astro'];
+const cssFiles = ['*.css', '*.astro'];
+const jsonFiles = ['*.json'];
+const unicornFiles = ['*.js', '*.ts', '*.mjs', '*.astro'];
+
+const jsPlugins = { sonarjs };
+const tsPlugins = { '@typescript-eslint': ts, sonarjs };
+const astroPlugins = { astro };
+const cssPlugins = { css };
+const jsonPlugins = { json };
+const unicornPlugins = { unicorn };
+
 export default defineConfig(
   {
-    ignores: ['dist/**', '**/node_modules/**', '.astro/**', '.qwen/**', '.vscode/**'],
-  },
-  {
-    files: ['*.js', '*.mjs'],
+    files: jsFiles,
     languageOptions: {
       parserOptions: { ecmaVersion: 'latest', sourceType: 'module' },
     },
-    plugins: { sonarjs },
+    plugins: jsPlugins,
     rules: {
       ...eslint.configs.recommended.rules,
       ...sonarjs.configs.recommended.rules,
     },
   },
   {
-    files: ['*.ts', '*.astro'],
-    plugins: { '@typescript-eslint': ts, sonarjs },
+    files: tsFiles,
+    plugins: tsPlugins,
     rules: {
       ...ts.configs.recommended.rules,
       ...sonarjs.configs.recommended.rules,
     },
   },
   {
-    files: ['*.astro'],
-    plugins: { astro },
-    rules: astro.configs.recommended.rules,
+    files: astroFiles,
+    plugins: { ...astroPlugins, ...tsPlugins },
+    rules: {
+      ...astro.configs.recommended.rules,
+      ...ts.configs.recommended.rules,
+      ...sonarjs.configs.recommended.rules,
+    },
   },
   {
-    files: ['*.css', '*.astro'],
+    files: cssFiles,
     language: 'css/css',
-    plugins: { css },
+    plugins: cssPlugins,
     rules: css.configs.recommended.rules,
   },
   {
-    files: ['*.json'],
+    files: jsonFiles,
     ignores: ['package-lock.json'],
     language: 'json/json',
-    plugins: { json },
+    plugins: jsonPlugins,
     rules: json.configs.recommended.rules,
   },
   {
-    files: ['*.js', '*.ts', '*.mjs', '*.astro'],
-    plugins: { unicorn },
+    files: unicornFiles,
+    plugins: unicornPlugins,
     rules: {
       ...unicorn.configs.recommended.rules,
       'unicorn/filename-case': 'off',
       'unicorn/prefer-module': 'off',
       'unicorn/prevent-abbreviations': 'off',
-      'sort-imports': 'off',
     },
   },
   prettier
