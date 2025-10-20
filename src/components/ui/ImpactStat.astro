@@ -2,15 +2,13 @@
 export interface Properties {
   label: string;
   value: string;
-  icon?: string;
 }
 
-const { label, value, icon } = Astro.props as Properties;
+const { label, value } = Astro.props as Properties;
 ---
 
 <div class='stat-item'>
   <span class='stat-title-flex'>
-    {icon && <i class={`impact-icon ri ${icon}`} />}
     <strong class='stat-title'>{label}:</strong>
   </span>
   <span set:html={value} />
@@ -37,16 +35,5 @@ const { label, value, icon } = Astro.props as Properties;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin: 0;
-  }
-  .impact-icon {
-    font-size: var(--font-size-xl);
-    color: var(--accent-primary);
-    margin: 0 var(--space-xs) 0 0;
-    display: inline-flex;
-    align-items: center;
-    vertical-align: middle;
-    line-height: 1;
-    position: relative;
-    top: 0.05em;
   }
 </style>

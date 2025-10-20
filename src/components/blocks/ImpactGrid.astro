@@ -2,14 +2,14 @@
 import ImpactStat from '../ui/ImpactStat.astro';
 
 export interface Properties {
-  stats: Array<{ label: string; value: string; icon?: string }>;
+  stats: Array<{ label: string; value: string }>;
 }
 
 const { stats } = Astro.props as Properties;
 ---
 
 <div class='impact-stats'>
-  {stats.map((s) => <ImpactStat label={s.label} value={s.value} icon={s.icon} />)}
+  {stats.map((s) => <ImpactStat label={s.label} value={s.value} />)}
 </div>
 
 <style>

@@ -1,5 +1,4 @@
 ---
-import { impactIconMap } from '../../constants/impact-icons.ts';
 import type { HumanitarianImpact } from '../../types/country';
 import { formatKeyToTitle, formatText } from '../../utils/text.ts';
 import ImpactGrid from '../blocks/ImpactGrid.astro';
@@ -30,7 +29,6 @@ const stats = Object.entries(humanitarianImpact)
     return {
       label,
       value: formatText(value),
-      icon: impactIconMap[label],
     };
   });
 ---
