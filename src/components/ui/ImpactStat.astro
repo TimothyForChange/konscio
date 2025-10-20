@@ -2,17 +2,17 @@
 export interface Properties {
   label: string;
   value: string;
-  icon?: string; // Remixicon name, e.g. 'ri-heart-line'
+  icon?: string;
 }
 
 const { label, value, icon } = Astro.props as Properties;
 ---
 
 <div class='stat-item'>
-  <strong class='stat-title'>
+  <span class='stat-title-flex'>
     {icon && <i class={`impact-icon ri ${icon}`} />}
-    {label}:
-  </strong>
+    <strong class='stat-title'>{label}:</strong>
+  </span>
   <span set:html={value} />
 </div>
 
@@ -24,19 +24,22 @@ const { label, value, icon } = Astro.props as Properties;
     padding: var(--card-padding);
   }
 
-  .stat-title {
-    color: var(--accent-primary);
-    font-weight: var(--font-weight-bold);
+  .stat-title-flex {
     display: flex;
     align-items: center;
     gap: 0.5ch;
     margin-bottom: calc(var(--heading-gap) / 4);
+  }
+  .stat-title {
+    color: var(--accent-primary);
+    font-weight: var(--font-weight-bold);
     font-size: var(--font-size-sm);
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    margin: 0;
   }
   .impact-icon {
-    font-size: 1.25em;
+    font-size: 1.3em;
     color: var(--accent-primary);
     margin: 0 0.1em 0 0;
     display: inline-flex;
