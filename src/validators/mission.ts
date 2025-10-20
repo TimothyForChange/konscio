@@ -2,9 +2,7 @@ import { MissionSchema } from '../schemas/mission';
 import type { Mission } from '../types/mission';
 
 /**
- * Validates the structure and types of the mission data object.
- * This function uses the `MissionSchema` to parse and validate the input data.
- * It returns a typed `Mission` object on success.
+ * Validates the mission data object using the MissionSchema.
  *
  * @param missionData - The mission data object to validate.
  * @returns The validated mission object.

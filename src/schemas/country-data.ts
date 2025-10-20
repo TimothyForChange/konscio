@@ -1,9 +1,8 @@
 import { z } from 'zod';
 
 /**
- * Zod schema for the humanitarian impact of a crisis in a country.
- * Defines the structure and validation rules for statistics on displaced people,
- * refugees, casualties, and other humanitarian indicators.
+ * Zod schema for humanitarian impact statistics.
+ * Defines rules for data on displaced people, refugees, casualties, and other indicators.
  */
 const HumanitarianImpactSchema = z.object({
   displaced: z.string(),
@@ -21,7 +20,7 @@ const HumanitarianImpactSchema = z.object({
 
 /**
  * Zod schema for the colonial roots of a crisis.
- * Captures the colonial power involved and the lasting legacy of its rule.
+ * Captures the colonial power and its legacy.
  */
 const ColonialRootSchema = z.object({
   colonialPower: z.string(),
@@ -30,7 +29,7 @@ const ColonialRootSchema = z.object({
 
 /**
  * Zod schema for the imperial roots of a crisis.
- * Captures the imperial power involved and the lasting legacy of its influence.
+ * Captures the imperial power and its legacy.
  */
 const ImperialRootSchema = z.object({
   imperialPower: z.string(),
@@ -39,7 +38,6 @@ const ImperialRootSchema = z.object({
 
 /**
  * Zod schema for a single event in a country's historical timeline.
- * Each event includes a year and an optional description.
  */
 const TimelineEventSchema = z.object({
   year: z.string(),
@@ -48,7 +46,6 @@ const TimelineEventSchema = z.object({
 
 /**
  * Zod schema for an organisation involved in aid or advocacy.
- * Includes the organisation's name, a description of its work, and a URL to its website.
  */
 const OrganisationSchema = z.object({
   organisation: z.string(),
@@ -58,7 +55,6 @@ const OrganisationSchema = z.object({
 
 /**
  * Zod schema for actions that individuals can take in response to a crisis.
- * This includes lists of organisations to donate to and advocacy points to support.
  */
 const TakeActionSchema = z.object({
   donate: z.array(OrganisationSchema),
@@ -67,7 +63,6 @@ const TakeActionSchema = z.object({
 
 /**
  * Zod schema for a recommended reading resource.
- * Includes the title, a URL, and an optional description.
  */
 const ReadingSchema = z.object({
   title: z.string(),
@@ -77,8 +72,7 @@ const ReadingSchema = z.object({
 
 /**
  * Zod schema for the comprehensive data set of a single country.
- * This schema aggregates all other data structures, providing a complete picture of the
- * country's crisis, historical context, and avenues for action.
+ * This schema aggregates all other data structures for a country.
  */
 const CountryDataSchema = z.object({
   $schema: z.string().optional(),
@@ -109,49 +103,41 @@ export {
 };
 
 /**
- * TypeScript type representing the comprehensive data for a single country.
- * @see CountryDataSchema
+ * TypeScript type for the comprehensive data of a single country.
  */
 export type CountryDataType = z.infer<typeof CountryDataSchema>;
 
 /**
- * TypeScript type representing the humanitarian impact data for a country.
- * @see HumanitarianImpactSchema
+ * TypeScript type for the humanitarian impact data of a country.
  */
 export type HumanitarianImpactType = z.infer<typeof HumanitarianImpactSchema>;
 
 /**
- * TypeScript type representing the colonial root data for a country's crisis.
- * @see ColonialRootSchema
+ * TypeScript type for the colonial root data of a country's crisis.
  */
 export type ColonialRootType = z.infer<typeof ColonialRootSchema>;
 
 /**
- * TypeScript type representing the imperial root data for a country's crisis.
- * @see ImperialRootSchema
+ * TypeScript type for the imperial root data of a country's crisis.
  */
 export type ImperialRootType = z.infer<typeof ImperialRootSchema>;
 
 /**
- * TypeScript type representing a single event in a country's timeline.
- * @see TimelineEventSchema
+ * TypeScript type for a single event in a country's timeline.
  */
 export type TimelineEventType = z.infer<typeof TimelineEventSchema>;
 
 /**
- * TypeScript type representing an organisation for donations or advocacy.
- * @see OrganisationSchema
+ * TypeScript type for an organisation for donations or advocacy.
  */
 export type OrganisationType = z.infer<typeof OrganisationSchema>;
 
 /**
- * TypeScript type representing actions individuals can take.
- * @see TakeActionSchema
+ * TypeScript type for actions individuals can take.
  */
 export type TakeActionType = z.infer<typeof TakeActionSchema>;
 
 /**
- * TypeScript type representing a recommended reading resource.
- * @see ReadingSchema
+ * TypeScript type for a recommended reading resource.
  */
 export type ReadingType = z.infer<typeof ReadingSchema>;

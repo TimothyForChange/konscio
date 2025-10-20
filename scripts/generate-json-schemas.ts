@@ -6,8 +6,7 @@ import { MissionSchema } from '../src/schemas/mission.ts';
 
 /**
  * Generates JSON schemas from Zod schemas and saves them to the file system.
- * This function is used to convert Zod schemas for mission and country data into
- * JSON schema format, which can then be used for validation or other purposes.
+ * This function converts Zod schemas for mission and country data into JSON schema format.
  *
  * @param logger An optional logger object with an `info` method for logging output. Defaults to the global console object.
  */

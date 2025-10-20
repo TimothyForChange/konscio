@@ -55,9 +55,6 @@
         },
         "livelihoodsAndEconomicLoss": {
           "type": "string"
-        },
-        "other": {
-          "type": "string"
         }
       },
       "required": [

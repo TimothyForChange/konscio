@@ -3,8 +3,6 @@ import type { Country } from '../types/country.ts';
 
 /**
  * Asynchronously loads and validates the main list of countries.
- * This function imports the country mapping data, validates it against the `CountriesSchema`,
- * and returns a typed array of `Country` objects.
  *
  * @returns A promise that resolves to the array of validated countries.
  * @throws If loading or validation fails.
@@ -16,8 +14,7 @@ export async function loadAndValidateCountries(): Promise<Country[]> {
 }
 
 /**
- * Validates a single country data object.
- * It uses the `CountrySchema` to ensure the object has the correct structure and types.
+ * Validates a single country object using the CountrySchema.
  *
  * @param countryData - The country object to validate.
  * @returns The validated country object.
@@ -34,8 +31,7 @@ export function validateCountry(countryData: unknown): Country {
 }
 
 /**
- * Validates an array of country data objects.
- * It uses the `CountriesSchema` to ensure the array and its contents are correctly structured.
+ * Validates an array of country objects using the CountriesSchema.
  *
  * @param countriesData - The array of country objects to validate.
  * @returns The array of validated country objects.

@@ -1,5 +1,8 @@
-import keyToTitleMap from '../data/mapping/key-title-mapping';
+import { loadAndValidateKeyTitleMapping } from './data-loaders.ts';
 import { escapeHtml } from './html.ts';
+
+const keyTitleMapping = await loadAndValidateKeyTitleMapping();
+const { keyToTitleMap } = keyTitleMapping;
 
 /**
  * Formats a technical key into a human-readable title using a predefined map.
@@ -31,8 +34,7 @@ export function formatText(text: string): string {
 }
 
 /**
- * Splits a block of text into paragraphs and formats each one.
- * Paragraphs are assumed to be separated by double newlines.
+ * Splits a block of text into formatted paragraphs.
  *
  * @param text - The block of text to process.
  * @returns An array of formatted HTML paragraph strings.

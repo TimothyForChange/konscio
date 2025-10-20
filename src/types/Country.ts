@@ -1,5 +1,5 @@
 /**
- * Represents the basic metadata for a single country.
+ * Basic metadata for a single country.
  */
 export interface Country {
   name: string;
@@ -11,7 +11,7 @@ export interface Country {
 }
 
 /**
- * Represents the humanitarian impact statistics for a country's crisis.
+ * Humanitarian impact statistics for a country's crisis.
  */
 export interface HumanitarianImpact {
   displaced: string;
@@ -26,7 +26,7 @@ export interface HumanitarianImpact {
 }
 
 /**
- * Represents the colonial history of a country, linking a colonial power to its legacy.
+ * Colonial history of a country.
  */
 export interface ColonialRoot {
   colonialPower: string;
@@ -34,7 +34,7 @@ export interface ColonialRoot {
 }
 
 /**
- * Represents the imperial history of a country, linking an imperial power to its legacy.
+ * Imperial history of a country.
  */
 export interface ImperialRoot {
   imperialPower: string;
@@ -42,7 +42,7 @@ export interface ImperialRoot {
 }
 
 /**
- * Represents a single event in the historical timeline of a country.
+ * A single event in a country's historical timeline.
  */
 export interface TimelineEvent {
   year: string;
@@ -50,7 +50,7 @@ export interface TimelineEvent {
 }
 
 /**
- * Represents an organisation that individuals can support through donations.
+ * An organisation that individuals can support.
  */
 export interface Organisation {
   organisation: string;
@@ -59,7 +59,7 @@ export interface Organisation {
 }
 
 /**
- * Represents a set of actions individuals can take, including donations and advocacy.
+ * Actions individuals can take to help.
  */
 export interface TakeAction {
   donate: Organisation[];
@@ -67,8 +67,7 @@ export interface TakeAction {
 }
 
 /**
- * Represents the complete data set for a single country, including its crisis details,
- * historical context, and ways to take action.
+ * The complete data set for a single country.
  */
 export interface CountryData {
   name: string;
@@ -86,7 +85,7 @@ export interface CountryData {
 }
 
 /**
- * Represents a recommended reading material related to a country or crisis.
+ * A recommended reading material.
  */
 export interface Reading {
   title: string;

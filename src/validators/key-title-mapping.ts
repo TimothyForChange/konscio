@@ -2,9 +2,7 @@ import { KeyTitleMappingSchema } from '../schemas/key-title-mapping';
 import type { KeyTitleMapping } from '../types/key-title-mapping';
 
 /**
- * Validates the structure of a key-to-title mapping object.
- * This function uses the `KeyTitleMappingSchema` to parse and validate the input data.
- * It returns a typed `KeyTitleMapping` object on success.
+ * Validates a key-to-title mapping object using the KeyTitleMappingSchema.
  *
  * @param mappingData - The mapping data object to validate.
  * @returns The validated mapping object.

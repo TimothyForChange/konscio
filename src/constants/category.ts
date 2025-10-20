@@ -4,8 +4,8 @@
 export const DEFAULT_CATEGORY = 'All';
 
 /**
- * An array of predefined categories for classifying countries based on the nature of their crisis.
- * Using `as const` ensures that the array is read-only and its values can be used as a type.
+ * Predefined categories for classifying countries by the nature of their crisis.
+ * `as const` ensures the array is read-only and its values can be used as a type.
  */
 export const COUNTRY_CATEGORIES = [
   'Invasion & Occupation',
