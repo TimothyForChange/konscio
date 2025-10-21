@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/json/country-data.schema.json",
+  "name": "Mozambique",
+  "emoji": "🇲🇿",
+  "ariaLabel": "Mozambican flag",
+  "lastUpdated": "2025-10-21",
+  "currentCrisisSummary": "Mozambique is facing a violent insurgency in its northern Cabo Delgado province, a conflict driven by the 'resource curse' and decades of state neglect. The discovery of one of Africa's largest natural gas reserves has attracted billions in foreign investment but has catastrophically failed the local population, who face displacement and see no economic benefit.\n\nThis deep-seated grievance has fuelled an uprising that the state, with its history of corruption and centralisation, is unable to contain. The conflict has become internationalised, with the involvement of regional troops (from Rwanda and SADC) and private military contractors hired to protect the multi-billion dollar gas projects. It is a crisis rooted in a predatory economic model, where the state collaborates with multinational corporations to extract wealth, treating its own citizens as obstacles and creating the very conditions for violent rebellion.",
+  "colonialRoot": {
+    "colonialPower": "Portugal (c. 1505-1975)",
+    "legacy": "Portugal's colonial rule in Mozambique was one of the most brutal and underdeveloped in Africa. The economy was built on a system of forced labour (chibalo) for plantations and mines, land was expropriated for Portuguese settlers, and there was virtually no investment in education or healthcare for the African majority. The colonial state was purely an instrument of extraction and violent control.\n\nThis legacy meant that at independence, Mozambique was left impoverished, with no skilled administrators, and a society deeply scarred by systemic violence. The long and bloody war of liberation against Portugal, led by FRELIMO, further entrenched a militarised political culture. This was compounded by a final, deliberate act of economic sabotage. As over 200,000 Portuguese settlers fled between 1974-1975, they engaged in a scorched-earth withdrawal: taking their capital, destroying industrial and farm machinery, and slaughtering livestock. This campaign was designed to cripple the new state from its inception, ensuring independence began in a state of near-total economic collapse."
+  },
+  "historicalContext": {
+    "PostIndependenceDestabilisation": "After FRELIMO led Mozambique to independence in 1975 and established a socialist state, it was immediately targeted by the white-minority regimes of Rhodesia and apartheid South Africa. These regimes created, funded, and directed the RENAMO insurgency, plunging the country into a devastating 16-year civil war. This was a deliberate, externally-driven campaign of destabilisation to destroy an alternative, anti-racist political project in the region. The war shattered the country's infrastructure and caused immense human suffering.",
+    "NeoliberalDebtAndStructuralAdjustment": "Devastated by the war, Mozambique was forced to turn to the IMF and World Bank in the late 1980s. The subsequent Structural Adjustment Programmes mandated a rapid shift to a market economy through mass privatisation of state industries and severe cuts to public services. While enriching a small FRELIMO-connected elite and opening the country to foreign capital, these neoliberal reforms entrenched inequality and failed to alleviate the deep-seated poverty that fuels instability.",
+    "TheResourceCurseAndEliteCorruption": "The discovery of massive gas reserves in Cabo Delgado and the ongoing illicit trade in resources like rubies and timber have supercharged corruption. This is exemplified by the '$2 Billion Hidden Debts' scandal, where state elites and international banks (notably Credit Suisse) colluded in a massive loan fraud, ostensibly for maritime security, which was largely embezzled. This act of grand corruption crippled the national budget, deepened dependency, and confirmed to many citizens that the state exists primarily to enrich a politically connected elite and their foreign partners.",
+    "internationalLawAndAccountability": "Accountability for both historic and contemporary crimes remains elusive. While the 'hidden debts' scandal has led to legal proceedings in multiple countries, the key political figures in Mozambique have largely escaped consequences. In Cabo Delgado, there are credible reports of serious human rights abuses by the insurgents, state security forces, and foreign private military contractors. However, there is no effective mechanism for investigating these crimes or providing justice for victims, creating a cycle of impunity."
+  },
+  "humanitarianImpact": {
+    "displaced": "Over 784,000 people have been internally displaced by the conflict in northern Mozambique.",
+    "refugees": "The conflict has primarily caused internal displacement, though thousands have sought asylum in neighbouring Tanzania under difficult conditions.",
+    "casualties": "Thousands of civilians have been killed since the insurgency began in 2017.",
+    "affected": "An estimated 1.5 million people in Cabo Delgado, Niassa, and Nampula provinces require urgent humanitarian assistance and protection.",
+    "foodInsecurity": "More than 900,000 people in the region face high levels of acute food insecurity.",
+    "healthSystemCollapsed": "The conflict has destroyed over 100 health facilities, leaving displaced populations with minimal access to medical care.",
+    "childrenOutOfSchool": "Hundreds of thousands of children have had their education disrupted, with many schools destroyed or closed due to insecurity."
+  },
+  "timeline": [
+    {
+      "year": "c. 1890s",
+      "event": "**Formal Colonisation**: In the 'Scramble for Africa', Portugal leases vast territories to private charter companies to enforce its colonial claim. These companies impose brutal rule, seizing land and instituting the 'chibalo' system of forced labour to plunder resources."
+    },
+    {
+      "year": "1962",
+      "event": "**Formation of FRELIMO**: Uniting several nationalist groups, the Mozambique Liberation Front (FRELIMO) is founded in exile under the leadership of Eduardo Mondlane, with the explicit goal of launching an armed struggle against Portuguese rule."
+    },
+    {
+      "year": "1964-1974",
+      "event": "**War of Independence**: The FRELIMO liberation front wages a decade-long armed struggle against Portuguese colonial rule."
+    },
+    {
+      "year": "1974-1975",
+      "event": "**Scorched-Earth Exodus**: Following a coup in Portugal, departing settlers engage in widespread economic sabotage, destroying infrastructure and assets to deliberately cripple the economy of the soon-to-be independent nation."
+    },
+    {
+      "year": "1975",
+      "event": "**Independence**: Mozambique becomes independent, with FRELIMO forming a single-party socialist state."
+    },
+    {
+      "year": "1977-1992",
+      "event": "**Civil War of Destabilisation**: The apartheid-backed RENAMO insurgency wages a brutal proxy war against the FRELIMO government, leading to the deaths of around one million people."
+    },
+    {
+      "year": "1990",
+      "event": "**Neoliberal Turn**: Under immense pressure, FRELIMO abandons Marxism-Leninism and accepts a new constitution and IMF-led structural adjustment, opening the economy to foreign capital."
+    },
+    {
+      "year": "2010",
+      "event": "**Gas Discovery**: Enormous offshore natural gas reserves are discovered in the Rovuma Basin off the coast of Cabo Delgado, sparking a rush for concessions by multinational energy firms."
+    },
+    {
+      "year": "2016",
+      "event": "**'Hidden Debts' Scandal**: A $2 billion loan and corruption scandal involving state elites and international banks is exposed, triggering a financial crisis."
+    },
+    {
+      "year": "2017-Present",
+      "event": "**Cabo Delgado Insurgency**: A violent insurgency rooted in local grievances over poverty and resource extraction begins in Cabo Delgado, attacking state and civilian targets and displacing hundreds of thousands."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "UNHCR (The UN Refugee Agency)",
+        "description": "UNHCR provides life-saving protection, shelter, and emergency supplies to hundreds of thousands of people displaced by the conflict and climate shocks in Mozambique.",
+        "url": "https://donate.unhcr.org/africa/en-af/mozambique-emergency"
+      }
+    ],
+    "advocacy": [
+      "Demand the full cancellation of Mozambique's odious debts, including those from the 'hidden debts' scandal, to free up public funds for essential services.",
+      "Advocate for transparency and accountability in the natural resource sector, ensuring that gas revenues benefit the entire population, especially local communities.",
+      "Support calls for an end to impunity for human rights abuses committed by all parties to the conflict in Cabo Delgado.",
+      "Promote community-led development models that give local populations meaningful control over their land and resources.",
+      "Call for the prosecution of the international banks and financial actors who facilitated the corrupt 'hidden debts' scandal."
+    ]
+  },
+  "reading": [
+    {
+      "title": "A Complicated War: The Harrowing of Mozambique",
+      "url": "https://www.goodreads.com/book/show/1841364.A_Complicated_War",
+      "description": "By William Finnegan. A classic piece of journalism that provides a profound and harrowing account of the devastating civil war and its impact on civilians."
+    },
+    {
+      "title": "Guns and Butter: The Economy of Post-War Mozambique",
+      "url": "https://www.goodreads.com/book/show/23492723-guns-and-butter",
+      "description": "A collection of essays edited by Joseph Hanlon, a leading expert, analysing the political economy of Mozambique after the civil war and the failures of the neoliberal peace."
+    },
+    {
+      "title": "The Wretched of the Earth",
+      "url": "https://www.goodreads.com/book/show/66933.The_Wretched_of_the_Earth",
+      "description": "By Frantz Fanon. While not about Mozambique specifically, Fanon's foundational text on the psychology of colonialism and the dynamics of liberation struggles is essential for understanding Mozambique's history."
+    }
+  ]
+}

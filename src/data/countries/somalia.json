@@ -3,17 +3,19 @@
   "name": "Somalia",
   "emoji": "🇸🇴",
   "ariaLabel": "Somali flag",
-  "lastUpdated": "2025-10-16",
+  "lastUpdated": "2025-10-21",
   "currentCrisisSummary": "Somalia faces a convergence of severe, interlocking crises: a protracted civil war, an entrenched al-Shabaab insurgency, and repeated climate-driven droughts and floods that have devastated livelihoods.\n\nThese dynamics — amplified by geopolitical competition, external military interventions and extractive practices such as illegal fishing and contested resource claims — have produced a long-term humanitarian emergency. Millions are displaced, public services are fragile or non-functional in many areas, and food and nutrition emergencies recur with alarming frequency.\n\nHumanitarian response is repeatedly undermined by access constraints, funding shortfalls and insecurity. A Somali-led political solution, protection of civilian space, and large-scale, locally accountable humanitarian and climate adaptation support are essential to prevent repeated cycles of famine and displacement.",
   "colonialRoot": {
-    "colonialPower": "British Empire & Italy (c. 1880s-1960)",
+    "colonialPower": "Britain & Italy (c. 1880s-1960)",
     "legacy": "The crisis is rooted in the colonial partitioning of Somali-inhabited lands during the Scramble for Africa. Britain, Italy (and France in neighbouring territories) divided a culturally and linguistically cohesive people into separate political entities and imposed artificial borders that disrupted traditional economic and social systems.\n\nThe rushed post-colonial merger of former British and Italian territories in 1960 left a state with unresolved territorial, clan and governance tensions, a fragility that was later compounded by Cold War geopolitics and frequent external interventions."
   },
   "historicalContext": {
-    "theFragmentedState": "The collapse of central authority in 1991 unfolded in a Cold War context where Siad Barre's regime had been alternately supported by the USSR and the United States. The post-collapse period saw repeated external interventions — from humanitarian missions in the 1990s to later counter-terrorism operations — that too often prioritised military objectives over Somali-led political settlement and resilient local governance.\n\nThis chronic fragmentation created vacuums that armed groups exploited and left Somali institutions weakened and highly dependent on external finance and security architectures.",
-    "climateChangeAndEconomicExploitation": "Somalia is on the frontline of climate change: repeated failed rainy seasons, prolonged droughts and sudden floods have destroyed crops, killed livestock and deepened food insecurity. At the same time, the state's collapse opened space for illicit economic activity: illegal fishing by foreign fleets and documented toxic-waste dumping have eroded coastal livelihoods, while new competition for offshore resources risks generating fresh conflict dynamics.\n\nThese interlocking drivers — climate shocks, resource predation and political fragmentation — create what many analysts describe as ecological and economic injustice: the global north's emissions and commercial practices impose heavy costs on Somali communities."
+    "theFragmentedState": "The collapse of central authority in 1991 unfolded in a Cold War context where Siad Barre's regime had been alternately supported by the USSR and the United States. The post-collapse period saw repeated external interventions that too often prioritised military objectives over Somali-led political settlement and resilient local governance.",
+    "neoliberalismAndStateCollapse": "The 1991 state collapse was preceded by a severe economic crisis and neoliberal intervention. During the 1980s, the indebted Siad Barre regime was forced to accept IMF-led Structural Adjustment Programmes. These policies enforced the deregulation of grain markets, leading to a flood of cheap imports that destroyed the livelihoods of local farmers. The mandated austerity and cuts to public services hollowed out the state's capacity and legitimacy, accelerating the social breakdown that culminated in civil war.",
+    "theWarOnTerrorAndTheRiseOfAlShabaab": "The post-9/11 'Global War on Terror' framework became a primary driver of the conflict. The 2006 US-backed Ethiopian invasion, designed to oust the popular Islamic Courts Union (ICU) which had brought relative stability to Mogadishu, is a key example. This intervention shattered a period of local governance and, in a classic case of blowback, catalysed the rise of the ICU's more radical youth wing, al-Shabaab. The subsequent decades of drone strikes, special forces operations, and proxy interventions have entrenched a cycle of violence, where external counter-terrorism priorities consistently undermine the potential for genuine, Somali-led political reconciliation.",
+    "climateChangeAndEconomicExploitation": "Somalia is on the frontline of climate change: repeated failed rainy seasons, prolonged droughts and sudden floods have destroyed crops, killed livestock and deepened food insecurity. At the same time, the state's collapse opened space for illicit economic activity: illegal fishing by foreign fleets and documented toxic-waste dumping have eroded coastal livelihoods, while new competition for offshore resources risks generating fresh conflict dynamics.\n\nThese interlocking drivers — climate shocks, resource predation and political fragmentation — create what many analysts describe as ecological and economic injustice: the global north's emissions and commercial practices impose heavy costs on Somali communities.",
+    "internationalLawAndAccountability": "International responsibility is contested and partial. Human rights organisations, UN panels and investigative journalists have repeatedly documented abuses by state and non-state actors, including violations of humanitarian law in counter-insurgency operations and patterns of exploitation by transnational actors. Accountability mechanisms exist unevenly; strengthening independent documentation, protection of witnesses and Somali-centred transitional justice processes remains a priority."
   },
-  "internationalLawAndAccountability": "International responsibility is contested and partial. Human rights organisations, UN panels and investigative journalists have repeatedly documented abuses by state and non-state actors, including violations of humanitarian law in counter-insurgency operations and patterns of exploitation by transnational actors. Accountability mechanisms exist unevenly; strengthening independent documentation, protection of witnesses and Somali-centred transitional justice processes remains a priority.",
   "humanitarianImpact": {
     "casualties": "Conflict-related deaths periodically reach hundreds of thousands; 2011 famine alone caused around 258,000 excess deaths.",
     "affected": "Roughly 7 million people in need of humanitarian assistance.",
@@ -42,6 +44,10 @@
       "event": "**Ogaden War**: Somalia's intervention in Ethiopia ends in military defeat and shifts Cold War alignments, accelerating militarisation."
     },
     {
+      "year": "c. 1980s",
+      "event": "**Structural Adjustment**: The indebted Barre regime accepts IMF-led austerity programmes. The deregulation of agriculture destroys rural livelihoods and deepens the economic crisis that precedes state collapse."
+    },
+    {
       "year": "1991",
       "event": "**State Collapse**: Barre's overthrow precipitates state collapse, civil war and the fragmentation of authority that creates long-term displacement and insecurity."
     },
@@ -50,8 +56,8 @@
       "event": "**International Intervention**: A US-led, UN-mandated humanitarian intervention ('Operation Restore Hope') withdraws after the 1993 Battle of Mogadishu; international engagement shifts repeatedly between humanitarian and military imperatives."
     },
     {
-      "year": "2006-Present",
-      "event": "**Rise of Al-Shabaab**: Al-Shabaab emerges as a dominant insurgency, contesting the internationally backed government and conducting attacks domestically and regionally."
+      "year": "2006",
+      "event": "**US-Backed Invasion & Rise of Al-Shabaab**: A US-backed Ethiopian invasion ousts the Islamic Courts Union government in Mogadishu. The intervention shatters a period of relative stability and directly leads to the rise of al-Shabaab, the ICU's more radical youth wing."
     },
     {
       "year": "2011",

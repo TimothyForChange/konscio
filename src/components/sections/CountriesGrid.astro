@@ -3,7 +3,7 @@ import { DEFAULT_CATEGORY } from '../../constants/category.ts';
 import countries from '../../data/mapping/countries.ts';
 import type { Country } from '../../types/country';
 import { generateSlug } from '../../utils/helpers.ts';
-import CategoryFilter from './CategoryFilter.astro';
+import CategoryFilter from '../common/CategoryFilter.astro';
 import CountryCard from './CountryCard.astro';
 
 const countriesData: Country[] = countries as Country[];

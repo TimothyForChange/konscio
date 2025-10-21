@@ -38,6 +38,15 @@ const countries: Country[] = [
     category: 'State Collapse & Civil War',
   },
   {
+    name: 'Confederation of Sahel States',
+    slug: 'sahel',
+    flag: '🇧🇫🇲🇱🇳🇪',
+    description: 'Insurgency, climate crisis & foreign intervention',
+    seoDescription:
+      "The Sahel region's deadly jihadist insurgency compounds the climate crisis. Armed groups, foreign military interventions, and the fight for regional stability.",
+    category: 'Resource Exploitation & Foreign Interference',
+  },
+  {
     name: 'Democratic Republic of the Congo',
     slug: 'drc',
     flag: '🇨🇩',
@@ -65,6 +74,15 @@ const countries: Country[] = [
     category: 'Economic Collapse & Repression',
   },
   {
+    name: 'Mozambique',
+    slug: 'mozambique',
+    flag: '🇲🇿',
+    description: 'Gas insurgency & the resource curse',
+    seoDescription:
+      "Mozambique's Cabo Delgado province faces a brutal insurgency fuelled by the discovery of massive natural gas reserves. Explore the links between corporate extraction, state neglect, and the resulting humanitarian crisis.",
+    category: 'Resource Exploitation & Foreign Interference',
+  },
+  {
     name: 'Myanmar',
     slug: 'myanmar',
     flag: '🇲🇲',
@@ -81,15 +99,6 @@ const countries: Country[] = [
     seoDescription:
       "Palestine's intensifying humanitarian catastrophe: genocide in Gaza, apartheid system, and 75 years of dispossession. Critical analysis of settler colonialism.",
     category: 'Occupation & Imperialism',
-  },
-  {
-    name: 'Sahel',
-    slug: 'sahel',
-    flag: '🇧🇫🇲🇱🇳🇪',
-    description: 'Insurgency, climate crisis & foreign intervention',
-    seoDescription:
-      "The Sahel region's deadly jihadist insurgency compounds the climate crisis. Armed groups, foreign military interventions, and the fight for regional stability.",
-    category: 'Resource Exploitation & Foreign Interference',
   },
   {
     name: 'Somalia',

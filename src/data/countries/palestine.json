@@ -3,15 +3,16 @@
   "name": "Palestine",
   "emoji": "🇵🇸",
   "ariaLabel": "Palestinian flag",
-  "lastUpdated": "2025-10-16",
+  "lastUpdated": "2025-10-21",
   "currentCrisisSummary": "An acute, intensifying humanitarian catastrophe across occupied Palestine — especially the Gaza Strip — characterised by mass displacement, widespread civilian death, the effective collapse of public services, and crisis levels of food insecurity and disease.\n\nThe International Court of Justice has found that claims of genocide in Gaza are plausible and ordered provisional measures; concurrent efforts at the International Criminal Court and other accountability mechanisms are ongoing. The immediate violence and structural deprivation are sustained and amplified by geopolitical, military and economic support from Western powers — principally the United States — which provide Israel with large-scale military assistance and diplomatic cover.\n\nThese dynamics occur within a longer pattern of settler colonialism, dispossession and legal-political structures that restrict Palestinian self-determination.",
   "imperialRoot": {
-    "imperialPower": "British Empire (1920-1948)",
+    "imperialPower": "Britain (1920-1948)",
     "legacy": "The contemporary crisis is rooted in policies enacted under the British Mandate. The 1917 Balfour Declaration endorsed the establishment in Palestine of a 'national home for the Jewish people' while promising to protect the civil and religious rights of non-Jewish communities — a contradiction that Britain did not resolve in practice.\n\nMandate-era land, immigration and policing policies facilitated the growth of Zionist settlement and undermined the political rights and territorial integrity of the indigenous Arab majority. Britain's suppression of Palestinian political movements and its withdrawal in 1948 preceded the war and the Nakba, during which some 700,000-750,000 Palestinians were made refugees.\n\nThe refugee crisis, dispossession of land, and the institutional precedents set under the Mandate shaped the political and demographic contours of the conflict and continue to inform the structures of occupation and exclusion today."
   },
   "historicalContext": {
     "geopoliticalInvolvement": "Western states — especially the United States, and to a lesser extent key European partners — provide sustained military aid, arms transfers, political backing, and diplomatic protection that allow Israeli occupation and expansionist policies to continue with limited international consequence. This strategic alignment is embedded in long-term security agreements, arms sales, and recurring emergency assistance since October 2023, which together have reinforced the imbalance of power in the region.\n\nThese relationships are geopolitical as well as commercial: defence industries benefit from a market for advanced weaponry and states benefit from having a regional ally with capacity for projection and intelligence cooperation.",
     "settlerColonialismAndApartheid": "The conflict must be understood in the framework of settler colonialism: policies of land expropriation, settlement expansion, movement restrictions, and political disenfranchisement that produce permanent colonial structures. Leading human rights organisations have found that the legal, spatial and institutional measures applied to Palestinians meet the thresholds of apartheid and systematic discrimination; this characterisation is now central to many rights-based analyses of Israeli policy in the occupied territories.\n\nThis is not only political or juridical: the system is economic and spatial too. Land seizures, settler infrastructure, discriminatory resource allocation (notably water), and restrictions on Palestinian economic development create structural dependency and constrain the possibility of genuine self-determination.",
+    "theOsloAccordsAndNeoliberalSubjugation": "The 1993 Oslo Accords, rather than leading to sovereignty, created a framework for economic and political subjugation under a neoliberal guise. The 1994 Paris Protocol locked the Palestinian economy into dependency on Israel, controlling trade, currency, and tax revenues. This architecture of 'economic peace' prevented independent development and created the Palestinian Authority (PA), a limited self-governing body reliant on foreign aid. Over time, the PA's security forces, often with US and European training, became integrated into the security structure of the occupation, suppressing internal dissent while Israel's settlement project expanded unabated.",
     "internationalLawAndAccountability": "Since October 2023 multiple international legal processes have been activated. The ICJ case brought by South Africa resulted in provisional measures after the Court found that allegations of genocide in Gaza were plausible. The ICC has open preliminary examinations and investigations relating to alleged war crimes. National courts, UN fact-finding missions and independent rights bodies have also documented potential violations of international humanitarian and human rights law.\n\nThese mechanisms are contested politically and their outcomes remain uncertain, but they represent formal avenues of accountability and a record of documented abuses that organisations, victims and states continue to use in advocacy and legal strategies."
   },
   "humanitarianImpact": {
@@ -43,7 +44,7 @@
     },
     {
       "year": "1993",
-      "event": "**Oslo Accords**: A 'peace process' that created the Palestinian Authority but failed to achieve a final settlement, while illegal settlement expansion accelerated."
+      "event": "**Oslo Accords**: A US-led 'peace process' creates the Palestinian Authority. Its economic protocols lock Palestinians into dependency on Israel, providing cover for accelerated land theft and the expansion of illegal settlements under the guise of negotiations."
     },
     {
       "year": "2007-Present",
@@ -60,6 +61,10 @@
     {
       "year": "2024",
       "event": "**ICJ Plausible Genocide Ruling**: The International Court of Justice rules that claims of genocide in Gaza are plausible, ordering provisional measures against Israel."
+    },
+    {
+      "year": "2025",
+      "event": "**Fragile Ceasefire**: A ceasefire is declared on October 10. The agreement is immediately tenuous, with human rights monitors reporting over 47 Israeli violations in the first 10 days."
     }
   ],
   "takeAction": {

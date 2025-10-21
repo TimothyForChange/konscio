@@ -3,7 +3,7 @@
   "name": "Ethiopia",
   "emoji": "🇪🇹",
   "ariaLabel": "Ethiopian flag",
-  "lastUpdated": "2025-10-19",
+  "lastUpdated": "2025-10-21",
   "currentCrisisSummary": "Ethiopia is grappling with multiple, overlapping humanitarian crises stemming from the violent breakdown of its ethnic federalist political system. The country is reeling from the devastating after-effects of the 2020-2022 war in the Tigray region, while simultaneously facing large-scale armed conflicts between the federal government and regional forces in Amhara and Oromia.\n\nThis series of conflicts represents a catastrophic failure to resolve political questions of autonomy, identity, and power through negotiation, resorting instead to brutal military force. The result is mass displacement, widespread human rights atrocities, the collapse of essential services, and acute food insecurity across vast swathes of the country. The crises are not isolated ethnic grievances but symptoms of a deep structural crisis of the Ethiopian state, exacerbated by external geopolitical interests in the strategically vital Horn of Africa.",
   "imperialRoot": {
     "imperialPower": "Ethiopian Empire (late 19th c. – 1974), Italy (1936–1941), US & USSR (Cold War)",
@@ -11,8 +11,9 @@
   },
   "historicalContext": {
     "theFailureOfEthnicFederalism": "The 1995 constitution established a system of ethnic federalism, an ambitious attempt to resolve the historical 'national question' by granting self-governance rights to Ethiopia's major ethnic groups. For decades, this system was managed through the authoritarian dominance of the TPLF-led coalition. The current Prime Minister's centralising reforms shattered this delicate balance, leading to a violent clash between the federal government's vision of a unified state and the demands for regional autonomy. The wars in Tigray, and now Amhara and Oromia, are the direct result of this model's violent collapse.",
-    "geopoliticsOfTheHornAndProxyInterests": "As a dominant power in the Horn of Africa, Ethiopia is a focal point of intense geopolitical competition. External actors—including Eritrea, the UAE, Turkey, the US, and China—have pursued their strategic interests through diplomatic, economic, and military means. The provision of foreign drones, particularly from the UAE, was a decisive factor in the Tigray war and continues to fuel the conflicts in Amhara and Oromia. These interventions are not neutral; they provide the tools for war and prioritise external strategic goals, such as control over Red Sea routes and influence over the Nile's waters, over sustainable peace.",
-    "aidDependencyAndTheDevelopmentalState": "Ethiopia's economic model has long been a 'developmental state' heavily reliant on foreign aid, loans, and investment from Western nations and institutions like the World Bank and IMF. While this model produced economic growth, it was tied to a repressive political system and did not resolve underlying inequalities. This dependency also serves as a tool of geopolitical leverage, with the threat of aid suspension used by Western powers to influence the conflict, creating economic shocks that disproportionately harm the civilian population and hinder the state's capacity to provide services."
+    "fromDevelopmentalStateToNeoliberalShockTherapy": "While Ethiopia was long a model of a 'developmental state' reliant on foreign aid, since 2018 it has undergone a rapid neoliberal transition. The government has pursued an ambitious agenda of privatisation of key state-owned assets (like telecommunications), financial deregulation, and attracting foreign capital. This economic 'shock therapy' is also a political project designed to dismantle the economic power of the old ruling coalition. The resulting struggle for control over the state's economic resources is a key driver of the current civil wars.",
+    "landGrabsAndRuralDispossession": "Parallel to its political conflicts, Ethiopia has experienced widespread 'land grabs'. Under both the developmental state and the new neoliberal model, vast tracts of fertile land, particularly in southern regions like Oromia and Gambella, have been leased to foreign corporations for large-scale agribusiness. This process has often involved the violent dispossession of local communities, undermining their livelihoods and food security, and represents a modern form of resource extraction that fuels deep-seated resentment against the central state.",
+    "geopoliticsOfTheHornAndProxyInterests": "As a dominant power in the Horn of Africa, Ethiopia is a focal point of intense geopolitical competition. External actors—including Eritrea, the UAE, Turkey, the US, and China—have pursued their strategic interests through diplomatic, economic, and military means. The provision of foreign drones, particularly from the UAE, was a decisive factor in the Tigray war and continues to fuel the conflicts in Amhara and Oromia. These interventions are not neutral; they provide the tools for war and prioritise external strategic goals, such as control over Red Sea routes and influence over the Nile's waters, over sustainable peace."
   },
   "humanitarianImpact": {
     "casualties": "The war in Tigray alone resulted in an estimated 300,000 to 600,000 deaths from fighting, starvation, and lack of healthcare. Casualties in Amhara and Oromia are significant but difficult to verify.",
@@ -23,6 +24,10 @@
     "sexualViolence": "Systematic and widespread conflict-related sexual violence, including rape and sexual slavery, was used as a deliberate weapon of war by all sides, especially in the Tigray conflict."
   },
   "timeline": [
+    {
+      "year": "c. 1880-1900",
+      "event": "**Imperial Expansion**: Emperor Menelik II doubles the size of the Ethiopian empire, conquering and incorporating diverse peoples in the south. This violent process of internal colonisation creates the 'prison of nations' and the historical grievances over land and autonomy that define modern Ethiopian politics."
+    },
     {
       "year": "1974",
       "event": "**End of the Monarchy**: Emperor Haile Selassie is overthrown by the Derg, a Marxist-Leninist military junta backed by the Soviet Union, which intensifies repression."

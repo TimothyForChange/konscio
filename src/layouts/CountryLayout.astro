@@ -1,5 +1,6 @@
 ---
 import { isArray, isEmpty, isObject as radashIsObject, isString as radashIsString } from 'radash';
+import BackButton from '../components/common/BackButton.astro';
 import AdditionalReading from '../components/country/AdditionalReading.astro';
 import CountryHeader from '../components/country/CountryHeader.astro';
 import CrisisSection from '../components/country/CrisisSection.astro';
@@ -9,7 +10,6 @@ import ImperialLegacySection from '../components/country/ImperialLegacySection.a
 import LegacySection from '../components/country/LegacySection.astro';
 import TakeAction from '../components/country/TakeAction.astro';
 import Timeline from '../components/country/Timeline.astro';
-import BackButton from '../components/shared/BackButton.astro';
 import type { CountryData } from '../types/country';
 import { generateSlug } from '../utils/helpers.ts';
 import Layout from './Layout.astro';

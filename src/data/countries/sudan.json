@@ -3,14 +3,15 @@
   "name": "Sudan",
   "emoji": "🇸🇩",
   "ariaLabel": "Sudanese flag",
-  "lastUpdated": "2025-10-16",
+  "lastUpdated": "2025-10-21",
   "currentCrisisSummary": "Sudan is engulfed in a brutal civil war between two factions of the military elite — the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia — which has unleashed the world's largest displacement crisis and one of the worst hunger emergencies in modern memory.\n\nThe conflict has triggered mass famine, widespread atrocities and a renewed campaign of ethnic cleansing, notably in Darfur. El Fasher and other Darfuri cities are under siege and cut off from aid. The warring factions compete not only for territory but for control of economic rails like gold, land, agriculture and external patronage. The resulting humanitarian collapse has overwhelmed Sudan's people and the region.\n\nInternational humanitarian agencies warn that the crisis is worsening, with acute food insecurity affecting a vast portion of the population, collapsing health systems, and increasingly obstructed access to civilians. The war is not isolated; it is sustained by external actors, transnational flows of arms and resources, and weak enforcement of international norms.",
   "colonialRoot": {
-    "colonialPower": "British Empire & Egypt (1899-1956)",
+    "colonialPower": "Britain & Egypt (1899-1956)",
     "legacy": "British colonial governance in Sudan employed a classic divide-and-rule strategy, concentrating power in the 'Arab' riverine north while marginalising peripheral regions like Darfur and Kordofan. This structural inequality institutionalised regional grievance and set the groundwork for recurring rebellions and civil wars.\n\nBy privileging the centre and denying development to the margins, colonial rule created a centralised, extractive state whose control over resources and institutions became the prize of military competition post-independence."
   },
   "historicalContext": {
     "rivalMilitaryEconomicModels": "The current war is a breakdown of an entrenched military elite order. The SAF represents the old guard's hold on formal sectors (bureaucracy, security, agriculture), whereas the RSF acts as a more entrepreneurial, informal military-economic actor controlling gold, illicit trade routes and private paramilitary roles. Both compete over the spoils of Sudan — land, mining, agriculture, and foreign leasing arrangements.\n\nThis struggle is not new: economic control, militia patronage and resource extraction have long been central to Sudanese elite survival, with successive regimes co-opted by foreign capital and external actors seeking influence.\n\nThe 2021 military coup was a counter-revolution against popular pressure to dismantle the military's economic empire. The RSF is backed by regional states, notably the UAE, which is accused of providing arms, financial support and logistical backing. These external actors seek influence, access to Sudanese gold, agricultural land and control of strategic Red Sea ports.\n\nRecent investigative reports document advanced weapons, drone systems and heavy artillery traced to external supply chains used by the RSF — raising credible allegations of external complicity in sustaining, and escalating, Sudan's war.",
+    "neoliberalismAndTheRootsOfRevolution": "Omar al-Bashir's 30-year rule, while Islamist and militaristic, also embraced a harsh neoliberal economic model. Under pressure from US sanctions and the IMF, his regime privatised state assets, slashed subsidies, and encouraged large-scale 'land grabs' by foreign investors, particularly from the Gulf. This policy of austerity and resource extraction enriched a small elite while impoverishing the population. The 2019 revolution was triggered by bread price hikes, a direct result of these long-standing neoliberal policies. Tragically, the subsequent transitional government was itself pressured by Western donors into a rapid 'shock therapy' program, whose painful economic consequences weakened its popular standing and contributed to the success of the 2021 military coup.",
     "internationalLawAndAccountability": "Multiple international and regional legal processes are underway or proposed. Sudan has filed claims and complaints alleging external complicity in grave abuses. UN Security Council expert panels, human-rights organisations and the International Criminal Court are documenting war crimes, crimes against humanity and atrocity patterns committed by both SAF and RSF. The challenge is enforcing accountability in a conflict with shifting frontlines, obstructed access and powerful external proxies; protecting witnesses, securing evidence and dismantling economic networks that enable conflict profiteering are central to any credible justice effort."
   },
   "humanitarianImpact": {
@@ -35,7 +36,7 @@
     },
     {
       "year": "1989",
-      "event": "**Bashir's Islamist Coup**: Omar al-Bashir seizes power, consolidates military and Islamist control, and deploys proxy militias to suppress rebellious peripheries, especially in Darfur."
+      "event": "**Bashir's Islamist Coup**: Omar al-Bashir seizes power. His 30-year rule combines military and Islamist control with harsh neoliberal policies, deploying proxy militias to suppress rebellious, economically marginalised peripheries."
     },
     {
       "year": "2003",
@@ -43,7 +44,7 @@
     },
     {
       "year": "2019",
-      "event": "**Sudanese Revolution**: Mass popular uprising topples Bashir, triggering a fragile transition and calls for dismantling the military-economic complex."
+      "event": "**Sudanese Revolution**: Triggered by rising bread prices after decades of neoliberal austerity, a mass popular uprising topples Bashir, demanding the dismantling of the military-economic complex."
     },
     {
       "year": "2021",

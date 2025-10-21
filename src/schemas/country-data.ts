@@ -17,6 +17,7 @@ const HumanitarianImpactSchema = z.object({
   sexualViolence: z.string().optional(),
   livelihoodsAndEconomicLoss: z.string().optional(),
   lackOfRightsAndLivelihoods: z.string().optional(),
+  climateVulnerability: z.string().optional(),
 });
 
 /**

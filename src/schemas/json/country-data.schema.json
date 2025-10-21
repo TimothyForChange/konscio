@@ -58,6 +58,9 @@
         },
         "lackOfRightsAndLivelihoods": {
           "type": "string"
+        },
+        "climateVulnerability": {
+          "type": "string"
         }
       },
       "required": [

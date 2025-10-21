@@ -3,7 +3,7 @@
   "name": "Ukraine",
   "emoji": "🇺🇦",
   "ariaLabel": "Ukrainian flag",
-  "lastUpdated": "2025-10-19",
+  "lastUpdated": "2025-10-21",
   "currentCrisisSummary": "Since Russia's full-scale invasion in February 2022, Ukraine has been the site of a devastating international armed conflict, resulting in a humanitarian catastrophe of immense scale. Millions have been displaced, cities have been destroyed, and tens of thousands of civilians have been killed or injured.\n\nThe war is an act of brutal aggression by a resurgent Russian imperialism, seeking to reassert its sphere of influence. However, it cannot be understood outside the context of a decades-long eastward expansion of NATO, a US-led military bloc. The conflict is a catastrophic outcome of inter-imperialist rivalry, where competing geopolitical and economic interests have turned Ukraine into a tragic proxy battleground. The massive influx of Western arms and financing sustains the war effort but also deepens Ukraine's dependency and integrates it further into a Western-dominated security and economic architecture, with its people paying the ultimate price.",
   "imperialRoot": {
     "imperialPower": "Russian Empire (17th c. – 1917), USSR (1922–1991), US/NATO (1999–present)",
@@ -11,6 +11,8 @@
   },
   "historicalContext": {
     "postSovietNeoliberalismAndOligarchy": "The 'shock therapy' economic policies promoted by Western institutions like the IMF in the 1990s were imposed on both Russia and Ukraine. This rapid, mass privatisation of state assets allowed a small class of politically connected individuals—the oligarchs—to accumulate vast wealth and power. This process hollowed out the state, created deep-seated corruption, and made both countries' economies dependent on raw material exports and vulnerable to external pressures. The current conflict is, in part, a violent struggle between these rival oligarchic capitalist states.",
+    "thePost2014NeoliberalTurn": "Following the 2014 Maidan Uprising, successive pro-Western governments, heavily guided by the IMF and Western powers, implemented a second wave of deep neoliberal reforms. These included severe austerity measures, the privatisation of state assets, and, most controversially, the opening of Ukraine's vast, fertile agricultural land to the market. While promoted as modernisation, these policies were often conditions for Western financial aid and deepened the country's economic dependency, creating social hardship that complicated the post-2014 political landscape.",
+    "warAndDisasterCapitalism": "The 2022 invasion has created the conditions for 'disaster capitalism'. Ukraine's Western partners are planning a post-war reconstruction that is explicitly designed along neoliberal lines, funded by loans that will lock the country into decades of debt to international financial institutions. This process prioritises privatisation and opportunities for foreign corporations to acquire key Ukrainian assets. The war, therefore, serves not only as a geopolitical battleground but also as a brutal mechanism for permanently restructuring Ukraine's economy in the interests of Western capital.",
     "natoEastwardExpansion": "The post-Cold War expansion of NATO into the former Warsaw Pact countries and Baltic states was a primary driver of the escalating geopolitical crisis. Framed in the West as a defensive measure for new democracies, it was perceived by Russia as an aggressive encroachment on its sphere of influence and a direct security threat. This relentless military expansion, against the warnings of many strategists, created a zero-sum security dilemma that ultimately shattered the European peace and contributed directly to the decision by Russia to invade.",
     "internationalLawAndAccountability": "Russia's invasion is a clear violation of the UN Charter and international law. There is extensive documentation of war crimes, including indiscriminate attacks on civilian areas, summary executions, and torture. The International Criminal Court (ICC) has issued arrest warrants for Russian officials. Simultaneously, critics point to the selective application of international law by Western powers, who have themselves engaged in illegal invasions and interventions (e.g., Iraq, Libya) without facing accountability, thereby weakening the international legal order that they now invoke."
   },
@@ -46,6 +48,10 @@
     {
       "year": "2014",
       "event": "**Maidan Uprising & Annexation of Crimea**: A popular uprising, which includes significant far-right elements, overthrows the elected pro-Russian government. Russia responds by illegally annexing Crimea and instigating a separatist war in the Donbas region."
+    },
+    {
+      "year": "2014-2021",
+      "event": "**Post-Maidan Neoliberalism**: Following the uprising, Ukraine's pro-Western governments, backed by the IMF, enact harsh austerity and privatisation reforms, including opening the country's vast agricultural land market."
     },
     {
       "year": "2022",
@@ -96,7 +102,7 @@
     {
       "title": "Frontline Ukraine: Crisis in the Borderlands",
       "url": "https://www.goodreads.com/book/show/24717077",
-      "description": "Richard Sakwa provides a detailed academic analysis of the roots of the crisis, focusing on Ukraine's internal divisions and the dual pressures from Russia and the West."
+      "description": "Richard Sakwa provides a detailed academic analysis of the roots of the crisis, a rare example of a critical perspective that focuses on Ukraine's internal divisions and the dual pressures from Russia and the West."
     },
     {
       "title": "The Tragedy of Great Power Politics",
