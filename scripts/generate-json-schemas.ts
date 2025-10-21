@@ -17,12 +17,12 @@ export function generateSchemas(logger = console) {
   }
 
   const missionJsonSchema = zodToJsonSchema(MissionSchema, {
-    target: 'jsonSchema2019-09',
+    target: 'jsonSchema7',
     strictUnions: true,
   });
 
   const countryDataJsonSchema = zodToJsonSchema(CountryDataSchema, {
-    target: 'jsonSchema2019-09',
+    target: 'jsonSchema7',
     strictUnions: true,
   });
 
