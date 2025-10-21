@@ -70,11 +70,6 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "B'Tselem",
-        "description": "An Israeli human rights organisation that documents and exposes the apartheid regime and human rights violations in the Occupied Palestinian Territories.",
-        "url": "https://www.btselem.org"
-      },
-      {
         "organisation": "Palestine Children's Relief Fund (PCRF)",
         "description": "A non-political, non-profit organisation that provides free medical care to injured and ill children who lack access to care within the local health system.",
         "url": "https://www.pcrf.net"
