@@ -27,7 +27,7 @@ const { title, power, legacy } = Astro.props as Properties;
     margin-top: 0;
   }
 
-  @media (width >= 768px) {
+  @media (min-width: 768px) {
     .legacy-section h2 {
       font-size: var(--section-heading-size-lg);
     }

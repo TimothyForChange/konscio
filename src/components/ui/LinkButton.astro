@@ -81,7 +81,7 @@ const sanitizedUrl = url.startsWith('http') ? url : `https://${url}`;
     font-size: 1rem;
   }
 
-  @media (width >= 768px) {
+  @media (min-width: 768px) {
     .link-card {
       padding: var(--gap-xl);
     }

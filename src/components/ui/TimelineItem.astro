@@ -48,7 +48,7 @@ const { year, event } = Astro.props as TimelineItemProperties;
     font-weight: var(--font-weight-bold);
   }
 
-  @media (width >= 768px) {
+  @media (min-width: 768px) {
     .timeline-item {
       margin-bottom: var(--section-gap);
     }

@@ -52,13 +52,13 @@ const flagInfo = await getCountryMetadata(countrySlug ?? '');
     line-height: 1.05;
   }
 
-  @media (width < 768px) {
+  @media (max-width: 767px) {
     .country-title {
       margin-top: var(--gap);
     }
   }
 
-  @media (width >= 768px) {
+  @media (min-width: 768px) {
     .country-title {
       font-size: 2.5rem;
     }

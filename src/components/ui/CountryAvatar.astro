@@ -22,7 +22,7 @@ const { emoji, ariaLabel, countryName } = Astro.props as CountryAvatarProperties
     margin-right: var(--gap-sm);
   }
 
-  @media (width >= 768px) {
+  @media (min-width: 768px) {
     .country-avatar {
       font-size: 2.5rem;
     }

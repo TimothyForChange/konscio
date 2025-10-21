@@ -89,7 +89,7 @@ const { sectionTitle, groups, id } = Astro.props as Properties;
     gap: var(--gap-lg);
   }
 
-  @media (width >= 768px) {
+  @media (min-width: 768px) {
     .action-section {
       padding: calc(var(--section-gap) + var(--space-xs));
       margin-bottom: calc(var(--section-gap) + var(--space-xs));

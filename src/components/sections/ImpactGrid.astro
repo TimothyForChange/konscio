@@ -20,7 +20,7 @@ const { stats } = Astro.props as Properties;
     margin-top: var(--heading-gap);
   }
 
-  @media (width >= 768px) {
+  @media (min-width: 768px) {
     .impact-stats {
       grid-template-columns: repeat(auto-fit, minmax(var(--grid-min-width, 280px), 1fr));
       gap: var(--gap-lg);

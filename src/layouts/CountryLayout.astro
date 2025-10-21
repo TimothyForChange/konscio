@@ -6,12 +6,10 @@ import CountryHeader from '../components/country/CountryHeader.astro';
 import CrisisSection from '../components/country/CrisisSection.astro';
 import HistoricalContextSection from '../components/country/HistoricalContextSection.astro';
 import HumanitarianImpact from '../components/country/HumanitarianImpact.astro';
-import ImperialLegacySection from '../components/country/ImperialLegacySection.astro';
 import LegacySection from '../components/country/LegacySection.astro';
 import TakeAction from '../components/country/TakeAction.astro';
 import Timeline from '../components/country/Timeline.astro';
 import type { CountryData } from '../types/country';
-import { generateSlug } from '../utils/helpers.ts';
 import Layout from './Layout.astro';
 import 'remixicon/fonts/remixicon.css';
 import countriesList from '../data/mapping/countries.ts';
@@ -182,7 +180,7 @@ const articleSchema = {
     margin-bottom: var(--gap);
   }
 
-  @media (width >= 768px) {
+  @media (min-width: 768px) {
     .country-page {
       padding: calc(var(--card-padding) + var(--space-xs));
     }

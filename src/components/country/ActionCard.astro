@@ -25,7 +25,7 @@ const { content, html = false } = Astro.props as ActionCardProperties;
     box-shadow: var(--shadow-sm);
   }
 
-  @media (width >= 768px) {
+  @media (min-width: 768px) {
     .action-card {
       padding: var(--card-padding);
     }

@@ -104,7 +104,7 @@
     U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-@media (width >= 1024px) {
+@media (min-width: 1024px) {
   :root {
     --scrollbar-size: 12px;
   }
@@ -239,7 +239,7 @@ html::-webkit-scrollbar-corner {
   background: var(--scrollbar-corner-bg);
 }
 
-@media (width >= 768px) {
+@media (min-width: 768px) {
   .page-wrapper {
     padding: 0 20px;
   }
@@ -299,7 +299,7 @@ html::-webkit-scrollbar-corner {
   font-size: var(--font-size-xl);
 }
 
-@media (width >= 768px) {
+@media (min-width: 768px) {
   :root {
     --section-gap: 2.25rem;
     --heading-gap: 1.125rem;
