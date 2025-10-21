@@ -2,7 +2,7 @@
   "$schema": "../schemas/json/mission.schema.json",
   "name": "Timothy for Change",
   "mission": "Critical Humanitarian Analysis",
-  "description": "Examining the historical, economic, and political forces that shape humanitarian crises across the Global South—from Palestine to the Sahel. This includes the legacies of colonialism and imperialism, the dynamics of global capitalism, and the ways these systems persist in neo-colonial and neo-imperialist forms today. My goal is to equip people with the knowledge to advocate effectively, provide informed support, and engage in meaningful action that addresses both immediate needs and systemic injustice.",
+  "description": "Examining the historical, economic, and political forces behind humanitarian crises across the Global South—from Palestine to the Sahel. This includes the legacies of colonialism, imperialism, and the rise of global capitalism and neoliberalism, as well as their persistence in neo-colonial and neo-imperialist forms. My goal is to equip people with the knowledge to advocate effectively, provide informed support, and take meaningful action addressing both immediate needs and systemic injustice.",
   "links": [
     {
       "url": "https://www.givedirectly.org",
