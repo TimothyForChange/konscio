@@ -59,7 +59,7 @@ export const keyToTitleMap: Record<string, string> = {
   theResourceCurseAndEliteCorruption: 'The Resource Curse and Elite Corruption',
 
   // Myanmar
-  theMilitaryAsAStateWithinAState: 'The Military As A State Within A State',
+  theMilitaryAsAStateWithinAState: 'The Military as a State Within a State',
   postCoupRevolutionAndEthnicSolidarity: 'Post-Coup Revolution and Ethnic Solidarity',
   geopoliticalEnablersAndCorporateComplicity: 'Geopolitical Enablers and Corporate Complicity',
   khakiCapitalismAndTheFailedTransition: 'Khaki Capitalism and the Failed Transition',
