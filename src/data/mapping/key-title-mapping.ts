@@ -53,6 +53,11 @@ export const keyToTitleMap: Record<string, string> = {
   publicHealthAndUnresponsibility: 'Public Health and Unresponsibility',
   coldWarDictatorshipAndUSPatronage: 'Cold War Dictatorship and US Patronage',
 
+  // Mozambique
+  postIndependenceDestabilisation: 'Post-Independence Destabilisation',
+  neoliberalDebtAndStructuralAdjustment: 'Neoliberal Debt and Structural Adjustment',
+  theResourceCurseAndEliteCorruption: 'The Resource Curse and Elite Corruption',
+
   // Myanmar
   theMilitaryAsAStateWithinAState: 'The Military As A State Within A State',
   postCoupRevolutionAndEthnicSolidarity: 'Post-Coup Revolution and Ethnic Solidarity',
