@@ -8,20 +8,18 @@ const { name, mission: missionStatement, description } = mission;
 ---
 
 <section class='mission' aria-labelledby='mission-name'>
-  <div class='mission-content'>
-    <h1 id='mission-name' class='mission-name'>{name}</h1>
-    {missionStatement && <p class='mission-profession'>{missionStatement}</p>}
+  <h1 id='mission-name' class='mission-name'>{name}</h1>
+  {missionStatement && <p class='mission-statement'>{missionStatement}</p>}
 
-    {
-      description && (
-        <div class='mission-bio'>
-          {formatParagraphs(description).map((html: string) => (
-            <p class='mission-bio-text' set:html={html} />
-          ))}
-        </div>
-      )
-    }
-  </div>
+  {
+    description && (
+      <div class='mission-bio'>
+        {formatParagraphs(description).map((html: string) => (
+          <p class='mission-bio-text' set:html={html} />
+        ))}
+      </div>
+    )
+  }
 </section>
 
 <style>
@@ -33,18 +31,15 @@ const { name, mission: missionStatement, description } = mission;
     align-items: center;
   }
 
-  .mission-content {
-    text-align: center;
-  }
-
   .mission-name {
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 2.25rem;
     font-weight: 700;
     color: var(--text-primary);
     margin-bottom: var(--space-xs);
   }
 
-  .mission-profession {
+  .mission-statement {
     font-size: var(--font-size-base);
     font-weight: 400;
     color: var(--text-secondary);
@@ -60,7 +55,6 @@ const { name, mission: missionStatement, description } = mission;
     font-weight: 400;
     color: var(--text-primary);
     line-height: 1.6;
-    text-align: center;
     margin-top: 1em;
   }
 
