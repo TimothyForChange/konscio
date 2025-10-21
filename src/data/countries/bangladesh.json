@@ -58,6 +58,11 @@
   "takeAction": {
     "donate": [
       {
+        "organisation": "Muslim Global Relief",
+        "description": "Provides emergency aid, including food, water, and shelter, to Rohingya refugees fleeing persecution.",
+        "url": "https://www.muslimglobalrelief.org/rohingya-appeal/"
+      },
+      {
         "organisation": "UNHCR",
         "description": "Provides protection, shelter and essential services to Rohingya refugees in Bangladesh and to other displaced populations in the region.",
         "url": "https://www.unhcr.org/emergencies/rohingya-emergency"
