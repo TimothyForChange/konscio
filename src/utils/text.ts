@@ -1,4 +1,4 @@
-import tooltipsRaw from '../data/tooltips.json';
+import tooltipsRaw from '../data/tooltips/tooltips.json';
 import { validateTooltips } from '../validators/tooltips.ts';
 import { escapeHtml } from './html.ts';
 
