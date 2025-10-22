@@ -2,7 +2,7 @@
   "$schema": "../../schemas/json/mission.schema.json",
   "name": "Timothy for Change",
   "mission": "Analysing Structural Violence",
-  "description": "Unmasking the roots of global crises often labelled 'humanitarian.' We examine how colonialism, imperialism, and neoliberal capitalism create and perpetuate suffering—from Palestine to the Sahel. This site provides critical analysis of the political and economic systems driving displacement, famine, and state collapse, aiming to equip readers for informed action against systemic injustice.",
+  "description": "Unmasking the roots of global crises often labelled \"humanitarian.\" We examine how colonialism, imperialism, and neoliberal capitalism create and perpetuate suffering—from Palestine to the Sahel. This site provides critical analysis of the political and economic systems driving displacement, famine, and state collapse, aiming to equip readers for informed action against systemic injustice.",
   "links": [
     {
       "url": "https://www.givedirectly.org",
