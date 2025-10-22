@@ -11,15 +11,6 @@ const countries: Country[] = [
     category: 'Occupation & Imperialism',
   },
   {
-    name: 'Bangladesh',
-    slug: 'bangladesh',
-    flag: '🇧🇩',
-    description: 'Rohingya refugee crisis & humanitarian strain',
-    seoDescription:
-      "Bangladesh hosts nearly a million Rohingya refugees fleeing Myanmar's military persecution. The country faces massive humanitarian challenges including overcrowded camps, lack of resources, and long-term displacement.",
-    category: 'Displacement & Humanitarian Catastrophe',
-  },
-  {
     name: 'Cameroon',
     slug: 'cameroon',
     flag: '🇨🇲',

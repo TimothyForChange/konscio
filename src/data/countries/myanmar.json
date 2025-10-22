@@ -3,88 +3,128 @@
   "name": "Myanmar",
   "emoji": "🇲🇲",
   "ariaLabel": "Myanmar flag",
-  "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "Myanmar is engulfed in a nationwide civil war, pitting a broad revolutionary movement against the military junta that seized power in a 2021 coup. This is not merely a pro-democracy uprising but a struggle to dismantle a system of military rule that has dominated the country for over 60 years.\n\nThe conflict has united Bamar pro-democracy fighters in newly formed People's Defence Forces (PDFs) with long-established Ethnic Armed Organisations (EAOs) in an unprecedented, if complex, alliance. The military junta (the Tatmadaw) has responded with extreme brutality, employing air strikes, artillery bombardments, and scorched-earth tactics against civilian populations. This violence, once primarily confined to the ethnic peripheries—as demonstrated by the 2017 genocidal campaign against the Rohingya—is now being inflicted across the Bamar heartland, creating one of the world's largest internal displacement crises and a rapidly escalating humanitarian catastrophe.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "Myanmar faces multiple, overlapping catastrophes: a nationwide civil war against the military junta that seized power in 2021, and the ongoing persecution and genocide of the Rohingya minority. The post-coup conflict pits a broad revolutionary movement against the Tatmadaw (military), which employs extreme brutality against civilians nationwide.\n\nThis widespread violence follows the 2017 genocidal campaign against the Rohingya, which resulted in mass killings, systematic rape, and the forced expulsion of nearly a million people to Bangladesh, where they remain stateless refugees. The state's long history of denying Rohingya citizenship, combined with colonial-era 'divide and rule' tactics, laid the groundwork for this ethnic cleansing. The post-coup war and the Rohingya crisis together have created one of the world's largest displacement situations and a severe, multi-faceted humanitarian emergency, exacerbated by geopolitical indifference and impunity for the military regime.",
   "colonialRoot": {
     "colonialPower": "Britain (1824-1948)",
-    "legacy": "British colonial policy created the fissures that define Myanmar's modern conflicts. Through a 'divide and rule' strategy, Britain administered the central Bamar lowlands separately from the 'Frontier Areas' inhabited by ethnic minorities. The British institutionalised ethnic identities and used minority groups like the Karen and Kachin in their colonial army, deepening divisions.\n\nThis administrative segregation ensured that at independence, Burma was not a unified nation but a fractured state, with a powerful Bamar-dominated centre and deeply distrustful ethnic peripheries. This structure of internal inequality and division was inherited and ruthlessly exploited by the post-colonial military."
+    "legacy": "British colonial policy created the fissures that define Myanmar's modern conflicts. Through 'divide and rule', Britain administered the Bamar lowlands separately from ethnic 'Frontier Areas', institutionalised ethnic identities, and used minorities in the colonial army, deepening divisions. Crucially, the British encouraged labour migration from Bengal into Arakan (Rakhine), including many Rohingya. After independence, the new state's nationalist project framed the Rohingya as 'illegal Bengali migrants', weaponising colonial-era resentments and British administrative legacies to deny their identity and ultimately render them stateless. This colonial architecture of ethnic hierarchy and division was inherited and ruthlessly exploited by the post-colonial military."
   },
   "historicalContext": [
     {
       "title": "The Military as a State Within a State",
-      "description": "For over 60 years, the Tatmadaw has operated as a state within a state, functioning as a privileged political and economic class. Through two massive military-owned conglomerates, Myanmar Economic Holdings Ltd (MEHL) and Myanmar Economic Corporation (MEC), it controls vast swathes of the economy, from banking and breweries to jade mining. The 2021 coup was not just a political power grab but a violent move to protect this entrenched economic empire from the threat of democratic, civilian oversight."
+      "description": "For over 60 years, the Tatmadaw has operated as a state within a state, functioning as a privileged political and economic class. Through massive military-owned conglomerates (MEHL and MEC), it controls vast swathes of the economy. The 2021 coup was a violent move to protect this entrenched economic empire from democratic oversight."
+    },
+    {
+      "title": "State-Sponsored Persecution and Rohingya Statelessness",
+      "description": "The post-colonial state institutionalised discrimination against the Rohingya, culminating in the 1982 Citizenship Law, designed to legally erase their existence by refusing to recognise them as an official ethnic group. This act of legal violence rendered them stateless in their homeland, stripped them of all fundamental rights, and formalised their status as a people to be persecuted with impunity."
+    },
+    {
+      "title": "Ethnic Cleansing and Genocidal Violence Against the Rohingya",
+      "description": "Decades of discrimination erupted into systematic, state-directed violence, particularly in 2012 and 2017. The 2017 military 'clearance operations' were a premeditated campaign of mass killing, gang rape, and village destruction, terrorising the Rohingya into fleeing en masse. This violent expulsion, driving over 750,000 to Bangladesh, is now the subject of a genocide case at the ICJ."
     },
     {
       "title": "Khaki Capitalism and the Failed Transition",
-      "description": "The decade of quasi-civilian rule (c. 2011-2021) was not a true democratic transition but a period of military-managed neoliberal reform. The economy was opened to foreign investment, but this capital often flowed into joint ventures with military conglomerates and their cronies, modernising their economic empire under a civilian facade. This 'khaki capitalism' enriched the elite and entrenched the military's power, while the much-lauded peace process was used to divide ethnic groups. The NLD government, led by Aung San Suu Kyi, was constrained by the military's constitutional power and failed to challenge the core structures of its repressive, Bamar-centric state, culminating in her defence of the military's genocide against the Rohingya."
+      "description": "The decade of quasi-civilian rule (c. 2011-2021) was a period of military-managed neoliberal reform ('khaki capitalism'). Foreign investment often partnered with military conglomerates, modernising their empire under a civilian facade. The NLD government failed to challenge the military's power or its repressive, Bamar-centric state, culminating in Aung San Suu Kyi defending the military's genocide against the Rohingya at the ICJ."
     },
     {
       "title": "Post-Coup Revolution and Ethnic Solidarity",
-      "description": "The 2021 coup ignited a nationwide revolution. Unlike previous uprisings, it has forged a powerful, if fragile, solidarity between the Bamar majority and many of the country's long-oppressed ethnic minorities. The opposition's National Unity Government (NUG) and its armed wings (PDFs) are fighting alongside veteran Ethnic Armed Organisations. The shared experience of the Tatmadaw's brutality has forced many Bamar democrats to confront the military's long history of atrocities against ethnic peoples like the Rohingya, creating the potential for a new, federalist vision for the country."
+      "description": "The 2021 coup ignited a nationwide revolution, forging fragile solidarity between the Bamar majority and many long-oppressed ethnic minorities. The shared experience of the Tatmadaw's brutality has forced many Bamar democrats to confront the military's history of atrocities against ethnic peoples, including the Rohingya, creating potential for a new, federalist vision."
     },
     {
-      "title": "Geopolitical Enablers and Corporate Complicity",
-      "description": "The junta's war effort is sustained by external support. Russia and China are its primary arms suppliers and provide diplomatic cover at the UN Security Council, blocking meaningful action like a global arms embargo. Regionally, ASEAN's response has been weak and ineffective. Furthermore, some multinational corporations, particularly in the oil and gas sector (like TotalEnergies and Chevron until their recent withdrawals), have been criticised for generating revenues that have flowed directly to the junta, effectively financing its campaign of terror against the population."
+      "title": "Geopolitical Indifference and Impunity",
+      "description": "Myanmar's military regime has been shielded from accountability. China and Russia use their UN Security Council vetoes to block strong action, protecting strategic investments. Western sanctions have lacked sufficient pressure, and ASEAN's non-confrontation policy has effectively normalised the military's crimes, including the Rohingya genocide."
+    },
+    {
+      "title": "International Law and Accountability",
+      "description": "Formal accountability efforts are underway but face political obstacles. The Gambia's ICJ case accuses Myanmar of violating the Genocide Convention concerning the Rohingya. The ICC is investigating potential war crimes and crimes against humanity related to both the Rohingya and post-coup violence. These processes are vital for challenging state impunity."
     }
   ],
   "humanitarianImpact": [
     {
-      "title": "Displaced",
-      "description": "Over 3 million people have been internally displaced since the 2021 coup, fleeing air strikes and military attacks."
+      "title": "Displaced (Post-Coup)",
+      "description": "Over 3 million people internally displaced since the 2021 coup, fleeing air strikes and military attacks."
     },
     {
-      "title": "Refugees",
-      "description": "Hundreds of thousands have fled to neighbouring Thailand and India since the coup, in addition to the nearly 1 million Rohingya refugees in Bangladesh."
+      "title": "Refugees (Rohingya)",
+      "description": "Nearly 1 million Rohingya refugees remain in overcrowded camps in Bangladesh after fleeing the 2017 genocide, denied citizenship and unable to return safely."
     },
     {
-      "title": "Casualties",
-      "description": "At least 6,300 civilians have been killed by the junta since 2021, though the actual number is likely far higher. Total conflict deaths are in the tens of thousands."
+      "title": "Refugees (Post-Coup)",
+      "description": "Hundreds of thousands have fled to neighbouring Thailand and India since the 2021 coup."
     },
     {
-      "title": "Affected",
+      "title": "Casualties (Rohingya Genocide)",
+      "description": "An estimated 24,000 Rohingya were killed during the 2017 military operations, with thousands subjected to sexual violence."
+    },
+    {
+      "title": "Casualties (Post-Coup)",
+      "description": "At least 6,300 civilians killed by the junta since 2021 (actual number likely far higher). Total conflict deaths are in the tens of thousands."
+    },
+    {
+      "title": "Affected (Total)",
       "description": "An estimated 18.6 million people—one-third of the population—require humanitarian assistance."
     },
     {
       "title": "Food Insecurity",
-      "description": "Around 12.9 million people are facing acute food insecurity as the conflict has shattered supply chains and destroyed agricultural livelihoods."
+      "description": "Around 12.9 million people face acute food insecurity due to conflict and economic collapse."
     },
     {
       "title": "Health System Collapsed",
-      "description": "The health system has collapsed after being systematically targeted by the junta, with hundreds of attacks on hospitals and medical staff."
-    },
-    {
-      "title": "Livelihoods and Economic Loss",
-      "description": "The economy has contracted severely since the coup, plunging millions into poverty."
+      "description": "The health system has collapsed, targeted by the junta with hundreds of attacks on hospitals and medical staff."
     }
   ],
   "timeline": [
     {
+      "year": "1784-1785",
+      "event": "**Burmese Conquest of Arakan**: The independent Kingdom of Arakan is conquered by the Burmese Konbaung dynasty. This violent conquest leads to the forced displacement of many Arakanese people and marks the beginning of intensified Bamar rule over the region, altering the existing ethnic dynamics."
+    },
+    {
+      "year": "1824-1885",
+      "event": "**British Conquest of Burma**: Over three successive wars, the British Empire gradually conquers and annexes the Burmese kingdom, integrating it into British India and establishing the colonial framework that would reshape the region's ethnic and political landscape."
+    },
+    {
+      "year": "1826",
+      "event": "**British Annexation of Arakan**: Britain encourages labour migration from Bengal, including Rohingya, laying demographic groundwork for future conflict."
+    },
+    {
       "year": "1948",
-      "event": "**Independence**: Burma gains independence from Britain, immediately facing multiple ethnic insurgencies rooted in the unresolved questions of the colonial era."
+      "event": "**Independence**: Burma gains independence, facing ethnic insurgencies and beginning to exclude the Rohingya from the national identity."
     },
     {
       "year": "1962",
-      "event": "**First Military Coup**: General Ne Win seizes power, ending a brief democratic period and beginning decades of isolationist, authoritarian military rule."
+      "event": "**First Military Coup**: General Ne Win begins decades of isolationist, authoritarian military rule."
+    },
+    {
+      "year": "1982",
+      "event": "**Citizenship Law**: Myanmar's military government enacts a law omitting the Rohingya from recognised ethnic groups, formally rendering them stateless."
     },
     {
       "year": "1988",
-      "event": "**8888 Uprising**: A nationwide popular uprising for democracy is brutally crushed by the military, killing thousands and cementing the Tatmadaw's role as the violent oppressor of its own people."
+      "event": "**8888 Uprising**: A popular uprising is brutally crushed by the military, killing thousands."
     },
     {
       "year": "2011-2021",
-      "event": "**The 'Opening'**: A period of quasi-civilian rule and neoliberal economic reform begins. While lauded internationally, the military retains ultimate power and modernises its business empire through partnerships with foreign capital."
+      "event": "**The 'Opening' / Khaki Capitalism**: A period of quasi-civilian rule and neoliberal reform begins, allowing the military to modernise its economic empire."
+    },
+    {
+      "year": "2012",
+      "event": "**Sectarian Violence in Rakhine**: Organised violence kills hundreds of Rohingya and displaces over 140,000 into internal camps."
     },
     {
       "year": "2017",
-      "event": "**Rohingya Genocide**: The Tatmadaw unleashes a campaign of genocidal violence against the Rohingya minority, forcing over 750,000 to flee to Bangladesh. The act showcases the military's capacity for extreme brutality."
+      "event": "**Rohingya Genocide**: The Tatmadaw unleashes 'clearance operations', forcing over 750,000 Rohingya to flee genocidal violence to Bangladesh."
+    },
+    {
+      "year": "2019",
+      "event": "**ICJ Genocide Case**: The Gambia files a case against Myanmar at the ICJ concerning the genocide against the Rohingya."
     },
     {
       "year": "2021",
-      "event": "**Coup & Revolution**: The military annuls the 2020 election results and stages a coup. A massive civil disobedience movement quickly evolves into a nationwide armed revolution."
+      "event": "**Coup & Revolution**: The military annuls election results and stages a coup, triggering a nationwide armed revolution."
     },
     {
       "year": "2023-Present",
-      "event": "**Operation 1027 & Shifting Tides**: A coordinated offensive by an alliance of ethnic armies in late 2023 inflicts stunning defeats on the junta, leading to the loss of major towns and border crossings and shifting the war's momentum in favour of the resistance."
+      "event": "**Operation 1027 & Shifting Tides**: Coordinated offensives by ethnic armies inflict stunning defeats on the junta, shifting the war's momentum."
     }
   ],
   "takeAction": {
@@ -96,33 +136,40 @@
       },
       {
         "organisation": "Free Burma Rangers",
-        "description": "A multi-ethnic humanitarian service movement that provides emergency medical care, shelter, food, and documentation of atrocities in the conflict zones.",
+        "description": "A multi-ethnic humanitarian service movement providing emergency medical care, shelter, food, and documentation of atrocities in conflict zones.",
         "url": "https://www.freeburmarangers.org"
+      },
+      {
+        "organisation": "Muslim Global Relief (Rohingya Appeal)",
+        "description": "Provides emergency aid, including food, water, and shelter, to Rohingya refugees fleeing persecution.",
+        "url": "https://www.muslimglobalrelief.org/rohingya-appeal/"
       }
     ],
     "advocacy": [
-      "Demand a comprehensive global arms embargo to stop the flow of weapons and aviation fuel to the junta.",
-      "Call for coordinated international sanctions on the junta's leaders and their economic networks, particularly the military-owned conglomerates.",
-      "Support the pro-democracy National Unity Government (NUG) and other actors in the resistance movement.",
-      "Advocate for robust cross-border humanitarian aid that bypasses the junta to reach those in liberated areas and internally displaced camps.",
-      "Support international accountability efforts, including the ICJ genocide case and investigations into the junta's widespread war crimes."
+      "Demand a comprehensive global arms embargo against the junta.",
+      "Call for coordinated international sanctions on military leaders and their economic networks (MEHL & MEC).",
+      "Support the pro-democracy National Unity Government (NUG) and ethnic resistance organisations.",
+      "Advocate for robust cross-border humanitarian aid bypassing the junta.",
+      "Support international accountability efforts, including the ICJ genocide case (Rohingya) and ICC investigations (post-coup war crimes).",
+      "Oppose premature or forced repatriation of Rohingya refugees until their citizenship, safety, and rights in Myanmar are guaranteed.",
+      "Amplify Rohingya voices and support Rohingya-led organisations advocating for their rights."
     ]
   },
   "reading": [
     {
       "title": "The River of Lost Footsteps: A Personal History of Burma",
       "url": "https://www.goodreads.com/book/show/1940555",
-      "description": "Thant Myint-U's sweeping history of Myanmar, tracing the deep historical forces that shape the present crisis."
+      "description": "Thant Myint-U's sweeping history tracing the deep historical forces shaping Myanmar's crises."
     },
     {
-      "title": "Burma's Spring: Aung San Suu Kyi and the New Struggle for the Soul of a Nation",
-      "url": "https://www.goodreads.com/book/show/22514246",
-      "description": "Jason Szep's reporting offers a critical look at the complex political landscape leading up to the coup."
+      "title": "First, They Erased Our Name: A Rohingya Speaks",
+      "url": "https://www.goodreads.com/book/show/43388990",
+      "description": "A powerful memoir by Habiburahman detailing the lived experience of persecution and statelessness as a Rohingya."
     },
     {
-      "title": "From the Land of Green Ghosts: A Burmese Odyssey",
-      "url": "https://www.goodreads.com/book/show/103148",
-      "description": "Pascal Khoo Thwe's memoir offering a vital perspective on ethnic minority life and the long struggle against the Bamar-dominated state."
+      "title": "The Rohingyas: Inside Myanmar's Hidden Genocide",
+      "url": "https://www.goodreads.com/book/show/26717021",
+      "description": "Azeem Ibrahim's account of the long history of persecution leading to the 2017 atrocities against the Rohingya."
     }
   ]
 }
