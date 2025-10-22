@@ -1,10 +1,20 @@
 ---
 import missionData from '../../data/mission.json';
 import type { Mission } from '../../types/mission';
-import { formatParagraphs } from '../../utils/text.ts';
+import { escapeHtml } from '../../utils/html.ts';
 
 const mission = missionData as Mission;
 const { name, mission: missionStatement, description } = mission;
+const descriptionHtml = description
+  ? description
+      .split('\n\n')
+      .filter((p) => p.trim())
+      .map((p) => {
+        const escaped = escapeHtml(p);
+        const bolded = escaped.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        return bolded;
+      })
+  : [];
 ---
 
 <section class='mission' aria-labelledby='mission-name'>
@@ -12,9 +22,9 @@ const { name, mission: missionStatement, description } = mission;
   {missionStatement && <p class='mission-statement'>{missionStatement}</p>}
 
   {
-    description && (
+    descriptionHtml.length > 0 && (
       <div class='mission-bio'>
-        {formatParagraphs(description).map((html: string) => (
+        {descriptionHtml.map((html: string) => (
           <p class='mission-bio-text' set:html={html} />
         ))}
       </div>

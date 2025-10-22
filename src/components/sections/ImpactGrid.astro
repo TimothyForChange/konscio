@@ -22,7 +22,10 @@ const { stats } = Astro.props as Properties;
 
   @media (min-width: 768px) {
     .impact-stats {
-      grid-template-columns: repeat(auto-fit, minmax(var(--grid-min-width, 280px), 1fr));
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(var(--grid-min-width, 280px), 1fr)
+      );
       gap: var(--gap-lg);
     }
 

@@ -76,7 +76,9 @@ const CountryDataSchema = z.object({
   emoji: z.string(),
   ariaLabel: z.string(),
   currentCrisisSummary: z.string(),
-  lastUpdated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'Date must be in YYYY-MM-DD format'),
+  lastUpdated: z
+    .string()
+    .regex(/^\d{4}-\d{2}-\d{2}$/, 'Date must be in YYYY-MM-DD format'),
   humanitarianImpact: HumanitarianImpactSchema,
   timeline: z.array(TimelineEventSchema),
   colonialRoot: ColonialRootSchema.optional(),

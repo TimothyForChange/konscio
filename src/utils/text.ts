@@ -1,4 +1,71 @@
+import tooltips from '../data/tooltips.json';
 import { escapeHtml } from './html.ts';
+
+/**
+ * Injects tooltips into text by wrapping matching words/phrases with data-tooltip spans.
+ *
+ * @param text - The HTML text to process.
+ * @returns The text with tooltips injected.
+ */
+function injectTooltips(text: string): string {
+  const sortedKeys = Object.keys(tooltips).sort((a, b) => b.length - a.length);
+  const matches: Array<{
+    matchedText: string;
+    start: number;
+    end: number;
+    def: string;
+  }> = [];
+
+  for (const key of sortedKeys) {
+    const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`\\b(?<!-)${escapedKey}\\b(?!-)`, 'gi');
+    let match;
+    while ((match = regex.exec(text)) !== null) {
+      matches.push({
+        matchedText: match[0],
+        start: match.index,
+        end: match.index + match[0].length,
+        def: tooltips[key as keyof typeof tooltips],
+      });
+    }
+  }
+
+  matches.sort((a, b) => {
+    if (a.start !== b.start) {
+      return b.start - a.start;
+    }
+    return b.matchedText.length - a.matchedText.length;
+  });
+
+  const filteredMatches: typeof matches = [];
+  for (const match of matches) {
+    const overlaps = filteredMatches.some(
+      (existing) => match.start < existing.end && match.end > existing.start
+    );
+    if (!overlaps) {
+      filteredMatches.push(match);
+    }
+  }
+
+  let result = text;
+  const replacements: Array<{ placeholder: string; span: string }> = [];
+  for (const match of filteredMatches) {
+    const placeholder = `__TOOLTIP_${replacements.length}__`;
+    replacements.push({
+      placeholder,
+      span: `<span data-tooltip="${escapeHtml(match.def)}">${match.matchedText}</span>`,
+    });
+    const before = result.slice(0, match.start);
+    const after = result.slice(match.end);
+    result = before + placeholder + after;
+  }
+
+  for (const { placeholder, span } of replacements) {
+    result = result.replaceAll(placeholder, span);
+  }
+
+  return result;
+}
 
 /**
  * Formats a string by escaping HTML and converting markdown-like bold syntax to `<strong>` tags.
@@ -8,10 +75,8 @@ import { escapeHtml } from './html.ts';
  */
 export function formatText(text: string): string {
   const escaped = escapeHtml(text);
-
-  const result = escaped.replaceAll(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-
-  return result;
+  const bolded = escaped.replaceAll(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  return injectTooltips(bolded);
 }
 
 /**

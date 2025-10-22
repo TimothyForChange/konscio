@@ -50,4 +50,8 @@ if (advocacyData.length > 0) {
 }
 ---
 
-{groups.length > 0 && <ActionSection sectionTitle='How You Can Help' groups={groups} id={id} />}
+{
+  groups.length > 0 && (
+    <ActionSection sectionTitle='How You Can Help' groups={groups} id={id} />
+  )
+}

@@ -84,13 +84,17 @@ const stats = humanitarianImpact
 
   @media (min-width: 768px) {
     .humanitarian-section {
-      padding: calc(var(--section-gap) + var(--space-xs)) calc(var(--section-gap) + var(--space-xs))
+      padding: calc(var(--section-gap) + var(--space-xs))
+        calc(var(--section-gap) + var(--space-xs))
         calc(var(--section-gap) - var(--space-xs));
       margin-bottom: var(--section-gap);
     }
 
     .impact-stats {
-      grid-template-columns: repeat(auto-fit, minmax(var(--grid-min-width, 280px), 1fr));
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(var(--grid-min-width, 280px), 1fr)
+      );
       gap: var(--gap-lg);
     }
 

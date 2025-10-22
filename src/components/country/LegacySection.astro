@@ -17,7 +17,8 @@ const { title, power, legacy } = Astro.props as Properties;
         {title}
       </h2>
       <h3 class='sub-heading'>{power || '—'}</h3>
-      {legacy && formatParagraphs(legacy).map((html: string) => <p set:html={html} />)}
+      {legacy &&
+        formatParagraphs(legacy).map((html: string) => <p set:html={html} />)}
     </section>
   )
 }

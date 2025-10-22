@@ -23,7 +23,9 @@ const iconClass = isString(icon) ? `ri-${icon}` : 'ri-link';
   class='link'
   target={sanitizedUrl.startsWith('http') ? '_blank' : undefined}
   rel={sanitizedUrl.startsWith('http') ? 'noopener noreferrer' : undefined}
-  aria-label={sanitizedUrl.startsWith('http') ? `${title} (opens in new tab)` : title}
+  aria-label={sanitizedUrl.startsWith('http')
+    ? `${title} (opens in new tab)`
+    : title}
   {...sanitizedUrl.startsWith('/') ? { 'data-astro-prefetch': true } : {}}
 >
   <span class='link-icon' aria-hidden='true'>

@@ -32,7 +32,10 @@ export function generateSchemas(logger = console) {
   fs.writeFileSync(missionPath, JSON.stringify(missionJsonSchema, null, 2));
   logger.info(`Wrote mission schema to ${missionPath}`);
 
-  fs.writeFileSync(countryDataPath, JSON.stringify(countryDataJsonSchema, null, 2));
+  fs.writeFileSync(
+    countryDataPath,
+    JSON.stringify(countryDataJsonSchema, null, 2)
+  );
   logger.info(`Wrote country-data schema to ${countryDataPath}`);
 }
 

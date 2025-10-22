@@ -32,7 +32,12 @@ const fontaineOptions = {
 };
 
 export default defineConfig({
-  integrations: [sitemap(), playformCompress(), playformInline(), generateJsonSchemas()],
+  integrations: [
+    sitemap(),
+    playformCompress(),
+    playformInline(),
+    generateJsonSchemas(),
+  ],
   site: 'https://timothyforchange.co.za',
   trailingSlash: 'never',
   output: 'static',

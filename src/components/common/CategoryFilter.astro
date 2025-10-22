@@ -8,12 +8,20 @@ export interface CategoryFilterProperties {
   activeCategory?: string;
 }
 
-const { categories, activeCategory = DEFAULT_CATEGORY } = Astro.props as CategoryFilterProperties;
+const { categories, activeCategory = DEFAULT_CATEGORY } =
+  Astro.props as CategoryFilterProperties;
 
-const filteredCategories = categories.filter((cat) => isString(cat) && cat.trim() !== '');
+const filteredCategories = categories.filter(
+  (cat) => isString(cat) && cat.trim() !== ''
+);
 ---
 
-<div class='category-filters' id='category-filters' role='tablist' aria-label='Category filters'>
+<div
+  class='category-filters'
+  id='category-filters'
+  role='tablist'
+  aria-label='Category filters'
+>
   {
     filteredCategories.map((category, index) => (
       <button

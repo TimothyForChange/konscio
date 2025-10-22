@@ -16,7 +16,9 @@ const { historicalContext } = Astro.props as Properties;
 
   {
     historicalContext!
-      .filter((item) => item.title.trim() !== '' && item.description.trim() !== '')
+      .filter(
+        (item) => item.title.trim() !== '' && item.description.trim() !== ''
+      )
       .map((item) => (
         <div class='term-group'>
           <h3 class='sub-heading'>{item.title}</h3>

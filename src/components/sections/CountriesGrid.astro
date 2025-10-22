@@ -22,7 +22,10 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
 <section class='causes-section' aria-labelledby='causes-heading'>
   <h2 id='causes-heading' class='causes-heading'>Supporting Communities In</h2>
 
-  <CategoryFilter categories={allCategories} activeCategory={DEFAULT_CATEGORY} />
+  <CategoryFilter
+    categories={allCategories}
+    activeCategory={DEFAULT_CATEGORY}
+  />
 
   <div class='countries-container' id='countries-container'>
     {
@@ -34,23 +37,37 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
           aria-labelledby={`tab-${generateSlug(category)}`}
           hidden={category !== DEFAULT_CATEGORY}
         >
-          <ul class='countries-grid' id={`countries-grid-${generateSlug(category)}`}>
+          <ul
+            class='countries-grid'
+            id={`countries-grid-${generateSlug(category)}`}
+          >
             {countriesData
               .filter(
                 (country) =>
                   category === DEFAULT_CATEGORY ||
-                  (typeof country.category === 'string' && country.category === category)
+                  (typeof country.category === 'string' &&
+                    country.category === category)
               )
               .map((country) => (
                 <li class='country-item'>
                   <CountryCard
                     slug={country.slug}
                     name={country.name}
-                    flag={typeof country.flag === 'string' ? country.flag : undefined}
-                    description={
-                      typeof country.description === 'string' ? country.description : undefined
+                    flag={
+                      typeof country.flag === 'string'
+                        ? country.flag
+                        : undefined
                     }
-                    category={typeof country.category === 'string' ? country.category : undefined}
+                    description={
+                      typeof country.description === 'string'
+                        ? country.description
+                        : undefined
+                    }
+                    category={
+                      typeof country.category === 'string'
+                        ? country.category
+                        : undefined
+                    }
                   />
                 </li>
               ))}

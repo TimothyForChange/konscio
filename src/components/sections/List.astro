@@ -12,7 +12,12 @@ const items: ResourceLink[] = (missionData as Mission).links!;
     {
       items.map((item: ResourceLink, index: number) => (
         <li class={`list-animated`} style={`--i:${index}`}>
-          <Link icon={item.icon} title={item.title} description={item.description} url={item.url} />
+          <Link
+            icon={item.icon}
+            title={item.title}
+            description={item.description}
+            url={item.url}
+          />
         </li>
       ))
     }

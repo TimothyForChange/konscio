@@ -25,7 +25,9 @@ export async function loadCountries(): Promise<Country[]> {
  * @returns A promise that resolves to the validated country data object.
  * @throws If the data loading or validation fails.
  */
-export async function loadCountryData(countrySlug: string): Promise<CountryData> {
+export async function loadCountryData(
+  countrySlug: string
+): Promise<CountryData> {
   try {
     const countryModule = await import(`../data/countries/${countrySlug}.json`);
     const rawData = countryModule.default;
