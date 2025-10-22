@@ -1,4 +1,4 @@
-import { loadCountries, loadCountryData } from './data-loaders';
+import { loadCountries, loadCountryData } from './async-data-loaders';
 
 /**
  * Retrieves the emoji and ARIA label for a country by its slug.

@@ -1,4 +1,5 @@
 {
+  "$schema": "../schemas/json/tooltips.schema.json",
   "apartheid": "An institutionalised regime of systematic oppression and domination by one racial group over another. Originally used to describe white minority rule in South Africa, it is now defined under international law as a crime against humanity.",
   "austerity": "Slashing public services like health and education to pay off government debts, a policy that disproportionately harms the poor.",
   "capital flight": "The large-scale exodus of money and assets from a country, often illicitly, by a corrupt elite to hide stolen wealth in offshore financial centres.",

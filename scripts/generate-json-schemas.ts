@@ -3,10 +3,11 @@ import path from 'path';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 import { CountryDataSchema } from '../src/schemas/country-data.ts';
 import { MissionSchema } from '../src/schemas/mission.ts';
+import { TooltipsSchema } from '../src/schemas/tooltips.ts';
 
 /**
  * Generates JSON schemas from Zod schemas and saves them to the file system.
- * This function converts Zod schemas for mission and country data into JSON schema format.
+ * This function converts Zod schemas for mission, country data, and tooltips into JSON schema format.
  *
  * @param logger An optional logger object with an `info` method for logging output. Defaults to the global console object.
  */
@@ -26,8 +27,14 @@ export function generateSchemas(logger = console) {
     strictUnions: true,
   });
 
+  const tooltipsJsonSchema = zodToJsonSchema(TooltipsSchema, {
+    target: 'jsonSchema7',
+    strictUnions: true,
+  });
+
   const missionPath = path.join(jsonSchemasDir, 'mission.schema.json');
   const countryDataPath = path.join(jsonSchemasDir, 'country-data.schema.json');
+  const tooltipsPath = path.join(jsonSchemasDir, 'tooltips.schema.json');
 
   fs.writeFileSync(missionPath, JSON.stringify(missionJsonSchema, null, 2));
   logger.info(`Wrote mission schema to ${missionPath}`);
@@ -37,6 +44,9 @@ export function generateSchemas(logger = console) {
     JSON.stringify(countryDataJsonSchema, null, 2)
   );
   logger.info(`Wrote country-data schema to ${countryDataPath}`);
+
+  fs.writeFileSync(tooltipsPath, JSON.stringify(tooltipsJsonSchema, null, 2));
+  logger.info(`Wrote tooltips schema to ${tooltipsPath}`);
 }
 
 generateSchemas();

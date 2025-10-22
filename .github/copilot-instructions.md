@@ -46,7 +46,7 @@
 ## Code Patterns & Examples
 
 - Component Props: Use TypeScript interfaces for props (e.g., `export interface Properties { countryName: string; }`).
-- Data Loading: Use dynamic imports in `src/utils/data-loaders.ts` for country data (e.g., `import(\`../data/countries/${countrySlug}.json\`)`).
+- Data Loading: Use dynamic imports in `src/utils/async-data-loaders.ts` for country data (e.g., `import(\`../data/countries/${countrySlug}.json\`)`).
 - Country Categories: Use predefined categories from `src/constants/category.ts` (e.g., 'Invasion & Occupation', 'Occupation & Dispossession').
 - CSS Variables: Use semantic color variables like `--text-primary`, `--bg-surface`, spacing like `--section-gap`.
 - Error Handling: Throw descriptive errors in validators (e.g., `throw new Error(\`Country data validation failed: ${result.error.message}\`)`).

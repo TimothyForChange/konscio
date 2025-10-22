@@ -1,9 +1,9 @@
 ---
-import missionData from '../../data/mission.json';
-import type { Mission } from '../../types/mission';
+import missionDataRaw from '../../data/mission.json';
 import { escapeHtml } from '../../utils/html.ts';
+import { validateMission } from '../../validators/mission.ts';
 
-const mission = missionData as Mission;
+const mission = validateMission(missionDataRaw);
 const { name, mission: missionStatement, description } = mission;
 const descriptionHtml = description
   ? description

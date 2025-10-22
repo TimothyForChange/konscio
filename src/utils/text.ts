@@ -1,5 +1,8 @@
-import tooltips from '../data/tooltips.json';
+import tooltipsRaw from '../data/tooltips.json';
+import { validateTooltips } from '../validators/tooltips.ts';
 import { escapeHtml } from './html.ts';
+
+const tooltips = validateTooltips(tooltipsRaw);
 
 /**
  * Injects tooltips into text by wrapping matching words/phrases with data-tooltip spans.
@@ -8,7 +11,9 @@ import { escapeHtml } from './html.ts';
  * @returns The text with tooltips injected.
  */
 function injectTooltips(text: string): string {
-  const sortedKeys = Object.keys(tooltips).sort((a, b) => b.length - a.length);
+  const sortedKeys = Object.keys(tooltips)
+    .filter((key) => key !== '$schema')
+    .sort((a, b) => b.length - a.length);
   const matches: Array<{
     matchedText: string;
     start: number;
