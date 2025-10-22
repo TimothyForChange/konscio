@@ -369,7 +369,7 @@ span[data-tooltip]:focus::after {
   padding: var(--card-padding-sm);
   border-radius: var(--card-radius);
   white-space: pre-wrap;
-  max-width: 400px;
+  max-width: min(500px, 90vw);
   min-width: 200px;
   z-index: 10;
   box-shadow: var(--shadow-md);
