@@ -4,6 +4,18 @@ import { escapeHtml } from './html.ts';
 
 const tooltips = validateTooltips(tooltipsRaw);
 
+const tooltipEntries = Object.keys(tooltips)
+  .filter((key) => key !== '$schema')
+  .map((key) => ({
+    key,
+    regex: new RegExp(
+      `\\b(?<!-)${key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\b(?!-)`,
+      'gi'
+    ),
+    def: tooltips[key],
+  }))
+  .sort((a, b) => b.key.length - a.key.length);
+
 /**
  * Injects tooltips into text by wrapping matching words/phrases with data-tooltip spans.
  *
@@ -11,9 +23,6 @@ const tooltips = validateTooltips(tooltipsRaw);
  * @returns The text with tooltips injected.
  */
 function injectTooltips(text: string): string {
-  const sortedKeys = Object.keys(tooltips)
-    .filter((key) => key !== '$schema')
-    .sort((a, b) => b.length - a.length);
   const matches: Array<{
     matchedText: string;
     start: number;
@@ -21,16 +30,14 @@ function injectTooltips(text: string): string {
     def: string;
   }> = [];
 
-  for (const key of sortedKeys) {
-    const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const regex = new RegExp(`\\b(?<!-)${escapedKey}\\b(?!-)`, 'gi');
+  for (const entry of tooltipEntries) {
     let match;
-    while ((match = regex.exec(text)) !== null) {
+    while ((match = entry.regex.exec(text)) !== null) {
       matches.push({
         matchedText: match[0],
         start: match.index,
         end: match.index + match[0].length,
-        def: tooltips[key as keyof typeof tooltips],
+        def: entry.def,
       });
     }
   }
