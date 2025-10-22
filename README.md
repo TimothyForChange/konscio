@@ -2,9 +2,17 @@
 
 Humanitarian advocacy site built with Astro.
 
+## Requirements
+
+This project requires Node.js version 24.x or 25.x and npm version 11.6.2 or higher. See the `engines` field in `package.json` for details.
+
 ## Overview
 
 A platform for critical humanitarian analysis, exploring the historical and economic roots of crises across the Global South.
+
+## Fact Checking & Localisation
+
+If you spot any factual errors or would like to help with localisation, please open an issue.
 
 ## Quick Start
 
@@ -21,6 +29,30 @@ Build and preview the static site:
 npm run build
 npm run preview
 ```
+
+## Linting & Formatting
+
+To lint and auto-fix code, run:
+
+```bash
+npm run lint
+```
+
+To format code with Prettier:
+
+```bash
+npm run format
+```
+
+## Schema Generation
+
+To regenerate JSON schemas from Zod definitions, run:
+
+```bash
+npm run generate:schemas
+```
+
+This script will update files in `src/schemas/json/` automatically. Do not edit these files manually.
 
 ## Project Structure
 
