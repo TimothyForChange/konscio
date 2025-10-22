@@ -1,4 +1,4 @@
-# Timothy for Change
+# 🌍 Timothy for Change
 
 Humanitarian advocacy site built with Astro.
 
@@ -10,9 +10,13 @@ This project requires Node.js version 24.x or 25.x and npm version 11.6.2 or hig
 
 A platform for critical humanitarian analysis, exploring the historical and economic roots of crises across the Global South.
 
-## Fact Checking & Localisation
+## Fact Checking & Localisation 🔍
 
-If you spot any factual errors or would like to help with localisation, please open an issue.
+If you spot any factual errors or would like to help with localisation, please open an issue. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## Security
+
+For security-related concerns or reporting vulnerabilities, please refer to [SECURITY.md](SECURITY.md).
 
 ## Quick Start
 
@@ -84,6 +88,6 @@ To add a new country to the site, follow these steps:
 
 Astro · CSS (custom properties) · Remixicon
 
-## License
+## License 📜
 
-This repository is released under CC0 1.0 Universal. See the `LICENSE` file for details.
+This repository is released under CC0 1.0 Universal. See the [LICENSE](LICENSE) file for details.
