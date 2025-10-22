@@ -9,10 +9,9 @@ import HumanitarianImpact from '../components/country/HumanitarianImpact.astro';
 import LegacySection from '../components/country/LegacySection.astro';
 import TakeAction from '../components/country/TakeAction.astro';
 import Timeline from '../components/country/Timeline.astro';
+import countriesList from '../data/mapping/countries.ts';
 import type { CountryData } from '../types/country';
 import Layout from './Layout.astro';
-import 'remixicon/fonts/remixicon.css';
-import countriesList from '../data/mapping/countries.ts';
 
 export interface Properties {
   countryData?: CountryData;
