@@ -38,6 +38,15 @@ const countries: Country[] = [
     category: 'Resource Exploitation & Foreign Interference',
   },
   {
+    name: 'Cuba',
+    slug: 'cuba',
+    flag: '🇨🇺',
+    description: 'US blockade & economic warfare',
+    seoDescription:
+      "Explore Cuba's crisis, inflicted by the 60+ year US economic blockade—a primary example of imperialist economic warfare causing shortages and suffering.",
+    category: 'Economic Collapse & Repression',
+  },
+  {
     name: 'Democratic Republic of the Congo',
     slug: 'drc',
     flag: '🇨🇩',

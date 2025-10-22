@@ -141,23 +141,28 @@
   "reading": [
     {
       "title": "Justice for Some: Law and the Question of Palestine",
-      "url": "https://www.goodreads.com/book/show/43154949",
-      "description": "Noura Erakat examines how international law has been both used and manipulated in the Palestinian struggle, exploring the limits of legal frameworks in securing justice."
+      "url": "https://www.goodreads.com/book/show/43154949-justice-for-some",
+      "description": "Noura Erakat examines how international law has been weaponised to deny Palestinian rights and enable Israeli settler colonialism."
     },
     {
       "title": "On Palestine",
-      "url": "https://www.goodreads.com/book/show/23129811",
-      "description": "A collection of conversations between Noam Chomsky and Ilan Pappé, two of the world's leading critical voices on the history and politics of the occupation."
+      "url": "https://www.goodreads.com/book/show/23129811-on-palestine",
+      "description": "Conversations between Noam Chomsky and Ilan Pappé, offering indispensable critical perspectives on the history and politics of Israeli occupation."
     },
     {
       "title": "The Ethnic Cleansing of Palestine",
-      "url": "https://www.goodreads.com/book/show/57540",
-      "description": "Ilan Pappé presents a provocative account, supported by archival evidence, arguing that the displacement of Palestinians in 1948 was a planned policy rather than a by-product of war."
+      "url": "https://www.goodreads.com/book/show/57540.The_Ethnic_Cleansing_of_Palestine",
+      "description": "Ilan Pappé's groundbreaking historical account arguing the 1948 Nakba was a deliberate, planned ethnic cleansing operation."
     },
     {
       "title": "The Hundred Years' War on Palestine: A History of Settler Colonialism and Resistance, 1917-2017",
-      "url": "https://www.goodreads.com/book/show/41812831",
-      "description": "Historian Rashid Khalidi's definitive account of the long struggle against colonialism in Palestine, told from a Palestinian perspective."
+      "url": "https://www.goodreads.com/book/show/41812831-the-hundred-years-war-on-palestine",
+      "description": "Rashid Khalidi's definitive account from a Palestinian perspective, framing the conflict as a century-long war waged against Palestine by settler colonialism."
+    },
+    {
+      "title": "Gaza in Crisis: Reflections on Israel's War Against the Palestinians",
+      "url": "https://www.goodreads.com/book/show/8491860-gaza-in-crisis",
+      "description": "Noam Chomsky and Ilan Pappé analyse the brutal blockade and repeated military assaults on Gaza as central elements of Israeli policy."
     }
   ]
 }

@@ -128,19 +128,14 @@
   },
   "reading": [
     {
-      "title": "A River of Swords: The Battle for the Sudan",
-      "url": "https://www.goodreads.com/book/show/256312",
-      "description": "A historical narrative of Sudan's long wars, clan politics and geopolitical contestation."
-    },
-    {
       "title": "Darfur: The Ambiguous Genocide",
-      "url": "https://www.goodreads.com/book/show/256311",
-      "description": "Gérard Prunier's account of the Darfur genocide, the roots of rebellion and the international response."
+      "url": "https://www.goodreads.com/book/show/256311.Darfur",
+      "description": "Gérard Prunier's analysis of the Darfur genocide, its roots in state marginalisation, and the role of proxy militias like the Janjaweed (RSF precursors)."
     },
     {
-      "title": "Sudan, South Sudan and Darfur: A Short History",
-      "url": "https://www.goodreads.com/book/show/256313",
-      "description": "An accessible overview of the historical, political, and ethnic factors that have shaped Sudan's conflicts."
+      "title": "Sudan's Unfinished Democracy",
+      "url": "https://www.goodreads.com/book/show/60792763-sudan-s-unfinished-democracy",
+      "description": "Edited by Berridge, de Waal & Lynch. Critical essays analysing the 2019 revolution and the military-economic forces driving the counter-revolution."
     }
   ]
 }

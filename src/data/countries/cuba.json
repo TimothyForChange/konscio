@@ -1,0 +1,128 @@
+{
+  "$schema": "../../schemas/json/country-data.schema.json",
+  "name": "Cuba",
+  "emoji": "🇨🇺",
+  "ariaLabel": "Cuban flag",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "Cuba faces a severe and protracted economic crisis, primarily driven by the six-decade-long unilateral economic blockade imposed by the United States. This comprehensive regime of sanctions constitutes the longest-lasting act of economic warfare in modern history, deliberately strangling the island's economy and inflicting immense hardship on its population.\n\nThe blockade severely restricts Cuba's ability to trade, access finance, import essential goods (including food, medicine, and fuel), and develop its economy. This external coercion has caused chronic shortages, crippled public services, and fuelled emigration. While internal economic challenges exist, they are inseparable from the profound structural constraints imposed by the US embargo, which functions as a form of collective punishment designed to force political change.",
+  "imperialRoot": {
+    "imperialPower": "Spain (1492-1898), US (1898-present)",
+    "legacy": "Cuba's history is marked by centuries of colonial and imperial domination. Spanish rule established a plantation economy based on slavery and resource extraction. Following Cuba's independence struggle against Spain, the US intervened in 1898, effectively transforming the island into a neo-colony.\n\nThe Platt Amendment (1901) enshrined the US right to intervene in Cuban affairs, and US corporations came to dominate the economy, particularly the sugar industry. This created a dependent, unequal society governed by US-backed dictators like Fulgencio Batista. The 1959 revolution was a direct rejection of this century of US domination, leading immediately to hostile US efforts to overthrow the new government and impose the economic blockade that continues to this day."
+  },
+  "historicalContext": [
+    {
+      "title": "The US Blockade: Economic Warfare",
+      "description": "Implemented formally in 1962, the US blockade (often misleadingly called an 'embargo') is a vast web of financial and trade restrictions designed to suffocate the Cuban economy. It prohibits most transactions, penalises third-country companies trading with Cuba (extraterritoriality), blocks access to international financial institutions, and impedes the import of food, medicine, and technology. Intensified by laws like Helms-Burton (1996) and further tightened under recent administrations, the blockade is explicitly aimed at causing suffering to compel regime change, a clear violation of Cuban sovereignty and international law."
+    },
+    {
+      "title": "Impact on Health and Food Security",
+      "description": "The blockade has devastating consequences for public health and food security. Restrictions prevent Cuba from acquiring life-saving medicines, medical equipment, and technologies, even from third countries, leading to preventable suffering and death. Similarly, limitations on food imports and agricultural inputs severely impact food availability and affordability, contributing to nutritional challenges. These impacts constitute a clear violation of the human rights of the Cuban people."
+    },
+    {
+      "title": "Post-Soviet 'Special Period' and Neoliberal Pressure",
+      "description": "The collapse of the Soviet Union in 1991 plunged Cuba into a severe economic crisis known as the 'Special Period', as its primary trading partner disappeared. Instead of lifting the blockade to alleviate suffering, the US deliberately intensified it (Helms-Burton Act), aiming to deliver a final blow. This period highlighted Cuba's vulnerability, created by both its reliance on the Soviet bloc and the ongoing US economic warfare designed to prevent diversified development."
+    },
+    {
+      "title": "International Law And Accountability",
+      "description": "The US blockade against Cuba is overwhelmingly condemned by the international community. Every year, the UN General Assembly votes almost unanimously to demand its end, citing violations of the UN Charter, international law, and the principle of sovereign equality. The blockade's extraterritorial nature (punishing third countries) is a particularly egregious breach of international norms. Despite this global consensus, the US maintains the blockade due to entrenched domestic political interests and its long-standing imperial objective of controlling Cuba."
+    }
+  ],
+  "humanitarianImpact": [
+    {
+      "title": "Access to Medicine",
+      "description": "Chronic shortages of essential medicines and medical equipment **caused by blockade restrictions**, leading to increased suffering and mortality from treatable conditions."
+    },
+    {
+      "title": "Food Insecurity",
+      "description": "Significant challenges in accessing affordable food due to **blockade-imposed limits on imports and financial transactions.**"
+    },
+    {
+      "title": "Economic Hardship",
+      "description": "Widespread poverty and low wages resulting from the **blockade strangling economic development and preventing trade/investment.**"
+    },
+    {
+      "title": "Migration Crisis",
+      "description": "Large-scale emigration driven by the **economic desperation and lack of opportunity directly created by the US blockade.**"
+    },
+    {
+      "title": "Infrastructure Decay",
+      "description": "Difficulties maintaining critical infrastructure (energy, transport) due to **blockade preventing access to parts, technology, and finance.**"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1492-1898",
+      "event": "**Spanish Colonial Rule**: Following Columbus's arrival, Spain colonises Cuba, establishing a brutal plantation economy based on Indigenous genocide, imported African slave labour, and the extraction of sugar and tobacco wealth for the Spanish Crown."
+    },
+    {
+      "year": "1895-1898",
+      "event": "**Cuban War of Independence**: Cuban revolutionaries wage a final, brutal war against Spanish colonial rule, seeking full independence before US intervention alters the conflict's outcome."
+    },
+    {
+      "year": "1898",
+      "event": "**US Intervention & Neo-Colony**: The US intervenes in Cuba's war of independence, seizing control from Spain and establishing a neo-colonial relationship codified by the Platt Amendment (1901)."
+    },
+    {
+      "year": "1952-1959",
+      "event": "**Batista Dictatorship**: US-backed dictator Fulgencio Batista rules, enriching elites and foreign corporations while brutally suppressing dissent."
+    },
+    {
+      "year": "1959",
+      "event": "**Cuban Revolution**: Fidel Castro's revolutionary movement overthrows Batista, initiating radical social reforms and challenging US dominance."
+    },
+    {
+      "year": "1961",
+      "event": "**Bay of Pigs Invasion**: A CIA-organised invasion by Cuban exiles attempts to overthrow the revolutionary government but is decisively defeated."
+    },
+    {
+      "year": "1962",
+      "event": "**US Blockade Imposed**: The US imposes a comprehensive economic blockade designed to cripple the Cuban economy and force regime change."
+    },
+    {
+      "year": "1991-c.2000",
+      "event": "**Special Period**: The collapse of the Soviet Union triggers a severe economic crisis in Cuba, exacerbated by the US tightening the blockade (Helms-Burton Act, 1996)."
+    },
+    {
+      "year": "2017-Present",
+      "event": "**Blockade Intensification**: The Trump administration designates Cuba a 'State Sponsor of Terrorism' and imposes hundreds of new sanctions, measures largely maintained by the Biden administration, severely worsening the economic crisis."
+    }
+  ],
+  "takeAction": {
+    "donate": [
+      {
+        "organisation": "ACERE (Alliance for Cuba Engagement and Respect)",
+        "description": "Coalition advocating for an end to the US blockade and promoting respectful engagement with Cuba (Advocacy/Info, not direct aid).",
+        "url": "https://acere.org"
+      },
+      {
+        "organisation": "Give2Cuba",
+        "description": "Facilitates direct humanitarian aid and remittances to individuals and families in Cuba, bypassing government structures.",
+        "url": "https://www.give2cuba.com"
+      }
+    ],
+    "advocacy": [
+      "Demand the immediate and unconditional lifting of the US economic blockade against Cuba.",
+      "Call for Cuba's removal from the US list of 'State Sponsors of Terrorism,' a politically motivated designation.",
+      "Oppose all forms of US interference in Cuba's internal affairs and support Cuban sovereignty.",
+      "Support campaigns for unrestricted travel and cultural exchange between the US and Cuba.",
+      "Amplify the near-unanimous global condemnation of the blockade at the UN General Assembly."
+    ]
+  },
+  "reading": [
+    {
+      "title": "Open Veins of Latin America: Five Centuries of the Pillage of a Continent",
+      "url": "https://www.goodreads.com/book/show/187149.Open_Veins_of_Latin_America",
+      "description": "Eduardo Galeano's essential history of colonial and imperialist exploitation in Latin America, providing vital context."
+    },
+    {
+      "title": "Cuba and the U.S. Empire: A Chronological History",
+      "url": "https://www.goodreads.com/book/show/29381983-cuba-and-the-u-s-empire",
+      "description": "Jane Franklin provides a detailed chronology of US aggression and intervention against Cuba since the revolution."
+    },
+    {
+      "title": "Che Guevara: A Revolutionary Life",
+      "url": "https://www.goodreads.com/book/show/10836.Che_Guevara",
+      "description": "Jon Lee Anderson's definitive biography offers deep insight into the Cuban Revolution and its key figures."
+    }
+  ]
+}
