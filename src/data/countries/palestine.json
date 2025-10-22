@@ -4,7 +4,7 @@
   "emoji": "🇵🇸",
   "ariaLabel": "Palestinian flag",
   "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "An acute, intensifying humanitarian catastrophe across occupied Palestine — especially the Gaza Strip — characterised by mass displacement, widespread civilian death, the effective collapse of public services, and crisis levels of food insecurity and disease.\n\nThe International Court of Justice has found that claims of genocide in Gaza are plausible and ordered provisional measures; concurrent efforts at the International Criminal Court and other accountability mechanisms are ongoing. The immediate violence and structural deprivation are sustained and amplified by geopolitical, military and economic support from Western powers — principally the United States — which provide Israel with large-scale military assistance and diplomatic cover.\n\nThese dynamics occur within a longer pattern of settler colonialism, dispossession and legal-political structures that restrict Palestinian self-determination.",
+  "currentCrisisSummary": "An acute, intensifying humanitarian catastrophe across occupied Palestine — especially the Gaza Strip — characterised by mass displacement, widespread civilian death, the effective collapse of public services, and crisis levels of food insecurity and disease.\n\nThe ICJ has found that claims of genocide in Gaza are plausible and ordered provisional measures; concurrent efforts at the ICC and other accountability mechanisms are ongoing. The immediate violence and structural deprivation are sustained and amplified by geopolitical, military and economic support from Western powers — principally the United States — which provide Israel with large-scale military assistance and diplomatic cover.\n\nThese dynamics occur within a longer pattern of settler colonialism, dispossession and legal-political structures that restrict Palestinian self-determination.",
   "imperialRoot": {
     "imperialPower": "Britain (1920-1948)",
     "legacy": "The contemporary crisis is rooted in policies enacted under the British Mandate. The 1917 Balfour Declaration endorsed the establishment in Palestine of a 'national home for the Jewish people' while promising to protect the civil and religious rights of non-Jewish communities — a contradiction that Britain did not resolve in practice.\n\nMandate-era land, immigration and policing policies facilitated the growth of Zionist settlement and undermined the political rights and territorial integrity of the indigenous Arab majority. Britain's suppression of Palestinian political movements and its withdrawal in 1948 preceded the war and the Nakba, during which some 700,000-750,000 Palestinians were made refugees.\n\nThe refugee crisis, dispossession of land, and the institutional precedents set under the Mandate shaped the political and demographic contours of the conflict and continue to inform the structures of occupation and exclusion today."
@@ -24,7 +24,7 @@
     },
     {
       "title": "International Law And Accountability",
-      "description": "Since October 2023 multiple international legal processes have been activated. The International Court of Justice case brought by South Africa resulted in provisional measures after the Court found that allegations of genocide in Gaza were plausible. The ICC has open preliminary examinations and investigations relating to alleged war crimes. National courts, UN fact-finding missions and independent rights bodies have also documented potential violations of international humanitarian and human rights law.\n\nThese mechanisms are contested politically and their outcomes remain uncertain, but they represent formal avenues of accountability and a record of documented abuses that organisations, victims and states continue to use in advocacy and legal strategies."
+      "description": "Since October 2023 multiple international legal processes have been activated. The ICJ case brought by South Africa resulted in provisional measures after the Court found that allegations of genocide in Gaza were plausible. The ICC has open preliminary examinations and investigations relating to alleged war crimes. National courts, UN fact-finding missions and independent rights bodies have also documented potential violations of international humanitarian and human rights law.\n\nThese mechanisms are contested politically and their outcomes remain uncertain, but they represent formal avenues of accountability and a record of documented abuses that organisations, victims and states continue to use in advocacy and legal strategies."
     }
   ],
   "humanitarianImpact": [
@@ -92,11 +92,11 @@
     },
     {
       "year": "2023",
-      "event": "**October 7th**: After 16 years of an Israeli blockade, Hamas leads an attack on Israel; Israel launches a massive assault on Gaza in response. The International Court of Justice has since ruled that claims of genocide in Gaza are plausible."
+      "event": "**October 7th**: After 16 years of an Israeli blockade, Hamas leads an attack on Israel; Israel launches a massive assault on Gaza in response. The ICJ has since ruled that claims of genocide in Gaza are plausible."
     },
     {
       "year": "2024",
-      "event": "**International Court of Justice Plausible Genocide Ruling**: The International Court of Justice rules that claims of genocide in Gaza are plausible, ordering provisional measures against Israel."
+      "event": "**ICJ Plausible Genocide Ruling**: The ICJ rules that claims of genocide in Gaza are plausible, ordering provisional measures against Israel."
     },
     {
       "year": "2025",
@@ -135,7 +135,7 @@
       "Support the non-violent Boycott, Divestment, Sanctions (BDS) movement to pressure Israel to comply with international law.",
       "Advocate for an end to military aid and arms sales to Israel that are used in violation of international law.",
       "Demand targeted sanctions on Israeli officials and entities responsible for war crimes, apartheid, and illegal settlements.",
-      "Support the genocide case against Israel at the International Court of Justice and war crimes investigations at the ICC."
+      "Support the genocide case against Israel at the ICJ and war crimes investigations at the ICC."
     ]
   },
   "reading": [
