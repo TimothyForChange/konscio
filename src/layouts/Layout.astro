@@ -199,6 +199,33 @@ const ldJson = JSON.stringify(ldObject, undefined, 2);
             }
           });
         }
+
+        const isTouchDevice =
+          'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+        if (isTouchDevice) {
+          const tooltipSpans = document.querySelectorAll('span[data-tooltip]');
+
+          const hideAllTooltips = () => {
+            tooltipSpans.forEach((span) =>
+              span.classList.remove('show-tooltip')
+            );
+          };
+
+          tooltipSpans.forEach((span) => {
+            span.addEventListener('touchstart', (event) => {
+              event.preventDefault();
+              hideAllTooltips();
+              span.classList.toggle('show-tooltip');
+            });
+          });
+
+          document.addEventListener('touchstart', (event) => {
+            if (!event.target.closest('span[data-tooltip]')) {
+              hideAllTooltips();
+            }
+          });
+        }
       });
     </script>
   </body>

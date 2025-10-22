@@ -1,3 +1,7 @@
+/* ==========================================================================
+   CSS Variables & Theming
+   ========================================================================== */
+
 :root {
   --bg: #f5f0e8;
   --bg-alt: #ede3d3;
@@ -108,6 +112,10 @@
   }
 }
 
+/* ==========================================================================
+   Font Faces
+   ========================================================================== */
+
 @font-face {
   font-family: 'Inter Variable';
   font-style: normal;
@@ -121,11 +129,9 @@
     U+2215, U+FEFF, U+FFFD;
 }
 
-@media (min-width: 1024px) {
-  :root {
-    --scrollbar-size: 12px;
-  }
-}
+/* ==========================================================================
+   Base Elements & Typography
+   ========================================================================== */
 
 html {
   font-family:
@@ -150,6 +156,32 @@ body {
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: pretty;
+}
+
+p {
+  margin-bottom: 1rem;
+  text-wrap: pretty;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+li {
+  text-wrap: pretty;
+}
+
+/* ==========================================================================
+   Layout & Structure
+   ========================================================================== */
+
 .page-wrapper {
   display: flex;
   justify-content: center;
@@ -166,6 +198,10 @@ body {
   min-height: 100vh;
 }
 
+/* ==========================================================================
+   Links & Focus States
+   ========================================================================== */
+
 a {
   color: var(--accent-primary);
   text-decoration: underline;
@@ -174,11 +210,6 @@ a {
 
 a:visited {
   color: var(--accent-secondary);
-}
-
-a:focus-visible {
-  outline: 3px solid var(--focus-ring);
-  outline-offset: 2px;
 }
 
 a:focus-visible,
@@ -193,28 +224,6 @@ textarea:focus-visible,
   box-shadow: 0 0 0 3px var(--focus-ring-soft);
 }
 
-p {
-  margin-bottom: 1rem;
-  text-wrap: pretty;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-wrap: pretty;
-}
-
-li {
-  text-wrap: pretty;
-}
-
 .focus-strong:focus-visible {
   outline: 2px solid var(--focus-ring);
   outline-offset: 2px;
@@ -223,6 +232,10 @@ li {
   color: var(--on-accent);
   border-color: var(--accent-primary);
 }
+
+/* ==========================================================================
+   Scrollbars
+   ========================================================================== */
 
 html::-webkit-scrollbar {
   width: var(--scrollbar-size);
@@ -256,17 +269,9 @@ html::-webkit-scrollbar-corner {
   background: var(--scrollbar-corner-bg);
 }
 
-@media (min-width: 768px) {
-  .page-wrapper {
-    padding: 0 20px;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html::-webkit-scrollbar-thumb {
-    transition: none;
-  }
-}
+/* ==========================================================================
+   Components & Utilities
+   ========================================================================== */
 
 .skip-link {
   position: absolute;
@@ -316,13 +321,6 @@ html::-webkit-scrollbar-corner {
   font-size: var(--font-size-xl);
 }
 
-@media (min-width: 768px) {
-  :root {
-    --section-gap: 2.25rem;
-    --heading-gap: 1.125rem;
-  }
-}
-
 .section {
   margin-bottom: var(--section-gap);
 }
@@ -344,7 +342,10 @@ html::-webkit-scrollbar-corner {
   margin-top: var(--heading-gap);
 }
 
-/* Tooltip styles */
+/* ==========================================================================
+   Interactive Elements
+   ========================================================================== */
+
 span[data-tooltip] {
   cursor: help;
   text-decoration-style: dotted;
@@ -355,30 +356,8 @@ span[data-tooltip] {
   position: relative;
 }
 
-span[data-tooltip]:hover::after {
-  content: attr(data-tooltip);
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--bg-surface);
-  color: var(--text-primary);
-  padding: var(--card-padding-sm);
-  border-radius: var(--card-radius);
-  white-space: pre-wrap;
-  max-width: 400px;
-  min-width: 200px;
-  z-index: 10;
-  box-shadow: var(--shadow-md);
-  border: var(--card-border);
-  font-size: var(--font-size-sm);
-  font-weight: normal;
-  text-decoration: none;
-  pointer-events: none;
-  margin-top: 4px;
-  text-align: left;
-}
-
+span[data-tooltip]:hover::after,
+span[data-tooltip].show-tooltip::after,
 span[data-tooltip]:focus::after {
   content: attr(data-tooltip);
   position: absolute;
@@ -401,4 +380,33 @@ span[data-tooltip]:focus::after {
   pointer-events: none;
   margin-top: 4px;
   text-align: left;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media (min-width: 768px) {
+  .page-wrapper {
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --scrollbar-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  :root {
+    --section-gap: 2.25rem;
+    --heading-gap: 1.125rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html::-webkit-scrollbar-thumb {
+    transition: none;
+  }
 }
