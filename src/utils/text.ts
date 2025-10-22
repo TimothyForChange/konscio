@@ -28,6 +28,7 @@ function injectTooltips(text: string): string {
     start: number;
     end: number;
     def: string;
+    key: string;
   }> = [];
 
   for (const entry of tooltipEntries) {
@@ -38,30 +39,40 @@ function injectTooltips(text: string): string {
         start: match.index,
         end: match.index + match[0].length,
         def: entry.def,
+        key: entry.key,
       });
     }
   }
 
-  matches.sort((a, b) => {
+  const firstMatches = new Map<string, (typeof matches)[0]>();
+  for (const match of matches) {
+    if (!firstMatches.has(match.key)) {
+      firstMatches.set(match.key, match);
+    }
+  }
+
+  const filteredMatches = Array.from(firstMatches.values());
+
+  filteredMatches.sort((a, b) => {
     if (a.start !== b.start) {
       return b.start - a.start;
     }
     return b.matchedText.length - a.matchedText.length;
   });
 
-  const filteredMatches: typeof matches = [];
-  for (const match of matches) {
-    const overlaps = filteredMatches.some(
+  const nonOverlappingMatches: typeof matches = [];
+  for (const match of filteredMatches) {
+    const overlaps = nonOverlappingMatches.some(
       (existing) => match.start < existing.end && match.end > existing.start
     );
     if (!overlaps) {
-      filteredMatches.push(match);
+      nonOverlappingMatches.push(match);
     }
   }
 
   let result = text;
   const replacements: Array<{ placeholder: string; span: string }> = [];
-  for (const match of filteredMatches) {
+  for (const match of nonOverlappingMatches) {
     const placeholder = `__TOOLTIP_${replacements.length}__`;
     replacements.push({
       placeholder,
