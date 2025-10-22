@@ -11,10 +11,9 @@
   --accent-primary: #8b6914;
   --accent-secondary: #6b5213;
   --accent-tertiary: #a67c00;
-  --on-accent: #f5f0e8;
-  --text-primary: #2d1b06;
-  --text-secondary: #483a28;
-  --text-muted: #5c4a35;
+  --on-accent: #ffffff;
+  --text-secondary: #3a2818;
+  --text-muted: #2a1e0f;
   --focus-ring: #8b6914;
   --focus-ring-soft: rgb(139 105 20 / 35%);
   --scrollbar-size: 10px;

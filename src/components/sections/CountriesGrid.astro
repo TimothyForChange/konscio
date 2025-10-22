@@ -109,66 +109,10 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
     margin: 0;
   }
 
-  .country-card {
-    display: block;
-    text-decoration: none;
-    transition: var(--card-transition);
-    box-sizing: border-box;
-    box-shadow: var(--shadow-sm);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .country-card:hover {
-    background: var(--bg-alt);
-    border-color: var(--accent-primary);
-    transform: var(--hover-transform);
-    box-shadow: var(--hover-shadow);
-  }
-
-  .country-card:active {
-    transform: var(--active-transform);
-    box-shadow: var(--active-shadow);
-    transition:
-      transform 0.08s cubic-bezier(0.4, 0, 0.2, 1),
-      box-shadow 0.08s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .country-flag {
-    font-size: 1.5rem;
-    flex-shrink: 0;
-  }
-
-  .country-info {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-xs);
-    min-width: 0;
-    flex-grow: 1;
-  }
-
-  .country-name {
-    font-weight: var(--font-weight-bold);
-    color: var(--text-primary);
-    font-size: var(--font-size-base);
-  }
-
-  .country-description {
-    font-size: var(--font-size-sm);
-    color: var(--text-secondary);
-    line-height: 1.3;
-  }
-
   @media (min-width: 768px) {
     .countries-grid {
       grid-template-columns: repeat(2, 1fr);
       gap: var(--gap);
-    }
-
-    .country-card .country-card-inner {
-      height: 100%;
-      padding: var(--card-padding);
     }
 
     .causes-heading {
@@ -182,12 +126,5 @@ const allCategories = [DEFAULT_CATEGORY, ...categories];
 
   .category-panel[hidden] {
     display: none;
-  }
-
-  @media (hover: none) and (pointer: coarse) {
-    .country-card:active {
-      transform: scale(0.98);
-      transition: transform 0.1s ease;
-    }
   }
 </style>

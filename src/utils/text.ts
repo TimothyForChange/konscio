@@ -18,11 +18,27 @@ const tooltipEntries = Object.keys(tooltips)
 
 /**
  * Injects tooltips into text by wrapping matching words/phrases with data-tooltip spans.
+ * Skips text inside ** ** (bold markdown).
  *
  * @param text - The HTML text to process.
  * @returns The text with tooltips injected.
  */
 function injectTooltips(text: string): string {
+  const parts = text.split(/\*\*/);
+  const processedParts = parts.map((part, index) => {
+    if (index % 2 === 0) {
+      return injectTooltipsToPlainText(part);
+    } else {
+      return part;
+    }
+  });
+  return processedParts.join('**');
+}
+
+/**
+ * Injects tooltips into plain text (no markdown).
+ */
+function injectTooltipsToPlainText(text: string): string {
   const matches: Array<{
     matchedText: string;
     start: number;
@@ -98,8 +114,12 @@ function injectTooltips(text: string): string {
  */
 export function formatText(text: string): string {
   const escaped = escapeHtml(text);
-  const bolded = escaped.replaceAll(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-  return injectTooltips(bolded);
+  const withTooltips = injectTooltips(escaped);
+  const bolded = withTooltips.replaceAll(
+    /\*\*(.*?)\*\*/g,
+    '<strong>$1</strong>'
+  );
+  return bolded;
 }
 
 /**
