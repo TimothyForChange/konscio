@@ -3,8 +3,8 @@
   "name": "Cameroon",
   "emoji": "🇨🇲",
   "ariaLabel": "Cameroonian flag",
-  "lastUpdated": "2025-10-20",
-  "currentCrisisSummary": "Cameroon is contending with multiple, severe crises rooted in the violent and unresolved legacies of its colonial construction. The most acute is the armed conflict in the Anglophone Northwest and Southwest regions, where state repression of protests against political and cultural marginalisation has escalated into a brutal war of secession.\n\nThis conflict is the direct result of a hyper-centralised, authoritarian state model—inherited from French colonial rule—that has systematically dismantled the autonomy and identity of the Anglophone minority. In the Far North, the state's long-term neglect has created fertile ground for the insurgency of groups like Boko Haram. Both crises are sustained by a political economy of elite enrichment, where the country's vast oil, timber, and agricultural wealth is extracted for the benefit of a long-ruling clique and its foreign corporate partners, while regional grievances are managed with violence rather than political solutions.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "Cameroon endures multiple severe crises rooted in the **violent legacies of its colonial construction**. The most acute is the armed conflict in the Anglophone regions, where **state repression** against demands for political and cultural rights has escalated into a brutal war. This conflict is the direct result of a **hyper-centralised, authoritarian state model—inherited from French colonial rule**—that has systematically dismantled Anglophone autonomy.\n\nIn the Far North, **state neglect** fuels insurgency. Both crises are sustained by a **political economy of elite enrichment** and **foreign corporate extraction** (oil, timber), where wealth concentration and violent management of grievances perpetuate widespread suffering and displacement.",
   "colonialRoot": {
     "colonialPower": "Germany (1884-1916), partitioned by France & Britain (1916-1961)",
     "legacy": "Cameroon's contemporary fractures were engineered by its partition after WWI. Germany's initial colony was divided, with the vast majority handed to France and a smaller sliver to Britain. The two territories were administered under fundamentally different colonial philosophies: French assimilation and direct, centralised rule versus British indirect rule and administrative autonomy.\n\nAt independence, the 1961 'reunification' was not a merger of equals but an absorption of the smaller, Anglophone territory into the dominant Francophone state. The federal structure promised as a guarantee of minority rights was quickly abolished. This foundational act of centralisation imposed a foreign legal, educational, and political system on the Anglophone population, creating a dynamic of internal colonialism that has defined the nation's politics and ultimately led to war."
@@ -20,7 +20,7 @@
     },
     {
       "title": "Neoliberal Austerity and Structural Adjustment",
-      "description": "Following an economic crisis in the late 1980s, Cameroon was forced to adopt Structural Adjustment Programmes mandated by the IMF and World Bank. These neoliberal policies enforced severe austerity, including mass public sector layoffs, privatisation of state assets, and deep cuts to social services. The Structural Adjustment Programmes hollowed out the state, worsened inequality, and devastated the livelihoods of ordinary citizens, particularly the Anglophone professional class. This economic shock created the widespread grievance and desperation that formed the backdrop to the political explosion of 2016."
+      "description": "Following an economic crisis in the late 1980s, Cameroon was forced to adopt Structural Adjustment Programmes mandated by the IMF and World Bank. These neoliberal policies enforced severe austerity, including mass public sector layoffs, privatisation of state assets, and deep cuts to social services. The SAPs hollowed out the state, worsened inequality, and devastated the livelihoods of ordinary citizens, particularly the Anglophone professional class. This economic shock created the widespread grievance and desperation that formed the backdrop to the political explosion of 2016."
     },
     {
       "title": "Resource Extraction and Elite Enrichment",
@@ -34,31 +34,31 @@
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "An estimated 6,000 civilians have been killed in the Anglophone crisis since 2017."
+      "description": "An estimated 6,000 civilians killed in the Anglophone crisis since 2017, victims of **indiscriminate violence by state forces and armed groups.**"
     },
     {
-      "title": "Affected",
-      "description": "Over 4.7 million people across Cameroon require humanitarian assistance."
+      "title": "Affected Population",
+      "description": "Over 4.7 million people require aid due to the **breakdown of services and livelihoods caused by conflict and state neglect.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "An estimated 2.6 million people face high levels of acute food insecurity, concentrated in the conflict-affected regions."
+      "description": "An estimated 2.6 million people face acute hunger, primarily in regions **destabilised by conflict and long-term economic marginalisation.**"
     },
     {
-      "title": "Displaced",
-      "description": "Over 712,000 people are internally displaced due to the Anglophone crisis, with an additional 340,000 displaced by conflict in the Far North."
+      "title": "Displacement",
+      "description": "Over 1 million internally displaced (**712,000 from Anglophone crisis, 340,000 from Far North**), forcibly uprooted by **state violence, armed group attacks, and lack of protection.**"
     },
     {
       "title": "Refugees",
-      "description": "More than 87,000 people from the Anglophone regions have been forced to flee as refugees, primarily to Nigeria."
+      "description": "More than 87,000 Anglophones forced into refuge (mainly Nigeria) by the **state's violent repression and the ensuing conflict.**"
     },
     {
-      "title": "Health System Collapsed",
-      "description": "In the Anglophone regions, some 80% of health facilities are non-functional or only partially functional due to attacks and insecurity."
+      "title": "Healthcare Collapse",
+      "description": "Around 80% of health facilities in Anglophone regions are non-functional due to **direct attacks and pervasive insecurity.**"
     },
     {
-      "title": "Children Out of School",
-      "description": "More than 600,000 children have had their education disrupted in the Anglophone regions due to attacks on schools and enforced boycotts."
+      "title": "Education Disrupted",
+      "description": "Over 600,000 children denied education in Anglophone regions due to **attacks on schools and boycotts enforced amid the conflict.**"
     }
   ],
   "timeline": [
@@ -100,7 +100,7 @@
     },
     {
       "year": "2017-Present",
-      "event": "**Descent into War**: The state's crackdown catalyses the formation of armed separatist groups. The escalating conflict becomes a full-blown civil war, causing a devastating humanitarian crisis."
+      "event": "**Descent into War**: The state's brutal crackdown catalyses the formation of armed separatist groups. The escalating conflict becomes a full-blown civil war, inflicting devastating harm on civilians."
     }
   ],
   "takeAction": {

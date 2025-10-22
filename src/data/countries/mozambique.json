@@ -3,8 +3,8 @@
   "name": "Mozambique",
   "emoji": "🇲🇿",
   "ariaLabel": "Mozambican flag",
-  "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "Mozambique is facing a violent insurgency in its northern Cabo Delgado province, a conflict driven by the 'resource curse' and decades of state neglect. The discovery of one of Africa's largest natural gas reserves has attracted billions in foreign investment but has catastrophically failed the local population, who face displacement and see no economic benefit.\n\nThis deep-seated grievance has fuelled an uprising that the state, with its history of corruption and centralisation, is unable to contain. The conflict has become internationalised, with the involvement of regional troops (from Rwanda and SADC) and private military contractors hired to protect the multi-billion dollar gas projects. It is a crisis rooted in a predatory economic model, where the state collaborates with multinational corporations to extract wealth, treating its own citizens as obstacles and creating the very conditions for violent rebellion.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "Mozambique confronts a violent insurgency in its northern Cabo Delgado province, a conflict directly driven by the **'resource curse'** and **decades of state neglect rooted in colonial underdevelopment**. The discovery of massive natural gas reserves attracted billions in foreign investment but brought **no benefit to the local population**, instead fuelling **displacement, dispossession, and deep-seated grievances**.\n\nThis fertile ground for rebellion is exploited by an insurgency the **corrupt, centralised state** cannot contain. The conflict is internationalised, involving regional troops and private mercenaries hired to protect **multi-billion dollar gas projects**. It exemplifies a crisis born from a **predatory economic model**: state collaboration with multinational corporations to extract wealth, treating citizens as obstacles and **structurally producing the conditions for violent uprising and widespread suffering**.",
   "colonialRoot": {
     "colonialPower": "Portugal (c. 1505-1975)",
     "legacy": "Portugal's colonial rule in Mozambique was one of the most brutal and underdeveloped in Africa. The economy was built on a system of forced labour (chibalo) for plantations and mines, land was expropriated for Portuguese settlers, and there was virtually no investment in education or healthcare for the African majority. The colonial state was purely an instrument of extraction and violent control.\n\nThis legacy meant that at independence, Mozambique was left impoverished, with no skilled administrators, and a society deeply scarred by systemic violence. The long and bloody war of liberation against Portugal, led by FRELIMO, further entrenched a militarised political culture. This was compounded by a final, deliberate act of economic sabotage. As over 200,000 Portuguese settlers fled between 1974-1975, they engaged in a scorched-earth withdrawal: taking their capital, destroying industrial and farm machinery, and slaughtering livestock. This campaign was designed to cripple the new state from its inception, ensuring independence began in a state of near-total economic collapse."
@@ -29,32 +29,32 @@
   ],
   "humanitarianImpact": [
     {
-      "title": "Displaced",
-      "description": "Over 784,000 people have been internally displaced by the conflict in northern Mozambique."
+      "title": "Displacement",
+      "description": "Over 784,000 people internally displaced, forcibly uprooted by the **violence stemming from the gas insurgency and state counter-insurgency.**"
     },
     {
       "title": "Refugees",
-      "description": "The conflict has primarily caused internal displacement, though thousands have sought asylum in neighbouring Tanzania under difficult conditions."
+      "description": "Thousands forced into precarious asylum in Tanzania by the **conflict dynamics**, though most displacement remains internal."
     },
     {
       "title": "Casualties",
-      "description": "Thousands of civilians have been killed since the insurgency began in 2017."
+      "description": "Thousands of civilians killed since 2017, victims of the **brutal conflict driven by resource wealth and historical neglect.**"
     },
     {
-      "title": "Affected",
-      "description": "An estimated 1.5 million people in Cabo Delgado, Niassa, and Nampula provinces require urgent humanitarian assistance and protection."
+      "title": "Affected Population",
+      "description": "An estimated 1.5 million people require urgent aid due to the **breakdown of society and services caused by the resource-fuelled war.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "More than 900,000 people in the region face high levels of acute food insecurity."
+      "description": "Over 900,000 face acute hunger as the **conflict disrupts agriculture and access in historically marginalised northern regions.**"
     },
     {
-      "title": "Health System Collapsed",
-      "description": "The conflict has destroyed over 100 health facilities, leaving displaced populations with minimal access to medical care."
+      "title": "Healthcare Collapse",
+      "description": "Over 100 health facilities destroyed, leaving populations vulnerable due to **direct attacks and the state's failure to protect infrastructure.**"
     },
     {
-      "title": "Children Out of School",
-      "description": "Hundreds of thousands of children have had their education disrupted, with many schools destroyed or closed due to insecurity."
+      "title": "Education Disrupted",
+      "description": "Hundreds of thousands of children denied education as schools are destroyed or closed by **insecurity linked to the gas conflict.**"
     }
   ],
   "timeline": [
@@ -101,6 +101,11 @@
   ],
   "takeAction": {
     "donate": [
+      {
+        "organisation": "Centro de Integridade Pública (CIP)",
+        "description": "A leading Mozambican civil society organisation that promotes transparency, good governance, and fights corruption, particularly in the extractive industries.",
+        "url": "https://cipmoz.org"
+      },
       {
         "organisation": "UNHCR (The UN Refugee Agency)",
         "description": "UNHCR provides life-saving protection, shelter, and emergency supplies to hundreds of thousands of people displaced by the conflict and climate shocks in Mozambique.",

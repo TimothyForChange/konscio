@@ -3,8 +3,8 @@
   "name": "South Sudan",
   "emoji": "🇸🇸",
   "ariaLabel": "South Sudanese flag",
-  "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "South Sudan is in the grip of a severe, multi-dimensional humanitarian emergency driven by elite competition over oil revenues, recurrent climate-driven flooding, and regional spillover from Sudan's war.\n\nA political economy of corruption and elite capture turns the state into a battlefield over oil rents, while climate extremes — notably catastrophic floods — have destroyed harvests and settlements, multiplying displacement and food insecurity. The conflict dynamics accelerated after 2013 have produced high mortality and enduring protection crises; renewed political tensions in 2025 risk reversing fragile gains in peace and humanitarian access.\n\nThe immediate needs are enormous: humanitarian planning for 2025 identifies millions in need of assistance, while the country hosts and produces one of Africa's largest refugee and displacement crises. Durable solutions require ending the impunity of predatory elites, ensuring accountability for abuses, and redirecting oil revenues and international finance toward locally led recovery and climate resilience.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "South Sudan suffers a severe humanitarian emergency driven by **elite competition over oil revenues**, recurrent **climate catastrophe** (flooding), and spillover from Sudan's war. The state, **designed through a flawed neoliberal peace process**, functions as a battlefield for oil rents, facilitated by a **complicit global financial system**.\n\nSimultaneously, **climate extremes destroy livelihoods**, multiplying displacement and hunger. The **post-2013 conflict dynamics**, rooted in this **predatory political economy**, inflict high mortality and protection crises. Renewed tensions threaten fragile gains.\n\nThe human cost is immense, representing one of Africa's largest displacement crises. Durable solutions require dismantling **elite impunity**, ensuring accountability, and redirecting **oil wealth and international finance (currently enabling kleptocracy)** toward **locally-led recovery and climate resilience**.",
   "colonialRoot": {
     "colonialPower": "Britain & Egypt (1899-1956)",
     "legacy": "British colonial administration pursued a 'Southern Policy' that governed the south separately from the north, entrenching political and economic divisions. This divide-and-rule approach limited investment in southern institutions and left a legacy of structural marginalisation that contributed to subsequent insurgency and weak governance.\n\nThe administrative boundaries, uneven development and externally mediated leadership formations created conditions that later made the territory vulnerable to elite predation and resource-capture after independence."
@@ -30,31 +30,31 @@
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Nearly 400,000 excess deaths attributable to the conflict since 2013."
+      "description": "Nearly 400,000 excess deaths since 2013, victims of **violence directly resulting from the elite struggle over oil wealth.**"
     },
     {
-      "title": "Affected",
-      "description": "Roughly 9.4 million people in need of assistance (approximately two-thirds of the population)."
+      "title": "Affected Population",
+      "description": "Roughly 9.4 million people (two-thirds of population) require aid due to the **state's failure, engendered by the flawed peace deal and elite predation.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "Large population faces severe food insecurity driven by flooding, displacement and market disruption."
+      "description": "Massive population faces severe hunger driven by **conflict disrupting markets, climate-induced flooding destroying harvests, and state neglect.**"
     },
     {
-      "title": "Displaced",
-      "description": "Approximately 2.1 million people internally displaced within South Sudan, with combined displacement burden over 4 million including refugees and returnees."
+      "title": "Displacement",
+      "description": "Over 4 million displaced (internal and refugees combined), forcibly uprooted by **violence linked to oil control and catastrophic climate events.**"
     },
     {
       "title": "Refugees",
-      "description": "More than 2.3 million South Sudanese are refugees or asylum-seekers, one of Africa's largest refugee situations."
+      "description": "Over 2.3 million refugees forced into neighbouring countries by **chronic conflict and the lack of protection inherent in a kleptocratic state.**"
     },
     {
-      "title": "Children Out of School",
-      "description": "Millions of children out of school due to conflict and displacement."
+      "title": "Education Denied",
+      "description": "Millions of children denied education as schools are destroyed or abandoned due to **conflict and the state's failure to invest oil revenues in public services.**"
     },
     {
-      "title": "Living in Poverty",
-      "description": "A majority of households face extreme poverty and food shortages."
+      "title": "Extreme Poverty",
+      "description": "Majority face extreme poverty and hunger, a direct outcome of **oil wealth being systematically looted by elites enabled by global finance.**"
     }
   ],
   "timeline": [

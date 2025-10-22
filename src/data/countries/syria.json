@@ -3,8 +3,8 @@
   "name": "Syria",
   "emoji": "🇸🇾",
   "ariaLabel": "Syrian flag",
-  "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "Following the sudden collapse of the Assad regime in December 2024, Syria has entered a fragile and uncertain transitional period. The country remains a shattered state, enduring one of the most severe humanitarian crises in the world. A transitional government is grappling with establishing authority over a territory still fractured by various armed factions and occupied by foreign powers, including Turkey, the United States, and Russia.\n\nThe initial popular uprising for dignity and democracy in 2011 was systematically transformed into an internationalised proxy war. Competing regional and global powers exploited the conflict to pursue their own geopolitical agendas, fuelling the violence, prolonging the suffering, and ultimately causing the collapse of the state and society. Today, millions are displaced, the economy and infrastructure are in ruins, and the vast majority of the population depends on humanitarian aid to survive, leaving the country vulnerable to a new phase of economic coercion under the guise of internationally-led reconstruction.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "Following the sudden collapse of the Assad regime in Dec 2024, Syria enters a fragile transition, remaining a **shattered state** enduring **catastrophic human suffering deliberately inflicted** through years of war. A transitional government grapples with authority over a territory fractured by armed factions and **occupied by foreign powers** (Turkey, US, Russia).\n\nThe 2011 popular uprising was **systematically transformed into an internationalised proxy war** by competing regional and global powers pursuing their geopolitical agendas. This **external interference fuelled the violence**, prolonged the suffering, and **caused the collapse of state and society**. Millions are displaced, infrastructure is ruined, and most Syrians depend on aid, leaving the country vulnerable to **new forms of economic coercion masked as reconstruction**.",
   "imperialRoot": {
     "imperialPower": "France (1923-1946), USSR/Russia & US (Cold War – present)",
     "legacy": "The modern Syrian state is a direct product of imperial design. The 1916 Sykes-Picot Agreement between Britain and France carved up the Ottoman Empire, and the subsequent French Mandate created Syria's artificial borders. France implemented classic 'divide-and-rule' tactics, exacerbating sectarian tensions by favouring certain minority groups, particularly the Alawites, in the colonial military and administration. This policy deliberately fragmented national identity and laid the structural foundations for the sectarian dimensions of the later conflict.\n\nDuring the Cold War, Syria became a key client state of the Soviet Union, positioning it as a frontline in the regional rivalry with the US and its allies. This entrenched an authoritarian, security-dominated state structure and deepened its geopolitical isolation from Western powers, setting the stage for the intense foreign interventions that followed the 2011 uprising."
@@ -26,31 +26,31 @@
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "At least 300,000 civilians have been killed in the conflict, with total deaths estimated to be well over half a million."
+      "description": "Over half a million estimated deaths (at least 300k civilians), victims of **indiscriminate bombing, sieges, and atrocities committed by all sides in the proxy war.**"
     },
     {
-      "title": "Affected",
-      "description": "An estimated 16.7 million people inside Syria require humanitarian assistance to meet their basic needs."
+      "title": "Affected Population",
+      "description": "An estimated 16.7 million people require aid, suffering the consequences of **state collapse engineered by war and foreign interference.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "An estimated 12.9 million people are food insecure, with millions facing acute hunger."
+      "description": "An estimated 12.9 million endure food insecurity, driven by **war destroying agriculture and sanctions crippling the economy.**"
     },
     {
-      "title": "Displaced",
-      "description": "Over 7.2 million people are internally displaced, many having been forced to flee multiple times."
+      "title": "Displacement",
+      "description": "Over 7.2 million internally displaced, many multiple times, forcibly uprooted by **bombardment and ground offensives conducted by the regime and foreign powers.**"
     },
     {
-      "title": "Refugees",
-      "description": "Over 6.8 million Syrians are refugees and asylum-seekers, constituting the largest refugee population in the world."
+      "title": "Refugee Crisis",
+      "description": "Over 6.8 million refugees (world's largest), driven abroad by **extreme violence resulting from the internationalised conflict.**"
     },
     {
-      "title": "Children Out of School",
-      "description": "Over 2.4 million school-aged children inside Syria are out of school, with the education system decimated."
+      "title": "Education System Decimated",
+      "description": "Over 2.4 million children denied education as schools were **destroyed by bombing or rendered unsafe by the conflict.**"
     },
     {
-      "title": "Living in Poverty",
-      "description": "Over 90% of the population lives below the poverty line, facing extreme economic hardship."
+      "title": "Extreme Poverty",
+      "description": "Over 90% live below the poverty line due to the **war's destruction of the economy, compounded by crippling unilateral sanctions.**"
     }
   ],
   "timeline": [

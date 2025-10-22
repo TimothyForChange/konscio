@@ -3,8 +3,8 @@
   "name": "Haiti",
   "emoji": "🇭🇹",
   "ariaLabel": "Haitian flag",
-  "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "Haiti is experiencing a severe, multi-dimensional humanitarian and governance collapse driven by decades of foreign intervention, economic extraction and chronic elite capture.\n\nA near-total collapse of state functions has allowed heavily armed gangs — often with ties to political and economic elites — to seize control of large parts of Port-au-Prince and other urban centres, imposing extortion, mass violence and mass displacement. Humanitarian access is constrained by insecurity, blockades and attacks on health and aid infrastructure, producing acute food insecurity, rising mortality and a rapidly expanding population of internally displaced people.\n\nAn internationally backed, Kenyan-led Multinational Security Support mission has deployed to assist the Haitian National Police, but the mission remains heavily understaffed and constrained by funding, logistics and contested legitimacy. The crisis is rooted in a long history of colonial expropriation, odious debt and intrusive foreign policy, and is compounded by years of policy choices that undermined local agriculture, public services and sovereign development.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "Haiti endures a **catastrophic collapse of governance and society**, directly driven by centuries of **foreign intervention, economic extraction, and elite impunity**. A near-total implosion of state functions allows armed gangs—often linked to elites—to control vast areas, imposing **extortion, mass violence, and displacement**. Humanitarian access is blocked by insecurity, producing acute hunger and rising mortality.\n\nAn internationally backed, Kenyan-led mission deployed to assist police faces constraints and contested legitimacy. The crisis is rooted in **colonial expropriation, odious debt enforced by France, repeated US occupations, and neoliberal policies** that deliberately undermined Haitian agriculture and sovereignty, leaving the population in a state of extreme vulnerability.",
   "colonialRoot": {
     "colonialPower": "France (1697-1804)",
     "legacy": "Haiti's modern fragility traces back to the international reaction to the Haitian Revolution. The world's first Black republic was diplomatically isolated, economically pressured and forced to buy recognition.\n\nIn 1825 France imposed an indemnity on Haiti to 'compensate' former slaveholders. Financed through foreign loans and paid over generations, the indemnity drained the new state's resources and entrenched dependency — a formative example of how post-colonial debt has been used to perpetuate extraction and limit sovereign development."
@@ -34,35 +34,35 @@
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Over 5,600 people killed in 2024, with gang violence escalating significantly."
+      "description": "Over 5,600 killed in 2024 alone, victims of **escalating gang violence fuelled by elite impunity and state collapse.**"
     },
     {
-      "title": "Affected",
-      "description": "Approximately 6 million people (roughly half the population) require humanitarian assistance."
+      "title": "Affected Population",
+      "description": "Approximately 6 million people require aid to survive the **consequences of political instability and economic devastation imposed by external actors and local elites.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "Roughly 5.7 million people face high levels of acute food insecurity."
+      "description": "Roughly 5.7 million face acute hunger, a direct result of **neoliberal policies destroying local agriculture and current gang blockades.**"
     },
     {
-      "title": "Displaced",
-      "description": "More than 1.3 million people internally displaced (a record high), driven by gang violence and attacks."
+      "title": "Displacement",
+      "description": "Over 1.3 million internally displaced (a record high), **driven from homes by gang terror enabled by state failure.**"
     },
     {
       "title": "Refugees",
-      "description": "Hundreds of thousands of Haitians have fled the country, with more facing deportation."
+      "description": "Hundreds of thousands forced to flee the country by **violence and economic desperation rooted in foreign interference**, often facing deportation."
     },
     {
-      "title": "Health System Collapsed",
-      "description": "Many health facilities non-functional due to attacks and staff flight."
+      "title": "Healthcare Collapse",
+      "description": "Many health facilities non-functional due to **direct attacks and the general breakdown of public services caused by chronic underfunding and instability.**"
     },
     {
       "title": "Lack of Water Access",
-      "description": "Millions lack access to safe drinking water and sanitation."
+      "description": "Millions lack safe drinking water and sanitation because of the **disintegration of infrastructure resulting from historical debt burdens and state incapacity.**"
     },
     {
-      "title": "Children Out of School",
-      "description": "Hundreds of thousands of children out of school due to insecurity and displacement."
+      "title": "Education Disrupted",
+      "description": "Hundreds of thousands of children denied education due to **pervasive insecurity and the collapse of the state's ability to provide basic services.**"
     }
   ],
   "timeline": [
@@ -104,7 +104,7 @@
     },
     {
       "year": "2024-2025",
-      "event": "**Gang Siege and International Mission**: Violent gang campaigns seize large parts of Port-au-Prince, triggering mass displacement and a humanitarian emergency. A Kenyan-led, UN-backed Multinational Security Support mission has deployed to assist the Haitian National Police but is constrained by limited troop contributions, logistics and contested legitimacy."
+      "event": "**Gang Siege and International Mission**: Violent gang campaigns seize large parts of Port-au-Prince, triggering mass displacement and extreme suffering. A Kenyan-led, UN-backed mission deploys amidst controversy over its mandate and legitimacy."
     }
   ],
   "takeAction": {

@@ -3,8 +3,8 @@
   "name": "Palestine",
   "emoji": "🇵🇸",
   "ariaLabel": "Palestinian flag",
-  "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "An acute, intensifying humanitarian catastrophe across occupied Palestine — especially the Gaza Strip — characterised by mass displacement, widespread civilian death, the effective collapse of public services, and crisis levels of food insecurity and disease.\n\nThe ICJ has found that claims of genocide in Gaza are plausible and ordered provisional measures; concurrent efforts at the ICC and other accountability mechanisms are ongoing. The immediate violence and structural deprivation are sustained and amplified by geopolitical, military and economic support from Western powers — principally the United States — which provide Israel with large-scale military assistance and diplomatic cover.\n\nThese dynamics occur within a longer pattern of settler colonialism, dispossession and legal-political structures that restrict Palestinian self-determination.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "Occupied Palestine, especially Gaza, endures an **intensifying catastrophe inflicted by Israeli settler colonialism and occupation**. This includes mass displacement, widespread civilian death, the **systematic destruction of public services**, and **crisis levels of starvation and disease deliberately induced** through siege and bombardment.\n\nThe ICJ found claims of **genocide in Gaza plausible**; accountability efforts continue at the ICC. This **extreme violence and structural deprivation** are enabled by **unwavering military, economic, and diplomatic support from Western powers**, particularly the US, shielding Israel from consequences.\n\nThese dynamics represent the current phase of a **century-long process of settler colonialism, ethnic cleansing (Nakba), and apartheid** designed to dispossess Palestinians and deny self-determination.",
   "imperialRoot": {
     "imperialPower": "Britain (1920-1948)",
     "legacy": "The contemporary crisis is rooted in policies enacted under the British Mandate. The 1917 Balfour Declaration endorsed the establishment in Palestine of a 'national home for the Jewish people' while promising to protect the civil and religious rights of non-Jewish communities — a contradiction that Britain did not resolve in practice.\n\nMandate-era land, immigration and policing policies facilitated the growth of Zionist settlement and undermined the political rights and territorial integrity of the indigenous Arab majority. Britain's suppression of Palestinian political movements and its withdrawal in 1948 preceded the war and the Nakba, during which some 700,000-750,000 Palestinians were made refugees.\n\nThe refugee crisis, dispossession of land, and the institutional precedents set under the Mandate shaped the political and demographic contours of the conflict and continue to inform the structures of occupation and exclusion today."
@@ -30,35 +30,35 @@
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "An estimated 67,000 people killed in Gaza since October 2023."
+      "description": "Estimated 67,000+ killed in Gaza since Oct 2023 by **Israeli military assaults**, part of a plausible genocide."
     },
     {
-      "title": "Affected",
-      "description": "Gaza's entire population of 2.3 million faces catastrophic humanitarian crisis."
+      "title": "Affected Population",
+      "description": "Gaza's entire population (2.3M) faces **catastrophe deliberately inflicted through bombardment and siege.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "Entire Gaza population faces crisis-level food insecurity with over 1 million facing catastrophic hunger."
+      "description": "The entire Gaza population suffers crisis-level hunger (over 1M catastrophic), **engineered through Israel's blockade and destruction of food systems.**"
     },
     {
-      "title": "Displaced",
-      "description": "Over 1.9 million internally displaced in Gaza (nearly 90% of the population)."
+      "title": "Displacement",
+      "description": "Over 1.9M internally displaced in Gaza (nearly 90%), forcibly uprooted by **Israeli military operations and evacuation orders, constituting ethnic cleansing.**"
     },
     {
       "title": "Refugees",
-      "description": "5.9 million registered Palestinian refugees rely on UNRWA for essential services."
+      "description": "5.9M registered Palestinian refugees denied their right of return, reliant on UNRWA – a direct legacy of the **1948 Nakba (ethnic cleansing).**"
     },
     {
-      "title": "Health System Collapsed",
-      "description": "Healthcare system in Gaza systematically dismantled with most hospitals non-functional."
+      "title": "Healthcare Collapse",
+      "description": "Gaza's healthcare system **systematically dismantled by Israeli attacks**, leaving most hospitals non-functional amidst mass casualties."
     },
     {
       "title": "Lack of Water Access",
-      "description": "Over 95% of Gaza's water contaminated and unfit for human consumption."
+      "description": "Over 95% of Gaza's water is unfit for consumption due to **Israeli infrastructural destruction and restrictions on essential supplies.**"
     },
     {
-      "title": "Children Out of School",
-      "description": "Over 625,000 school children in Gaza have no access to education."
+      "title": "Education Denied",
+      "description": "Over 625,000 children in Gaza denied education as schools are **destroyed by Israeli bombardment or used as shelters.**"
     }
   ],
   "timeline": [

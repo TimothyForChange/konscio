@@ -3,8 +3,8 @@
   "name": "Yemen",
   "emoji": "🇾🇪",
   "ariaLabel": "Yemeni flag",
-  "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "Yemen is enduring one of the world's most severe humanitarian crises, driven by a protracted war over control of the state and its strategic position on a key global trade route. The conflict, involving a Saudi-led coalition and Iran-aligned forces in the north, has been sustained in many areas by blockades, sieges and repeated attacks on infrastructure.\n\nThe violence and restrictions on trade and aid have devastated the economy, wrecked public services and produced catastrophic hunger and disease. Large-scale diversion and politicisation of aid in some areas have further reduced humanitarian access and increased civilian suffering. The crisis is sustained by international arms flows, regional rivalries and global economic interests that place strategic and commercial gains above civilian protection.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "Yemen endures one of the world's most severe humanitarian catastrophes, **directly caused by a protracted proxy war** over state control and its **strategic position on a key global trade route**. The conflict, involving a Saudi-led coalition (backed by Western arms) and Iran-aligned forces, has been waged through **blockades, sieges, and attacks on infrastructure**, deliberately crippling the nation.\n\nThis violence and **externally imposed restrictions** have devastated the economy, wrecked public services, and **produced catastrophic hunger and disease**. Aid diversion further exacerbates civilian suffering. The crisis is **actively sustained by international arms flows, regional rivalries, and global economic interests** prioritising strategic gain over human life.",
   "imperialRoot": {
     "imperialPower": "Britain & Ottoman Empire (Aden 1839-1967; Ottoman presence in the north until 1918)",
     "legacy": "The crisis draws on deep colonial-era divisions. British control of Aden and the south, alongside Ottoman administration in the north, produced two distinct political and administrative legacies. Britain's patchwork of protectorates and indirect rule in the south hindered political unity and left a governance vacuum on withdrawal.\n\nThese colonial partitions, combined with later Cold War geopolitics and international economic policies, helped create fault-lines that were later exploited by domestic elites and foreign powers, contributing to repeated cycles of conflict and external intervention."
@@ -30,35 +30,35 @@
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Total deaths attributable to the war estimated at roughly 377,000 by end of 2021."
+      "description": "Hundreds of thousands killed (est. 377k by late 2021) directly by **fighting or indirectly through conflict-induced starvation and disease.**"
     },
     {
-      "title": "Affected",
-      "description": "Roughly 19.5 million people in need of humanitarian assistance and protection."
+      "title": "Affected Population",
+      "description": "Roughly 19.5 million people require aid due to the **systematic destruction of the country by the warring parties and their international backers.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "More than 17 million people face crisis-level or worse acute food insecurity."
+      "description": "Over 17 million face acute hunger, a direct result of **blockades, attacks on agriculture, and economic collapse caused by the war.**"
     },
     {
-      "title": "Displaced",
-      "description": "Around 4.5 million people internally displaced by conflict, floods and economic collapse."
+      "title": "Displacement",
+      "description": "Around 4.5 million internally displaced, forced from homes by **bombing campaigns, ground fighting, and climate shocks exacerbated by state failure.**"
     },
     {
       "title": "Refugees",
-      "description": "Tens of thousands of Yemenis are registered refugees or asylum-seekers abroad."
+      "description": "Tens of thousands forced abroad by the **extreme violence and lack of basic survival conditions created by the conflict.**"
     },
     {
-      "title": "Health System Collapsed",
-      "description": "Roughly half of health facilities non-functional or partially functional with acute shortages."
+      "title": "Healthcare Collapse",
+      "description": "Roughly half of health facilities non-functional due to **direct attacks, lack of supplies caused by blockades, and general infrastructure collapse.**"
     },
     {
       "title": "Lack of Water Access",
-      "description": "Over 15 million people lack access to safe drinking water and sanitation."
+      "description": "Over 15 million lack safe water and sanitation due to **infrastructure destruction and import restrictions imposed by warring parties.**"
     },
     {
-      "title": "Children Out of School",
-      "description": "More than 2 million children out of school due to infrastructure damage and displacement."
+      "title": "Education Denied",
+      "description": "Over 2 million children denied education as schools are **damaged by attacks or rendered inaccessible by displacement and conflict.**"
     }
   ],
   "timeline": [

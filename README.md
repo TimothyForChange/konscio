@@ -1,6 +1,6 @@
 # 🌍 Timothy for Change
 
-Humanitarian advocacy site built with Astro.
+Advocacy site analysing structural violence built with Astro.
 
 ## Requirements
 
@@ -8,7 +8,7 @@ This project requires Node.js version 24.x or 25.x and npm version 11.6.2 or hig
 
 ## Overview
 
-A platform for critical humanitarian analysis, exploring the historical and economic roots of crises across the Global South.
+A platform analysing structural violence, exploring the historical and economic roots of crises across the Global South.
 
 ## Fact Checking & Localisation 🔍
 

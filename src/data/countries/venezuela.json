@@ -3,8 +3,8 @@
   "name": "Venezuela",
   "emoji": "🇻🇪",
   "ariaLabel": "Venezuelan flag",
-  "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "Venezuela is experiencing a protracted and severe humanitarian crisis, driven by a deep economic collapse and hyperinflation. This has led to the breakdown of public services, acute shortages of food, medicine and basic goods, and one of the largest mass displacement events in the world.\n\nThe crisis is not solely the result of internal policy, but has been deliberately and significantly intensified by a years-long 'maximum pressure' campaign of unilateral economic sanctions, primarily imposed by the United States. These measures, which include an embargo on the crucial oil sector and the freezing of billions in state assets held overseas, have crippled the country's main source of revenue, isolated it from global financial markets, and severely impeded its capacity to import essential goods. The result is a form of economic coercion that has had a devastating and measurable impact on the civilian population.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "Venezuela endures a **protracted humanitarian catastrophe directly inflicted by US-led economic warfare**. A deep economic collapse and hyperinflation, **deliberately intensified by years of unilateral sanctions**, have caused the breakdown of public services, acute shortages of essentials (food, medicine), and **one of the world's largest mass displacement events**.\n\nThe 'maximum pressure' campaign, including an **oil embargo and asset freezes**, crippled state revenue, isolated Venezuela financially, and blocked essential imports. This **economic coercion functions as collective punishment**, causing **devastating and measurable harm** to the civilian population, reversing social gains, and deepening poverty.",
   "imperialRoot": {
     "imperialPower": "Spain (16th c. - 19th c.), US (20th c. - present)",
     "legacy": "The roots of Venezuela's contemporary vulnerability lie in its historical integration into global systems as a resource-exporting periphery. The Spanish Empire established an extractive colonial economy that created deep inequalities and a reliance on primary commodity exports. After independence, this structure was repurposed rather than dismantled.\n\nIn the 20th century, the United States and its corporations came to dominate Venezuela's burgeoning oil industry, shaping the nation into a quintessential petro-state dependent on oil revenues and US markets. This arrangement, enforced through political and economic influence in line with the Monroe Doctrine, enriched foreign capital and a small domestic elite but prevented diversified, sovereign economic development. The Bolivarian Revolution's attempts since 1999 to assert national control over resources were met with sustained hostility from the US, including support for a failed coup in 2002, laying the groundwork for the later escalation of economic warfare."
@@ -25,32 +25,32 @@
   ],
   "humanitarianImpact": [
     {
-      "title": "Casualties",
-      "description": "Multiple independent studies estimate tens of thousands of excess civilian deaths since 2017 are attributable to the severe impact of economic sanctions on access to food, medicine, and healthcare."
+      "title": "Excess Deaths",
+      "description": "Tens of thousands of excess civilian deaths estimated since 2017, **directly attributable to the impact of sanctions** restricting access to food, medicine, and healthcare."
     },
     {
-      "title": "Affected",
-      "description": "An estimated 19 million people inside the country require some form of humanitarian assistance."
+      "title": "Affected Population",
+      "description": "An estimated 19 million people require aid due to the **economic devastation inflicted by the US blockade.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "An estimated 15.5 million people are food insecure, with high rates of child malnutrition."
+      "description": "An estimated 15.5 million suffer food insecurity (high child malnutrition), **caused by sanctions destroying purchasing power and blocking imports.**"
     },
     {
-      "title": "Displaced",
-      "description": "Internal displacement is significant due to violence, loss of livelihoods, and lack of services, though precise figures are difficult to ascertain due to monitoring challenges."
+      "title": "Displacement (Internal)",
+      "description": "Significant internal displacement driven by **economic collapse and lack of services resulting from sanctions.** (Precise figures difficult to obtain)."
     },
     {
-      "title": "Refugees",
-      "description": "Over 7.7 million refugees and migrants have left Venezuela, creating one of the largest external displacement crises in the world."
+      "title": "Refugee Crisis",
+      "description": "Over 7.7 million refugees and migrants forced abroad by the **economic catastrophe engineered by the sanctions regime.**"
     },
     {
-      "title": "Health System Collapsed",
-      "description": "The health system has collapsed due to lack of resources, leading to a resurgence of preventable diseases and a crisis in maternal and child health."
+      "title": "Healthcare Collapse",
+      "description": "Health system collapsed due to **sanctions blocking resources**, leading to resurgent diseases and crises in maternal/child health."
     },
     {
-      "title": "Living in Poverty",
-      "description": "Extreme poverty has surged, with some estimates indicating it affects over 80% of the population."
+      "title": "Extreme Poverty",
+      "description": "Extreme poverty surged (est. >80% pop.) as **sanctions dismantled the economy and destroyed livelihoods.**"
     }
   ],
   "timeline": [

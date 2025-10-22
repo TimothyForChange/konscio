@@ -4,7 +4,7 @@
   "emoji": "🇲🇲",
   "ariaLabel": "Myanmar flag",
   "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "Myanmar faces multiple, overlapping catastrophes: a nationwide civil war against the military junta that seized power in 2021, and the ongoing persecution and genocide of the Rohingya minority. The post-coup conflict pits a broad revolutionary movement against the Tatmadaw (military), which employs extreme brutality against civilians nationwide.\n\nThis widespread violence follows the 2017 genocidal campaign against the Rohingya, which resulted in mass killings, systematic rape, and the forced expulsion of nearly a million people to Bangladesh, where they remain stateless refugees. The state's long history of denying Rohingya citizenship, combined with colonial-era 'divide and rule' tactics, laid the groundwork for this ethnic cleansing. The post-coup war and the Rohingya crisis together have created one of the world's largest displacement situations and a severe, multi-faceted humanitarian emergency, exacerbated by geopolitical indifference and impunity for the military regime.",
+  "currentCrisisSummary": "Myanmar suffers multiple, overlapping catastrophes inflicted by its **military state**: a nationwide civil war against the junta that seized power in 2021, and the **ongoing genocide and persecution of the Rohingya minority**. The post-coup conflict pits a broad revolutionary movement against the Tatmadaw (military), which employs **extreme brutality against civilians** nationwide.\n\nThis widespread violence follows the **2017 genocidal campaign against the Rohingya**, involving mass killings, systematic rape, and the forced expulsion of nearly a million people to Bangladesh, where they remain stateless refugees. The state's long history of **denying Rohingya citizenship**, a direct result of **colonial-era 'divide and rule' tactics** and post-colonial nationalism, laid the groundwork for this ethnic cleansing. The post-coup war and the Rohingya crisis create mass displacement and **severe, multi-faceted human suffering**, exacerbated by **geopolitical indifference and impunity** for the military regime.",
   "colonialRoot": {
     "colonialPower": "Britain (1824-1948)",
     "legacy": "British colonial policy created the fissures that define Myanmar's modern conflicts. Through 'divide and rule', Britain administered the Bamar lowlands separately from ethnic 'Frontier Areas', institutionalised ethnic identities, and used minorities in the colonial army, deepening divisions. Crucially, the British encouraged labour migration from Bengal into Arakan (Rakhine), including many Rohingya. After independence, the new state's nationalist project framed the Rohingya as 'illegal Bengali migrants', weaponising colonial-era resentments and British administrative legacies to deny their identity and ultimately render them stateless. This colonial architecture of ethnic hierarchy and division was inherited and ruthlessly exploited by the post-colonial military."
@@ -41,36 +41,36 @@
   ],
   "humanitarianImpact": [
     {
-      "title": "Displaced (Post-Coup)",
-      "description": "Over 3 million people internally displaced since the 2021 coup, fleeing air strikes and military attacks."
+      "title": "Displacement (Post-Coup)",
+      "description": "Over 3 million people internally displaced since 2021, forced to flee **junta air strikes and ground assaults.**"
     },
     {
       "title": "Refugees (Rohingya)",
-      "description": "Nearly 1 million Rohingya refugees remain in overcrowded camps in Bangladesh after fleeing the 2017 genocide, denied citizenship and unable to return safely."
+      "description": "Nearly 1 million Rohingya confined to camps in Bangladesh after fleeing the **2017 genocide**, still **denied citizenship and safe return by the Myanmar state.**"
     },
     {
       "title": "Refugees (Post-Coup)",
-      "description": "Hundreds of thousands have fled to neighbouring Thailand and India since the 2021 coup."
+      "description": "Hundreds of thousands forced into neighbouring Thailand and India by the **junta's post-coup terror campaign.**"
     },
     {
       "title": "Casualties (Rohingya Genocide)",
-      "description": "An estimated 24,000 Rohingya were killed during the 2017 military operations, with thousands subjected to sexual violence."
+      "description": "Est. 24,000 Rohingya killed during the **military's 2017 genocidal operations**, with thousands subjected to sexual violence."
     },
     {
       "title": "Casualties (Post-Coup)",
-      "description": "At least 6,300 civilians killed by the junta since 2021 (actual number likely far higher). Total conflict deaths are in the tens of thousands."
+      "description": "Thousands of civilians killed directly by the junta since 2021, with total deaths far higher due to **conflict-driven collapse of health and livelihoods.**"
     },
     {
-      "title": "Affected (Total)",
-      "description": "An estimated 18.6 million people—one-third of the population—require humanitarian assistance."
+      "title": "Affected Population (Total)",
+      "description": "An estimated 18.6 million people require aid due to the **nationwide devastation caused by military rule, civil war, and economic collapse.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "Around 12.9 million people face acute food insecurity due to conflict and economic collapse."
+      "description": "Around 12.9 million face acute hunger resulting from **conflict disrupting supply chains and the junta's weaponisation of aid.**"
     },
     {
-      "title": "Health System Collapsed",
-      "description": "The health system has collapsed, targeted by the junta with hundreds of attacks on hospitals and medical staff."
+      "title": "Healthcare Collapse",
+      "description": "The health system has collapsed, **systematically targeted by the junta** with hundreds of attacks on hospitals and medical staff."
     }
   ],
   "timeline": [

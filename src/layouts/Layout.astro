@@ -5,6 +5,8 @@ import '../styles/global.css';
 import { sift } from 'radash';
 import Footer from '../components/layout/Footer.astro';
 import countriesList from '../data/mapping/countries.ts';
+import missionData from '../data/mission.json';
+import { validateMission } from '../validators/mission';
 import 'remixicon/fonts/remixicon.css';
 
 export interface Properties {
@@ -27,10 +29,12 @@ const {
   image,
 } = Astro.props as Properties;
 
+const mission = validateMission(missionData);
+
 const countryNames = Array.isArray(countriesList)
   ? sift(countriesList.map((c) => c.name)).join(', ')
   : '';
-const defaultDescription = `Timothy for Change - A platform for critical humanitarian analysis. Learn about ongoing conflicts and humanitarian issues in ${countryNames}.`;
+const defaultDescription = `Timothy for Change - ${mission.mission}. Learn about ongoing conflicts and structural violence in ${countryNames}.`;
 
 function trimDescription(desc: string, max = 160) {
   if (!desc) {
@@ -58,13 +62,13 @@ const baseLdObject = {
       name: 'Timothy Brits',
       alternateName: 'Timothy',
       url: 'https://timothyforchange.co.za',
-      jobTitle: 'Humanitarian Advocate',
+      jobTitle: 'Analyst of Structural Violence',
       address: {
         '@type': 'PostalAddress',
         addressLocality: 'Pretoria',
         addressCountry: 'ZA',
       },
-      knowsAbout: ['Humanitarian Awareness', 'Global Crises'],
+      knowsAbout: ['Structural Violence Analysis', 'Global Crises'],
       sameAs: [
         'https://github.com/TimothyForChange',
         'https://instagram.com/timothyforchange/',
@@ -76,8 +80,7 @@ const baseLdObject = {
       '@id': 'https://timothyforchange.co.za/#website',
       url: 'https://timothyforchange.co.za',
       name: 'Timothy for Change',
-      description:
-        'Timothy for Change - A platform for critical humanitarian analysis',
+      description: `Timothy for Change - ${mission.mission}`,
       publisher: {
         '@id': 'https://timothyforchange.co.za/#person',
       },

@@ -3,8 +3,8 @@
   "name": "Somalia",
   "emoji": "🇸🇴",
   "ariaLabel": "Somali flag",
-  "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "Somalia faces a convergence of severe, interlocking crises: a protracted civil war, an entrenched al-Shabaab insurgency, and repeated climate-driven droughts and floods that have devastated livelihoods.\n\nThese dynamics — amplified by geopolitical competition, external military interventions and extractive practices such as illegal fishing and contested resource claims — have produced a long-term humanitarian emergency. Millions are displaced, public services are fragile or non-functional in many areas, and food and nutrition emergencies recur with alarming frequency.\n\nHumanitarian response is repeatedly undermined by access constraints, funding shortfalls and insecurity. A Somali-led political solution, protection of civilian space, and large-scale, locally accountable humanitarian and climate adaptation support are essential to prevent repeated cycles of famine and displacement.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "Somalia endures **converging structural crises**: protracted civil war stemming from **state collapse induced by Cold War legacies and neoliberal policies**; an entrenched al-Shabaab insurgency born from **failed 'War on Terror' interventions**; and **climate catastrophe** (droughts, floods) devastating livelihoods.\n\nThese dynamics—amplified by **geopolitical competition, external military interference, and predatory extraction** (illegal fishing, resource claims)—**produce chronic, widespread suffering**. Millions are displaced, public services have disintegrated, and **mass hunger recurs frequently**.\n\nAid efforts are hindered by insecurity and access constraints. Preventing repeated cycles of famine and displacement requires **Somali-led political solutions**, civilian protection, and large-scale, locally accountable **climate adaptation support alongside reparations for ecological damage**.",
   "colonialRoot": {
     "colonialPower": "Britain & Italy (c. 1880s-1960)",
     "legacy": "The crisis is rooted in the colonial partitioning of Somali-inhabited lands during the Scramble for Africa. Britain, Italy (and France in neighbouring territories) divided a culturally and linguistically cohesive people into separate political entities and imposed artificial borders that disrupted traditional economic and social systems.\n\nThe rushed post-colonial merger of former British and Italian territories in 1960 left a state with unresolved territorial, clan and governance tensions, a fragility that was later compounded by Cold War geopolitics and frequent external interventions."
@@ -34,35 +34,35 @@
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Conflict-related deaths periodically reach hundreds of thousands; 2011 famine alone caused around 258,000 excess deaths."
+      "description": "Hundreds of thousands killed by **direct conflict and recurring famines (e.g., ~258k excess deaths in 2011)** driven by war, state collapse, and climate shocks."
     },
     {
-      "title": "Affected",
-      "description": "Roughly 7 million people in need of humanitarian assistance."
+      "title": "Affected Population",
+      "description": "Roughly 7 million people require aid due to the **compounded devastation of war, climate catastrophe, and economic predation.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "About 4.4 million people face high levels of acute food insecurity, with 1.7 million children at risk of acute malnutrition."
+      "description": "About 4.4 million face acute hunger (1.7M children malnourished), a direct result of **conflict disrupting farming, climate change causing crop failure, and economic collapse.**"
     },
     {
-      "title": "Displaced",
-      "description": "About 3.5 million people internally displaced by conflict and climate shocks."
+      "title": "Displacement",
+      "description": "About 3.5 million internally displaced, forced from homes by **internecine conflict and extreme weather events linked to global warming.**"
     },
     {
       "title": "Refugees",
-      "description": "Approximately 714,000 Somali refugees and asylum-seekers in neighbouring countries."
+      "description": "Approximately 714,000 refugees driven into neighbouring countries by **chronic violence and lack of basic survival means.**"
     },
     {
-      "title": "Health System Collapsed",
-      "description": "Public health system severely weakened with recurrent disease outbreaks and medicine shortages."
+      "title": "Healthcare Collapse",
+      "description": "Public health system decimated by **decades of conflict and state failure**, leading to recurrent disease outbreaks."
     },
     {
       "title": "Lack of Water Access",
-      "description": "More than half the population lacks access to safe drinking water and sanitation."
+      "description": "Over half the population lacks safe water due to **infrastructure destruction and state incapacity resulting from collapse and austerity.**"
     },
     {
-      "title": "Children Out of School",
-      "description": "An estimated 3 million children out of school due to conflict and displacement."
+      "title": "Education Denied",
+      "description": "An estimated 3 million children denied education by **conflict destroying schools and displacing families.**"
     }
   ],
   "timeline": [

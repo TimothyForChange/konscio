@@ -3,8 +3,8 @@
   "name": "Sudan",
   "emoji": "🇸🇩",
   "ariaLabel": "Sudanese flag",
-  "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "Sudan is engulfed in a brutal civil war between two factions of the military elite — the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) militia — which has unleashed the world's largest displacement crisis and one of the worst hunger emergencies in modern memory.\n\nThe conflict has triggered mass famine, widespread atrocities and a renewed campaign of ethnic cleansing, notably in Darfur. El Fasher and other Darfuri cities are under siege and cut off from aid. The warring factions compete not only for territory but for control of economic rails like gold, land, agriculture and external patronage. The resulting humanitarian collapse has overwhelmed Sudan's people and the region.\n\nInternational humanitarian agencies warn that the crisis is worsening, with acute food insecurity affecting a vast portion of the population, collapsing health systems, and increasingly obstructed access to civilians. The war is not isolated; it is sustained by external actors, transnational flows of arms and resources, and weak enforcement of international norms.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "Sudan is engulfed in a brutal civil war between two **predatory military factions** (SAF & RSF), unleashing the **world's largest displacement crisis** and **mass famine**. The conflict has triggered widespread atrocities and renewed **ethnic cleansing in Darfur**, a region historically marginalised since the **colonial era**.\n\nThe warring elites compete for control of **economic spoils** (gold, land, external patronage), inflicting a **catastrophic humanitarian collapse**. International agencies warn of worsening conditions, with **acute hunger affecting millions**, collapsing health systems, and **deliberate obstruction of aid**. This war is not merely internal; it is **actively sustained by external actors (like the UAE)**, transnational arms flows, and the **failure of international systems** to enforce accountability or halt the violence.",
   "colonialRoot": {
     "colonialPower": "Britain & Egypt (1899-1956)",
     "legacy": "British colonial governance in Sudan employed a classic divide-and-rule strategy, concentrating power in the 'Arab' riverine north while marginalising peripheral regions like Darfur and Kordofan. This structural inequality institutionalised regional grievance and set the groundwork for recurring rebellions and civil wars.\n\nBy privileging the centre and denying development to the margins, colonial rule created a centralised, extractive state whose control over resources and institutions became the prize of military competition post-independence."
@@ -26,39 +26,39 @@
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Tens of thousands dead from direct combat and many more from starvation and disease."
+      "description": "Tens of thousands killed in direct combat; far more dying from **starvation and disease caused by the warring parties' blockades and destruction.**"
     },
     {
-      "title": "Affected",
-      "description": "Over 30 million people (more than half the population) require humanitarian assistance."
+      "title": "Affected Population",
+      "description": "Over 30 million people require aid due to the **nationwide collapse inflicted by the military factions' war for power and resources.**"
     },
     {
-      "title": "Food Insecurity",
-      "description": "Over 24 million people face acute food insecurity; famine conditions reported in some areas."
+      "title": "Famine Conditions",
+      "description": "Over 24 million face acute hunger, with famine conditions emerging as **warring parties weaponise food access and destroy agriculture.**"
     },
     {
-      "title": "Displaced",
-      "description": "More than 12 million people internally displaced, the world's largest displacement crisis."
+      "title": "Displacement Catastrophe",
+      "description": "Over 12 million internally displaced (world's largest crisis), forcibly uprooted by **SAF/RSF violence, including ethnic cleansing campaigns.**"
     },
     {
-      "title": "Refugees",
-      "description": "Over 4 million Sudanese have fled abroad since the conflict began."
+      "title": "Refugee Exodus",
+      "description": "Over 4 million refugees driven abroad since 2023 by the **brutality of the conflict and lack of any safe haven.**"
     },
     {
-      "title": "Health System Collapsed",
-      "description": "Large percentages of health facilities non-functional; targeted attacks on hospitals and medicine shortages have broken down care access."
+      "title": "Healthcare Collapse",
+      "description": "Most health facilities non-functional due to **direct attacks, looting by warring factions, and lack of supplies caused by the conflict.**"
     },
     {
       "title": "Lack of Water Access",
-      "description": "Many urban and displacement areas lack safe drinking water; cholera outbreaks surged with the war."
+      "description": "Millions lack safe water as **infrastructure is destroyed or neglected due to the war**, fuelling cholera outbreaks."
     },
     {
-      "title": "Children Out of School",
-      "description": "Up to 19 million children out of school due to displacement and conflict damage."
+      "title": "Education Denied",
+      "description": "Up to 19 million children denied education as schools are **damaged, occupied by fighters, or inaccessible due to displacement.**"
     },
     {
-      "title": "Living in Poverty",
-      "description": "Conflict has pushed millions into deeper poverty with destruction of livelihoods and infrastructure."
+      "title": "Deepening Poverty",
+      "description": "Millions pushed into extreme poverty by the **war's destruction of livelihoods, infrastructure, and the formal economy.**"
     }
   ],
   "timeline": [

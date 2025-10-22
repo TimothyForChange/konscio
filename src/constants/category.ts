@@ -9,8 +9,7 @@ export const DEFAULT_CATEGORY = 'All';
  */
 export const COUNTRY_CATEGORIES = [
   'Occupation & Imperialism',
-  'State Collapse & Civil War',
   'Resource Exploitation & Foreign Interference',
   'Economic Collapse & Repression',
-  'Displacement & Humanitarian Catastrophe',
+  'Conflict & State Fragmentation',
 ] as const;

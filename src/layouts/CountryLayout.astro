@@ -36,7 +36,7 @@ const countryMapping = Array.isArray(countriesList)
   : undefined;
 const pageDescription =
   countryMapping?.seoDescription ||
-  `Learn about the humanitarian crisis in ${countryData?.name} - Timothy for Change provides critical analysis of global humanitarian issues.`;
+  `Learn about structural violence in ${countryData?.name} - Timothy for Change provides critical analysis of global crises.`;
 const canonicalUrl = `https://timothyforchange.co.za/${encodeURIComponent(countrySlug)}`;
 
 const articleSchema = {
@@ -70,12 +70,12 @@ const articleSchema = {
     },
     {
       '@type': 'Thing',
-      name: 'Humanitarian Crisis',
+      name: 'Structural Violence',
     },
   ],
   keywords: [
     countryData?.name,
-    'humanitarian crisis',
+    'structural violence',
     'human rights',
     countryMapping?.category?.toLowerCase(),
   ].filter(Boolean),

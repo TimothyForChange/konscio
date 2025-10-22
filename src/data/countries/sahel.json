@@ -3,8 +3,8 @@
   "name": "Confederation of Sahel States",
   "emoji": "🇧🇫🇲🇱🇳🇪",
   "ariaLabel": "Flags of Burkina Faso, Mali, and Niger",
-  "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "The Central Sahel (Burkina Faso, Mali and Niger) is the epicentre of a severe, neglected crisis defined by the convergence of weak governance, jihadist insurgencies, recurrent coups and accelerating climate shocks.\n\nA recent wave of military takeovers has been framed domestically as a rejection of a French-led security model perceived as ineffective; regionally it has created a new geopolitical frontline with external powers competing for influence. The violence is fuelled by armed groups, intercommunal conflict and predatory control of land and resources, producing mass displacement, chronic food insecurity and a collapsing public-service base.\n\nThe human cost is amplified by long-term patterns of extractive relations and external interventions that have shaped monetary, security and economic policy since independence. The crisis demands Sahelian-led political solutions, urgent humanitarian scale-up and an end to extractive and militarised responses that entrench local suffering.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "The Central Sahel (Burkina Faso, Mali, Niger) suffers a severe crisis born from **converging structural violence**: weak governance **inherited from colonialism and gutted by neoliberalism**, jihadist insurgencies **fuelled by state collapse and foreign interventions**, recurrent coups reflecting **popular rejection of neo-colonial security models**, and **accelerating climate shocks**.\n\nRecent military takeovers signal a shift, creating a new geopolitical frontline. The violence, driven by armed groups and **predatory control of resources**, inflicts mass displacement and starvation, collapsing public services. The human cost is amplified by **long-term extractive relations** and **external interference** shaping regional policy. Ending the suffering requires **Sahelian-led political solutions**, urgent aid, and dismantling the **extractive and militarised responses** imposed from outside.",
   "colonialRoot": {
     "colonialPower": "France (c. 1890s-1960)",
     "legacy": "French colonial rule reorganised borders, economies and governance in ways that privileged extraction and centre-periphery hierarchies. At independence around 1960, formal sovereignty did not erase these structures: monetary arrangements (notably the CFA franc), security pacts and dense political networks known as 'Françafrique' allowed continued French influence over economic policy, resource flows and military cooperation.\n\nThese arrangements left fragile state institutions, economies oriented towards raw-material export, and governance models that were poorly resourced to provide security and services for rural populations — conditions that contributed to the later emergence of violent insurgency and chronic instability."
@@ -34,35 +34,35 @@
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Tens of thousands killed and injured in the conflict with ongoing substantial human losses."
+      "description": "Tens of thousands killed by **violence stemming from insurgencies, state repression, and intercommunal conflict exacerbated by external interference.**"
     },
     {
-      "title": "Affected",
-      "description": "An estimated 18 million people require urgent humanitarian assistance."
+      "title": "Affected Population",
+      "description": "An estimated 18 million require aid due to the **breakdown of state services and livelihoods caused by conflict, neoliberal policies, and climate shocks.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "Millions in the Central Sahel face acute hunger due to conflict and climate shocks."
+      "description": "Millions face acute hunger, driven by **conflict displacing farmers, climate change destroying harvests, and the legacy of failed development models.**"
     },
     {
-      "title": "Displaced",
-      "description": "Over 3.3 million people internally displaced across the Central Sahel due to violence and insecurity."
+      "title": "Displacement",
+      "description": "Over 3.3 million internally displaced, forcibly uprooted by **jihadist attacks, military operations, and resource conflicts linked to climate change.**"
     },
     {
       "title": "Refugees",
-      "description": "Nearly 1 million refugees and asylum-seekers have fled to neighbouring countries."
+      "description": "Nearly 1 million forced into neighbouring countries by **pervasive violence and the collapse of state protection.**"
     },
     {
-      "title": "Health System Collapsed",
-      "description": "Hundreds of health centres closed or minimally functional due to attacks and staff flight."
+      "title": "Healthcare Collapse",
+      "description": "Hundreds of health centres closed due to **direct attacks, insecurity preventing access, and chronic underfunding rooted in austerity.**"
     },
     {
       "title": "Lack of Water Access",
-      "description": "Large populations lack access to safe drinking water and sanitation due to conflict and infrastructure destruction."
+      "description": "Large populations lack safe water due to **conflict destroying infrastructure and state incapacity resulting from neoliberal hollowing-out.**"
     },
     {
-      "title": "Children Out of School",
-      "description": "Over 13,000 schools non-operational due to insecurity, depriving millions of children of education."
+      "title": "Education Denied",
+      "description": "Millions of children denied education as over 13,000 schools are closed by **insecurity deliberately fostered by armed groups and failed state responses.**"
     }
   ],
   "timeline": [

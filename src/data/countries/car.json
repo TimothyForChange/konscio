@@ -3,8 +3,8 @@
   "name": "Central African Republic",
   "emoji": "🇨🇫",
   "ariaLabel": "Central African Republic flag",
-  "lastUpdated": "2025-10-21",
-  "currentCrisisSummary": "The Central African Republic (CAR) is in a state of protracted collapse, shaped by decades of foreign interference, a predatory state structure inherited from colonialism, and the systematic extraction of its natural resources. The central government's authority is limited, with much of the country controlled by a constellation of armed groups and foreign mercenaries.\n\nThis power vacuum is the direct legacy of a post-colonial model where external powers, historically France and more recently Russia, have cultivated client relationships to secure access to diamonds, gold, and uranium. The current phase of the crisis is characterised by the government's reliance on Russian private military contractors (the Africa Corps, formerly Wagner Group) who provide security in exchange for lucrative mining concessions. This arrangement perpetuates a cycle of violence, displaces civilians, and ensures that the nation's wealth is siphoned offshore rather than invested in public services, leaving the population in a state of extreme humanitarian distress.",
+  "lastUpdated": "2025-10-22",
+  "currentCrisisSummary": "The Central African Republic (CAR) endures **protracted state collapse**, driven by decades of **foreign interference**, a **predatory state structure inherited from colonialism**, and the **systematic extraction of its natural resources**. The central government's authority is negligible, with much of the country controlled by armed groups and foreign mercenaries.\n\nThis power vacuum is the direct legacy of a **neo-colonial model** where external powers (historically France, now Russia) cultivate clients to secure access to diamonds, gold, and uranium. The current phase involves reliance on Russian private military contractors (Africa Corps/Wagner) who provide regime security for **lucrative mining concessions**. This **mercenary-driven resource extraction** perpetuates violence, displaces civilians, and siphons wealth offshore, inflicting extreme humanitarian distress upon the population.",
   "colonialRoot": {
     "colonialPower": "France (c. 1894-1960)",
     "legacy": "French colonial rule in Ubangi-Shari was exceptionally brutal and extractive. The territory was carved up and leased to private concessionary companies, which were granted total power to exploit rubber, ivory, and diamonds using a system of forced labour. This model established the state not as a provider of public goods, but as an instrument of violent resource extraction for foreign enrichment.\n\nThis foundational structure was never dismantled. At independence, France handed power to a compliant elite who perpetuated the predatory system. The legacy is a chronically weak state, devoid of legitimacy and institutional capacity, where control over resources remains the primary motive for political power and the ultimate driver of conflict."
@@ -34,31 +34,31 @@
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Thousands of civilians have been killed in the conflict since 2013, with ongoing atrocities committed by all parties."
+      "description": "Thousands killed since 2013 by atrocities committed by all parties in the **conflict over resources and state control.**"
     },
     {
-      "title": "Affected",
-      "description": "Approximately 2.8 million people, nearly half the population, require urgent humanitarian assistance to survive."
+      "title": "Affected Population",
+      "description": "Approximately 2.8 million people (nearly half the population) require aid to survive the **consequences of state collapse and unending war.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "Over 2 million people face high levels of acute food insecurity, with chronic malnutrition stunting a generation of children."
+      "description": "Over 2 million face acute hunger, with chronic malnutrition stunting children, driven by **conflict-induced displacement and the destruction of livelihoods.**"
     },
     {
-      "title": "Displaced",
-      "description": "Over 500,000 people are internally displaced, forced from their homes by violence."
+      "title": "Displacement",
+      "description": "Over 500,000 internally displaced, forcibly uprooted by **violence linked to resource grabs and political instability.**"
     },
     {
       "title": "Refugees",
-      "description": "More than 750,000 refugees have fled to neighbouring countries like Cameroon, DRC, and Chad."
+      "description": "More than 750,000 refugees forced into neighbouring countries by the **persistent violence and lack of protection.**"
     },
     {
-      "title": "Health System Collapsed",
-      "description": "The healthcare system is near total collapse, with less than half of medical facilities functional. Life expectancy is one of the lowest in the world."
+      "title": "Healthcare Collapse",
+      "description": "Less than half of medical facilities function amidst near-total healthcare collapse, a direct result of **state failure and decades of underinvestment.** Life expectancy is among the world's lowest."
     },
     {
       "title": "Lack of Water Access",
-      "description": "Roughly two-thirds of the population lacks access to basic sanitation, and half lacks access to safe drinking water."
+      "description": "Millions lack safe water and basic sanitation due to the **disintegration of public infrastructure caused by chronic conflict and state neglect.**"
     }
   ],
   "timeline": [
