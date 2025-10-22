@@ -13,17 +13,10 @@ export interface Country {
 /**
  * Humanitarian impact statistics for a country's crisis.
  */
-export interface HumanitarianImpact {
-  displaced: string;
-  refugees: string;
-  casualties: string;
-  affected: string;
-  livingInPoverty?: string;
-  childrenOutOfSchool?: string;
-  healthSystemCollapsed?: string;
-  foodInsecurity?: string;
-  lackOfWaterAccess?: string;
-}
+export type HumanitarianImpact = {
+  title: string;
+  description: string;
+}[];
 
 /**
  * Colonial history of a country.
@@ -79,7 +72,10 @@ export interface CountryData {
   timeline: TimelineEvent[];
   colonialRoot?: ColonialRoot;
   imperialRoot?: ImperialRoot;
-  historicalContext: Record<string, string>;
+  historicalContext: {
+    title: string;
+    description: string;
+  }[];
   takeAction: TakeAction;
   reading: Reading[];
 }

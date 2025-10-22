@@ -97,12 +97,13 @@ const articleSchema = {
         }
 
         {
-          countryData?.humanitarianImpact && (
-            <HumanitarianImpact
-              humanitarianImpact={countryData.humanitarianImpact}
-              lastUpdated={countryData.lastUpdated}
-            />
-          )
+          Array.isArray(countryData?.humanitarianImpact) &&
+            countryData.humanitarianImpact.length > 0 && (
+              <HumanitarianImpact
+                humanitarianImpact={countryData.humanitarianImpact}
+                lastUpdated={countryData.lastUpdated}
+              />
+            )
         }
 
         {
@@ -132,12 +133,13 @@ const articleSchema = {
         }
 
         {
-          radashIsObject(countryData?.historicalContext) && (
-            <HistoricalContextSection
-              historicalContext={countryData.historicalContext}
-              countrySlug={countrySlug}
-            />
-          )
+          Array.isArray(countryData?.historicalContext) &&
+            countryData.historicalContext.length > 0 && (
+              <HistoricalContextSection
+                historicalContext={countryData.historicalContext}
+                countrySlug={countrySlug}
+              />
+            )
         }
 
         {

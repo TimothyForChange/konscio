@@ -1,6 +1,6 @@
 ---
 import type { HumanitarianImpact } from '../../types/country';
-import { formatKeyToTitle, formatText } from '../../utils/text.ts';
+import { formatText } from '../../utils/text.ts';
 import ImpactGrid from '../sections/ImpactGrid.astro';
 
 export interface Properties {
@@ -10,25 +10,25 @@ export interface Properties {
 
 const { humanitarianImpact, lastUpdated } = Astro.props as Properties;
 
-if (!humanitarianImpact || typeof humanitarianImpact !== 'object') {
+if (!humanitarianImpact || !Array.isArray(humanitarianImpact)) {
   return;
 }
 
-const hasData = Object.values(humanitarianImpact).some(
-  (value) => value !== undefined && value !== ''
+const hasData = humanitarianImpact.some(
+  (item) => item.description !== undefined && item.description !== ''
 );
 
 if (!hasData) {
   return;
 }
 
-const stats = Object.entries(humanitarianImpact)
-  .filter(([, value]) => value !== undefined && value !== '')
-  .map(([key, value]) => {
-    const label = formatKeyToTitle(key);
+const stats = humanitarianImpact
+  .filter((item) => item.description !== undefined && item.description !== '')
+  .map((item) => {
+    const label = item.title;
     return {
       label,
-      value: formatText(value),
+      value: formatText(item.description),
     };
   });
 ---

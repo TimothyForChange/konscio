@@ -9,21 +9,54 @@
     "colonialPower": "Britain & Egypt (1899-1956)",
     "legacy": "British colonial administration pursued a 'Southern Policy' that governed the south separately from the north, entrenching political and economic divisions. This divide-and-rule approach limited investment in southern institutions and left a legacy of structural marginalisation that contributed to subsequent insurgency and weak governance.\n\nThe administrative boundaries, uneven development and externally mediated leadership formations created conditions that later made the territory vulnerable to elite predation and resource-capture after independence."
   },
-  "historicalContext": {
-    "neoliberalStateBuildingAndTheCpa": "The 2005 Comprehensive Peace Agreement (CPA), heavily mediated by Western powers, was a fundamentally neoliberal peace-building project. The international community prioritised the creation of a market-based, oil-exporting state, focusing on technocratic elements like central banking and managing foreign investment. This model neglected grassroots reconciliation and failed to build a diversified economy. It created a hollow state whose sole purpose was the distribution of oil rents, making control of the state the only prize worth fighting for. The 2013 civil war was a direct and predictable outcome of this flawed, externally-imposed model of state formation.",
-    "corruptionAndTheGlobalFinancialSystem": "South Sudan's politics are shaped by an elite scramble for oil revenue. The state has functioned as an apparatus for capturing rents rather than delivering public goods. International banks, opaque corporate structures and the global financial system have enabled the laundering and concealment of stolen wealth, permitting elites to profit while public infrastructure and services collapse. This is not a passive failure; it is an active feature of a global financial system that provides safe havens for illicit capital, directly fuelling the conflict. Internationally enabled financial opacity and weak enforcement of due diligence are therefore structural enablers of the country's crisis.",
-    "oilConflictAndClimateChallenges": "The oil sector has fuelled rent-seeking and patronage networks; foreign energy companies operating in partnership with local elites have often prioritised extraction over community reinvestment. Simultaneously, extreme floods — worsened by global heating — have destroyed crops, displaced communities and aggravated food insecurity. Climate shocks act as a conflict multiplier in a state already weakened by governance failures.",
-    "internationalLawAndAccountability": "Serious violations of international humanitarian and human-rights law have been documented during cycles of violence. Independent research has estimated large numbers of excess deaths associated with the 2013-2018 civil war. Calls for accountability include proposals for a Hybrid Court for South Sudan and targeted sanctions on those who facilitate violence and steal public assets. Effective accountability must combine criminal responsibility for grave abuses with structural measures to recover stolen assets and reform resource governance."
-  },
-  "humanitarianImpact": {
-    "casualties": "Nearly 400,000 excess deaths attributable to the conflict since 2013.",
-    "affected": "Roughly 9.4 million people in need of assistance (approximately two-thirds of the population).",
-    "foodInsecurity": "Large population faces severe food insecurity driven by flooding, displacement and market disruption.",
-    "displaced": "Approximately 2.1 million people internally displaced within South Sudan, with combined displacement burden over 4 million including refugees and returnees.",
-    "refugees": "More than 2.3 million South Sudanese are refugees or asylum-seekers, one of Africa's largest refugee situations.",
-    "childrenOutOfSchool": "Millions of children out of school due to conflict and displacement.",
-    "livingInPoverty": "A majority of households face extreme poverty and food shortages."
-  },
+  "historicalContext": [
+    {
+      "title": "Neoliberal State-Building and the CPA",
+      "description": "The 2005 Comprehensive Peace Agreement (CPA), heavily mediated by Western powers, was a fundamentally neoliberal peace-building project. The international community prioritised the creation of a market-based, oil-exporting state, focusing on technocratic elements like central banking and managing foreign investment. This model neglected grassroots reconciliation and failed to build a diversified economy. It created a hollow state whose sole purpose was the distribution of oil rents, making control of the state the only prize worth fighting for. The 2013 civil war was a direct and predictable outcome of this flawed, externally-imposed model of state formation."
+    },
+    {
+      "title": "Corruption and the Global Financial System",
+      "description": "South Sudan's politics are shaped by an elite scramble for oil revenue. The state has functioned as an apparatus for capturing rents rather than delivering public goods. International banks, opaque corporate structures and the global financial system have enabled the laundering and concealment of stolen wealth, permitting elites to profit while public infrastructure and services collapse. This is not a passive failure; it is an active feature of a global financial system that provides safe havens for illicit capital, directly fuelling the conflict. Internationally enabled financial opacity and weak enforcement of due diligence are therefore structural enablers of the country's crisis."
+    },
+    {
+      "title": "Oil Conflict and Climate Challenges",
+      "description": "The oil sector has fuelled rent-seeking and patronage networks; foreign energy companies operating in partnership with local elites have often prioritised extraction over community reinvestment. Simultaneously, extreme floods — worsened by global heating — have destroyed crops, displaced communities and aggravated food insecurity. Climate shocks act as a conflict multiplier in a state already weakened by governance failures."
+    },
+    {
+      "title": "International Law And Accountability",
+      "description": "Serious violations of international humanitarian and human-rights law have been documented during cycles of violence. Independent research has estimated large numbers of excess deaths associated with the 2013-2018 civil war. Calls for accountability include proposals for a Hybrid Court for South Sudan and targeted sanctions on those who facilitate violence and steal public assets. Effective accountability must combine criminal responsibility for grave abuses with structural measures to recover stolen assets and reform resource governance."
+    }
+  ],
+  "humanitarianImpact": [
+    {
+      "title": "Casualties",
+      "description": "Nearly 400,000 excess deaths attributable to the conflict since 2013."
+    },
+    {
+      "title": "Affected",
+      "description": "Roughly 9.4 million people in need of assistance (approximately two-thirds of the population)."
+    },
+    {
+      "title": "Food Insecurity",
+      "description": "Large population faces severe food insecurity driven by flooding, displacement and market disruption."
+    },
+    {
+      "title": "Displaced",
+      "description": "Approximately 2.1 million people internally displaced within South Sudan, with combined displacement burden over 4 million including refugees and returnees."
+    },
+    {
+      "title": "Refugees",
+      "description": "More than 2.3 million South Sudanese are refugees or asylum-seekers, one of Africa's largest refugee situations."
+    },
+    {
+      "title": "Children Out of School",
+      "description": "Millions of children out of school due to conflict and displacement."
+    },
+    {
+      "title": "Living in Poverty",
+      "description": "A majority of households face extreme poverty and food shortages."
+    }
+  ],
   "timeline": [
     {
       "year": "1899-1956",

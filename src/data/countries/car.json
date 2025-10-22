@@ -9,22 +9,58 @@
     "colonialPower": "France (c. 1894-1960)",
     "legacy": "French colonial rule in Ubangi-Shari was exceptionally brutal and extractive. The territory was carved up and leased to private concessionary companies, which were granted total power to exploit rubber, ivory, and diamonds using a system of forced labour. This model established the state not as a provider of public goods, but as an instrument of violent resource extraction for foreign enrichment.\n\nThis foundational structure was never dismantled. At independence, France handed power to a compliant elite who perpetuated the predatory system. The legacy is a chronically weak state, devoid of legitimacy and institutional capacity, where control over resources remains the primary motive for political power and the ultimate driver of conflict."
   },
-  "historicalContext": {
-    "postColonialFrenchIntervention": "For decades after 'independence' in 1960, CAR remained a key outpost of 'Françafrique'—a system of neo-colonial control. France repeatedly intervened militarily to install, protect, and depose client rulers (such as Jean-Bédel Bokassa) to safeguard its strategic and economic interests, including access to uranium. This persistent interference prevented the development of genuine sovereignty and entrenched a political culture of dependency on an external patron.",
-    "DebtAndStructuralAdjustment": "Following decades of misrule and instability, CAR became heavily indebted and fell under the control of the IMF and World Bank. The Structural Adjustment Programmes imposed in the 1990s mandated the privatisation of state enterprises and severe austerity, dismantling what little public service capacity existed. This neoliberal shock therapy further weakened the state, deepened poverty, and entrenched a reliance on foreign aid, creating a perfect vacuum for armed groups to flourish and for the cycle of conflict to intensify.",
-    "resourceCurseAndPredatoryElites": "CAR's immense mineral wealth has been a curse, fuelling conflict and enriching a small domestic elite and their foreign partners while the population remains impoverished. The diamond trade, in particular, is deeply linked to illicit arms trafficking and the financing of armed groups. The state's function has been reduced to managing the contracts and security for foreign extractive industries, creating a permanent incentive for rival factions to seize power through violence to gain control of these revenue streams.",
-    "proxyBattlegroundAndMercenaryEconomy": "In recent years, CAR has become a key theatre for geopolitical competition between a declining French influence and a resurgent Russia. The government's turn to the Wagner Group (now Africa Corps) represents a shift from one imperial patron to another. This new model trades sovereign mineral rights directly for mercenary services, bypassing even the pretence of state-building. It has created a parallel economy of violence and extraction, where Russian mercenaries and their corporate affiliates operate with impunity, committing widespread human rights abuses in their campaign to secure mines and territory.",
-    "internationalLawAndAccountability": "Despite the presence of a UN peacekeeping mission (MINUSCA), whose tenure has been repeatedly marred by widespread allegations of sexual exploitation and abuse by its troops, and the establishment of a Special Criminal Court (SCC) to try war crimes, accountability remains elusive. The ICC has also opened investigations. However, these legal mechanisms are critically under-resourced, politically constrained, and unable to address the actions of the most powerful actors, particularly foreign mercenaries who enjoy de facto immunity. Justice is further undermined by the selective focus on local armed groups while the foreign corporations and state actors who profit from the illicit resource trade face little to no scrutiny."
-  },
-  "humanitarianImpact": {
-    "casualties": "Thousands of civilians have been killed in the conflict since 2013, with ongoing atrocities committed by all parties.",
-    "affected": "Approximately 2.8 million people, nearly half the population, require urgent humanitarian assistance to survive.",
-    "foodInsecurity": "Over 2 million people face high levels of acute food insecurity, with chronic malnutrition stunting a generation of children.",
-    "displaced": "Over 500,000 people are internally displaced, forced from their homes by violence.",
-    "refugees": "More than 750,000 refugees have fled to neighbouring countries like Cameroon, DRC, and Chad.",
-    "healthSystemCollapsed": "The healthcare system is near total collapse, with less than half of medical facilities functional. Life expectancy is one of the lowest in the world.",
-    "lackOfWaterAccess": "Roughly two-thirds of the population lacks access to basic sanitation, and half lacks access to safe drinking water."
-  },
+  "historicalContext": [
+    {
+      "title": "Post-Colonial French Intervention",
+      "description": "For decades after 'independence' in 1960, CAR remained a key outpost of 'Françafrique'—a system of neo-colonial control. France repeatedly intervened militarily to install, protect, and depose client rulers (such as Jean-Bédel Bokassa) to safeguard its strategic and economic interests, including access to uranium. This persistent interference prevented the development of genuine sovereignty and entrenched a political culture of dependency on an external patron."
+    },
+    {
+      "title": " Debt And Structural Adjustment",
+      "description": "Following decades of misrule and instability, CAR became heavily indebted and fell under the control of the IMF and World Bank. The Structural Adjustment Programmes imposed in the 1990s mandated the privatisation of state enterprises and severe austerity, dismantling what little public service capacity existed. This neoliberal shock therapy further weakened the state, deepened poverty, and entrenched a reliance on foreign aid, creating a perfect vacuum for armed groups to flourish and for the cycle of conflict to intensify."
+    },
+    {
+      "title": "Resource Curse and Predatory Elites",
+      "description": "CAR's immense mineral wealth has been a curse, fuelling conflict and enriching a small domestic elite and their foreign partners while the population remains impoverished. The diamond trade, in particular, is deeply linked to illicit arms trafficking and the financing of armed groups. The state's function has been reduced to managing the contracts and security for foreign extractive industries, creating a permanent incentive for rival factions to seize power through violence to gain control of these revenue streams."
+    },
+    {
+      "title": "Proxy Battleground and Mercenary Economy",
+      "description": "In recent years, CAR has become a key theatre for geopolitical competition between a declining French influence and a resurgent Russia. The government's turn to the Wagner Group (now Africa Corps) represents a shift from one imperial patron to another. This new model trades sovereign mineral rights directly for mercenary services, bypassing even the pretence of state-building. It has created a parallel economy of violence and extraction, where Russian mercenaries and their corporate affiliates operate with impunity, committing widespread human rights abuses in their campaign to secure mines and territory."
+    },
+    {
+      "title": "International Law And Accountability",
+      "description": "Despite the presence of a UN peacekeeping mission (MINUSCA), whose tenure has been repeatedly marred by widespread allegations of sexual exploitation and abuse by its troops, and the establishment of a Special Criminal Court (SCC) to try war crimes, accountability remains elusive. The ICC has also opened investigations. However, these legal mechanisms are critically under-resourced, politically constrained, and unable to address the actions of the most powerful actors, particularly foreign mercenaries who enjoy de facto immunity. Justice is further undermined by the selective focus on local armed groups while the foreign corporations and state actors who profit from the illicit resource trade face little to no scrutiny."
+    }
+  ],
+  "humanitarianImpact": [
+    {
+      "title": "Casualties",
+      "description": "Thousands of civilians have been killed in the conflict since 2013, with ongoing atrocities committed by all parties."
+    },
+    {
+      "title": "Affected",
+      "description": "Approximately 2.8 million people, nearly half the population, require urgent humanitarian assistance to survive."
+    },
+    {
+      "title": "Food Insecurity",
+      "description": "Over 2 million people face high levels of acute food insecurity, with chronic malnutrition stunting a generation of children."
+    },
+    {
+      "title": "Displaced",
+      "description": "Over 500,000 people are internally displaced, forced from their homes by violence."
+    },
+    {
+      "title": "Refugees",
+      "description": "More than 750,000 refugees have fled to neighbouring countries like Cameroon, DRC, and Chad."
+    },
+    {
+      "title": "Health System Collapsed",
+      "description": "The healthcare system is near total collapse, with less than half of medical facilities functional. Life expectancy is one of the lowest in the world."
+    },
+    {
+      "title": "Lack of Water Access",
+      "description": "Roughly two-thirds of the population lacks access to basic sanitation, and half lacks access to safe drinking water."
+    }
+  ],
   "timeline": [
     {
       "year": "c. 1894",

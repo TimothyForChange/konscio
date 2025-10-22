@@ -9,22 +9,58 @@
     "colonialPower": "Britain & Egypt (1899-1956)",
     "legacy": "British colonial governance in Sudan employed a classic divide-and-rule strategy, concentrating power in the 'Arab' riverine north while marginalising peripheral regions like Darfur and Kordofan. This structural inequality institutionalised regional grievance and set the groundwork for recurring rebellions and civil wars.\n\nBy privileging the centre and denying development to the margins, colonial rule created a centralised, extractive state whose control over resources and institutions became the prize of military competition post-independence."
   },
-  "historicalContext": {
-    "neoliberalismAndTheRootsOfRevolution": "Omar al-Bashir's 30-year rule, while Islamist and militaristic, also embraced a harsh neoliberal economic model. Under pressure from US sanctions and the IMF, his regime privatised state assets, slashed subsidies, and encouraged large-scale 'land grabs' by foreign investors, particularly from the Gulf. This policy of austerity and resource extraction enriched a small elite while impoverishing the population. The 2019 revolution was triggered by bread price hikes, a direct result of these long-standing neoliberal policies. Tragically, the subsequent transitional government was itself pressured by Western donors into a rapid 'shock therapy' program, whose painful economic consequences weakened its popular standing and contributed to the success of the 2021 military coup.",
-    "rivalMilitaryEconomicModels": "The current war is a breakdown of an entrenched military elite order. The SAF represents the old guard's hold on formal sectors (bureaucracy, security, agriculture), whereas the RSF acts as a more entrepreneurial, informal military-economic actor controlling gold, illicit trade routes and private paramilitary roles. Both compete over the spoils of Sudan — land, mining, agriculture, and foreign leasing arrangements.\n\nThis struggle is not new: economic control, militia patronage and resource extraction have long been central to Sudanese elite survival, with successive regimes co-opted by foreign capital and external actors seeking influence.\n\nThe 2021 military coup was a counter-revolution against popular pressure to dismantle the military's economic empire. The RSF is backed by regional states, notably the UAE, which is accused of providing arms, financial support and logistical backing. These external actors seek influence, access to Sudanese gold, agricultural land and control of strategic Red Sea ports.\n\nRecent investigative reports document advanced weapons, drone systems and heavy artillery traced to external supply chains used by the RSF — raising credible allegations of external complicity in sustaining, and escalating, Sudan's war.",
-    "internationalLawAndAccountability": "Multiple international and regional legal processes are underway or proposed. Sudan has filed claims and complaints alleging external complicity in grave abuses. UN Security Council expert panels, human-rights organisations and the International Criminal Court are documenting war crimes, crimes against humanity and atrocity patterns committed by both SAF and RSF. The challenge is enforcing accountability in a conflict with shifting frontlines, obstructed access and powerful external proxies; protecting witnesses, securing evidence and dismantling economic networks that enable conflict profiteering are central to any credible justice effort."
-  },
-  "humanitarianImpact": {
-    "casualties": "Tens of thousands dead from direct combat and many more from starvation and disease.",
-    "affected": "Over 30 million people (more than half the population) require humanitarian assistance.",
-    "foodInsecurity": "Over 24 million people face acute food insecurity; famine conditions reported in some areas.",
-    "displaced": "More than 12 million people internally displaced, the world's largest displacement crisis.",
-    "refugees": "Over 4 million Sudanese have fled abroad since the conflict began.",
-    "healthSystemCollapsed": "Large percentages of health facilities non-functional; targeted attacks on hospitals and medicine shortages have broken down care access.",
-    "lackOfWaterAccess": "Many urban and displacement areas lack safe drinking water; cholera outbreaks surged with the war.",
-    "childrenOutOfSchool": "Up to 19 million children out of school due to displacement and conflict damage.",
-    "livingInPoverty": "Conflict has pushed millions into deeper poverty with destruction of livelihoods and infrastructure."
-  },
+  "historicalContext": [
+    {
+      "title": "Neoliberalism and the Roots of Revolution",
+      "description": "Omar al-Bashir's 30-year rule, while Islamist and militaristic, also embraced a harsh neoliberal economic model. Under pressure from US sanctions and the IMF, his regime privatised state assets, slashed subsidies, and encouraged large-scale 'land grabs' by foreign investors, particularly from the Gulf. This policy of austerity and resource extraction enriched a small elite while impoverishing the population. The 2019 revolution was triggered by bread price hikes, a direct result of these long-standing neoliberal policies. Tragically, the subsequent transitional government was itself pressured by Western donors into a rapid 'shock therapy' program, whose painful economic consequences weakened its popular standing and contributed to the success of the 2021 military coup."
+    },
+    {
+      "title": "Rival Military Economic Models",
+      "description": "The current war is a breakdown of an entrenched military elite order. The SAF represents the old guard's hold on formal sectors (bureaucracy, security, agriculture), whereas the RSF acts as a more entrepreneurial, informal military-economic actor controlling gold, illicit trade routes and private paramilitary roles. Both compete over the spoils of Sudan — land, mining, agriculture, and foreign leasing arrangements.\n\nThis struggle is not new: economic control, militia patronage and resource extraction have long been central to Sudanese elite survival, with successive regimes co-opted by foreign capital and external actors seeking influence.\n\nThe 2021 military coup was a counter-revolution against popular pressure to dismantle the military's economic empire. The RSF is backed by regional states, notably the UAE, which is accused of providing arms, financial support and logistical backing. These external actors seek influence, access to Sudanese gold, agricultural land and control of strategic Red Sea ports.\n\nRecent investigative reports document advanced weapons, drone systems and heavy artillery traced to external supply chains used by the RSF — raising credible allegations of external complicity in sustaining, and escalating, Sudan's war."
+    },
+    {
+      "title": "International Law And Accountability",
+      "description": "Multiple international and regional legal processes are underway or proposed. Sudan has filed claims and complaints alleging external complicity in grave abuses. UN Security Council expert panels, human-rights organisations and the International Criminal Court are documenting war crimes, crimes against humanity and atrocity patterns committed by both SAF and RSF. The challenge is enforcing accountability in a conflict with shifting frontlines, obstructed access and powerful external proxies; protecting witnesses, securing evidence and dismantling economic networks that enable conflict profiteering are central to any credible justice effort."
+    }
+  ],
+  "humanitarianImpact": [
+    {
+      "title": "Casualties",
+      "description": "Tens of thousands dead from direct combat and many more from starvation and disease."
+    },
+    {
+      "title": "Affected",
+      "description": "Over 30 million people (more than half the population) require humanitarian assistance."
+    },
+    {
+      "title": "Food Insecurity",
+      "description": "Over 24 million people face acute food insecurity; famine conditions reported in some areas."
+    },
+    {
+      "title": "Displaced",
+      "description": "More than 12 million people internally displaced, the world's largest displacement crisis."
+    },
+    {
+      "title": "Refugees",
+      "description": "Over 4 million Sudanese have fled abroad since the conflict began."
+    },
+    {
+      "title": "Health System Collapsed",
+      "description": "Large percentages of health facilities non-functional; targeted attacks on hospitals and medicine shortages have broken down care access."
+    },
+    {
+      "title": "Lack of Water Access",
+      "description": "Many urban and displacement areas lack safe drinking water; cholera outbreaks surged with the war."
+    },
+    {
+      "title": "Children Out of School",
+      "description": "Up to 19 million children out of school due to displacement and conflict damage."
+    },
+    {
+      "title": "Living in Poverty",
+      "description": "Conflict has pushed millions into deeper poverty with destruction of livelihoods and infrastructure."
+    }
+  ],
   "timeline": [
     {
       "year": "1899-1956",

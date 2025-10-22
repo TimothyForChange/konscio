@@ -1,9 +1,11 @@
 ---
-import { isString } from 'radash';
-import { formatKeyToTitle, formatParagraphs } from '../../utils/text.ts';
+import { formatParagraphs } from '../../utils/text.ts';
 
 export interface Properties {
-  historicalContext?: Record<string, string>;
+  historicalContext?: {
+    title: string;
+    description: string;
+  }[];
 }
 
 const { historicalContext } = Astro.props as Properties;
@@ -13,15 +15,12 @@ const { historicalContext } = Astro.props as Properties;
   <h2 id='history-heading' class='section-heading'>Historical Context</h2>
 
   {
-    Object.entries(historicalContext!)
-      .filter(
-        ([key, value]) =>
-          isString(key) && isString(value) && key.trim() !== '' && value.trim() !== ''
-      )
-      .map(([key, value]) => (
+    historicalContext!
+      .filter((item) => item.title.trim() !== '' && item.description.trim() !== '')
+      .map((item) => (
         <div class='term-group'>
-          <h3 class='sub-heading'>{formatKeyToTitle(key)}</h3>
-          {formatParagraphs(value).map((html: string) => (
+          <h3 class='sub-heading'>{item.title}</h3>
+          {formatParagraphs(item.description).map((html: string) => (
             <p set:html={html} />
           ))}
         </div>

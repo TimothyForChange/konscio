@@ -9,22 +9,58 @@
     "colonialPower": "Germany (1884-1916), partitioned by France & Britain (1916-1961)",
     "legacy": "Cameroon's contemporary fractures were engineered by its partition after WWI. Germany's initial colony was divided, with the vast majority handed to France and a smaller sliver to Britain. The two territories were administered under fundamentally different colonial philosophies: French assimilation and direct, centralised rule versus British indirect rule and administrative autonomy.\n\nAt independence, the 1961 'reunification' was not a merger of equals but an absorption of the smaller, Anglophone territory into the dominant Francophone state. The federal structure promised as a guarantee of minority rights was quickly abolished. This foundational act of centralisation imposed a foreign legal, educational, and political system on the Anglophone population, creating a dynamic of internal colonialism that has defined the nation's politics and ultimately led to war."
   },
-  "historicalContext": {
-    "violentDecolonisationAndNeoColonialControl": "Cameroon's independence was born in extreme violence. In the 1950s and 60s, France waged a clandestine and brutal war against the popular anti-colonial movement, the Union of the Populations of Cameroon (UPC). After crushing the UPC in a conflict that killed tens of thousands, France installed a compliant, authoritarian regime. This ensured that French economic interests—in agriculture, timber, oil, and infrastructure—remained secure, establishing a durable neo-colonial relationship that persists to this day and defines the state's repressive character.",
-    "theAnglophoneProblemAndForcedAssimilation": "The Anglophone crisis is the culmination of decades of systematic marginalisation. The abolition of the federal system in 1972 was the key turning point, initiating a deliberate policy of assimilation. Anglophone legal and educational systems were eroded, English-speaking regions were economically neglected, and key administrative posts were filled by Francophones who often did not speak English. These policies were designed to break Anglophone identity and consolidate the power of the centralised state, transforming a political grievance into an existential struggle for cultural survival.",
-    "neoliberalAusterityAndStructuralAdjustment": "Following an economic crisis in the late 1980s, Cameroon was forced to adopt Structural Adjustment Programmes (SAPs) mandated by the IMF and World Bank. These neoliberal policies enforced severe austerity, including mass public sector layoffs, privatisation of state assets, and deep cuts to social services. The SAPs hollowed out the state, worsened inequality, and devastated the livelihoods of ordinary citizens, particularly the Anglophone professional class. This economic shock created the widespread grievance and desperation that formed the backdrop to the political explosion of 2016.",
-    "resourceExtractionAndEliteEnrichment": "For over four decades, Cameroon has been ruled by a static elite that has used state power to control and divert revenues from oil, timber, and cash crops. This system, often facilitated by foreign corporations, has entrenched corruption and created vast inequality. The state's primary function is not public service delivery but the management of extractive contracts. The severe underdevelopment in regions like the Anglophone territories and the Far North is not an accident, but a direct consequence of a political economy that concentrates wealth and deliberately marginalises the periphery.",
-    "internationalLawAndAccountability": "There is extensive and credible documentation of severe human rights violations by both government forces and separatist groups in the Anglophone conflict, including extrajudicial killings, torture, and the burning of villages. However, there has been a profound failure of international accountability. Key geopolitical partners, notably France and the US, have prioritised regional 'stability' and their security interests, offering only muted criticism and continuing to provide military and financial support to the regime. This impunity has emboldened perpetrators on all sides and ensures the cycle of violence continues."
-  },
-  "humanitarianImpact": {
-    "casualties": "An estimated 6,000 civilians have been killed in the Anglophone crisis since 2017.",
-    "affected": "Over 4.7 million people across Cameroon require humanitarian assistance.",
-    "foodInsecurity": "An estimated 2.6 million people face high levels of acute food insecurity, concentrated in the conflict-affected regions.",
-    "displaced": "Over 712,000 people are internally displaced due to the Anglophone crisis, with an additional 340,000 displaced by conflict in the Far North.",
-    "refugees": "More than 87,000 people from the Anglophone regions have been forced to flee as refugees, primarily to Nigeria.",
-    "healthSystemCollapsed": "In the Anglophone regions, some 80% of health facilities are non-functional or only partially functional due to attacks and insecurity.",
-    "childrenOutOfSchool": "More than 600,000 children have had their education disrupted in the Anglophone regions due to attacks on schools and enforced boycotts."
-  },
+  "historicalContext": [
+    {
+      "title": "Violent Decolonisation and Neo-Colonial Control",
+      "description": "Cameroon's independence was born in extreme violence. In the 1950s and 60s, France waged a clandestine and brutal war against the popular anti-colonial movement, the Union of the Populations of Cameroon (UPC). After crushing the UPC in a conflict that killed tens of thousands, France installed a compliant, authoritarian regime. This ensured that French economic interests—in agriculture, timber, oil, and infrastructure—remained secure, establishing a durable neo-colonial relationship that persists to this day and defines the state's repressive character."
+    },
+    {
+      "title": "The Anglophone Problem and Forced Assimilation",
+      "description": "The Anglophone crisis is the culmination of decades of systematic marginalisation. The abolition of the federal system in 1972 was the key turning point, initiating a deliberate policy of assimilation. Anglophone legal and educational systems were eroded, English-speaking regions were economically neglected, and key administrative posts were filled by Francophones who often did not speak English. These policies were designed to break Anglophone identity and consolidate the power of the centralised state, transforming a political grievance into an existential struggle for cultural survival."
+    },
+    {
+      "title": "Neoliberal Austerity and Structural Adjustment",
+      "description": "Following an economic crisis in the late 1980s, Cameroon was forced to adopt Structural Adjustment Programmes (SAPs) mandated by the IMF and World Bank. These neoliberal policies enforced severe austerity, including mass public sector layoffs, privatisation of state assets, and deep cuts to social services. The SAPs hollowed out the state, worsened inequality, and devastated the livelihoods of ordinary citizens, particularly the Anglophone professional class. This economic shock created the widespread grievance and desperation that formed the backdrop to the political explosion of 2016."
+    },
+    {
+      "title": "Resource Extraction and Elite Enrichment",
+      "description": "For over four decades, Cameroon has been ruled by a static elite that has used state power to control and divert revenues from oil, timber, and cash crops. This system, often facilitated by foreign corporations, has entrenched corruption and created vast inequality. The state's primary function is not public service delivery but the management of extractive contracts. The severe underdevelopment in regions like the Anglophone territories and the Far North is not an accident, but a direct consequence of a political economy that concentrates wealth and deliberately marginalises the periphery."
+    },
+    {
+      "title": "International Law And Accountability",
+      "description": "There is extensive and credible documentation of severe human rights violations by both government forces and separatist groups in the Anglophone conflict, including extrajudicial killings, torture, and the burning of villages. However, there has been a profound failure of international accountability. Key geopolitical partners, notably France and the US, have prioritised regional 'stability' and their security interests, offering only muted criticism and continuing to provide military and financial support to the regime. This impunity has emboldened perpetrators on all sides and ensures the cycle of violence continues."
+    }
+  ],
+  "humanitarianImpact": [
+    {
+      "title": "Casualties",
+      "description": "An estimated 6,000 civilians have been killed in the Anglophone crisis since 2017."
+    },
+    {
+      "title": "Affected",
+      "description": "Over 4.7 million people across Cameroon require humanitarian assistance."
+    },
+    {
+      "title": "Food Insecurity",
+      "description": "An estimated 2.6 million people face high levels of acute food insecurity, concentrated in the conflict-affected regions."
+    },
+    {
+      "title": "Displaced",
+      "description": "Over 712,000 people are internally displaced due to the Anglophone crisis, with an additional 340,000 displaced by conflict in the Far North."
+    },
+    {
+      "title": "Refugees",
+      "description": "More than 87,000 people from the Anglophone regions have been forced to flee as refugees, primarily to Nigeria."
+    },
+    {
+      "title": "Health System Collapsed",
+      "description": "In the Anglophone regions, some 80% of health facilities are non-functional or only partially functional due to attacks and insecurity."
+    },
+    {
+      "title": "Children Out of School",
+      "description": "More than 600,000 children have had their education disrupted in the Anglophone regions due to attacks on schools and enforced boycotts."
+    }
+  ],
   "timeline": [
     {
       "year": "1884",

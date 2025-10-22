@@ -4,21 +4,12 @@ import { z } from 'zod';
  * Zod schema for humanitarian impact statistics.
  * Defines rules for data on displaced people, refugees, casualties, and other indicators.
  */
-const HumanitarianImpactSchema = z.object({
-  displaced: z.string(),
-  refugees: z.string(),
-  casualties: z.string(),
-  affected: z.string(),
-  livingInPoverty: z.string().optional(),
-  childrenOutOfSchool: z.string().optional(),
-  healthSystemCollapsed: z.string().optional(),
-  foodInsecurity: z.string().optional(),
-  lackOfWaterAccess: z.string().optional(),
-  sexualViolence: z.string().optional(),
-  livelihoodsAndEconomicLoss: z.string().optional(),
-  lackOfRightsAndLivelihoods: z.string().optional(),
-  climateVulnerability: z.string().optional(),
-});
+const HumanitarianImpactSchema = z.array(
+  z.object({
+    title: z.string(),
+    description: z.string(),
+  })
+);
 
 /**
  * Zod schema for the colonial roots of a crisis.
@@ -42,8 +33,11 @@ const ImperialRootSchema = z.object({
  * Zod schema for a single event in a country's historical timeline.
  */
 const TimelineEventSchema = z.object({
-  year: z.string(),
-  event: z.string().optional(),
+  year: z
+    .string()
+    .min(4, 'Year must be at least 4 characters')
+    .max(20, 'Year must be at most 20 characters'),
+  event: z.string(),
 });
 
 /**
@@ -87,8 +81,12 @@ const CountryDataSchema = z.object({
   timeline: z.array(TimelineEventSchema),
   colonialRoot: ColonialRootSchema.optional(),
   imperialRoot: ImperialRootSchema.optional(),
-  historicalContext: z.record(z.string()),
-  internationalLawAndAccountability: z.string().optional(),
+  historicalContext: z.array(
+    z.object({
+      title: z.string(),
+      description: z.string(),
+    })
+  ),
   takeAction: TakeActionSchema,
   reading: z.array(ReadingSchema),
 });
@@ -103,43 +101,3 @@ export {
   ReadingSchema,
   CountryDataSchema,
 };
-
-/**
- * TypeScript type for the comprehensive data of a single country.
- */
-export type CountryDataType = z.infer<typeof CountryDataSchema>;
-
-/**
- * TypeScript type for the humanitarian impact data of a country.
- */
-export type HumanitarianImpactType = z.infer<typeof HumanitarianImpactSchema>;
-
-/**
- * TypeScript type for the colonial root data of a country's crisis.
- */
-export type ColonialRootType = z.infer<typeof ColonialRootSchema>;
-
-/**
- * TypeScript type for the imperial root data of a country's crisis.
- */
-export type ImperialRootType = z.infer<typeof ImperialRootSchema>;
-
-/**
- * TypeScript type for a single event in a country's timeline.
- */
-export type TimelineEventType = z.infer<typeof TimelineEventSchema>;
-
-/**
- * TypeScript type for an organisation for donations or advocacy.
- */
-export type OrganisationType = z.infer<typeof OrganisationSchema>;
-
-/**
- * TypeScript type for actions individuals can take.
- */
-export type TakeActionType = z.infer<typeof TakeActionSchema>;
-
-/**
- * TypeScript type for a recommended reading resource.
- */
-export type ReadingType = z.infer<typeof ReadingSchema>;

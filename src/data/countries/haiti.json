@@ -9,23 +9,62 @@
     "colonialPower": "France (1697-1804)",
     "legacy": "Haiti's modern fragility traces back to the international reaction to the Haitian Revolution. The world's first Black republic was diplomatically isolated, economically pressured and forced to buy recognition.\n\nIn 1825 France imposed an indemnity on Haiti to 'compensate' former slaveholders. Financed through foreign loans and paid over generations, the indemnity drained the new state's resources and entrenched dependency — a formative example of how post-colonial debt has been used to perpetuate extraction and limit sovereign development."
   },
-  "historicalContext": {
-    "postColonialDebtAndExtraction": "The 1825 indemnity established a pattern of external economic control that shaped Haiti's fiscal and development trajectory. Successive loans, debt-servicing obligations and mercantilist trade pressures channelled wealth outwards rather than funding broad-based investment, undermining agricultural resilience, infrastructure and state capacity.\n\nThese structural pressures were reinforced across the 19th and 20th centuries by discriminatory trade policies, foreign business interests and conditional financial relations that favoured foreign capital over local development.",
-    "foreignInterventionAndOccupation": "Foreign interventions have repeatedly undermined Haitian sovereignty. The US occupation (1915-1934) centralised fiscal control, moved gold reserves offshore and rewrote key legal frameworks to favour foreign interests. Later international economic prescriptions—most notoriously, the reduction of tariffs on imported US rice, which destroyed local rice farming and created chronic food dependency—weakened domestic agriculture and industry, increasing dependence on imports and external aid.\n\nInternational actors have also played direct political roles, including support for coups and pressure on elected governments, leaving Haiti with chronically weakened institutions and limited capacity to manage recurrent shocks.",
-    "coldWarDictatorshipAndUSPatronage": "For nearly three decades (1957-1986), Haiti was ruled by the brutal and kleptocratic Duvalier family dictatorship. As a staunchly anti-communist regime in close proximity to Cuba, the Duvaliers were largely supported and funded by the United States as a Cold War client. This imperial patronage allowed the regime to terrorise the population and loot the state, further hollowing out institutions and entrenching a model of violent, predatory rule that benefited foreign interests.",
-    "publicHealthAndUnresponsibility": "International presence has also inflicted direct harm: UN peacekeepers inadvertently introduced a cholera epidemic in 2010 that caused thousands of deaths and provoked a protracted public health disaster for which the UN has since acknowledged responsibility. This episode deepened mistrust of international actors and highlighted the risks of poorly governed external interventions.",
-    "internationalLawAndAccountability": "There are multiple accountability threads — historical (the 1825 indemnity and colonial expropriation), transitional (investigations into the 2021 assassination of President Moïse), and contemporaneous (documentation of human-rights abuses by gangs and by public actors). Formal international responses, including human-rights monitoring and UN Security Council authorisations for multilateral missions, exist but face political contestation and remain insufficient to meet victims' demands for justice and reparations."
-  },
-  "humanitarianImpact": {
-    "casualties": "Over 5,600 people killed in 2024, with gang violence escalating significantly.",
-    "affected": "Approximately 6 million people (roughly half the population) require humanitarian assistance.",
-    "foodInsecurity": "Roughly 5.7 million people face high levels of acute food insecurity.",
-    "displaced": "More than 1.3 million people internally displaced (a record high), driven by gang violence and attacks.",
-    "refugees": "Hundreds of thousands of Haitians have fled the country, with more facing deportation.",
-    "healthSystemCollapsed": "Many health facilities non-functional due to attacks and staff flight.",
-    "lackOfWaterAccess": "Millions lack access to safe drinking water and sanitation.",
-    "childrenOutOfSchool": "Hundreds of thousands of children out of school due to insecurity and displacement."
-  },
+  "historicalContext": [
+    {
+      "title": "Post-Colonial Debt and Extraction",
+      "description": "The 1825 indemnity established a pattern of external economic control that shaped Haiti's fiscal and development trajectory. Successive loans, debt-servicing obligations and mercantilist trade pressures channelled wealth outwards rather than funding broad-based investment, undermining agricultural resilience, infrastructure and state capacity.\n\nThese structural pressures were reinforced across the 19th and 20th centuries by discriminatory trade policies, foreign business interests and conditional financial relations that favoured foreign capital over local development."
+    },
+    {
+      "title": "Foreign Intervention and Occupation",
+      "description": "Foreign interventions have repeatedly undermined Haitian sovereignty. The US occupation (1915-1934) centralised fiscal control, moved gold reserves offshore and rewrote key legal frameworks to favour foreign interests. Later international economic prescriptions—most notoriously, the reduction of tariffs on imported US rice, which destroyed local rice farming and created chronic food dependency—weakened domestic agriculture and industry, increasing dependence on imports and external aid.\n\nInternational actors have also played direct political roles, including support for coups and pressure on elected governments, leaving Haiti with chronically weakened institutions and limited capacity to manage recurrent shocks."
+    },
+    {
+      "title": "Cold War Dictatorship and US Patronage",
+      "description": "For nearly three decades (1957-1986), Haiti was ruled by the brutal and kleptocratic Duvalier family dictatorship. As a staunchly anti-communist regime in close proximity to Cuba, the Duvaliers were largely supported and funded by the United States as a Cold War client. This imperial patronage allowed the regime to terrorise the population and loot the state, further hollowing out institutions and entrenching a model of violent, predatory rule that benefited foreign interests."
+    },
+    {
+      "title": "Public Health and Unresponsibility",
+      "description": "International presence has also inflicted direct harm: UN peacekeepers inadvertently introduced a cholera epidemic in 2010 that caused thousands of deaths and provoked a protracted public health disaster for which the UN has since acknowledged responsibility. This episode deepened mistrust of international actors and highlighted the risks of poorly governed external interventions."
+    },
+    {
+      "title": "International Law And Accountability",
+      "description": "There are multiple accountability threads — historical (the 1825 indemnity and colonial expropriation), transitional (investigations into the 2021 assassination of President Moïse), and contemporaneous (documentation of human-rights abuses by gangs and by public actors). Formal international responses, including human-rights monitoring and UN Security Council authorisations for multilateral missions, exist but face political contestation and remain insufficient to meet victims' demands for justice and reparations."
+    }
+  ],
+  "humanitarianImpact": [
+    {
+      "title": "Casualties",
+      "description": "Over 5,600 people killed in 2024, with gang violence escalating significantly."
+    },
+    {
+      "title": "Affected",
+      "description": "Approximately 6 million people (roughly half the population) require humanitarian assistance."
+    },
+    {
+      "title": "Food Insecurity",
+      "description": "Roughly 5.7 million people face high levels of acute food insecurity."
+    },
+    {
+      "title": "Displaced",
+      "description": "More than 1.3 million people internally displaced (a record high), driven by gang violence and attacks."
+    },
+    {
+      "title": "Refugees",
+      "description": "Hundreds of thousands of Haitians have fled the country, with more facing deportation."
+    },
+    {
+      "title": "Health System Collapsed",
+      "description": "Many health facilities non-functional due to attacks and staff flight."
+    },
+    {
+      "title": "Lack of Water Access",
+      "description": "Millions lack access to safe drinking water and sanitation."
+    },
+    {
+      "title": "Children Out of School",
+      "description": "Hundreds of thousands of children out of school due to insecurity and displacement."
+    }
+  ],
   "timeline": [
     {
       "year": "c. 1789",

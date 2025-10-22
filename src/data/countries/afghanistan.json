@@ -9,21 +9,54 @@
     "imperialPower": "Britain & Russian Empire (19th c. - 1919), USSR (1979-1989), US (2001-2021)",
     "legacy": "Afghanistan's contemporary fragility is embedded in a long history of foreign intervention. In the 19th century the 'Great Game' between the British and Russian empires reshaped frontier politics and weakened indigenous centres of authority. Soviet intervention (1979-1989) and the Cold War proxy struggles that preceded it precipitated decades of violent conflict and state collapse. The US intervention after 2001 created a hollow, aid-dependent rentier state. This nation-building project was fundamentally neoliberal, prioritising privatisation, outsourcing basic services to a vast network of foreign contractors and NGOs, and imposing a market-based model that fuelled systemic corruption and was unsustainable without massive external financing.\n\nEach major intervention reshaped Afghan social, economic and political institutions, often entrenching dependency, fragmenting local governance and amplifying violent non-state actors. The repeated external remaking of Afghanistan has therefore been a structural driver of instability and humanitarian vulnerability."
   },
-  "historicalContext": {
-    "theGraveyardOfEmpiresMyth": "The phrase 'graveyard of empires' is a trope that individualises failure and obscures the central role of sustained foreign interference. Successive imperial and great-power campaigns sought to reorder Afghan society and state institutions to serve external strategic aims — a process that frequently undermined local political autonomy and social cohesion. Rather than an inherent incapacity, much of Afghanistan's instability must be read as the product of repeated external interventions and extractive geopolitical competition.",
-    "theOpiumEconomyAndTheWarOnDrugs": "The 20-year international presence operated alongside a massive opium economy. Western-led counter-narcotics strategies, framed as a 'war on drugs', consistently failed and had perverse effects: they criminalised impoverished farmers who lacked alternative livelihoods, enriched corrupt officials and warlords involved in trafficking, and functioned as another misguided external policy that destabilised rural society while ignoring the root causes of poppy cultivation.",
-    "economicPressureAndSanctions": "After August 2021 international financial measures — notably the freezing of roughly $7 billion in central bank reserves held overseas and restrictions on formal banking relations — have constrained Afghanistan's ability to import, pay salaries and deliver public services. Multilateral and unilateral sanctions, plus restrictive de-risking by international banks and donors' conditionalities, have contributed to economic contraction, spiralling unemployment, and a sharp deterioration in living standards. Many analysts and humanitarian actors argue that these measures, as they have been applied, function as forms of economic coercion that disproportionately punish civilians and limit humanitarian space.\n\nThese pressures have compounded the impacts of climate shocks, conflict and displacement, producing one of the largest humanitarian crises in the world today.",
-    "internationalLawAndAccountability": "While the post-2021 context raises urgent humanitarian questions, there are also accountability dimensions connected to earlier interventions and the conduct of armed actors. Investigations, reporting and academic research have documented violations and long-term harm associated with successive periods of foreign military action, proxy support and state collapse. Although formal international accountability mechanisms have been limited or contested, documenting abuses and supporting Afghan civil society and survivors remains essential for redress and longer-term justice."
-  },
-  "humanitarianImpact": {
-    "casualties": "Tens of thousands of civilian deaths directly from conflict since 2001, with indirect deaths from healthcare disruption and malnutrition substantially higher.",
-    "affected": "Over 23.7 million people (roughly half the population) require humanitarian assistance.",
-    "foodInsecurity": "Around 15.8 million people face crisis-level food insecurity at peak lean seasons.",
-    "displaced": "Over 6.3 million people internally displaced by conflict, economic pressures and climate shocks.",
-    "refugees": "More than 8.2 million Afghans are refugees or in refugee-like situations in neighbouring countries.",
-    "healthSystemCollapsed": "Thousands of health facilities face closure or severe service cuts due to funding shortfalls.",
-    "livingInPoverty": "Extreme poverty has surged since 2021, with tens of millions living in conditions of deep economic insecurity."
-  },
+  "historicalContext": [
+    {
+      "title": "The \"Graveyard of Empires\" Myth",
+      "description": "The phrase 'graveyard of empires' is a trope that individualises failure and obscures the central role of sustained foreign interference. Successive imperial and great-power campaigns sought to reorder Afghan society and state institutions to serve external strategic aims — a process that frequently undermined local political autonomy and social cohesion. Rather than an inherent incapacity, much of Afghanistan's instability must be read as the product of repeated external interventions and extractive geopolitical competition."
+    },
+    {
+      "title": "The Opium Economy and the War on Drugs",
+      "description": "The 20-year international presence operated alongside a massive opium economy. Western-led counter-narcotics strategies, framed as a 'war on drugs', consistently failed and had perverse effects: they criminalised impoverished farmers who lacked alternative livelihoods, enriched corrupt officials and warlords involved in trafficking, and functioned as another misguided external policy that destabilised rural society while ignoring the root causes of poppy cultivation."
+    },
+    {
+      "title": "Economic Pressure and Sanctions",
+      "description": "After August 2021 international financial measures — notably the freezing of roughly $7 billion in central bank reserves held overseas and restrictions on formal banking relations — have constrained Afghanistan's ability to import, pay salaries and deliver public services. Multilateral and unilateral sanctions, plus restrictive de-risking by international banks and donors' conditionalities, have contributed to economic contraction, spiralling unemployment, and a sharp deterioration in living standards. Many analysts and humanitarian actors argue that these measures, as they have been applied, function as forms of economic coercion that disproportionately punish civilians and limit humanitarian space.\n\nThese pressures have compounded the impacts of climate shocks, conflict and displacement, producing one of the largest humanitarian crises in the world today."
+    },
+    {
+      "title": "International Law and Accountability",
+      "description": "While the post-2021 context raises urgent humanitarian questions, there are also accountability dimensions connected to earlier interventions and the conduct of armed actors. Investigations, reporting and academic research have documented violations and long-term harm associated with successive periods of foreign military action, proxy support and state collapse. Although formal international accountability mechanisms have been limited or contested, documenting abuses and supporting Afghan civil society and survivors remains essential for redress and longer-term justice."
+    }
+  ],
+  "humanitarianImpact": [
+    {
+      "title": "Casualties",
+      "description": "Tens of thousands of civilian deaths directly from conflict since 2001, with indirect deaths from healthcare disruption and malnutrition substantially higher."
+    },
+    {
+      "title": "Affected",
+      "description": "Over 23.7 million people (roughly half the population) require humanitarian assistance."
+    },
+    {
+      "title": "Food Insecurity",
+      "description": "Around 15.8 million people face crisis-level food insecurity at peak lean seasons."
+    },
+    {
+      "title": "Displaced",
+      "description": "Over 6.3 million people internally displaced by conflict, economic pressures and climate shocks."
+    },
+    {
+      "title": "Refugees",
+      "description": "More than 8.2 million Afghans are refugees or in refugee-like situations in neighbouring countries."
+    },
+    {
+      "title": "Health System Collapsed",
+      "description": "Thousands of health facilities face closure or severe service cuts due to funding shortfalls."
+    },
+    {
+      "title": "Living in Poverty",
+      "description": "Extreme poverty has surged since 2021, with tens of millions living in conditions of deep economic insecurity."
+    }
+  ],
   "timeline": [
     {
       "year": "1839-1919",

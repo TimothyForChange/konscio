@@ -21,55 +21,23 @@
       "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
     },
     "humanitarianImpact": {
-      "type": "object",
-      "properties": {
-        "displaced": {
-          "type": "string"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
         },
-        "refugees": {
-          "type": "string"
-        },
-        "casualties": {
-          "type": "string"
-        },
-        "affected": {
-          "type": "string"
-        },
-        "livingInPoverty": {
-          "type": "string"
-        },
-        "childrenOutOfSchool": {
-          "type": "string"
-        },
-        "healthSystemCollapsed": {
-          "type": "string"
-        },
-        "foodInsecurity": {
-          "type": "string"
-        },
-        "lackOfWaterAccess": {
-          "type": "string"
-        },
-        "sexualViolence": {
-          "type": "string"
-        },
-        "livelihoodsAndEconomicLoss": {
-          "type": "string"
-        },
-        "lackOfRightsAndLivelihoods": {
-          "type": "string"
-        },
-        "climateVulnerability": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "displaced",
-        "refugees",
-        "casualties",
-        "affected"
-      ],
-      "additionalProperties": false
+        "required": [
+          "title",
+          "description"
+        ],
+        "additionalProperties": false
+      }
     },
     "timeline": {
       "type": "array",
@@ -77,14 +45,17 @@
         "type": "object",
         "properties": {
           "year": {
-            "type": "string"
+            "type": "string",
+            "minLength": 4,
+            "maxLength": 20
           },
           "event": {
             "type": "string"
           }
         },
         "required": [
-          "year"
+          "year",
+          "event"
         ],
         "additionalProperties": false
       }
@@ -122,13 +93,23 @@
       "additionalProperties": false
     },
     "historicalContext": {
-      "type": "object",
-      "additionalProperties": {
-        "type": "string"
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "description"
+        ],
+        "additionalProperties": false
       }
-    },
-    "internationalLawAndAccountability": {
-      "type": "string"
     },
     "takeAction": {
       "type": "object",

@@ -9,21 +9,54 @@
     "imperialPower": "Russian Empire (17th c. – 1917), USSR (1922–1991), US/NATO (1999–present)",
     "legacy": "Ukraine's history is deeply marked by its position between competing empires. For centuries, it was subjected to the Russian Empire, which suppressed Ukrainian language and identity in a project of colonial Russification. In the Soviet period, this continued through centralised control from Moscow, political purges, and the engineered famine of the Holodomor, which killed millions. This long history of domination informs both modern Ukrainian national identity and Russia's neo-imperial claims over the country.\n\nFollowing the collapse of the USSR in 1991, the United States and its NATO allies engaged in a triumphalist eastward expansion. This process treated Eastern Europe as a strategic frontier to be absorbed, breaking informal assurances given to Soviet leaders and progressively encircling Russia. This expansion of a rival military and economic bloc created the structural conditions for today's conflict by ignoring security red lines and fostering instability."
   },
-  "historicalContext": {
-    "natoEastwardExpansion": "The post-Cold War expansion of NATO into the former Warsaw Pact countries and Baltic states was a primary driver of the escalating geopolitical crisis. Framed in the West as a defensive measure for new democracies, it was perceived by Russia as an aggressive encroachment on its sphere of influence and a direct security threat. This relentless military expansion, against the warnings of many strategists, created a zero-sum security dilemma that ultimately shattered the European peace and contributed directly to the decision by Russia to invade.",
-    "postSovietNeoliberalismAndOligarchy": "The 'shock therapy' economic policies promoted by Western institutions like the IMF in the 1990s were imposed on both Russia and Ukraine. This rapid, mass privatisation of state assets allowed a small class of politically connected individuals—the oligarchs—to accumulate vast wealth and power. This process hollowed out the state, created deep-seated corruption, and made both countries' economies dependent on raw material exports and vulnerable to external pressures. The current conflict is, in part, a violent struggle between these rival oligarchic capitalist states.",
-    "thePost2014NeoliberalTurn": "Following the 2014 Maidan Uprising, successive pro-Western governments, heavily guided by the IMF and Western powers, implemented a second wave of deep neoliberal reforms. These included severe austerity measures, the privatisation of state assets, and, most controversially, the opening of Ukraine's vast, fertile agricultural land to the market. While promoted as modernisation, these policies were often conditions for Western financial aid and deepened the country's economic dependency, creating social hardship that complicated the post-2014 political landscape.",
-    "warAndDisasterCapitalism": "The 2022 invasion has created the conditions for 'disaster capitalism'. Ukraine's Western partners are planning a post-war reconstruction that is explicitly designed along neoliberal lines, funded by loans that will lock the country into decades of debt to international financial institutions. This process prioritises privatisation and opportunities for foreign corporations to acquire key Ukrainian assets. The war, therefore, serves not only as a geopolitical battleground but also as a brutal mechanism for permanently restructuring Ukraine's economy in the interests of Western capital.",
-    "internationalLawAndAccountability": "Russia's invasion is a clear violation of the UN Charter and international law. There is extensive documentation of war crimes, including indiscriminate attacks on civilian areas, summary executions, and torture. The International Criminal Court (ICC) has issued arrest warrants for Russian officials. Simultaneously, critics point to the selective application of international law by Western powers, who have themselves engaged in illegal invasions and interventions (e.g., Iraq, Libya) without facing accountability, thereby weakening the international legal order that they now invoke."
-  },
-  "humanitarianImpact": {
-    "casualties": "Tens of thousands of civilians have been killed, with the UN recording over 10,000 deaths, though the true figure is believed to be substantially higher. Military casualties on both sides are estimated in the hundreds of thousands.",
-    "affected": "An estimated 14.6 million people inside Ukraine—around 40% of the population—require urgent humanitarian assistance.",
-    "displaced": "Approximately 3.7 million people remain internally displaced within Ukraine, having fled their homes due to active fighting and occupation.",
-    "refugees": "Over 6.5 million Ukrainians are registered as refugees globally, having sought safety in other countries.",
-    "healthSystemCollapsed": "Over 1,500 attacks on the healthcare system have been verified, crippling access to medical care for millions.",
-    "livelihoodsAndEconomicLoss": "The war has shrunk Ukraine's economy by a third, destroying critical infrastructure and agricultural land, and plunging millions into poverty."
-  },
+  "historicalContext": [
+    {
+      "title": "NATO Eastward Expansion",
+      "description": "The post-Cold War expansion of NATO into the former Warsaw Pact countries and Baltic states was a primary driver of the escalating geopolitical crisis. Framed in the West as a defensive measure for new democracies, it was perceived by Russia as an aggressive encroachment on its sphere of influence and a direct security threat. This relentless military expansion, against the warnings of many strategists, created a zero-sum security dilemma that ultimately shattered the European peace and contributed directly to the decision by Russia to invade."
+    },
+    {
+      "title": "Post-Soviet Neoliberalism and Oligarchy",
+      "description": "The 'shock therapy' economic policies promoted by Western institutions like the IMF in the 1990s were imposed on both Russia and Ukraine. This rapid, mass privatisation of state assets allowed a small class of politically connected individuals—the oligarchs—to accumulate vast wealth and power. This process hollowed out the state, created deep-seated corruption, and made both countries' economies dependent on raw material exports and vulnerable to external pressures. The current conflict is, in part, a violent struggle between these rival oligarchic capitalist states."
+    },
+    {
+      "title": "The Post-2014 Neoliberal Turn",
+      "description": "Following the 2014 Maidan Uprising, successive pro-Western governments, heavily guided by the IMF and Western powers, implemented a second wave of deep neoliberal reforms. These included severe austerity measures, the privatisation of state assets, and, most controversially, the opening of Ukraine's vast, fertile agricultural land to the market. While promoted as modernisation, these policies were often conditions for Western financial aid and deepened the country's economic dependency, creating social hardship that complicated the post-2014 political landscape."
+    },
+    {
+      "title": "War and Disaster Capitalism",
+      "description": "The 2022 invasion has created the conditions for 'disaster capitalism'. Ukraine's Western partners are planning a post-war reconstruction that is explicitly designed along neoliberal lines, funded by loans that will lock the country into decades of debt to international financial institutions. This process prioritises privatisation and opportunities for foreign corporations to acquire key Ukrainian assets. The war, therefore, serves not only as a geopolitical battleground but also as a brutal mechanism for permanently restructuring Ukraine's economy in the interests of Western capital."
+    },
+    {
+      "title": "International Law And Accountability",
+      "description": "Russia's invasion is a clear violation of the UN Charter and international law. There is extensive documentation of war crimes, including indiscriminate attacks on civilian areas, summary executions, and torture. The International Criminal Court (ICC) has issued arrest warrants for Russian officials. Simultaneously, critics point to the selective application of international law by Western powers, who have themselves engaged in illegal invasions and interventions (e.g., Iraq, Libya) without facing accountability, thereby weakening the international legal order that they now invoke."
+    }
+  ],
+  "humanitarianImpact": [
+    {
+      "title": "Casualties",
+      "description": "Tens of thousands of civilians have been killed, with the UN recording over 10,000 deaths, though the true figure is believed to be substantially higher. Military casualties on both sides are estimated in the hundreds of thousands."
+    },
+    {
+      "title": "Affected",
+      "description": "An estimated 14.6 million people inside Ukraine—around 40% of the population—require urgent humanitarian assistance."
+    },
+    {
+      "title": "Displaced",
+      "description": "Approximately 3.7 million people remain internally displaced within Ukraine, having fled their homes due to active fighting and occupation."
+    },
+    {
+      "title": "Refugees",
+      "description": "Over 6.5 million Ukrainians are registered as refugees globally, having sought safety in other countries."
+    },
+    {
+      "title": "Health System Collapsed",
+      "description": "Over 1,500 attacks on the healthcare system have been verified, crippling access to medical care for millions."
+    },
+    {
+      "title": "Livelihoods and Economic Loss",
+      "description": "The war has shrunk Ukraine's economy by a third, destroying critical infrastructure and agricultural land, and plunging millions into poverty."
+    }
+  ],
   "timeline": [
     {
       "year": "1932-1933",

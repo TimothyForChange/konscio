@@ -9,20 +9,50 @@
     "colonialPower": "Belgium (1885-1960)",
     "legacy": "The contemporary crisis is rooted in Belgium's extraction-first colonial project. King Leopold II's Congo Free State treated the territory as a private resource, unleashing forced labour, violence and mass mortality to extract rubber and other commodities. After 1908, Belgian state rule continued a political economy designed for extraction rather than local development.\n\nBelgian colonial institutions prioritised mineral concession systems, segregated labour regimes and elite-friendly governance that hollowed out public institutions and legal protections. The post-independence state inherited weak institutions, clientelist networks and externally oriented extraction models that made the region vulnerable to predatory neighbours, multinational corporations and armed actors seeking control of mineral rents."
   },
-  "historicalContext": {
-    "theColdWarAndKleptocracy": "After Lumumba's assassination, the West installed and backed the 32-year dictatorship of Mobutu Sese Seko. As a key Cold War client, Mobutu received billions in Western financial and military aid in exchange for anti-communist alignment and favourable access to resources for foreign corporations. He perfected a system of kleptocracy, personally embezzling billions while the state's infrastructure and institutions disintegrated. When the Cold War ended and his Western patrons abandoned him, the country, crippled by odious debt, was then subjected to IMF-led structural adjustment programmes that enforced austerity and sealed the state's total collapse, creating the power vacuum that directly led to the Congo Wars.",
-    "conflictMineralsAndForeignInfluence": "Eastern Congo's mineral wealth sits at the intersection of local militias, regional strategic interests and global markets. Armed groups and complicit intermediaries control mines, tax artisanal production and smuggle valuable minerals into international supply chains. Investigations by UN panels, Amnesty International and Human Rights Watch document forced evictions, labour abuses and supply-chain opacity that connect extractive industries to human-rights violations.\n\nThe demand for minerals associated with electronics, batteries and vehicles creates incentives for territorial control by armed groups and for states to project influence across borders. Corporate due-diligence gaps and weak regulatory enforcement in sourcing countries allow these systems to persist.",
-    "internationalLawAndAccountability": "Multiple international mechanisms have engaged with the DRC crisis. The UN Group of Experts on the DRC has repeatedly documented regional support for armed groups and illicit exploitation of resources (notably in reports such as S/2024/432). National and international investigations, civil-society documentation and occasional prosecutions have exposed abuses, but systemic accountability remains limited. Remedies require both criminal accountability for serious violations and structural reforms to ensure resource governance, corporate responsibility and reparations for affected communities."
-  },
-  "humanitarianImpact": {
-    "casualties": "Conflict-related deaths since the late 1990s likely number in the millions.",
-    "affected": "Roughly 25.4 million people in need of humanitarian assistance.",
-    "displaced": "Nearly 7 million people internally displaced, the highest level in recent DRC history.",
-    "refugees": "More than 1 million DRC refugees and asylum-seekers in neighbouring countries.",
-    "childrenOutOfSchool": "Millions of children out of school due to conflict and displacement.",
-    "sexualViolence": "Sexual and gender-based violence is endemic; tens of thousands of survivors treated annually.",
-    "livelihoodsAndEconomicLoss": "Mining communities face dispossession and forced labour as armed groups control resources."
-  },
+  "historicalContext": [
+    {
+      "title": "The Cold War and Kleptocracy",
+      "description": "After Lumumba's assassination, the West installed and backed the 32-year dictatorship of Mobutu Sese Seko. As a key Cold War client, Mobutu received billions in Western financial and military aid in exchange for anti-communist alignment and favourable access to resources for foreign corporations. He perfected a system of kleptocracy, personally embezzling billions while the state's infrastructure and institutions disintegrated. When the Cold War ended and his Western patrons abandoned him, the country, crippled by odious debt, was then subjected to IMF-led structural adjustment programmes that enforced austerity and sealed the state's total collapse, creating the power vacuum that directly led to the Congo Wars."
+    },
+    {
+      "title": "Conflict Minerals and Foreign Influence",
+      "description": "Eastern Congo's mineral wealth sits at the intersection of local militias, regional strategic interests and global markets. Armed groups and complicit intermediaries control mines, tax artisanal production and smuggle valuable minerals into international supply chains. Investigations by UN panels, Amnesty International and Human Rights Watch document forced evictions, labour abuses and supply-chain opacity that connect extractive industries to human-rights violations.\n\nThe demand for minerals associated with electronics, batteries and vehicles creates incentives for territorial control by armed groups and for states to project influence across borders. Corporate due-diligence gaps and weak regulatory enforcement in sourcing countries allow these systems to persist."
+    },
+    {
+      "title": "International Law And Accountability",
+      "description": "Multiple international mechanisms have engaged with the DRC crisis. The UN Group of Experts on the DRC has repeatedly documented regional support for armed groups and illicit exploitation of resources (notably in reports such as S/2024/432). National and international investigations, civil-society documentation and occasional prosecutions have exposed abuses, but systemic accountability remains limited. Remedies require both criminal accountability for serious violations and structural reforms to ensure resource governance, corporate responsibility and reparations for affected communities."
+    }
+  ],
+  "humanitarianImpact": [
+    {
+      "title": "Casualties",
+      "description": "Conflict-related deaths since the late 1990s likely number in the millions."
+    },
+    {
+      "title": "Affected",
+      "description": "Roughly 25.4 million people in need of humanitarian assistance."
+    },
+    {
+      "title": "Displaced",
+      "description": "Nearly 7 million people internally displaced, the highest level in recent DRC history."
+    },
+    {
+      "title": "Refugees",
+      "description": "More than 1 million DRC refugees and asylum-seekers in neighbouring countries."
+    },
+    {
+      "title": "Children Out of School",
+      "description": "Millions of children out of school due to conflict and displacement."
+    },
+    {
+      "title": "Sexual Violence",
+      "description": "Sexual and gender-based violence is endemic; tens of thousands of survivors treated annually."
+    },
+    {
+      "title": "Livelihoods and Economic Loss",
+      "description": "Mining communities face dispossession and forced labour as armed groups control resources."
+    }
+  ],
   "timeline": [
     {
       "year": "1885",

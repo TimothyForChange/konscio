@@ -9,20 +9,50 @@
     "imperialPower": "France (1923–1946), USSR/Russia & US (Cold War – present)",
     "legacy": "The modern Syrian state is a direct product of imperial design. The 1916 Sykes-Picot Agreement between Britain and France carved up the Ottoman Empire, and the subsequent French Mandate created Syria's artificial borders. France implemented classic 'divide-and-rule' tactics, exacerbating sectarian tensions by favouring certain minority groups, particularly the Alawites, in the colonial military and administration. This policy deliberately fragmented national identity and laid the structural foundations for the sectarian dimensions of the later conflict.\n\nDuring the Cold War, Syria became a key client state of the Soviet Union, positioning it as a frontline in the regional rivalry with the US and its allies. This entrenched an authoritarian, security-dominated state structure and deepened its geopolitical isolation from Western powers, setting the stage for the intense foreign interventions that followed the 2011 uprising."
   },
-  "historicalContext": {
-    "preWarNeoliberalReforms": "A key catalyst for the 2011 uprising was the economic policy of the preceding decade. Encouraged by the IMF and World Bank, the government of Bashar al-Assad implemented a series of neoliberal 'reforms' that dismantled state subsidies, privatised public assets, and opened the economy to foreign capital. This process enriched a small crony-capitalist class connected to the regime while creating mass unemployment and deepening poverty, especially in rural areas. The protests were, in large part, a rebellion against this rising inequality.",
-    "internationalisedProxyWarfare": "The Syrian conflict is a catastrophic example of a domestic uprising being hijacked by external forces. Seeking regime change, the United States, Turkey, Saudi Arabia, and Qatar provided financial and military support to a fragmented and increasingly radicalised opposition. In response, Russia and Iran intervened decisively to preserve the Syrian government and secure their own strategic interests, including Russia's key naval base at Tartus. This transformed the conflict into a multi-sided proxy war, fought to the last Syrian, for geopolitical dominance.",
-    "fragmentationAndTheWarOnTerror": "The chaos of the war, itself fuelled by the 2003 US invasion of Iraq, enabled the rise of ISIS, which seized large swathes of Syrian territory. The subsequent US-led intervention to combat ISIS, which included a devastating air campaign that flattened cities like Raqqa, defeated the group's territorial 'caliphate' but resulted in the de-facto US military occupation of northeast Syria. This intervention further fragmented the country, placed its most productive oil and agricultural lands under the control of US-backed proxy forces, and added another layer of imperial entanglement to the conflict."
-  },
-  "humanitarianImpact": {
-    "casualties": "At least 300,000 civilians have been killed in the conflict, with total deaths estimated to be well over half a million.",
-    "affected": "An estimated 16.7 million people inside Syria require humanitarian assistance to meet their basic needs.",
-    "foodInsecurity": "An estimated 12.9 million people are food insecure, with millions facing acute hunger.",
-    "displaced": "Over 7.2 million people are internally displaced, many having been forced to flee multiple times.",
-    "refugees": "Over 6.8 million Syrians are refugees and asylum-seekers, constituting the largest refugee population in the world.",
-    "childrenOutOfSchool": "Over 2.4 million school-aged children inside Syria are out of school, with the education system decimated.",
-    "livingInPoverty": "Over 90% of the population lives below the poverty line, facing extreme economic hardship."
-  },
+  "historicalContext": [
+    {
+      "title": "Pre-War Neoliberal Reforms",
+      "description": "A key catalyst for the 2011 uprising was the economic policy of the preceding decade. Encouraged by the IMF and World Bank, the government of Bashar al-Assad implemented a series of neoliberal 'reforms' that dismantled state subsidies, privatised public assets, and opened the economy to foreign capital. This process enriched a small crony-capitalist class connected to the regime while creating mass unemployment and deepening poverty, especially in rural areas. The protests were, in large part, a rebellion against this rising inequality."
+    },
+    {
+      "title": "Internationalised Proxy Warfare",
+      "description": "The Syrian conflict is a catastrophic example of a domestic uprising being hijacked by external forces. Seeking regime change, the United States, Turkey, Saudi Arabia, and Qatar provided financial and military support to a fragmented and increasingly radicalised opposition. In response, Russia and Iran intervened decisively to preserve the Syrian government and secure their own strategic interests, including Russia's key naval base at Tartus. This transformed the conflict into a multi-sided proxy war, fought to the last Syrian, for geopolitical dominance."
+    },
+    {
+      "title": "Fragmentation and the War on Terror",
+      "description": "The chaos of the war, itself fuelled by the 2003 US invasion of Iraq, enabled the rise of ISIS, which seized large swathes of Syrian territory. The subsequent US-led intervention to combat ISIS, which included a devastating air campaign that flattened cities like Raqqa, defeated the group's territorial 'caliphate' but resulted in the de-facto US military occupation of northeast Syria. This intervention further fragmented the country, placed its most productive oil and agricultural lands under the control of US-backed proxy forces, and added another layer of imperial entanglement to the conflict."
+    }
+  ],
+  "humanitarianImpact": [
+    {
+      "title": "Casualties",
+      "description": "At least 300,000 civilians have been killed in the conflict, with total deaths estimated to be well over half a million."
+    },
+    {
+      "title": "Affected",
+      "description": "An estimated 16.7 million people inside Syria require humanitarian assistance to meet their basic needs."
+    },
+    {
+      "title": "Food Insecurity",
+      "description": "An estimated 12.9 million people are food insecure, with millions facing acute hunger."
+    },
+    {
+      "title": "Displaced",
+      "description": "Over 7.2 million people are internally displaced, many having been forced to flee multiple times."
+    },
+    {
+      "title": "Refugees",
+      "description": "Over 6.8 million Syrians are refugees and asylum-seekers, constituting the largest refugee population in the world."
+    },
+    {
+      "title": "Children Out of School",
+      "description": "Over 2.4 million school-aged children inside Syria are out of school, with the education system decimated."
+    },
+    {
+      "title": "Living in Poverty",
+      "description": "Over 90% of the population lives below the poverty line, facing extreme economic hardship."
+    }
+  ],
   "timeline": [
     {
       "year": "1916",

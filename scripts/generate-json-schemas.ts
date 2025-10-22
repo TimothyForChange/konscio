@@ -35,3 +35,5 @@ export function generateSchemas(logger = console) {
   fs.writeFileSync(countryDataPath, JSON.stringify(countryDataJsonSchema, null, 2));
   logger.info(`Wrote country-data schema to ${countryDataPath}`);
 }
+
+generateSchemas();

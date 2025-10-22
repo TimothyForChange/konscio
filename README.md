@@ -62,14 +62,19 @@ This script will update files in `src/schemas/json/` automatically. Do not edit 
 
 The project is organised with a standard Astro project layout:
 
-- `src/pages/`: Contains all pages and routes for the website.
-- `src/layouts/`: Defines the basic page structure and templates.
+- `src/assets/`: Contains static assets like scripts and other resources.
 - `src/components/`: Holds reusable UI components (e.g., cards, buttons).
+- `src/constants/`: Defines shared constants and configuration values.
 - `src/data/`: Stores all content, primarily in JSON files.
   - `src/data/countries/`: Contains the detailed JSON data for each country.
   - `src/data/mapping/`: Includes files for listing and mapping country metadata.
+- `src/layouts/`: Defines the basic page structure and templates.
+- `src/pages/`: Contains all pages and routes for the website.
 - `src/schemas/`: Defines Zod schemas for validating all data structures.
 - `src/styles/`: Contains global CSS, including variables and resets.
+- `src/types/`: Defines TypeScript type definitions.
+- `src/utils/`: Contains utility functions and helpers.
+- `src/validators/`: Contains validation functions for data structures.
 - `public/`: Stores static assets like images and fonts.
 
 ## Adding a New Country
@@ -80,9 +85,7 @@ To add a new country to the site, follow these steps:
 
 2.  **Update Country List**: Open `src/data/mapping/countries.ts` and add a new country object to the `countries` array. This object contains metadata like the country's name, slug, flag, and a brief description.
 
-3.  **Update Key-Title Mapping**: If your new country's data file includes unique keys in the `historicalContext` section, you must map them to a human-readable title in `src/data/mapping/key-title-mapping.ts`.
-
-4.  **Add a Country Image (Optional)**: Place a WebP image for the country flag or a representative photo in the `public/countries/` directory.
+3.  **Add a Country Image (Optional)**: Place a WebP image for the country flag or a representative photo in the `public/countries/` directory.
 
 ## Stack
 

@@ -22,13 +22,3 @@ const MissionSchema = z.object({
 });
 
 export { MissionSchema, ResourceLinkSchema };
-
-/**
- * TypeScript type for the mission statement data.
- */
-export type MissionType = z.infer<typeof MissionSchema>;
-
-/**
- * TypeScript type for a single resource link.
- */
-export type ResourceLinkType = z.infer<typeof ResourceLinkSchema>;

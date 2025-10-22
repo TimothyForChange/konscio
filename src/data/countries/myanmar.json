@@ -9,21 +9,54 @@
     "colonialPower": "Britain (1824-1948)",
     "legacy": "British colonial policy created the fissures that define Myanmar's modern conflicts. Through a 'divide and rule' strategy, Britain administered the central Bamar lowlands separately from the 'Frontier Areas' inhabited by ethnic minorities. The British institutionalised ethnic identities and used minority groups like the Karen and Kachin in their colonial army, deepening divisions.\n\nThis administrative segregation ensured that at independence, Burma was not a unified nation but a fractured state, with a powerful Bamar-dominated centre and deeply distrustful ethnic peripheries. This structure of internal inequality and division was inherited and ruthlessly exploited by the post-colonial military."
   },
-  "historicalContext": {
-    "theMilitaryAsAStateWithinAState": "For over 60 years, the Tatmadaw has operated as a state within a state, functioning as a privileged political and economic class. Through two massive military-owned conglomerates, Myanmar Economic Holdings Ltd (MEHL) and Myanmar Economic Corporation (MEC), it controls vast swathes of the economy, from banking and breweries to jade mining. The 2021 coup was not just a political power grab but a violent move to protect this entrenched economic empire from the threat of democratic, civilian oversight.",
-    "khakiCapitalismAndTheFailedTransition": "The decade of quasi-civilian rule (c. 2011-2021) was not a true democratic transition but a period of military-managed neoliberal reform. The economy was opened to foreign investment, but this capital often flowed into joint ventures with military conglomerates and their cronies, modernising their economic empire under a civilian facade. This 'khaki capitalism' enriched the elite and entrenched the military's power, while the much-lauded peace process was used to divide ethnic groups. The NLD government, led by Aung San Suu Kyi, was constrained by the military's constitutional power and failed to challenge the core structures of its repressive, Bamar-centric state, culminating in her defence of the military's genocide against the Rohingya.",
-    "postCoupRevolutionAndEthnicSolidarity": "The 2021 coup ignited a nationwide revolution. Unlike previous uprisings, it has forged a powerful, if fragile, solidarity between the Bamar majority and many of the country's long-oppressed ethnic minorities. The opposition's National Unity Government (NUG) and its armed wings (PDFs) are fighting alongside veteran Ethnic Armed Organisations. The shared experience of the Tatmadaw's brutality has forced many Bamar democrats to confront the military's long history of atrocities against ethnic peoples like the Rohingya, creating the potential for a new, federalist vision for the country.",
-    "geopoliticalEnablersAndCorporateComplicity": "The junta's war effort is sustained by external support. Russia and China are its primary arms suppliers and provide diplomatic cover at the UN Security Council, blocking meaningful action like a global arms embargo. Regionally, ASEAN's response has been weak and ineffective. Furthermore, some multinational corporations, particularly in the oil and gas sector (like TotalEnergies and Chevron until their recent withdrawals), have been criticised for generating revenues that have flowed directly to the junta, effectively financing its campaign of terror against the population."
-  },
-  "humanitarianImpact": {
-    "displaced": "Over 3 million people have been internally displaced since the 2021 coup, fleeing air strikes and military attacks.",
-    "refugees": "Hundreds of thousands have fled to neighbouring Thailand and India since the coup, in addition to the nearly 1 million Rohingya refugees in Bangladesh.",
-    "casualties": "At least 6,300 civilians have been killed by the junta since 2021, though the actual number is likely far higher. Total conflict deaths are in the tens of thousands.",
-    "affected": "An estimated 18.6 million people—one-third of the population—require humanitarian assistance.",
-    "foodInsecurity": "Around 12.9 million people are facing acute food insecurity as the conflict has shattered supply chains and destroyed agricultural livelihoods.",
-    "healthSystemCollapsed": "The health system has collapsed after being systematically targeted by the junta, with hundreds of attacks on hospitals and medical staff.",
-    "livelihoodsAndEconomicLoss": "The economy has contracted severely since the coup, plunging millions into poverty."
-  },
+  "historicalContext": [
+    {
+      "title": "The Military as a State Within a State",
+      "description": "For over 60 years, the Tatmadaw has operated as a state within a state, functioning as a privileged political and economic class. Through two massive military-owned conglomerates, Myanmar Economic Holdings Ltd (MEHL) and Myanmar Economic Corporation (MEC), it controls vast swathes of the economy, from banking and breweries to jade mining. The 2021 coup was not just a political power grab but a violent move to protect this entrenched economic empire from the threat of democratic, civilian oversight."
+    },
+    {
+      "title": "Khaki Capitalism and the Failed Transition",
+      "description": "The decade of quasi-civilian rule (c. 2011-2021) was not a true democratic transition but a period of military-managed neoliberal reform. The economy was opened to foreign investment, but this capital often flowed into joint ventures with military conglomerates and their cronies, modernising their economic empire under a civilian facade. This 'khaki capitalism' enriched the elite and entrenched the military's power, while the much-lauded peace process was used to divide ethnic groups. The NLD government, led by Aung San Suu Kyi, was constrained by the military's constitutional power and failed to challenge the core structures of its repressive, Bamar-centric state, culminating in her defence of the military's genocide against the Rohingya."
+    },
+    {
+      "title": "Post-Coup Revolution and Ethnic Solidarity",
+      "description": "The 2021 coup ignited a nationwide revolution. Unlike previous uprisings, it has forged a powerful, if fragile, solidarity between the Bamar majority and many of the country's long-oppressed ethnic minorities. The opposition's National Unity Government (NUG) and its armed wings (PDFs) are fighting alongside veteran Ethnic Armed Organisations. The shared experience of the Tatmadaw's brutality has forced many Bamar democrats to confront the military's long history of atrocities against ethnic peoples like the Rohingya, creating the potential for a new, federalist vision for the country."
+    },
+    {
+      "title": "Geopolitical Enablers and Corporate Complicity",
+      "description": "The junta's war effort is sustained by external support. Russia and China are its primary arms suppliers and provide diplomatic cover at the UN Security Council, blocking meaningful action like a global arms embargo. Regionally, ASEAN's response has been weak and ineffective. Furthermore, some multinational corporations, particularly in the oil and gas sector (like TotalEnergies and Chevron until their recent withdrawals), have been criticised for generating revenues that have flowed directly to the junta, effectively financing its campaign of terror against the population."
+    }
+  ],
+  "humanitarianImpact": [
+    {
+      "title": "Displaced",
+      "description": "Over 3 million people have been internally displaced since the 2021 coup, fleeing air strikes and military attacks."
+    },
+    {
+      "title": "Refugees",
+      "description": "Hundreds of thousands have fled to neighbouring Thailand and India since the coup, in addition to the nearly 1 million Rohingya refugees in Bangladesh."
+    },
+    {
+      "title": "Casualties",
+      "description": "At least 6,300 civilians have been killed by the junta since 2021, though the actual number is likely far higher. Total conflict deaths are in the tens of thousands."
+    },
+    {
+      "title": "Affected",
+      "description": "An estimated 18.6 million people—one-third of the population—require humanitarian assistance."
+    },
+    {
+      "title": "Food Insecurity",
+      "description": "Around 12.9 million people are facing acute food insecurity as the conflict has shattered supply chains and destroyed agricultural livelihoods."
+    },
+    {
+      "title": "Health System Collapsed",
+      "description": "The health system has collapsed after being systematically targeted by the junta, with hundreds of attacks on hospitals and medical staff."
+    },
+    {
+      "title": "Livelihoods and Economic Loss",
+      "description": "The economy has contracted severely since the coup, plunging millions into poverty."
+    }
+  ],
   "timeline": [
     {
       "year": "1948",
