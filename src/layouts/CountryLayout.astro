@@ -34,9 +34,7 @@ const image = hasImage ? `/countries/${countrySlug}.webp` : undefined;
 const countryMapping = Array.isArray(countriesList)
   ? countriesList.find((c) => c.slug === countrySlug)
   : undefined;
-const pageDescription =
-  countryMapping?.seoDescription ||
-  `Learn about structural violence in ${countryData?.name} - Timothy for Change provides critical analysis of global crises.`;
+const pageDescription = countryMapping?.seoDescription;
 const canonicalUrl = `https://timothyforchange.co.za/${encodeURIComponent(countrySlug)}`;
 
 const articleSchema = {
