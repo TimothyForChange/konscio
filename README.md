@@ -68,6 +68,8 @@ The project is organised with a standard Astro project layout:
 - `src/data/`: Stores all content, primarily in JSON files.
   - `src/data/countries/`: Contains the detailed JSON data for each country.
   - `src/data/mapping/`: Includes files for listing and mapping country metadata.
+  - `src/data/mission/`: Contains the mission statement and related links.
+  - `src/data/tooltips/`: Contains tooltip definitions for key terms.
 - `src/layouts/`: Defines the basic page structure and templates.
 - `src/pages/`: Contains all pages and routes for the website.
 - `src/schemas/`: Defines Zod schemas for validating all data structures.
