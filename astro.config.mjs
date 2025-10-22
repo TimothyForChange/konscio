@@ -43,4 +43,5 @@ export default defineConfig({
   vite: {
     plugins: [FontaineTransform.vite(fontaineOptions)],
   },
+  prefetch: true,
 });

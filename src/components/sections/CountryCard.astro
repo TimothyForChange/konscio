@@ -13,6 +13,7 @@ const { slug, name, flag, description, category } = Astro.props as CountryCardPr
   href={`/countries/${slug}`}
   data-category={category ?? ''}
   aria-label={`Learn about ${name}. ${description ?? ''}`}
+  data-astro-prefetch
 >
   <div class='country-card-inner'>
     {
