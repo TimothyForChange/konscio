@@ -49,6 +49,7 @@ export interface Organisation {
   organisation: string;
   description: string;
   url: string;
+  buttonText?: string;
 }
 
 /**
@@ -73,8 +74,8 @@ export interface CountryData {
   lastUpdated: string;
   humanitarianImpact: HumanitarianImpact;
   timeline: TimelineEvent[];
-  colonialRoot: ColonialRoot;
-  imperialRoot: ImperialRoot;
+  colonialRoot?: ColonialRoot;
+  imperialRoot?: ImperialRoot;
   historicalContext: {
     title: string;
     description: string;

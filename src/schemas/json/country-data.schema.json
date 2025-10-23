@@ -136,7 +136,8 @@
             "required": [
               "organisation",
               "description",
-              "url"
+              "url",
+              "buttonText"
             ],
             "additionalProperties": false
           }
@@ -185,7 +186,8 @@
         },
         "required": [
           "title",
-          "url"
+          "url",
+          "description"
         ],
         "additionalProperties": false
       }
@@ -199,6 +201,8 @@
     "lastUpdated",
     "humanitarianImpact",
     "timeline",
+    "colonialRoot",
+    "imperialRoot",
     "historicalContext",
     "takeAction",
     "reading"

@@ -47,7 +47,7 @@ const OrganisationSchema = z.object({
   organisation: z.string(),
   description: z.string(),
   url: z.string().url('Organisation URL must be a valid URL'),
-  buttonText: z.string(),
+  buttonText: z.string().optional(),
 });
 
 /**
@@ -87,8 +87,8 @@ const CountryDataSchema = z.object({
     .regex(/^\d{4}-\d{2}-\d{2}$/, 'Date must be in YYYY-MM-DD format'),
   humanitarianImpact: HumanitarianImpactSchema,
   timeline: z.array(TimelineEventSchema),
-  colonialRoot: ColonialRootSchema,
-  imperialRoot: ImperialRootSchema,
+  colonialRoot: ColonialRootSchema.optional(),
+  imperialRoot: ImperialRootSchema.optional(),
   historicalContext: z.array(
     z.object({
       title: z.string(),
