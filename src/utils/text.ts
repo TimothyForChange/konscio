@@ -36,7 +36,11 @@ function injectTooltips(text: string): string {
 }
 
 /**
- * Injects tooltips into plain text (no markdown).
+ * Injects tooltips into plain text (no markdown) by finding matches for tooltip keys,
+ * ensuring no overlapping spans, and wrapping matched text with data-tooltip spans.
+ *
+ * @param text - The plain text to process.
+ * @returns The text with tooltips injected.
  */
 function injectTooltipsToPlainText(text: string): string {
   const matches: Array<{
@@ -107,7 +111,7 @@ function injectTooltipsToPlainText(text: string): string {
 }
 
 /**
- * Formats a string by escaping HTML and converting markdown-like bold syntax to `<strong>` tags.
+ * Formats a string by escaping HTML and converting markdown-like bold and italic syntax to `<strong>` and `<em>` tags.
  *
  * @param text - The text to format.
  * @returns The formatted HTML string.
@@ -119,7 +123,8 @@ export function formatText(text: string): string {
     /\*\*(.*?)\*\*/g,
     '<strong>$1</strong>'
   );
-  return bolded;
+  const italicized = bolded.replaceAll(/\*(.*?)\*/g, '<em>$1</em>');
+  return italicized;
 }
 
 /**

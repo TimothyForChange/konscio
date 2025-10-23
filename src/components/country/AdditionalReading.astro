@@ -1,7 +1,6 @@
 ---
 import type { Reading } from '../../types/country';
-import ActionSection from './ActionSection.astro';
-import type { ActionGroupData } from './ActionSection.astro';
+import ActionGroup from './ActionGroup.astro';
 
 export interface Properties {
   reading: Reading[];
@@ -13,20 +12,146 @@ const { reading, id } = Astro.props as Properties;
 if (reading.length === 0) {
   return;
 }
-
-const groups: ActionGroupData[] = [
-  {
-    icon: 'ri-book-open-line',
-    title: 'Further Reading',
-    type: 'links',
-    items: reading.map((item) => ({
-      title: item.title,
-      description: item.description,
-      url: item.url,
-      buttonText: item.title,
-    })),
-  },
-];
 ---
 
-<ActionSection sectionTitle='Additional Reading' groups={groups} id={id} />
+<section
+  class='action-section section'
+  {...id ? { id } : {}}
+  aria-labelledby={id || 'action-section'}
+>
+  <h2 id={id || 'action-section'} class='section-heading'>
+    Additional Reading
+  </h2>
+  <ActionGroup icon='ri-book-open-line' title='Further Reading'>
+    <div class='donate-organisations'>
+      {
+        reading.map((item) => {
+          const sanitizedUrl = item.url.startsWith('http')
+            ? item.url
+            : `https://${item.url}`;
+          return (
+            <a
+              href={sanitizedUrl}
+              class='link-card'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label={`${item.title} (opens in new tab)`}
+            >
+              <div class='link-content'>
+                <h4 class='link-title'>{item.title}</h4>
+                <p class='link-description'>{item.description}</p>
+              </div>
+              <i class='ri-external-link-line' aria-hidden='true' />
+            </a>
+          );
+        })
+      }
+    </div>
+  </ActionGroup>
+</section>
+
+<style>
+  .action-section {
+    background: var(--bg-card);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    padding: var(--section-gap);
+    margin-bottom: var(--section-gap);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .action-section h2 {
+    margin-top: 0;
+    font-size: var(--section-heading-size-lg);
+  }
+
+  .donate-organisations {
+    display: grid;
+    gap: var(--gap-lg);
+  }
+
+  .link-card {
+    background: var(--bg-surface);
+    border: var(--card-border);
+    border-radius: var(--card-radius);
+    padding: calc(var(--heading-gap) * 0.9);
+    min-height: 44px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: var(--gap-sm);
+    text-decoration: none;
+    color: inherit;
+    transition: var(--link-transition);
+    cursor: pointer;
+  }
+
+  .link-card:focus {
+    outline: 2px solid var(--accent-primary);
+    outline-offset: 2px;
+  }
+
+  .link-card:hover {
+    background: var(--bg-hover);
+    transform: var(--hover-transform);
+    box-shadow: var(--hover-shadow);
+  }
+
+  .link-card:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+  }
+
+  .link-content {
+    flex: 1;
+  }
+
+  .link-title {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-primary);
+    margin: 0 0 var(--gap);
+    line-height: var(--line-height-base);
+  }
+
+  .link-description {
+    color: var(--text-secondary);
+    margin: 0;
+    line-height: var(--line-height-base);
+  }
+
+  .link-card i {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+  }
+
+  @media (min-width: 768px) {
+    .action-section {
+      padding: calc(var(--section-gap) + var(--space-xs));
+      margin-bottom: calc(var(--section-gap) + var(--space-xs));
+    }
+
+    .link-card {
+      padding: var(--gap-xl);
+    }
+  }
+
+  @media (hover: none) and (pointer: coarse) {
+    .link-card {
+      min-height: 48px;
+      padding: 1rem 1.5rem;
+    }
+
+    .link-card:active {
+      background: var(--accent-tertiary);
+      transform: scale(0.95);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .link-card {
+      transition: none;
+      transform: none;
+    }
+  }
+</style>

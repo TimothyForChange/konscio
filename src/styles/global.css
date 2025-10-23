@@ -173,6 +173,14 @@ p:last-child {
   margin-bottom: 0;
 }
 
+strong {
+  font-weight: var(--font-weight-bold);
+}
+
+em {
+  font-style: italic;
+}
+
 li {
   text-wrap: pretty;
 }
