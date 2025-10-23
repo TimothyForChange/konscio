@@ -3,66 +3,66 @@
   "name": "Haiti",
   "emoji": "🇭🇹",
   "ariaLabel": "Haitian flag",
-  "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "Haiti endures a catastrophic **collapse of governance and society**, directly driven by centuries of **foreign intervention**, **economic extraction**, and **elite impunity**. A near-total implosion of state functions allows armed gangs—often linked to elites—to control vast areas, imposing **extortion, mass violence, and displacement**. Humanitarian access is blocked by insecurity, producing acute hunger and rising mortality.\n\nAn internationally backed, Kenyan-led mission deployed to assist police faces constraints and contested legitimacy. The crisis is rooted in **colonial expropriation**, **odious debt enforced by France**, repeated **US occupations**, and **neoliberal policies** that deliberately undermined Haitian agriculture and sovereignty, leaving the population in a state of extreme vulnerability.",
+  "lastUpdated": "2025-10-23",
+  "currentCrisisSummary": "Haiti endures a catastrophic **collapse of governance and society**, directly driven by centuries of **foreign intervention**, **economic extraction**, and **elite impunity**. A near-total implosion of state functions allows armed gangs—often linked to elites—to control vast areas, imposing extortion, mass violence, and displacement. Humanitarian access is blocked by insecurity, producing acute hunger.\n\nAn internationally backed, Kenyan-led mission faces constraints and contested legitimacy. The crisis is rooted in **colonial expropriation**, **odious debt enforced by France**, repeated **US occupations**, and **neoliberal policies** that deliberately undermined Haitian agriculture and sovereignty, leaving the population extremely vulnerable.",
   "colonialRoot": {
     "colonialPower": "France (1697-1804)",
-    "legacy": "Haiti's modern fragility traces back to the international reaction to the **Haitian Revolution**. The world's first Black republic was diplomatically isolated, economically pressured and forced to buy recognition.\n\nIn 1825 France imposed an **indemnity** on Haiti to 'compensate' former slaveholders. Financed through foreign loans and paid over generations, the **indemnity** drained the new state's resources and entrenched **dependency** — a formative example of how **post-colonial debt** has been used to perpetuate **extraction** and limit sovereign development."
+    "legacy": "Haiti's fragility traces back to the international reaction to the **Haitian Revolution**. The world's first Black republic was isolated and pressured. In 1825 France imposed an **indemnity** ('compensation' for slaveholders). Financed by foreign loans, it drained resources and entrenched **dependency** — a key example of **post-colonial debt** perpetuating **extraction**."
   },
   "historicalContext": [
     {
       "title": "Post-Colonial Debt and Extraction",
-      "description": "The 1825 **indemnity** established a pattern of **external economic control**. Successive loans, **debt-servicing obligations**, and **mercantilist trade pressures** channelled wealth outwards, undermining agricultural resilience and state capacity. These structural pressures were reinforced by **discriminatory trade policies**, **foreign business interests**, and conditional financial relations favouring **foreign capital**."
+      "description": "The 1825 **indemnity** established **external economic control**. Successive loans, **debt-servicing**, and trade pressures channelled wealth outwards, undermining resilience. Reinforced by **discriminatory trade policies** and financial relations favouring **foreign capital**."
     },
     {
       "title": "Foreign Intervention and Occupation",
-      "description": "**Foreign interventions** have repeatedly undermined Haitian sovereignty. The **US occupation** (1915-1934) centralised fiscal control, moved gold reserves offshore, and rewrote legal frameworks to favour **foreign interests**. Later international economic prescriptions—most notoriously, **tariff liberalisation** on imported US rice, which destroyed local rice farming and created chronic **food dependency**—weakened domestic agriculture and industry, increasing reliance on imports and **external aid**. International actors also played direct political roles, including support for **coups**."
+      "description": "**Foreign interventions** repeatedly undermined sovereignty. The **US occupation** (1915-1934) centralised control and favoured **foreign interests**. Later **neoliberal** prescriptions (**tariff liberalisation** on US rice destroyed local farming, creating **food dependency**) weakened domestic agriculture, increasing reliance on imports and **external aid**. Actors also backed **coups**."
     },
     {
       "title": "Cold War Dictatorship and US Patronage",
-      "description": "For nearly three decades (1957-1986), Haiti was ruled by the brutal and **kleptocratic Duvalier dictatorship**. As an anti-communist regime, the Duvaliers were largely supported by the United States as a **Cold War client**. This **imperial patronage** allowed the regime to terrorise the population and loot the state, further hollowing out institutions and entrenching violent, **predatory rule**."
+      "description": "For decades (1957-1986), Haiti suffered the brutal, **kleptocratic Duvalier dictatorship**. As an anti-communist regime near Cuba, it was supported by the US as a **Cold War client**. This **imperial patronage** enabled terror and looting, hollowing out institutions."
     },
     {
       "title": "Public Health and Unresponsibility",
-      "description": "International presence inflicted direct harm: **UN peacekeepers** introduced a **cholera epidemic** in 2010 causing thousands of deaths. The UN acknowledged responsibility, but the episode deepened mistrust and highlighted risks of poorly governed **external interventions**."
+      "description": "International presence inflicted harm: **UN peacekeepers** introduced **cholera** (2010), causing thousands of deaths. UN acknowledgement came late, deepening mistrust from poorly governed **external interventions**."
     },
     {
       "title": "International Law And Accountability",
-      "description": "Multiple **accountability** threads exist: historical (1825 **indemnity**, **colonial expropriation**), transitional (Moïse assassination), and contemporaneous (gang abuses). Formal international responses exist but face political contestation and remain insufficient to meet demands for justice and **reparations**."
+      "description": "Multiple **accountability** threads: historical (1825 **indemnity**, **colonial expropriation**), transitional (Moïse assassination), current (gang abuses). Formal responses exist but remain insufficient for justice and **reparations**."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Over 5,600 killed in 2024 alone, victims of **escalating gang violence fuelled by elite impunity and state collapse.**"
+      "description": "Over 5,600 killed (2024 alone) by gang violence fuelled by **elite impunity** and **state collapse**."
     },
     {
       "title": "Affected Population",
-      "description": "Approximately 6 million people require aid to survive the **consequences of political instability and economic devastation imposed by external actors and local elites.**"
+      "description": "Approx. 6 million require aid due to instability and devastation imposed by **external actors** and local elites."
     },
     {
       "title": "Food Insecurity",
-      "description": "Roughly 5.7 million face acute hunger, a direct result of **neoliberal policies destroying local agriculture and current gang blockades.**"
+      "description": "Roughly 5.7 million face acute hunger from **neoliberal policies destroying agriculture** and current gang blockades."
     },
     {
       "title": "Displacement",
-      "description": "Over 1.3 million internally displaced (a record high), **driven from homes by gang terror enabled by state failure.**"
+      "description": "Over 1.3 million internally displaced by gang terror enabled by **state failure**."
     },
     {
       "title": "Refugees",
-      "description": "Hundreds of thousands forced to flee the country by **violence and economic desperation rooted in foreign interference**, often facing deportation."
+      "description": "Hundreds of thousands forced abroad by violence and desperation rooted in **foreign interference**."
     },
     {
       "title": "Healthcare Collapse",
-      "description": "Many health facilities non-functional due to **direct attacks and the general breakdown of public services caused by chronic underfunding and instability.**"
+      "description": "Health facilities non-functional due to attacks and breakdown caused by chronic **underfunding** and instability."
     },
     {
       "title": "Lack of Water Access",
-      "description": "Millions lack safe drinking water and sanitation because of the **disintegration of infrastructure resulting from historical debt burdens and state incapacity.**"
+      "description": "Millions lack safe water/sanitation due to infrastructure disintegration from historical **debt burdens** and state incapacity."
     },
     {
       "title": "Education Disrupted",
-      "description": "Hundreds of thousands of children denied education due to **pervasive insecurity and the collapse of the state's ability to provide basic services.**"
+      "description": "Hundreds of thousands of children denied education due to insecurity and **state collapse**."
     }
   ],
   "timeline": [
@@ -130,17 +130,17 @@
   },
   "reading": [
     {
-      "title": "The Black Jacobins: Toussaint L'Ouverture and the San Domingo Revolution",
+      "title": "*The Black Jacobins: Toussaint L'Ouverture and the San Domingo Revolution*",
       "url": "https://www.goodreads.com/book/show/775985.The_Black_Jacobins",
       "description": "C. L. R. James's classic Marxist history of the Haitian Revolution and its global anti-colonial significance."
     },
     {
-      "title": "The Uses of Haiti",
+      "title": "*The Uses of Haiti*",
       "url": "https://www.goodreads.com/book/show/10234.The_Uses_of_Haiti",
       "description": "Paul Farmer's devastating critique of US imperialism, structural violence, and failed international policy in Haiti over decades."
     },
     {
-      "title": "Damming the Flood: Haiti, Aristide, and the Politics of Containment",
+      "title": "*Damming the Flood: Haiti, Aristide, and the Politics of Containment*",
       "url": "https://www.goodreads.com/book/show/322268.Damming_the_Flood",
       "description": "Peter Hallward's critical analysis of the 2004 coup against Aristide and the international forces undermining Haitian sovereignty."
     }

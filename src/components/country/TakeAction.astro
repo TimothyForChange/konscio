@@ -9,6 +9,7 @@ export interface Properties {
       organisation?: string;
       description?: string;
       url?: string;
+      buttonText?: string;
     }>;
     advocacy?: Array<string>;
   };
@@ -35,7 +36,7 @@ if (donateData.length > 0) {
       title: org.organisation || 'Organisation',
       description: org.description,
       url: org.url || '#',
-      buttonText: 'Donate',
+      buttonText: org.buttonText || 'Donate',
     })),
   });
 }

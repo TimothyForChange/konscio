@@ -47,6 +47,7 @@ const OrganisationSchema = z.object({
   organisation: z.string(),
   description: z.string(),
   url: z.string().url('Organisation URL must be a valid URL'),
+  buttonText: z.string().optional(),
 });
 
 /**

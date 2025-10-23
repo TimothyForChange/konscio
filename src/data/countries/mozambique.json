@@ -3,58 +3,58 @@
   "name": "Mozambique",
   "emoji": "🇲🇿",
   "ariaLabel": "Mozambican flag",
-  "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "Mozambique confronts a violent insurgency in its northern Cabo Delgado province, a conflict directly driven by the **'resource curse'** and decades of **state neglect rooted in colonial underdevelopment**. The discovery of massive **natural gas reserves** attracted billions in **foreign investment** but brought no benefit to the local population, instead fuelling **displacement, dispossession, and deep-seated grievances**.\n\nThis fertile ground for rebellion is exploited by an insurgency the **corrupt, centralised state** cannot contain. The conflict is internationalised, involving regional troops and **private mercenaries** hired to protect **multi-billion dollar gas projects**. It exemplifies a crisis born from a **predatory economic model**: state collaboration with **multinational corporations** to **extract wealth**, treating citizens as obstacles and **structurally producing the conditions for violent uprising and widespread suffering**.",
+  "lastUpdated": "2025-10-23",
+  "currentCrisisSummary": "Mozambique confronts a violent insurgency in Cabo Delgado province, driven by the **'resource curse'** and **state neglect rooted in colonial underdevelopment**. The discovery of massive **natural gas reserves** attracted billions in **foreign investment** but brought no benefit locally, fuelling **displacement, dispossession, and grievances**.\n\nThis fuels rebellion the **corrupt, centralised state** cannot contain. The conflict is internationalised, involving regional troops and **private mercenaries** protecting **gas projects**. It exemplifies a crisis born from a **predatory economic model**: state collaboration with **multinational corporations** to **extract wealth**, treating citizens as obstacles and **structurally producing** violent uprising and suffering.",
   "colonialRoot": {
     "colonialPower": "Portugal (c. 1505-1975)",
-    "legacy": "**Portugal's colonial rule** in Mozambique was one of the most brutal and underdeveloped in Africa. The economy was built on **forced labour** (**chibalo**) for plantations and mines, land was expropriated for **Portuguese settlers**, and there was virtually no investment in education or healthcare for the African majority. The **colonial state** was purely an instrument of **extraction** and violent control.\n\nThis legacy meant that at independence, Mozambique was left impoverished, with no skilled administrators, and deeply scarred. The long **war of liberation** against Portugal entrenched a militarised political culture. This was compounded by **economic sabotage** during the settlers' **scorched-earth withdrawal** (1974-1975): taking capital, destroying machinery, slaughtering livestock. This campaign crippled the new state, ensuring independence began in near-total **economic collapse**."
+    "legacy": "**Portugal's colonial rule** was brutal and underdeveloped. The economy used **forced labour** (***chibalo***), land was expropriated for settlers, with no investment in locals. The **colonial state** was purely for **extraction**.\n\nAt independence, Mozambique was impoverished, scarred, lacking skilled administrators. The **war of liberation** entrenched a militarised culture. **Economic sabotage** during the settlers' **scorched-earth withdrawal** (1974-75) crippled the new state, causing near-total **economic collapse**."
   },
   "historicalContext": [
     {
       "title": "Post-Independence Destabilisation",
-      "description": "After FRELIMO established a socialist state in 1975, it was targeted by white-minority regimes (Rhodesia, **apartheid South Africa**). These regimes created and directed the **RENAMO insurgency**, plunging Mozambique into a devastating 16-year **civil war**. This was a deliberate, **externally-driven campaign of destabilisation** to destroy an alternative, anti-racist political project, shattering infrastructure and causing immense suffering."
+      "description": "After FRELIMO established a socialist state (1975), it was targeted by white-minority regimes (Rhodesia, **apartheid South Africa**). They created the **RENAMO insurgency**, plunging Mozambique into a 16-year **civil war**. This was **externally-driven destabilisation** to destroy an anti-racist project, shattering infrastructure."
     },
     {
       "title": "Neoliberal Debt and Structural Adjustment",
-      "description": "Devastated by war, Mozambique turned to the **IMF** and **World Bank** in the late 1980s. Subsequent **Structural Adjustment Programmes (SAPs)** mandated **privatisation** and severe **austerity**. While enriching a FRELIMO-connected elite and opening the country to **foreign capital**, these **neoliberal reforms** entrenched inequality and failed to alleviate the poverty that fuels instability."
+      "description": "Devastated by war, Mozambique turned to the **IMF**/**World Bank** (late 1980s). Subsequent **Structural Adjustment Programmes (SAPs)** mandated **privatisation** and severe **austerity**. While enriching elites and opening to **foreign capital**, these **neoliberal reforms** entrenched inequality and poverty fuelling instability."
     },
     {
       "title": "The Resource Curse and Elite Corruption",
-      "description": "The discovery of massive **gas reserves** and illicit trade (rubies, timber) supercharged **corruption**. The '**$2 Billion Hidden Debts**' scandal exemplifies this: state elites and **international banks** (Credit Suisse) colluded in **massive loan fraud**, largely embezzled. This **grand corruption** crippled the budget, deepened **dependency**, and confirmed the state exists primarily to enrich elites and their **foreign partners**."
+      "description": "Discovery of **gas reserves** and illicit trade supercharged **corruption**. The '**$2 Billion Hidden Debts**' scandal exemplifies this: elites and **international banks** colluded in **loan fraud**. This **grand corruption** crippled the budget, deepened **dependency**, confirming the state exists to enrich elites and **foreign partners**."
     },
     {
       "title": "International Law And Accountability",
-      "description": "**Accountability** remains elusive. While the '**hidden debts**' scandal led to legal proceedings, key political figures escaped consequences. In Cabo Delgado, serious human rights abuses by insurgents, state forces, and **foreign private military contractors** are reported. Lack of effective investigation mechanisms creates a cycle of **impunity**."
+      "description": "**Accountability** is elusive. Despite legal proceedings over '**hidden debts**', key figures escaped consequences. In Cabo Delgado, abuses by insurgents, state forces, and **foreign private military contractors** are reported. Lack of effective investigation creates **impunity**."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Displacement",
-      "description": "Over 784,000 people internally displaced, forcibly uprooted by the **violence stemming from the gas insurgency and state counter-insurgency.**"
+      "description": "Over 784,000 internally displaced by violence from the **gas insurgency** and state counter-insurgency."
     },
     {
       "title": "Refugees",
-      "description": "Thousands forced into precarious asylum in Tanzania by the **conflict dynamics**, though most displacement remains internal."
+      "description": "Thousands forced into asylum in Tanzania by conflict, though most displacement is internal."
     },
     {
       "title": "Casualties",
-      "description": "Thousands of civilians killed since 2017, victims of the **brutal conflict driven by resource wealth and historical neglect.**"
+      "description": "Thousands killed since 2017, victims of conflict driven by **resource wealth** and historical neglect."
     },
     {
       "title": "Affected Population",
-      "description": "An estimated 1.5 million people require urgent aid due to the **breakdown of society and services caused by the resource-fuelled war.**"
+      "description": "Est. 1.5 million require aid due to societal breakdown caused by the **resource-fuelled war**."
     },
     {
       "title": "Food Insecurity",
-      "description": "Over 900,000 face acute hunger as the **conflict disrupts agriculture and access in historically marginalised northern regions.**"
+      "description": "Over 900,000 face acute hunger as **conflict disrupts agriculture** in marginalised regions."
     },
     {
       "title": "Healthcare Collapse",
-      "description": "Over 100 health facilities destroyed, leaving populations vulnerable due to **direct attacks and the state's failure to protect infrastructure.**"
+      "description": "Over 100 health facilities destroyed, leaving populations vulnerable due to attacks and **state failure**."
     },
     {
       "title": "Education Disrupted",
-      "description": "Hundreds of thousands of children denied education as schools are destroyed or closed by **insecurity linked to the gas conflict.**"
+      "description": "Hundreds of thousands of children denied education by insecurity linked to the **gas conflict**."
     }
   ],
   "timeline": [
@@ -122,12 +122,12 @@
   },
   "reading": [
     {
-      "title": "A Complicated War: The Harrowing of Mozambique",
+      "title": "*A Complicated War: The Harrowing of Mozambique*",
       "url": "https://www.goodreads.com/book/show/279903.A_Complicated_War",
       "description": "William Finnegan's profound account of the devastating civil war fueled by apartheid South Africa and its impact on civilians."
     },
     {
-      "title": "The Wretched of the Earth",
+      "title": "*The Wretched of the Earth*",
       "url": "https://www.goodreads.com/book/show/66933.The_Wretched_of_the_Earth",
       "description": "Frantz Fanon's foundational text on colonialism, violence, and liberation, essential for understanding Mozambique's anti-colonial struggle."
     }

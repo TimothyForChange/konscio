@@ -3,54 +3,54 @@
   "name": "Ethiopia",
   "emoji": "🇪🇹",
   "ariaLabel": "Ethiopian flag",
-  "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "Ethiopia faces multiple humanitarian catastrophes stemming from the **violent breakdown** of its **ethnic federalist political system** and the unresolved legacies of its **internal imperial formation**. The country reels from the devastating 2020-2022 Tigray war while confronting large-scale armed conflicts between the federal government and regional forces in Amhara and Oromia.\n\nThese conflicts represent a **catastrophic failure** to resolve political questions of autonomy and power, rooted in historical grievances, through negotiation. Instead, **brutal military force** has resulted in mass displacement, widespread atrocities, service collapse, and acute food insecurity. This is not merely ethnic strife but a **deep structural crisis of the Ethiopian state**, exacerbated by **external geopolitical interests** vying for influence in the Horn of Africa.",
+  "lastUpdated": "2025-10-23",
+  "currentCrisisSummary": "Ethiopia faces multiple humanitarian catastrophes stemming from the **violent breakdown** of its **ethnic federalist political system** and the unresolved legacies of its **internal imperial formation**. The country reels from the devastating 2020-2022 Tigray war while confronting large-scale armed conflicts between the federal government and regional forces in Amhara and Oromia.\n\nThese conflicts represent a catastrophic failure to resolve political questions rooted in historical grievances. Instead, **brutal military force** has resulted in mass displacement, atrocities, service collapse, and acute food insecurity. This is not merely ethnic strife but a **deep structural crisis of the Ethiopian state**, exacerbated by **external geopolitical interests** vying for influence.",
   "imperialRoot": {
     "imperialPower": "Ethiopian Empire (late 19th c. - 1974), Italy (1936–1941), US & USSR (Cold War)",
-    "legacy": "The modern Ethiopian state was largely formed through a process of **internal imperial expansion** in the late 19th century. Under emperors like Menelik II, the Amhara-dominated centre conquered and forcibly incorporated diverse southern peoples, creating a multi-ethnic '**prison of nations**' held together by a centralised, authoritarian structure. The historical grievances stemming from this **violent state formation**—over land, language, and political subjugation—are the primary root of today's conflicts.\n\nThis internal legacy was layered with external pressures: a brief but disruptive Italian **colonial occupation** and, more significantly, **Cold War patronage**. The US-backed monarchy and the subsequent Soviet-backed Derg regime both used **foreign military aid** to suppress internal dissent and wage wars, further militarising the state and entrenching a culture of violent political consolidation."
+    "legacy": "The modern Ethiopian state formed through **internal imperial expansion**. The Amhara-dominated centre conquered southern peoples, creating a multi-ethnic '**prison of nations**'. Grievances from this **violent state formation** (land, language, subjugation) are the root of today's conflicts.\n\nThis was layered with external pressures: Italian **colonial occupation** and **Cold War patronage**. The US-backed monarchy and Soviet-backed Derg regime used **foreign military aid** to suppress dissent, militarising the state."
   },
   "historicalContext": [
     {
       "title": "The Failure of Ethnic Federalism",
-      "description": "The 1995 constitution established a system of **ethnic federalism**, an ambitious attempt to resolve the historical 'national question'. For decades, this system was managed through the **authoritarian dominance** of the TPLF-led coalition. The current Prime Minister's **centralising reforms** shattered this balance, leading to a violent clash between the federal government and regional autonomy demands. The wars in Tigray, Amhara, and Oromia are the direct result of this model's **violent collapse**."
+      "description": "The 1995 constitution established **ethnic federalism** to resolve the 'national question'. Managed for decades through **authoritarian dominance** (TPLF-led), the current PM's **centralising reforms** shattered this balance, leading to clashes over autonomy. The wars are a direct result of this model's **violent collapse**."
     },
     {
       "title": "From Developmental State to Neoliberal Shock Therapy",
-      "description": "While Ethiopia was long a model of a '**developmental state**' reliant on **foreign aid**, since 2018 it has undergone a rapid **neoliberal transition**. The government pursued **privatisation** (telecoms), **financial deregulation**, and attracting **foreign capital**. This **economic 'shock therapy'** is also a political project to dismantle the old ruling coalition's economic power. The resulting struggle for control over economic resources is a key driver of the current civil wars."
+      "description": "Long a '**developmental state**' reliant on **foreign aid**, Ethiopia since 2018 underwent a rapid **neoliberal transition** (**privatisation**, **deregulation**, attracting **foreign capital**). This **economic 'shock therapy'** is also a political project. The resulting struggle over economic resources drives the current civil wars."
     },
     {
       "title": "Land Grabs and Rural Dispossession",
-      "description": "Ethiopia experiences widespread '**land grabs**'. Under both the developmental state and **neoliberal** models, vast tracts of fertile land (Oromia, Gambella) have been leased to **foreign corporations** for agribusiness. This often involves **violent dispossession** of local communities, undermining livelihoods and food security, representing a modern form of **resource extraction** that fuels resentment against the central state."
+      "description": "Ethiopia experiences widespread '**land grabs**'. Under both state models, fertile land has been leased to **foreign corporations** for agribusiness, often involving **violent dispossession** of local communities. This modern **resource extraction** fuels resentment against the central state."
     },
     {
       "title": "Geopolitics of the Horn and Proxy Interests",
-      "description": "Ethiopia is a focal point of intense **geopolitical competition**. **External actors** (Eritrea, UAE, Turkey, US, China) pursue strategic interests through military and economic means. **Foreign drones** (notably from UAE) were decisive in the Tigray war and continue to fuel conflicts. These **interventions** provide tools for war and prioritise external goals (Red Sea control, Nile influence) over peace."
+      "description": "Ethiopia is a focal point of **geopolitical competition**. **External actors** (Eritrea, UAE, Turkey, US, China) pursue strategic interests. **Foreign drones** (UAE) were decisive in Tigray and fuel ongoing conflicts. These **interventions** provide tools for war, prioritising external goals over peace."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Hundreds of thousands (est. 300k-600k in Tigray alone) killed directly by fighting or indirectly through **conflict-induced starvation and healthcare collapse.** Casualties mount in ongoing Amhara/Oromia wars."
+      "description": "Hundreds of thousands killed (est. 300k-600k in Tigray alone) directly by fighting or indirectly through **conflict-induced starvation and healthcare collapse.**"
     },
     {
       "title": "Affected Population",
-      "description": "Over 20 million people require aid due to the **devastating convergence of internal war, state fragility, drought, and economic instability.**"
+      "description": "Over 20 million require aid due to the devastating convergence of **internal war, state fragility, drought, and economic instability.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "An estimated 15.8 million face crisis-level hunger, a direct consequence of **warfare destroying harvests and livelihoods in key agricultural regions.**"
+      "description": "An estimated 15.8 million face crisis-level hunger due to **warfare destroying harvests and livelihoods.**"
     },
     {
       "title": "Displacement",
-      "description": "Over 3.5 million internally displaced, forced from homes by **state and non-state violence and increasingly severe climate shocks.**"
+      "description": "Over 3.5 million internally displaced by **state/non-state violence** and **climate shocks**."
     },
     {
       "title": "Refugees",
-      "description": "Nearly 1 million refugees hosted *from* neighbours, while hundreds of thousands of Ethiopians have fled *abroad* due to **political violence and persecution.**"
+      "description": "Hosts nearly 1M refugees, while hundreds of thousands of Ethiopians fled abroad due to **political violence**."
     },
     {
       "title": "Sexual Violence as Weapon",
-      "description": "Systematic conflict-related sexual violence used by all sides, especially in Tigray, as a **deliberate tactic of war to terrorise and subjugate populations.**"
+      "description": "Systematic sexual violence used by all sides (esp. Tigray) as a **deliberate tactic of war**."
     }
   ],
   "timeline": [
@@ -128,12 +128,12 @@
   },
   "reading": [
     {
-      "title": "A History of Modern Ethiopia, 1855-1991",
+      "title": "*A History of Modern Ethiopia, 1855-1991*",
       "url": "https://www.goodreads.com/book/show/768093.A_History_of_Modern_Ethiopia_1855_1991",
       "description": "Bahru Zewde details the creation of the modern Ethiopian empire-state, providing essential context for the historical grievances underpinning today's conflicts."
     },
     {
-      "title": "The Real Politics of the Horn of Africa: Money, War and the Business of Power",
+      "title": "*The Real Politics of the Horn of Africa: Money, War and the Business of Power*",
       "url": "https://www.goodreads.com/book/show/24905008-the-real-politics-of-the-horn-of-africa",
       "description": "Alex de Waal provides a critical analysis of how the political economies of the region, based on a market for political loyalty and violence, drive conflict."
     }

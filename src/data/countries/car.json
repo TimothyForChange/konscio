@@ -3,62 +3,62 @@
   "name": "Central African Republic",
   "emoji": "🇨🇫",
   "ariaLabel": "Central African Republic flag",
-  "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "The Central African Republic (CAR) endures protracted **state collapse**, driven by decades of **foreign interference**, a **predatory state structure** inherited from **colonialism**, and the systematic **extraction** of its natural resources. The central government's authority is negligible, with much of the country controlled by armed groups and **foreign mercenaries**.\n\nThis power vacuum is the direct legacy of a **neo-colonial model** where external powers (historically France, now Russia) cultivate clients to secure access to diamonds, gold, and uranium. The current phase involves reliance on **Russian private military contractors** (Africa Corps/Wagner) who provide regime security for **lucrative mining concessions**. This **mercenary-driven resource extraction** perpetuates violence, displaces civilians, and siphons wealth offshore, inflicting extreme humanitarian distress upon the population.",
+  "lastUpdated": "2025-10-23",
+  "currentCrisisSummary": "The Central African Republic (CAR) endures protracted **state collapse**, driven by decades of **foreign interference**, a **predatory state structure** inherited from **colonialism**, and systematic **resource extraction**. Government authority is negligible, with much of the country controlled by armed groups and **foreign mercenaries**.\n\nThis power vacuum is a legacy of a **neo-colonial model** where external powers (France, now Russia) cultivate clients for resource access. The current phase involves reliance on **Russian private military contractors** (Africa Corps/Wagner) providing regime security for **mining concessions**. This **mercenary-driven extraction** perpetuates violence, displacement, and siphons wealth, inflicting extreme suffering.",
   "colonialRoot": {
     "colonialPower": "France (c. 1894-1960)",
-    "legacy": "**French colonial rule** in Ubangi-Shari was exceptionally brutal and **extractive**. The territory was carved up and leased to private **concessionary companies**, which were granted total power to exploit resources using **forced labour**. This model established the state not as a provider of public goods, but as an instrument of **violent resource extraction** for foreign enrichment.\n\nThis foundational structure was never dismantled. At independence, France handed power to a compliant elite who perpetuated the **predatory system**. The legacy is a chronically weak state, devoid of legitimacy, where control over resources remains the primary motive for political power and the ultimate driver of conflict."
+    "legacy": "**French colonial rule** was brutal and **extractive**. The territory was leased to private **concessionary companies** using **forced labour**. This established the state as an instrument of **violent resource extraction**.\n\nThis structure persisted post-independence as France handed power to compliant elites. The legacy is a chronically weak, illegitimate state where **resource control** drives conflict."
   },
   "historicalContext": [
     {
       "title": "Post-Colonial French Intervention",
-      "description": "For decades after 'independence' in 1960, CAR remained a key outpost of '**Françafrique**'—a system of **neo-colonial control**. France repeatedly intervened militarily to install, protect, and depose client rulers (like Bokassa) to safeguard its strategic and economic interests, including **uranium access**. This persistent **interference** prevented genuine sovereignty and entrenched a political culture of dependency."
+      "description": "Post-1960, CAR remained an outpost of ***Françafrique***—a system of **neo-colonial control**. France repeatedly intervened militarily to install/depose client rulers (like Bokassa) to safeguard interests (**uranium**). This persistent **interference** prevented sovereignty and entrenched dependency."
     },
     {
       "title": " Debt And Structural Adjustment",
-      "description": "Following decades of misrule, CAR became heavily indebted and fell under the control of the **IMF** and **World Bank**. The **Structural Adjustment Programmes (SAPs)** imposed in the 1990s mandated **privatisation** and severe **austerity**, dismantling public service capacity. This **neoliberal shock therapy** further weakened the state, deepened poverty, entrenched **aid reliance**, creating a vacuum for armed groups."
+      "description": "Following misrule, CAR became heavily indebted, falling under **IMF**/**World Bank** control. **Structural Adjustment Programmes (SAPs)** in the 1990s mandated **privatisation** and severe **austerity**, dismantling public services. This **neoliberal shock therapy** weakened the state, deepened poverty, entrenched **aid reliance**, creating a vacuum for armed groups."
     },
     {
       "title": "Resource Curse and Predatory Elites",
-      "description": "CAR's mineral wealth has been a **resource curse**, fuelling conflict and enriching domestic elites and their foreign partners. The diamond trade is linked to illicit arms trafficking and armed group financing. The state's function is reduced to managing contracts for **foreign extractive industries**, creating incentives for violence to capture these revenue streams."
+      "description": "CAR's mineral wealth is a **resource curse**, fuelling conflict and enriching elites/foreign partners. The diamond trade links to arms trafficking. The state manages contracts for **foreign extractive industries**, creating incentives for violence to capture revenues."
     },
     {
       "title": "Proxy Battleground and Mercenary Economy",
-      "description": "CAR is a theatre for **geopolitical competition** (France vs. Russia). The government's turn to **Wagner Group/Africa Corps** shifts imperial patrons. This model trades **mineral rights for mercenary services**, bypassing state-building. It creates a parallel economy of violence and **extraction**, where **Russian mercenaries** operate with **impunity**, committing abuses to secure mines."
+      "description": "CAR is a theatre for **geopolitical competition** (France vs. Russia). The turn to **Wagner Group/Africa Corps** shifts **imperial patrons**. This model trades **mineral rights for mercenary services**, bypassing state-building. It creates a parallel economy of violence and **extraction**, where **Russian mercenaries** operate with **impunity**, committing abuses."
     },
     {
       "title": "International Law And Accountability",
-      "description": "Despite a **UN peacekeeping mission (MINUSCA)** (marred by sexual abuse allegations) and a **Special Criminal Court (SCC)**, **accountability** remains elusive. The **ICC** is also investigating. These mechanisms are under-resourced, politically constrained, and unable to address powerful actors, especially **foreign mercenaries** enjoying **de facto immunity**. Justice is undermined by focusing on local groups while foreign corporations and states profiting from **illicit resource trade** face no scrutiny."
+      "description": "Despite a **UN mission (MINUSCA)** (marred by sexual abuse allegations) and a **Special Criminal Court (SCC)**, **accountability** is elusive. The **ICC** investigates. Mechanisms are under-resourced, politically constrained, unable to address powerful actors (**foreign mercenaries** enjoying **de facto immunity**). Justice is undermined by focusing on local groups while foreign entities profiting from **illicit resource trade** face no scrutiny."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Thousands killed since 2013 by atrocities committed by all parties in the **conflict over resources and state control.**"
+      "description": "Thousands killed since 2013 in the **conflict over resources and state control.**"
     },
     {
       "title": "Affected Population",
-      "description": "Approximately 2.8 million people (nearly half the population) require aid to survive the **consequences of state collapse and unending war.**"
+      "description": "Approx. 2.8 million require aid due to **state collapse** and unending war."
     },
     {
       "title": "Food Insecurity",
-      "description": "Over 2 million face acute hunger, with chronic malnutrition stunting children, driven by **conflict-induced displacement and the destruction of livelihoods.**"
+      "description": "Over 2 million face acute hunger, driven by **conflict-induced displacement** and livelihood destruction."
     },
     {
       "title": "Displacement",
-      "description": "Over 500,000 internally displaced, forcibly uprooted by **violence linked to resource grabs and political instability.**"
+      "description": "Over 500,000 internally displaced by **violence linked to resource grabs** and instability."
     },
     {
       "title": "Refugees",
-      "description": "More than 750,000 refugees forced into neighbouring countries by the **persistent violence and lack of protection.**"
+      "description": "Over 750,000 refugees forced abroad by persistent violence and **lack of protection**."
     },
     {
       "title": "Healthcare Collapse",
-      "description": "Less than half of medical facilities function amidst near-total healthcare collapse, a direct result of **state failure and decades of underinvestment.** Life expectancy is among the world's lowest."
+      "description": "Healthcare system near collapse due to **state failure** and underinvestment. Life expectancy among lowest globally."
     },
     {
       "title": "Lack of Water Access",
-      "description": "Millions lack safe water and basic sanitation due to the **disintegration of public infrastructure caused by chronic conflict and state neglect.**"
+      "description": "Millions lack safe water/sanitation due to infrastructure disintegration caused by **conflict** and **state neglect**."
     }
   ],
   "timeline": [
@@ -122,12 +122,12 @@
   },
   "reading": [
     {
-      "title": "King Leopold's Ghost: A Story of Greed, Terror, and Heroism in Colonial Africa",
+      "title": "*King Leopold's Ghost: A Story of Greed, Terror, and Heroism in Colonial Africa*",
       "url": "https://www.goodreads.com/book/show/347610.King_Leopold_s_Ghost",
       "description": "Adam Hochschild's account of Belgian colonial terror in Congo, vital context for the similar brutality of French concessionary rule in neighbouring CAR."
     },
     {
-      "title": "The New Scramble for Africa",
+      "title": "*The New Scramble for Africa*",
       "url": "https://www.goodreads.com/book/show/11117502-the-new-scramble-for-africa",
       "description": "Pádraig Carmody analyses the renewed strategic competition over Africa's resources, explaining the roles of Western powers and new actors like Russia."
     }

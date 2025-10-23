@@ -3,7 +3,7 @@
   "name": "Myanmar",
   "emoji": "🇲🇲",
   "ariaLabel": "Myanmar flag",
-  "lastUpdated": "2025-10-22",
+  "lastUpdated": "2025-10-23",
   "currentCrisisSummary": "Myanmar suffers multiple, overlapping catastrophes inflicted by its **military state**: a nationwide civil war against the **junta** that seized power in 2021, and the ongoing **genocide** and **persecution** of the **Rohingya minority**. The post-coup conflict pits a broad revolutionary movement against the **Tatmadaw** (military), which employs **extreme brutality against civilians** nationwide.\n\nThis widespread violence follows the **2017 genocidal campaign against the Rohingya**, involving mass killings, systematic rape, and the forced expulsion of nearly a million people to Bangladesh, where they remain **stateless refugees**. The state's long history of **denying Rohingya citizenship**, a direct result of **colonial-era 'divide and rule' tactics** and post-colonial nationalism, laid the groundwork for this **ethnic cleansing**. The post-coup war and the Rohingya crisis create mass displacement and **severe, multi-faceted human suffering**, exacerbated by **geopolitical indifference and impunity** for the **military regime**.",
   "colonialRoot": {
     "colonialPower": "Britain (1824-1948)",
@@ -157,17 +157,17 @@
   },
   "reading": [
     {
-      "title": "The River of Lost Footsteps: A Personal History of Burma",
+      "title": "*The River of Lost Footsteps: A Personal History of Burma*",
       "url": "https://www.goodreads.com/book/show/19101007-the-river-of-lost-footsteps",
       "description": "Thant Myint-U's sweeping history tracing the deep colonial and post-colonial forces shaping Myanmar's crises."
     },
     {
-      "title": "First, They Erased Our Name: A Rohingya Speaks",
+      "title": "*First, They Erased Our Name: A Rohingya Speaks*",
       "url": "https://www.goodreads.com/book/show/43388990-first-they-erased-our-name",
       "description": "A powerful memoir by Habiburahman detailing the lived experience of state persecution, statelessness, and survival as a Rohingya."
     },
     {
-      "title": "The Rohingyas: Inside Myanmar's Hidden Genocide",
+      "title": "*The Rohingyas: Inside Myanmar's Hidden Genocide*",
       "url": "https://www.goodreads.com/book/show/26717021-the-rohingyas",
       "description": "Azeem Ibrahim provides a concise account of the long history of discrimination leading to the 2017 genocidal atrocities against the Rohingya."
     }

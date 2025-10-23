@@ -3,54 +3,54 @@
   "name": "Democratic Republic of the Congo",
   "emoji": "🇨🇩",
   "ariaLabel": "Democratic Republic of Congo flag",
-  "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "Eastern DRC is the epicentre of a long-running, deadly contest over vast mineral wealth — cobalt, coltan, tin and gold — **essential to global tech supply chains**. This fuels what many call **'green colonialism'**: the Global North's energy transition depends on minerals extracted through **violence, dispossession, and child labour** in the Global South. Armed control over mines and opaque corporate purchasing link multinational companies to a system that **extracts value while externalising immense human cost**.\n\nThe conflict involves the Congolese army, numerous militias, and **foreign-backed groups like M23**. **Regional interference** (notably from Rwanda and Uganda) fuels cycles of violence and mass displacement. Sexual violence is endemic as a weapon of war. Eastern provinces endure waves of **forced displacement** and attacks, driven by the **struggle for resource control**.\n\nThe resulting human suffering is catastrophic, making this conflict one of the world's deadliest since WWII, directly caused by the **scramble for minerals** and **geopolitical manoeuvring**. **Accountability** for widespread abuses and **illicit resource exploitation** remains minimal. Ending the crisis requires halting **external military interference**, enforcing **corporate accountability** in supply chains, and centring **Congolese-led justice and development**.",
+  "lastUpdated": "2025-10-23",
+  "currentCrisisSummary": "Eastern DRC is the epicentre of a deadly contest over vast **mineral wealth** (cobalt, coltan etc.) essential to **global tech supply chains**. This fuels '**green colonialism**': the Global North's energy transition depends on minerals extracted through **violence, dispossession, and child labour**. Armed control over mines links **multinational companies** to a system that **extracts value while externalising human cost**.\n\nThe conflict involves the army, militias, and **foreign-backed groups** (M23). **Regional interference** (Rwanda, Uganda) fuels violence and mass displacement. Sexual violence is endemic. Suffering is catastrophic, caused by the **scramble for minerals** and **geopolitical manoeuvring**. **Accountability** for **illicit resource exploitation** remains minimal. Solutions require halting **external military interference**, enforcing **corporate accountability**, and centring **Congolese-led justice**.",
   "colonialRoot": {
     "colonialPower": "Belgium (1885-1960)",
-    "legacy": "The contemporary crisis is rooted in Belgium's **extraction-first colonial project**. King Leopold II's **Congo Free State** treated the territory as a private resource, unleashing **forced labour**, violence and mass mortality to extract rubber and other commodities. After 1908, Belgian state rule continued a **political economy designed for extraction** rather than local development.\n\nBelgian **colonial institutions** prioritised mineral concession systems, segregated labour regimes and elite-friendly governance that hollowed out public institutions. The post-independence state inherited weak institutions, clientelist networks and **externally oriented extraction models** that made the region vulnerable to predatory neighbours, **multinational corporations**, and armed actors seeking control of mineral rents."
+    "legacy": "The crisis is rooted in Belgium's **extraction-first colonial project**. King Leopold II's **Congo Free State** unleashed **forced labour** and violence for **resource extraction**. Belgian state rule continued a **political economy designed for extraction**.\n\n**Colonial institutions** prioritised mineral concessions and segregated labour, hollowing out public institutions. The post-independence state inherited weak structures and **externally oriented extraction models**, making it vulnerable to predatory actors seeking **mineral rents**."
   },
   "historicalContext": [
     {
       "title": "The Cold War and Kleptocracy",
-      "description": "After **Lumumba's assassination**, the West installed and backed the 32-year dictatorship of Mobutu Sese Seko. As a key **Cold War client**, Mobutu received billions in Western aid in exchange for anti-communist alignment and favourable access for **foreign corporations**. He perfected a system of **kleptocracy**, personally embezzling billions while the state disintegrated. When the **Cold War** ended and his patrons abandoned him, the country, crippled by **odious debt**, was subjected to **IMF-led Structural Adjustment Programmes** enforcing **austerity** and sealing the **state's total collapse**, creating the vacuum for the Congo Wars."
+      "description": "After **Lumumba's assassination**, the West backed the 32-year **dictatorship** of Mobutu Sese Seko. As a **Cold War client**, Mobutu received Western aid for anti-communist alignment and access for **foreign corporations**. He perfected **kleptocracy**, embezzling billions while the state disintegrated. Post-**Cold War**, abandoned by patrons and crippled by **odious debt**, the country faced **IMF-led Structural Adjustment Programmes** (**austerity**), sealing the **state's total collapse** and leading to the Congo Wars."
     },
     {
       "title": "Conflict Minerals and Foreign Influence",
-      "description": "Eastern Congo's **mineral wealth** sits at the intersection of local militias, regional strategic interests and global markets. Armed groups control mines, tax production, and smuggle **valuable minerals** into international supply chains. Investigations document **forced evictions**, **labour abuses**, and **supply-chain opacity** connecting **extractive industries** to human-rights violations.\n\nThe demand for minerals fuels territorial control by armed groups and **foreign interference**. **Corporate due-diligence gaps** allow these systems to persist."
+      "description": "Eastern Congo's **mineral wealth** involves militias, regional interests, and global markets. Armed groups control mines and smuggle minerals into supply chains. Investigations link **extractive industries** to rights violations (**forced evictions**, **labour abuses**). Demand for minerals fuels conflict and **foreign interference**. **Corporate due-diligence gaps** allow this to persist."
     },
     {
       "title": "International Law And Accountability",
-      "description": "Multiple international mechanisms have engaged. The **UN Group of Experts** documents regional support for armed groups and **illicit resource exploitation**. Investigations expose abuses, but systemic **accountability** remains limited. Remedies require criminal accountability and structural reforms for **resource governance**, **corporate responsibility**, and reparations."
+      "description": "Multiple mechanisms engage. The **UN Group of Experts** documents regional support for armed groups and **illicit resource exploitation**. Investigations expose abuses, but systemic **accountability** is limited. Remedies need criminal accountability and structural reforms (**resource governance**, **corporate responsibility**, **reparations**)."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Millions are estimated dead since the late 1990s, victims of **wars driven by the scramble for mineral wealth and regional power.**"
+      "description": "Millions estimated dead since the late 1990s, victims of **wars driven by the scramble for mineral wealth and regional power.**"
     },
     {
       "title": "Affected Population",
-      "description": "Roughly 25.4 million people require aid due to the **systematic destruction of livelihoods and infrastructure caused by decades of resource conflict.**"
+      "description": "Roughly 25.4 million require aid due to **systematic destruction caused by decades of resource conflict.**"
     },
     {
       "title": "Displacement",
-      "description": "Nearly 7 million internally displaced (a record high), forcibly uprooted by **violence linked directly to control over mines and territory.**"
+      "description": "Nearly 7 million internally displaced, uprooted by **violence linked to control over mines.**"
     },
     {
       "title": "Refugees",
-      "description": "Over 1 million refugees forced into neighbouring countries by the **unending conflict and lack of protection resulting from state decay and foreign interference.**"
+      "description": "Over 1 million refugees forced abroad by **conflict resulting from state decay and foreign interference.**"
     },
     {
       "title": "Education Lost",
-      "description": "Millions of children denied education as schools are destroyed or made unsafe by **conflict over resources.**"
+      "description": "Millions of children denied education by **conflict over resources.**"
     },
     {
       "title": "Sexual Violence as Weapon",
-      "description": "Sexual and gender-based violence used **systematically as a tool of terror and control** by armed groups fighting for dominance in mineral-rich areas."
+      "description": "Sexual violence used **systematically as a tool of terror** by armed groups fighting over mineral areas."
     },
     {
       "title": "Economic Devastation",
-      "description": "Mining communities suffer **dispossession, forced labour, and extreme poverty** as armed groups and corporations exploit resources, leaving little benefit locally."
+      "description": "Mining communities suffer **dispossession, forced labour, and poverty** as armed groups and corporations exploit resources."
     }
   ],
   "timeline": [
@@ -124,22 +124,22 @@
   },
   "reading": [
     {
-      "title": "King Leopold's Ghost: A Story of Greed, Terror, and Heroism in Colonial Africa",
+      "title": "*King Leopold's Ghost: A Story of Greed, Terror, and Heroism in Colonial Africa*",
       "url": "https://www.goodreads.com/book/show/347610.King_Leopold_s_Ghost",
       "description": "Adam Hochschild's essential account of the brutal exploitation of the Congo Free State under Belgian rule."
     },
     {
-      "title": "Cobalt Red: How the Blood of the Congo Powers Our Lives",
+      "title": "*Cobalt Red: How the Blood of the Congo Powers Our Lives*",
       "url": "https://www.goodreads.com/book/show/60784614-cobalt-red",
       "description": "Siddharth Kara's investigation linking cobalt mining in the DRC to corporate supply chains, labour abuses, and environmental harms ('green colonialism')."
     },
     {
-      "title": "Dancing in the Glory of Monsters: The Collapse of the Congo and the Great War of Africa",
+      "title": "*Dancing in the Glory of Monsters: The Collapse of the Congo and the Great War of Africa*",
       "url": "https://www.goodreads.com/book/show/10046142-dancing-in-the-glory-of-monsters",
       "description": "Jason Stearns provides a definitive account of the Congo Wars, analysing the complex regional dynamics of conflict, resource extraction, and state failure."
     },
     {
-      "title": "The Assassination of Lumumba",
+      "title": "*The Assassination of Lumumba*",
       "url": "https://www.goodreads.com/book/show/797413.The_Assassination_of_Lumumba",
       "description": "Ludo De Witte's research exposing the role of Belgian and US intelligence services in the murder of Patrice Lumumba."
     }

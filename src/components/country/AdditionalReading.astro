@@ -1,5 +1,6 @@
 ---
 import type { Reading } from '../../types/country';
+import { formatText } from '../../utils/text';
 import ActionGroup from './ActionGroup.astro';
 
 export interface Properties {
@@ -23,7 +24,7 @@ if (reading.length === 0) {
     Additional Reading
   </h2>
   <ActionGroup icon='ri-book-open-line' title='Further Reading'>
-    <div class='donate-organisations'>
+    <div class='reading-list'>
       {
         reading.map((item) => {
           const sanitizedUrl = item.url.startsWith('http')
@@ -38,8 +39,11 @@ if (reading.length === 0) {
               aria-label={`${item.title} (opens in new tab)`}
             >
               <div class='link-content'>
-                <h4 class='link-title'>{item.title}</h4>
-                <p class='link-description'>{item.description}</p>
+                <h4 class='link-title' set:html={formatText(item.title)} />
+                <p
+                  class='link-description'
+                  set:html={formatText(item.description || '')}
+                />
               </div>
               <i class='ri-external-link-line' aria-hidden='true' />
             </a>
@@ -65,7 +69,7 @@ if (reading.length === 0) {
     font-size: var(--section-heading-size-lg);
   }
 
-  .donate-organisations {
+  .reading-list {
     display: grid;
     gap: var(--gap-lg);
   }

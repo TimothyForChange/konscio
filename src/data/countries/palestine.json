@@ -3,28 +3,28 @@
   "name": "Palestine",
   "emoji": "🇵🇸",
   "ariaLabel": "Palestinian flag",
-  "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "Occupied Palestine, especially Gaza, endures an intensifying catastrophe inflicted by **Israeli settler colonialism** and **occupation**. This includes mass displacement, widespread civilian death, the **systematic destruction of public services**, and crisis levels of **starvation and disease deliberately induced** through siege and bombardment.\n\nThe **ICJ** found claims of **genocide in Gaza plausible**; **accountability** efforts continue at the **ICC**. This **extreme violence** and **structural deprivation** are enabled by unwavering military, economic, and diplomatic support from **Western powers**, particularly the US, shielding Israel from consequences.\n\nThese dynamics represent the current phase of a century-long process of **settler colonialism**, **ethnic cleansing (Nakba)**, and **apartheid** designed to dispossess Palestinians and deny self-determination.",
+  "lastUpdated": "2025-10-23",
+  "currentCrisisSummary": "Occupied Palestine, especially Gaza, endures an intensifying catastrophe inflicted by **Israeli settler colonialism** and **occupation**. This includes mass displacement, widespread civilian death, systematic destruction of public services, and crisis levels of **starvation and disease deliberately induced** through siege and bombardment.\n\nThe **ICJ** found claims of **genocide in Gaza plausible**; **accountability** efforts continue at the **ICC**. This extreme violence and **structural deprivation** are enabled by unwavering military, economic, and diplomatic support from **Western powers**, particularly the US, shielding Israel from consequences.\n\nThese dynamics represent the current phase of a century-long process of **settler colonialism**, **ethnic cleansing** (*Nakba*), and **apartheid** designed to dispossess Palestinians and deny self-determination.",
   "imperialRoot": {
     "imperialPower": "Britain (1920-1948)",
-    "legacy": "The contemporary crisis is rooted in policies enacted under the **British Mandate**. The 1917 **Balfour Declaration** endorsed the establishment in Palestine of a 'national home for the Jewish people' while promising to protect non-Jewish communities — a contradiction Britain did not resolve.\n\nMandate-era land, immigration and policing policies facilitated **Zionist settlement** and undermined indigenous Arab rights and territory. Britain's suppression of Palestinian movements and its 1948 withdrawal preceded the war and the **Nakba**, during which 700,000-750,000 Palestinians were made refugees.\n\nThe refugee crisis, **dispossession**, and **Mandate precedents** shaped the conflict and inform today's structures of **occupation** and exclusion."
+    "legacy": "The crisis is rooted in policies enacted under the **British Mandate**. The 1917 **Balfour Declaration** endorsed a 'national home for the Jewish people' while promising to protect non-Jewish communities — a contradiction Britain didn't resolve.\n\nMandate policies facilitated **Zionist settlement** and undermined indigenous Arab rights. Britain's suppression of Palestinian movements and its 1948 withdrawal preceded the war and the ***Nakba***, during which 700k-750k Palestinians became refugees.\n\nThe refugee crisis, **dispossession**, and **Mandate precedents** inform today's structures of **occupation** and exclusion."
   },
   "historicalContext": [
     {
       "title": "Geopolitical Involvement",
-      "description": "**Western states** — especially the **United States** — provide sustained **military aid**, **arms transfers**, political backing, and **diplomatic protection** that allow Israeli **occupation** and **expansionist policies** to continue with limited consequence. This **strategic alignment** is embedded in security agreements, arms sales, and emergency assistance, reinforcing the power imbalance.\n\nThese relationships are **geopolitical** and commercial: **defence industries** benefit, and states gain a regional ally."
+      "description": "**Western states** — especially the **United States** — provide sustained **military aid**, **arms transfers**, and **diplomatic protection**, allowing Israeli **occupation** and **expansionist policies** to continue with impunity. This **strategic alignment** reinforces the power imbalance.\n\n**Defence industries** benefit, and states gain a regional ally."
     },
     {
       "title": "Settler Colonialism and Apartheid",
-      "description": "The conflict must be understood as **settler colonialism**: policies of **land expropriation**, **settlement expansion**, **movement restrictions**, and political **disenfranchisement** producing permanent **colonial structures**. Leading human rights organisations find Israeli measures meet the thresholds of **apartheid** and systematic discrimination.\n\nThis system is economic and spatial: **land seizures**, **settler infrastructure**, **discriminatory resource allocation** (water), and restrictions on Palestinian economic development create **structural dependency** and constrain self-determination."
+      "description": "The conflict is fundamentally **settler colonialism**: policies of **land expropriation**, **settlement expansion**, **movement restrictions**, and **disenfranchisement** producing permanent **colonial structures**. Human rights organisations find Israeli measures meet the threshold of **apartheid**.\n\nThis system is also economic/spatial: **land seizures**, **settler infrastructure**, **discriminatory resource allocation** create **structural dependency**."
     },
     {
       "title": "The Oslo Accords and Neoliberal Subjugation",
-      "description": "The 1993 **Oslo Accords**, rather than leading to sovereignty, created a framework for **economic and political subjugation** under a **neoliberal guise**. The 1994 **Paris Protocol** locked the Palestinian economy into **dependency** on Israel (controlling trade, currency, taxes). This '**economic peace**' architecture prevented independent development and created the **Palestinian Authority (PA)**, reliant on foreign aid. Over time, PA security forces, often with US/EU training, integrated into the **occupation's security structure**, suppressing dissent while **settlement expansion** accelerated."
+      "description": "The 1993 **Oslo Accords**, rather than leading to sovereignty, created a framework for **economic and political subjugation** under a **neoliberal guise**. The 1994 **Paris Protocol** locked the Palestinian economy into **dependency** on Israel. This '**economic peace**' created the **Palestinian Authority (PA)**, reliant on foreign aid, whose security forces often coordinate with the **occupation**, while **settlement expansion** accelerated."
     },
     {
       "title": "International Law And Accountability",
-      "description": "Since Oct 2023, multiple international legal processes activated. The **ICJ** case (South Africa) found **plausible genocide** allegations. The **ICC** investigates alleged **war crimes**. National courts, UN missions, and rights bodies document potential violations. These mechanisms face political contestation but represent formal **accountability** avenues."
+      "description": "Post-Oct 2023, legal processes activated. The **ICJ** case found **plausible genocide** allegations. The **ICC** investigates **war crimes**. These mechanisms face political contestation but represent formal **accountability** avenues."
     }
   ],
   "humanitarianImpact": [
@@ -38,27 +38,27 @@
     },
     {
       "title": "Food Insecurity",
-      "description": "The entire Gaza population suffers crisis-level hunger (over 1M catastrophic), **engineered through Israel's blockade and destruction of food systems.**"
+      "description": "Entire Gaza population suffers crisis-level hunger (over 1M catastrophic), **engineered through Israel's blockade and destruction of food systems.**"
     },
     {
       "title": "Displacement",
-      "description": "Over 1.9M internally displaced in Gaza (nearly 90%), forcibly uprooted by **Israeli military operations and evacuation orders, constituting ethnic cleansing.**"
+      "description": "Over 1.9M internally displaced in Gaza (nearly 90%) by **Israeli military operations constituting ethnic cleansing.**"
     },
     {
       "title": "Refugees",
-      "description": "5.9M registered Palestinian refugees denied their **right of return**, reliant on UNRWA – a direct legacy of the **1948 Nakba (ethnic cleansing).**"
+      "description": "5.9M registered Palestinian refugees denied **right of return**, reliant on UNRWA – direct legacy of the **1948 *Nakba* (ethnic cleansing).**"
     },
     {
       "title": "Healthcare Collapse",
-      "description": "Gaza's healthcare system **systematically dismantled by Israeli attacks**, leaving most hospitals non-functional amidst mass casualties."
+      "description": "Gaza's healthcare system **systematically dismantled by Israeli attacks.**"
     },
     {
       "title": "Lack of Water Access",
-      "description": "Over 95% of Gaza's water is unfit for consumption due to **Israeli infrastructural destruction and restrictions on essential supplies.**"
+      "description": "Over 95% of Gaza's water unfit due to **Israeli infrastructural destruction and restrictions.**"
     },
     {
       "title": "Education Denied",
-      "description": "Over 625,000 children in Gaza denied education as schools are **destroyed by Israeli bombardment or used as shelters.**"
+      "description": "Over 625,000 children in Gaza denied education by **Israeli bombardment destroying schools.**"
     }
   ],
   "timeline": [
@@ -140,27 +140,27 @@
   },
   "reading": [
     {
-      "title": "Justice for Some: Law and the Question of Palestine",
+      "title": "*Justice for Some: Law and the Question of Palestine*",
       "url": "https://www.goodreads.com/book/show/43154949-justice-for-some",
       "description": "Noura Erakat examines how international law has been weaponised to deny Palestinian rights and enable Israeli settler colonialism."
     },
     {
-      "title": "On Palestine",
+      "title": "*On Palestine*",
       "url": "https://www.goodreads.com/book/show/23129811-on-palestine",
       "description": "Conversations between Noam Chomsky and Ilan Pappé, offering indispensable critical perspectives on the history and politics of Israeli occupation."
     },
     {
-      "title": "The Ethnic Cleansing of Palestine",
+      "title": "*The Ethnic Cleansing of Palestine*",
       "url": "https://www.goodreads.com/book/show/57540.The_Ethnic_Cleansing_of_Palestine",
       "description": "Ilan Pappé's groundbreaking historical account arguing the 1948 Nakba was a deliberate, planned ethnic cleansing operation."
     },
     {
-      "title": "The Hundred Years' War on Palestine: A History of Settler Colonialism and Resistance, 1917-2017",
+      "title": "*The Hundred Years' War on Palestine: A History of Settler Colonialism and Resistance, 1917-2017*",
       "url": "https://www.goodreads.com/book/show/41812831-the-hundred-years-war-on-palestine",
       "description": "Rashid Khalidi's definitive account from a Palestinian perspective, framing the conflict as a century-long war waged against Palestine by settler colonialism."
     },
     {
-      "title": "Gaza in Crisis: Reflections on Israel's War Against the Palestinians",
+      "title": "*Gaza in Crisis: Reflections on Israel's War Against the Palestinians*",
       "url": "https://www.goodreads.com/book/show/8491860-gaza-in-crisis",
       "description": "Noam Chomsky and Ilan Pappé analyse the brutal blockade and repeated military assaults on Gaza as central elements of Israeli policy."
     }

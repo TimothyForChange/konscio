@@ -3,62 +3,62 @@
   "name": "Cameroon",
   "emoji": "🇨🇲",
   "ariaLabel": "Cameroonian flag",
-  "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "Cameroon endures multiple severe crises rooted in the **violent legacies of its colonial construction**. The most acute is the armed conflict in the Anglophone regions, where **state repression** against demands for political and cultural rights has escalated into a brutal war. This conflict is the direct result of a **hyper-centralised, authoritarian state model—inherited from French colonial rule**—that has systematically dismantled Anglophone autonomy.\n\nIn the Far North, **state neglect** fuels insurgency. Both crises are sustained by a **political economy of elite enrichment** and **foreign corporate extraction** (oil, timber), where wealth concentration and violent management of grievances perpetuate widespread suffering and displacement.",
+  "lastUpdated": "2025-10-23",
+  "currentCrisisSummary": "Cameroon endures multiple severe crises rooted in the violent legacies of its **colonial construction**. The most acute is the armed conflict in the Anglophone regions, where **state repression** against demands for political and cultural rights has escalated into a brutal war. This conflict results directly from a hyper-centralised, authoritarian state model—inherited from **French colonial rule**—that has systematically dismantled Anglophone autonomy.\n\nIn the Far North, **state neglect** fuels insurgency. Both crises are sustained by a **political economy of elite enrichment** and **foreign corporate extraction** (oil, timber), perpetuating suffering and displacement.",
   "colonialRoot": {
     "colonialPower": "Germany (1884-1916), partitioned by France & Britain (1916-1961)",
-    "legacy": "Cameroon's contemporary fractures were engineered by its **partition after WWI**. Germany's initial colony was divided, with the vast majority handed to France and a smaller sliver to Britain. The two territories were administered under fundamentally different **colonial philosophies**: French **assimilation** and direct, centralised rule versus British **indirect rule** and administrative autonomy.\n\nAt independence, the 1961 'reunification' was not a merger of equals but an absorption of the smaller, Anglophone territory into the dominant Francophone state. The federal structure promised was quickly abolished. This foundational act of **centralisation** imposed a foreign legal, educational, and political system on the Anglophone population, creating a dynamic of **internal colonialism** that has defined the nation's politics and ultimately led to war."
+    "legacy": "Cameroon's fractures were engineered by its **partition after WWI**. Germany's colony was divided between France and Britain, administered under different **colonial philosophies** (French **assimilation** vs. British **indirect rule**).\n\nAt independence, 'reunification' was an absorption of the Anglophone territory into the Francophone state. The promised federal structure was abolished. This **centralisation** imposed a foreign system, creating a dynamic of **internal colonialism** that led to war."
   },
   "historicalContext": [
     {
       "title": "Violent Decolonisation and Neo-Colonial Control",
-      "description": "Cameroon's independence was born in extreme violence. In the 1950s and 60s, France waged a clandestine and brutal war against the popular **anti-colonial movement**, the Union of the Populations of Cameroon (UPC). After crushing the UPC, France installed a compliant, authoritarian regime. This ensured that French economic interests remained secure, establishing a durable **neo-colonial relationship** (**Françafrique**) that persists and defines the state's repressive character."
+      "description": "Independence was born in violence. France waged a brutal war against the **anti-colonial movement** (UPC), killing tens of thousands, then installed a compliant regime. This ensured French economic interests remained secure, establishing a durable **neo-colonial relationship** (*Françafrique*) defining the state's repressive character."
     },
     {
       "title": "The Anglophone Problem and Forced Assimilation",
-      "description": "The Anglophone crisis is the culmination of decades of **systematic marginalisation**. The abolition of the federal system in 1972 initiated a deliberate policy of **assimilation**. Anglophone legal and educational systems were eroded, regions economically neglected, and administrative posts filled by Francophones. These policies aimed to break Anglophone identity and consolidate power, transforming a political grievance into an existential struggle."
+      "description": "The Anglophone crisis results from decades of **systematic marginalisation**. Abolishing federalism in 1972 initiated deliberate **assimilation**. Anglophone legal/educational systems were eroded, regions economically neglected. These policies aimed to break Anglophone identity and consolidate state power."
     },
     {
       "title": "Neoliberal Austerity and Structural Adjustment",
-      "description": "Following an economic crisis in the late 1980s, Cameroon adopted **Structural Adjustment Programmes (SAPs)** mandated by the **IMF** and **World Bank**. These **neoliberal policies** enforced severe **austerity**, including mass public sector layoffs, **privatisation**, and deep cuts to social services. The **SAPs hollowed out the state**, worsened inequality, and devastated livelihoods, particularly for the Anglophone professional class. This **economic shock** created widespread grievance that formed the backdrop to the 2016 explosion."
+      "description": "Following an economic crisis (late 1980s), Cameroon adopted **Structural Adjustment Programmes (SAPs)** mandated by the **IMF** and **World Bank**. These **neoliberal policies** enforced severe **austerity** (layoffs, **privatisation**, cuts). **SAPs hollowed out the state**, worsened inequality, and devastated livelihoods, creating grievance forming the backdrop to the 2016 explosion."
     },
     {
       "title": "Resource Extraction and Elite Enrichment",
-      "description": "For decades, Cameroon has been ruled by an elite using state power to control and divert revenues from oil, timber, and cash crops. This system, often facilitated by **foreign corporations**, entrenched **corruption** and inequality. The state functions primarily to manage **extractive contracts**. Severe underdevelopment in Anglophone regions and the Far North results directly from a **political economy** concentrating wealth and marginalising the periphery."
+      "description": "For decades, an elite used state power to control revenues from oil, timber, etc. This system, often facilitated by **foreign corporations**, entrenched **corruption**. The state manages **extractive contracts** rather than providing services. Underdevelopment results directly from a **political economy** concentrating wealth and marginalising the periphery."
     },
     {
       "title": "International Law And Accountability",
-      "description": "Severe human rights violations by government forces and separatist groups are documented, yet **international accountability** has failed. Key partners (France, US) prioritise 'stability' and security interests, offering muted criticism while continuing military/financial support. This **impunity** emboldens perpetrators and ensures the violence continues."
+      "description": "Severe human rights violations by all sides are documented, yet **international accountability** has failed. Key partners (France, US) prioritise 'stability', offering muted criticism while continuing support. This **impunity** emboldens perpetrators."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "An estimated 6,000 civilians killed in the Anglophone crisis since 2017, victims of **indiscriminate violence by state forces and armed groups.**"
+      "description": "Est. 6,000 civilians killed (Anglophone crisis since 2017) due to **indiscriminate violence** by state forces and armed groups."
     },
     {
       "title": "Affected Population",
-      "description": "Over 4.7 million people require aid due to the **breakdown of services and livelihoods caused by conflict and state neglect.**"
+      "description": "Over 4.7 million require aid due to breakdown caused by **conflict** and **state neglect**."
     },
     {
       "title": "Food Insecurity",
-      "description": "An estimated 2.6 million people face acute hunger, primarily in regions **destabilised by conflict and long-term economic marginalisation.**"
+      "description": "Est. 2.6 million face acute hunger, primarily in regions destabilised by **conflict** and **economic marginalisation**."
     },
     {
       "title": "Displacement",
-      "description": "Over 1 million internally displaced (**712,000 from Anglophone crisis, 340,000 from Far North**), forcibly uprooted by **state violence, armed group attacks, and lack of protection.**"
+      "description": "Over 1 million internally displaced (Anglophone crisis & Far North) by **state violence** and armed attacks."
     },
     {
       "title": "Refugees",
-      "description": "More than 87,000 Anglophones forced into refuge (mainly Nigeria) by the **state's violent repression and the ensuing conflict.**"
+      "description": "Over 87,000 Anglophones forced into refuge by **state repression** and conflict."
     },
     {
       "title": "Healthcare Collapse",
-      "description": "Around 80% of health facilities in Anglophone regions are non-functional due to **direct attacks and pervasive insecurity.**"
+      "description": "Around 80% of health facilities in Anglophone regions non-functional due to **attacks** and insecurity."
     },
     {
       "title": "Education Disrupted",
-      "description": "Over 600,000 children denied education in Anglophone regions due to **attacks on schools and boycotts enforced amid the conflict.**"
+      "description": "Over 600,000 children denied education (Anglophone regions) due to **attacks on schools** and conflict."
     }
   ],
   "timeline": [
@@ -125,12 +125,12 @@
   },
   "reading": [
     {
-      "title": "Radical Nationalism in Cameroun: Social Origins of the U.P.C. Rebellion",
+      "title": "*Radical Nationalism in Cameroun: Social Origins of the U.P.C. Rebellion*",
       "url": "https://www.goodreads.com/book/show/4728618-radical-nationalism-incameroun",
       "description": "Richard A. Joseph's study of the anti-colonial UPC movement and the social forces behind its rebellion against French rule."
     },
     {
-      "title": "On the Postcolony",
+      "title": "*On the Postcolony*",
       "url": "https://www.goodreads.com/book/show/149757.On_the_Postcolony",
       "description": "By Achille Mbembe. A seminal theoretical work exploring power, violence, and subjectivity in post-colonial Africa, using Cameroon as a key example."
     }
