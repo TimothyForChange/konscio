@@ -1,4 +1,5 @@
 {
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
     "$schema": {
@@ -136,8 +137,7 @@
             "required": [
               "organisation",
               "description",
-              "url",
-              "buttonText"
+              "url"
             ],
             "additionalProperties": false
           }
@@ -201,12 +201,9 @@
     "lastUpdated",
     "humanitarianImpact",
     "timeline",
-    "colonialRoot",
-    "imperialRoot",
     "historicalContext",
     "takeAction",
     "reading"
   ],
-  "additionalProperties": false,
-  "$schema": "http://json-schema.org/draft-07/schema#"
+  "additionalProperties": false
 }

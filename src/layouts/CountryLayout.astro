@@ -162,6 +162,13 @@ const articleSchema = {
           )
         }
 
+        {
+          countryData?.lastUpdated && (
+            <div class='country-last-updated'>
+              Last updated: {countryData.lastUpdated}
+            </div>
+          )
+        }
         <div class='country-bottom-back'>
           <BackButton />
         </div>
@@ -181,6 +188,19 @@ const articleSchema = {
     display: flex;
     justify-content: center;
     margin: var(--gap-xl) 0 var(--gap-sm);
+  }
+
+  .country-last-updated {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: var(--space-md) auto var(--space-xs) auto;
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+    font-style: italic;
+    opacity: 0.95;
+    max-width: 100%;
+    width: fit-content;
   }
 
   .country-page p {

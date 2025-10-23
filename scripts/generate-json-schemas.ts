@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { zodToJsonSchema } from 'zod-to-json-schema';
+import * as z from 'zod';
 import { CountryDataSchema } from '../src/schemas/country-data.ts';
 import { MissionSchema } from '../src/schemas/mission.ts';
 import { TooltipsSchema } from '../src/schemas/tooltips.ts';
@@ -17,19 +17,14 @@ export function generateSchemas(logger = console) {
     fs.mkdirSync(jsonSchemasDir, { recursive: true });
   }
 
-  const missionJsonSchema = zodToJsonSchema(MissionSchema, {
-    target: 'jsonSchema7',
-    strictUnions: true,
+  const missionJsonSchema = z.toJSONSchema(MissionSchema, {
+    target: 'draft-7',
   });
-
-  const countryDataJsonSchema = zodToJsonSchema(CountryDataSchema, {
-    target: 'jsonSchema7',
-    strictUnions: true,
+  const countryDataJsonSchema = z.toJSONSchema(CountryDataSchema, {
+    target: 'draft-7',
   });
-
-  const tooltipsJsonSchema = zodToJsonSchema(TooltipsSchema, {
-    target: 'jsonSchema7',
-    strictUnions: true,
+  const tooltipsJsonSchema = z.toJSONSchema(TooltipsSchema, {
+    target: 'draft-7',
   });
 
   const missionPath = path.join(jsonSchemasDir, 'mission.schema.json');

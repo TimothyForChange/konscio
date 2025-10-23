@@ -76,28 +76,33 @@ const ReadingSchema = z.object({
  * Zod schema for the comprehensive data set of a single country.
  * This schema aggregates all other data structures for a country.
  */
-const CountryDataSchema = z.object({
-  $schema: z.string().optional(),
-  name: z.string(),
-  emoji: z.string(),
-  ariaLabel: z.string(),
-  currentCrisisSummary: z.string(),
-  lastUpdated: z
-    .string()
-    .regex(/^\d{4}-\d{2}-\d{2}$/, 'Date must be in YYYY-MM-DD format'),
-  humanitarianImpact: HumanitarianImpactSchema,
-  timeline: z.array(TimelineEventSchema),
-  colonialRoot: ColonialRootSchema.optional(),
-  imperialRoot: ImperialRootSchema.optional(),
-  historicalContext: z.array(
-    z.object({
-      title: z.string(),
-      description: z.string(),
-    })
-  ),
-  takeAction: TakeActionSchema,
-  reading: z.array(ReadingSchema),
-});
+const CountryDataSchema = z
+  .object({
+    $schema: z.string().optional(),
+    name: z.string(),
+    emoji: z.string(),
+    ariaLabel: z.string(),
+    currentCrisisSummary: z.string(),
+    lastUpdated: z
+      .string()
+      .regex(/^\d{4}-\d{2}-\d{2}$/, 'Date must be in YYYY-MM-DD format'),
+    humanitarianImpact: HumanitarianImpactSchema,
+    timeline: z.array(TimelineEventSchema),
+    colonialRoot: ColonialRootSchema.optional(),
+    imperialRoot: ImperialRootSchema.optional(),
+    historicalContext: z.array(
+      z.object({
+        title: z.string(),
+        description: z.string(),
+      })
+    ),
+    takeAction: TakeActionSchema,
+    reading: z.array(ReadingSchema),
+  })
+  .refine((data) => !!data.colonialRoot || !!data.imperialRoot, {
+    message: 'At least one of colonialRoot or imperialRoot must be provided.',
+    path: ['colonialRoot', 'imperialRoot'],
+  });
 
 export {
   HumanitarianImpactSchema,

@@ -5,10 +5,9 @@ import ImpactGrid from '../sections/ImpactGrid.astro';
 
 export interface Properties {
   humanitarianImpact?: HumanitarianImpact;
-  lastUpdated?: string;
 }
 
-const { humanitarianImpact, lastUpdated } = Astro.props as Properties;
+const { humanitarianImpact } = Astro.props as Properties;
 
 if (!humanitarianImpact || !Array.isArray(humanitarianImpact)) {
   return;
@@ -36,9 +35,6 @@ const stats = humanitarianImpact
 <section class='humanitarian-section' aria-labelledby='humanitarian-heading'>
   <h2 id='humanitarian-heading'>Humanitarian Impact</h2>
   <ImpactGrid stats={stats} />
-  <p class='humanitarian-disclaimer'>
-    {lastUpdated ? `Last updated: ${lastUpdated}` : ''}
-  </p>
 </section>
 
 <style>
@@ -61,17 +57,6 @@ const stats = humanitarianImpact
     margin-bottom: var(--heading-gap);
   }
 
-  .humanitarian-disclaimer {
-    margin: var(--space-sm) 0;
-    font-size: var(--font-size-sm);
-    color: var(--text-muted);
-    font-style: italic;
-    line-height: 1.2;
-    padding-top: var(--space-xs);
-    text-align: center;
-    opacity: 0.95;
-  }
-
   .stat-item strong {
     color: var(--accent-primary);
     font-weight: var(--font-weight-bold);
@@ -88,12 +73,6 @@ const stats = humanitarianImpact
         calc(var(--section-gap) + var(--space-xs))
         calc(var(--section-gap) - var(--space-xs));
       margin-bottom: var(--section-gap);
-    }
-
-    .humanitarian-disclaimer {
-      justify-content: center;
-      padding-top: 0.15rem;
-      margin-top: var(--gap);
     }
   }
 </style>
