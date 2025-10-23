@@ -90,11 +90,6 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "ACERE (Alliance for Cuba Engagement and Respect)",
-        "description": "Coalition advocating for an end to the US blockade and promoting respectful engagement with Cuba (Advocacy/Info, not direct aid).",
-        "url": "https://acere.org"
-      },
-      {
         "organisation": "Give2Cuba",
         "description": "Facilitates direct humanitarian aid and remittances to individuals and families in Cuba, bypassing government structures.",
         "url": "https://www.give2cuba.com"
