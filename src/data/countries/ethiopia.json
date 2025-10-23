@@ -119,11 +119,26 @@
       }
     ],
     "advocacy": [
-      "Demand an end to military operations and support inclusive, negotiated political solutions to the conflicts in Amhara, Oromia, and other regions.",
-      "Call for independent investigations and accountability for war crimes and crimes against humanity committed by all parties in the Tigray war.",
-      "Advocate for the full implementation of the Pretoria Peace Agreement and ensure unfettered humanitarian access to all conflict zones.",
-      "Oppose the sale of arms and military technology, including armed drones, to the Ethiopian government and other armed actors in the region.",
-      "Amplify the voices of Ethiopian human rights defenders, journalists, and civil society organisations working for peace and justice."
+      {
+        "title": "Support Political Solutions",
+        "description": "Demand an end to military operations and support inclusive, negotiated political solutions to the conflicts in Amhara, Oromia, and other regions."
+      },
+      {
+        "title": "Demand Accountability for War Crimes",
+        "description": "Call for independent investigations and accountability for war crimes and crimes against humanity committed by all parties in the Tigray war."
+      },
+      {
+        "title": "Implement Peace & Allow Aid Access",
+        "description": "Advocate for the full implementation of the Pretoria Peace Agreement and ensure unfettered humanitarian access to all conflict zones."
+      },
+      {
+        "title": "Oppose Arms Sales",
+        "description": "Oppose the sale of arms and military technology, including armed drones, to the Ethiopian government and other armed actors in the region."
+      },
+      {
+        "title": "Amplify Local Voices",
+        "description": "Amplify the voices of Ethiopian human rights defenders, journalists, and civil society organisations working for peace and justice."
+      }
     ]
   },
   "reading": [

@@ -47,7 +47,7 @@ const OrganisationSchema = z.object({
   organisation: z.string(),
   description: z.string(),
   url: z.string().url('Organisation URL must be a valid URL'),
-  buttonText: z.string().optional(),
+  buttonText: z.string(),
 });
 
 /**
@@ -55,7 +55,12 @@ const OrganisationSchema = z.object({
  */
 const TakeActionSchema = z.object({
   donate: z.array(OrganisationSchema),
-  advocacy: z.array(z.string()),
+  advocacy: z.array(
+    z.object({
+      title: z.string(),
+      description: z.string(),
+    })
+  ),
 });
 
 /**
@@ -64,7 +69,7 @@ const TakeActionSchema = z.object({
 const ReadingSchema = z.object({
   title: z.string(),
   url: z.string().url('Reading URL must be a valid URL'),
-  description: z.string().optional(),
+  description: z.string(),
 });
 
 /**
@@ -82,8 +87,8 @@ const CountryDataSchema = z.object({
     .regex(/^\d{4}-\d{2}-\d{2}$/, 'Date must be in YYYY-MM-DD format'),
   humanitarianImpact: HumanitarianImpactSchema,
   timeline: z.array(TimelineEventSchema),
-  colonialRoot: ColonialRootSchema.optional(),
-  imperialRoot: ImperialRootSchema.optional(),
+  colonialRoot: ColonialRootSchema,
+  imperialRoot: ImperialRootSchema,
   historicalContext: z.array(
     z.object({
       title: z.string(),

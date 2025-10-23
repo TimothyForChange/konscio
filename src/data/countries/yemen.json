@@ -110,10 +110,22 @@
       }
     ],
     "advocacy": [
-      "Demand an immediate end to blockades and sieges and insist on unimpeded, independent humanitarian access to all civilians.",
-      "Call on Western and regional governments to suspend arms transfers that enable indiscriminate attacks and to condition support on respect for international humanitarian law.",
-      "Support Yemeni-led peace initiatives and ensure that any diplomatic settlement protects civilians, restores services and addresses economic and political grievances.",
-      "Push for independent investigations into alleged war crimes and for accountability mechanisms that centre victims' rights and reparations."
+      {
+        "title": "End Blockades and Sieges",
+        "description": "Demand an immediate end to blockades and sieges and insist on unimpeded, independent humanitarian access to all civilians."
+      },
+      {
+        "title": "Suspend Arms Transfers",
+        "description": "Call on Western and regional governments to suspend arms transfers that enable indiscriminate attacks and to condition support on respect for international humanitarian law."
+      },
+      {
+        "title": "Support Yemeni-Led Peace",
+        "description": "Support Yemeni-led peace initiatives and ensure that any diplomatic settlement protects civilians, restores services and addresses economic and political grievances."
+      },
+      {
+        "title": "Demand Accountability",
+        "description": "Push for independent investigations into alleged war crimes and for accountability mechanisms that centre victims' rights and reparations."
+      }
     ]
   },
   "reading": [

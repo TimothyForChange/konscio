@@ -128,11 +128,26 @@
       }
     ],
     "advocacy": [
-      "Support a Syrian-led, inclusive political transition that protects the rights of all communities and prevents a new cycle of authoritarianism or civil conflict.",
-      "Demand the complete withdrawal of all foreign military forces to restore Syrian sovereignty.",
-      "Advocate for the lifting of broad unilateral sanctions to allow for reconstruction and the revival of the civilian economy.",
-      "Push for international support for truth and accountability commissions to address the war crimes committed by the former regime and all other parties.",
-      "Uphold the right of return for Syrian refugees by demanding safe, voluntary, and dignified conditions."
+      {
+        "title": "Support a Syrian-Led Transition",
+        "description": "Support a Syrian-led, inclusive political transition that protects the rights of all communities and prevents a new cycle of authoritarianism or civil conflict."
+      },
+      {
+        "title": "End All Foreign Occupations",
+        "description": "Demand the complete withdrawal of all foreign military forces to restore Syrian sovereignty."
+      },
+      {
+        "title": "Lift Unilateral Sanctions",
+        "description": "Advocate for the lifting of broad unilateral sanctions to allow for reconstruction and the revival of the civilian economy."
+      },
+      {
+        "title": "Support Truth and Accountability",
+        "description": "Push for international support for truth and accountability commissions to address the war crimes committed by the former regime and all other parties."
+      },
+      {
+        "title": "Uphold the Right of Return",
+        "description": "Uphold the right of return for Syrian refugees by demanding safe, voluntary, and dignified conditions."
+      }
     ]
   },
   "reading": [

@@ -107,11 +107,26 @@
       }
     ],
     "advocacy": [
-      "Demand the immediate and unconditional lifting of the US economic blockade against Cuba.",
-      "Call for Cuba's removal from the US list of 'State Sponsors of Terrorism,' a politically motivated designation.",
-      "Oppose all forms of US interference in Cuba's internal affairs and support Cuban sovereignty.",
-      "Support campaigns for unrestricted travel and cultural exchange between the US and Cuba.",
-      "Amplify the near-unanimous global condemnation of the blockade at the UN General Assembly."
+      {
+        "title": "Lift the Blockade",
+        "description": "Demand the immediate and unconditional lifting of the US economic blockade against Cuba, which functions as collective punishment."
+      },
+      {
+        "title": "End Fraudulent Terror Designation",
+        "description": "Call for Cuba's removal from the US list of 'State Sponsors of Terrorism,' a politically motivated designation used to justify sanctions."
+      },
+      {
+        "title": "Respect Sovereignty",
+        "description": "Oppose all forms of US interference in Cuba's internal affairs and support Cuban sovereignty."
+      },
+      {
+        "title": "Support Free Travel & Exchange",
+        "description": "Support campaigns for unrestricted travel and cultural exchange between the US and Cuba."
+      },
+      {
+        "title": "Amplify Global Condemnation",
+        "description": "Amplify the near-unanimous global condemnation of the blockade at the UN General Assembly."
+      }
     ]
   },
   "reading": [

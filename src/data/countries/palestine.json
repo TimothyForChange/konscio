@@ -132,10 +132,22 @@
       }
     ],
     "advocacy": [
-      "Support the non-violent Boycott, Divestment, Sanctions (BDS) movement to pressure Israel to comply with international law.",
-      "Advocate for an end to military aid and arms sales to Israel that are used in violation of international law.",
-      "Demand targeted sanctions on Israeli officials and entities responsible for war crimes, apartheid, and illegal settlements.",
-      "Support the genocide case against Israel at the ICJ and war crimes investigations at the ICC."
+      {
+        "title": "Support BDS (Boycott, Divestment, Sanctions)",
+        "description": "Support the **Palestinian-led, non-violent BDS movement**. Modelled on the South African anti-apartheid movement, it pressures Israel to comply with international law by ending the occupation, granting full equality to Palestinian citizens, and honouring the right of return for refugees."
+      },
+      {
+        "title": "End Military Aid and Arms Sales",
+        "description": "Advocate for an end to all **military aid and arms sales** to Israel that are used in violation of international law, particularly from Western enablers like the US and Germany."
+      },
+      {
+        "title": "Demand Targeted Sanctions",
+        "description": "Demand **targeted sanctions** on Israeli officials and entities responsible for war crimes, **apartheid**, and the construction of **illegal settlements**."
+      },
+      {
+        "title": "Support Legal Accountability",
+        "description": "Support the **genocide case against Israel at the ICJ** and **war crimes investigations at the ICC** to challenge state impunity."
+      }
     ]
   },
   "reading": [

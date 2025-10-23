@@ -115,11 +115,26 @@
       }
     ],
     "advocacy": [
-      "Press for independent, enforceable corporate due diligence across mineral supply chains and demand transparency from tech and automotive companies about sourcing.",
-      "Support targeted sanctions and diplomatic pressure against external actors found to be materially supporting armed groups, while protecting humanitarian access.",
-      "Amplify Congolese civil-society voices and support local organisations that lead relief, protection and accountability work.",
-      "Call for reparative measures from states and corporations that profited from exploitative extraction and colonial-era abuses.",
-      "Promote conflict-sensitive, community-led development that prioritises land rights, local stewardship of resources and diversification beyond raw-extraction economies."
+      {
+        "title": "Demand Corporate Accountability",
+        "description": "Press for independent, enforceable corporate due diligence across mineral supply chains and demand transparency from tech and automotive companies about sourcing."
+      },
+      {
+        "title": "Sanction External Enablers",
+        "description": "Support targeted sanctions and diplomatic pressure against external actors found to be materially supporting armed groups, while protecting humanitarian access."
+      },
+      {
+        "title": "Amplify Congolese Voices",
+        "description": "Amplify Congolese civil-society voices and support local organisations that lead relief, protection and accountability work."
+      },
+      {
+        "title": "Call for Reparations",
+        "description": "Call for reparative measures from states and corporations that profited from exploitative extraction and colonial-era abuses."
+      },
+      {
+        "title": "Support Local Development",
+        "description": "Promote conflict-sensitive, community-led development that prioritises land rights, local stewardship of resources and diversification beyond raw-extraction economies."
+      }
     ]
   },
   "reading": [

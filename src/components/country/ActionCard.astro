@@ -1,18 +1,14 @@
 ---
 export interface ActionCardProperties {
-  content: string;
-  html?: boolean;
+  content: { title: string; description: string };
 }
-const { content, html = false } = Astro.props as ActionCardProperties;
+const { content } = Astro.props as ActionCardProperties;
 ---
 
-{
-  html ? (
-    <div class='action-card' set:html={content ?? ''} />
-  ) : (
-    <div class='action-card'>{content ?? ''}</div>
-  )
-}
+<div class='action-card'>
+  <div class='action-card-title'>{content.title}</div>
+  <div class='action-card-description'>{content.description}</div>
+</div>
 
 <style>
   .action-card {
@@ -23,6 +19,18 @@ const { content, html = false } = Astro.props as ActionCardProperties;
     color: var(--text-secondary);
     line-height: var(--line-height-base);
     box-shadow: var(--shadow-sm);
+  }
+
+  .action-card-title {
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+  }
+
+  .action-card-description {
+    color: var(--text-secondary);
+    font-size: 1em;
   }
 
   @media (min-width: 768px) {

@@ -10,11 +10,16 @@ export interface ActionItem {
   buttonText: string;
 }
 
+export interface AdvocacyItem {
+  title: string;
+  description?: string;
+}
+
 export interface ActionGroupData {
   icon: string;
   title: string;
   type: 'links' | 'cards';
-  items: (ActionItem | string)[];
+  items: (ActionItem | AdvocacyItem)[];
 }
 
 export interface Properties {
@@ -54,8 +59,8 @@ const { sectionTitle, groups, id } = Astro.props as Properties;
           </div>
         ) : (
           <div class='advocacy-list'>
-            {(group.items as string[]).map((content) => (
-              <ActionCard content={content} />
+            {(group.items as AdvocacyItem[]).map((item) => (
+              <ActionCard content={item} />
             ))}
           </div>
         )}

@@ -119,11 +119,26 @@
       }
     ],
     "advocacy": [
-      "Amplify Afghan civil society voices, especially women's rights activists, journalists and human-rights defenders.",
-      "Support Afghan-led organisations delivering aid and protection on the ground, and demand funding channels that enable direct, accountable transfers to local partners.",
-      "Advocate for the unfreezing or conditional, accountable release of sovereign assets to ensure civilians can access essential imports, salaries and public services.",
-      "Push for safe and legal routes for refugees and for humanitarian exemptions to sanctions that impede life-saving assistance.",
-      "Demand transparency and accountability for the costs and consequences of decades of foreign interventions and profiteering."
+      {
+        "title": "Challenge Economic Sanctions",
+        "description": "Advocate for the unfreezing of sovereign assets to ensure civilians can access essential imports, salaries and public services, and push for humanitarian exemptions to sanctions that impede life-saving aid."
+      },
+      {
+        "title": "Amplify Afghan Voices",
+        "description": "Support and amplify Afghan civil society, especially women's rights activists, journalists, and human-rights defenders."
+      },
+      {
+        "title": "Fund Local Organisations",
+        "description": "Support Afghan-led organisations delivering aid on the ground and demand funding channels that enable direct, accountable transfers to local partners."
+      },
+      {
+        "title": "Uphold Refugee Rights",
+        "description": "Push for safe and legal routes for Afghan refugees and an end to deportations."
+      },
+      {
+        "title": "Demand Accountability",
+        "description": "Demand transparency and accountability for the costs and consequences of decades of foreign interventions and profiteering."
+      }
     ]
   },
   "reading": [

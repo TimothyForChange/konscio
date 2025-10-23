@@ -128,11 +128,26 @@
       }
     ],
     "advocacy": [
-      "Oppose all imperialist aggression, including Russia's invasion of Ukraine and the decades-long military expansion of NATO that created the conditions for war.",
-      "Call for an immediate ceasefire and a negotiated diplomatic settlement to end the bloodshed, rather than military escalation.",
-      "Advocate for the cancellation of Ukraine's foreign debt to ensure that post-war reconstruction benefits its people, not international financial institutions and corporations.",
-      "Support peace movements and conscientious objectors in Russia, Ukraine, and Belarus who oppose the war.",
-      "Demand self-determination for the Ukrainian people, free from domination by any foreign power, whether from the East or the West."
+      {
+        "title": "Oppose All Imperialist Aggression",
+        "description": "Oppose all imperialist aggression, including Russia's invasion of Ukraine and the decades-long military expansion of NATO that created the conditions for war."
+      },
+      {
+        "title": "Call for Ceasefire & Diplomacy",
+        "description": "Call for an immediate ceasefire and a negotiated diplomatic settlement to end the bloodshed, rather than military escalation."
+      },
+      {
+        "title": "Cancel Ukraine's Foreign Debt",
+        "description": "Advocate for the cancellation of Ukraine's foreign debt to ensure that post-war reconstruction benefits its people, not international financial institutions and corporations."
+      },
+      {
+        "title": "Support Peace Movements",
+        "description": "Support peace movements and conscientious objectors in Russia, Ukraine, and Belarus who oppose the war."
+      },
+      {
+        "title": "Demand Self-Determination",
+        "description": "Demand self-determination for the Ukrainian people, free from domination by any foreign power, whether from the East or the West."
+      }
     ]
   },
   "reading": [

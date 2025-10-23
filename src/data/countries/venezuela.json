@@ -101,11 +101,26 @@
       }
     ],
     "advocacy": [
-      "Demand an immediate and unconditional lifting of broad unilateral economic sanctions that collectively punish the civilian population.",
-      "Advocate for the unfreezing and return of all Venezuelan state assets held in foreign banks and jurisdictions.",
-      "Oppose all forms of foreign military or political intervention and support sovereign, diplomatic solutions to internal political disputes.",
-      "Amplify reports from UN experts and human rights organisations documenting the devastating human impact of economic coercion.",
-      "Support accountability efforts at the ICC to investigate the sanctions as potential crimes against humanity."
+      {
+        "title": "Lift Unilateral Sanctions",
+        "description": "Demand an immediate and unconditional lifting of broad unilateral economic sanctions that collectively punish the civilian population."
+      },
+      {
+        "title": "Return Seized State Assets",
+        "description": "Advocate for the unfreezing and return of all Venezuelan state assets held in foreign banks and jurisdictions."
+      },
+      {
+        "title": "Oppose Foreign Intervention",
+        "description": "Oppose all forms of foreign military or political intervention and support sovereign, diplomatic solutions to internal political disputes."
+      },
+      {
+        "title": "Amplify Reports on Sanctions",
+        "description": "Amplify reports from UN experts and human rights organisations documenting the devastating human impact of economic coercion."
+      },
+      {
+        "title": "Support ICC Accountability",
+        "description": "Support accountability efforts at the ICC to investigate the sanctions as potential crimes against humanity."
+      }
     ]
   },
   "reading": [

@@ -118,10 +118,22 @@
       }
     ],
     "advocacy": [
-      "Push for a shift away from militarised counter-terrorism strategies towards Sahelian-led political, social and development solutions that address root causes.",
-      "Demand transparency and enforceable corporate due diligence on mineral and agricultural supply chains that link Northern consumption to local dispossession.",
-      "Advocate for climate reparations and increased, flexible climate finance for locally led adaptation and resilience-building projects.",
-      "Call for targeted measures to cut illicit arms flows and for international mechanisms to investigate and sanction external actors found to be materially supporting armed groups."
+      {
+        "title": "Shift from Military to Political Solutions",
+        "description": "Push for a shift away from militarised counter-terrorism strategies towards Sahelian-led political, social and development solutions that address root causes."
+      },
+      {
+        "title": "Demand Corporate Accountability",
+        "description": "Demand transparency and enforceable corporate due diligence on mineral and agricultural supply chains that link Northern consumption to local dispossession."
+      },
+      {
+        "title": "Advocate for Climate Reparations",
+        "description": "Advocate for climate reparations and increased, flexible climate finance for locally led adaptation and resilience-building projects."
+      },
+      {
+        "title": "Cut Illicit Arms Flows",
+        "description": "Call for targeted measures to cut illicit arms flows and for international mechanisms to investigate and sanction external actors found to be materially supporting armed groups."
+      }
     ]
   },
   "reading": [

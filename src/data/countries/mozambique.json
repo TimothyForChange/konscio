@@ -113,11 +113,26 @@
       }
     ],
     "advocacy": [
-      "Demand the full cancellation of Mozambique's odious debts, including those from the 'hidden debts' scandal, to free up public funds for essential services.",
-      "Advocate for transparency and accountability in the natural resource sector, ensuring that gas revenues benefit the entire population, especially local communities.",
-      "Support calls for an end to impunity for human rights abuses committed by all parties to the conflict in Cabo Delgado.",
-      "Promote community-led development models that give local populations meaningful control over their land and resources.",
-      "Call for the prosecution of the international banks and financial actors who facilitated the corrupt 'hidden debts' scandal."
+      {
+        "title": "Cancel Odious Debt",
+        "description": "Demand the full cancellation of Mozambique's odious debts, including those from the 'hidden debts' scandal, to free up public funds for essential services."
+      },
+      {
+        "title": "Demand Resource Transparency",
+        "description": "Advocate for transparency and accountability in the natural resource sector, ensuring that gas revenues benefit the entire population, especially local communities."
+      },
+      {
+        "title": "End Impunity in Cabo Delgado",
+        "description": "Support calls for an end to impunity for human rights abuses committed by all parties to the conflict in Cabo Delgado."
+      },
+      {
+        "title": "Support Community-Led Development",
+        "description": "Promote community-led development models that give local populations meaningful control over their land and resources."
+      },
+      {
+        "title": "Prosecute Corrupt International Banks",
+        "description": "Call for the prosecution of the international banks and financial actors who facilitated the corrupt 'hidden debts' scandal."
+      }
     ]
   },
   "reading": [

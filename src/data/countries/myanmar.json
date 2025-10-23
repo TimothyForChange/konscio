@@ -146,13 +146,34 @@
       }
     ],
     "advocacy": [
-      "Demand a comprehensive global arms embargo against the junta.",
-      "Call for coordinated international sanctions on military leaders and their economic networks (MEHL & MEC).",
-      "Support the pro-democracy National Unity Government (NUG) and ethnic resistance organisations.",
-      "Advocate for robust cross-border humanitarian aid bypassing the junta.",
-      "Support international accountability efforts, including the ICJ genocide case (Rohingya) and ICC investigations (post-coup war crimes).",
-      "Oppose premature or forced repatriation of Rohingya refugees until their citizenship, safety, and rights in Myanmar are guaranteed.",
-      "Amplify Rohingya voices and support Rohingya-led organisations advocating for their rights."
+      {
+        "title": "Impose a Global Arms Embargo",
+        "description": "Demand a comprehensive global arms embargo against the junta."
+      },
+      {
+        "title": "Sanction Military Conglomerates",
+        "description": "Call for coordinated international sanctions on military leaders and their economic networks (MEHL & MEC)."
+      },
+      {
+        "title": "Support the Revolution",
+        "description": "Support the pro-democracy National Unity Government (NUG) and ethnic resistance organisations."
+      },
+      {
+        "title": "Deliver Cross-Border Aid",
+        "description": "Advocate for robust cross-border humanitarian aid bypassing the junta."
+      },
+      {
+        "title": "Pursue International Justice",
+        "description": "Support international accountability efforts, including the ICJ genocide case (Rohingya) and ICC investigations (post-coup war crimes)."
+      },
+      {
+        "title": "Protect Rohingya Refugees",
+        "description": "Oppose premature or forced repatriation of Rohingya refugees until their citizenship, safety, and rights in Myanmar are guaranteed."
+      },
+      {
+        "title": "Amplify Rohingya Voices",
+        "description": "Amplify Rohingya voices and support Rohingya-led organisations advocating for their rights."
+      }
     ]
   },
   "reading": [

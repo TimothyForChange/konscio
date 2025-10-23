@@ -39,7 +39,7 @@ export interface ImperialRoot {
  */
 export interface TimelineEvent {
   year: string;
-  event?: string;
+  event: string;
 }
 
 /**
@@ -56,7 +56,10 @@ export interface Organisation {
  */
 export interface TakeAction {
   donate: Organisation[];
-  advocacy: string[];
+  advocacy: {
+    title: string;
+    description: string;
+  }[];
 }
 
 /**
@@ -70,8 +73,8 @@ export interface CountryData {
   lastUpdated: string;
   humanitarianImpact: HumanitarianImpact;
   timeline: TimelineEvent[];
-  colonialRoot?: ColonialRoot;
-  imperialRoot?: ImperialRoot;
+  colonialRoot: ColonialRoot;
+  imperialRoot: ImperialRoot;
   historicalContext: {
     title: string;
     description: string;
@@ -86,5 +89,5 @@ export interface CountryData {
 export interface Reading {
   title: string;
   url: string;
-  description?: string;
+  description: string;
 }

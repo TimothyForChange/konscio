@@ -115,10 +115,22 @@
       }
     ],
     "advocacy": [
-      "Push for targeted sanctions and asset-recovery measures against corrupt elites and intermediaries who divert oil revenues and undermine peace.",
-      "Advocate for establishment and proper funding of the Hybrid Court for South Sudan to ensure credible accountability for war crimes and crimes against humanity.",
-      "Demand that oil contracts and resource revenues be renegotiated with transparent, community-centred benefit-sharing and robust oversight.",
-      "Call for scaled, flexible humanitarian and climate finance that is channelled through South Sudanese organisations and local institutions to build resilience."
+      {
+        "title": "Sanction Kleptocrats & Recover Stolen Assets",
+        "description": "Push for targeted sanctions and asset-recovery measures against corrupt elites and intermediaries who divert oil revenues and undermine peace."
+      },
+      {
+        "title": "Establish the Hybrid Court",
+        "description": "Advocate for establishment and proper funding of the Hybrid Court for South Sudan to ensure credible accountability for war crimes and crimes against humanity."
+      },
+      {
+        "title": "Renegotiate Oil Contracts",
+        "description": "Demand that oil contracts and resource revenues be renegotiated with transparent, community-centred benefit-sharing and robust oversight."
+      },
+      {
+        "title": "Fund Local Climate & Humanitarian Action",
+        "description": "Call for scaled, flexible humanitarian and climate finance that is channelled through South Sudanese organisations and local institutions to build resilience."
+      }
     ]
   },
   "reading": [

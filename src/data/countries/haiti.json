@@ -121,11 +121,26 @@
       }
     ],
     "advocacy": [
-      "Demand financial reparations and a serious, public accounting from France for the harms and long-term economic damage caused by the 1825 indemnity.",
-      "Oppose external military interventions that undermine Haitian sovereignty unless they are accountable, properly mandated and centred on civilian protection and Haitian consent.",
-      "Support Haitian-led peasant movements and campaigns for food sovereignty and oppose trade and aid policies that privilege imports over local agriculture.",
-      "Push for full accountability for the UN's role in the cholera epidemic and for reparative measures, while supporting locally led public-health rebuilding.",
-      "Amplify Haitian civil-society voices and fund Haitian organisations directly to ensure aid reaches affected communities and strengthens local capacity."
+      {
+        "title": "Demand Reparations from France",
+        "description": "Demand financial reparations and a serious, public accounting from France for the harms and long-term economic damage caused by the 1825 indemnity."
+      },
+      {
+        "title": "Oppose Foreign Military Intervention",
+        "description": "Oppose external military interventions that undermine Haitian sovereignty unless they are accountable, properly mandated and centred on civilian protection and Haitian consent."
+      },
+      {
+        "title": "Support Food Sovereignty",
+        "description": "Support Haitian-led peasant movements and campaigns for food sovereignty and oppose trade and aid policies that privilege imports over local agriculture."
+      },
+      {
+        "title": "Demand UN Accountability",
+        "description": "Push for full accountability for the UN's role in the cholera epidemic and for reparative measures, while supporting locally led public-health rebuilding."
+      },
+      {
+        "title": "Amplify Haitian Civil Society",
+        "description": "Amplify Haitian civil-society voices and fund Haitian organisations directly to ensure aid reaches affected communities and strengthens local capacity."
+      }
     ]
   },
   "reading": [

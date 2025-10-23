@@ -121,10 +121,22 @@
       }
     ],
     "advocacy": [
-      "Push for increased, flexible climate finance and humanitarian funding that is channelled directly to Somali-led organisations and community networks.",
-      "Demand accountability for illegal fishing and toxic-waste dumping, and support coastal communities' rights to their marine resources.",
-      "Advocate for a shift from predominately militarised counter-terror strategies to Somali-led political processes, inclusive governance and investment in resilient livelihoods.",
-      "Support expanded humanitarian access, protection for civilians and strengthened monitoring of rights abuses by all armed actors."
+      {
+        "title": "Fund Local Climate Adaptation & Aid",
+        "description": "Push for increased, flexible climate finance and humanitarian funding that is channelled directly to Somali-led organisations and community networks."
+      },
+      {
+        "title": "End Economic & Ecological Predation",
+        "description": "Demand accountability for illegal fishing and toxic-waste dumping, and support coastal communities' rights to their marine resources."
+      },
+      {
+        "title": "Shift from 'War on Terror' to Politics",
+        "description": "Advocate for a shift from predominately militarised counter-terror strategies to Somali-led political processes, inclusive governance and investment in resilient livelihoods."
+      },
+      {
+        "title": "Ensure Humanitarian Access & Protection",
+        "description": "Support expanded humanitarian access, protection for civilians and strengthened monitoring of rights abuses by all armed actors."
+      }
     ]
   },
   "reading": [

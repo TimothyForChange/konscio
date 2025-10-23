@@ -113,11 +113,26 @@
       }
     ],
     "advocacy": [
-      "Demand sanctions on foreign corporations and individuals, including those affiliated with the Africa Corps/Wagner Group, involved in the illicit trade of CAR's 'blood diamonds' and gold.",
-      "Oppose all forms of foreign military interference, whether through official state armies or private mercenary companies, that serves to extract resources and prop up illegitimate regimes.",
-      "Call for the unconditional cancellation of CAR's external debt, which serves to perpetuate dependency and divert state funds away from essential services.",
-      "Support and amplify the voices of Central African civil society organisations working on peacebuilding, human rights, and good governance.",
-      "Advocate for strengthening the Special Criminal Court and other justice mechanisms with the resources and political independence to prosecute all perpetrators of war crimes, including foreign actors."
+      {
+        "title": "Sanction Mercenaries & Profiteers",
+        "description": "Demand sanctions on foreign corporations and individuals, including those affiliated with the Africa Corps/Wagner Group, involved in the illicit trade of CAR's 'blood diamonds' and gold."
+      },
+      {
+        "title": "Oppose Foreign Interference",
+        "description": "Oppose all forms of foreign military interference, whether state armies or private mercenaries, that serves to extract resources and prop up illegitimate regimes."
+      },
+      {
+        "title": "Cancel Odious Debt",
+        "description": "Call for the unconditional cancellation of CAR's external debt, which serves to perpetuate dependency and divert state funds away from essential services."
+      },
+      {
+        "title": "Amplify Local Voices",
+        "description": "Support and amplify the voices of Central African civil society organisations working on peacebuilding, human rights, and good governance."
+      },
+      {
+        "title": "Support Local & International Justice",
+        "description": "Advocate for strengthening the Special Criminal Court (SCC) and other justice mechanisms to prosecute all perpetrators of war crimes, including foreign actors."
+      }
     ]
   },
   "reading": [

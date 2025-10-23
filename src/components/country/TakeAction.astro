@@ -11,7 +11,10 @@ export interface Properties {
       url?: string;
       buttonText?: string;
     }>;
-    advocacy?: Array<string>;
+    advocacy?: Array<{
+      title: string;
+      description?: string;
+    }>;
   };
   id?: string;
 }
