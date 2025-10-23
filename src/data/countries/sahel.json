@@ -105,16 +105,6 @@
         "organisation": "SOS Sahel",
         "description": "An African-led organisation partnering with rural communities on food security and climate-resilient livelihoods.",
         "url": "https://sossahel.ngo"
-      },
-      {
-        "organisation": "UNHCR",
-        "description": "Provides urgent protection and assistance to refugees and internally displaced people across the Sahel.",
-        "url": "https://www.unhcr.org/emergencies/sahel-emergency"
-      },
-      {
-        "organisation": "World Food Programme (WFP)",
-        "description": "Delivers life-saving food assistance and nutrition support to millions facing acute hunger across the Sahel.",
-        "url": "https://www.wfp.org/emergencies/sahel-emergency"
       }
     ],
     "advocacy": [

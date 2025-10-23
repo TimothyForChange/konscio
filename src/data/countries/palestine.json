@@ -106,6 +106,16 @@
   "takeAction": {
     "donate": [
       {
+        "organisation": "Medical Aid for Palestinians (MAP)",
+        "description": "Works for the health and dignity of Palestinians living under occupation and as refugees by providing medical aid and developing local healthcare capacity.",
+        "url": "https://www.map.org.uk/"
+      },
+      {
+        "organisation": "Muslim Aid",
+        "description": "Provides emergency aid, medical supplies, and support to families affected by the crisis in Gaza and the occupied Palestinian territories.",
+        "url": "https://www.muslimaid.org/palestine-emergency/"
+      },
+      {
         "organisation": "Palestine Children's Relief Fund (PCRF)",
         "description": "A non-political, non-profit organisation that provides free medical care to injured and ill children who lack access to care within the local health system.",
         "url": "https://www.pcrf.net"
@@ -124,11 +134,6 @@
         "organisation": "War Child UK",
         "description": "Provides urgent psychological first aid and support to children in Gaza who have survived bombings and witnessed horrific events.",
         "url": "https://www.warchild.org.uk/our-work/where-we-work/gaza"
-      },
-      {
-        "organisation": "World Food Programme (WFP)",
-        "description": "WFP is on the ground in Gaza, delivering emergency food, hot meals, and nutritional support to hundreds of thousands of people. Their work is critical in fighting the catastrophic hunger crisis and preventing famine.",
-        "url": "https://www.wfp.org/emergencies/palestine-emergency"
       }
     ],
     "advocacy": [

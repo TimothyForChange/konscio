@@ -106,16 +106,6 @@
         "organisation": "Ethiopian Red Cross Society",
         "description": "The primary national humanitarian organisation, providing emergency response, ambulance services, and assistance to vulnerable communities.",
         "url": "https://redcrosseth.org"
-      },
-      {
-        "organisation": "UNHCR",
-        "description": "The UN Refugee Agency provides protection, shelter, and essential services to internally displaced people and refugees in Ethiopia.",
-        "url": "https://www.unhcr.org/emergencies/ethiopia-emergency"
-      },
-      {
-        "organisation": "World Food Programme (WFP)",
-        "description": "Delivers emergency food and nutrition assistance to millions of people facing hunger due to conflict and climate change.",
-        "url": "https://www.wfp.org/emergencies/ethiopia-emergency"
       }
     ],
     "advocacy": [

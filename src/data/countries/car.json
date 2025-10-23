@@ -102,11 +102,6 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "UNHCR (The UN Refugee Agency)",
-        "description": "UNHCR provides critical protection and assistance to refugees and internally displaced people, delivering shelter, aid, and support to those forced to flee the violence in CAR.",
-        "url": "https://www.unhcr.org/emergencies/central-african-republic-emergency"
-      },
-      {
         "organisation": "War Child UK",
         "description": "Provides safe spaces, education, and psychosocial support to children affected by the armed conflict, helping them recover from trauma.",
         "url": "https://www.warchild.org.uk/our-work/where-we-work/central-african-republic"

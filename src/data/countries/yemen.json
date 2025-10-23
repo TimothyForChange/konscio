@@ -94,14 +94,14 @@
   "takeAction": {
     "donate": [
       {
+        "organisation": "Muslim Aid",
+        "description": "Delivers essential food parcels, water, and healthcare to families and children suffering from conflict-induced famine and disease.",
+        "url": "https://www.muslimaid.org/appeals/together-for-yemen/"
+      },
+      {
         "organisation": "War Child UK",
         "description": "Provides life-saving food, child protection services, and cash assistance to families who have lost everything in the ongoing war.",
         "url": "https://www.warchild.org.uk/our-work/where-we-work/yemen"
-      },
-      {
-        "organisation": "World Food Programme (WFP)",
-        "description": "Delivers emergency food assistance and nutrition support to millions of people in Yemen; critical to preventing famine and treating severe malnutrition.",
-        "url": "https://www.wfp.org/emergencies/yemen-emergency"
       },
       {
         "organisation": "Yemen Relief and Reconstruction Foundation",

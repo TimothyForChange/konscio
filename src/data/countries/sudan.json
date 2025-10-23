@@ -98,24 +98,24 @@
   "takeAction": {
     "donate": [
       {
+        "organisation": "Muslim Aid",
+        "description": "Provides emergency food, water, and healthcare to people displaced by the ongoing conflict and facing catastrophic hunger.",
+        "url": "https://www.muslimaid.org/appeals/sudan-emergency-appeal/"
+      },
+      {
         "organisation": "Sudanese American Physicians Association (SAPA)",
         "description": "A diaspora-led network delivering medical and humanitarian support through local Emergency Response Rooms and health services.",
         "url": "https://sapa-usa.org"
       },
       {
-        "organisation": "UNHCR",
-        "description": "Providing protection, shelter and core relief support to millions of refugees and internally displaced people inside Sudan and across its borders.",
-        "url": "https://www.unhcr.org/emergencies/sudan-emergency"
+        "organisation": "Sudanese Red Crescent Society",
+        "description": "The largest and most widespread national humanitarian organisation in Sudan, providing emergency aid, health services, and disaster response to vulnerable communities.",
+        "url": "https://www.srcs.sd/en"
       },
       {
         "organisation": "War Child UK",
         "description": "Delivers emergency protection, education, and mental health support to children and families displaced by the ongoing civil war.",
         "url": "https://www.warchild.org.uk/our-work/where-we-work/sudan"
-      },
-      {
-        "organisation": "World Food Programme (WFP)",
-        "description": "At the front lines of Sudan's hunger crisis, WFP provides life-saving food and nutrition support across conflict-affected regions.",
-        "url": "https://www.wfp.org/emergencies/sudan"
       }
     ],
     "advocacy": [

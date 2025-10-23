@@ -102,6 +102,11 @@
   "takeAction": {
     "donate": [
       {
+        "organisation": "Muslim Aid",
+        "description": "Delivers vital humanitarian aid, including food, shelter, and medical supplies, to families displaced by the long-running conflict.",
+        "url": "https://www.muslimaid.org/appeals/syria-emergency/"
+      },
+      {
         "organisation": "Syrian Arab Red Crescent (SARC)",
         "description": "The main provider of humanitarian aid across the entire country, operating with the mandate of the International Red Cross and Red Crescent Movement.",
         "url": "https://www.sarc.sy/en/"
@@ -112,19 +117,9 @@
         "url": "https://www.syriacivildefence.org/"
       },
       {
-        "organisation": "UNHCR",
-        "description": "The UN Refugee Agency provides critical protection and assistance to millions of Syrian refugees in neighbouring countries and the internally displaced.",
-        "url": "https://www.unhcr.org/emergencies/syria-emergency"
-      },
-      {
         "organisation": "War Child UK",
         "description": "Provides psychosocial support, protection, and education to help Syrian children affected by the conflict heal from trauma and rebuild their lives.",
         "url": "https://www.warchild.org.uk/our-work/where-we-work/syria"
-      },
-      {
-        "organisation": "World Food Programme (WFP)",
-        "description": "Delivers life-saving emergency food assistance to millions of people across Syria who are facing acute hunger.",
-        "url": "https://www.wfp.org/emergencies/syria-emergency"
       }
     ],
     "advocacy": [

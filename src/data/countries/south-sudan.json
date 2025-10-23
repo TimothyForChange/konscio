@@ -99,19 +99,15 @@
         "url": "https://www.hdcafrica.org"
       },
       {
-        "organisation": "UNHCR",
-        "description": "Provides protection, shelter and assistance to refugees, returnees and internally displaced people in and from South Sudan.",
-        "url": "https://www.unhcr.org/emergencies/south-sudan-emergency"
+        "organisation": "South Sudan Red Cross",
+        "description": "The national humanitarian society for South Sudan, providing emergency response, health services, and community support to populations affected by conflict and climate change.",
+        "url": "https://www.ssdredcross.org",
+        "buttonText": "Support"
       },
       {
         "organisation": "War Child UK",
         "description": "Works with children and families affected by conflict to provide education, child protection services, and support for long-term livelihoods.",
         "url": "https://www.warchild.org.uk/our-work/where-we-work/south-sudan"
-      },
-      {
-        "organisation": "World Food Programme (WFP)",
-        "description": "Delivers emergency food and nutrition support across South Sudan and is central to preventing famine during flood and conflict-related shocks.",
-        "url": "https://www.wfp.org/emergencies/south-sudan-emergency"
       }
     ],
     "advocacy": [

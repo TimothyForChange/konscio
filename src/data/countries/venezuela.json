@@ -90,11 +90,6 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "UNHCR",
-        "description": "Provides protection and assistance to the millions of Venezuelan refugees and migrants displaced across the region.",
-        "url": "https://www.unhcr.org/emergencies/venezuela-situation"
-      },
-      {
         "organisation": "Caritas Venezuela",
         "description": "A well-established national aid organisation delivering food, healthcare and nutritional support directly to communities across the country.",
         "url": "https://caritasvenezuela.org"

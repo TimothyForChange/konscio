@@ -26,11 +26,7 @@ export interface Properties {
 
 const { countryData, countrySlug } = Astro.props as Properties;
 const passedTitle = (Astro.props as Properties).title;
-
-const countryImageModules = import.meta.glob('/countries/*.webp');
-const hasImage = `/countries/${countrySlug}.webp` in countryImageModules;
-const image = hasImage ? `/countries/${countrySlug}.webp` : undefined;
-
+const image = `/countries/${countrySlug}.jpg`;
 const countryMapping = Array.isArray(countriesList)
   ? countriesList.find((c) => c.slug === countrySlug)
   : undefined;
