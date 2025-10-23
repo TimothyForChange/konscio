@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-- This is a humanitarian advocacy site built with Astro, focusing on critical analysis of global crises and their historical/economic roots.
+- This is an advocacy site analysing structural violence built with Astro, focusing on critical analysis of global crises and their historical/economic roots.
 - The codebase is organized for static site generation, with content and components separated for clarity and scalability.
 
 ## Behaviour
