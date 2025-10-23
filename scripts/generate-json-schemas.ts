@@ -3,7 +3,6 @@ import path from 'path';
 import * as z from 'zod';
 import { CountryDataSchema } from '../src/schemas/country-data.ts';
 import { MissionSchema } from '../src/schemas/mission.ts';
-import { TooltipsSchema } from '../src/schemas/tooltips.ts';
 
 /**
  * Generates JSON schemas from Zod schemas and saves them to the file system.
@@ -23,13 +22,9 @@ export function generateSchemas(logger = console) {
   const countryDataJsonSchema = z.toJSONSchema(CountryDataSchema, {
     target: 'draft-7',
   });
-  const tooltipsJsonSchema = z.toJSONSchema(TooltipsSchema, {
-    target: 'draft-7',
-  });
 
   const missionPath = path.join(jsonSchemasDir, 'mission.schema.json');
   const countryDataPath = path.join(jsonSchemasDir, 'country-data.schema.json');
-  const tooltipsPath = path.join(jsonSchemasDir, 'tooltips.schema.json');
 
   fs.writeFileSync(missionPath, JSON.stringify(missionJsonSchema, null, 2));
   logger.info(`Wrote mission schema to ${missionPath}`);
@@ -39,9 +34,6 @@ export function generateSchemas(logger = console) {
     JSON.stringify(countryDataJsonSchema, null, 2)
   );
   logger.info(`Wrote country-data schema to ${countryDataPath}`);
-
-  fs.writeFileSync(tooltipsPath, JSON.stringify(tooltipsJsonSchema, null, 2));
-  logger.info(`Wrote tooltips schema to ${tooltipsPath}`);
 }
 
 generateSchemas();

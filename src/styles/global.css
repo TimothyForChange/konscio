@@ -353,16 +353,6 @@ html::-webkit-scrollbar-corner {
    Interactive Elements
    ========================================================================== */
 
-span[data-tooltip] {
-  cursor: help;
-  text-decoration-style: dotted;
-  text-decoration-line: underline;
-  text-decoration-color: var(--accent-primary);
-  text-decoration-thickness: 1.5px;
-  font-weight: 500;
-  position: relative;
-}
-
 span[data-tooltip]:hover::after,
 span[data-tooltip].show-tooltip::after,
 span[data-tooltip]:focus::after {
