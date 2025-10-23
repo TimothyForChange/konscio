@@ -3,62 +3,62 @@
   "name": "Yemen",
   "emoji": "🇾🇪",
   "ariaLabel": "Yemeni flag",
-  "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "Yemen endures one of the world's most severe humanitarian catastrophes, directly caused by a protracted **proxy war** over state control and its **strategic position** on a key **global trade route**. The conflict, involving a **Saudi-led coalition** (backed by **Western arms**) and Iran-aligned forces, has been waged through **blockades**, **sieges**, and attacks on infrastructure, deliberately crippling the nation.\n\nThis violence and **externally imposed restrictions** have devastated the economy, wrecked public services, and produced **catastrophic hunger and disease**. Aid diversion further exacerbates civilian suffering. The crisis is actively sustained by **international arms flows**, **regional rivalries**, and **global economic interests** prioritising strategic gain over human life.",
+  "lastUpdated": "2025-10-23",
+  "currentCrisisSummary": "Yemen endures one of the world's most severe humanitarian catastrophes, directly caused by a protracted **proxy war** over state control and its **strategic position** on a key **global trade route**. The conflict, involving a **Saudi-led coalition** (backed by **Western arms**) and Iran-aligned forces, has been waged through **blockades**, **sieges**, and attacks on infrastructure, deliberately crippling the nation.\n\nThis violence and **externally imposed restrictions** have devastated the economy, wrecked public services, and produced **catastrophic hunger and disease**. Aid diversion exacerbates suffering. The crisis is actively sustained by **international arms flows**, **regional rivalries**, and **global economic interests** prioritising strategic gain over human life.",
   "imperialRoot": {
     "imperialPower": "Britain & Ottoman Empire (Aden 1839-1967; Ottoman presence in the north until 1918)",
-    "legacy": "The crisis draws on deep **colonial-era divisions**. **British control** of Aden and the south, alongside **Ottoman administration** in the north, produced distinct legacies. Britain's patchwork of **protectorates** and **indirect rule** hindered unity and left a **governance vacuum**.\n\nThese **colonial partitions**, combined with later **Cold War geopolitics** and international economic policies, created fault-lines exploited by elites and **foreign powers**, contributing to cycles of conflict and **external intervention**."
+    "legacy": "The crisis draws on deep **colonial-era divisions**. **British control** (south) alongside **Ottoman administration** (north) produced distinct legacies. Britain's **protectorates** and **indirect rule** hindered unity, leaving a **governance vacuum**.\n\nThese **colonial partitions**, plus later **Cold War geopolitics**, created fault-lines exploited by elites and **foreign powers**, contributing to cycles of conflict and **external intervention**."
   },
   "historicalContext": [
     {
       "title": "Geopolitical Chokepoint and Global Trade",
-      "description": "Yemen's geography astride the **Bab-el-Mandeb strait**, a vital **chokepoint** for **global trade** and energy, makes it a theatre for **strategic competition**. **Regional powers** and global actors seek influence over its coast and ports. Control of **maritime access** is a persistent objective for **external actors**."
+      "description": "Yemen's geography astride the **Bab-el-Mandeb strait**, a vital **chokepoint** for **global trade**, makes it a theatre for **strategic competition**. **Regional powers** and global actors seek influence. Control of **maritime access** is a persistent objective for **external actors**."
     },
     {
       "title": "Neoliberal Reforms and the Roots of Rebellion",
-      "description": "Following unification, Yemen was subjected to **IMF/World Bank-led Structural Adjustment Programmes (SAPs)**. These **neoliberal \"reforms\"** mandated lifting subsidies, **privatisation**, and severe **austerity**. The resulting hardship disproportionately affected marginalised regions, feeding grievances of southern secessionists and the northern **Houthi rebellion**. The Houthi rise was partly a revolt against **corruption** and inequality from this **Western-backed economic model**."
+      "description": "Post-unification, Yemen faced **IMF/World Bank-led Structural Adjustment Programmes (SAPs)**. These **neoliberal 'reforms'** mandated lifting subsidies, **privatisation**, and severe **austerity**. Hardship affected marginalised regions, feeding grievances of southern secessionists and the northern **Houthi rebellion**. The Houthi rise was partly a revolt against **corruption** from this **Western-backed economic model**."
     },
     {
       "title": "The War on Terror and Foreign Intervention",
-      "description": "The current war was preceded by years of **US intervention** under the \"**Global War on Terror**\". President Saleh exploited **US counter-terrorism aid** to acquire military funding used primarily against domestic opponents, including the **Houthis**. This use of an **imperial security framework** to crush dissent radicalised opposition. This was later supplanted by the current **proxy war**, sustained by large-scale **arms transfers** from Western nations to the **Saudi-led coalition**, enabling violations of **international law**."
+      "description": "The current war was preceded by **US intervention** under the '**Global War on Terror**'. Saleh exploited **US counter-terrorism aid** primarily against domestic opponents (**Houthis**). This use of an **imperial security framework** radicalised opposition. Later supplanted by the current **proxy war**, sustained by **arms transfers** from Western nations to the **Saudi-led coalition**, enabling violations of **international law**."
     },
     {
       "title": "International Law And Accountability",
-      "description": "Allegations of unlawful attacks, **blockade-induced starvation**, and **aid diversion** prompt calls for **accountability**. UN bodies and rights organisations document potential **war crimes**. **Accountability** efforts remain politically contested but are central to justice and deterrence."
+      "description": "Allegations of unlawful attacks, **blockade-induced starvation**, and **aid diversion** prompt calls for **accountability**. UN bodies document potential **war crimes**. **Accountability** efforts remain politically contested but central to justice."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Hundreds of thousands killed (est. 377k by late 2021) directly by **fighting or indirectly through conflict-induced starvation and disease.**"
+      "description": "Hundreds of thousands killed (est. 377k by late 2021) directly by fighting or indirectly through **conflict-induced starvation and disease**."
     },
     {
       "title": "Affected Population",
-      "description": "Roughly 19.5 million people require aid due to the **systematic destruction of the country by the warring parties and their international backers.**"
+      "description": "Roughly 19.5 million require aid due to the systematic destruction caused by warring parties and their **international backers**."
     },
     {
       "title": "Food Insecurity",
-      "description": "Over 17 million face acute hunger, a direct result of **blockades, attacks on agriculture, and economic collapse caused by the war.**"
+      "description": "Over 17 million face acute hunger from **blockades**, attacks on agriculture, and **economic collapse caused by the war**."
     },
     {
       "title": "Displacement",
-      "description": "Around 4.5 million internally displaced, forced from homes by **bombing campaigns, ground fighting, and climate shocks exacerbated by state failure.**"
+      "description": "Around 4.5 million internally displaced by bombing, fighting, and **climate shocks exacerbated by state failure**."
     },
     {
       "title": "Refugees",
-      "description": "Tens of thousands forced abroad by the **extreme violence and lack of basic survival conditions created by the conflict.**"
+      "description": "Tens of thousands forced abroad by **extreme violence** created by the conflict."
     },
     {
       "title": "Healthcare Collapse",
-      "description": "Roughly half of health facilities non-functional due to **direct attacks, lack of supplies caused by blockades, and general infrastructure collapse.**"
+      "description": "Roughly half of health facilities non-functional due to attacks, lack of supplies from **blockades**, and infrastructure collapse."
     },
     {
       "title": "Lack of Water Access",
-      "description": "Over 15 million lack safe water and sanitation due to **infrastructure destruction and import restrictions imposed by warring parties.**"
+      "description": "Over 15 million lack safe water/sanitation due to **infrastructure destruction** and import restrictions."
     },
     {
       "title": "Education Denied",
-      "description": "Over 2 million children denied education as schools are **damaged by attacks or rendered inaccessible by displacement and conflict.**"
+      "description": "Over 2 million children denied education as schools damaged or inaccessible due to conflict."
     }
   ],
   "timeline": [
@@ -118,19 +118,19 @@
   },
   "reading": [
     {
-      "title": "Destroying Yemen: What Chaos in Arabia Tells Us about the World",
+      "title": "*Destroying Yemen: What Chaos in Arabia Tells Us about the World*",
       "url": "https://www.goodreads.com/book/show/34688137-destroying-yemen",
       "description": "Isa Blumi's critical history linking Yemen's modern conflicts to longer legacies of imperial intervention and regional power struggles."
     },
     {
-      "title": "Yemen in Crisis: Autocracy, Neo-Liberalism and the Disintegration of a State",
+      "title": "*Yemen in Crisis: Autocracy, Neo-Liberalism and the Disintegration of a State*",
       "url": "https://www.goodreads.com/book/show/34381064-yemen-in-crisis",
       "description": "Helen Lackner provides a detailed study of the political, social, and economic drivers, including neoliberal policies, that led to Yemen's current war."
     },
     {
-      "title": "Yemen Endures: Civil War, Saudi Adventurism and the Future of Arabia",
+      "title": "*Yemen Endures: Civil War, Saudi Adventurism and the Future of Arabia*",
       "url": "https://www.goodreads.com/book/show/34640867-yemen-endures",
-      "description": "Edited by Ginny Hill, et al. This collection (often cited similarly to your third entry) analyses governance failures, the impact of neoliberalism, and regional interventions contributing to state collapse."
+      "description": "Edited by Ginny Hill, et al. This collection analyses governance failures, the impact of neoliberalism, and regional interventions contributing to state collapse."
     }
   ]
 }

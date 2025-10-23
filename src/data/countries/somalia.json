@@ -3,66 +3,66 @@
   "name": "Somalia",
   "emoji": "🇸🇴",
   "ariaLabel": "Somali flag",
-  "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "Somalia endures converging **structural crises**: protracted civil war stemming from **state collapse induced by Cold War legacies and neoliberal policies**; an entrenched al-Shabaab insurgency born from **failed 'War on Terror' interventions**; and **climate catastrophe** (droughts, floods) devastating livelihoods.\n\nThese dynamics—amplified by **geopolitical competition**, **external military interference**, and **predatory extraction** (illegal fishing, resource claims)—produce chronic, widespread suffering. Millions are displaced, public services have disintegrated, and mass hunger recurs frequently.\n\nAid efforts are hindered by insecurity and access constraints. Preventing repeated cycles of famine and displacement requires Somali-led political solutions, civilian protection, and large-scale, locally accountable **climate adaptation support** alongside **reparations for ecological damage**.",
+  "lastUpdated": "2025-10-23",
+  "currentCrisisSummary": "Somalia endures converging **structural crises**: protracted civil war stemming from **state collapse** induced by **Cold War** legacies and **neoliberal policies**; an entrenched al-Shabaab insurgency born from failed '**War on Terror**' interventions; and **climate catastrophe** devastating livelihoods.\n\nThese dynamics—amplified by **geopolitical competition**, **external military interference**, and **predatory extraction** (illegal fishing, resource claims)—produce chronic suffering. Millions are displaced, services disintegrated, and mass hunger recurs.\n\nAid efforts are hindered by insecurity. Preventing cycles of famine requires Somali-led political solutions, civilian protection, and large-scale **climate adaptation support** alongside **reparations for ecological damage**.",
   "colonialRoot": {
     "colonialPower": "Britain & Italy (c. 1880s-1960)",
-    "legacy": "The crisis is rooted in the **colonial partitioning** of Somali-inhabited lands during the **Scramble for Africa**. Britain, Italy (and France) divided a cohesive people into separate entities and imposed **artificial borders**, disrupting traditional systems.\n\nThe rushed post-colonial merger left a state with unresolved tensions, a fragility compounded by **Cold War geopolitics** and frequent **external interventions**."
+    "legacy": "The crisis is rooted in the **colonial partitioning** during the **Scramble for Africa**. Britain, Italy (and France) divided a cohesive people with **artificial borders**, disrupting traditional systems.\n\nThe rushed post-colonial merger left unresolved tensions, fragility compounded by **Cold War geopolitics** and frequent **external interventions**."
   },
   "historicalContext": [
     {
       "title": "Neoliberalism and State Collapse",
-      "description": "The 1991 **state collapse** was preceded by economic crisis and **neoliberal intervention**. During the 1980s, the indebted Siad Barre regime accepted **IMF-led Structural Adjustment Programmes (SAPs)**. These policies enforced **deregulation** of grain markets, flooding them with cheap imports that destroyed local farmers' livelihoods. Mandated **austerity** and cuts to public services **hollowed out the state's** capacity and legitimacy, accelerating the social breakdown."
+      "description": "The 1991 **state collapse** was preceded by economic crisis and **neoliberal intervention**. In the 1980s, the indebted Barre regime accepted **IMF-led Structural Adjustment Programmes (SAPs)**. These enforced **deregulation**, destroying farmers' livelihoods. Mandated **austerity** **hollowed out the state's** capacity, accelerating social breakdown."
     },
     {
       "title": "The Fragmented State",
-      "description": "The **collapse of central authority** in 1991 unfolded in a **Cold War** context (Barre supported by USSR then US). The post-collapse period saw repeated **external interventions** that often prioritised military objectives over Somali-led political settlement."
+      "description": "**State collapse** unfolded in a **Cold War** context (Barre backed by USSR then US). Post-collapse saw repeated **external interventions** often prioritising military objectives over Somali-led settlement."
     },
     {
       "title": "The War on Terror and the Rise of Al-Shabaab",
-      "description": "The post-9/11 '**Global War on Terror**' framework became a primary driver of conflict. The 2006 **US-backed Ethiopian invasion**, designed to oust the popular Islamic Courts Union (ICU), shattered stability and catalysed the rise of al-Shabaab (**blowback**). Subsequent decades of **drone strikes**, **special forces operations**, and **proxy interventions** entrenched violence, undermining Somali-led reconciliation."
+      "description": "The post-9/11 '**Global War on Terror**' framework drove conflict. The 2006 **US-backed Ethiopian invasion** ousted the Islamic Courts Union (ICU), shattered stability, and catalysed al-Shabaab's rise (**blowback**). Decades of **drone strikes**, **special forces operations**, and **proxy interventions** entrenched violence, undermining reconciliation."
     },
     {
       "title": "Climate Change and Economic Exploitation",
-      "description": "Somalia is on the frontline of **climate change**: droughts and floods destroy livelihoods and deepen food insecurity. **State collapse** opened space for illicit activity: **illegal fishing** by foreign fleets and **toxic-waste dumping** eroded coastal livelihoods. New competition for offshore resources risks fresh conflict. These drivers—**climate shocks**, **resource predation**, fragmentation—create **ecological and economic injustice**: the Global North's emissions and commercial practices impose heavy costs."
+      "description": "Somalia is on the frontline of **climate change**: droughts/floods destroy livelihoods. **State collapse** enabled illicit activity: **illegal fishing** by foreign fleets and **toxic-waste dumping** eroded coastal livelihoods. New resource competition risks conflict. These drivers create **ecological and economic injustice**: the Global North's emissions and commercial practices impose heavy costs."
     },
     {
       "title": "International Law And Accountability",
-      "description": "**International responsibility** is contested. Abuses by state/non-state actors, violations in counter-insurgency, and **exploitation by transnational actors** are documented. **Accountability** mechanisms are uneven; strengthening independent documentation and Somali-centred **transitional justice** is key."
+      "description": "**International responsibility** is contested. Abuses by state/non-state actors, violations in counter-insurgency, and **exploitation by transnational actors** are documented. **Accountability** is uneven; strengthening documentation and Somali-centred **transitional justice** is key."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Hundreds of thousands killed by **direct conflict and recurring famines (e.g., ~258k excess deaths in 2011)** driven by war, state collapse, and climate shocks."
+      "description": "Hundreds of thousands killed by direct conflict and recurring **famines** (e.g., ~258k excess deaths in 2011) driven by war, **state collapse**, and **climate shocks**."
     },
     {
       "title": "Affected Population",
-      "description": "Roughly 7 million people require aid due to the **compounded devastation of war, climate catastrophe, and economic predation.**"
+      "description": "Roughly 7 million require aid due to devastation from war, **climate catastrophe**, and **economic predation**."
     },
     {
       "title": "Food Insecurity",
-      "description": "About 4.4 million face acute hunger (1.7M children malnourished), a direct result of **conflict disrupting farming, climate change causing crop failure, and economic collapse.**"
+      "description": "About 4.4 million face acute hunger from **conflict**, **climate change**, and **economic collapse**."
     },
     {
       "title": "Displacement",
-      "description": "About 3.5 million internally displaced, forced from homes by **internecine conflict and extreme weather events linked to global warming.**"
+      "description": "About 3.5 million internally displaced by **conflict** and **extreme weather events** linked to **global warming**."
     },
     {
       "title": "Refugees",
-      "description": "Approximately 714,000 refugees driven into neighbouring countries by **chronic violence and lack of basic survival means.**"
+      "description": "Approx. 714,000 refugees driven abroad by chronic violence and lack of basic means."
     },
     {
       "title": "Healthcare Collapse",
-      "description": "Public health system decimated by **decades of conflict and state failure**, leading to recurrent disease outbreaks."
+      "description": "Health system decimated by decades of conflict and **state failure**."
     },
     {
       "title": "Lack of Water Access",
-      "description": "Over half the population lacks safe water due to **infrastructure destruction and state incapacity resulting from collapse and austerity.**"
+      "description": "Over half lack safe water due to **infrastructure destruction** and state incapacity from **collapse** and **austerity**."
     },
     {
       "title": "Education Denied",
-      "description": "An estimated 3 million children denied education by **conflict destroying schools and displacing families.**"
+      "description": "Est. 3 million children denied education by **conflict destroying schools** and displacing families."
     }
   ],
   "timeline": [
@@ -129,17 +129,17 @@
   },
   "reading": [
     {
-      "title": "Making Sense of Somali History: Volume 1",
+      "title": "*Making Sense of Somali History: Volume 1*",
       "url": "https://www.goodreads.com/book/show/40886842-making-sense-of-somali-history",
       "description": "Abdurahman Abdullahi (Baadiyow) offers a scholarly account of Somali history across pre-colonial, colonial and post-colonial periods from a Somali perspective."
     },
     {
-      "title": "Dirty Wars: The World Is a Battlefield",
+      "title": "*Dirty Wars: The World Is a Battlefield*",
       "url": "https://www.goodreads.com/book/show/15814204-dirty-wars",
       "description": "Jeremy Scahill's critical investigation into the US 'War on Terror', detailing its disastrous interventions and consequences in Somalia."
     },
     {
-      "title": "The Fate of Africa: A History of Fifty Years of Independence",
+      "title": "*The Fate of Africa: A History of Fifty Years of Independence*",
       "url": "https://www.goodreads.com/en/book/show/185540.The_Fate_of_Africa",
       "description": "Martin Meredith provides essential context on post-colonial state failure across Africa, including the dynamics leading to Somalia's collapse."
     }

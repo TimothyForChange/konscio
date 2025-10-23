@@ -3,54 +3,54 @@
   "name": "Syria",
   "emoji": "🇸🇾",
   "ariaLabel": "Syrian flag",
-  "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "Following the sudden collapse of the Assad regime in Dec 2024, Syria enters a fragile transition, remaining a **shattered state** enduring catastrophic human suffering **deliberately inflicted** through years of war. A transitional government grapples with authority over a territory fractured by armed factions and **occupied by foreign powers** (Turkey, US, Russia).\n\nThe 2011 popular uprising was systematically transformed into an **internationalised proxy war** by competing regional and global powers pursuing their **geopolitical agendas**. This **external interference fuelled the violence**, prolonged the suffering, and caused the **collapse of state and society**. Millions are displaced, infrastructure is ruined, and most Syrians depend on aid, leaving the country vulnerable to new forms of **economic coercion masked as reconstruction**.",
+  "lastUpdated": "2025-10-23",
+  "currentCrisisSummary": "Following the sudden collapse of the Assad regime in Dec 2024, Syria enters a fragile transition, remaining a **shattered state** enduring catastrophic suffering inflicted through years of war. A transitional government grapples with authority over a territory fractured by armed factions and **occupied by foreign powers** (Turkey, US, Russia).\n\nThe 2011 popular uprising was transformed into an **internationalised proxy war** by competing powers pursuing **geopolitical agendas**. This **external interference** fuelled violence, prolonged suffering, and caused the **collapse of state and society**. Millions are displaced, infrastructure ruined, and most depend on aid, leaving Syria vulnerable to new forms of **economic coercion** masked as reconstruction.",
   "imperialRoot": {
     "imperialPower": "France (1923-1946), USSR/Russia & US (Cold War – present)",
-    "legacy": "The modern Syrian state is a direct product of **imperial design**. The 1916 **Sykes-Picot Agreement** between Britain and France carved up the Ottoman Empire, and the subsequent **French Mandate** created Syria's **artificial borders**. France implemented classic '**divide-and-rule**' tactics, exacerbating sectarian tensions by favouring certain minorities in the **colonial military** and administration. This policy deliberately fragmented national identity and laid the **structural foundations** for later conflict.\n\nDuring the **Cold War**, Syria became a key **client state** of the Soviet Union, positioning it as a frontline in the regional rivalry with the US. This entrenched an **authoritarian, security-dominated state structure** and deepened its geopolitical isolation, setting the stage for intense **foreign interventions** after 2011."
+    "legacy": "The modern Syrian state is a product of **imperial design**. The 1916 **Sykes-Picot Agreement** and subsequent **French Mandate** created **artificial borders**. France used '**divide-and-rule**' tactics, exacerbating sectarian tensions. This fragmented national identity and laid **structural foundations** for conflict.\n\nDuring the **Cold War**, Syria became a **client state** of the Soviet Union, entrenching an **authoritarian state structure** and setting the stage for intense **foreign interventions** after 2011."
   },
   "historicalContext": [
     {
       "title": "Pre-War Neoliberal Reforms",
-      "description": "A key catalyst for the 2011 uprising was the economic policy of the preceding decade. Encouraged by the **IMF** and **World Bank**, the Assad government implemented **neoliberal 'reforms'**: dismantling subsidies, **privatising public assets**, opening the economy to **foreign capital**. This enriched a **crony-capitalist class** while creating mass unemployment and poverty. The protests were partly a rebellion against this rising inequality."
+      "description": "A catalyst for the 2011 uprising was the **economic policy** of the preceding decade. Encouraged by the **IMF**/**World Bank**, Assad implemented **neoliberal 'reforms'**: dismantling subsidies, **privatising public assets**, opening to **foreign capital**. This enriched a **crony-capitalist class** while creating mass unemployment and poverty. Protests were partly a rebellion against this inequality."
     },
     {
       "title": "Internationalised Proxy Warfare",
-      "description": "The Syrian conflict exemplifies a domestic uprising hijacked by **external forces**. Seeking **regime change**, the **US, Turkey, Saudi Arabia, and Qatar** provided support to a fragmented, radicalised opposition. In response, **Russia and Iran intervened** decisively to preserve the government and secure their **strategic interests** (e.g., Russia's Tartus naval base). This transformed the conflict into a multi-sided **proxy war**, fought to the last Syrian, for **geopolitical dominance**."
+      "description": "The conflict exemplifies a domestic uprising hijacked by **external forces**. Seeking **regime change**, the **US, Turkey, Saudi Arabia, Qatar** supported a fragmented opposition. In response, **Russia and Iran intervened** decisively to preserve the government and secure **strategic interests**. This became a multi-sided **proxy war** fought for **geopolitical dominance**."
     },
     {
       "title": "Fragmentation and the War on Terror",
-      "description": "The chaos of the war, fuelled by the 2003 **US invasion of Iraq**, enabled the rise of ISIS. The subsequent **US-led intervention** against ISIS, including devastating air campaigns (Raqqa), defeated its 'caliphate' but resulted in the de-facto **US military occupation** of northeast Syria. This intervention further fragmented the country, placed oil/agricultural lands under **US-backed proxy forces**, adding another layer of **imperial entanglement**."
+      "description": "War chaos, fuelled by the 2003 **US invasion of Iraq**, enabled ISIS's rise. The **US-led intervention** against ISIS (including devastating air campaigns) resulted in the de-facto **US military occupation** of northeast Syria. This further fragmented the country, placed resources under **US-backed proxy forces**, adding another layer of **imperial entanglement**."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Over half a million estimated deaths (at least 300k civilians), victims of **indiscriminate bombing, sieges, and atrocities committed by all sides in the proxy war.**"
+      "description": "Over half a million estimated deaths (at least 300k civilians) from indiscriminate bombing, sieges, and atrocities in the **proxy war**."
     },
     {
       "title": "Affected Population",
-      "description": "An estimated 16.7 million people require aid, suffering the consequences of **state collapse engineered by war and foreign interference.**"
+      "description": "Est. 16.7 million require aid, suffering consequences of **state collapse** engineered by war and **foreign interference**."
     },
     {
       "title": "Food Insecurity",
-      "description": "An estimated 12.9 million endure food insecurity, driven by **war destroying agriculture and sanctions crippling the economy.**"
+      "description": "Est. 12.9 million endure food insecurity, driven by war destroying agriculture and **sanctions** crippling the economy."
     },
     {
       "title": "Displacement",
-      "description": "Over 7.2 million internally displaced, many multiple times, forcibly uprooted by **bombardment and ground offensives conducted by the regime and foreign powers.**"
+      "description": "Over 7.2 million internally displaced by bombardment and offensives conducted by the regime and **foreign powers**."
     },
     {
       "title": "Refugee Crisis",
-      "description": "Over 6.8 million refugees (world's largest), driven abroad by **extreme violence resulting from the internationalised conflict.**"
+      "description": "Over 6.8 million refugees (world's largest) driven abroad by extreme violence from the **internationalised conflict**."
     },
     {
       "title": "Education System Decimated",
-      "description": "Over 2.4 million children denied education as schools were **destroyed by bombing or rendered unsafe by the conflict.**"
+      "description": "Over 2.4 million children denied education as schools destroyed by bombing or unsafe due to conflict."
     },
     {
       "title": "Extreme Poverty",
-      "description": "Over 90% live below the poverty line due to the **war's destruction of the economy, compounded by crippling unilateral sanctions.**"
+      "description": "Over 90% live below poverty line due to war's destruction, compounded by crippling **unilateral sanctions**."
     }
   ],
   "timeline": [
@@ -137,17 +137,17 @@
   },
   "reading": [
     {
-      "title": "Burning Country: Syrians in Revolution and War",
+      "title": "*Burning Country: Syrians in Revolution and War*",
       "url": "https://www.goodreads.com/en/book/show/26153738-burning-country",
       "description": "Robin Yassin-Kassab & Leila Al-Shami centre Syrian voices, telling the story of the uprising and its descent into proxy war from a grassroots perspective."
     },
     {
-      "title": "The Impossible Revolution: Making Sense of the Syrian Tragedy",
+      "title": "*The Impossible Revolution: Making Sense of the Syrian Tragedy*",
       "url": "https://www.goodreads.com/book/show/34144862-the-impossible-revolution",
       "description": "Yassin al-Haj Saleh, a leading Syrian leftist intellectual, offers a profound analysis of the Assad regime's nature and the revolution against it."
     },
     {
-      "title": "Syria After the Uprisings: The Political Economy of State Resilience",
+      "title": "*Syria After the Uprisings: The Political Economy of State Resilience*",
       "url": "https://www.goodreads.com/book/show/46168334-syria-after-the-uprisings",
       "description": "Joseph Daher provides a critical political economy analysis, linking pre-war neoliberal policies to the uprising and the regime's structure."
     }

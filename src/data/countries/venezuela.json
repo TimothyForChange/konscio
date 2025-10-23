@@ -3,54 +3,54 @@
   "name": "Venezuela",
   "emoji": "🇻🇪",
   "ariaLabel": "Venezuelan flag",
-  "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "Venezuela endures a protracted humanitarian catastrophe directly inflicted by **US-led economic warfare**. A deep economic collapse and hyperinflation, deliberately intensified by years of **unilateral sanctions**, have caused the breakdown of public services, acute shortages of essentials (food, medicine), and one of the world's largest mass displacement events.\n\nThe \"**maximum pressure**\" campaign, including an **oil embargo** and **asset freezes**, crippled state revenue, isolated Venezuela financially, and blocked essential imports. This **economic coercion** functions as **collective punishment**, causing devastating and measurable harm to the civilian population, reversing social gains, and deepening poverty.",
+  "lastUpdated": "2025-10-23",
+  "currentCrisisSummary": "Venezuela endures a protracted humanitarian catastrophe directly inflicted by **US-led economic warfare**. Deep economic collapse, deliberately intensified by years of **unilateral sanctions**, caused breakdown of public services, acute shortages, and mass displacement.\n\nThe '**maximum pressure**' campaign (**oil embargo**, **asset freezes**) crippled state revenue and blocked imports. This **economic coercion** functions as **collective punishment**, causing devastating harm, reversing social gains, and deepening poverty.",
   "imperialRoot": {
     "imperialPower": "Spain (16th c. - 19th c.), US (20th c. - present)",
-    "legacy": "The roots of Venezuela's vulnerability lie in its integration into global systems as a resource-exporting periphery. The **Spanish Empire** established an **extractive colonial economy**. After independence, this structure persisted.\n\nIn the 20th century, the **United States** and its **corporations** dominated Venezuela's **oil industry**, shaping it into a quintessential **petro-state dependent** on oil revenues and US markets. This arrangement, enforced via the **Monroe Doctrine**, enriched **foreign capital** and a domestic elite but prevented sovereign development. The **Bolivarian Revolution's** attempts since 1999 to assert national control were met with hostility from the US, including support for a **failed coup** in 2002, leading to **economic warfare**."
+    "legacy": "Venezuela's vulnerability lies in its history as a resource-exporting periphery. The **Spanish Empire** established an **extractive colonial economy**. Post-independence, this structure persisted.\n\nIn the 20th century, the **US** dominated Venezuela's **oil industry**, shaping it into a **petro-state dependent** on oil revenues/US markets. Enforced via the **Monroe Doctrine**, this enriched **foreign capital** and elites but prevented sovereign development. The **Bolivarian Revolution's** attempts (since 1999) to assert national control met US hostility (**failed coup** 2002), leading to **economic warfare**."
   },
   "historicalContext": [
     {
       "title": "The Resource Curse and Dependency",
-      "description": "Venezuela's oil wealth became a **structural vulnerability**. Its economy was fundamentally **dependent** on oil exports. Even during the oil boom funding the **Bolivarian Revolution**, this dependency deepened, undermining domestic agriculture. This pre-existing condition, a legacy of its formation as a **US-dominated petro-state**, was the precise vulnerability the **sanctions regime** exploited. By targeting this single income source, the US induced near-total **economic collapse**, showing how the **resource curse** can be weaponised by an **imperial power**."
+      "description": "Oil wealth became a **structural vulnerability**. The economy was fundamentally **dependent** on oil exports. Even during the **Bolivarian Revolution's** boom, dependency deepened, undermining agriculture. This legacy of a **US-dominated petro-state** was the precise vulnerability the **sanctions regime** exploited. Targeting this income source induced near-total **economic collapse**, showing how the **resource curse** can be weaponised by an **imperial power**."
     },
     {
       "title": "Economic Pressure And Sanctions",
-      "description": "Since 2014, escalating from 2017, the US imposed a comprehensive **sanctions regime**. These constitute a broad **financial and sectoral blockade**, prohibiting the state oil company (**PDVSA**) from trading, blocking credit access, and enabling **seizure of overseas assets** (CITGO, gold). UN Rapporteurs and economic analysis conclude these **sanctions** caused catastrophic decline, contributing to **excess deaths**. They function as **collective punishment**."
+      "description": "Since 2014 (escalating 2017), the US imposed comprehensive **sanctions** – a broad **financial and sectoral blockade**. Measures prohibit state oil company trade, block credit, and enabled **seizure of overseas assets**. UN Rapporteurs conclude **sanctions** caused catastrophic decline and **excess deaths**, functioning as **collective punishment**."
     },
     {
       "title": "International Law And Accountability",
-      "description": "The **unilateral sanctions** are considered illegal under **international law** by many experts (enacted outside **UNSC** framework, violating sovereignty). Venezuela filed an **ICC** complaint, arguing **sanctions** constitute a **crime against humanity**. US-led recognition of a parallel \"**interim government**\" created a pretext for **asset seizure**, undermining rule of law."
+      "description": "**Unilateral sanctions** are considered illegal under **international law** (outside **UNSC**, violating sovereignty). Venezuela filed an **ICC** complaint arguing **sanctions** constitute a **crime against humanity**. US-led recognition of a parallel '**interim government**' provided pretext for **asset seizure**, undermining rule of law."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Excess Deaths",
-      "description": "Tens of thousands of excess civilian deaths estimated since 2017, **directly attributable to the impact of sanctions** restricting access to food, medicine, and healthcare."
+      "description": "Tens of thousands estimated since 2017, directly attributable to **sanctions** restricting access to food, medicine, and healthcare."
     },
     {
       "title": "Affected Population",
-      "description": "An estimated 19 million people require aid due to the **economic devastation inflicted by the US blockade.**"
+      "description": "Est. 19 million require aid due to **economic devastation inflicted by the US blockade.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "An estimated 15.5 million suffer food insecurity (high child malnutrition), **caused by sanctions destroying purchasing power and blocking imports.**"
+      "description": "Est. 15.5 million suffer food insecurity, caused by **sanctions destroying purchasing power** and blocking imports."
     },
     {
       "title": "Displacement (Internal)",
-      "description": "Significant internal displacement driven by **economic collapse and lack of services resulting from sanctions.** (Precise figures difficult to obtain)."
+      "description": "Significant internal displacement driven by **economic collapse resulting from sanctions.**"
     },
     {
       "title": "Refugee Crisis",
-      "description": "Over 7.7 million refugees and migrants forced abroad by the **economic catastrophe engineered by the sanctions regime.**"
+      "description": "Over 7.7 million forced abroad by the **economic catastrophe engineered by the sanctions regime.**"
     },
     {
       "title": "Healthcare Collapse",
-      "description": "Health system collapsed due to **sanctions blocking resources**, leading to resurgent diseases and crises in maternal/child health."
+      "description": "Health system collapsed due to **sanctions blocking resources**."
     },
     {
       "title": "Extreme Poverty",
-      "description": "Extreme poverty surged (est. >80% pop.) as **sanctions dismantled the economy and destroyed livelihoods.**"
+      "description": "Extreme poverty surged (est. >80%) as **sanctions dismantled the economy**."
     }
   ],
   "timeline": [
@@ -110,17 +110,17 @@
   },
   "reading": [
     {
-      "title": "Open Veins of Latin America: Five Centuries of the Pillage of a Continent",
+      "title": "*Open Veins of Latin America: Five Centuries of the Pillage of a Continent*",
       "url": "https://www.goodreads.com/book/show/187149.Open_Veins_of_Latin_America",
       "description": "Eduardo Galeano's foundational text detailing the history of colonial and imperialist exploitation in Latin America, essential context for Venezuela."
     },
     {
-      "title": "Pirates of the Caribbean: Axis of Hope",
+      "title": "*Pirates of the Caribbean: Axis of Hope*",
       "url": "https://www.goodreads.com/book/show/81230.Pirates_of_the_Caribbean",
       "description": "Tariq Ali analyses the rise of anti-neoliberal movements in Latin America, placing Chávez's Venezuela as a key site of resistance to US imperialism."
     },
     {
-      "title": "We Created Chávez: A People's History of the Venezuelan Revolution",
+      "title": "*We Created Chávez: A People's History of the Venezuelan Revolution*",
       "url": "https://www.goodreads.com/book/show/16033290-we-created-ch-vez",
       "description": "George Ciccariello-Maher offers a history of the Bolivarian Revolution told from the perspective of the grassroots social movements that drove it."
     }

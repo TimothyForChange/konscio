@@ -3,58 +3,58 @@
   "name": "Ukraine",
   "emoji": "🇺🇦",
   "ariaLabel": "Ukrainian flag",
-  "lastUpdated": "2025-10-22",
-  "currentCrisisSummary": "Since Russia's 2022 invasion, Ukraine suffers a devastating conflict, inflicting immense human suffering. Millions are displaced, cities destroyed, and tens of thousands killed.\n\nThe war is an act of brutal **Russian imperialism**, but inseparable from decades of **eastward NATO expansion**. It is a catastrophic outcome of **inter-imperialist rivalry**, turning Ukraine into a **proxy battleground**. Massive **Western arms flows** sustain the war but also deepen Ukraine's **dependency** and integrate it into a Western-dominated structure, with Ukrainians paying the price. This **disaster capitalism** framework shapes the ongoing conflict and planned reconstruction.",
+  "lastUpdated": "2025-10-23",
+  "currentCrisisSummary": "Since Russia's 2022 invasion, Ukraine suffers a devastating conflict, inflicting immense human suffering. Millions are displaced, cities destroyed, and tens of thousands killed.\n\nThe war is an act of brutal **Russian imperialism**, but inseparable from decades of eastward **NATO expansion**. It is a catastrophic outcome of **inter-imperialist rivalry**, turning Ukraine into a **proxy battleground**. Massive **Western arms flows** sustain the war but also deepen Ukraine's **dependency**. This **disaster capitalism** framework shapes the ongoing conflict and planned reconstruction.",
   "imperialRoot": {
     "imperialPower": "Russian Empire (17th c. - 1917), USSR (1922–1991), US/NATO (1999–present)",
-    "legacy": "Ukraine's history is marked by its position between **competing empires**. Subjected to the **Russian Empire** (colonial **Russification**) and later the **USSR** (centralised control, purges, **Holodomor** famine), this history informs both national identity and Russia's **neo-imperial** claims.\n\nFollowing the USSR's collapse, the **US/NATO** engaged in **triumphalist eastward expansion**, treating Eastern Europe as a strategic frontier, breaking assurances to Soviet leaders, and encircling Russia. This expansion created the **structural conditions** for conflict by ignoring security red lines."
+    "legacy": "Ukraine's history is marked by its position between **competing empires**. Subjected to the **Russian Empire** (colonial **Russification**) and later the **USSR** (centralised control, purges, ***Holodomor*** famine), this history informs national identity and Russia's **neo-imperial** claims.\n\nFollowing the USSR's collapse, the **US/NATO** engaged in triumphalist **eastward expansion**, treating Eastern Europe as a strategic frontier, breaking assurances, and encircling Russia. This expansion created the **structural conditions** for conflict."
   },
   "historicalContext": [
     {
       "title": "NATO Eastward Expansion",
-      "description": "The post-**Cold War expansion of NATO** was a primary driver of the crisis. Framed by the West as defensive, Russia perceived it as **aggressive encroachment**. This relentless **military expansion**, against warnings, created a **zero-sum security dilemma** shattering European peace and contributing directly to Russia's invasion decision."
+      "description": "The post-**Cold War expansion of NATO** was a primary driver of the crisis. Framed by the West as defensive, Russia perceived it as **aggressive encroachment**. This relentless **military expansion**, against warnings, created a **zero-sum security dilemma** shattering European peace and contributing to Russia's invasion decision."
     },
     {
       "title": "Post-Soviet Neoliberalism and Oligarchy",
-      "description": "The '**shock therapy**' economic policies promoted by the **IMF** in the 1990s were imposed on Russia and Ukraine. Rapid **mass privatisation** allowed politically connected **oligarchs** to accumulate vast wealth. This process **hollowed out the state**, created corruption, made economies **dependent** on raw material exports, and vulnerable to **external pressures**. The conflict is partly a struggle between these rival **oligarchic capitalist states**."
+      "description": "The '**shock therapy**' economic policies promoted by the **IMF** in the 1990s were imposed on Russia and Ukraine. Rapid **mass privatisation** allowed politically connected **oligarchs** to accumulate wealth. This process **hollowed out the state**, created corruption, made economies **dependent** on exports, and vulnerable to **external pressures**. The conflict is partly a struggle between these rival **oligarchic capitalist states**."
     },
     {
       "title": "The Post-2014 Neoliberal Turn",
-      "description": "Following the 2014 Maidan Uprising, pro-Western governments, guided by the **IMF** and Western powers, implemented a second wave of deep **neoliberal reforms**. These included severe **austerity**, **privatisation**, and opening Ukraine's agricultural land market. Often conditions for **Western financial aid**, these policies deepened **economic dependency** and created social hardship."
+      "description": "Following the 2014 Maidan Uprising, pro-Western governments, guided by the **IMF** and Western powers, implemented a second wave of deep **neoliberal reforms**. These included severe **austerity**, **privatisation**, and opening Ukraine's agricultural land market. Often conditions for **Western financial aid**, these policies deepened **economic dependency**."
     },
     {
       "title": "War and Disaster Capitalism",
-      "description": "The 2022 invasion created conditions for '**disaster capitalism**'. Western partners plan a post-war reconstruction explicitly along **neoliberal lines**, funded by loans locking Ukraine into decades of **debt** to **international financial institutions**. This prioritises **privatisation** and opportunities for **foreign corporations**. The war serves as a **geopolitical battleground** and a mechanism for restructuring Ukraine's economy for **Western capital**."
+      "description": "The 2022 invasion created conditions for '**disaster capitalism**'. Western partners plan post-war reconstruction along **neoliberal lines**, funded by loans locking Ukraine into decades of **debt** to **international financial institutions**. This prioritises **privatisation** and opportunities for **foreign corporations**. The war serves as a **geopolitical battleground** and a mechanism for restructuring Ukraine's economy for **Western capital**."
     },
     {
       "title": "International Law And Accountability",
-      "description": "Russia's invasion violates the **UN Charter** and **international law**. **War crimes** are extensively documented. The **ICC** issued warrants for Russian officials. Simultaneously, critics note the **selective application of international law** by Western powers, who engaged in illegal invasions (**Iraq, Libya**) without facing **accountability**, weakening the legal order they invoke."
+      "description": "Russia's invasion violates the **UN Charter** and **international law**. **War crimes** are documented. The **ICC** issued warrants. Critics note the **selective application of international law** by Western powers (e.g., **Iraq, Libya**) lacking **accountability**, weakening the legal order."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Tens of thousands of civilians killed (likely far higher than official counts), victims of **Russia's aggression and the brutality of modern industrial warfare.** Military deaths number in the hundreds of thousands."
+      "description": "Tens of thousands of civilians killed by **Russia's aggression** and warfare. Military deaths number hundreds of thousands."
     },
     {
       "title": "Affected Population",
-      "description": "An estimated 14.6 million people require aid due to the **devastation inflicted by the invasion and the subsequent proxy war.**"
+      "description": "Est. 14.6 million require aid due to devastation from the **invasion** and subsequent **proxy war**."
     },
     {
       "title": "Displacement",
-      "description": "Approximately 3.7 million internally displaced, forced from homes by **Russian military advances, occupation, and indiscriminate attacks.**"
+      "description": "Approx. 3.7 million internally displaced by **Russian military advances, occupation, and attacks**."
     },
     {
       "title": "Refugee Crisis",
-      "description": "Over 6.5 million refugees globally, driven abroad by the **violence and destruction stemming from the inter-imperialist conflict.**"
+      "description": "Over 6.5 million refugees globally, driven abroad by violence stemming from the **inter-imperialist conflict**."
     },
     {
       "title": "Healthcare Under Attack",
-      "description": "Over 1,500 verified attacks on healthcare, crippling access to medical care as **infrastructure is deliberately targeted or destroyed in the fighting.**"
+      "description": "Over 1,500 attacks on healthcare, crippling access as **infrastructure is deliberately targeted**."
     },
     {
       "title": "Economic Devastation",
-      "description": "Ukraine's economy shrunk by a third, plunging millions into poverty as the **war destroys infrastructure and disrupts production, exacerbated by neoliberal vulnerabilities.**"
+      "description": "Economy shrunk by a third, plunging millions into poverty as war destroys infrastructure, exacerbated by **neoliberal vulnerabilities**."
     }
   ],
   "timeline": [
@@ -125,11 +125,6 @@
         "organisation": "Voices of Children",
         "description": "A Ukrainian charitable foundation that provides psychological and psychosocial support to children affected by the war.",
         "url": "https://voices.org.ua"
-      },
-      {
-        "organisation": "War Child UK",
-        "description": "Supports children affected by the war with protection services, education, and psychosocial support to help them cope with the trauma of displacement and conflict.",
-        "url": "https://www.warchild.org.uk/our-work/where-we-work/ukraine"
       }
     ],
     "advocacy": [
@@ -142,17 +137,17 @@
   },
   "reading": [
     {
-      "title": "Frontline Ukraine: Crisis in the Borderlands",
+      "title": "*Frontline Ukraine: Crisis in the Borderlands*",
       "url": "https://www.goodreads.com/book/show/24717077-frontline-ukraine",
       "description": "Richard Sakwa provides a critical analysis of the crisis's roots, focusing on Ukraine's internal divisions and the dual pressures from Russia and NATO."
     },
     {
-      "title": "The Tragedy of Great Power Politics",
+      "title": "*The Tragedy of Great Power Politics*",
       "url": "https://www.goodreads.com/book/show/18378022-the-tragedy-of-great-power-politics",
       "description": "John Mearsheimer's foundational text on 'offensive realism,' framing the war as a predictable outcome of great power competition and NATO expansion."
     },
     {
-      "title": "Not One Inch: America, Russia, and the Making of Post-Cold War Stalemate",
+      "title": "*Not One Inch: America, Russia, and the Making of Post-Cold War Stalemate*",
       "url": "https://www.goodreads.com/book/show/57615585-not-one-inchh",
       "description": "M.E. Sarotte's historical account reveals how US-led NATO expansion broke post-Cold War promises, setting the stage for conflict."
     }
