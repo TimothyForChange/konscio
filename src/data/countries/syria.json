@@ -126,9 +126,9 @@
   "takeAction": {
     "donate": [
       {
-        "organisation": "Muslim Aid",
-        "description": "Delivers vital humanitarian aid, including food, shelter, and medical supplies, to families displaced by the long-running conflict.",
-        "url": "https://www.muslimaid.org/appeals/syria-emergency/"
+        "organisation": "Islamic Relief",
+        "description": "Provides essential aid, including food, shelter, medical care, and support for livelihoods, to Syrians affected by the ongoing conflict and displacement.",
+        "url": "https://islamic-relief.org/appeals/syria-emergency-appeal/"
       },
       {
         "organisation": "Syrian Arab Red Crescent (SARC)",

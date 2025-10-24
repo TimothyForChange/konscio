@@ -1,3 +1,4 @@
+import countries from '../data/mapping/countries.ts';
 import { CountriesSchema, CountrySchema } from '../schemas/country.ts';
 import type { Country } from '../types/country.ts';
 
@@ -8,9 +9,7 @@ import type { Country } from '../types/country.ts';
  * @throws If loading or validation fails
  */
 export async function loadAndValidateCountries(): Promise<Country[]> {
-  const countriesModule = await import('../data/mapping/countries.ts');
-  const rawData = countriesModule.default;
-  return validateCountries(rawData);
+  return validateCountries(countries);
 }
 
 /**

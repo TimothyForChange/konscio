@@ -130,14 +130,14 @@
   "takeAction": {
     "donate": [
       {
+        "organisation": "Islamic Relief",
+        "description": "Provides urgent humanitarian aid, including food, water, medical supplies, and shelter, to Palestinians enduring the crisis in Gaza and the occupied territories.",
+        "url": "https://islamic-relief.org/appeals/palestine-emergency-appeal/"
+      },
+      {
         "organisation": "Medical Aid for Palestinians (MAP)",
         "description": "Works for the health and dignity of Palestinians living under occupation and as refugees by providing medical aid and developing local healthcare capacity.",
         "url": "https://www.map.org.uk/"
-      },
-      {
-        "organisation": "Muslim Aid",
-        "description": "Provides emergency aid, medical supplies, and support to families affected by the crisis in Gaza and the occupied Palestinian territories.",
-        "url": "https://www.muslimaid.org/palestine-emergency/"
       },
       {
         "organisation": "Palestine Children's Relief Fund (PCRF)",

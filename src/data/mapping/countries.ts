@@ -7,7 +7,7 @@ const countries: Country[] = [
     flag: '🇦🇫',
     description: 'Occupation legacy & economic warfare',
     seoDescription:
-      "Explore Afghanistan's crisis, rooted in decades of imperial intervention (Soviet, US) and ongoing economic coercion through sanctions and asset freezes.",
+      "Explore Afghanistan's crisis: Soviet/US occupations, Pakistan's interference, Taliban misrule, and ongoing economic coercion via sanctions/asset freezes.",
     category: 'Occupation & Imperialism',
   },
   {
@@ -16,7 +16,7 @@ const countries: Country[] = [
     flag: '🇨🇲',
     description: 'Colonial partition & internal conflict',
     seoDescription:
-      "Analyse Cameroon's Anglophone war, a direct legacy of colonial partition, French neo-colonialism, and neoliberal austerity fueling displacement and violence.",
+      "Analyse Cameroon's crises: Anglophone war (colonial partition, French neo-colonialism) & Far North conflict (Boko Haram), enabled by China.",
     category: 'Conflict & State Fragmentation',
   },
   {
@@ -25,7 +25,7 @@ const countries: Country[] = [
     flag: '🇨🇫',
     description: 'Neo-colonial plunder & mercenary state',
     seoDescription:
-      "Investigate CAR's state collapse, driven by French colonial brutality, neo-colonial interference, and modern resource extraction via Russian mercenaries.",
+      "Investigate CAR's collapse: French colonial brutality, regional meddling (Chad/Sudan), sectarian war, and resource extraction via Russian mercenaries.",
     category: 'Conflict & State Fragmentation',
   },
   {
@@ -34,16 +34,16 @@ const countries: Country[] = [
     flag: '🇧🇫🇲🇱🇳🇪',
     description: 'Neo-colonial legacies & climate injustice',
     seoDescription:
-      'Examine the Sahel crisis, stemming from French colonialism, neo-colonial extraction (e.g., uranium), failed interventions, neoliberal state hollowing, and climate colonialism.',
+      'Examine the Sahel crisis: French colonialism, neoliberal hollowing, failed interventions, climate injustice, ECOWAS sanctions & Russian mercenary entry.',
     category: 'Resource Exploitation & Foreign Interference',
   },
   {
     name: 'Cuba',
     slug: 'cuba',
     flag: '🇨🇺',
-    description: 'US blockade & economic warfare',
+    description: 'US blockade & internal state failure',
     seoDescription:
-      "Explore Cuba's crisis, inflicted by the 60+ year US economic blockade—a primary example of imperialist economic warfare causing shortages and suffering.",
+      "Explore Cuba's crisis: a product of the US blockade *and* internal state failure (mismanagement, repression), rooted in successive imperial dependencies.",
     category: 'Economic Collapse & Repression',
   },
   {
@@ -52,7 +52,7 @@ const countries: Country[] = [
     flag: '🇨🇩',
     description: 'Green colonialism & conflict minerals',
     seoDescription:
-      'Uncover the DRC\'s endless war, rooted in Belgian colonial terror, Cold War kleptocracy, and modern "green colonialism" exploiting minerals for global tech.',
+      'DRC\'s war: Belgian terror, kleptocracy, Rwandan genocide fallout, MONUSCO failure & modern "green colonialism" exploiting minerals for global tech.',
     category: 'Resource Exploitation & Foreign Interference',
   },
   {
@@ -61,7 +61,7 @@ const countries: Country[] = [
     flag: '🇪🇹',
     description: 'Internal empire & ethnic federalism collapse',
     seoDescription:
-      "Analyse Ethiopia's conflicts, stemming from its history as an internal empire, Cold War interventions, failed ethnic federalism, and recent neoliberal shock therapy.",
+      "Analyse Ethiopia's conflicts: internal empire legacy, TPLF hegemony collapse, ethnic federalism failure, neoliberal shock & post-Tigray War betrayals.",
     category: 'Conflict & State Fragmentation',
   },
   {
@@ -70,7 +70,7 @@ const countries: Country[] = [
     flag: '🇭🇹',
     description: 'Odious debt & centuries of intervention',
     seoDescription:
-      "Explore Haiti's state collapse, engineered by French odious debt, repeated US occupations, neoliberal policies destroying food sovereignty, and foreign interference.",
+      "Haiti's collapse: French debt, US occupations, neoliberalism, UN failures (cholera/abuse), oligarchic gangs & 'Core Group' external control.",
     category: 'Economic Collapse & Repression',
   },
   {
@@ -79,7 +79,7 @@ const countries: Country[] = [
     flag: '🇲🇿',
     description: 'Resource curse & destabilisation legacy',
     seoDescription:
-      'Investigate Mozambique\'s Cabo Delgado insurgency, rooted in Portuguese colonialism, apartheid-era destabilisation, neoliberal debt, and the "resource curse" of natural gas.',
+      "Mozambique's Cabo Delgado war: colonial/apartheid legacy, neoliberal debt, fuelled by illicit trades (heroin/rubies) & exploited by ASWJ/ISIS insurgency.",
     category: 'Resource Exploitation & Foreign Interference',
   },
   {
@@ -88,7 +88,7 @@ const countries: Country[] = [
     flag: '🇲🇲',
     description: 'Military rule, revolution & Rohingya genocide',
     seoDescription:
-      "Examine Myanmar's dual crises: the Rohingya genocide and post-coup civil war, both products of British colonial legacy and decades of brutal military rule.",
+      "Myanmar's crises: Rohingya genocide & post-coup war, rooted in colonial legacy, military rule & vast illicit narcotics economy fuelling conflict.",
     category: 'Economic Collapse & Repression',
   },
   {
@@ -97,7 +97,7 @@ const countries: Country[] = [
     flag: '🇵🇸',
     description: 'Settler colonialism, apartheid & genocide',
     seoDescription:
-      'Analyse the ongoing Nakba in Palestine: British imperial betrayal, settler colonialism, apartheid, plausible genocide in Gaza, enabled by US complicity.',
+      "Palestine's ongoing Nakba: British betrayal, settler colonialism, apartheid, genocide (Gaza), US complicity, internal division & Arab state abandonment.",
     category: 'Occupation & Imperialism',
   },
   {
@@ -106,7 +106,7 @@ const countries: Country[] = [
     flag: '🇸🇴',
     description: 'Colonial partition & state collapse',
     seoDescription:
-      'Explore Somalia\'s protracted collapse, rooted in colonial partition, Cold War manipulation, neoliberal austerity, "War on Terror" blowback, and climate injustice.',
+      'Somalia\'s collapse: colonial partition, neoliberalism, "War on Terror" blowback, clan/regional fragmentation, AU mission failures & Gulf/Turkey meddling.',
     category: 'Conflict & State Fragmentation',
   },
   {
@@ -115,7 +115,7 @@ const countries: Country[] = [
     flag: '🇸🇸',
     description: 'Flawed state-building & oil conflict',
     seoDescription:
-      "Investigate South Sudan's civil war, a predictable outcome of colonial division and a flawed, neoliberal state-building project centred on oil extraction.",
+      "South Sudan's war: colonial division, flawed neoliberal state-building (oil focus), elite conflict instrumentalised via ethnic violence & Uganda's role.",
     category: 'Resource Exploitation & Foreign Interference',
   },
   {
@@ -124,7 +124,7 @@ const countries: Country[] = [
     flag: '🇸🇩',
     description: 'Rival military elites & external interference',
     seoDescription:
-      "Analyse Sudan's devastating war between rival military factions, rooted in colonial inequality, neoliberalism, the Darfur genocide, and external interference (UAE).",
+      "Sudan's war: rival military factions (SAF/RSF), colonial inequality, neoliberalism, Darfur genocide legacy & external interference (Egypt/UAE proxy war).",
     category: 'Conflict & State Fragmentation',
   },
   {
@@ -133,7 +133,7 @@ const countries: Country[] = [
     flag: '🇸🇾',
     description: 'Imperial partition & proxy warfare',
     seoDescription:
-      "Examine Syria's collapse after Assad, tracing the roots from imperial partition (Sykes-Picot), neoliberal reforms, and its transformation into a devastating proxy war.",
+      "Syria's collapse: imperial partition, neoliberalism, proxy war, sectarianism, ongoing Turkish occupation & Israeli occupations (Golan & post-Assad South).",
     category: 'Conflict & State Fragmentation',
   },
   {
@@ -149,9 +149,9 @@ const countries: Country[] = [
     name: 'Venezuela',
     slug: 'venezuela',
     flag: '🇻🇪',
-    description: 'US sanctions & economic warfare',
+    description: 'US sanctions & internal state failure',
     seoDescription:
-      "Explore Venezuela's crisis, inflicted by US economic warfare (sanctions) targeting its oil-dependent economy, a legacy of US 20th-century imperialism.",
+      "Venezuela's crisis: a result of US economic warfare (sanctions) *and* internal state failure (mismanagement, corruption, authoritarianism).",
     category: 'Economic Collapse & Repression',
   },
   {
@@ -160,7 +160,7 @@ const countries: Country[] = [
     flag: '🇾🇪',
     description: 'Proxy war & blockade catastrophe',
     seoDescription:
-      'Investigate Yemen\'s catastrophic war, driven by colonial divisions, neoliberal grievances, the "War on Terror," and regional proxy conflict enabled by Western arms.',
+      "Yemen's catastrophe: colonial divisions, neoliberalism, proxy war (Saudi/Iran), internal fragmentation (STC), AQAP & direct US/UK complicity.",
     category: 'Conflict & State Fragmentation',
   },
 ];
