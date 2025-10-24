@@ -4,7 +4,7 @@
   "emoji": "🇲🇲",
   "ariaLabel": "Myanmar flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "Myanmar suffers multiple, overlapping catastrophes inflicted by its **military state**: a nationwide civil war against the **junta** that seized power in 2021, and the ongoing **genocide** and **persecution** of the **Rohingya minority**. The post-coup conflict pits a broad revolutionary movement against the **Tatmadaw** (military), which employs **extreme brutality against civilians** nationwide.\n\nThis widespread violence follows the **2017 genocidal campaign against the Rohingya**, involving mass killings, systematic rape, and the forced expulsion of nearly a million people to Bangladesh, where they remain **stateless refugees**. The state's long history of **denying Rohingya citizenship**, a direct result of **colonial-era 'divide and rule' tactics** and post-colonial nationalism, laid the groundwork for this **ethnic cleansing**. The post-coup war and the Rohingya crisis create mass displacement and **severe, multi-faceted human suffering**, exacerbated by **geopolitical indifference and impunity** for the **military regime**.",
+  "currentCrisisSummary": "Myanmar suffers multiple, overlapping catastrophes inflicted by its **military state**: a nationwide civil war against the **junta** that seized power in 2021, and the ongoing **genocide** and **persecution** of the **Rohingya minority**. The post-coup conflict pits a broad revolutionary movement against the **Tatmadaw** (military), which employs **extreme brutality against civilians** nationwide.\n\nThis widespread violence follows the **2017 genocidal campaign against the Rohingya**, involving mass killings, systematic rape, and the forced expulsion of nearly a million people to Bangladesh, where they remain **stateless refugees**. The state's long history of **denying Rohingya citizenship**, a direct result of **colonial-era 'divide and rule' tactics** and post-colonial nationalism, laid the groundwork for this **ethnic cleansing**. The post-coup war and the Rohingya crisis create mass displacement and **severe, multi-faceted human suffering**, exacerbated by **geopolitical indifference** and the military's deep entanglement in **illicit economies**.",
   "colonialRoot": {
     "colonialPower": "Britain (1824-1948)",
     "legacy": "**British colonial policy** created the **fissures** that define Myanmar's modern conflicts. Through '**divide and rule**', Britain administered the Bamar lowlands separately from ethnic '**Frontier Areas**', **institutionalised ethnic identities**, and used minorities in the colonial army, deepening divisions. Crucially, the British encouraged labour migration from Bengal into Arakan (Rakhine), including many **Rohingya**. After independence, the new state's nationalist project framed the **Rohingya** as '**illegal Bengali migrants**', weaponising **colonial-era resentments** and British administrative legacies to deny their identity and ultimately render them **stateless**. This **colonial architecture of ethnic hierarchy and division** was inherited and ruthlessly exploited by the **post-colonial military**."
@@ -12,7 +12,11 @@
   "historicalContext": [
     {
       "title": "The Military as a State Within a State",
-      "description": "For over 60 years, the **Tatmadaw** has operated as a **state within a state**, functioning as a privileged political and economic class. Through massive **military-owned conglomerates (MEHL and MEC)**, it controls vast swathes of the economy. The 2021 **coup** was a violent move to protect this entrenched **economic empire** from democratic oversight."
+      "description": "For over 60 years, the **Tatmadaw** has operated as a **state within a state**, functioning as a privileged political and economic class. Through massive **military-owned conglomerates (MEHL and MEC)**, it controls vast swathes of the formal economy. The 2021 **coup** was a violent move to protect this entrenched **economic empire** from democratic oversight."
+    },
+    {
+      "title": "The Illicit Narcotics Economy",
+      "description": "Myanmar, particularly Shan State, is the heart of the **Golden Triangle**, a global centre for **illicit drug production**. The **multi-billion dollar trade** in **methamphetamine** and **heroin** is a core driver of conflict and corruption. It funds various actors, including elements of the **Tatmadaw**, allied Border Guard Forces, Ethnic Armed Organisations, and transnational criminal networks, deeply entrenching violence and state fragility."
     },
     {
       "title": "State-Sponsored Persecution and Rohingya Statelessness",
@@ -27,8 +31,8 @@
       "description": "The decade of **quasi-civilian rule** (c. 2011-2021) was a period of **military-managed neoliberal reform** ('**khaki capitalism**'). **Foreign investment** often partnered with **military conglomerates**, modernising their empire under a civilian façade. The NLD government failed to challenge the military's power or its repressive, Bamar-centric state, culminating in Aung San Suu Kyi defending the military's **genocide against the Rohingya** at the **ICJ**."
     },
     {
-      "title": "Post-Coup Revolution and Ethnic Solidarity",
-      "description": "The 2021 **coup** ignited a nationwide **revolution**, forging fragile **solidarity** between the Bamar majority and many long-oppressed ethnic minorities. The shared experience of the **Tatmadaw's brutality** has forced many Bamar democrats to confront the military's history of atrocities against ethnic peoples, including the **Rohingya**, creating potential for a new, **federalist vision**."
+      "title": "Post-Coup Revolution and Complex Ethnic Solidarity",
+      "description": "The 2021 **coup** ignited a nationwide **revolution**, forging fragile **solidarity** between the Bamar majority and many long-oppressed ethnic minorities. The shared experience of the **Tatmadaw's brutality** has forced many Bamar democrats to confront the military's history of atrocities against ethnic peoples, including the **Rohingya**. However, deep historical mistrust and fragmentation among the numerous Ethnic Armed Organisations (EAOs) persist, complicating efforts towards a unified, **federalist vision**."
     },
     {
       "title": "Geopolitical Indifference and Impunity",
@@ -92,7 +96,7 @@
     },
     {
       "year": "1962",
-      "event": "**First Military Coup**: General Ne Win begins decades of isolationist, authoritarian military rule."
+      "event": "**First Military Coup**: General Ne Win begins decades of isolationist, authoritarian military rule, consolidating the Tatmadaw's power."
     },
     {
       "year": "1982",
@@ -104,7 +108,7 @@
     },
     {
       "year": "2011-2021",
-      "event": "**The 'Opening' / Khaki Capitalism**: A period of quasi-civilian rule and neoliberal reform begins, allowing the military to modernise its economic empire."
+      "event": "**The 'Opening' / Khaki Capitalism**: A period of quasi-civilian rule and neoliberal reform begins, allowing the military to modernise its economic empire, while conflict over **illicit drug economies** continues."
     },
     {
       "year": "2012",
@@ -156,8 +160,8 @@
         "description": "Demand a comprehensive global arms embargo against the junta."
       },
       {
-        "title": "Sanction Military Conglomerates",
-        "description": "Call for coordinated international sanctions on military leaders and their economic networks (MEHL & MEC)."
+        "title": "Sanction Military Conglomerates & Illicit Trade",
+        "description": "Call for coordinated international sanctions on military leaders, their economic networks (MEHL & MEC), and entities involved in the **illicit narcotics and resource trades**."
       },
       {
         "title": "Support the Revolution",

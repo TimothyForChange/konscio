@@ -4,7 +4,7 @@
   "emoji": "🇲🇿",
   "ariaLabel": "Mozambican flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "Mozambique confronts a violent insurgency in Cabo Delgado province, driven by the **'resource curse'** and **state neglect rooted in colonial underdevelopment**. The discovery of massive **natural gas reserves** attracted billions in **foreign investment** but brought no benefit locally, fuelling **displacement, dispossession, and grievances**.\n\nThis fuels rebellion the **corrupt, centralised state** cannot contain. The conflict is internationalised, involving regional troops and **private mercenaries** protecting **gas projects**. It exemplifies a crisis born from a **predatory economic model**: state collaboration with **multinational corporations** to **extract wealth**, treating citizens as obstacles and **structurally producing** violent uprising and suffering.",
+  "currentCrisisSummary": "Mozambique confronts a violent **Islamist insurgency** (ASWJ/ISIS) in Cabo Delgado province, driven by the **'resource curse'** and **state neglect rooted in colonial underdevelopment**. The conflict is fuelled by grievances over **illicit economies (heroin, rubies)** and exclusion from the massive **natural gas reserves**, which attracted billions in **foreign investment** but brought no benefit locally.\n\nThis fuels rebellion the **corrupt, centralised state** cannot contain. The conflict is internationalised, involving regional troops and **private mercenaries** protecting **gas projects**. It exemplifies a crisis born from a **predatory economic model**: state collaboration with **multinational corporations** to **extract wealth**, treating citizens as obstacles and **structurally producing** violent uprising and suffering.",
   "colonialRoot": {
     "colonialPower": "Portugal (c. 1505-1975)",
     "legacy": "**Portugal's colonial rule** was brutal and underdeveloped. The economy used **forced labour** (***chibalo***), land was expropriated for settlers, with no investment in locals. The **colonial state** was purely for **extraction**.\n\nAt independence, Mozambique was impoverished, scarred, lacking skilled administrators. The **war of liberation** entrenched a militarised culture. **Economic sabotage** during the settlers' **scorched-earth withdrawal** (1974-75) crippled the new state, causing near-total **economic collapse**."
@@ -19,18 +19,22 @@
       "description": "Devastated by war, Mozambique turned to the **IMF**/**World Bank** (late 1980s). Subsequent **Structural Adjustment Programmes (SAPs)** mandated **privatisation** and severe **austerity**. While enriching elites and opening to **foreign capital**, these **neoliberal reforms** entrenched inequality and poverty fuelling instability."
     },
     {
+      "title": "The Cabo Delgado Insurgency (ASWJ/ISIS)",
+      "description": "The 2017 insurgency (**Ahlu Sunnah wa Jama'a**, now linked to **ISIS**) channelled legitimate local grievances (poverty, neglect) into a violent **jihadist** ideology. This conflict is not just about **gas**; it is layered upon decades of elite state complicity in **illicit economies**, notably **heroin and ruby trafficking**, which created a predatory environment that the insurgency exploits."
+    },
+    {
       "title": "The Resource Curse and Elite Corruption",
       "description": "Discovery of **gas reserves** and illicit trade supercharged **corruption**. The '**$2 Billion Hidden Debts**' scandal exemplifies this: elites and **international banks** colluded in **loan fraud**. This **grand corruption** crippled the budget, deepened **dependency**, confirming the state exists to enrich elites and **foreign partners**."
     },
     {
       "title": "International Law and Accountability",
-      "description": "**Accountability** is elusive. Despite legal proceedings over '**hidden debts**', key figures escaped consequences. In Cabo Delgado, abuses by insurgents, state forces, and **foreign private military contractors** are reported. Lack of effective investigation creates **impunity**."
+      "description": "**Accountability** is elusive. Despite legal proceedings over **'hidden debts'**, key figures escaped consequences. In Cabo Delgado, abuses by insurgents, state forces, and **foreign private military contractors** are reported. Lack of effective investigation creates **impunity**."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Displacement",
-      "description": "Over 784,000 internally displaced by violence from the **gas insurgency** and state counter-insurgency."
+      "description": "Over 784,000 internally displaced by violence from the **Islamist insurgency** and state counter-insurgency."
     },
     {
       "title": "Refugees",
@@ -38,7 +42,7 @@
     },
     {
       "title": "Casualties",
-      "description": "Thousands killed since 2017, victims of conflict driven by **resource wealth** and historical neglect."
+      "description": "Thousands killed since 2017, victims of conflict driven by **illicit trades**, **resource wealth**, and historical neglect."
     },
     {
       "title": "Affected Population",
@@ -96,7 +100,7 @@
     },
     {
       "year": "2017-Present",
-      "event": "**Cabo Delgado Insurgency**: A violent insurgency rooted in local grievances over poverty and resource extraction begins in Cabo Delgado, attacking state and civilian targets and displacing hundreds of thousands."
+      "event": "**Cabo Delgado Insurgency**: A violent **Islamist insurgency** (ASWJ/ISIS) rooted in local grievances over **illicit trades (rubies, heroin)** and state neglect begins in Cabo Delgado, attacking state and civilian targets and displacing hundreds of thousands."
     }
   ],
   "takeAction": {
@@ -114,7 +118,7 @@
       },
       {
         "title": "Demand Resource Transparency",
-        "description": "Advocate for transparency and accountability in the natural resource sector, ensuring that gas revenues benefit the entire population, especially local communities."
+        "description": "Advocate for transparency and accountability in the natural resource sector, ensuring that **gas, ruby, and timber** revenues benefit the entire population, especially local communities."
       },
       {
         "title": "End Impunity in Cabo Delgado",

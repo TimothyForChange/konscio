@@ -4,7 +4,7 @@
   "emoji": "🇧🇫🇲🇱🇳🇪",
   "ariaLabel": "Flags of Burkina Faso, Mali, and Niger",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "The Central Sahel (Burkina Faso, Mali, Niger) suffers a severe crisis born from converging **structural violence**: weak governance inherited from **colonialism** and gutted by **neoliberalism**, jihadist insurgencies fuelled by **state collapse** and **foreign interventions**, recurrent **coups** reflecting popular rejection of **neo-colonial** security models, and accelerating **climate shocks**.\n\nRecent military takeovers signal a shift, creating a new **geopolitical** frontline. Violence, driven by armed groups and **predatory control of resources**, inflicts mass displacement and starvation. The human cost is amplified by long-term **extractive relations** and **external interference**. Ending the suffering requires Sahelian-led political solutions and dismantling **extractive** and **militarised responses** imposed from outside.",
+  "currentCrisisSummary": "The Central Sahel (Burkina Faso, Mali, Niger) suffers a severe crisis born from converging **structural violence**: weak governance inherited from **colonialism** and gutted by **neoliberalism**, jihadist insurgencies fuelled by **state collapse** and **failed Western interventions**, recurrent **coups** reflecting popular rejection of **neo-colonial** security models, and accelerating **climate shocks**.\n\nRecent military takeovers signal a shift, creating a new **geopolitical** frontline involving **Russian mercenaries** (Wagner/Africa Corps). Violence, driven by armed groups and **predatory control of resources**, inflicts mass displacement and starvation. The human cost is amplified by long-term **extractive relations** and **external interference**. Ending the suffering requires Sahelian-led political solutions and dismantling **extractive** and **militarised responses** imposed from outside.",
   "colonialRoot": {
     "colonialPower": "France (c. 1890s-1960)",
     "legacy": "**French colonial rule** reorganised borders and economies favouring **extraction**. At independence, formal sovereignty didn't erase these structures: monetary arrangements (**CFA franc**), security pacts, and '**Françafrique**' networks allowed continued French influence.\n\nThese arrangements left fragile states, **export-oriented economies**, and weak governance, conditions contributing to later instability."
@@ -23,26 +23,30 @@
       "description": "Poverty contrasts with mineral wealth coveted by **foreign powers**. Niger's strategic **uranium** supply for France exemplifies **neo-colonial** relations: French state corporations extract profits while Niger remains impoverished. This **resource plunder** drives **anti-French sentiment**."
     },
     {
-      "title": "Climate Change and Regional Instability",
-      "description": "The Sahel is on the frontline of the **climate emergency** despite minimal emissions. Desertification undermines livelihoods, worsening resource competition. This is **climatic injustice** or '**climate colonialism**', where costs of Northern industrialisation are borne by Sahelian communities."
+      "title": "Russia's Entry: Mercenaries for Minerals",
+      "description": "Exploiting the backlash against France, **Russia** has expanded its influence, primarily through **private military contractors** (Wagner Group/Africa Corps). Military juntas in Mali, Burkina Faso, and Niger increasingly rely on these **mercenaries** for regime security, often granting them access to **mining concessions** (gold, etc.). This replicates a **neo-colonial resource-for-security** model, fuelling abuses with **impunity**."
     },
     {
-      "title": "International Law and Accountability",
-      "description": "Calls grow for **accountability** around military support, arms trafficking, and **resource exploitation** sustaining armed groups. UN panels document **illicit resource flows** and external support; addressing these is essential for peace and **reparative justice**."
+      "title": "ECOWAS Sanctions and Regional Fractures",
+      "description": "Following the coups (esp. Niger 2023), the **Economic Community of West African States (ECOWAS)** imposed **punitive sanctions**, including border closures and asset freezes. Widely seen as illegitimate and externally pressured (by France/West), these sanctions caused **severe humanitarian suffering** (blocking food/medicine), alienated populations, and accelerated the juntas' pivot towards **Russia** and the formation of the **Confederation of Sahel States**."
+    },
+    {
+      "title": "Climate Change and Regional Instability",
+      "description": "The Sahel is on the frontline of the **climate emergency** despite minimal emissions. Desertification undermines livelihoods, worsening resource competition. This is **climatic injustice** or '**climate colonialism**', where costs of Northern industrialisation are borne by Sahelian communities."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Tens of thousands killed by violence from insurgencies, **state repression**, and conflict exacerbated by **external interference**."
+      "description": "Tens of thousands killed by violence from insurgencies, **state repression**, **mercenary abuses**, and conflict exacerbated by **external interference**."
     },
     {
       "title": "Affected Population",
-      "description": "Est. 18 million require aid due to breakdown caused by **conflict**, **neoliberal policies**, and **climate shocks**."
+      "description": "Est. 18 million require aid due to breakdown caused by **conflict**, **neoliberal policies**, **punitive sanctions**, and **climate shocks**."
     },
     {
       "title": "Food Insecurity",
-      "description": "Millions face acute hunger, driven by **conflict**, **climate change**, and failed development models."
+      "description": "Millions face acute hunger, driven by **conflict**, **climate change**, **ECOWAS sanctions**, and failed development models."
     },
     {
       "title": "Displacement",
@@ -54,15 +58,7 @@
     },
     {
       "title": "Healthcare Collapse",
-      "description": "Hundreds of health centres closed due to attacks, insecurity, and underfunding rooted in **austerity**."
-    },
-    {
-      "title": "Lack of Water Access",
-      "description": "Large populations lack safe water due to conflict and state incapacity from **neoliberal hollowing-out**."
-    },
-    {
-      "title": "Education Denied",
-      "description": "Millions of children denied education as schools closed by insecurity from armed groups and **failed state responses**."
+      "description": "Hundreds of health centres closed due to attacks, insecurity, and underfunding rooted in **austerity** and exacerbated by **sanctions**."
     }
   ],
   "timeline": [
@@ -84,19 +80,23 @@
     },
     {
       "year": "2013-2022",
-      "event": "**Operation Barkhane & French Engagement**: France deploys Operation Barkhane and other counter-insurgency efforts across the Sahel; despite sustained military effort, jihadist violence spreads and French strategy becomes a focal point for criticism."
+      "event": "**Operation Barkhane & French Failure**: France deploys Operation Barkhane across the Sahel; despite sustained military effort, jihadist violence spreads and French presence fuels popular resentment."
     },
     {
       "year": "2020-2023",
-      "event": "**Wave of Coups**: Military juntas seize power in Mali, Burkina Faso and Niger (among others), expel French forces in many cases and contest existing regional security structures."
+      "event": "**Wave of Coups**: Military juntas seize power in Mali, Burkina Faso and Niger, expelling French forces and seeking new security partners, notably **Russian mercenaries** (Wagner/Africa Corps)."
+    },
+    {
+      "year": "2023",
+      "event": "**Niger Coup & ECOWAS Sanctions**: Following the coup in Niger, ECOWAS imposes harsh sanctions, causing humanitarian suffering and pushing the juntas closer together."
     },
     {
       "year": "2023-2024",
-      "event": "**Confederation of Sahel States**: Mali, Niger and Burkina Faso form a confederation that signals a break with ECOWAS and existing Francophone security arrangements, shifting the region's geopolitical alignments."
+      "event": "**Confederation of Sahel States**: Mali, Niger and Burkina Faso form a confederation, withdraw from ECOWAS, and deepen ties with **Russia**, shifting the region's geopolitical alignments."
     },
     {
       "year": "2024-Present",
-      "event": "**Deepening Crisis**: Violence intensifies in many areas as jihadist groups and intercommunal conflict spread, producing rising displacement, protection crises and severe humanitarian need."
+      "event": "**Deepening Crisis**: Violence intensifies in many areas as jihadist groups expand, state forces and **Russian mercenaries** commit abuses, producing rising displacement and humanitarian need."
     }
   ],
   "takeAction": {
@@ -113,16 +113,16 @@
         "description": "Push for a shift away from militarised counter-terrorism strategies towards Sahelian-led political, social and development solutions that address root causes."
       },
       {
+        "title": "Oppose All Foreign Interference",
+        "description": "Oppose all forms of external interference, whether **French neo-colonialism**, **Russian mercenary deployment**, or **punitive sanctions regimes**, that undermine sovereignty and harm civilians."
+      },
+      {
         "title": "Demand Corporate Accountability",
-        "description": "Demand transparency and enforceable corporate due diligence on mineral and agricultural supply chains that link Northern consumption to local dispossession."
+        "description": "Demand transparency and enforceable corporate due diligence on mineral (esp. **uranium, gold**) and agricultural supply chains that link Northern consumption to local dispossession."
       },
       {
         "title": "Advocate for Climate Reparations",
         "description": "Advocate for climate reparations and increased, flexible climate finance for locally led adaptation and resilience-building projects."
-      },
-      {
-        "title": "Cut Illicit Arms Flows",
-        "description": "Call for targeted measures to cut illicit arms flows and for international mechanisms to investigate and sanction external actors found to be materially supporting armed groups."
       }
     ]
   },

@@ -4,7 +4,7 @@
   "emoji": "🇵🇸",
   "ariaLabel": "Palestinian flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "Occupied Palestine, especially Gaza, endures an intensifying catastrophe inflicted by **Israeli settler colonialism** and **occupation**. This includes mass displacement, widespread civilian death, systematic destruction of public services, and crisis levels of **starvation and disease deliberately induced** through siege and bombardment.\n\nThe **ICJ** found claims of **genocide in Gaza plausible**; **accountability** efforts continue at the **ICC**. This extreme violence and **structural deprivation** are enabled by unwavering military, economic, and diplomatic support from **Western powers**, particularly the US, shielding Israel from consequences.\n\nThese dynamics represent the current phase of a century-long process of **settler colonialism**, **ethnic cleansing** (*Nakba*), and **apartheid** designed to dispossess Palestinians and deny self-determination.",
+  "currentCrisisSummary": "Occupied Palestine, especially Gaza, endures an intensifying catastrophe inflicted by **Israeli settler colonialism** and **occupation**. This includes mass displacement, widespread civilian death, systematic destruction of public services, and crisis levels of **starvation and disease deliberately induced** through siege and bombardment.\n\nThe **ICJ** found claims of **genocide in Gaza plausible**; **accountability** efforts continue at the **ICC**. This extreme violence is enabled by unwavering **Western support** (especially US) and compounded by **internal Palestinian political fragmentation** and the **strategic abandonment** by key **Arab states** pursuing normalisation.",
   "imperialRoot": {
     "imperialPower": "Britain (1920-1948)",
     "legacy": "The crisis is rooted in policies enacted under the **British Mandate**. The 1917 **Balfour Declaration** endorsed a 'national home for the Jewish people' while promising to protect non-Jewish communities — a contradiction Britain didn't resolve.\n\nMandate policies facilitated **Zionist settlement** and undermined indigenous Arab rights. Britain's suppression of Palestinian movements and its 1948 withdrawal preceded the war and the ***Nakba***, during which 700k-750k Palestinians became refugees.\n\nThe refugee crisis, **dispossession**, and **Mandate precedents** inform today's structures of **occupation** and exclusion."
@@ -21,6 +21,14 @@
     {
       "title": "The Settlement Project and Two-Tier Legal System",
       "description": "Since 1967, Israel has constructed over 280 **illegal settlements** and outposts in the occupied West Bank and East Jerusalem, violating the **Fourth Geneva Convention**. This project is the primary engine of **land theft**, **resource expropriation**, and **territorial fragmentation**. It is enforced by a **two-tier legal system** amounting to **apartheid**: Israeli settlers live under Israeli civil law, while Palestinians live under military rule. This system is designed to service and protect settlers, enabling **state-sanctioned settler violence** and the systematic displacement of Palestinian communities."
+    },
+    {
+      "title": "Internal Fragmentation: Fatah-Hamas Split",
+      "description": "Palestinian political life is deeply fractured, primarily by the **split between Fatah** (dominant in the PA/West Bank) **and Hamas** (governing Gaza since 2007). This division, often exploited by Israel, prevents a unified strategy, weakens Palestinian agency, and has resulted in two separate, competing political authorities. The **Palestinian Authority (PA)** itself faces criticism for **authoritarianism, corruption,** and its **security coordination** with the Israeli occupation under the Oslo framework."
+    },
+    {
+      "title": "Role of Arab States: Blockade & Normalisation",
+      "description": "Key **Arab states** play a complex, often **complicit role**. **Egypt** has enforced the **Gaza blockade** alongside Israel since 2007, controlling the Rafah crossing. More broadly, the trend of **normalisation agreements (Abraham Accords)** between Israel and states like the **UAE, Bahrain, Morocco, and Sudan** represents a **strategic abandonment** of the Palestinian cause, prioritising economic and security ties with Israel/US over Palestinian rights."
     },
     {
       "title": "The Oslo Accords and Neoliberal Subjugation",
@@ -88,23 +96,27 @@
     },
     {
       "year": "1993",
-      "event": "**Oslo Accords**: A US-led 'peace process' creates the Palestinian Authority. Its economic protocols lock Palestinians into dependency on Israel, providing cover for accelerated land theft and the expansion of illegal settlements under the guise of negotiations."
+      "event": "**Oslo Accords**: A US-led 'peace process' creates the Palestinian Authority (PA). Its economic protocols lock Palestinians into dependency on Israel, providing cover for accelerated settlement expansion under the guise of negotiations."
     },
     {
-      "year": "2007-Present",
-      "event": "**Gaza Blockade**: Israel imposes a land, air, and sea blockade on the Gaza Strip, which the UN has described as illegal 'collective punishment'."
+      "year": "2007",
+      "event": "**Fatah-Hamas Split & Gaza Blockade**: Following Hamas's victory in the 2006 elections, internal conflict leads to Hamas taking control of Gaza. Israel and Egypt impose a land, air, and sea blockade, which the UN describes as illegal 'collective punishment'."
     },
     {
       "year": "2018-2019",
       "event": "**Great March of Return**: Mass civilian protests in Gaza demanding the right of return are met with lethal force by Israeli forces, killing hundreds and wounding tens of thousands."
     },
     {
+      "year": "2020",
+      "event": "**Abraham Accords**: The US brokers normalisation agreements between Israel and the UAE and Bahrain (later joined by Sudan and Morocco), signalling a shift in Arab state policy away from the Palestinian cause."
+    },
+    {
       "year": "2022-Present",
-      "event": "**Escalation of Settler Violence**: Amidst the plausible genocide in Gaza, state-backed **settler pogroms** intensify in the West Bank, operating with impunity to terrorise and forcibly displace entire Palestinian communities, marking an acceleration of **de facto annexation**."
+      "event": "**Escalation of Settler Violence**: Amidst the plausible genocide in Gaza, state-backed **settler pogroms** intensify in the West Bank, operating with impunity to terrorise and forcibly displace entire Palestinian communities."
     },
     {
       "year": "2023",
-      "event": "**October 7th**: After 16 years of an Israeli blockade, Hamas leads an attack on Israel; Israel launches a massive assault on Gaza in response. The ICJ has since ruled that claims of genocide in Gaza are plausible."
+      "event": "**October 7th**: After 16 years of an Israeli and Egyptian blockade, Hamas leads an attack on Israel; Israel launches a massive assault on Gaza in response. The ICJ has since ruled that claims of genocide in Gaza are plausible."
     },
     {
       "year": "2024",
@@ -164,6 +176,10 @@
       {
         "title": "Support Legal Accountability",
         "description": "Support the **genocide case against Israel at the ICJ** and **war crimes investigations at the ICC** to challenge state impunity."
+      },
+      {
+        "title": "Call for Palestinian Unity",
+        "description": "Support Palestinian efforts towards internal reconciliation and political unity to strengthen their struggle for self-determination."
       }
     ]
   },

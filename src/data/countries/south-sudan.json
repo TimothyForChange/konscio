@@ -4,15 +4,23 @@
   "emoji": "🇸🇸",
   "ariaLabel": "South Sudanese flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "South Sudan suffers a severe humanitarian emergency driven by **elite competition over oil revenues**, recurrent **climate catastrophe** (flooding), and spillover from Sudan's war. The state, designed through a flawed **neoliberal peace process**, functions as a battlefield for **oil rents**, facilitated by a complicit **global financial system**.\n\nSimultaneously, **climate extremes** destroy livelihoods, multiplying displacement and hunger. The post-2013 conflict dynamics, rooted in this **predatory political economy**, inflict high mortality. Renewed tensions threaten fragile gains.\n\nThe human cost is immense, one of Africa's largest displacement crises. Solutions require dismantling **elite impunity**, ensuring **accountability**, and redirecting **oil wealth** and **international finance** (enabling **kleptocracy**) toward **locally-led recovery** and **climate resilience**.",
+  "currentCrisisSummary": "South Sudan suffers a severe humanitarian emergency driven by **elite competition over oil revenues**, which is violently **mobilised along ethnic lines** (esp. Dinka-Nuer). Recurrent **climate catastrophe** (flooding) and spillover from Sudan's war compound the crisis. The state, designed through a flawed **neoliberal peace process**, functions as a battlefield for **oil rents**, facilitated by a complicit **global financial system**.\n\nSimultaneously, **climate extremes** destroy livelihoods, multiplying displacement and hunger. The post-2013 conflict dynamics, rooted in this **predatory political economy** and **ethnic instrumentalisation**, inflict high mortality. The human cost is immense, one of Africa's largest displacement crises.",
   "colonialRoot": {
     "colonialPower": "Britain & Egypt (1899-1956)",
-    "legacy": "**British colonial administration** pursued a '**Southern Policy**' governing the south separately, entrenching divisions. This **divide-and-rule** approach limited investment, leaving a legacy of **structural marginalisation** contributing to insurgency.\n\nThe administrative boundaries, uneven development, and **externally mediated leadership** created conditions vulnerable to **elite predation** and **resource-capture** post-independence."
+    "legacy": "**British colonial administration** pursued a '**Southern Policy**' governing the south separately, entrenching divisions. This **divide-and-rule** approach limited investment, leaving a legacy of **structural marginalisation** contributing to insurgency.\n\nThe administrative boundaries, uneven development, and **externally mediated leadership** created conditions vulnerable to **elite predation**, **ethnic mobilisation**, and **resource-capture** post-independence."
   },
   "historicalContext": [
     {
       "title": "Neoliberal State-Building and the CPA",
-      "description": "The 2005 **Comprehensive Peace Agreement (CPA)**, mediated by **Western powers**, was a fundamentally **neoliberal peace-building project**. It prioritised a **market-based, oil-exporting state**, focusing on technocratic elements. This model neglected grassroots reconciliation, failed to diversify the economy, and created a **hollow state** solely for distributing **oil rents**. The 2013 civil war was a predictable outcome of this flawed, **externally-imposed model**."
+      "description": "The 2005 **Comprehensive Peace Agreement (CPA)**, mediated by **Western powers**, was a fundamentally **neoliberal peace-building project**. It prioritised a **market-based, oil-exporting state**, focusing on technocratic elements. This model neglected grassroots reconciliation, failed to diversify the economy, and created a **hollow state** solely for distributing **oil rents** among a narrow elite. The 2013 civil war was a predictable outcome of this flawed, **externally-imposed model**."
+    },
+    {
+      "title": "Elite Conflict and Ethnic Instrumentalisation",
+      "description": "The 2013 civil war was triggered by a power struggle between President Salva Kiir and VP Riek Machar. This **elite competition** over **oil wealth** was immediately and brutally **instrumentalised along ethnic lines**, mobilising militias and targeting civilians based primarily on their **Dinka** or **Nuer** identity. This ethnic violence defines the conflict's devastating human cost."
+    },
+    {
+      "title": "Regional Interference (Uganda & Sudan)",
+      "description": "South Sudan's conflict is heavily influenced by regional powers. **Uganda's** decisive **military intervention** in 2013-14 saved Kiir's government and cemented its influence. **Sudan** remains deeply involved, controlling oil pipelines and historically backing various factions. These interventions reflect regional **geopolitical interests** over South Sudanese stability."
     },
     {
       "title": "Corruption and the Global Financial System",
@@ -21,20 +29,16 @@
     {
       "title": "Oil Conflict and Climate Challenges",
       "description": "The **oil sector** fuels **rent-seeking**; **foreign energy companies** partnering with elites prioritise **extraction**. Simultaneously, **extreme floods** (worsened by **global heating**) destroy crops and aggravate food insecurity. **Climate shocks** act as a **conflict multiplier**."
-    },
-    {
-      "title": "International Law and Accountability",
-      "description": "Serious violations of **international humanitarian** and **human-rights law** documented. Research estimates large **excess deaths** from the 2013-18 war. Calls for **accountability** include a Hybrid Court and **targeted sanctions**. Effective **accountability** needs criminal responsibility plus **asset recovery** and **resource governance reform**."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Nearly 400,000 excess deaths since 2013 from violence linked to the **elite struggle over oil wealth**."
+      "description": "Nearly 400,000 excess deaths since 2013 from violence linked to the **elite struggle over oil wealth**, largely executed through **ethnic targeting**."
     },
     {
       "title": "Affected Population",
-      "description": "Roughly 9.4 million require aid due to **state failure** engendered by the flawed peace deal and **elite predation**."
+      "description": "Roughly 9.4 million require aid due to **state failure** engendered by the flawed peace deal, **ethnic conflict**, and **elite predation**."
     },
     {
       "title": "Food Insecurity",
@@ -42,7 +46,7 @@
     },
     {
       "title": "Displacement",
-      "description": "Over 4 million displaced (internal/refugees) by violence linked to **oil control** and **climate events**."
+      "description": "Over 4 million displaced (internal/refugees) by violence linked to **oil control**, **ethnic cleansing**, and **climate events**."
     },
     {
       "title": "Refugees",
@@ -51,10 +55,6 @@
     {
       "title": "Education Denied",
       "description": "Millions of children denied education due to conflict and **state failure to invest oil revenues**."
-    },
-    {
-      "title": "Extreme Poverty",
-      "description": "Majority face extreme poverty, an outcome of **oil wealth looted by elites enabled by global finance**."
     }
   ],
   "timeline": [
@@ -80,15 +80,15 @@
     },
     {
       "year": "2013",
-      "event": "**Civil War Erupts**: Political rivalry between elites escalates into wide-scale violence, producing mass displacement and severe humanitarian collapse."
+      "event": "**Civil War Erupts**: Political rivalry between Kiir (Dinka) and Machar (Nuer) escalates into wide-scale ethnic violence, producing mass displacement and severe humanitarian collapse. **Uganda intervenes militarily** to support Kiir."
     },
     {
       "year": "2018",
       "event": "**Revitalised Peace Agreement**: A fragile power-sharing agreement is signed but many core reforms, notably security-sector reform and accountability measures, remain incomplete."
     },
     {
-      "year": "2025",
-      "event": "**Renewed Tensions & Flooding**: Political tensions, contested prosecutions and catastrophic floods in recent years have combined to deepen displacement, food insecurity and protection risks, threatening fragile peace gains."
+      "year": "2020-Present",
+      "event": "**Climate Catastrophe & Stalled Peace**: Catastrophic multi-year flooding devastates livelihoods, compounding instability. Political tensions rise as the flawed peace process stalls, increasing risks of renewed large-scale conflict."
     }
   ],
   "takeAction": {
@@ -117,7 +117,7 @@
       },
       {
         "title": "Establish the Hybrid Court",
-        "description": "Advocate for establishment and proper funding of the Hybrid Court for South Sudan to ensure credible accountability for war crimes and crimes against humanity."
+        "description": "Advocate for establishment and proper funding of the Hybrid Court for South Sudan to ensure credible accountability for war crimes and crimes against humanity, including **ethnically targeted violence**."
       },
       {
         "title": "Renegotiate Oil Contracts",

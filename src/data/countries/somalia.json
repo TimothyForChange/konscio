@@ -4,10 +4,10 @@
   "emoji": "🇸🇴",
   "ariaLabel": "Somali flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "Somalia endures converging **structural crises**: protracted civil war stemming from **state collapse** induced by **Cold War** legacies and **neoliberal policies**; an entrenched al-Shabaab insurgency born from failed '**War on Terror**' interventions; and **climate catastrophe** devastating livelihoods.\n\nThese dynamics—amplified by **geopolitical competition**, **external military interference**, and **predatory extraction** (illegal fishing, resource claims)—produce chronic suffering. Millions are displaced, services disintegrated, and mass hunger recurs.\n\nAid efforts are hindered by insecurity. Preventing cycles of famine requires Somali-led political solutions, civilian protection, and large-scale **climate adaptation support** alongside **reparations for ecological damage**.",
+  "currentCrisisSummary": "Somalia endures converging **structural crises**: protracted civil war stemming from **state collapse** induced by **Cold War** legacies and **neoliberal policies**; an entrenched al-Shabaab insurgency born from failed '**War on Terror**' interventions; deep **political fragmentation** rooted in **clan dynamics** and regional tensions (Somaliland, Puntland); and **climate catastrophe** devastating livelihoods.\n\nThese dynamics—amplified by **geopolitical competition** (Gulf States, Turkey), **external military interference** (AU mission, drone strikes), and **predatory extraction** (illegal fishing)—produce chronic suffering. Millions are displaced, services disintegrated, and mass hunger recurs.",
   "colonialRoot": {
     "colonialPower": "Britain & Italy (c. 1880s-1960)",
-    "legacy": "The crisis is rooted in the **colonial partitioning** during the **Scramble for Africa**. Britain, Italy (and France) divided a cohesive people with **artificial borders**, disrupting traditional systems.\n\nThe rushed post-colonial merger left unresolved tensions, fragility compounded by **Cold War geopolitics** and frequent **external interventions**."
+    "legacy": "The crisis is rooted in the **colonial partitioning** during the **Scramble for Africa**. Britain, Italy (and France) divided a cohesive people with **artificial borders**, disrupting traditional systems and creating distinct administrative legacies (e.g., Somaliland vs. Southern Somalia).\n\nThe rushed post-colonial merger left unresolved tensions over power-sharing and regional autonomy, compounded by **Cold War geopolitics** and frequent **external interventions**."
   },
   "historicalContext": [
     {
@@ -15,30 +15,34 @@
       "description": "The 1991 **state collapse** was preceded by economic crisis and **neoliberal intervention**. In the 1980s, the indebted Barre regime accepted **IMF-led Structural Adjustment Programmes (SAPs)**. These enforced **deregulation**, destroying farmers' livelihoods. Mandated **austerity** **hollowed out the state's** capacity, accelerating social breakdown."
     },
     {
-      "title": "The Fragmented State",
-      "description": "**State collapse** unfolded in a **Cold War** context (Barre backed by USSR then US). Post-collapse saw repeated **external interventions** often prioritising military objectives over Somali-led settlement."
+      "title": "Internal Fragmentation: Clan, Regions, and Federalism",
+      "description": "**State collapse** allowed pre-existing **clan identities** to become the primary basis for political mobilisation and conflict. This led to the *de facto* independence of **Somaliland** (1991) and the autonomy of **Puntland** (1998). The internationally-backed **Federal Government (FGS)** struggles for legitimacy against powerful **Federal Member States (FMS)**, often fuelled by competing **clan interests** and external patrons."
     },
     {
       "title": "The War on Terror and the Rise of Al-Shabaab",
       "description": "The post-9/11 '**Global War on Terror**' framework drove conflict. The 2006 **US-backed Ethiopian invasion** ousted the Islamic Courts Union (ICU), shattered stability, and catalysed al-Shabaab's rise (**blowback**). Decades of **drone strikes**, **special forces operations**, and **proxy interventions** entrenched violence, undermining reconciliation."
     },
     {
-      "title": "Climate Change and Economic Exploitation",
-      "description": "Somalia is on the frontline of **climate change**: droughts/floods destroy livelihoods. **State collapse** enabled illicit activity: **illegal fishing** by foreign fleets and **toxic-waste dumping** eroded coastal livelihoods. New resource competition risks conflict. These drivers create **ecological and economic injustice**: the Global North's emissions and commercial practices impose heavy costs."
+      "title": "AMISOM/ATMIS: Intervention and Complicity",
+      "description": "The dominant security actor since 2007 has been the **AU Mission (AMISOM/ATMIS)**, largely funded by the West. While preventing total state collapse, this massive military intervention (primarily by neighbouring states) has been criticised for **civilian casualties**, **sexual exploitation**, propping up weak governments, failing to defeat al-Shabaab, and becoming part of the **external interference** landscape."
     },
     {
-      "title": "International Law and Accountability",
-      "description": "**International responsibility** is contested. Abuses by state/non-state actors, violations in counter-insurgency, and **exploitation by transnational actors** are documented. **Accountability** is uneven; strengthening documentation and Somali-centred **transitional justice** is key."
+      "title": "Geopolitical Chessboard: Gulf States & Turkey",
+      "description": "Somalia is a key arena for **geopolitical competition** between **Gulf states (UAE, Qatar)** and **Turkey**. These powers funnel funds, arms, and training to competing Somali factions and security forces, pursuing strategic interests (ports, resources, ideology) and exacerbating **internal fragmentation**."
+    },
+    {
+      "title": "Climate Change and Economic Exploitation",
+      "description": "Somalia is on the frontline of **climate change**: droughts/floods destroy livelihoods. **State collapse** enabled illicit activity: **illegal fishing** by foreign fleets and **toxic-waste dumping** eroded coastal livelihoods. New resource competition risks conflict. These drivers create **ecological and economic injustice**: the Global North's emissions and commercial practices impose heavy costs."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Hundreds of thousands killed by direct conflict and recurring **famines** (e.g., ~258k excess deaths in 2011) driven by war, **state collapse**, and **climate shocks**."
+      "description": "Hundreds of thousands killed by direct conflict, **clan warfare**, and recurring **famines** (e.g., ~258k excess deaths in 2011) driven by war, **state collapse**, and **climate shocks**."
     },
     {
       "title": "Affected Population",
-      "description": "Roughly 7 million require aid due to devastation from war, **climate catastrophe**, and **economic predation**."
+      "description": "Roughly 7 million require aid due to devastation from war, **climate catastrophe**, **political fragmentation**, and **economic predation**."
     },
     {
       "title": "Food Insecurity",
@@ -46,7 +50,7 @@
     },
     {
       "title": "Displacement",
-      "description": "About 3.5 million internally displaced by **conflict** and **extreme weather events** linked to **global warming**."
+      "description": "About 3.5 million internally displaced by **conflict**, **clan violence**, and **extreme weather events** linked to **global warming**."
     },
     {
       "title": "Refugees",
@@ -55,14 +59,6 @@
     {
       "title": "Healthcare Collapse",
       "description": "Health system decimated by decades of conflict and **state failure**."
-    },
-    {
-      "title": "Lack of Water Access",
-      "description": "Over half lack safe water due to **infrastructure destruction** and state incapacity from **collapse** and **austerity**."
-    },
-    {
-      "title": "Education Denied",
-      "description": "Est. 3 million children denied education by **conflict destroying schools** and displacing families."
     }
   ],
   "timeline": [
@@ -72,11 +68,11 @@
     },
     {
       "year": "1960",
-      "event": "**Independence & Unification**: Former British and Italian territories unite to form the Somali Republic, inheriting complex clan, regional and governance challenges."
+      "event": "**Independence & Unification**: Former British (Somaliland) and Italian territories unite to form the Somali Republic, but tensions over power-sharing persist."
     },
     {
       "year": "1969",
-      "event": "**Siad Barre's Coup**: General Siad Barre seizes power, later aligning with the USSR; subsequent policies centralise power and sow grievances."
+      "event": "**Siad Barre's Coup**: General Siad Barre seizes power, later aligning with the USSR; subsequent policies centralise power and sow grievances, particularly among non-Darod clans."
     },
     {
       "year": "1977-1978",
@@ -88,19 +84,27 @@
     },
     {
       "year": "1991",
-      "event": "**State Collapse**: Barre's overthrow precipitates state collapse, civil war and the fragmentation of authority that creates long-term displacement and insecurity."
+      "event": "**State Collapse & Somaliland Independence**: Barre's overthrow precipitates state collapse and civil war along clan lines. The former British Somaliland declares independence (unrecognised)."
     },
     {
       "year": "1992-1995",
-      "event": "**International Intervention**: A US-led, UN-mandated humanitarian intervention ('Operation Restore Hope') withdraws after the 1993 Battle of Mogadishu; international engagement shifts repeatedly between humanitarian and military imperatives."
+      "event": "**International Intervention**: A US-led, UN-mandated humanitarian intervention ('Operation Restore Hope') withdraws after the 1993 Battle of Mogadishu."
     },
     {
       "year": "2006",
-      "event": "**US-Backed Invasion & Rise of Al-Shabaab**: A US-backed Ethiopian invasion ousts the Islamic Courts Union government in Mogadishu. The intervention shatters a period of relative stability and directly leads to the rise of al-Shabaab, the ICU's more radical youth wing."
+      "event": "**US-Backed Invasion & Rise of Al-Shabaab**: A US-backed Ethiopian invasion ousts the Islamic Courts Union (ICU) government in Mogadishu. The intervention shatters stability and directly leads to the rise of al-Shabaab."
+    },
+    {
+      "year": "2007-Present",
+      "event": "**AMISOM/ATMIS Intervention**: The African Union deploys a large peacekeeping force (AMISOM, later ATMIS), funded internationally, becoming the main security actor battling al-Shabaab but also facing criticism for abuses and ineffectiveness."
     },
     {
       "year": "2011",
-      "event": "**Famine & Drought**: A catastrophic famine and severe food insecurity event causes very high mortality and displacement, with later studies estimating around 258,000 excess deaths during 2010-2012."
+      "event": "**Famine & Drought**: A catastrophic famine causes massive loss of life (~258,000 excess deaths), highlighting the deadly convergence of conflict, climate change, and state failure."
+    },
+    {
+      "year": "c. 2015-Present",
+      "event": "**Gulf/Turkey Rivalry Intensifies**: Geopolitical competition between the UAE/Saudi Arabia bloc and the Qatar/Turkey bloc spills into Somalia, funding rival political factions and security forces."
     },
     {
       "year": "2021-Present",
@@ -126,11 +130,11 @@
       },
       {
         "title": "Shift from 'War on Terror' to Politics",
-        "description": "Advocate for a shift from predominately militarised counter-terror strategies to Somali-led political processes, inclusive governance and investment in resilient livelihoods."
+        "description": "Advocate for a shift from predominately militarised counter-terror strategies to Somali-led political processes addressing **clan and regional grievances**, inclusive governance, and investment in resilient livelihoods."
       },
       {
-        "title": "Ensure Humanitarian Access & Protection",
-        "description": "Support expanded humanitarian access, protection for civilians and strengthened monitoring of rights abuses by all armed actors."
+        "title": "Demand Accountability for External Actors",
+        "description": "Support investigations and accountability for abuses committed by all external forces, including **AMISOM/ATMIS** personnel and actors involved in **drone strikes**."
       }
     ]
   },
