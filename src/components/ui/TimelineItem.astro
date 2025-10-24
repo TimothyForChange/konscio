@@ -1,5 +1,5 @@
 ---
-import { formatText } from '../../utils/text.ts';
+import { formatRichText } from '../../utils/text.ts';
 
 export interface TimelineItemProperties {
   year?: string;
@@ -11,7 +11,7 @@ const { year, event } = Astro.props as TimelineItemProperties;
 <div class='timeline-item'>
   <div class='timeline-content'>
     <div class='timeline-year'>{year}</div>
-    <div class='timeline-event' set:html={formatText(event ?? '')} />
+    <div class='timeline-event' set:html={formatRichText(event ?? '')} />
   </div>
 </div>
 

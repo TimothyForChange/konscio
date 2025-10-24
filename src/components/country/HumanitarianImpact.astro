@@ -1,6 +1,6 @@
 ---
 import type { HumanitarianImpact } from '../../types/country';
-import { formatText } from '../../utils/text.ts';
+import { formatRichText } from '../../utils/text.ts';
 import ImpactGrid from '../sections/ImpactGrid.astro';
 
 export interface Properties {
@@ -27,7 +27,7 @@ const stats = humanitarianImpact
     const label = item.title;
     return {
       label,
-      value: formatText(item.description),
+      value: formatRichText(item.description),
     };
   });
 ---

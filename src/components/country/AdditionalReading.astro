@@ -1,6 +1,6 @@
 ---
 import type { Reading } from '../../types/country';
-import { formatText } from '../../utils/text';
+import { formatRichText } from '../../utils/text';
 import ActionGroup from './ActionGroup.astro';
 
 export interface Properties {
@@ -39,10 +39,10 @@ if (reading.length === 0) {
               aria-label={`${item.title} (opens in new tab)`}
             >
               <div class='link-content'>
-                <h4 class='link-title' set:html={formatText(item.title)} />
+                <h4 class='link-title' set:html={formatRichText(item.title)} />
                 <p
                   class='link-description'
-                  set:html={formatText(item.description || '')}
+                  set:html={formatRichText(item.description || '')}
                 />
               </div>
               <i class='ri-external-link-line' aria-hidden='true' />

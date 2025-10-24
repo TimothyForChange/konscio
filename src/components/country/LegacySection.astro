@@ -1,5 +1,5 @@
 ---
-import { formatParagraphs } from '../../utils/text.ts';
+import { formatRichText } from '../../utils/text.ts';
 
 export interface Properties {
   title: string;
@@ -18,7 +18,13 @@ const { title, power, legacy } = Astro.props as Properties;
       </h2>
       <h3 class='sub-heading'>{power || '—'}</h3>
       {legacy &&
-        formatParagraphs(legacy).map((html: string) => <p set:html={html} />)}
+        (() => {
+          const formatted = formatRichText(legacy);
+          if (Array.isArray(formatted)) {
+            return formatted.map((html: string) => <p set:html={html} />);
+          }
+          return <p set:html={formatted} />;
+        })()}
     </section>
   )
 }

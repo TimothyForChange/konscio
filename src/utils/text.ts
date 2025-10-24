@@ -1,27 +1,25 @@
 import { escapeHtml } from './html.ts';
 
 /**
- * Formats a string by escaping HTML and converting markdown-like bold and italic syntax to <strong> and <em> tags.
+ * Formats rich text by escaping HTML and converting markdown-like bold and italic syntax to <strong> and <em> tags.
+ * If paragraphs are detected (split by double newlines), returns an array of formatted HTML strings for each paragraph.
+ * Otherwise, returns a single formatted HTML string.
  *
  * @param text - The text to format.
- * @returns The formatted HTML string.
+ * @returns An array of formatted HTML paragraph strings, or a single formatted string if no paragraphs.
  */
-export function formatText(text: string): string {
-  const escaped = escapeHtml(text);
-  const bolded = escaped.replaceAll(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-  const italicized = bolded.replaceAll(/\*(.*?)\*/g, '<em>$1</em>');
-  return italicized;
-}
-
-/**
- * Splits a block of text into formatted paragraphs.
- *
- * @param text - The block of text to process.
- * @returns An array of formatted HTML paragraph strings.
- */
-export function formatParagraphs(text: string): string[] {
-  return text
-    .split('\n\n')
-    .filter((para: string) => para.trim())
-    .map((para: string) => formatText(para));
+export function formatRichText(text: string): string | string[] {
+  const format = (input: string): string => {
+    return escapeHtml(input)
+      .replace(/\*\*(.*?)\*\*/gs, '<strong>$1</strong>')
+      .replace(/\*(.*?)\*/gs, '<em>$1</em>');
+  };
+  const paragraphs =
+    typeof text === 'string'
+      ? text.split(/\n{2,}/).filter((para) => para.trim())
+      : [];
+  if (paragraphs.length > 1) {
+    return paragraphs.map(format);
+  }
+  return format(text);
 }
