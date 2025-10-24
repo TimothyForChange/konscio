@@ -41,4 +41,4 @@ We're particularly interested in reports concerning:
 - Monitor for unusual activity.
 - Follow secure coding practices in contributions.
 
-Thank you for helping keep Timothy for Change secure and trustworthy. �
+Thank you for helping keep Timothy for Change secure and trustworthy.

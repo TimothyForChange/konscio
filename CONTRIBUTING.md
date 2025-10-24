@@ -40,4 +40,4 @@ Please be respectful and constructive in all interactions. See [CODE_OF_CONDUCT.
 
 Open an issue or contact the maintainer.
 
-Thank you for helping make a difference! �
+Thank you for helping make a difference!
