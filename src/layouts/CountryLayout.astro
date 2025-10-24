@@ -17,7 +17,7 @@ import Timeline from '../components/country/Timeline.astro';
 import { SITE_URL } from '../constants/site';
 import countriesList from '../data/mapping/countries.ts';
 import type { CountryData } from '../types/country';
-import { getCountryCode } from '../utils/country';
+import { buildArticleSchema } from '../utils/structured-data';
 import Layout from './Layout.astro';
 
 export interface Properties {
@@ -35,47 +35,14 @@ const countryMapping = Array.isArray(countriesList)
 const pageDescription = countryMapping?.seoDescription;
 const canonicalUrl = `${SITE_URL}/countries/${encodeURIComponent(countrySlug)}`;
 
-const articleSchema = {
-  '@type': 'Article',
-  '@id': `${SITE_URL}/countries/${countrySlug}/#article`,
-  headline:
-    passedTitle && radashIsString(passedTitle)
-      ? passedTitle
-      : `${countryData?.name} Crisis - Timothy for Change`,
-  description: pageDescription,
-  image: image ? image : undefined,
-  mainEntityOfPage: {
-    '@type': 'WebPage',
-    '@id': canonicalUrl,
-  },
-  author: {
-    '@id': `${SITE_URL}/#person`,
-  },
-  publisher: {
-    '@id': `${SITE_URL}/#person`,
-  },
-  datePublished:
-    countryData?.lastUpdated || new Date().toISOString().split('T')[0],
-  dateModified:
-    countryData?.lastUpdated || new Date().toISOString().split('T')[0],
-  about: [
-    {
-      '@type': 'Place',
-      name: countryData?.name,
-      addressCountry: getCountryCode(countrySlug),
-    },
-    {
-      '@type': 'Thing',
-      name: 'Structural Violence',
-    },
-  ],
-  keywords: [
-    countryData?.name,
-    'structural violence',
-    'human rights',
-    countryMapping?.category?.toLowerCase(),
-  ].filter(Boolean),
-};
+const articleSchema = buildArticleSchema({
+  countryData,
+  passedTitle,
+  countrySlug,
+  pageDescription: pageDescription || '',
+  canonicalUrl,
+  image,
+});
 ---
 
 <Layout
