@@ -4,63 +4,67 @@
   "emoji": "🇻🇪",
   "ariaLabel": "Venezuelan flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "Venezuela endures a protracted humanitarian catastrophe directly inflicted by **US-led economic warfare**. Deep economic collapse, deliberately intensified by years of **unilateral sanctions**, caused breakdown of public services, acute shortages, and mass displacement.\n\nThe '**maximum pressure**' campaign (**oil embargo**, **asset freezes**) crippled state revenue and blocked imports. This **economic coercion** functions as **collective punishment**, causing devastating harm, reversing social gains, and deepening poverty.",
+  "currentCrisisSummary": "Venezuela endures a protracted humanitarian catastrophe driven by the disastrous interaction of **US-led economic warfare** and **catastrophic internal state failure**. Deep economic collapse—caused by **state mismanagement, corruption, authoritarianism**, and then deliberately intensified by **unilateral US sanctions**—has shattered public services, caused acute shortages, and fuelled mass displacement.\n\nThe '**maximum pressure**' campaign (**oil embargo**, **asset freezes**) crippled state revenue, amplifying the damage already inflicted by internal policy failures. This combination of **external coercion** and **internal decay** functions as **collective punishment**, reversing social gains and deepening poverty.",
   "imperialRoot": {
     "imperialPower": "Spain (16th c. - 19th c.), US (20th c. - present)",
-    "legacy": "Venezuela's vulnerability lies in its history as a resource-exporting periphery. The **Spanish Empire** established an **extractive colonial economy**. Post-independence, this structure persisted.\n\nIn the 20th century, the **US** dominated Venezuela's **oil industry**, shaping it into a **petro-state dependent** on oil revenues/US markets. Enforced via the **Monroe Doctrine**, this enriched **foreign capital** and elites but prevented sovereign development. The **Bolivarian Revolution's** attempts (since 1999) to assert national control met US hostility (**failed coup** 2002), leading to **economic warfare**."
+    "legacy": "Venezuela's vulnerability lies in its history as a resource-exporting periphery. The **Spanish Empire** established an **extractive colonial economy**. Post-independence, **US** corporations dominated Venezuela's **oil industry**, shaping it into a **petro-state dependent** on oil revenues/US markets.\n\nThis enriched **foreign capital** and local elites but prevented sovereign development. The **Bolivarian Revolution's** attempts (since 1999) to assert national control were met with US hostility (**failed coup** 2002) but also suffered from profound **internal mismanagement**, ultimately leading to **US economic warfare** and state collapse."
   },
   "historicalContext": [
     {
-      "title": "The Resource Curse and Dependency",
-      "description": "Oil wealth became a **structural vulnerability**. The economy was fundamentally **dependent** on oil exports. Even during the **Bolivarian Revolution's** boom, dependency deepened, undermining agriculture. This legacy of a **US-dominated petro-state** was the precise vulnerability the **sanctions regime** exploited. Targeting this income source induced near-total **economic collapse**, showing how the **resource curse** can be weaponised by an **imperial power**."
+      "title": "Internal Economic Mismanagement",
+      "description": "Long before the harshest US sanctions (2017), the Venezuelan state pursued **disastrous economic policies**. This included **unsustainable price and currency controls** generating shortages and black markets; **systematic expropriations** destroying the private sector; **rampant mismanagement and corruption within the state oil company (PDVSA)** causing production collapse; and **reckless fiscal spending** leading to hyperinflation *before* the US oil embargo."
     },
     {
-      "title": "Economic Pressure and Sanctions",
+      "title": "State Authoritarianism and Repression",
+      "description": "Parallel to the economic decline, the state under Chávez and Maduro became increasingly **authoritarian**. This involved the **systematic dismantling of democratic institutions** (judiciary, electoral council, legislature), **persecution of political opponents**, **censorship** of independent media, and **brutal state violence** against protesters. The **highly contested 2018 election** deepened the legitimacy crisis, providing a pretext for further US intervention."
+    },
+    {
+      "title": "State Corruption",
+      "description": "The Bolivarian era fostered **endemic state corruption** on a massive scale. Billions of dollars in oil revenues were siphoned off through opaque **currency exchange systems**, **embezzlement within PDVSA**, and **patronage networks**. This **kleptocracy** crippled public services, destroyed state capacity, and fuelled popular anger, contributing significantly to the economic collapse."
+    },
+    {
+      "title": "The Resource Curse and Dependency",
+      "description": "Oil wealth was a **structural vulnerability**. The economy was fundamentally **dependent** on oil exports, a legacy of **US domination** deepened by Bolivarian policies. This dependency was the precise weakness **US sanctions** exploited. Targeting oil income *after* internal mismanagement had already crippled production induced near-total **economic collapse**."
+    },
+    {
+      "title": "US Economic Warfare (Sanctions)",
       "description": "Since 2014 (escalating 2017), the US imposed comprehensive **sanctions** – a broad **financial and sectoral blockade**. Measures prohibit state oil company trade, block credit, and enabled **seizure of overseas assets**. UN Rapporteurs conclude **sanctions** caused catastrophic decline and **excess deaths**, functioning as **collective punishment**."
     },
     {
       "title": "International Law and Accountability",
-      "description": "**Unilateral sanctions** are widely considered illegal under **international law**, violating principles of **sovereignty** and **non-intervention** outside **UN Security Council** authorisation. Venezuela has filed complaints arguing that comprehensive **economic sanctions** constitute a **crime against humanity** by causing widespread suffering. The **US-led recognition** of a parallel '**interim government**' provided a legal pretext for **asset seizure**, undermining international law and **due process**. **UN Special Rapporteurs** have documented how sanctions violate basic **human rights** to health, food, and adequate living standards. **Accountability** for these violations is hindered by the **selective application** of international law by powerful states. The **International Court of Justice** and **International Criminal Court** remain inaccessible for economic crimes against states due to **structural biases** in the international legal framework."
+      "description": "**Unilateral sanctions** are widely considered illegal under **international law**, violating principles of **sovereignty** and **non-intervention**. Venezuela has filed complaints arguing they constitute a **crime against humanity**. The **US-led recognition** of a parallel '**interim government**' provided a legal pretext for **asset seizure**, undermining international law. **UN Special Rapporteurs** have documented how sanctions violate basic **human rights**. **Accountability** for these violations is hindered by the **selective application** of international law by powerful states."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Excess Deaths",
-      "description": "Tens of thousands estimated since 2017, directly attributable to **sanctions** restricting access to food, medicine, and healthcare."
+      "description": "Tens of thousands estimated since 2017, attributable to the combined effects of **state collapse** and **US sanctions** restricting access to food, medicine, and healthcare."
     },
     {
       "title": "Affected Population",
-      "description": "Est. 19 million require aid due to **economic devastation inflicted by the US blockade.**"
+      "description": "Est. 19 million require aid due to **economic devastation inflicted by both state failure and the US blockade.**"
     },
     {
       "title": "Food Insecurity",
-      "description": "Est. 15.5 million suffer food insecurity, caused by **sanctions destroying purchasing power** and blocking imports."
-    },
-    {
-      "title": "Displacement (Internal)",
-      "description": "Significant internal displacement driven by **economic collapse resulting from sanctions.**"
+      "description": "Est. 15.5 million suffer food insecurity, caused by **internal hyperinflation, production collapse**, and **sanctions blocking imports.**"
     },
     {
       "title": "Refugee Crisis",
-      "description": "Over 7.7 million forced abroad by the **economic catastrophe engineered by the sanctions regime.**"
+      "description": "Over 7.7 million forced abroad by the **economic catastrophe engineered by state mismanagement and US sanctions**, compounded by **political repression**."
     },
     {
       "title": "Healthcare Collapse",
-      "description": "Health system collapsed due to **sanctions blocking resources**."
+      "description": "Health system collapsed due to **state failure, corruption, emigration of staff**, exacerbated by **sanctions blocking resources**."
     },
     {
       "title": "Extreme Poverty",
-      "description": "Extreme poverty surged (est. >80%) as **sanctions dismantled the economy**."
+      "description": "Extreme poverty surged (est. >80%) as **internal mismanagement and sanctions dismantled the economy**."
     }
   ],
   "timeline": [
     {
       "year": "1914",
       "event": "**Oil Discovery**: Large-scale oil reserves are discovered, rapidly transforming Venezuela into a petro-state dominated by foreign corporations."
-    },
-    {
-      "year": "1976",
-      "event": "**Oil Nationalisation**: Venezuela nationalises its oil industry, taking it out of the hands of foreign corporations like Exxon and Shell. This act of economic sovereignty sets a precedent for the resource nationalism that would later be expanded under Hugo Chávez."
     },
     {
       "year": "1989",
@@ -75,16 +79,24 @@
       "event": "**US-Backed Coup Attempt**: A coup d'état briefly removes Chávez from power. The US government is shown to have had prior knowledge and provided support to the coup plotters."
     },
     {
-      "year": "2014-2017",
-      "event": "**Sanctions Begin**: The US begins imposing targeted sanctions, which lay the groundwork for a broader economic assault."
+      "year": "c. 2010-Present",
+      "event": "**Economic Mismanagement Deepens**: Unsustainable policies (currency/price controls, expropriations, PDVSA decay) accelerate, leading to shortages and inflation well before peak US sanctions."
+    },
+    {
+      "year": "2014-Present",
+      "event": "**State Repression Intensifies**: The government responds to growing dissent with increasing authoritarianism, including crackdowns on protests (e.g., 2014, 2017), political imprisonments, and erosion of democratic institutions."
     },
     {
       "year": "2017-Present",
-      "event": "**Economic Blockade**: The US imposes crippling sectoral sanctions targeting Venezuela's oil industry, financial system and access to international markets, leading to a catastrophic economic contraction."
+      "event": "**US Economic Blockade ('Maximum Pressure')**: The US imposes crippling sectoral sanctions targeting Venezuela's oil industry and financial system, causing a catastrophic economic contraction and humanitarian crisis."
+    },
+    {
+      "year": "2018",
+      "event": "**Contested Presidential Election**: Nicolás Maduro secures re-election in a vote widely condemned internationally as illegitimate, deepening the political crisis."
     },
     {
       "year": "2019",
-      "event": "**Parallel Government & Asset Seizure**: The US and its allies recognise an opposition leader as \"interim president,\" a move used to justify the seizure of billions of dollars in Venezuelan state assets held abroad."
+      "event": "**Parallel Government & Asset Seizure**: The US and allies recognise an opposition leader as \"interim president,\" a move used to justify the seizure of billions in Venezuelan state assets held abroad."
     }
   ],
   "takeAction": {
@@ -105,16 +117,16 @@
         "description": "Advocate for the unfreezing and return of all Venezuelan state assets held in foreign banks and jurisdictions."
       },
       {
+        "title": "Support Democratic Rights & Dialogue",
+        "description": "Support the Venezuelan people's right to democracy, free expression, and peaceful protest, and encourage negotiated political solutions to the internal crisis."
+      },
+      {
         "title": "Oppose Foreign Intervention",
         "description": "Oppose all forms of foreign military or political intervention and support sovereign, diplomatic solutions to internal political disputes."
       },
       {
-        "title": "Amplify Reports on Sanctions",
-        "description": "Amplify reports from UN experts and human rights organisations documenting the devastating human impact of economic coercion."
-      },
-      {
-        "title": "Support ICC Accountability",
-        "description": "Support accountability efforts at the ICC to investigate the sanctions as potential crimes against humanity."
+        "title": "Amplify Reports on Sanctions & Repression",
+        "description": "Amplify reports documenting both the devastating human impact of economic coercion *and* the internal state repression and human rights violations."
       }
     ]
   },

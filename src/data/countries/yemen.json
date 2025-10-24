@@ -4,27 +4,35 @@
   "emoji": "🇾🇪",
   "ariaLabel": "Yemeni flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "Yemen endures one of the world's most severe humanitarian catastrophes, directly caused by a protracted **proxy war** over state control and its **strategic position** on a key **global trade route**. The conflict, involving a **Saudi-led coalition** (backed by **Western arms**) and Iran-aligned forces, has been waged through **blockades**, **sieges**, and attacks on infrastructure, deliberately crippling the nation.\n\nThis violence and **externally imposed restrictions** have devastated the economy, wrecked public services, and produced **catastrophic hunger and disease**. Aid diversion exacerbates suffering. The crisis is actively sustained by **international arms flows**, **regional rivalries**, and **global economic interests** prioritising strategic gain over human life.",
+  "currentCrisisSummary": "Yemen endures one of the world's most severe humanitarian catastrophes, driven by a fragmented **proxy war** over state control and its **strategic position** on a key **global trade route**. The conflict involves multiple actors: the Iran-aligned **Houthi movement**, a **Saudi-led coalition** (backed by **Western arms/intelligence**) supporting the internationally recognised government, the **UAE-backed secessionist Southern Transitional Council (STC)**, and **Al-Qaeda in the Arabian Peninsula (AQAP)**.\n\nThis multi-sided war, waged through **blockades**, **sieges**, and attacks on infrastructure, has deliberately crippled the nation. Violence and **externally imposed restrictions** have devastated the economy, wrecked public services, and produced **catastrophic hunger and disease**. The crisis is actively sustained by **international arms flows**, **regional rivalries** (Saudi/Iran, Saudi/UAE), and **global economic interests**.",
   "imperialRoot": {
     "imperialPower": "Britain & Ottoman Empire (Aden 1839-1967; Ottoman presence in the north until 1918)",
-    "legacy": "The crisis draws on deep **colonial-era divisions**. **British control** (south) alongside **Ottoman administration** (north) produced distinct legacies. Britain's **protectorates** and **indirect rule** hindered unity, leaving a **governance vacuum**.\n\nThese **colonial partitions**, plus later **Cold War geopolitics**, created fault-lines exploited by elites and **foreign powers**, contributing to cycles of conflict and **external intervention**."
+    "legacy": "The crisis draws on deep **colonial-era divisions**. **British control** (south) alongside **Ottoman administration** (north) produced distinct legacies. Britain's **protectorates** and **indirect rule** hindered unity, leaving a **governance vacuum** and fostering **southern identity** later mobilised by secessionists.\n\nThese **colonial partitions**, plus later **Cold War geopolitics**, created fault-lines exploited by elites and **foreign powers**, contributing to cycles of conflict and **external intervention**."
   },
   "historicalContext": [
     {
       "title": "Geopolitical Chokepoint and Global Trade",
-      "description": "Yemen's geography astride the **Bab-el-Mandeb strait**, a vital **chokepoint** for **global trade**, makes it a theatre for **strategic competition**. **Regional powers** and global actors seek influence. Control of **maritime access** is a persistent objective for **external actors**."
+      "description": "Yemen's geography astride the **Bab-el-Mandeb strait**, a vital **chokepoint** for **global trade**, makes it a theatre for **strategic competition**. **Regional powers** (Saudi Arabia, Iran, UAE) and global actors seek influence. Control of **maritime access** is a persistent objective for **external actors**."
+    },
+    {
+      "title": "Internal Fragmentation: STC and Southern Secessionism",
+      "description": "The anti-Houthi bloc is deeply divided. The **Southern Transitional Council (STC)**, primarily backed by the **UAE**, seeks independence for South Yemen. The STC frequently clashes with the **Saudi-backed** internationally recognised government forces, despite both nominally opposing the Houthis. This **internal conflict**, driven by secessionist goals and **Saudi-UAE rivalry**, further fragments the state."
     },
     {
       "title": "Neoliberal Reforms and the Roots of Rebellion",
       "description": "Post-unification, Yemen faced **IMF/World Bank-led Structural Adjustment Programmes (SAPs)**. These **neoliberal 'reforms'** mandated lifting subsidies, **privatisation**, and severe **austerity**. Hardship affected marginalised regions, feeding grievances of southern secessionists and the northern **Houthi rebellion**. The Houthi rise was partly a revolt against **corruption** from this **Western-backed economic model**."
     },
     {
-      "title": "The War on Terror and Foreign Intervention",
-      "description": "The current war was preceded by **US intervention** under the '**Global War on Terror**'. Saleh exploited **US counter-terrorism aid** primarily against domestic opponents (**Houthis**). This use of an **imperial security framework** radicalised opposition. Later supplanted by the current **proxy war**, sustained by **arms transfers** from Western nations to the **Saudi-led coalition**, enabling violations of **international law**."
+      "title": "The War on Terror: AQAP and US Intervention",
+      "description": "Yemen has long been a key front in the US '**Global War on Terror**'. **Al-Qaeda in the Arabian Peninsula (AQAP)** exploited state weakness to establish a presence. The US conducted extensive **drone strikes** and **special forces operations** against AQAP, often with the complicity of the Saleh regime, which also used US aid against domestic rivals like the **Houthis**. This **external security framework** complicated internal dynamics and contributed to radicalisation."
+    },
+    {
+      "title": "Proxy War and Western Complicity",
+      "description": "The current war escalated with the 2015 **Saudi-led coalition intervention**. This intervention received crucial **direct military and intelligence support** from the **US and UK** (refuelling, targeting), alongside massive **arms transfers**. This **Western complicity** enabled the coalition's devastating bombing campaign and naval blockade, key drivers of the humanitarian catastrophe."
     },
     {
       "title": "International Law and Accountability",
-      "description": "Extensive documentation by UN bodies and human rights organisations has recorded **war crimes** and **crimes against humanity** committed by all parties to the conflict. The **blockade-induced starvation**, **indiscriminate bombing campaigns**, and **targeting of civilian infrastructure** violate international humanitarian law. Despite formal **accountability** mechanisms and **ICRC** involvement, **impunity** persists due to geopolitical interference. The **UN Security Council** remains divided, preventing referral to the **ICC**. **Arms suppliers** from Western nations continue to enable violations with **impunity**, highlighting the **selective application** of international law. **Transitional justice** efforts face significant obstacles from regional and international actors with strategic interests in the conflict."
+      "description": "Extensive documentation by UN bodies and human rights organisations has recorded **war crimes** and **crimes against humanity** committed by all parties (Houthis, Saudi-led coalition, STC forces, AQAP). The **blockade-induced starvation**, **indiscriminate bombing campaigns**, and **targeting of civilian infrastructure** violate international humanitarian law. Despite formal **accountability** mechanisms, **impunity** persists due to geopolitical interference. The **UN Security Council** remains divided, preventing referral to the **ICC**. **Arms suppliers** (US, UK, France etc.) continue to enable violations with **impunity**, highlighting the **selective application** of international law."
     }
   ],
   "humanitarianImpact": [
@@ -43,32 +51,12 @@
     {
       "title": "Displacement",
       "description": "Around 4.5 million internally displaced by bombing, fighting, and **climate shocks exacerbated by state failure**."
-    },
-    {
-      "title": "Refugees",
-      "description": "Tens of thousands forced abroad by **extreme violence** created by the conflict."
-    },
-    {
-      "title": "Healthcare Collapse",
-      "description": "Roughly half of health facilities non-functional due to attacks, lack of supplies from **blockades**, and infrastructure collapse."
-    },
-    {
-      "title": "Lack of Water Access",
-      "description": "Over 15 million lack safe water/sanitation due to **infrastructure destruction** and import restrictions."
-    },
-    {
-      "title": "Education Denied",
-      "description": "Over 2 million children denied education as schools damaged or inaccessible due to conflict."
     }
   ],
   "timeline": [
     {
       "year": "1839",
       "event": "**British seize Aden**: The British Empire captures the port of Aden, beginning a prolonged colonial presence in southern Yemen that would shape later regional divisions."
-    },
-    {
-      "year": "1918-1960s",
-      "event": "**Ottoman withdrawal & fragmented rule**: Ottoman influence in the north recedes after World War I; multiple sultanates, imamates and protectorates coexist until mid-20th century state formations."
     },
     {
       "year": "1990",
@@ -80,15 +68,19 @@
     },
     {
       "year": "2000s",
-      "event": "**\"War on Terror\" & Houthi Uprising**: The US expands counter-terror operations, including drone strikes. The Saleh regime uses US military aid to suppress domestic opponents, particularly the nascent Houthi rebellion, which is also fuelled by anger at economic marginalisation."
+      "event": "**\"War on Terror\", AQAP & Houthi Uprising**: The US expands counter-terror operations (drone strikes) against **AQAP**. The Saleh regime uses US military aid to suppress domestic opponents, particularly the nascent Houthi rebellion."
     },
     {
       "year": "2014-2015",
-      "event": "**Houthi advance & coalition intervention**: Houthi forces seize large parts of the country, including Sana'a; a Saudi-led coalition launches an air and naval campaign and enforces blockades, precipitating the large-scale humanitarian catastrophe that follows."
+      "event": "**Houthi Advance & Coalition Intervention**: Houthi forces seize Sana'a. A **Saudi-led coalition** (inc. UAE), backed by **US/UK intelligence and logistics**, launches an air/naval campaign and enforces blockades, precipitating the humanitarian catastrophe."
+    },
+    {
+      "year": "2017",
+      "event": "**STC Formation**: The **UAE-backed Southern Transitional Council (STC)** is formed, demanding independence for the South and adding another layer of conflict within the anti-Houthi bloc."
     },
     {
       "year": "2016-Present",
-      "event": "**Protracted humanitarian catastrophe**: Years of siege, economic collapse, aid displacement and repeated attacks on infrastructure create a chronic humanitarian emergency that the UN repeatedly describes as among the world’s worst."
+      "event": "**Protracted Humanitarian Catastrophe**: Years of siege, economic collapse, aid obstruction, and attacks on infrastructure create one of the world’s worst humanitarian emergencies."
     }
   ],
   "takeAction": {
@@ -116,15 +108,15 @@
       },
       {
         "title": "Suspend Arms Transfers",
-        "description": "Call on Western and regional governments to suspend arms transfers that enable indiscriminate attacks and to condition support on respect for international humanitarian law."
+        "description": "Call on Western and regional governments to suspend **all arms transfers** (to Saudi Arabia, UAE, Iran, etc.) that enable indiscriminate attacks and violations of international law."
       },
       {
         "title": "Support Yemeni-Led Peace",
-        "description": "Support Yemeni-led peace initiatives and ensure that any diplomatic settlement protects civilians, restores services and addresses economic and political grievances."
+        "description": "Support Yemeni-led peace initiatives that address **internal fragmentation** (North/South, STC) and ensure that any diplomatic settlement protects civilians and restores services."
       },
       {
         "title": "Demand Accountability",
-        "description": "Push for independent investigations into alleged war crimes and for accountability mechanisms that centre victims' rights and reparations."
+        "description": "Push for independent investigations into alleged war crimes by **all parties** and for accountability mechanisms that centre victims' rights and reparations."
       }
     ]
   },
