@@ -10,16 +10,18 @@ import { escapeHtml } from './html.ts';
  */
 export function formatRichText(text: string): string | string[] {
   const format = (input: string): string => {
-    return escapeHtml(input)
+    let html = input
       .replace(/\*\*(.*?)\*\*/gs, '<strong>$1</strong>')
       .replace(/\*(.*?)\*/gs, '<em>$1</em>');
+
+    return escapeHtml(html, ['strong', 'em']);
   };
-  const paragraphs =
-    typeof text === 'string'
-      ? text.split(/\n{2,}/).filter((para) => para.trim())
-      : [];
+
+  const paragraphs = text.split(/\n{2,}/).filter((para) => para.trim());
+
   if (paragraphs.length > 1) {
     return paragraphs.map(format);
   }
+
   return format(text);
 }

@@ -1,4 +1,6 @@
 ---
+import { formatRichText } from '../../utils/text.ts';
+
 export interface Properties {
   label: string;
   value: string;
@@ -11,7 +13,17 @@ const { label, value } = Astro.props as Properties;
   <span class='stat-title-flex'>
     <strong class='stat-title'>{label}:</strong>
   </span>
-  <span set:html={value} />
+  <div class='stat-value'>
+    {
+      (() => {
+        const formatted = formatRichText(value);
+        if (Array.isArray(formatted)) {
+          return formatted.map((html: string) => <p set:html={html} />);
+        }
+        return <span set:html={formatted} />;
+      })()
+    }
+  </div>
 </div>
 
 <style>
@@ -35,5 +47,10 @@ const { label, value } = Astro.props as Properties;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     margin: 0;
+  }
+  .stat-value {
+    color: var(--text-secondary);
+    font-size: 1em;
+    margin-top: 0.25em;
   }
 </style>
