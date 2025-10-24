@@ -1,8 +1,7 @@
 import { z } from 'zod';
 
 /**
- * Zod schema for humanitarian impact statistics.
- * Defines rules for data on displaced people, refugees, casualties, and other indicators.
+ * Schema for humanitarian impact statistics.
  */
 const HumanitarianImpactSchema = z.array(
   z.object({
@@ -12,8 +11,7 @@ const HumanitarianImpactSchema = z.array(
 );
 
 /**
- * Zod schema for the colonial roots of a crisis.
- * Captures the colonial power and its legacy.
+ * Schema for colonial roots of a crisis.
  */
 const ColonialRootSchema = z.object({
   colonialPower: z.string(),
@@ -21,8 +19,7 @@ const ColonialRootSchema = z.object({
 });
 
 /**
- * Zod schema for the imperial roots of a crisis.
- * Captures the imperial power and its legacy.
+ * Schema for imperial roots of a crisis.
  */
 const ImperialRootSchema = z.object({
   imperialPower: z.string(),
@@ -30,7 +27,7 @@ const ImperialRootSchema = z.object({
 });
 
 /**
- * Zod schema for a single event in a country's historical timeline.
+ * Schema for timeline events.
  */
 const TimelineEventSchema = z.object({
   year: z
@@ -41,7 +38,7 @@ const TimelineEventSchema = z.object({
 });
 
 /**
- * Zod schema for an organisation involved in aid or advocacy.
+ * Schema for organisations.
  */
 const OrganisationSchema = z.object({
   organisation: z.string(),
@@ -51,7 +48,7 @@ const OrganisationSchema = z.object({
 });
 
 /**
- * Zod schema for actions that individuals can take in response to a crisis.
+ * Schema for take action data.
  */
 const TakeActionSchema = z.object({
   donate: z.array(OrganisationSchema),
@@ -64,7 +61,7 @@ const TakeActionSchema = z.object({
 });
 
 /**
- * Zod schema for a recommended reading resource.
+ * Schema for reading resources.
  */
 const ReadingSchema = z.object({
   title: z.string(),
@@ -73,8 +70,7 @@ const ReadingSchema = z.object({
 });
 
 /**
- * Zod schema for the comprehensive data set of a single country.
- * This schema aggregates all other data structures for a country.
+ * Schema for complete country data.
  */
 const CountryDataSchema = z
   .object({

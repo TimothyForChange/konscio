@@ -1,5 +1,5 @@
 /**
- * The project's mission statement.
+ * Mission statement data.
  */
 export interface Mission {
   name: string;
@@ -9,7 +9,7 @@ export interface Mission {
 }
 
 /**
- * A single external resource link.
+ * External resource link.
  */
 export interface ResourceLink {
   url: string;

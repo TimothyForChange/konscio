@@ -2,7 +2,7 @@ import { z } from 'zod';
 import { COUNTRY_CATEGORIES } from '../constants/category';
 
 /**
- * Zod schema for a single country's metadata.
+ * Schema for country metadata.
  */
 const CountrySchema = z.object({
   name: z.string(),
@@ -16,7 +16,7 @@ const CountrySchema = z.object({
 });
 
 /**
- * Zod schema for an array of country metadata objects.
+ * Schema for countries array.
  */
 const CountriesSchema = z.array(CountrySchema);
 

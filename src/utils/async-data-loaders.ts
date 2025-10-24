@@ -3,9 +3,9 @@ import { validateCountryData } from '../validators/country-data.ts';
 import { validateCountries } from '../validators/country.ts';
 
 /**
- * Asynchronously loads and validates the list of all countries.
+ * Loads and validates all countries.
  *
- * @returns A promise that resolves to an array of validated country objects.
+ * @returns Promise resolving to countries array
  */
 export async function loadCountries(): Promise<Country[]> {
   const countriesModule = await import('../data/mapping/countries.ts');
@@ -14,10 +14,10 @@ export async function loadCountries(): Promise<Country[]> {
 }
 
 /**
- * Asynchronously loads and validates the data for a single country.
+ * Loads and validates data for a specific country.
  *
- * @param countrySlug - The slug of the country to load.
- * @returns A promise that resolves to the validated country data object.
+ * @param countrySlug - Country slug to load
+ * @returns Promise resolving to country data
  */
 export async function loadCountryData(
   countrySlug: string

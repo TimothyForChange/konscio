@@ -2,11 +2,11 @@ import { CountryDataSchema } from '../schemas/country-data';
 import type { CountryData } from '../types/country';
 
 /**
- * Validates a country data object using the CountryDataSchema.
+ * Validates country data using the CountryDataSchema.
  *
- * @param countryData - The country data object to validate.
- * @returns The validated country data.
- * @throws If the country data does not match the schema.
+ * @param countryData - Country data object to validate
+ * @returns Validated country data
+ * @throws If validation fails
  */
 export function validateCountryData(countryData: unknown): CountryData {
   const result = CountryDataSchema.safeParse(countryData);

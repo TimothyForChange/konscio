@@ -2,10 +2,10 @@ import { CountriesSchema, CountrySchema } from '../schemas/country.ts';
 import type { Country } from '../types/country.ts';
 
 /**
- * Asynchronously loads and validates the main list of countries.
+ * Loads and validates the countries list.
  *
- * @returns A promise that resolves to the array of validated countries.
- * @throws If loading or validation fails.
+ * @returns Promise resolving to validated countries array
+ * @throws If loading or validation fails
  */
 export async function loadAndValidateCountries(): Promise<Country[]> {
   const countriesModule = await import('../data/mapping/countries.ts');
@@ -14,11 +14,11 @@ export async function loadAndValidateCountries(): Promise<Country[]> {
 }
 
 /**
- * Validates a single country object using the CountrySchema.
+ * Validates a single country object.
  *
- * @param countryData - The country object to validate.
- * @returns The validated country object.
- * @throws If validation fails.
+ * @param countryData - Country object to validate
+ * @returns Validated country object
+ * @throws If validation fails
  */
 export function validateCountry(countryData: unknown): Country {
   const result = CountrySchema.safeParse(countryData);
@@ -31,11 +31,11 @@ export function validateCountry(countryData: unknown): Country {
 }
 
 /**
- * Validates an array of country objects using the CountriesSchema.
+ * Validates an array of country objects.
  *
- * @param countriesData - The array of country objects to validate.
- * @returns The array of validated country objects.
- * @throws If validation fails.
+ * @param countriesData - Array of country objects to validate
+ * @returns Array of validated country objects
+ * @throws If validation fails
  */
 export function validateCountries(countriesData: unknown[]): Country[] {
   const result = CountriesSchema.safeParse(countriesData);

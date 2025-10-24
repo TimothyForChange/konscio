@@ -1,5 +1,5 @@
 /**
- * Basic metadata for a single country.
+ * Country metadata.
  */
 export interface Country {
   name: string;
@@ -11,7 +11,7 @@ export interface Country {
 }
 
 /**
- * Humanitarian impact statistics for a country's crisis.
+ * Humanitarian impact statistics.
  */
 export type HumanitarianImpact = {
   title: string;
@@ -19,7 +19,7 @@ export type HumanitarianImpact = {
 }[];
 
 /**
- * Colonial history of a country.
+ * Colonial history.
  */
 export interface ColonialRoot {
   colonialPower: string;
@@ -27,7 +27,7 @@ export interface ColonialRoot {
 }
 
 /**
- * Imperial history of a country.
+ * Imperial history.
  */
 export interface ImperialRoot {
   imperialPower: string;
@@ -35,7 +35,7 @@ export interface ImperialRoot {
 }
 
 /**
- * A single event in a country's historical timeline.
+ * Timeline event.
  */
 export interface TimelineEvent {
   year: string;
@@ -43,7 +43,7 @@ export interface TimelineEvent {
 }
 
 /**
- * An organisation that individuals can support.
+ * Organisation for support.
  */
 export interface Organisation {
   organisation: string;
@@ -53,7 +53,7 @@ export interface Organisation {
 }
 
 /**
- * Actions individuals can take to help.
+ * Actions individuals can take.
  */
 export interface TakeAction {
   donate: Organisation[];
@@ -64,7 +64,7 @@ export interface TakeAction {
 }
 
 /**
- * The complete data set for a single country.
+ * Complete country data.
  */
 export interface CountryData {
   name: string;
@@ -85,7 +85,7 @@ export interface CountryData {
 }
 
 /**
- * A recommended reading material.
+ * Reading resource.
  */
 export interface Reading {
   title: string;

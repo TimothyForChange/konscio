@@ -1,9 +1,9 @@
 /**
- * Escapes special HTML characters in a string to prevent XSS attacks, except for whitelisted tags.
+ * Escapes HTML characters to prevent XSS, except for whitelisted tags.
  *
- * @param string_ - The input string to escape.
- * @param whitelist - Array of allowed tag names (e.g., ['strong', 'em']).
- * @returns The escaped string with HTML characters replaced by their corresponding entities, except whitelisted tags.
+ * @param string_ - Input string to escape
+ * @param whitelist - Array of allowed tag names (e.g., ['strong', 'em'])
+ * @returns Escaped string with HTML entities, preserving whitelisted tags
  */
 export function escapeHtml(string_: string, whitelist: string[] = []): string {
   if (!whitelist.length) {

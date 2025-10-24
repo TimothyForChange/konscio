@@ -1,7 +1,7 @@
 import { z } from 'zod';
 
 /**
- * Zod schema for a single resource link.
+ * Schema for resource links.
  */
 const ResourceLinkSchema = z.object({
   url: z.string().url('URL must be a valid URL'),
@@ -11,7 +11,7 @@ const ResourceLinkSchema = z.object({
 });
 
 /**
- * Zod schema for the mission statement data.
+ * Schema for mission data.
  */
 const MissionSchema = z.object({
   $schema: z.string().optional(),

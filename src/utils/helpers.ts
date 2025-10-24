@@ -1,8 +1,8 @@
 /**
  * Generates a URL-friendly slug from a string.
  *
- * @param str - The input string to convert.
- * @returns The generated slug.
+ * @param str - Input string to convert
+ * @returns Generated slug
  */
 export function generateSlug(str: string): string {
   return str.toLowerCase().replace(/\s+/g, '-');

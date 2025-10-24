@@ -2,11 +2,11 @@ import { MissionSchema } from '../schemas/mission';
 import type { Mission } from '../types/mission';
 
 /**
- * Validates the mission data object using the MissionSchema.
+ * Validates mission data using the MissionSchema.
  *
- * @param missionData - The mission data object to validate.
- * @returns The validated mission object.
- * @throws If validation fails.
+ * @param missionData - Mission data object to validate
+ * @returns Validated mission object
+ * @throws If validation fails
  */
 export function validateMission(missionData: unknown): Mission {
   const result = MissionSchema.safeParse(missionData);
