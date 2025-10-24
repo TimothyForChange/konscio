@@ -4,37 +4,37 @@
   "emoji": "🇭🇹",
   "ariaLabel": "Haitian flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "Haiti endures a catastrophic **collapse of governance and society**, directly driven by centuries of **foreign intervention**, **economic extraction**, and **elite impunity**. A near-total implosion of state functions allows armed gangs—often linked to elites—to control vast areas, imposing extortion, mass violence, and displacement. Humanitarian access is blocked by insecurity, producing acute hunger.\n\nAn internationally backed, Kenyan-led mission faces constraints and contested legitimacy. The crisis is rooted in **colonial expropriation**, **odious debt enforced by France**, repeated **US occupations**, and **neoliberal policies** that deliberately undermined Haitian agriculture and sovereignty, leaving the population extremely vulnerable.",
+  "currentCrisisSummary": "Haiti endures a catastrophic **collapse of governance and society**, driven by centuries of **foreign intervention**, **economic extraction**, and **elite impunity**. A near-total implosion of state functions allows armed gangs—funded by a **corrupt oligarchy** and empowered by the **'Core Group's'** political interference—to control vast areas, imposing extortion, mass violence, and displacement.\n\nAn internationally backed, Kenyan-led mission faces constraints and contested legitimacy. The crisis is rooted in **colonial expropriation**, **odious debt enforced by France**, repeated **US occupations**, and **neoliberal policies** that deliberately undermined Haitian sovereignty, leaving the population extremely vulnerable.",
   "colonialRoot": {
     "colonialPower": "France (1697-1804)",
     "legacy": "Haiti's fragility traces back to the international reaction to the **Haitian Revolution**. The world's first Black republic was isolated and pressured. In 1825 France imposed an **indemnity** ('compensation' for slaveholders). Financed by foreign loans, it drained resources and entrenched **dependency** — a key example of **post-colonial debt** perpetuating **extraction**."
   },
   "historicalContext": [
     {
-      "title": "Post-Colonial Debt and Extraction",
-      "description": "The 1825 **indemnity** established **external economic control**. Successive loans, **debt-servicing**, and trade pressures channelled wealth outwards, undermining resilience. Reinforced by **discriminatory trade policies** and financial relations favouring **foreign capital**."
+      "title": "The 'Core Group' and External Control",
+      "description": "Since the 2004 coup, Haitian sovereignty has been systematically violated by the **'Core Group'** (ambassadors from US, France, Canada, etc.). This unaccountable body acts as a *de facto* shadow government, **hand-picking illegitimate leaders** (like Ariel Henry post-2021) and **dictating political outcomes** to serve foreign interests, ensuring state failure."
     },
     {
-      "title": "Foreign Intervention and Occupation",
-      "description": "**Foreign interventions** repeatedly undermined sovereignty. The **US occupation** (1915-1934) centralised control and favoured **foreign interests**. Later **neoliberal** prescriptions (**tariff liberalisation** on US rice destroyed local farming, creating **food dependency**) weakened domestic agriculture, increasing reliance on imports and **external aid**. Actors also backed **coups**."
+      "title": "Oligarchic Control and Gang Warfare",
+      "description": "The state is captured by a small, entrenched **economic oligarchy** that controls key sectors (imports, ports, energy). These elites fund and arm **paramilitary gangs** as a tool of terror to protect their monopolies, suppress popular dissent, and maintain a system of **impunity**."
+    },
+    {
+      "title": "The UN Occupation (MINUSTAH) Legacy",
+      "description": "The 2004-2017 UN 'stabilisation' mission (MINUSTAH) is a source of deep trauma. Beyond introducing the **2010 cholera epidemic** that killed thousands, the mission is infamous for its own legacy of **systematic sexual exploitation and abuse** and its use of **brutal military force** in urban slums (e.g., Cité Soleil) to consolidate the post-coup government."
+    },
+    {
+      "title": "US Occupation and Neoliberal Undermining",
+      "description": "**Foreign interventions** repeatedly undermined sovereignty. The **US occupation** (1915-1934) centralised control and favoured **foreign interests**. Later **neoliberal** prescriptions (**tariff liberalisation** on US rice destroyed local farming, creating **food dependency**) weakened domestic agriculture, increasing reliance on imports and **external aid**."
     },
     {
       "title": "Cold War Dictatorship and US Patronage",
       "description": "For decades (1957-1986), Haiti suffered the brutal, **kleptocratic Duvalier dictatorship**. As an anti-communist regime near Cuba, it was supported by the US as a **Cold War client**. This **imperial patronage** enabled terror and looting, hollowing out institutions."
-    },
-    {
-      "title": "Public Health and Unresponsibility",
-      "description": "International presence inflicted harm: **UN peacekeepers** introduced **cholera** (2010), causing thousands of deaths. UN acknowledgement came late, deepening mistrust from poorly governed **external interventions**."
-    },
-    {
-      "title": "International Law and Accountability",
-      "description": "Multiple **accountability** threads: historical (1825 **indemnity**, **colonial expropriation**), transitional (Moïse assassination), current (gang abuses). Formal responses exist but remain insufficient for justice and **reparations**."
     }
   ],
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Over 5,600 killed (2024 alone) by gang violence fuelled by **elite impunity** and **state collapse**."
+      "description": "Over 5,600 killed (2024 alone) by gang violence fuelled by **oligarchic impunity** and **state collapse**."
     },
     {
       "title": "Affected Population",
@@ -92,15 +92,15 @@
     },
     {
       "year": "2004",
-      "event": "**Coup d'État**: Jean-Bertrand Aristide, the country's first democratically elected president, is ousted in a coup with the backing of the US, France, and Canada, leading to a UN occupation (MINUSTAH)."
+      "event": "**Coup d'État**: Jean-Bertrand Aristide, the country's first democratically elected president, is ousted in a coup with the backing of the US, France, and Canada, leading to a UN occupation (MINUSTAH). The **'Core Group'** is formed to manage the post-coup political order."
     },
     {
       "year": "2010",
-      "event": "**Earthquake & Cholera**: A catastrophic earthquake kills over 200,000 people. In the disaster's aftermath UN peacekeepers introduce cholera to Haiti, causing thousands of deaths and a prolonged public-health crisis for which the UN later accepted responsibility."
+      "event": "**Earthquake & Cholera**: A catastrophic earthquake kills over 200,000 people. In the disaster's aftermath UN peacekeepers (MINUSTAH) introduce **cholera** to Haiti, causing thousands of deaths. The mission is also documented for **systematic sexual abuse** and **violent repression**."
     },
     {
       "year": "2021",
-      "event": "**Assassination of President Moïse**: The killing of Jovenel Moïse deepens political instability and accelerates the collapse of security institutions, contributing to expanding gang control."
+      "event": "**Assassination of President Moïse**: The killing of Jovenel Moïse deepens political instability. The **'Core Group'** intervenes to install the unelected Ariel Henry as de facto ruler, accelerating the collapse of state legitimacy."
     },
     {
       "year": "2024-2025",
@@ -121,8 +121,8 @@
         "description": "Demand financial reparations and a serious, public accounting from France for the harms and long-term economic damage caused by the 1825 indemnity."
       },
       {
-        "title": "Oppose Foreign Military Intervention",
-        "description": "Oppose external military interventions that undermine Haitian sovereignty unless they are accountable, properly mandated and centred on civilian protection and Haitian consent."
+        "title": "Dismantle the 'Core Group'",
+        "description": "Oppose all external interventions that undermine Haitian sovereignty, starting with the demand to **dismantle the neo-colonial 'Core Group'** and respect the Haitian-led **Montana Accord**."
       },
       {
         "title": "Support Food Sovereignty",
@@ -130,11 +130,11 @@
       },
       {
         "title": "Demand UN Accountability",
-        "description": "Push for full accountability for the UN's role in the cholera epidemic and for reparative measures, while supporting locally led public-health rebuilding."
+        "description": "Push for full accountability and **reparations** for the UN's role in the **cholera epidemic** and the **sexual exploitation** committed by MINUSTAH peacekeepers."
       },
       {
-        "title": "Amplify Haitian Civil Society",
-        "description": "Amplify Haitian civil society voices and fund Haitian organisations directly to ensure aid reaches affected communities and strengthens local capacity."
+        "title": "Sanction the Oligarchy",
+        "description": "Demand targeted international sanctions on the Haitian **oligarchy** and politicians who **fund and arm gangs**."
       }
     ]
   },
