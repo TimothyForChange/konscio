@@ -4,7 +4,7 @@
   "emoji": "🇸🇩",
   "ariaLabel": "Sudanese flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "Sudan is engulfed in a brutal civil war between two **predatory military factions** (SAF & RSF), unleashing the world's largest **displacement crisis** and **mass famine**. The conflict has triggered widespread atrocities and renewed **ethnic cleansing in Darfur**, a region historically marginalised since the **colonial era**.\n\nThe warring elites compete for control of **economic spoils** (gold, land, **external patronage**), inflicting a catastrophic humanitarian collapse. Acute hunger affects millions, health systems collapse, and aid is deliberately obstructed. This war is actively sustained by **external actors** (like the UAE), transnational **arms flows**, and the failure of international systems to enforce **accountability**.",
+  "currentCrisisSummary": "Sudan is engulfed in a brutal civil war between two **predatory military factions** (SAF & RSF), unleashing the world's largest **displacement crisis** and **mass famine**. The conflict has triggered widespread atrocities and renewed **ethnic cleansing in Darfur** (primarily targeting **Masalit** and other non-Arab groups by the **RSF** and allied Arab militias), a region historically marginalised since the **colonial era**.\n\nThe warring elites compete for control of **economic spoils** (gold, land, **external patronage**), inflicting a catastrophic humanitarian collapse. Acute hunger affects millions, health systems collapse, and aid is deliberately obstructed. This war is actively sustained by **rival external actors** (esp. **Egypt backing SAF**, **UAE backing RSF**), transnational **arms flows**, and the failure of international systems to enforce **accountability**.",
   "colonialRoot": {
     "colonialPower": "Britain & Egypt (1899-1956)",
     "legacy": "**British colonial governance** used **divide-and-rule**, concentrating power in the north while **marginalising peripheries** like Darfur. This **structural inequality** institutionalised grievance and set groundwork for rebellions.\n\nPrivileging the centre created a centralised, **extractive state** whose control over resources became the prize of military competition post-independence."
@@ -15,12 +15,16 @@
       "description": "Omar al-Bashir's 30-year rule embraced a harsh **neoliberal economic model**. Under pressure from **US sanctions** and the **IMF**, his regime **privatised** assets, slashed subsidies, and encouraged '**land grabs**' by **foreign investors**. This policy of **austerity** and **resource extraction** enriched elites while impoverishing the population. The 2019 revolution was triggered by bread prices, a result of these **neoliberal policies**. The subsequent transitional government was pressured into '**shock therapy**', whose painful consequences contributed to the 2021 **military coup**."
     },
     {
-      "title": "Rival Military Economic Models",
-      "description": "The war is a breakdown of the **military elite order**. The **SAF** represents the old guard; the **RSF** is an informal **military-economic actor** (gold, illicit trade). Both compete over the **spoils of Sudan**. This reflects long patterns of **economic control**, **milia patronage**, and **resource extraction**, often involving **foreign capital** and **external actors**.\n\nThe 2021 **military coup** was a **counter-revolution** against dismantling the **military's economic empire**. The **RSF** is backed by states like the **UAE**, seeking influence and resources. Reports allege **external complicity** via arms supplies."
+      "title": "Rival Military Empires & External Patrons",
+      "description": "The war is a breakdown of the **military elite order**. The **SAF**, backed primarily by **Egypt**, represents the old guard; the **RSF**, backed primarily by the **UAE**, is an informal **military-economic actor** (gold, illicit trade). Both compete over the **spoils of Sudan**, using **external arms and funding** to fuel their war.\n\nThe 2021 **military coup** was a **counter-revolution** against dismantling the **military's economic empire**. The **Egypt-UAE proxy rivalry**, playing out through their respective clients (SAF/RSF), is central to the conflict's intractability."
+    },
+    {
+      "title": "Darfur: Genocide and Ethnic Cleansing",
+      "description": "The current war includes a renewed campaign of **ethnic cleansing in Darfur** by the **RSF** and allied Arab militias against non-Arab groups, particularly the **Masalit**. This echoes the **genocide** perpetrated by the Bashir regime (using the *Janjaweed*, precursors to the RSF) from 2003 onwards, rooted in the **colonial legacy** of marginalisation and state-sponsored racism."
     },
     {
       "title": "International Law and Accountability",
-      "description": "Multiple legal processes document **war crimes** and **crimes against humanity** by both **SAF** and **RSF**. UN panels, rights groups, and the **ICC** have recorded extensive violations, including **ethnic cleansing** in Darfur and **famine as a weapon of war**. Sudan alleges **external complicity**, particularly by the **UAE**, which has supported the **RSF** with **arms and funding**. Enforcing **accountability** is severely challenged by **obstructed access**, **external proxies**, and **great power politics** at the **UN Security Council**. The **selective application** of international law allows **external actors** to support warring factions with **impunity**. Dismantling **economic networks** enabling **conflict profiteering** remains central to achieving justice, but is hindered by the interests of powerful states and their corporations."
+      "description": "Multiple legal processes document **war crimes** and **crimes against humanity** by both **SAF** and **RSF**. UN panels, rights groups, and the **ICC** have recorded extensive violations, including **ethnic cleansing** in Darfur and **famine as a weapon of war**. Enforcing **accountability** is severely challenged by **obstructed access**, **external proxies** (UAE, Egypt), and **great power politics** at the **UN Security Council**. The **selective application** of international law allows **external actors** to support warring factions with **impunity**. Dismantling **economic networks** enabling **conflict profiteering** remains central to achieving justice."
     }
   ],
   "humanitarianImpact": [
@@ -38,7 +42,7 @@
     },
     {
       "title": "Displacement Catastrophe",
-      "description": "Over 12 million internally displaced (world's largest) by **SAF/RSF violence, including ethnic cleansing.**"
+      "description": "Over 12 million internally displaced (world's largest) by **SAF/RSF violence, including RSF-led ethnic cleansing** targeting **Masalit** and others in Darfur."
     },
     {
       "title": "Refugee Exodus",
@@ -47,18 +51,6 @@
     {
       "title": "Healthcare Collapse",
       "description": "Most health facilities non-functional due to **attacks, looting, and lack of supplies.**"
-    },
-    {
-      "title": "Lack of Water Access",
-      "description": "Millions lack safe water as **infrastructure is destroyed**, fuelling cholera."
-    },
-    {
-      "title": "Education Denied",
-      "description": "Up to 19 million children denied education as schools are **damaged or occupied.**"
-    },
-    {
-      "title": "Deepening Poverty",
-      "description": "Millions pushed into extreme poverty by the **war's destruction of livelihoods and infrastructure.**"
     }
   ],
   "timeline": [
@@ -76,7 +68,7 @@
     },
     {
       "year": "2003",
-      "event": "**Darfur Conflict / Genocide**: The Bashir government deploys *Janjaweed* militias in Darfur to crush rebellions; mass atrocities and ethnic cleansing follow. The RSF is a later institutional successor to these militias."
+      "event": "**Darfur Genocide Begins**: The Bashir government deploys *Janjaweed* militias (precursors to the RSF) in Darfur to crush rebellions; mass atrocities and ethnic cleansing against non-Arab groups follow."
     },
     {
       "year": "2019",
@@ -84,15 +76,15 @@
     },
     {
       "year": "2021",
-      "event": "**Military Coup**: Generals al-Burhan and Hemedti (RSF) remove the transitional civilian government to protect their economic and security interests."
+      "event": "**Military Coup**: Generals al-Burhan (SAF) and Hemedti (RSF) remove the transitional civilian government to protect their economic and security interests."
     },
     {
       "year": "2023",
-      "event": "**Civil War Breaks Out**: The SAF-RSF alliance fractures into full-blown war. Territorial control, air and drone bombardments, sieges and proxy warfare spread across Sudan."
+      "event": "**Civil War Breaks Out**: The SAF-RSF alliance fractures into full-blown war, fuelled by **rival external patrons (Egypt supporting SAF, UAE supporting RSF)**."
     },
     {
-      "year": "2024-2025",
-      "event": "**Sieges, Famine & Cruelty in Darfur**: El Fasher and Darfur camps face siege, repeated drone and artillery attacks, famine conditions, mass displacement and reported massacres in camps such as Zamzam and Abu Shouk."
+      "year": "2023-Present",
+      "event": "**Ethnic Cleansing & Famine**: The RSF and allied militias conduct renewed **ethnic cleansing campaigns against Masalit** and others in Darfur. Warring parties deliberately obstruct aid, inducing **mass famine conditions** across the country."
     }
   ],
   "takeAction": {
@@ -121,11 +113,11 @@
     "advocacy": [
       {
         "title": "Enforce Arms Embargoes & Sanction Enablers",
-        "description": "Press for an international arms embargo targeting both the SAF and RSF and for sanctions on external backers such as the UAE and others complicit in sustaining the war."
+        "description": "Press for an international arms embargo targeting both the SAF and RSF and for sanctions on external backers such as the **UAE**, **Egypt**, and others complicit in sustaining the war."
       },
       {
         "title": "Divest from the War Economy",
-        "description": "Demand divestment from companies linked to the Sudanese war economy, including gold trade, land deals and military supply chains."
+        "description": "Demand divestment from companies linked to the Sudanese war economy, including **gold trade**, land deals and military supply chains."
       },
       {
         "title": "Support International Justice (ICC)",
@@ -134,10 +126,6 @@
       {
         "title": "Demand Humanitarian Corridors & Ceasefire",
         "description": "Advocate for protected humanitarian corridors, ceasefires and politically negotiated transitions that place civilians' safety and governance reform at the centre."
-      },
-      {
-        "title": "Reinvest in Public Services",
-        "description": "Push for restoration and reinvestment in Sudan's public services, infrastructure and social safety nets in a post-conflict future."
       }
     ]
   },
