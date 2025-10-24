@@ -4,6 +4,7 @@ import '../styles/reset.css';
 import '../styles/global.css';
 import { sift } from 'radash';
 import Footer from '../components/layout/Footer.astro';
+import { SITE_URL } from '../constants/site';
 import countriesList from '../data/mapping/countries.ts';
 import missionData from '../data/mission/mission.json';
 import { validateMission } from '../validators/mission';
@@ -50,18 +51,18 @@ function trimDescription(desc: string, max = 160) {
 
 const rawDescription = description || defaultDescription;
 const pageDescription = trimDescription(rawDescription, 160);
-const pageCanonicalUrl = canonicalUrl || 'https://timothyforchange.co.za/';
-const pageImage = image || 'https://timothyforchange.co.za/protest.jpg';
+const pageCanonicalUrl = canonicalUrl || `${SITE_URL}/`;
+const pageImage = image || `${SITE_URL}/protest.jpg`;
 
 const baseLdObject = {
   '@context': 'https://schema.org',
   '@graph': [
     {
       '@type': 'Person',
-      '@id': 'https://timothyforchange.co.za/#person',
+      '@id': `${SITE_URL}/#person`,
       name: 'Timothy Brits',
       alternateName: 'Timothy',
-      url: 'https://timothyforchange.co.za',
+      url: SITE_URL,
       jobTitle: 'Analyst of Structural Violence',
       address: {
         '@type': 'PostalAddress',
@@ -77,32 +78,31 @@ const baseLdObject = {
     },
     {
       '@type': 'WebSite',
-      '@id': 'https://timothyforchange.co.za/#website',
-      url: 'https://timothyforchange.co.za',
+      '@id': `${SITE_URL}/#website`,
+      url: SITE_URL,
       name: 'Timothy for Change',
       description: `Timothy for Change - ${mission.mission}`,
       publisher: {
-        '@id': 'https://timothyforchange.co.za/#person',
+        '@id': `${SITE_URL}/#person`,
       },
       potentialAction: {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
-          urlTemplate:
-            'https://timothyforchange.co.za/?search={search_term_string}',
+          urlTemplate: `${SITE_URL}/?search={search_term_string}`,
         },
         'query-input': 'required name=search_term_string',
       },
     },
     {
       '@type': 'BreadcrumbList',
-      '@id': 'https://timothyforchange.co.za/#breadcrumb',
+      '@id': `${SITE_URL}/#breadcrumb`,
       itemListElement: [
         {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://timothyforchange.co.za',
+          item: SITE_URL,
         },
         ...(countrySlug
           ? [
@@ -113,7 +113,7 @@ const baseLdObject = {
                   ? countriesList.find((c) => c.slug === countrySlug)?.name ||
                     countrySlug
                   : countrySlug,
-                item: `https://timothyforchange.co.za/${countrySlug}`,
+                item: `${SITE_URL}/countries/${countrySlug}`,
               },
             ]
           : []),
@@ -127,7 +127,7 @@ const baseLdObject = {
       description: pageDescription,
       inLanguage: 'en-ZA',
       isPartOf: {
-        '@id': 'https://timothyforchange.co.za/#website',
+        '@id': `${SITE_URL}/#website`,
       },
       primaryImageOfPage: pageImage
         ? {
@@ -136,7 +136,7 @@ const baseLdObject = {
           }
         : undefined,
       breadcrumb: {
-        '@id': 'https://timothyforchange.co.za/#breadcrumb',
+        '@id': `${SITE_URL}/#breadcrumb`,
       },
     },
   ],

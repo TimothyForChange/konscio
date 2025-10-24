@@ -14,6 +14,7 @@ import HumanitarianImpact from '../components/country/HumanitarianImpact.astro';
 import LegacySection from '../components/country/LegacySection.astro';
 import TakeAction from '../components/country/TakeAction.astro';
 import Timeline from '../components/country/Timeline.astro';
+import { SITE_URL } from '../constants/site';
 import countriesList from '../data/mapping/countries.ts';
 import type { CountryData } from '../types/country';
 import Layout from './Layout.astro';
@@ -26,31 +27,31 @@ export interface Properties {
 
 const { countryData, countrySlug } = Astro.props as Properties;
 const passedTitle = (Astro.props as Properties).title;
-const image = `/countries/${countrySlug}.jpg`;
+const image = `${SITE_URL}/countries/${countrySlug}.jpg`;
 const countryMapping = Array.isArray(countriesList)
   ? countriesList.find((c) => c.slug === countrySlug)
   : undefined;
 const pageDescription = countryMapping?.seoDescription;
-const canonicalUrl = `https://timothyforchange.co.za/${encodeURIComponent(countrySlug)}`;
+const canonicalUrl = `${SITE_URL}/countries/${encodeURIComponent(countrySlug)}`;
 
 const articleSchema = {
   '@type': 'Article',
-  '@id': `https://timothyforchange.co.za/${countrySlug}/#article`,
+  '@id': `${SITE_URL}/countries/${countrySlug}/#article`,
   headline:
     passedTitle && radashIsString(passedTitle)
       ? passedTitle
       : `${countryData?.name} Crisis - Timothy for Change`,
   description: pageDescription,
-  image: image ? `https://timothyforchange.co.za${image}` : undefined,
+  image: image ? image : undefined,
   mainEntityOfPage: {
     '@type': 'WebPage',
     '@id': canonicalUrl,
   },
   author: {
-    '@id': 'https://timothyforchange.co.za/#person',
+    '@id': `${SITE_URL}/#person`,
   },
   publisher: {
-    '@id': 'https://timothyforchange.co.za/#person',
+    '@id': `${SITE_URL}/#person`,
   },
   datePublished:
     countryData?.lastUpdated || new Date().toISOString().split('T')[0],
