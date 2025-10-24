@@ -6,7 +6,7 @@
   "lastUpdated": "2025-10-23",
   "currentCrisisSummary": "Ethiopia faces multiple humanitarian catastrophes stemming from the **violent breakdown** of its **ethnic federalist political system** and the unresolved legacies of its **internal imperial formation**. The country reels from the devastating 2020-2022 Tigray war while confronting large-scale armed conflicts between the federal government and regional forces in Amhara and Oromia.\n\nThese conflicts represent a catastrophic failure to resolve political questions rooted in historical grievances. Instead, **brutal military force** has resulted in mass displacement, atrocities, service collapse, and acute food insecurity. This is not merely ethnic strife but a **deep structural crisis of the Ethiopian state**, exacerbated by **external geopolitical interests** vying for influence.",
   "imperialRoot": {
-    "imperialPower": "Ethiopian Empire (late 19th c. - 1974), Italy (1936–1941), US & USSR (Cold War)",
+    "imperialPower": "Ethiopian Empire (late 19th c. - 1974), Italy (1936-1941), US & USSR (Cold War)",
     "legacy": "The modern Ethiopian state formed through **internal imperial expansion**. The Amhara-dominated centre conquered southern peoples, creating a multi-ethnic *prison of nations*. Grievances from this **violent state formation** (land, language, subjugation) are the root of today's conflicts.\n\nThis was layered with external pressures: Italian **colonial occupation** and **Cold War patronage**. The US-backed monarchy and Soviet-backed Derg regime used **foreign military aid** to suppress dissent, militarising the state."
   },
   "historicalContext": [
@@ -15,12 +15,12 @@
       "description": "The 1995 constitution established **ethnic federalism** to resolve the 'national question'. In practice, this system was captured by the **Tigray People's Liberation Front (TPLF)**, which (from 1991-2018) established an **authoritarian hegemony**, with a **minority ethnic elite** dominating the state's entire political, security, and economic apparatus. Abiy Ahmed's 2018 rise was a direct result of mass (Amhara/Oromo) protests against this system. His subsequent **centralising reforms** violently shattered this entrenched order, leading to the 2020 Tigray War."
     },
     {
-      "title": "The Post-Tigray Betrayal: Amhara & Oromia Conflicts",
-      "description": "The current wars stem from the fallout of the Tigray conflict. The federal government's 2023 decision to **forcibly dismantle regional special forces** was seen as a profound **betrayal** by the Amhara Fano militia, who had been federal allies. This, combined with the perception that the Pretoria peace deal ignored their land claims (Welkait), triggered a new, large-scale war. This conflict runs in parallel to the long-running insurgency in Oromia."
-    },
-    {
       "title": "From Developmental State to Neoliberal Shock Therapy",
       "description": "Long a *developmental state* reliant on **foreign aid**, Ethiopia since 2018 underwent a rapid **neoliberal transition** (**privatisation**, **deregulation**, attracting **foreign capital**). This **economic 'shock therapy'** is also a political project. The resulting struggle over economic resources drives the current civil wars."
+    },
+    {
+      "title": "The Post-Tigray Betrayal: Amhara & Oromia Conflicts",
+      "description": "The current wars stem from the fallout of the Tigray conflict. The federal government's 2023 decision to **forcibly dismantle regional special forces** was seen as a profound **betrayal** by the Amhara Fano militia, who had been federal allies. This, combined with the perception that the Pretoria peace deal ignored their land claims (Welkait), triggered a new, large-scale war. This conflict runs in parallel to the long-running insurgency in Oromia."
     },
     {
       "title": "Land Grabs and Rural Dispossession",
