@@ -1,33 +1,20 @@
 import { SITE_URL } from '../constants/site';
 import countriesList from '../data/mapping/countries';
 import missionData from '../data/mission/mission.json';
-import type { CountryData } from '../types/country';
+import type {
+  ArticleSchema,
+  ArticleSchemaOptions,
+  BaseStructuredData,
+  StructuredData,
+  StructuredDataOptions,
+} from '../types/structured-data';
 import { validateMission } from '../validators/mission';
+import {
+  validateArticleSchema,
+  validateBaseStructuredData,
+  validateStructuredData,
+} from '../validators/structured-data';
 import { getCountryCode } from './country';
-
-/**
- * Options for building structured data.
- */
-export interface StructuredDataOptions {
-  title: string;
-  pageDescription: string;
-  pageCanonicalUrl: string;
-  pageImage?: string;
-  countrySlug?: string;
-  articleSchema?: Record<string, unknown>;
-}
-
-/**
- * Options for building an article schema.
- */
-export interface ArticleSchemaOptions {
-  countryData?: CountryData;
-  passedTitle?: string;
-  countrySlug: string;
-  pageDescription: string;
-  canonicalUrl: string;
-  image: string;
-}
 
 /**
  * Builds an Article schema for country pages.
@@ -35,7 +22,9 @@ export interface ArticleSchemaOptions {
  * @param options - The options for building the article schema
  * @returns The Article schema object
  */
-export function buildArticleSchema(options: ArticleSchemaOptions) {
+export function buildArticleSchema(
+  options: ArticleSchemaOptions
+): ArticleSchema {
   const {
     countryData,
     passedTitle,
@@ -49,7 +38,7 @@ export function buildArticleSchema(options: ArticleSchemaOptions) {
     ? countriesList.find((c) => c.slug === countrySlug)
     : undefined;
 
-  return {
+  return validateArticleSchema({
     '@type': 'Article',
     '@id': `${SITE_URL}/countries/${countrySlug}/#article`,
     headline:
@@ -88,8 +77,8 @@ export function buildArticleSchema(options: ArticleSchemaOptions) {
       'structural violence',
       'human rights',
       countryMapping?.category?.toLowerCase(),
-    ].filter(Boolean),
-  };
+    ].filter(Boolean) as string[],
+  });
 }
 
 /**
@@ -98,13 +87,15 @@ export function buildArticleSchema(options: ArticleSchemaOptions) {
  * @param options - The options for building the base structured data
  * @returns The base structured data object with Person, WebSite, BreadcrumbList, and WebPage schemas
  */
-export function buildBaseStructuredData(options: StructuredDataOptions) {
+export function buildBaseStructuredData(
+  options: StructuredDataOptions
+): BaseStructuredData {
   const { title, pageDescription, pageCanonicalUrl, pageImage, countrySlug } =
     options;
 
   const mission = validateMission(missionData);
 
-  return {
+  return validateBaseStructuredData({
     '@context': 'https://schema.org',
     '@graph': [
       {
@@ -190,7 +181,7 @@ export function buildBaseStructuredData(options: StructuredDataOptions) {
         },
       },
     ],
-  };
+  });
 }
 
 /**
@@ -199,14 +190,16 @@ export function buildBaseStructuredData(options: StructuredDataOptions) {
  * @param options - The options for building the structured data
  * @returns The complete structured data object
  */
-export function buildStructuredData(options: StructuredDataOptions) {
+export function buildStructuredData(
+  options: StructuredDataOptions
+): StructuredData {
   const baseLdObject = buildBaseStructuredData(options);
 
-  return {
+  return validateStructuredData({
     '@context': 'https://schema.org',
     '@graph': [
       ...baseLdObject['@graph'],
       ...(options.articleSchema ? [options.articleSchema] : []),
     ],
-  };
+  });
 }
