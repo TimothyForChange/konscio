@@ -7,20 +7,24 @@
   "currentCrisisSummary": "Ethiopia faces multiple humanitarian catastrophes stemming from the **violent breakdown** of its **ethnic federalist political system** and the unresolved legacies of its **internal imperial formation**. The country reels from the devastating 2020-2022 Tigray war while confronting large-scale armed conflicts between the federal government and regional forces in Amhara and Oromia.\n\nThese conflicts represent a catastrophic failure to resolve political questions rooted in historical grievances. Instead, **brutal military force** has resulted in mass displacement, atrocities, service collapse, and acute food insecurity. This is not merely ethnic strife but a **deep structural crisis of the Ethiopian state**, exacerbated by **external geopolitical interests** vying for influence.",
   "imperialRoot": {
     "imperialPower": "Ethiopian Empire (late 19th c. - 1974), Italy (1936–1941), US & USSR (Cold War)",
-    "legacy": "The modern Ethiopian state formed through **internal imperial expansion**. The Amhara-dominated centre conquered southern peoples, creating a multi-ethnic '**prison of nations**'. Grievances from this **violent state formation** (land, language, subjugation) are the root of today's conflicts.\n\nThis was layered with external pressures: Italian **colonial occupation** and **Cold War patronage**. The US-backed monarchy and Soviet-backed Derg regime used **foreign military aid** to suppress dissent, militarising the state."
+    "legacy": "The modern Ethiopian state formed through **internal imperial expansion**. The Amhara-dominated centre conquered southern peoples, creating a multi-ethnic *prison of nations*. Grievances from this **violent state formation** (land, language, subjugation) are the root of today's conflicts.\n\nThis was layered with external pressures: Italian **colonial occupation** and **Cold War patronage**. The US-backed monarchy and Soviet-backed Derg regime used **foreign military aid** to suppress dissent, militarising the state."
   },
   "historicalContext": [
     {
-      "title": "The Failure of Ethnic Federalism",
-      "description": "The 1995 constitution established **ethnic federalism** to resolve the 'national question'. Managed for decades through **authoritarian dominance** (TPLF-led), the current PM's **centralising reforms** shattered this balance, leading to clashes over autonomy. The wars are a direct result of this model's **violent collapse**."
+      "title": "Ethnic Federalism and TPLF Hegemony",
+      "description": "The 1995 constitution established **ethnic federalism** to resolve the 'national question'. In practice, this system was captured by the **Tigray People's Liberation Front (TPLF)**, which (from 1991-2018) established an **authoritarian hegemony**, with a **minority ethnic elite** dominating the state's entire political, security, and economic apparatus. Abiy Ahmed's 2018 rise was a direct result of mass (Amhara/Oromo) protests against this system. His subsequent **centralising reforms** violently shattered this entrenched order, leading to the 2020 Tigray War."
+    },
+    {
+      "title": "The Post-Tigray Betrayal: Amhara & Oromia Conflicts",
+      "description": "The current wars stem from the fallout of the Tigray conflict. The federal government's 2023 decision to **forcibly dismantle regional special forces** was seen as a profound **betrayal** by the Amhara Fano militia, who had been federal allies. This, combined with the perception that the Pretoria peace deal ignored their land claims (Welkait), triggered a new, large-scale war. This conflict runs in parallel to the long-running insurgency in Oromia."
     },
     {
       "title": "From Developmental State to Neoliberal Shock Therapy",
-      "description": "Long a '**developmental state**' reliant on **foreign aid**, Ethiopia since 2018 underwent a rapid **neoliberal transition** (**privatisation**, **deregulation**, attracting **foreign capital**). This **economic 'shock therapy'** is also a political project. The resulting struggle over economic resources drives the current civil wars."
+      "description": "Long a *developmental state* reliant on **foreign aid**, Ethiopia since 2018 underwent a rapid **neoliberal transition** (**privatisation**, **deregulation**, attracting **foreign capital**). This **economic 'shock therapy'** is also a political project. The resulting struggle over economic resources drives the current civil wars."
     },
     {
       "title": "Land Grabs and Rural Dispossession",
-      "description": "Ethiopia experiences widespread '**land grabs**'. Under both state models, fertile land has been leased to **foreign corporations** for agribusiness, often involving **violent dispossession** of local communities. This modern **resource extraction** fuels resentment against the central state."
+      "description": "Ethiopia experiences widespread **land grabs**. Under both state models, fertile land has been leased to **foreign corporations** for agribusiness, often involving **violent dispossession** of local communities. This modern **resource extraction** fuels resentment against the central state."
     },
     {
       "title": "Geopolitics of the Horn and Proxy Interests",
@@ -60,7 +64,7 @@
   "timeline": [
     {
       "year": "c. 1880-1900",
-      "event": "**Imperial Expansion**: Emperor Menelik II doubles the size of the Ethiopian empire, conquering and incorporating diverse peoples in the south. This violent process of internal colonisation creates the 'prison of nations' and the historical grievances over land and autonomy that define modern Ethiopian politics."
+      "event": "**Imperial Expansion**: Emperor Menelik II doubles the size of the Ethiopian empire, conquering and incorporating diverse peoples in the south. This violent process of internal colonisation creates the *prison of nations* and the historical grievances over land and autonomy that define modern Ethiopian politics."
     },
     {
       "year": "1974",
@@ -72,11 +76,11 @@
     },
     {
       "year": "1991",
-      "event": "**Fall of the Derg**: A coalition of ethno-nationalist rebel groups, led by the TPLF, overthrows the Derg regime."
+      "event": "**Fall of the Derg**: A coalition of rebel groups, the EPRDF, overthrows the Derg regime. The coalition is immediately dominated by its architects, the **TPLF**, who establish a 27-year political and economic hegemony."
     },
     {
       "year": "1995",
-      "event": "**Ethnic Federalism Established**: A new constitution is adopted, restructuring Ethiopia as a federation of ethnic-based regions."
+      "event": "**Ethnic Federalism Established**: A new constitution is adopted, restructuring Ethiopia as a federation of ethnic-based regions, in practice dominated by the TPLF."
     },
     {
       "year": "1998-2000",
@@ -84,7 +88,7 @@
     },
     {
       "year": "2018",
-      "event": "**New Leadership**: Following years of protests, Abiy Ahmed becomes Prime Minister, initially promising democratic reforms but soon pursuing a centralising agenda."
+      "event": "**New Leadership**: Following years of protests, Abiy Ahmed becomes Prime Minister, initially promising democratic reforms but soon pursuing a centralising agenda that dismantles the TPLF-led order."
     },
     {
       "year": "2020-2022",
@@ -96,7 +100,7 @@
     },
     {
       "year": "2023-Present",
-      "event": "**New Fronts Open**: Large-scale armed conflict erupts between federal forces and the Fano militia in Amhara and intensifies against the Oromo Liberation Army (OLA) in Oromia."
+      "event": "**New Wars Erupt**: The federal government's decision to **dismantle regional special forces** is seen as a betrayal by their former allies, the Amhara Fano. A new, large-scale war erupts in Amhara, running parallel to the intensifying conflict against the OLA in Oromia."
     }
   ],
   "takeAction": {

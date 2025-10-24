@@ -4,19 +4,23 @@
   "emoji": "🇦🇫",
   "ariaLabel": "Afghanistan flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "Since the US withdrawal and Taliban takeover in August 2021, Afghanistan endures widespread suffering driven by **economic collapse** and the dismantling of public services. This deep humanitarian emergency results directly from the freezing of central bank assets and broad **financial restrictions** imposed by Western powers, isolating the country and crippling its ability to function. Millions face acute food insecurity and malnutrition.\n\nThese **external economic pressures** — including the freezing of $7 billion in sovereign reserves — function as a form of **collective punishment**, drastically reducing state capacity and access to imports, with devastating consequences. The situation reverses fragile, **aid-dependent** development gains and fuels mass displacement and poverty.\n\nThe suffering is not merely an outcome of internal politics but is actively sustained by **international economic warfare**: **asset freezes**, **sanctions**, and financial exclusion have direct, measurable impacts. Addressing the crisis requires challenging these external **coercive measures**.",
+  "currentCrisisSummary": "Since the Taliban takeover in August 2021, Afghanistan endures widespread suffering driven by **economic collapse** and the **systematic dismantling of civil society**. This crisis is co-driven by two primary factors:\n\n1.  **External economic warfare**: The freezing of $7 billion in central bank assets and broad **financial restrictions** imposed by Western powers, which function as **collective punishment** and cripple the state.\n\n2.  **Internal Taliban repression**: The regime's implementation of **gender apartheid**, including the **systematic exclusion of women** from education and employment, which has shattered 50% of the workforce, collapsed household incomes, and fatally crippled humanitarian aid delivery.\n\nThese dynamics, layered upon the legacy of a 20-year, **aid-dependent rentier state**, have produced one of the world's worst humanitarian emergencies.",
   "imperialRoot": {
-    "imperialPower": "Britain & Russian Empire (19th c. - 1919), USSR (1979-1989), US (2001-2021)",
-    "legacy": "Afghanistan's fragility is embedded in a long history of **foreign intervention**. The 19th century '**Great Game**' between empires reshaped politics. **Soviet intervention** (1979-1989) and **Cold War proxy struggles** precipitated conflict and **state collapse**. The **US intervention** after 2001 created a hollow, **aid-dependent rentier state**. This project was fundamentally **neoliberal**, prioritising **privatisation**, outsourcing to **foreign contractors**, and imposing a market model fuelling corruption.\n\nEach intervention reshaped institutions, entrenching **dependency** and fragmenting governance. Repeated external remaking has been a **structural driver** of instability."
+    "imperialPower": "Britain & Russian Empire (19th c. - 1919), USSR (1979-1989), Pakistan (1980s-present), US (2001-2021)",
+    "legacy": "Afghanistan's fragility is embedded in a long history of **foreign intervention**. The 19th century **'Great Game'** reshaped politics. **Soviet intervention** (1979-1989) precipitated conflict. Simultaneously, **Pakistan's 'strategic depth' doctrine** fuelled the conflict, with its **intelligence services (ISI)** cultivating, funding, and providing sanctuary to the Taliban to serve its own regional interests.\n\nThe **US intervention** after 2001 created a hollow, **aid-dependent rentier state**. This project was fundamentally **neoliberal** and corrupt, prioritising **privatisation**, outsourcing to **foreign contractors**, and empowering a network of **warlords**, hollowing out the state from its inception."
   },
   "historicalContext": [
     {
-      "title": "The \"Graveyard of Empires\" Myth",
-      "description": "This trope obscures sustained **foreign interference**. Successive **imperial** campaigns sought to reorder Afghan society for external aims, undermining local autonomy. Instability often results from repeated **external interventions** and extractive **geopolitical competition**."
+      "title": "Pakistan and 'Strategic Depth'",
+      "description": "Afghanistan's instability is inseparable from **Pakistan's regional ambitions**. Seeking 'strategic depth' against India, Pakistan's **Inter-Services Intelligence (ISI)** has for decades pursued a policy of interference, most decisively through the creation, funding, sanctuary, and military support for the **Taliban insurgency**. This **state-sponsorship** was the primary enabler of the Taliban's 2021 victory."
     },
     {
-      "title": "The Opium Economy and the War on Drugs",
-      "description": "The 20-year international presence coexisted with a massive **opium economy**. Western-led '**war on drugs**' strategies failed, criminalising poor farmers, enriching corrupt elites, and destabilising rural society by ignoring root causes."
+      "title": "The Warlord-Contractor State (2001-2021)",
+      "description": "The 20-year **US-led occupation** was not a 'failed' state-building project but a *successful* one that built the intended state: a hollow shell. Power was **devolved to allied warlords** who were empowered with impunity. This created a **corrupt elite** loyal to **foreign contracts** and **aid flows**, not the population. The **Afghan National Army** was a paper tiger, dissolving in 2021 because it was built on this foundation of **systemic corruption**."
+    },
+    {
+      "title": "Taliban Governance and Gender Apartheid",
+      "description": "The post-2021 crisis is also **internally driven**. The Taliban's implementation of a rigid, misogynistic ideology amounts to **gender apartheid**. The **banning of women from education and employment** (including for NGOs) has not only erased human rights but has **functionally collapsed the economy** and severely hampered the delivery of humanitarian aid, exacerbating the suffering caused by external sanctions."
     },
     {
       "title": "Economic Pressure and Sanctions",
@@ -34,11 +38,11 @@
     },
     {
       "title": "Affected Population",
-      "description": "Over 23.7 million people require aid due to compounded effects of war, **sanctions**, and **state collapse**."
+      "description": "Over 23.7 million people require aid due to compounded effects of war, **sanctions**, **internal misrule**, and **state collapse**."
     },
     {
       "title": "Food Insecurity",
-      "description": "Around 15.8 million face crisis-level food insecurity from **economic strangulation**, **aid dependency**, and **climate shocks**."
+      "description": "Around 15.8 million face crisis-level food insecurity from **economic strangulation**, **aid dependency**, **climate shocks**, and **internal policy failures**."
     },
     {
       "title": "Displacement",
@@ -46,29 +50,21 @@
     },
     {
       "title": "Refugees",
-      "description": "Over 8.2 million Afghans forced into refugee situations by instability generated by **external interference**."
+      "description": "Over 8.2 million Afghans forced into refugee situations by instability generated by **external interference** and **internal repression**."
     },
     {
       "title": "Healthcare Collapse",
-      "description": "Health facilities non-functional due to funding cuts linked to **international financial restrictions** and the legacy of an **aid-dependent system**."
+      "description": "Health facilities non-functional due to funding cuts linked to **international financial restrictions** and the **Taliban's ban on female aid workers**, which has crippled service delivery."
     },
     {
       "title": "Deepening Poverty",
-      "description": "Extreme poverty surged post-2021 due to **sanctions** and the implosion of the **foreign-funded economy**."
+      "description": "Extreme poverty surged post-2021 due to **sanctions**, the implosion of the **foreign-funded economy**, and the **Taliban's exclusion of women** from the workforce."
     }
   ],
   "timeline": [
     {
       "year": "1839-1919",
       "event": "**The Great Game**: A century of imperial rivalry between the British and Russian empires reshapes Afghan frontiers and politics, with three Anglo-Afghan wars and repeated interventions that undermine indigenous political autonomy."
-    },
-    {
-      "year": "1919-1978",
-      "event": "**Independence, Modernisation and Interference**: Afghanistan achieves formal independence in 1919 but experiences recurring foreign influence and internal contestation as attempts to centralise and modernise are mediated by regional and imperial pressures."
-    },
-    {
-      "year": "1978",
-      "event": "**The Saur Revolution**: A coup brings the PDPA to power; radical social reforms and violent repression provoke widespread unrest."
     },
     {
       "year": "1979-1989",
@@ -79,24 +75,28 @@
       "event": "**US Covert Support for Mujahideen**: The CIA's Operation Cyclone funds and arms insurgent groups resisting Soviet forces; this proxy warfare has long-term consequences for militancy and state collapse."
     },
     {
+      "year": "1980s-Present",
+      "event": "**Pakistan's 'Strategic Depth' Policy**: Pakistan's **ISI (intelligence service)** begins to cultivate, train, and fund Afghan militant groups, including the precursors to the Taliban, to secure its regional interests against India and establish a compliant government in Kabul."
+    },
+    {
       "year": "1996",
       "event": "**Taliban First Rule**: The Taliban seize Kabul after civil war and impose a repressive regime that severely curtails rights, especially for women and girls."
     },
     {
       "year": "2001",
-      "event": "**US Invasion & Occupation**: Following 9/11 the US and coalition forces overthrow the Taliban and initiate a two-decade intervention that channels vast resources into security, contracting and technocratic projects that deepen dependence on foreign aid and military spending."
+      "event": "**US Invasion & Occupation**: Following 9/11 the US and coalition forces overthrow the Taliban and initiate a two-decade intervention, empowering corrupt **warlords** and building a hollow **rentier state** wholly dependent on foreign aid."
     },
     {
       "year": "2021",
-      "event": "**US Withdrawal & Taliban Return**: The chaotic US withdrawal in August 2021 precipitates the rapid collapse of the internationally backed government and the return of the Taliban to national power."
+      "event": "**US Withdrawal & Taliban Return**: The chaotic US withdrawal in August 2021 precipitates the rapid collapse of the corrupt, US-backed government and the return of the **Pakistani-backed Taliban** to national power."
     },
     {
       "year": "2021-Present",
-      "event": "**Economic Warfare & Humanitarian Catastrophe**: International asset freezes and sanctions function as economic warfare, triggering state collapse and causing a deepening humanitarian catastrophe affecting tens of millions."
+      "event": "**Taliban Repression & Economic Warfare**: The Taliban imposes **gender apartheid**, banning women from education and work. Simultaneously, international **asset freezes** and **sanctions** function as economic warfare, triggering state collapse and a deepening humanitarian catastrophe."
     },
     {
       "year": "2025",
-      "event": "**August 31 Earthquake**: A major 6.0 magnitude earthquake strikes eastern Afghanistan, killing over 2,200 people. The humanitarian response is severely hampered by the pre-existing collapse of the health system and logistical paralysis caused by international sanctions and aid cuts."
+      "event": "**August 31 Earthquake**: A major 6.0 magnitude earthquake strikes eastern Afghanistan, killing over 2,200 people. The humanitarian response is severely hampered by the pre-existing collapse of the health system and logistical paralysis caused by international sanctions and the **Taliban's ban on female aid workers**."
     }
   ],
   "takeAction": {

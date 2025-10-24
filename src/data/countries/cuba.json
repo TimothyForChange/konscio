@@ -4,10 +4,10 @@
   "emoji": "🇨🇺",
   "ariaLabel": "Cuban flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "Cuba faces a severe and protracted economic crisis, primarily driven by the six-decade-long **unilateral economic blockade** imposed by the United States. This regime of **sanctions** constitutes the longest act of **economic warfare** in modern history, deliberately strangling the island's economy.\n\nThe **blockade** restricts trade, finance, and imports (food, medicine, fuel). This **external coercion** causes chronic shortages, cripples public services, and fuels emigration. While internal challenges exist, they are inseparable from constraints imposed by the US embargo, which functions as **collective punishment** designed to force political change.",
+  "currentCrisisSummary": "Cuba faces a severe and protracted crisis, driven by two co-equal factors: the six-decade-long **unilateral US economic blockade** and **catastrophic internal state mismanagement**.\n\nThe **blockade** is an act of **economic warfare** that deliberately strangles the island's economy, restricting food, medicine, and finance. This **external coercion** is compounded by a **one-party authoritarian state** whose own **disastrous 2021 monetary reform (*Tarea Ordenamiento*)** triggered **hyperinflation** and destroyed savings. This dual crisis of **external pressure** and **internal failure** fuels chronic shortages, state collapse, and mass emigration.",
   "imperialRoot": {
-    "imperialPower": "Spain (1492-1898), US (1898-present)",
-    "legacy": "Cuba's history is marked by **colonial** and **imperial domination**. **Spanish rule** established a **plantation economy** (slavery, **resource extraction**). After Cuba's independence struggle, the **US intervened** (1898), transforming the island into a **neo-colony**.\n\nThe **Platt Amendment** (1901) enshrined the US right to intervene, and **US corporations** dominated the economy (sugar). This created a **dependent**, unequal society governed by **US-backed dictators** (Batista). The 1959 revolution rejected **US domination**, leading immediately to hostile US efforts and the **economic blockade**."
+    "imperialPower": "Spain (1492-1898), US (1898-present), USSR (1961-1991)",
+    "legacy": "Cuba's history is defined by **imperial dependency**. **Spanish rule** established a **plantation economy**. The **US intervened** in 1898, transforming the island into a **neo-colony** governed by **US-backed dictators** (Batista).\n\nThe 1959 revolution rejected **US domination** but, to survive the subsequent **US blockade**, established a new dependency as a **client state of the Soviet Union**. The **Special Period** (1991) was the result of this **Soviet imperial patronage** collapsing. Cuba's modern crisis is defined by the legacy of these successive dependencies."
   },
   "historicalContext": [
     {
@@ -15,12 +15,16 @@
       "description": "Implemented in 1962, the **US blockade** is a web of restrictions suffocating the economy. It prohibits transactions, penalises third-country companies (**extraterritoriality**), blocks access to finance, and impedes imports. Intensified by laws like **Helms-Burton** (1996), the **blockade** explicitly aims to cause suffering to compel regime change, violating Cuban sovereignty and **international law**."
     },
     {
-      "title": "Impact on Health and Food Security",
-      "description": "The **blockade** has devastating consequences. Restrictions prevent Cuba acquiring life-saving medicines and equipment, leading to preventable suffering. Limitations on food imports impact availability and affordability, violating **human rights**."
+      "title": "Internal Mismanagement: The *Tarea Ordenamiento*",
+      "description": "The 2021 ***Tarea Ordenamiento*** (monetary reform) was a **catastrophic internal shock** separate from the blockade. The state's ill-conceived unification of its dual-currency system **triggered runaway hyperinflation**, instantly vaporised the value of salaries and savings, and decimated production. This **state-engineered economic collapse** is a primary driver of the current humanitarian crisis."
     },
     {
-      "title": "Post-Soviet 'Special Period' and Neoliberal Pressure",
-      "description": "The collapse of the Soviet Union (1991) caused a crisis ('**Special Period**'). The US intensified the **blockade** (**Helms-Burton Act**), aiming for collapse. This highlighted Cuba's vulnerability from Soviet reliance and ongoing **US economic warfare**."
+      "title": "Authoritarianism and the 11J Protests",
+      "description": "The crisis is also political. The state is a **one-party authoritarian system** that represses all dissent. The historic **July 11, 2021 (11J) protests**—the largest anti-government demonstrations since 1959—were a popular uprising against shortages and dictatorship. They were met with a **brutal state crackdown**, mass arrests, show trials, and long prison sentences, cementing **political repression** as a co-equal driver of mass emigration."
+    },
+    {
+      "title": "Collapse of Soviet Dependency (**Special Period**)",
+      "description": "The collapse of the **Soviet Union** (1991)—Cuba's **imperial patron**—caused a devastating crisis (**Special Period**). This revealed the economy's deep **structural dependency** on Soviet subsidies (sugar-for-oil). The US exploited this vulnerability by intensifying the **blockade** (**Helms-Burton Act**), aiming for total collapse."
     },
     {
       "title": "International Law and Accountability",
@@ -30,33 +34,29 @@
   "humanitarianImpact": [
     {
       "title": "Access to Medicine",
-      "description": "Chronic shortages caused by **blockade restrictions**, increasing suffering and mortality."
+      "description": "Chronic shortages caused by **blockade restrictions** and a **state-led production collapse**."
     },
     {
       "title": "Food Insecurity",
-      "description": "Challenges accessing affordable food due to **blockade-imposed limits** on imports and finance."
+      "description": "Challenges accessing affordable food due to **blockade-imposed limits** and **domestic hyperinflation**."
     },
     {
       "title": "Economic Hardship",
-      "description": "Widespread poverty resulting from the **blockade strangling economic development.**"
+      "description": "Widespread poverty resulting from the **blockade** *and* **internal hyperinflation** caused by failed state reforms."
     },
     {
       "title": "Migration Crisis",
-      "description": "Large-scale emigration driven by **economic desperation created by the US blockade.**"
+      "description": "Large-scale emigration driven by **economic desperation** (from the blockade *and* internal mismanagement) *and* **political repression**."
     },
     {
       "title": "Infrastructure Decay",
-      "description": "Difficulties maintaining infrastructure due to **blockade preventing access** to parts and finance."
+      "description": "Difficulties maintaining infrastructure due to **blockade preventing access** to parts and **state insolvency**."
     }
   ],
   "timeline": [
     {
       "year": "1492-1898",
       "event": "**Spanish Colonial Rule**: Following Columbus's arrival, Spain colonises Cuba, establishing a brutal plantation economy based on Indigenous genocide, imported African slave labour, and the extraction of sugar and tobacco wealth for the Spanish Crown."
-    },
-    {
-      "year": "1895-1898",
-      "event": "**Cuban War of Independence**: Cuban revolutionaries wage a final, brutal war against Spanish colonial rule, seeking full independence before US intervention alters the conflict's outcome."
     },
     {
       "year": "1898",
@@ -80,11 +80,11 @@
     },
     {
       "year": "1991-c.2000",
-      "event": "**Special Period**: The collapse of the Soviet Union triggers a severe economic crisis in Cuba, exacerbated by the US tightening the blockade (Helms-Burton Act, 1996)."
+      "event": "**Special Period**: The collapse of the Soviet Union—Cuba's primary economic and military patron—triggers a severe economic crisis, exacerbated by the US tightening the blockade (Helms-Burton Act, 1996)."
     },
     {
-      "year": "2017-Present",
-      "event": "**Blockade Intensification**: The Trump administration designates Cuba a 'State Sponsor of Terrorism' and imposes hundreds of new sanctions, measures largely maintained by the Biden administration, severely worsening the economic crisis."
+      "year": "2021",
+      "event": "**Internal Collapse & 11J Protests**: The state implements a disastrous monetary reform (***Tarea Ordenamiento***), triggering hyperinflation. In response to this and decades of repression, the largest popular protests since 1959 (11J) erupt and are met with a violent state crackdown and mass arrests."
     }
   ],
   "takeAction": {
@@ -111,16 +111,16 @@
         "description": "Call for Cuba's removal from the US list of 'State Sponsors of Terrorism,' a politically motivated designation used to justify sanctions."
       },
       {
+        "title": "Demand Political Freedom",
+        "description": "Support the right of the Cuban people to peaceful protest and demand the release of all political prisoners, including those detained during the **11J protests**."
+      },
+      {
         "title": "Respect Sovereignty",
         "description": "Oppose all forms of US interference in Cuba's internal affairs and support Cuban sovereignty."
       },
       {
         "title": "Support Free Travel & Exchange",
         "description": "Support campaigns for unrestricted travel and cultural exchange between the US and Cuba."
-      },
-      {
-        "title": "Amplify Global Condemnation",
-        "description": "Amplify the near-unanimous global condemnation of the blockade at the UN General Assembly."
       }
     ]
   },

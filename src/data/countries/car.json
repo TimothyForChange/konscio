@@ -4,7 +4,7 @@
   "emoji": "🇨🇫",
   "ariaLabel": "Central African Republic flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "The Central African Republic (CAR) endures protracted **state collapse**, driven by decades of **foreign interference**, a **predatory state structure** inherited from **colonialism**, and systematic **resource extraction**. Government authority is negligible, with much of the country controlled by armed groups and **foreign mercenaries**.\n\nThis power vacuum is a legacy of a **neo-colonial model** where external powers (France, now Russia) cultivate clients for resource access. The current phase involves reliance on **Russian private military contractors** (Africa Corps/Wagner) providing regime security for **mining concessions**. This **mercenary-driven extraction** perpetuates violence, displacement, and siphons wealth, inflicting extreme suffering.",
+  "currentCrisisSummary": "The Central African Republic (CAR) endures protracted **state collapse**, driven by **sectarian conflict**, **regional meddling**, a **predatory state structure** inherited from **colonialism**, and systematic **resource extraction**. Government authority is negligible, with much of the country controlled by armed groups (notably Séléka and anti-balaka factions) and **foreign mercenaries**.\n\nThis power vacuum is a legacy of a **neo-colonial model** where external powers (France, regional neighbours, now Russia) cultivate clients for resource access. The current phase involves reliance on **Russian private military contractors** (Africa Corps/Wagner) providing regime security for **mining concessions**. This **mercenary-driven extraction** perpetuates violence, displacement, and siphons wealth, inflicting extreme suffering.",
   "colonialRoot": {
     "colonialPower": "France (c. 1894-1960)",
     "legacy": "**French colonial rule** was brutal and **extractive**. The territory was leased to private **concessionary companies** using **forced labour**. This established the state as an instrument of **violent resource extraction**.\n\nThis structure persisted post-independence as France handed power to compliant elites. The legacy is a chronically weak, illegitimate state where **resource control** drives conflict."
@@ -15,12 +15,16 @@
       "description": "Post-1960, CAR remained an outpost of ***Françafrique***—a system of **neo-colonial control**. France repeatedly intervened militarily to install/depose client rulers (like Bokassa) to safeguard interests (**uranium**). This persistent **interference** prevented sovereignty and entrenched dependency."
     },
     {
+      "title": "Regional Interference (Chad & Sudan)",
+      "description": "CAR's instability is chronically amplified by its neighbours. **Chad**, particularly under Idriss Déby, has historically acted as a **regional kingmaker**, invading, sponsoring client militias, and installing presidents (including Séléka leaders) to secure its southern border. **Sudan** has also provided safe haven and support for armed groups operating in CAR's north, turning the country into a **proxy battleground** for regional power struggles."
+    },
+    {
       "title": " Debt and Structural Adjustment",
       "description": "Following misrule, CAR became heavily indebted, falling under **IMF**/**World Bank** control. **Structural Adjustment Programmes (SAPs)** in the 1990s mandated **privatisation** and severe **austerity**, dismantling public services. This **neoliberal shock therapy** weakened the state, deepened poverty, entrenched **aid reliance**, creating a vacuum for armed groups."
     },
     {
-      "title": "Resource Curse and Predatory Elites",
-      "description": "CAR's mineral wealth is a **resource curse**, fuelling conflict and enriching elites/foreign partners. The diamond trade links to arms trafficking. The state manages contracts for **foreign extractive industries**, creating incentives for violence to capture revenues."
+      "title": "Sectarianism and the Resource Curse",
+      "description": "CAR's mineral wealth is a **resource curse**, fuelling conflict. This was **instrumentalised along sectarian lines** in the 2013-present war, pitting the predominantly Muslim **Séléka** coalition against **anti-balaka** militias. Both groups used violence to capture **diamond and gold mines**, enriching warlords and their foreign partners and embedding the **sectarian divide** within the **predatory economy**."
     },
     {
       "title": "Proxy Battleground and Mercenary Economy",
@@ -34,7 +38,7 @@
   "humanitarianImpact": [
     {
       "title": "Casualties",
-      "description": "Thousands killed since 2013 in the **conflict over resources and state control.**"
+      "description": "Thousands killed since 2013 in brutal **sectarian violence** and the **conflict over resources and state control.**"
     },
     {
       "title": "Affected Population",
@@ -46,11 +50,11 @@
     },
     {
       "title": "Displacement",
-      "description": "Over 500,000 internally displaced by **violence linked to resource grabs** and instability."
+      "description": "Over 500,000 internally displaced by **sectarian cleansing**, **violence linked to resource grabs**, and instability."
     },
     {
       "title": "Refugees",
-      "description": "Over 750,000 refugees forced abroad by persistent violence and **lack of protection**."
+      "description": "Over 750,000 refugees forced abroad by persistent **sectarian violence** and **state collapse**."
     },
     {
       "title": "Healthcare Collapse",
@@ -84,7 +88,7 @@
     },
     {
       "year": "2013",
-      "event": "**Séléka Coup**: The Séléka, a predominantly Muslim coalition of rebel groups from the marginalised north, captures the capital, Bangui. The coup triggers the formation of 'anti-balaka' militias, plunging the country into widespread sectarian violence."
+      "event": "**Séléka Coup**: The Séléka, a predominantly Muslim coalition of rebel groups from the marginalised north (with support from Chad and Sudan), captures the capital, Bangui. The coup triggers the formation of 'anti-balaka' militias, plunging the country into widespread sectarian violence."
     },
     {
       "year": "2014",

@@ -128,7 +128,7 @@
               },
               "url": {
                 "type": "string",
-                "format": "uri"
+                "pattern": "^https:\\/\\/.+$"
               },
               "buttonText": {
                 "type": "string"
@@ -178,7 +178,7 @@
           },
           "url": {
             "type": "string",
-            "format": "uri"
+            "pattern": "^https:\\/\\/.+$"
           },
           "description": {
             "type": "string"

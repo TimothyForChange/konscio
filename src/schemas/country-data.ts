@@ -43,7 +43,9 @@ const TimelineEventSchema = z.object({
 const OrganisationSchema = z.object({
   organisation: z.string(),
   description: z.string(),
-  url: z.string().url('Organisation URL must be a valid URL'),
+  url: z
+    .string()
+    .regex(/^https:\/\/.+$/, 'Organisation URL must be a valid HTTPS URL'),
   buttonText: z.string().optional(),
 });
 
@@ -65,7 +67,9 @@ const TakeActionSchema = z.object({
  */
 const ReadingSchema = z.object({
   title: z.string(),
-  url: z.string().url('Reading URL must be a valid URL'),
+  url: z
+    .string()
+    .regex(/^https:\/\/.+$/, 'Reading URL must be a valid HTTPS URL'),
   description: z.string(),
 });
 

@@ -4,7 +4,7 @@
   "emoji": "🇨🇩",
   "ariaLabel": "Democratic Republic of Congo flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "Eastern DRC is the epicentre of a deadly contest over vast **mineral wealth** (cobalt, coltan etc.) essential to **global tech supply chains**. This fuels '**green colonialism**': the Global North's energy transition depends on minerals extracted through **violence, dispossession, and child labour**. Armed control over mines links **multinational companies** to a system that **extracts value while externalising human cost**.\n\nThe conflict involves the army, militias, and **foreign-backed groups** (M23). **Regional interference** (Rwanda, Uganda) fuels violence and mass displacement. Sexual violence is endemic. Suffering is catastrophic, caused by the **scramble for minerals** and **geopolitical manoeuvring**. **Accountability** for **illicit resource exploitation** remains minimal. Solutions require halting **external military interference**, enforcing **corporate accountability**, and centring **Congolese-led justice**.",
+  "currentCrisisSummary": "Eastern DRC is the epicentre of a deadly contest over vast **mineral wealth** (cobalt, coltan etc.) essential to **global tech supply chains**. This fuels '**green colonialism**': the Global North's energy transition depends on minerals extracted through **violence, dispossession, and child labour**. Armed control over mines links **multinational companies** to a system that **extracts value while externalising human cost**.\n\nThe conflict involves the army, militias, and **foreign-backed groups** (notably Rwanda's **M23 proxy**). **Regional interference**—using the 1994 genocide as a pretext—fuels violence and mass displacement. Suffering is catastrophic, caused by the **scramble for minerals** and **geopolitical manoeuvring**. **Accountability** for **illicit resource exploitation** remains minimal.",
   "colonialRoot": {
     "colonialPower": "Belgium (1885-1960)",
     "legacy": "The crisis is rooted in Belgium's **extraction-first colonial project**. King Leopold II's **Congo Free State** unleashed **forced labour** and violence for **resource extraction**. Belgian state rule continued a **political economy designed for extraction**.\n\n**Colonial institutions** prioritised mineral concessions and segregated labour, hollowing out public institutions. The post-independence state inherited weak structures and **externally oriented extraction models**, making it vulnerable to predatory actors seeking **mineral rents**."
@@ -12,7 +12,11 @@
   "historicalContext": [
     {
       "title": "The Cold War and Kleptocracy",
-      "description": "After **Lumumba's assassination**, the West backed the 32-year **dictatorship** of Mobutu Sese Seko. As a **Cold War client**, Mobutu received Western aid for anti-communist alignment and access for **foreign corporations**. He perfected **kleptocracy**, embezzling billions while the state disintegrated. Post-**Cold War**, abandoned by patrons and crippled by **odious debt**, the country faced **IMF-led Structural Adjustment Programmes** (**austerity**), sealing the **state's total collapse** and leading to the Congo Wars."
+      "description": "After **Lumumba's assassination**, the West backed the 32-year **dictatorship** of Mobutu Sese Seko. As a **Cold War client**, Mobutu received Western aid for anti-communist alignment and access for **foreign corporations**. He perfected **kleptocracy**, embezzling billions while the state disintegrated. Post-**Cold War**, abandoned by patrons and crippled by **odious debt**, the country faced **IMF-led Structural Adjustment Programmes** (**austerity**), sealing the **state's total collapse**."
+    },
+    {
+      "title": "The 1994 Rwandan Genocide as Catalyst",
+      "description": "The 1996 First Congo War was a direct consequence of the 1994 **Rwandan Genocide**. Rwanda and Uganda invaded (then) Zaire to hunt the *génocidaires* (***Interahamwe***/FDLR) who had fled. This shattered the failed Mobutu state. The continued presence of the FDLR has since served as the primary *casus belli* (pretext) for Rwanda's persistent **military interference** and its **systematic plunder of minerals** via **proxies** like **M23**."
     },
     {
       "title": "Conflict Minerals and Foreign Influence",
@@ -20,7 +24,7 @@
     },
     {
       "title": "International Law and Accountability",
-      "description": "The **UN Group of Experts** regularly documents regional support for armed groups and **illicit resource exploitation**, yet **enforcement mechanisms** remain inadequate. **International legal frameworks** exist to address violations by multinational corporations and armed groups, but **accountability** is systematically blocked by geopolitical interests and economic pressures. Despite extensive documentation of **war crimes**, **crimes against humanity**, and **economic exploitation**, **impunity** prevails among powerful actors. **Corporate accountability** for complicity in human rights violations remains limited, despite due diligence frameworks. **Transitional justice** efforts fail to address the scale of harm or the structural issues enabling **resource exploitation**. **Reparations** for communities devastated by decades of conflict and **extractive violence** are rarely pursued, allowing the **colonial patterns** of **resource extraction** to continue with **impunity**."
+      "description": "This institutional failure is symbolised by **MONUSCO**, one of the UN's largest, most expensive, and longest-running peacekeeping missions, which is now withdrawing in disgrace after failing to protect civilians and being widely protested by the Congolese population for its ineffectiveness.\n\nDespite extensive documentation of **war crimes**, **crimes against humanity**, and **economic exploitation**, **impunity** prevails among powerful actors. The **UN Group of Experts** regularly documents regional support for armed groups and **illicit resource exploitation**, yet **enforcement mechanisms** remain inadequate. **Corporate accountability** for complicity in human rights violations remains limited, allowing the **colonial patterns** of **resource extraction** to continue."
     }
   ],
   "humanitarianImpact": [
@@ -63,32 +67,28 @@
       "event": "**Belgian Colonial Rule**: The Belgian state takes formal control and continues an extraction-centred governance model that privileges foreign companies and creates weak local institutions."
     },
     {
-      "year": "1960",
-      "event": "**Independence & Crisis**: The DRC gains independence. Political turmoil, secessionist movements and foreign interference quickly destabilise the new state."
-    },
-    {
       "year": "1961",
-      "event": "**Assassination of Patrice Lumumba**: The first prime minister is removed and murdered with foreign complicity, a pivotal moment that undercut Congo's early pursuit of independent resource sovereignty."
+      "event": "**Assassination of Patrice Lumumba**: The first prime minister is removed and murdered with **Belgian and US complicity**, a pivotal moment that undercut Congo's early pursuit of independent resource sovereignty."
     },
     {
       "year": "1965-1997",
-      "event": "**The Mobutu Era**: Supported by the West as a Cold War client, Mobutu Sese Seko establishes a decades-long kleptocratic dictatorship. He loots the nation's mineral wealth, plunges the country into debt, and presides over the total decay of the state, creating the vacuum that leads to the Congo Wars."
+      "event": "**The Mobutu Era**: Supported by the West as a Cold War client, Mobutu Sese Seko establishes a decades-long kleptocratic dictatorship. He loots the nation's mineral wealth, plunges the country into debt, and presides over the total decay of the state."
+    },
+    {
+      "year": "1994",
+      "event": "**Rwandan Genocide Aftermath**: The genocide against the Tutsi in Rwanda concludes with the flight of *génocidaire* forces (Hutu Power, *Interahamwe*) into eastern Zaire. This event becomes the catalyst for the subsequent Congo Wars."
     },
     {
       "year": "1996-2003",
-      "event": "**Regional Wars & Resource Wars**: The First and Second Congo Wars draw in multiple neighbouring states and armed groups, driven in part by competition over mineral wealth and regional power contests."
+      "event": "**Regional Wars & Resource Wars**: The First and Second Congo Wars draw in multiple neighbouring states (notably Rwanda and Uganda), driven by the pretext of security and the **systematic plunder of mineral wealth**."
     },
     {
       "year": "2000s-Present",
-      "event": "**Persistent Violence & Armed Groups**: Eastern provinces host scores of armed groups contesting land, mines and influence. International and corporate supply chains increasingly draw attention to human-rights abuses linked to mineral extraction."
-    },
-    {
-      "year": "2024",
-      "event": "**UN Group of Experts Reports**: UN panels and Security Council reporting document patterns of illicit resource exploitation and regional support for armed groups, naming actors and networks involved in cross-border dynamics."
+      "event": "**MONUSCO Failure & 'Green Colonialism'**: The UN deploys a massive peacekeeping mission (MONUSCO), which ultimately fails to protect civilians. The 'green energy' transition drives demand for cobalt/coltan, fuelling **green colonialism** and empowering **foreign-backed proxies** like **M23**."
     },
     {
       "year": "2024-2025",
-      "event": "**Escalation and Displacement**: Renewed advances by M23 and other armed actors trigger mass displacement, the capture of towns and cities in the east, and a sharp rise in protection needs and civilian suffering."
+      "event": "**Escalation and Displacement**: Renewed advances by the **Rwandan-backed M23** and other armed actors trigger mass displacement, the capture of towns and cities in the east, and a sharp rise in civilian suffering."
     }
   ],
   "takeAction": {
@@ -116,7 +116,7 @@
       },
       {
         "title": "Sanction External Enablers",
-        "description": "Support targeted sanctions and diplomatic pressure against external actors found to be materially supporting armed groups, while protecting humanitarian access."
+        "description": "Support targeted sanctions and diplomatic pressure against external state actors (especially **Rwanda**) found to be materially supporting armed groups, while protecting humanitarian access."
       },
       {
         "title": "Amplify Congolese Voices",
