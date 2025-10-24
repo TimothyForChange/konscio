@@ -1,6 +1,35 @@
 import { loadCountries, loadCountryData } from './async-data-loaders';
 
 /**
+ * Gets the ISO 3166-1 alpha-2 country code for a country slug.
+ *
+ * @param slug - The URL-friendly slug of the country.
+ * @returns The two-letter country code, or undefined for regions without a single code.
+ */
+export function getCountryCode(slug: string): string | undefined {
+  const codeMap: Record<string, string> = {
+    afghanistan: 'AF',
+    cameroon: 'CM',
+    car: 'CF',
+    cuba: 'CU',
+    drc: 'CD',
+    ethiopia: 'ET',
+    haiti: 'HT',
+    mozambique: 'MZ',
+    myanmar: 'MM',
+    palestine: 'PS',
+    somalia: 'SO',
+    'south-sudan': 'SS',
+    sudan: 'SD',
+    syria: 'SY',
+    ukraine: 'UA',
+    venezuela: 'VE',
+    yemen: 'YE',
+  };
+  return codeMap[slug];
+}
+
+/**
  * Retrieves the emoji and ARIA label for a country by its slug.
  *
  * @param countrySlug - The URL-friendly slug of the country.

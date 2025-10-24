@@ -17,6 +17,7 @@ import Timeline from '../components/country/Timeline.astro';
 import { SITE_URL } from '../constants/site';
 import countriesList from '../data/mapping/countries.ts';
 import type { CountryData } from '../types/country';
+import { getCountryCode } from '../utils/country';
 import Layout from './Layout.astro';
 
 export interface Properties {
@@ -61,7 +62,7 @@ const articleSchema = {
     {
       '@type': 'Place',
       name: countryData?.name,
-      addressCountry: countrySlug === 'palestine' ? 'PS' : undefined,
+      addressCountry: getCountryCode(countrySlug),
     },
     {
       '@type': 'Thing',
