@@ -4,12 +4,20 @@
   "emoji": "🇸🇾",
   "ariaLabel": "Syrian flag",
   "lastUpdated": "2025-10-23",
-  "currentCrisisSummary": "Following the sudden collapse of the Assad regime in Dec 2024, Syria enters a fragile transition, remaining a **shattered state** enduring catastrophic suffering inflicted through years of war. A transitional government grapples with authority over a territory fractured by armed factions and **occupied by foreign powers** (Turkey, US, Russia).\n\nThe 2011 popular uprising was transformed into an **internationalised proxy war** by competing powers pursuing **geopolitical agendas**. This **external interference** fuelled violence, prolonged suffering, and caused the **collapse of state and society**. Millions are displaced, infrastructure ruined, and most depend on aid, leaving Syria vulnerable to new forms of **economic coercion** masked as reconstruction.",
+  "currentCrisisSummary": "Following the sudden collapse of the Assad regime in Dec 2024, Syria enters a fragile transition, remaining a **shattered state** enduring catastrophic suffering. A transitional government grapples with authority over a territory fractured by armed factions and **occupied by foreign powers** (Turkey, US, Russia), and now faces an **active military invasion and occupation by Israel** in the south.\n\nThe 2011 popular uprising was transformed into an **internationalised proxy war** and a brutal **sectarian conflict**, fuelled by competing powers pursuing **geopolitical agendas**. This **external interference** and **instrumentalised sectarianism** caused the **collapse of state and society**. Millions are displaced, infrastructure ruined, and most depend on aid, leaving Syria vulnerable to new forms of **economic coercion**.",
   "imperialRoot": {
     "imperialPower": "France (1923-1946), USSR/Russia & US (Cold War – present)",
     "legacy": "The modern Syrian state is a product of **imperial design**. The 1916 **Sykes-Picot Agreement** and subsequent **French Mandate** created **artificial borders**. France used '**divide-and-rule**' tactics, exacerbating sectarian tensions. This fragmented national identity and laid **structural foundations** for conflict.\n\nDuring the **Cold War**, Syria became a **client state** of the Soviet Union, entrenching an **authoritarian state structure** and setting the stage for intense **foreign interventions** after 2011."
   },
   "historicalContext": [
+    {
+      "title": "The Golan Heights Occupation",
+      "description": "A defining feature of the Syrian state is the **Israeli occupation** of the **Golan Heights** in 1967, which Israel **illegally annexed** in 1981. This ongoing occupation, unrecognised by international law, has been a central justification for the Ba'athist state's 'resistance' posture and its internal security architecture."
+    },
+    {
+      "title": "Instrumentalisation of Sectarianism",
+      "description": "While the 2011 uprising began as a popular, cross-community demand for dignity, the regime **deliberately reframed it as a sectarian war**. By releasing jihadists from prison and employing extreme violence against (predominantly Sunni) protesters, it successfully framed itself as the sole protector of minorities. This **instrumentalised sectarianism** was amplified by foreign powers: **Iran and Hezbollah** provided frontline support for the regime, while **Gulf states and Turkey** backed an opposition that became increasingly dominated by **Sunni Islamist factions**."
+    },
     {
       "title": "Pre-War Neoliberal Reforms",
       "description": "A catalyst for the 2011 uprising was the **economic policy** of the preceding decade. Encouraged by the **IMF**/**World Bank**, Assad implemented **neoliberal 'reforms'**: dismantling subsidies, **privatising public assets**, opening to **foreign capital**. This enriched a **crony-capitalist class** while creating mass unemployment and poverty. Protests were partly a rebellion against this inequality."
@@ -19,8 +27,8 @@
       "description": "The conflict exemplifies a domestic uprising hijacked by **external forces**. Seeking **regime change**, the **US, Turkey, Saudi Arabia, Qatar** supported a fragmented opposition. In response, **Russia and Iran intervened** decisively to preserve the government and secure **strategic interests**. This became a multi-sided **proxy war** fought for **geopolitical dominance**."
     },
     {
-      "title": "Fragmentation and the War on Terror",
-      "description": "War chaos, fuelled by the 2003 **US invasion of Iraq**, enabled ISIS's rise. The **US-led intervention** against ISIS (including devastating air campaigns) resulted in the de-facto **US military occupation** of northeast Syria. This further fragmented the country, placed resources under **US-backed proxy forces**, adding another layer of **imperial entanglement**."
+      "title": "Foreign Occupations and Fragmentation",
+      "description": "The war shattered Syrian sovereignty, leading to de facto partitions. The **US maintains an illegal military occupation** in the northeast, controlling oil fields via its **Kurdish-led (SDF)** proxy forces. Since 2016, **Turkey has launched multiple invasions** to occupy northern Syria, establishing a 'buffer zone' controlled by its **Syrian National Army (SNA)** proxies and aimed at crushing Kurdish autonomy."
     },
     {
       "title": "International Law and Accountability",
@@ -67,8 +75,16 @@
       "event": "**French Mandate**: France defeats a local Arab army at the Battle of Maysalun and imposes its colonial mandate, creating the modern Syrian state."
     },
     {
+      "year": "1967",
+      "event": "**The Naksa & Golan Occupation**: Israel occupies the Syrian Golan Heights during the Six-Day War, displacing over 100,000 Syrians."
+    },
+    {
       "year": "1970",
       "event": "**The 'Corrective Movement'**: Hafez al-Assad seizes power in a coup, consolidating the rule of the Ba'ath Party and establishing a highly centralised authoritarian state."
+    },
+    {
+      "year": "1981",
+      "event": "**Golan Heights Annexation**: Israel passes the 'Golan Heights Law', unilaterally and illegally annexing the territory in violation of international law."
     },
     {
       "year": "1982",
@@ -87,6 +103,10 @@
       "event": "**Russian Military Intervention**: Russia launches a major, direct military intervention on behalf of the Syrian government, decisively altering the course of the war."
     },
     {
+      "year": "2016-Present",
+      "event": "**Turkish Occupation of Northern Syria**: Turkey launches 'Operation Euphrates Shield', the first of several military invasions to occupy northern Syria, creating a 'buffer zone' controlled by its proxy forces."
+    },
+    {
       "year": "2019",
       "event": "**US Caesar Act Enacted**: The US imposes a devastating regime of sanctions targeting any entity involved in Syria's reconstruction. The act functions as a form of economic warfare that collectively punishes the civilian population and cripples the post-war economy."
     },
@@ -100,7 +120,7 @@
     },
     {
       "year": "2024-Present",
-      "event": "**Transitional Period**: Following the regime's collapse, a transitional government is formed to manage state institutions, navigate the complex security environment, and begin the process of political reconstruction amidst ongoing foreign military presences."
+      "event": "**Transitional Period & Israeli Invasion**: Following the regime's collapse, a transitional government is formed. Simultaneously, Israel invades the UN buffer zone in the south, establishing **new military outposts** and launching 'Operation Arrow of Bashan'—a massive airstrike campaign—to enforce a new 'demilitarised' zone."
     }
   ],
   "takeAction": {
