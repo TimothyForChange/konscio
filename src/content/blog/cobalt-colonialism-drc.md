@@ -17,8 +17,6 @@ tags:
   ]
 ---
 
-> The DRC’s cobalt fuels the world’s “green” technologies — but the price is paid by its people and ecosystems. This post traces how colonial extraction survives inside the green transition.
-
 # Cobalt Colonialism: How the DRC Powers the Global North’s Green Transition
 
 The Democratic Republic of Congo is presented to the world as a resource — a seam of minerals waiting for extraction, refinement and shipment. In radio spots, corporate reports and policy papers this is framed as progress: cobalt for batteries, coltan for phones, lithium for storage. But when you look closer, the “green transition” championed by the Global North is simply a new vocabulary for an old practice: extracting wealth from the Global South while leaving devastation in its wake.
