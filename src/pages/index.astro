@@ -70,7 +70,7 @@ const sortedPosts = allPosts
                       datetime={post.frontmatter.date}
                     >
                       {new Date(post.frontmatter.date).toLocaleDateString(
-                        'en-US',
+                        'en-GB',
                         {
                           year: 'numeric',
                           month: 'long',
@@ -78,7 +78,9 @@ const sortedPosts = allPosts
                         }
                       )}
                     </time>
-                    <span class='blog-post-reading-time'>5 min read</span>
+                    <span class='blog-post-reading-time'>
+                      {post.frontmatter.minutesRead}
+                    </span>
                   </div>
 
                   {post.frontmatter.excerpt && (

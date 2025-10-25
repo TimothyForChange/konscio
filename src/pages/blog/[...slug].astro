@@ -2,10 +2,6 @@
 import Layout from '../../components/Layout.astro';
 import TableOfContents from '../../components/TableOfContents.astro';
 import { BASE_URL } from '../../config';
-import {
-  calculateReadingTime,
-  extractTextFromMarkdown,
-} from '../../utils/reading-time';
 import { slugifyPath } from '../../utils/slugify';
 import {
   extractHeadings,
@@ -27,8 +23,6 @@ export async function getStaticPaths() {
 
   return allPosts.map((post: any) => {
     const rawContent = post.body || post.rawContent?.() || '';
-    const plainText = extractTextFromMarkdown(rawContent);
-    const readingTime = calculateReadingTime(plainText);
     const allHeadings = extractHeadings(rawContent);
     const tocHeadings = filterHeadingsForTOC(allHeadings);
 
@@ -36,12 +30,12 @@ export async function getStaticPaths() {
       params: {
         slug: slugifyPath(post.file),
       },
-      props: { post, readingTime, tocHeadings },
+      props: { post, tocHeadings },
     };
   });
 }
 
-const { post, readingTime, tocHeadings } = Astro.props;
+const { post, tocHeadings } = Astro.props;
 const { frontmatter, Content } = post as any;
 
 const pageTitle = frontmatter.title;
@@ -64,7 +58,7 @@ const publishedTime = frontmatter.date
       <div class='post-meta'>
         <time class='post-date' datetime={frontmatter.date}>
           {
-            new Date(frontmatter.date).toLocaleDateString('en-US', {
+            new Date(frontmatter.date).toLocaleDateString('en-GB', {
               year: 'numeric',
               month: 'long',
               day: 'numeric',
@@ -72,7 +66,7 @@ const publishedTime = frontmatter.date
           }
         </time>
 
-        <span class='post-reading-time'>{readingTime}</span>
+        <span class='post-reading-time'>{frontmatter.minutesRead}</span>
 
         {
           frontmatter.categories && frontmatter.categories.length > 0 && (

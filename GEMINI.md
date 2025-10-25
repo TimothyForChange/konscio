@@ -31,7 +31,7 @@
 - **Content Schema:** Zod schema in `src/content/config.ts` validates blog posts with `z.coerce.date()` for date parsing.
 - **Dark Mode:** Theme preference persisted in localStorage and initialized via `public/theme-init.js` to prevent FOUC. CSS variables update via `[data-theme='dark']` selector.
 - **Table of Contents:** Auto-generated for posts with headings (H2-H4) using `src/utils/table-of-contents.ts` and rendered by `TableOfContents.astro`.
-- **Reading Time:** Calculated via `src/utils/reading-time.ts` and displayed on posts.
+- **Reading Time:** Calculated via remark plugin (`plugins/remark-reading-time.mjs`) and displayed on posts.
 - **SEO:** Meta tags and structured data handled by `SEO.astro`.
 - **Type Safety:** All config and utility code is type-checked.
 - **Self-Hosted Fonts:** No external font dependencies; see `global.css` for font setup.

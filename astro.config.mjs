@@ -5,6 +5,7 @@ import compressor from 'astro-compressor';
 import purgecss from 'astro-purgecss';
 import { defineConfig } from 'astro/config';
 import { FontaineTransform } from 'fontaine';
+import { remarkReadingTime } from './plugins/remark-reading-time.mjs';
 import { config } from './src/config';
 import { getCachedHighlighter } from './src/utils/highlighter.js';
 
@@ -48,5 +49,6 @@ export default defineConfig({
       wrap: true,
       highlighter: getCachedHighlighter,
     },
+    remarkPlugins: [remarkReadingTime],
   },
 });

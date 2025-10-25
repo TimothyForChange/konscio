@@ -24,6 +24,6 @@ export async function GET(context) {
     description: config.description,
     site: context.site,
     items,
-    customData: `<language>en-us</language>`,
+    customData: `<language>en-gb</language>`,
   });
 }

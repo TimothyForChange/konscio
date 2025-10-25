@@ -114,10 +114,11 @@ konscio/
 │   │   └── global.css       # Global styles with dark mode support
 │   ├── utils/
 │   │   ├── highlighter.ts   # Syntax highlighting utilities
-│   │   ├── reading-time.ts  # Reading time calculation utilities
 │   │   ├── slugify.ts       # URL slug generation utilities
 │   │   └── table-of-contents.ts # TOC generation utilities
 │   └── config.ts            # Site configuration
+├── plugins/
+│   └── remark-reading-time.mjs # Remark plugin for reading time calculation
 ├── astro.config.mjs         # Astro configuration with MDX
 ├── eslint.config.mjs        # ESLint configuration
 ├── package.json

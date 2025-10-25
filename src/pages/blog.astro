@@ -47,14 +47,16 @@ const sortedPosts = allPosts.sort(
 
               <div class='post-meta'>
                 <time class='post-date' datetime={post.frontmatter.date}>
-                  {new Date(post.frontmatter.date).toLocaleDateString('en-US', {
+                  {new Date(post.frontmatter.date).toLocaleDateString('en-GB', {
                     year: 'numeric',
                     month: 'long',
                     day: 'numeric',
                   })}
                 </time>
 
-                <span class='post-reading-time'>5 min read</span>
+                <span class='post-reading-time'>
+                  {post.frontmatter.minutesRead}
+                </span>
 
                 {post.frontmatter.categories && (
                   <div class='post-categories'>
