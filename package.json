@@ -20,12 +20,11 @@
     "lint": "eslint . --fix --cache --cache-location .eslintcache",
     "preview": "astro preview"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "astro-compressor": "^1.2.0",
     "astro-purgecss": "^5.3.0",
-    "purgecss": "^7.0.2"
-  },
-  "devDependencies": {
+    "purgecss": "^7.0.2",
     "@astrojs/check": "^0.9.3",
     "@astrojs/mdx": "^4.3.0",
     "@astrojs/rss": "^4.0.12",
@@ -36,10 +35,8 @@
     "@eslint/markdown": "^7.5.0",
     "@fontsource/jetbrains-mono": "^5.0.0",
     "@fontsource/oswald": "^5.2.6",
-    "@fontsource/roboto-condensed": "^5.2.6",
     "@fontsource/work-sans": "^5.2.6",
     "@ianvs/prettier-plugin-sort-imports": "^4.7.0",
-    "@lucide/astro": "^0.548.0",
     "@playform/inline": "^0.1.2",
     "@prettier/plugin-oxc": "^0.0.4",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
