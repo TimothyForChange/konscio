@@ -69,7 +69,7 @@ export default defineConfig(
   },
   {
     files: markdownFiles,
-    language: 'gfm',
+    language: 'markdown/gfm',
     plugins: markdownPlugins,
     rules: {},
   },
