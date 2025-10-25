@@ -1,0 +1,172 @@
+---
+import { config } from '../config';
+import Icon from './Icon.astro';
+
+const currentYear = new Date().getFullYear();
+---
+
+<footer class='site-footer'>
+  <div class='footer-content'>
+    <div class='footer-info'>
+      <p class='copyright'>
+        © {currentYear}
+        {config.author.name}. All rights reserved.
+      </p>
+      <p class='theme-credit'>
+        Powered by <a href='https://astro.build' target='_blank' rel='noopener'
+          >Astro</a
+        >
+        • <a
+          href='https://github.com/timothyforchange/konscio'
+          target='_blank'
+          rel='noopener'>Source Code on GitHub</a
+        >
+      </p>
+    </div>
+
+    <div class='social-links'>
+      {
+        config.social.github && (
+          <a
+            href={config.social.github}
+            target='_blank'
+            rel='noopener'
+            aria-label='GitHub'
+            class='social-link'
+          >
+            <Icon name='github-line' size={20} class='social-icon' />
+          </a>
+        )
+      }
+
+      {
+        config.social.instagram && (
+          <a
+            href={config.social.instagram}
+            target='_blank'
+            rel='noopener'
+            aria-label='Instagram'
+            class='social-link'
+          >
+            <Icon name='instagram-line' size={20} class='social-icon' />
+          </a>
+        )
+      }
+
+      {
+        config.social.threads && (
+          <a
+            href={config.social.threads}
+            target='_blank'
+            rel='noopener'
+            aria-label='Threads'
+            class='social-link'
+          >
+            <Icon name='threads-line' size={20} class='social-icon' />
+          </a>
+        )
+      }
+
+      {
+        config.social.email && (
+          <a
+            href={`mailto:${config.social.email}`}
+            aria-label='Email'
+            class='social-link'
+          >
+            <Icon name='mail-line' size={20} class='social-icon' />
+          </a>
+        )
+      }
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background-color: var(--color-surface);
+    border-top: 2px solid var(--color-border);
+    margin-top: auto;
+    padding: calc(var(--grid-unit) * 4) 0;
+  }
+
+  .footer-content {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--content-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: calc(var(--grid-unit) * 2);
+  }
+
+  .footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--grid-unit) / 2);
+  }
+
+  .copyright,
+  .theme-credit {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+  }
+
+  .theme-credit a {
+    color: var(--color-accent);
+    font-weight: 500;
+  }
+
+  .theme-credit a:hover,
+  .theme-credit a:focus {
+    color: var(--color-text-primary);
+  }
+
+  .social-links {
+    display: flex;
+    gap: calc(var(--grid-unit) * 1.5);
+    align-items: center;
+  }
+
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-text-primary);
+    color: var(--color-background);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+  }
+
+  .social-link:hover,
+  .social-link:focus {
+    background-color: var(--color-accent);
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+
+  .social-link svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+      gap: calc(var(--grid-unit) * 2);
+    }
+
+    .footer-info {
+      order: 2;
+    }
+
+    .social-links {
+      order: 1;
+    }
+  }
+</style>

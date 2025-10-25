@@ -1,0 +1,44 @@
+:root {
+  /* Monotone Palette */
+  --color-white: #ffffff;
+  --color-light-gray: #f5f5f5;
+  --color-medium-gray: #888888;
+  --color-dark-gray: #333333;
+  --color-black: #000000;
+
+  /* Accent Color */
+  --color-accent-red: #dc2626;
+
+  /* Semantic Colors */
+  --color-background: var(--color-white);
+  --color-surface: var(--color-light-gray);
+  --color-text-primary: var(--color-black);
+  --color-text-secondary: var(--color-dark-gray);
+  --color-text-muted: var(--color-medium-gray);
+  --color-border: var(--color-medium-gray);
+  --color-accent: var(--color-accent-red);
+
+  /* Typography */
+  --font-heading-primary: 'Oswald', sans-serif;
+  --font-heading-secondary: 'Roboto Condensed', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Layout */
+  --grid-unit: 8px;
+  --max-width: 1200px;
+  --sidebar-width: 320px;
+  --content-padding: calc(var(--grid-unit) * 3);
+}
+
+/* Dark Mode Theme */
+[data-theme='dark'] {
+  /* Monotone Palette - Dark Mode */
+  --color-background: #0a0a0a;
+  --color-surface: #1a1a1a;
+  --color-text-primary: #f5f5f5;
+  --color-text-secondary: #b8b8b8;
+  --color-text-muted: #888888;
+  --color-border: #333333;
+  --color-accent: #ff3333; /* Slightly brighter red for dark mode */
+}

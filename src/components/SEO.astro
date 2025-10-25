@@ -1,0 +1,121 @@
+---
+import { Schema } from 'astro-seo-schema';
+import { config, SITE_DESCRIPTION, SITE_TITLE } from '../config';
+
+export interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  publishedTime?: string;
+  modifiedTime?: string;
+  categories?: string[];
+  tags?: string[];
+  canonical?: string;
+}
+
+const {
+  title = SITE_TITLE,
+  description = SITE_DESCRIPTION,
+  image = '/og-image.webp',
+  type = 'website',
+  publishedTime,
+  modifiedTime,
+  categories,
+  tags,
+  canonical,
+} = Astro.props;
+
+const pageTitle = title === SITE_TITLE ? title : `${title} | ${SITE_TITLE}`;
+const canonicalURL = canonical || new URL(Astro.url.pathname, Astro.site);
+const imageURL = new URL(image, Astro.site);
+---
+
+<title>{pageTitle}</title>
+<meta name='description' content={description} />
+<meta name='author' content={config.author.name} />
+<link rel='canonical' href={canonicalURL} />
+<meta property='og:title' content={pageTitle} />
+<meta property='og:description' content={description} />
+<meta property='og:type' content={type} />
+<meta property='og:url' content={canonicalURL} />
+<meta property='og:image' content={imageURL} />
+<meta property='og:site_name' content={SITE_TITLE} />
+<meta property='og:locale' content='en_US' />
+{
+  publishedTime && (
+    <meta property='article:published_time' content={publishedTime} />
+  )
+}
+{
+  type === 'article' && (
+    <>
+      <meta property='article:author' content={config.author.name} />
+      <meta property='article:section' content={categories?.[0] || 'Blog'} />
+      {modifiedTime && (
+        <meta property='article:modified_time' content={modifiedTime} />
+      )}
+    </>
+  )
+}
+<meta name='twitter:card' content='summary_large_image' />
+<meta name='twitter:title' content={pageTitle} />
+<meta name='twitter:description' content={description} />
+<meta name='twitter:image' content={imageURL} />
+<meta name='robots' content='index, follow' />
+<meta name='googlebot' content='index, follow' />
+<Schema
+  item={{
+    '@context': 'https://schema.org',
+    '@type': type === 'article' ? 'Article' : 'WebSite',
+    ...(type === 'article'
+      ? {
+          headline: pageTitle,
+          description: description,
+          url: canonicalURL.toString(),
+          image: imageURL.toString(),
+          datePublished: publishedTime,
+          ...(modifiedTime && { dateModified: modifiedTime }),
+          ...(categories &&
+            categories.length > 0 && { articleSection: categories[0] }),
+          ...(tags && tags.length > 0 && { keywords: tags.join(', ') }),
+          author: {
+            '@type': 'Person',
+            name: config.author.name,
+            description: config.author.bio,
+            image: config.author.avatar
+              ? new URL(config.author.avatar, Astro.site).toString()
+              : undefined,
+          },
+          publisher: {
+            '@type': 'Organization',
+            name: SITE_TITLE,
+            logo: {
+              '@type': 'ImageObject',
+              url: new URL('/site-title.svg', Astro.site).toString(),
+            },
+          },
+        }
+      : {
+          name: pageTitle,
+          description: description,
+          url: canonicalURL.toString(),
+          image: imageURL.toString(),
+          author: {
+            '@type': 'Person',
+            name: config.author.name,
+            description: config.author.bio,
+            image: config.author.avatar
+              ? new URL(config.author.avatar, Astro.site).toString()
+              : undefined,
+          },
+        }),
+  }}
+/>
+<link
+  rel='alternate'
+  type='application/rss+xml'
+  title={SITE_TITLE}
+  href='/rss.xml'
+/>
+<link rel='sitemap' type='application/xml' href='/sitemap-index.xml' />

@@ -1,0 +1,335 @@
+---
+import Icon from '../components/Icon.astro';
+import Layout from '../components/Layout.astro';
+import { config } from '../config';
+
+const { title, description, author, social } = config;
+const pageDescription = `Learn more about ${author.name} and the ${title} blog`;
+---
+
+<Layout title={`About | ${title}`} description={pageDescription}>
+  <div class='about-page'>
+    <header class='page-header'>
+      <h1 class='page-title'>About</h1>
+      <hr class='page-rule' />
+    </header>
+
+    <div class='author-section'>
+      <div class='author-avatar'>
+        {
+          author.avatar ? (
+            <img src={author.avatar} alt={author.name} />
+          ) : (
+            <div class='avatar-placeholder'>
+              <svg
+                viewBox='0 0 80 80'
+                fill='none'
+                xmlns='http://www.w3.org/2000/svg'
+              >
+                <defs>
+                  <clipPath id='circleClip'>
+                    <circle cx='40' cy='40' r='39' />
+                  </clipPath>
+                </defs>
+                <g clip-path='url(#circleClip)'>
+                  <ellipse
+                    cx='40'
+                    cy='28'
+                    rx='13'
+                    ry='15'
+                    fill='currentColor'
+                  />
+                  <path
+                    d='M33 40 Q33 44 35 46 L45 46 Q47 44 47 40 Z'
+                    fill='currentColor'
+                  />
+                  <path
+                    d='M35 46 Q28 48 22 54 Q16 60 14 70 L14 80 L66 80 L66 70 Q64 60 58 54 Q52 48 45 46 Z'
+                    fill='currentColor'
+                  />
+                </g>
+              </svg>
+            </div>
+          )
+        }
+      </div>
+      <h2 class='author-name'>{author.name}</h2>
+      <p class='author-bio'>{author.bio}</p>
+
+      <div class='social-links'>
+        {
+          social.github && (
+            <a
+              href={social.github}
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='GitHub'
+            >
+              <Icon name='github-line' size={28} class='social-icon' />
+            </a>
+          )
+        }
+        {
+          social.instagram && (
+            <a
+              href={social.instagram}
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='Instagram'
+            >
+              <Icon name='instagram-line' size={28} class='social-icon' />
+            </a>
+          )
+        }
+        {
+          social.threads && (
+            <a
+              href={social.threads}
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='Threads'
+            >
+              <Icon name='threads-line' size={28} class='social-icon' />
+            </a>
+          )
+        }
+        {
+          social.email && (
+            <a href={`mailto:${social.email}`} aria-label='Email'>
+              <Icon name='mail-line' size={28} class='social-icon' />
+            </a>
+          )
+        }
+      </div>
+    </div>
+
+    <div class='content-section'>
+      <h2>Political Mission</h2>
+      <p>{description}</p>
+
+      <h2>Analytical Framework</h2>
+      <p>
+        Every article on Timothy for Change approaches power, politics, and
+        ecology through an eco-socialist and decolonial lens. This means tracing
+        today's crises — inequality, climate collapse, displacement, and war —
+        back to their roots in capitalism and empire. The analysis rejects false
+        neutrality: it sides with the oppressed, with workers, and with the
+        Earth itself.
+      </p>
+
+      <h2>Editorial Values</h2>
+      <ul>
+        <li>
+          <strong>Truth over neutrality</strong>: Writing should confront power,
+          not flatter it
+        </li>
+        <li>
+          <strong>People and planet first</strong>: Human and ecological
+          liberation are inseparable
+        </li>
+        <li>
+          <strong>Decolonise knowledge</strong>: Center the perspectives and
+          struggles of the Global South
+        </li>
+        <li>
+          <strong>Solidarity, not charity</strong>: Change is collective, not
+          paternalistic
+        </li>
+        <li>
+          <strong>Clarity and courage</strong>: Speak plainly, think critically,
+          and never apologize for demanding systemic change
+        </li>
+      </ul>
+
+      <h2>Vision</h2>
+      <p>
+        A decolonised, eco-socialist world where people and planet thrive beyond
+        capitalism and empire.
+      </p>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .about-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .page-header {
+    text-align: center;
+    margin-bottom: calc(var(--grid-unit) * 6);
+  }
+
+  .page-title {
+    font-family: var(--font-heading-primary);
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    line-height: 1.1;
+    margin-bottom: calc(var(--grid-unit) * 4);
+  }
+
+  .page-rule {
+    height: 4px;
+    background-color: var(--color-accent);
+    border: none;
+    width: 120px;
+    margin: 0 auto;
+  }
+
+  .author-section {
+    text-align: center;
+    margin-bottom: calc(var(--grid-unit) * 10);
+    padding: calc(var(--grid-unit) * 6) calc(var(--grid-unit) * 4);
+    background-color: var(--color-surface);
+    border-radius: calc(var(--grid-unit));
+  }
+
+  .author-avatar {
+    margin-bottom: calc(var(--grid-unit) * 3);
+  }
+
+  .author-avatar img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--color-accent);
+  }
+
+  .avatar-placeholder {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid var(--color-accent);
+    background-color: var(--color-surface);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-medium-gray);
+    margin: 0 auto;
+  }
+
+  .author-name {
+    font-family: var(--font-heading-secondary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: calc(var(--grid-unit) * 2);
+  }
+
+  .author-bio {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto calc(var(--grid-unit) * 4);
+  }
+
+  .social-links {
+    display: flex;
+    gap: calc(var(--grid-unit) * 3);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-links a {
+    color: var(--color-text-secondary);
+    transition:
+      color 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  .social-links a:hover {
+    color: var(--color-accent);
+    transform: translateY(-2px);
+  }
+
+  .social-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .content-section {
+    line-height: 1.7;
+  }
+
+  .content-section h2 {
+    font-family: var(--font-heading-secondary);
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: calc(var(--grid-unit) * 6);
+    margin-bottom: calc(var(--grid-unit) * 3);
+  }
+
+  .content-section p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--color-text-primary);
+    margin-bottom: calc(var(--grid-unit) * 3);
+  }
+
+  .content-section ul {
+    margin: calc(var(--grid-unit) * 2) 0;
+    padding-left: calc(var(--grid-unit) * 3);
+  }
+
+  .content-section li {
+    margin-bottom: calc(var(--grid-unit) * 2);
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+
+  .content-section strong {
+    color: var(--color-text-primary);
+  }
+
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: 2.5rem;
+    }
+
+    .author-section {
+      padding: calc(var(--grid-unit) * 4) calc(var(--grid-unit) * 3);
+    }
+
+    .author-name {
+      font-size: 2rem;
+    }
+
+    .author-bio {
+      font-size: 1.125rem;
+    }
+
+    .author-avatar img {
+      width: 120px;
+      height: 120px;
+    }
+
+    .avatar-placeholder {
+      width: 120px;
+      height: 120px;
+    }
+
+    .social-links {
+      gap: calc(var(--grid-unit) * 2);
+    }
+
+    .content-section h2 {
+      font-size: 1.5rem;
+    }
+
+    .content-section p,
+    .content-section li {
+      font-size: 1rem;
+    }
+  }
+</style>

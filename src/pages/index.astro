@@ -1,16 +1,494 @@
 ---
-import CountriesGrid from '../components/sections/CountriesGrid.astro';
-import List from '../components/sections/List.astro';
-import MissionOverview from '../components/sections/MissionOverview.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from '../components/Layout.astro';
+import { slugifyPath } from '../utils/slugify';
+
+const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true });
+const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true });
+
+const allPosts = [
+  ...Object.entries(mdPostsGlob).map(([path, post]) =>
+    typeof post === 'object' && post !== null
+      ? { ...post, slug: slugifyPath(path) }
+      : { slug: slugifyPath(path) }
+  ),
+  ...Object.entries(mdxPostsGlob).map(([path, post]) =>
+    typeof post === 'object' && post !== null
+      ? { ...post, slug: slugifyPath(path) }
+      : { slug: slugifyPath(path) }
+  ),
+] as any[];
+const sortedPosts = allPosts
+  .sort(
+    (a: any, b: any) =>
+      new Date(b.frontmatter.date).getTime() -
+      new Date(a.frontmatter.date).getTime()
+  )
+  .slice(0, 3);
 ---
 
-<Layout title='Analysing Structural Violence - Timothy for Change'>
-  <div class='page-wrapper'>
-    <main class='container' id='container' tabindex='-1'>
-      <MissionOverview />
-      <CountriesGrid />
-      <List />
-    </main>
+<Layout
+  title='Timothy for Change: For People And Planet'
+  description='An Astro blog theme exploring the aesthetic tension between Bauhaus modernism and WW2-era monumental design. Where functionalism meets grandeur in dissonant harmony.'
+  showSidebar={false}
+>
+  <div class='landing-page'>
+    <section class='hero'>
+      <div class='hero-content'>
+        <h1 class='hero-title'>Timothy for Change</h1>
+        <p class='hero-subtitle'>For People And Planet</p>
+        <p class='hero-description'>
+          Eco-socialist analysis from Africa and the Global South.
+        </p>
+        <hr class='hero-rule' />
+        <div class='hero-actions'>
+          <a href='#demo' class='btn btn-primary'>View Posts</a>
+        </div>
+      </div>
+    </section>
+
+    <section class='blog-section' id='demo'>
+      <div class='container'>
+        <h2 class='section-title'>Blog Posts</h2>
+        <p class='blog-description'>
+          Critical eco-socialist and decolonial analysis from Africa and the
+          Global South — exposing the systems that exploit both people and the
+          planet.
+        </p>
+
+        {
+          sortedPosts.length > 0 && (
+            <div class='blog-posts'>
+              {sortedPosts.map((post) => (
+                <article class='blog-post-card'>
+                  <h3 class='blog-post-title'>
+                    <a href={`/blog/${post.slug}`}>{post.frontmatter.title}</a>
+                  </h3>
+
+                  <div class='blog-post-meta'>
+                    <time
+                      class='demo-post-date'
+                      datetime={post.frontmatter.date}
+                    >
+                      {new Date(post.frontmatter.date).toLocaleDateString(
+                        'en-US',
+                        {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric',
+                        }
+                      )}
+                    </time>
+                    <span class='blog-post-reading-time'>5 min read</span>
+                  </div>
+
+                  {post.frontmatter.excerpt && (
+                    <p class='blog-post-excerpt'>{post.frontmatter.excerpt}</p>
+                  )}
+
+                  {post.frontmatter.categories && (
+                    <div class='blog-post-categories'>
+                      {post.frontmatter.categories.map((category: string) => (
+                        <span class='blog-category'>{category}</span>
+                      ))}
+                    </div>
+                  )}
+                </article>
+              ))}
+            </div>
+          )
+        }
+
+        <div class='blog-actions'>
+          <a href={`${import.meta.env.BASE_URL}blog`} class='btn btn-primary'
+            >View Blog</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class='features' id='features'>
+      <div class='container'>
+        <h2 class='section-title'>Theoretical Foundations</h2>
+        <div class='theoretical-foundations-grid'>
+          <div class='theoretical-foundations-card'>
+            <h3 class='theoretical-foundations-title'>
+              Historical Materialism
+            </h3>
+            <p class='theoretical-foundations-description'>
+              Understanding the present through the forces and relations of
+              production — how material conditions, not moral ideals, shape
+              society.
+            </p>
+          </div>
+          <div class='theoretical-foundations-card'>
+            <h3 class='theoretical-foundations-title'>Decoloniality</h3>
+            <p class='theoretical-foundations-description'>
+              Exposing how colonial power structures persist beyond formal
+              empire — in economy, culture, and knowledge.
+            </p>
+          </div>
+          <div class='theoretical-foundations-card'>
+            <h3 class='theoretical-foundations-title'>Eco-Socialism</h3>
+            <p class='theoretical-foundations-description'>
+              Linking human liberation with ecological survival. The fight for
+              climate justice is inseparable from dismantling capitalism.
+            </p>
+          </div>
+          <div class='theoretical-foundations-card'>
+            <h3 class='theoretical-foundations-title'>Anti-Imperialism</h3>
+            <p class='theoretical-foundations-description'>
+              Centering the Global South's struggle against military, economic,
+              and ideological domination by imperial powers.
+            </p>
+          </div>
+          <div class='theoretical-foundations-card'>
+            <h3 class='theoretical-foundations-title'>
+              Global South Perspective
+            </h3>
+            <p class='theoretical-foundations-description'>
+              Writing from Africa for the world — reclaiming narrative space
+              from Western academia and media.
+            </p>
+          </div>
+          <div class='theoretical-foundations-card'>
+            <h3 class='theoretical-foundations-title'>Praxis Over Theory</h3>
+            <p class='theoretical-foundations-description'>
+              Ideas matter only when they serve struggle. Thought must guide
+              action, not become a substitute for it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </Layout>
+
+<style>
+  .landing-page {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--content-padding);
+  }
+
+  .hero {
+    text-align: center;
+    padding: calc(var(--grid-unit) * 12) 0 calc(var(--grid-unit) * 8);
+    background: linear-gradient(
+      135deg,
+      var(--color-surface) 0%,
+      var(--color-background) 100%
+    );
+  }
+
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 var(--content-padding);
+  }
+
+  .hero-title {
+    font-family: var(--font-heading-primary);
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    line-height: 0.9;
+    margin-bottom: calc(var(--grid-unit) * 2);
+  }
+
+  .hero-subtitle {
+    font-family: var(--font-heading-secondary);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: calc(var(--grid-unit) * 3);
+  }
+
+  .hero-description {
+    font-size: 1.375rem;
+    line-height: 1.6;
+    color: var(--color-text-primary);
+    margin-bottom: calc(var(--grid-unit) * 4);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-rule {
+    height: 6px;
+    background-color: var(--color-accent);
+    border: none;
+    width: 150px;
+    margin: 0 auto calc(var(--grid-unit) * 4);
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: calc(var(--grid-unit) * 2);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    font-family: var(--font-heading-secondary);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: calc(var(--grid-unit) * 1.5) calc(var(--grid-unit) * 3);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.95rem;
+  }
+
+  .btn-primary {
+    background-color: var(--color-accent);
+    color: white;
+    border: 2px solid var(--color-accent);
+  }
+
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background-color: transparent;
+    color: var(--color-accent);
+    transform: translateY(-2px);
+  }
+
+  .btn-secondary {
+    background-color: transparent;
+    color: var(--color-text-primary);
+    border: 2px solid var(--color-border);
+  }
+
+  .btn-secondary:hover,
+  .btn-secondary:focus {
+    background-color: var(--color-text-primary);
+    color: var(--color-background);
+    transform: translateY(-2px);
+  }
+
+  :global([data-theme='dark']) .btn-primary {
+    background-color: var(--color-accent);
+    color: white;
+    border-color: var(--color-accent);
+  }
+
+  :global([data-theme='dark']) .btn-primary:hover,
+  :global([data-theme='dark']) .btn-primary:focus {
+    background-color: transparent;
+    color: var(--color-accent);
+  }
+
+  :global([data-theme='dark']) .btn-secondary {
+    background-color: transparent;
+    color: var(--color-text-primary);
+    border-color: var(--color-border);
+  }
+
+  :global([data-theme='dark']) .btn-secondary:hover,
+  :global([data-theme='dark']) .btn-secondary:focus {
+    background-color: var(--color-accent);
+    color: white;
+    border-color: var(--color-accent);
+  }
+
+  .features {
+    padding: calc(var(--grid-unit) * 8) 0;
+  }
+
+  .section-title {
+    font-family: var(--font-heading-secondary);
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: calc(var(--grid-unit) * 6);
+    text-align: center;
+  }
+
+  .theoretical-foundations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: calc(var(--grid-unit) * 4);
+  }
+
+  .theoretical-foundations-card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: calc(var(--grid-unit) * 4);
+    text-align: center;
+    transition:
+      transform 0.3s ease,
+      border-color 0.3s ease;
+  }
+
+  .theoretical-foundations-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-accent);
+  }
+
+  .theoretical-foundations-title {
+    font-family: var(--font-heading-secondary);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: calc(var(--grid-unit) * 1.5);
+  }
+
+  .theoretical-foundations-description {
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .blog-section {
+    padding: calc(var(--grid-unit) * 8) 0;
+  }
+
+  .blog-description {
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--color-text-secondary);
+    margin-bottom: calc(var(--grid-unit) * 6);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blog-posts {
+    display: grid;
+    gap: calc(var(--grid-unit) * 4);
+    margin-bottom: calc(var(--grid-unit) * 6);
+  }
+
+  .blog-post-card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: calc(var(--grid-unit) * 3);
+    transition:
+      transform 0.2s ease,
+      border-color 0.2s ease;
+  }
+
+  .blog-post-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--color-accent);
+  }
+
+  .blog-post-title {
+    font-family: var(--font-heading-secondary);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: calc(var(--grid-unit));
+  }
+
+  .blog-post-title a {
+    color: var(--color-text-primary);
+    text-decoration: none;
+  }
+
+  .blog-post-title a:hover,
+  .blog-post-title a:focus {
+    color: var(--color-accent);
+  }
+
+  .blog-post-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: calc(var(--grid-unit));
+    margin-bottom: calc(var(--grid-unit) * 1.5);
+  }
+
+  .demo-post-date {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .blog-post-reading-time {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .blog-post-reading-time::before {
+    content: '•';
+    margin: 0 calc(var(--grid-unit) / 2);
+    color: var(--color-border);
+  }
+
+  .blog-post-excerpt {
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin-bottom: calc(var(--grid-unit) * 2);
+  }
+
+  .blog-post-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(var(--grid-unit) / 2);
+  }
+
+  .blog-category {
+    background-color: var(--color-text-primary);
+    color: white;
+    padding: calc(var(--grid-unit) / 4) calc(var(--grid-unit) / 2);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 2px;
+  }
+
+  :global([data-theme='dark']) .blog-category {
+    background-color: var(--color-surface);
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border);
+  }
+
+  .blog-actions {
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 3rem;
+    }
+
+    .hero-subtitle {
+      font-size: 1.25rem;
+    }
+
+    .hero-description {
+      font-size: 1.125rem;
+    }
+
+    .hero-actions {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .theoretical-foundations-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

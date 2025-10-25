@@ -1,45 +1,61 @@
-# Gemini Instructions for 'Timothy for Change'
+# AI Coding Agent Instructions for "Timothy for Change"
 
 ## Project Overview
 
-- Advocacy site analyzing structural violence, built with Astro for static site generation. Focuses on global crises' historical/economic roots. No backend; all data static.
+- **Framework:** Astro (with MDX integration)
+- **Language:** TypeScript, CSS
+- **Purpose:** Eco-socialist analysis and decolonial thought from Africa and the Global South — for people and planet. The site is for people and planet: eco-socialist analysis from Africa and the Global South, with a focus on decolonisation, climate, and liberation
 
-## Behaviour
+## Architecture & Key Patterns
 
-- Use context7 for latest package docs before recommendations.
-- Use British English in content, docs, comments.
-- Follow DRY, YAGNI, KISS principles.
-
-## Architecture & Conventions
-
-- **Components**: UI in `src/components/`, grouped by feature (e.g., `country/`, `ui/`). Use `.astro` for markup.
-- **Content**: JSON data in `src/data/countries/` (e.g., `palestine.json`). Minimize hardcoded text.
-- **Routing**: Dynamic routes like `[country].astro` in `src/pages/`.
-- **Data Flow**: JSON → Zod validation (e.g., `CountryDataSchema.safeParse()`) → dynamic imports (e.g., `import(\`../data/countries/${countrySlug}.json\`)`) → components → static HTML.
-- **Validation**: Runtime Zod validation; JSON schemas auto-generated from Zod via `scripts/generate-json-schemas.ts`.
-- **Styling**: CSS variables in `src/styles/global.css` (e.g., `--text-primary`, `--section-gap`).
-- **Types**: TypeScript interfaces in `src/types/`, constants in `src/constants/`.
+- **Content:** Blog posts are Markdown/MDX files in `src/content/blog/`. MDX supports embedded JSX.
+- **Components:** All UI elements (Header, Footer, Sidebar, Layout, SEO, ThemeToggle, TableOfContents) are in `src/components/` as `.astro` files.
+- **Pages:** Route files in `src/pages/` (e.g., `index.astro`, `blog.astro`, dynamic `[...slug].astro`).
+- **Config:** Site-wide settings in `src/config.ts` (title, author, social, siteUrl).
+- **Styling:** Global styles and CSS variables in `src/styles/global.css`. Dark mode and typography are controlled here.
+- **Utils:** Utility functions (reading time, TOC, slugify) in `src/utils/`.
+- **Public Assets:** Images, SVGs, and JS in `public/`.
 
 ## Developer Workflows
 
-- **Install/Run**: `npm install`, `npm run dev` (includes `tsc --noEmit`), `npm run build`, `npm run preview`.
-- **Schema Gen**: `npm run generate:schemas` (auto-runs in build; don't edit `src/schemas/json/` manually).
-- **Lint/Format**: `npm run lint` (ESLint auto-fix), `npm run format` (Prettier).
-- **Data Updates**: Edit JSON in `src/data/countries/`, validate against `src/schemas/country-data.ts`.
+- **Install:** `npm install`
+- **Dev Server:** `npm run dev` (local at `localhost:4321`)
+- **Build:** `npm run build` (output to `./dist/`)
+- **Preview:** `npm run preview`
+- **Type Check:** `npm run check`
+- **Lint:** `npm run lint`
 
-## Code Patterns & Examples
+## Project-Specific Conventions
 
-- **Props**: `export interface Properties { countryName: string; countrySlug?: string; }`
-- **Data Loading**: `const countryModule = await import(\`../data/countries/${countrySlug}.json\`); return validateCountryData(countryModule.default);`
-- **Categories**: Use `COUNTRY_CATEGORIES` from `src/constants/category.ts` (e.g., 'Occupation & Imperialism').
-- **Validation**: `const result = Schema.safeParse(data); if (!result.success) throw new Error(\`Validation failed: ${result.error.message}\`);`
-- **Error Handling**: Descriptive throws in validators.
+- **Frontmatter:** Blog posts require `title` and `date` in frontmatter. Optional: `author`, `excerpt`, `categories`, `tags`, `image`, `draft`.
+- **Dark Mode:** Theme preference is persisted in localStorage and initialized via `public/theme-init.js` to prevent FOUC.
+- **Table of Contents:** Auto-generated for posts with headings (H2-H4) using `src/utils/table-of-contents.ts` and rendered by `TableOfContents.astro`.
+- **Reading Time:** Calculated via `src/utils/reading-time.ts` and displayed on posts.
+- **SEO:** Meta tags and structured data handled by `SEO.astro`.
+- **Type Safety:** All config and utility code is type-checked.
+- **Self-Hosted Fonts:** No external font dependencies; see `global.css` for font setup.
 
 ## Integration Points
 
-- **Astro**: Integrations: sitemap, compression, inline. Fontaine for fonts.
-- **Zod**: Schemas in `src/schemas/`, validators in `src/validators/`.
-- **Remixicon**: Icons like `ri-arrow-left-line`.
-- **TypeScript**: Strict mode, no unused vars.
+- **MDX:** Supports embedded JSX in blog posts.
 
-For unclear patterns, ask for clarification.
+## Examples
+
+- **Add a Blog Post:** Place `.md` or `.mdx` in `src/content/blog/` with required frontmatter.
+- **Add a Component:** Create `.astro` in `src/components/` and import in page/layout files.
+- **Customize Theme:** Edit CSS variables and font families in `src/styles/global.css`.
+- **Update Site Config:** Edit `src/config.ts` for title, author, social links, etc.
+
+## References
+
+- See `README.md` for full feature list, structure, and usage details.
+- Key files: `src/config.ts`, `src/components/`, `src/pages/`, `src/styles/global.css`, `src/utils/`, `public/`, `tests/`
+
+---
+
+**For AI agents:**
+
+- All new content and edits to content must use British English spelling.
+- Never add comments to code or content.
+
+Follow the above conventions and workflows. When in doubt, reference the README and config files for project-specific details. Prioritise type safety, accessibility, and performance in all code changes.

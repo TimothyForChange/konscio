@@ -1,0 +1,13 @@
+---
+export interface Props {
+  name: string;
+  size?: number;
+  class?: string;
+}
+const { name, size = 20, class: className = '' } = Astro.props;
+---
+
+<i
+  class={`ri-${name} ${className}`.trim()}
+  style={`font-size: ${size}px;`}
+  aria-hidden='true'></i>
