@@ -104,6 +104,7 @@ _The Congo does not need our pity._ It needs the end of a system that makes its 
 
 If the green transition is to mean anything, it must begin by dismantling the extractive relations that have long defined the Congo’s place in the world economy. Anything less is merely continuity in new clothes.
 
-> _“Justice demands that extraction be transformed into stewardship, and that stewardship be governed democratically by those who live on the land.”_
+> “The global economy is a war economy against the planet and people. The alternative is an economy of care.”
+> — _Vandana Shiva_
 
 — In solidarity with Congolese struggles for sovereignty, dignity and ecological survival.
