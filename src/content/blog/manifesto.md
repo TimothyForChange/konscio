@@ -1,6 +1,7 @@
 ---
 title: 'Why This Blog Exists: For People and Planet'
-datePublished: 2025-10-25
+datePublished: 2025-10-24
+dateModified: 2025-10-25
 description: 'Introducing Timothy for Change — an eco-socialist and decolonial platform from South Africa, dedicated to exposing structural violence and imagining a just future.'
 excerpt: 'Capitalism, colonialism, and climate collapse are not separate crises — they are one system of domination expressed through different forms. This opening statement defines the mission and values of Timothy for Change: an eco-socialist, decolonial platform from South Africa for people and planet.'
 image: /manifesto.jpg
