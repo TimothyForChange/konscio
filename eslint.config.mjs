@@ -1,6 +1,7 @@
 import css from '@eslint/css';
 import eslint from '@eslint/js';
 import json from '@eslint/json';
+import markdown from '@eslint/markdown';
 import ts from '@typescript-eslint/eslint-plugin';
 import prettier from 'eslint-config-prettier/flat';
 import astro from 'eslint-plugin-astro';
@@ -13,6 +14,7 @@ const tsFiles = ['*.ts'];
 const astroFiles = ['*.astro'];
 const cssFiles = ['*.css', '*.astro'];
 const jsonFiles = ['*.json'];
+const markdownFiles = ['*.md'];
 const unicornFiles = ['*.js', '*.ts', '*.mjs', '*.astro'];
 
 const jsPlugins = { sonarjs };
@@ -20,6 +22,7 @@ const tsPlugins = { '@typescript-eslint': ts, sonarjs };
 const astroPlugins = { astro };
 const cssPlugins = { css };
 const jsonPlugins = { json };
+const markdownPlugins = { markdown };
 const unicornPlugins = { unicorn };
 
 export default defineConfig(
@@ -63,6 +66,12 @@ export default defineConfig(
     language: 'json/json',
     plugins: jsonPlugins,
     rules: json.configs.recommended.rules,
+  },
+  {
+    files: markdownFiles,
+    language: 'gfm',
+    plugins: markdownPlugins,
+    rules: {},
   },
   {
     files: unicornFiles,
