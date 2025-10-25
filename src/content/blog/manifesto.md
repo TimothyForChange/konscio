@@ -64,6 +64,7 @@ To write is to resist forgetting.
 To analyse is to fight despair with understanding.
 To imagine a better world is already an act of defiance.
 
-> _“Liberation is impossible without dismantling the systems that exploit both people and the planet — and that a decolonised, eco-socialist future is not optional, but necessary.”_
+> “We must choose either champagne for a few or safe drinking water for all.”
+> — _Thomas Sankara_
 
 Welcome to **Timothy for Change** — for people and planet.
