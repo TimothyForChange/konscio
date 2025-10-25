@@ -14,8 +14,8 @@ const allPosts = [
 ] as any[];
 const sortedPosts = allPosts.sort(
   (a: any, b: any) =>
-    new Date(b.frontmatter.date).getTime() -
-    new Date(a.frontmatter.date).getTime()
+    new Date(b.frontmatter.datePublished).getTime() -
+    new Date(a.frontmatter.datePublished).getTime()
 );
 ---
 
@@ -46,12 +46,18 @@ const sortedPosts = allPosts.sort(
               </h2>
 
               <div class='post-meta'>
-                <time class='post-date' datetime={post.frontmatter.date}>
-                  {new Date(post.frontmatter.date).toLocaleDateString('en-GB', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                  })}
+                <time
+                  class='post-date'
+                  datetime={post.frontmatter.datePublished}
+                >
+                  {new Date(post.frontmatter.datePublished).toLocaleDateString(
+                    'en-GB',
+                    {
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric',
+                    }
+                  )}
                 </time>
 
                 <span class='post-reading-time'>

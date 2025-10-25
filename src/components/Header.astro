@@ -306,7 +306,7 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
           <a href="${base}${post.url.startsWith('/') ? post.url.slice(1) : post.url}">${post.title}</a>
         </h3>
         <time class="search-result-date">${new Date(
-          post.date
+          post.datePublished
         ).toLocaleDateString('en-GB', {
           year: 'numeric',
           month: 'long',

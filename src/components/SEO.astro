@@ -7,8 +7,8 @@ export interface Props {
   description?: string;
   image?: string;
   type?: 'website' | 'article';
-  publishedTime?: string;
-  modifiedTime?: string;
+  datePublished?: string;
+  dateModified?: string;
   categories?: string[];
   tags?: string[];
   canonical?: string;
@@ -19,8 +19,8 @@ const {
   description = SITE_DESCRIPTION,
   image = '/og-image.webp',
   type = 'website',
-  publishedTime,
-  modifiedTime,
+  datePublished,
+  dateModified,
   categories,
   tags,
   canonical,
@@ -43,8 +43,8 @@ const imageURL = new URL(image, Astro.site);
 <meta property='og:site_name' content={SITE_TITLE} />
 <meta property='og:locale' content='en_US' />
 {
-  publishedTime && (
-    <meta property='article:published_time' content={publishedTime} />
+  datePublished && (
+    <meta property='article:published_time' content={datePublished} />
   )
 }
 {
@@ -52,8 +52,8 @@ const imageURL = new URL(image, Astro.site);
     <>
       <meta property='article:author' content={config.author.name} />
       <meta property='article:section' content={categories?.[0] || 'Blog'} />
-      {modifiedTime && (
-        <meta property='article:modified_time' content={modifiedTime} />
+      {dateModified && (
+        <meta property='article:modified_time' content={dateModified} />
       )}
     </>
   )
@@ -74,8 +74,8 @@ const imageURL = new URL(image, Astro.site);
           description: description,
           url: canonicalURL.toString(),
           image: imageURL.toString(),
-          datePublished: publishedTime,
-          ...(modifiedTime && { dateModified: modifiedTime }),
+          datePublished: datePublished,
+          ...(dateModified && { dateModified: dateModified }),
           ...(categories &&
             categories.length > 0 && { articleSection: categories[0] }),
           ...(tags && tags.length > 0 && { keywords: tags.join(', ') }),

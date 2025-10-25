@@ -40,8 +40,11 @@ const { frontmatter, Content } = post as any;
 
 const pageTitle = frontmatter.title;
 const base = BASE_URL;
-const publishedTime = frontmatter.date
-  ? new Date(frontmatter.date).toISOString()
+const datePublished = frontmatter.datePublished
+  ? new Date(frontmatter.datePublished).toISOString()
+  : undefined;
+const dateModified = frontmatter.dateModified
+  ? new Date(frontmatter.dateModified).toISOString()
   : undefined;
 ---
 
@@ -49,16 +52,17 @@ const publishedTime = frontmatter.date
   title={pageTitle}
   description={frontmatter.description || frontmatter.excerpt}
   type='article'
-  publishedTime={publishedTime}
+  datePublished={datePublished}
+  dateModified={dateModified}
 >
   <article class='blog-post'>
     <header class='post-header'>
       <h1 class='post-title'>{frontmatter.title}</h1>
 
       <div class='post-meta'>
-        <time class='post-date' datetime={frontmatter.date}>
+        <time class='post-date' datetime={frontmatter.datePublished}>
           {
-            new Date(frontmatter.date).toLocaleDateString('en-GB', {
+            new Date(frontmatter.datePublished).toLocaleDateString('en-GB', {
               year: 'numeric',
               month: 'long',
               day: 'numeric',
@@ -105,6 +109,21 @@ const publishedTime = frontmatter.date
                 <span class='tag'>{tag}</span>
               ))}
             </div>
+          </div>
+        )
+      }
+
+      {
+        frontmatter.dateModified && (
+          <div class='post-modified-date'>
+            <span>Last modified: </span>
+            <time datetime={frontmatter.dateModified}>
+              {new Date(frontmatter.dateModified).toLocaleDateString('en-GB', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+              })}
+            </time>
           </div>
         )
       }
