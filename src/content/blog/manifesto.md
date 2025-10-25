@@ -1,7 +1,6 @@
 ---
 title: 'Why This Blog Exists: For People and Planet'
 datePublished: 2025-10-25
-dateModified: 2025-10-25
 description: 'Introducing Timothy for Change — an eco-socialist and decolonial platform from South Africa, dedicated to exposing structural violence and imagining a just future.'
 categories: ['Editorial']
 tags:
