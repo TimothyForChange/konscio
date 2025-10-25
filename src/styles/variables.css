@@ -9,7 +9,7 @@
   /* Accent Color */
   --color-accent-red: #dc2626;
 
-  /* Semantic Colors */
+  /* Semantic Colours */
   --color-background: var(--color-white);
   --color-surface: var(--color-light-gray);
   --color-text-primary: var(--color-black);
@@ -19,10 +19,16 @@
   --color-accent: var(--color-accent-red);
 
   /* Typography */
-  --font-heading-primary: 'Oswald', sans-serif;
-  --font-heading-secondary: 'Roboto Condensed', sans-serif;
-  --font-body: 'Work Sans', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
+  --font-heading-primary:
+    'Oswald', 'Bebas Neue', 'Impact', 'Arial Narrow', 'Helvetica Neue',
+    sans-serif;
+  --font-heading-secondary:
+    'Work Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  --font-body:
+    'Work Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  --font-mono:
+    'JetBrains Mono', 'Fira Code', 'Consolas', 'Liberation Mono', 'Courier New',
+    monospace;
 
   /* Layout */
   --grid-unit: 8px;
