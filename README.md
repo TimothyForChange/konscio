@@ -33,16 +33,20 @@ An Astro-powered blog exploring capitalism, colonialism, and climate collapse th
 
 ✓ **Type-Safe** - Full TypeScript support
 
-✓ **Easy Configuration** - Single config file for all settings
+✓ **RSS Feed** - Automatic RSS feed generation for content syndication
+
+✓ **Search Functionality** - Built-in search with JSON index
+
+✓ **Categories System** - Organized content by categories with dedicated pages
 
 ## 💻 Tech Stack
 
 - **Framework:** [Astro](https://astro.build) with MDX integration
 - **Language:** TypeScript
 - **Styling:** Scoped CSS with CSS Variables and Dark Mode support
-- **Fonts:** Self-hosted via @fontsource (Oswald, Roboto Condensed, Work Sans, JetBrains Mono)
-- **Icons:** Lucide icons via @lucide/astro
-- **Build Tools:** Astro Compressor, PurgeCSS for optimisation
+- **Fonts:** Self-hosted via @fontsource (Oswald, Work Sans, JetBrains Mono)
+- **Icons:** Remixicon icons
+- **Build Tools:** Astro Compressor, PurgeCSS, Playform Inline, Fontaine for optimisation
 
 ## 🛠️ Quick Start
 
@@ -87,7 +91,7 @@ konscio/
 │   ├── components/
 │   │   ├── Footer.astro     # Site footer with social links
 │   │   ├── Header.astro     # Site header with navigation
-│   │   ├── Icon.astro       # Icon component using Lucide
+│   │   ├── Icon.astro       # Icon component using Remixicon
 │   │   ├── Layout.astro     # Main layout wrapper
 │   │   ├── SEO.astro        # SEO meta tags and structured data
 │   │   ├── Sidebar.astro    # Desktop sidebar component
@@ -108,7 +112,6 @@ konscio/
 │   │   ├── categories/
 │   │   │   └── [category].astro # Category-specific pages
 │   │   ├── rss.xml.js       # RSS feed generation
-│   │   ├── search.json.js   # Search index generation
 │   │   └── search.json.js   # Search index generation
 │   ├── styles/
 │   │   └── global.css       # Global styles with dark mode support
@@ -118,7 +121,7 @@ konscio/
 │   │   └── table-of-contents.ts # TOC generation utilities
 │   └── config.ts            # Site configuration
 ├── plugins/
-│   └── remark-reading-time.mjs # Remark plugin for reading time calculation
+│   └── remark-reading-time.mjs # Custom remark plugin for reading time calculation
 ├── astro.config.mjs         # Astro configuration with MDX
 ├── eslint.config.mjs        # ESLint configuration
 ├── package.json
@@ -162,13 +165,14 @@ Create blog posts as Markdown or MDX files in `src/content/blog/`. MDX files sup
 ```markdown
 ---
 title: 'The Necessity of Decolonised Eco-Socialism'
-date: '2024-01-15'
+datePublished: '2024-01-15'
+dateModified: '2024-01-20'
+description: 'An in-depth analysis of why decolonised eco-socialism is essential for liberation'
 author: 'Timothy Brits'
 excerpt: 'Why liberation requires dismantling systems that exploit both people and planet'
 categories: ['Eco-Socialism', 'Decolonisation']
 tags: ['capitalism', 'colonialism', 'climate', 'liberation']
 image: '/images/decolonisation.jpg'
-draft: false
 ---
 
 Your content here...
@@ -180,16 +184,17 @@ More content...
 
 ### Frontmatter Reference
 
-| Field        | Type    | Required | Description                      |
-| ------------ | ------- | -------- | -------------------------------- |
-| `title`      | string  | Yes      | Post title                       |
-| `date`       | string  | Yes      | Publication date (YYYY-MM-DD)    |
-| `author`     | string  | No       | Author name (defaults to config) |
-| `excerpt`    | string  | No       | Brief description for listings   |
-| `categories` | array   | No       | Post categories                  |
-| `tags`       | array   | No       | Post tags                        |
-| `image`      | string  | No       | Featured image path              |
-| `draft`      | boolean | No       | Hide from listings if true       |
+| Field           | Type   | Required | Description                      |
+| --------------- | ------ | -------- | -------------------------------- |
+| `title`         | string | Yes      | Post title                       |
+| `description`   | string | No       | Post description for SEO         |
+| `datePublished` | string | Yes      | Publication date (YYYY-MM-DD)    |
+| `dateModified`  | string | No       | Last modified date (YYYY-MM-DD)  |
+| `excerpt`       | string | No       | Brief description for listings   |
+| `categories`    | array  | No       | Post categories                  |
+| `tags`          | array  | No       | Post tags                        |
+| `author`        | string | No       | Author name (defaults to config) |
+| `image`         | string | No       | Featured image path              |
 
 ## 🛠️ Commands
 
@@ -219,13 +224,6 @@ npm run build
 npm run preview
 ```
 
-### Recommended Hosting
-
-- **Netlify** - Automatic deployments from Git
-- **Vercel** - Global CDN with instant deployments
-- **GitHub Pages** - Free hosting for open source projects
-- **Railway** - Modern hosting platform
-
 ## 🤝 Contributing
 
 Contributions are welcome! This project focuses on eco-socialist analysis and decolonial thought. If you'd like to contribute:
@@ -238,7 +236,7 @@ Contributions are welcome! This project focuses on eco-socialist analysis and de
 
 ### Content Contributions
 
-If you'd like to contribute content, please ensure it aligns with the site's focus on eco-socialist analysis from Africa and the Global South.
+If you'd like to contribute content, please ensure it aligns with the site's focus on eco-socialist analysis and the Global South.
 
 ## 📄 License
 
@@ -247,192 +245,7 @@ This project is licensed under the CC0 1.0 Universal (CC0 1.0) Public Domain Ded
 ## 🙏 Acknowledgments
 
 - Built with [Astro](https://astro.build)
-- Icons by [Lucide](https://lucide.dev/)
-- Fonts by [Fontsource](https://fontsource.org/)
-- Inspired by the urgent need for decolonial, eco-socialist transformation
-
-## 📋 Project Information
-
-- **Author:** Timothy Brits
-- **Location:** South Africa
-- **Focus:** Eco-socialist analysis and decolonial thought
-- **Repository:** [GitHub](https://github.com/timothyforchange/konscio)
-- **Live Site:** [timothyforchange.co.za](https://timothyforchange.co.za)
-
----
-
-**Timothy for Change** • CC0 1.0 License
-
-## 📝 Writing Content
-
-### Blog Posts
-
-Create blog posts as Markdown or MDX files in `src/content/blog/`:
-
-```markdown
----
-title: 'The Intersection of Function and Form'
-date: '2024-01-15'
-author: 'Your Name'
-excerpt: 'Exploring how Bauhaus principles shaped modern design thinking'
-categories: ['Design', 'History']
-tags: ['bauhaus', 'modernism', 'typography']
-image: '/images/bauhaus-poster.jpg'
-draft: false
----
-
-Your content here...
-```
-
-### Frontmatter Reference
-
-| Field        | Type    | Required | Description                      |
-| ------------ | ------- | -------- | -------------------------------- |
-| `title`      | string  | Yes      | Post title                       |
-| `date`       | string  | Yes      | Publication date (YYYY-MM-DD)    |
-| `author`     | string  | No       | Author name (defaults to config) |
-| `excerpt`    | string  | No       | Brief description for listings   |
-| `categories` | array   | No       | Post categories                  |
-| `tags`       | array   | No       | Post tags                        |
-| `image`      | string  | No       | Featured image path              |
-| `draft`      | boolean | No       | Hide from listings if true       |
-
-## 🛠️ Commands
-
-All commands are run from the root of the project:
-
-| Command                 | Action                                     |
-| ----------------------- | ------------------------------------------ |
-| `npm install`           | Install dependencies                       |
-| `npm run dev`           | Start local dev server at `localhost:4321` |
-| `npm run build`         | Build production site to `./dist/`         |
-| `npm run preview`       | Preview your build locally                 |
-| `npm run astro ...`     | Run CLI commands like `astro add`          |
-| `npm run check`         | Check TypeScript types                     |
-| `npm run lint`          | Run ESLint                                 |
-| `npm run test:features` | Run Playwright feature tests               |
-
-## 🚀 Deployment
-
-Volks-Typo can be deployed to any static hosting service. The theme now supports environment-based configuration for different deployment scenarios.
-
-### Configuration
-
-The theme uses environment variables to configure the deployment:
-
-1. Copy `.env.example` to `.env`
-2. Set the appropriate values based on your deployment target
-
-### Netlify / Vercel (Root Domain)
-
-```bash
-# No configuration needed - works out of the box!
-npm run build
-```
-
-Or set environment variables in your deployment platform:
-
-```bash
-SITE=https://your-site.netlify.app
-```
-
-### GitHub Pages (Subdirectory)
-
-```bash
-# Set in .env or as environment variables
-SITE=https://yourusername.github.io
-npm run build
-```
-
-### Local Development with Base Path
-
-```bash
-# Set in .env
-SITE=http://localhost:4321
-BASE_PATH=/volks-typo/
-
-npm run dev
-```
-
-### Build Commands
-
-```bash
-# Standard build
-npm run build
-
-# Build with custom environment
-SITE=https://example.com BASE_PATH=/blog/ npm run build
-```
-
-## 📊 Performance
-
-Volks-Typo is optimized for speed and efficiency:
-
-- **Zero JavaScript** - Pure HTML and CSS
-- **Minimal CSS** - ~20KB gzipped total
-- **Self-hosted fonts** - No external requests
-- **Optimized images** - Using Astro's Image component
-- **Static generation** - Fast page loads
-
-## 🎯 Customization Guide
-
-### Colors
-
-Edit CSS variables in `src/styles/global.css`:
-
-```css
-:root {
-  /* Monotone Palette */
-  --color-white: #ffffff;
-  --color-light-gray: #f5f5f5;
-  --color-medium-gray: #888888;
-  --color-dark-gray: #333333;
-  --color-black: #000000;
-
-  /* Accent Color */
-  --color-accent-red: #dc2626;
-}
-```
-
-### Typography
-
-Modify font families in `src/styles/global.css`:
-
-```css
-:root {
-  --font-heading-primary: 'Oswald', sans-serif;
-  --font-heading-secondary: 'Roboto Condensed', sans-serif;
-  --font-body: 'Work Sans', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
-}
-```
-
-### Layout
-
-The theme uses CSS Grid for layouts. Key files:
-
-- `src/components/Layout.astro` - Main grid container
-- `src/components/Sidebar.astro` - Desktop sidebar
-- `src/styles/global.css` - Responsive breakpoints
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedication - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Built with [Astro](https://astro.build)
-- Icons by [Lucide](https://lucide.dev/)
+- Icons by [Remixicon](https://remixicon.com/)
 - Fonts by [Fontsource](https://fontsource.org/)
 - Inspired by the urgent need for decolonial, eco-socialist transformation
 
