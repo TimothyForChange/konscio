@@ -20,15 +20,12 @@
 
   /* Typography */
   --font-heading-primary:
-    'Oswald', 'Bebas Neue', 'Impact', 'Arial Narrow', 'Helvetica Neue',
-    sans-serif;
+    'Oswald', 'Bebas Neue', 'Impact', 'Arial Narrow', 'Helvetica Neue', sans-serif;
   --font-heading-secondary:
     'Work Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
-  --font-body:
-    'Work Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  --font-body: 'Work Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Arial', sans-serif;
   --font-mono:
-    'JetBrains Mono', 'Fira Code', 'Consolas', 'Liberation Mono', 'Courier New',
-    monospace;
+    'JetBrains Mono', 'Fira Code', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
 
   /* Layout */
   --grid-unit: 8px;

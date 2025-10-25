@@ -136,8 +136,7 @@ All site configuration is centralised in `src/config.ts`:
 ```typescript
 export const config: SiteConfig = {
   title: 'Timothy for Change',
-  tagline:
-    'For people and planet: eco-socialist analysis from Africa and the Global South',
+  tagline: 'For people and planet: eco-socialist analysis from Africa and the Global South',
   description:
     'Eco-socialist analysis and decolonial thought from Africa and the Global South — for people and planet.',
   author: {
@@ -172,7 +171,7 @@ author: 'Timothy Brits'
 excerpt: 'Why liberation requires dismantling systems that exploit both people and planet'
 categories: ['Eco-Socialism', 'Decolonisation']
 tags: ['capitalism', 'colonialism', 'climate', 'liberation']
-image: '/images/decolonisation.jpg'
+image: '/decolonisation.jpg'
 ---
 
 Your content here...
@@ -236,7 +235,17 @@ Contributions are welcome! This project focuses on eco-socialist analysis and de
 
 ### Content Contributions
 
-If you'd like to contribute content, please ensure it aligns with the site's focus on eco-socialist analysis and the Global South.
+If you'd like to contribute content, please ensure it aligns with the site's focus on eco-socialist analysis from Africa and the Global South.
+
+For detailed contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+### Code of Conduct
+
+This project has adopted a code of conduct to ensure a welcoming environment for all contributors. See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details.
+
+### Security
+
+If you discover a security vulnerability, please see our [Security Policy](SECURITY.md).
 
 ## 📄 License
 

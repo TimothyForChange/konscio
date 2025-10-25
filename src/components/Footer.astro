@@ -10,16 +10,15 @@ const currentYear = new Date().getFullYear();
     <div class='footer-info'>
       <p class='copyright'>
         © {currentYear}
-        {config.author.name}. All rights reserved.
+        {config.author.name}. Licensed under <a
+          href='https://creativecommons.org/publicdomain/zero/1.0/deed.en'
+          target='_blank'>CC0 1.0 Universal</a
+        >.
       </p>
       <p class='theme-credit'>
-        Powered by <a href='https://astro.build' target='_blank' rel='noopener'
-          >Astro</a
-        >
-        • <a
-          href='https://github.com/timothyforchange/konscio'
-          target='_blank'
-          rel='noopener'>Source Code on GitHub</a
+        Powered by <a href='https://astro.build' target='_blank' rel='noopener'>Astro</a>
+        • <a href='https://github.com/timothyforchange/konscio' target='_blank' rel='noopener'
+          >Source Code on GitHub</a
         >
       </p>
     </div>
@@ -69,11 +68,7 @@ const currentYear = new Date().getFullYear();
 
       {
         config.social.email && (
-          <a
-            href={`mailto:${config.social.email}`}
-            aria-label='Email'
-            class='social-link'
-          >
+          <a href={`mailto:${config.social.email}`} aria-label='Email' class='social-link'>
             <Icon name='mail-line' size={20} class='social-icon' />
           </a>
         )

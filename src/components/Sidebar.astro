@@ -6,10 +6,7 @@ const base = config.baseUrl;
 
 const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true });
 const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true });
-const allPosts = [
-  ...Object.values(mdPostsGlob),
-  ...Object.values(mdxPostsGlob),
-] as any[];
+const allPosts = [...Object.values(mdPostsGlob), ...Object.values(mdxPostsGlob)] as any[];
 const recentPosts = allPosts
   .sort(
     (a: any, b: any) =>
@@ -18,11 +15,7 @@ const recentPosts = allPosts
   )
   .slice(0, 5);
 
-const categories = [
-  ...new Set(
-    allPosts.flatMap((post: any) => post.frontmatter.categories || [])
-  ),
-];
+const categories = [...new Set(allPosts.flatMap((post: any) => post.frontmatter.categories || []))];
 ---
 
 <div class='sidebar-content'>
@@ -33,21 +26,15 @@ const categories = [
         <ul class='post-list'>
           {recentPosts.map((post) => (
             <li class='post-item'>
-              <a
-                href={`${base}blog/${slugifyPath(post.file)}`}
-                class='post-link'
-              >
+              <a href={`${base}blog/${slugifyPath(post.file)}`} class='post-link'>
                 {post.frontmatter.title}
               </a>
               <time class='post-date' datetime={post.frontmatter.datePublished}>
-                {new Date(post.frontmatter.datePublished).toLocaleDateString(
-                  'en-GB',
-                  {
-                    month: 'short',
-                    day: 'numeric',
-                    year: 'numeric',
-                  }
-                )}
+                {new Date(post.frontmatter.datePublished).toLocaleDateString('en-GB', {
+                  month: 'short',
+                  day: 'numeric',
+                  year: 'numeric',
+                })}
               </time>
             </li>
           ))}
@@ -63,10 +50,7 @@ const categories = [
         <ul class='category-list'>
           {categories.map((category) => (
             <li class='category-item'>
-              <a
-                href={`${base}/categories/${category.toLowerCase()}`}
-                class='category-link'
-              >
+              <a href={`${base}/categories/${category.toLowerCase()}`} class='category-link'>
                 {category}
               </a>
             </li>
