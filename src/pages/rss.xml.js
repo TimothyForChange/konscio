@@ -12,7 +12,7 @@ export async function GET(context) {
         .replace(/\.(md|mdx)$/, '');
       return {
         title: post.frontmatter.title,
-        pubDate: post.frontmatter.date,
+        pubDate: post.frontmatter.datePublished,
         description: post.frontmatter.excerpt || post.frontmatter.description,
         link: `/blog/${slug}/`,
       };

@@ -39,12 +39,15 @@ const categories = [
               >
                 {post.frontmatter.title}
               </a>
-              <time class='post-date' datetime={post.frontmatter.date}>
-                {new Date(post.frontmatter.date).toLocaleDateString('en-GB', {
-                  month: 'short',
-                  day: 'numeric',
-                  year: 'numeric',
-                })}
+              <time class='post-date' datetime={post.frontmatter.datePublished}>
+                {new Date(post.frontmatter.datePublished).toLocaleDateString(
+                  'en-GB',
+                  {
+                    month: 'short',
+                    day: 'numeric',
+                    year: 'numeric',
+                  }
+                )}
               </time>
             </li>
           ))}
