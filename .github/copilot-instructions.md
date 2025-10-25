@@ -19,7 +19,7 @@
 ## Developer Workflows
 
 - **Install:** `npm install`
-- **Dev Server:** `npm run dev` (local at `localhost:4321`)
+- **Dev Server:** `npm run dev` (runs `tsc --noEmit && astro dev` - type checks first)
 - **Build:** `npm run build` (output to `./dist/`)
 - **Preview:** `npm run preview`
 - **Type Check:** `npm run check`
@@ -28,16 +28,20 @@
 ## Project-Specific Conventions
 
 - **Frontmatter:** Blog posts require `title` and `date` in frontmatter. Optional: `author`, `excerpt`, `categories`, `tags`, `image`, `draft`.
-- **Dark Mode:** Theme preference is persisted in localStorage and initialized via `public/theme-init.js` to prevent FOUC.
+- **Content Schema:** Zod schema in `src/content/config.ts` validates blog posts with `z.coerce.date()` for date parsing.
+- **Dark Mode:** Theme preference persisted in localStorage and initialized via `public/theme-init.js` to prevent FOUC. CSS variables update via `[data-theme='dark']` selector.
 - **Table of Contents:** Auto-generated for posts with headings (H2-H4) using `src/utils/table-of-contents.ts` and rendered by `TableOfContents.astro`.
 - **Reading Time:** Calculated via `src/utils/reading-time.ts` and displayed on posts.
 - **SEO:** Meta tags and structured data handled by `SEO.astro`.
 - **Type Safety:** All config and utility code is type-checked.
 - **Self-Hosted Fonts:** No external font dependencies; see `global.css` for font setup.
+- **Color Palette:** Monotone palette with accent red, semantic color variables for light/dark themes.
 
 ## Integration Points
 
-- **MDX:** Supports embedded JSX in blog posts.
+- **MDX:** Supports embedded JSX in blog posts for rich content.
+- **Content Collections:** Astro's type-safe content system with Zod validation.
+- **Fontaine:** Optimizes self-hosted fonts from @fontsource packages.
 
 ## Examples
 
