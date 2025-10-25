@@ -10,17 +10,29 @@ An Astro-powered blog exploring capitalism, colonialism, and climate collapse th
 ## 🌟 Features
 
 ✓ **Eco-Socialist Analysis** - Critical examination of capitalism, colonialism, and climate systems
+
 ✓ **Decolonial Perspective** - Analysis from Africa and the Global South
+
 ✓ **Dark Mode Toggle** - Seamless theme switching with localStorage persistence
+
 ✓ **MDX Support** - Full support for both Markdown and MDX content files with embedded JSX
+
 ✓ **Reading Time Display** - Automatic calculation and display of estimated reading time
+
 ✓ **Table of Contents** - Auto-generated TOC with scroll spy navigation for long-form content
+
 ✓ **Responsive Layout** - Mobile-first design with elegant desktop sidebar
+
 ✓ **Minimal JavaScript** - Essential JS only for enhanced features, ensuring fast performance
+
 ✓ **SEO Optimized** - Built-in meta tags and structured data
+
 ✓ **Accessibility First** - Semantic HTML and ARIA attributes
+
 ✓ **Self-Hosted Fonts** - No external dependencies for privacy
+
 ✓ **Type-Safe** - Full TypeScript support
+
 ✓ **Easy Configuration** - Single config file for all settings
 
 ## 💻 Tech Stack
@@ -36,7 +48,7 @@ An Astro-powered blog exploring capitalism, colonialism, and climate collapse th
 
 ### Prerequisites
 
-- Node.js 18.14.1 or higher
+- Node.js 24.10.0 or higher
 - Git
 
 ### Installation
