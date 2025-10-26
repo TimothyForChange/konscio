@@ -7,6 +7,7 @@ image: ../../assets/congo-basin-africas-lungs-under-siege.jpg
 categories: ['Analysis']
 tags:
   [
+    'DRC',
     'Congo Basin',
     'Climate Justice',
     'Deforestation',
