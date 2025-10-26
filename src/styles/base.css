@@ -42,19 +42,3 @@ body {
   font-size: 1rem;
   font-weight: 400;
 }
-
-button,
-.btn,
-.button {
-  background: var(--color-accent-cta-bg);
-  color: var(--color-accent-cta-text);
-  border: 1px solid var(--color-accent-cta-bg);
-  padding: 0.5rem 0.9rem;
-  border-radius: 6px;
-  cursor: pointer;
-}
-button:hover,
-.btn:hover,
-.button:hover {
-  background: var(--color-accent-hover);
-}
