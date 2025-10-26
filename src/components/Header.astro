@@ -43,7 +43,13 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
 
     <div class='site-title'>
       <a href={base}>
-        <img src={base + 'site-title.svg'} alt={config.title} class='title-svg' />
+        <img
+          src={base + 'site-title.svg'}
+          alt={config.title}
+          class='title-svg'
+          width='280'
+          height='48'
+        />
       </a>
     </div>
 

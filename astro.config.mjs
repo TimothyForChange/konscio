@@ -11,9 +11,11 @@ import { getCachedHighlighter } from './src/utils/highlighter.js';
 
 const fontaineOptions = {
   fallbacks: [
+    'Oswald Variable',
     'Oswald',
-    'Roboto Condensed',
+    'Work Sans Variable',
     'Work Sans',
+    'JetBrains Mono Variable',
     'JetBrains Mono',
     'system-ui',
     'Segoe UI',
@@ -39,9 +41,37 @@ export default defineConfig({
     assetsInlineLimit: 4096,
     cacheDir: './.astro-cache',
   },
-  integrations: [mdx(), sitemap(), playformInline(), purgecss(), compressor()],
+  integrations: [
+    mdx(),
+    sitemap(),
+    playformInline({
+      Logger: 0,
+    }),
+    purgecss(),
+    compressor({
+      gzip: true,
+      brotli: true,
+      zstd: true,
+    }),
+  ],
   vite: {
     plugins: [FontaineTransform.vite(fontaineOptions)],
+    build: {
+      minify: 'terser',
+      terserOptions: {
+        compress: {
+          drop_console: true,
+          drop_debugger: true,
+        },
+      },
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            vendor: ['astro'],
+          },
+        },
+      },
+    },
   },
   markdown: {
     shikiConfig: {
