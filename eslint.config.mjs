@@ -58,20 +58,20 @@ export default defineConfig(
     files: cssFiles,
     language: 'css/css',
     plugins: cssPlugins,
-    rules: css.configs.recommended.rules,
+    rules: { ...css.configs.recommended.rules },
   },
   {
     files: jsonFiles,
     ignores: ['package-lock.json'],
     language: 'json/json',
     plugins: jsonPlugins,
-    rules: json.configs.recommended.rules,
+    rules: { ...json.configs.recommended.rules },
   },
   {
     files: markdownFiles,
     language: 'markdown/gfm',
     plugins: markdownPlugins,
-    rules: {},
+    rules: { ...markdown.configs.recommended.rules },
   },
   {
     files: unicornFiles,
