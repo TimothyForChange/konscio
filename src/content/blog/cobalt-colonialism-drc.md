@@ -1,7 +1,7 @@
 ---
 title: 'Cobalt Colonialism: How the DRC Powers the Global North’s Green Transition'
 datePublished: 2025-10-24
-dateModified: 2025-10-25
+dateModified: 2025-10-26
 description: 'An eco-socialist analysis of how global supply chains extract Congolese life and land for the Global North’s “green” transition.'
 excerpt: 'The DRC’s cobalt fuels the world’s “green” technologies — but the price is paid by its people and ecosystems. This post traces how colonial extraction survives inside the green transition.'
 image: ../../assets/cobalt-colonialism-drc.jpg
@@ -43,12 +43,12 @@ The Global North’s shift to “green” technologies requires vast quantities 
 
 A few structural points to note:
 
-- **Supply chains concentrate value outside the DRC.** Raw extraction is typically low-paid, dangerous and environmentally destructive; value is captured further along the chain — in refining, tech assembly and corporate branding — largely outside African borders.
+- **Supply chains concentrate value outside the DRC.** Raw extraction is typically low-paid and environmentally destructive; value is captured further along the chain — in refining, tech assembly and corporate branding — largely outside African borders.
 - **Actors of accumulation are multinational.** Mining firms, traders, smelters and a web of buyers and financiers — many with headquarters in the Global North or in transnational corporate hubs — structure the market and determine prices, labour standards and practices.
 - **Instability is profitable.** Weak governance, contested territories and conflict can be exploited to secure concessions, favourable contracts or control over informal economies. Instability becomes an economic condition, not only a humanitarian crisis.
 - **Green rhetoric masks continuity.** Calling a mine “critical for the energy transition” sanitises the social and ecological violence it produces and absolves consumers and states in the Global North from responsibility.
 
-The result is a peculiar inversion: the rhetoric of planetary care facilitates extraction regimes that threaten the very ecosystems and communities supposedly being protected.
+The result is a peculiar inversion: the rhetoric of environmental stewardship facilitates extraction regimes that threaten the very ecosystems and communities supposedly being protected.
 
 ---
 
