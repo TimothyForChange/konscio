@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://timothyforchange.co.za/sitemap-index.xml
