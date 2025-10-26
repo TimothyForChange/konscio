@@ -52,7 +52,6 @@
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-packagejson": "^2.5.19",
     "purgecss": "^7.0.2",
-    "radash": "^12.1.1",
     "reading-time": "^1.5.0",
     "remixicon": "^4.7.0",
     "schema-dts": "^1.1.5",
