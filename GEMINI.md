@@ -36,6 +36,9 @@
 - **Type Safety:** All config and utility code is type-checked.
 - **Self-Hosted Fonts:** No external font dependencies; see `global.css` for font setup.
 - **Colour Palette:** Monotone palette with accent red, semantic colour variables for light/dark themes.
+- **Language:** All new content and edits to content must use British English spelling.
+- **Code Style:** Never add comments to code or content.
+- **Development Environment:** Development for this project is done on Windows.
 
 ## Integration Points
 
@@ -54,12 +57,5 @@
 
 - See `README.md` for full feature list, structure, and usage details.
 - Key files: `src/config.ts`, `src/components/`, `src/pages/`, `src/styles/global.css`, `src/utils/`, `public/`, `tests/`
-
----
-
-**For AI agents:**
-
-- All new content and edits to content must use British English spelling.
-- Never add comments to code or content.
 
 Follow the above conventions and workflows. When in doubt, reference the README and config files for project-specific details. Prioritise type safety, accessibility, and performance in all code changes.
