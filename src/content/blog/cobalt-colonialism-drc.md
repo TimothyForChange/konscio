@@ -1,6 +1,7 @@
 ---
 title: 'Cobalt Colonialism: How the DRC Powers the Global North’s Green Transition'
-datePublished: 2025-10-25
+datePublished: 2025-10-24
+dateModified: 2025-10-25
 description: 'An eco-socialist analysis of how global supply chains extract Congolese life and land for the Global North’s “green” transition.'
 excerpt: 'The DRC’s cobalt fuels the world’s “green” technologies — but the price is paid by its people and ecosystems. This post traces how colonial extraction survives inside the green transition.'
 image: ../../assets/cobalt-colonialism-drc.jpg
