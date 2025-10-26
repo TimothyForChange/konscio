@@ -152,7 +152,9 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
     const mobileMenu = document.getElementById('mobile-menu');
     const body = document.body;
 
-    if (!hamburgerToggle || !mobileMenu) return;
+    if (!hamburgerToggle || !mobileMenu) {
+      return;
+    }
 
     hamburgerToggle.addEventListener('click', () => {
       const isOpen = mobileMenu.classList.contains('active');
@@ -192,12 +194,8 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
     searchResults: HTMLElement | null;
 
   async function initSearch() {
-    try {
-      const response = await fetch(base + 'search.json');
-      searchData = await response.json();
-    } catch (error) {
-      console.error('Failed to load search data:', error);
-    }
+    const response = await fetch(base + 'search.json');
+    searchData = await response.json();
 
     searchOverlay = document.getElementById('search-overlay');
     searchInput = document.getElementById('search-input') as HTMLInputElement;
@@ -229,8 +227,12 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
   function closeSearch() {
     searchOverlay?.classList.remove('active');
     document.body.style.overflow = '';
-    if (searchInput) searchInput.value = '';
-    if (searchResults) searchResults.innerHTML = '';
+    if (searchInput) {
+      searchInput.value = '';
+    }
+    if (searchResults) {
+      searchResults.innerHTML = '';
+    }
   }
 
   function handleSearch(e: Event) {
@@ -238,7 +240,9 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
     const query = target.value.toLowerCase().trim();
 
     if (query.length < 2) {
-      if (searchResults) searchResults.innerHTML = '';
+      if (searchResults) {
+        searchResults.innerHTML = '';
+      }
       return;
     }
 

@@ -5,7 +5,7 @@ import compressor from 'astro-compressor';
 import purgecss from 'astro-purgecss';
 import { defineConfig } from 'astro/config';
 import { FontaineTransform } from 'fontaine';
-import { remarkReadingTime } from './plugins/remark-reading-time.mjs';
+import { remarkReadingTime } from './plugins/remark-reading-time.ts';
 import { config } from './src/config';
 import { getCachedHighlighter } from './src/utils/highlighter.js';
 
@@ -37,6 +37,11 @@ export default defineConfig({
   base: config.baseUrl,
   trailingSlash: 'never',
   output: 'static',
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/sharp',
+    },
+  },
   build: {
     assetsInlineLimit: 4096,
     cacheDir: './.astro-cache',
@@ -50,7 +55,7 @@ export default defineConfig({
     purgecss(),
     compressor({
       gzip: true,
-      brotli: true,
+      brotli: false,
       zstd: true,
     }),
   ],

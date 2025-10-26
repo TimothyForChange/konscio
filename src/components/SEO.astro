@@ -1,5 +1,6 @@
 ---
 import { Schema } from 'astro-seo-schema';
+import ogImg from '../assets/og-image.jpg';
 import { config, SITE_DESCRIPTION, SITE_TITLE } from '../config';
 
 export interface Props {
@@ -17,7 +18,7 @@ export interface Props {
 const {
   title = SITE_TITLE,
   description = SITE_DESCRIPTION,
-  image = '/og-image.jpg',
+  image = ogImg.src,
   type = 'website',
   datePublished,
   dateModified,

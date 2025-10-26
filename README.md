@@ -142,7 +142,7 @@ export const config: SiteConfig = {
   author: {
     name: 'Timothy Brits',
     bio: 'Timothy writes from South Africa on capitalism, colonialism, and climate collapse. He believes liberation is impossible without dismantling the systems that exploit both people and the planet — and that a decolonised, eco-socialist future is not optional, but necessary.',
-    avatar: '/avatar.webp',
+    avatar: avatarImg.src,
   },
   social: {
     github: 'https://github.com/timothyforchange/konscio',
