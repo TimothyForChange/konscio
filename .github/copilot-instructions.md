@@ -27,7 +27,7 @@
 
 ## Project-Specific Conventions
 
-- **Frontmatter:** Blog posts require `title` and `date` in frontmatter. Optional: `author`, `excerpt`, `categories`, `tags`, `image`, `draft`.
+- **Frontmatter:** Blog posts require `title` and `datePublished` in frontmatter. Optional: `author`, `excerpt`, `categories`, `tags`, `image`.
 - **Content Schema:** Zod schema in `src/content/config.ts` validates blog posts with `z.coerce.date()` for date parsing.
 - **Dark Mode:** Theme preference persisted in localStorage and initialized via `public/theme-init.js` to prevent FOUC. CSS variables update via `[data-theme='dark']` selector.
 - **Table of Contents:** Auto-generated for posts with headings (H2-H4) using `src/utils/table-of-contents.ts` and rendered by `TableOfContents.astro`.
@@ -35,7 +35,7 @@
 - **SEO:** Meta tags and structured data handled by `SEO.astro`.
 - **Type Safety:** All config and utility code is type-checked.
 - **Self-Hosted Fonts:** No external font dependencies; see `global.css` for font setup.
-- **Color Palette:** Monotone palette with accent red, semantic color variables for light/dark themes.
+- **Colour Palette:** Monotone palette with accent red, semantic colour variables for light/dark themes.
 
 ## Integration Points
 
