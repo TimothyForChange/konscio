@@ -33,7 +33,9 @@ const sortedPosts = allPosts.sort(
           {sortedPosts.map((post: any) => (
             <article class='post-item'>
               <h2 class='post-title'>
-                <a href={`${base}blog/${slugifyPath(post.file)}`}>{post.frontmatter.title}</a>
+                <a href={`${base}blog/${slugifyPath(post.file)}`} data-astro-prefetch>
+                  {post.frontmatter.title}
+                </a>
               </h2>
 
               <div class='post-meta'>
@@ -58,7 +60,11 @@ const sortedPosts = allPosts.sort(
 
               {post.frontmatter.excerpt && <p class='post-excerpt'>{post.frontmatter.excerpt}</p>}
 
-              <a href={`${base}blog/${slugifyPath(post.file)}`} class='read-more'>
+              <a
+                href={`${base}blog/${slugifyPath(post.file)}`}
+                data-astro-prefetch
+                class='read-more'
+              >
                 Read More →
               </a>
             </article>

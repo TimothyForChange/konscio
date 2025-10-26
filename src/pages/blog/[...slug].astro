@@ -71,7 +71,11 @@ const dateModified = frontmatter.dateModified
           frontmatter.categories && frontmatter.categories.length > 0 && (
             <div class='post-categories'>
               {frontmatter.categories.map((category: string) => (
-                <a href={`${base}categories/${category.toLowerCase()}`} class='category-tag'>
+                <a
+                  href={`${base}categories/${category.toLowerCase()}`}
+                  data-astro-prefetch
+                  class='category-tag'
+                >
                   {category}
                 </a>
               ))}
@@ -121,7 +125,7 @@ const dateModified = frontmatter.dateModified
       }
 
       <div class='post-navigation'>
-        <a href={`${base}blog`} class='back-to-blog'>← Back to Blog</a>
+        <a href={`${base}blog`} data-astro-prefetch class='back-to-blog'>← Back to Blog</a>
       </div>
     </footer>
   </article>

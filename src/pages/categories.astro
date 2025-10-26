@@ -53,6 +53,7 @@ const sortedCategories = Object.entries(categoryMap).sort((a: any, b: any) => {
           <div class='category-card'>
             <a
               href={`${base}categories/${category.toLowerCase().replace(/[\/\s]+/g, '-')}`}
+              data-astro-prefetch
               class='category-link'
             >
               <h2 class='category-title'>{category}</h2>

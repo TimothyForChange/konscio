@@ -39,12 +39,12 @@ const sortedPosts = allPosts
         <p class='hero-description'>Eco-socialist analysis from Africa and the Global South.</p>
         <hr class='hero-rule' />
         <div class='hero-actions'>
-          <a href='#demo' class='btn btn-primary'>View Posts</a>
+          <a href='#posts' class='btn btn-primary'>View Posts</a>
         </div>
       </div>
     </section>
 
-    <section class='blog-section' id='demo'>
+    <section class='blog-section' id='posts'>
       <div class='container'>
         <h2 class='section-title'>Blog Posts</h2>
         <p class='blog-description'>
@@ -58,11 +58,13 @@ const sortedPosts = allPosts
               {sortedPosts.map((post) => (
                 <article class='blog-post-card'>
                   <h3 class='blog-post-title'>
-                    <a href={`/blog/${post.slug}`}>{post.frontmatter.title}</a>
+                    <a href={`/blog/${post.slug}`} data-astro-prefetch>
+                      {post.frontmatter.title}
+                    </a>
                   </h3>
 
                   <div class='blog-post-meta'>
-                    <time class='demo-post-date' datetime={post.frontmatter.datePublished}>
+                    <time class='blog-post-date' datetime={post.frontmatter.datePublished}>
                       {new Date(post.frontmatter.datePublished).toLocaleDateString('en-GB', {
                         year: 'numeric',
                         month: 'long',
@@ -90,7 +92,9 @@ const sortedPosts = allPosts
         }
 
         <div class='blog-actions'>
-          <a href={`${import.meta.env.BASE_URL}blog`} class='btn btn-primary'>View Blog</a>
+          <a href={`${import.meta.env.BASE_URL}blog`} data-astro-prefetch class='btn btn-primary'
+            >View Blog</a
+          >
         </div>
       </div>
     </section>
@@ -394,7 +398,7 @@ const sortedPosts = allPosts
     margin-bottom: calc(var(--grid-unit) * 1.5);
   }
 
-  .demo-post-date {
+  .blog-post-date {
     font-family: var(--font-mono);
     font-size: 0.85rem;
     color: var(--color-text-muted);

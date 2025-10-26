@@ -37,6 +37,9 @@ export default defineConfig({
   base: config.baseUrl,
   trailingSlash: 'never',
   output: 'static',
+  prefetch: {
+    defaultStrategy: 'viewport',
+  },
   image: {
     service: {
       entrypoint: 'astro/assets/services/sharp',

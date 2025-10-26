@@ -66,7 +66,9 @@ const base = BASE_URL;
         posts.map((post: any) => (
           <article class='post-item'>
             <h2 class='post-title'>
-              <a href={`${base}blog/${slugifyPath(post.file)}`}>{post.frontmatter.title}</a>
+              <a href={`${base}blog/${slugifyPath(post.file)}`} data-astro-prefetch>
+                {post.frontmatter.title}
+              </a>
             </h2>
 
             <div class='post-meta'>
@@ -81,7 +83,7 @@ const base = BASE_URL;
 
             {post.frontmatter.excerpt && <p class='post-excerpt'>{post.frontmatter.excerpt}</p>}
 
-            <a href={`${base}blog/${slugifyPath(post.file)}`} class='read-more'>
+            <a href={`${base}blog/${slugifyPath(post.file)}`} data-astro-prefetch class='read-more'>
               Read More →
             </a>
           </article>
@@ -90,7 +92,9 @@ const base = BASE_URL;
     </div>
 
     <div class='page-navigation'>
-      <a href={`${base}categories`} class='back-link'>← Back to All Categories</a>
+      <a href={`${base}categories`} data-astro-prefetch class='back-link'
+        >← Back to All Categories</a
+      >
     </div>
   </div>
 </Layout>
