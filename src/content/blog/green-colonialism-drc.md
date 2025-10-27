@@ -1,5 +1,6 @@
 ---
 title: 'Green Colonialism: How the DRC Powers the Global North’s Green Transition'
+author: 'Timothy Brits'
 datePublished: 2025-10-24
 dateModified: 2025-10-27
 description: 'An eco-socialist analysis of how global supply chains extract Congolese life and land for the Global North’s “green” transition.'
