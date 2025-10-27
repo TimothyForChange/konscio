@@ -1,0 +1,94 @@
+---
+import { config } from '../config';
+import Icon from './Icon.astro';
+
+interface Props {
+  size?: number;
+}
+
+const { size = 20 } = Astro.props;
+---
+
+<div class='social-links' style={`--icon-size: ${size}px`}>
+  {
+    config.social.github && (
+      <a
+        href={config.social.github}
+        target='_blank'
+        rel='noopener noreferrer'
+        aria-label='GitHub'
+        class='social-link'
+      >
+        <Icon name='github-line' size={size} class='social-icon' />
+      </a>
+    )
+  }
+
+  {
+    config.social.instagram && (
+      <a
+        href={config.social.instagram}
+        target='_blank'
+        rel='noopener noreferrer'
+        aria-label='Instagram'
+        class='social-link'
+      >
+        <Icon name='instagram-line' size={size} class='social-icon' />
+      </a>
+    )
+  }
+
+  {
+    config.social.threads && (
+      <a
+        href={config.social.threads}
+        target='_blank'
+        rel='noopener noreferrer'
+        aria-label='Threads'
+        class='social-link'
+      >
+        <Icon name='threads-line' size={size} class='social-icon' />
+      </a>
+    )
+  }
+
+  {
+    config.social.email && (
+      <a href={`mailto:${config.social.email}`} aria-label='Email' class='social-link'>
+        <Icon name='mail-line' size={size} class='social-icon' />
+      </a>
+    )
+  }
+</div>
+
+<style>
+  .social-links {
+    display: flex;
+    gap: calc(var(--grid-unit) * 1.5);
+    align-items: center;
+  }
+
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-text-primary);
+    color: var(--color-background);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+  }
+
+  .social-link:hover,
+  .social-link:focus {
+    background-color: var(--color-accent);
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+
+  .social-link svg {
+    width: var(--icon-size);
+    height: var(--icon-size);
+  }
+</style>

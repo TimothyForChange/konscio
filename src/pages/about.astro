@@ -1,6 +1,7 @@
 ---
 import Icon from '../components/Icon.astro';
 import Layout from '../components/Layout.astro';
+import SocialLinks from '../components/SocialLinks.astro';
 import { config } from '../config';
 
 const { title, description, author, social } = config;
@@ -43,41 +44,7 @@ const pageDescription = `Learn more about ${author.name} and the ${title} blog`;
       <h2 class='author-name'>{author.name}</h2>
       <p class='author-bio'>{author.bio}</p>
 
-      <div class='social-links'>
-        {
-          social.github && (
-            <a href={social.github} target='_blank' rel='noopener noreferrer' aria-label='GitHub'>
-              <Icon name='github-line' size={28} class='social-icon' />
-            </a>
-          )
-        }
-        {
-          social.instagram && (
-            <a
-              href={social.instagram}
-              target='_blank'
-              rel='noopener noreferrer'
-              aria-label='Instagram'
-            >
-              <Icon name='instagram-line' size={28} class='social-icon' />
-            </a>
-          )
-        }
-        {
-          social.threads && (
-            <a href={social.threads} target='_blank' rel='noopener noreferrer' aria-label='Threads'>
-              <Icon name='threads-line' size={28} class='social-icon' />
-            </a>
-          )
-        }
-        {
-          social.email && (
-            <a href={`mailto:${social.email}`} aria-label='Email'>
-              <Icon name='mail-line' size={28} class='social-icon' />
-            </a>
-          )
-        }
-      </div>
+      <SocialLinks size={28} />
     </div>
 
     <div class='content-section'>

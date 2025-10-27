@@ -1,0 +1,64 @@
+---
+interface Props {
+  base: string;
+}
+
+const { base } = Astro.props;
+---
+
+<nav class='mobile-menu' id='mobile-menu' aria-label='Mobile navigation'>
+  <ul class='mobile-nav-list'>
+    <li><a href={base} data-astro-prefetch class='mobile-nav-link'>Home</a></li>
+    <li><a href={base + 'blog'} data-astro-prefetch class='mobile-nav-link'>Blog</a></li>
+    <li>
+      <a href={base + 'categories'} data-astro-prefetch class='mobile-nav-link'>Categories</a>
+    </li>
+    <li><a href={base + 'about'} data-astro-prefetch class='mobile-nav-link'>About</a></li>
+  </ul>
+</nav>
+
+<style>
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-background);
+    z-index: 99;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+    padding-top: calc(var(--grid-unit) * 12);
+  }
+
+  .mobile-menu.active {
+    transform: translateX(0);
+  }
+
+  .mobile-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: calc(var(--grid-unit) * 4) 0;
+  }
+
+  .mobile-nav-link {
+    display: block;
+    padding: calc(var(--grid-unit) * 3) calc(var(--grid-unit) * 4);
+    font-family: var(--font-heading-secondary);
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text-primary);
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-border);
+    transition: all 0.2s ease;
+  }
+
+  .mobile-nav-link:hover,
+  .mobile-nav-link:focus {
+    color: var(--color-accent);
+    background-color: var(--color-surface);
+  }
+</style>

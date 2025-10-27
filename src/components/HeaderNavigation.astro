@@ -1,0 +1,54 @@
+---
+interface Props {
+  base: string;
+}
+
+const { base } = Astro.props;
+---
+
+<nav class='main-navigation' role='navigation' aria-label='Main navigation'>
+  <ul class='nav-list'>
+    <li><a href={base} data-astro-prefetch class='nav-link'>Home</a></li>
+    <li><a href={base + 'blog'} data-astro-prefetch class='nav-link'>Blog</a></li>
+    <li><a href={base + 'categories'} data-astro-prefetch class='nav-link'>Categories</a></li>
+    <li><a href={base + 'about'} data-astro-prefetch class='nav-link'>About</a></li>
+  </ul>
+</nav>
+
+<style>
+  .main-navigation {
+    flex-shrink: 0;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: calc(var(--grid-unit) * 3);
+  }
+
+  .nav-link {
+    font-family: var(--font-heading-secondary);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-primary);
+    padding: calc(var(--grid-unit) / 2) calc(var(--grid-unit));
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus {
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    .main-navigation {
+      display: none;
+    }
+  }
+</style>

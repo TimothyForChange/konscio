@@ -1,0 +1,90 @@
+---
+import { config } from '../config';
+
+const base = config.baseUrl;
+
+const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true });
+const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true });
+const allPosts = [...Object.values(mdPostsGlob), ...Object.values(mdxPostsGlob)] as any[];
+const categories = [...new Set(allPosts.flatMap((post: any) => post.frontmatter.categories || []))];
+---
+
+{
+  categories.length > 0 && (
+    <section class='categories'>
+      <h3 class='section-title'>Categories</h3>
+      <ul class='category-list'>
+        {categories.map((category) => (
+          <li class='category-item'>
+            <a
+              href={`${base}/categories/${category.toLowerCase()}`}
+              data-astro-prefetch
+              class='category-link'
+            >
+              {category}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<style>
+  .section-title {
+    font-family: var(--font-heading-secondary);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    margin-bottom: calc(var(--grid-unit) * 1.5);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: calc(var(--grid-unit) / 2);
+  }
+
+  .category-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(var(--grid-unit) / 2);
+  }
+
+  .category-item {
+    display: inline-block;
+  }
+
+  .category-link {
+    display: inline-block;
+    padding: calc(var(--grid-unit) / 4) calc(var(--grid-unit) / 2);
+    background-color: var(--color-text-primary);
+    color: var(--color-background);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    border-radius: 3px;
+    transition: background-color 0.2s ease;
+  }
+
+  .category-link:hover,
+  .category-link:focus {
+    background-color: var(--color-accent);
+    text-decoration: none;
+  }
+
+  :global([data-theme='dark']) .category-link {
+    background-color: var(--color-surface);
+    color: var(--color-text-primary);
+    border: 1px solid var(--color-border);
+  }
+
+  :global([data-theme='dark']) .category-link:hover,
+  :global([data-theme='dark']) .category-link:focus {
+    background-color: var(--color-accent);
+    color: white;
+    border-color: var(--color-accent);
+  }
+</style>
