@@ -8,7 +8,7 @@ const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true });
 const allPosts = [
   ...Object.values(mdPostsGlob),
   ...Object.values(mdxPostsGlob),
-] as any[];
+].filter((post: any) => !post.frontmatter.draft) as any[];
 const categories = [
   ...new Set(
     allPosts.flatMap((post: any) => post.frontmatter.categories || [])

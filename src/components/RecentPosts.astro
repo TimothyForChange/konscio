@@ -11,6 +11,7 @@ const allPosts = [
   ...Object.values(mdxPostsGlob),
 ] as any[];
 const recentPosts = allPosts
+  .filter((post: any) => !post.frontmatter.draft)
   .sort(
     (a: any, b: any) =>
       new Date(b.frontmatter.datePublished).getTime() -

@@ -1,5 +1,6 @@
 ---
 title: 'The Congo Basin: Africa’s Lungs Under Siege'
+author: 'Timothy Brits'
 datePublished: 2025-10-26
 dateModified: 2025-10-27
 description: 'An eco-socialist analysis of how deforestation, extractivism, and neo-colonial conservation threaten the Congo Basin — the planet’s second-largest rainforest and a vital climate stabiliser.'

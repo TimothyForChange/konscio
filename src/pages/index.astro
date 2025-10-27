@@ -18,6 +18,7 @@ const allPosts = [
   ),
 ] as any[];
 const sortedPosts = allPosts
+  .filter((post: any) => !post.frontmatter.draft)
   .sort(
     (a: any, b: any) =>
       new Date(b.frontmatter.datePublished).getTime() -

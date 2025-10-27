@@ -10,4 +10,5 @@ export const blogSchema = z.object({
   tags: z.array(z.string()).default([]),
   author: z.string().default('Anonymous'),
   image: z.string().optional(),
+  draft: z.boolean().default(false),
 });
