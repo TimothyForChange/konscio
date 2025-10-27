@@ -114,7 +114,7 @@ Yet it is being silenced by chainsaws, pipelines and profit.
 If we allow the Basin to die, we will have allowed a part of ourselves to die with it.
 
 > “Wake up, humanity! We are out of time. We must shake our conscience free of the rapacious capitalism, racism, and patriarchy that are destroying the Earth.”
-> — _Berta Cáceres, Indigenous Lenca environmental defender (assassinated 2016)_
+> — _Berta Cáceres, Indigenous Lenca environmental defender (assassinated 3 March 2016)_
 
 The fate of the Congo Basin is not a regional concern — it is the moral and ecological question of our time.
 Will humanity continue to consume the planet’s lungs, or will we finally learn to breathe in solidarity?
