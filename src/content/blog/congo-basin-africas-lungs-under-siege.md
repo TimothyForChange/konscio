@@ -45,8 +45,8 @@ Carbon credit schemes such as **REDD+** (Reducing Emissions from Deforestation a
 
 In practice, this means **climate finance replaces colonial tribute**: money flows northward in the form of credits, while local communities lose access to the land they have cared for over generations. Forests become commodities, not commons. The atmosphere becomes a marketplace, not a shared inheritance.
 
-> “The mechanical mind of mastery and control is at the root of the ecological crisis including climate change.”
-> — _Nnimmo Bassey, Nigerian environmentalist_
+> “Carbon trading and offsets are simply the privatization of the atmosphere. They allow polluters to buy the right to continue polluting.”
+> — _Nnimmo Bassey, To Cook a Continent (2012)_
 
 ---
 
