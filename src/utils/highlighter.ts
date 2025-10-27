@@ -7,7 +7,16 @@ export async function getCachedHighlighter() {
     try {
       highlighter = await createHighlighter({
         themes: ['github-dark'],
-        langs: ['javascript', 'typescript', 'astro', 'css', 'json', 'bash', 'html', 'markdown'],
+        langs: [
+          'javascript',
+          'typescript',
+          'astro',
+          'css',
+          'json',
+          'bash',
+          'html',
+          'markdown',
+        ],
       });
     } catch (error) {
       throw new Error(`Failed to create Shiki highlighter: ${error}`);

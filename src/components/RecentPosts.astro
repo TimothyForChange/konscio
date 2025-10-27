@@ -6,7 +6,10 @@ const base = config.baseUrl;
 
 const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true });
 const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true });
-const allPosts = [...Object.values(mdPostsGlob), ...Object.values(mdxPostsGlob)] as any[];
+const allPosts = [
+  ...Object.values(mdPostsGlob),
+  ...Object.values(mdxPostsGlob),
+] as any[];
 const recentPosts = allPosts
   .sort(
     (a: any, b: any) =>
@@ -23,15 +26,22 @@ const recentPosts = allPosts
       <ul class='post-list'>
         {recentPosts.map((post) => (
           <li class='post-item'>
-            <a href={`${base}blog/${slugifyPath(post.file)}`} data-astro-prefetch class='post-link'>
+            <a
+              href={`${base}blog/${slugifyPath(post.file)}`}
+              data-astro-prefetch
+              class='post-link'
+            >
               {post.frontmatter.title}
             </a>
             <time class='post-date' datetime={post.frontmatter.datePublished}>
-              {new Date(post.frontmatter.datePublished).toLocaleDateString('en-GB', {
-                month: 'short',
-                day: 'numeric',
-                year: 'numeric',
-              })}
+              {new Date(post.frontmatter.datePublished).toLocaleDateString(
+                'en-GB',
+                {
+                  month: 'short',
+                  day: 'numeric',
+                  year: 'numeric',
+                }
+              )}
             </time>
           </li>
         ))}

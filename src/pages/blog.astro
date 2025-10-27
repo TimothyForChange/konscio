@@ -8,7 +8,10 @@ const base = BASE_URL;
 const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true });
 const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true });
 
-const allPosts = [...Object.values(mdPostsGlob), ...Object.values(mdxPostsGlob)] as any[];
+const allPosts = [
+  ...Object.values(mdPostsGlob),
+  ...Object.values(mdxPostsGlob),
+] as any[];
 const sortedPosts = allPosts.sort(
   (a: any, b: any) =>
     new Date(b.frontmatter.datePublished).getTime() -
@@ -16,13 +19,17 @@ const sortedPosts = allPosts.sort(
 );
 ---
 
-<Layout title='Blog | Timothy for Change' description='All blog posts from Timothy for Change'>
+<Layout
+  title='Blog | Timothy for Change'
+  description='All blog posts from Timothy for Change'
+>
   <div class='blog-page'>
     <header class='blog-header'>
       <h1 class='blog-title'>Blog</h1>
       <p class='blog-description'>
-        Critical eco-socialist and decolonial analysis from Africa and the Global South — exposing
-        the systems that exploit both people and the planet.
+        Critical eco-socialist and decolonial analysis from Africa and the
+        Global South — exposing the systems that exploit both people and the
+        planet.
       </p>
       <hr class='blog-rule' />
     </header>
@@ -33,21 +40,32 @@ const sortedPosts = allPosts.sort(
           {sortedPosts.map((post: any) => (
             <article class='post-item'>
               <h2 class='post-title'>
-                <a href={`${base}blog/${slugifyPath(post.file)}`} data-astro-prefetch>
+                <a
+                  href={`${base}blog/${slugifyPath(post.file)}`}
+                  data-astro-prefetch
+                >
                   {post.frontmatter.title}
                 </a>
               </h2>
 
               <div class='post-meta'>
-                <time class='post-date' datetime={post.frontmatter.datePublished}>
-                  {new Date(post.frontmatter.datePublished).toLocaleDateString('en-GB', {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                  })}
+                <time
+                  class='post-date'
+                  datetime={post.frontmatter.datePublished}
+                >
+                  {new Date(post.frontmatter.datePublished).toLocaleDateString(
+                    'en-GB',
+                    {
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric',
+                    }
+                  )}
                 </time>
 
-                <span class='post-reading-time'>{post.frontmatter.minutesRead}</span>
+                <span class='post-reading-time'>
+                  {post.frontmatter.minutesRead}
+                </span>
 
                 {post.frontmatter.categories && (
                   <div class='post-categories'>
@@ -58,7 +76,9 @@ const sortedPosts = allPosts.sort(
                 )}
               </div>
 
-              {post.frontmatter.excerpt && <p class='post-excerpt'>{post.frontmatter.excerpt}</p>}
+              {post.frontmatter.excerpt && (
+                <p class='post-excerpt'>{post.frontmatter.excerpt}</p>
+              )}
 
               <a
                 href={`${base}blog/${slugifyPath(post.file)}`}
@@ -73,7 +93,8 @@ const sortedPosts = allPosts.sort(
       ) : (
         <div class='no-posts'>
           <p>
-            No posts available yet. Start writing by creating files in <code>src/pages/blog/</code>
+            No posts available yet. Start writing by creating files in{' '}
+            <code>src/pages/blog/</code>
           </p>
         </div>
       )

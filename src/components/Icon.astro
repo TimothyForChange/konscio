@@ -7,4 +7,7 @@ export interface Props {
 const { name, size = 20, class: className = '' } = Astro.props;
 ---
 
-<i class={`ri-${name} ${className}`.trim()} style={`font-size: ${size}px;`} aria-hidden='true'></i>
+<i
+  class={`ri-${name} ${className}`.trim()}
+  style={`font-size: ${size}px;`}
+  aria-hidden='true'></i>

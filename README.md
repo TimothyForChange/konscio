@@ -136,7 +136,8 @@ All site configuration is centralised in `src/config.ts`:
 ```typescript
 export const config: SiteConfig = {
   title: 'Timothy for Change',
-  tagline: 'For people and planet: eco-socialist analysis from Africa and the Global South',
+  tagline:
+    'For people and planet: eco-socialist analysis from Africa and the Global South',
   description:
     'Eco-socialist analysis and decolonial thought from Africa and the Global South — for people and planet.',
   author: {

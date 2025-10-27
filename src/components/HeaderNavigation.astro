@@ -9,9 +9,16 @@ const { base } = Astro.props;
 <nav class='main-navigation' role='navigation' aria-label='Main navigation'>
   <ul class='nav-list'>
     <li><a href={base} data-astro-prefetch class='nav-link'>Home</a></li>
-    <li><a href={base + 'blog'} data-astro-prefetch class='nav-link'>Blog</a></li>
-    <li><a href={base + 'categories'} data-astro-prefetch class='nav-link'>Categories</a></li>
-    <li><a href={base + 'about'} data-astro-prefetch class='nav-link'>About</a></li>
+    <li>
+      <a href={base + 'blog'} data-astro-prefetch class='nav-link'>Blog</a>
+    </li>
+    <li>
+      <a href={base + 'categories'} data-astro-prefetch class='nav-link'
+        >Categories</a>
+    </li>
+    <li>
+      <a href={base + 'about'} data-astro-prefetch class='nav-link'>About</a>
+    </li>
   </ul>
 </nav>
 
