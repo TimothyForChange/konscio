@@ -1,0 +1,186 @@
+---
+import Layout from '../components/Layout.astro';
+import { config } from '../config';
+
+const { title } = config;
+const pageDescription = `Privacy policy for ${title}`;
+---
+
+<Layout title={`Privacy Policy | ${title}`} description={pageDescription} showSidebar={false}>
+  <div class='privacy-page'>
+    <header class='page-header'>
+      <h1 class='page-title'>Privacy Policy</h1>
+      <hr class='page-rule' />
+    </header>
+
+    <div class='content-section'>
+      <p class='last-updated'>Last updated: 27 October 2025</p>
+
+      <h2>1. Introduction</h2>
+      <p>
+        Timothy for Change respects your privacy. This website does not collect, store, or sell any
+        personal information about you. We use a privacy-first analytics service to understand how
+        people use our site, without tracking or identifying anyone.
+      </p>
+
+      <h2>2. Analytics</h2>
+      <p>
+        We use <a href='https://www.cloudflare.com/web-analytics/' target='_blank' rel='noopener'
+          >Cloudflare Web Analytics</a
+        > to measure general website traffic and performance. Cloudflare's analytics are designed with
+        privacy in mind:
+      </p>
+      <ul>
+        <li>No cookies are used.</li>
+        <li>No personal data (such as IP addresses or unique identifiers) are collected.</li>
+        <li>
+          The information we see is aggregated and anonymous — for example, total page views,
+          referring websites, and countries of origin.
+        </li>
+      </ul>
+      <p>
+        This helps us understand which pages are most useful and how to improve the site — without
+        profiling or following visitors across the web.
+      </p>
+
+      <h2>3. Cookies and Tracking</h2>
+      <p>
+        We do not use cookies, fingerprinting, or any tracking technologies. You can browse this
+        site freely without being tracked or profiled.
+      </p>
+
+      <h2>4. Personal Data</h2>
+      <p>
+        We do not collect, store, or process any personal data. There are no forms, accounts,
+        newsletters, or login systems on this site.
+      </p>
+      <p>
+        If you contact us directly via email or social media, any information you share is handled
+        privately and not linked to website analytics.
+      </p>
+
+      <h2>5. Legal Basis</h2>
+      <p>
+        This site operates in compliance with the Protection of Personal Information Act (POPIA) of
+        South Africa, and aligns with the principles of the GDPR (EU) and CCPA (California). Because
+        we do not process identifiable personal data, most provisions of these laws do not apply.
+      </p>
+
+      <h2>6. Changes to This Policy</h2>
+      <p>
+        We may update this policy occasionally to reflect changes in technology or the law. The date
+        at the top of this page will always show the latest version.
+      </p>
+
+      <h2>7. Contact</h2>
+      <p>For any privacy-related questions, you can reach out to:</p>
+      <p>Timothy for Change<br />Email: contact@timothyforchange.co.za</p>
+
+      <h2>Summary</h2>
+      <p>
+        We don't track you. We don't use cookies. We don't sell or share data. We only see anonymous
+        stats to understand how the site performs — nothing more.
+      </p>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .privacy-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .page-header {
+    text-align: center;
+    margin-bottom: calc(var(--grid-unit) * 6);
+  }
+
+  .page-title {
+    font-family: var(--font-heading-primary);
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    line-height: 1.1;
+    margin-bottom: calc(var(--grid-unit) * 4);
+  }
+
+  .page-rule {
+    height: 4px;
+    background-color: var(--color-accent);
+    border: none;
+    width: 120px;
+    margin: 0 auto;
+  }
+
+  .content-section {
+    line-height: 1.7;
+  }
+
+  .content-section h2 {
+    font-family: var(--font-heading-secondary);
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top: calc(var(--grid-unit) * 6);
+    margin-bottom: calc(var(--grid-unit) * 3);
+  }
+
+  .content-section p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--color-text-primary);
+    margin-bottom: calc(var(--grid-unit) * 3);
+  }
+
+  .last-updated {
+    color: var(--color-text-muted);
+    font-size: 1rem;
+  }
+
+  .content-section ul {
+    margin: calc(var(--grid-unit) * 2) 0;
+    padding-left: calc(var(--grid-unit) * 3);
+  }
+
+  .content-section li {
+    margin-bottom: calc(var(--grid-unit) * 2);
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+
+  .content-section a {
+    color: var(--color-accent);
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  .content-section a:hover,
+  .content-section a:focus {
+    color: var(--color-text-primary);
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: 2.5rem;
+    }
+
+    .content-section h2 {
+      font-size: 1.5rem;
+    }
+
+    .content-section p,
+    .content-section li {
+      font-size: 1rem;
+    }
+
+    .last-updated {
+      font-size: 0.9rem;
+    }
+  }
+</style>

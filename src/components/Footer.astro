@@ -15,11 +15,13 @@ const currentYear = new Date().getFullYear();
           target='_blank'>CC0 1.0 Universal</a
         >.
       </p>
-      <p class='theme-credit'>
-        Powered by <a href='https://astro.build' target='_blank' rel='noopener'>Astro</a>
-        • <a href='https://github.com/timothyforchange/konscio' target='_blank' rel='noopener'
+      <p class='source-code'>
+        <a href='https://github.com/timothyforchange/konscio' target='_blank' rel='noopener'
           >Source Code on GitHub</a
         >
+      </p>
+      <p class='privacy-link' data-astro-prefetch>
+        <a href='/privacy-policy'>Privacy Policy</a>
       </p>
     </div>
 
@@ -53,20 +55,27 @@ const currentYear = new Date().getFullYear();
   }
 
   .copyright,
-  .theme-credit {
+  .source-code,
+  .privacy-link {
     margin: 0;
     font-size: 0.9rem;
     color: var(--color-text-muted);
   }
 
-  .copyright a {
+  .copyright a,
+  .source-code a,
+  .privacy-link a {
     color: var(--color-accent);
     text-decoration: underline;
     font-weight: 500;
   }
 
   .copyright a:hover,
-  .copyright a:focus {
+  .copyright a:focus,
+  .source-code a:hover,
+  .source-code a:focus,
+  .privacy-link a:hover,
+  .privacy-link a:focus {
     color: var(--color-text-primary);
     text-decoration: none;
   }
