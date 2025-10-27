@@ -119,7 +119,9 @@ konscio/
 │   │   ├── highlighter.ts   # Syntax highlighting utilities
 │   │   ├── slugify.ts       # URL slug generation utilities
 │   │   └── table-of-contents.ts # TOC generation utilities
-│   └── config.ts            # Site configuration
+ │   ├── schemas/
+ │   │   └── blog.ts          # Zod schema for blog post frontmatter
+ │   └── config.ts            # Site configuration
 ├── plugins/
 │   └── remark-reading-time.mjs # Custom remark plugin for reading time calculation
 ├── astro.config.mjs         # Astro configuration with MDX
@@ -250,23 +252,12 @@ If you discover a security vulnerability, please see our [Security Policy](SECUR
 
 ## 📄 License
 
-This project is licensed under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedication - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
 - Built with [Astro](https://astro.build)
 - Icons by [Remixicon](https://remixicon.com/)
 - Fonts by [Fontsource](https://fontsource.org/)
+- Theme based on [Volks-Typo](https://github.com/jdrhyne/volks-typo), created by jdrhyne
 - Inspired by the urgent need for decolonial, eco-socialist transformation
-
-## 📋 Project Information
-
-- **Author:** Timothy Brits
-- **Location:** South Africa
-- **Focus:** Eco-socialist analysis and decolonial thought
-- **Repository:** [GitHub](https://github.com/timothyforchange/konscio)
-- **Live Site:** [timothyforchange.co.za](https://timothyforchange.co.za)
-
----
-
-**Timothy for Change** • CC0 1.0 License
