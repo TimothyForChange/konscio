@@ -1,8 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import {
-  extractHeadings,
-  filterHeadingsForTOC,
-} from '../src/utils/table-of-contents';
+import { extractHeadings, filterHeadingsForTOC } from '../src/utils/table-of-contents';
 
 describe('extractHeadings', () => {
   it('should extract headings from markdown', () => {

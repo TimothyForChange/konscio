@@ -7,16 +7,7 @@ description: 'An eco-socialist analysis of how global supply chains extract Cong
 excerpt: 'The DRC’s cobalt fuels the world’s “green” technologies — but the price is paid by its people and ecosystems. This post traces how colonial extraction survives inside the green transition.'
 image: ../../assets/green-colonialism-drc.jpg
 categories: ['Analysis']
-tags:
-  [
-    'DRC',
-    'Congo',
-    'Extractivism',
-    'Green Colonialism',
-    'Imperialism',
-    'Eco-socialism',
-    'Global South',
-  ]
+tags: ['Congo', 'Extractivism', 'Green Colonialism', 'Imperialism', 'Eco-socialism', 'Global South']
 ---
 
 # Cobalt Colonialism: How the DRC Powers the Global North’s Green Transition

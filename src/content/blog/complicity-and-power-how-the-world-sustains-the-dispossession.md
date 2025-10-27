@@ -6,14 +6,7 @@ description: 'A focused investigation into how international diplomacy, arms tra
 excerpt: '**Dispossession** does not survive in isolation. Diplomatic cover, arms sales, corporate profit and international finance all help sustain a system of dispossession. This piece exposes those channels and names the forms of accountability that matter.'
 image: ../../assets/complicity-and-power-how-the-world-sustains-the-dispossession.jpg
 categories: ['Analysis']
-tags:
-  [
-    'Complicity',
-    'Arms Trade',
-    'Corporate Accountability',
-    'Palestine',
-    'International Law',
-  ]
+tags: ['Complicity', 'Arms Trade', 'Corporate Accountability', 'Palestine', 'International Law']
 draft: true
 ---
 

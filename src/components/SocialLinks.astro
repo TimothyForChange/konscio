@@ -54,11 +54,7 @@ const { size = 20 } = Astro.props;
 
   {
     config.social.email && (
-      <a
-        href={`mailto:${config.social.email}`}
-        aria-label='Email'
-        class='social-link'
-      >
+      <a href={`mailto:${config.social.email}`} aria-label='Email' class='social-link'>
         <Icon name='mail-line' size={size} class='social-icon' />
       </a>
     )

@@ -6,14 +6,7 @@ description: 'A rights-based argument for a single democratic state in historic 
 excerpt: 'If partition preserves inequality, the only fully just outcome is a political framework built on equal rights. This essay outlines the moral and practical case for a democratic single state and the transitional measures needed to make it viable.'
 image: ../../assets/one-land-one-future-one-democratic-state.jpg
 categories: ['Analysis']
-tags:
-  [
-    'One-State Solution',
-    'Democracy',
-    'Palestine',
-    'Reparations',
-    'Decolonisation',
-  ]
+tags: ['One-State Solution', 'Democracy', 'Palestine', 'Reparations', 'Decolonisation']
 draft: true
 ---
 

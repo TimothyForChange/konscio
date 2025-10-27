@@ -11,10 +11,9 @@ export async function getStaticPaths() {
     eager: true,
   });
 
-  const allPosts = [
-    ...Object.values(mdPostsGlob),
-    ...Object.values(mdxPostsGlob),
-  ].filter((post: any) => !post.frontmatter.draft) as any[];
+  const allPosts = [...Object.values(mdPostsGlob), ...Object.values(mdxPostsGlob)].filter(
+    (post: any) => !post.frontmatter.draft
+  ) as any[];
 
   const allCategories = new Set<string>();
   allPosts.forEach((post: any) => {
@@ -29,9 +28,7 @@ export async function getStaticPaths() {
     const categorySlug = category.toLowerCase().replace(/[\/\s]+/g, '-');
     const postsInCategory = allPosts
       .filter(
-        (post: any) =>
-          post.frontmatter.categories &&
-          post.frontmatter.categories.includes(category)
+        (post: any) => post.frontmatter.categories && post.frontmatter.categories.includes(category)
       )
       .sort(
         (a: any, b: any) =>
@@ -71,36 +68,24 @@ const base = BASE_URL;
         posts.map((post: any) => (
           <article class='post-item'>
             <h2 class='post-title'>
-              <a
-                href={`${base}blog/${slugifyPath(post.file)}`}
-                data-astro-prefetch
-              >
+              <a href={`${base}blog/${slugifyPath(post.file)}`} data-astro-prefetch>
                 {post.frontmatter.title}
               </a>
             </h2>
 
             <div class='post-meta'>
               <time class='post-date' datetime={post.frontmatter.datePublished}>
-                {new Date(post.frontmatter.datePublished).toLocaleDateString(
-                  'en-GB',
-                  {
-                    year: 'numeric',
-                    month: 'long',
-                    day: 'numeric',
-                  }
-                )}
+                {new Date(post.frontmatter.datePublished).toLocaleDateString('en-GB', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric',
+                })}
               </time>
             </div>
 
-            {post.frontmatter.excerpt && (
-              <p class='post-excerpt'>{post.frontmatter.excerpt}</p>
-            )}
+            {post.frontmatter.excerpt && <p class='post-excerpt'>{post.frontmatter.excerpt}</p>}
 
-            <a
-              href={`${base}blog/${slugifyPath(post.file)}`}
-              data-astro-prefetch
-              class='read-more'
-            >
+            <a href={`${base}blog/${slugifyPath(post.file)}`} data-astro-prefetch class='read-more'>
               Read More →
             </a>
           </article>

@@ -7,14 +7,12 @@
       theme = stored;
     } else {
       const systemPrefersDark =
-        window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches;
+        window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
       theme = systemPrefersDark ? 'dark' : 'light';
     }
   } catch (error) {
     const systemPrefersDark =
-      window.matchMedia &&
-      window.matchMedia('(prefers-color-scheme: dark)').matches;
+      window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     theme = systemPrefersDark ? 'dark' : 'light';
   }
 

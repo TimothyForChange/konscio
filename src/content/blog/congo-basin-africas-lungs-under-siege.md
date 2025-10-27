@@ -7,16 +7,7 @@ description: 'An eco-socialist analysis of how deforestation, extractivism, and 
 excerpt: 'The Congo Basin is the Earth’s second lung, absorbing billions of tonnes of carbon each year. Yet it is being sacrificed for profit — through logging, mining, and false “green” promises. This is not just an environmental crisis; it is a struggle for justice, sovereignty, and survival.'
 image: ../../assets/congo-basin-africas-lungs-under-siege.jpg
 categories: ['Analysis']
-tags:
-  [
-    'DRC',
-    'Congo Basin',
-    'Climate Justice',
-    'Deforestation',
-    'Eco-socialism',
-    'Decolonisation',
-    'Global South',
-  ]
+tags: ['Congo Basin', 'Climate Justice', 'Deforestation', 'Decolonisation', 'Global South']
 ---
 
 # The Congo Basin: Africa’s Lungs Under Siege

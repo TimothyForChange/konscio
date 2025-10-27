@@ -3,10 +3,7 @@ import Layout from '../../components/Layout.astro';
 import TableOfContents from '../../components/TableOfContents.astro';
 import { BASE_URL } from '../../config';
 import { slugifyPath } from '../../utils/slugify';
-import {
-  extractHeadings,
-  filterHeadingsForTOC,
-} from '../../utils/table-of-contents';
+import { extractHeadings, filterHeadingsForTOC } from '../../utils/table-of-contents';
 
 export async function getStaticPaths() {
   const mdPostsGlob = import.meta.glob('../../content/blog/*.md', {
@@ -16,10 +13,9 @@ export async function getStaticPaths() {
     eager: true,
   });
 
-  const allPosts = [
-    ...Object.values(mdPostsGlob),
-    ...Object.values(mdxPostsGlob),
-  ].filter((post: any) => !post.frontmatter.draft) as any[];
+  const allPosts = [...Object.values(mdPostsGlob), ...Object.values(mdxPostsGlob)].filter(
+    (post: any) => !post.frontmatter.draft
+  ) as any[];
 
   return allPosts.map((post: any) => {
     const rawContent = post.body || post.rawContent?.() || '';
@@ -131,9 +127,7 @@ const dateModified = frontmatter.dateModified
       }
 
       <div class='post-navigation'>
-        <a href={`${base}blog`} data-astro-prefetch class='back-to-blog'
-          >← Back to Blog</a
-        >
+        <a href={`${base}blog`} data-astro-prefetch class='back-to-blog'>← Back to Blog</a>
       </div>
     </footer>
   </article>
