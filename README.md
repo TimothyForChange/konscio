@@ -1,7 +1,6 @@
 # Timothy for Change
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0--1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 For people and planet: eco-socialist analysis from Africa and the Global South.
 
