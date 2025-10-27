@@ -58,7 +58,7 @@ export default defineConfig({
     purgecss(),
     compressor({
       gzip: true,
-      brotli: false,
+      brotli: true,
       zstd: true,
     }),
   ],
