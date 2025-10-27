@@ -18,7 +18,8 @@
     "dev": "astro dev",
     "format": "prettier --write . --log-level warn",
     "lint": "eslint . --fix --cache --cache-location .eslintcache",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "test": "vitest --run"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.5",
@@ -47,6 +48,7 @@
     "eslint-plugin-sonarjs": "^3.0.5",
     "eslint-plugin-unicorn": "^62.0.0",
     "fontaine": "^0.6.0",
+    "jsdom": "^27.0.1",
     "mdast-util-to-string": "^4.0.0",
     "prettier": "^3.6.2",
     "prettier-plugin-astro": "^0.14.1",
@@ -56,7 +58,9 @@
     "remixicon": "^4.7.0",
     "schema-dts": "^1.1.5",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.2"
+    "typescript-eslint": "^8.46.2",
+    "vitest": "^4.0.4",
+    "zod": "^4.1.12"
   },
   "engines": {
     "node": ">=24.10.0"
