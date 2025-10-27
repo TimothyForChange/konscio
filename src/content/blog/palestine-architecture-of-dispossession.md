@@ -22,7 +22,7 @@ To understand the present, we must see 1947–48 not as an isolated calamity but
 
 Three episodes are essential to the architecture of dispossession.
 
-**1. International endorsement and partition.** The 1947 UN plan (Resolution 181) proposed partition and internationalised Jerusalem; it also set a political frame that empowered a settler polity and limited Palestinian sovereignty in practice. The diplomatic settlement mattered because it made dispossession intelligible and internationally legible — and in doing so it normalised a new order. [^3]
+**1. International endorsement and partition.** **The 1947 UN plan (Resolution 181) did not _originate_ the architecture of dispossession—a process already well underway during the Mandate—but it gave it crucial international legitimacy.** By proposing partition and an internationalised Jerusalem, it set a political frame that empowered a settler polity and limited Palestinian sovereignty **in practice**. The diplomatic settlement mattered because it made dispossession intelligible and internationally legible—and in doing so it normalised a new order. [^3]
 
 **2. The Nakba and demographic reshaping.** The 1948 war produced mass displacement; hundreds of thousands of Palestinians were uprooted and a refugee crisis formed the basis of a long-term geopolitical reality. The creation of refugee populations, and their legal and administrative classification, became a structural feature of the conflict.
 
@@ -34,13 +34,13 @@ Three episodes are essential to the architecture of dispossession.
 
 Settler colonialism is a specific analytic: it describes political projects that aim to replace indigenous social orders with settler societies through land appropriation, legal restructuring and demographic transformation. Unlike extractive colonialism that privileges extraction while leaving populations in place, settler colonial projects seek demographic and territorial transformation — a replacement logic.
 
-Applied to Palestine, the frame helps explain continuity. The institutional apparatus that created displacement in 1948 was followed by laws, settlement projects and military regimes that institutionalised differential rights. When historians and political theorists use the term, they are pointing to this pattern of replacement and permanence — a set of policies designed to make dispossession last.
+Applied to Palestine, the frame helps explain continuity. The institutional apparatus that created displacement in 1948 was followed by laws, settlement projects and military regimes that institutionalised differential rights. **For example, the same logic that enabled the 1950 Absentees' Property Law to transfer refugee land to the state is mirrored in the post-1967 use of Ottoman-era land law to seize 'state land' for settlements.** When historians and political theorists use the term, they are pointing to this pattern of replacement and permanence — a set of policies designed to make dispossession last.
 
 ---
 
 ## What that changes politically
 
-If dispossession is structural, then policy prescriptions that leave structures intact are inadequate. Technical fixes — demarcating borders, negotiating security protocols, or establishing conditional autonomy — risk preserving the very mechanisms that produce exclusion. That is why the settler-colonial analysis pushes us toward remedies that are structural: legal equality, restitution, reparations and the dismantling of asymmetrical institutions that privilege one group over another.
+If dispossession is structural, then policy prescriptions that leave structures intact are inadequate. **Technical fixes—such as those exemplified by the Oslo Accords, which focused on demarcating borders, negotiating security protocols, or establishing conditional autonomy—risk preserving the very mechanisms that produce exclusion by treating a structural problem as a technical dispute.** That is why the settler-colonial analysis pushes us toward remedies that are structural: legal equality, restitution, reparations and the dismantling of asymmetrical institutions that privilege one group over another.
 
 This does not mean simple answers. The political work of undoing institutionalised privilege is complex, fraught and generational. But clarity about the nature of the problem is the first necessary step toward a politics that aims at justice rather than management.
 
