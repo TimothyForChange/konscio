@@ -18,7 +18,7 @@ To understand the present, we must see 1947–48 not as an isolated calamity but
 
 ---
 
-## The key moments
+## The Key Moments
 
 Three episodes are essential to the architecture of dispossession.
 
@@ -30,7 +30,7 @@ Three episodes are essential to the architecture of dispossession.
 
 ---
 
-## Why “settler colonialism” is the right frame
+## Why “Settler Colonialism” Is the Right Frame
 
 Settler colonialism is a specific analytic: it describes political projects that aim to replace indigenous social orders with settler societies through land appropriation, legal restructuring and demographic transformation. Unlike extractive colonialism that privileges extraction while leaving populations in place, settler colonial projects seek demographic and territorial transformation — a replacement logic.
 
@@ -38,7 +38,7 @@ Applied to Palestine, the frame helps explain continuity. The institutional appa
 
 ---
 
-## What that changes politically
+## What That Changes Politically
 
 If dispossession is structural, then policy prescriptions that leave structures intact are inadequate. **Technical fixes—such as those exemplified by the Oslo Accords, which focused on demarcating borders, negotiating security protocols, or establishing conditional autonomy—risk preserving the very mechanisms that produce exclusion by treating a structural problem as a technical dispute.** That is why the settler-colonial analysis pushes us toward remedies that are structural: legal equality, restitution, reparations and the dismantling of asymmetrical institutions that privilege one group over another.
 
@@ -46,7 +46,7 @@ This does not mean simple answers. The political work of undoing institutionalis
 
 ---
 
-## Where we go next
+## Where We Go Next
 
 This piece defines the problem. In Part Two we will show how international diplomacy, arms flows, corporate ties and financial networks sustain the architecture described above. Part Three will examine political responses — including democratic, rights-based frameworks — that confront structural injustice head on.
 

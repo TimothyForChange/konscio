@@ -1,5 +1,5 @@
 ---
-title: 'Complicity and Power: How the World Sustains Dispossession'
+title: 'Complicity and Power: Sustaining Dispossession'
 author: 'Timothy Brits'
 datePublished: 2025-10-27
 description: 'A focused investigation into how international diplomacy, arms transfers, corporate ties and financial networks have enabled and prolonged Palestinian dispossession.'
@@ -34,7 +34,7 @@ Moreover, defence and security industries have commercial incentives to preserve
 
 ---
 
-## Corporate entanglement and supply chains
+## Corporate Entanglement and Supply Chains
 
 Economic complicity is not limited to arms. Construction companies, tech firms supplying surveillance systems **(such as those used for facial recognition at checkpoints),** and international corporations buying goods or investing in settlement infrastructure all form part of the ecosystem that underpins **dispossession**. Contracts for settlement construction, infrastructure and property management turn dispossession into profit. Shareholder structures and international trading links mean that global capital is entangled with local rights abuses.
 
@@ -42,7 +42,7 @@ Holding corporations accountable — through due diligence laws, targeted sancti
 
 ---
 
-## The leverage that matters
+## The Leverage That Matters
 
 If the architecture of complicity exists, so too do pressure points:
 
@@ -55,7 +55,7 @@ These levers are not panaceas. They require political will and international coo
 
 ---
 
-## A politics of responsibility
+## A Politics of Responsibility
 
 Naming complicity reframes action: it moves the debate from moral exhortation to concrete policy change. That shift matters because it creates obligations on states, corporations and financial institutions to act differently. The global architecture that tolerates **this system** does so because the costs of complicity have been low. If those costs rise — through sanctions, legal risk or reputational harm — the calculus can change.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Blood and Bullion: The RSF, the UAE and How Gold Fuels Sudan’s War'
+title: 'Blood and Bullion: How Gold Fuels Sudan’s War'
 author: 'Timothy Brits'
 datePublished: 2025-10-28
 description: 'How Sudan’s war economy runs on gold, how the RSF and the UAE profit from extraction, and what a decolonial, eco-social response must demand.'
@@ -17,11 +17,11 @@ Gold doesn’t only glitter — in Sudan it bankrolls bullets, sieges and dispos
 
 ---
 
-## The RSF: from Janjaweed to mineralised power
+## The RSF: From Janjaweed to Mineralised Power
 
 The RSF’s origins in Janjaweed militias and its elevation under Mohamed Hamdan “Hemedti” Dagalo mean the force is as much a predatory commercial actor as a fighting unit. Over the last half-decade, control of mining zones — especially in Darfur and northern Sudan — shifted from ad-hoc looting to institutionalised revenue generation. Controlling mines gives the RSF territorial leverage, immediate cash and bargaining power in Khartoum and with external patrons. That is why extraction matters: when territorial control equals revenue, the logic of conflict changes — peace threatens profit.
 
-## How much gold — and where it goes
+## How Much Gold — and Where It Goes
 
 Numbers vary, but independent analyses and UN expert findings point to substantial volumes. Estimates in 2024–2025 placed RSF-controlled output in the order of **tens of tonnes** across Sudan, with a significant portion effectively monetised off-book and channelled through neighbouring states and Gulf hubs. Gold is portable, high value per weight and easy to launder; that makes it ideal for financing irregular forces. Large shares of Sudan’s official exports have ended up in Egyptian transit points and Emirati markets, which then re-export refined bullion into global supply chains.
 
@@ -62,14 +62,14 @@ A decolonial solidarity programme must centre enforceable measures that target b
 - **Legal accountability where evidence exists**
     Where credible evidence shows arms or logistical support in breach of UN resolutions or international law, pursue legal scrutiny through appropriate international mechanisms. Follow the money as rigorously as weapons transfers.
 
-## Solidarity tactics for activists and movements
+## Solidarity Tactics for Activists and Movements
 
 If you want to end the war, pressure the markets, not the victims. Successful strategies include: naming and shaming refineries and exchanges that accept unverified gold; shareholder campaigns targeting refiners and bullion houses; legal challenges and Freedom of Information pressure where public institutions obscure trade; and coordinated petitions to central banks and regulators. Crucially, centre Sudanese voices and demands — supply-chain transparency and reparations must be defined by those harmed.
 
 > “To solve the war in Sudan, we have to follow the gold, and we arrive at the UAE.”
 > — Marc Ummel, researcher with SWISSAID
 
-## Conclusion — follow the bullion
+## Conclusion — Follow the Bullion
 
 This conflict is not only about rival generals and contested state power. It’s about a political economy that turns people and ecosystems into extractable value. Gold — portable, valuable and easy to monetise — has become the fuel of Sudan’s war. Gulf markets and actors who profit from opaque trade flows are not innocent bystanders: their demand makes the seizure of land worth the cost.
 

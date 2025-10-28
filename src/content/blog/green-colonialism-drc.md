@@ -1,5 +1,5 @@
 ---
-title: 'Green Colonialism: How the DRC Powers the Global North’s Green Transition'
+title: 'Green Colonialism: The DRC and the Green Transition'
 author: 'Timothy Brits'
 datePublished: 2025-10-24
 dateModified: 2025-10-27

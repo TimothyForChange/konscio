@@ -1,5 +1,5 @@
 ---
-title: 'One Land, One Future: The Case for a Democratic State'
+title: 'One Land, One Future: The Case for a Single Democratic State'
 author: 'Timothy Brits'
 datePublished: 2025-10-27
 description: 'A rights-based argument for a single democratic state in historic Palestine. The piece sets out constitutional protections, transitional justice and practical steps toward equal citizenship for all people between the river and the sea.'
@@ -33,7 +33,7 @@ Key institutional features would include:
 
 ---
 
-## Addressing the hard objections
+## Addressing the Hard Objections
 
 **Security.** Transition must protect civilians and prevent genocide or revenge violence. That requires phased demilitarisation, internationally monitored security arrangements, community policing models and guarantees that limit unilateral use of force. These steps must be paired with disarmament and security sector reform.
 
@@ -57,7 +57,7 @@ Each step is politically demanding. But planning, coalition building and interna
 
 ---
 
-## A politics of imagination and accountability
+## A Politics of Imagination and Accountability
 
 One-state politics is not about erasing identity. It is about building institutions where identities flourish without domination. It asks uncomfortable things of all actors: **the settler population** must relinquish privilege; states must accept legal liability; international actors must move from convenience to accountability.
 
