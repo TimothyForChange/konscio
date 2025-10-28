@@ -2,7 +2,6 @@
 title: 'Green Colonialism: The DRC and the Green Transition'
 author: 'Timothy Brits'
 datePublished: 2025-10-24
-dateModified: 2025-10-27
 description: 'An eco-socialist analysis of how global supply chains extract Congolese life and land for the Global North’s “green” transition.'
 excerpt: 'The DRC’s cobalt fuels the world’s “green” technologies — but the price is paid by its people and ecosystems. This post traces how colonial extraction survives inside the green transition.'
 image: /green-colonialism-drc.jpg
@@ -22,7 +21,7 @@ This is not a story about scarcity of resources. It is a story about **who contr
 
 The violent patterns seen in the DRC today are not anomalies that emerged after independence; they are continuities of a long history. The Congo was central to European imperial plunder — a landscape commodified under Leopold II’s rule, where extraction and brutality were the political economy. That logic did not die with formal empire; it mutated.
 
-> As Adam Hochschild writes in King Leopold’s Ghost, the Congo Free State was “not a colony but the world’s only private colony — the personal possession of a single individual.”
+> As Adam Hochschild writes in _King Leopold’s Ghost_, the Congo Free State was “not a colony but the world’s only private colony — the personal possession of a single individual.”
 
 Contemporary extraction follows the same blueprint: external demand sets the terms, local governance is weakened or co-opted, and violence — economic, political and physical — enforces supply. Minerals are turned into global commodities; communities are reduced to labour pools or obstacles to be removed. Language changes, but the operation remains recognisably colonial.
 
@@ -95,9 +94,3 @@ If the green transition is to mean anything, it must begin by dismantling the ex
 > — _Thomas Sankara_
 
 In solidarity with Congolese struggles for sovereignty, dignity and ecological survival.
-
----
-
-## Sources
-
-[^1]: [UNCTAD (2023). _Commodities and Development Report 2023: Critical Minerals and the Energy Transition._](https://unctad.org/publication/commodities-and-development-report-2023)
