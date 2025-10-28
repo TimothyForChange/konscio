@@ -32,8 +32,8 @@ Contemporary extraction follows the same blueprint: external demand sets the ter
 
 The Global North’s shift to “green” technologies requires vast quantities of specific minerals. This demand is framed as urgent and moral: save the planet by switching to electric vehicles and renewable systems. But moralising the commodity does not alter the politics of its production. A few structural points to note:
 
-- **Supply chains concentrate value outside the DRC.** The country supplies around **70–75% of global cobalt** production, yet almost none is refined locally.[^1] Raw extraction is low-paid and environmentally destructive, while most value is captured further along the chain — in refining, tech assembly and corporate branding — largely outside African borders.
-- **Actors of accumulation are multinational.** Mining firms, traders, smelters and financiers — many headquartered in the Global North or transnational corporate hubs — structure the market and determine prices, labour standards and practices. Chinese state-owned and private companies now control roughly **80% of DRC cobalt output**, illustrating how transnational capital continues colonial extraction under new management.[^2]
+- **Supply chains concentrate value outside the DRC.** The country supplies around **70–75% of global cobalt** production, yet almost none is refined locally. Raw extraction is low-paid and environmentally destructive, while most value is captured further along the chain — in refining, tech assembly and corporate branding — largely outside African borders.
+- **Actors of accumulation are multinational.** Mining firms, traders, smelters and financiers — many headquartered in the Global North or transnational corporate hubs — structure the market and determine prices, labour standards and practices. Chinese state-owned and private companies now control roughly **80% of DRC cobalt output**, illustrating how transnational capital continues colonial extraction under new management.
 - **Instability is profitable.** Weak governance, contested territories and conflict can be exploited to secure concessions, favourable contracts or control over informal economies. Instability becomes an economic condition, not merely a humanitarian crisis.
 - **Green rhetoric masks continuity.** Calling a mine “critical for the energy transition” sanitises the social and ecological violence it produces and absolves consumers and states in the Global North from responsibility.
 
@@ -43,7 +43,7 @@ The result is a peculiar inversion: the rhetoric of environmental stewardship fa
 
 ## Human and Ecological Costs
 
-Extraction in the DRC is not an abstract policy problem — it is embodied in human lives and in the region’s ecology. Communities living near mines report destroyed farmland, polluted waterways and shattered livelihoods. Informal and artisanal miners operate under precarious and hazardous conditions; women and children are disproportionately exposed to risk.[^3] These social harms are compounded by militarisation: armed groups, private militias and state security forces often contest control over mines and transport routes.
+Extraction in the DRC is not an abstract policy problem — it is embodied in human lives and in the region’s ecology. Communities living near mines report destroyed farmland, polluted waterways and shattered livelihoods. Informal and artisanal miners operate under precarious and hazardous conditions; women and children are disproportionately exposed to risk. These social harms are compounded by militarisation: armed groups, private militias and state security forces often contest control over mines and transport routes.
 
 At the same time, the **Congo Basin rainforest** — a vital carbon sink and one of the world’s last great biodiversity reserves — faces mounting pressure from industrial encroachment. Forest degradation, soil erosion and contamination from mining chemicals are ecological damage that spreads far beyond local communities. Ecocide here is not collateral damage; it is a by-product of a model that translates natural commons into private profit.
 
@@ -100,10 +100,4 @@ In solidarity with Congolese struggles for sovereignty, dignity and ecological s
 
 ## Sources
 
-[^1]: UNCTAD (2023). _Commodities and Development Report 2023: Critical Minerals and the Energy Transition._
-
-[^2]: Reuters (2024). “Chinese Firms Dominate Congo’s Cobalt Sector Amid Global Supply Chain Tensions.”
-
-[^3]: Human Rights Watch (2023). _“What Do We Get Out of It?” Human Rights Abuses in the Cobalt Mines of the DRC._
-
-[^4]: UNEP (2024). _Congo Basin Forests: State of the Forest 2024._
+[^1]: [UNCTAD (2023). _Commodities and Development Report 2023: Critical Minerals and the Energy Transition._](https://unctad.org/publication/commodities-and-development-report-2023)

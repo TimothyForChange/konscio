@@ -48,7 +48,7 @@ Key institutional features would include:
 The goal must be built through incremental, mutually reinforcing actions:
 
 1. **Grassroots cross-communal organising.** Political change begins with networks of solidarity — municipal alliances, civil-society coalitions and rights-based movements that demand inclusion.
-2. **Legal groundwork.** Strategic litigation, documentation and rights-based advocacy build the jurisprudence of equality. International courts and domestic suit-cases create pressure and legal precedents. [^2]
+2. **Legal groundwork.** Strategic litigation, documentation and rights-based advocacy build the jurisprudence of equality. International courts and domestic suit-cases create pressure and legal precedents. [^2][^3]
 3. **International measures.** Arms embargoes, conditional assistance and corporate accountability increase the cost of maintaining asymmetrical rule.
 4. **Constitutional conventions and transitional processes.** **When these pressures make the status quo unviable and create a political rupture,** inclusive constitutional conventions — with international guarantees — can draft frameworks that reflect plural claims and guarantee protections.
 5. **Economic programmes for restitution and inclusion.** Reparations, land reform and public investment address material legacies of dispossession.
@@ -69,6 +69,8 @@ This is the labour of decolonisation: not simply shifting borders but dismantlin
 
 ## Sources
 
-[^1]: Ali Abunimah, _One Country: A Bold Proposal to End the Israeli–Palestinian Impasse_, Metropolitan/authoritative editions, 2006.
+[^1]: Ali Abunimah, _One Country: A Bold Proposal to End the Israeli–Palestinian Impasse_, Metropolitan/Picador, 2006.
 
-[^2]: Human Rights Watch, _A Threshold Crossed: Israeli Authorities and the Crimes of Apartheid and Persecution_, April 2021; Amnesty International, _Israel’s apartheid against Palestinians_, 2022.
+[^2]: [Human Rights Watch, _A Threshold Crossed: Israeli Authorities and the Crimes of Apartheid and Persecution_, April 2021](https://www.hrw.org/report/2021/04/27/threshold-crossed/israeli-authorities-and-crimes-apartheid-and-persecution).
+
+[^3]: [Amnesty International, _Israel’s apartheid against Palestinians_, 2022](https://www.amnesty.org/en/documents/mde15/5141/2022/en/).

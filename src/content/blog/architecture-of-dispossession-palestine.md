@@ -60,4 +60,4 @@ This piece defines the problem. In Part Two we will show how international diplo
 
 [^2]: Ilan Pappé, _The Ethnic Cleansing of Palestine_, Oneworld, 2006.
 
-[^3]: United Nations General Assembly Resolution 181 (II) — Future Government of Palestine (29 November 1947).
+[^3]: [United Nations General Assembly Resolution 181 (II) — _Future Government of Palestine_ (29 November 1947).](https://www.un.org/unispal/document/auto-insert-187704/)

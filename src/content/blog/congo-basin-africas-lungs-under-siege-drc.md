@@ -12,7 +12,7 @@ tags: ['Congo Basin', 'Climate Justice', 'Deforestation', 'Decolonisation', 'Glo
 
 # The Congo Basin: Africa’s Lungs Under Siege
 
-The Congo Basin is often called the _lungs of Africa_ — a rainforest so vast it helps the planet breathe. Stretching across six nations and covering more than **200 million hectares**, it absorbs roughly **1.2 billion tonnes of carbon dioxide each year**, regulating rainfall across the continent and anchoring global climate stability.[^1]
+The Congo Basin is often called the _lungs of Africa_ — a rainforest so vast it helps the planet breathe. Stretching across six nations and covering more than **200 million hectares**, it absorbs roughly **1.2 billion tonnes of carbon dioxide each year**, regulating rainfall across the continent and anchoring global climate stability.
 
 Yet these forests are being destroyed by the same forces that have long plundered the region’s minerals: profit, imperial power and a colonial imagination that treats Africa as a warehouse of resources rather than a home of living communities.
 
@@ -28,7 +28,7 @@ French logging giants, Chinese mining firms and Western-backed agribusinesses ar
 
 It is, in truth, a **new Scramble for Africa** — only now the spoils are measured in hectares of rainforest and tonnes of carbon, not rubber and ivory. The same imperial logic that once divided the Congo River Basin at the Berlin Conference now divides it through trade deals, concessions and carbon markets.
 
-The Congo Basin contains roughly **25% of the world’s tropical forest carbon stock**.[^2] Cutting it is not just a regional loss — it is a planetary emergency.
+The Congo Basin contains roughly **25% of the world’s tropical forest carbon stock**. Cutting it is not just a regional loss — it is a planetary emergency.
 
 ---
 
@@ -40,7 +40,7 @@ Carbon credit schemes such as **REDD+** (Reducing Emissions from Deforestation a
 
 In practice, this means **climate finance replaces colonial tribute**: money flows northward in the form of credits, while local communities lose access to the land they have cared for over generations. Forests become commodities, not commons. The atmosphere becomes a marketplace, not a shared inheritance.
 
-Recent investigations show that new “carbon concessions” in the DRC often **overlap Indigenous territories** and are negotiated **without Free, Prior and Informed Consent** — in some cases rebranded from former logging concessions.[^3] This is carbon colonialism under a green banner.
+Recent investigations show that new “carbon concessions” in the DRC often **overlap Indigenous territories** and are negotiated **without Free, Prior and Informed Consent** — in some cases rebranded from former logging concessions. This is carbon colonialism under a green banner.
 
 > “Carbon trading and offsets are simply the privatization of the atmosphere. They allow polluters to buy the right to continue polluting.”
 > — _Nnimmo Bassey_
@@ -53,7 +53,7 @@ For Indigenous peoples of the Congo Basin — the Baka, Batwa, BaAka and many ot
 
 “Protected areas” and logging concessions alike often come with military enforcement. Armed guards patrol lands once open to hunting and gathering. Those who resist are criminalised as “poachers”. Those who protest risk imprisonment or worse.
 
-UN and NGO reports have documented **violent evictions and abuses by eco-guards** funded by major international conservation groups, including WWF, in the DRC and Republic of Congo.[^4] These operations mirror the extractive logic they claim to oppose.
+UN and NGO reports have documented **violent evictions and abuses by eco-guards** funded by major international conservation groups, including WWF, in the DRC and Republic of Congo. These operations mirror the extractive logic they claim to oppose.
 
 Despite this violence, resistance endures. Indigenous women’s networks in Itombwe and Equateur lead **community reforestation projects** and protest illegal logging. Youth groups document forest crimes with GPS tools, and community associations are demanding **legal recognition of collective land rights**. Across the Basin, ordinary people assert a radical truth: _living with the forest is not backwardness — it is wisdom._
 
@@ -61,9 +61,9 @@ Despite this violence, resistance endures. Indigenous women’s networks in Itom
 
 ## Ecocide and Global Consequences
 
-Scientists warn that the Congo Basin could soon flip from a **carbon sink to a carbon source** if deforestation and degradation continue. Central African forests are already absorbing **half as much CO₂** as they did in the 1990s, and without protection could emit more than they store within decades.[^5]
+Scientists warn that the Congo Basin could soon flip from a **carbon sink to a carbon source** if deforestation and degradation continue. Central African forests are already absorbing **half as much CO₂** as they did in the 1990s, and without protection could emit more than they store within decades.
 
-The consequences are global. The Basin’s forests recycle **75–95% of their own rainfall** and generate up to **17% of West Africa’s rain** through evapotranspiration, feeding weather systems as far away as the Sahel and Ethiopian Highlands.[^6] Its loss would destabilise rainfall, intensify droughts and floods, and accelerate planetary heating.
+The consequences are global. The Basin’s forests recycle **75–95% of their own rainfall** and generate up to **17% of West Africa’s rain** through evapotranspiration, feeding weather systems as far away as the Sahel and Ethiopian Highlands. Its loss would destabilise rainfall, intensify droughts and floods, and accelerate planetary heating.
 
 To destroy the Congo Basin is not simply to lose biodiversity. It is to dismantle one of the Earth’s last living climate regulators — a planetary lung collapsing under the weight of capital.
 
@@ -88,7 +88,7 @@ That means recognising the right of forest peoples to govern their land. It mean
 
 A genuinely eco-socialist approach would:
 
-- **Return control** of forests to Indigenous and local communities through recognition of collective land rights and **Free, Prior and Informed Consent**.[^7]
+- **Return control** of forests to Indigenous and local communities through recognition of collective land rights and **Free, Prior and Informed Consent**.
 - **End export dependency** by building sustainable, locally rooted economies.
 - **Hold corporations accountable** through binding international law and transparent supply chains.
 - **Demand degrowth** in the Global North, where overconsumption drives destruction elsewhere.
@@ -99,7 +99,7 @@ Protecting the Congo Basin is not an act of altruism. It is an act of **planetar
 
 ## Closing: The Pulse of the Planet
 
-The forest breathes for all life. Its rivers carry the memory of millions of years. Its canopy shelters more than **10,000 plant species**, nearly **30% of them unique to the region**, and over **400 mammals and 1,000 bird species**.[^8] More than **150 ethnic groups**, including BaAka, BaMbuti and Efe peoples, depend on it for their survival.
+The forest breathes for all life. Its rivers carry the memory of millions of years. Its canopy shelters more than **10,000 plant species**, nearly **30% of them unique to the region**, and over **400 mammals and 1,000 bird species**. More than **150 ethnic groups**, including BaAka, BaMbuti and Efe peoples, depend on it for their survival.
 
 Yet it is being silenced by chainsaws, pipelines and profit.
 
@@ -112,23 +112,3 @@ The fate of the Congo Basin is not a regional concern — it is the moral and ec
 Will humanity continue to consume the planet’s lungs, or will we finally learn to breathe in solidarity?
 
 — In solidarity with the peoples of the Congo Basin and all who defend life on Earth.
-
----
-
-## Sources
-
-[^1]: UNEP (2024). _Congo Basin Forests: State of the Forest 2024._
-
-[^2]: Global Forest Watch / World Resources Institute (2023). _Global Forest Review: Carbon Stocks in Tropical Forests._
-
-[^3]: Greenpeace Africa (2024). _DRC’s Carbon Concessions: A New Form of Land Grab?_
-
-[^4]: Human Rights Watch (2023). _“Protectors Turned Perpetrators”: Abuses in the Name of Conservation in Central Africa._
-
-[^5]: Nature (2023). _Declining Carbon Sink Capacity in African Tropical Forests._
-
-[^6]: NASA Earth Observatory (2024). _Congo Basin Evapotranspiration and Continental Rainfall Patterns._
-
-[^7]: DRC Ministry of Land Management (2025). _National Land Use Planning Law – Summary and Analysis._
-
-[^8]: WWF (2024). _Biodiversity of the Congo Basin: 2024 Assessment._

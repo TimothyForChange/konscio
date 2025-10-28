@@ -23,29 +23,29 @@ The RSF’s origins in Janjaweed militias and its elevation under Mohamed Hamdan
 
 ## How Much Gold — and Where It Goes
 
-Independent analyses and UN expert findings point to significant volumes. **An estimated 10 tonnes of gold** were extracted from RSF-controlled areas in 2024 — roughly **US $860 million** in value.[^3] Gold is portable, high value per weight and easy to launder; that makes it ideal for financing irregular forces.[^4]
-UN Comtrade data shows the **UAE is the dominant destination**, with **97 percent of official gold exports from SAF-held zones** in 2023 going there, worth about **US $1.5 billion**.[^5] Smaller volumes move through neighbouring states such as **Egypt, Chad and South Sudan**, often serving as smuggling corridors rather than final markets. The true total — including informal and smuggled output — is likely several times higher, though estimates vary from **50 to 80 percent** of total production being exported off the books.[^6]
+Independent analyses and UN expert findings point to significant volumes. **An estimated 10 tonnes of gold** were extracted from RSF-controlled areas in 2024 — roughly **US $860 million** in value.[^2] Gold is portable, high value per weight and easy to launder; that makes it ideal for financing irregular forces.[^3]
+UN Comtrade data shows the **UAE is the dominant destination**, with **97 percent of official gold exports from SAF-held zones** in 2023 going there, worth about **US $1.5 billion**. Smaller volumes move through neighbouring states such as **Egypt, Chad and South Sudan**, often serving as smuggling corridors rather than final markets. The true total — including informal and smuggled output — is likely several times higher, though estimates vary from **50 to 80 percent** of total production being exported off the books.
 
 ## The UAE’s Role: Market, Leverage and Denial
 
-Investigations and UN reporting have repeatedly identified Emirati firms and intermediaries at the end of Sudan’s gold supply chains. Some shipments have been linked to networks that also move materiel, according to journalist and NGO investigations, though the **UAE officially denies any direct provision of weapons to the RSF.**[^7]
-The economic connection, however, is clear: **Gulf demand and refinery capacity give enormous monetary value** to seizing Sudanese mines. When the UAE suspended flights and tightened import controls on Sudanese gold in October 2025, the **Sudanese pound fell by roughly 40 percent** against the dollar within two weeks — a stark indicator of how dependent the war economy had become on those exports.[^8]
+Investigations and UN reporting have repeatedly identified Emirati firms and intermediaries at the end of Sudan’s gold supply chains. Some shipments have been linked to networks that also move materiel, according to journalist and NGO investigations, though the **UAE officially denies any direct provision of weapons to the RSF.**
+The economic connection, however, is clear: **Gulf demand and refinery capacity give enormous monetary value** to seizing Sudanese mines. When the UAE suspended flights and tightened import controls on Sudanese gold in October 2025, the **Sudanese pound fell by roughly 40 percent** against the dollar within two weeks — a stark indicator of how dependent the war economy had become on those exports.
 
 ## From Mine to Militia: How Cash Fuels the War
 
 The chain is simple and brutal: RSF (or RSF-aligned brokers) control a mine → local traders buy rough gold → cross-border brokers and refiners move the metal through neighbouring states → bullion dealers in Gulf markets buy or refine it into standard bars for resale.
-Cash then flows rapidly back into RSF coffers to **pay fighters, buy fuel, and maintain patronage networks.** High global gold prices since 2023 have supercharged this cycle, turning artisanal mining zones that once provided subsistence livelihoods into **militarised extraction frontiers.**[^9]
+Cash then flows rapidly back into RSF coffers to **pay fighters, buy fuel, and maintain patronage networks.** High global gold prices since 2023 have supercharged this cycle, turning artisanal mining zones that once provided subsistence livelihoods into **militarised extraction frontiers.**
 
 ## Extraction as Ecocide: The Human and Ecological Cost
 
-Wartime mining is ecocide in slow motion. Artisanal pits scar landscapes; **ore-processing often uses mercury and cyanide**, with little to no regulation, contaminating water and farmland.[^10] Exposure has been linked by local NGOs to neurological and developmental harm in nearby communities. Farmland and grazing lands are destroyed, and unregulated pits multiply, creating long-term hazards.
+Wartime mining is ecocide in slow motion. Artisanal pits scar landscapes; **ore-processing often uses mercury and cyanide**, with little to no regulation, contaminating water and farmland. Exposure has been linked by local NGOs to neurological and developmental harm in nearby communities. Farmland and grazing lands are destroyed, and unregulated pits multiply, creating long-term hazards.
 Human-rights observers have documented **forced displacement, sexual violence and summary executions** around mining areas. Extraction thus produces a **triple assault — physical violence, economic dispossession and ecological ruin.**
 
 ## A Decolonial Reading: Who Profits and Who Pays?
 
 This is structural, not accidental. Local strongmen and brokers capture resource rents; regional intermediaries and Gulf buyers monetise them; multinational refiners and traders integrate bullion into global markets. Wealth flows out; the social and ecological costs remain. That pattern is the persistence of colonial extraction in new clothing: dispossession rather than settlement, financial intermediation rather than direct colonial administration.
 
-An eco-socialist lens points us to the levers of power. Treating the crisis as merely a security problem misses the economic incentives that sustain it. The RSF won’t disarm while gold keeps funding it; **foreign buyers won’t change behaviour while opaque profit and laundering opportunities remain.**[^11] Ending the war requires dismantling the commercial architecture that makes mine control so valuable.
+An eco-socialist lens points us to the levers of power. Treating the crisis as merely a security problem misses the economic incentives that sustain it. The RSF won’t disarm while gold keeps funding it; **foreign buyers won’t change behaviour while opaque profit and laundering opportunities remain.** Ending the war requires dismantling the commercial architecture that makes mine control so valuable.
 
 ## What Must Change: Policy Demands
 
@@ -73,7 +73,7 @@ Effective tactics include: naming and shaming refineries and exchanges that acce
 Crucially, centre Sudanese voices and demands — supply-chain transparency and reparations must be defined by those harmed.
 
 > “To solve the war in Sudan, we have to follow the gold, and we arrive at the UAE.”
-> — Marc Ummel, researcher with SWISSAID[^12]
+> — Marc Ummel, researcher with SWISSAID
 
 ## Conclusion — Follow the Bullion
 
@@ -86,26 +86,8 @@ Follow the money. It points to where the war will end — if we have the politic
 
 ## Sources
 
-[^1]: United Nations Panel of Experts on the Sudan (2024). _Final report of the Panel of Experts on the Sudan (S/2024/65)._ UN Digital Library.
+[^1]: [United Nations Panel of Experts on the Sudan (2024). _Final report of the Panel of Experts on the Sudan (S/2024/65)._ UN Digital Library.](https://docs.un.org/en/S/2024/65)
 
-[^2]: Masina, I. (2025). _The Role of Gold in the Sudanese War._ ISPI – Istituto per gli Studi di Politica Internazionale.
+[^2]: [de Simone, S. (2025). _The Role of Gold in the Sudanese War._ ISPI – Istituto per gli Studi di Politica Internazionale.](https://www.ispionline.it/en/publication/the-role-of-gold-in-the-sudanese-war-207364)
 
-[^3]: Ibid. (~10 tonnes, ≈ US $860 million, RSF-controlled zones).
-
-[^4]: Baldo, S. (2025). _Gold and the War in Sudan._ Chatham House.
-
-[^5]: Chatham House (2025). _How Sudan’s Gold Sector Connects to the Regional Conflict Ecosystem._
-
-[^6]: ISPI (2025); Sudan Transparency & Policy Tracker (2024). _Fueling Sudan’s War: How Gold Exports and Smuggling Are Financing Conflict._
-
-[^7]: Reuters (2025, Apr 29). _UN panel investigates Emirati links to seized weapons in Darfur._
-
-[^8]: Reuters (2025, Oct 21). _Sudanese pound plunges after UAE flight ban hits gold exports._
-
-[^9]: Chatham House (2025); Sudan Transparency Tracker (2024).
-
-[^10]: Yale Environment 360 (2025, Feb). _In War-Torn Sudan, a Gold Mining Boom Takes a Human Toll._
-
-[^11]: The New Arab (2024, May 30). _Billions Worth of African Gold Smuggled to UAE Yearly: Report._
-
-[^12]: SWISSAID (2025). _Interview with Marc Ummel on Sudan’s Gold and Conflict Economies._
+[^3]: [Ahmed, S. and Suliman, B. (Dr.) (2025). _Gold and the War in Sudan._ Chatham House.](https://www.chathamhouse.org/2025/03/gold-and-war-sudan)
