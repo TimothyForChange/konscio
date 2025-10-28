@@ -1,0 +1,74 @@
+---
+import Layout from '../components/Layout.astro';
+
+const title = 'Page Not Found';
+const description = 'Sorry, the page you are looking for does not exist.';
+---
+
+<Layout title={title} description={description} showSidebar={false}>
+  <section class='not-found'>
+    <h1>404</h1>
+    <p>Sorry, the page you are looking for does not exist.</p>
+    <div class='actions'>
+      <a href='/' class='notfound-link'>Go to Home</a>
+      <a href='#' class='notfound-link' onclick='window.history.back();return false;'>Go Back</a>
+    </div>
+  </section>
+</Layout>
+
+<head>
+  <meta name='robots' content='noindex, nofollow' />
+</head>
+
+<style>
+  .not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+    padding: calc(var(--grid-unit) * 6) 0;
+  }
+
+  .not-found h1 {
+    font-size: 6rem;
+    font-family: var(--font-heading);
+    color: var(--accent);
+    margin-bottom: calc(var(--grid-unit) * 2);
+  }
+
+  .not-found p {
+    font-size: 1.5rem;
+    margin-bottom: calc(var(--grid-unit) * 4);
+    color: var(--text-muted);
+  }
+
+  .actions {
+    display: flex;
+    gap: calc(var(--grid-unit) * 2);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .notfound-link {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    color: var(--color-accent);
+    text-decoration: underline;
+    background: none;
+    border: none;
+    padding: 0.75em 2em;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition:
+      color 0.2s,
+      text-decoration 0.2s;
+    display: inline-block;
+  }
+  .notfound-link:hover,
+  .notfound-link:focus {
+    color: var(--color-text-primary);
+    text-decoration: none;
+  }
+</style>
