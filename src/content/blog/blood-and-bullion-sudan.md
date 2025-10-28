@@ -4,7 +4,7 @@ author: 'Timothy Brits'
 datePublished: 2025-10-28
 description: 'How Sudan’s war economy runs on gold, how the RSF and the UAE profit from extraction, and what a decolonial, eco-social response must demand.'
 excerpt: 'Sudan’s war is not only fought with bullets and tanks — it is fuelled by gold. The RSF’s control of mines and the UAE’s central role in the trade reveal how extraction, not ideology, drives modern imperial violence. To end the war, we must choke the profits and dismantle the system that turns land and lives into bullion.'
-image: ../../assets/blood-and-bullion-sudan.jpg
+image: /blood-and-bullion-sudan.jpg
 categories: ['Analysis']
 tags: ['Sudan', 'RSF', 'UAE', 'Gold', 'Conflict Minerals', 'Decolonisation', 'Human Rights']
 ---
