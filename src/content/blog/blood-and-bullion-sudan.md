@@ -86,7 +86,7 @@ Follow the money. It points to where the war will end — if we have the politic
 
 ## Sources
 
-[^1]: [United Nations Panel of Experts on the Sudan (2024). _Final report of the Panel of Experts on the Sudan (S/2024/65)._ UN Digital Library.](https://docs.un.org/en/S/2024/65)
+[^1]: [United Nations Panel of Experts on the Sudan (2024). _Final report of the Panel of Experts on the Sudan (S/2024/65)._](https://docs.un.org/en/S/2024/65)
 
 [^2]: [de Simone, S. (2025). _The Role of Gold in the Sudanese War._ ISPI – Istituto per gli Studi di Politica Internazionale.](https://www.ispionline.it/en/publication/the-role-of-gold-in-the-sudanese-war-207364)
 
