@@ -48,6 +48,25 @@ title: Test
     const headings = extractHeadings(content);
     expect(headings).toEqual([]);
   });
+
+  it('should handle malformed frontmatter', () => {
+    const content = `---
+title: Test
+unclosed frontmatter
+# Heading 1
+`;
+    const headings = extractHeadings(content);
+    expect(headings).toEqual([{ depth: 1, text: 'Heading 1', slug: 'heading-1' }]);
+  });
+
+  it('should handle headings with invalid depths', () => {
+    const content = `
+####### Invalid Heading
+# Valid Heading
+`;
+    const headings = extractHeadings(content);
+    expect(headings).toEqual([{ depth: 1, text: 'Valid Heading', slug: 'valid-heading' }]);
+  });
 });
 
 describe('filterHeadingsForTOC', () => {
@@ -73,6 +92,11 @@ describe('filterHeadingsForTOC', () => {
     ];
 
     const filtered = filterHeadingsForTOC(headings);
+    expect(filtered).toEqual([]);
+  });
+
+  it('should handle empty array', () => {
+    const filtered = filterHeadingsForTOC([]);
     expect(filtered).toEqual([]);
   });
 });

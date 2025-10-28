@@ -24,4 +24,10 @@ describe('slugifyPath', () => {
   it('should handle path ending with slash', () => {
     expect(slugifyPath('path/to/')).toBe('');
   });
+
+  it('should handle paths with only separators', () => {
+    expect(slugifyPath('/')).toBe('');
+    expect(slugifyPath('\\')).toBe('');
+    expect(slugifyPath('///')).toBe('');
+  });
 });

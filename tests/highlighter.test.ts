@@ -1,4 +1,5 @@
-import { describe, expect, it } from 'vitest';
+import { createHighlighter } from 'shiki';
+import { describe, expect, it, vi } from 'vitest';
 import { getCachedHighlighter } from '../src/utils/highlighter';
 
 describe('highlighter', () => {
