@@ -59,7 +59,7 @@ Each step is politically demanding. But planning, coalition building and interna
 
 ## A Politics of Imagination and Accountability
 
-One-state politics is not about erasing identity. It is about building institutions where identities flourish without domination. It asks uncomfortable things of all actors: **the settler population** must relinquish privilege; states must accept legal liability; international actors must move from convenience to accountability.
+One-state politics is not about erasing identity. It is about building institutions where identities flourish without domination. It asks uncomfortable things of all actors: **those benefiting from structures of privilege** must relinquish that advantage; states must accept legal liability; international actors must move from convenience to accountability.
 
 This is the labour of decolonisation: not simply shifting borders but dismantling the institutions of supremacy and building democratic modes of cohabitation in their place, **securing a just future for all, from the river to the sea.**
 

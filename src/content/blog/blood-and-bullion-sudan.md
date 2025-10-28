@@ -15,6 +15,8 @@ Gold doesn’t only glitter — in Sudan it bankrolls bullets, sieges and dispos
 
 ![Gold bullion](../../assets/gold-bullion.jpg)
 
+<figcaption>Gold bars representing the profits of conflict extraction — not Sudanese miners or victims.</figcaption>
+
 ---
 
 ## The RSF: From Janjaweed to Mineralised Power
