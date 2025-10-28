@@ -25,25 +25,25 @@ The RSF’s origins in Janjaweed militias and its elevation under Mohamed Hamdan
 
 Numbers vary, but independent analyses and UN expert findings point to substantial volumes. Estimates in 2024–2025 placed RSF-controlled output in the order of **tens of tonnes** across Sudan, with a significant portion effectively monetised off-book and channelled through neighbouring states and Gulf hubs. Gold is portable, high value per weight and easy to launder; that makes it ideal for financing irregular forces. Large shares of Sudan’s official exports have ended up in Egyptian transit points and Emirati markets, which then re-export refined bullion into global supply chains.
 
-## The UAE’s role: market, leverage and plausible deniability
+## The UAE’s Role: Market, Leverage and Denial
 
 Investigations and reporting have repeatedly identified Emirati firms and intermediaries at the end of supply chains buying Sudanese gold; leaked documents and UN reporting have traced routes that could move both bullion and, in some cases alleged by journalists and activists, materiel. The UAE denies direct provision of weapons to the RSF. Whatever legal responsibility is ultimately determined to be, the economic truth is straightforward: Gulf demand — particularly through the UAE’s refineries and bullion markets — gives huge monetary value to the seizure of Sudanese mines. When Emirati restrictions and flight suspensions hit Sudanese exports in October 2025, the Sudanese pound plunged — stark evidence of how dependent Sudan’s wartime economy had become on those markets.
 
-## From mine to militia: the cash pathways that keep the war running
+## From Mine to Militia: How Cash Fuels the War
 
 The chain is simple and brutal: RSF (or RSF-aligned brokers) control a mine → local traders buy rough gold → cross-border brokers and refiners move the metal through neighbouring states → bullion dealers in Gulf markets buy or refine it into standard bars for resale. Cash flows quickly back into RSF coffers to pay fighters, fuel operations, contract logistics and patronage networks. High gold prices since 2023 turbocharged extraction, turning areas that once offered seasonal livelihoods into militarised, extractive frontiers.
 
-## Ecological and human devastation: extraction as ecocide
+## Extraction as Ecocide: The Human and Ecological Cost
 
 Wartime mining is ecocide in slow motion. Artisanal pits scar landscapes; **ore-processing, which often uses vast, unregulated quantities of mercury,** contaminates water, **inflicting severe, generational neurological damage on local populations.** Farmland and grazing lands are destroyed; and unregulated pits multiply, creating long-term hazards. Environmental oversight collapses under conflict, and the people who once relied on the land are dispossessed. Human-rights organisations document systematic abuses in mining areas: forced displacement, sexual violence, summary executions and the targeting of displaced camps. Extraction thus produces a triple assault — physical violence, economic dispossession and ecological ruin.
 
-## A decolonial, eco-social reading: who benefits and who pays
+## A Decolonial Reading: Who Profits and Who Pays?
 
 This is structural, not accidental. Local strongmen and brokers capture resource rents; regional intermediaries and Gulf buyers monetise them; multinational refiners and traders integrate bullion into global markets. Wealth flows out; the social and ecological costs remain. That pattern is the persistence of colonial extraction in new clothing: dispossession rather than settlement, financial intermediation rather than direct colonial administration.
 
 An eco-socialist frame points us to the levers of power. Treating the crisis as merely a security problem misses the economic incentives that sustain it. The RSF won’t disarm while gold keeps funding it; foreign buyers won’t change behaviour while profit and laundering opportunities remain available. Ending the war requires dismantling the commercial architecture that makes control of mines so valuable.
 
-## What must change: concrete policy demands
+## What Must Change: Policy Demands
 
 A decolonial solidarity programme must centre enforceable measures that target buyers and enablers, not ordinary miners.
 

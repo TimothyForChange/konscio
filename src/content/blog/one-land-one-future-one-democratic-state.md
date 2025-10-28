@@ -10,7 +10,7 @@ tags: ['One-State Solution', 'Democracy', 'Palestine', 'Reparations', 'Decolonis
 draft: true
 ---
 
-# One Land, One Future: The Case for a Democratic State
+# One Land, One Future: The Case for a Single Democratic State
 
 If the first two parts of this series set out the problem and traced the global scaffolding that keeps it standing, this final instalment argues for a political solution consistent with justice.
 
@@ -20,7 +20,7 @@ This is not a fantasy; it is a political programme grounded in universal rights 
 
 ---
 
-## What “one democratic state” means in practice
+## What a Single Democratic State Means in Practice
 
 A one-state solution can take multiple constitutional forms — unitary secular state, federal or confederal models, or a binational arrangement with strong protections. The essential shared principle is **equal citizenship**: civil, political and social rights guaranteed irrespective of ethnicity or religion.
 
@@ -43,7 +43,7 @@ Key institutional features would include:
 
 ---
 
-## Practical steps toward a one-state future
+## Practical Steps Toward a Unified Future
 
 The goal must be built through incremental, mutually reinforcing actions:
 

@@ -10,7 +10,7 @@ tags: ['Complicity', 'Arms Trade', 'Corporate Accountability', 'Palestine', 'Int
 draft: true
 ---
 
-# Complicity and Power: How the World Sustains Dispossession
+# Complicity and Power: Sustaining Dispossession
 
 If the first part of this series mapped the architecture of dispossession, this second instalment examines the scaffolding that props it up. **This system of** dispossession and settler expansion **is** not self-sustaining; **it is** made possible by international actors who supply weapons, political cover and economic integration — and by institutions that fail to hold perpetrators to account.
 
@@ -18,7 +18,7 @@ Understanding these channels is a political act: it shows where leverage exists 
 
 ---
 
-## Diplomatic shielding and the politics of enforcement
+## Diplomatic Shielding and Impunity
 
 Throughout the post-1948 period, diplomatic decisions shaped outcomes. Powerful states, **most visibly through the consistent use of the US veto at the UN Security Council,** used rhetorical shelter and military support to protect a policy matrix that privileges settler control. This is not purely a matter of choice — it is the consequence of geopolitical alliances and entrenched political interests that have repeatedly softened international responses to abuses.
 
@@ -26,7 +26,7 @@ International institutions offer mechanisms of accountability in theory, but in 
 
 ---
 
-## Arms, finance and the military-industrial dimension
+## The Military-Industrial Roots of Control
 
 Weapons and military finance are the material means of **control**. Large suppliers **— primarily the United States and Germany —** maintain the military capacity that enforces checkpoints, demolitions and blockade regimes. Open-source reporting and defence analyses document extensive sales and security cooperation that replenish the tools of control.
 

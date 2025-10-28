@@ -10,7 +10,7 @@ categories: ['Analysis']
 tags: ['Congo', 'Extractivism', 'Green Colonialism', 'Imperialism', 'Eco-socialism', 'Global South']
 ---
 
-# Cobalt Colonialism: How the DRC Powers the Global North’s Green Transition
+# Cobalt Colonialism: The DRC and the Green Transition
 
 The Democratic Republic of Congo is presented to the world as a resource — a seam of minerals waiting for extraction, refinement and shipment. In radio spots, corporate reports and policy papers this is framed as progress: cobalt for batteries, coltan for phones, lithium for storage. But when you look closer, the “green transition” championed by the Global North is simply a new vocabulary for an old practice: extracting wealth from the Global South while leaving devastation in its wake.
 
@@ -18,7 +18,7 @@ This is not a story about scarcity of resources. It is a story about **who contr
 
 ---
 
-## From Leopold to Multinational Supply Chains: Historical Continuities
+## From Leopold to Global Supply Chains: A Colonial Echo
 
 The violent patterns seen in the DRC today are not anomalies that emerged after independence; they are continuities of a long history. The Congo was central to European imperial plunder — a landscape commodified under Leopold II’s rule, where extraction and brutality were the political economy. That logic did not die with formal empire; it mutated.
 
@@ -28,7 +28,7 @@ Contemporary extraction follows the same blueprint: external demand sets the ter
 
 ---
 
-## The Mechanism: How the Green Transition Reproduces Extraction
+## How the “Green” Transition Reproduces Extraction
 
 The Global North’s shift to “green” technologies requires vast quantities of specific minerals. This demand is framed as urgent and moral: save the planet by switching to electric vehicles and renewable systems. But moralising the commodity does not alter the politics of its production. A few structural points to note:
 
@@ -64,7 +64,7 @@ What would a different approach look like?
 
 ---
 
-## What Readers in the Global North Must Understand
+## A Note for the Global North
 
 It is tempting to see the DRC as a tragic exception or a governance failure to be fixed by technical solutions. That view is convenient because it lets consumers and policymakers imagine that swapping suppliers, auditing mines or buying “ethical” labels is sufficient. It is not.
 
