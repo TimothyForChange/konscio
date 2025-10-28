@@ -36,6 +36,7 @@ Capitalism, colonialism, and climate collapse are not separate crises but one sy
 | **Emotional register** | Controlled anger and moral clarity; empathy without romanticisation.                                                                                           |
 | **Language**           | Prefer strong verbs and plain syntax. Replace euphemisms (“development”, “security”, “stability”) with structural terms (“extraction”, “control”, “hegemony”). |
 | **Prohibited tones**   | Centrist “balance”, NGO managerialism, passive-voice evasion.                                                                                                  |
+| **Spelling**           | Prefer British English or South African English spelling in all articles.                                                                                      |
 
 ---
 
