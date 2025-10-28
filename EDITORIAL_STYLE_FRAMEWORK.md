@@ -99,7 +99,7 @@ Capitalism, colonialism, and climate collapse are not separate crises but one sy
 ## 6. Aesthetic & Layout Principles
 
 - **Header images are optional**, not required. Text should stand on its own.
-- **Length:** Ideal word count per essay: 1,800–2,800 words.
+- **Length:** Ideal word count per essay: 900-1600 words.
 - **Rhythm:** Alternate dense analysis with short declarative paragraphs for emotional clarity.
 - **Closing:** Every essay ends with a statement of solidarity or moral imperative (e.g., “In solidarity with…”, “The struggle continues…”).
 
