@@ -1,6 +1,6 @@
 ---
 import Layout from '../../components/Layout.astro';
-import { BASE_URL } from '../../config';
+import { config } from '../../config';
 import { slugifyPath } from '../../utils/slugify';
 
 export async function getStaticPaths() {
@@ -47,7 +47,8 @@ export async function getStaticPaths() {
 }
 
 const { category, posts } = Astro.props;
-const base = BASE_URL;
+
+const base = config.baseUrl;
 ---
 
 <Layout

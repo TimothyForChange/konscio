@@ -1,7 +1,7 @@
 ---
 import Layout from '../../components/Layout.astro';
 import TableOfContents from '../../components/TableOfContents.astro';
-import { BASE_URL } from '../../config';
+import { config } from '../../config';
 import { slugifyPath } from '../../utils/slugify';
 import { extractHeadings, filterHeadingsForTOC } from '../../utils/table-of-contents';
 
@@ -35,7 +35,8 @@ const { post, tocHeadings } = Astro.props;
 const { frontmatter, Content } = post as any;
 
 const pageTitle = frontmatter.title;
-const base = BASE_URL;
+
+const base = config.baseUrl;
 const datePublished = frontmatter.datePublished
   ? new Date(frontmatter.datePublished).toISOString()
   : undefined;

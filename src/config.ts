@@ -38,7 +38,3 @@ export const config: SiteConfig = {
   siteUrl: 'https://timothyforchange.co.za',
   baseUrl: '/',
 };
-
-export const SITE_TITLE = config.title;
-export const SITE_DESCRIPTION = config.description;
-export const BASE_URL = config.baseUrl;
