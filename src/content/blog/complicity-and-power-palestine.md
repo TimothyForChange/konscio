@@ -4,7 +4,7 @@ author: 'Timothy Brits'
 datePublished: 2025-10-27
 description: 'A focused investigation into how international diplomacy, arms transfers, corporate ties and financial networks have enabled and prolonged Palestinian dispossession.'
 excerpt: '**Dispossession** does not survive in isolation. Diplomatic cover, arms sales, corporate profit and international finance all help sustain a system of dispossession. This piece exposes those channels and names the forms of accountability that matter.'
-image: /complicity-and-power.jpg
+image: /complicity-and-power-palestine.jpg
 categories: ['Analysis']
 tags: ['Complicity', 'Arms Trade', 'Corporate Accountability', 'Palestine', 'International Law']
 draft: true

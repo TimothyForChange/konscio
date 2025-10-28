@@ -4,7 +4,7 @@ author: 'Timothy Brits'
 datePublished: 2025-10-27
 description: 'How partition, the Nakba and subsequent legal-political measures created a durable system of dispossession — and why understanding settler colonialism is necessary to make sense of the present.'
 excerpt: 'Palestine is the product of a political project that dispossessed its people, remapped its land and normalised legal asymmetries. This piece traces the architecture of that dispossession and explains why naming the operation matters for justice.'
-image: /architecture-of-dispossession.jpg
+image: /architecture-of-dispossession-palestine.jpg
 categories: ['Analysis']
 tags: ['Palestine', 'Nakba', 'Settler Colonialism', 'History', 'Decolonisation']
 draft: true
