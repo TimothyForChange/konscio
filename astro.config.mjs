@@ -38,7 +38,7 @@ export default defineConfig({
   trailingSlash: 'never',
   output: 'static',
   prefetch: {
-    defaultStrategy: 'viewport',
+    defaultStrategy: 'hover',
   },
   image: {
     service: {
@@ -48,6 +48,11 @@ export default defineConfig({
   build: {
     assetsInlineLimit: 4096,
     cacheDir: './.astro-cache',
+    rollupOptions: {
+      output: {
+        crossOrigin: 'anonymous',
+      },
+    },
   },
   integrations: [
     mdx(),
