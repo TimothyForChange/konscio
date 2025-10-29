@@ -90,7 +90,7 @@ _The Congo does not need our pity._ It needs the end of a system that makes its 
 
 If the green transition is to mean anything, it must begin by dismantling the extractive relations that have long defined the Congo’s place in the world economy. Anything less is merely continuity in new clothes.
 
-> “He who feeds you, controls you.”
-> — _Thomas Sankara_
+> “They call it investment when they take our land, and aid when they return a fraction of what they stole.”
+> — _Arundhati Roy_
 
-In solidarity with Congolese struggles for sovereignty, dignity and ecological survival.
+— In solidarity with Congolese struggles for sovereignty, dignity and ecological survival.
