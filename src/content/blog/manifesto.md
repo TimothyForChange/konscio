@@ -2,8 +2,8 @@
 title: 'Why This Blog Exists: For People and Planet'
 author: 'Timothy Brits'
 datePublished: 2025-10-23
-description: 'Introducing Timothy for Change — an eco-socialist and decolonial platform from South Africa, dedicated to exposing structural violence and imagining a just future.'
-excerpt: 'Capitalism, colonialism, and climate collapse are not separate crises — they are one system of domination expressed through different forms. This opening statement defines the mission and values of Timothy for Change: an eco-socialist, decolonial platform from South Africa for people and planet.'
+description: 'Introducing Timothy for Change, an eco-socialist and decolonial platform from South Africa, dedicated to exposing structural violence and imagining a just future.'
+excerpt: 'Capitalism, colonialism, and climate collapse are not separate crises; they are one system of domination expressed through different forms. This opening statement defines the mission and values of Timothy for Change: an eco-socialist, decolonial platform from South Africa for people and planet.'
 image: /manifesto.jpg
 categories: ['Editorial']
 tags:
@@ -18,7 +18,7 @@ tags:
 
 # Why This Blog Exists: For People and Planet
 
-Capitalism, colonialism, and climate collapse are not separate crises — they are one system of domination expressed through different forms.
+Capitalism, colonialism, and climate collapse are not separate crises; they are one system of domination expressed through different forms.
 The same logic that enslaved and extracted from the Global South now drives ecological collapse across the planet.
 
 **Timothy for Change** exists to confront that system — not as neutral commentary, but as _critical resistance._
@@ -29,17 +29,17 @@ Written from South Africa, in solidarity with all who struggle against empire, e
 
 ## What This Site Stands For
 
-- **Eco-socialism:** A just, post-capitalist world where the economy serves life — not profit.
+- **Eco-socialism:** A just, post-capitalist world where the economy serves life, not profit.
 - **Decolonisation:** Dismantling the political, cultural, and economic power structures inherited from empire.
 - **Global South Solidarity:** Centring the voices and struggles of those most exploited and least heard.
-- **Structural Analysis:** Naming root causes, not symptoms — because oppression is systemic, not accidental.
+- **Structural Analysis:** Naming root causes, not symptoms, because oppression is systemic, not accidental.
 - **Liberation:** Real change comes from collective power, not reform handed down from above.
 
 ---
 
 ## Why It Matters
 
-We live in a time of planetary emergency — ecological, economic, and moral.
+We live in a time of planetary emergency: ecological, economic, and moral.
 The forces that profit from destruction will not dismantle themselves.
 
 The task ahead is not merely to survive, but to _build an alternative_ rooted in justice, cooperation, and care for the Earth.
@@ -49,7 +49,7 @@ The task ahead is not merely to survive, but to _build an alternative_ rooted in
 
 ## What to Expect
 
-This site will feature essays, reflections, and analyses exploring how global systems of power operate — and how they can be dismantled.
+This site will feature essays, reflections, and analyses exploring how global systems of power operate, and how they can be dismantled.
 
 It will examine the intersections between:
 
@@ -70,9 +70,9 @@ To analyse is to fight despair with understanding.
 To imagine a better world is already an act of defiance.
 
 This space is not neutral ground.
-It is a call to action — to think, write, and act for life.
+It is a call to action: to think, write, and act for life.
 
 > “What matters is not to know the world but to change it.”
 > — _Frantz Fanon, Black Skin, White Masks (1952)_
 
-Welcome to **Timothy for Change** — for people and planet.
+Welcome to **Timothy for Change**, for people and planet.
