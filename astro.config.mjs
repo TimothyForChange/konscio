@@ -1,4 +1,3 @@
-import cloudflare from '@astrojs/cloudflare';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import playformInline from '@playform/inline';
@@ -37,12 +36,15 @@ export default defineConfig({
   site: config.siteUrl,
   base: config.baseUrl,
   trailingSlash: 'never',
-  output: 'server',
-
+  output: 'static',
   prefetch: {
     defaultStrategy: 'viewport',
   },
-  image: {},
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/sharp',
+    },
+  },
   build: {
     assetsInlineLimit: 4096,
     cacheDir: './.astro-cache',
@@ -71,5 +73,4 @@ export default defineConfig({
     },
     remarkPlugins: [remarkReadingTime],
   },
-  adapter: cloudflare(),
 });

@@ -9,8 +9,6 @@ import Header from './Header.astro';
 import SEO from './SEO.astro';
 import Sidebar from './Sidebar.astro';
 
-const theme = Astro.cookies.get('theme')?.value;
-
 export interface Props {
   title: string;
   description?: string;
@@ -35,7 +33,7 @@ const {
 ---
 
 <!doctype html>
-<html lang='en' {...theme ? { 'data-theme': theme } : {}}>
+<html lang='en'>
   <head>
     <meta charset='UTF-8' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
