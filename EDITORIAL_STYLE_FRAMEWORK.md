@@ -27,18 +27,16 @@ Capitalism, colonialism, and climate collapse are not separate crises but one sy
 
 ## 2. Voice and Tone
 
-| Attribute              | Guideline                                                                                                                                                      |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Voice**              | Authoritative, morally grounded, uncompromising. Combines clarity with moral urgency.                                                                          |
-| **Tone**               | Serious, declarative, anti-euphemistic. Avoid false neutrality, sentimentality, or technocratic jargon.                                                        |
-| **Perspective**        | Rooted in solidarity and structural critique, not voyeurism or pity.                                                                                           |
-| **Reader**             | Politically aware, globally literate, seeking depth and direction. Treat them as adults capable of radical thought.                                            |
-| **Emotional register** | Controlled anger and moral clarity; empathy without romanticisation.                                                                                           |
-| **Language**           | Prefer strong verbs and plain syntax. Replace euphemisms (“development”, “security”, “stability”) with structural terms (“extraction”, “control”, “hegemony”). |
-| **Prohibited tones**   | Centrist “balance”, NGO managerialism, passive-voice evasion.                                                                                                  |
-| **Spelling**           | Prefer British English or South African English spelling in all articles.                                                                                      |
+**Voice and Tone Guidelines:**
 
----
+- **Voice:** Authoritative, morally grounded, uncompromising. Combines clarity with moral urgency.
+- **Tone:** Serious, declarative, anti-euphemistic. Avoid false neutrality, sentimentality, or technocratic jargon.
+- **Perspective:** Rooted in solidarity and structural critique, not voyeurism or pity.
+- **Reader:** Politically aware, globally literate, seeking depth and direction. Treat them as adults capable of radical thought.
+- **Emotional register:** Controlled anger and moral clarity; empathy without romanticisation.
+- **Language:** Prefer strong verbs and plain syntax. Replace euphemisms (“development”, “security”, “stability”) with structural terms (“extraction”, “control”, “hegemony”).
+- **Prohibited tones:** Centrist “balance”, NGO managerialism, passive-voice evasion.
+- **Spelling:** Prefer British English or South African English spelling in all articles.
 
 ## 3. Structural Conventions
 
@@ -74,15 +72,15 @@ Capitalism, colonialism, and climate collapse are not separate crises but one sy
 
 ## 4. Stylistic Grammar
 
-| Element          | Rule                                                                                                            |
-| ---------------- | --------------------------------------------------------------------------------------------------------------- |
-| **Tense**        | Present for analysis; past for history; future for programme.                                                   |
-| **Voice**        | Active wherever possible (“actors dispossess”, not “people are dispossessed”).                                  |
-| **Pronouns**     | Inclusive “we” only when referring to global humanity or solidarity networks — never to obscure responsibility. |
-| **Numbers**      | Use **bold numerals** for key statistics to ensure visual clarity.                                              |
-| **Quotes**       | Always contextualised; attribute activists and scholars by name and role, not title alone.                      |
-| **Acronyms**     | Define on first mention (e.g., “Rapid Support Forces (RSF)”).                                                   |
-| **Oxford comma** | Required for precision.                                                                                         |
+**Stylistic Grammar Rules:**
+
+- **Tense:** Present for analysis; past for history; future for programme.
+- **Voice:** Active wherever possible (“actors dispossess”, not “people are dispossessed”).
+- **Pronouns:** Inclusive “we” only when referring to global humanity or solidarity networks — never to obscure responsibility.
+- **Numbers:** Use **bold numerals** for key statistics to ensure visual clarity.
+- **Quotes:** Always contextualised; attribute activists and scholars by name and role, not title alone.
+- **Acronyms:** Define on first mention (e.g., “Rapid Support Forces (RSF)”).
+- **Oxford comma:** Required for precision.
 
 ---
 
@@ -107,13 +105,13 @@ Capitalism, colonialism, and climate collapse are not separate crises but one sy
 
 ## 7. Series-Level Consistency
 
-| Component            | Instruction                                                                                      |
-| -------------------- | ------------------------------------------------------------------------------------------------ |
-| **Opening format**   | YAML front matter (title, author, date, description, excerpt, image [optional], tags).           |
-| **Subtitle**         | Always explanatory, never clickbait.                                                             |
-| **Byline**           | “Timothy Brits” — maintain single consistent author signature.                                   |
-| **Sign-off**         | End with a solidarity phrase (e.g., “— In solidarity with…”).                                    |
-| **Series hierarchy** | Thematic arcs should move from **diagnosis** → **mechanisms** → **resistance and alternatives**. |
+**Series-Level Consistency:**
+
+- **Opening format:** YAML front matter (title, author, date, description, excerpt, image [optional], tags).
+- **Subtitle:** Always explanatory, never clickbait.
+- **Byline:** “Timothy Brits” — maintain single consistent author signature.
+- **Sign-off:** End with a solidarity phrase (e.g., “— In solidarity with…”).
+- **Series hierarchy:** Thematic arcs should move from **diagnosis** → **mechanisms** → **resistance and alternatives**.
 
 ---
 
