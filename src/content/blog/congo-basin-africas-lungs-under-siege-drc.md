@@ -41,8 +41,8 @@ In practice, this means **climate finance replaces colonial tribute**: money flo
 
 Recent investigations show that new “carbon concessions” in the DRC often **overlap Indigenous territories** and are negotiated **without Free, Prior and Informed Consent** — in some cases rebranded from former logging concessions. This is carbon colonialism under a green banner.
 
-> “Carbon trading and offsets are simply the privatization of the atmosphere. They allow polluters to buy the right to continue polluting.”
-> — _Nnimmo Bassey_
+> “Carbon-trading policies, in effect, allow rich polluters the right to carry on business as usual—while poorer nations bear the burden of absorbing the consequences.”
+> — _Larry Lohmann, Carbon Trading: A Critical Conversation on Climate Change, Privatisation and Power (2006)_
 
 ---
 

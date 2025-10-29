@@ -72,7 +72,7 @@ To imagine a better world is already an act of defiance.
 This space is not neutral ground.
 It is a call to action — to think, write, and act for life.
 
-> “We must choose either champagne for a few or safe drinking water for all.”
-> — _Thomas Sankara_
+> “What matters is not to know the world but to change it.”
+> — _Frantz Fanon, Black Skin, White Masks (1952)_
 
 Welcome to **Timothy for Change** — for people and planet.

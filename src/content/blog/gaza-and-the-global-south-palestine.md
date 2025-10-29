@@ -15,15 +15,19 @@ Gaza is not an aberration — it is a mirror.
 The same powers that destroy forests in the Congo, exploit cobalt for “green” technologies, and impose debt on Africa are the ones supplying bombs and diplomatic cover to Israel.
 Palestine reveals, in concentrated form, the moral and structural logic of global empire: domination through dispossession, justified by the language of civilisation, progress, and security.
 
-As of late 2025, more than **67,000 Palestinians have been killed** since the assault on Gaza began in October 2023.
+As of late 2025, more than **67 000 Palestinians have been killed** since the assault on Gaza began in October 2023.
 Entire hospitals and universities have been levelled. Over **two million people** remain trapped under siege — starved, bombed, and displaced in what UN experts call a _textbook case of genocide_.
+
+Even the declared “ceasefire” offered no real reprieve. On **29 October 2025**, Israeli strikes during the truce killed **104 people in a single day**, including dozens of children, according to Gaza health authorities cited by _Reuters_.
+A pause in war became another episode of annihilation — a reminder that for colonised peoples, peace under empire is often only a change in tempo.
+
 This is not simply about war. It is about a world order built on the belief that some lives — and some lands — are expendable for profit and control.
 
 ---
 
 ## Empire’s Continuum
 
-The genocide in Gaza did not begin in 2023. It began with **settler colonialism** — the economic and racial logic of empire carried into the 21st century.
+The genocide in Gaza did not begin in 2023. It began with **settler colonialism** — the economic and racial logic of empire carried into the twenty-first century.
 The British Mandate, the Balfour Declaration, and the Zionist project were all instruments of the same system that partitioned Africa, enslaved millions, and enclosed the Earth’s commons for capital.
 
 The methods evolve — sanctions instead of gunboats, drones instead of gunpowder — but the structure endures:
@@ -41,7 +45,7 @@ Different geographies, one architecture.
 </figure>
 
 > “There will be no global climate justice, no global just transition without the liberation of Palestine.”
-> — _Hamza Hamouchene_
+> — _Hamza Hamouchene, Transnational Institute (2025)_
 
 ---
 
@@ -99,7 +103,7 @@ From Johannesburg to Jakarta, from Caracas to Cairo, movements recognise Gaza as
 This is **internationalism reborn** — solidarity not as sentiment, but as structure: an alliance of the dispossessed against empire in all its forms.
 
 > “If you have come here to help me, you are wasting your time. But if you have come because your liberation is bound up with mine, then let us work together.”
-> — _Lilla Watson and Aboriginal activists_
+> — _Lilla Watson and Aboriginal activists, Queensland (1970s)_
 
 ---
 
@@ -137,7 +141,7 @@ A civilisation willing to annihilate children for control of land will annihilat
 The line between Palestine and the planet is thinner than we think.
 
 > “But we know too well that our freedom is incomplete without the freedom of the Palestinians; without the resolution of conflicts in East Timor, the Sudan and other parts of the world.”
-> — _Nelson Mandela, 1997_
+> — _Nelson Mandela, Pretoria (1997)_
 
 To fight for Gaza is to fight for life.
 To remain silent is to side with empire.
