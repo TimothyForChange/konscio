@@ -42,9 +42,9 @@ Capitalism, colonialism, and climate collapse are not separate crises but one sy
 
 ### Headings
 
-- H1: Essay title (as in `# The Congo Basin: Africa’s Lungs Under Siege`)
-- H2 (`##`): Section titles, each representing a distinct analytical move (context → structure → resistance → alternative).
-- H3 (`###`): Optional for subsections (e.g., “Human Cost”, “Policy Demands”).
+- **H1 (`#`):** Essay title — written in **Title Case** (e.g. `# The Congo Basin: Africa’s Lungs Under Siege`).
+- **H2 (`##`):** Section titles — also written in **Title Case**, each representing a distinct analytical move (Context → Structure → Resistance → Alternative).
+- **H3 (`###`):** Optional subsections — use **Title Case** as well (e.g. “Human Cost”, “Policy Demands”).
 
 ### Section Pattern
 
