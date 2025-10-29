@@ -114,4 +114,71 @@ describe('theme-init.js and ThemeToggle.astro', () => {
     dom.window.document.head.appendChild(script);
     expect(dom.window.document.documentElement.dataset.theme).toBe('light');
   });
+
+  function runThemeToggle(initialTheme: string | null) {
+    const dom = new JSDOM(
+      `<!DOCTYPE html><html><head></head><body><button id='theme-toggle'></button></body></html>`,
+      {
+        runScripts: 'dangerously',
+        resources: 'usable',
+        url: 'http://localhost',
+      }
+    );
+    const { window } = dom;
+    if (initialTheme) {
+      window.document.documentElement.dataset.theme = initialTheme;
+    }
+    const script = window.document.createElement('script');
+    script.textContent = `
+      const toggle = document.getElementById('theme-toggle');
+
+      function setTheme(theme) {
+        document.documentElement.dataset.theme = theme;
+        localStorage.setItem('theme', theme);
+      }
+
+      toggle?.addEventListener('click', () => {
+        const current = document.documentElement.dataset.theme || 'light';
+        const next = current === 'light' ? 'dark' : 'light';
+        setTheme(next);
+      });
+    `;
+    window.document.head.appendChild(script);
+    return dom;
+  }
+
+  it('ThemeToggle toggles from light to dark on click', () => {
+    const dom = runThemeToggle('light');
+    const button = dom.window.document.getElementById('theme-toggle')!;
+    button.click();
+    expect(dom.window.document.documentElement.dataset.theme).toBe('dark');
+    expect(dom.window.localStorage.getItem('theme')).toBe('dark');
+  });
+
+  it('ThemeToggle toggles from dark to light on click', () => {
+    const dom = runThemeToggle('dark');
+    const button = dom.window.document.getElementById('theme-toggle')!;
+    button.click();
+    expect(dom.window.document.documentElement.dataset.theme).toBe('light');
+    expect(dom.window.localStorage.getItem('theme')).toBe('light');
+  });
+
+  it('ThemeToggle defaults to light if no initial theme set', () => {
+    const dom = runThemeToggle(null);
+    const button = dom.window.document.getElementById('theme-toggle')!;
+    button.click();
+    expect(dom.window.document.documentElement.dataset.theme).toBe('dark');
+    expect(dom.window.localStorage.getItem('theme')).toBe('dark');
+  });
+
+  it('ThemeToggle multiple clicks toggle correctly', () => {
+    const dom = runThemeToggle('light');
+    const button = dom.window.document.getElementById('theme-toggle')!;
+    button.click();
+    expect(dom.window.document.documentElement.dataset.theme).toBe('dark');
+    button.click();
+    expect(dom.window.document.documentElement.dataset.theme).toBe('light');
+    button.click();
+    expect(dom.window.document.documentElement.dataset.theme).toBe('dark');
+  });
 });
