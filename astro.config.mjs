@@ -71,5 +71,5 @@ export default defineConfig({
     },
     remarkPlugins: [remarkReadingTime],
   },
-  adapter: cloudflare({ runtime: 'edge' }),
+  adapter: cloudflare(),
 });

@@ -51,7 +51,7 @@ describe('Layout.astro', () => {
 
   it('has proper HTML document structure', () => {
     expect(componentContent).toContain('<!doctype html>');
-    expect(componentContent).toContain("<html lang='en'");
+    expect(componentContent).toContain("<html lang='en'>");
     expect(componentContent).toContain('<head>');
     expect(componentContent).toContain("<meta charset='UTF-8' />");
     expect(componentContent).toContain(
@@ -88,9 +88,10 @@ describe('Layout.astro', () => {
   it('includes theme initialization script', () => {
     expect(componentContent).toContain('<script>');
     expect(componentContent).toContain('(function () {');
-    expect(componentContent).toContain('function getCookie(name: string)');
     expect(componentContent).toContain("let theme = 'light';");
-    expect(componentContent).toContain("const stored = getCookie('theme');");
+    expect(componentContent).toContain(
+      "const stored = localStorage.getItem('theme');"
+    );
     expect(componentContent).toContain(
       "if (stored === 'light' || stored === 'dark') {"
     );
