@@ -15,7 +15,7 @@ Gaza is not an aberration — it is a mirror.
 The same powers that destroy forests in the Congo, exploit cobalt for “green” technologies, and impose debt on Africa are the ones supplying bombs and diplomatic cover to Israel.
 Palestine reveals, in concentrated form, the moral and structural logic of global empire: domination through dispossession, justified by the language of civilisation, progress, and security.
 
-As of late 2025, more than **35,000 Palestinians have been killed** since the assault on Gaza began in October 2023.
+As of late 2025, more than **67,000 Palestinians have been killed** since the assault on Gaza began in October 2023.
 Entire hospitals and universities have been levelled. Over **two million people** remain trapped under siege — starved, bombed, and displaced in what UN experts call a _textbook case of genocide_.
 This is not simply about war. It is about a world order built on the belief that some lives — and some lands — are expendable for profit and control.
 
