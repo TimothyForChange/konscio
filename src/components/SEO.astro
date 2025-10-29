@@ -46,10 +46,10 @@ const imageURL = new URL(image.replace(/^\//, ''), Astro.site);
 <meta property='og:image' content={imageURL.toString()} />
 <meta
   property='og:logo'
-  content={new URL('/site-title.svg', Astro.site).toString()}
+  content={new URL('/logo.webp', Astro.site).toString()}
 />
 <meta property='og:site_name' content={config.title} />
-<meta property='og:locale' content='en_US' />
+<meta property='og:locale' content='en_GB' />
 {
   datePublished && (
     <meta property='article:published_time' content={datePublished} />
