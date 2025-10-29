@@ -63,15 +63,21 @@ const { headings } = Astro.props;
     content: counter(toc-counter) '.';
     position: absolute;
     left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc(var(--grid-unit) * 3);
+    text-align: right;
+    padding-right: calc(var(--grid-unit) * 0.75);
     font-family: var(--font-mono);
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     color: var(--color-text-muted);
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .toc-link {
     display: block;
-    padding-left: calc(var(--grid-unit) * 3);
+    position: relative;
+    padding-left: calc(var(--grid-unit) * 4);
     color: var(--color-text-primary);
     text-decoration: none;
     line-height: 1.6;
