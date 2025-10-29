@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/timothyforchange/konscio.git"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "astro": "astro",

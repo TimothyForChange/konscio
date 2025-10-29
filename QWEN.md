@@ -24,17 +24,18 @@
 - **Preview:** `npm run preview`
 - **Type Check:** `npm run check`
 - **Lint:** `npm run lint`
+- **Test:** `npm run test` (Vitest with jsdom environment)
 
 ## Project-Specific Conventions
 
 - **Frontmatter:** Blog posts require `title` and `datePublished` in frontmatter. Optional: `author`, `excerpt`, `categories`, `tags`, `image`.
 - **Content Schema:** Zod schema in `src/content/config.ts` validates blog posts with `z.coerce.date()` for date parsing.
-- **Dark Mode:** Theme preference persisted in localStorage and initialized via `public/theme-init.js` to prevent FOUC. CSS variables update via `[data-theme='dark']` selector.
+- **Dark Mode:** Theme preference persisted in localStorage and initialized via inline script in `Layout.astro` to prevent FOUC. CSS variables update via `[data-theme='dark']` selector.
 - **Table of Contents:** Auto-generated for posts with headings (H2-H4) using `src/utils/table-of-contents.ts` and rendered by `TableOfContents.astro`.
-- **Reading Time:** Calculated via remark plugin (`plugins/remark-reading-time.mjs`) and displayed on posts.
+- **Reading Time:** Calculated via remark plugin (`plugins/remark-reading-time.ts`) and displayed on posts.
 - **SEO:** Meta tags and structured data handled by `SEO.astro`.
 - **Type Safety:** All config and utility code is type-checked.
-- **Self-Hosted Fonts:** No external font dependencies; see `global.css` for font setup.
+- **Self-Hosted Fonts:** No external font dependencies; see `src/styles/variables.css` for font setup.
 - **Colour Palette:** Monotone palette with accent red, semantic colour variables for light/dark themes.
 - **Language:** All new content and edits to content must use British English spelling.
 - **Code Style:** Never add comments to code or content.
@@ -45,6 +46,8 @@
 - **MDX:** Supports embedded JSX in blog posts for rich content.
 - **Content Collections:** Astro's type-safe content system with Zod validation.
 - **Fontaine:** Optimizes self-hosted fonts from @fontsource packages.
+- **Shiki:** Syntax highlighting with cached highlighter in `src/utils/highlighter.ts`.
+- **Remark Plugins:** Custom reading time calculation plugin.
 
 ## Examples
 

@@ -51,7 +51,7 @@ An Astro-powered blog exploring capitalism, colonialism, and climate collapse th
 
 ### Prerequisites
 
-- Node.js 24.10.0 or higher
+- Node.js 22.16.0 or higher
 - Git
 
 ### Installation
@@ -85,7 +85,7 @@ konscio/
 │   ├── robots.txt
 │   ├── search.json
 │   ├── site.webmanifest
-│   └── theme-init.js        # Dark mode initialization script
+│   └── _headers
 ├── src/
 │   ├── components/
 │   │   ├── Footer.astro     # Site footer with social links
@@ -122,7 +122,7 @@ konscio/
  │   │   └── blog.ts          # Zod schema for blog post frontmatter
  │   └── config.ts            # Site configuration
 ├── plugins/
-│   └── remark-reading-time.mjs # Custom remark plugin for reading time calculation
+│   └── remark-reading-time.ts # Custom remark plugin for reading time calculation
 ├── astro.config.mjs         # Astro configuration with MDX
 ├── eslint.config.mjs        # ESLint configuration
 ├── package.json
@@ -210,6 +210,7 @@ All commands are run from the root of the project:
 | `npm run check`   | Check TypeScript types                     |
 | `npm run lint`    | Run ESLint with auto-fix                   |
 | `npm run format`  | Format code with Prettier                  |
+| `npm run test`    | Run tests with Vitest                      |
 
 ## 🚀 Deployment
 
