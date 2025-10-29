@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { slugifyPath } from '../src/utils/slugify';
+import { slugifyPath } from '../../src/utils/slugify';
 
 describe('slugifyPath', () => {
   it('should return the filename without extension', () => {

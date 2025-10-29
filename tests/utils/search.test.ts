@@ -1,6 +1,6 @@
 import { getCollection } from 'astro:content';
 import { describe, expect, it, vi } from 'vitest';
-import { GET } from '../src/pages/search.json.js';
+import { GET } from '../../src/pages/search.json.js';
 
 vi.mock('astro:content', () => ({
   getCollection: vi.fn(),

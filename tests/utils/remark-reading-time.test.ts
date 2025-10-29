@@ -1,7 +1,7 @@
 import remarkParse from 'remark-parse';
 import { unified } from 'unified';
 import { describe, expect, it } from 'vitest';
-import { remarkReadingTime } from '../plugins/remark-reading-time';
+import { remarkReadingTime } from '../../plugins/remark-reading-time';
 
 describe('remarkReadingTime', () => {
   function runPlugin(markdown: string, options = {}) {

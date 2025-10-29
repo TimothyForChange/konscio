@@ -42,19 +42,19 @@ Different geographies, one architecture.
 
 ## The Global Machinery of Empire
 
-### 1. **Weapons and War**
+### Weapons and War
 
 Israel’s bombardment of Gaza is enabled by a transnational military-industrial complex that profits from endless war.
 The same corporations — **Lockheed Martin, BAE Systems, Thales, Northrop Grumman** — sell weapons tested on Palestinians and later exported as “battle-proven.”
 Military occupation becomes a laboratory for repression — exported globally to police borders, refugees, and protesters.
 
-### 2. **Finance and Control**
+### Finance and Control
 
 Empire no longer rules by flag — it rules through **debt, trade regimes, and sanctions**.
 IMF austerity in Africa, World Bank “development projects” in Asia, and U.S. sanctions on states that resist all sustain a hierarchy of dependence.
 The same countries that arm Israel also control the institutions that discipline the Global South.
 
-### 3. **Media and Moral Legitimacy**
+### Media and Moral Legitimacy
 
 The ideological front of empire is built through narratives: “self-defence”, “democracy”, “stability.”
 These words disguise structural violence, framing victims as threats and resistance as terrorism.

@@ -1,12 +1,12 @@
 import rss from '@astrojs/rss';
 import { describe, expect, it, vi } from 'vitest';
-import { GET } from '../src/pages/rss.xml.js';
+import { GET } from '../../src/pages/rss.xml.js';
 
 vi.mock('@astrojs/rss', () => ({
   default: vi.fn(() => ({ status: 200, body: 'rss content' })),
 }));
 
-vi.mock('../src/config', () => ({
+vi.mock('../../src/config', () => ({
   config: {
     title: 'Test Site',
     description: 'Test Description',

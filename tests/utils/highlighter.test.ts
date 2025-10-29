@@ -1,6 +1,5 @@
-import { createHighlighter } from 'shiki';
-import { describe, expect, it, vi } from 'vitest';
-import { getCachedHighlighter } from '../src/utils/highlighter';
+import { describe, expect, it } from 'vitest';
+import { getCachedHighlighter } from '../../src/utils/highlighter';
 
 describe('highlighter', () => {
   it('should return a highlighter instance', async () => {
