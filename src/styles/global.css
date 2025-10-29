@@ -1,6 +1,2 @@
-@import './reset.css';
-@import './variables.css';
-@import './base.css';
-@import './typography.css';
 @import './elements.css';
 @import './utilities.css';
