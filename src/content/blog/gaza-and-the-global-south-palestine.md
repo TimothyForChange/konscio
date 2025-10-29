@@ -67,7 +67,6 @@ The same countries that arm Israel also control the institutions that discipline
 
 The ideological front of empire is built through narratives: “self-defence”, “democracy”, “stability.”
 These words disguise structural violence, framing victims as threats and resistance as terrorism.
-Corporate media functions as a moral laundering machine — manufacturing consent for domination.
 
 ---
 
