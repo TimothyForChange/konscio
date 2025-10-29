@@ -21,7 +21,7 @@ This is not simply about war. It is about a world order built on the belief that
 
 ---
 
-## Empire’s Continuum: From Mandate to Military Complex
+## Empire’s Continuum
 
 The genocide in Gaza did not begin in 2023. It began with **settler colonialism** — the economic and racial logic of empire carried into the 21st century.
 The British Mandate, the Balfour Declaration, and the Zionist project were all instruments of the same system that partitioned Africa, enslaved millions, and enclosed the Earth’s commons for capital.
