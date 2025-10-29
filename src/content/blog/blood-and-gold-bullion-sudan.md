@@ -14,7 +14,7 @@ tags: ['Sudan', 'Gold', 'Extractivism', 'Imperialism', 'RSF', 'Global South']
 > “Imperialism leaves behind germs of rot which we must clinically detect and remove from our land and from our minds.”
 > — Frantz Fanon, The Wretched of the Earth (1961)
 
-Gold is not neutral. It is capital made visible — heavy, portable, and irresistibly fungible. In Sudan today, bullion is the fuel of warfare. It buys drones, it lubricates smuggling networks, and it underwrites a paralysing geopolitics in which foreign markets and mercantile states profit while entire regions are emptied of life.
+Gold is not neutral. It is capital made visible: heavy, portable, and irresistibly fungible. In Sudan today, bullion is the fuel of warfare. It buys drones, lubricates smuggling networks, and underwrites a paralysing geopolitics in which foreign markets and mercantile states profit while entire regions are emptied of life.
 
 This is not a story of scarcity or criminality alone. It is a structural story: **extractivism as war finance**, extractivism as statecraft. The same commercial appetites that turned the Congo into a theatre of mineral violence and turned Palestine into a laboratory for militarised dispossession now make Sudan’s goldfields a prize worth killing for.
 
@@ -22,9 +22,9 @@ This is not a story of scarcity or criminality alone. It is a structural story: 
 
 ## The Gold Economy of War
 
-Sudan’s civil war — between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) — has long had a material heartbeat: gold. Since the eruption of large-scale fighting in April 2023 both parties have turned to mining and trading gold to pay fighters, buy weapons, and keep patronage networks alive. Analysts identify the scramble for gold assets as one of the conflict’s core drivers.
+Sudan’s civil war, between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), has long had a material heartbeat: gold. Since the eruption of large-scale fighting in April 2023, both parties have turned to mining and trading gold to pay fighters, buy weapons, and keep patronage networks alive. Analysts identify the scramble for gold assets as one of the conflict’s core drivers.
 
-Legal exports, official channels, and a vast shadow economy now channel Sudanese gold to international markets. The United Arab Emirates has been the largest destination for Sudan’s official exports — at times absorbing nearly **90%** of declared shipments, valuing hundreds of millions of dollars. When the UAE instituted a de facto flight and shipping embargo last month it exposed how dependent Sudan’s wartime economy is on a single foreign gateway.
+Legal exports, official channels, and a vast shadow economy now channel Sudanese gold to international markets. The United Arab Emirates has been the largest destination for Sudan’s official exports, at times absorbing nearly **90%** of declared shipments, valuing hundreds of millions of dollars. When the UAE instituted a de facto flight and shipping embargo last month, it exposed how dependent Sudan’s wartime economy is on a single foreign gateway.
 
 But official figures only tell part of the story. Investigations and industry studies show that **smuggling networks** — via Egypt, Libya, Chad and other routes — move vast quantities of artisanal and industrial gold outside state controls. These opaque channels allow armed actors, local elites and international middlemen to monetise conflict minerals while leaving destruction and displacement behind.
 
@@ -38,7 +38,7 @@ First: **buyers and routes**. Gulf commodity hubs, principally in the UAE, offer
 
 Second: **re-exported weapons and foreign facilitation**. Arms and drone technology flow through complex re-export networks. Amnesty International’s investigation identified advanced weaponry re-exported by the UAE and later used in Sudanese theatres, in clear breach of UN arms embargoes. These are not abstract hyperlinks; they are the physical means by which bullion buys death.
 
-The result is grotesquely simple: **gold funds the violence that secures more gold**. Mining sites are militarised, communities displaced, and labour forced into hazardous artisanal extraction — which, in turn, raises production that can be smuggled and monetised abroad. The loop is extraction → militarisation → export → weapon procurement → extraction.
+The result is grotesquely simple: **gold funds the violence that secures more gold**. Mining sites are militarised, communities displaced, and labour forced into hazardous artisanal extraction, which in turn raises production that can be smuggled and monetised abroad. The loop is extraction → militarisation → export → weapon procurement → extraction.
 
 > “He who feeds you, controls you.”
 > — Thomas Sankara, Addis Ababa (1987)
@@ -47,11 +47,11 @@ The result is grotesquely simple: **gold funds the violence that secures more go
 
 ## Human and Ecological Cost
 
-The human toll is vast. Years of fighting have produced a humanitarian catastrophe: estimates in major investigations place conflict deaths in the **hundreds of thousands** and displacement on the order of **millions** — whole communities uprooted, agricultural seasons lost, and urban centres reduced to rubble.
+The human toll is vast. Years of fighting have produced a humanitarian catastrophe. Estimates in major investigations place conflict deaths in the **hundreds of thousands** and displacement on the order of **millions** — whole communities uprooted, agricultural seasons lost, and urban centres reduced to rubble.
 
 Mining itself inflicts ecological damage. Artisanal operations use weak regulation, invasive chemicals, and deforestation to access deposits. The environmental consequences — poisoned water tables, eroded soils, destroyed grazing lands — will hobble recovery long after the guns fall silent. In a country where agriculture once sustained millions, the conversion of land into mining concessions is a slow, systemic eviction.
 
-This pattern will sound familiar to readers of this series. The DRC’s cobalt belts and the Congo Basin’s forests have experienced precisely these linkages: mineral wealth militarises territory, external demand feeds extraction, and local livelihoods are sacrificed for globally traded value. That continuity is not accidental — it is the logic of extractive capitalism and imperial markets.
+This pattern will sound familiar to readers of this series. The DRC’s cobalt belts and the Congo Basin’s forests have experienced precisely these linkages: mineral wealth militarises territory, external demand feeds extraction, and local livelihoods are sacrificed for globally traded value. That continuity is not accidental; it is the logic of extractive capitalism and imperial markets.
 
 ---
 
@@ -65,11 +65,11 @@ Second, **geopolitical shielding**: actors that profit from access and influence
 
 ---
 
-## Parallels: Congo, Palestine, and a single System
+## Parallels: Congo, Palestine, and a Single System
 
 There is a pattern that repeats across the Global South.
 
-In the DRC the demand for cobalt and other critical minerals fuels extraction regimes that despoil land, militarise communities, and externalise value — leaving Congolese people and ecosystems to pay the cost. The same market logics, the same foreign corporate appetites and the same juridical loopholes appear in Sudan’s gold trade.
+In the DRC, the demand for cobalt and other critical minerals fuels extraction regimes that despoil land, militarise communities, and externalise value, leaving Congolese people and ecosystems to pay the cost. The same market logics, the same foreign corporate appetites, and the same juridical loopholes appear in Sudan’s gold trade.
 
 Likewise, Palestine reveals how militarised control and foreign complicity enforce dispossession and ecological violence. Weapons tested on occupied populations are normalised and exported; the same markets and diplomatic shields that allow military hardware to circulate also permit minerals and capital to flow where they will. The throughline is imperial power protecting profit at the expense of life. (See recent analysis on Palestine in this series for the argument in full.)
 
@@ -80,12 +80,12 @@ Likewise, Palestine reveals how militarised control and foreign complicity enfor
 
 ## What Must Change
 
-This is not a technocratic problem only mercifully fixed by audits. It is political. A credible response requires:
+This is not a technocratic problem to be mercifully fixed by audits; it is political. A credible response requires:
 
 - **Rigorous supply-chain laws**: binding due-diligence for gold, mandatory provenance tracing, and independent audits of refineries and trading houses. Civil society and multilateral authorities must close re-export loopholes.
-- **Targeted sanctions and enforcement**: not only on individual smugglers, but on complicit corporate hubs and re-export markets that knowingly accept conflict gold. Amnesty’s arms findings show the scale of complicity and the need for legal accountability.
+- **Targeted sanctions and enforcement**: not only on individual smugglers but on complicit corporate hubs and re-export markets that knowingly accept conflict gold. Amnesty’s arms findings show the scale of complicity and the need for legal accountability.
 - **Reparative flows**: redirect revenues from natural resources into community restitution, land restoration, and survivor support rather than into patronage networks.
-- **Demilitarisation and ecological restoration**: financial and technical support to rehabilitate mining-ravaged ecosystems — paired with community control over resources.
+- **Demilitarisation and ecological restoration**: financial and technical support to rehabilitate mining-ravaged ecosystems, paired with community control over resources.
 
 These demands echo the programme for climate and resource justice set out across the Global South: transfer power, not charity; restructure markets, not only morals.
 
@@ -93,7 +93,7 @@ These demands echo the programme for climate and resource justice set out across
 
 ## Closing: Bullion Is Not Benign
 
-Gold is more than a commodity. In Sudan it is a weapon in longform, a currency of violence that links land, labour, and foreign policy. The bullion that lines palace vaults and trades in glittering souks is inherited violence — the same extractive relations that have bled the Congo and sanctioned occupation elsewhere.
+Gold is more than a commodity. In Sudan it is a weapon in longform, a currency of violence that links land, labour, and foreign policy. The bullion that lines palace vaults and trades in glittering souks is inherited violence: the same extractive relations that have bled the Congo and sanctioned occupation elsewhere.
 
 If we are serious about decolonisation and ecological survival, we must treat gold as we treat arms: trace its paths, name its beneficiaries, and stop pretending that markets are above politics. Otherwise the price will continue to be paid in blood.
 
