@@ -1,7 +1,7 @@
 import { JSDOM } from 'jsdom';
 import { describe, expect, it, vi } from 'vitest';
 
-describe('theme-init.js and ThemeToggle.astro', () => {
+describe('Layout.astro theme init and ThemeToggle.astro', () => {
   function runThemeInit(
     localStorageValue: string | null,
     systemPrefersDark: boolean
