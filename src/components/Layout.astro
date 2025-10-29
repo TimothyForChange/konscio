@@ -75,7 +75,6 @@ const {
   <body>
     <div class='site-wrapper'>
       <Header />
-
       <main class='main-content' class:list={{ 'with-sidebar': showSidebar }}>
         {
           showSidebar && (
@@ -84,12 +83,10 @@ const {
             </aside>
           )
         }
-
         <div class='content'>
           <slot />
         </div>
       </main>
-
       <Footer />
     </div>
   </body>
