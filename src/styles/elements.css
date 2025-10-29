@@ -65,7 +65,7 @@ figcaption {
   font-size: 0.9rem;
   color: var(--color-text-muted);
   text-align: center;
-  margin-top: calc(var(--grid-unit) / 2);
+  margin-top: calc(var(--grid-unit) / 10);
 }
 
 hr {

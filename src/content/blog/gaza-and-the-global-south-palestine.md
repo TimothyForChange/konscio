@@ -35,6 +35,11 @@ In Haiti, as debt and occupation disguised as “stability.”
 And in Bolivia and Colombia, as militarised resource zones feeding global markets.
 Different geographies, one architecture.
 
+<figure>
+    <img src="/gaza-israel-barrier.jpg" alt="Israeli separation wall" />
+    <figcaption>Israeli separation wall: a symbol of siege and separation</figcaption>
+</figure>
+
 > “There will be no global climate justice, no global just transition without the liberation of Palestine.”
 > — _Hamza Hamouchene_
 
