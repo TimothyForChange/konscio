@@ -30,10 +30,12 @@ const {
   dateModified,
   canonical,
 } = Astro.props;
+
+const disableDarkTheme = import.meta.env.DISABLE_DARK_THEME === 'true';
 ---
 
 <!doctype html>
-<html lang='en'>
+<html lang='en' data-disable-dark-theme={disableDarkTheme}>
   <head>
     <meta charset='UTF-8' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
@@ -61,6 +63,9 @@ const {
             window.matchMedia('(prefers-color-scheme: dark)').matches;
           theme = systemPrefersDark ? 'dark' : 'light';
         }
+        if (document.documentElement.dataset.disableDarkTheme === 'true') {
+          theme = 'light';
+        }
         document.documentElement.dataset.theme = theme;
       })();
     </script>
@@ -76,7 +81,7 @@ const {
   </head>
   <body>
     <div class='site-wrapper'>
-      <Header />
+      <Header disableDarkTheme={disableDarkTheme} />
       <main class='main-content' class:list={{ 'with-sidebar': showSidebar }}>
         {
           showSidebar && (

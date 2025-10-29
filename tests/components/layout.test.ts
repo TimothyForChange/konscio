@@ -51,7 +51,8 @@ describe('Layout.astro', () => {
 
   it('has proper HTML document structure', () => {
     expect(componentContent).toContain('<!doctype html>');
-    expect(componentContent).toContain("<html lang='en'>");
+    expect(componentContent).toContain("<html lang='en'");
+    expect(componentContent).toContain('data-disable-dark-theme');
     expect(componentContent).toContain('<head>');
     expect(componentContent).toContain("<meta charset='UTF-8' />");
     expect(componentContent).toContain(
@@ -119,7 +120,9 @@ describe('Layout.astro', () => {
   });
 
   it('includes Header, Footer, and conditional Sidebar', () => {
-    expect(componentContent).toContain('<Header />');
+    expect(componentContent).toContain(
+      '<Header disableDarkTheme={disableDarkTheme} />'
+    );
     expect(componentContent).toContain('<Footer />');
     expect(componentContent).toContain('showSidebar && (');
     expect(componentContent).toContain("<aside class='sidebar'>");
