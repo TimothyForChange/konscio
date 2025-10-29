@@ -2,7 +2,10 @@ import { JSDOM } from 'jsdom';
 import { describe, expect, it, vi } from 'vitest';
 
 describe('theme-init.js and ThemeToggle.astro', () => {
-  function runThemeInit(localStorageValue: string | null, systemPrefersDark: boolean) {
+  function runThemeInit(
+    localStorageValue: string | null,
+    systemPrefersDark: boolean
+  ) {
     const dom = new JSDOM(
       `<!DOCTYPE html><html><head></head><body><button id='theme-toggle'></button></body></html>`,
       {
@@ -13,7 +16,9 @@ describe('theme-init.js and ThemeToggle.astro', () => {
     );
     const { window } = dom;
     window.localStorage.setItem('theme', localStorageValue ?? '');
-    window.matchMedia = vi.fn().mockImplementation(() => ({ matches: systemPrefersDark }));
+    window.matchMedia = vi
+      .fn()
+      .mockImplementation(() => ({ matches: systemPrefersDark }));
     const script = dom.window.document.createElement('script');
     script.textContent = `
       (function () {
@@ -59,7 +64,8 @@ describe('theme-init.js and ThemeToggle.astro', () => {
     const button = dom.window.document.getElementById('theme-toggle')!;
     dom.window.document.documentElement.dataset.theme = 'light';
     button.addEventListener('click', () => {
-      const current = dom.window.document.documentElement.dataset.theme || 'light';
+      const current =
+        dom.window.document.documentElement.dataset.theme || 'light';
       const next = current === 'light' ? 'dark' : 'light';
       dom.window.document.documentElement.dataset.theme = next;
       dom.window.localStorage.setItem('theme', next);

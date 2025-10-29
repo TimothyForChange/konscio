@@ -6,7 +6,14 @@ description: 'Introducing Timothy for Change — an eco-socialist and decolonial
 excerpt: 'Capitalism, colonialism, and climate collapse are not separate crises — they are one system of domination expressed through different forms. This opening statement defines the mission and values of Timothy for Change: an eco-socialist, decolonial platform from South Africa for people and planet.'
 image: /manifesto.jpg
 categories: ['Editorial']
-tags: ['Eco-socialism', 'Decolonisation', 'Global South', 'Climate Justice', 'Introduction']
+tags:
+  [
+    'Eco-socialism',
+    'Decolonisation',
+    'Global South',
+    'Climate Justice',
+    'Introduction',
+  ]
 ---
 
 # Why This Blog Exists: For People and Planet

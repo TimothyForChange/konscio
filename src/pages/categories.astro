@@ -7,9 +7,10 @@ const base = config.baseUrl;
 const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true });
 const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true });
 
-const allPosts = [...Object.values(mdPostsGlob), ...Object.values(mdxPostsGlob)].filter(
-  (post: any) => !post.frontmatter.draft
-) as any[];
+const allPosts = [
+  ...Object.values(mdPostsGlob),
+  ...Object.values(mdxPostsGlob),
+].filter((post: any) => !post.frontmatter.draft) as any[];
 
 const allCategories = new Set<string>();
 allPosts.forEach((post: any) => {
@@ -23,7 +24,9 @@ allPosts.forEach((post: any) => {
 const categoryMap: Record<string, any[]> = {};
 Array.from(allCategories).forEach((category: string) => {
   categoryMap[category] = allPosts.filter(
-    (post: any) => post.frontmatter.categories && post.frontmatter.categories.includes(category)
+    (post: any) =>
+      post.frontmatter.categories &&
+      post.frontmatter.categories.includes(category)
   );
 });
 
@@ -44,7 +47,8 @@ const sortedCategories = Object.entries(categoryMap).sort((a: any, b: any) => {
     <header class='page-header'>
       <h1 class='page-title'>Categories</h1>
       <p class='page-description'>
-        Browse articles organized by category. Click on any category to see related posts.
+        Browse articles organized by category. Click on any category to see
+        related posts.
       </p>
       <hr class='page-rule' />
     </header>
@@ -71,7 +75,10 @@ const sortedCategories = Object.entries(categoryMap).sort((a: any, b: any) => {
     {
       sortedCategories.length === 0 && (
         <div class='no-categories'>
-          <p>No categories found. Add categories to your blog posts in the frontmatter.</p>
+          <p>
+            No categories found. Add categories to your blog posts in the
+            frontmatter.
+          </p>
         </div>
       )
     }

@@ -7,6 +7,7 @@ import prettier from 'eslint-config-prettier/flat';
 import astro from 'eslint-plugin-astro';
 import sonarjs from 'eslint-plugin-sonarjs';
 import unicorn from 'eslint-plugin-unicorn';
+import yaml from 'eslint-plugin-yaml';
 import { defineConfig } from 'eslint/config';
 
 const jsFiles = ['*.js', '*.mjs'];
@@ -14,6 +15,7 @@ const tsFiles = ['*.ts'];
 const astroFiles = ['*.astro'];
 const cssFiles = ['*.css', '*.astro'];
 const jsonFiles = ['*.json'];
+const yamlFiles = ['*.yaml', '*.yml'];
 const markdownFiles = ['*.md'];
 const unicornFiles = ['*.js', '*.ts', '*.mjs', '*.astro'];
 
@@ -22,6 +24,7 @@ const tsPlugins = { '@typescript-eslint': ts, sonarjs };
 const astroPlugins = { astro };
 const cssPlugins = { css };
 const jsonPlugins = { json };
+const yamlPlugins = { yaml };
 const markdownPlugins = { markdown };
 const unicornPlugins = { unicorn };
 
@@ -66,6 +69,12 @@ export default defineConfig(
     language: 'json/json',
     plugins: jsonPlugins,
     rules: { ...json.configs.recommended.rules },
+  },
+  {
+    files: yamlFiles,
+    language: 'yaml/yaml',
+    plugins: yamlPlugins,
+    rules: { ...yaml.configs.recommended.rules },
   },
   {
     files: markdownFiles,

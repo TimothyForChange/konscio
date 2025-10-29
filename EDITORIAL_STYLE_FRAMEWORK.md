@@ -66,7 +66,7 @@ Capitalism, colonialism, and climate collapse are not separate crises but one sy
 ### Excerpts & Metadata
 
 - Always include `description` and `excerpt` fields that summarise political stakes, not just topic.
-- `tags` and `categories` must connect to the global framework: `Decolonisation`, `Eco-socialism`, `Imperialism`, `Climate Justice`, `Human Rights`.
+- `tags` and `categories` must connect to the global framework: `Decolonisation`, `Eco-socialism`, `Imperialism`, `Climate Justice`, `Human Rights`. Try not to use more than 4 tags.
 
 ---
 

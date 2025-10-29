@@ -18,7 +18,10 @@ describe('highlighter', () => {
   it('should highlight JavaScript code', async () => {
     const highlighter = await getCachedHighlighter();
     const code = 'console.log("hello world");';
-    const html = highlighter.codeToHtml(code, { lang: 'javascript', theme: 'github-dark' });
+    const html = highlighter.codeToHtml(code, {
+      lang: 'javascript',
+      theme: 'github-dark',
+    });
     expect(html).toContain('<code');
     expect(html).toContain('console');
     expect(html).toContain('log');
@@ -27,7 +30,10 @@ describe('highlighter', () => {
   it('should highlight TypeScript code', async () => {
     const highlighter = await getCachedHighlighter();
     const code = 'const message: string = "hello";';
-    const html = highlighter.codeToHtml(code, { lang: 'typescript', theme: 'github-dark' });
+    const html = highlighter.codeToHtml(code, {
+      lang: 'typescript',
+      theme: 'github-dark',
+    });
     expect(html).toContain('<code');
     expect(html).toContain('const');
     expect(html).toContain('string');
@@ -36,7 +42,10 @@ describe('highlighter', () => {
   it('should highlight CSS code', async () => {
     const highlighter = await getCachedHighlighter();
     const code = 'body { color: red; }';
-    const html = highlighter.codeToHtml(code, { lang: 'css', theme: 'github-dark' });
+    const html = highlighter.codeToHtml(code, {
+      lang: 'css',
+      theme: 'github-dark',
+    });
     expect(html).toContain('<code');
     expect(html).toContain('body');
     expect(html).toContain('color');
@@ -45,7 +54,10 @@ describe('highlighter', () => {
   it('should highlight HTML code', async () => {
     const highlighter = await getCachedHighlighter();
     const code = '<div>Hello</div>';
-    const html = highlighter.codeToHtml(code, { lang: 'html', theme: 'github-dark' });
+    const html = highlighter.codeToHtml(code, {
+      lang: 'html',
+      theme: 'github-dark',
+    });
     expect(html).toContain('<code');
     expect(html).toContain('div');
     expect(html).toContain('Hello');

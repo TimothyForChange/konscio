@@ -1,5 +1,8 @@
 import { describe, expect, it } from 'vitest';
-import { extractHeadings, filterHeadingsForTOC } from '../src/utils/table-of-contents';
+import {
+  extractHeadings,
+  filterHeadingsForTOC,
+} from '../src/utils/table-of-contents';
 
 describe('extractHeadings', () => {
   it('should extract headings from markdown', () => {
@@ -56,7 +59,9 @@ unclosed frontmatter
 # Heading 1
 `;
     const headings = extractHeadings(content);
-    expect(headings).toEqual([{ depth: 1, text: 'Heading 1', slug: 'heading-1' }]);
+    expect(headings).toEqual([
+      { depth: 1, text: 'Heading 1', slug: 'heading-1' },
+    ]);
   });
 
   it('should handle headings with invalid depths', () => {
@@ -65,7 +70,9 @@ unclosed frontmatter
 # Valid Heading
 `;
     const headings = extractHeadings(content);
-    expect(headings).toEqual([{ depth: 1, text: 'Valid Heading', slug: 'valid-heading' }]);
+    expect(headings).toEqual([
+      { depth: 1, text: 'Valid Heading', slug: 'valid-heading' },
+    ]);
   });
 });
 

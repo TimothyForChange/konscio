@@ -37,7 +37,9 @@ const sortedPosts = allPosts
       <div class='hero-content'>
         <h1 class='hero-title'>Timothy for Change</h1>
         <p class='hero-subtitle'>For People And Planet</p>
-        <p class='hero-description'>Eco-socialist analysis from Africa and the Global South.</p>
+        <p class='hero-description'>
+          Eco-socialist analysis from Africa and the Global South.
+        </p>
         <hr class='hero-rule' />
         <div class='hero-actions'>
           <a href='#posts' class='btn btn-primary'>View Posts</a>
@@ -49,8 +51,9 @@ const sortedPosts = allPosts
       <div class='container'>
         <h2 class='section-title'>Blog Posts</h2>
         <p class='blog-description'>
-          Critical eco-socialist and decolonial analysis from Africa and the Global South — exposing
-          the systems that exploit both people and the planet.
+          Critical eco-socialist and decolonial analysis from Africa and the
+          Global South — exposing the systems that exploit both people and the
+          planet.
         </p>
 
         {
@@ -65,14 +68,21 @@ const sortedPosts = allPosts
                   </h3>
 
                   <div class='blog-post-meta'>
-                    <time class='blog-post-date' datetime={post.frontmatter.datePublished}>
-                      {new Date(post.frontmatter.datePublished).toLocaleDateString('en-GB', {
+                    <time
+                      class='blog-post-date'
+                      datetime={post.frontmatter.datePublished}
+                    >
+                      {new Date(
+                        post.frontmatter.datePublished
+                      ).toLocaleDateString('en-GB', {
                         year: 'numeric',
                         month: 'long',
                         day: 'numeric',
                       })}
                     </time>
-                    <span class='blog-post-reading-time'>{post.frontmatter.minutesRead}</span>
+                    <span class='blog-post-reading-time'>
+                      {post.frontmatter.minutesRead}
+                    </span>
                   </div>
 
                   {post.frontmatter.excerpt && (
@@ -93,8 +103,10 @@ const sortedPosts = allPosts
         }
 
         <div class='blog-actions'>
-          <a href={`${import.meta.env.BASE_URL}blog`} data-astro-prefetch class='btn btn-primary'
-            >View Blog</a
+          <a
+            href={`${import.meta.env.BASE_URL}blog`}
+            data-astro-prefetch
+            class='btn btn-primary'>View Blog</a
           >
         </div>
       </div>
@@ -105,45 +117,50 @@ const sortedPosts = allPosts
         <h2 class='section-title'>Theoretical Foundations</h2>
         <div class='theoretical-foundations-grid'>
           <div class='theoretical-foundations-card'>
-            <h3 class='theoretical-foundations-title'>Historical Materialism</h3>
+            <h3 class='theoretical-foundations-title'>
+              Historical Materialism
+            </h3>
             <p class='theoretical-foundations-description'>
-              Understanding the present through the forces and relations of production — how
-              material conditions, not moral ideals, shape society
+              Understanding the present through the forces and relations of
+              production — how material conditions, not moral ideals, shape
+              society
             </p>
           </div>
           <div class='theoretical-foundations-card'>
             <h3 class='theoretical-foundations-title'>Decoloniality</h3>
             <p class='theoretical-foundations-description'>
-              Exposing how colonial power structures persist beyond formal empire — in economy,
-              culture, and knowledge
+              Exposing how colonial power structures persist beyond formal
+              empire — in economy, culture, and knowledge
             </p>
           </div>
           <div class='theoretical-foundations-card'>
             <h3 class='theoretical-foundations-title'>Eco-Socialism</h3>
             <p class='theoretical-foundations-description'>
-              Linking human liberation with ecological survival. The fight for climate justice is
-              inseparable from dismantling capitalism
+              Linking human liberation with ecological survival. The fight for
+              climate justice is inseparable from dismantling capitalism
             </p>
           </div>
           <div class='theoretical-foundations-card'>
             <h3 class='theoretical-foundations-title'>Anti-Imperialism</h3>
             <p class='theoretical-foundations-description'>
-              Centering the Global South's struggle against military, economic, and ideological
-              domination by imperial powers
+              Centering the Global South's struggle against military, economic,
+              and ideological domination by imperial powers
             </p>
           </div>
           <div class='theoretical-foundations-card'>
-            <h3 class='theoretical-foundations-title'>Global South Perspective</h3>
+            <h3 class='theoretical-foundations-title'>
+              Global South Perspective
+            </h3>
             <p class='theoretical-foundations-description'>
-              Writing from Africa for the world — reclaiming narrative space from Western academia
-              and media
+              Writing from Africa for the world — reclaiming narrative space
+              from Western academia and media
             </p>
           </div>
           <div class='theoretical-foundations-card'>
             <h3 class='theoretical-foundations-title'>Praxis Over Theory</h3>
             <p class='theoretical-foundations-description'>
-              Ideas matter only when they serve struggle. Thought must guide action, not become a
-              substitute for it
+              Ideas matter only when they serve struggle. Thought must guide
+              action, not become a substitute for it
             </p>
           </div>
         </div>
@@ -166,7 +183,11 @@ const sortedPosts = allPosts
   .hero {
     text-align: center;
     padding: calc(var(--grid-unit) * 12) 0 calc(var(--grid-unit) * 8);
-    background: linear-gradient(135deg, var(--color-surface) 0%, var(--color-background) 100%);
+    background: linear-gradient(
+      135deg,
+      var(--color-surface) 0%,
+      var(--color-background) 100%
+    );
   }
 
   .hero-content {
