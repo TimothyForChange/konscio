@@ -2,7 +2,7 @@
 import { Schema } from 'astro-seo-schema';
 import { config } from '../config';
 
-const ogImageUrl = `${Astro.site}/og-image.png`;
+const ogImageUrl = `${Astro.site}/og-image.jpg`;
 
 export interface Props {
   title?: string;
@@ -44,6 +44,10 @@ const imageURL = new URL(image, Astro.site);
 <meta property='og:type' content={type} />
 <meta property='og:url' content={canonicalURL} />
 <meta property='og:image' content={imageURL.toString()} />
+<meta
+  property='og:logo'
+  content={new URL('/site-title.svg', Astro.site).toString()}
+/>
 <meta property='og:site_name' content={config.title} />
 <meta property='og:locale' content='en_US' />
 {

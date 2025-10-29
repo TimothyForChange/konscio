@@ -17,6 +17,7 @@ export interface SiteConfig {
   };
   siteUrl: string;
   baseUrl: string;
+  disableThemeToggle: boolean;
 }
 
 export const config: SiteConfig = {
@@ -38,4 +39,5 @@ export const config: SiteConfig = {
   },
   siteUrl: 'https://timothyforchange.co.za',
   baseUrl: '/',
+  disableThemeToggle: true,
 };

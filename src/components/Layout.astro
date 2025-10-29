@@ -4,6 +4,7 @@ import '@fontsource-variable/oswald';
 import '@fontsource-variable/work-sans';
 import 'remixicon/fonts/remixicon.css';
 import '../styles/global.css';
+import { config } from '../config';
 import Footer from './Footer.astro';
 import Header from './Header.astro';
 import SEO from './SEO.astro';
@@ -31,11 +32,11 @@ const {
   canonical,
 } = Astro.props;
 
-const disableDarkTheme = import.meta.env.DISABLE_DARK_THEME === 'true';
+const disableThemeToggle = config.disableThemeToggle;
 ---
 
 <!doctype html>
-<html lang='en' data-disable-dark-theme={disableDarkTheme}>
+<html lang='en' data-disable-theme-toggle={disableThemeToggle}>
   <head>
     <meta charset='UTF-8' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
@@ -63,7 +64,7 @@ const disableDarkTheme = import.meta.env.DISABLE_DARK_THEME === 'true';
             window.matchMedia('(prefers-color-scheme: dark)').matches;
           theme = systemPrefersDark ? 'dark' : 'light';
         }
-        if (document.documentElement.dataset.disableDarkTheme === 'true') {
+        if (document.documentElement.dataset.disableThemeToggle === 'true') {
           theme = 'light';
         }
         document.documentElement.dataset.theme = theme;
@@ -278,7 +279,7 @@ const disableDarkTheme = import.meta.env.DISABLE_DARK_THEME === 'true';
   </head>
   <body>
     <div class='site-wrapper'>
-      <Header disableDarkTheme={disableDarkTheme} />
+      <Header disableThemeToggle={disableThemeToggle} />
       <main class='main-content' class:list={{ 'with-sidebar': showSidebar }}>
         {
           showSidebar && (
