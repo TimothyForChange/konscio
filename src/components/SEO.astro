@@ -2,7 +2,7 @@
 import { Schema } from 'astro-seo-schema';
 import { config } from '../config';
 
-const ogImageUrl = `${Astro.site}/og-image.jpg`;
+const ogImageUrl = new URL('og-image.jpg', Astro.site).toString();
 
 export interface Props {
   title?: string;
