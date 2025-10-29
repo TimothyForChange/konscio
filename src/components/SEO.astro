@@ -32,7 +32,7 @@ const pageTitle = title.includes(config.title)
   ? title
   : `${title} | ${config.title}`;
 const canonicalURL = canonical || new URL(Astro.url.pathname, Astro.site);
-const imageURL = new URL(image, Astro.site);
+const imageURL = new URL(image.replace(/^\//, ''), Astro.site);
 ---
 
 <title>{pageTitle}</title>
