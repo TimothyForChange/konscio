@@ -12,9 +12,9 @@ tags: ['Sudan', 'Gold', 'Extractivism', 'Imperialism', 'RSF', 'Global South']
 # Blood and Bullion: How Gold Fuels Sudan’s War
 
 > “Imperialism leaves behind germs of rot which we must clinically detect and remove from our land and from our minds.”
-> — Frantz Fanon, The Wretched of the Earth (1961)
+> — Frantz Fanon, _The Wretched of the Earth_ (1961)
 
-Gold is not neutral. It is capital made visible: heavy, portable, and irresistibly fungible. In Sudan today, bullion is the fuel of warfare. It buys drones, lubricates smuggling networks, and underwrites a paralysing geopolitics in which foreign markets and mercantile states profit while entire regions are emptied of life.
+Gold is not neutral. It is capital made visible: heavy, portable, and irresistibly fungible. In Sudan, bullion is the fuel of warfare. It buys drones, lubricates smuggling networks, and underwrites a paralysing geopolitics in which foreign markets and mercantile states profit while entire regions are emptied of life.
 
 This is not a story of scarcity or criminality alone. It is a structural story: **extractivism as war finance**, extractivism as statecraft. The same commercial appetites that turned the Congo into a theatre of mineral violence and turned Palestine into a laboratory for militarised dispossession now make Sudan’s goldfields a prize worth killing for.
 
@@ -74,7 +74,7 @@ In the DRC, the demand for cobalt and other critical minerals fuels extraction r
 Likewise, Palestine reveals how militarised control and foreign complicity enforce dispossession and ecological violence. Weapons tested on occupied populations are normalised and exported; the same markets and diplomatic shields that allow military hardware to circulate also permit minerals and capital to flow where they will. The throughline is imperial power protecting profit at the expense of life. (See recent analysis on Palestine in this series for the argument in full.)
 
 > “The question as to who and what is responsible for African underdevelopment can be answered at once: it is the international capitalist system.”
-> — Walter Rodney, How Europe Underdeveloped Africa (1972)
+> — Walter Rodney, _How Europe Underdeveloped Africa_ (1972)
 
 ---
 
@@ -93,8 +93,8 @@ These demands echo the programme for climate and resource justice set out across
 
 ## Closing: Bullion Is Not Benign
 
-Gold is more than a commodity. In Sudan it is a weapon in longform, a currency of violence that links land, labour, and foreign policy. The bullion that lines palace vaults and trades in glittering souks is inherited violence: the same extractive relations that have bled the Congo and sanctioned occupation elsewhere.
+Gold is more than a commodity. In Sudan, it is a weapon in longform, a currency of violence that links land, labour, and foreign policy. The bullion that lines palace vaults and trades in glittering souks is inherited violence: the same extractive relations that have bled the Congo and sanctioned occupation elsewhere.
 
-If we are serious about decolonisation and ecological survival, we must treat gold as we treat arms: trace its paths, name its beneficiaries, and stop pretending that markets are above politics. Otherwise the price will continue to be paid in blood.
+If we are serious about decolonisation and ecological survival, we must treat gold as we treat arms: trace its paths, name its beneficiaries, and stop pretending that markets are above politics. Otherwise, the price will continue to be paid in blood.
 
-— In solidarity with the people of Sudan, the DRC, and Palestine; with miners, farmers and all who resist extraction.
+— In solidarity with the people of Sudan, the DRC, and Palestine; with miners, farmers, and all who resist extraction.
