@@ -4,7 +4,7 @@ author: 'Timothy Brits'
 datePublished: 2025-10-29
 description: 'An eco-socialist investigation of how gold underwrites war in Sudan — and how bullion, smuggling and foreign complicity mirror extractive violence in the DRC and Palestine.'
 excerpt: 'Gold is the war economy’s blood money. In Sudan, bullion funds fighters, buys weapons, and cements foreign leverage. The same extractive logics that bleed the Congo and bomb Palestine are at work here.'
-image: /blood-and-bullion-sudan-gold.jpg
+image: /blood-and-gold-bullion-sudan.jpg
 categories: ['Analysis']
 tags: ['Sudan', 'Gold', 'Extractivism', 'Imperialism', 'RSF', 'Global South']
 ---
