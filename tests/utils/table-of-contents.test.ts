@@ -87,6 +87,59 @@ unclosed frontmatter
     const headings = extractHeadings(content);
     expect(headings[0].text).toBe(longText);
   });
+
+  it('should handle headings with inline code', () => {
+    const content = '## Heading with `code` inside';
+    const headings = extractHeadings(content);
+    expect(headings[0].text).toBe('Heading with `code` inside');
+    expect(headings[0].slug).toBe('heading-with-code-inside');
+  });
+
+  it('should handle headings with links', () => {
+    const content = '## Heading with [link](url)';
+    const headings = extractHeadings(content);
+    expect(headings[0].text).toBe('Heading with [link](url)');
+    expect(headings[0].slug).toBe('heading-with-linkurl');
+  });
+
+  it('should handle headings with HTML entities', () => {
+    const content = '## Heading with &amp; entities';
+    const headings = extractHeadings(content);
+    expect(headings[0].text).toBe('Heading with &amp; entities');
+    expect(headings[0].slug).toBe('heading-with-amp-entities');
+  });
+
+  it('should handle mixed heading levels', () => {
+    const content = `
+# H1
+### H3
+## H2
+#### H4
+### Another H3
+`;
+    const headings = extractHeadings(content);
+    expect(headings).toEqual([
+      { depth: 1, text: 'H1', slug: 'h1' },
+      { depth: 3, text: 'H3', slug: 'h3' },
+      { depth: 2, text: 'H2', slug: 'h2' },
+      { depth: 4, text: 'H4', slug: 'h4' },
+      { depth: 3, text: 'Another H3', slug: 'another-h3' },
+    ]);
+  });
+
+  it('should handle headings with trailing spaces', () => {
+    const content = '## Heading with spaces   ';
+    const headings = extractHeadings(content);
+    expect(headings[0].text).toBe('Heading with spaces');
+    expect(headings[0].slug).toBe('heading-with-spaces');
+  });
+
+  it('should handle headings with multiple spaces', () => {
+    const content = '## Heading   with   multiple   spaces';
+    const headings = extractHeadings(content);
+    expect(headings[0].text).toBe('Heading   with   multiple   spaces');
+    expect(headings[0].slug).toBe('heading-with-multiple-spaces');
+  });
 });
 
 describe('filterHeadingsForTOC', () => {

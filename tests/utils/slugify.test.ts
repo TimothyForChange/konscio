@@ -40,4 +40,35 @@ describe('slugifyPath', () => {
     const longPath = 'a'.repeat(1000) + '/file.md';
     expect(slugifyPath(longPath)).toBe('file');
   });
+
+  it('should handle Unicode characters', () => {
+    expect(slugifyPath('path/файл.md')).toBe('файл');
+    expect(slugifyPath('path/文件.md')).toBe('文件');
+    expect(slugifyPath('path/café.md')).toBe('café');
+  });
+
+  it('should handle URL-encoded characters', () => {
+    expect(slugifyPath('path/file%20name.md')).toBe('file%20name');
+    expect(slugifyPath('path/file+name.md')).toBe('file+name');
+  });
+
+  it('should handle paths with mixed separators', () => {
+    expect(slugifyPath('path\\to/file.md')).toBe('file');
+    expect(slugifyPath('path/to\\file.md')).toBe('file');
+  });
+
+  it('should handle hidden files', () => {
+    expect(slugifyPath('.hidden.md')).toBe('.hidden');
+    expect(slugifyPath('path/.hidden')).toBe(''); // Current behavior: treats .hidden as extension
+  });
+
+  it('should handle files without extensions in path', () => {
+    expect(slugifyPath('path/to/file')).toBe('file');
+    expect(slugifyPath('file')).toBe('file');
+  });
+
+  it('should handle null bytes and control characters', () => {
+    expect(slugifyPath('path/file\u0000.md')).toBe('file\u0000');
+    expect(slugifyPath('path/file\n.md')).toBe('file\n');
+  });
 });

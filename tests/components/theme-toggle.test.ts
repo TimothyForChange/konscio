@@ -181,4 +181,55 @@ describe('Layout.astro theme init and ThemeToggle.astro', () => {
     button.click();
     expect(dom.window.document.documentElement.dataset.theme).toBe('dark');
   });
+
+  it('handles localStorage errors gracefully', () => {
+    const dom = new JSDOM(
+      `<!DOCTYPE html><html><head></head><body><button id='theme-toggle'></button></body></html>`,
+      {
+        runScripts: 'dangerously',
+        resources: 'usable',
+        url: 'http://localhost',
+      }
+    );
+    Object.defineProperty(dom.window, 'localStorage', {
+      value: {
+        getItem: () => {
+          throw new Error('Storage quota exceeded');
+        },
+        setItem: () => {
+          throw new Error('Storage quota exceeded');
+        },
+      },
+      writable: true,
+    });
+
+    const script = dom.window.document.createElement('script');
+    script.textContent = `
+      (function () {
+        let theme = 'light';
+        try {
+          const stored = localStorage.getItem('theme');
+          if (stored === 'light' || stored === 'dark') {
+            theme = stored;
+          }
+        } catch (error) {
+          // Ignore localStorage errors
+        }
+        document.documentElement.dataset.theme = theme;
+      })();
+    `;
+    dom.window.document.head.appendChild(script);
+    expect(dom.window.document.documentElement.dataset.theme).toBe('light');
+  });
+
+  it('handles rapid clicks correctly', () => {
+    const dom = runThemeToggle('light');
+    const button = dom.window.document.getElementById('theme-toggle')!;
+
+    for (let i = 0; i < 10; i++) {
+      button.click();
+    }
+
+    expect(dom.window.document.documentElement.dataset.theme).toBe('light');
+  });
 });

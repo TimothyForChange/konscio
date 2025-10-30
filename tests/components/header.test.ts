@@ -138,6 +138,18 @@ describe('Header.astro', () => {
     expect(componentContent).toContain('max-width: 280px;');
   });
 
+  it('includes accessibility features', () => {
+    expect(componentContent).toContain('aria-label=');
+    expect(componentContent).toContain('aria-expanded=');
+    expect(componentContent).toContain('aria-hidden=');
+  });
+
+  it('includes proper semantic HTML', () => {
+    expect(componentContent).toContain('<header');
+    expect(componentContent).toContain('<button');
+    expect(componentContent).toContain('<a href=');
+  });
+
   it('includes button styles', () => {
     expect(componentContent).toContain('.search-toggle');
     expect(componentContent).toContain('.hamburger-toggle');
