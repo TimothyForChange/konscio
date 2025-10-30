@@ -35,8 +35,8 @@ Capitalism, colonialism, and climate collapse are not separate crises; they are 
 ### Tone
 
 - Serious, unsentimental, anti-euphemistic.
-- Avoid the NGO or “policy analyst” register.
-- Never “both-sides” imperial violence.
+- Avoid the NGO or "policy analyst" register.
+- Never "both-sides" imperial violence.
 
 ### Perspective
 
@@ -57,11 +57,11 @@ Capitalism, colonialism, and climate collapse are not separate crises; they are 
 
 - Prefer strong verbs and short sentences.
 - Use plain syntax for facts, and cadence for moral synthesis.
-- Replace euphemisms (“development”, “stability”, “security”) with structural terms (“extraction”, “control”, “hegemony”).
+- Replace euphemisms ("development", "stability", "security") with structural terms ("extraction", "control", "hegemony").
 
 ### Prohibited Tones
 
-- Centrist “balance”
+- Centrist "balance"
 - Technocratic distance
 - Academic detachment
 - Managerial humanism
@@ -76,7 +76,7 @@ Capitalism, colonialism, and climate collapse are not separate crises; they are 
 
 ### Headings
 
-- **H1 (`#`):** Essay title in **Title Case** (e.g. `# Blood and Bullion: How Gold Fuels Sudan’s War`).
+- **H1 (`#`):** Essay title in **Title Case** (e.g. `# Blood and Bullion: How Gold Fuels Sudan's War`).
 - **H2 (`##`):** Section titles in **Title Case** — each represents a distinct analytical move.
 - **H3 (`###`):** Optional subsections, also in **Title Case**.
 
@@ -96,7 +96,7 @@ Capitalism, colonialism, and climate collapse are not separate crises; they are 
 - **Blockquotes:** 1–3 lines max; always attributed and contextually linked. No formatting required — handled automatically.
 - **Em dashes:** Use sparingly for cadence or moral gravity — not as generic punctuation.
 - Prefer colons and commas where rhythm allows.
-- No numeric citations in published essays; integrate sources naturally (“According to UN data…”).
+- No numeric citations in published essays; integrate sources naturally ("According to UN data…").
 
 ---
 
@@ -113,8 +113,8 @@ Capitalism, colonialism, and climate collapse are not separate crises; they are 
 ## 5. Stylistic Grammar
 
 - **Tense:** Present for analysis; past for history; future for calls to action.
-- **Voice:** Active wherever possible (“banks fund war”, not “wars are funded by banks”).
-- **Pronouns:** “We” only when speaking of shared humanity or solidarity; otherwise, specify agents of power.
+- **Voice:** Active wherever possible ("banks fund war", not "wars are funded by banks").
+- **Pronouns:** "We" only when speaking of shared humanity or solidarity; otherwise, specify agents of power.
 - **Numbers:** Use **bold numerals** for visual clarity in longform text.
 - **Quotes:** Contextualise every quote — who said it, when, and why it matters.
 - **Acronyms:** Define on first mention, then use freely.
@@ -150,7 +150,7 @@ Capitalism, colonialism, and climate collapse are not separate crises; they are 
 
 - **Opening:** YAML front matter → H1 title → epigraph (optional).
 - **Subtitle:** Always analytical, never clickbait.
-- **Sign-off:** “— In solidarity with…”
+- **Sign-off:** "— In solidarity with…"
 - **Series rhythm:** Diagnosis → Structure → Resistance → Reconstruction.
 - **Epigraphs:** Use sparingly, but with purpose; prefer anti-colonial and liberationist voices (Fanon, Rodney, Sankara, Césaire, Cáceres, etc.).
 
@@ -181,10 +181,10 @@ _Always choose words that reveal power, not obscure it._
 
 ## 10. Attribution and Integrity
 
-- Attribute by name and organisation (“Amnesty International’s 2025 report found…”).
+- Attribute by name and organisation ("Amnesty International's 2025 report found…").
 - Avoid citation clutter; weave information into narrative.
 - Always name Global South researchers and activists equally alongside Western sources.
-- Avoid passive “it is said” phrasing — show who says it and why.
+- Avoid passive "it is said" phrasing — show who says it and why.
 - Never quote without verifying authenticity or context.
 
 ---
@@ -194,7 +194,7 @@ _Always choose words that reveal power, not obscure it._
 - Each paragraph = one idea or one moral turn.
 - Use short declarative sentences after long analytical ones for impact.
 - End sections with synthesis, not summary.
-- Use repetition only as rhetorical reinforcement (“This is not… It is…”).
+- Use repetition only as rhetorical reinforcement ("This is not… It is…").
 - Commas over dashes for pacing; dashes only when emotional weight or interruption demands it.
 - Read aloud before publication — the essay must _sound_ like conviction.
 
@@ -203,9 +203,9 @@ _Always choose words that reveal power, not obscure it._
 ## 12. Ethics of Representation
 
 - Never anonymise the powerful; protect the vulnerable.
-- Avoid academic distancing: say “miners”, not “human subjects”.
+- Avoid academic distancing: say "miners", not "human subjects".
 - Name Indigenous, African, and local knowledge as _expertise_, not anecdote.
-- Avoid “voiceless” framing; people resist in myriad ways — show that.
+- Avoid "voiceless" framing; people resist in myriad ways — show that.
 - Imagery: dignified, relevant, non-exploitative.
 - If including distressing material, anchor it in systemic analysis, not spectacle.
 
@@ -223,7 +223,7 @@ _Always choose words that reveal power, not obscure it._
 
 ## 14. Example Editorial Blueprint
 
-**Headline:** _Blood and Bullion: How Gold Fuels Sudan’s War_
+**Headline:** _Blood and Bullion: How Gold Fuels Sudan's War_
 **Thesis:** Gold finances war and empire through extractive and geopolitical complicity.
 
 **Sectional Flow:**
@@ -241,8 +241,8 @@ _Always choose words that reveal power, not obscure it._
 
 ## 15. Editorial Values Summary
 
-> “To write is to resist forgetting.
-> To analyse is to fight despair with understanding.”
+> "To write is to resist forgetting.
+> To analyse is to fight despair with understanding."
 
 Every piece should:
 

@@ -2,8 +2,10 @@
 title: 'Ukraine and the Empire of War: How Capital Profits from Catastrophe'
 author: 'Timothy Brits'
 datePublished: 2025-10-30
-description: 'An eco-socialist and anti-imperialist analysis of the war in Ukraine as a symptom of global militarised capitalism — exposing how both NATO expansion and Russian imperialism feed a planetary war economy.'
-excerpt: 'The war in Ukraine is not a clash of civilisations but a clash of empires. Beneath the flags and rhetoric lies a global system that turns human suffering into profit — from weapons to energy to debt.'
+description: |
+  An eco-socialist and anti-imperialist analysis of the war in Ukraine as a symptom of global militarised capitalism — exposing how both NATO expansion and Russian imperialism feed a planetary war economy.
+excerpt: |
+  The war in Ukraine is not a clash of civilisations but a clash of empires. Beneath the flags and rhetoric lies a global system that turns human suffering into profit — from weapons to energy to debt.
 image: /images/ukraine-and-the-empire-of-war.jpg
 categories: ['Analysis']
 tags: ['Ukraine', 'Imperialism', 'NATO', 'Global South', 'Russia']
@@ -12,26 +14,26 @@ draft: true
 
 # Ukraine and the Empire of War: How Capital Profits from Catastrophe
 
-> “When the rich wage war it's the poor who die.”
+> "When the rich wage war it's the poor who die."
 > — Jean-Paul Sartre, The Devil and the Good Lord (1951)
 
 The war in Ukraine is not an exception to world order — it is its expression.
 A global system that feeds on catastrophe has found another vein to open: a machine that turns grief into profit, flags into franchises, and death into dividends.
 
-To understand this war, we must look past propaganda and patriotism, past NATO’s narratives and the Kremlin’s revanchism, to what the conflict truly exposes: **capitalism at war with life itself.**
+To understand this war, we must look past propaganda and patriotism, past NATO's narratives and the Kremlin's revanchism, to what the conflict truly exposes: **capitalism at war with life itself.**
 
-This is not a “civilisational clash.” It is a struggle between empires — one old, one resurgent — each sustained by extractive power and fossil capital. Ukraine has become their frontier, a place where the imperial ambitions of the West and Russia collide, and where ordinary people — workers, farmers, civilians — bear the heaviest cost.
+This is not a "civilisational clash." It is a struggle between empires — one old, one resurgent — each sustained by extractive power and fossil capital. Ukraine has become their frontier, a place where the imperial ambitions of the West and Russia collide, and where ordinary people — workers, farmers, civilians — bear the heaviest cost.
 
 ---
 
 ## A History Written in Empire
 
 The road to this war began long before 2022.
-It runs through the ruins of 1991, when the Soviet Union’s collapse opened the East to global capital. Western economists prescribed “shock therapy”; oligarchs and speculators carved up public wealth. The result was familiar: public misery, private enrichment, and a state hollowed out for sale.
+It runs through the ruins of 1991, when the Soviet Union's collapse opened the East to global capital. Western economists prescribed "shock therapy"; oligarchs and speculators carved up public wealth. The result was familiar: public misery, private enrichment, and a state hollowed out for sale.
 
-Then came NATO. Each expansion eastward was framed as “security,” yet what it secured was **Western military and economic hegemony** — a market order backed by missiles. Europe never decolonised; it merely globalised its empire.
+Then came NATO. Each expansion eastward was framed as "security," yet what it secured was **Western military and economic hegemony** — a market order backed by missiles. Europe never decolonised; it merely globalised its empire.
 
-Russia, too, followed this neoliberal script. Under Putin, privatisation merged with nationalism — oil wealth sanctified as destiny. The Kremlin’s wars, from Chechnya to Syria to Ukraine, became theatre for a petro-imperial regime that trades in both fossil fuels and fear.
+Russia, too, followed this neoliberal script. Under Putin, privatisation merged with nationalism — oil wealth sanctified as destiny. The Kremlin's wars, from Chechnya to Syria to Ukraine, became theatre for a petro-imperial regime that trades in both fossil fuels and fear.
 
 Ukraine was left between these forces — a nation seeking sovereignty yet trapped in the gravitational field of empires. Its people have been brutalised not because they chose this war, but because empire demands territory, and markets demand access.
 
@@ -43,10 +45,10 @@ Wars are not only fought; they are financed, speculated upon, and monetised.
 
 Since 2022, **defence shares have surged by over 40%** in the U.S. and Europe.
 Lockheed Martin, BAE Systems, Rheinmetall, and Thales celebrate quarterly earnings as civilians bury their dead.
-**Shell, BP, and TotalEnergies** reap record profits from energy volatility. **BlackRock** and **JP Morgan** now plan Ukraine’s “reconstruction” — a euphemism for the privatisation of its recovery.
+**Shell, BP, and TotalEnergies** reap record profits from energy volatility. **BlackRock** and **JP Morgan** now plan Ukraine's "reconstruction" — a euphemism for the privatisation of its recovery.
 
 Every missile launched is a market transaction. Every destroyed factory becomes a future investment site.
-The International Monetary Fund’s **$15 billion programme** binds Ukraine’s postwar future to the old neoliberal doctrine: deregulate, privatise, repay. It is **structural violence rewritten as aid**.
+The International Monetary Fund's **$15 billion programme** binds Ukraine's postwar future to the old neoliberal doctrine: deregulate, privatise, repay. It is **structural violence rewritten as aid**.
 
 This is not solidarity; it is the recolonisation of crisis.
 
@@ -57,32 +59,24 @@ This is not solidarity; it is the recolonisation of crisis.
 Behind every statistic is a body, a home, a field.
 Tens of thousands dead. Millions displaced. Cities erased.
 
-<figure>
-    <img src="/ruined-building.jpg" alt="Ruined building in Kyiv" />
-    <figcaption>Ruined building in Kyiv</figcaption>
-</figure>
-
 But the devastation extends beyond the human.
-Ukraine’s soil is poisoned with heavy metals; forests burned; rivers fouled.
-The shelling near Zaporizhzhia’s nuclear plant risks radiological ruin.
+Ukraine's soil is poisoned with heavy metals; forests burned; rivers fouled.
+The shelling near Zaporizhzhia's nuclear plant risks radiological ruin.
 Agricultural land — once the breadbasket of Europe — is laced with mines and toxins.
 The UN warns that environmental recovery may take **decades**, if it is possible at all.
 
-War here is not only social catastrophe — it is **ecocide as strategy**, turning ecosystems into collateral and “reconstruction” into profit.
+War here is not only social catastrophe — it is **ecocide as strategy**, turning ecosystems into collateral and "reconstruction" into profit.
 
-Across continents, the pattern repeats: from cobalt in Congo to gold in Sudan to the bombed soil of Donbas. The Earth itself has become collateral in empire’s accounting.
+Across continents, the pattern repeats: from cobalt in Congo to gold in Sudan to the bombed soil of Donbas. The Earth itself has become collateral in empire's accounting.
 
-<figure>
-    <img src="/burnt-out-afv.jpg" alt="Burnt out armoured fighting vehicle in Bucha" />
-    <figcaption>Burnt out armoured fighting vehicle in Bucha</figcaption>
-</figure>
+![Burnt out armoured fighting vehicle in Bucha](../../assets/burnt-out-afv.webp)
 
 ---
 
 ## Hypocrisy and Double Standards
 
 Western governments proclaim defence of democracy, yet their solidarity remains selective.
-They sanction Moscow while arming Riyadh, mourn Kyiv while enabling Gaza’s siege, welcome white refugees while others drown in the Mediterranean.
+They sanction Moscow while arming Riyadh, mourn Kyiv while enabling Gaza's siege, welcome white refugees while others drown in the Mediterranean.
 
 This is not moral inconsistency — it is **imperial consistency**.
 Sovereignty is sacred in Europe but expendable in the Global South.
@@ -99,9 +93,9 @@ Across Africa, Asia, and Latin America, governments are pressed to choose sides.
 Sanctions inflate fuel and food prices; disrupted grain flows push millions into hunger. The war has triggered **the largest rise in food insecurity since 2008**, yet Western narratives reduce these consequences to footnotes.
 
 The real divide is not democracy versus autocracy — it is **imperial core versus periphery**.
-Countries that reject alignment are scolded as “pro-authoritarian,” while those that comply are rewarded with debt.
+Countries that reject alignment are scolded as "pro-authoritarian," while those that comply are rewarded with debt.
 
-Still, the Global South resists being conscripted. BRICS diplomacy, African mediation, and South American non-alignment all signal a new geopolitical imagination: **a world no longer willing to kneel before empire’s choice of enemies.**
+Still, the Global South resists being conscripted. BRICS diplomacy, African mediation, and South American non-alignment all signal a new geopolitical imagination: **a world no longer willing to kneel before empire's choice of enemies.**
 
 ---
 
@@ -109,10 +103,10 @@ Still, the Global South resists being conscripted. BRICS diplomacy, African medi
 
 Even amid the wreckage, people resist.
 
-- Ukrainian trade unions oppose wartime deregulation that erodes workers’ rights.
+- Ukrainian trade unions oppose wartime deregulation that erodes workers' rights.
 - Feminist and socialist collectives demand reconstruction for people, not capital.
 - Russian anti-war activists risk prison to speak truth.
-- Across Europe, climate movements denounce the greenwashing of militarism under the banner of “energy security.”
+- Across Europe, climate movements denounce the greenwashing of militarism under the banner of "energy security."
 
 Their struggles remind us: **the peace worth fighting for is not pacification but liberation** — from oligarchy, from fossil dependence, from the global war economy itself.
 
@@ -126,7 +120,7 @@ It must be **demilitarised, decolonised, and ecological** — grounded in cooper
 That means:
 
 - Converting war industries to tools for renewable reconstruction.
-- Cancelling Ukraine’s external debt, not deepening its bondage.
+- Cancelling Ukraine's external debt, not deepening its bondage.
 - Ending NATO expansion and Russian aggression alike through a **new collective security architecture**.
 - Redirecting global budgets from militaries to climate adaptation, healthcare, and food sovereignty.
 
@@ -138,14 +132,14 @@ War is the climate crisis in military form.
 
 ## Closing: Empire or Life
 
-Ukraine’s tragedy is planetary. It exposes the connective tissue of the system we name: **capitalism, colonialism, and climate collapse as one machinery of domination**.
+Ukraine's tragedy is planetary. It exposes the connective tissue of the system we name: **capitalism, colonialism, and climate collapse as one machinery of domination**.
 
-The same order that exploits Congolese miners, fuels Sudan’s militias, and flattens Gaza now grinds Ukrainians beneath its wheels. Different languages, same empire.
+The same order that exploits Congolese miners, fuels Sudan's militias, and flattens Gaza now grinds Ukrainians beneath its wheels. Different languages, same empire.
 
 We cannot end this war by choosing which empire to believe.
 We end it by dismantling the system that makes empires possible — the one that turns land into property, labour into debt, and life into profit.
 
-> “True peace is not merely the absence of tension: it is the presence of justice.”
+> "True peace is not merely the absence of tension: it is the presence of justice."
 > — Martin Luther King Jr, Stride Toward Freedom (1958)
 
 Justice begins when we name the enemy correctly: not Russia or NATO alone, but the **global order that feeds on both**.
