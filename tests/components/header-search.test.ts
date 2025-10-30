@@ -36,8 +36,13 @@ describe('HeaderSearch.astro', () => {
       let searchOverlay, searchInput, searchResults;
 
       async function initSearch() {
-        const response = await fetch(base + 'search.json');
-        searchData = await response.json();
+        try {
+          const response = await fetch(base + 'search.json');
+          const rawData = await response.json();
+          searchData = Array.isArray(rawData) ? rawData : [];
+        } catch (error) {
+          searchData = [];
+        }
 
         searchOverlay = document.getElementById('search-overlay');
         searchInput = document.getElementById('search-input');
@@ -368,5 +373,75 @@ describe('HeaderSearch.astro', () => {
     input.dispatchEvent(new dom.window.Event('input'));
 
     expect(results.innerHTML).toBe('');
+  });
+
+  it('handles fetch errors gracefully', async () => {
+    const dom = setupSearchDOM();
+
+    (dom.window.fetch as any).mockRejectedValue(new Error('Network error'));
+
+    injectSearchScript(dom);
+    await new Promise((resolve) => setTimeout(resolve, 0));
+
+    const input = dom.window.document.getElementById(
+      'search-input'
+    ) as HTMLInputElement;
+    const results = dom.window.document.getElementById('search-results')!;
+
+    input.value = 'test';
+    input.dispatchEvent(new dom.window.Event('input'));
+
+    expect(results.innerHTML).toContain('No articles found');
+  });
+
+  it('handles null search data', async () => {
+    const dom = setupSearchDOM();
+
+    (dom.window.fetch as any).mockResolvedValue({
+      json: () => Promise.resolve(null),
+    });
+
+    injectSearchScript(dom);
+    await new Promise((resolve) => setTimeout(resolve, 0));
+
+    const input = dom.window.document.getElementById(
+      'search-input'
+    ) as HTMLInputElement;
+    const results = dom.window.document.getElementById('search-results')!;
+
+    input.value = 'test';
+    input.dispatchEvent(new dom.window.Event('input'));
+
+    expect(results.innerHTML).toContain('No articles found');
+  });
+
+  it('handles search with special characters', async () => {
+    const dom = setupSearchDOM();
+    const mockData = [
+      {
+        title: 'Test with special chars !@#',
+        url: '/blog/special',
+        datePublished: '2023-01-01T00:00:00.000Z',
+        excerpt: 'Test excerpt',
+        categories: ['test'],
+      },
+    ];
+
+    (dom.window.fetch as any).mockResolvedValue({
+      json: () => Promise.resolve(mockData),
+    });
+
+    injectSearchScript(dom);
+    await new Promise((resolve) => setTimeout(resolve, 0));
+
+    const input = dom.window.document.getElementById(
+      'search-input'
+    ) as HTMLInputElement;
+    const results = dom.window.document.getElementById('search-results')!;
+
+    input.value = '!@#';
+    input.dispatchEvent(new dom.window.Event('input'));
+
+    expect(results.innerHTML).toContain('special chars');
   });
 });

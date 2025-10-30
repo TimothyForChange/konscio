@@ -47,8 +47,13 @@
     searchResults: HTMLElement | null;
 
   async function initSearch() {
-    const response = await fetch(base + 'search.json');
-    searchData = await response.json();
+    try {
+      const response = await fetch(base + 'search.json');
+      const rawData = await response.json();
+      searchData = Array.isArray(rawData) ? rawData : [];
+    } catch (error) {
+      searchData = [];
+    }
 
     searchOverlay = document.getElementById('search-overlay');
     searchInput = document.getElementById('search-input') as HTMLInputElement;

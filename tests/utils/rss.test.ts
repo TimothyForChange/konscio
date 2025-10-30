@@ -1,9 +1,14 @@
 import rss from '@astrojs/rss';
+import { getCollection } from 'astro:content';
 import { describe, expect, it, vi } from 'vitest';
 import { GET } from '../../src/pages/rss.xml.js';
 
 vi.mock('@astrojs/rss', () => ({
   default: vi.fn(() => ({ status: 200, body: 'rss content' })),
+}));
+
+vi.mock('astro:content', () => ({
+  getCollection: vi.fn(),
 }));
 
 vi.mock('../../src/config', () => ({
@@ -39,5 +44,22 @@ describe('rss.xml', () => {
         new Date(callArgs.items[0].pubDate).getTime()
       ).toBeGreaterThanOrEqual(new Date(callArgs.items[1].pubDate).getTime());
     }
+  });
+
+  it('should handle getCollection error gracefully', async () => {
+    (getCollection as any).mockRejectedValue(new Error('Collection error'));
+
+    const context = { site: 'https://example.com' };
+    await expect(GET(context)).resolves.toEqual(
+      expect.objectContaining({ status: 200 })
+    );
+  });
+
+  it('should handle empty collection', async () => {
+    const context = { site: 'https://example.com' };
+    await GET(context);
+
+    const callArgs = (rss as any).mock.calls[0][0];
+    expect(Array.isArray(callArgs.items)).toBe(true);
   });
 });

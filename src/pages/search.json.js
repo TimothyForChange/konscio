@@ -1,19 +1,47 @@
 import { getCollection } from 'astro:content';
 
 export async function GET() {
-  const posts = await getCollection('blog');
+  try {
+    const posts = await getCollection('blog');
 
-  const searchData = posts
-    .map((post) => ({
-      title: post.data.title || 'Untitled',
-      url: '/blog/' + post.slug,
-      datePublished: post.data.datePublished.toISOString(),
-      excerpt: post.data.excerpt || post.data.description || '',
-      categories: post.data.categories || [],
-    }))
-    .sort((a, b) => new Date(b.datePublished) - new Date(a.datePublished));
+    const processedPosts = posts
+      .filter((post) => post && post.data)
+      .map((post) => {
+        let dateObj;
+        if (post.data.datePublished instanceof Date) {
+          dateObj = post.data.datePublished;
+        } else if (typeof post.data.datePublished === 'string') {
+          dateObj = new Date(post.data.datePublished);
+        } else {
+          dateObj = new Date(post.data.datePublished);
+        }
 
-  return new Response(JSON.stringify(searchData), {
-    headers: { 'Content-Type': 'application/json' },
-  });
+        const datePublished = isNaN(dateObj.getTime())
+          ? null
+          : dateObj.toISOString();
+
+        return {
+          title: post.data.title || 'Untitled',
+          url: '/blog/' + post.slug,
+          datePublished,
+          excerpt: post.data.excerpt || post.data.description || '',
+          categories: Array.isArray(post.data.categories)
+            ? post.data.categories
+            : [],
+        };
+      });
+
+    const searchData = processedPosts
+      .filter((item) => item.datePublished !== null)
+      .sort((a, b) => new Date(b.datePublished) - new Date(a.datePublished));
+
+    return new Response(JSON.stringify(searchData), {
+      headers: { 'Content-Type': 'application/json' },
+    });
+  } catch (error) {
+    return new Response(JSON.stringify([]), {
+      headers: { 'Content-Type': 'application/json' },
+      status: 200,
+    });
+  }
 }

@@ -74,6 +74,24 @@ unclosed frontmatter
       { depth: 1, text: 'Valid Heading', slug: 'valid-heading' },
     ]);
   });
+
+  it('should handle null or undefined content', () => {
+    expect(extractHeadings(null as any)).toEqual([]);
+    expect(extractHeadings(undefined as any)).toEqual([]);
+  });
+
+  it('should handle content with only special characters in headings', () => {
+    const content = '## !@#$%^&*()';
+    const headings = extractHeadings(content);
+    expect(headings[0].slug).toBe('');
+  });
+
+  it('should handle content with very long headings', () => {
+    const longText = 'A'.repeat(1000);
+    const content = `## ${longText}`;
+    const headings = extractHeadings(content);
+    expect(headings[0].text).toBe(longText);
+  });
 });
 
 describe('filterHeadingsForTOC', () => {
@@ -104,6 +122,21 @@ describe('filterHeadingsForTOC', () => {
 
   it('should handle empty array', () => {
     const filtered = filterHeadingsForTOC([]);
+    expect(filtered).toEqual([]);
+  });
+
+  it('should handle null or undefined input', () => {
+    expect(filterHeadingsForTOC(null as any)).toEqual([]);
+    expect(filterHeadingsForTOC(undefined as any)).toEqual([]);
+  });
+
+  it('should handle headings with negative depths', () => {
+    const headings = [
+      { depth: -1, text: 'Negative', slug: 'negative' },
+      { depth: 0, text: 'Zero', slug: 'zero' },
+    ];
+
+    const filtered = filterHeadingsForTOC(headings);
     expect(filtered).toEqual([]);
   });
 });

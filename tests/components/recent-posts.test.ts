@@ -141,4 +141,75 @@ describe('RecentPosts.astro', () => {
     const recentPosts = getRecentPosts(mockPosts);
     expect(recentPosts).toHaveLength(2);
   });
+
+  it('handles posts with invalid date formats', () => {
+    const mockPosts = [
+      {
+        frontmatter: {
+          title: 'Invalid Date Post',
+          datePublished: 'not-a-date',
+          draft: false,
+        },
+        file: 'invalid-date.md',
+      },
+      {
+        frontmatter: {
+          title: 'Valid Post',
+          datePublished: '2023-01-02',
+          draft: false,
+        },
+        file: 'valid.md',
+      },
+    ];
+
+    const recentPosts = getRecentPosts(mockPosts);
+    expect(recentPosts).toHaveLength(2);
+  });
+
+  it('handles posts without datePublished field', () => {
+    const mockPosts = [
+      {
+        frontmatter: {
+          title: 'No Date Post',
+          draft: false,
+        },
+        file: 'no-date.md',
+      },
+      {
+        frontmatter: {
+          title: 'Valid Post',
+          datePublished: '2023-01-02',
+          draft: false,
+        },
+        file: 'valid.md',
+      },
+    ];
+
+    const recentPosts = getRecentPosts(mockPosts);
+    expect(recentPosts).toHaveLength(2);
+  });
+
+  it('handles posts with null or undefined properties', () => {
+    const mockPosts = [
+      {
+        frontmatter: {
+          title: null as any,
+          datePublished: null as any,
+          draft: false,
+        },
+        file: 'null-props.md',
+      },
+      {
+        frontmatter: {
+          title: undefined as any,
+          datePublished: undefined as any,
+          draft: false,
+        },
+        file: 'undefined-props.md',
+      },
+    ];
+
+    const recentPosts = getRecentPosts(mockPosts);
+    expect(recentPosts).toHaveLength(2);
+  });
 });

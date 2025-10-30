@@ -2,10 +2,12 @@ import { describe, expect, it } from 'vitest';
 
 describe('Categories.astro', () => {
   function getCategories(posts: any[]) {
-    const allPosts = posts.filter((post: any) => !post.frontmatter.draft);
+    const allPosts = posts.filter(
+      (post: any) => post && post.frontmatter && !post.frontmatter.draft
+    );
     const categories = [
       ...new Set(
-        allPosts.flatMap((post: any) => post.frontmatter.categories || [])
+        allPosts.flatMap((post: any) => post.frontmatter?.categories || [])
       ),
     ];
     return categories;
@@ -93,6 +95,59 @@ describe('Categories.astro', () => {
           categories: undefined,
           draft: false,
         },
+      },
+    ];
+
+    const categories = getCategories(mockPosts);
+    expect(categories).toEqual([]);
+  });
+
+  it('handles posts with null categories', () => {
+    const mockPosts = [
+      {
+        frontmatter: {
+          categories: null as any,
+          draft: false,
+        },
+      },
+    ];
+
+    const categories = getCategories(mockPosts);
+    expect(categories).toEqual([]);
+  });
+
+  it('handles posts with non-array categories', () => {
+    const mockPosts = [
+      {
+        frontmatter: {
+          categories: 'not-an-array',
+          draft: false,
+        },
+      },
+    ];
+
+    const categories = getCategories(mockPosts);
+    expect(categories).toEqual(['not-an-array']);
+  });
+
+  it('handles posts with invalid frontmatter structure', () => {
+    const mockPosts = [
+      {
+        title: 'No Frontmatter Post',
+      } as any,
+    ];
+
+    const categories = getCategories(mockPosts);
+    expect(categories).toEqual([]);
+  });
+
+  it('handles posts with null or undefined frontmatter', () => {
+    const mockPosts = [
+      {
+        frontmatter: null as any,
+      },
+      {
+        frontmatter: undefined as any,
       },
     ];
 
