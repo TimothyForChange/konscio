@@ -29,7 +29,7 @@ French logging giants, Chinese mining firms, and Western-backed agribusinesses a
 
 It is, in truth, a **new Scramble for Africa** — only now the spoils are measured in hectares of rainforest and tonnes of carbon, not rubber and ivory. The same imperial logic that once divided the Congo River Basin at the Berlin Conference now divides it through trade deals, concessions, and carbon markets.
 
-The Congo Basin contains roughly **25% of the world's tropical forest carbon stock**. Cutting it is not just a regional loss; it is a planetary emergency.
+The Congo Basin contains roughly **25% of the world's tropical forest carbon stock.** Cutting it is not just a regional loss; it is a planetary emergency.
 
 ---
 
@@ -56,7 +56,7 @@ For Indigenous peoples of the Congo Basin — the Baka, Batwa, BaAka, and many o
 
 UN and NGO reports have documented **violent evictions and abuses by eco-guards** funded by major international conservation groups, including WWF, in the DRC and Republic of Congo. These operations mirror the extractive logic they claim to oppose.
 
-Despite this violence, resistance endures. Indigenous women's networks in Itombwe and Équateur lead **community reforestation projects** and protest illegal logging. Youth groups document forest crimes with GPS tools, and community associations demand **legal recognition of collective land rights**. Across the Basin, ordinary people assert a radical truth: _living with the forest is not backwardness; it is wisdom._
+Despite this violence, resistance endures. Indigenous women's networks in Itombwe and Équateur lead **community reforestation projects** and protest illegal logging. Youth groups document forest crimes with GPS tools, and community associations demand **legal recognition of collective land rights.** Across the Basin, ordinary people assert a radical truth: _living with the forest is not backwardness; it is wisdom._
 
 ---
 
@@ -89,18 +89,18 @@ That means recognising the right of forest peoples to govern their land, rejecti
 
 A genuinely eco-socialist approach would:
 
-- **Return control** of forests to Indigenous and local communities through recognition of collective land rights and **Free, Prior and Informed Consent**.
+- **Return control** of forests to Indigenous and local communities through recognition of collective land rights and **Free, Prior and Informed Consent.**
 - **End export dependency** by building sustainable, locally rooted economies.
 - **Hold corporations accountable** through binding international law and transparent supply chains.
 - **Demand degrowth** in the Global North, where overconsumption drives destruction elsewhere.
 
-Protecting the Congo Basin is not an act of altruism. It is an act of **planetary self-defence**.
+Protecting the Congo Basin is not an act of altruism. It is an act of **planetary self-defence.**
 
 ---
 
 ## Closing: The Pulse of the Planet
 
-The forest breathes for all life. Its rivers carry the memory of millions of years. Its canopy shelters more than **10,000 plant species**, nearly **30% of them unique to the region**, and over **400 mammals and 1,000 bird species**. More than **150 ethnic groups**, including BaAka, BaMbuti, and Efe peoples, depend on it for their survival.
+The forest breathes for all life. Its rivers carry the memory of millions of years. Its canopy shelters more than **10,000 plant species**, nearly **30% of them unique to the region**, and over **400 mammals and 1,000 bird species.** More than **150 ethnic groups**, including BaAka, BaMbuti, and Efe peoples, depend on it for their survival.
 
 Yet it is being silenced by chainsaws, pipelines, and profit.
 

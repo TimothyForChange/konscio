@@ -56,7 +56,7 @@ By contrast, the SAF's power is bureaucratic and brittle. It clings to state leg
 
 ## Human and Ecological Cost
 
-The human toll is staggering. Independent estimates place conflict deaths in the **hundreds of thousands**, with **millions displaced**.
+The human toll is staggering. Independent estimates place conflict deaths in the **hundreds of thousands**, with **millions displaced.**
 Entire cities—El Geneina, Nyala, Omdurman—bear the scars of RSF shelling and scorched-earth tactics. Humanitarian corridors are blocked, aid convoys looted, and civilians targeted for belonging to the wrong ethnic group.
 
 Mining itself is a second front of destruction. The RSF's unregulated artisanal pits use mercury and cyanide, contaminating rivers and soil. Deforestation spreads across Darfur and South Kordofan. What gold cannot kill by bullet, it poisons by runoff.
@@ -78,7 +78,7 @@ Sanctions are selective; outrage is choreographed. It is a theatre of hypocrisy,
 
 ## Parallels: Congo, Palestine, and a Single System
 
-From Darfur to Donbas, from Gaza to Goma, the logic repeats: **resource control through militarised extraction**.
+From Darfur to Donbas, from Gaza to Goma, the logic repeats: **resource control through militarised extraction.**
 In the DRC, cobalt and coltan finance corporate empires.
 In Palestine, land is expropriated under the banner of "security."
 In Sudan, gold fuels a militia that serves as both warlord and subcontractor of empire.

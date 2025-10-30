@@ -32,7 +32,7 @@ This is not simply about war. It is about a world order built on the belief that
 
 ## Empire's Continuum
 
-The genocide in Gaza did not begin in **2023**. It began with **settler colonialism**, the economic and racial logic of empire carried into the twenty-first century.
+The genocide in Gaza did not begin in **2023.** It began with **settler colonialism**, the economic and racial logic of empire carried into the twenty-first century.
 The British Mandate, the Balfour Declaration, and the Zionist project were all instruments of the same system that partitioned Africa, enslaved millions, and enclosed the Earth's commons for capital.
 
 The methods evolve: sanctions instead of gunboats, drones instead of gunpowder; the structure endures — **the right to dominate, the right to extract, the right to decide who lives and who dies.**
@@ -58,7 +58,7 @@ The same corporations — **Lockheed Martin, BAE Systems, Thales, Northrop Grumm
 
 ### Finance and Control
 
-Empire no longer rules by flag; it rules through **debt, trade regimes, and sanctions**.
+Empire no longer rules by flag; it rules through **debt, trade regimes, and sanctions.**
 IMF austerity in Africa, World Bank "development projects" in Asia, and U.S. sanctions on states that resist all sustain a hierarchy of dependence. The same countries that arm Israel also control the institutions that discipline the Global South.
 
 ### Media and Moral Legitimacy
@@ -70,7 +70,7 @@ These words disguise structural violence, framing victims as threats and resista
 
 ## Extraction and Extermination: The Ecological Link
 
-Settler colonialism is not only a political project; it is an **ecological one**.
+Settler colonialism is not only a political project; it is an **ecological one.**
 In Palestine, olive groves are uprooted, aquifers stolen, and farmland bombed into dust. In Africa, forests are razed for profit and rivers poisoned by mines. Both reflect the same logic: control nature, displace people, privatise life.
 
 The **ecocide in Gaza** — the flattening of farmland, poisoning of soil and sea — mirrors the slow violence inflicted on ecosystems across the Global South. Climate collapse is not accidental; it is imperialism in its ecological form.
@@ -82,11 +82,11 @@ Demilitarisation and ecological regeneration are inseparable. The metals that bu
 ## Resistance Across Borders
 
 Across the Global South, Palestine has become a rallying point, not of charity but of shared experience.
-From Johannesburg to Jakarta, from Caracas to Cairo, movements recognise Gaza as the **front line of global imperialism**.
+From Johannesburg to Jakarta, from Caracas to Cairo, movements recognise Gaza as the **front line of global imperialism.**
 
 - South African activists invoke apartheid memory to call for **boycott, divestment, and sanctions (BDS)** — echoing their own struggle.
 - Congolese and Sudanese organisers link their battles against extraction to the fight against occupation.
-- Indigenous movements in the Americas and Pacific see parallels in **land theft, militarisation, and cultural erasure**.
+- Indigenous movements in the Americas and Pacific see parallels in **land theft, militarisation, and cultural erasure.**
 - In South Africa, the government's case at the **International Court of Justice (ICJ)** asserts what the Global North refuses to: that genocide cannot be justified by power.
 - Across Latin America, Indigenous environmental defenders in Bolivia and Brazil connect their struggles against extractive violence to the Palestinian cause.
 - Even in the Global North, youth climate movements defy state repression and publicly refuse the separation between _ecological_ and _anti-imperialist_ politics.
