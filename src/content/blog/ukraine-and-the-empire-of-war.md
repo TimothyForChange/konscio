@@ -57,6 +57,11 @@ This is not solidarity; it is the recolonisation of crisis.
 Behind every statistic is a body, a home, a field.
 Tens of thousands dead. Millions displaced. Cities erased.
 
+<figure>
+    <img src="/ruined-building.jpg" alt="Ruined building in Kyiv" />
+    <figcaption>Ruined building in Kyiv</figcaption>
+</figure>
+
 But the devastation extends beyond the human.
 Ukraine’s soil is poisoned with heavy metals; forests burned; rivers fouled.
 The shelling near Zaporizhzhia’s nuclear plant risks radiological ruin.
@@ -66,6 +71,11 @@ The UN warns that environmental recovery may take **decades**, if it is possible
 War here is not only social catastrophe — it is **ecocide as strategy**, turning ecosystems into collateral and “reconstruction” into profit.
 
 Across continents, the pattern repeats: from cobalt in Congo to gold in Sudan to the bombed soil of Donbas. The Earth itself has become collateral in empire’s accounting.
+
+<figure>
+    <img src="/burnt-out-afv.jpg" alt="Burnt out armoured fighting vehicle in Bucha" />
+    <figcaption>Burnt out armoured fighting vehicle in Bucha</figcaption>
+</figure>
 
 ---
 
