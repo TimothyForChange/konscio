@@ -77,30 +77,7 @@ npm run dev
 
 ## ⚙️ Configuration
 
-All site configuration is centralised in `src/config.ts`:
-
-```typescript
-export const config: SiteConfig = {
-  title: 'Timothy for Change',
-  tagline:
-    'For people and planet: eco-socialist analysis from Africa and the Global South',
-  description:
-    'Eco-socialist analysis and decolonial thought from Africa and the Global South — for people and planet.',
-  author: {
-    name: 'Timothy Brits',
-    bio: 'Timothy writes from South Africa on capitalism, colonialism, and climate collapse. He believes liberation is impossible without dismantling the systems that exploit both people and the planet — and that a decolonised, eco-socialist future is not optional, but necessary.',
-    avatar: avatarImg.src,
-  },
-  social: {
-    github: 'https://github.com/timothyforchange/konscio',
-    threads: 'https://threads.com/@timothyforchange',
-    instagram: 'https://instagram.com/timothyforchange',
-    email: 'contact@timothyforchange.co.za',
-  },
-  siteUrl: 'https://timothyforchange.co.za',
-  baseUrl: '/',
-};
-```
+All site configuration is centralised in `src/config.ts`.
 
 ## 📝 Writing Content
 
@@ -130,17 +107,18 @@ More content...
 
 ### Frontmatter Reference
 
-| Field           | Type   | Required | Description                      |
-| --------------- | ------ | -------- | -------------------------------- |
-| `title`         | string | Yes      | Post title                       |
-| `description`   | string | No       | Post description for SEO         |
-| `datePublished` | string | Yes      | Publication date (YYYY-MM-DD)    |
-| `dateModified`  | string | No       | Last modified date (YYYY-MM-DD)  |
-| `excerpt`       | string | No       | Brief description for listings   |
-| `categories`    | array  | No       | Post categories                  |
-| `tags`          | array  | No       | Post tags                        |
-| `author`        | string | No       | Author name (defaults to config) |
-| `image`         | string | No       | Featured image path              |
+| Field           | Type    | Required | Description                      |
+| --------------- | ------- | -------- | -------------------------------- |
+| `title`         | string  | Yes      | Post title                       |
+| `description`   | string  | No       | Post description for SEO         |
+| `datePublished` | string  | Yes      | Publication date (YYYY-MM-DD)    |
+| `dateModified`  | string  | No       | Last modified date (YYYY-MM-DD)  |
+| `excerpt`       | string  | Yes      | Brief description for listings   |
+| `categories`    | array   | Yes      | Post categories                  |
+| `tags`          | array   | Yes      | Post tags                        |
+| `author`        | string  | No       | Author name (defaults to config) |
+| `image`         | string  | No       | Featured image path              |
+| `draft`         | boolean | No       | Draft status (defaults to false) |
 
 ## 🛠️ Commands
 
