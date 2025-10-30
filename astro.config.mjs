@@ -7,7 +7,6 @@ import { defineConfig } from 'astro/config';
 import { FontaineTransform } from 'fontaine';
 import { remarkReadingTime } from './plugins/remark-reading-time.ts';
 import { config } from './src/config';
-import { getCachedHighlighter } from './src/utils/highlighter.js';
 
 const fontaineOptions = {
   fallbacks: [
@@ -71,11 +70,6 @@ export default defineConfig({
     plugins: [FontaineTransform.vite(fontaineOptions)],
   },
   markdown: {
-    shikiConfig: {
-      theme: 'github-dark',
-      wrap: true,
-      highlighter: getCachedHighlighter,
-    },
     remarkPlugins: [remarkReadingTime],
   },
 });
