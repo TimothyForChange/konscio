@@ -37,6 +37,8 @@ Russia, too, followed this neoliberal script. Under Putin, privatisation merged 
 
 Ukraine was left between these forces — a nation seeking sovereignty yet trapped in the gravitational field of empires. Its people have been brutalised not because they chose this war, but because empire demands territory, and markets demand access.
 
+**Even Ukraine’s post-Soviet independence was conditioned by imperial logic.** In 1994, the _Budapest Memorandum_ saw Kyiv surrender the world’s third-largest nuclear arsenal in exchange for “security assurances” from the U.S., U.K., and Russia — the same powers now exploiting or assaulting its sovereignty. The collapse of that agreement exposes the truth beneath liberal diplomacy: under empire, _security is a commodity, and guarantees last only while profitable._
+
 ---
 
 ## The Political Economy of Endless War
@@ -132,7 +134,7 @@ War is the climate crisis in military form.
 
 ## Closing: Empire or Life
 
-Ukraine's tragedy is planetary. It exposes the connective tissue of the system we name: **capitalism, colonialism, and climate collapse as one machinery of domination**.
+Ukraine's tragedy is planetary. It exposes the connective tissue of the system we name: **capitalism, colonialism, and climate collapse as one machinery of domination.**
 
 The same order that exploits Congolese miners, fuels Sudan's militias, and flattens Gaza now grinds Ukrainians beneath its wheels. Different languages, same empire.
 
