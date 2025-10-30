@@ -23,13 +23,14 @@
 - **Build:** `npm run build` (output to `./dist/`)
 - **Preview:** `npm run preview`
 - **Type Check:** `npm run check`
-- **Lint:** `npm run lint`
+- **Lint:** `npm run lint` (ESLint with auto-fix, multiple plugins including sonarjs, unicorn)
+- **Format:** `npm run format` (Prettier with sort-imports plugin)
 - **Test:** `npm run test` (Vitest with jsdom environment)
 
 ## Project-Specific Conventions
 
-- **Frontmatter:** Blog posts require `title` and `datePublished` in frontmatter. Optional: `author`, `excerpt`, `categories`, `tags`, `image`.
-- **Content Schema:** Zod schema in `src/content/config.ts` validates blog posts with `z.coerce.date()` for date parsing.
+- **Frontmatter:** Blog posts require `title`, `datePublished`, `excerpt`, `categories`, and `tags` in frontmatter. Optional: `description`, `dateModified`, `author` (defaults to 'Anonymous'), `image`, `draft`.
+- **Content Schema:** Zod schema in `src/schemas/blog.ts` validates blog posts with `z.coerce.date()` for date parsing.
 - **Dark Mode:** Theme preference persisted in localStorage and initialized via inline script in `Layout.astro` to prevent FOUC. CSS variables update via `[data-theme='dark']` selector.
 - **Table of Contents:** Auto-generated for posts with headings (H2-H4) using `src/utils/table-of-contents.ts` and rendered by `TableOfContents.astro`.
 - **Reading Time:** Calculated via remark plugin (`plugins/remark-reading-time.ts`) and displayed on posts.
@@ -48,6 +49,8 @@
 - **Fontaine:** Optimizes self-hosted fonts from @fontsource packages.
 - **Shiki:** Syntax highlighting with cached highlighter in `src/utils/highlighter.ts`.
 - **Remark Plugins:** Custom reading time calculation plugin.
+- **Build Optimizations:** Astro compressor (gzip/brotli/zstd), PurgeCSS, Playform Inline for minimal JS.
+- **RSS & Search:** Auto-generated RSS feed and JSON search index.
 
 ## Examples
 
