@@ -73,6 +73,6 @@ This space is not neutral ground.
 It is a call to action: to think, write, and act for life.
 
 > “What matters is not to know the world but to change it.”
-> — _Frantz Fanon, Black Skin, White Masks (1952)_
+> — Frantz Fanon, Black Skin, White Masks (1952)
 
 Welcome to **Timothy for Change**, for people and planet.

@@ -44,7 +44,7 @@ And in Bolivia and Colombia, as militarised resource zones feeding global market
 </figure>
 
 > “There will be no global climate justice, no global just transition without the liberation of Palestine.”
-> — _Hamza Hamouchene, Transnational Institute (2025)_
+> — Hamza Hamouchene, Transnational Institute (2025)
 
 ---
 
@@ -93,7 +93,7 @@ From Johannesburg to Jakarta, from Caracas to Cairo, movements recognise Gaza as
 This is **internationalism reborn** — solidarity not as sentiment but as structure: an alliance of the dispossessed against empire in all its forms.
 
 > “If you have come here to help me, you are wasting your time. But if you have come because your liberation is bound up with mine, then let us work together.”
-> — _Lilla Watson and Aboriginal activists, Queensland (1970s)_
+> — Lilla Watson and Aboriginal activists, Queensland (1970s)
 
 ---
 
@@ -126,7 +126,7 @@ The fight for Gaza is the fight for the Earth itself: the same empire that flatt
 In the ruins of Gaza, we see our collective reflection. A civilisation willing to annihilate children for control of land will annihilate the planet for profit. The line between Palestine and the planet is thinner than we think.
 
 > “But we know too well that our freedom is incomplete without the freedom of the Palestinians; without the resolution of conflicts in East Timor, the Sudan and other parts of the world.”
-> — _Nelson Mandela, Pretoria (1997)_
+> — Nelson Mandela, Pretoria (1997)
 
 To fight for Gaza is to fight for life. To remain silent is to side with empire.
 

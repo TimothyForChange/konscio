@@ -10,7 +10,6 @@ tags:
   ['Congo', 'Extractivism', 'Green Colonialism', 'Imperialism', 'Global South']
 ---
 
-
 The Democratic Republic of Congo is presented to the world as a resource: a seam of minerals waiting for extraction, refinement, and shipment. In radio spots, corporate reports, and policy papers this is framed as progress: cobalt for batteries, coltan for phones, lithium for storage. But when you look closer, the “green transition” championed by the Global North is simply a new vocabulary for an old practice — extracting wealth from the Global South while leaving devastation in its wake.
 
 This is not a story about scarcity of resources. It is a story about **who controls those resources**, who benefits from them, and who pays the social and ecological cost. It is, in short, a story about power.
@@ -21,7 +20,7 @@ This is not a story about scarcity of resources. It is a story about **who contr
 
 The violent patterns seen in the DRC today are not anomalies that emerged after independence; they are continuities of a long history. The Congo was central to European imperial plunder, a landscape commodified under Leopold II’s rule where extraction and brutality were the political economy. That logic did not die with formal empire; it mutated.
 
-> As Adam Hochschild writes in _King Leopold’s Ghost_, the Congo Free State was “not a colony but the world’s only private colony — the personal possession of a single individual.”
+> As Adam Hochschild writes in King Leopold’s Ghost, the Congo Free State was “not a colony but the world’s only private colony — the personal possession of a single individual.”
 
 Contemporary extraction follows the same blueprint: external demand sets the terms, local governance is weakened or co-opted, and violence — economic, political, and physical — enforces supply. Minerals are turned into global commodities; communities are reduced to labour pools or obstacles to be removed. Language changes, but the operation remains recognisably colonial.
 
@@ -91,6 +90,6 @@ _The Congo does not need our pity._ It needs the end of a system that makes its 
 If the green transition is to mean anything, it must begin by dismantling the extractive relations that have long defined the Congo’s place in the world economy. Anything less is merely continuity in new clothes.
 
 > “Aid is the generous mask of trade.”
-> — _Eduardo Galeano, Open Veins of Latin America (1971)_
+> — Eduardo Galeano, Open Veins of Latin America (1971)
 
 — In solidarity with Congolese struggles for sovereignty, dignity, and ecological survival.

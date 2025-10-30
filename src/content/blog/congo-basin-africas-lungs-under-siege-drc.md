@@ -42,7 +42,7 @@ In practice, this means **climate finance replaces colonial tribute**: money flo
 Recent investigations show that new “carbon concessions” in the DRC often **overlap Indigenous territories** and are negotiated **without Free, Prior and Informed Consent**, in some cases rebranded from former logging concessions. This is carbon colonialism under a green banner.
 
 > “Carbon-trading policies, in effect, allow rich polluters the right to carry on business as usual, while poorer nations bear the burden of absorbing the consequences.”
-> — _Larry Lohmann, Carbon Trading: A Critical Conversation on Climate Change, Privatisation and Power (2006)_
+> — Larry Lohmann, Carbon Trading: A Critical Conversation on Climate Change, Privatisation and Power (2006)
 
 ---
 
@@ -105,7 +105,7 @@ Yet it is being silenced by chainsaws, pipelines, and profit.
 If we allow the Basin to die, we will have allowed a part of ourselves to die with it.
 
 > “Wake up, humanity! We are out of time. We must shake our conscience free of the rapacious capitalism, racism, and patriarchy that are destroying the Earth.”
-> — _Berta Cáceres, Indigenous Lenca environmental defender (assassinated 3 March 2016)_
+> — Berta Cáceres, Indigenous Lenca environmental defender (assassinated 3 March 2016)
 
 The fate of the Congo Basin is not a regional concern; it is the moral and ecological question of our time.
 Will humanity continue to consume the planet’s lungs, or will we finally learn to breathe in solidarity?

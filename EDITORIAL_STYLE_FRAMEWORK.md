@@ -93,7 +93,7 @@ Capitalism, colonialism, and climate collapse are not separate crises; they are 
 
 - **Bold:** Political emphasis, conceptual clarity, or moral statements.
 - _Italics:_ Citations, foreign terms, moral stress, or introspective clauses.
-- **Blockquotes:** 1–3 lines max; always attributed and contextually linked.
+- **Blockquotes:** 1–3 lines max; always attributed and contextually linked. No formatting required — handled automatically.
 - **Em dashes:** Use sparingly for cadence or moral gravity — not as generic punctuation.
 - Prefer colons and commas where rhythm allows.
 - No numeric citations in published essays; integrate sources naturally (“According to UN data…”).
