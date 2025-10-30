@@ -194,7 +194,8 @@ _Always choose words that reveal power, not obscure it._
 - Each paragraph = one idea or one moral turn.
 - Use short declarative sentences after long analytical ones for impact.
 - End sections with synthesis, not summary.
-- Use repetition only as rhetorical reinforcement ("This is not… It is…").
+- Use repetition only as rhetorical reinforcement ("This is not… It is…") — but diversify expressions to avoid overuse.
+- Vary sentence structures to prevent cadence repetition: instead of overusing "x is not y, but z," consider alternatives like "x represents z rather than y" or "rather than x, this is fundamentally y."
 - Commas over dashes for pacing; dashes only when emotional weight or interruption demands it.
 - Read aloud before publication — the essay must _sound_ like conviction.
 
