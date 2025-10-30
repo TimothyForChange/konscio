@@ -5,10 +5,6 @@ export interface Heading {
 }
 
 export function extractHeadings(content: string): Heading[] {
-  if (!content) {
-    return [];
-  }
-
   const headings: Heading[] = [];
 
   const withoutFrontmatter = content.replace(/^---[\s\S]*?---/, '');
@@ -32,9 +28,5 @@ export function extractHeadings(content: string): Heading[] {
 }
 
 export function filterHeadingsForTOC(headings: Heading[]): Heading[] {
-  if (!headings) {
-    return [];
-  }
-
   return headings.filter((h) => h.depth === 2 || h.depth === 3);
 }

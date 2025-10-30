@@ -75,11 +75,6 @@ unclosed frontmatter
     ]);
   });
 
-  it('should handle null or undefined content', () => {
-    expect(extractHeadings(null as any)).toEqual([]);
-    expect(extractHeadings(undefined as any)).toEqual([]);
-  });
-
   it('should handle content with only special characters in headings', () => {
     const content = '## !@#$%^&*()';
     const headings = extractHeadings(content);
@@ -123,11 +118,6 @@ describe('filterHeadingsForTOC', () => {
   it('should handle empty array', () => {
     const filtered = filterHeadingsForTOC([]);
     expect(filtered).toEqual([]);
-  });
-
-  it('should handle null or undefined input', () => {
-    expect(filterHeadingsForTOC(null as any)).toEqual([]);
-    expect(filterHeadingsForTOC(undefined as any)).toEqual([]);
   });
 
   it('should handle headings with negative depths', () => {

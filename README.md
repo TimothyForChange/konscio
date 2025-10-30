@@ -1,6 +1,6 @@
 # Timothy for Change
 
-[![Built with Astro](https://astro.badg.es/v2/built-with-astro/small.svg)](https://astro.build)
+[![Built with Astro](https://astro.badg.es/v2/built-with-astro/large.svg)](https://astro.build)
 
 For people and planet: eco-socialist analysis from Africa and the Global South.
 
@@ -11,8 +11,6 @@ An Astro-powered blog exploring capitalism, colonialism, and climate collapse th
 ✓ **Eco-Socialist Analysis** - Critical examination of capitalism, colonialism, and climate systems
 
 ✓ **Decolonial Perspective** - Analysis from Africa and the Global South
-
-✓ **Dark Mode Toggle** - Seamless theme switching with localStorage persistence
 
 ✓ **MDX Support** - Full support for both Markdown and MDX content files with embedded JSX
 
@@ -76,59 +74,6 @@ npm run dev
 ```
 
 4. Open your browser at `http://localhost:4321`
-
-## 📁 Project Structure
-
-```
-konscio/
-├── public/
-│   ├── robots.txt
-│   ├── search.json
-│   ├── site.webmanifest
-│   └── _headers
-├── src/
-│   ├── components/
-│   │   ├── Footer.astro     # Site footer with social links
-│   │   ├── Header.astro     # Site header with navigation
-│   │   ├── Icon.astro       # Icon component using Remixicon
-│   │   ├── Layout.astro     # Main layout wrapper
-│   │   ├── SEO.astro        # SEO meta tags and structured data
-│   │   ├── Sidebar.astro    # Desktop sidebar component
-│   │   ├── TableOfContents.astro # Auto-generated TOC component
-│   │   └── ThemeToggle.astro # Dark mode toggle button
-│   ├── content/
-│   │   ├── config.ts        # Content collections configuration
-│   │   └── blog/            # Blog content directory
-│   │       ├── manifesto.mdx # MDX blog posts with JSX support
-│   │       └── *.md         # Markdown blog posts
-│   ├── pages/
-│   │   ├── index.astro      # Homepage
-│   │   ├── about.astro      # About page
-│   │   ├── blog.astro       # Blog listing page
-│   │   ├── blog/
-│   │   │   └── [...slug].astro  # Dynamic blog post pages
-│   │   ├── categories.astro # Categories listing
-│   │   ├── categories/
-│   │   │   └── [category].astro # Category-specific pages
-│   │   ├── rss.xml.js       # RSS feed generation
-│   │   └── search.json.js   # Search index generation
-│   ├── styles/
-│   │   └── global.css       # Global styles with dark mode support
-│   ├── utils/
-│   │   ├── highlighter.ts   # Syntax highlighting utilities
-│   │   ├── slugify.ts       # URL slug generation utilities
-│   │   └── table-of-contents.ts # TOC generation utilities
- │   ├── schemas/
- │   │   └── blog.ts          # Zod schema for blog post frontmatter
- │   └── config.ts            # Site configuration
-├── plugins/
-│   └── remark-reading-time.ts # Custom remark plugin for reading time calculation
-├── astro.config.mjs         # Astro configuration with MDX
-├── eslint.config.mjs        # ESLint configuration
-├── package.json
-├── tsconfig.json            # TypeScript configuration
-└── README.md
-```
 
 ## ⚙️ Configuration
 

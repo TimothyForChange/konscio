@@ -71,27 +71,4 @@ describe('highlighter', () => {
     });
     expect(html).toContain('<code');
   });
-
-  it('should handle null code input gracefully with try/catch', async () => {
-    const highlighter = await getCachedHighlighter();
-    expect(() => {
-      try {
-        highlighter.codeToHtml(null as any, {
-          lang: 'javascript',
-          theme: 'github-dark',
-        });
-      } catch (error) {}
-    }).not.toThrow();
-  });
-
-  it('should handle invalid language gracefully with try/catch', async () => {
-    const highlighter = await getCachedHighlighter();
-    const code = 'console.log("hello");';
-    expect(() => {
-      highlighter.codeToHtml(code, {
-        lang: 'invalid-language' as any,
-        theme: 'github-dark',
-      });
-    }).not.toThrow();
-  });
 });

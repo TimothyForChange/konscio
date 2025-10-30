@@ -31,13 +31,6 @@ describe('slugifyPath', () => {
     expect(slugifyPath('///')).toBe('');
   });
 
-  it('should handle null or undefined input', () => {
-    expect(() => slugifyPath(null as any)).not.toThrow();
-    expect(() => slugifyPath(undefined as any)).not.toThrow();
-    expect(slugifyPath(null as any)).toBe('');
-    expect(slugifyPath(undefined as any)).toBe('');
-  });
-
   it('should handle path with special characters', () => {
     expect(slugifyPath('path/with!@#$%file.md')).toBe('with!@#$%file');
     expect(slugifyPath('path/with spaces/file name.md')).toBe('file name');

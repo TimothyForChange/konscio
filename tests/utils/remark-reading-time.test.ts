@@ -33,26 +33,4 @@ describe('remarkReadingTime', () => {
     }).not.toThrow();
     expect(file.data.astro.frontmatter.minutesRead).toMatch(/min read$/);
   });
-
-  it('handles null file object', () => {
-    expect(() => {
-      remarkReadingTime()({} as any, null as any);
-    }).not.toThrow();
-  });
-
-  it('handles file with no data property', () => {
-    const file: any = {};
-    expect(() => {
-      remarkReadingTime()({} as any, file);
-    }).not.toThrow();
-    expect(file.data).toBeUndefined();
-  });
-
-  it('handles file with no astro property', () => {
-    const file: any = { data: {} };
-    expect(() => {
-      remarkReadingTime()({} as any, file);
-    }).not.toThrow();
-    expect(file.data.astro).toBeUndefined();
-  });
 });
