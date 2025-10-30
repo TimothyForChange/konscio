@@ -14,7 +14,7 @@ tags:
 
 The Democratic Republic of Congo is presented to the world as a resource: a seam of minerals waiting for extraction, refinement, and shipment. In radio spots, corporate reports, and policy papers this is framed as progress: cobalt for batteries, coltan for phones, lithium for storage. But when you look closer, the "green transition" championed by the Global North is simply a new vocabulary for an old practice — extracting wealth from the Global South while leaving devastation in its wake.
 
-This is not a story about scarcity of resources. It is a story about **who controls those resources**, who benefits from them, and who pays the social and ecological cost. It is, in short, a story about power.
+This extends beyond scarcity of resources. It is a story about **who controls those resources**, who benefits from them, and who pays the social and ecological cost. It is, in short, a story about power.
 
 ---
 
@@ -45,7 +45,7 @@ The result is a peculiar inversion: the rhetoric of environmental stewardship fa
 
 Extraction in the DRC is not an abstract policy problem; it is embodied in human lives and in the region's ecology. Communities living near mines report destroyed farmland, polluted waterways, and shattered livelihoods. Informal and artisanal miners operate under precarious and hazardous conditions, with women and children disproportionately exposed to risk. These social harms are compounded by militarisation: armed groups, private militias, and state security forces often contest control over mines and transport routes.
 
-At the same time, the **Congo Basin rainforest** — a vital carbon sink and one of the world's last great biodiversity reserves — faces mounting pressure from industrial encroachment. Forest degradation, soil erosion, and contamination from mining chemicals cause ecological damage that spreads far beyond local communities. Ecocide here is not collateral damage; it is a by-product of a model that translates natural commons into private profit.
+At the same time, the **Congo Basin rainforest** — a vital carbon sink and one of the world's last great biodiversity reserves — faces mounting pressure from industrial encroachment. Forest degradation, soil erosion, and contamination from mining chemicals cause ecological damage that spreads far beyond local communities. Ecocide here emerges as a by-product of a model that translates natural commons into private profit, rather than merely collateral damage.
 
 ---
 
@@ -87,7 +87,7 @@ If you want to act in meaningful solidarity, here are immediate, politically coh
 
 ## Closing: Power, Not Pity
 
-_The Congo does not need our pity._ It needs the end of a system that makes its land and labour profitable for others. It needs international responsibility that recognises historical injustice and refuses to replace old forms of extraction with new ones under green branding.
+The Congo requires the end of a system that makes its land and labour profitable for others, rather than our pity. It needs international responsibility that recognises historical injustice and refuses to replace old forms of extraction with new ones under green branding.
 
 If the green transition is to mean anything, it must begin by dismantling the extractive relations that have long defined the Congo's place in the world economy. Anything less is merely continuity in new clothes.
 

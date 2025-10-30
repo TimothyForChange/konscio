@@ -17,7 +17,7 @@ The Congo Basin is often called the _lungs of Africa_, a rainforest so vast it h
 
 Yet these forests are being destroyed by the same forces that have long plundered the region's minerals: profit, imperial power, and a colonial imagination that treats Africa as a warehouse of resources rather than a home of living communities.
 
-This is not merely a story about trees. It is a story about **who decides the fate of the planet's last frontiers** — and who bears the cost of their destruction.
+This transcends being merely a story about trees. It is a story about **who decides the fate of the planet's last frontiers** — and who bears the cost of their destruction.
 
 ---
 
@@ -56,7 +56,7 @@ For Indigenous peoples of the Congo Basin — the Baka, Batwa, BaAka, and many o
 
 UN and NGO reports have documented **violent evictions and abuses by eco-guards** funded by major international conservation groups, including WWF, in the DRC and Republic of Congo. These operations mirror the extractive logic they claim to oppose.
 
-Despite this violence, resistance endures. Indigenous women's networks in Itombwe and Équateur lead **community reforestation projects** and protest illegal logging. Youth groups document forest crimes with GPS tools, and community associations demand **legal recognition of collective land rights.** Across the Basin, ordinary people assert a radical truth: _living with the forest is not backwardness; it is wisdom._
+Despite this violence, resistance endures. Indigenous women's networks in Itombwe and Équateur lead **community reforestation projects** and protest illegal logging. Youth groups document forest crimes with GPS tools, and community associations demand **legal recognition of collective land rights.** Across the Basin, ordinary people assert a radical truth: _living with the forest represents wisdom, not backwardness._
 
 ---
 
@@ -66,7 +66,7 @@ Scientists warn that the Congo Basin could soon flip from a **carbon sink to a c
 
 The consequences are global. The Basin's forests recycle **75–95% of their own rainfall** and generate up to **17% of West Africa's rain** through evapotranspiration, feeding weather systems as far away as the Sahel and Ethiopian Highlands. Its loss would destabilise rainfall, intensify droughts and floods, and accelerate planetary heating.
 
-To destroy the Congo Basin is not simply to lose biodiversity; it is to dismantle one of the Earth's last living climate regulators — a planetary lung collapsing under the weight of capital.
+Destroying the Congo Basin means dismantling one of the Earth's last living climate regulators — a planetary lung collapsing under the weight of capital, not simply losing biodiversity.
 
 ---
 
@@ -94,7 +94,7 @@ A genuinely eco-socialist approach would:
 - **Hold corporations accountable** through binding international law and transparent supply chains.
 - **Demand degrowth** in the Global North, where overconsumption drives destruction elsewhere.
 
-Protecting the Congo Basin is not an act of altruism. It is an act of **planetary self-defence.**
+Protecting the Congo Basin represents an act of **planetary self-defence**, not an act of altruism.
 
 ---
 

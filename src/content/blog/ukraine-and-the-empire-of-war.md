@@ -17,12 +17,12 @@ draft: true
 > "When the rich wage war it's the poor who die."
 > — Jean-Paul Sartre, The Devil and the Good Lord (1951)
 
-The war in Ukraine is not an exception to world order — it is its expression.
+The war in Ukraine reflects world order rather than being an exception to it.
 A global system that feeds on catastrophe has found another vein to open: a machine that turns grief into profit, flags into franchises, and death into dividends.
 
 To understand this war, we must look past propaganda and patriotism, past NATO's narratives and the Kremlin's revanchism, to what the conflict truly exposes: **capitalism at war with life itself.**
 
-This is not a "civilisational clash." It is a struggle between empires — one old, one resurgent — each sustained by extractive power and fossil capital. Ukraine has become their frontier, a place where the imperial ambitions of the West and Russia collide, and where ordinary people — workers, farmers, civilians — bear the heaviest cost.
+Rather than a "civilisational clash," this is a struggle between empires — one old, one resurgent — each sustained by extractive power and fossil capital. Ukraine has become their frontier, a place where the imperial ambitions of the West and Russia collide, and where ordinary people — workers, farmers, civilians — bear the heaviest cost.
 
 ---
 
@@ -52,7 +52,7 @@ Lockheed Martin, BAE Systems, Rheinmetall, and Thales celebrate quarterly earnin
 Every missile launched is a market transaction. Every destroyed factory becomes a future investment site.
 The International Monetary Fund's **$15 billion programme** binds Ukraine's postwar future to the old neoliberal doctrine: deregulate, privatise, repay. It is **structural violence rewritten as aid**.
 
-This is not solidarity; it is the recolonisation of crisis.
+This represents the recolonisation of crisis rather than solidarity.
 
 ---
 
@@ -80,7 +80,7 @@ Across continents, the pattern repeats: from cobalt in Congo to gold in Sudan to
 Western governments proclaim defence of democracy, yet their solidarity remains selective.
 They sanction Moscow while arming Riyadh, mourn Kyiv while enabling Gaza's siege, welcome white refugees while others drown in the Mediterranean.
 
-This is not moral inconsistency — it is **imperial consistency**.
+Rather than moral inconsistency, this reflects **imperial consistency**.
 Sovereignty is sacred in Europe but expendable in the Global South.
 When the International Criminal Court indicts Putin, it is celebrated; when Palestinians seek justice, the same court is ignored.
 
@@ -94,7 +94,7 @@ Across Africa, Asia, and Latin America, governments are pressed to choose sides.
 
 Sanctions inflate fuel and food prices; disrupted grain flows push millions into hunger. The war has triggered **the largest rise in food insecurity since 2008**, yet Western narratives reduce these consequences to footnotes.
 
-The real divide is not democracy versus autocracy — it is **imperial core versus periphery**.
+The real divide transcends democracy versus autocracy — it is **imperial core versus periphery**.
 Countries that reject alignment are scolded as "pro-authoritarian," while those that comply are rewarded with debt.
 
 Still, the Global South resists being conscripted. BRICS diplomacy, African mediation, and South American non-alignment all signal a new geopolitical imagination: **a world no longer willing to kneel before empire's choice of enemies.**
@@ -110,7 +110,7 @@ Even amid the wreckage, people resist.
 - Russian anti-war activists risk prison to speak truth.
 - Across Europe, climate movements denounce the greenwashing of militarism under the banner of "energy security."
 
-Their struggles remind us: **the peace worth fighting for is not pacification but liberation** — from oligarchy, from fossil dependence, from the global war economy itself.
+Their struggles remind us: **the peace worth fighting for represents liberation, not pacification** — from oligarchy, from fossil dependence, from the global war economy itself.
 
 ---
 
@@ -126,7 +126,7 @@ That means:
 - Ending NATO expansion and Russian aggression alike through a **new collective security architecture**.
 - Redirecting global budgets from militaries to climate adaptation, healthcare, and food sovereignty.
 
-This is not utopia; it is survival.
+This represents survival, not utopia.
 Every tank built is a solar panel not made. Every missile launched is another ton of carbon in the sky.
 War is the climate crisis in military form.
 

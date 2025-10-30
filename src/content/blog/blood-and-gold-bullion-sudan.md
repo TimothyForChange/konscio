@@ -20,7 +20,7 @@ tags: ['Sudan', 'Gold', 'Extractivism', 'Imperialism', 'RSF', 'Global South']
 Gold is not neutral. It is capital made visible: heavy, portable, and irresistibly fungible.
 In Sudan, bullion is the fuel of warfare. It buys drones, lubricates smuggling networks, and sustains a parasitic war economy in which militias and foreign brokers profit while entire regions are emptied of life.
 
-This is not a story of scarcity or chaos. It is a structural story: **extractivism as war finance**, extractivism as empire.
+The reality transcends scarcity and chaos. It is fundamentally a structural story: **extractivism as war finance**, extractivism as empire.
 The same commercial appetites that turned the Congo into a theatre of mineral violence and turned Palestine into a laboratory for militarised dispossession now make Sudan's goldfields a prize worth killing for.
 
 ---
@@ -47,7 +47,7 @@ It does not build or govern; it consumes. Its commanders sell gold through forei
 
 Darfur, long the site of genocide, has become the militia's treasury. Satellite imagery and human rights reports confirm scorched villages and mass graves. Women are enslaved in mining zones, and children are conscripted into labour. The militia's atrocities are not incidental—they are the operating logic of its economy.
 
-By contrast, the SAF's power is bureaucratic and brittle. It clings to state legitimacy but lacks social legitimacy. Yet for many civilians, particularly in northern and eastern Sudan, the SAF remains the only structure preventing total collapse into warlord rule. The SAF is not the solution, but the RSF is the abyss.
+By contrast, the SAF's power is bureaucratic and brittle. It clings to state legitimacy but lacks social legitimacy. Yet for many civilians, particularly in northern and eastern Sudan, the SAF remains the only structure preventing total collapse into warlord rule. While the SAF is not the solution, the RSF represents the abyss.
 
 > "He who feeds you, controls you."
 > — Thomas Sankara, Addis Ababa (1987)
@@ -83,7 +83,7 @@ In the DRC, cobalt and coltan finance corporate empires.
 In Palestine, land is expropriated under the banner of "security."
 In Sudan, gold fuels a militia that serves as both warlord and subcontractor of empire.
 
-This is not chaos; it is capitalism's natural form in the periphery.
+Rather than chaos, this represents capitalism's natural form in the periphery.
 The same imperial core that buys "conflict-free" gold also sells the weapons that make it bloody.
 
 > "The question as to who and what is responsible for African underdevelopment can be answered at once: it is the international capitalist system."
@@ -93,7 +93,7 @@ The same imperial core that buys "conflict-free" gold also sells the weapons tha
 
 ## What Must Change
 
-This is not a conflict to be pacified by press release; it is a structure to be dismantled.
+This conflict requires structural dismantling rather than pacification by press release.
 
 - **Cut off the RSF's gold economy** through real supply-chain enforcement and targeted sanctions on refineries, shippers, and Gulf financiers.
 - **Hold international traders and banks accountable** for laundering RSF gold through Dubai, Istanbul, and European hubs.
@@ -107,7 +107,7 @@ Without these shifts, every gram of gold will carry the weight of a grave.
 
 ## Closing: Gold and Blood
 
-Gold is not just Sudan's tragedy; it is the mirror of global greed.
+Gold represents the mirror of global greed, not just Sudan's tragedy.
 Each ingot refined in Dubai or Zurich carries the memory of poisoned rivers and massacred villages.
 
 If we are serious about decolonisation, we must name the system plainly: **the RSF's plunder is the empire's profit.**

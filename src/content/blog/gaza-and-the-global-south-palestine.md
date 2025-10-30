@@ -14,7 +14,7 @@ draft: true
 
 # Gaza and the Global South: Imperialism's Mirror
 
-Gaza is not an aberration — it is a mirror.
+Gaza represents a mirror of empire, not an aberration.
 The same powers that destroy forests in the Congo, exploit cobalt for "green" technologies, and impose debt on Africa are the ones supplying bombs and diplomatic cover to Israel.
 Palestine reveals, in concentrated form, the moral and structural logic of global empire: domination through dispossession, justified by the language of civilisation, progress, and security.
 
@@ -24,7 +24,7 @@ Entire hospitals and universities have been levelled. Over **two million people*
 Even the declared "ceasefire" offered no real reprieve. On **29 October 2025**, Israeli strikes during the truce killed **104 people in a single day**, including dozens of children, according to Gaza health authorities cited by _Reuters_.
 A pause in war became another episode of annihilation, a reminder that for colonised peoples, peace under empire is often only a change in tempo.
 
-This is not simply about war. It is about a world order built on the belief that some lives and some lands are expendable for profit and control.
+This extends beyond war itself. It involves a world order built on the belief that some lives and some lands are expendable for profit and control.
 
 ![A child in Gaza: survivor of empire's violence](../../assets/gaza-child.webp)
 
@@ -73,7 +73,7 @@ These words disguise structural violence, framing victims as threats and resista
 Settler colonialism is not only a political project; it is an **ecological one.**
 In Palestine, olive groves are uprooted, aquifers stolen, and farmland bombed into dust. In Africa, forests are razed for profit and rivers poisoned by mines. Both reflect the same logic: control nature, displace people, privatise life.
 
-The **ecocide in Gaza** — the flattening of farmland, poisoning of soil and sea — mirrors the slow violence inflicted on ecosystems across the Global South. Climate collapse is not accidental; it is imperialism in its ecological form.
+The **ecocide in Gaza** — the flattening of farmland, poisoning of soil and sea — mirrors the slow violence inflicted on ecosystems across the Global South. Climate collapse represents imperialism in its ecological form, rather than being accidental.
 
 Demilitarisation and ecological regeneration are inseparable. The metals that build tanks could rebuild irrigation systems. The capital that funds war could restore rivers and forests. Every act of disarmament is an act of renewal.
 
