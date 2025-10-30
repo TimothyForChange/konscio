@@ -22,7 +22,7 @@ This is not a story of scarcity or criminality alone. It is a structural story: 
 
 ## The Gold Economy of War
 
-Sudan’s civil war, between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), has long had a material heartbeat: gold. Since the eruption of large-scale fighting in April 2023, both parties have turned to mining and trading gold to pay fighters, buy weapons, and keep patronage networks alive. Analysts identify the scramble for gold assets as one of the conflict’s core drivers.
+Sudan’s civil war, between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), has long had a material heartbeat: gold. Since the eruption of large-scale fighting in April **2023**, both parties have turned to mining and trading gold to pay fighters, buy weapons, and keep patronage networks alive. Analysts identify the scramble for gold assets as one of the conflict’s core drivers.
 
 Legal exports, official channels, and a vast shadow economy now channel Sudanese gold to international markets. The United Arab Emirates has been the largest destination for Sudan’s official exports, at times absorbing nearly **90%** of declared shipments, valuing hundreds of millions of dollars. When the UAE instituted a de facto flight and shipping embargo last month, it exposed how dependent Sudan’s wartime economy is on a single foreign gateway.
 

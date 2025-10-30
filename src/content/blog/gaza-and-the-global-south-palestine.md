@@ -28,7 +28,7 @@ This is not simply about war. It is about a world order built on the belief that
 
 ## Empire’s Continuum
 
-The genocide in Gaza did not begin in 2023. It began with **settler colonialism**, the economic and racial logic of empire carried into the twenty-first century.
+The genocide in Gaza did not begin in **2023**. It began with **settler colonialism**, the economic and racial logic of empire carried into the twenty-first century.
 The British Mandate, the Balfour Declaration, and the Zionist project were all instruments of the same system that partitioned Africa, enslaved millions, and enclosed the Earth’s commons for capital.
 
 The methods evolve: sanctions instead of gunboats, drones instead of gunpowder; the structure endures — **the right to dominate, the right to extract, the right to decide who lives and who dies.**
