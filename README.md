@@ -175,7 +175,14 @@ If you discover a security vulnerability, please see our [Security Policy](SECUR
 
 ## 📄 License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is **dual licensed**:
+
+- **Code** (software in `src/`, scripts, etc.): MIT License ([LICENSES/MIT.txt](LICENSES/MIT.txt))
+- **Content** (text, images, documentation, data, media): CC0 1.0 Universal ([LICENSES/CC0-1.0.txt](LICENSES/CC0-1.0.txt))
+
+See [`LICENCE`](LICENCE) for a full explanation and SPDX identifiers.
+
+Unless otherwise noted, code is MIT and content is CC0 1.0 Universal by default. Contributions are accepted under these terms.
 
 ## 🙏 Acknowledgments
 

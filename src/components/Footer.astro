@@ -10,9 +10,10 @@ const currentYear = new Date().getFullYear();
     <div class='footer-info'>
       <p class='copyright'>
         © {currentYear}
-        {config.author.name}. Licensed under <a
-          href='https://opensource.org/licenses/MIT'
-          target='_blank'>MIT License</a
+        {config.author.name}. Content licensed under <a
+          href='https://creativecommons.org/publicdomain/zero/1.0/deed.en'
+          target='_blank'
+          rel='noopener'>CC0 1.0 Universal</a
         >.
       </p>
       <p class='source-code'>
@@ -25,6 +26,16 @@ const currentYear = new Date().getFullYear();
       <p class='privacy-link' data-astro-prefetch>
         <a href='/privacy-policy'>Privacy Policy</a>
       </p>
+      <div
+        id='wcb'
+        class='carbonbadge'
+        style='justify-content: flex-start; display: flex;'
+      >
+      </div>
+      <script
+        is:inline
+        src='https://unpkg.com/website-carbon-badges@1.1.3/b.min.js'
+        defer></script>
     </div>
 
     <SocialLinks />
@@ -64,10 +75,22 @@ const currentYear = new Date().getFullYear();
     color: var(--color-text-muted);
   }
 
+  .carbonbadge {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0.5rem 0 0 0;
+  }
+
   .copyright a,
   .source-code a,
   .privacy-link a {
     color: var(--color-accent);
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  .carbon-rating a {
+    color: var(--color-success, var(--color-accent));
     text-decoration: underline;
     font-weight: 500;
   }
@@ -82,18 +105,16 @@ const currentYear = new Date().getFullYear();
     text-decoration: none;
   }
 
+  .carbon-rating a:hover,
+  .carbon-rating a:focus {
+    color: var(--color-text-primary);
+    text-decoration: none;
+  }
+
   @media (max-width: 768px) {
-    .footer-content {
-      flex-direction: column;
-      text-align: center;
-      gap: calc(var(--grid-unit) * 2);
-    }
 
-    .footer-info {
-      order: 2;
-    }
 
-    .social-links {
+
       order: 1;
     }
   }
