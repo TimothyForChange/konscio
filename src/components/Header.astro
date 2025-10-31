@@ -3,7 +3,6 @@ import { config } from '../config';
 import HeaderMobileMenu from './HeaderMobileMenu.astro';
 import HeaderNavigation from './HeaderNavigation.astro';
 import HeaderSearch from './HeaderSearch.astro';
-import ThemeToggle from './ThemeToggle.astro';
 
 const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
 ---
@@ -60,8 +59,6 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
       <HeaderNavigation base={base} />
 
       <div class='mobile-controls'>
-        <ThemeToggle />
-
         <a
           href={base + 'rss.xml'}
           data-astro-prefetch
@@ -296,6 +293,10 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
       align-items: center;
       gap: calc(var(--grid-unit) * 2);
       padding: 0 calc(var(--grid-unit) * 2);
+      width: 100vw;
+      max-width: 100vw;
+      margin: 0;
+      box-sizing: border-box;
     }
 
     .mobile-only {

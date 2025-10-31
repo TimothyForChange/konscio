@@ -345,8 +345,8 @@
   }
 
   .search-category {
-    background-color: #e8a100;
-    color: var(--color-text-primary);
+    background-color: var(--color-accent);
+    color: var(--color-white);
     padding: calc(var(--grid-unit) * 1.5) calc(var(--grid-unit) * 2.5);
     font-size: 0.8rem;
     font-family: var(--font-mono);
@@ -358,20 +358,8 @@
   }
 
   .search-category:hover {
-    background-color: #c13127;
-    color: white;
-  }
-
-  :global([data-theme='dark']) .search-category {
-    background-color: var(--color-surface);
-    color: var(--color-text-primary);
-    border: 1px solid var(--color-border);
-  }
-
-  :global([data-theme='dark']) .search-category:hover {
-    background-color: var(--color-accent);
-    color: white;
-    border-color: var(--color-accent);
+    background-color: var(--color-text-primary);
+    color: var(--color-background);
   }
 
   .search-no-results {

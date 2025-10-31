@@ -17,9 +17,6 @@ describe('Header.astro', () => {
     expect(componentContent).toContain(
       "import HeaderSearch from './HeaderSearch.astro'"
     );
-    expect(componentContent).toContain(
-      "import ThemeToggle from './ThemeToggle.astro'"
-    );
   });
 
   it('destructures props with defaults', () => {
@@ -63,7 +60,6 @@ describe('Header.astro', () => {
 
   it('includes mobile controls', () => {
     expect(componentContent).toContain("<div class='mobile-controls'>");
-    expect(componentContent).toContain('<ThemeToggle />');
     expect(componentContent).toContain("href={base + 'rss.xml'}");
     expect(componentContent).toContain('data-astro-prefetch');
     expect(componentContent).toContain("class='rss-toggle'");

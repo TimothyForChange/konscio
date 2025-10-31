@@ -1,5 +1,12 @@
 html {
   transition: background-color 0.3s ease;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
 }
 
 body,

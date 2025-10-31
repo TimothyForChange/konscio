@@ -87,24 +87,8 @@ describe('Layout.astro', () => {
   });
 
   it('includes theme initialization script', () => {
-    expect(componentContent).toContain('<script>');
-    expect(componentContent).toContain('(function () {');
-    expect(componentContent).toContain("let theme = 'light';");
-    expect(componentContent).toContain(
-      "const stored = localStorage.getItem('theme');"
-    );
-    expect(componentContent).toContain(
-      "if (stored === 'light' || stored === 'dark') {"
-    );
-    expect(componentContent).toContain('window.matchMedia &&');
-    expect(componentContent).toContain(
-      "window.matchMedia('(prefers-color-scheme: dark)').matches"
-    );
-    expect(componentContent).toContain(
-      "document.documentElement.setAttribute('data-theme', theme);"
-    );
-    expect(componentContent).toContain('})();');
-    expect(componentContent).toContain('</script>');
+    expect(componentContent).not.toContain('<script>');
+    expect(componentContent).not.toContain('data-theme');
   });
 
   it('includes SEO component with props', () => {

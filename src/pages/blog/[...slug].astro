@@ -198,7 +198,7 @@ const dateModified = frontmatter.dateModified
 
   .category-tag {
     background-color: var(--color-text-primary);
-    color: white;
+    color: var(--color-background);
     padding: calc(var(--grid-unit) / 2) calc(var(--grid-unit));
     font-size: 0.8rem;
     font-weight: 600;
@@ -206,24 +206,14 @@ const dateModified = frontmatter.dateModified
     letter-spacing: 0.05em;
     border-radius: 3px;
     transition: background-color 0.2s ease;
+    border: 1px solid var(--color-text-primary);
   }
 
   .category-tag:hover,
   .category-tag:focus {
     background-color: var(--color-accent);
+    color: var(--color-white);
     text-decoration: none;
-  }
-
-  :global([data-theme='dark']) .category-tag {
-    background-color: var(--color-surface);
-    color: var(--color-text-primary);
-    border: 1px solid var(--color-border);
-  }
-
-  :global([data-theme='dark']) .category-tag:hover,
-  :global([data-theme='dark']) .category-tag:focus {
-    background-color: var(--color-accent);
-    color: white;
     border-color: var(--color-accent);
   }
 

@@ -43,44 +43,6 @@ const {
     <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
     <link rel='manifest' href='/site.webmanifest' />
     <link rel='sitemap' href='/sitemap-index.xml' />
-    <style>
-      body {
-        opacity: 0;
-        animation: fadeIn 0.2s ease 0.1s forwards;
-      }
-
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-    </style>
-    <script>
-      (function () {
-        let theme = 'light';
-        try {
-          const stored = localStorage.getItem('theme');
-          if (stored === 'light' || stored === 'dark') {
-            theme = stored;
-          } else {
-            const systemPrefersDark =
-              window.matchMedia &&
-              window.matchMedia('(prefers-color-scheme: dark)').matches;
-            theme = systemPrefersDark ? 'dark' : 'light';
-          }
-        } catch (e) {
-          const systemPrefersDark =
-            window.matchMedia &&
-            window.matchMedia('(prefers-color-scheme: dark)').matches;
-          theme = systemPrefersDark ? 'dark' : 'light';
-        }
-
-        document.documentElement.setAttribute('data-theme', theme);
-      })();
-    </script>
     <SEO
       title={title}
       description={description}
