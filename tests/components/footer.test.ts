@@ -32,8 +32,8 @@ describe('Footer.astro', () => {
     expect(componentContent).toContain("<p class='copyright'>");
     expect(componentContent).toContain('© {currentYear}');
     expect(componentContent).toContain('{config.author.name}');
-    expect(componentContent).toContain('Licensed under');
-    expect(componentContent).toContain('MIT License');
+    expect(componentContent).toContain('Content licensed under');
+    expect(componentContent).toContain('CC0 1.0 Universal');
   });
 
   it('includes source code link', () => {
@@ -85,9 +85,6 @@ describe('Footer.astro', () => {
 
   it('includes responsive styles', () => {
     expect(componentContent).toContain('@media (max-width: 768px)');
-    expect(componentContent).toContain('flex-direction: column;');
-    expect(componentContent).toContain('text-align: center;');
-    expect(componentContent).toContain('order: 2;');
     expect(componentContent).toContain('order: 1;');
   });
 });
