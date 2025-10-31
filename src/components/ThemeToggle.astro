@@ -46,6 +46,14 @@
   function setTheme(theme: string) {
     document.documentElement.dataset.theme = theme;
     localStorage.setItem('theme', theme);
+    const wcb = document.getElementById('wcb');
+    if (wcb) {
+      if (theme === 'dark') {
+        wcb.classList.add('wcb-d');
+      } else {
+        wcb.classList.remove('wcb-d');
+      }
+    }
   }
 
   toggle?.addEventListener('click', () => {

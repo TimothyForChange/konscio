@@ -36,6 +36,17 @@ const currentYear = new Date().getFullYear();
         is:inline
         src='https://unpkg.com/website-carbon-badges@1.1.3/b.min.js'
         defer></script>
+      <script>
+        const theme = document.documentElement.dataset.theme;
+        const wcb = document.getElementById('wcb');
+        if (wcb) {
+          if (theme === 'dark') {
+            wcb.classList.add('wcb-d');
+          } else {
+            wcb.classList.remove('wcb-d');
+          }
+        }
+      </script>
     </div>
 
     <SocialLinks />
