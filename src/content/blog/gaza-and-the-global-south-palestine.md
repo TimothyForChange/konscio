@@ -9,7 +9,6 @@ excerpt: |
 image: /images/gaza-and-the-global-south-palestine.jpg
 categories: ['Analysis']
 tags: ['Palestine', 'Imperialism', 'Global South', 'Decolonisation']
-draft: true
 ---
 
 # Gaza and the Global South: Imperialism's Mirror
