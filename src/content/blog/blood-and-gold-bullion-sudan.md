@@ -30,13 +30,13 @@ The same commercial appetites that turned the Congo into a theatre of mineral vi
 Sudan's civil war has a material heartbeat: gold.
 Since the eruption of large-scale fighting in April **2023**, the **Rapid Support Forces (RSF)**—a militia born from the Janjaweed death squads of Darfur—have built an entire economy on smuggling, forced labour, and cross-border trade.
 
-The **Sudanese Armed Forces (SAF)**, the formal army, remains fragmented but still tied to the idea of statehood. Its leadership is implicated in corruption, but its rank and file include soldiers defending communities from the RSF's rapacious advance. The SAF's failures are political; the RSF's crimes are existential.
+The **Sudanese Armed Forces (SAF)**, the formal army, represents the institutional legacy of an extractive neocolonial state apparatus. Though formally structured, the SAF leadership has long been enmeshed in the same networks of resource extraction and corruption that enabled the RSF's emergence. Even its 'defensive' operations often protect extraction infrastructure and imperial interests rather than civilian populations. The SAF's failures are political; the RSF's crimes are existential—but both emerged from the same colonial-modern state structure designed to facilitate extraction.
 
 Investigations show that RSF commanders have captured gold mines in Darfur and South Kordofan, forcing miners to work under militia supervision and using profits to import drones and weapons. Entire towns have been razed in their path. Survivors speak of massacres, rape, and forced displacement—violence funded by bullion and lubricated by Gulf money.
 
 Legal exports, official channels, and a vast shadow economy now channel Sudanese gold to international markets. The **United Arab Emirates** has become the main gateway, absorbing up to **90%** of declared shipments. But behind those numbers lies a darker current: **RSF-controlled smuggling networks** moving gold via Chad, Libya, and Egypt, bypassing all state oversight.
 
-These routes convert looted land into currency, sustaining a militia that wages war not for liberation but for control of resource flows.
+These routes convert looted land into currency, sustaining competing militias that wage war not for liberation but for control of resource flows under a fragmented imperial state apparatus.
 
 ---
 

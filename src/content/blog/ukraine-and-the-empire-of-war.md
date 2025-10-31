@@ -31,13 +31,15 @@ Rather than a "civilisational clash," this is a struggle between empires — one
 The road to this war began long before 2022.
 It runs through the ruins of 1991, when the Soviet Union's collapse opened the East to global capital. Western economists prescribed "shock therapy"; oligarchs and speculators carved up public wealth. The result was familiar: public misery, private enrichment, and a state hollowed out for sale.
 
+Ukraine's post-independence political choices—embracing neoliberal restructuring, accepting Western conditionalities, and pursuing NATO membership—were not neutral decisions but active participation in imperial dynamics that made this conflict more likely. Each step toward NATO integration was presented as sovereignty but functioned as deeper integration into Western military and economic hegemony.
+
 Then came NATO. Each expansion eastward was framed as "security," yet what it secured was **Western military and economic hegemony** — a market order backed by missiles. Europe never decolonised; it merely globalised its empire.
 
 Russia, too, followed this neoliberal script. Under Putin, privatisation merged with nationalism — oil wealth sanctified as destiny. The Kremlin's wars, from Chechnya to Syria to Ukraine, became theatre for a petro-imperial regime that trades in both fossil fuels and fear.
 
-Ukraine was left between these forces — a nation seeking sovereignty yet trapped in the gravitational field of empires. Its people have been brutalised not because they chose this war, but because empire demands territory, and markets demand access.
+Ukraine actively positioned itself as a frontline state in this imperial competition, accepting the role of buffer zone and battleground. Rather than simply being "left between these forces," Ukraine's leadership made strategic choices that deepened its position within competing imperial architectures.
 
-**Even Ukraine’s post-Soviet independence was conditioned by imperial logic.** In 1994, the _Budapest Memorandum_ saw Kyiv surrender the world’s third-largest nuclear arsenal in exchange for “security assurances” from the U.S., U.K., and Russia — the same powers now exploiting or assaulting its sovereignty. The collapse of that agreement exposes the truth beneath liberal diplomacy: under empire, _security is a commodity, and guarantees last only while profitable._
+**Even Ukraine’s post-Soviet independence was conditioned by imperial logic.** In 1994, the _Budapest Memorandum_ saw Kyiv surrender the world’s third-largest nuclear arsenal in exchange for “security assurances” from the U.S., U.K., and Russia — the same powers now exploiting or assaulting its sovereignty. The collapse of that agreement exposes the truth beneath liberal diplomacy: under empire, _security is a commodity, and guarantees last only while profitable._ Ukraine's strategic choices to integrate with Western structures while maintaining extraction-based economic models made it a predictable flashpoint in competing imperial formations.
 
 ---
 
