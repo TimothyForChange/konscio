@@ -1,5 +1,5 @@
 ---
-title: 'The New Monroe Doctrine: US Strikes on Boats and the Threat of Land Attacks in Venezuela'
+title: 'The New Monroe Doctrine'
 author: 'Timothy Brits'
 datePublished: 2025-10-31
 description: |
