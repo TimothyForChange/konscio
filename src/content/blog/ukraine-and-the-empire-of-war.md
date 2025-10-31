@@ -24,6 +24,8 @@ To understand this war, we must look past propaganda and patriotism, past NATO's
 
 Rather than a "civilisational clash," this is a struggle between empires — one old, one resurgent — each sustained by extractive power and fossil capital. Ukraine has become their frontier, a place where the imperial ambitions of the West and Russia collide, and where ordinary people — workers, farmers, civilians — bear the heaviest cost.
 
+![Sandbags in Kyiv](../../assets/sandbags-in-kyiv.webp)
+
 ---
 
 ## A History Written in Empire
@@ -62,6 +64,8 @@ This represents the recolonisation of crisis rather than solidarity.
 
 Behind every statistic is a body, a home, a field.
 Tens of thousands dead. Millions displaced. Cities erased.
+
+![Cat in a ruined building](../../assets/cat-in-ruined-building.webp)
 
 But the devastation extends beyond the human.
 Ukraine's soil is poisoned with heavy metals; forests burned; rivers fouled.

@@ -1,44 +1,48 @@
 # Repository License Notice
 
-This repository contains materials under **two separate licenses**:
+This repository contains materials under two separate licenses.
+
+1. Code
 
 ---
 
-## 1. Code
+All software code (for example, files in "src/", "scripts/", or other code directories)
+is licensed under the MIT License.
 
-All **software code** (for example, files in `src/`, `scripts/`, or other code directories) is licensed under the **MIT License**.
+A copy of the MIT License is provided in: LICENSES/MIT.txt
 
-A copy of the MIT License is included in [`LICENSES/MIT.txt`](LICENSES/MIT.txt).
+SPDX-License-Identifier: MIT
 
-> SPDX-License-Identifier: MIT
-
----
-
-## 2. Content
-
-All **non-code content** — including documentation, text, images, data, or other media files — is dedicated to the public domain under the **Creative Commons CC0 1.0 Universal (Public Domain Dedication)**.
-
-A copy of the CC0 1.0 Universal license is included in [`LICENSES/CC0-1.0.txt`](LICENSES/CC0-1.0.txt).
-
-> SPDX-License-Identifier: CC0-1.0
+2. Content
 
 ---
 
-## 3. Summary
+All non-code content — including documentation, text, images, data, or other media files —
+is dedicated to the public domain under the Creative Commons CC0 1.0 Universal
+(Public Domain Dedication).
 
-- Code → MIT License
-- Content → CC0 1.0 Universal
+A copy of the CC0 1.0 Universal license is provided in: LICENSES/CC0-1.0.txt
+
+SPDX-License-Identifier: CC0-1.0
+
+3. Summary
+
+---
+
+Code: MIT License
+Content: CC0 1.0 Universal
 
 Unless otherwise noted within a file or directory, this distinction applies by default.
 
-If you contribute to this repository, you agree that your contributions will be licensed under the same terms:
+If you contribute to this repository, you agree that your contributions will be licensed
+under the same terms:
 
 - Code contributions under MIT
 - Content contributions under CC0 1.0 Universal
 
----
+## Full License Texts
 
-For full legal text, see:
+See the following files for the complete legal texts:
 
-- [`LICENSES/MIT.txt`](LICENSES/MIT.txt)
-- [`LICENSES/CC0-1.0.txt`](LICENSES/CC0-1.0.txt)
+- LICENSES/MIT.txt
+- LICENSES/CC0-1.0.txt
