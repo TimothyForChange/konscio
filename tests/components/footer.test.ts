@@ -32,7 +32,7 @@ describe('Footer.astro', () => {
     expect(componentContent).toContain("<p class='copyright'>");
     expect(componentContent).toContain('© {currentYear}');
     expect(componentContent).toContain('{config.author.name}');
-    expect(componentContent).toContain('Content licensed under');
+    expect(componentContent).toContain('Licensed under');
     expect(componentContent).toContain('CC0 1.0 Universal');
   });
 
