@@ -3,12 +3,10 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'daily'
-      time: '17:00'
+      interval: 'weekly'
       timezone: 'Africa/Johannesburg'
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
-      interval: 'daily'
-      time: '17:00'
+      interval: 'weekly'
       timezone: 'Africa/Johannesburg'
