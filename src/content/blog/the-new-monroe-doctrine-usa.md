@@ -1,5 +1,5 @@
 ---
-title: 'The New Monroe Doctrine'
+title: 'The New Monroe Doctrine: Washington’s War on Latin America’s Sovereignty'
 author: 'Timothy Brits'
 datePublished: 2025-10-31
 description: |
