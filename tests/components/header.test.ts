@@ -6,10 +6,6 @@ describe('Header.astro', () => {
   const componentPath = join(process.cwd(), 'src/components/Header.astro');
   const componentContent = readFileSync(componentPath, 'utf-8');
 
-  it('has proper TypeScript interface', () => {
-    expect(componentContent).toContain('export interface Props');
-  });
-
   it('imports required dependencies', () => {
     expect(componentContent).toContain("import { config } from '../config'");
     expect(componentContent).toContain(

@@ -57,7 +57,8 @@
   }
 
   toggle?.addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme') || 'light';
+    const current =
+      document.documentElement.getAttribute('data-theme') || 'light';
     const next = current === 'light' ? 'dark' : 'light';
     setTheme(next);
   });

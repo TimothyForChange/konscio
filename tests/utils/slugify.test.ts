@@ -59,7 +59,7 @@ describe('slugifyPath', () => {
 
   it('should handle hidden files', () => {
     expect(slugifyPath('.hidden.md')).toBe('.hidden');
-    expect(slugifyPath('path/.hidden')).toBe(''); // Current behavior: treats .hidden as extension
+    expect(slugifyPath('path/.hidden')).toBe('');
   });
 
   it('should handle files without extensions in path', () => {

@@ -101,7 +101,7 @@ describe('Layout.astro', () => {
       "window.matchMedia('(prefers-color-scheme: dark)').matches"
     );
     expect(componentContent).toContain(
-      'document.documentElement.dataset.theme = theme;'
+      "document.documentElement.setAttribute('data-theme', theme);"
     );
     expect(componentContent).toContain('})();');
     expect(componentContent).toContain('</script>');
