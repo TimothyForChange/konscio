@@ -28,4 +28,25 @@ describe('Icon.astro', () => {
     expect(componentContent).toContain("aria-hidden='true'");
     expect(componentContent).toContain('</i>');
   });
+
+  it('handles empty className properly', () => {
+    expect(componentContent).toContain('${className}`.trim()}');
+  });
+
+  it('uses default size of 20px', () => {
+    expect(componentContent).toContain('size = 20');
+  });
+
+  it('uses default empty className', () => {
+    expect(componentContent).toContain("class: className = ''");
+  });
+
+  it('requires name prop', () => {
+    expect(componentContent).toContain('name: string;');
+  });
+
+  it('makes size and class optional', () => {
+    expect(componentContent).toContain('size?: number;');
+    expect(componentContent).toContain('class?: string;');
+  });
 });

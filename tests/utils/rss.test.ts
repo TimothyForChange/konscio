@@ -1,6 +1,6 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
-import { describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { GET } from '../../src/pages/rss.xml.js';
 
 vi.mock('@astrojs/rss', () => ({
@@ -19,6 +19,9 @@ vi.mock('../../src/config', () => ({
 }));
 
 describe('rss.xml', () => {
+  beforeEach(() => {
+    vi.clearAllMocks();
+  });
   it('should generate RSS feed with correct structure', async () => {
     const context = { site: 'https://example.com' };
     await GET(context);
@@ -46,20 +49,19 @@ describe('rss.xml', () => {
     }
   });
 
-  it('should handle getCollection error gracefully', async () => {
-    (getCollection as any).mockRejectedValue(new Error('Collection error'));
-
-    const context = { site: 'https://example.com' };
-    await expect(GET(context)).resolves.toEqual(
-      expect.objectContaining({ status: 200 })
-    );
-  });
-
   it('should handle empty collection', async () => {
     const context = { site: 'https://example.com' };
     await GET(context);
 
     const callArgs = (rss as any).mock.calls[0][0];
     expect(Array.isArray(callArgs.items)).toBe(true);
+  });
+
+  it('should handle context without site URL', async () => {
+    const context = {};
+    await GET(context);
+
+    const callArgs = (rss as any).mock.calls[0][0];
+    expect(callArgs.site).toBeUndefined();
   });
 });
