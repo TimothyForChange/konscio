@@ -2,7 +2,6 @@
 title: "Blood and Bullion: How Gold Fuels Sudan's War"
 author: 'Timothy Brits'
 datePublished: 2025-10-29
-dateModified: 2025-10-30
 description: |
   An eco-socialist investigation of how gold underwrites Sudan's war — and how the RSF's plunder economy, foreign sponsors, and imperial markets profit from blood and bullion.
 excerpt: |
@@ -25,7 +24,7 @@ The same commercial appetites that turned the Congo into a theatre of mineral vi
 
 ---
 
-## The Gold Economy of War
+## The Currency of Conflict
 
 Sudan's civil war has a material heartbeat: gold.
 Since the eruption of large-scale fighting in April **2023**, the **Rapid Support Forces (RSF)**—a militia born from the Janjaweed death squads of Darfur—have built an entire economy on smuggling, forced labour, and cross-border trade.
@@ -40,7 +39,7 @@ These routes convert looted land into currency, sustaining competing militias th
 
 ---
 
-## The RSF's War of Plunder
+## Plunder as Policy
 
 The RSF's economic model is textbook neo-colonial extraction.
 It does not build or govern; it consumes. Its commanders sell gold through foreign intermediaries, buy weapons through the same channels, and use violence to secure new sources of loot.
@@ -54,7 +53,7 @@ By contrast, the SAF's power is bureaucratic and brittle. It clings to state leg
 
 ---
 
-## Human and Ecological Cost
+## Bodies and Land: The Human and Ecological Toll
 
 The human toll is staggering. Independent estimates place conflict deaths in the **hundreds of thousands**, with **millions displaced.**
 Entire cities—El Geneina, Nyala, Omdurman—bear the scars of RSF shelling and scorched-earth tactics. Humanitarian corridors are blocked, aid convoys looted, and civilians targeted for belonging to the wrong ethnic group.
@@ -65,7 +64,7 @@ The SAF's presence in some regions has at least slowed the pace of environmental
 
 ---
 
-## Foreign Complicity
+## A Global Network of Complicity
 
 The international system is not a bystander.
 The **UAE's gold markets** and refiners are central to the laundering of RSF gold, even as the Gulf presents itself as a peace broker.
@@ -76,7 +75,7 @@ Sanctions are selective; outrage is choreographed. It is a theatre of hypocrisy,
 
 ---
 
-## Parallels: Congo, Palestine, and a Single System
+## Empire's Common Thread: Sudan, Congo, Palestine
 
 From Darfur to Donbas, from Gaza to Goma, the logic repeats: **resource control through militarised extraction.**
 In the DRC, cobalt and coltan finance corporate empires.
@@ -91,7 +90,7 @@ The same imperial core that buys "conflict-free" gold also sells the weapons tha
 
 ---
 
-## What Must Change
+## Disrupting the Gold-Fueled War Machine
 
 This conflict requires structural dismantling rather than pacification by press release.
 
@@ -105,7 +104,7 @@ Without these shifts, every gram of gold will carry the weight of a grave.
 
 ---
 
-## Closing: Gold and Blood
+## The Weight of Gold
 
 Gold represents the mirror of global greed, not just Sudan's tragedy.
 Each ingot refined in Dubai or Zurich carries the memory of poisoned rivers and massacred villages.

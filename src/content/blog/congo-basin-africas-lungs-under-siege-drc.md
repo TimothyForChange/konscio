@@ -21,7 +21,7 @@ This transcends being merely a story about trees. It is a story about **who deci
 
 ---
 
-## The New Scramble for the Forest
+## Africa's New Resource Grab
 
 From Kinshasa to Brazzaville to Yaoundé, governments are auctioning off logging concessions, oil blocks, and "sustainable development" projects that carve deep scars into one of Earth's most vital ecosystems.
 
@@ -33,7 +33,7 @@ The Congo Basin contains roughly **25% of the world's tropical forest carbon sto
 
 ---
 
-## The Mirage of "Sustainable Logging"
+## When Sustainability Means Exploitation
 
 Western governments and corporations often insist that "sustainable forestry" and "offset programmes" will protect the Congo Basin. In reality, these mechanisms entrench exploitation under a veneer of environmental responsibility.
 
@@ -48,7 +48,7 @@ Recent investigations show that new "carbon concessions" in the DRC often **over
 
 ---
 
-## Human Cost: Dispossession and Resistance
+## Whose Forest, Whose Benefit?
 
 For Indigenous peoples of the Congo Basin — the Baka, Batwa, BaAka, and many others — the forest is life. It is their medicine cabinet, their school, their temple. Yet in the name of conservation and carbon trading, entire communities are evicted from ancestral lands.
 
@@ -60,7 +60,7 @@ Despite this violence, resistance endures. Indigenous women's networks in Itombw
 
 ---
 
-## Ecocide and Global Consequences
+## From Carbon Sink to Carbon Source: An Ecological Crisis
 
 Scientists warn that the Congo Basin could soon flip from a **carbon sink to a carbon source** if deforestation and degradation continue. Central African forests are already absorbing **half as much CO₂** as they did in the 1990s, and without protection could emit more than they store within decades.
 
@@ -70,7 +70,7 @@ Destroying the Congo Basin means dismantling one of the Earth's last living clim
 
 ---
 
-## The Politics of False Solutions
+## The Lie of Green Capitalism
 
 Global North governments congratulate themselves for funding "forest protection" programmes, but the fine print tells another story.
 
@@ -82,7 +82,7 @@ True climate justice requires more than technological fixes or carbon markets. I
 
 ---
 
-## Toward Climate Sovereignty
+## Indigenous Rights as Climate Action
 
 To protect the Congo Basin is to challenge the system that endangers it.
 That means recognising the right of forest peoples to govern their land, rejecting extractive "green growth" models, and demanding reparative climate finance — not charity, but justice.
@@ -98,7 +98,7 @@ Protecting the Congo Basin represents an act of **planetary self-defence**, not 
 
 ---
 
-## Closing: The Pulse of the Planet
+## Last Stand for the Living Planet
 
 The forest breathes for all life. Its rivers carry the memory of millions of years. Its canopy shelters more than **10,000 plant species**, nearly **30% of them unique to the region**, and over **400 mammals and 1,000 bird species.** More than **150 ethnic groups**, including BaAka, BaMbuti, and Efe peoples, depend on it for their survival.
 

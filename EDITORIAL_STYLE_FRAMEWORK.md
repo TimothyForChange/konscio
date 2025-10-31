@@ -77,10 +77,12 @@ Capitalism, colonialism, and climate collapse are not separate crises; they are 
 ### Headings
 
 - **H1 (`#`):** Essay title in **Title Case** (e.g. `# Blood and Bullion: How Gold Fuels Sudan's War`).
-- **H2 (`##`):** Section titles in **Title Case** — each represents a distinct analytical move.
+- **H2 (`##`):** Section titles in **Title Case** — each represents a distinct analytical move. Vary heading language and structure to avoid repetitive patterns across articles. Consider using more creative and contextually relevant titles rather than formulaic labels.
 - **H3 (`###`):** Optional subsections, also in **Title Case**.
 
 ### Section Pattern
+
+Structure should be flexible and serve the argument, not constrain it. While the following analytical moves are important, their order and presentation can vary:
 
 1. **Opening Frame:** Establish moral-political context and thesis.
 2. **Historical Continuity:** Trace colonial roots and imperial logics.
@@ -88,6 +90,13 @@ Capitalism, colonialism, and climate collapse are not separate crises; they are 
 4. **Human and Ecological Impact:** Make systems visceral.
 5. **Resistance and Alternatives:** Centre agency and collective power.
 6. **Conclusion:** Synthesis — moral, political, ecological. End in solidarity.
+
+Articles should feel distinctive and purposeful rather than formulaic. Consider:
+
+- Varying the sequence of analytical moves based on the subject matter
+- Using different structural approaches (chronological, thematic, comparative, problem-solution)
+- Employing varied transitions between sections
+- Experimenting with different numbers and types of sections based on content needs
 
 ### Formatting
 
@@ -222,21 +231,50 @@ _Always choose words that reveal power, not obscure it._
 
 ---
 
-## 14. Example Editorial Blueprint
+## 14. Example Editorial Approaches
 
-**Headline:** _Blood and Bullion: How Gold Fuels Sudan's War_
-**Thesis:** Gold finances war and empire through extractive and geopolitical complicity.
+Articles should follow analytical logic rather than rigid structural formulas. Consider various approaches based on the subject:
 
-**Sectional Flow:**
+**Approach 1: Traditional Flow**
 
 1. Opening moral thesis
 2. Historical and structural context
-3. Material mechanisms (gold, routes, arms)
+3. Material mechanisms
 4. Human and ecological cost
 5. Systemic complicity
-6. Comparative parallels (Congo, Palestine)
+6. Comparative parallels
 7. Programme for justice
 8. Closing solidarity appeal
+
+**Approach 2: Problem-Solution Structure**
+
+1. Present the contemporary crisis
+2. Historical roots and causation
+3. Mechanisms of power and reproduction
+4. Impact on communities and ecology
+5. Alternatives and resistance
+6. Pathways to justice
+7. Synthesis and solidarity
+
+**Approach 3: Comparative Analysis**
+
+1. Opening thesis with immediate stakes
+2. Parallel case studies
+3. Common systemic elements
+4. Divergent impacts and responses
+5. Lessons for collective action
+6. Broader implications
+
+**Approach 4: Chronological Investigation**
+
+1. Historical foundations
+2. Escalation points
+3. Current dynamics
+4. Resistance movements
+5. Future implications
+6. Call to action
+
+The key is maintaining analytical depth and political clarity while varying structural approaches to avoid formulaic patterns. Choose the structure that best serves your argument.
 
 ---
 

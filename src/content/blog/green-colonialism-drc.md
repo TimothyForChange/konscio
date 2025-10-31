@@ -18,7 +18,7 @@ This extends beyond scarcity of resources. It is a story about **who controls th
 
 ---
 
-## From Leopold to Global Supply Chains: A Colonial Echo
+## Colonial Patterns in Contemporary Extraction
 
 The violent patterns seen in the DRC today are not anomalies that emerged after independence; they are continuities of a long history. The Congo was central to European imperial plunder, a landscape commodified under Leopold II's rule where extraction and brutality were the political economy. That logic did not die with formal empire; it mutated.
 
@@ -28,7 +28,7 @@ Contemporary extraction follows the same blueprint: external demand sets the ter
 
 ---
 
-## How the "Green" Transition Reproduces Extraction
+## The Extraction Imperative Behind Green Technologies
 
 The Global North's shift to "green" technologies requires vast quantities of specific minerals. This demand is framed as urgent and moral: save the planet by switching to electric vehicles and renewable systems. But moralising the commodity does not alter the politics of its production. A few structural points to note:
 
@@ -41,7 +41,7 @@ The result is a peculiar inversion: the rhetoric of environmental stewardship fa
 
 ---
 
-## Human and Ecological Costs
+## The Human and Ecological Realities of Extraction
 
 Extraction in the DRC is not an abstract policy problem; it is embodied in human lives and in the region's ecology. Communities living near mines report destroyed farmland, polluted waterways, and shattered livelihoods. Informal and artisanal miners operate under precarious and hazardous conditions, with women and children disproportionately exposed to risk. These social harms are compounded by militarisation: armed groups, private militias, and state security forces often contest control over mines and transport routes.
 
@@ -49,7 +49,7 @@ At the same time, the **Congo Basin rainforest** — a vital carbon sink and one
 
 ---
 
-## Resistance, Sovereignty, and Alternatives
+## Local Resistance and Community Power
 
 Despite the bleak picture, the story is not only one of victimhood. Congolese workers, community organisers, environmental defenders, and local movements are resisting in diverse ways: organising for safer conditions and fair pay, pushing for community control over resources, documenting abuses, and contesting illegitimate concessions.
 
@@ -64,7 +64,7 @@ What would a different approach look like?
 
 ---
 
-## A Note for the Global North
+## Reconsidering Our Role and Responsibility
 
 It is tempting to see the DRC as a tragic exception or a governance failure to be fixed by technical solutions. That view is convenient because it lets consumers and policymakers imagine that swapping suppliers, auditing mines, or buying "ethical" labels is sufficient. It is not.
 
@@ -74,7 +74,7 @@ We must also confront our own demand. Technologies do not appear out of thin air
 
 ---
 
-## Solidarity and Steps Forward
+## Concrete Steps for Meaningful Solidarity
 
 If you want to act in meaningful solidarity, here are immediate, politically coherent steps:
 
@@ -85,7 +85,7 @@ If you want to act in meaningful solidarity, here are immediate, politically coh
 
 ---
 
-## Closing: Power, Not Pity
+## Beyond Pity: Toward Structural Change
 
 The Congo requires the end of a system that makes its land and labour profitable for others, rather than our pity. It needs international responsibility that recognises historical injustice and refuses to replace old forms of extraction with new ones under green branding.
 

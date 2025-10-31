@@ -24,11 +24,9 @@ To understand this war, we must look past propaganda and patriotism, past NATO's
 
 Rather than a "civilisational clash," this is a struggle between empires — one old, one resurgent — each sustained by extractive power and fossil capital. Ukraine has become their frontier, a place where the imperial ambitions of the West and Russia collide, and where ordinary people — workers, farmers, civilians — bear the heaviest cost.
 
-![Sandbags in Kyiv](../../assets/sandbags-in-kyiv.webp)
-
 ---
 
-## A History Written in Empire
+## Empire's Footprints in History
 
 The road to this war began long before 2022.
 It runs through the ruins of 1991, when the Soviet Union's collapse opened the East to global capital. Western economists prescribed "shock therapy"; oligarchs and speculators carved up public wealth. The result was familiar: public misery, private enrichment, and a state hollowed out for sale.
@@ -45,7 +43,7 @@ Ukraine actively positioned itself as a frontline state in this imperial competi
 
 ---
 
-## The Political Economy of Endless War
+## War as a Profit Engine
 
 Wars are not only fought; they are financed, speculated upon, and monetised.
 
@@ -60,12 +58,10 @@ This represents the recolonisation of crisis rather than solidarity.
 
 ---
 
-## The Human and Ecological Cost
+## The Full Scope of Destruction
 
 Behind every statistic is a body, a home, a field.
 Tens of thousands dead. Millions displaced. Cities erased.
-
-![Cat in a ruined building](../../assets/cat-in-ruined-building.webp)
 
 But the devastation extends beyond the human.
 Ukraine's soil is poisoned with heavy metals; forests burned; rivers fouled.
@@ -77,11 +73,9 @@ War here is not only social catastrophe — it is **ecocide as strategy**, turni
 
 Across continents, the pattern repeats: from cobalt in Congo to gold in Sudan to the bombed soil of Donbas. The Earth itself has become collateral in empire's accounting.
 
-![Burnt out armoured fighting vehicle in Bucha](../../assets/burnt-out-afv.webp)
-
 ---
 
-## Hypocrisy and Double Standards
+## Selective Solidarity and Imperial Double Standards
 
 Western governments proclaim defence of democracy, yet their solidarity remains selective.
 They sanction Moscow while arming Riyadh, mourn Kyiv while enabling Gaza's siege, welcome white refugees while others drown in the Mediterranean.
@@ -94,7 +88,7 @@ Such hypocrisy hollows out international law and exposes the racial hierarchy em
 
 ---
 
-## The Global South and the Price of Neutrality
+## The Global South's Calculus of Survival
 
 Across Africa, Asia, and Latin America, governments are pressed to choose sides. Yet neutrality is often the stance of survival, not indifference.
 
@@ -107,7 +101,7 @@ Still, the Global South resists being conscripted. BRICS diplomacy, African medi
 
 ---
 
-## Seeds of Resistance
+## Persistence of Resistance
 
 Even amid the wreckage, people resist.
 
@@ -120,7 +114,7 @@ Their struggles remind us: **the peace worth fighting for represents liberation,
 
 ---
 
-## Toward an Eco-Socialist Peace
+## Reimagining Peace Beyond Empire
 
 A just peace cannot be negotiated by those who profit from destruction.
 It must be **demilitarised, decolonised, and ecological** — grounded in cooperation, not domination.
@@ -138,7 +132,7 @@ War is the climate crisis in military form.
 
 ---
 
-## Closing: Empire or Life
+## Dismantling the Machinery of Domination
 
 Ukraine's tragedy is planetary. It exposes the connective tissue of the system we name: **capitalism, colonialism, and climate collapse as one machinery of domination.**
 

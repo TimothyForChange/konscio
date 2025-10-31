@@ -1,7 +1,7 @@
 ---
 title: "Gaza and the Global South: Imperialism's Mirror"
 author: 'Timothy Brits'
-datePublished: 2025-10-31
+datePublished: 2025-11-02
 description: |
   An eco-socialist and decolonial analysis connecting the genocide in Gaza to the global architecture of imperialism, showing how the same system that bombs Palestine also impoverishes, extracts, and exploits the Global South.
 excerpt: |
@@ -9,9 +9,13 @@ excerpt: |
 image: /images/gaza-and-the-global-south-palestine.jpg
 categories: ['Analysis']
 tags: ['Palestine', 'Imperialism', 'Global South', 'Decolonisation']
+draft: true
 ---
 
 # Gaza and the Global South: Imperialism's Mirror
+
+> "There will be no global climate justice, no global just transition without the liberation of Palestine."
+> — Hamza Hamouchene, Transnational Institute (2025)
 
 Gaza represents a mirror of empire, not an aberration.
 The same powers that destroy forests in the Congo, exploit cobalt for "green" technologies, and impose debt on Africa are the ones supplying bombs and diplomatic cover to Israel.
@@ -25,11 +29,9 @@ A pause in war became another episode of annihilation, a reminder that for colon
 
 This extends beyond war itself. It involves a world order built on the belief that some lives and some lands are expendable for profit and control.
 
-![A child in Gaza: survivor of empire's violence](../../assets/gaza-child.webp)
-
 ---
 
-## Empire's Continuum
+## The Architecture of Domination
 
 The genocide in Gaza did not begin in **2023.** It began with **settler colonialism**, the economic and racial logic of empire carried into the twenty-first century.
 The British Mandate, the Balfour Declaration, and the Zionist project were all instruments of the same system that partitioned Africa, enslaved millions, and enclosed the Earth's commons for capital.
@@ -43,14 +45,11 @@ And in Bolivia and Colombia, as militarised resource zones feeding global market
 
 ![Israeli separation wall: a symbol of siege and separation](../../assets/israeli-separation-wall.webp)
 
-> "There will be no global climate justice, no global just transition without the liberation of Palestine."
-> — Hamza Hamouchene, Transnational Institute (2025)
-
 ---
 
-## The Global Machinery of Empire
+## How Empire Operates
 
-### Weapons and War
+### Weapons as Commodities
 
 Israel's bombardment of Gaza is enabled by a transnational military-industrial complex that profits from endless war.
 The same corporations — **Lockheed Martin, BAE Systems, Thales, Northrop Grumman** — sell weapons tested on Palestinians and later exported as "battle-proven." Military occupation becomes a laboratory for repression, exported globally to police borders, refugees, and protesters.
@@ -67,7 +66,7 @@ These words disguise structural violence, framing victims as threats and resista
 
 ---
 
-## Extraction and Extermination: The Ecological Link
+## The Ecological Dimensions of Occupation
 
 Settler colonialism is not only a political project; it is an **ecological one.**
 In Palestine, olive groves are uprooted, aquifers stolen, and farmland bombed into dust. In Africa, forests are razed for profit and rivers poisoned by mines. Both reflect the same logic: control nature, displace people, privatise life.
@@ -78,7 +77,7 @@ Demilitarisation and ecological regeneration are inseparable. The metals that bu
 
 ---
 
-## Resistance Across Borders
+## Global Solidarity in Practice
 
 Across the Global South, Palestine has become a rallying point, not of charity but of shared experience.
 From Johannesburg to Jakarta, from Caracas to Cairo, movements recognise Gaza as the **front line of global imperialism.**
@@ -97,7 +96,7 @@ This is **internationalism reborn** — solidarity not as sentiment but as struc
 
 ---
 
-## The Moral Synthesis: Empire or Life
+## Empire or Life: The Fundamental Choice
 
 The West calls this a "conflict."
 But what we witness is the logic of **colonial modernity** laid bare: a civilisation that justifies genocide in the name of order, progress, or security.
@@ -108,7 +107,7 @@ True solidarity means dismantling the global military-financial complex and buil
 
 ---
 
-## Toward a World Beyond Empire
+## Beyond the Current System
 
 The task before us is not reform but replacement. A post-imperial world requires:
 
@@ -121,7 +120,7 @@ The fight for Gaza is the fight for the Earth itself: the same empire that flatt
 
 ---
 
-## Closing: The Struggle for Life
+## The Struggle Transcends Borders
 
 In the ruins of Gaza, we see our collective reflection. A civilisation willing to annihilate children for control of land will annihilate the planet for profit. The line between Palestine and the planet is thinner than we think.
 
