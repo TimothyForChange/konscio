@@ -31,12 +31,10 @@ const {
   dateModified,
   canonical,
 } = Astro.props;
-
-const disableThemeToggle = config.disableThemeToggle;
 ---
 
 <!doctype html>
-<html lang='en' data-disable-theme-toggle={disableThemeToggle}>
+<html lang='en'>
   <head>
     <meta charset='UTF-8' />
     <meta name='viewport' content='width=device-width, initial-scale=1.0' />
@@ -45,6 +43,21 @@ const disableThemeToggle = config.disableThemeToggle;
     <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
     <link rel='manifest' href='/site.webmanifest' />
     <link rel='sitemap' href='/sitemap-index.xml' />
+    <style>
+      body {
+        opacity: 0;
+        animation: fadeIn 0.2s ease 0.1s forwards;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    </style>
     <script>
       (function () {
         let theme = 'light';
@@ -58,16 +71,14 @@ const disableThemeToggle = config.disableThemeToggle;
               window.matchMedia('(prefers-color-scheme: dark)').matches;
             theme = systemPrefersDark ? 'dark' : 'light';
           }
-        } catch (error) {
+        } catch (e) {
           const systemPrefersDark =
             window.matchMedia &&
             window.matchMedia('(prefers-color-scheme: dark)').matches;
           theme = systemPrefersDark ? 'dark' : 'light';
         }
-        if (document.documentElement.dataset.disableThemeToggle === 'true') {
-          theme = 'light';
-        }
-        document.documentElement.dataset.theme = theme;
+
+        document.documentElement.setAttribute('data-theme', theme);
       })();
     </script>
     <SEO
@@ -82,7 +93,7 @@ const disableThemeToggle = config.disableThemeToggle;
   </head>
   <body>
     <div class='site-wrapper'>
-      <Header disableThemeToggle={disableThemeToggle} />
+      <Header />
       <main class='main-content' class:list={{ 'with-sidebar': showSidebar }}>
         {
           showSidebar && (

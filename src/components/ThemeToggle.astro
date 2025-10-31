@@ -44,7 +44,7 @@
   const toggle = document.getElementById('theme-toggle');
 
   function setTheme(theme: string) {
-    document.documentElement.dataset.theme = theme;
+    document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
     const wcb = document.getElementById('wcb');
     if (wcb) {
@@ -57,7 +57,7 @@
   }
 
   toggle?.addEventListener('click', () => {
-    const current = document.documentElement.dataset.theme || 'light';
+    const current = document.documentElement.getAttribute('data-theme') || 'light';
     const next = current === 'light' ? 'dark' : 'light';
     setTheme(next);
   });

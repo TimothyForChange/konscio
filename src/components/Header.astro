@@ -5,11 +5,6 @@ import HeaderNavigation from './HeaderNavigation.astro';
 import HeaderSearch from './HeaderSearch.astro';
 import ThemeToggle from './ThemeToggle.astro';
 
-export interface Props {
-  disableThemeToggle?: boolean;
-}
-
-const { disableThemeToggle = false } = Astro.props;
 const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
 ---
 
@@ -65,7 +60,7 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
       <HeaderNavigation base={base} />
 
       <div class='mobile-controls'>
-        {!disableThemeToggle && <ThemeToggle />}
+        <ThemeToggle />
 
         <a
           href={base + 'rss.xml'}

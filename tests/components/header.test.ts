@@ -8,7 +8,6 @@ describe('Header.astro', () => {
 
   it('has proper TypeScript interface', () => {
     expect(componentContent).toContain('export interface Props');
-    expect(componentContent).toContain('disableThemeToggle?: boolean;');
   });
 
   it('imports required dependencies', () => {
@@ -28,9 +27,6 @@ describe('Header.astro', () => {
   });
 
   it('destructures props with defaults', () => {
-    expect(componentContent).toContain(
-      'const { disableThemeToggle = false } = Astro.props;'
-    );
     expect(componentContent).toContain(
       "const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };"
     );
@@ -71,9 +67,7 @@ describe('Header.astro', () => {
 
   it('includes mobile controls', () => {
     expect(componentContent).toContain("<div class='mobile-controls'>");
-    expect(componentContent).toContain(
-      '{!disableThemeToggle && <ThemeToggle />}'
-    );
+    expect(componentContent).toContain('<ThemeToggle />');
     expect(componentContent).toContain("href={base + 'rss.xml'}");
     expect(componentContent).toContain('data-astro-prefetch');
     expect(componentContent).toContain("class='rss-toggle'");
