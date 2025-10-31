@@ -177,8 +177,8 @@ If you discover a security vulnerability, please see our [Security Policy](SECUR
 
 This project is **dual licensed**:
 
-- **Code** (software in `src/`, scripts, etc.): MIT License ([LICENSES/MIT.txt](LICENSES/MIT.txt))
-- **Content** (text, images, documentation, data, media): CC0 1.0 Universal ([LICENSES/CC0-1.0.txt](LICENSES/CC0-1.0.txt))
+- **Code** (software in `src/`, scripts, etc.): [MIT License](LICENSES/MIT.txt)
+- **Content** (text, images, documentation, data, media): [CC0 1.0 Universal](LICENSES/CC0-1.0.txt)
 
 See [`LICENCE`](LICENCE) for a full explanation and SPDX identifiers.
 
@@ -189,5 +189,5 @@ Unless otherwise noted, code is MIT and content is CC0 1.0 Universal by default.
 - Built with [Astro](https://astro.build)
 - Icons by [Remixicon](https://remixicon.com/)
 - Fonts by [Fontsource](https://fontsource.org/)
-- Theme based on [Volks-Typo](https://github.com/jdrhyne/volks-typo), created by jdrhyne
+- Theme based on [Volks-Typo](https://github.com/jdrhyne/volks-typo), created by [jdrhyne](https://github.com/jdrhyne)
 - Inspired by the urgent need for decolonial, eco-socialist transformation
