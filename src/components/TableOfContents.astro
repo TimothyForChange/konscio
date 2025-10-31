@@ -15,7 +15,7 @@ const { headings } = Astro.props;
       <ol class='toc-list'>
         {headings.map((heading) => (
           <li class={`toc-item toc-level-${heading.depth}`}>
-            <a href={`#${heading.slug}`} data-astro-prefetch class='toc-link'>
+            <a href={`#${heading.slug}`} class='toc-link'>
               {heading.text}
             </a>
           </li>
