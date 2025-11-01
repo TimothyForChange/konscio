@@ -98,28 +98,6 @@ image: '/decolonisation.jpg'
 
 ### Contributing a New Article
 
-We welcome new blog posts and articles from all authors, including those written in languages other than English. We do not accept translations of existing posts, but original content in any language is encouraged.
-
-To contribute a new article:
-
-1. **Create your post** as a Markdown (`.md`) or MDX (`.mdx`) file in `src/content/blog/`. MDX files support embedded JSX for rich content.
-2. **Add an open-graph image** for your post in `public/images/` (recommended size: 1200x630px, format: `.jpg` or `.png`).
-3. **Add any images used inside your article** as `.webp` files in `src/assets/`.
-4. **Use the required frontmatter**. See the example below and refer to `the-new-monroe-doctrine-usa.md` for a full example:
-
-Once your article is ready, you can either:
-
-- Open a Pull Request (PR) with your new post and images
-- Or email your content to contact@timothyforchange.co.za and we will adapt it for the blog, maintaining your voice, tone, and perspective
-
-Posts by other authors will be clearly attributed, with the author's name displayed prominently, and remain your content.
-
-We reserve the right to make editorial edits to contributed content for clarity, consistency, and alignment with the platform’s mission. Editorial changes are subject to review, but your voice, tone, and intent will be respected.
-
-For editorial and style guidelines, please view [`EDITORIAL_STYLE_FRAMEWORK.md`](EDITORIAL_STYLE_FRAMEWORK.md).
-
-```markdown
----
 title: 'Your Article Title'
 datePublished: 'YYYY-MM-DD'
 description: 'Brief SEO description'
@@ -128,21 +106,18 @@ excerpt: 'Short summary for listings'
 categories: ['Category1', 'Category2']
 tags: ['tag1', 'tag2']
 image: '/images/your-open-graph-image.jpg'
----
+title: 'Your Article Title'
+datePublished: 'YYYY-MM-DD'
+description: 'Brief SEO description'
+author: 'Your Name'
+excerpt: 'Short summary for listings'
+categories: ['Category1', 'Category2']
+tags: ['tag1', 'tag2']
+image: '/images/your-open-graph-image.jpg'
 
-Your content here...
+We welcome new blog posts and articles from all authors, including those written in languages other than English. We do not accept translations of existing posts, but original content in any language is encouraged.
 
-## Section Heading
-
-More content...
-```
-````
-
-**Note:** All images used inside articles must be `.webp` and placed in `src/assets/`. The open-graph image for the post must be placed in `public/images/`.
-
-More content...
-
-````
+For a full guide to contributing articles—including required frontmatter, image conventions, submission process, and editorial guidelines—please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Frontmatter Reference
 
@@ -186,6 +161,7 @@ npm run build
 
 # Preview the build locally
 npm run preview
+```
 ````
 
 ## 🤝 Contributing

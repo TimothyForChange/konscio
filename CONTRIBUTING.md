@@ -94,6 +94,7 @@ Types:
 1. Create a new `.md` or `.mdx` file in `src/content/blog/`
 2. Use the required frontmatter fields:
    ```yaml
+   ---
    title: 'Your Article Title'
    datePublished: 'YYYY-MM-DD'
    description: 'Brief SEO description'
@@ -101,6 +102,8 @@ Types:
    excerpt: 'Short summary for listings'
    categories: ['Category1', 'Category2']
    tags: ['tag1', 'tag2']
+   image: '/images/your-open-graph-image.jpg'
+   ---
    ```
 3. Write in clear, accessible language
 4. Include relevant headings and structure

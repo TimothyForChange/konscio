@@ -50,17 +50,23 @@ This campaign rests on three interlocking instruments.
 
 **Military posture.** The deployment of a carrier strike group and associated air assets transforms policing into a military operation. Such force concentration raises the stakes for miscalculation and sends a signal that strikes ashore are possible should political decisions be taken to escalate. The hardware is itself a political message.
 
-![The USS Carl Vinson (CVN-70)](../../assets/uss-carl-vinson.webp)
+![Aerial view of the USS Carl Vinson (CVN-70) aircraft carrier at sea](../../assets/uss-carl-vinson.webp)
 
 **Narrative power.** Public claims — “huge loads of drugs”, “narco-terrorists” — prime domestic and international audiences to accept extraordinary measures. Propaganda and framing create consent. Yet independent verification of the strikes’ targets remains thin, and survivors’ accounts and regional statements complicate the official story.
 
 ## The Human Cost of Imperial Action
 
-The human toll is immediate and grave. Those killed are not abstract statistics; they are fishers, crew members, relatives. Whole coastal communities now fear the sea that once provided their livelihoods. The strikes damage local trade, fishing and tourism — economies that sustain millions across the Caribbean and Pacific littorals.
+The human toll is immediate and grave. Those killed are not abstract statistics; they are fishers, crew members, relatives.
 
-Legally and diplomatically, the strikes erode norms. UN human rights experts warned that lethal force in international waters without a proper legal basis can amount to **extrajudicial executions**, and the UN High Commissioner for Human Rights has urged the U.S. to halt the strikes. Such warnings underscore the risk: normalising unilateral lethal action risks setting a precedent that weakens international law for everyone.
+Whole coastal communities now fear the sea that once provided their livelihoods. The strikes damage local trade, fishing and tourism — economies that sustain millions across the Caribbean and Pacific littorals.
 
-Should the campaign move ashore, the risk of direct confrontation with Venezuelan forces, and a wider regional crisis, rises sharply. A miscalculation could draw in allied navies or provoke retaliatory measures. The hemisphere is not a laboratory for experiments in remote warfare. Lives and livelihoods hang in the balance.
+Legally and diplomatically, the strikes erode norms. UN human rights experts warned that lethal force in international waters without a proper legal basis can amount to **extrajudicial executions**, and the UN High Commissioner for Human Rights has urged the U.S. to halt the strikes.
+
+Such warnings underscore the risk: normalising unilateral lethal action risks setting a precedent that weakens international law for everyone.
+
+Should the campaign move ashore, the risk of direct confrontation with Venezuelan forces, and a wider regional crisis, rises sharply. A miscalculation could draw in allied navies or provoke retaliatory measures.
+
+The hemisphere is not a laboratory for experiments in remote warfare. Lives and livelihoods hang in the balance.
 
 ## Reclaiming Justice from Imperial Violence
 
@@ -78,4 +84,4 @@ The strikes at sea and the talk of land targets reveal a broader truth: empire d
 
 Resisting this is not an excuse for illegal trafficking. It is a refusal to accept war as the primary instrument for social and political problems. Sovereignty, law, and human life must be valued above the convenience of a missile. Regional solidarity, independent investigation, and mass political pressure can still deny empires the legitimacy they seek.
 
-— In solidarity with the fishers, workers, and peoples of the Americas who refuse to bow to empire.
+— In solidarity with all those resisting imperial violence in Latin America and the Global South.
