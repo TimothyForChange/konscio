@@ -1,7 +1,7 @@
 ---
 title: "Gaza and the Global South: Imperialism's Mirror"
 author: 'Timothy Brits'
-datePublished: 2025-11-02
+datePublished: 2025-10-31
 description: |
   An eco-socialist and decolonial analysis connecting the genocide in Gaza to the global architecture of imperialism, showing how the same system that bombs Palestine also impoverishes, extracts, and exploits the Global South.
 excerpt: |
@@ -9,7 +9,6 @@ excerpt: |
 image: /images/gaza-and-the-global-south-palestine.jpg
 categories: ['Analysis']
 tags: ['Palestine', 'Imperialism', 'Global South', 'Decolonisation']
-draft: true
 ---
 
 # Gaza and the Global South: Imperialism's Mirror
