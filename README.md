@@ -146,31 +146,21 @@ npm run build
 npm run preview
 ```
 
-```
-
 ## 🤝 Contributing
 
-Contributions are welcome! This project focuses on eco-socialist analysis and decolonial thought. If you'd like to contribute:
+We welcome both code and content. Articles should centre eco-socialist, decolonial analysis from Africa and the Global South; original pieces in any language are encouraged. For the full workflow (content frontmatter, submission routes, editorial process, commit message format, and development steps) read [CONTRIBUTING.md](CONTRIBUTING.md).
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Summary:
 
-### Content Contributions
+✓ Add posts in `src/content/blog/` with required frontmatter
 
-If you'd like to contribute content, please ensure it aligns with the site's focus on eco-socialist analysis from Africa and the Global South.
+✓ Use clear English for any new English content
 
-For detailed contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md).
+✓ Run `npm run lint`, `npm run check`, `npm run test` before a Pull Request
 
-### Code of Conduct
+✓ Follow the commit prefixes: Add:, Fix:, Update:, Remove:, Docs:
 
-This project has adopted a code of conduct to ensure a welcoming environment for all contributors. See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details.
-
-### Security
-
-If you discover a security vulnerability, please see our [Security Policy](SECURITY.md).
+Community standards and enforcement are covered in [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). Security disclosure guidance is in [SECURITY.md](SECURITY.md).
 
 ## 📄 License
 
@@ -190,4 +180,3 @@ Unless otherwise noted, code is MIT and content is CC0 1.0 Universal by default.
 - Fonts by [Fontsource](https://fontsource.org/)
 - Theme based on [Volks-Typo](https://github.com/jdrhyne/volks-typo), created by [jdrhyne](https://github.com/jdrhyne)
 - Inspired by the urgent need for decolonial, eco-socialist transformation
-```
