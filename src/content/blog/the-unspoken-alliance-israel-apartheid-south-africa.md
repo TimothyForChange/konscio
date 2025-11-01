@@ -23,13 +23,21 @@ Israel’s relationship with apartheid South Africa was more than tactical exped
 
 ## The Roots of Collaboration
 
-This isn’t academic hair-splitting. We’re talking about material support: weapons, technology, uranium and possibly nuclear know-how, all of which helped a regime keep millions under violent, racial rule. The relationship grew when both states found themselves internationally isolated: South Africa under sanctions and Israel under intense regional pressure. That political loneliness created an incentive structure for covert cooperation, trade and the transfer of repressive expertise. The clearest documentary shock came in 2010 when secret apartheid-era papers were reported to show Israel had offered to sell nuclear warheads to South Africa. The Israeli presidency denied the claim, but it marked a significant archival revelation.
+This isn't academic hair-splitting. We're talking about material support: weapons, technology, uranium and possibly nuclear know-how, all of which helped a regime keep millions under violent, racial rule.
+
+The relationship grew when both states found themselves internationally isolated: South Africa under sanctions and Israel under intense regional pressure. That political loneliness created an incentive structure for covert cooperation, trade and the transfer of repressive expertise.
+
+The clearest documentary shock came in 2010 when secret apartheid-era papers were reported to show Israel had offered to sell nuclear warheads to South Africa. The Israeli presidency denied the claim, but it marked a significant archival revelation.
 
 ---
 
 ## The Evolution of a Secret Partnership
 
-Contacts between Israel and South Africa date to the early post-1948 era, but cooperation deepened dramatically after the 1960s as each state faced diplomatic pressure. Israel’s arms industry expanded, specializing in rugged, exportable systems; South Africa needed weapons, training and technical expertise to survive a regional insurgency environment and bypass sanctions. The relationship’s intensity rose in the 1970s and 1980s, especially after the Likud government in Israel (post-1977) favoured a harder realpolitik posture that translated into pragmatic security arrangements with pariah regimes. Scholars reconstructing the archive show a pattern: formal rhetoric of distance combined with abundant covert and commercial ties.
+Contacts between Israel and South Africa date to the early post-1948 era, but cooperation deepened dramatically after the 1960s as each state faced diplomatic pressure.
+
+Israel's arms industry expanded, specializing in rugged, exportable systems; South Africa needed weapons, training and technical expertise to survive a regional insurgency environment and bypass sanctions.
+
+The relationship's intensity rose in the 1970s and 1980s, especially after the Likud government in Israel (post-1977) favoured a harder realpolitik posture that translated into pragmatic security arrangements with pariah regimes. Scholars reconstructing the archive show a pattern: formal rhetoric of distance combined with abundant covert and commercial ties.
 
 This was not simply transactional. The alliance reflected a larger logic: settler states share policing and counter-insurgency practices, and when international norms bite, secrecy becomes the lubricant for ongoing repression. For activists and decolonial thinkers today, that structural lesson is what keeps the history urgent.
 

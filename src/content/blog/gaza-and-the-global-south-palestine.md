@@ -17,14 +17,18 @@ tags: ['Palestine', 'Imperialism', 'Global South', 'Decolonisation']
 > — Hamza Hamouchene, Transnational Institute (2025)
 
 Gaza represents a mirror of empire, not an aberration.
+
 The same powers that destroy forests in the Congo, exploit cobalt for "green" technologies, and impose debt on Africa are the ones supplying bombs and diplomatic cover to Israel.
+
 Palestine reveals, in concentrated form, the moral and structural logic of global empire: domination through dispossession, justified by the language of civilisation, progress, and security.
 
 As of late 2025, more than **67 000 Palestinians have been killed** since the assault on Gaza began in October 2023.
+
 Entire hospitals and universities have been levelled. Over **two million people** remain trapped under siege — starved, bombed, and displaced in what UN experts call a _textbook case of genocide_.
 
 Even the declared "ceasefire" offered no real reprieve. On **29 October 2025**, Israeli strikes during the truce killed **104 people in a single day**, including dozens of children, according to Gaza health authorities cited by _Reuters_.
-A pause in war became another episode of annihilation, a reminder that for colonised peoples, peace under empire is often only a change in tempo.
+
+A pause in war became another episode of annihilation. A reminder that for colonised peoples, peace under empire is often only a change in tempo.
 
 This extends beyond war itself. It involves a world order built on the belief that some lives and some lands are expendable for profit and control.
 

@@ -18,6 +18,7 @@ draft: true
 > — Jean-Paul Sartre, The Devil and the Good Lord (1951)
 
 The war in Ukraine reflects world order rather than being an exception to it.
+
 A global system that feeds on catastrophe has found another vein to open: a machine that turns grief into profit, flags into franchises, and death into dividends.
 
 To understand this war, we must look past propaganda and patriotism, past NATO's narratives and the Kremlin's revanchism, to what the conflict truly exposes: **capitalism at war with life itself.**
@@ -39,7 +40,9 @@ Russia, too, followed this neoliberal script. Under Putin, privatisation merged 
 
 Ukraine actively positioned itself as a frontline state in this imperial competition, accepting the role of buffer zone and battleground. Rather than simply being "left between these forces," Ukraine's leadership made strategic choices that deepened its position within competing imperial architectures.
 
-**Even Ukraine’s post-Soviet independence was conditioned by imperial logic.** In 1994, the _Budapest Memorandum_ saw Kyiv surrender the world’s third-largest nuclear arsenal in exchange for “security assurances” from the U.S., U.K., and Russia — the same powers now exploiting or assaulting its sovereignty. The collapse of that agreement exposes the truth beneath liberal diplomacy: under empire, _security is a commodity, and guarantees last only while profitable._ Ukraine's strategic choices to integrate with Western structures while maintaining extraction-based economic models made it a predictable flashpoint in competing imperial formations.
+**Even Ukraine's post-Soviet independence was conditioned by imperial logic.** In 1994, the _Budapest Memorandum_ saw Kyiv surrender the world's third-largest nuclear arsenal in exchange for "security assurances" from the U.S., U.K., and Russia — the same powers now exploiting or assaulting its sovereignty.
+
+The collapse of that agreement exposes the truth beneath liberal diplomacy: under empire, _security is a commodity, and guarantees last only while profitable._ Ukraine's strategic choices to integrate with Western structures while maintaining extraction-based economic models made it a predictable flashpoint in competing imperial formations.
 
 ---
 

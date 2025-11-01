@@ -12,7 +12,11 @@ tags:
   ['Congo', 'Extractivism', 'Green Colonialism', 'Imperialism', 'Global South']
 ---
 
-The Democratic Republic of Congo is presented to the world as a resource: a seam of minerals waiting for extraction, refinement, and shipment. In radio spots, corporate reports, and policy papers this is framed as progress: cobalt for batteries, coltan for phones, lithium for storage. But when you look closer, the "green transition" championed by the Global North is simply a new vocabulary for an old practice — extracting wealth from the Global South while leaving devastation in its wake.
+The Democratic Republic of Congo is presented to the world as a resource: a seam of minerals waiting for extraction, refinement, and shipment.
+
+In radio spots, corporate reports, and policy papers this is framed as progress: cobalt for batteries, coltan for phones, lithium for storage.
+
+But when you look closer, the "green transition" championed by the Global North is simply a new vocabulary for an old practice — extracting wealth from the Global South while leaving devastation in its wake.
 
 This extends beyond scarcity of resources. It is a story about **who controls those resources**, who benefits from them, and who pays the social and ecological cost. It is, in short, a story about power.
 

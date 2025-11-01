@@ -20,7 +20,9 @@ draft: true
 
 Empires remake their instruments when the old ones grow blunt. They do not stop wanting control; they change how they get it.
 
-In the twenty-first century, the new instruments are orbital and algorithmic — satellites, constellations, cloud servers, and machine-learning models. Together they form an _imperial stack_: layers of hardware and software that let states and corporations see, score, and govern the world from above.
+In the twenty-first century, the new instruments are orbital and algorithmic — satellites, constellations, cloud servers, and machine-learning models.
+
+Together they form an _imperial stack_: layers of hardware and software that let states and corporations see, score, and govern the world from above.
 
 They are precise. They are profitable. They are quiet. They also reproduce the same old hierarchy: a handful of powerful states and firms decide who can be seen, who can speak, who can move, and who must remain invisible.
 

@@ -18,11 +18,17 @@ tags: ['Imperialism', 'Venezuela', 'US Foreign Policy', 'Latin America']
 
 Imperialism adapts, shifting its language and its tools, but its purpose remains: to assert control over a region’s politics and resources. The recent U.S. campaign of strikes against small vessels in the Caribbean and eastern Pacific — and the reported selection of land targets in Venezuela — belongs to that long continuum. These actions go beyond drug-war policing. They revive the Monroe Doctrine in twenty-first century form.
 
-The strikes have killed scores of people since September and spread fear along coasts and fishing communities. Independent observers, UN human rights officials, and regional leaders have raised alarms about legality, transparency, and sovereignty. Reports now state that U.S. officials have identified ports, airstrips and military facilities inside Venezuela as potential land targets. That marks an escalation from interdiction at sea to the prospect of strikes on sovereign territory.
+The strikes have killed scores of people since September and spread fear along coasts and fishing communities.
+
+Independent observers, UN human rights officials, and regional leaders have raised alarms about legality, transparency, and sovereignty. Reports now state that U.S. officials have identified ports, airstrips and military facilities inside Venezuela as potential land targets. That marks an escalation from interdiction at sea to the prospect of strikes on sovereign territory.
 
 ## The Escalating Logic of Imperial Force
 
-The current campaign began publicly in early September and accelerated in October, with multiple announced strikes in a single day. On **27 October 2025**, the Pentagon reported strikes on four vessels in the eastern Pacific that killed **14** people. By the end of October, reporting aggregated known deaths from the series of strikes at **around 61**. Officials frame these actions as counter-narcotics and describe the targets as tied to organised trafficking networks. Critics call the numbers, the evidence, and the legal bases opaque.
+The current campaign began publicly in early September and accelerated in October, with multiple announced strikes in a single day.
+
+On **27 October 2025**, the Pentagon reported strikes on four vessels in the eastern Pacific that killed **14** people. By the end of October, reporting aggregated known deaths from the series of strikes at **around 61**.
+
+Officials frame these actions as counter-narcotics and describe the targets as tied to organised trafficking networks. Critics call the numbers, the evidence, and the legal bases opaque.
 
 Most troubling, reporting from major outlets indicates U.S. officials have identified land targets in Venezuela — facilities alleged to be used for trafficking by elements linked to the regime. Such lists reportedly include **military-controlled ports and airstrips**. If acted on, strikes against these sites would be a clear move from maritime interdiction into attacks on foreign soil. That is a different category of action with far wider legal and political consequences.
 

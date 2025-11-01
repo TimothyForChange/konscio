@@ -13,7 +13,9 @@ tags: ['Congo Basin', 'Climate Justice', 'Decolonisation', 'Global South']
 
 # The Congo Basin: Africa's Lungs Under Siege
 
-The Congo Basin is often called the _lungs of Africa_, a rainforest so vast it helps the planet breathe. Stretching across six nations and covering more than **200 million hectares**, it absorbs roughly **1.2 billion tonnes of carbon dioxide each year**, regulating rainfall across the continent and anchoring global climate stability.
+The Congo Basin is often called the _lungs of Africa_, a rainforest so vast it helps the planet breathe.
+
+Stretching across six nations and covering more than **200 million hectares**, it absorbs roughly **1.2 billion tonnes of carbon dioxide each year**. This helps regulate rainfall across the continent and anchors global climate stability.
 
 Yet these forests are being destroyed by the same forces that have long plundered the region's minerals: profit, imperial power, and a colonial imagination that treats Africa as a warehouse of resources rather than a home of living communities.
 

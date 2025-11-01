@@ -17,7 +17,8 @@ tags: ['Sudan', 'Gold', 'Extractivism', 'Imperialism', 'RSF', 'Global South']
 > — Frantz Fanon, The Wretched of the Earth (1961)
 
 Gold is not neutral. It is capital made visible: heavy, portable, and irresistibly fungible.
-In Sudan, bullion is the fuel of warfare. It buys drones, lubricates smuggling networks, and sustains a parasitic war economy in which militias and foreign brokers profit while entire regions are emptied of life.
+
+In Sudan, bullion is the fuel of warfare. It buys drones, lubricates smuggling networks, and sustains a parasitic war economy. In this economy, militias and foreign brokers profit while entire regions are emptied of life.
 
 The reality transcends scarcity and chaos. It is fundamentally a structural story: **extractivism as war finance**, extractivism as empire.
 The same commercial appetites that turned the Congo into a theatre of mineral violence and turned Palestine into a laboratory for militarised dispossession now make Sudan's goldfields a prize worth killing for.
@@ -29,7 +30,11 @@ The same commercial appetites that turned the Congo into a theatre of mineral vi
 Sudan's civil war has a material heartbeat: gold.
 Since the eruption of large-scale fighting in April **2023**, the **Rapid Support Forces (RSF)**—a militia born from the Janjaweed death squads of Darfur—have built an entire economy on smuggling, forced labour, and cross-border trade.
 
-The **Sudanese Armed Forces (SAF)**, the formal army, represents the institutional legacy of an extractive neocolonial state apparatus. Though formally structured, the SAF leadership has long been enmeshed in the same networks of resource extraction and corruption that enabled the RSF's emergence. Even its 'defensive' operations often protect extraction infrastructure and imperial interests rather than civilian populations. The SAF's failures are political; the RSF's crimes are existential—but both emerged from the same colonial-modern state structure designed to facilitate extraction.
+The **Sudanese Armed Forces (SAF)**, the formal army, represents the institutional legacy of an extractive neocolonial state apparatus.
+
+Though formally structured, the SAF leadership has long been enmeshed in the same networks of resource extraction and corruption that enabled the RSF's emergence. Even its 'defensive' operations often protect extraction infrastructure and imperial interests rather than civilian populations.
+
+The SAF's failures are political; the RSF's crimes are existential—but both emerged from the same colonial-modern state structure designed to facilitate extraction.
 
 Investigations show that RSF commanders have captured gold mines in Darfur and South Kordofan, forcing miners to work under militia supervision and using profits to import drones and weapons. Entire towns have been razed in their path. Survivors speak of massacres, rape, and forced displacement—violence funded by bullion and lubricated by Gulf money.
 
