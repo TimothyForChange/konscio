@@ -2,6 +2,15 @@
 
 Thank you for your interest in contributing to Timothy for Change! 🌍 This document provides guidelines and information for contributors.
 
+## 📨 How to Submit Content
+
+You can contribute blog posts or articles in two ways:
+
+- **Fork and Pull Request:** Fork the repository, add your content, and submit a Pull Request (see instructions below).
+- **Email Submission:** Email your content directly to the maintainers at contact@timothyforchange.co.za for review and publication.
+
+Both methods are welcome. All content will be reviewed for alignment with the platform’s mission and published with clear author attribution.
+
 ## 🌟 Ways to Contribute
 
 ### Content Contributions
@@ -84,31 +93,35 @@ Types:
 
 ### Blog Posts
 
-1. Create a new `.md` or `.mdx` file in `src/content/blog/`
-2. Use the required frontmatter fields:
-   ```yaml
-   ---
-   title: 'Your Article Title'
-   datePublished: 'YYYY-MM-DD'
-   description: 'Brief SEO description'
-   author: 'Your Name'
-   excerpt: 'Short summary for listings'
-   categories: ['Category1', 'Category2']
-   tags: ['tag1', 'tag2']
-   image: '/images/your-open-graph-image.jpg'
-   ---
-   ```
-3. Write in clear, accessible language
-4. Include relevant headings and structure
-5. Add alt text to any images
+You may submit blog posts or articles by either:
+
+- **Forking the repository and submitting a Pull Request** (recommended for those familiar with GitHub):
+  1.  Create a new `.md` or `.mdx` file in `src/content/blog/`
+  2.  Use the required frontmatter fields:
+      ```yaml
+      ---
+      title: 'Your Article Title'
+      datePublished: 'YYYY-MM-DD'
+      description: 'Brief SEO description'
+      author: 'Your Name'
+      excerpt: 'Short summary for listings'
+      categories: ['Category1', 'Category2']
+      tags: ['tag1', 'tag2']
+      image: '/images/your-open-graph-image.jpg'
+      ---
+      ```
+  3.  Write in clear, accessible language
+  4.  Include relevant headings and structure
+  5.  Add alt text to any images
+  6.  Submit your content via Pull Request
+
+- **Emailing your content** (if you prefer not to use GitHub):
+  - Send your article and any images to contact@timothyforchange.co.za
+  - Please include the required frontmatter information in your email
 
 ### Content Review Process
 
-1. Submit your content via Pull Request
-2. The maintainers will review for alignment with project goals
-3. Feedback will be provided if changes are needed
-4. Editorial changes may be suggested or made for clarity, consistency, and alignment with the platform’s mission, but your voice and intent will be respected
-5. Once approved, your content will be published
+All submitted content will be reviewed for alignment with project goals. Feedback may be provided if changes are needed. Editorial changes may be suggested or made for clarity, consistency, and alignment with the platform’s mission, but your voice and intent will be respected. Once approved, your content will be published with clear author attribution.
 
 ## 🤝 Code of Conduct
 
