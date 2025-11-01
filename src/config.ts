@@ -14,7 +14,6 @@ export interface SiteConfig {
     threads?: string;
     instagram?: string;
     email?: string;
-    kofi?: string;
   };
   siteUrl: string;
   baseUrl: string;
@@ -36,7 +35,6 @@ export const config: SiteConfig = {
     threads: 'https://threads.com/@timothyforchange',
     instagram: 'https://instagram.com/timothyforchange',
     email: 'contact@timothyforchange.co.za',
-    kofi: 'https://ko-fi.com/timothyforchange',
   },
   siteUrl: 'https://timothyforchange.co.za',
   baseUrl: '/',

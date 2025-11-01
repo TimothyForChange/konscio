@@ -51,6 +51,17 @@ describe('Footer.astro', () => {
     expect(componentContent).toContain('Privacy Policy');
   });
 
+  it('includes Ko-fi support button', () => {
+    expect(componentContent).toContain("<div class='kofi-support'>");
+    expect(componentContent).toContain('https://ko-fi.com/T6T31HRCAR');
+    expect(componentContent).toContain(
+      'https://storage.ko-fi.com/cdn/kofi6.png?v=6'
+    );
+    expect(componentContent).toContain('Buy Me a Coffee at ko-fi.com');
+    expect(componentContent).toContain("target='_blank'");
+    expect(componentContent).toContain("rel='noopener'");
+  });
+
   it('includes proper CSS classes and styles', () => {
     expect(componentContent).toContain('.site-footer');
     expect(componentContent).toContain(
@@ -68,6 +79,7 @@ describe('Footer.astro', () => {
     expect(componentContent).toContain('.copyright');
     expect(componentContent).toContain('.source-code');
     expect(componentContent).toContain('.privacy-link');
+    expect(componentContent).toContain('.kofi-support');
     expect(componentContent).toContain('color: var(--color-text-muted);');
     expect(componentContent).toContain('color: var(--color-accent);');
   });
@@ -79,8 +91,11 @@ describe('Footer.astro', () => {
     expect(componentContent).toContain('.source-code a:focus');
     expect(componentContent).toContain('.privacy-link a:hover');
     expect(componentContent).toContain('.privacy-link a:focus');
+    expect(componentContent).toContain('.kofi-support a:hover img');
+    expect(componentContent).toContain('.kofi-support a:focus img');
     expect(componentContent).toContain('color: var(--color-text-primary);');
     expect(componentContent).toContain('text-decoration: none;');
+    expect(componentContent).toContain('opacity: 0.8;');
   });
 
   it('includes responsive styles', () => {
