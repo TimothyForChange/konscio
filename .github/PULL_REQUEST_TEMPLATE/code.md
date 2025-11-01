@@ -1,15 +1,15 @@
 ---
-name: Pull Request
-about: Submit a pull request to propose changes to Timothy for Change
+name: Code Change
+about: Submit a pull request for code, features, or bug fixes
 ---
 
 ## Description
 
-Please describe your changes and the motivation behind them.
+Describe your code changes and the motivation behind them.
 
 ## Type of Change
 
-- [ ] Add: New feature or content
+- [ ] Add: New feature or code
 - [ ] Fix: Bug fix
 - [ ] Update: Change to existing feature
 - [ ] Remove: Feature or code removal
@@ -17,10 +17,11 @@ Please describe your changes and the motivation behind them.
 
 ## Checklist
 
-- [ ] I have tested my changes
+- [ ] I have run all tests
+- [ ] I have added tests for all new code
+- [ ] I have updated existing tests if needed
 - [ ] I have run `npm run lint` and `npm run check`
 - [ ] I have run `npm run format`
-- [ ] I have added or updated tests if needed
 - [ ] I have updated documentation if needed
 
 ## Additional Notes
