@@ -57,7 +57,7 @@ Avoid centrist "balance", technocratic distance, academic detachment, and manage
 
 ### Spelling
 
-Use **British or South African English** consistently.
+Use clear, accessible English. Blog posts in other languages are also encouraged.
 
 ---
 

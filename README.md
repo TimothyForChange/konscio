@@ -115,7 +115,7 @@ categories: ['Category1', 'Category2']
 tags: ['tag1', 'tag2']
 image: '/images/your-open-graph-image.jpg'
 
-We welcome new blog posts and articles from all authors, including those written in languages other than English. We do not accept translations of existing posts, but original content in any language is encouraged.
+We strongly encourage new blog posts and articles from all authors, especially those written in languages other than English. Original content in any language is welcome and valued. We do not accept translations of existing posts, but we celebrate linguistic diversity and encourage contributors to share perspectives in their own languages.
 
 For a full guide to contributing articles—including required frontmatter, image conventions, submission process, and editorial guidelines—please see [CONTRIBUTING.md](CONTRIBUTING.md).
 

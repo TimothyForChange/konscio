@@ -15,20 +15,14 @@ Thank you for your interest in contributing to Timothy for Change! 🌍 This doc
 
 - **Bug Fixes**: Report and fix issues in the codebase
 - **Feature Development**: Implement new features that align with the project's goals
-- **Documentation**: Improve documentation, README, and code comments
+  **Other Languages**: We strongly encourage blog posts and articles written in languages other than English. Original content in any language is welcome and valued. We do not accept translations of existing posts, but we celebrate linguistic diversity and encourage contributors to share perspectives in their own languages.
 - **Testing**: Add tests and improve test coverage
-
-### Other Contributions
-
-- **Design**: Help improve the visual design and user experience
-- **Accessibility**: Ensure the site meets accessibility standards
-- **Community**: Help moderate discussions and support other contributors
 
 ## 📝 Content Guidelines
 
 ### Writing Standards
 
-- Use British English spelling and grammar
+- Use clear, accessible English, or another language if preferred
 - Focus on eco-socialist analysis and decolonial perspectives
 - Ensure content is accessible and inclusive
 - Cite sources and provide context for claims
