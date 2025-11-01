@@ -112,4 +112,4 @@ Each ingot refined in Dubai or Zurich carries the memory of poisoned rivers and 
 If we are serious about decolonisation, we must name the system plainly: **the RSF's plunder is the empire's profit.**
 To end one, we must confront both.
 
-— In solidarity with the people of Sudan, the DRC, and Palestine; with miners, farmers, and all who resist extraction.
+— In solidarity with the people of Sudan; with miners, farmers, and all who resist extraction.
