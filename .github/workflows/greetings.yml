@@ -9,8 +9,24 @@ jobs:
       issues: write
       pull-requests: write
     steps:
-    - uses: actions/first-interaction@v1
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Message that will be displayed on users' first issue"
-        pr-message: "Message that will be displayed on users' first pull request"
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            🌱 **Welcome, comrade!**
+
+            Thanks for opening your first issue — your voice helps this project grow.
+            We're building an eco-socialist space rooted in solidarity, justice, and open collaboration.
+
+            Before diving deeper, please take a moment to read our [README.md](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md) — they explain our purpose, structure, and how to make the most meaningful contributions.
+
+            Together we write, critique, and imagine better futures. ✊
+          pr-message: |
+            🍉 **Welcome to the struggle, comrade!**
+
+            This is your first pull request — and that's a big deal.
+            Your work strengthens our collective effort to tell stories, share analysis, and build a living archive of resistance.
+
+            Please ensure you've read our [CONTRIBUTING.md](../CONTRIBUTING.md) and [README.md](../README.md) for guidance on formatting, tone, and collaboration.
+
+            Thank you for putting time and heart into this project. Solidarity always. 🌿
