@@ -50,6 +50,8 @@ This campaign rests on three interlocking instruments.
 
 **Military posture.** The deployment of a carrier strike group and associated air assets transforms policing into a military operation. Such force concentration raises the stakes for miscalculation and sends a signal that strikes ashore are possible should political decisions be taken to escalate. The hardware is itself a political message.
 
+![The USS Carl Vinson (CVN-70)](../../assets/uss-carl-vinson.webp)
+
 **Narrative power.** Public claims — “huge loads of drugs”, “narco-terrorists” — prime domestic and international audiences to accept extraordinary measures. Propaganda and framing create consent. Yet independent verification of the strikes’ targets remains thin, and survivors’ accounts and regional statements complicate the official story.
 
 ## The Human Cost of Imperial Action

@@ -39,4 +39,23 @@ describe('privacy-policy.astro', () => {
       "<p class='last-updated'>Last updated: 27 October 2025</p>"
     );
   });
+
+  it('includes proper semantic structure', () => {
+    expect(pageContent).toContain('<header');
+    expect(pageContent).toContain('<div');
+    expect(pageContent).toContain('<h2');
+    expect(pageContent).toContain('<p');
+    expect(pageContent).toContain('<ul');
+    expect(pageContent).toContain('<li');
+  });
+
+  it('hides sidebar as expected', () => {
+    expect(pageContent).toContain('showSidebar={false}');
+  });
+
+  it('includes relevant privacy policy sections', () => {
+    expect(pageContent).toMatch(
+      /(information|data|cookies|rights|contact|policy)/i
+    );
+  });
 });

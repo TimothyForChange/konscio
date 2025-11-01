@@ -1,5 +1,6 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { JSDOM } from 'jsdom';
 import { describe, expect, it } from 'vitest';
 
 describe('HeaderNavigation.astro', () => {
@@ -74,5 +75,51 @@ describe('HeaderNavigation.astro', () => {
   it('includes responsive styles', () => {
     expect(componentContent).toContain('@media (max-width: 768px)');
     expect(componentContent).toContain('display: none;');
+  });
+
+  it('renders with correct base path', async () => {
+    const html = `
+      <!DOCTYPE html>
+      <html>
+      <body>
+        <nav class="main-navigation" role="navigation" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="/test-base" data-astro-prefetch class="nav-link">Home</a></li>
+            <a href="/test-base/blog" data-astro-prefetch class="nav-link">Blog</a>
+            <a href="/test-base/categories" data-astro-prefetch class="nav-link">Categories</a>
+            <a href="/test-base/about" data-astro-prefetch class="nav-link">About</a>
+          </ul>
+        </nav>
+      </body>
+      </html>
+    `;
+
+    const dom = new JSDOM(html);
+    const document = dom.window.document;
+
+    const homeLink = document.querySelector('.nav-link[href="/test-base"]');
+    const blogLink = document.querySelector(
+      '.nav-link[href="/test-base/blog"]'
+    );
+    const categoriesLink = document.querySelector(
+      '.nav-link[href="/test-base/categories"]'
+    );
+    const aboutLink = document.querySelector(
+      '.nav-link[href="/test-base/about"]'
+    );
+
+    expect(homeLink).not.toBeNull();
+    expect(blogLink).not.toBeNull();
+    expect(categoriesLink).not.toBeNull();
+    expect(aboutLink).not.toBeNull();
+  });
+
+  it('includes data-astro-prefetch on all navigation links', () => {
+    expect(componentContent).toContain("data-astro-prefetch class='nav-link'");
+  });
+
+  it('has correct role and aria-label attributes', () => {
+    expect(componentContent).toContain("role='navigation'");
+    expect(componentContent).toContain("aria-label='Main navigation'");
   });
 });

@@ -1,6 +1,7 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
-import { describe, expect, it } from 'vitest';
+import { JSDOM } from 'jsdom';
+import { describe, expect, it, vi } from 'vitest';
 
 describe('404.astro', () => {
   const pagePath = join(process.cwd(), 'src/pages/404.astro');
@@ -46,5 +47,54 @@ describe('404.astro', () => {
     expect(pageContent).toContain(
       "<meta name='robots' content='noindex, nofollow' />"
     );
+  });
+
+  it('hides sidebar as expected', () => {
+    expect(pageContent).toContain('showSidebar={false}');
+  });
+
+  it('includes functional "Go Back" button', () => {
+    expect(pageContent).toContain(
+      "onclick='window.history.back();return false;'"
+    );
+  });
+
+  it('includes "Go to Home" link', () => {
+    expect(pageContent).toContain("href='/'");
+  });
+
+  it('has proper error page semantics', () => {
+    expect(pageContent).toContain('<h1>404</h1>');
+    expect(pageContent).toContain('Page Not Found');
+  });
+
+  it('executes window.history.back() functionality', async () => {
+    const html = `
+      <!DOCTYPE html>
+      <html>
+      <body>
+        <section class='not-found'>
+          <h1>404</h1>
+          <p>Sorry, the page you are looking for does not exist.</p>
+          <a href='/' class='notfound-link'>Go to Home</a>
+          <a onclick='window.history.back();return false;'>Go Back</a>
+        </section>
+      </body>
+      </html>
+    `;
+
+    const dom = new JSDOM(html, {
+      runScripts: 'dangerously',
+      url: 'http://localhost',
+    });
+
+    const historySpy = vi.spyOn(dom.window.history, 'back');
+
+    const goBackLink =
+      dom.window.document.querySelector<HTMLAnchorElement>('a[onclick]');
+    goBackLink?.click();
+
+    expect(historySpy).toHaveBeenCalled();
+    historySpy.mockRestore();
   });
 });

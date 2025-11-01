@@ -1,8 +1,38 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { JSDOM } from 'jsdom';
 import { describe, expect, it } from 'vitest';
 
 describe('HeaderMobileMenu.astro', () => {
+  function setupDOM() {
+    const html = `
+      <!DOCTYPE html>
+      <html>
+      <body>
+        <div class="mobile-menu" id="mobile-menu">
+          <nav class="mobile-menu" aria-label="Mobile navigation">
+            <ul class="mobile-nav-list">
+              <li><a href="/" data-astro-prefetch class="mobile-nav-link">Home</a></li>
+              <li><a href="/blog" data-astro-prefetch class="mobile-nav-link">Blog</a></li>
+              <li><a href="/categories" data-astro-prefetch class="mobile-nav-link">Categories</a></li>
+              <li><a href="/about" data-astro-prefetch class="mobile-nav-link">About</a></li>
+            </ul>
+          </nav>
+        </div>
+        <button id="hamburger-toggle">Menu</button>
+      </body>
+      </html>
+    `;
+
+    const dom = new JSDOM(html, {
+      runScripts: 'dangerously',
+      resources: 'usable',
+      url: 'http://localhost',
+    });
+
+    return dom;
+  }
+
   it('has proper TypeScript interface', () => {
     const componentPath = join(
       process.cwd(),
@@ -102,5 +132,42 @@ describe('HeaderMobileMenu.astro', () => {
     expect(componentContent).toContain('left: 0');
     expect(componentContent).toContain('right: 0');
     expect(componentContent).toContain('bottom: 0');
+  });
+
+  it('includes proper accessibility attributes', () => {
+    const componentPath = join(
+      process.cwd(),
+      'src/components/HeaderMobileMenu.astro'
+    );
+    const componentContent = readFileSync(componentPath, 'utf-8');
+
+    expect(componentContent).toContain("aria-label='Mobile navigation'");
+  });
+
+  it('includes data-astro-prefetch on navigation links', () => {
+    const componentPath = join(
+      process.cwd(),
+      'src/components/HeaderMobileMenu.astro'
+    );
+    const componentContent = readFileSync(componentPath, 'utf-8');
+
+    expect(componentContent).toContain('data-astro-prefetch');
+  });
+
+  it('renders with correct base path', async () => {
+    const dom = setupDOM();
+    const document = dom.window.document;
+
+    const homeLink = document.querySelector('.mobile-nav-link[href="/"]');
+    const blogLink = document.querySelector('.mobile-nav-link[href="/blog"]');
+    const categoriesLink = document.querySelector(
+      '.mobile-nav-link[href="/categories"]'
+    );
+    const aboutLink = document.querySelector('.mobile-nav-link[href="/about"]');
+
+    expect(homeLink).not.toBeNull();
+    expect(blogLink).not.toBeNull();
+    expect(categoriesLink).not.toBeNull();
+    expect(aboutLink).not.toBeNull();
   });
 });

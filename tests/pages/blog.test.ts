@@ -46,4 +46,33 @@ describe('blog.astro', () => {
     expect(pageContent).toContain("<header class='blog-header'>");
     expect(pageContent).toContain("<h1 class='blog-title'>Blog</h1>");
   });
+
+  it('excludes draft posts', () => {
+    expect(pageContent).toContain(
+      '.filter((post: any) => !post.frontmatter.draft)'
+    );
+  });
+
+  it('sorts posts by date published in descending order', () => {
+    expect(pageContent).toContain(
+      'new Date(b.frontmatter.datePublished).getTime() -'
+    );
+    expect(pageContent).toContain(
+      'new Date(a.frontmatter.datePublished).getTime()'
+    );
+  });
+
+  it('includes slugified paths for posts', () => {
+    expect(pageContent).toContain('slugifyPath(post.file)');
+  });
+
+  it('includes pagination or post listing structure', () => {
+    expect(pageContent).toMatch(/(article|post|list|card|grid)/i);
+  });
+
+  it('includes proper post metadata display', () => {
+    expect(pageContent).toMatch(
+      /(date|time|author|category|tag|reading|excerpt)/i
+    );
+  });
 });

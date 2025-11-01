@@ -1,5 +1,4 @@
 import rss from '@astrojs/rss';
-import { getCollection } from 'astro:content';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { GET } from '../../src/pages/rss.xml.js';
 

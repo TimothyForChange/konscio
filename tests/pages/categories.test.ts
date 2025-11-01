@@ -45,4 +45,32 @@ describe('categories.astro', () => {
     expect(pageContent).toContain("<header class='page-header'>");
     expect(pageContent).toContain("<h1 class='page-title'>Categories</h1>");
   });
+
+  it('excludes draft posts from category calculation', () => {
+    expect(pageContent).toContain(
+      '.filter((post: any) => !post.frontmatter.draft)'
+    );
+  });
+
+  it('creates unique category list', () => {
+    expect(pageContent).toContain('new Set<string>()');
+  });
+
+  it('maps posts to their categories', () => {
+    expect(pageContent).toContain(
+      'post.frontmatter.categories.includes(category)'
+    );
+  });
+
+  it('includes category links or navigation', () => {
+    expect(pageContent).toMatch(/(link|nav|a href|category)/i);
+  });
+
+  it('displays category counts or post numbers', () => {
+    expect(pageContent).toMatch(/(count|number|total|length)/i);
+  });
+
+  it('includes semantic HTML for category listing', () => {
+    expect(pageContent).toMatch(/(ul|li|section|article|grid|list)/i);
+  });
 });

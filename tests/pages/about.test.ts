@@ -41,4 +41,19 @@ describe('about.astro', () => {
     expect(pageContent).toContain("<div class='author-section'>");
     expect(pageContent).toContain("<div class='author-avatar'>");
   });
+
+  it('includes SocialLinks component', () => {
+    expect(pageContent).toContain('<SocialLinks');
+  });
+
+  it('has proper semantic HTML elements', () => {
+    expect(pageContent).toContain('<header');
+    expect(pageContent).toContain('<div');
+  });
+
+  it('includes author information from config', () => {
+    expect(pageContent).toContain('author.name');
+    expect(pageContent).toContain('author.bio');
+    expect(pageContent).toContain('author.avatar');
+  });
 });

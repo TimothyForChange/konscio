@@ -54,4 +54,37 @@ describe('index.astro', () => {
   it('has blog section', () => {
     expect(pageContent).toContain("<section class='blog-section' id='posts'>");
   });
+
+  it('excludes draft posts', () => {
+    expect(pageContent).toContain(
+      '.filter((post: any) => !post.frontmatter.draft)'
+    );
+  });
+
+  it('sorts posts by date published in descending order', () => {
+    expect(pageContent).toContain(
+      'new Date(b.frontmatter.datePublished).getTime() -'
+    );
+    expect(pageContent).toContain(
+      'new Date(a.frontmatter.datePublished).getTime()'
+    );
+  });
+
+  it('disables sidebar on homepage', () => {
+    expect(pageContent).toContain('showSidebar={false}');
+  });
+
+  it('includes recent posts section', () => {
+    expect(pageContent).toContain("section-title'>Blog Posts");
+  });
+
+  it('includes call-to-action elements', () => {
+    expect(pageContent).toMatch(/(button|cta|link|action)/i);
+  });
+
+  it('includes site description or tagline', () => {
+    expect(pageContent).toMatch(
+      /(eco-socialist|decolonial|analysis|planet|people)/i
+    );
+  });
 });

@@ -127,4 +127,18 @@ describe('Layout.astro', () => {
     );
     expect(componentContent).toContain('@media (min-width: 1024px)');
   });
+
+  it('conditionally renders sidebar based on showSidebar prop', () => {
+    expect(componentContent).toContain('showSidebar && (');
+  });
+
+  it('defaults showSidebar to true', () => {
+    expect(componentContent).toContain('showSidebar = true,');
+  });
+
+  it('renders without sidebar when showSidebar is false', () => {
+    expect(componentContent).toContain(
+      "class:list={{ 'with-sidebar': showSidebar }}"
+    );
+  });
 });
