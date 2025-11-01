@@ -2,7 +2,7 @@
 
 ## For the Series and Platform: **Timothy for Change**
 
-_A decolonial, eco-socialist framework for writing and publishing analytical, moral, and political essays._
+_A decolonial, eco-socialist framework offering guidelines and suggestions for writing and publishing analytical, moral, and political essays._
 
 ---
 
@@ -10,7 +10,7 @@ _A decolonial, eco-socialist framework for writing and publishing analytical, mo
 
 ### Mission
 
-To expose the structural violence of capitalism, colonialism, and ecological collapse — and to articulate credible, radical alternatives rooted in justice, equality, and solidarity.
+To help expose the structural violence of capitalism, colonialism, and ecological collapse — and to encourage credible, radical alternatives rooted in justice, equality, and solidarity.
 
 ### Core Belief
 
@@ -18,8 +18,8 @@ Capitalism, colonialism, and climate collapse are not separate crises; they are 
 
 ### Political Orientation
 
-- **Eco-socialist:** The economy must serve life, not profit.
-- **Anti-imperialist and decolonial:** Centring the Global South and its struggles.
+- **Eco-socialist:** The economy should serve life, not profit.
+- **Anti-imperialist and decolonial:** Centre the Global South and its struggles.
 - **Materialist and moral:** Analyse structure with an ethical compass — moral clarity is a form of precision.
 - **Internationalist:** Solidarity beyond borders, race, and nation.
 
@@ -29,46 +29,35 @@ Capitalism, colonialism, and climate collapse are not separate crises; they are 
 
 ### Voice
 
-- Authoritative but human; morally grounded, not academic.
-- Declarative, lucid, rhythmic — each paragraph should read like it could be spoken at a rally or read in a seminar.
+Aim for an authoritative but human voice; morally grounded, not academic. Strive for declarative, lucid, rhythmic writing — paragraphs that could be spoken at a rally or read in a seminar.
 
 ### Tone
 
-- Serious, unsentimental, anti-euphemistic.
-- Avoid the NGO or "policy analyst" register.
-- Never "both-sides" imperial violence.
+Be serious, unsentimental, and anti-euphemistic. Avoid the NGO or "policy analyst" register. Do not "both-sides" imperial violence.
 
 ### Perspective
 
-- Always from the underside of power: the oppressed, the exploited, the resisting.
-- Speak with solidarity, not sympathy.
+Write from the underside of power: the oppressed, the exploited, the resisting. Speak with solidarity, not sympathy.
 
 ### Reader
 
-- Globally literate and politically aware.
-- Write to sharpen their analysis, not comfort them.
+Assume a globally literate and politically aware reader. Write to sharpen their analysis, not comfort them.
 
 ### Emotional Register
 
-- Controlled anger, disciplined compassion.
-- No despair, no voyeurism — clarity as defiance.
+Favour controlled anger and disciplined compassion. Avoid despair and voyeurism — clarity as defiance.
 
 ### Language
 
-- Prefer strong verbs and short sentences.
-- Use plain syntax for facts, and cadence for moral synthesis.
-- Replace euphemisms ("development", "stability", "security") with structural terms ("extraction", "control", "hegemony").
+Prefer strong verbs and short sentences. Use plain syntax for facts, and cadence for moral synthesis. Replace euphemisms ("development", "stability", "security") with structural terms ("extraction", "control", "hegemony").
 
 ### Prohibited Tones
 
-- Centrist "balance"
-- Technocratic distance
-- Academic detachment
-- Managerial humanism
+Avoid centrist "balance", technocratic distance, academic detachment, and managerial humanism.
 
 ### Spelling
 
-- Use **British or South African English** consistently.
+Use **British or South African English** consistently.
 
 ---
 
@@ -82,7 +71,7 @@ Capitalism, colonialism, and climate collapse are not separate crises; they are 
 
 ### Section Pattern
 
-Structure should be flexible and serve the argument, not constrain it. While the following analytical moves are important, their order and presentation can vary:
+Structure should be flexible and serve the argument, not constrain it. The following analytical moves are suggestions; their order and presentation can vary:
 
 1. **Opening Frame:** Establish moral-political context and thesis.
 2. **Historical Continuity:** Trace colonial roots and imperial logics.
@@ -93,75 +82,68 @@ Structure should be flexible and serve the argument, not constrain it. While the
 
 Articles should feel distinctive and purposeful rather than formulaic. Consider:
 
-- Varying the sequence of analytical moves based on the subject matter
-- Using different structural approaches (chronological, thematic, comparative, problem-solution)
-- Employing varied transitions between sections
-- Experimenting with different numbers and types of sections based on content needs
+Try varying the sequence of analytical moves based on the subject matter. Use different structural approaches (chronological, thematic, comparative, problem-solution). Employ varied transitions between sections. Experiment with different numbers and types of sections based on content needs.
 
 ### Formatting
 
-- **Bold:** Political emphasis, conceptual clarity, or moral statements.
-- _Italics:_ Citations, foreign terms, moral stress, or introspective clauses.
-- **Blockquotes:** 1–3 lines max; always attributed and contextually linked. No formatting required — handled automatically.
-- **Em dashes:** Use sparingly for cadence or moral gravity — not as generic punctuation.
-- Prefer colons and commas where rhythm allows.
-- No numeric citations in published essays; integrate sources naturally ("According to UN data…").
+**Bold:** Political emphasis, conceptual clarity, or moral statements.
+_Italics:_ Citations, foreign terms, moral stress, or introspective clauses.
+**Blockquotes:** 1–3 lines max; always attributed and contextually linked. No formatting required — handled automatically.
+**Em dashes:** Use sparingly for cadence or moral gravity — not as generic punctuation.
+Prefer colons and commas where rhythm allows.
+Avoid numeric citations in published essays; integrate sources naturally ("According to UN data…").
 
 ---
 
 ## 4. Excerpts & Metadata
 
-- Every post begins with **YAML front matter** (title, author, date, description, excerpt, image, tags).
-- `description` = the political stakes.
-- `excerpt` = distilled moral thesis.
-- Tags limited to 4–6, drawn from the global analytical framework: _Eco-socialism_, _Imperialism_, _Climate Justice_, _Global South_, _Decolonisation_, etc.
-- Always title in **Title Case**; description and excerpt in **sentence case** for readability in feeds.
+Begin every post with **YAML front matter** (title, author, date, description, excerpt, image, tags). Use `description` for the political stakes and `excerpt` for the distilled moral thesis. Limit tags to 4–6, drawn from the global analytical framework: _Eco-socialism_, _Imperialism_, _Climate Justice_, _Global South_, _Decolonisation_, etc. Use Title Case for titles; sentence case for description and excerpt for readability in feeds.
 
 ---
 
 ## 5. Stylistic Grammar
 
-- **Tense:** Present for analysis; past for history; future for calls to action.
-- **Voice:** Active wherever possible ("banks fund war", not "wars are funded by banks").
-- **Pronouns:** "We" only when speaking of shared humanity or solidarity; otherwise, specify agents of power.
-- **Numbers:** Use **bold numerals** for visual clarity in longform text.
-- **Quotes:** Contextualise every quote — who said it, when, and why it matters.
-- **Acronyms:** Define on first mention, then use freely.
-- **Oxford comma:** Always.
-- **Semicolons:** Use to connect linked independent clauses, not as stylistic fillers.
-- **Paragraph breaks:** Frequent; never allow analysis to suffocate pace.
+**Tense:** Prefer present for analysis, past for history, and future for calls to action.
+**Voice:** Use active voice wherever possible ("banks fund war", not "wars are funded by banks").
+**Pronouns:** Use "we" only when speaking of shared humanity or solidarity; otherwise, specify agents of power.
+**Numbers:** Consider using **bold numerals** for visual clarity in longform text.
+**Quotes:** Contextualise every quote — who said it, when, and why it matters.
+**Acronyms:** Define on first mention, then use freely.
+**Oxford comma:** Recommended.
+**Semicolons:** Use to connect linked independent clauses, not as stylistic fillers.
+**Paragraph breaks:** Frequent; avoid analysis suffocating pace.
 
 ---
 
 ## 6. Ethical Framework
 
-- **Agency:** Focus on those resisting, not just those suffering.
-- **Specificity:** Always name systems and perpetrators.
-- **Respect:** Describe without sensationalism or pity.
-- **Verification:** Triangulate facts with at least two credible, independent sources.
-- **Context:** Every number, quote, or fact must be anchored in meaning.
-- **No objectification:** People are subjects of history, not case studies.
+**Agency:** Focus on those resisting, not just those suffering.
+**Specificity:** Name systems and perpetrators where possible.
+**Respect:** Describe without sensationalism or pity.
+**Verification:** Triangulate facts with at least two credible, independent sources.
+**Context:** Anchor every number, quote, or fact in meaning.
+**No objectification:** Treat people as subjects of history, not case studies.
 
 ---
 
 ## 7. Aesthetic & Layout Principles
 
-- **Length:** 900–1 600 words (sweet spot: 1 300).
-- **Visual rhythm:** Alternate dense analysis with short declarative paragraphs.
-- **Line balance:** Avoid large uninterrupted blocks; break for impact.
-- **Closing:** Always ends with a statement of solidarity or a moral imperative.
-- **Header images:** Optional; text must stand alone.
-- **Typography:** Avoid italics for entire paragraphs; vary texture through sentence rhythm instead.
+**Length:** Aim for 900–1 600 words (sweet spot: 1 300).
+**Visual rhythm:** Alternate dense analysis with short declarative paragraphs.
+**Line balance:** Avoid large uninterrupted blocks; break for impact.
+**Closing:** End with a statement of solidarity or a moral imperative where possible.
+**Header images:** Optional; text should stand alone.
+**Typography:** Avoid italics for entire paragraphs; vary texture through sentence rhythm instead.
 
 ---
 
 ## 8. Series-Level Consistency
 
-- **Opening:** YAML front matter → H1 title → epigraph (optional).
-- **Subtitle:** Always analytical, never clickbait.
-- **Sign-off:** "— In solidarity with…"
-- **Series rhythm:** Diagnosis → Structure → Resistance → Reconstruction.
-- **Epigraphs:** Use sparingly, but with purpose; prefer anti-colonial and liberationist voices (Fanon, Rodney, Sankara, Césaire, Cáceres, etc.).
+**Opening:** YAML front matter → H1 title → epigraph (optional).
+**Subtitle:** Prefer analytical, never clickbait.
+**Sign-off:** "— In solidarity with…"
+**Series rhythm:** Diagnosis → Structure → Resistance → Reconstruction.
+**Epigraphs:** Use sparingly, but with purpose; prefer anti-colonial and liberationist voices (Fanon, Rodney, Sankara, Césaire, Cáceres, etc.).
 
 ---
 
@@ -184,50 +166,39 @@ Articles should feel distinctive and purposeful rather than formulaic. Consider:
 | Empire                   | The West              |
 | People and planet        | Humanity and nature   |
 
-_Always choose words that reveal power, not obscure it._
+Try to choose words that reveal power, not obscure it.
 
 ---
 
 ## 10. Attribution and Integrity
 
-- Attribute by name and organisation ("Amnesty International's 2025 report found…").
-- Avoid citation clutter; weave information into narrative.
-- Always name Global South researchers and activists equally alongside Western sources.
-- Avoid passive "it is said" phrasing — show who says it and why.
-- Never quote without verifying authenticity or context.
+Attribute by name and organisation ("Amnesty International's 2025 report found…").
+Avoid citation clutter; weave information into narrative.
+Name Global South researchers and activists equally alongside Western sources where possible.
+Avoid passive "it is said" phrasing — show who says it and why.
+Quote only with verified authenticity or context.
 
 ---
 
 ## 11. Cadence, Flow, and Emphasis
 
-- Each paragraph = one idea or one moral turn.
-- Use short declarative sentences after long analytical ones for impact.
-- End sections with synthesis, not summary.
-- Use repetition only as rhetorical reinforcement ("This is not… It is…") — but diversify expressions to avoid overuse.
-- Vary sentence structures to prevent cadence repetition: instead of overusing "x is not y, but z," consider alternatives like "x represents z rather than y" or "rather than x, this is fundamentally y."
-- Commas over dashes for pacing; dashes only when emotional weight or interruption demands it.
-- Read aloud before publication — the essay must _sound_ like conviction.
+Aim for each paragraph to contain one idea or one moral turn. Use short declarative sentences after long analytical ones for impact. End sections with synthesis, not summary. Use repetition only as rhetorical reinforcement ("This is not… It is…") — but diversify expressions to avoid overuse. Vary sentence structures to prevent cadence repetition: instead of overusing "x is not y, but z," consider alternatives like "x represents z rather than y" or "rather than x, this is fundamentally y." Prefer commas over dashes for pacing; use dashes only when emotional weight or interruption demands it. Consider reading aloud before publication — the essay should _sound_ like conviction.
 
 ---
 
 ## 12. Ethics of Representation
 
-- Never anonymise the powerful; protect the vulnerable.
-- Avoid academic distancing: say "miners", not "human subjects".
-- Name Indigenous, African, and local knowledge as _expertise_, not anecdote.
-- Avoid "voiceless" framing; people resist in myriad ways — show that.
-- Imagery: dignified, relevant, non-exploitative.
-- If including distressing material, anchor it in systemic analysis, not spectacle.
+Avoid anonymising the powerful; protect the vulnerable. Avoid academic distancing: say "miners", not "human subjects". Name Indigenous, African, and local knowledge as _expertise_, not anecdote. Avoid "voiceless" framing; people resist in myriad ways — show that. Use imagery that is dignified, relevant, and non-exploitative. If including distressing material, anchor it in systemic analysis, not spectacle.
 
 ---
 
 ## 13. Source Policy
 
-- **Preferred:** UN agencies, investigative NGOs, local movements, peer-reviewed work, and credible journalists from the Global South.
-- **Avoid:** Unverified secondary blogs, partisan propaganda, and single-sourced claims.
-- **Verification:** Always cross-check at least two independent sources.
-- **Transparency:** Admit uncertainty when data are contested.
-- **Archival:** Preserve source copies to prevent link rot.
+**Preferred:** UN agencies, investigative NGOs, local movements, peer-reviewed work, and credible journalists from the Global South.
+**Avoid:** Unverified secondary blogs, partisan propaganda, and single-sourced claims.
+**Verification:** Try to cross-check at least two independent sources.
+**Transparency:** Admit uncertainty when data are contested.
+**Archival:** Preserve source copies to prevent link rot.
 
 ---
 
@@ -274,7 +245,7 @@ Articles should follow analytical logic rather than rigid structural formulas. C
 5. Future implications
 6. Call to action
 
-The key is maintaining analytical depth and political clarity while varying structural approaches to avoid formulaic patterns. Choose the structure that best serves your argument.
+The key is maintaining analytical depth and political clarity while varying structural approaches to avoid formulaic patterns. Choose the structure that best serves your argument; these are suggestions, not requirements.
 
 ---
 
@@ -283,7 +254,7 @@ The key is maintaining analytical depth and political clarity while varying stru
 > "To write is to resist forgetting.
 > To analyse is to fight despair with understanding."
 
-Every piece should:
+Aim for every piece to:
 
 - Name systems of domination.
 - Expose the machinery of empire — economic, legal, ecological.
@@ -297,9 +268,7 @@ This is **eco-socialist analysis in service of liberation.**
 
 ## 16. Maintenance and Evolution
 
-- Update this document quarterly as the project matures.
-- Revisit punctuation and tone conventions to maintain stylistic cohesion.
-- Archive old versions for transparency and accountability.
+Update this document as the project matures. Revisit punctuation and tone conventions to maintain stylistic cohesion. Archive old versions for transparency and accountability.
 
 ---
 

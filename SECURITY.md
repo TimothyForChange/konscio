@@ -1,4 +1,4 @@
-# Security Policy
+# 🛡️ Security Policy
 
 ## 🔒 Security Overview
 
@@ -8,13 +8,13 @@ At Timothy for Change, we take security seriously. This document outlines our se
 
 If you discover a security vulnerability in this project, please help us by reporting it responsibly.
 
-### How to Report
+### 📧 How to Report
 
 - **Email**: Send security reports to contact@timothyforchange.co.za
 - **Do NOT** create public GitHub issues for security vulnerabilities
 - **Do NOT** disclose vulnerabilities publicly until they have been addressed
 
-### What to Include
+### 📝 What to Include
 
 When reporting a security vulnerability, please include:
 
@@ -24,13 +24,13 @@ When reporting a security vulnerability, please include:
 - Any suggested fixes or mitigations
 - Your contact information for follow-up (optional)
 
-### Response Process
+### ⏳ Response Process
 
 Security reports will be reviewed and addressed as time permits. We appreciate your patience and responsible disclosure. Critical vulnerabilities will be prioritized and addressed promptly.
 
 ## 🛡️ Security Measures
 
-### Current Security Practices
+### 🔄 Current Security Practices
 
 - **Dependency Updates**: Dependencies are updated when possible
 - **Code Review**: Changes are reviewed before merging when feasible
@@ -39,26 +39,26 @@ Security reports will be reviewed and addressed as time permits. We appreciate y
 
 ## 🔧 Security Updates
 
-### Staying Informed
+### 📢 Staying Informed
 
 - Watch this repository for security advisories
 - Follow our social media for important updates
 - Subscribe to security mailing list (contact us to join)
 
-### Updating Dependencies
+### 🔄 Updating Dependencies
 
 We update dependencies to address security vulnerabilities when they become available and can be implemented.
 
 ## 📋 Vulnerability Classification
 
-### Severity Levels
+### ⚠️ Severity Levels
 
 - **Critical**: Immediate threat to user data or system integrity
 - **High**: Significant security risk with potential for exploitation
 - **Medium**: Security weakness with limited exploitation potential
 - **Low**: Minor security improvements needed
 
-### Disclosure Policy
+### 📣 Disclosure Policy
 
 - We follow responsible disclosure practices
 - Vulnerabilities will be addressed based on severity and available resources

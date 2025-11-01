@@ -1,14 +1,15 @@
-# Contributing to Timothy for Change
+# 🤝 Contributing to Timothy for Change
 
-Thank you for your interest in contributing to Timothy for Change! This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to Timothy for Change! 🌍 This document provides guidelines and information for contributors.
 
 ## 🌟 Ways to Contribute
 
 ### Content Contributions
 
-- **Writing Articles**: Submit blog posts on eco-socialist analysis, decolonial thought, and liberation from Africa and the Global South
+**Writing Articles**: Submit blog posts or articles on eco-socialist analysis, decolonial thought, and liberation from Africa and the Global South. We welcome contributions from other authors. Posts by other authors will be clearly attributed, with the author's name displayed prominently, and remain your content.
+
 - **Editing**: Help improve existing content for clarity, accuracy, and accessibility
-- **Translation**: Help translate content into other languages to reach broader audiences
+- **Other Languages**: We welcome blog posts and articles written in languages other than English. We do not accept translations of existing posts, but original content in any language is encouraged.
 
 ### Code Contributions
 
@@ -110,7 +111,8 @@ Types:
 1. Submit your content via Pull Request
 2. The maintainers will review for alignment with project goals
 3. Feedback will be provided if changes are needed
-4. Once approved, your content will be published
+4. Editorial changes may be suggested or made for clarity, consistency, and alignment with the platform’s mission, but your voice and intent will be respected
+5. Once approved, your content will be published
 
 ## 🤝 Code of Conduct
 

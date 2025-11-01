@@ -48,12 +48,12 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 If you experience or witness unacceptable behaviour, or have any other concerns:
 
-### Immediate Actions
+### ⏱️ Immediate Actions
 
 - **For urgent safety concerns**: Contact local authorities first
 - **For community violations**: Report to the maintainers
 
-### How to Report
+### 📧 How to Report
 
 - **GitHub Issues**: Create an issue with details
 - **Email**: Send reports to contact@timothyforchange.co.za
@@ -61,7 +61,7 @@ If you experience or witness unacceptable behaviour, or have any other concerns:
 
 All reports will be handled with discretion and confidentiality.
 
-### Response Process
+### ⏳ Response Process
 
 Reports will be reviewed and addressed as time permits. We appreciate your patience and will work to resolve issues appropriately.
 
@@ -76,7 +76,7 @@ Community leaders will review reported violations and take appropriate action ba
 
 Decisions will be made based on the severity of the violation and will prioritize the safety and well-being of community members.
 
-## � Appeals
+## 🗣️ Appeals
 
 If you believe a moderation decision was unfair, you may contact the maintainers to discuss the matter. We aim to handle appeals fairly and transparently.
 
