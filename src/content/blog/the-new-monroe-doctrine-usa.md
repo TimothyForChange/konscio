@@ -76,4 +76,4 @@ The strikes at sea and the talk of land targets reveal a broader truth: empire d
 
 Resisting this is not an excuse for illegal trafficking. It is a refusal to accept war as the primary instrument for social and political problems. Sovereignty, law, and human life must be valued above the convenience of a missile. Regional solidarity, independent investigation, and mass political pressure can still deny empires the legitimacy they seek.
 
-— In solidarity with every community that rejects the lie that order requires obedience to empire.
+— In solidarity with the fishers, workers, and peoples of the Americas who refuse to bow to empire.
