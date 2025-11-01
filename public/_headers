@@ -9,24 +9,3 @@
 
 /*.html
   Cache-Control: no-store, no-cache, must-revalidate, max-age=0
-
-/*.xml
-  Cache-Control: public, max-age=3600, must-revalidate
-
-/*.json
-  Cache-Control: public, max-age=3600, must-revalidate
-
-/*.jpg
-  Cache-Control: public, max-age=3600, must-revalidate
-
-/*.png
-  Cache-Control: public, max-age=3600, must-revalidate
-
-/*.svg
-  Cache-Control: public, max-age=3600, must-revalidate
-
-/*.ico
-  Cache-Control: public, max-age=3600, must-revalidate
-
-/*.webmanifest
-  Cache-Control: public, max-age=3600, must-revalidate
