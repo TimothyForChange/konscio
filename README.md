@@ -2,11 +2,11 @@
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/large.svg)](https://astro.build)
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T31HRCAR)
-
 For people and planet: eco-socialist analysis from Africa and the Global South.
 
 An Astro-powered blog exploring capitalism, colonialism, and climate collapse through a decolonial, eco-socialist lens. Written from South Africa, this site examines how liberation is impossible without dismantling the systems that exploit both people and the planet — and why a decolonised, eco-socialist future is not optional, but necessary.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T31HRCAR)
 
 ## 🌟 Features
 

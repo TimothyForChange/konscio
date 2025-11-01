@@ -26,27 +26,16 @@ const currentYear = new Date().getFullYear();
       <p class='privacy-link' data-astro-prefetch>
         <a href='/privacy-policy'>Privacy Policy</a>
       </p>
-      <div
-        id='wcb'
-        class='carbonbadge'
-        style='justify-content: flex-start; display: flex;'
-      >
+      <div class='kofi-support'>
+        <a href='https://ko-fi.com/T6T31HRCAR' target='_blank' rel='noopener'>
+          <img
+            height='36'
+            style='border:0px;height:36px;'
+            src='https://storage.ko-fi.com/cdn/kofi6.png?v=6'
+            alt='Buy Me a Coffee at ko-fi.com'
+          />
+        </a>
       </div>
-      <script
-        is:inline
-        src='https://unpkg.com/website-carbon-badges@1.1.3/b.min.js'
-        defer></script>
-      <script>
-        const theme = document.documentElement.dataset.theme;
-        const wcb = document.getElementById('wcb');
-        if (wcb) {
-          if (theme === 'dark') {
-            wcb.classList.add('wcb-d');
-          } else {
-            wcb.classList.remove('wcb-d');
-          }
-        }
-      </script>
     </div>
 
     <SocialLinks />
@@ -86,82 +75,19 @@ const currentYear = new Date().getFullYear();
     color: var(--color-text-muted);
   }
 
-  .carbonbadge {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 0.5rem 0 0 0;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    max-width: 100%;
-    overflow: visible;
+  .kofi-support {
+    margin-top: calc(var(--grid-unit) / 4);
   }
 
-  .carbonbadge .carbon-rating {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 0.25rem;
+  .kofi-support img {
+    border: none;
+    border-radius: 4px;
+    transition: opacity 0.2s ease;
   }
 
-  @media (max-width: 480px) {
-    .carbonbadge {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      margin: 0.5rem auto 0 auto;
-      padding: 0 0.5rem;
-      box-sizing: border-box;
-    }
-    .carbonbadge .carbon-rating {
-      margin-top: 0.25rem;
-      text-align: center;
-      width: auto;
-    }
-
-    #wcb {
-      width: 100%;
-      min-width: 0;
-      overflow: visible;
-      justify-content: center;
-      align-items: center;
-    }
-
-    #wcb .carbon-text,
-    #wcb .carbon-savings,
-    #wcb .carbon-footprint,
-    #wcb .carbon-annotation,
-    #wcb .wcb-text,
-    #wcb .carbon-badge-subtext,
-    #wcb .carbon-badge-text,
-    #wcb > span,
-    #wcb > div:not(.carbon-rating):not(a) {
-      display: block !important;
-      width: 100% !important;
-      text-align: center !important;
-      white-space: normal !important;
-      word-break: break-word !important;
-      font-size: 0.85rem !important;
-      line-height: 1.2 !important;
-      margin: 0.25rem 0 !important;
-    }
-  }
-
-  #wcb img,
-  #wcb iframe,
-  .carbonbadge img,
-  .carbonbadge iframe {
-    max-width: 100%;
-    height: auto !important;
-    transform: none !important;
-    display: block;
-  }
-
-  .carbonbadge .carbon-rating {
-    width: auto;
+  .kofi-support a:hover img,
+  .kofi-support a:focus img {
+    opacity: 0.8;
   }
 
   .copyright a,
@@ -172,24 +98,12 @@ const currentYear = new Date().getFullYear();
     font-weight: 500;
   }
 
-  .carbon-rating a {
-    color: var(--color-success, var(--color-accent));
-    text-decoration: underline;
-    font-weight: 500;
-  }
-
   .copyright a:hover,
   .copyright a:focus,
   .source-code a:hover,
   .source-code a:focus,
   .privacy-link a:hover,
   .privacy-link a:focus {
-    color: var(--color-text-primary);
-    text-decoration: none;
-  }
-
-  .carbon-rating a:hover,
-  .carbon-rating a:focus {
     color: var(--color-text-primary);
     text-decoration: none;
   }
