@@ -46,8 +46,7 @@
 
 - **MDX:** Supports embedded JSX in blog posts for rich content.
 - **Content Collections:** Astro's type-safe content system with Zod validation.
-- **Fontaine:** Optimizes self-hosted fonts from @fontsource packages.
-- **Shiki:** Syntax highlighting with cached highlighter in `src/utils/highlighter.ts`.
+- **Fontaine:** Optimizes self-hosted fonts.
 - **Remark Plugins:** Custom reading time calculation plugin.
 - **Build Optimizations:** Astro compressor (gzip/brotli/zstd), PurgeCSS, Playform Inline for minimal JS.
 - **RSS & Search:** Auto-generated RSS feed and JSON search index.
