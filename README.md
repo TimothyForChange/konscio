@@ -85,19 +85,8 @@ All site configuration is centralised in `src/config.ts`.
 
 Create blog posts as Markdown or MDX files in `src/content/blog/`. MDX files support embedded JSX for rich content:
 
-````markdown
-title: 'The Necessity of Decolonised Eco-Socialism'
-datePublished: '2024-01-15'
-dateModified: '2024-01-20'
-description: 'An in-depth analysis of why decolonised eco-socialism is essential for liberation'
-author: 'Timothy Brits'
-excerpt: 'Why liberation requires dismantling systems that exploit both people and planet'
-categories: ['Eco-Socialism', 'Decolonisation']
-tags: ['capitalism', 'colonialism', 'climate', 'liberation']
-image: '/decolonisation.jpg'
-
-### Contributing a New Article
-
+```markdown
+---
 title: 'Your Article Title'
 datePublished: 'YYYY-MM-DD'
 description: 'Brief SEO description'
@@ -106,14 +95,8 @@ excerpt: 'Short summary for listings'
 categories: ['Category1', 'Category2']
 tags: ['tag1', 'tag2']
 image: '/images/your-open-graph-image.jpg'
-title: 'Your Article Title'
-datePublished: 'YYYY-MM-DD'
-description: 'Brief SEO description'
-author: 'Your Name'
-excerpt: 'Short summary for listings'
-categories: ['Category1', 'Category2']
-tags: ['tag1', 'tag2']
-image: '/images/your-open-graph-image.jpg'
+---
+```
 
 We strongly encourage new blog posts and articles from all authors, especially those written in languages other than English. Original content in any language is welcome and valued. We do not accept translations of existing posts, but we celebrate linguistic diversity and encourage contributors to share perspectives in their own languages.
 

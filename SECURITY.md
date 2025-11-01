@@ -75,4 +75,4 @@ For security reports: contact@timothyforchange.co.za
 
 ---
 
-**Last Updated**: October 25, 2025
+**Last Updated**: November 1, 2025

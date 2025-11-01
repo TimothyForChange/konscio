@@ -8,15 +8,14 @@ Thank you for your interest in contributing to Timothy for Change! 🌍 This doc
 
 **Writing Articles**: Submit blog posts or articles on eco-socialist analysis, decolonial thought, and liberation from Africa and the Global South. We welcome contributions from other authors. Posts by other authors will be clearly attributed, with the author's name displayed prominently, and remain your content.
 
-- **Editing**: Help improve existing content for clarity, accuracy, and accessibility
+- **Editing**: Help improve existing content for clarity, accuracy, and accessibility.
 - **Other Languages**: We welcome blog posts and articles written in languages other than English. We do not accept translations of existing posts, but original content in any language is encouraged.
 
 ### Code Contributions
 
-- **Bug Fixes**: Report and fix issues in the codebase
-- **Feature Development**: Implement new features that align with the project's goals
-  **Other Languages**: We strongly encourage blog posts and articles written in languages other than English. Original content in any language is welcome and valued. We do not accept translations of existing posts, but we celebrate linguistic diversity and encourage contributors to share perspectives in their own languages.
-- **Testing**: Add tests and improve test coverage
+- **Bug Fixes**: Report and fix issues in the codebase.
+- **Feature Development**: Implement new features that align with the project's goals.
+- **Testing**: Add tests and improve test coverage.
 
 ## 📝 Content Guidelines
 
