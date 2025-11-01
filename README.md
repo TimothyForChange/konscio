@@ -145,7 +145,8 @@ npm run build
 # Preview the build locally
 npm run preview
 ```
-````
+
+```
 
 ## 🤝 Contributing
 
@@ -189,3 +190,4 @@ Unless otherwise noted, code is MIT and content is CC0 1.0 Universal by default.
 - Fonts by [Fontsource](https://fontsource.org/)
 - Theme based on [Volks-Typo](https://github.com/jdrhyne/volks-typo), created by [jdrhyne](https://github.com/jdrhyne)
 - Inspired by the urgent need for decolonial, eco-socialist transformation
+```
