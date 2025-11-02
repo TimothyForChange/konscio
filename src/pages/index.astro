@@ -402,6 +402,24 @@ const sortedPosts = allPosts
     margin-bottom: calc(var(--grid-unit) * 1.5);
   }
 
+  .blog-post-date::before {
+    content: '•';
+    display: inline-block;
+    margin: 0 calc(var(--grid-unit) / 2) 0 0;
+    color: var(--color-border);
+  }
+
+  .blog-post-meta > * {
+    display: inline-flex;
+    align-items: center;
+    gap: calc(var(--grid-unit) / 2);
+  }
+
+  .blog-post-date,
+  .blog-post-reading-time {
+    font-variant-numeric: tabular-nums;
+  }
+
   .blog-post-date {
     font-family: var(--font-mono);
     font-size: 0.85rem;

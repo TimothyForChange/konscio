@@ -190,6 +190,24 @@ const sortedPosts = allPosts
     margin-bottom: calc(var(--grid-unit) * 2);
   }
 
+  .post-date::before {
+    content: '•';
+    display: inline-block;
+    margin: 0 calc(var(--grid-unit) / 2) 0 0;
+    color: var(--color-border);
+  }
+
+  .post-meta > * {
+    display: inline-flex;
+    align-items: center;
+    gap: calc(var(--grid-unit) / 2);
+  }
+
+  .post-date,
+  .post-reading-time {
+    font-variant-numeric: tabular-nums;
+  }
+
   .post-date {
     font-family: var(--font-mono);
     font-size: 0.9rem;
