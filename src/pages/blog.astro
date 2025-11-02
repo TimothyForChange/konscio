@@ -22,26 +22,26 @@ const sortedPosts = allPosts
 ---
 
 <Layout
-  title='Blog | Timothy for Change'
-  description='All blog posts from Timothy for Change'
+  title="Blog | Timothy for Change"
+  description="All blog posts from Timothy for Change"
 >
-  <div class='blog-page'>
-    <header class='blog-header'>
-      <h1 class='blog-title'>Blog</h1>
-      <p class='blog-description'>
+  <div class="blog-page">
+    <header class="blog-header">
+      <h1 class="blog-title">Blog</h1>
+      <p class="blog-description">
         Critical eco-socialist and decolonial analysis from Africa and the
         Global South — exposing the systems that exploit both people and the
         planet.
       </p>
-      <hr class='blog-rule' />
+      <hr class="blog-rule" />
     </header>
 
     {
       sortedPosts.length > 0 ? (
-        <div class='posts-list'>
+        <div class="posts-list">
           {sortedPosts.map((post: any) => (
-            <article class='post-item'>
-              <h2 class='post-title'>
+            <article class="post-item">
+              <h2 class="post-title">
                 <a
                   href={`${base}blog/${slugifyPath(post.file)}`}
                   data-astro-prefetch
@@ -50,9 +50,9 @@ const sortedPosts = allPosts
                 </a>
               </h2>
 
-              <div class='post-meta'>
+              <div class="post-meta">
                 <time
-                  class='post-date'
+                  class="post-date"
                   datetime={post.frontmatter.datePublished}
                 >
                   {new Date(post.frontmatter.datePublished).toLocaleDateString(
@@ -66,22 +66,22 @@ const sortedPosts = allPosts
                 </time>
 
                 {post.frontmatter.author && (
-                  <span class='post-author'>By {post.frontmatter.author}</span>
+                  <span class="post-author">By {post.frontmatter.author}</span>
                 )}
 
-                <span class='post-reading-time'>
+                <span class="post-reading-time">
                   {post.frontmatter.minutesRead}
                 </span>
               </div>
 
               {post.frontmatter.excerpt && (
-                <p class='post-excerpt'>{post.frontmatter.excerpt}</p>
+                <p class="post-excerpt">{post.frontmatter.excerpt}</p>
               )}
 
               {post.frontmatter.categories && (
-                <div class='post-categories'>
+                <div class="post-categories">
                   {post.frontmatter.categories.map((category: string) => (
-                    <span class='category'>{category}</span>
+                    <span class="category">{category}</span>
                   ))}
                 </div>
               )}
@@ -89,7 +89,7 @@ const sortedPosts = allPosts
               <a
                 href={`${base}blog/${slugifyPath(post.file)}`}
                 data-astro-prefetch
-                class='read-more'
+                class="read-more"
               >
                 Read More →
               </a>
@@ -97,7 +97,7 @@ const sortedPosts = allPosts
           ))}
         </div>
       ) : (
-        <div class='no-posts'>
+        <div class="no-posts">
           <p>
             No posts available yet. Start writing by creating files in{" "}
             <code>src/pages/blog/</code>

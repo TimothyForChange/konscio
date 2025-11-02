@@ -8,44 +8,44 @@ const pageDescription = `Learn more about ${author.name} and the ${title} blog`;
 ---
 
 <Layout title={`About | ${title}`} description={pageDescription}>
-  <div class='about-page'>
-    <header class='page-header'>
-      <h1 class='page-title'>About</h1>
-      <hr class='page-rule' />
+  <div class="about-page">
+    <header class="page-header">
+      <h1 class="page-title">About</h1>
+      <hr class="page-rule" />
     </header>
 
-    <div class='author-section'>
-      <div class='author-avatar'>
+    <div class="author-section">
+      <div class="author-avatar">
         {
           author.avatar ? (
             <img src={author.avatar} alt={author.name} />
           ) : (
-            <div class='avatar-placeholder'>
+            <div class="avatar-placeholder">
               <svg
-                viewBox='0 0 80 80'
-                fill='none'
-                xmlns='http://www.w3.org/2000/svg'
+                viewBox="0 0 80 80"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <defs>
-                  <clipPath id='circleClip'>
-                    <circle cx='40' cy='40' r='39' />
+                  <clipPath id="circleClip">
+                    <circle cx="40" cy="40" r="39" />
                   </clipPath>
                 </defs>
-                <g clip-path='url(#circleClip)'>
+                <g clip-path="url(#circleClip)">
                   <ellipse
-                    cx='40'
-                    cy='28'
-                    rx='13'
-                    ry='15'
-                    fill='currentColor'
+                    cx="40"
+                    cy="28"
+                    rx="13"
+                    ry="15"
+                    fill="currentColor"
                   />
                   <path
-                    d='M33 40 Q33 44 35 46 L45 46 Q47 44 47 40 Z'
-                    fill='currentColor'
+                    d="M33 40 Q33 44 35 46 L45 46 Q47 44 47 40 Z"
+                    fill="currentColor"
                   />
                   <path
-                    d='M35 46 Q28 48 22 54 Q16 60 14 70 L14 80 L66 80 L66 70 Q64 60 58 54 Q52 48 45 46 Z'
-                    fill='currentColor'
+                    d="M35 46 Q28 48 22 54 Q16 60 14 70 L14 80 L66 80 L66 70 Q64 60 58 54 Q52 48 45 46 Z"
+                    fill="currentColor"
                   />
                 </g>
               </svg>
@@ -53,13 +53,13 @@ const pageDescription = `Learn more about ${author.name} and the ${title} blog`;
           )
         }
       </div>
-      <h2 class='author-name'>{author.name}</h2>
-      <p class='author-bio'>{author.bio}</p>
+      <h2 class="author-name">{author.name}</h2>
+      <p class="author-bio">{author.bio}</p>
 
       <SocialLinks size={28} />
     </div>
 
-    <div class='content-section'>
+    <div class="content-section">
       <h2>Political Mission</h2>
       <p>{description}</p>
 

@@ -22,19 +22,19 @@ const recentPosts = allPosts
 
 {
   recentPosts.length > 0 && (
-    <section class='recent-posts'>
-      <h3 class='section-title'>Recent Posts</h3>
-      <ul class='post-list'>
+    <section class="recent-posts">
+      <h3 class="section-title">Recent Posts</h3>
+      <ul class="post-list">
         {recentPosts.map((post) => (
-          <li class='post-item'>
+          <li class="post-item">
             <a
               href={`${base}blog/${slugifyPath(post.file)}`}
               data-astro-prefetch
-              class='post-link'
+              class="post-link"
             >
               {post.frontmatter.title}
             </a>
-            <time class='post-date' datetime={post.frontmatter.datePublished}>
+            <time class="post-date" datetime={post.frontmatter.datePublished}>
               {new Date(post.frontmatter.datePublished).toLocaleDateString(
                 "en-GB",
                 {

@@ -9,18 +9,18 @@ interface Props {
 const { size = 20 } = Astro.props;
 ---
 
-<div class='social-links'>
+<div class="social-links">
   {
     config.social.github && (
       <a
         href={config.social.github}
-        target='_blank'
-        rel='noopener noreferrer'
-        aria-label='GitHub'
-        title='GitHub'
-        class='social-link'
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GitHub"
+        title="GitHub"
+        class="social-link"
       >
-        <Icon name='github-fill' size={size} class='social-icon' />
+        <Icon name="github-fill" size={size} class="social-icon" />
       </a>
     )
   }
@@ -29,13 +29,13 @@ const { size = 20 } = Astro.props;
     config.social.instagram && (
       <a
         href={config.social.instagram}
-        target='_blank'
-        rel='noopener noreferrer'
-        aria-label='Instagram'
-        title='Instagram'
-        class='social-link'
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram"
+        title="Instagram"
+        class="social-link"
       >
-        <Icon name='instagram-fill' size={size} class='social-icon' />
+        <Icon name="instagram-fill" size={size} class="social-icon" />
       </a>
     )
   }
@@ -44,13 +44,13 @@ const { size = 20 } = Astro.props;
     config.social.threads && (
       <a
         href={config.social.threads}
-        target='_blank'
-        rel='noopener noreferrer'
-        aria-label='Threads'
-        title='Threads'
-        class='social-link'
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Threads"
+        title="Threads"
+        class="social-link"
       >
-        <Icon name='threads-fill' size={size} class='social-icon' />
+        <Icon name="threads-fill" size={size} class="social-icon" />
       </a>
     )
   }
@@ -59,11 +59,11 @@ const { size = 20 } = Astro.props;
     config.social.email && (
       <a
         href={`mailto:${config.social.email}`}
-        aria-label='Email'
-        title='Email'
-        class='social-link'
+        aria-label="Email"
+        title="Email"
+        class="social-link"
       >
-        <Icon name='mail-fill' size={size} class='social-icon' />
+        <Icon name="mail-fill" size={size} class="social-icon" />
       </a>
     )
   }
@@ -72,13 +72,13 @@ const { size = 20 } = Astro.props;
     config.social.kofi && (
       <a
         href={config.social.kofi}
-        target='_blank'
-        rel='noopener noreferrer'
-        aria-label='Ko-fi'
-        title='Ko-fi'
-        class='social-link'
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Ko-fi"
+        title="Ko-fi"
+        class="social-link"
       >
-        <Icon name='cup-fill' size={size} class='social-icon' />
+        <Icon name="cup-fill" size={size} class="social-icon" />
       </a>
     )
   }

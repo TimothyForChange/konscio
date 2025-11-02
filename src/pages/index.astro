@@ -28,29 +28,29 @@ const sortedPosts = allPosts
 ---
 
 <Layout
-  title='Timothy for Change: For People And Planet'
-  description='Eco-socialist and decolonial analysis from Africa and the Global South — exposing the systems that exploit both people and planet.'
+  title="Timothy for Change: For People And Planet"
+  description="Eco-socialist and decolonial analysis from Africa and the Global South — exposing the systems that exploit both people and planet."
   showSidebar={false}
 >
-  <div class='landing-page'>
-    <section class='hero'>
-      <div class='hero-content'>
-        <h1 class='hero-title'>Timothy for Change</h1>
-        <p class='hero-subtitle'>For People And Planet</p>
-        <p class='hero-description'>
+  <div class="landing-page">
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Timothy for Change</h1>
+        <p class="hero-subtitle">For People And Planet</p>
+        <p class="hero-description">
           Eco-socialist analysis from Africa and the Global South.
         </p>
-        <hr class='hero-rule' />
-        <div class='hero-actions'>
-          <a href='#posts' class='btn btn-primary'>View Posts</a>
+        <hr class="hero-rule" />
+        <div class="hero-actions">
+          <a href="#posts" class="btn btn-primary">View Posts</a>
         </div>
       </div>
     </section>
 
-    <section class='blog-section' id='posts'>
-      <div class='container'>
-        <h2 class='section-title'>Blog Posts</h2>
-        <p class='blog-description'>
+    <section class="blog-section" id="posts">
+      <div class="container">
+        <h2 class="section-title">Blog Posts</h2>
+        <p class="blog-description">
           Critical eco-socialist and decolonial analysis from Africa and the
           Global South — exposing the systems that exploit both people and the
           planet.
@@ -58,18 +58,18 @@ const sortedPosts = allPosts
 
         {
           sortedPosts.length > 0 && (
-            <div class='blog-posts'>
+            <div class="blog-posts">
               {sortedPosts.map((post) => (
-                <article class='blog-post-card'>
-                  <h3 class='blog-post-title'>
+                <article class="blog-post-card">
+                  <h3 class="blog-post-title">
                     <a href={`/blog/${post.slug}`} data-astro-prefetch>
                       {post.frontmatter.title}
                     </a>
                   </h3>
 
-                  <div class='blog-post-meta'>
+                  <div class="blog-post-meta">
                     <time
-                      class='blog-post-date'
+                      class="blog-post-date"
                       datetime={post.frontmatter.datePublished}
                     >
                       {new Date(
@@ -81,19 +81,19 @@ const sortedPosts = allPosts
                       })}
                     </time>
 
-                    <span class='blog-post-reading-time'>
+                    <span class="blog-post-reading-time">
                       {post.frontmatter.minutesRead}
                     </span>
                   </div>
 
                   {post.frontmatter.excerpt && (
-                    <p class='blog-post-excerpt'>{post.frontmatter.excerpt}</p>
+                    <p class="blog-post-excerpt">{post.frontmatter.excerpt}</p>
                   )}
 
                   {post.frontmatter.categories && (
-                    <div class='blog-post-categories'>
+                    <div class="blog-post-categories">
                       {post.frontmatter.categories.map((category: string) => (
-                        <span class='blog-category'>{category}</span>
+                        <span class="blog-category">{category}</span>
                       ))}
                     </div>
                   )}
@@ -103,63 +103,63 @@ const sortedPosts = allPosts
           )
         }
 
-        <div class='blog-actions'>
+        <div class="blog-actions">
           <a
             href={`${import.meta.env.BASE_URL}blog`}
             data-astro-prefetch
-            class='btn btn-primary'>View Blog</a
+            class="btn btn-primary">View Blog</a
           >
         </div>
       </div>
     </section>
 
-    <section class='features' id='features'>
-      <div class='container'>
-        <h2 class='section-title'>Theoretical Foundations</h2>
-        <div class='theoretical-foundations-grid'>
-          <div class='theoretical-foundations-card'>
-            <h3 class='theoretical-foundations-title'>
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section-title">Theoretical Foundations</h2>
+        <div class="theoretical-foundations-grid">
+          <div class="theoretical-foundations-card">
+            <h3 class="theoretical-foundations-title">
               Historical Materialism
             </h3>
-            <p class='theoretical-foundations-description'>
+            <p class="theoretical-foundations-description">
               Understanding the present through the forces and relations of
               production — how material conditions, not moral ideals, shape
               society.
             </p>
           </div>
-          <div class='theoretical-foundations-card'>
-            <h3 class='theoretical-foundations-title'>Decoloniality</h3>
-            <p class='theoretical-foundations-description'>
+          <div class="theoretical-foundations-card">
+            <h3 class="theoretical-foundations-title">Decoloniality</h3>
+            <p class="theoretical-foundations-description">
               Exposing how colonial power structures persist beyond formal
               empire — in economy, culture, and knowledge.
             </p>
           </div>
-          <div class='theoretical-foundations-card'>
-            <h3 class='theoretical-foundations-title'>Eco-Socialism</h3>
-            <p class='theoretical-foundations-description'>
+          <div class="theoretical-foundations-card">
+            <h3 class="theoretical-foundations-title">Eco-Socialism</h3>
+            <p class="theoretical-foundations-description">
               Linking human liberation with ecological survival. The fight for
               climate justice is inseparable from dismantling capitalism.
             </p>
           </div>
-          <div class='theoretical-foundations-card'>
-            <h3 class='theoretical-foundations-title'>Anti-Imperialism</h3>
-            <p class='theoretical-foundations-description'>
+          <div class="theoretical-foundations-card">
+            <h3 class="theoretical-foundations-title">Anti-Imperialism</h3>
+            <p class="theoretical-foundations-description">
               Centering the Global South's struggle against military, economic,
               and ideological domination by imperial powers.
             </p>
           </div>
-          <div class='theoretical-foundations-card'>
-            <h3 class='theoretical-foundations-title'>
+          <div class="theoretical-foundations-card">
+            <h3 class="theoretical-foundations-title">
               Global South Perspective
             </h3>
-            <p class='theoretical-foundations-description'>
+            <p class="theoretical-foundations-description">
               Writing from Africa for the world — reclaiming narrative space
               from Western academia and media.
             </p>
           </div>
-          <div class='theoretical-foundations-card'>
-            <h3 class='theoretical-foundations-title'>Praxis Over Theory</h3>
-            <p class='theoretical-foundations-description'>
+          <div class="theoretical-foundations-card">
+            <h3 class="theoretical-foundations-title">Praxis Over Theory</h3>
+            <p class="theoretical-foundations-description">
               Ideas matter only when they serve struggle. Thought must guide
               action, not become a substitute for it.
             </p>

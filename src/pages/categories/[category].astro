@@ -58,20 +58,20 @@ const base = config.baseUrl;
   title={`${category} - Timothy for Change`}
   description={`All posts in the ${category} category`}
 >
-  <div class='category-page'>
-    <header class='page-header'>
-      <h1 class='page-title'>{category}</h1>
-      <p class='page-description'>
+  <div class="category-page">
+    <header class="page-header">
+      <h1 class="page-title">{category}</h1>
+      <p class="page-description">
         {posts.length} article{posts.length === 1 ? "" : "s"} in this category
       </p>
-      <hr class='page-rule' />
+      <hr class="page-rule" />
     </header>
 
-    <div class='posts-list'>
+    <div class="posts-list">
       {
         posts.map((post: any) => (
-          <article class='post-item'>
-            <h2 class='post-title'>
+          <article class="post-item">
+            <h2 class="post-title">
               <a
                 href={`${base}blog/${slugifyPath(post.file)}`}
                 data-astro-prefetch
@@ -80,8 +80,8 @@ const base = config.baseUrl;
               </a>
             </h2>
 
-            <div class='post-meta'>
-              <time class='post-date' datetime={post.frontmatter.datePublished}>
+            <div class="post-meta">
+              <time class="post-date" datetime={post.frontmatter.datePublished}>
                 {new Date(post.frontmatter.datePublished).toLocaleDateString(
                   "en-GB",
                   {
@@ -94,13 +94,13 @@ const base = config.baseUrl;
             </div>
 
             {post.frontmatter.excerpt && (
-              <p class='post-excerpt'>{post.frontmatter.excerpt}</p>
+              <p class="post-excerpt">{post.frontmatter.excerpt}</p>
             )}
 
             <a
               href={`${base}blog/${slugifyPath(post.file)}`}
               data-astro-prefetch
-              class='read-more'
+              class="read-more"
             >
               Read More →
             </a>
@@ -109,8 +109,8 @@ const base = config.baseUrl;
       }
     </div>
 
-    <div class='page-navigation'>
-      <a href={`${base}categories`} data-astro-prefetch class='back-link'
+    <div class="page-navigation">
+      <a href={`${base}categories`} data-astro-prefetch class="back-link"
         >← Back to All Categories</a
       >
     </div>

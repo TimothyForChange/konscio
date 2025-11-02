@@ -11,6 +11,7 @@ const allPosts = [
 ].filter(
   (post: any) => post && post.frontmatter && !post.frontmatter.draft
 ) as any[];
+
 const categories = [
   ...new Set(
     allPosts.flatMap((post: any) => post.frontmatter?.categories || [])
@@ -20,15 +21,15 @@ const categories = [
 
 {
   categories.length > 0 && (
-    <section class='categories'>
-      <h3 class='section-title'>Categories</h3>
-      <ul class='category-list'>
+    <section class="categories">
+      <h3 class="section-title">Categories</h3>
+      <ul class="category-list">
         {categories.map((category) => (
-          <li class='category-item'>
+          <li class="category-item">
             <a
               href={`${base}/categories/${category.toLowerCase()}`}
               data-astro-prefetch
-              class='category-link'
+              class="category-link"
             >
               {category}
             </a>

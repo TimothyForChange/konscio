@@ -52,17 +52,17 @@ const dateModified = frontmatter.dateModified
 <Layout
   title={pageTitle}
   description={frontmatter.description || frontmatter.excerpt}
-  type='article'
+  type="article"
   datePublished={datePublished}
   dateModified={dateModified}
   image={frontmatter.image}
 >
-  <article class='blog-post'>
-    <header class='post-header'>
-      <h1 class='post-title'>{frontmatter.title}</h1>
+  <article class="blog-post">
+    <header class="post-header">
+      <h1 class="post-title">{frontmatter.title}</h1>
 
-      <div class='post-meta'>
-        <time class='post-date' datetime={frontmatter.datePublished}>
+      <div class="post-meta">
+        <time class="post-date" datetime={frontmatter.datePublished}>
           {
             new Date(frontmatter.datePublished).toLocaleDateString("en-GB", {
               year: "numeric",
@@ -74,20 +74,20 @@ const dateModified = frontmatter.dateModified
 
         {
           frontmatter.author && (
-            <span class='post-author'>By {frontmatter.author}</span>
+            <span class="post-author">By {frontmatter.author}</span>
           )
         }
 
-        <span class='post-reading-time'>{frontmatter.minutesRead}</span>
+        <span class="post-reading-time">{frontmatter.minutesRead}</span>
 
         {
           frontmatter.categories && frontmatter.categories.length > 0 && (
-            <div class='post-categories'>
+            <div class="post-categories">
               {frontmatter.categories.map((category: string) => (
                 <a
                   href={`${base}categories/${category.toLowerCase()}`}
                   data-astro-prefetch
-                  class='category-tag'
+                  class="category-tag"
                 >
                   {category}
                 </a>
@@ -97,25 +97,25 @@ const dateModified = frontmatter.dateModified
         }
       </div>
 
-      {frontmatter.excerpt && <p class='post-excerpt'>{frontmatter.excerpt}</p>}
+      {frontmatter.excerpt && <p class="post-excerpt">{frontmatter.excerpt}</p>}
 
-      <hr class='monumental-rule' />
+      <hr class="monumental-rule" />
     </header>
 
     <TableOfContents headings={tocHeadings} />
 
-    <div class='post-content'>
+    <div class="post-content">
       <Content />
     </div>
 
-    <footer class='post-footer'>
+    <footer class="post-footer">
       {
         frontmatter.tags && frontmatter.tags.length > 0 && (
-          <div class='post-tags'>
-            <span class='tags-label'>Tags:</span>
-            <div class='tag-list'>
+          <div class="post-tags">
+            <span class="tags-label">Tags:</span>
+            <div class="tag-list">
               {frontmatter.tags.map((tag: string) => (
-                <span class='tag'>{tag}</span>
+                <span class="tag">{tag}</span>
               ))}
             </div>
           </div>
@@ -124,7 +124,7 @@ const dateModified = frontmatter.dateModified
 
       {
         frontmatter.dateModified && (
-          <div class='post-modified-date'>
+          <div class="post-modified-date">
             <span>Last modified: </span>
             <time datetime={frontmatter.dateModified}>
               {new Date(frontmatter.dateModified).toLocaleDateString("en-GB", {
@@ -137,8 +137,8 @@ const dateModified = frontmatter.dateModified
         )
       }
 
-      <div class='post-navigation'>
-        <a href={`${base}blog`} data-astro-prefetch class='back-to-blog'
+      <div class="post-navigation">
+        <a href={`${base}blog`} data-astro-prefetch class="back-to-blog"
           >← Back to Blog</a
         >
       </div>

@@ -39,31 +39,31 @@ const sortedCategories = Object.entries(categoryMap).sort((a: any, b: any) => {
 ---
 
 <Layout
-  title='Categories - Timothy for Change'
-  description='Browse articles by category'
+  title="Categories - Timothy for Change"
+  description="Browse articles by category"
   showSidebar={true}
 >
-  <div class='categories-page'>
-    <header class='page-header'>
-      <h1 class='page-title'>Categories</h1>
-      <p class='page-description'>
+  <div class="categories-page">
+    <header class="page-header">
+      <h1 class="page-title">Categories</h1>
+      <p class="page-description">
         Browse articles organized by category. Click on any category to see
         related posts.
       </p>
-      <hr class='page-rule' />
+      <hr class="page-rule" />
     </header>
 
-    <div class='categories-grid'>
+    <div class="categories-grid">
       {
         sortedCategories.map(([category, posts]: [string, any[]]) => (
-          <div class='category-card'>
+          <div class="category-card">
             <a
               href={`${base}categories/${category.toLowerCase().replace(/[\/\s]+/g, "-")}`}
               data-astro-prefetch
-              class='category-link'
+              class="category-link"
             >
-              <h2 class='category-title'>{category}</h2>
-              <p class='category-count'>
+              <h2 class="category-title">{category}</h2>
+              <p class="category-count">
                 {posts.length} article{posts.length === 1 ? "" : "s"}
               </p>
             </a>
@@ -74,7 +74,7 @@ const sortedCategories = Object.entries(categoryMap).sort((a: any, b: any) => {
 
     {
       sortedCategories.length === 0 && (
-        <div class='no-categories'>
+        <div class="no-categories">
           <p>
             No categories found. Add categories to your blog posts in the
             frontmatter.
