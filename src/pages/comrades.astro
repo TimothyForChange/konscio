@@ -19,6 +19,24 @@ import Layout from '../components/Layout.astro';
     <section class='solidarity-section'>
       <ul class='solidarity-list'>
         <li class='solidarity-item'>
+          <strong>African Climate Alliance</strong>
+          <p>
+            Youth-led South African movement fighting climate injustice,
+            extractivism, and inequality through intersectional activism and
+            direct action.
+          </p>
+          <a
+            href='https://www.africanclimatealliance.org'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+            aria-label='African Climate Alliance website — opens in a new tab'
+          >
+            Website
+          </a>
+        </li>
+
+        <li class='solidarity-item'>
           <strong>Alternative Information and Development Centre (AIDC)</strong>
           <p>
             Based in Cape Town. Links social justice struggles with ecological
@@ -31,6 +49,24 @@ import Layout from '../components/Layout.astro';
             target='_blank'
             rel='noopener'
             aria-label='AIDC website — opens in a new tab'
+          >
+            Website
+          </a>
+        </li>
+
+        <li class='solidarity-item'>
+          <strong>Climate Justice Alliance (CJA)</strong>
+          <p>
+            A network of frontline communities and organisations in the U.S.
+            advancing a just transition from extractive industries to
+            regenerative, democratic economies.
+          </p>
+          <a
+            href='https://climatejusticealliance.org'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+            aria-label='Climate Justice Alliance website — opens in a new tab'
           >
             Website
           </a>
@@ -71,17 +107,18 @@ import Layout from '../components/Layout.astro';
         </li>
 
         <li class='solidarity-item'>
-          <strong>Just Transition Fund</strong>
+          <strong>La Via Campesina</strong>
           <p>
-            Supports workers and communities building democratic economies
-            beyond fossil fuels across the United States.
+            International peasant movement uniting millions of small farmers and
+            landless workers for food sovereignty, agrarian reform, and
+            ecological socialism.
           </p>
           <a
-            href='https://justtransitionfund.org'
+            href='https://viacampesina.org/en/'
             class='solidarity-link'
             target='_blank'
             rel='noopener'
-            aria-label='Just Transition Fund website — opens in a new tab'
+            aria-label='La Via Campesina website — opens in a new tab'
           >
             Website
           </a>
@@ -157,6 +194,24 @@ import Layout from '../components/Layout.astro';
         </li>
 
         <li class='solidarity-item'>
+          <strong>Trade Unions for Energy Democracy (TUED)</strong>
+          <p>
+            Global trade union network promoting democratic control of energy
+            systems, public ownership, and a just transition beyond fossil
+            fuels.
+          </p>
+          <a
+            href='https://www.tuedglobal.org'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+            aria-label='Trade Unions for Energy Democracy website — opens in a new tab'
+          >
+            Website
+          </a>
+        </li>
+
+        <li class='solidarity-item'>
           <strong>Zabalaza for Socialism (South Africa)</strong>
           <p>
             Ecosocialist and feminist organisation working against extractivism
@@ -179,7 +234,6 @@ import Layout from '../components/Layout.astro';
 </Layout>
 
 <style>
-  /* unchanged */
   .solidarity-page {
     max-width: 800px;
     margin: 0 auto;
@@ -187,18 +241,18 @@ import Layout from '../components/Layout.astro';
 
   .page-header {
     text-align: center;
-    margin-bottom: calc(var(--grid-unit) * 6);
+    margin-bottom: calc(var(--grid-unit) * 8);
   }
 
   .page-title {
     font-family: var(--font-heading-primary);
     font-size: 3.5rem;
-    font-weight: 700;
+    font-weight: 900;
     color: var(--color-accent);
     text-transform: uppercase;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.05em;
     line-height: 1.1;
-    margin-bottom: calc(var(--grid-unit) * 4);
+    margin-bottom: calc(var(--grid-unit) * 3);
   }
 
   .page-rule {
@@ -206,7 +260,7 @@ import Layout from '../components/Layout.astro';
     background-color: var(--color-accent);
     border: none;
     width: 120px;
-    margin: 0 auto;
+    margin: calc(var(--grid-unit) * 2) auto;
   }
 
   .solidarity-intro {
@@ -214,14 +268,14 @@ import Layout from '../components/Layout.astro';
     line-height: 1.6;
     color: var(--color-text-secondary);
     max-width: 600px;
-    margin: 0 auto calc(var(--grid-unit) * 4);
+    margin: 0 auto calc(var(--grid-unit) * 6);
   }
 
   .solidarity-section {
-    margin-top: calc(var(--grid-unit) * 8);
+    margin-top: calc(var(--grid-unit) * 6);
     background: var(--color-surface);
     border-radius: calc(var(--grid-unit));
-    padding: calc(var(--grid-unit) * 6) calc(var(--grid-unit) * 4);
+    padding: calc(var(--grid-unit) * 4) calc(var(--grid-unit) * 4);
   }
 
   .solidarity-list {
@@ -232,22 +286,31 @@ import Layout from '../components/Layout.astro';
 
   .solidarity-item {
     margin-bottom: calc(var(--grid-unit) * 4);
+    padding: calc(var(--grid-unit) * 3) 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .solidarity-item:last-child {
+    border-bottom: none;
   }
 
   .solidarity-link {
     display: inline-block;
     margin-top: calc(var(--grid-unit) * 2);
-    padding: 0.5em 1.5em;
+    padding: calc(var(--grid-unit) * 1.5) calc(var(--grid-unit) * 3);
     background: var(--color-accent);
     color: #fff;
-    border-radius: calc(var(--grid-unit) / 2);
+    border-radius: 4px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
     transition:
       background 0.2s,
       color 0.2s,
       transform 0.2s,
       border 0.2s;
+    font-family: var(--font-heading-secondary);
   }
 
   .solidarity-link:hover,
