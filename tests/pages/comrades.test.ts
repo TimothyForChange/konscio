@@ -21,10 +21,11 @@ describe("comrades.astro", () => {
   it("contains category navigation with anchors", () => {
     const anchors = [
       "#south-africa-and-the-continent",
-      "#global-south-solidarity-and-agrarian-movements",
-      "#labour-energy-and-economic-justice",
+      "#global-south-solidarity-and-anti-imperialism",
+      "#peasant-movements-and-food-sovereignty",
+      "#international-labour-and-energy-democracy",
+      "#community-organising-and-solidarity-economy",
       "#indigenous-resistance-and-land-back",
-      "#mutual-aid-and-community-solidarity",
     ];
     anchors.forEach((anchor) => {
       expect(pageContent).toContain(`href="${anchor}"`);
@@ -35,7 +36,6 @@ describe("comrades.astro", () => {
     const titles = [
       "African Climate Alliance",
       "Community Movement Builders",
-      "Mutual Aid Disaster Relief",
       "Philly Thrive",
       "La Via Campesina",
       "Cooperation Jackson",
@@ -74,7 +74,7 @@ describe("comrades.astro", () => {
     const categoryHeadings = (
       pageContent.match(/class="category-title"/g) || []
     ).length;
-    expect(categoryHeadings).toBe(5);
+    expect(categoryHeadings).toBe(6);
   });
 
   it("has navigation element with proper aria-label", () => {
@@ -86,10 +86,11 @@ describe("comrades.astro", () => {
   it("defines all category section IDs", () => {
     const ids = [
       "south-africa-and-the-continent",
-      "global-south-solidarity-and-agrarian-movements",
-      "labour-energy-and-economic-justice",
+      "global-south-solidarity-and-anti-imperialism",
+      "peasant-movements-and-food-sovereignty",
+      "international-labour-and-energy-democracy",
+      "community-organising-and-solidarity-economy",
       "indigenous-resistance-and-land-back",
-      "mutual-aid-and-community-solidarity",
     ];
     ids.forEach((id) => {
       expect(pageContent).toContain(`id="${id}"`);
