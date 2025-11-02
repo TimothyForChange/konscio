@@ -40,11 +40,15 @@ const { base } = Astro.props;
     right: 0;
     bottom: 0;
     background-color: var(--color-background);
-    z-index: 99;
+    z-index: 101;
     transform: translateX(-100%);
     transition: transform 0.3s ease;
     overflow-y: auto;
-    padding-top: calc(var(--grid-unit) * 12);
+    padding-top: max(
+      calc(var(--grid-unit) * 12),
+      env(safe-area-inset-top),
+      constant(safe-area-inset-top)
+    );
   }
 
   .mobile-menu.active {
