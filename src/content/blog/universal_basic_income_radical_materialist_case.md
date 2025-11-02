@@ -68,7 +68,7 @@ Neoliberal stabilisation works this way: manage unrest with cash transfers, priv
 
 ---
 
-## **What an Ecosocial UBI Would Look Like**
+## What an Ecosocial UBI Would Look Like
 
 To be liberatory, UBI must be embedded in **a wider ecosocial programme** that democratises ownership, decarbonises production and restores the commons.
 
