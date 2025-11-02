@@ -52,9 +52,9 @@ describe("HeaderMobileMenu.astro", () => {
     );
     const componentContent = readFileSync(componentPath, "utf-8");
 
-    expect(componentContent).toContain("<nav class='mobile-menu'");
-    expect(componentContent).toContain("aria-label='Mobile navigation'");
-    expect(componentContent).toContain("<ul class='mobile-nav-list'>");
+    expect(componentContent).toContain('<nav class="mobile-menu"');
+    expect(componentContent).toContain('aria-label="Mobile navigation"');
+    expect(componentContent).toContain('<ul class="mobile-nav-list">');
     expect(componentContent).toContain("<li><a href={base}");
     expect(componentContent).toContain("data-astro-prefetch");
   });
@@ -67,11 +67,11 @@ describe("HeaderMobileMenu.astro", () => {
     const componentContent = readFileSync(componentPath, "utf-8");
 
     expect(componentContent).toContain(
-      "<a href={base} data-astro-prefetch class='mobile-nav-link'>Home</a>"
+      '<a href={base} data-astro-prefetch class="mobile-nav-link">Home</a>'
     );
-    expect(componentContent).toContain("href={base + 'blog'}");
-    expect(componentContent).toContain("href={base + 'categories'}");
-    expect(componentContent).toContain("href={base + 'about'}");
+    expect(componentContent).toContain('href={base + "blog"}');
+    expect(componentContent).toContain('href={base + "categories"}');
+    expect(componentContent).toContain('href={base + "about"}');
   });
 
   it("has proper mobile menu styling", () => {
@@ -141,7 +141,7 @@ describe("HeaderMobileMenu.astro", () => {
     );
     const componentContent = readFileSync(componentPath, "utf-8");
 
-    expect(componentContent).toContain("aria-label='Mobile navigation'");
+    expect(componentContent).toContain('aria-label="Mobile navigation"');
   });
 
   it("includes data-astro-prefetch on navigation links", () => {

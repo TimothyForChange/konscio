@@ -8,9 +8,9 @@ describe("privacy-policy.astro", () => {
 
   it("imports required dependencies", () => {
     expect(pageContent).toContain(
-      "import Layout from '../components/Layout.astro'"
+      'import Layout from "../components/Layout.astro"'
     );
-    expect(pageContent).toContain("import { config } from '../config'");
+    expect(pageContent).toContain('import { config } from "../config"');
   });
 
   it("uses config for title", () => {
@@ -28,15 +28,15 @@ describe("privacy-policy.astro", () => {
   });
 
   it("has page header structure", () => {
-    expect(pageContent).toContain("<header class='page-header'>");
-    expect(pageContent).toContain("<h1 class='page-title'>Privacy Policy</h1>");
-    expect(pageContent).toContain("<hr class='page-rule' />");
+    expect(pageContent).toContain('<header class="page-header">');
+    expect(pageContent).toContain('<h1 class="page-title">Privacy Policy</h1>');
+    expect(pageContent).toContain('<hr class="page-rule" />');
   });
 
   it("has content section with last updated", () => {
-    expect(pageContent).toContain("<div class='content-section'>");
+    expect(pageContent).toContain('<div class="content-section">');
     expect(pageContent).toContain(
-      "<p class='last-updated'>Last updated: 27 October 2025</p>"
+      '<p class="last-updated">Last updated: 27 October 2025</p>'
     );
   });
 

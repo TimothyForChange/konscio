@@ -15,7 +15,7 @@ describe("Icon.astro", () => {
 
   it("destructures props with defaults", () => {
     expect(componentContent).toContain(
-      "const { name, size = 20, class: className = '' } = Astro.props;"
+      'const { name, size = 20, class: className = "" } = Astro.props;'
     );
   });
 
@@ -24,7 +24,7 @@ describe("Icon.astro", () => {
     expect(componentContent).toContain("class={`ri-${name}");
     expect(componentContent).toContain(".trim()");
     expect(componentContent).toContain("icon--20");
-    expect(componentContent).toContain("aria-hidden='true'");
+    expect(componentContent).toContain('aria-hidden="true"');
     expect(componentContent).toContain("</i>");
   });
 
@@ -37,7 +37,7 @@ describe("Icon.astro", () => {
   });
 
   it("uses default empty className", () => {
-    expect(componentContent).toContain("class: className = ''");
+    expect(componentContent).toContain('class: className = ""');
   });
 
   it("requires name prop", () => {

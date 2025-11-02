@@ -12,7 +12,7 @@ describe("Layout.astro", () => {
     expect(componentContent).toContain("description?: string");
     expect(componentContent).toContain("showSidebar?: boolean");
     expect(componentContent).toContain("image?: string");
-    expect(componentContent).toContain("type?: 'website' | 'article'");
+    expect(componentContent).toContain('type?: "website" | "article"');
     expect(componentContent).toContain("datePublished?: string");
     expect(componentContent).toContain("dateModified?: string");
     expect(componentContent).toContain("canonical?: string");
@@ -20,20 +20,20 @@ describe("Layout.astro", () => {
 
   it("imports required dependencies", () => {
     expect(componentContent).toContain(
-      "import '@fontsource-variable/jetbrains-mono'"
+      'import "@fontsource-variable/jetbrains-mono"'
     );
-    expect(componentContent).toContain("import '@fontsource-variable/oswald'");
+    expect(componentContent).toContain('import "@fontsource-variable/oswald"');
     expect(componentContent).toContain(
-      "import '@fontsource-variable/work-sans'"
+      'import "@fontsource-variable/work-sans"'
     );
     expect(componentContent).toContain(
-      "import 'remixicon/fonts/remixicon.css'"
+      'import "remixicon/fonts/remixicon.css"'
     );
-    expect(componentContent).toContain("import '../styles/global.css'");
-    expect(componentContent).toContain("import Footer from './Footer.astro'");
-    expect(componentContent).toContain("import Header from './Header.astro'");
-    expect(componentContent).toContain("import SEO from './SEO.astro'");
-    expect(componentContent).toContain("import Sidebar from './Sidebar.astro'");
+    expect(componentContent).toContain('import "../styles/global.css"');
+    expect(componentContent).toContain('import Footer from "./Footer.astro"');
+    expect(componentContent).toContain('import Header from "./Header.astro"');
+    expect(componentContent).toContain('import SEO from "./SEO.astro"');
+    expect(componentContent).toContain('import Sidebar from "./Sidebar.astro"');
   });
 
   it("destructures props correctly", () => {
@@ -51,17 +51,17 @@ describe("Layout.astro", () => {
 
   it("has proper HTML document structure", () => {
     expect(componentContent).toContain("<!doctype html>");
-    expect(componentContent).toContain("<html lang='en'");
+    expect(componentContent).toContain('<html lang="en"');
     expect(componentContent).not.toContain("data-disable-theme-toggle");
     expect(componentContent).toContain("<head>");
-    expect(componentContent).toContain("<meta charset='UTF-8' />");
+    expect(componentContent).toContain('<meta charset="UTF-8" />');
     expect(componentContent).toContain(
-      "<meta name='viewport' content='width=device-width, initial-scale=1.0' />"
+      '<meta name="viewport" content="width=device-width, initial-scale=1.0" />'
     );
     expect(componentContent).toContain("<body>");
-    expect(componentContent).toContain("<div class='site-wrapper'>");
+    expect(componentContent).toContain('<div class="site-wrapper">');
     expect(componentContent).toContain(
-      "<main class='main-content' class:list={{ 'with-sidebar': showSidebar }}>"
+      '<main class="main-content" class:list={{ "with-sidebar": showSidebar }}>'
     );
     expect(componentContent).toContain("<slot />");
     expect(componentContent).toContain("</body>");
@@ -70,19 +70,19 @@ describe("Layout.astro", () => {
 
   it("includes favicon and manifest links", () => {
     expect(componentContent).toContain(
-      "<link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />"
+      '<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />'
     );
     expect(componentContent).toContain(
-      "<link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />"
+      '<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />'
     );
     expect(componentContent).toContain(
-      "<link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />"
+      '<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />'
     );
     expect(componentContent).toContain(
-      "<link rel='manifest' href='/site.webmanifest' />"
+      '<link rel="manifest" href="/site.webmanifest" />'
     );
     expect(componentContent).toContain(
-      "<link rel='sitemap' href='/sitemap-index.xml' />"
+      '<link rel="sitemap" href="/sitemap-index.xml" />'
     );
   });
 
@@ -107,7 +107,7 @@ describe("Layout.astro", () => {
     expect(componentContent).toContain("<Header />");
     expect(componentContent).toContain("<Footer />");
     expect(componentContent).toContain("showSidebar && (");
-    expect(componentContent).toContain("<aside class='sidebar'>");
+    expect(componentContent).toContain('<aside class="sidebar">');
     expect(componentContent).toContain("<Sidebar />");
     expect(componentContent).toContain("</aside>");
     expect(componentContent).toContain(")");
@@ -138,7 +138,7 @@ describe("Layout.astro", () => {
 
   it("renders without sidebar when showSidebar is false", () => {
     expect(componentContent).toContain(
-      "class:list={{ 'with-sidebar': showSidebar }}"
+      'class:list={{ "with-sidebar": showSidebar }}'
     );
   });
 });

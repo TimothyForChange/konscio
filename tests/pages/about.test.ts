@@ -8,12 +8,12 @@ describe("about.astro", () => {
 
   it("imports required dependencies", () => {
     expect(pageContent).toContain(
-      "import Layout from '../components/Layout.astro'"
+      'import Layout from "../components/Layout.astro"'
     );
     expect(pageContent).toContain(
-      "import SocialLinks from '../components/SocialLinks.astro'"
+      'import SocialLinks from "../components/SocialLinks.astro"'
     );
-    expect(pageContent).toContain("import { config } from '../config'");
+    expect(pageContent).toContain('import { config } from "../config"');
   });
 
   it("uses config for title and description", () => {
@@ -32,14 +32,14 @@ describe("about.astro", () => {
   });
 
   it("has page header structure", () => {
-    expect(pageContent).toContain("<header class='page-header'>");
-    expect(pageContent).toContain("<h1 class='page-title'>About</h1>");
-    expect(pageContent).toContain("<hr class='page-rule' />");
+    expect(pageContent).toContain('<header class="page-header">');
+    expect(pageContent).toContain('<h1 class="page-title">About</h1>');
+    expect(pageContent).toContain('<hr class="page-rule" />');
   });
 
   it("has author section", () => {
-    expect(pageContent).toContain("<div class='author-section'>");
-    expect(pageContent).toContain("<div class='author-avatar'>");
+    expect(pageContent).toContain('<div class="author-section">');
+    expect(pageContent).toContain('<div class="author-avatar">');
   });
 
   it("includes SocialLinks component", () => {

@@ -9,7 +9,7 @@ describe("Sidebar.astro", () => {
 
     expect(componentContent).toContain("<RecentPosts />");
     expect(componentContent).toContain("<Categories />");
-    expect(componentContent).toContain("class='sidebar-content'");
+    expect(componentContent).toContain('class="sidebar-content"');
   });
 
   it("has proper styling", () => {
@@ -27,10 +27,10 @@ describe("Sidebar.astro", () => {
     const componentContent = readFileSync(componentPath, "utf-8");
 
     expect(componentContent).toContain(
-      "import RecentPosts from './RecentPosts.astro'"
+      'import RecentPosts from "./RecentPosts.astro"'
     );
     expect(componentContent).toContain(
-      "import Categories from './Categories.astro'"
+      'import Categories from "./Categories.astro"'
     );
   });
 
@@ -38,14 +38,14 @@ describe("Sidebar.astro", () => {
     const componentPath = join(process.cwd(), "src/components/Sidebar.astro");
     const componentContent = readFileSync(componentPath, "utf-8");
 
-    expect(componentContent).toContain("<div class='sidebar-content'");
+    expect(componentContent).toContain('<div class="sidebar-content"');
   });
 
   it("includes accessibility attributes", () => {
     const componentPath = join(process.cwd(), "src/components/Sidebar.astro");
     const componentContent = readFileSync(componentPath, "utf-8");
 
-    expect(componentContent).toContain("role='complementary'");
-    expect(componentContent).toContain("aria-label='Sidebar'");
+    expect(componentContent).toContain('role="complementary"');
+    expect(componentContent).toContain('aria-label="Sidebar"');
   });
 });

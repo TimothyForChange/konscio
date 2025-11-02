@@ -8,17 +8,17 @@ describe("categories.astro", () => {
 
   it("imports required dependencies", () => {
     expect(pageContent).toContain(
-      "import Layout from '../components/Layout.astro'"
+      'import Layout from "../components/Layout.astro"'
     );
-    expect(pageContent).toContain("import { config } from '../config'");
+    expect(pageContent).toContain('import { config } from "../config"');
   });
 
   it("loads blog posts using glob imports", () => {
     expect(pageContent).toContain(
-      "const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true })"
+      'const mdPostsGlob = import.meta.glob("../content/blog/*.md", { eager: true })'
     );
     expect(pageContent).toContain(
-      "const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true })"
+      'const mdxPostsGlob = import.meta.glob("../content/blog/*.mdx", { eager: true })'
     );
   });
 
@@ -37,13 +37,13 @@ describe("categories.astro", () => {
 
   it("uses Layout component with proper props", () => {
     expect(pageContent).toContain("<Layout");
-    expect(pageContent).toContain("title='Categories - Timothy for Change'");
-    expect(pageContent).toContain("description='Browse articles by category'");
+    expect(pageContent).toContain('title="Categories - Timothy for Change"');
+    expect(pageContent).toContain('description="Browse articles by category"');
   });
 
   it("has categories header structure", () => {
-    expect(pageContent).toContain("<header class='page-header'>");
-    expect(pageContent).toContain("<h1 class='page-title'>Categories</h1>");
+    expect(pageContent).toContain('<header class="page-header">');
+    expect(pageContent).toContain('<h1 class="page-title">Categories</h1>');
   });
 
   it("excludes draft posts from category calculation", () => {

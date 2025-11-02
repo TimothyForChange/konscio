@@ -7,51 +7,51 @@ describe("Header.astro", () => {
   const componentContent = readFileSync(componentPath, "utf-8");
 
   it("imports required dependencies", () => {
-    expect(componentContent).toContain("import { config } from '../config'");
+    expect(componentContent).toContain('import { config } from "../config"');
     expect(componentContent).toContain(
-      "import HeaderMobileMenu from './HeaderMobileMenu.astro'"
+      'import HeaderMobileMenu from "./HeaderMobileMenu.astro"'
     );
     expect(componentContent).toContain(
-      "import HeaderNavigation from './HeaderNavigation.astro'"
+      'import HeaderNavigation from "./HeaderNavigation.astro"'
     );
     expect(componentContent).toContain(
-      "import HeaderSearch from './HeaderSearch.astro'"
+      'import HeaderSearch from "./HeaderSearch.astro"'
     );
   });
 
   it("destructures props with defaults", () => {
     expect(componentContent).toContain(
-      "const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };"
+      'const { base = "" } = Astro.site ? { base: config.baseUrl } : { base: "" };'
     );
   });
 
   it("has proper header structure", () => {
-    expect(componentContent).toContain("<header class='site-header'>");
-    expect(componentContent).toContain("<div class='header-content'>");
-    expect(componentContent).toContain("<div class='site-title'>");
-    expect(componentContent).toContain("<div class='header-controls'>");
+    expect(componentContent).toContain('<header class="site-header">');
+    expect(componentContent).toContain('<div class="header-content">');
+    expect(componentContent).toContain('<div class="site-title">');
+    expect(componentContent).toContain('<div class="header-controls">');
     expect(componentContent).toContain("</div>");
     expect(componentContent).toContain("</header>");
   });
 
   it("includes hamburger toggle button", () => {
-    expect(componentContent).toContain("class='hamburger-toggle mobile-only'");
-    expect(componentContent).toContain("id='hamburger-toggle'");
-    expect(componentContent).toContain("aria-label='Toggle navigation menu'");
-    expect(componentContent).toContain("aria-expanded='false'");
+    expect(componentContent).toContain('class="hamburger-toggle mobile-only"');
+    expect(componentContent).toContain('id="hamburger-toggle"');
+    expect(componentContent).toContain('aria-label="Toggle navigation menu"');
+    expect(componentContent).toContain('aria-expanded="false"');
     expect(componentContent).toContain("<svg");
-    expect(componentContent).toContain("viewBox='0 0 24 24'");
-    expect(componentContent).toContain("class='hamburger-line'");
-    expect(componentContent).toContain("d='M3 6h18'");
+    expect(componentContent).toContain('viewBox="0 0 24 24"');
+    expect(componentContent).toContain('class="hamburger-line"');
+    expect(componentContent).toContain('d="M3 6h18"');
   });
 
   it("includes site title with logo", () => {
     expect(componentContent).toContain("<a href={base} data-astro-prefetch>");
-    expect(componentContent).toContain("src={base + 'site-title.svg'}");
+    expect(componentContent).toContain('src={base + "site-title.svg"}');
     expect(componentContent).toContain("alt={config.title}");
-    expect(componentContent).toContain("class='title-svg'");
-    expect(componentContent).toContain("width='280'");
-    expect(componentContent).toContain("height='48'");
+    expect(componentContent).toContain('class="title-svg"');
+    expect(componentContent).toContain('width="280"');
+    expect(componentContent).toContain('height="48"');
   });
 
   it("includes HeaderNavigation component", () => {
@@ -59,29 +59,29 @@ describe("Header.astro", () => {
   });
 
   it("includes mobile controls", () => {
-    expect(componentContent).toContain("<div class='mobile-controls'>");
-    expect(componentContent).toContain("href={base + 'rss.xml'}");
+    expect(componentContent).toContain('<div class="mobile-controls">');
+    expect(componentContent).toContain('href={base + "rss.xml"}');
     expect(componentContent).toContain("data-astro-prefetch");
-    expect(componentContent).toContain("class='rss-toggle'");
-    expect(componentContent).toContain("title='RSS Feed'");
-    expect(componentContent).toContain("class='search-toggle'");
-    expect(componentContent).toContain("id='search-toggle'");
-    expect(componentContent).toContain("aria-label='Search articles'");
+    expect(componentContent).toContain('class="rss-toggle"');
+    expect(componentContent).toContain('title="RSS Feed"');
+    expect(componentContent).toContain('class="search-toggle"');
+    expect(componentContent).toContain('id="search-toggle"');
+    expect(componentContent).toContain('aria-label="Search articles"');
   });
 
   it("includes RSS icon", () => {
     expect(componentContent).toContain(
-      "<circle cx='5' cy='19' r='2' fill='currentColor'></circle>"
+      '<circle cx="5" cy="19" r="2" fill="currentColor"></circle>'
     );
     expect(componentContent).toContain("M3 3v2c8.284 0 15 6.716 15 15h2");
     expect(componentContent).toContain("M3 9v2c4.963 0 9 4.037 9 9h2");
   });
 
   it("includes search icon", () => {
-    expect(componentContent).toContain("cx='11'");
-    expect(componentContent).toContain("cy='11'");
-    expect(componentContent).toContain("r='8'");
-    expect(componentContent).toContain("d='M21 21l-4.35-4.35'");
+    expect(componentContent).toContain('cx="11"');
+    expect(componentContent).toContain('cy="11"');
+    expect(componentContent).toContain('r="8"');
+    expect(componentContent).toContain('d="M21 21l-4.35-4.35"');
   });
 
   it("includes HeaderMobileMenu and HeaderSearch components", () => {
@@ -93,13 +93,13 @@ describe("Header.astro", () => {
     expect(componentContent).toContain("<script>");
     expect(componentContent).toContain("function initHamburgerMenu()");
     expect(componentContent).toContain(
-      "document.getElementById('hamburger-toggle')"
+      'document.getElementById("hamburger-toggle")'
     );
     expect(componentContent).toContain(
-      "document.getElementById('mobile-menu')"
+      'document.getElementById("mobile-menu")'
     );
-    expect(componentContent).toContain("addEventListener('click'");
-    expect(componentContent).toContain("addEventListener('keydown'");
+    expect(componentContent).toContain('addEventListener("click"');
+    expect(componentContent).toContain('addEventListener("keydown"');
     expect(componentContent).toContain("DOMContentLoaded");
   });
 

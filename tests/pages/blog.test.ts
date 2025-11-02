@@ -8,20 +8,20 @@ describe("blog.astro", () => {
 
   it("imports required dependencies", () => {
     expect(pageContent).toContain(
-      "import Layout from '../components/Layout.astro'"
+      'import Layout from "../components/Layout.astro"'
     );
-    expect(pageContent).toContain("import { config } from '../config'");
+    expect(pageContent).toContain('import { config } from "../config"');
     expect(pageContent).toContain(
-      "import { slugifyPath } from '../utils/slugify'"
+      'import { slugifyPath } from "../utils/slugify"'
     );
   });
 
   it("loads blog posts using glob imports", () => {
     expect(pageContent).toContain(
-      "const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true })"
+      'const mdPostsGlob = import.meta.glob("../content/blog/*.md", { eager: true })'
     );
     expect(pageContent).toContain(
-      "const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true })"
+      'const mdxPostsGlob = import.meta.glob("../content/blog/*.mdx", { eager: true })'
     );
   });
 
@@ -36,15 +36,15 @@ describe("blog.astro", () => {
 
   it("uses Layout component with proper props", () => {
     expect(pageContent).toContain("<Layout");
-    expect(pageContent).toContain("title='Blog | Timothy for Change'");
+    expect(pageContent).toContain('title="Blog | Timothy for Change"');
     expect(pageContent).toContain(
-      "description='All blog posts from Timothy for Change'"
+      'description="All blog posts from Timothy for Change"'
     );
   });
 
   it("has blog header structure", () => {
-    expect(pageContent).toContain("<header class='blog-header'>");
-    expect(pageContent).toContain("<h1 class='blog-title'>Blog</h1>");
+    expect(pageContent).toContain('<header class="blog-header">');
+    expect(pageContent).toContain('<h1 class="blog-title">Blog</h1>');
   });
 
   it("excludes draft posts", () => {

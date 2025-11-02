@@ -52,7 +52,7 @@ describe("TableOfContents.astro", () => {
     expect(componentContent).toContain("scrollIntoView");
     expect(componentContent).toContain("IntersectionObserver");
     expect(componentContent).toContain("pushState");
-    expect(componentContent).toContain("behavior: 'smooth'");
+    expect(componentContent).toContain('behavior: "smooth"');
   });
 
   it("has active link styling", () => {

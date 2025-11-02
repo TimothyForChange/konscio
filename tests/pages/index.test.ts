@@ -8,19 +8,19 @@ describe("index.astro", () => {
 
   it("imports required dependencies", () => {
     expect(pageContent).toContain(
-      "import Layout from '../components/Layout.astro'"
+      'import Layout from "../components/Layout.astro"'
     );
     expect(pageContent).toContain(
-      "import { slugifyPath } from '../utils/slugify'"
+      'import { slugifyPath } from "../utils/slugify"'
     );
   });
 
   it("loads blog posts using glob imports", () => {
     expect(pageContent).toContain(
-      "const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true })"
+      'const mdPostsGlob = import.meta.glob("../content/blog/*.md", { eager: true })'
     );
     expect(pageContent).toContain(
-      "const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true })"
+      'const mdxPostsGlob = import.meta.glob("../content/blog/*.mdx", { eager: true })'
     );
   });
 
@@ -36,23 +36,23 @@ describe("index.astro", () => {
   it("uses Layout component with proper props", () => {
     expect(pageContent).toContain("<Layout");
     expect(pageContent).toContain(
-      "title='Timothy for Change: For People And Planet'"
+      'title="Timothy for Change: For People And Planet"'
     );
     expect(pageContent).toContain("showSidebar={false}");
   });
 
   it("has hero section structure", () => {
-    expect(pageContent).toContain("<section class='hero'>");
+    expect(pageContent).toContain('<section class="hero">');
     expect(pageContent).toContain(
-      "<h1 class='hero-title'>Timothy for Change</h1>"
+      '<h1 class="hero-title">Timothy for Change</h1>'
     );
     expect(pageContent).toContain(
-      "<a href='#posts' class='btn btn-primary'>View Posts</a>"
+      '<a href="#posts" class="btn btn-primary">View Posts</a>'
     );
   });
 
   it("has blog section", () => {
-    expect(pageContent).toContain("<section class='blog-section' id='posts'>");
+    expect(pageContent).toContain('<section class="blog-section" id="posts">');
   });
 
   it("excludes draft posts", () => {
@@ -75,7 +75,7 @@ describe("index.astro", () => {
   });
 
   it("includes recent posts section", () => {
-    expect(pageContent).toContain("section-title'>Blog Posts");
+    expect(pageContent).toContain('section-title">Blog Posts');
   });
 
   it("includes call-to-action elements", () => {

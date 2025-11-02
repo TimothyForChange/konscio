@@ -21,26 +21,26 @@ describe("HeaderNavigation.astro", () => {
 
   it("has proper navigation structure", () => {
     expect(componentContent).toContain(
-      "<nav class='main-navigation' role='navigation' aria-label='Main navigation'>"
+      '<nav class="main-navigation" role="navigation" aria-label="Main navigation">'
     );
-    expect(componentContent).toContain("<ul class='nav-list'>");
+    expect(componentContent).toContain('<ul class="nav-list">');
     expect(componentContent).toContain("</ul>");
     expect(componentContent).toContain("</nav>");
   });
 
   it("includes all navigation links", () => {
     expect(componentContent).toContain(
-      "<li><a href={base} data-astro-prefetch class='nav-link'>Home</a></li>"
+      '<li><a href={base} data-astro-prefetch class="nav-link">Home</a></li>'
     );
     expect(componentContent).toContain(
-      "<a href={base + 'blog'} data-astro-prefetch class='nav-link'>Blog</a>"
+      '<a href={base + "blog"} data-astro-prefetch class="nav-link">Blog</a>'
     );
     expect(componentContent).toContain(
-      "<a href={base + 'categories'} data-astro-prefetch class='nav-link'"
+      '<a href={base + "categories"} data-astro-prefetch class="nav-link"'
     );
     expect(componentContent).toContain(">Categories</a");
     expect(componentContent).toContain(
-      "<a href={base + 'about'} data-astro-prefetch class='nav-link'>About</a>"
+      '<a href={base + "about"} data-astro-prefetch class="nav-link">About</a>'
     );
   });
 
@@ -115,11 +115,11 @@ describe("HeaderNavigation.astro", () => {
   });
 
   it("includes data-astro-prefetch on all navigation links", () => {
-    expect(componentContent).toContain("data-astro-prefetch class='nav-link'");
+    expect(componentContent).toContain('data-astro-prefetch class="nav-link"');
   });
 
   it("has correct role and aria-label attributes", () => {
-    expect(componentContent).toContain("role='navigation'");
-    expect(componentContent).toContain("aria-label='Main navigation'");
+    expect(componentContent).toContain('role="navigation"');
+    expect(componentContent).toContain('aria-label="Main navigation"');
   });
 });

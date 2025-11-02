@@ -12,8 +12,8 @@ describe("SocialLinks.astro", () => {
   });
 
   it("imports required dependencies", () => {
-    expect(componentContent).toContain("import { config } from '../config'");
-    expect(componentContent).toContain("import Icon from './Icon.astro'");
+    expect(componentContent).toContain('import { config } from "../config"');
+    expect(componentContent).toContain('import Icon from "./Icon.astro"');
   });
 
   it("destructures props with defaults", () => {
@@ -28,22 +28,22 @@ describe("SocialLinks.astro", () => {
   it("conditionally renders GitHub link", () => {
     expect(componentContent).toContain("config.social.github && (");
     expect(componentContent).toContain("href={config.social.github}");
-    expect(componentContent).toContain("aria-label='GitHub'");
-    expect(componentContent).toContain("name='github-fill'");
+    expect(componentContent).toContain('aria-label="GitHub"');
+    expect(componentContent).toContain('name="github-fill"');
   });
 
   it("conditionally renders Instagram link", () => {
     expect(componentContent).toContain("config.social.instagram && (");
     expect(componentContent).toContain("href={config.social.instagram}");
-    expect(componentContent).toContain("aria-label='Instagram'");
-    expect(componentContent).toContain("name='instagram-fill'");
+    expect(componentContent).toContain('aria-label="Instagram"');
+    expect(componentContent).toContain('name="instagram-fill"');
   });
 
   it("conditionally renders Threads link", () => {
     expect(componentContent).toContain("config.social.threads && (");
     expect(componentContent).toContain("href={config.social.threads}");
-    expect(componentContent).toContain("aria-label='Threads'");
-    expect(componentContent).toContain("name='threads-fill'");
+    expect(componentContent).toContain('aria-label="Threads"');
+    expect(componentContent).toContain('name="threads-fill"');
   });
 
   it("conditionally renders email link", () => {
@@ -51,17 +51,17 @@ describe("SocialLinks.astro", () => {
     expect(componentContent).toContain(
       "href={`mailto:${config.social.email}`}"
     );
-    expect(componentContent).toContain("aria-label='Email'");
-    expect(componentContent).toContain("name='mail-fill'");
+    expect(componentContent).toContain('aria-label="Email"');
+    expect(componentContent).toContain('name="mail-fill"');
   });
 
   it("includes proper link attributes", () => {
-    expect(componentContent).toContain("target='_blank'");
-    expect(componentContent).toContain("rel='noopener noreferrer'");
-    expect(componentContent).toContain("class='social-link'");
+    expect(componentContent).toContain('target="_blank"');
+    expect(componentContent).toContain('rel="noopener noreferrer"');
+    expect(componentContent).toContain('class="social-link"');
     expect(componentContent).toContain("<Icon name=");
     expect(componentContent).toContain("size={size}");
-    expect(componentContent).toContain("class='social-icon'");
+    expect(componentContent).toContain('class="social-icon"');
   });
 
   it("includes proper CSS classes and styles", () => {
