@@ -23,7 +23,7 @@ describe("comrades.astro", () => {
       "#south-africa-and-the-continent",
       "#global-south-solidarity-and-anti-imperialism",
       "#peasant-movements-and-food-sovereignty",
-      "#international-labour-and-energy-democracy",
+      "#working-class-struggles-and-democratic-control",
       "#community-organising-and-solidarity-economy",
       "#indigenous-resistance-and-land-back",
     ];
@@ -88,7 +88,7 @@ describe("comrades.astro", () => {
       "south-africa-and-the-continent",
       "global-south-solidarity-and-anti-imperialism",
       "peasant-movements-and-food-sovereignty",
-      "international-labour-and-energy-democracy",
+      "working-class-struggles-and-democratic-control",
       "community-organising-and-solidarity-economy",
       "indigenous-resistance-and-land-back",
     ];
