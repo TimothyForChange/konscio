@@ -58,8 +58,7 @@ By contrast, the SAF's power is bureaucratic and brittle. It clings to state leg
 
 ## Bodies and Land: The Human and Ecological Toll
 
-The human toll is staggering. Independent estimates place conflict deaths in the **hundreds of thousands**, with **millions displaced.**
-Entire cities—El Geneina, Nyala, Omdurman—bear the scars of RSF shelling and scorched-earth tactics. Humanitarian corridors are blocked, aid convoys looted, and civilians targeted for belonging to the wrong ethnic group.
+The human toll is staggering. As of late 2025, conflict deaths exceed **20,000** according to independent monitoring groups, with **over 12 million people displaced** — the world's largest displacement crisis. Entire cities—El Geneina, Nyala, Omdurman—bear the scars of RSF shelling and scorched-earth tactics. Humanitarian corridors are blocked, aid convoys looted, and civilians targeted for belonging to the wrong ethnic group.
 
 Mining itself is a second front of destruction. The RSF's unregulated artisanal pits use mercury and cyanide, contaminating rivers and soil. Deforestation spreads across Darfur and South Kordofan. What gold cannot kill by bullet, it poisons by runoff.
 
@@ -70,11 +69,11 @@ The SAF's presence in some regions has at least slowed the pace of environmental
 ## A Global Network of Complicity
 
 The international system is not a bystander.
-The **UAE's gold markets** and refiners are central to the laundering of RSF gold, even as the Gulf presents itself as a peace broker.
-**Russia's Wagner Group**, now rebranded under new corporate shells, has trained RSF units and facilitated logistics in exchange for mining access.
+The **UAE's gold markets** and refiners are central to the laundering of RSF gold, even as the Gulf presents itself as a peace broker. Dubai's **Al Etihad Gold** and other major refineries process Sudanese gold with minimal oversight. **Russia's Wagner Group**, now rebranded under new corporate shells, has trained RSF units and facilitated logistics in exchange for mining access.
 
-Meanwhile, Western governments issue statements on "stability" while their banks process the very financial flows that keep the trade alive.
-Sanctions are selective; outrage is choreographed. It is a theatre of hypocrisy, a world order that condemns human rights abuses while profiting from the minerals that make them possible.
+The financial infrastructure enabling this trade operates through specific mechanisms. **Swiss and British banks** provide correspondent banking services that clear payments for gold purchases. **London's precious metals markets** set prices and provide liquidity for Sudanese gold. **Insurance companies** in Lloyd's of London cover shipments of "artisanal" gold that funds massacres. **Trade finance firms** in Dubai and Istanbul provide letters of credit that disguise the origins of blood gold.
+
+Meanwhile, Western governments issue statements on "stability" while their banks process the very financial flows that keep the trade alive. Sanctions are selective; outrage is choreographed. It is a theatre of hypocrisy, a world order that condemns human rights abuses while profiting from the minerals that make them possible.
 
 ---
 
@@ -84,6 +83,8 @@ From Darfur to Donbas, from Gaza to Goma, the logic repeats: **resource control 
 In the DRC, cobalt and coltan finance corporate empires.
 In Palestine, land is expropriated under the banner of "security."
 In Sudan, gold fuels a militia that serves as both warlord and subcontractor of empire.
+
+**Regional solidarity is emerging.** Chad's civil society has documented cross-border RSF movements and shared intelligence with Sudanese activists. **South African trade unions** have called for sanctions on Dubai gold markets. **Egyptian human rights groups** expose military cooperation with the RSF despite official neutrality. **Kenyan parliamentary committees** have investigated arms flows through East African ports to Sudan.
 
 Rather than chaos, this represents capitalism's natural form in the periphery.
 The same imperial core that buys "conflict-free" gold also sells the weapons that make it bloody.

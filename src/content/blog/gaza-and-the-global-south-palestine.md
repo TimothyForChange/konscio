@@ -56,10 +56,18 @@ And in Bolivia and Colombia, as militarised resource zones feeding global market
 Israel's bombardment of Gaza is enabled by a transnational military-industrial complex that profits from endless war.
 The same corporations — **Lockheed Martin, BAE Systems, Thales, Northrop Grumman** — sell weapons tested on Palestinians and later exported as "battle-proven." Military occupation becomes a laboratory for repression, exported globally to police borders, refugees, and protesters.
 
+The class interests are clear. **Defence contractors** profit from perpetual conflict and lobby against peace agreements. **Technology firms** sell surveillance systems that monitor Palestinian movement and export these tools to authoritarian regimes. **Energy companies** seek Gaza's offshore gas reserves and back projects that require Palestinian removal. **Real estate developers** plan settlements on cleared Palestinian land. **Financial institutions** profit from every transaction, from arms loans to reconstruction bonds.
+
+Against them stand **workers** whose labour is displaced by militarisation, **communities** facing austerity while weapons spending soars, **young people** inheriting ecological collapse accelerated by military emissions, and **colonised peoples** worldwide recognising the same patterns of dispossession.
+
 ### Finance and Control
 
 Empire no longer rules by flag; it rules through **debt, trade regimes, and sanctions.**
 IMF austerity in Africa, World Bank "development projects" in Asia, and U.S. sanctions on states that resist all sustain a hierarchy of dependence. The same countries that arm Israel also control the institutions that discipline the Global South.
+
+The financial architecture enabling genocide operates through mundane mechanisms. **Bond markets finance weapons purchases** — Israeli government bonds traded on Wall Street and London exchanges directly fund military procurement. **Banking systems clear payments** for arms transfers through SWIFT and correspondent banking networks that exclude sanctioned states but facilitate weapons flows to genocidal regimes. **Insurance companies provide coverage** for weapons shipments, defence contractors, and military infrastructure. **Pension funds and asset managers** hold portfolios of defence stocks, creating institutional pressure to sustain conflict.
+
+This is not abstract finance but concrete complicity. Every cleared payment, every insured shipment, every traded bond makes genocide possible. The same institutions that refuse banking services to Palestinian NGOs enable the financial flows that destroy Palestinian life.
 
 ### Media and Moral Legitimacy
 
@@ -92,6 +100,10 @@ From Johannesburg to Jakarta, from Caracas to Cairo, movements recognise Gaza as
 - Even in the Global North, youth climate movements defy state repression and publicly refuse the separation between _ecological_ and _anti-imperialist_ politics.
 
 This is **internationalism reborn** — solidarity not as sentiment but as structure: an alliance of the dispossessed against empire in all its forms.
+
+**Concrete victories are mounting.** University divestment campaigns have forced institutions to divest billions from Israeli bonds and defence contractors. Port workers in Oakland, Barcelona, and Durban have refused to handle Israeli cargo. Municipal BDS resolutions in over 30 cities have ended contracts with complicit firms. Student occupations across dozens of universities have forced institutional transparency on investments. Healthcare workers have documented medical apartheid and testified at international tribunals.
+
+These campaigns work because they target the material infrastructure of genocide: finance, logistics, procurement, legitimacy. They show that solidarity is not charity but strategic action that weakens empire's capacity to kill.
 
 > "If you have come here to help me, you are wasting your time. But if you have come because your liberation is bound up with mine, then let us work together."
 > — Lilla Watson and Aboriginal activists, Queensland (1970s)

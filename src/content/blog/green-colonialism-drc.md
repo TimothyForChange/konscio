@@ -34,7 +34,7 @@ Contemporary extraction follows the same blueprint: external demand sets the ter
 
 The Global North's shift to "green" technologies requires vast quantities of specific minerals. This demand is framed as urgent and moral: save the planet by switching to electric vehicles and renewable systems. But moralising the commodity does not alter the politics of its production. A few structural points to note:
 
-- **Supply chains concentrate value outside the DRC.** The country supplies around **70–75% of global cobalt** production, yet almost none is refined locally. Raw extraction is low-paid and environmentally destructive, while most value is captured further along the chain — in refining, tech assembly, and corporate branding — largely outside African borders.
+- **Supply chains concentrate value outside the DRC.** The country supplies approximately **70% of global cobalt** production, according to recent industry data, yet less than 5% is refined locally. Raw extraction is low-paid and environmentally destructive, while most value is captured further along the chain — in refining, tech assembly, and corporate branding — largely outside African borders. A tonne of refined cobalt can be worth 20 times more than the raw ore that leaves DRC ports.
 - **Actors of accumulation are multinational.** Mining firms, traders, smelters, and financiers — many headquartered in the Global North or transnational corporate hubs — structure the market and determine prices, labour standards, and practices. Chinese state-owned and private companies now control roughly **80% of DRC cobalt output**, showing how transnational capital continues colonial extraction under new management.
 - **Instability is profitable.** Weak governance, contested territories, and conflict can be exploited to secure concessions, favourable contracts, or control over informal economies. Instability becomes an economic condition, not merely a humanitarian crisis.
 - **Green rhetoric masks continuity.** Calling a mine "critical for the energy transition" sanitises the social and ecological violence it produces and absolves consumers and states in the Global North of responsibility.
@@ -47,7 +47,11 @@ The result is a peculiar inversion: the rhetoric of environmental stewardship fa
 
 Extraction in the DRC is not an abstract policy problem; it is embodied in human lives and in the region's ecology. Communities living near mines report destroyed farmland, polluted waterways, and shattered livelihoods. Informal and artisanal miners operate under precarious and hazardous conditions, with women and children disproportionately exposed to risk. These social harms are compounded by militarisation: armed groups, private militias, and state security forces often contest control over mines and transport routes.
 
-At the same time, the **Congo Basin rainforest** — a vital carbon sink and one of the world's last great biodiversity reserves — faces mounting pressure from industrial encroachment. Forest degradation, soil erosion, and contamination from mining chemicals cause ecological damage that spreads far beyond local communities. Ecocide here emerges as a by-product of a model that translates natural commons into private profit, rather than merely collateral damage.
+At the same time, the **Congo Basin rainforest** — a vital carbon sink and one of the world's last great biodiversity reserves — faces mounting pressure from industrial encroachment. Forest degradation, soil erosion, and contamination from mining chemicals cause ecological damage that spreads far beyond local communities.
+
+The carbon arithmetic reveals the contradiction: the Congo Basin stores approximately 8 billion tonnes of carbon dioxide equivalent, yet mining for "green" technologies accelerates deforestation and releases stored carbon. Each electric vehicle battery requires roughly 8kg of cobalt, but the full lifecycle — from forest clearing to mine construction to processing — can release more carbon than the battery will save in its lifetime. The Global North's climate "solutions" become the Global South's climate accelerants.
+
+Ecocide here emerges as a by-product of a model that translates natural commons into private profit, rather than merely collateral damage.
 
 ---
 
@@ -55,7 +59,9 @@ At the same time, the **Congo Basin rainforest** — a vital carbon sink and one
 
 Despite the bleak picture, the story is not only one of victimhood. Congolese workers, community organisers, environmental defenders, and local movements are resisting in diverse ways: organising for safer conditions and fair pay, pushing for community control over resources, documenting abuses, and contesting illegitimate concessions.
 
-Solidarity must centre these struggles rather than speak for them. Our role — as readers, as activists, as consumers in the Global North — is to shift attention and power toward those who live the consequences and demand alternatives.
+**Victories are possible.** In 2019, communities in Lualaba Province successfully challenged Chinese company Sicomines over environmental damage and forced compensation payments. The **Observatoire Congolais des Droits de l'Homme (OCDH)** has documented mining abuses and forced several firms to improve safety conditions. Artisanal miners' cooperatives have secured better prices by organising collectively rather than selling to individual middlemen. In 2023, civil society pressure led to the suspension of several mining licenses pending environmental impact assessments.
+
+These struggles show that change is possible when communities organise, document abuse, and demand accountability. International solidarity must centre these struggles rather than speaking for them. Our role — as readers, as activists, as consumers in the Global North — is to shift attention and power toward those who live the consequences and demand alternatives.
 
 What would a different approach look like?
 
