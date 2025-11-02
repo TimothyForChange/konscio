@@ -81,12 +81,6 @@ const sortedPosts = allPosts
                       })}
                     </time>
 
-                    {post.frontmatter.author && (
-                      <span class='blog-post-author'>
-                        By {post.frontmatter.author}
-                      </span>
-                    )}
-
                     <span class='blog-post-reading-time'>
                       {post.frontmatter.minutesRead}
                     </span>
@@ -426,20 +420,6 @@ const sortedPosts = allPosts
     color: var(--color-text-muted);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-  }
-
-  .blog-post-author {
-    font-family: var(--font-mono);
-    font-size: 0.85rem;
-    color: var(--color-text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  .blog-post-author::before {
-    content: '•';
-    margin: 0 calc(var(--grid-unit) / 2);
-    color: var(--color-border);
   }
 
   .blog-post-reading-time {
