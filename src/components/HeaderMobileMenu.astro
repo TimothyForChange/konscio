@@ -44,11 +44,7 @@ const { base } = Astro.props;
     transform: translateX(-100%);
     transition: transform 0.3s ease;
     overflow-y: auto;
-    padding-top: max(
-      calc(var(--grid-unit) * 12),
-      env(safe-area-inset-top),
-      constant(safe-area-inset-top)
-    );
+    padding-top: calc(var(--grid-unit) * 12);
   }
 
   .mobile-menu.active {

@@ -172,12 +172,7 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
   .site-header {
     background-color: var(--color-surface);
     border-bottom: 2px solid var(--color-border);
-    padding-top: max(
-      calc(var(--grid-unit) * 3),
-      env(safe-area-inset-top),
-      constant(safe-area-inset-top)
-    );
-    padding-bottom: calc(var(--grid-unit) * 3);
+    padding: calc(var(--grid-unit) * 3) 0;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -289,12 +284,7 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
 
   @media (max-width: 768px) {
     .site-header {
-      padding-top: max(
-        calc(var(--grid-unit) * 2),
-        env(safe-area-inset-top),
-        constant(safe-area-inset-top)
-      );
-      padding-bottom: calc(var(--grid-unit) * 2);
+      padding: calc(var(--grid-unit) * 2) 0;
     }
 
     .header-content {
@@ -302,8 +292,7 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
       grid-template-columns: 1fr auto 1fr;
       align-items: center;
       gap: calc(var(--grid-unit) * 2);
-      padding: 0 max(calc(var(--grid-unit) * 2), env(safe-area-inset-right)) 0
-        max(calc(var(--grid-unit) * 2), env(safe-area-inset-left));
+      padding: 0 calc(var(--grid-unit) * 2);
       width: 100%;
       max-width: 100%;
       margin: 0;
@@ -352,8 +341,7 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
   @media (max-width: 360px) {
     .header-content {
       grid-template-columns: 1fr auto 1fr;
-      padding: 0 max(calc(var(--grid-unit) * 1), env(safe-area-inset-right)) 0
-        max(calc(var(--grid-unit) * 1), env(safe-area-inset-left));
+      padding: 0 calc(var(--grid-unit) * 1);
     }
 
     .header-content > * {
