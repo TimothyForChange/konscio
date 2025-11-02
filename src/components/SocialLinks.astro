@@ -17,6 +17,7 @@ const { size = 20 } = Astro.props;
         target='_blank'
         rel='noopener noreferrer'
         aria-label='GitHub'
+        title='GitHub'
         class='social-link'
       >
         <Icon name='github-line' size={size} class='social-icon' />
@@ -60,6 +61,20 @@ const { size = 20 } = Astro.props;
         class='social-link'
       >
         <Icon name='mail-line' size={size} class='social-icon' />
+      </a>
+    )
+  }
+
+  {
+    config.social.kofi && (
+      <a
+        href={config.social.kofi}
+        target='_blank'
+        rel='noopener noreferrer'
+        aria-label='Ko-fi'
+        class='social-link'
+      >
+        <Icon name='cup-line' size={size} class='social-icon' />
       </a>
     )
   }
