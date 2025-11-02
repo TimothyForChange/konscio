@@ -32,7 +32,7 @@ Most troubling, reporting from major outlets indicates U.S. officials have ident
 
 ## Imperial Logic, Modern Tools
 
-The Monroe Doctrine of **1823** proclaimed the Americas a U.S. sphere of influence. Over two centuries, that claim was enforced by invasions, coups, economic coercion, and proxy wars. Today, the vocabulary has shifted — from “manifest destiny” to “narco-terrorism” — and the weapons have changed — from marines to drones and precision munitions. Yet the grammar of hemispheric control persists.
+The Monroe Doctrine of **1823** proclaimed the Americas a U.S. sphere of influence. Over two centuries, that claim was enforced by invasions, coups, economic coercion, and proxy wars. Today, the vocabulary has shifted — from "manifest destiny" to "narco-terrorism" — and the weapons have changed — from marines to drones and precision munitions. Yet the grammar of hemispheric control persists.
 
 When a superpower asserts the unilateral right to kill at sea, then prepares lists of targets on a neighbour's soil, it revives the core logic of Monroe: the hemisphere is a zone to be policed by one capital. The rhetoric of counter-narcotics conceals a strategic posture that privileges American judgement over regional sovereignty.
 
@@ -51,7 +51,7 @@ The strikes on boats off Venezuela's coast belong to that same imperial continuu
 This campaign rests on three interlocking instruments.
 
 **Legal stretching.**
-Label a group or flow “narco-terror”, and the line between criminal law and armed conflict blurs. That stretching enables extraordinary measures the U.S. government argues are lawful. But many legal scholars and rights groups say the strikes lack a clear legal foundation under international law and may constitute extrajudicial killings.
+Label a group or flow "narco-terror", and the line between criminal law and armed conflict blurs. That stretching enables extraordinary measures the U.S. government argues are lawful. But many legal scholars and rights groups say the strikes lack a clear legal foundation under international law and may constitute extrajudicial killings.
 
 **Military posture.**
 The deployment of a carrier strike group and associated air assets transforms policing into a military operation. Such force concentration raises the stakes for miscalculation and sends a signal that strikes ashore are possible should political decisions be taken to escalate. The hardware is itself a political message.
@@ -59,7 +59,7 @@ The deployment of a carrier strike group and associated air assets transforms po
 ![Aerial view of the USS Carl Vinson (CVN-70) aircraft carrier at sea](../../assets/uss-carl-vinson.webp)
 
 **Narrative power.**
-Public claims — “huge loads of drugs”, “narco-terrorists” — prime domestic and international audiences to accept extraordinary measures. Propaganda and framing create consent. Yet independent verification of the strikes' targets remains thin, and survivors' accounts and regional statements complicate the official story.
+Public claims — "huge loads of drugs", "narco-terrorists" — prime domestic and international audiences to accept extraordinary measures. Propaganda and framing create consent. Yet independent verification of the strikes' targets remains thin, and survivors' accounts and regional statements complicate the official story.
 
 ## The Human Cost of Imperial Action
 

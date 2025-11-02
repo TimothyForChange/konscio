@@ -9,7 +9,7 @@ categories: ['Analysis']
 tags: ['Universal Basic Income', 'Welfare', 'Global South', 'Decolonisation']
 ---
 
-> “For a colonised people the most essential value, because it is the most concrete, is first and foremost the land: the land which will bring them bread and, above all, dignity.”
+> "For a colonised people the most essential value, because it is the most concrete, is first and foremost the land: the land which will bring them bread and, above all, dignity."
 > — Frantz Fanon, The Wretched of the Earth (1961)
 
 # Universal Basic Income: A Radical, Materialist Case
@@ -115,13 +115,13 @@ These are practical demands, not technocratic fantasies. They require mobilisati
 
 ## Answering the Usual Objections
 
-_“It will make people lazy.”_
+_"It will make people lazy."_
 Empirical evidence rejects this. Cash increases security and dignity. It creates time for care and organising. It does not produce mass idleness.
 
-_“It's unaffordable.”_
+_"It's unaffordable."_
 Affordability is a political choice. Military budgets, tax giveaways for capital and debt servicing are choices. Money exists where power allows it. Tax the wealth that hoards income. Close tax havens. Cancel illegitimate debts.
 
-_“It will undermine organising.”_
+_"It will undermine organising."_
 A secure floor enlarges political space. It gives people time to organise, to strike, to build institutions. That is why capital fears it. A small, poorly designed transfer might pacify; a universal, adequate and institutionally embedded income empowers.
 
 ---
