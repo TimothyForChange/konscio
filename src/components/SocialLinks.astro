@@ -9,7 +9,7 @@ interface Props {
 const { size = 20 } = Astro.props;
 ---
 
-<div class='social-links' style={`--icon-size: ${size}px`}>
+<div class='social-links'>
   {
     config.social.github && (
       <a
@@ -20,7 +20,7 @@ const { size = 20 } = Astro.props;
         title='GitHub'
         class='social-link'
       >
-        <Icon name='github-line' size={size} class='social-icon' />
+        <Icon name='github-fill' size={size} class='social-icon' />
       </a>
     )
   }
@@ -35,7 +35,7 @@ const { size = 20 } = Astro.props;
         title='Instagram'
         class='social-link'
       >
-        <Icon name='instagram-line' size={size} class='social-icon' />
+        <Icon name='instagram-fill' size={size} class='social-icon' />
       </a>
     )
   }
@@ -50,7 +50,7 @@ const { size = 20 } = Astro.props;
         title='Threads'
         class='social-link'
       >
-        <Icon name='threads-line' size={size} class='social-icon' />
+        <Icon name='threads-fill' size={size} class='social-icon' />
       </a>
     )
   }
@@ -63,7 +63,7 @@ const { size = 20 } = Astro.props;
         title='Email'
         class='social-link'
       >
-        <Icon name='mail-line' size={size} class='social-icon' />
+        <Icon name='mail-fill' size={size} class='social-icon' />
       </a>
     )
   }
@@ -78,7 +78,7 @@ const { size = 20 } = Astro.props;
         title='Ko-fi'
         class='social-link'
       >
-        <Icon name='cup-line' size={size} class='social-icon' />
+        <Icon name='cup-fill' size={size} class='social-icon' />
       </a>
     )
   }
@@ -111,7 +111,7 @@ const { size = 20 } = Astro.props;
   }
 
   .social-link svg {
-    width: var(--icon-size);
-    height: var(--icon-size);
+    width: 1em;
+    height: 1em;
   }
 </style>

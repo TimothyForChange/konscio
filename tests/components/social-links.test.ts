@@ -20,31 +20,30 @@ describe('SocialLinks.astro', () => {
     expect(componentContent).toContain('const { size = 20 } = Astro.props;');
   });
 
-  it('defines icon size CSS variable', () => {
-    expect(componentContent).toContain(
-      "<div class='social-links' style={`--icon-size: ${size}px`}>"
-    );
+  it('does not use inline styles for icon sizing', () => {
+    expect(componentContent).not.toContain('style={`--icon-size:');
+    expect(componentContent).not.toContain('data-icon-size=');
   });
 
   it('conditionally renders GitHub link', () => {
     expect(componentContent).toContain('config.social.github && (');
     expect(componentContent).toContain('href={config.social.github}');
     expect(componentContent).toContain("aria-label='GitHub'");
-    expect(componentContent).toContain("name='github-line'");
+    expect(componentContent).toContain("name='github-fill'");
   });
 
   it('conditionally renders Instagram link', () => {
     expect(componentContent).toContain('config.social.instagram && (');
     expect(componentContent).toContain('href={config.social.instagram}');
     expect(componentContent).toContain("aria-label='Instagram'");
-    expect(componentContent).toContain("name='instagram-line'");
+    expect(componentContent).toContain("name='instagram-fill'");
   });
 
   it('conditionally renders Threads link', () => {
     expect(componentContent).toContain('config.social.threads && (');
     expect(componentContent).toContain('href={config.social.threads}');
     expect(componentContent).toContain("aria-label='Threads'");
-    expect(componentContent).toContain("name='threads-line'");
+    expect(componentContent).toContain("name='threads-fill'");
   });
 
   it('conditionally renders email link', () => {
@@ -53,7 +52,7 @@ describe('SocialLinks.astro', () => {
       'href={`mailto:${config.social.email}`}'
     );
     expect(componentContent).toContain("aria-label='Email'");
-    expect(componentContent).toContain("name='mail-line'");
+    expect(componentContent).toContain("name='mail-fill'");
   });
 
   it('includes proper link attributes', () => {
@@ -93,7 +92,7 @@ describe('SocialLinks.astro', () => {
 
   it('includes icon size styling', () => {
     expect(componentContent).toContain('.social-link svg');
-    expect(componentContent).toContain('width: var(--icon-size);');
-    expect(componentContent).toContain('height: var(--icon-size);');
+    expect(componentContent).toContain('width: 1em;');
+    expect(componentContent).toContain('height: 1em;');
   });
 });

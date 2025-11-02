@@ -5,9 +5,23 @@ export interface Props {
   class?: string;
 }
 const { name, size = 20, class: className = '' } = Astro.props;
+const allowedSizes = [16, 20, 24, 32];
+const sizeClass = `icon--${allowedSizes.includes(size) ? size : 20}`;
 ---
 
-<i
-  class={`ri-${name} ${className}`.trim()}
-  style={`font-size: ${size}px;`}
-  aria-hidden='true'></i>
+<i class={`ri-${name} ${className} ${sizeClass}`.trim()} aria-hidden='true'></i>
+
+<style>
+  .icon--16 {
+    font-size: 16px;
+  }
+  .icon--20 {
+    font-size: 20px;
+  }
+  .icon--24 {
+    font-size: 24px;
+  }
+  .icon--32 {
+    font-size: 32px;
+  }
+</style>

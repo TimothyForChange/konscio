@@ -21,16 +21,15 @@ describe('Icon.astro', () => {
 
   it('renders icon element with proper attributes', () => {
     expect(componentContent).toContain('<i');
-    expect(componentContent).toContain(
-      'class={`ri-${name} ${className}`.trim()}'
-    );
-    expect(componentContent).toContain('style={`font-size: ${size}px;`}');
+    expect(componentContent).toContain('class={`ri-${name}');
+    expect(componentContent).toContain('.trim()');
+    expect(componentContent).toContain('icon--20');
     expect(componentContent).toContain("aria-hidden='true'");
     expect(componentContent).toContain('</i>');
   });
 
   it('handles empty className properly', () => {
-    expect(componentContent).toContain('${className}`.trim()}');
+    expect(componentContent).toContain('${className}');
   });
 
   it('uses default size of 20px', () => {

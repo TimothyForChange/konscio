@@ -72,18 +72,18 @@ const sortedPosts = allPosts
                 <span class='post-reading-time'>
                   {post.frontmatter.minutesRead}
                 </span>
-
-                {post.frontmatter.categories && (
-                  <div class='post-categories'>
-                    {post.frontmatter.categories.map((category: string) => (
-                      <span class='category'>{category}</span>
-                    ))}
-                  </div>
-                )}
               </div>
 
               {post.frontmatter.excerpt && (
                 <p class='post-excerpt'>{post.frontmatter.excerpt}</p>
+              )}
+
+              {post.frontmatter.categories && (
+                <div class='post-categories'>
+                  {post.frontmatter.categories.map((category: string) => (
+                    <span class='category'>{category}</span>
+                  ))}
+                </div>
               )}
 
               <a
@@ -184,7 +184,8 @@ const sortedPosts = allPosts
 
   .post-meta {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
     gap: calc(var(--grid-unit));
     margin-bottom: calc(var(--grid-unit) * 2);
   }
@@ -205,6 +206,12 @@ const sortedPosts = allPosts
     letter-spacing: 0.05em;
   }
 
+  .post-author::before {
+    content: '•';
+    margin: 0 calc(var(--grid-unit) / 2);
+    color: var(--color-border);
+  }
+
   .post-reading-time {
     font-family: var(--font-mono);
     font-size: 0.9rem;
@@ -213,10 +220,17 @@ const sortedPosts = allPosts
     letter-spacing: 0.05em;
   }
 
+  .post-reading-time::before {
+    content: '•';
+    margin: 0 calc(var(--grid-unit) / 2);
+    color: var(--color-border);
+  }
+
   .post-categories {
     display: flex;
     flex-wrap: wrap;
     gap: calc(var(--grid-unit) / 2);
+    margin-bottom: calc(var(--grid-unit) * 3);
   }
 
   .category {
