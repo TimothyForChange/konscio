@@ -1,9 +1,9 @@
-import { readFileSync } from 'fs';
-import { join } from 'path';
-import { JSDOM } from 'jsdom';
-import { describe, expect, it } from 'vitest';
+import { readFileSync } from "fs";
+import { join } from "path";
+import { JSDOM } from "jsdom";
+import { describe, expect, it } from "vitest";
 
-describe('HeaderMobileMenu.astro', () => {
+describe("HeaderMobileMenu.astro", () => {
   function setupDOM() {
     const html = `
       <!DOCTYPE html>
@@ -25,46 +25,46 @@ describe('HeaderMobileMenu.astro', () => {
     `;
 
     const dom = new JSDOM(html, {
-      runScripts: 'dangerously',
-      resources: 'usable',
-      url: 'http://localhost',
+      runScripts: "dangerously",
+      resources: "usable",
+      url: "http://localhost",
     });
 
     return dom;
   }
 
-  it('has proper TypeScript interface', () => {
+  it("has proper TypeScript interface", () => {
     const componentPath = join(
       process.cwd(),
-      'src/components/HeaderMobileMenu.astro'
+      "src/components/HeaderMobileMenu.astro"
     );
-    const componentContent = readFileSync(componentPath, 'utf-8');
+    const componentContent = readFileSync(componentPath, "utf-8");
 
-    expect(componentContent).toContain('interface Props');
-    expect(componentContent).toContain('base: string');
-    expect(componentContent).toContain('const { base } = Astro.props');
+    expect(componentContent).toContain("interface Props");
+    expect(componentContent).toContain("base: string");
+    expect(componentContent).toContain("const { base } = Astro.props");
   });
 
-  it('contains navigation structure', () => {
+  it("contains navigation structure", () => {
     const componentPath = join(
       process.cwd(),
-      'src/components/HeaderMobileMenu.astro'
+      "src/components/HeaderMobileMenu.astro"
     );
-    const componentContent = readFileSync(componentPath, 'utf-8');
+    const componentContent = readFileSync(componentPath, "utf-8");
 
     expect(componentContent).toContain("<nav class='mobile-menu'");
     expect(componentContent).toContain("aria-label='Mobile navigation'");
     expect(componentContent).toContain("<ul class='mobile-nav-list'>");
-    expect(componentContent).toContain('<li><a href={base}');
-    expect(componentContent).toContain('data-astro-prefetch');
+    expect(componentContent).toContain("<li><a href={base}");
+    expect(componentContent).toContain("data-astro-prefetch");
   });
 
-  it('has all navigation links', () => {
+  it("has all navigation links", () => {
     const componentPath = join(
       process.cwd(),
-      'src/components/HeaderMobileMenu.astro'
+      "src/components/HeaderMobileMenu.astro"
     );
-    const componentContent = readFileSync(componentPath, 'utf-8');
+    const componentContent = readFileSync(componentPath, "utf-8");
 
     expect(componentContent).toContain(
       "<a href={base} data-astro-prefetch class='mobile-nav-link'>Home</a>"
@@ -74,87 +74,87 @@ describe('HeaderMobileMenu.astro', () => {
     expect(componentContent).toContain("href={base + 'about'}");
   });
 
-  it('has proper mobile menu styling', () => {
+  it("has proper mobile menu styling", () => {
     const componentPath = join(
       process.cwd(),
-      'src/components/HeaderMobileMenu.astro'
+      "src/components/HeaderMobileMenu.astro"
     );
-    const componentContent = readFileSync(componentPath, 'utf-8');
+    const componentContent = readFileSync(componentPath, "utf-8");
 
-    expect(componentContent).toContain('.mobile-menu');
-    expect(componentContent).toContain('position: fixed');
-    expect(componentContent).toContain('transform: translateX(-100%)');
-    expect(componentContent).toContain('transition: transform 0.3s ease');
-    expect(componentContent).toContain('.mobile-menu.active');
-    expect(componentContent).toContain('transform: translateX(0)');
+    expect(componentContent).toContain(".mobile-menu");
+    expect(componentContent).toContain("position: fixed");
+    expect(componentContent).toContain("transform: translateX(-100%)");
+    expect(componentContent).toContain("transition: transform 0.3s ease");
+    expect(componentContent).toContain(".mobile-menu.active");
+    expect(componentContent).toContain("transform: translateX(0)");
   });
 
-  it('has navigation link styling', () => {
+  it("has navigation link styling", () => {
     const componentPath = join(
       process.cwd(),
-      'src/components/HeaderMobileMenu.astro'
+      "src/components/HeaderMobileMenu.astro"
     );
-    const componentContent = readFileSync(componentPath, 'utf-8');
+    const componentContent = readFileSync(componentPath, "utf-8");
 
-    expect(componentContent).toContain('.mobile-nav-link');
-    expect(componentContent).toContain('display: block');
-    expect(componentContent).toContain('text-transform: uppercase');
-    expect(componentContent).toContain('letter-spacing: 0.1em');
+    expect(componentContent).toContain(".mobile-nav-link");
+    expect(componentContent).toContain("display: block");
+    expect(componentContent).toContain("text-transform: uppercase");
+    expect(componentContent).toContain("letter-spacing: 0.1em");
     expect(componentContent).toContain(
-      'border-bottom: 1px solid var(--color-border)'
+      "border-bottom: 1px solid var(--color-border)"
     );
-    expect(componentContent).toContain('color: var(--color-accent)');
+    expect(componentContent).toContain("color: var(--color-accent)");
   });
 
-  it('has hover and focus states', () => {
+  it("has hover and focus states", () => {
     const componentPath = join(
       process.cwd(),
-      'src/components/HeaderMobileMenu.astro'
+      "src/components/HeaderMobileMenu.astro"
     );
-    const componentContent = readFileSync(componentPath, 'utf-8');
+    const componentContent = readFileSync(componentPath, "utf-8");
 
-    expect(componentContent).toContain('.mobile-nav-link:hover');
-    expect(componentContent).toContain('.mobile-nav-link:focus');
+    expect(componentContent).toContain(".mobile-nav-link:hover");
+    expect(componentContent).toContain(".mobile-nav-link:focus");
     expect(componentContent).toContain(
-      'background-color: var(--color-surface)'
+      "background-color: var(--color-surface)"
     );
   });
 
-  it('has proper z-index and positioning', () => {
+  it("has proper z-index and positioning", () => {
     const componentPath = join(
       process.cwd(),
-      'src/components/HeaderMobileMenu.astro'
+      "src/components/HeaderMobileMenu.astro"
     );
-    const componentContent = readFileSync(componentPath, 'utf-8');
+    const componentContent = readFileSync(componentPath, "utf-8");
 
-    expect(componentContent).toContain('z-index: 99');
-    expect(componentContent).toContain('top: 0');
-    expect(componentContent).toContain('left: 0');
-    expect(componentContent).toContain('right: 0');
-    expect(componentContent).toContain('bottom: 0');
+    expect(componentContent).toContain("z-index: 99");
+    expect(componentContent).toContain("top: 0");
+    expect(componentContent).toContain("left: 0");
+    expect(componentContent).toContain("right: 0");
+    expect(componentContent).toContain("bottom: 0");
   });
 
-  it('includes proper accessibility attributes', () => {
+  it("includes proper accessibility attributes", () => {
     const componentPath = join(
       process.cwd(),
-      'src/components/HeaderMobileMenu.astro'
+      "src/components/HeaderMobileMenu.astro"
     );
-    const componentContent = readFileSync(componentPath, 'utf-8');
+    const componentContent = readFileSync(componentPath, "utf-8");
 
     expect(componentContent).toContain("aria-label='Mobile navigation'");
   });
 
-  it('includes data-astro-prefetch on navigation links', () => {
+  it("includes data-astro-prefetch on navigation links", () => {
     const componentPath = join(
       process.cwd(),
-      'src/components/HeaderMobileMenu.astro'
+      "src/components/HeaderMobileMenu.astro"
     );
-    const componentContent = readFileSync(componentPath, 'utf-8');
+    const componentContent = readFileSync(componentPath, "utf-8");
 
-    expect(componentContent).toContain('data-astro-prefetch');
+    expect(componentContent).toContain("data-astro-prefetch");
   });
 
-  it('renders with correct base path', async () => {
+  it("renders with correct base path", async () => {
     const dom = setupDOM();
     const document = dom.window.document;
 

@@ -100,14 +100,14 @@ You may submit blog posts or articles by either:
   2.  Use the required frontmatter fields:
       ```yaml
       ---
-      title: 'Your Article Title'
-      datePublished: 'YYYY-MM-DD'
-      description: 'Brief SEO description'
-      author: 'Your Name'
-      excerpt: 'Short summary for listings'
-      categories: ['Category1', 'Category2']
-      tags: ['tag1', 'tag2']
-      image: '/images/your-open-graph-image.jpg'
+      title: "Your Article Title"
+      datePublished: "YYYY-MM-DD"
+      description: "Brief SEO description"
+      author: "Your Name"
+      excerpt: "Short summary for listings"
+      categories: ["Category1", "Category2"]
+      tags: ["tag1", "tag2"]
+      image: "/images/your-open-graph-image.jpg"
       ---
       ```
   3.  Write in clear, accessible language

@@ -1,31 +1,31 @@
-import { getCollection } from 'astro:content';
-import { describe, expect, it, vi } from 'vitest';
-import { GET } from '../../src/pages/search.json.js';
+import { getCollection } from "astro:content";
+import { describe, expect, it, vi } from "vitest";
+import { GET } from "../../src/pages/search.json.js";
 
-vi.mock('astro:content', () => ({
+vi.mock("astro:content", () => ({
   getCollection: vi.fn(),
 }));
 
-describe('search.json', () => {
-  it('should return search data for blog posts', async () => {
+describe("search.json", () => {
+  it("should return search data for blog posts", async () => {
     const mockPosts = [
       {
         data: {
-          title: 'Test Post 1',
-          datePublished: new Date('2023-01-01'),
-          excerpt: 'Test excerpt 1',
-          categories: ['category1'],
+          title: "Test Post 1",
+          datePublished: new Date("2023-01-01"),
+          excerpt: "Test excerpt 1",
+          categories: ["category1"],
         },
-        slug: 'test-post-1',
+        slug: "test-post-1",
       },
       {
         data: {
-          title: 'Test Post 2',
-          datePublished: new Date('2023-01-02'),
-          description: 'Test description 2',
-          categories: ['category2'],
+          title: "Test Post 2",
+          datePublished: new Date("2023-01-02"),
+          description: "Test description 2",
+          categories: ["category2"],
         },
-        slug: 'test-post-2',
+        slug: "test-post-2",
       },
     ];
 
@@ -37,30 +37,30 @@ describe('search.json', () => {
     const data = await response.json();
     expect(data).toEqual([
       {
-        title: 'Test Post 2',
-        url: '/blog/test-post-2',
-        datePublished: '2023-01-02T00:00:00.000Z',
-        excerpt: 'Test description 2',
-        categories: ['category2'],
+        title: "Test Post 2",
+        url: "/blog/test-post-2",
+        datePublished: "2023-01-02T00:00:00.000Z",
+        excerpt: "Test description 2",
+        categories: ["category2"],
       },
       {
-        title: 'Test Post 1',
-        url: '/blog/test-post-1',
-        datePublished: '2023-01-01T00:00:00.000Z',
-        excerpt: 'Test excerpt 1',
-        categories: ['category1'],
+        title: "Test Post 1",
+        url: "/blog/test-post-1",
+        datePublished: "2023-01-01T00:00:00.000Z",
+        excerpt: "Test excerpt 1",
+        categories: ["category1"],
       },
     ]);
   });
 
-  it('should handle posts without excerpt or description', async () => {
+  it("should handle posts without excerpt or description", async () => {
     const mockPosts = [
       {
         data: {
-          title: 'Untitled Post',
-          datePublished: new Date('2023-01-01'),
+          title: "Untitled Post",
+          datePublished: new Date("2023-01-01"),
         },
-        slug: 'untitled-post',
+        slug: "untitled-post",
       },
     ];
 
@@ -68,27 +68,27 @@ describe('search.json', () => {
 
     const response = await GET();
     const data = await response.json();
-    expect(data[0].excerpt).toBe('');
+    expect(data[0].excerpt).toBe("");
     expect(data[0].categories).toEqual([]);
   });
 
-  it('should sort posts by date descending', async () => {
+  it("should sort posts by date descending", async () => {
     const mockPosts = [
       {
         data: {
-          title: 'Older Post',
-          datePublished: new Date('2023-01-01'),
-          excerpt: 'Old',
+          title: "Older Post",
+          datePublished: new Date("2023-01-01"),
+          excerpt: "Old",
         },
-        slug: 'older',
+        slug: "older",
       },
       {
         data: {
-          title: 'Newer Post',
-          datePublished: new Date('2023-01-03'),
-          excerpt: 'New',
+          title: "Newer Post",
+          datePublished: new Date("2023-01-03"),
+          excerpt: "New",
         },
-        slug: 'newer',
+        slug: "newer",
       },
     ];
 
@@ -96,27 +96,27 @@ describe('search.json', () => {
 
     const response = await GET();
     const data = await response.json();
-    expect(data[0].title).toBe('Newer Post');
-    expect(data[1].title).toBe('Older Post');
+    expect(data[0].title).toBe("Newer Post");
+    expect(data[1].title).toBe("Older Post");
   });
 
-  it('should handle posts with invalid dates', async () => {
+  it("should handle posts with invalid dates", async () => {
     const mockPosts = [
       {
         data: {
-          title: 'Invalid Date Post',
-          datePublished: 'invalid-date',
-          excerpt: 'Invalid',
+          title: "Invalid Date Post",
+          datePublished: "invalid-date",
+          excerpt: "Invalid",
         },
-        slug: 'invalid-date',
+        slug: "invalid-date",
       },
       {
         data: {
-          title: 'Valid Post',
-          datePublished: '2023-01-02T00:00:00.000Z',
-          excerpt: 'Valid',
+          title: "Valid Post",
+          datePublished: "2023-01-02T00:00:00.000Z",
+          excerpt: "Valid",
         },
-        slug: 'valid',
+        slug: "valid",
       },
     ];
 
@@ -126,11 +126,11 @@ describe('search.json', () => {
     expect(response.status).toBe(200);
     const data = await response.json();
     expect(data.length).toBe(1);
-    expect(data[0].title).toBe('Valid Post');
+    expect(data[0].title).toBe("Valid Post");
   });
 
-  it('should handle getCollection throwing an error', async () => {
-    (getCollection as any).mockRejectedValue(new Error('Collection error'));
+  it("should handle getCollection throwing an error", async () => {
+    (getCollection as any).mockRejectedValue(new Error("Collection error"));
 
     const response = await GET();
     expect(response.status).toBe(200);
@@ -138,10 +138,10 @@ describe('search.json', () => {
     expect(data).toEqual([]);
   });
 
-  it('should handle posts with no data property', async () => {
+  it("should handle posts with no data property", async () => {
     const mockPosts = [
       {
-        slug: 'no-data-post',
+        slug: "no-data-post",
       } as any,
     ];
 

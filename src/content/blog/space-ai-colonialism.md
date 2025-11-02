@@ -1,13 +1,13 @@
 ---
 title: "Empire's New Frontiers: From Space Militarisation to AI Colonialism"
-author: 'Timothy Brits'
+author: "Timothy Brits"
 datePublished: 2025-11-08
-description: 'The new instruments of domination are orbital and algorithmic. Satellites, private constellations and AI surveillance extend imperial power into sightlines and data streams. This essay traces how space militarisation and AI export reproduce colonial relations in new technical clothing.'
-excerpt: 'Empire no longer needs only soldiers and ships. It now needs satellites, servers and scored lives. Control the orbit and the dataset, and you control sovereignty.'
+description: "The new instruments of domination are orbital and algorithmic. Satellites, private constellations and AI surveillance extend imperial power into sightlines and data streams. This essay traces how space militarisation and AI export reproduce colonial relations in new technical clothing."
+excerpt: "Empire no longer needs only soldiers and ships. It now needs satellites, servers and scored lives. Control the orbit and the dataset, and you control sovereignty."
 image: /images/space-ai-colonialism.jpg
-categories: ['Analysis']
+categories: ["Analysis"]
 tags:
-  ['Imperialism', 'Space Militarisation', 'Digital Colonialism', 'Surveillance']
+  ["Imperialism", "Space Militarisation", "Digital Colonialism", "Surveillance"]
 draft: true
 ---
 

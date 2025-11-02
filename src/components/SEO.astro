@@ -1,14 +1,14 @@
 ---
-import { Schema } from 'astro-seo-schema';
-import { config } from '../config';
+import { Schema } from "astro-seo-schema";
+import { config } from "../config";
 
-const ogImageUrl = new URL('images/og-image.jpg', Astro.site).toString();
+const ogImageUrl = new URL("images/og-image.jpg", Astro.site).toString();
 
 export interface Props {
   title?: string;
   description?: string;
   image?: string;
-  type?: 'website' | 'article';
+  type?: "website" | "article";
   datePublished?: string;
   dateModified?: string;
   categories?: string[];
@@ -20,7 +20,7 @@ const {
   title = config.title,
   description = config.description,
   image = ogImageUrl,
-  type = 'website',
+  type = "website",
   datePublished,
   dateModified,
   categories,
@@ -32,7 +32,7 @@ const pageTitle = title.includes(config.title)
   ? title
   : `${title} | ${config.title}`;
 const canonicalURL = canonical || new URL(Astro.url.pathname, Astro.site);
-const imageURL = new URL(image.replace(/^\//, ''), Astro.site);
+const imageURL = new URL(image.replace(/^\//, ""), Astro.site);
 ---
 
 <title>{pageTitle}</title>
@@ -46,7 +46,7 @@ const imageURL = new URL(image.replace(/^\//, ''), Astro.site);
 <meta property='og:image' content={imageURL.toString()} />
 <meta
   property='og:logo'
-  content={new URL('/logo.webp', Astro.site).toString()}
+  content={new URL("/logo.webp", Astro.site).toString()}
 />
 <meta property='og:site_name' content={config.title} />
 <meta property='og:locale' content='en_GB' />
@@ -56,10 +56,10 @@ const imageURL = new URL(image.replace(/^\//, ''), Astro.site);
   )
 }
 {
-  type === 'article' && (
+  type === "article" && (
     <>
       <meta property='article:author' content={config.author.name} />
-      <meta property='article:section' content={categories?.[0] || 'Blog'} />
+      <meta property='article:section' content={categories?.[0] || "Blog"} />
       {dateModified && (
         <meta property='article:modified_time' content={dateModified} />
       )}
@@ -74,9 +74,9 @@ const imageURL = new URL(image.replace(/^\//, ''), Astro.site);
 <meta name='googlebot' content='index, follow' />
 <Schema
   item={{
-    '@context': 'https://schema.org',
-    '@type': type === 'article' ? 'Article' : 'WebSite',
-    ...(type === 'article'
+    "@context": "https://schema.org",
+    "@type": type === "article" ? "Article" : "WebSite",
+    ...(type === "article"
       ? {
           headline: pageTitle,
           description: description,
@@ -86,9 +86,9 @@ const imageURL = new URL(image.replace(/^\//, ''), Astro.site);
           ...(dateModified && { dateModified: dateModified }),
           ...(categories &&
             categories.length > 0 && { articleSection: categories[0] }),
-          ...(tags && tags.length > 0 && { keywords: tags.join(', ') }),
+          ...(tags && tags.length > 0 && { keywords: tags.join(", ") }),
           author: {
-            '@type': 'Person',
+            "@type": "Person",
             name: config.author.name,
             description: config.author.bio,
             image: config.author.avatar
@@ -96,11 +96,11 @@ const imageURL = new URL(image.replace(/^\//, ''), Astro.site);
               : undefined,
           },
           publisher: {
-            '@type': 'Organization',
+            "@type": "Organization",
             name: config.title,
             logo: {
-              '@type': 'ImageObject',
-              url: new URL('/site-title.svg', Astro.site).toString(),
+              "@type": "ImageObject",
+              url: new URL("/site-title.svg", Astro.site).toString(),
             },
           },
         }
@@ -110,7 +110,7 @@ const imageURL = new URL(image.replace(/^\//, ''), Astro.site);
           url: canonicalURL.toString(),
           image: imageURL.toString(),
           author: {
-            '@type': 'Person',
+            "@type": "Person",
             name: config.author.name,
             description: config.author.bio,
             image: config.author.avatar

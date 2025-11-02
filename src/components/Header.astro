@@ -1,10 +1,10 @@
 ---
-import { config } from '../config';
-import HeaderMobileMenu from './HeaderMobileMenu.astro';
-import HeaderNavigation from './HeaderNavigation.astro';
-import HeaderSearch from './HeaderSearch.astro';
+import { config } from "../config";
+import HeaderMobileMenu from "./HeaderMobileMenu.astro";
+import HeaderNavigation from "./HeaderNavigation.astro";
+import HeaderSearch from "./HeaderSearch.astro";
 
-const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
+const { base = "" } = Astro.site ? { base: config.baseUrl } : { base: "" };
 ---
 
 <header class='site-header'>
@@ -46,7 +46,7 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
     <div class='site-title'>
       <a href={base} data-astro-prefetch>
         <img
-          src={base + 'site-title.svg'}
+          src={base + "site-title.svg"}
           alt={config.title}
           class='title-svg'
           width='280'
@@ -60,7 +60,7 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
 
       <div class='mobile-controls'>
         <a
-          href={base + 'rss.xml'}
+          href={base + "rss.xml"}
           data-astro-prefetch
           class='rss-toggle'
           title='RSS Feed'
@@ -121,48 +121,48 @@ const { base = '' } = Astro.site ? { base: config.baseUrl } : { base: '' };
 
 <script>
   function initHamburgerMenu() {
-    const hamburgerToggle = document.getElementById('hamburger-toggle');
-    const mobileMenu = document.getElementById('mobile-menu');
+    const hamburgerToggle = document.getElementById("hamburger-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
     const body = document.body;
 
     if (!hamburgerToggle || !mobileMenu) {
       return;
     }
 
-    hamburgerToggle.addEventListener('click', () => {
-      const isOpen = mobileMenu.classList.contains('active');
+    hamburgerToggle.addEventListener("click", () => {
+      const isOpen = mobileMenu.classList.contains("active");
 
       if (isOpen) {
-        mobileMenu.classList.remove('active');
-        hamburgerToggle.setAttribute('aria-expanded', 'false');
-        body.style.overflow = '';
+        mobileMenu.classList.remove("active");
+        hamburgerToggle.setAttribute("aria-expanded", "false");
+        body.style.overflow = "";
       } else {
-        mobileMenu.classList.add('active');
-        hamburgerToggle.setAttribute('aria-expanded', 'true');
-        body.style.overflow = 'hidden';
+        mobileMenu.classList.add("active");
+        hamburgerToggle.setAttribute("aria-expanded", "true");
+        body.style.overflow = "hidden";
       }
     });
 
-    const mobileNavLinks = mobileMenu.querySelectorAll('.mobile-nav-link');
+    const mobileNavLinks = mobileMenu.querySelectorAll(".mobile-nav-link");
     mobileNavLinks.forEach((link) => {
-      link.addEventListener('click', () => {
-        mobileMenu.classList.remove('active');
-        hamburgerToggle.setAttribute('aria-expanded', 'false');
-        body.style.overflow = '';
+      link.addEventListener("click", () => {
+        mobileMenu.classList.remove("active");
+        hamburgerToggle.setAttribute("aria-expanded", "false");
+        body.style.overflow = "";
       });
     });
 
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
-        mobileMenu.classList.remove('active');
-        hamburgerToggle.setAttribute('aria-expanded', 'false');
-        body.style.overflow = '';
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && mobileMenu.classList.contains("active")) {
+        mobileMenu.classList.remove("active");
+        hamburgerToggle.setAttribute("aria-expanded", "false");
+        body.style.overflow = "";
       }
     });
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initHamburgerMenu);
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initHamburgerMenu);
   } else {
     initHamburgerMenu();
   }

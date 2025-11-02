@@ -1,11 +1,11 @@
 ---
-import { config } from '../config';
-import { slugifyPath } from '../utils/slugify';
+import { config } from "../config";
+import { slugifyPath } from "../utils/slugify";
 
 const base = config.baseUrl;
 
-const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true });
-const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true });
+const mdPostsGlob = import.meta.glob("../content/blog/*.md", { eager: true });
+const mdxPostsGlob = import.meta.glob("../content/blog/*.mdx", { eager: true });
 const allPosts = [
   ...Object.values(mdPostsGlob),
   ...Object.values(mdxPostsGlob),
@@ -36,11 +36,11 @@ const recentPosts = allPosts
             </a>
             <time class='post-date' datetime={post.frontmatter.datePublished}>
               {new Date(post.frontmatter.datePublished).toLocaleDateString(
-                'en-GB',
+                "en-GB",
                 {
-                  month: 'short',
-                  day: 'numeric',
-                  year: 'numeric',
+                  month: "short",
+                  day: "numeric",
+                  year: "numeric",
                 }
               )}
             </time>

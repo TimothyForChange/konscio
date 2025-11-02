@@ -1,18 +1,18 @@
 ---
-import Layout from '../../components/Layout.astro';
-import TableOfContents from '../../components/TableOfContents.astro';
-import { config } from '../../config';
-import { slugifyPath } from '../../utils/slugify';
+import Layout from "../../components/Layout.astro";
+import TableOfContents from "../../components/TableOfContents.astro";
+import { config } from "../../config";
+import { slugifyPath } from "../../utils/slugify";
 import {
   extractHeadings,
   filterHeadingsForTOC,
-} from '../../utils/table-of-contents';
+} from "../../utils/table-of-contents";
 
 export async function getStaticPaths() {
-  const mdPostsGlob = import.meta.glob('../../content/blog/*.md', {
+  const mdPostsGlob = import.meta.glob("../../content/blog/*.md", {
     eager: true,
   });
-  const mdxPostsGlob = import.meta.glob('../../content/blog/*.mdx', {
+  const mdxPostsGlob = import.meta.glob("../../content/blog/*.mdx", {
     eager: true,
   });
 
@@ -22,7 +22,7 @@ export async function getStaticPaths() {
   ].filter((post: any) => !post.frontmatter.draft) as any[];
 
   return allPosts.map((post: any) => {
-    const rawContent = post.body || post.rawContent?.() || '';
+    const rawContent = post.body || post.rawContent?.() || "";
     const allHeadings = extractHeadings(rawContent);
     const tocHeadings = filterHeadingsForTOC(allHeadings);
 
@@ -64,10 +64,10 @@ const dateModified = frontmatter.dateModified
       <div class='post-meta'>
         <time class='post-date' datetime={frontmatter.datePublished}>
           {
-            new Date(frontmatter.datePublished).toLocaleDateString('en-GB', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric',
+            new Date(frontmatter.datePublished).toLocaleDateString("en-GB", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
             })
           }
         </time>
@@ -127,10 +127,10 @@ const dateModified = frontmatter.dateModified
           <div class='post-modified-date'>
             <span>Last modified: </span>
             <time datetime={frontmatter.dateModified}>
-              {new Date(frontmatter.dateModified).toLocaleDateString('en-GB', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
+              {new Date(frontmatter.dateModified).toLocaleDateString("en-GB", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
               })}
             </time>
           </div>
@@ -347,12 +347,12 @@ const dateModified = frontmatter.dateModified
     color: #66d9ef !important;
   }
 
-  .post-content :global(pre[class*='language-']) {
+  .post-content :global(pre[class*="language-"]) {
     background: #000000 !important;
     color: #ffffff !important;
   }
 
-  .post-content :global(code[class*='language-']) {
+  .post-content :global(code[class*="language-"]) {
     background: #000000 !important;
     color: #ffffff !important;
   }

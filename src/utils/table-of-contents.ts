@@ -7,7 +7,7 @@ export interface Heading {
 export function extractHeadings(content: string): Heading[] {
   const headings: Heading[] = [];
 
-  const withoutFrontmatter = content.replace(/^---[\s\S]*?---/, '');
+  const withoutFrontmatter = content.replace(/^---[\s\S]*?---/, "");
 
   const headingRegex = /^(#{1,6})\s+(.+)$/gm;
   let match;
@@ -17,9 +17,9 @@ export function extractHeadings(content: string): Heading[] {
     const text = match[2].trim();
     const slug = text
       .toLowerCase()
-      .replace(/[^\w\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/^-+|-+$/g, '');
+      .replace(/[^\w\s-]/g, "")
+      .replace(/\s+/g, "-")
+      .replace(/^-+|-+$/g, "");
 
     headings.push({ depth, text, slug });
   }

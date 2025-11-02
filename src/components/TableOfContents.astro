@@ -1,5 +1,5 @@
 ---
-import type { Heading } from '../utils/table-of-contents';
+import type { Heading } from "../utils/table-of-contents";
 
 interface Props {
   headings: Heading[];
@@ -60,7 +60,7 @@ const { headings } = Astro.props;
   }
 
   .toc-item::before {
-    content: counter(toc-counter) '.';
+    content: counter(toc-counter) ".";
     position: absolute;
     left: 0;
     top: 50%;
@@ -116,43 +116,43 @@ const { headings } = Astro.props;
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const tocLinks = document.querySelectorAll('.toc-link');
+  document.addEventListener("DOMContentLoaded", () => {
+    const tocLinks = document.querySelectorAll(".toc-link");
 
     tocLinks.forEach((link) => {
-      link.addEventListener('click', (e) => {
+      link.addEventListener("click", (e) => {
         e.preventDefault();
-        const targetId = link.getAttribute('href')?.slice(1);
+        const targetId = link.getAttribute("href")?.slice(1);
         const targetElement = targetId
           ? document.getElementById(targetId)
           : null;
 
         if (targetElement) {
           targetElement.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start',
+            behavior: "smooth",
+            block: "start",
           });
 
-          history.pushState(null, '', `#${targetId}`);
+          history.pushState(null, "", `#${targetId}`);
         }
       });
     });
 
     const observerOptions = {
-      rootMargin: '-20% 0px -70% 0px',
+      rootMargin: "-20% 0px -70% 0px",
     };
 
     const observerCallback = (entries: IntersectionObserverEntry[]) => {
       entries.forEach((entry) => {
-        const id = entry.target.getAttribute('id');
+        const id = entry.target.getAttribute("id");
         const tocLink = document.querySelector(`.toc-link[href="#${id}"]`);
 
         if (tocLink) {
           if (entry.isIntersecting) {
-            document.querySelectorAll('.toc-link').forEach((link) => {
-              link.classList.remove('active');
+            document.querySelectorAll(".toc-link").forEach((link) => {
+              link.classList.remove("active");
             });
-            tocLink.classList.add('active');
+            tocLink.classList.add("active");
           }
         }
       });
@@ -163,7 +163,7 @@ const { headings } = Astro.props;
       observerOptions
     );
 
-    document.querySelectorAll('h2[id], h3[id]').forEach((heading) => {
+    document.querySelectorAll("h2[id], h3[id]").forEach((heading) => {
       observer.observe(heading);
     });
   });
@@ -176,7 +176,7 @@ const { headings } = Astro.props;
   }
 
   .toc-link.active::after {
-    content: '•';
+    content: "•";
     position: absolute;
     right: 0;
     color: var(--color-accent);

@@ -1,12 +1,12 @@
 ---
 title: "The New Monroe Doctrine: Washington's War on Latin America's Sovereignty"
-author: 'Timothy Brits'
+author: "Timothy Brits"
 datePublished: 2025-11-01
 description: "The United States' lethal strikes on vessels in waters off Colombia and Venezuela — and reports that the US has identified land targets inside Venezuela — are not isolated acts of law enforcement. They are a twenty-first century reassertion of hemispheric control: empire in new clothing."
-excerpt: 'Striking boats at sea and preparing lists of sites on foreign soil is not counter-narcotics. It is a revival of Monroe Doctrine logic: the hemisphere policed by a single empire.'
+excerpt: "Striking boats at sea and preparing lists of sites on foreign soil is not counter-narcotics. It is a revival of Monroe Doctrine logic: the hemisphere policed by a single empire."
 image: /images/the-new-monroe-doctrine-usa.jpg
-categories: ['Analysis']
-tags: ['Imperialism', 'Venezuela', 'US Foreign Policy', 'Latin America']
+categories: ["Analysis"]
+tags: ["Imperialism", "Venezuela", "US Foreign Policy", "Latin America"]
 ---
 
 # The New Monroe Doctrine: Washington's War on Latin America's Sovereignty

@@ -1,5 +1,5 @@
-import { toString } from 'mdast-util-to-string';
-import getReadingTime from 'reading-time';
+import { toString } from "mdast-util-to-string";
+import getReadingTime from "reading-time";
 
 interface RemarkReadingTimeOptions {
   wordsPerMinute?: number;
@@ -16,7 +16,7 @@ export function remarkReadingTime(
       }
       const textOnPage = toString(tree);
       if (!textOnPage.trim()) {
-        file.data.astro.frontmatter.minutesRead = '1 min read';
+        file.data.astro.frontmatter.minutesRead = "1 min read";
         return;
       }
       const readingTime = getReadingTime(textOnPage, {
@@ -25,7 +25,7 @@ export function remarkReadingTime(
       file.data.astro.frontmatter.minutesRead = readingTime.text;
     } catch (error) {
       if (file?.data?.astro?.frontmatter) {
-        file.data.astro.frontmatter.minutesRead = '1 min read';
+        file.data.astro.frontmatter.minutesRead = "1 min read";
       }
     }
   };

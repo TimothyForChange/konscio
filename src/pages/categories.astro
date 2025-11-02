@@ -1,11 +1,11 @@
 ---
-import Layout from '../components/Layout.astro';
-import { config } from '../config';
+import Layout from "../components/Layout.astro";
+import { config } from "../config";
 
 const base = config.baseUrl;
 
-const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true });
-const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true });
+const mdPostsGlob = import.meta.glob("../content/blog/*.md", { eager: true });
+const mdxPostsGlob = import.meta.glob("../content/blog/*.mdx", { eager: true });
 
 const allPosts = [
   ...Object.values(mdPostsGlob),
@@ -58,13 +58,13 @@ const sortedCategories = Object.entries(categoryMap).sort((a: any, b: any) => {
         sortedCategories.map(([category, posts]: [string, any[]]) => (
           <div class='category-card'>
             <a
-              href={`${base}categories/${category.toLowerCase().replace(/[\/\s]+/g, '-')}`}
+              href={`${base}categories/${category.toLowerCase().replace(/[\/\s]+/g, "-")}`}
               data-astro-prefetch
               class='category-link'
             >
               <h2 class='category-title'>{category}</h2>
               <p class='category-count'>
-                {posts.length} article{posts.length === 1 ? '' : 's'}
+                {posts.length} article{posts.length === 1 ? "" : "s"}
               </p>
             </a>
           </div>

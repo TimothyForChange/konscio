@@ -2,7 +2,7 @@ name: Mark Stale Issues and Pull Requests
 
 on:
   schedule:
-    - cron: '0 17 * * *'
+    - cron: "0 17 * * *"
 
 jobs:
   stale:
@@ -15,7 +15,7 @@ jobs:
       - uses: actions/stale@v5
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          stale-issue-message: 'Stale issue message'
-          stale-pr-message: 'Stale pull request message'
-          stale-issue-label: 'no-issue-activity'
-          stale-pr-label: 'no-pr-activity'
+          stale-issue-message: "Stale issue message"
+          stale-pr-message: "Stale pull request message"
+          stale-issue-label: "no-issue-activity"
+          stale-pr-label: "no-pr-activity"

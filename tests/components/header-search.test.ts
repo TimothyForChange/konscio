@@ -1,7 +1,7 @@
-import { JSDOM } from 'jsdom';
-import { describe, expect, it, vi } from 'vitest';
+import { JSDOM } from "jsdom";
+import { describe, expect, it, vi } from "vitest";
 
-describe('HeaderSearch.astro', () => {
+describe("HeaderSearch.astro", () => {
   function setupSearchDOM() {
     const html = `
       <div class='search-overlay' id='search-overlay'>
@@ -17,9 +17,9 @@ describe('HeaderSearch.astro', () => {
     `;
 
     const dom = new JSDOM(html, {
-      runScripts: 'dangerously',
-      resources: 'usable',
-      url: 'http://localhost',
+      runScripts: "dangerously",
+      resources: "usable",
+      url: "http://localhost",
     });
 
     dom.window.fetch = vi.fn();
@@ -28,7 +28,7 @@ describe('HeaderSearch.astro', () => {
   }
 
   function injectSearchScript(dom: JSDOM) {
-    const script = dom.window.document.createElement('script');
+    const script = dom.window.document.createElement("script");
     script.textContent = `
       const base = '';
 
@@ -169,15 +169,15 @@ describe('HeaderSearch.astro', () => {
     return dom;
   }
 
-  it('initializes search and fetches data', async () => {
+  it("initializes search and fetches data", async () => {
     const dom = setupSearchDOM();
     const mockData = [
       {
-        title: 'Test Post',
-        url: '/blog/test',
-        datePublished: '2023-01-01T00:00:00.000Z',
-        excerpt: 'Test excerpt',
-        categories: ['test'],
+        title: "Test Post",
+        url: "/blog/test",
+        datePublished: "2023-01-01T00:00:00.000Z",
+        excerpt: "Test excerpt",
+        categories: ["test"],
       },
     ];
 
@@ -189,10 +189,10 @@ describe('HeaderSearch.astro', () => {
 
     await new Promise((resolve) => setTimeout(resolve, 0));
 
-    expect(dom.window.fetch).toHaveBeenCalledWith('search.json');
+    expect(dom.window.fetch).toHaveBeenCalledWith("search.json");
   });
 
-  it('opens search overlay on toggle click', async () => {
+  it("opens search overlay on toggle click", async () => {
     const dom = setupSearchDOM();
     (dom.window.fetch as any).mockResolvedValue({
       json: () => Promise.resolve([]),
@@ -201,16 +201,16 @@ describe('HeaderSearch.astro', () => {
     injectSearchScript(dom);
     await new Promise((resolve) => setTimeout(resolve, 0));
 
-    const toggle = dom.window.document.getElementById('search-toggle')!;
-    const overlay = dom.window.document.getElementById('search-overlay')!;
+    const toggle = dom.window.document.getElementById("search-toggle")!;
+    const overlay = dom.window.document.getElementById("search-overlay")!;
 
     toggle.click();
 
-    expect(overlay.classList.contains('active')).toBe(true);
-    expect(dom.window.document.body.style.overflow).toBe('hidden');
+    expect(overlay.classList.contains("active")).toBe(true);
+    expect(dom.window.document.body.style.overflow).toBe("hidden");
   });
 
-  it('closes search overlay on close button click', async () => {
+  it("closes search overlay on close button click", async () => {
     const dom = setupSearchDOM();
     (dom.window.fetch as any).mockResolvedValue({
       json: () => Promise.resolve([]),
@@ -219,26 +219,26 @@ describe('HeaderSearch.astro', () => {
     injectSearchScript(dom);
     await new Promise((resolve) => setTimeout(resolve, 0));
 
-    const overlay = dom.window.document.getElementById('search-overlay')!;
-    const closeBtn = dom.window.document.getElementById('search-close')!;
+    const overlay = dom.window.document.getElementById("search-overlay")!;
+    const closeBtn = dom.window.document.getElementById("search-close")!;
     const input = dom.window.document.getElementById(
-      'search-input'
+      "search-input"
     ) as HTMLInputElement;
-    const results = dom.window.document.getElementById('search-results')!;
+    const results = dom.window.document.getElementById("search-results")!;
 
-    overlay.classList.add('active');
-    input.value = 'test';
-    results.innerHTML = '<div>test</div>';
+    overlay.classList.add("active");
+    input.value = "test";
+    results.innerHTML = "<div>test</div>";
 
     closeBtn.click();
 
-    expect(overlay.classList.contains('active')).toBe(false);
-    expect(dom.window.document.body.style.overflow).toBe('');
-    expect(input.value).toBe('');
-    expect(results.innerHTML).toBe('');
+    expect(overlay.classList.contains("active")).toBe(false);
+    expect(dom.window.document.body.style.overflow).toBe("");
+    expect(input.value).toBe("");
+    expect(results.innerHTML).toBe("");
   });
 
-  it('closes search on Escape key', async () => {
+  it("closes search on Escape key", async () => {
     const dom = setupSearchDOM();
     (dom.window.fetch as any).mockResolvedValue({
       json: () => Promise.resolve([]),
@@ -247,18 +247,18 @@ describe('HeaderSearch.astro', () => {
     injectSearchScript(dom);
     await new Promise((resolve) => setTimeout(resolve, 0));
 
-    const overlay = dom.window.document.getElementById('search-overlay')!;
+    const overlay = dom.window.document.getElementById("search-overlay")!;
 
-    overlay.classList.add('active');
+    overlay.classList.add("active");
 
     dom.window.document.dispatchEvent(
-      new dom.window.KeyboardEvent('keydown', { key: 'Escape' })
+      new dom.window.KeyboardEvent("keydown", { key: "Escape" })
     );
 
-    expect(overlay.classList.contains('active')).toBe(false);
+    expect(overlay.classList.contains("active")).toBe(false);
   });
 
-  it('closes search on overlay click', async () => {
+  it("closes search on overlay click", async () => {
     const dom = setupSearchDOM();
     (dom.window.fetch as any).mockResolvedValue({
       json: () => Promise.resolve([]),
@@ -267,31 +267,31 @@ describe('HeaderSearch.astro', () => {
     injectSearchScript(dom);
     await new Promise((resolve) => setTimeout(resolve, 0));
 
-    const overlay = dom.window.document.getElementById('search-overlay')!;
+    const overlay = dom.window.document.getElementById("search-overlay")!;
 
-    overlay.classList.add('active');
+    overlay.classList.add("active");
 
     overlay.click();
 
-    expect(overlay.classList.contains('active')).toBe(false);
+    expect(overlay.classList.contains("active")).toBe(false);
   });
 
-  it('filters and displays search results', async () => {
+  it("filters and displays search results", async () => {
     const dom = setupSearchDOM();
     const mockData = [
       {
-        title: 'Test Post 1',
-        url: '/blog/test1',
-        datePublished: '2023-01-01T00:00:00.000Z',
-        excerpt: 'First excerpt',
-        categories: ['test'],
+        title: "Test Post 1",
+        url: "/blog/test1",
+        datePublished: "2023-01-01T00:00:00.000Z",
+        excerpt: "First excerpt",
+        categories: ["test"],
       },
       {
-        title: 'Another Post',
-        url: '/blog/test2',
-        datePublished: '2023-01-02T00:00:00.000Z',
-        excerpt: 'Second excerpt',
-        categories: ['other'],
+        title: "Another Post",
+        url: "/blog/test2",
+        datePublished: "2023-01-02T00:00:00.000Z",
+        excerpt: "Second excerpt",
+        categories: ["other"],
       },
     ];
 
@@ -303,27 +303,27 @@ describe('HeaderSearch.astro', () => {
     await new Promise((resolve) => setTimeout(resolve, 0));
 
     const input = dom.window.document.getElementById(
-      'search-input'
+      "search-input"
     ) as HTMLInputElement;
-    const results = dom.window.document.getElementById('search-results')!;
+    const results = dom.window.document.getElementById("search-results")!;
 
-    input.value = 'test';
-    input.dispatchEvent(new dom.window.Event('input'));
+    input.value = "test";
+    input.dispatchEvent(new dom.window.Event("input"));
 
     expect(results.innerHTML).toContain('Found 1 article for "test"');
-    expect(results.innerHTML).toContain('Test Post 1');
-    expect(results.innerHTML).not.toContain('Another Post');
+    expect(results.innerHTML).toContain("Test Post 1");
+    expect(results.innerHTML).not.toContain("Another Post");
   });
 
-  it('shows no results message', async () => {
+  it("shows no results message", async () => {
     const dom = setupSearchDOM();
     const mockData = [
       {
-        title: 'Test Post',
-        url: '/blog/test',
-        datePublished: '2023-01-01T00:00:00.000Z',
-        excerpt: 'Test excerpt',
-        categories: ['test'],
+        title: "Test Post",
+        url: "/blog/test",
+        datePublished: "2023-01-01T00:00:00.000Z",
+        excerpt: "Test excerpt",
+        categories: ["test"],
       },
     ];
 
@@ -335,25 +335,25 @@ describe('HeaderSearch.astro', () => {
     await new Promise((resolve) => setTimeout(resolve, 0));
 
     const input = dom.window.document.getElementById(
-      'search-input'
+      "search-input"
     ) as HTMLInputElement;
-    const results = dom.window.document.getElementById('search-results')!;
+    const results = dom.window.document.getElementById("search-results")!;
 
-    input.value = 'nonexistent';
-    input.dispatchEvent(new dom.window.Event('input'));
+    input.value = "nonexistent";
+    input.dispatchEvent(new dom.window.Event("input"));
 
     expect(results.innerHTML).toContain('No articles found for "nonexistent"');
   });
 
-  it('clears results for short queries', async () => {
+  it("clears results for short queries", async () => {
     const dom = setupSearchDOM();
     const mockData = [
       {
-        title: 'Test Post',
-        url: '/blog/test',
-        datePublished: '2023-01-01T00:00:00.000Z',
-        excerpt: 'Test excerpt',
-        categories: ['test'],
+        title: "Test Post",
+        url: "/blog/test",
+        datePublished: "2023-01-01T00:00:00.000Z",
+        excerpt: "Test excerpt",
+        categories: ["test"],
       },
     ];
 
@@ -365,36 +365,36 @@ describe('HeaderSearch.astro', () => {
     await new Promise((resolve) => setTimeout(resolve, 0));
 
     const input = dom.window.document.getElementById(
-      'search-input'
+      "search-input"
     ) as HTMLInputElement;
-    const results = dom.window.document.getElementById('search-results')!;
+    const results = dom.window.document.getElementById("search-results")!;
 
-    input.value = 't';
-    input.dispatchEvent(new dom.window.Event('input'));
+    input.value = "t";
+    input.dispatchEvent(new dom.window.Event("input"));
 
-    expect(results.innerHTML).toBe('');
+    expect(results.innerHTML).toBe("");
   });
 
-  it('handles fetch errors gracefully', async () => {
+  it("handles fetch errors gracefully", async () => {
     const dom = setupSearchDOM();
 
-    (dom.window.fetch as any).mockRejectedValue(new Error('Network error'));
+    (dom.window.fetch as any).mockRejectedValue(new Error("Network error"));
 
     injectSearchScript(dom);
     await new Promise((resolve) => setTimeout(resolve, 0));
 
     const input = dom.window.document.getElementById(
-      'search-input'
+      "search-input"
     ) as HTMLInputElement;
-    const results = dom.window.document.getElementById('search-results')!;
+    const results = dom.window.document.getElementById("search-results")!;
 
-    input.value = 'test';
-    input.dispatchEvent(new dom.window.Event('input'));
+    input.value = "test";
+    input.dispatchEvent(new dom.window.Event("input"));
 
-    expect(results.innerHTML).toContain('No articles found');
+    expect(results.innerHTML).toContain("No articles found");
   });
 
-  it('handles null search data', async () => {
+  it("handles null search data", async () => {
     const dom = setupSearchDOM();
 
     (dom.window.fetch as any).mockResolvedValue({
@@ -405,25 +405,25 @@ describe('HeaderSearch.astro', () => {
     await new Promise((resolve) => setTimeout(resolve, 0));
 
     const input = dom.window.document.getElementById(
-      'search-input'
+      "search-input"
     ) as HTMLInputElement;
-    const results = dom.window.document.getElementById('search-results')!;
+    const results = dom.window.document.getElementById("search-results")!;
 
-    input.value = 'test';
-    input.dispatchEvent(new dom.window.Event('input'));
+    input.value = "test";
+    input.dispatchEvent(new dom.window.Event("input"));
 
-    expect(results.innerHTML).toContain('No articles found');
+    expect(results.innerHTML).toContain("No articles found");
   });
 
-  it('handles search with special characters', async () => {
+  it("handles search with special characters", async () => {
     const dom = setupSearchDOM();
     const mockData = [
       {
-        title: 'Test with special chars !@#',
-        url: '/blog/special',
-        datePublished: '2023-01-01T00:00:00.000Z',
-        excerpt: 'Test excerpt',
-        categories: ['test'],
+        title: "Test with special chars !@#",
+        url: "/blog/special",
+        datePublished: "2023-01-01T00:00:00.000Z",
+        excerpt: "Test excerpt",
+        categories: ["test"],
       },
     ];
 
@@ -435,13 +435,13 @@ describe('HeaderSearch.astro', () => {
     await new Promise((resolve) => setTimeout(resolve, 0));
 
     const input = dom.window.document.getElementById(
-      'search-input'
+      "search-input"
     ) as HTMLInputElement;
-    const results = dom.window.document.getElementById('search-results')!;
+    const results = dom.window.document.getElementById("search-results")!;
 
-    input.value = '!@#';
-    input.dispatchEvent(new dom.window.Event('input'));
+    input.value = "!@#";
+    input.dispatchEvent(new dom.window.Event("input"));
 
-    expect(results.innerHTML).toContain('special chars');
+    expect(results.innerHTML).toContain("special chars");
   });
 });

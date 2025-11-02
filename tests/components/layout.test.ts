@@ -1,24 +1,24 @@
-import { readFileSync } from 'fs';
-import { join } from 'path';
-import { describe, expect, it } from 'vitest';
+import { readFileSync } from "fs";
+import { join } from "path";
+import { describe, expect, it } from "vitest";
 
-describe('Layout.astro', () => {
-  const componentPath = join(process.cwd(), 'src/components/Layout.astro');
-  const componentContent = readFileSync(componentPath, 'utf-8');
+describe("Layout.astro", () => {
+  const componentPath = join(process.cwd(), "src/components/Layout.astro");
+  const componentContent = readFileSync(componentPath, "utf-8");
 
-  it('has proper TypeScript interface', () => {
-    expect(componentContent).toContain('export interface Props');
-    expect(componentContent).toContain('title: string');
-    expect(componentContent).toContain('description?: string');
-    expect(componentContent).toContain('showSidebar?: boolean');
-    expect(componentContent).toContain('image?: string');
+  it("has proper TypeScript interface", () => {
+    expect(componentContent).toContain("export interface Props");
+    expect(componentContent).toContain("title: string");
+    expect(componentContent).toContain("description?: string");
+    expect(componentContent).toContain("showSidebar?: boolean");
+    expect(componentContent).toContain("image?: string");
     expect(componentContent).toContain("type?: 'website' | 'article'");
-    expect(componentContent).toContain('datePublished?: string');
-    expect(componentContent).toContain('dateModified?: string');
-    expect(componentContent).toContain('canonical?: string');
+    expect(componentContent).toContain("datePublished?: string");
+    expect(componentContent).toContain("dateModified?: string");
+    expect(componentContent).toContain("canonical?: string");
   });
 
-  it('imports required dependencies', () => {
+  it("imports required dependencies", () => {
     expect(componentContent).toContain(
       "import '@fontsource-variable/jetbrains-mono'"
     );
@@ -36,39 +36,39 @@ describe('Layout.astro', () => {
     expect(componentContent).toContain("import Sidebar from './Sidebar.astro'");
   });
 
-  it('destructures props correctly', () => {
-    expect(componentContent).toContain('const {');
-    expect(componentContent).toContain('title,');
-    expect(componentContent).toContain('description,');
-    expect(componentContent).toContain('showSidebar = true,');
-    expect(componentContent).toContain('image,');
-    expect(componentContent).toContain('type,');
-    expect(componentContent).toContain('datePublished,');
-    expect(componentContent).toContain('dateModified,');
-    expect(componentContent).toContain('canonical,');
-    expect(componentContent).toContain('} = Astro.props;');
+  it("destructures props correctly", () => {
+    expect(componentContent).toContain("const {");
+    expect(componentContent).toContain("title,");
+    expect(componentContent).toContain("description,");
+    expect(componentContent).toContain("showSidebar = true,");
+    expect(componentContent).toContain("image,");
+    expect(componentContent).toContain("type,");
+    expect(componentContent).toContain("datePublished,");
+    expect(componentContent).toContain("dateModified,");
+    expect(componentContent).toContain("canonical,");
+    expect(componentContent).toContain("} = Astro.props;");
   });
 
-  it('has proper HTML document structure', () => {
-    expect(componentContent).toContain('<!doctype html>');
+  it("has proper HTML document structure", () => {
+    expect(componentContent).toContain("<!doctype html>");
     expect(componentContent).toContain("<html lang='en'");
-    expect(componentContent).not.toContain('data-disable-theme-toggle');
-    expect(componentContent).toContain('<head>');
+    expect(componentContent).not.toContain("data-disable-theme-toggle");
+    expect(componentContent).toContain("<head>");
     expect(componentContent).toContain("<meta charset='UTF-8' />");
     expect(componentContent).toContain(
       "<meta name='viewport' content='width=device-width, initial-scale=1.0' />"
     );
-    expect(componentContent).toContain('<body>');
+    expect(componentContent).toContain("<body>");
     expect(componentContent).toContain("<div class='site-wrapper'>");
     expect(componentContent).toContain(
       "<main class='main-content' class:list={{ 'with-sidebar': showSidebar }}>"
     );
-    expect(componentContent).toContain('<slot />');
-    expect(componentContent).toContain('</body>');
-    expect(componentContent).toContain('</html>');
+    expect(componentContent).toContain("<slot />");
+    expect(componentContent).toContain("</body>");
+    expect(componentContent).toContain("</html>");
   });
 
-  it('includes favicon and manifest links', () => {
+  it("includes favicon and manifest links", () => {
     expect(componentContent).toContain(
       "<link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />"
     );
@@ -86,57 +86,57 @@ describe('Layout.astro', () => {
     );
   });
 
-  it('includes theme initialization script', () => {
-    expect(componentContent).not.toContain('<script>');
-    expect(componentContent).not.toContain('data-theme');
+  it("includes theme initialization script", () => {
+    expect(componentContent).not.toContain("<script>");
+    expect(componentContent).not.toContain("data-theme");
   });
 
-  it('includes SEO component with props', () => {
-    expect(componentContent).toContain('<SEO');
-    expect(componentContent).toContain('title={title}');
-    expect(componentContent).toContain('description={description}');
-    expect(componentContent).toContain('image={image}');
-    expect(componentContent).toContain('type={type}');
-    expect(componentContent).toContain('datePublished={datePublished}');
-    expect(componentContent).toContain('dateModified={dateModified}');
-    expect(componentContent).toContain('canonical={canonical}');
-    expect(componentContent).toContain('/>');
+  it("includes SEO component with props", () => {
+    expect(componentContent).toContain("<SEO");
+    expect(componentContent).toContain("title={title}");
+    expect(componentContent).toContain("description={description}");
+    expect(componentContent).toContain("image={image}");
+    expect(componentContent).toContain("type={type}");
+    expect(componentContent).toContain("datePublished={datePublished}");
+    expect(componentContent).toContain("dateModified={dateModified}");
+    expect(componentContent).toContain("canonical={canonical}");
+    expect(componentContent).toContain("/>");
   });
 
-  it('includes Header, Footer, and conditional Sidebar', () => {
-    expect(componentContent).toContain('<Header />');
-    expect(componentContent).toContain('<Footer />');
-    expect(componentContent).toContain('showSidebar && (');
+  it("includes Header, Footer, and conditional Sidebar", () => {
+    expect(componentContent).toContain("<Header />");
+    expect(componentContent).toContain("<Footer />");
+    expect(componentContent).toContain("showSidebar && (");
     expect(componentContent).toContain("<aside class='sidebar'>");
-    expect(componentContent).toContain('<Sidebar />');
-    expect(componentContent).toContain('</aside>');
-    expect(componentContent).toContain(')');
-    expect(componentContent).toContain('}');
+    expect(componentContent).toContain("<Sidebar />");
+    expect(componentContent).toContain("</aside>");
+    expect(componentContent).toContain(")");
+    expect(componentContent).toContain("}");
   });
 
-  it('has proper CSS classes and responsive grid', () => {
-    expect(componentContent).toContain('.site-wrapper');
-    expect(componentContent).toContain('display: flex;');
-    expect(componentContent).toContain('flex-direction: column;');
-    expect(componentContent).toContain('min-height: 100vh;');
-    expect(componentContent).toContain('.main-content');
-    expect(componentContent).toContain('.main-content.with-sidebar');
-    expect(componentContent).toContain('grid-template-columns: 1fr;');
+  it("has proper CSS classes and responsive grid", () => {
+    expect(componentContent).toContain(".site-wrapper");
+    expect(componentContent).toContain("display: flex;");
+    expect(componentContent).toContain("flex-direction: column;");
+    expect(componentContent).toContain("min-height: 100vh;");
+    expect(componentContent).toContain(".main-content");
+    expect(componentContent).toContain(".main-content.with-sidebar");
+    expect(componentContent).toContain("grid-template-columns: 1fr;");
     expect(componentContent).toContain(
-      'grid-template-columns: var(--sidebar-width) 1fr;'
+      "grid-template-columns: var(--sidebar-width) 1fr;"
     );
-    expect(componentContent).toContain('@media (min-width: 1024px)');
+    expect(componentContent).toContain("@media (min-width: 1024px)");
   });
 
-  it('conditionally renders sidebar based on showSidebar prop', () => {
-    expect(componentContent).toContain('showSidebar && (');
+  it("conditionally renders sidebar based on showSidebar prop", () => {
+    expect(componentContent).toContain("showSidebar && (");
   });
 
-  it('defaults showSidebar to true', () => {
-    expect(componentContent).toContain('showSidebar = true,');
+  it("defaults showSidebar to true", () => {
+    expect(componentContent).toContain("showSidebar = true,");
   });
 
-  it('renders without sidebar when showSidebar is false', () => {
+  it("renders without sidebar when showSidebar is false", () => {
     expect(componentContent).toContain(
       "class:list={{ 'with-sidebar': showSidebar }}"
     );

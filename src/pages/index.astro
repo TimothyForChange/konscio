@@ -1,18 +1,18 @@
 ---
-import Layout from '../components/Layout.astro';
-import { slugifyPath } from '../utils/slugify';
+import Layout from "../components/Layout.astro";
+import { slugifyPath } from "../utils/slugify";
 
-const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true });
-const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true });
+const mdPostsGlob = import.meta.glob("../content/blog/*.md", { eager: true });
+const mdxPostsGlob = import.meta.glob("../content/blog/*.mdx", { eager: true });
 
 const allPosts = [
   ...Object.entries(mdPostsGlob).map(([path, post]) =>
-    typeof post === 'object' && post !== null
+    typeof post === "object" && post !== null
       ? { ...post, slug: slugifyPath(path) }
       : { slug: slugifyPath(path) }
   ),
   ...Object.entries(mdxPostsGlob).map(([path, post]) =>
-    typeof post === 'object' && post !== null
+    typeof post === "object" && post !== null
       ? { ...post, slug: slugifyPath(path) }
       : { slug: slugifyPath(path) }
   ),
@@ -74,10 +74,10 @@ const sortedPosts = allPosts
                     >
                       {new Date(
                         post.frontmatter.datePublished
-                      ).toLocaleDateString('en-GB', {
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric',
+                      ).toLocaleDateString("en-GB", {
+                        year: "numeric",
+                        month: "long",
+                        day: "numeric",
                       })}
                     </time>
 

@@ -1,4 +1,4 @@
-import avatarImg from './assets/avatar.webp';
+import avatarImg from "./assets/avatar.webp";
 
 export interface SiteConfig {
   title: string;
@@ -21,23 +21,23 @@ export interface SiteConfig {
 }
 
 export const config: SiteConfig = {
-  title: 'Timothy for Change',
+  title: "Timothy for Change",
   tagline:
-    'For people and planet: eco-socialist analysis from Africa and the Global South',
+    "For people and planet: eco-socialist analysis from Africa and the Global South",
   description:
-    'Eco-socialist analysis and decolonial thought from Africa and the Global South — for people and planet.',
+    "Eco-socialist analysis and decolonial thought from Africa and the Global South — for people and planet.",
   author: {
-    name: 'Timothy Brits',
-    bio: 'Timothy writes from South Africa on capitalism, colonialism, and climate collapse. He believes liberation is impossible without dismantling the systems that exploit both people and the planet — and that a decolonised, eco-socialist future is not optional, but necessary.',
+    name: "Timothy Brits",
+    bio: "Timothy writes from South Africa on capitalism, colonialism, and climate collapse. He believes liberation is impossible without dismantling the systems that exploit both people and the planet — and that a decolonised, eco-socialist future is not optional, but necessary.",
     avatar: avatarImg.src,
   },
   social: {
-    github: 'https://github.com/timothyforchange/konscio',
-    threads: 'https://threads.com/@timothyforchange',
-    instagram: 'https://instagram.com/timothyforchange',
-    email: 'contact@timothyforchange.co.za',
-    kofi: 'https://ko-fi.com/timothyforchange',
+    github: "https://github.com/timothyforchange/konscio",
+    threads: "https://threads.com/@timothyforchange",
+    instagram: "https://instagram.com/timothyforchange",
+    email: "contact@timothyforchange.co.za",
+    kofi: "https://ko-fi.com/timothyforchange",
   },
-  siteUrl: 'https://timothyforchange.co.za',
-  baseUrl: '/',
+  siteUrl: "https://timothyforchange.co.za",
+  baseUrl: "/",
 };

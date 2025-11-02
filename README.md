@@ -89,14 +89,14 @@ Create blog posts as Markdown or MDX files in `src/content/blog/`. MDX files sup
 
 ```markdown
 ---
-title: 'Your Article Title'
-datePublished: 'YYYY-MM-DD'
-description: 'Brief SEO description'
-author: 'Your Name'
-excerpt: 'Short summary for listings'
-categories: ['Category1', 'Category2']
-tags: ['tag1', 'tag2']
-image: '/images/your-open-graph-image.jpg'
+title: "Your Article Title"
+datePublished: "YYYY-MM-DD"
+description: "Brief SEO description"
+author: "Your Name"
+excerpt: "Short summary for listings"
+categories: ["Category1", "Category2"]
+tags: ["tag1", "tag2"]
+image: "/images/your-open-graph-image.jpg"
 ---
 ```
 

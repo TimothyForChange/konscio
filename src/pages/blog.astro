@@ -1,12 +1,12 @@
 ---
-import Layout from '../components/Layout.astro';
-import { config } from '../config';
-import { slugifyPath } from '../utils/slugify';
+import Layout from "../components/Layout.astro";
+import { config } from "../config";
+import { slugifyPath } from "../utils/slugify";
 
 const base = config.baseUrl;
 
-const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true });
-const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true });
+const mdPostsGlob = import.meta.glob("../content/blog/*.md", { eager: true });
+const mdxPostsGlob = import.meta.glob("../content/blog/*.mdx", { eager: true });
 
 const allPosts = [
   ...Object.values(mdPostsGlob),
@@ -56,11 +56,11 @@ const sortedPosts = allPosts
                   datetime={post.frontmatter.datePublished}
                 >
                   {new Date(post.frontmatter.datePublished).toLocaleDateString(
-                    'en-GB',
+                    "en-GB",
                     {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric',
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
                     }
                   )}
                 </time>
@@ -99,7 +99,7 @@ const sortedPosts = allPosts
       ) : (
         <div class='no-posts'>
           <p>
-            No posts available yet. Start writing by creating files in{' '}
+            No posts available yet. Start writing by creating files in{" "}
             <code>src/pages/blog/</code>
           </p>
         </div>

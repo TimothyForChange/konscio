@@ -1,12 +1,12 @@
 ---
-title: 'The Unspoken Alliance: Israel and Apartheid South Africa'
-author: 'Timothy Brits'
+title: "The Unspoken Alliance: Israel and Apartheid South Africa"
+author: "Timothy Brits"
 datePublished: 2025-11-02
-description: 'A decolonial investigation of the strategic, military and nuclear ties between Israel and apartheid South Africa — and what that history teaches the Global South about empire and impunity.'
-excerpt: 'Declassified files and eyewitness testimony reveal a murky, consequential partnership: arms, intelligence and uranium flows that helped entrench apartheid and reshaped regional power.'
+description: "A decolonial investigation of the strategic, military and nuclear ties between Israel and apartheid South Africa — and what that history teaches the Global South about empire and impunity."
+excerpt: "Declassified files and eyewitness testimony reveal a murky, consequential partnership: arms, intelligence and uranium flows that helped entrench apartheid and reshaped regional power."
 image: /images/the-unspoken-alliance-israel-apartheid.jpg
-categories: ['Analysis', 'History']
-tags: ['Israel', 'Apartheid', 'Military-Industrial Complex', 'Decolonisation']
+categories: ["Analysis", "History"]
+tags: ["Israel", "Apartheid", "Military-Industrial Complex", "Decolonisation"]
 draft: true
 ---
 

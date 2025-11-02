@@ -1,10 +1,10 @@
 ---
-import { config } from '../config';
+import { config } from "../config";
 
 const base = config.baseUrl;
 
-const mdPostsGlob = import.meta.glob('../content/blog/*.md', { eager: true });
-const mdxPostsGlob = import.meta.glob('../content/blog/*.mdx', { eager: true });
+const mdPostsGlob = import.meta.glob("../content/blog/*.md", { eager: true });
+const mdxPostsGlob = import.meta.glob("../content/blog/*.mdx", { eager: true });
 const allPosts = [
   ...Object.values(mdPostsGlob),
   ...Object.values(mdxPostsGlob),

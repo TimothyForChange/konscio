@@ -1,21 +1,21 @@
 ---
-import '@fontsource-variable/jetbrains-mono';
-import '@fontsource-variable/oswald';
-import '@fontsource-variable/work-sans';
-import 'remixicon/fonts/remixicon.css';
-import '../styles/global.css';
-import { config } from '../config';
-import Footer from './Footer.astro';
-import Header from './Header.astro';
-import SEO from './SEO.astro';
-import Sidebar from './Sidebar.astro';
+import "@fontsource-variable/jetbrains-mono";
+import "@fontsource-variable/oswald";
+import "@fontsource-variable/work-sans";
+import "remixicon/fonts/remixicon.css";
+import "../styles/global.css";
+import { config } from "../config";
+import Footer from "./Footer.astro";
+import Header from "./Header.astro";
+import SEO from "./SEO.astro";
+import Sidebar from "./Sidebar.astro";
 
 export interface Props {
   title: string;
   description?: string;
   showSidebar?: boolean;
   image?: string;
-  type?: 'website' | 'article';
+  type?: "website" | "article";
   datePublished?: string;
   dateModified?: string;
   canonical?: string;
@@ -56,7 +56,7 @@ const {
   <body>
     <div class='site-wrapper'>
       <Header />
-      <main class='main-content' class:list={{ 'with-sidebar': showSidebar }}>
+      <main class='main-content' class:list={{ "with-sidebar": showSidebar }}>
         {
           showSidebar && (
             <aside class='sidebar'>

@@ -1,8 +1,8 @@
-import { getCollection } from 'astro:content';
+import { getCollection } from "astro:content";
 
 export async function GET() {
   try {
-    const posts = await getCollection('blog');
+    const posts = await getCollection("blog");
 
     const processedPosts = posts
       .filter((post) => post && post.data)
@@ -10,7 +10,7 @@ export async function GET() {
         let dateObj;
         if (post.data.datePublished instanceof Date) {
           dateObj = post.data.datePublished;
-        } else if (typeof post.data.datePublished === 'string') {
+        } else if (typeof post.data.datePublished === "string") {
           dateObj = new Date(post.data.datePublished);
         } else {
           dateObj = new Date(post.data.datePublished);
@@ -21,10 +21,10 @@ export async function GET() {
           : dateObj.toISOString();
 
         return {
-          title: post.data.title || 'Untitled',
-          url: '/blog/' + post.slug,
+          title: post.data.title || "Untitled",
+          url: "/blog/" + post.slug,
           datePublished,
-          excerpt: post.data.excerpt || post.data.description || '',
+          excerpt: post.data.excerpt || post.data.description || "",
           categories: Array.isArray(post.data.categories)
             ? post.data.categories
             : [],
@@ -36,11 +36,11 @@ export async function GET() {
       .sort((a, b) => new Date(b.datePublished) - new Date(a.datePublished));
 
     return new Response(JSON.stringify(searchData), {
-      headers: { 'Content-Type': 'application/json' },
+      headers: { "Content-Type": "application/json" },
     });
   } catch (error) {
     return new Response(JSON.stringify([]), {
-      headers: { 'Content-Type': 'application/json' },
+      headers: { "Content-Type": "application/json" },
       status: 200,
     });
   }

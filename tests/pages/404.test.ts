@@ -1,40 +1,40 @@
-import { readFileSync } from 'fs';
-import { join } from 'path';
-import { JSDOM } from 'jsdom';
-import { describe, expect, it, vi } from 'vitest';
+import { readFileSync } from "fs";
+import { join } from "path";
+import { JSDOM } from "jsdom";
+import { describe, expect, it, vi } from "vitest";
 
-describe('404.astro', () => {
-  const pagePath = join(process.cwd(), 'src/pages/404.astro');
-  const pageContent = readFileSync(pagePath, 'utf-8');
+describe("404.astro", () => {
+  const pagePath = join(process.cwd(), "src/pages/404.astro");
+  const pageContent = readFileSync(pagePath, "utf-8");
 
-  it('imports required dependencies', () => {
+  it("imports required dependencies", () => {
     expect(pageContent).toContain(
       "import Layout from '../components/Layout.astro'"
     );
   });
 
-  it('defines title and description', () => {
+  it("defines title and description", () => {
     expect(pageContent).toContain("const title = 'Page Not Found';");
     expect(pageContent).toContain(
       "const description = 'Sorry, the page you are looking for does not exist.';"
     );
   });
 
-  it('uses Layout component with proper props', () => {
+  it("uses Layout component with proper props", () => {
     expect(pageContent).toContain(
-      '<Layout title={title} description={description} showSidebar={false}>'
+      "<Layout title={title} description={description} showSidebar={false}>"
     );
   });
 
-  it('has not-found section structure', () => {
+  it("has not-found section structure", () => {
     expect(pageContent).toContain("<section class='not-found'>");
-    expect(pageContent).toContain('<h1>404</h1>');
+    expect(pageContent).toContain("<h1>404</h1>");
     expect(pageContent).toContain(
-      '<p>Sorry, the page you are looking for does not exist.</p>'
+      "<p>Sorry, the page you are looking for does not exist.</p>"
     );
   });
 
-  it('has action links', () => {
+  it("has action links", () => {
     expect(pageContent).toContain(
       "<a href='/' class='notfound-link'>Go to Home</a>"
     );
@@ -43,14 +43,14 @@ describe('404.astro', () => {
     );
   });
 
-  it('has noindex meta tag', () => {
+  it("has noindex meta tag", () => {
     expect(pageContent).toContain(
       "<meta name='robots' content='noindex, nofollow' />"
     );
   });
 
-  it('hides sidebar as expected', () => {
-    expect(pageContent).toContain('showSidebar={false}');
+  it("hides sidebar as expected", () => {
+    expect(pageContent).toContain("showSidebar={false}");
   });
 
   it('includes functional "Go Back" button', () => {
@@ -63,12 +63,12 @@ describe('404.astro', () => {
     expect(pageContent).toContain("href='/'");
   });
 
-  it('has proper error page semantics', () => {
-    expect(pageContent).toContain('<h1>404</h1>');
-    expect(pageContent).toContain('Page Not Found');
+  it("has proper error page semantics", () => {
+    expect(pageContent).toContain("<h1>404</h1>");
+    expect(pageContent).toContain("Page Not Found");
   });
 
-  it('executes window.history.back() functionality', async () => {
+  it("executes window.history.back() functionality", async () => {
     const html = `
       <!DOCTYPE html>
       <html>
@@ -84,14 +84,14 @@ describe('404.astro', () => {
     `;
 
     const dom = new JSDOM(html, {
-      runScripts: 'dangerously',
-      url: 'http://localhost',
+      runScripts: "dangerously",
+      url: "http://localhost",
     });
 
-    const historySpy = vi.spyOn(dom.window.history, 'back');
+    const historySpy = vi.spyOn(dom.window.history, "back");
 
     const goBackLink =
-      dom.window.document.querySelector<HTMLAnchorElement>('a[onclick]');
+      dom.window.document.querySelector<HTMLAnchorElement>("a[onclick]");
     goBackLink?.click();
 
     expect(historySpy).toHaveBeenCalled();

@@ -1,55 +1,55 @@
-import mdx from '@astrojs/mdx';
-import sitemap from '@astrojs/sitemap';
-import playformInline from '@playform/inline';
-import compressor from 'astro-compressor';
-import purgecss from 'astro-purgecss';
-import { defineConfig } from 'astro/config';
-import { FontaineTransform } from 'fontaine';
-import { remarkReadingTime } from './plugins/remark-reading-time.ts';
-import { config } from './src/config';
+import mdx from "@astrojs/mdx";
+import sitemap from "@astrojs/sitemap";
+import playformInline from "@playform/inline";
+import compressor from "astro-compressor";
+import purgecss from "astro-purgecss";
+import { defineConfig } from "astro/config";
+import { FontaineTransform } from "fontaine";
+import { remarkReadingTime } from "./plugins/remark-reading-time.ts";
+import { config } from "./src/config";
 
 const fontaineOptions = {
   fallbacks: [
-    'Oswald Variable',
-    'Oswald',
-    'Work Sans Variable',
-    'Work Sans',
-    'JetBrains Mono Variable',
-    'JetBrains Mono',
-    'system-ui',
-    'Segoe UI',
-    'Roboto',
-    'Helvetica Neue',
-    'Arial',
-    'sans-serif',
-    'SFMono-Regular',
-    'Monaco',
-    'Consolas',
-    'Liberation Mono',
-    'Courier New',
-    'monospace',
+    "Oswald Variable",
+    "Oswald",
+    "Work Sans Variable",
+    "Work Sans",
+    "JetBrains Mono Variable",
+    "JetBrains Mono",
+    "system-ui",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica Neue",
+    "Arial",
+    "sans-serif",
+    "SFMono-Regular",
+    "Monaco",
+    "Consolas",
+    "Liberation Mono",
+    "Courier New",
+    "monospace",
   ],
 };
 
 export default defineConfig({
   site: config.siteUrl,
   base: config.baseUrl,
-  trailingSlash: 'never',
-  output: 'static',
+  trailingSlash: "never",
+  output: "static",
   prefetch: {
-    defaultStrategy: 'hover',
+    defaultStrategy: "hover",
   },
   image: {
     service: {
-      entrypoint: 'astro/assets/services/sharp',
+      entrypoint: "astro/assets/services/sharp",
     },
   },
   build: {
     assetsInlineLimit: 4096,
-    cacheDir: './.astro-cache',
+    cacheDir: "./.astro-cache",
     rollupOptions: {
       output: {
-        crossOrigin: 'anonymous',
+        crossOrigin: "anonymous",
       },
     },
   },
