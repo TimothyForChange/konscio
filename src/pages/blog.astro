@@ -65,6 +65,10 @@ const sortedPosts = allPosts
                   )}
                 </time>
 
+                {post.frontmatter.author && (
+                  <span class='post-author'>By {post.frontmatter.author}</span>
+                )}
+
                 <span class='post-reading-time'>
                   {post.frontmatter.minutesRead}
                 </span>
@@ -193,7 +197,7 @@ const sortedPosts = allPosts
     letter-spacing: 0.05em;
   }
 
-  .post-reading-time {
+  .post-author {
     font-family: var(--font-mono);
     font-size: 0.9rem;
     color: var(--color-text-muted);
@@ -201,10 +205,12 @@ const sortedPosts = allPosts
     letter-spacing: 0.05em;
   }
 
-  .post-reading-time::before {
-    content: '•';
-    margin: 0 calc(var(--grid-unit));
-    color: var(--color-border);
+  .post-reading-time {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
   }
 
   .post-categories {

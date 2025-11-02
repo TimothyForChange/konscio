@@ -72,6 +72,12 @@ const dateModified = frontmatter.dateModified
           }
         </time>
 
+        {
+          frontmatter.author && (
+            <span class='post-author'>By {frontmatter.author}</span>
+          )
+        }
+
         <span class='post-reading-time'>{frontmatter.minutesRead}</span>
 
         {
@@ -174,6 +180,20 @@ const dateModified = frontmatter.dateModified
     color: var(--color-text-muted);
     text-transform: uppercase;
     letter-spacing: 0.05em;
+  }
+
+  .post-author {
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .post-author::before {
+    content: '•';
+    margin: 0 calc(var(--grid-unit));
+    color: var(--color-border);
   }
 
   .post-reading-time {
