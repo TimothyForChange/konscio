@@ -108,7 +108,7 @@ These principles already have real precedents. **Brazil’s Bolsa Família** com
 
 ---
 
-## **Answering the Predictable Objections**
+## Answering the Predictable Objections
 
 **"It will make people lazy."**
 Evidence says otherwise. People use cash to meet needs, not to avoid work. What UBI undermines is the compulsion to accept exploitation.
