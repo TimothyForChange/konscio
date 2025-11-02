@@ -2,10 +2,8 @@
 title: 'Green Colonialism: The DRC and the Green Transition'
 author: 'Timothy Brits'
 datePublished: 2025-10-24
-description: |
-  An eco-socialist analysis of how global supply chains extract Congolese life and land for the Global North's "green" transition.
-excerpt: |
-  The DRC's cobalt fuels the world's "green" technologies, but the price is paid by its people and ecosystems. This post traces how colonial extraction survives inside the green transition.
+description: 'An eco-socialist analysis of how global supply chains extract Congolese life and land for the Global North''s "green" transition.'
+excerpt: 'The DRC''s cobalt fuels the world''s "green" technologies, but the price is paid by its people and ecosystems. This post traces how colonial extraction survives inside the green transition.'
 image: /images/green-colonialism-drc.jpg
 categories: ['Analysis']
 tags:

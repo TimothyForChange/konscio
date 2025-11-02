@@ -1,0 +1,264 @@
+---
+import Layout from '../components/Layout.astro';
+---
+
+<Layout
+  title='Solidarity Organisations'
+  description='A curated list of solidarity organisations, networks, and movements for justice, liberation, and ecological survival.'
+>
+  <div class='solidarity-page'>
+    <header class='page-header'>
+      <h1 class='page-title'>Solidarity Organisations</h1>
+      <hr class='page-rule' />
+      <p class='solidarity-intro'>
+        These organisations, networks, and movements work for justice,
+        liberation, and ecological survival. Support, join, or learn from their
+        struggles for a better world.
+      </p>
+    </header>
+    <section class='solidarity-section'>
+      <ul class='solidarity-list'>
+        <li class='solidarity-item'>
+          <strong>Cooperation Jackson</strong>
+          <p>
+            Building a solidarity economy and grassroots democracy in Jackson,
+            Mississippi, through cooperative organising and mutual aid.
+          </p>
+          <a
+            href='https://cooperationjackson.org'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+          >
+            Visit Cooperation Jackson
+          </a>
+        </li>
+
+        <li class='solidarity-item'>
+          <strong>Development and Peace</strong>
+          <p>
+            Supports social movements and partners in the Global South striving
+            for social justice, ecological sustainability, and democratic
+            participation.
+          </p>
+          <a
+            href='https://devp.org/fr/'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+          >
+            Visit Development and Peace
+          </a>
+        </li>
+
+        <li class='solidarity-item'>
+          <strong>GiveDirectly</strong>
+          <p>
+            Direct cash transfers to people living in poverty, supporting
+            dignity and self-determination in Africa and beyond.
+          </p>
+          <a
+            href='https://www.givedirectly.org'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+          >
+            Visit GiveDirectly
+          </a>
+        </li>
+
+        <li class='solidarity-item'>
+          <strong>Global Grassroots</strong>
+          <p>
+            Strengthens women-led initiatives for water access, community
+            wellbeing, and social transformation across Africa.
+          </p>
+          <a
+            href='https://www.globalgrassroots.org'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+          >
+            Visit Global Grassroots
+          </a>
+        </li>
+
+        <li class='solidarity-item'>
+          <strong>Grassroots International</strong>
+          <p>
+            Supports movements for land, water, and food rights, working with
+            partners in the Global South for justice and liberation.
+          </p>
+          <a
+            href='https://grassrootsonline.org'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+          >
+            Visit Grassroots International
+          </a>
+        </li>
+
+        <li class='solidarity-item'>
+          <strong>Just Transition Fund</strong>
+          <p>
+            Supports communities and workers in building democratic, sustainable
+            economies beyond fossil fuels across the United States.
+          </p>
+          <a
+            href='https://justtransitionfund.org'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+          >
+            Visit Just Transition Fund
+          </a>
+        </li>
+
+        <li class='solidarity-item'>
+          <strong>Mutual Aid Disaster Relief</strong>
+          <p>
+            Mobilises mutual aid and solidarity in response to disasters,
+            centring grassroots action and community resilience.
+          </p>
+          <a
+            href='https://mutualaiddisasterrelief.org'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+          >
+            Visit Mutual Aid Disaster Relief
+          </a>
+        </li>
+
+        <li class='solidarity-item'>
+          <strong>MST (Movimento dos Trabalhadores Rurais Sem Terra)</strong>
+          <p>
+            Brazilian landless workers' movement advancing agrarian reform, food
+            sovereignty, and ecological socialism through collective action.
+          </p>
+          <a
+            href='https://mstbrazil.org'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+          >
+            Visit MST Brazil
+          </a>
+        </li>
+
+        <li class='solidarity-item'>
+          <strong>RIPESS</strong>
+          <p>
+            Global network for the promotion of social solidarity economy,
+            connecting grassroots initiatives and movements worldwide.
+          </p>
+          <a
+            href='https://www.ripess.org'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+          >
+            Visit RIPESS
+          </a>
+        </li>
+
+        <li class='solidarity-item'>
+          <strong>Schools for Chiapas</strong>
+          <p>
+            Supports autonomous education, health, and agroecology projects in
+            Chiapas, Mexico, in solidarity with the Zapatista movement.
+          </p>
+          <a
+            href='https://schoolsforchiapas.org'
+            class='solidarity-link'
+            target='_blank'
+            rel='noopener'
+          >
+            Visit Schools for Chiapas
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</Layout>
+
+<style>
+  .solidarity-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .page-header {
+    text-align: center;
+    margin-bottom: calc(var(--grid-unit) * 6);
+  }
+
+  .page-title {
+    font-family: var(--font-heading-primary);
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    line-height: 1.1;
+    margin-bottom: calc(var(--grid-unit) * 4);
+  }
+
+  .page-rule {
+    height: 4px;
+    background-color: var(--color-accent);
+    border: none;
+    width: 120px;
+    margin: 0 auto;
+  }
+
+  .solidarity-intro {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto calc(var(--grid-unit) * 4);
+  }
+
+  .solidarity-section {
+    margin-top: calc(var(--grid-unit) * 8);
+    background: var(--color-surface);
+    border-radius: calc(var(--grid-unit));
+    padding: calc(var(--grid-unit) * 6) calc(var(--grid-unit) * 4);
+  }
+
+  .solidarity-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .solidarity-item {
+    margin-bottom: calc(var(--grid-unit) * 4);
+  }
+
+  .solidarity-link {
+    display: inline-block;
+    margin-top: calc(var(--grid-unit) * 2);
+    padding: 0.5em 1.5em;
+    background: var(--color-accent);
+    color: #fff;
+    border-radius: calc(var(--grid-unit) / 2);
+    text-decoration: none;
+    font-weight: 600;
+    transition:
+      background 0.2s,
+      color 0.2s,
+      transform 0.2s,
+      border 0.2s;
+  }
+
+  .solidarity-link:hover,
+  .solidarity-link:focus {
+    background-color: transparent;
+    color: var(--color-accent);
+    transform: translateY(-2px);
+    border: 2px solid var(--color-accent);
+  }
+</style>

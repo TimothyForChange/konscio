@@ -2,10 +2,8 @@
 title: "Blood and Bullion: How Gold Fuels Sudan's War"
 author: 'Timothy Brits'
 datePublished: 2025-10-29
-description: |
-  An eco-socialist investigation of how gold underwrites Sudan's war — and how the RSF's plunder economy, foreign sponsors, and imperial markets profit from blood and bullion.
-excerpt: |
-  Gold is Sudan's war currency. The RSF's smuggling empire, backed by foreign capital, turns extraction into annihilation, while the state fragments and civilians pay the cost.
+description: "An eco-socialist investigation of how gold underwrites Sudan's war — and how the RSF's plunder economy, foreign sponsors, and imperial markets profit from blood and bullion."
+excerpt: "Gold is Sudan's war currency. The RSF's smuggling empire, backed by foreign capital, turns extraction into annihilation, while the state fragments and civilians pay the cost."
 image: /images/blood-and-gold-bullion-sudan.jpg
 categories: ['Analysis']
 tags: ['Sudan', 'Gold', 'Extractivism', 'Imperialism', 'RSF', 'Global South']

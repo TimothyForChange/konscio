@@ -1,11 +1,9 @@
 ---
-title: 'Empire’s New Frontiers: From Space Militarisation to AI Colonialism'
+title: "Empire's New Frontiers: From Space Militarisation to AI Colonialism"
 author: 'Timothy Brits'
 datePublished: 2025-11-08
-description: |
-  The new instruments of domination are orbital and algorithmic. Satellites, private constellations and AI surveillance extend imperial power into sightlines and data streams. This essay traces how space militarisation and AI export reproduce colonial relations in new technical clothing.
-excerpt: |
-  Empire no longer needs only soldiers and ships. It now needs satellites, servers and scored lives. Control the orbit and the dataset, and you control sovereignty.
+description: 'The new instruments of domination are orbital and algorithmic. Satellites, private constellations and AI surveillance extend imperial power into sightlines and data streams. This essay traces how space militarisation and AI export reproduce colonial relations in new technical clothing.'
+excerpt: 'Empire no longer needs only soldiers and ships. It now needs satellites, servers and scored lives. Control the orbit and the dataset, and you control sovereignty.'
 image: /images/space-ai-colonialism.jpg
 categories: ['Analysis']
 tags:
@@ -13,7 +11,7 @@ tags:
 draft: true
 ---
 
-# Empire’s New Frontiers: From Space Militarisation To AI Colonialism
+# Empire's New Frontiers: From Space Militarisation To AI Colonialism
 
 > "The exploration and use of outer space, including the Moon and other celestial bodies, shall be carried out for the benefit and in the interests of all countries … and shall be the province of all mankind."
 > — Outer Space Treaty (Article I)
@@ -28,7 +26,7 @@ They are precise. They are profitable. They are quiet. They also reproduce the s
 
 This is not speculative theory. It is visible in policy, budgets, and the headlines. The United States created a separate Space Force in December 2019 — an explicit admission that orbit is now a theatre of power. States have demonstrated anti-satellite weapons that shatter hard questions into long-lived clouds of debris. China's 2007 ASAT test produced thousands of fragments that still endanger satellites and crew. India and Russia followed with their own destructive tests, normalising an orbital arms race with global consequences.
 
-At the same time, private firms have grown into geopolitical actors. Starlink’s constellation and its role in Ukraine showed how a corporation can decide, intentionally or not, which communities stay connected in war. Governments now rely on private terminals for battlefield communications and civilian resilience — and that creates new single points of failure.
+At the same time, private firms have grown into geopolitical actors. Starlink's constellation and its role in Ukraine showed how a corporation can decide, intentionally or not, which communities stay connected in war. Governments now rely on private terminals for battlefield communications and civilian resilience — and that creates new single points of failure.
 
 Finally, algorithms travel. Policing software, biometric databases and predictive models are packaged, sold and exported. They do to governance what mines and pipelines did to land: they reconfigure who has power over life and labour. Firms such as Palantir supply data infrastructures to immigration and policing agencies; biometric companies ship facial recognition systems that governments in the Global South deploy with minimal safeguards.
 
@@ -42,13 +40,13 @@ Space militarisation is not a slogan. It is policy, budget lines, and doctrine. 
 
 The U.S. Space Force was established by law on 20 December 2019. Space is now formally a branch of military planning, procurement, and doctrine.
 
-Anti-satellite (ASAT) tests are the clearest symptom. They are deliberately destructive. China’s 2007 strike on its own weather satellite created a debris cloud of thousands of fragments. Those fragments circle the Earth for decades. They threaten every craft that travels the common orbital lanes — including scientific satellites and the International Space Station.
+Anti-satellite (ASAT) tests are the clearest symptom. They are deliberately destructive. China's 2007 strike on its own weather satellite created a debris cloud of thousands of fragments. Those fragments circle the Earth for decades. They threaten every craft that travels the common orbital lanes — including scientific satellites and the International Space Station.
 
-ASAT testing is not distant theatre. India’s Mission Shakti in 2019 and Russia’s 2021 direct-ascent test multiplied debris and normative risk. Each test makes orbit more dangerous and more politicised. The point is simple: when states test weapons in orbit, they turn a shared, fragile commons into a contested, militarised environment. The consequences are global, indiscriminate, and generational.
+ASAT testing is not distant theatre. India's Mission Shakti in 2019 and Russia's 2021 direct-ascent test multiplied debris and normative risk. Each test makes orbit more dangerous and more politicised. The point is simple: when states test weapons in orbit, they turn a shared, fragile commons into a contested, militarised environment. The consequences are global, indiscriminate, and generational.
 
 As one senior U.S. official put it bluntly:
 
-> "It bears repeating: Outer space is not a ‘global commons,’ not the ‘common heritage of mankind,’ not ‘res communis,’ nor is it a public good."
+> "It bears repeating: Outer space is not a ‘global commons,' not the ‘common heritage of mankind,' not ‘res communis,' nor is it a public good."
 > — Scott Pace, Executive Director of the U.S. National Space Council (2018)
 
 The ideology could not be clearer. Space, once framed as a shared domain, is now treated as territory to be owned, fenced, and secured.
@@ -85,13 +83,16 @@ The frontier of this corporate empire lies in code. U.S. and European technology
 
 AI colonialism works through three channels.
 
-**Surveillance export.** Corporations export kits — cameras, databases, analytic models — that enable mass surveillance. Chinese firms and platforms have been central to this export model across Africa and other regions. Governments buy turnkey systems and, with them, a template for policing and control. Western companies follow the same playbook — IBM, Thales, and various Israeli and European security firms integrate AI surveillance suites for profit and political leverage. This is the ground layer of the imperial stack — the code that governs the bodies once mapped by satellites.
+**Surveillance export.**
+Corporations export kits — cameras, databases, analytic models — that enable mass surveillance. Chinese firms and platforms have been central to this export model across Africa and other regions. Governments buy turnkey systems and, with them, a template for policing and control. Western companies follow the same playbook — IBM, Thales, and various Israeli and European security firms integrate AI surveillance suites for profit and political leverage. This is the ground layer of the imperial stack — the code that governs the bodies once mapped by satellites.
 
-**Security markets.** Palantir, IBM, and Microsoft Azure Government supply integrated intelligence platforms to Western militaries and allied governments. These contracts embed foreign policy inside proprietary code, ensuring dependence on U.S. infrastructure long after troops withdraw. The same tools that trace money flows trace people. Contracts and investigations show how these systems have been centralised into enforcement architectures.
+**Security markets.**
+Palantir, IBM, and Microsoft Azure Government supply integrated intelligence platforms to Western militaries and allied governments. These contracts embed foreign policy inside proprietary code, ensuring dependence on U.S. infrastructure long after troops withdraw. The same tools that trace money flows trace people. Contracts and investigations show how these systems have been centralised into enforcement architectures.
 
-**Biometric capture.** Facial recognition companies operate across jurisdictions, facing fines and litigation yet persisting by selling to law enforcement abroad. Clearview’s legal battles in Europe and elsewhere illustrate both the scale of data scraping and the gaps in global enforcement.
+**Biometric capture.**
+Facial recognition companies operate across jurisdictions, facing fines and litigation yet persisting by selling to law enforcement abroad. Clearview's legal battles in Europe and elsewhere illustrate both the scale of data scraping and the gaps in global enforcement.
 
-The net effect completes the circuit. Empire’s sightlines now run from orbit to biometric scanners — from the satellite image to the human face.
+The net effect completes the circuit. Empire's sightlines now run from orbit to biometric scanners — from the satellite image to the human face.
 
 ---
 
@@ -107,7 +108,7 @@ The imperial stack is not abstract. It is built on Congolese cobalt, Bolivian li
 
 ## The Legal Vacuum And Normative Failure
 
-International law has gaps. The Outer Space Treaty (1967) sets basic principles, but it does not prevent the weaponisation we now see. There is no enforceable arms control regime for ASATs that limits debris-creating tests. There is no binding international law that governs private providers’ role in conflicts or guarantees connectivity as a public good.
+International law has gaps. The Outer Space Treaty (1967) sets basic principles, but it does not prevent the weaponisation we now see. There is no enforceable arms control regime for ASATs that limits debris-creating tests. There is no binding international law that governs private providers' role in conflicts or guarantees connectivity as a public good.
 
 The law has failed in both orbits and data streams. The Outer Space Treaty cannot restrain the militarisation of orbit, and privacy regimes cannot restrain the militarisation of data.
 
@@ -121,15 +122,20 @@ Without law and enforceable norms, the imperial stack grows in darkness. That da
 
 If empire builds a stack, we should build counter-infrastructure and politics that deny it the levers of power. This is practical, not dreamy.
 
-**Ban debris-making tests and demand an orbital arms control treaty.** The long-term health of the orbital commons matters to everyone. States must negotiate binding constraints on ASAT tests that generate persistent debris and threaten civil and scientific missions.
+**Ban debris-making tests and demand an orbital arms control treaty.**
+The long-term health of the orbital commons matters to everyone. States must negotiate binding constraints on ASAT tests that generate persistent debris and threaten civil and scientific missions.
 
-**Public control of critical infrastructure.** Treat core connectivity as a public utility. National governments must hold the power to ensure continuous civilian access in crises. Contracts that place connectivity in private hands without safeguards are strategic errors. Demand parliamentary hearings when space firms hold outsized control.
+**Public control of critical infrastructure.**
+Treat core connectivity as a public utility. National governments must hold the power to ensure continuous civilian access in crises. Contracts that place connectivity in private hands without safeguards are strategic errors. Demand parliamentary hearings when space firms hold outsized control.
 
-**Bind private actors to public accountability.** Corporations that provide battlefield or domestic surveillance capabilities must be regulated. That means transparency on contracts, on takedown requests, and on governmental asks to disable services. It means liability when corporate actions cause harm.
+**Bind private actors to public accountability.**
+Corporations that provide battlefield or domestic surveillance capabilities must be regulated. That means transparency on contracts, on takedown requests, and on governmental asks to disable services. It means liability when corporate actions cause harm.
 
-**Stop the export of repressive AI.** Impose moratoria or strict export controls on biometric and mass surveillance systems until human-rights safeguards are in place. Support grassroots digital sovereignty: community networks, public data commons, and cooperative ISPs.
+**Stop the export of repressive AI.**
+Impose moratoria or strict export controls on biometric and mass surveillance systems until human-rights safeguards are in place. Support grassroots digital sovereignty: community networks, public data commons, and cooperative ISPs.
 
-**Tie tech to reparative finance.** The profits from space launches, satellite data and AI tools are concentrated. A fraction of that revenue should fund technology transfer, local manufacturing, and environmental repair in producer territories. Reparative finance is not charity. It is the correction of an asymmetry that now extends into orbit and server racks.
+**Tie tech to reparative finance.**
+The profits from space launches, satellite data and AI tools are concentrated. A fraction of that revenue should fund technology transfer, local manufacturing, and environmental repair in producer territories. Reparative finance is not charity. It is the correction of an asymmetry that now extends into orbit and server racks.
 
 Resistance must mirror the stack: for every layer of control, build a layer of liberation — public, democratic, and planetary.
 
@@ -137,7 +143,7 @@ Resistance must mirror the stack: for every layer of control, build a layer of l
 
 ## Reclaiming Sightlines And Sovereignty
 
-Empire always needs a way to see, to speak and to make decisions about other people’s lives. Once, that required navies and embassies. Today it requires satellites, servers and scored data.
+Empire always needs a way to see, to speak and to make decisions about other people's lives. Once, that required navies and embassies. Today it requires satellites, servers and scored data.
 
 If the Global South and its allies do not push back, the next generation of imperial control will be invisible and total. It will not look like nineteenth-century conquest. It will look bureaucratic, technical and inevitable. That is the trap.
 

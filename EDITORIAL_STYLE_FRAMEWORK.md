@@ -65,9 +65,8 @@ Use clear, accessible English. Blog posts in other languages are also encouraged
 
 ### Headings
 
-- **H1 (`#`):** Essay title in **Title Case** (e.g. `# Blood and Bullion: How Gold Fuels Sudan's War`).
-- **H2 (`##`):** Section titles in **Title Case** — each represents a distinct analytical move. Vary heading language and structure to avoid repetitive patterns across articles. Consider using more creative and contextually relevant titles rather than formulaic labels.
-- **H3 (`###`):** Optional subsections, also in **Title Case**.
+- **All headings (H1, H2, H3, etc.):** Use **Title Case** for every heading, including essay titles, section titles, and subsections. (e.g. `# Blood and Bullion: How Gold Fuels Sudan's War`)
+- Vary heading language and structure to avoid repetitive patterns across articles. Consider using more creative and contextually relevant titles rather than formulaic labels.
 
 ### Section Pattern
 
@@ -97,7 +96,7 @@ Avoid numeric citations in published essays; integrate sources naturally ("Accor
 
 ## 4. Excerpts & Metadata
 
-Begin every post with **YAML front matter** (title, author, date, description, excerpt, image, tags). Use `description` for the political stakes and `excerpt` for the distilled moral thesis. Limit tags to 4–6, drawn from the global analytical framework: _Eco-socialism_, _Imperialism_, _Climate Justice_, _Global South_, _Decolonisation_, etc. Use Title Case for titles; sentence case for description and excerpt for readability in feeds.
+Begin every post with **YAML front matter** (title, author, date, description, excerpt, image, tags). Use `description` for the political stakes and `excerpt` for the distilled moral thesis. Limit tags to 4–6, drawn from the global analytical framework: _Eco-socialism_, _Imperialism_, _Climate Justice_, _Global South_, _Decolonisation_, etc. Use Title Case for titles and for all headings; use sentence case for description and excerpt for readability in feeds.
 
 ---
 

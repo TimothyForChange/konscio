@@ -2,11 +2,9 @@
 title: 'The Unspoken Alliance: Israel and Apartheid South Africa'
 author: 'Timothy Brits'
 datePublished: 2025-11-02
-description: |
-  A decolonial investigation of the strategic, military and nuclear ties between Israel and apartheid South Africa — and what that history teaches the Global South about empire and impunity.
-excerpt: |
-  Declassified files and eyewitness testimony reveal a murky, consequential partnership: arms, intelligence and uranium flows that helped entrench apartheid and reshaped regional power.
-image: /images/unspoken-alliance.jpg
+description: 'A decolonial investigation of the strategic, military and nuclear ties between Israel and apartheid South Africa — and what that history teaches the Global South about empire and impunity.'
+excerpt: 'Declassified files and eyewitness testimony reveal a murky, consequential partnership: arms, intelligence and uranium flows that helped entrench apartheid and reshaped regional power.'
+image: /images/the-unspoken-alliance-israel-apartheid.jpg
 categories: ['Analysis', 'History']
 tags: ['Israel', 'Apartheid', 'Military-Industrial Complex', 'Decolonisation']
 draft: true
@@ -17,7 +15,7 @@ draft: true
 
 ## Partners in Isolation
 
-Israel’s relationship with apartheid South Africa was more than tactical expediency: it was a sustained partnership of arms, intelligence and nuclear cooperation (or attempted cooperation) that supplied tools and doctrine for repression. This became a model of how settler states normalise violence through secrecy and mutual legitimation.
+Israel's relationship with apartheid South Africa was more than tactical expediency: it was a sustained partnership of arms, intelligence and nuclear cooperation (or attempted cooperation) that supplied tools and doctrine for repression. This became a model of how settler states normalise violence through secrecy and mutual legitimation.
 
 ---
 
@@ -47,7 +45,7 @@ This was not simply transactional. The alliance reflected a larger logic: settle
 
 ### The Flow of Weapons and Repression
 
-Israel became a major supplier of weapons, components and training to South Africa, from small arms and ammunition to aircraft parts and missile technology. Arms embargoes and sanctions pushed both sides into covert channels, secret corporate arrangements and third-party rerouting to hide shipments. These supplies were not abstract: they strengthened the South African Defence Force (SADF) and police units that enforced apartheid at home and intervened militarily across the region. Polakow-Suransky’s archival work and South African publishing archives document these commercial and technical links.
+Israel became a major supplier of weapons, components and training to South Africa, from small arms and ammunition to aircraft parts and missile technology. Arms embargoes and sanctions pushed both sides into covert channels, secret corporate arrangements and third-party rerouting to hide shipments. These supplies were not abstract: they strengthened the South African Defence Force (SADF) and police units that enforced apartheid at home and intervened militarily across the region. Polakow-Suransky's archival work and South African publishing archives document these commercial and technical links.
 
 ### The Transfer of Repressive Knowledge
 

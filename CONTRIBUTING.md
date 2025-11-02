@@ -9,7 +9,7 @@ You can contribute blog posts or articles in two ways:
 - **Fork and Pull Request:** Fork the repository, add your content, and submit a Pull Request (see instructions below).
 - **Email Submission:** Email your content directly to the maintainers at contact@timothyforchange.co.za for review and publication.
 
-Both methods are welcome. All content will be reviewed for alignment with the platform’s mission and published with clear author attribution.
+Both methods are welcome. All content will be reviewed for alignment with the platform's mission and published with clear author attribution.
 
 ## 🌟 Ways to Contribute
 
@@ -121,7 +121,7 @@ You may submit blog posts or articles by either:
 
 ### Content Review Process
 
-All submitted content will be reviewed for alignment with project goals. Feedback may be provided if changes are needed. Editorial changes may be suggested or made for clarity, consistency, and alignment with the platform’s mission, but your voice and intent will be respected. Once approved, your content will be published with clear author attribution.
+All submitted content will be reviewed for alignment with project goals. Feedback may be provided if changes are needed. Editorial changes may be suggested or made for clarity, consistency, and alignment with the platform's mission, but your voice and intent will be respected. Once approved, your content will be published with clear author attribution.
 
 ## 🤝 Code of Conduct
 

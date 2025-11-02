@@ -1,22 +1,20 @@
 ---
-title: 'The New Monroe Doctrine: Washington’s War on Latin America’s Sovereignty'
+title: "The New Monroe Doctrine: Washington's War on Latin America's Sovereignty"
 author: 'Timothy Brits'
 datePublished: 2025-11-01
-description: |
-  The United States' lethal strikes on vessels in waters off Colombia and Venezuela — and reports that the US has identified land targets inside Venezuela — are not isolated acts of law enforcement. They are a twenty-first century reassertion of hemispheric control: empire in new clothing.
-excerpt: |
-  Striking boats at sea and preparing lists of sites on foreign soil is not counter-narcotics. It is a revival of Monroe Doctrine logic: the hemisphere policed by a single empire.
+description: "The United States' lethal strikes on vessels in waters off Colombia and Venezuela — and reports that the US has identified land targets inside Venezuela — are not isolated acts of law enforcement. They are a twenty-first century reassertion of hemispheric control: empire in new clothing."
+excerpt: 'Striking boats at sea and preparing lists of sites on foreign soil is not counter-narcotics. It is a revival of Monroe Doctrine logic: the hemisphere policed by a single empire.'
 image: /images/the-new-monroe-doctrine-usa.jpg
 categories: ['Analysis']
 tags: ['Imperialism', 'Venezuela', 'US Foreign Policy', 'Latin America']
 ---
 
-# The New Monroe Doctrine: Washington’s War on Latin America’s Sovereignty
+# The New Monroe Doctrine: Washington's War on Latin America's Sovereignty
 
 > The strength of the imperialist system as a whole rests on the necessary inequality of its parts, and this inequality assumes ever more dramatic dimensions.
 > — Eduardo Galeano, Open Veins of Latin America (1971)
 
-Imperialism adapts, shifting its language and its tools, but its purpose remains: to assert control over a region’s politics and resources. The recent U.S. campaign of strikes against small vessels in the Caribbean and eastern Pacific — and the reported selection of land targets in Venezuela — belongs to that long continuum. These actions go beyond drug-war policing. They revive the Monroe Doctrine in twenty-first century form.
+Imperialism adapts, shifting its language and its tools, but its purpose remains: to assert control over a region's politics and resources. The recent U.S. campaign of strikes against small vessels in the Caribbean and eastern Pacific — and the reported selection of land targets in Venezuela — belongs to that long continuum. These actions go beyond drug-war policing. They revive the Monroe Doctrine in twenty-first century form.
 
 The strikes have killed scores of people since September and spread fear along coasts and fishing communities.
 
@@ -36,29 +34,32 @@ Most troubling, reporting from major outlets indicates U.S. officials have ident
 
 The Monroe Doctrine of **1823** proclaimed the Americas a U.S. sphere of influence. Over two centuries, that claim was enforced by invasions, coups, economic coercion, and proxy wars. Today, the vocabulary has shifted — from “manifest destiny” to “narco-terrorism” — and the weapons have changed — from marines to drones and precision munitions. Yet the grammar of hemispheric control persists.
 
-When a superpower asserts the unilateral right to kill at sea, then prepares lists of targets on a neighbour’s soil, it revives the core logic of Monroe: the hemisphere is a zone to be policed by one capital. The rhetoric of counter-narcotics conceals a strategic posture that privileges American judgement over regional sovereignty.
+When a superpower asserts the unilateral right to kill at sea, then prepares lists of targets on a neighbour's soil, it revives the core logic of Monroe: the hemisphere is a zone to be policed by one capital. The rhetoric of counter-narcotics conceals a strategic posture that privileges American judgement over regional sovereignty.
 
-## From Marines to Missiles: The Long War on Latin America’s Sovereignty
+## From Marines to Missiles: The Long War on Latin America's Sovereignty
 
 This is not new. The United States has repeatedly imposed its will on Latin America by force, subversion, and economic coercion — always wrapped in moral pretext.
 
-In **1954**, the CIA overthrew Guatemala’s elected government after it nationalised land belonging to the United Fruit Company. In **1961**, it launched the Bay of Pigs invasion to crush Cuba’s revolution. In **1973**, it backed the Chilean coup that murdered Allende and installed Pinochet. In **1983**, it invaded **Grenada** under the guise of rescuing American students, killing dozens and reinstalling a compliant regime. In **1989**, it flattened neighbourhoods in **Panama City** to capture Noriega — another former U.S. asset gone rogue.
+In **1954**, the CIA overthrew Guatemala's elected government after it nationalised land belonging to the United Fruit Company. In **1961**, it launched the Bay of Pigs invasion to crush Cuba's revolution. In **1973**, it backed the Chilean coup that murdered Allende and installed Pinochet. In **1983**, it invaded **Grenada** under the guise of rescuing American students, killing dozens and reinstalling a compliant regime. In **1989**, it flattened neighbourhoods in **Panama City** to capture Noriega — another former U.S. asset gone rogue.
 
 Each episode followed the same grammar: an invented emergency, a moral justification, and overwhelming force. The doctrines shifted — anti-communism, counter-terrorism, now counter-narcotics — but the substance remained constant. Washington claims the right to decide which governments may live, which movements may rise, and which lives may be taken in the name of order.
 
-The strikes on boats off Venezuela’s coast belong to that same imperial continuum. The methods evolve; the premise endures. What drones and precision missiles now perform from afar, marines once did by hand. The hemisphere remains treated not as a community of sovereign nations, but as a managed estate of empire.
+The strikes on boats off Venezuela's coast belong to that same imperial continuum. The methods evolve; the premise endures. What drones and precision missiles now perform from afar, marines once did by hand. The hemisphere remains treated not as a community of sovereign nations, but as a managed estate of empire.
 
 ## Mechanisms of Imperial Control
 
 This campaign rests on three interlocking instruments.
 
-**Legal stretching.** Label a group or flow “narco-terror”, and the line between criminal law and armed conflict blurs. That stretching enables extraordinary measures the U.S. government argues are lawful. But many legal scholars and rights groups say the strikes lack a clear legal foundation under international law and may constitute extrajudicial killings.
+**Legal stretching.**
+Label a group or flow “narco-terror”, and the line between criminal law and armed conflict blurs. That stretching enables extraordinary measures the U.S. government argues are lawful. But many legal scholars and rights groups say the strikes lack a clear legal foundation under international law and may constitute extrajudicial killings.
 
-**Military posture.** The deployment of a carrier strike group and associated air assets transforms policing into a military operation. Such force concentration raises the stakes for miscalculation and sends a signal that strikes ashore are possible should political decisions be taken to escalate. The hardware is itself a political message.
+**Military posture.**
+The deployment of a carrier strike group and associated air assets transforms policing into a military operation. Such force concentration raises the stakes for miscalculation and sends a signal that strikes ashore are possible should political decisions be taken to escalate. The hardware is itself a political message.
 
 ![Aerial view of the USS Carl Vinson (CVN-70) aircraft carrier at sea](../../assets/uss-carl-vinson.webp)
 
-**Narrative power.** Public claims — “huge loads of drugs”, “narco-terrorists” — prime domestic and international audiences to accept extraordinary measures. Propaganda and framing create consent. Yet independent verification of the strikes’ targets remains thin, and survivors’ accounts and regional statements complicate the official story.
+**Narrative power.**
+Public claims — “huge loads of drugs”, “narco-terrorists” — prime domestic and international audiences to accept extraordinary measures. Propaganda and framing create consent. Yet independent verification of the strikes' targets remains thin, and survivors' accounts and regional statements complicate the official story.
 
 ## The Human Cost of Imperial Action
 
