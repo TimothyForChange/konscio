@@ -190,13 +190,6 @@ const sortedPosts = allPosts
     margin-bottom: calc(var(--grid-unit) * 2);
   }
 
-  .post-date::before {
-    content: '•';
-    display: inline-block;
-    margin: 0 calc(var(--grid-unit) / 2) 0 0;
-    color: var(--color-border);
-  }
-
   .post-meta > * {
     display: inline-flex;
     align-items: center;
@@ -224,24 +217,12 @@ const sortedPosts = allPosts
     letter-spacing: 0.05em;
   }
 
-  .post-author::before {
-    content: '•';
-    margin: 0 calc(var(--grid-unit) / 2);
-    color: var(--color-border);
-  }
-
   .post-reading-time {
     font-family: var(--font-mono);
     font-size: 0.9rem;
     color: var(--color-text-muted);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-  }
-
-  .post-reading-time::before {
-    content: '•';
-    margin: 0 calc(var(--grid-unit) / 2);
-    color: var(--color-border);
   }
 
   .post-categories {
