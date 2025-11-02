@@ -9,10 +9,10 @@ categories: ['Analysis']
 tags: ['Universal Basic Income', 'Welfare', 'Global South', 'Decolonisation']
 ---
 
+# Universal Basic Income: A Radical, Materialist Case
+
 > "For a colonised people the most essential value, because it is the most concrete, is first and foremost the land: the land which will bring them bread and, above all, dignity."
 > — Frantz Fanon, The Wretched of the Earth (1961)
-
-# Universal Basic Income: A Radical, Materialist Case
 
 ## What Universal Basic Income Is — and Is Not
 
