@@ -22,11 +22,7 @@ But simplicity hides a fight over meaning. UBI can be emancipatory — or it can
 
 This essay takes the second path. It argues for a UBI grounded in **eco-social planning**, **public provision**, and **decolonial finance** — a basic income that weakens extractivism, not one that stabilises it.
 
----
-
-Universal Basic Income looks simple on paper. Give everyone a cash floor. Remove conditionality. Reduce humiliation. Increase dignity.
-
-Politics makes it complicated. How UBI is financed, governed and paired with public provision decides whether it is emancipation or management. Too often the conversation stops at the slogan. It favours technocratic fixes that preserve the power of capital.
+Universal Basic Income looks simple on paper. Give everyone a cash floor. Remove conditionality. Reduce humiliation. Increase dignity. But politics makes it complicated. How UBI is financed, governed and paired with public provision decides whether it is emancipation or management. Too often the conversation stops at the slogan. It favours technocratic fixes that preserve the power of capital.
 
 UBI is a useful tool. It is not a cure. Alone, it will be co-opted. Only when embedded in an ecosocial programme — public services, democratic control of resources, decolonial finance — will it break the power structures that produce poverty and ecological collapse.
 
@@ -56,7 +52,7 @@ Employment effects reveal the deeper political question. In contexts with strong
 
 The inflation question exposes class interests. Modest transfers to the poor produce minimal inflationary pressure. Fear of inflation typically masks concern that workers might gain leverage over wages and working conditions.
 
-Trials also show a political truth: context and scale matter. Small, token payments change little. Universality, adequacy and complementary services change outcomes. The empirical bottom line is straightforward — cash helps. How far it transforms social relations depends on who controls the programme and what broader changes accompany it.
+**Trials also show a political truth: context and scale matter.** Small, token payments change little. Universality, adequacy and complementary services change outcomes. The empirical bottom line is straightforward — cash helps. How far it transforms social relations depends on who controls the programme and what broader changes accompany it.
 
 ---
 
@@ -72,7 +68,7 @@ Finally, ignoring ecological limits means increasing disposable income without r
 
 **Here lies the central contradiction of market-friendly UBI: it promises individual security within a system that requires collective insecurity to function.** Capital needs a reserve army of unemployed workers to discipline wages. It needs cheap raw materials and energy to maintain profit rates. A universal income that increases consumption without changing production relations will intensify resource extraction and ecological breakdown.
 
-These are not speculative outcomes. They form the playbook of neoliberal stabilisation: manage unrest with transfers, privatise commons, protect corporate profit. The social forces that benefit from this arrangement are clear — financial institutions managing poverty programmes, technology companies automating labour, extractive industries requiring social licence, and employers seeking wage subsidies. Against them stand workers, small farmers, indigenous communities, and all those whose labour and land are being enclosed for capital accumulation.
+**These are not speculative outcomes. They form the playbook of neoliberal stabilisation: manage unrest with transfers, privatise commons, protect corporate profit.** The social forces that benefit from this arrangement are clear — financial institutions managing poverty programmes, technology companies automating labour, extractive industries requiring social licence, and employers seeking wage subsidies. Against them stand workers, small farmers, indigenous communities, and all those whose labour and land are being enclosed for capital accumulation.
 
 ---
 
