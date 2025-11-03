@@ -1,0 +1,560 @@
+---
+import Layout from "../components/Layout.astro";
+import SolidarityCard from "../components/SolidarityCard.astro";
+---
+
+<Layout
+  title="Solidarity"
+  description="Ecosocialist and allied movements fighting for climate justice, workers' power, decolonial liberation, and solidarity across the Global South."
+  showSidebar={false}
+>
+  <div class="solidarity-page">
+    <header class="page-header">
+      <h1 class="page-title">Solidarity</h1>
+      <hr class="page-rule" />
+      <p class="solidarity-intro">
+        Groups and movements fighting for climate justice, workers' power, and
+        decolonial transformation. Learn, support, or join their struggles.
+      </p>
+    </header>
+
+    <section class="solidarity-section">
+      <nav class="solidarity-nav" aria-label="Solidarity category navigation">
+        <div class="bookmark-container">
+          <button
+            class="bookmark-toggle"
+            aria-expanded="false"
+            aria-controls="bookmark-list"
+          >
+            <span class="bookmark-text">Jump to Section</span>
+            <span class="bookmark-icon" aria-hidden="true">↓</span>
+          </button>
+          <ul class="bookmark-list" id="bookmark-list">
+            <li>
+              <a href="#south-africa-and-the-continent"
+                >South Africa and the Continent</a
+              >
+            </li>
+            <li>
+              <a href="#global-south-solidarity-and-anti-imperialism"
+                >Global South Solidarity and Anti-Imperialism</a
+              >
+            </li>
+            <li>
+              <a href="#peasant-movements-and-food-sovereignty"
+                >Peasant Movements and Food Sovereignty</a
+              >
+            </li>
+            <li>
+              <a href="#working-class-struggles-and-democratic-control"
+                >Working Class Struggles and Democratic Control</a
+              >
+            </li>
+            <li>
+              <a href="#community-organising-and-solidarity-economy"
+                >Community Organising and Solidarity Economy</a
+              >
+            </li>
+            <li>
+              <a href="#indigenous-resistance-and-land-back"
+                >Indigenous Resistance and Land Back</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h2 class="category-title" id="south-africa-and-the-continent">
+        South Africa and the Continent
+      </h2>
+
+      <div class="solidarity-grid">
+        <SolidarityCard
+          title="Abahlali baseMjondolo"
+          description="South African movement of over 180,000 shack dwellers building democratic power from below, fighting for land, housing, and dignity through direct action, community organising, and resistance to evictions and state repression."
+          url="https://abahlali.org"
+          ariaLabel="Abahlali baseMjondolo website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="African Climate Alliance"
+          description="Youth-led South African movement confronting climate injustice and extractivism through intersectional activism, direct action, and education for Afrocentric climate justice."
+          url="https://www.africanclimatealliance.org"
+          ariaLabel="African Climate Alliance website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Alternative Information and Development Centre (AIDC)"
+          description="Based in Cape Town. Links struggles for social and climate justice through advocacy for debt cancellation, public ownership, and progressive transformation across the Global South."
+          url="https://aidc.org.za"
+          ariaLabel="AIDC website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Earthlife Africa"
+          description="South African environmental justice collective rooted in anti-apartheid and anti-nuclear struggle, linking community organising with environmental campaigns for climate and social justice."
+          url="https://earthlife.org.za"
+          ariaLabel="Earthlife Africa website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Institute for Economic Justice (IEJ)"
+          description="South African progressive think-tank advancing economic justice, redistribution, social protection, and just transition policies. Works with labour, feminist and climate movements for systemic transformation."
+          url="https://iej.org.za"
+          ariaLabel="Institute for Economic Justice website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="WoMin African Alliance"
+          description="Pan-African ecofeminist alliance supporting women, peasants and communities impacted by extractive industries. Builds movements for climate justice, land rights and feminist alternatives to the extractivist model."
+          url="https://womin.africa"
+          ariaLabel="WoMin African Alliance website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Zabalaza for Socialism (ZASO)"
+          description="Socialist and feminist organisation organising workers, students, and communities against extractivism, austerity, and imperialism for a decolonial socialist future."
+          url="https://zabalaza4socialism.org.za"
+          ariaLabel="Zabalaza for Socialism website — opens in a new tab"
+        />
+      </div>
+
+      <h2
+        class="category-title"
+        id="global-south-solidarity-and-anti-imperialism"
+      >
+        Global South Solidarity and Anti-Imperialism
+      </h2>
+
+      <div class="solidarity-grid">
+        <SolidarityCard
+          title="350 Pacific"
+          description="Pacific Islands climate movement fighting for climate justice and a renewable energy future. Organises frontline communities across the Pacific against fossil fuel extraction and for Indigenous-led climate solutions."
+          url="https://350pacific.org"
+          ariaLabel="350 Pacific website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="ALBA Movimientos"
+          description="Latin American network of anti-imperialist, Indigenous and peasant organisations coordinating across borders to defend sovereignty, ecosystems and progressive alternatives to neoliberal development."
+          url="https://www.albamovimientos.org"
+          ariaLabel="ALBA Movimientos website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="DAWN"
+          description="Global South feminist network working across themes of political economy, sustainable development, and sexual and reproductive health rights. Builds feminist movements and advances gender equality from Fiji and the Global South."
+          url="https://www.dawnfeminist.org"
+          ariaLabel="DAWN website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Global Tapestry of Alternatives"
+          description="International network weaving together grassroots initiatives, solidarity economies and radical alternatives to capitalism across the Global South and beyond. Promotes horizontal, non-hierarchical organising and shared transformation."
+          url="https://globaltapestryofalternatives.org"
+          ariaLabel="Global Tapestry of Alternatives website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Grassroots International"
+          description="Funds and supports Global South movements defending land, water, and food sovereignty while advancing feminist, ecological, and anti-imperialist struggles for collective liberation."
+          url="https://grassrootsonline.org"
+          ariaLabel="Grassroots International website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="International People's Assembly (IPA)"
+          description="Global anti-imperialist coalition uniting socialist, feminist, and ecological movements to confront capitalism, colonialism, and war through coordinated international solidarity and struggle."
+          url="https://ipa-aip.org"
+          ariaLabel="International People's Assembly website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="People's Forum"
+          description="Progressive hub and global forum uniting movements from the Global South for anti-imperialist education, popular assemblies and collective organising toward systemic transformation."
+          url="https://peoplesforum.org"
+          ariaLabel="People's Forum website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Tricontinental: Institute for Social Research"
+          description="Global South-based Marxist research institute producing revolutionary analysis and supporting movements for socialism, decolonisation, and human emancipation against imperialism and capital."
+          url="https://thetricontinental.org"
+          ariaLabel="Tricontinental Institute website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Transnational Institute (TNI)"
+          description="International research and advocacy institute rooted in anti-capitalist, decolonial, and climate justice struggles. Works globally for systemic transformation and the democratic control of resources."
+          url="https://www.tni.org/en"
+          ariaLabel="Transnational Institute website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Women's Environment & Development Organization (WEDO)"
+          description="Global women's advocacy organisation promoting human rights, gender equality, and environmental integrity. Builds feminist movements for climate justice and sustainable development through policy advocacy and coalition building."
+          url="https://wedo.org"
+          ariaLabel="WEDO website — opens in a new tab"
+        />
+      </div>
+
+      <h2 class="category-title" id="peasant-movements-and-food-sovereignty">
+        Peasant Movements and Food Sovereignty
+      </h2>
+
+      <div class="solidarity-grid">
+        <SolidarityCard
+          title="La Via Campesina"
+          description="International peasant movement uniting millions of small farmers and landless workers worldwide for food sovereignty, agrarian reform, and agroecological transformation."
+          url="https://viacampesina.org/en/"
+          ariaLabel="La Via Campesina website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="MST (Movimento dos Trabalhadores Rurais Sem Terra)"
+          description="Brazil's landless workers' movement fighting for agrarian reform, food sovereignty, and collective land ownership through direct action, agroecology, education, and popular organisation."
+          url="https://mst.org.br/english/"
+          ariaLabel="MST Brazil website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Schools for Chiapas"
+          description="Supports autonomous education, agroecology, and healthcare projects in Chiapas, Mexico, in solidarity with Zapatista communities and their revolutionary self-governance."
+          url="https://schoolsforchiapas.org"
+          ariaLabel="Schools for Chiapas website — opens in a new tab"
+        />
+      </div>
+
+      <h2
+        class="category-title"
+        id="working-class-struggles-and-democratic-control"
+      >
+        Working Class Struggles and Democratic Control
+      </h2>
+
+      <div class="solidarity-grid">
+        <SolidarityCard
+          title="International Labour Network of Solidarity and Struggles"
+          description="Global network of militant trade unions coordinating class struggle and internationalist organising to build working-class power beyond borders and bureaucracy."
+          url="https://laboursolidarity.org"
+          ariaLabel="International Labour Network of Solidarity and Struggles website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Trade Unions for Energy Democracy (TUED)"
+          description="Global trade union network demanding democratic control of energy systems, public ownership, and a just transition beyond fossil fuels and corporate capture."
+          url="https://www.tuedglobal.org"
+          ariaLabel="Trade Unions for Energy Democracy website — opens in a new tab"
+        />
+      </div>
+
+      <h2
+        class="category-title"
+        id="community-organising-and-solidarity-economy"
+      >
+        Community Organising and Solidarity Economy
+      </h2>
+
+      <div class="solidarity-grid">
+        <SolidarityCard
+          title="Community Movement Builders"
+          description="Black-led organisation building power in Atlanta and beyond through community self-defence, cooperative economics, political education, and grassroots organising against gentrification, policing, and environmental racism."
+          url="https://communitymovementbuilders.org"
+          ariaLabel="Community Movement Builders website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Cooperation Jackson"
+          description="Building a solidarity economy and grassroots democracy in Jackson, Mississippi through worker cooperatives, mutual aid, popular assemblies, and community self-determination."
+          url="https://cooperationjackson.org"
+          ariaLabel="Cooperation Jackson website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Philly Thrive"
+          description="Grassroots environmental justice collective in Philadelphia led by impacted residents, organising for the Right to Breathe against refinery pollution and fossil fuel extraction while advancing community health and a just transition."
+          url="https://www.phillythrive.org"
+          ariaLabel="Philly Thrive website — opens in a new tab"
+        />
+      </div>
+
+      <h2 class="category-title" id="indigenous-resistance-and-land-back">
+        Indigenous Resistance and Land Back
+      </h2>
+
+      <div class="solidarity-grid">
+        <SolidarityCard
+          title="Honor the Earth"
+          description="Indigenous feminist organisation led by Anishinaabe activists resisting fossil fuel extraction and promoting energy democracy, cultural sovereignty, and environmental justice across Turtle Island."
+          url="https://www.honorearth.org"
+          ariaLabel="Honor the Earth website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Idle No More"
+          description="Indigenous-led movement founded in Canada advancing decolonisation, sovereignty, and climate justice through mass education, mobilisation, and resistance to capitalist and settler exploitation."
+          url="https://idlenomore.ca"
+          ariaLabel="Idle No More website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="NDN Collective"
+          description="Indigenous-led organisation advancing decolonisation and climate justice through land-back struggles, political education, and community self-determination across Turtle Island."
+          url="https://ndncollective.org"
+          ariaLabel="NDN Collective website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="The Red Nation"
+          description="Indigenous socialist organisation uniting Native liberation and socialist struggle. Organises for decolonisation, land back, and ecological survival through direct action, political education, and solidarity across oppressed nations."
+          url="https://therednation.org"
+          ariaLabel="The Red Nation website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Women's Earth and Climate Action Network (WECAN) International"
+          description="Global feminist and Indigenous-centred network mobilising women and gender-diverse leaders for climate justice, land defence and rights of nature through direct action, trainings and movement-building across frontline communities."
+          url="https://www.wecaninternational.org"
+          ariaLabel="WECAN International website — opens in a new tab"
+        />
+      </div>
+    </section>
+  </div>
+</Layout>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggle = document.querySelector(".bookmark-toggle");
+    const list = document.querySelector(".bookmark-list");
+
+    if (toggle && list) {
+      toggle.addEventListener("click", () => {
+        const isExpanded = toggle.getAttribute("aria-expanded") === "true";
+
+        toggle.setAttribute("aria-expanded", String(!isExpanded));
+        if (!isExpanded) {
+          list.classList.add("show");
+        } else {
+          list.classList.remove("show");
+        }
+      });
+
+      const links = list.querySelectorAll("a");
+      links.forEach((link) => {
+        link.addEventListener("click", () => {
+          toggle.setAttribute("aria-expanded", "false");
+          list.classList.remove("show");
+        });
+      });
+
+      document.addEventListener("click", (e) => {
+        const target = e.target as Node;
+        if (target && !toggle.contains(target) && !list.contains(target)) {
+          toggle.setAttribute("aria-expanded", "false");
+          list.classList.remove("show");
+        }
+      });
+    }
+  });
+</script>
+
+<style>
+  .solidarity-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--content-padding);
+  }
+
+  .page-header {
+    text-align: center;
+    margin-bottom: calc(var(--grid-unit) * 8);
+  }
+
+  .page-title {
+    font-family: var(--font-heading-secondary);
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: calc(var(--grid-unit) * 3);
+    text-align: center;
+  }
+
+  .page-rule {
+    height: 4px;
+    background-color: var(--color-accent);
+    border: none;
+    width: 120px;
+    margin: calc(var(--grid-unit) * 2) auto;
+  }
+
+  .solidarity-intro {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto calc(var(--grid-unit) * 6);
+  }
+
+  .solidarity-section {
+    margin-top: calc(var(--grid-unit) * 8);
+    padding-bottom: calc(var(--grid-unit) * 8);
+  }
+
+  .solidarity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: calc(var(--grid-unit) * 4);
+  }
+
+  .category-title {
+    font-family: var(--font-heading-secondary);
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: calc(var(--grid-unit) * 8) 0 calc(var(--grid-unit) * 3);
+    text-align: center;
+  }
+
+  .category-title:first-of-type {
+    margin-top: 0;
+  }
+
+  .solidarity-nav {
+    margin: calc(var(--grid-unit) * 4) 0 calc(var(--grid-unit) * 4);
+  }
+
+  .bookmark-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .bookmark-toggle {
+    display: none;
+    width: 100%;
+    padding: calc(var(--grid-unit) * 2) calc(var(--grid-unit) * 3);
+    background: var(--color-surface);
+    border: 2px solid var(--color-border);
+    border-radius: 8px;
+    color: var(--color-text-primary);
+    font-family: var(--font-heading-secondary);
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bookmark-toggle:hover,
+  .bookmark-toggle:focus {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+
+  .bookmark-toggle:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  .bookmark-icon {
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
+  }
+
+  .bookmark-toggle[aria-expanded="true"] .bookmark-icon {
+    transform: rotate(180deg);
+  }
+
+  .bookmark-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: calc(var(--grid-unit) * 2);
+  }
+
+  .bookmark-list a {
+    display: inline-block;
+    padding: calc(var(--grid-unit) * 1) calc(var(--grid-unit) * 2);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.04em;
+    color: var(--color-text-secondary);
+    transition: all 0.2s ease;
+  }
+
+  .bookmark-list a:hover,
+  .bookmark-list a:focus {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+  }
+
+  .bookmark-list a:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .bookmark-toggle {
+      display: flex;
+    }
+
+    .bookmark-list {
+      display: none;
+      flex-direction: column;
+      gap: calc(var(--grid-unit) * 1);
+      margin-top: calc(var(--grid-unit) * 2);
+      padding: calc(var(--grid-unit) * 2);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .bookmark-list.show {
+      display: flex;
+    }
+
+    .bookmark-list a {
+      width: 100%;
+      text-align: left;
+      padding: calc(var(--grid-unit) * 1.5) calc(var(--grid-unit) * 2);
+      font-size: 0.9rem;
+    }
+
+    .bookmark-list a:hover,
+    .bookmark-list a:focus {
+      transform: translateX(4px);
+    }
+  }
+
+  /* Desktop styles */
+  @media (min-width: 769px) {
+    .bookmark-toggle {
+      display: none;
+    }
+
+    .bookmark-list {
+      display: flex !important;
+    }
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+</style>

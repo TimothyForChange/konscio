@@ -1,0 +1,78 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  url: string;
+  ariaLabel: string;
+}
+
+const { title, description, url, ariaLabel } = Astro.props;
+---
+
+<article class="solidarity-card">
+  <h3 class="solidarity-title">{title}</h3>
+  <p class="solidarity-description">{description}</p>
+  <a
+    href={url}
+    class="solidarity-link"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={ariaLabel}>Website</a
+  >
+</article>
+
+<style>
+  .solidarity-card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: calc(var(--grid-unit) * 4);
+    text-align: center;
+    transition:
+      transform 0.3s ease,
+      border-color 0.3s ease;
+  }
+
+  .solidarity-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-accent);
+  }
+
+  .solidarity-title {
+    font-family: var(--font-heading-secondary);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: calc(var(--grid-unit) * 1.5);
+  }
+
+  .solidarity-description {
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin: 0 0 calc(var(--grid-unit) * 2);
+  }
+
+  .solidarity-link {
+    display: inline-block;
+    padding: calc(var(--grid-unit) * 1.5) calc(var(--grid-unit) * 3);
+    background: var(--color-accent);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
+    font-family: var(--font-heading-secondary);
+    border: 2px solid var(--color-accent);
+  }
+
+  .solidarity-link:hover,
+  .solidarity-link:focus {
+    background-color: transparent;
+    color: var(--color-accent);
+    transform: translateY(-2px);
+  }
+</style>
