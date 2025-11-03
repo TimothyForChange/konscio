@@ -1,7 +1,7 @@
 ---
 title: "Health Is Not a Privilege: Why South Africa Needs the NHI"
 author: "Timothy Brits"
-date: 2025-11-03
+datePublished: 2025-11-03
 description: "The National Health Insurance is South Africa’s chance to end apartheid in healthcare — if power, profit, and political cowardice don’t strangle it first."
 excerpt: "The National Health Insurance is not a policy proposal. It is a moral test. It asks whether South Africa will keep treating healthcare as a commodity or finally accept it as a right."
 image: /images/why-south-africa-needs-the-nhi.jpg
