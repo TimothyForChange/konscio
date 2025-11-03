@@ -14,7 +14,7 @@ tags: ["Universal Basic Income", "Welfare", "Global South", "Decolonisation"]
 > "For a colonised people the most essential value, because it is the most concrete, is first and foremost the land: the land which will bring them bread and, above all, dignity."
 > — Frantz Fanon, The Wretched of the Earth (1961)
 
-## What UBI Is — and What It Isn’t
+## What UBI Is — and What It Isn't
 
 Universal Basic Income (UBI) is a simple idea: everyone receives a regular, unconditional payment from public funds. No means test. No work requirement. No humiliation. Its aim is to guarantee dignity and freedom from destitution.
 
@@ -30,10 +30,10 @@ UBI alone cannot cure poverty. Without structural change, it will be absorbed by
 
 Poverty is not natural. It is designed — through austerity, debt adjustment, and trade liberalisation that strip wealth from labour and land to feed accumulation. Wages are suppressed, commons enclosed, and public services gutted.
 
-UBI crystallises a political choice: **manage capitalism’s wreckage or transform its structure.**
+UBI crystallises a political choice: **manage capitalism's wreckage or transform its structure.**
 Either we continue cushioning exploitation with market-friendly welfare, or we build a system where social policy redistributes power, not just income.
 
-Properly designed, UBI can increase workers’ bargaining power, freeing people from coerced labour and creating time for care, organising and political life. But if extraction and privatisation remain intact, the money will be devoured by landlords, creditors and corporate monopolies.
+Properly designed, UBI can increase workers' bargaining power, freeing people from coerced labour and creating time for care, organising and political life. But if extraction and privatisation remain intact, the money will be devoured by landlords, creditors and corporate monopolies.
 
 The question, then, is not whether to support UBI — but **which UBI**, and as part of **what wider transformation**.
 
@@ -45,7 +45,7 @@ Evidence from pilots is useful but limited. Cash transfers reduce poverty, impro
 
 Employment effects depend on context. Where strong labour protections and public services exist, UBI increases bargaining power without mass job loss. Where services are privatised and jobs precarious, it becomes a tool for survival, not liberation.
 
-The inflation debate also reveals class politics. Modest transfers don’t trigger inflation; the fear often masks elite anxiety that workers might gain leverage over wages.
+The inflation debate also reveals class politics. Modest transfers don't trigger inflation; the fear often masks elite anxiety that workers might gain leverage over wages.
 
 The lesson is clear: **cash helps, but structure decides.** Small, token payments stabilise exploitation; universal, adequate income tied to public services shifts power. This fundamental principle underlies all meaningful social transformation.
 
@@ -64,7 +64,7 @@ When detached from structural reform, UBI repeats three failures.
 **Market-friendly UBI offers individual security inside a system that depends on collective insecurity.**
 Capital needs unemployment, debt and cheap resources to function. A UBI that leaves these intact merely oils the machine.
 
-Neoliberal stabilisation works this way: manage unrest with cash transfers, privatise the commons, and protect profit. The beneficiaries are predictable — financial institutions, tech monopolies, extractive firms, and employers seeking wage subsidies. On the other side stand workers, small farmers, indigenous communities and women in unpaid care — those whose labour and land sustain capital’s wealth.
+Neoliberal stabilisation works this way: manage unrest with cash transfers, privatise the commons, and protect profit. The beneficiaries are predictable — financial institutions, tech monopolies, extractive firms, and employers seeking wage subsidies. On the other side stand workers, small farmers, indigenous communities and women in unpaid care — those whose labour and land sustain capital's wealth.
 
 ---
 
@@ -94,17 +94,17 @@ Extractive profits must flow back into social wages and ecological restoration. 
 
 ### Work and Dignity
 
-Pair UBI with a jobs guarantee in care, restoration and climate work. That expands labour’s freedom rather than undermining it. Work should be dignified, socially useful and ecologically sane — not coerced survival.
+Pair UBI with a jobs guarantee in care, restoration and climate work. That expands labour's freedom rather than undermining it. Work should be dignified, socially useful and ecologically sane — not coerced survival.
 
 ### Ecological Transformation
 
-Ecosocial UBI must shrink consumption’s footprint by reorganising production. Public transport over private cars, shared infrastructure over wasteful individualism. High living standards through collective provision, not endless growth.
+Ecosocial UBI must shrink consumption's footprint by reorganising production. Public transport over private cars, shared infrastructure over wasteful individualism. High living standards through collective provision, not endless growth.
 
 ### Global Solidarity
 
 Capital flight and tax evasion are transnational. So must be justice. Progressive tax coordination, corporate accountability and reparative transfers are essential. Without this, any UBI in the Global South will bleed into offshore accounts.
 
-These principles already have real precedents. **Brazil’s Bolsa Família** combined cash transfers with healthcare and education. **South Africa’s social grants** demonstrate the feasibility of redistribution even within fiscal constraint. **Kerala’s localised planning** integrates social provision, ecological protection and participatory budgeting. The task is to **weave these fragments into a coherent ecosocial plan.**
+These principles already have real precedents. **Brazil's Bolsa Família** combined cash transfers with healthcare and education. **South Africa's social grants** demonstrate the feasibility of redistribution even within fiscal constraint. **Kerala's localised planning** integrates social provision, ecological protection and participatory budgeting. The task is to **weave these fragments into a coherent ecosocial plan.**
 
 ---
 
@@ -113,8 +113,8 @@ These principles already have real precedents. **Brazil’s Bolsa Família** com
 **"It will make people lazy."**
 Evidence says otherwise. People use cash to meet needs, not to avoid work. What UBI undermines is the compulsion to accept exploitation.
 
-**"It’s unaffordable."**
-Affordability is political. States can fund militaries, bail out banks and subsidise fossil capital. Wealth exists; it’s hoarded. Redirect it.
+**"It's unaffordable."**
+Affordability is political. States can fund militaries, bail out banks and subsidise fossil capital. Wealth exists; it's hoarded. Redirect it.
 
 **"It will pacify people."**
 That depends on design. A minimal, marketised payment can pacify. But an **adequate, universal, and publicly controlled** income enlarges the political space for organising and resistance. That is why elites fear it.
@@ -135,7 +135,7 @@ The coalition capable of winning an ecosocial UBI already exists in fragments:
 
 These struggles are not separate. They form a common front against the same system that exploits labour, colonises nature and disciplines life through debt.
 
-Every campaign for a living wage, debt cancellation or public ownership builds the foundations of an ecosocial UBI. Each act of resistance strengthens the capacity to demand redistribution on our terms, not the market’s.
+Every campaign for a living wage, debt cancellation or public ownership builds the foundations of an ecosocial UBI. Each act of resistance strengthens the capacity to demand redistribution on our terms, not the market's.
 
 ---
 
@@ -147,6 +147,6 @@ Insist on a **universal and adequate** income, funded by taxing wealth and extra
 
 This is not charity. It is restitution. A redistribution of what was stolen — from workers, from communities, from the earth itself.
 
-Fight for a UBI that forms the floor of a new social order, not a patch for empire’s decay.
+Fight for a UBI that forms the floor of a new social order, not a patch for empire's decay.
 
 — _In solidarity with workers, organisers and ecological defenders across the Global South and beyond._
