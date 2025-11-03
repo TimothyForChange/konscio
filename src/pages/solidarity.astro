@@ -322,13 +322,13 @@ import SolidarityCard from "../components/SolidarityCard.astro";
   </div>
 </Layout>
 
-<script>
+<script is:inline>
   document.addEventListener("DOMContentLoaded", () => {
     const toggle = document.querySelector(".bookmark-toggle");
     const list = document.querySelector(".bookmark-list");
 
     if (toggle && list) {
-      const handleToggle = (e: Event) => {
+      const handleToggle = (e) => {
         e.preventDefault();
         e.stopPropagation();
 
@@ -356,8 +356,8 @@ import SolidarityCard from "../components/SolidarityCard.astro";
         link.addEventListener("touchend", closeDropdown);
       });
 
-      const closeOnOutsideClick = (e: Event) => {
-        const target = e.target as Element;
+      const closeOnOutsideClick = (e) => {
+        const target = e.target;
 
         let isOutside = true;
 
