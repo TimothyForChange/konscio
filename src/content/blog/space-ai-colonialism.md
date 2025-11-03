@@ -102,7 +102,7 @@ The digital and the orbital are not weightless. Satellites require rare metals a
 
 Every satellite launch and every GPU cluster represents a value chain that ends in Western stock markets. The minerals come from the periphery; the profits flow to Silicon Valley, London, and Frankfurt. Extraction is still the grammar of empire — only the syntax has changed.
 
-The imperial stack is not abstract. It is built on Congolese cobalt, Bolivian lithium, and sacrificed land. Its circuits and satellites are the new plantations.
+The imperial stack is not abstract. It is built on Congolese cobalt, Bolivian lithium, and sacrificed land. Its circuits and satellites are the new plantations, extracting value from the Global South for the benefit of the digital empires of the North.
 
 ---
 

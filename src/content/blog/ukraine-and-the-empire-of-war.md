@@ -74,7 +74,7 @@ The UN warns that environmental recovery may take **decades**, if it is possible
 
 War here is not only social catastrophe — it is **ecocide as strategy**, turning ecosystems into collateral and "reconstruction" into profit.
 
-Across continents, the pattern repeats: from cobalt in Congo to gold in Sudan to the bombed soil of Donbas. The Earth itself has become collateral in empire's accounting.
+Across continents, the pattern repeats: from cobalt in Congo to gold in Sudan to the bombed soil of Donbas. The Earth itself has become collateral in empire's accounting, with ecosystems sacrificed for the machinery of accumulation.
 
 ---
 

@@ -26,7 +26,7 @@ The current campaign began publicly in early September and accelerated in Octobe
 
 On **27 October 2025**, the Pentagon reported strikes on four vessels in the eastern Pacific that killed **14** people. By the end of October, reporting aggregated known deaths from the series of strikes at **around 61**.
 
-Officials frame these actions as counter-narcotics and describe the targets as tied to organised trafficking networks. Critics call the numbers, the evidence, and the legal bases opaque.
+Officials frame these actions as counter-narcotics operations and describe the targets as tied to organised trafficking networks. Critics call the numbers, the evidence, and the legal bases opaque, noting that independent verification remains limited.
 
 Most troubling, reporting from major outlets indicates U.S. officials have identified land targets in Venezuela — facilities alleged to be used for trafficking by elements linked to the regime. Such lists reportedly include **military-controlled ports and airstrips**. If acted on, strikes against these sites would be a clear move from maritime interdiction into attacks on foreign soil. That is a different category of action with far wider legal and political consequences.
 

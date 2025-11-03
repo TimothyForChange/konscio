@@ -54,7 +54,7 @@ For Indigenous peoples of the Congo Basin — the Baka, Batwa, BaAka, and many o
 
 "Protected areas" and logging concessions alike often come with military enforcement. Armed guards patrol lands once open to hunting and gathering. Those who resist are criminalised as "poachers". Those who protest risk imprisonment or worse.
 
-UN and NGO reports have documented **violent evictions and abuses by eco-guards** funded by major international conservation groups, including WWF, in the DRC and Republic of Congo. These operations mirror the extractive logic they claim to oppose.
+UN and NGO reports have documented **violent evictions and abuses by eco-guards** funded by major international conservation groups, including WWF, in the DRC and Republic of Congo. These operations mirror the extractive logic they claim to oppose. The irony is stark: conservation efforts that displace the very communities who have sustainably stewarded these lands for generations.
 
 Despite this violence, resistance endures. Indigenous women's networks in Itombwe and Équateur lead **community reforestation projects** and protest illegal logging. Youth groups document forest crimes with GPS tools, and community associations demand **legal recognition of collective land rights.** Across the Basin, ordinary people assert a radical truth: _living with the forest represents wisdom, not backwardness._
 

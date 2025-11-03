@@ -81,7 +81,7 @@ These words disguise structural violence, framing victims as threats and resista
 Settler colonialism is not only a political project; it is an **ecological one.**
 In Palestine, olive groves are uprooted, aquifers stolen, and farmland bombed into dust. In Africa, forests are razed for profit and rivers poisoned by mines. Both reflect the same logic: control nature, displace people, privatise life.
 
-The **ecocide in Gaza** — the flattening of farmland, poisoning of soil and sea — mirrors the slow violence inflicted on ecosystems across the Global South. Climate collapse represents imperialism in its ecological form, rather than being accidental.
+The **ecocide in Gaza** — the flattening of farmland, poisoning of soil and sea, contamination of water sources — mirrors the slow violence inflicted on ecosystems across the Global South. Climate collapse represents imperialism in its ecological form, rather than being accidental.
 
 Demilitarisation and ecological regeneration are inseparable. The metals that build tanks could rebuild irrigation systems. The capital that funds war could restore rivers and forests. Every act of disarmament is an act of renewal.
 

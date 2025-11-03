@@ -47,7 +47,7 @@ Employment effects depend on context. Where strong labour protections and public
 
 The inflation debate also reveals class politics. Modest transfers don’t trigger inflation; the fear often masks elite anxiety that workers might gain leverage over wages.
 
-The lesson is clear: **cash helps, but structure decides.** Small, token payments stabilise exploitation; universal, adequate income tied to public services shifts power.
+The lesson is clear: **cash helps, but structure decides.** Small, token payments stabilise exploitation; universal, adequate income tied to public services shifts power. This fundamental principle underlies all meaningful social transformation.
 
 ---
 

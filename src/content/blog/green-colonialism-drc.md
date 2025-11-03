@@ -61,6 +61,8 @@ Despite the bleak picture, the story is not only one of victimhood. Congolese wo
 
 **Victories are possible.** In 2019, communities in Lualaba Province successfully challenged Chinese company Sicomines over environmental damage and forced compensation payments. The **Observatoire Congolais des Droits de l'Homme (OCDH)** has documented mining abuses and forced several firms to improve safety conditions. Artisanal miners' cooperatives have secured better prices by organising collectively rather than selling to individual middlemen. In 2023, civil society pressure led to the suspension of several mining licenses pending environmental impact assessments.
 
+These struggles demonstrate that power can be challenged even in the most difficult circumstances. The resistance continues in communities across the DRC.
+
 These struggles show that change is possible when communities organise, document abuse, and demand accountability. International solidarity must centre these struggles rather than speaking for them. Our role — as readers, as activists, as consumers in the Global North — is to shift attention and power toward those who live the consequences and demand alternatives.
 
 What would a different approach look like?

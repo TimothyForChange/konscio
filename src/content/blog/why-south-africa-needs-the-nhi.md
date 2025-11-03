@@ -51,7 +51,7 @@ Done well, this model offers major gains:
 - **Solidarity:** The healthy support the sick, and society recognises that everyone will need care eventually.
 - **Decolonisation:** It ends the colonial logic that sees world-class medicine as the birthright of the rich and rationed care as the fate of the poor.
 
-Universal healthcare is not charity. It is the collective expression of dignity. It recognises that illness is not a personal failure but a social condition shaped by poverty, pollution, and work. The NHI gives that truth institutional form.
+Universal healthcare is not charity. It is the collective expression of dignity. It recognises that illness is not a personal failure but a social condition shaped by poverty, pollution, and work. The NHI gives that truth institutional form and makes it accessible to all.
 
 ---
 
