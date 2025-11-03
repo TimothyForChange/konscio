@@ -328,7 +328,10 @@ import SolidarityCard from "../components/SolidarityCard.astro";
     const list = document.querySelector(".bookmark-list");
 
     if (toggle && list) {
-      toggle.addEventListener("click", () => {
+      const handleToggle = (e: Event) => {
+        e.preventDefault();
+        e.stopPropagation();
+
         const isExpanded = toggle.getAttribute("aria-expanded") === "true";
 
         toggle.setAttribute("aria-expanded", String(!isExpanded));
@@ -337,23 +340,43 @@ import SolidarityCard from "../components/SolidarityCard.astro";
         } else {
           list.classList.remove("show");
         }
-      });
+      };
+
+      toggle.addEventListener("click", handleToggle);
+      toggle.addEventListener("touchend", handleToggle);
 
       const links = list.querySelectorAll("a");
       links.forEach((link) => {
-        link.addEventListener("click", () => {
+        const closeDropdown = () => {
           toggle.setAttribute("aria-expanded", "false");
           list.classList.remove("show");
-        });
+        };
+
+        link.addEventListener("click", closeDropdown);
+        link.addEventListener("touchend", closeDropdown);
       });
 
-      document.addEventListener("click", (e) => {
-        const target = e.target as Node;
-        if (target && !toggle.contains(target) && !list.contains(target)) {
+      const closeOnOutsideClick = (e: Event) => {
+        const target = e.target as Element;
+
+        let isOutside = true;
+
+        if (toggle === target || toggle.contains(target)) {
+          isOutside = false;
+        }
+
+        if (list === target || list.contains(target)) {
+          isOutside = false;
+        }
+
+        if (isOutside) {
           toggle.setAttribute("aria-expanded", "false");
           list.classList.remove("show");
         }
-      });
+      };
+
+      document.addEventListener("click", closeOnOutsideClick);
+      document.addEventListener("touchend", closeOnOutsideClick);
     }
   });
 </script>
@@ -450,6 +473,10 @@ import SolidarityCard from "../components/SolidarityCard.astro";
     transition: all 0.3s ease;
     justify-content: space-between;
     align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
   }
 
   .bookmark-toggle:hover,
