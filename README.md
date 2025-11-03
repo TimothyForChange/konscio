@@ -51,7 +51,7 @@ An Astro-powered blog exploring capitalism, colonialism, and climate collapse th
 
 ### Prerequisites
 
-- Node.js 22.16.0 or higher
+- Node.js 24.11.0 or higher
 - Git
 
 ### Installation
