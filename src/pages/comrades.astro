@@ -19,38 +19,48 @@ import Layout from "../components/Layout.astro";
 
     <section class="solidarity-section">
       <nav class="solidarity-nav" aria-label="Comrades category navigation">
-        <ul class="solidarity-nav-list">
-          <li>
-            <a href="#south-africa-and-the-continent"
-              >South Africa and the Continent</a
-            >
-          </li>
-          <li>
-            <a href="#global-south-solidarity-and-anti-imperialism"
-              >Global South Solidarity and Anti-Imperialism</a
-            >
-          </li>
-          <li>
-            <a href="#peasant-movements-and-food-sovereignty"
-              >Peasant Movements and Food Sovereignty</a
-            >
-          </li>
-          <li>
-            <a href="#working-class-struggles-and-democratic-control"
-              >Working Class Struggles and Democratic Control</a
-            >
-          </li>
-          <li>
-            <a href="#community-organising-and-solidarity-economy"
-              >Community Organising and Solidarity Economy</a
-            >
-          </li>
-          <li>
-            <a href="#indigenous-resistance-and-land-back"
-              >Indigenous Resistance and Land Back</a
-            >
-          </li>
-        </ul>
+        <div class="bookmark-container">
+          <button
+            class="bookmark-toggle"
+            aria-expanded="false"
+            aria-controls="bookmark-list"
+          >
+            <span class="bookmark-text">Jump to Section</span>
+            <span class="bookmark-icon" aria-hidden="true">↓</span>
+          </button>
+          <ul class="bookmark-list" id="bookmark-list">
+            <li>
+              <a href="#south-africa-and-the-continent"
+                >South Africa and the Continent</a
+              >
+            </li>
+            <li>
+              <a href="#global-south-solidarity-and-anti-imperialism"
+                >Global South Solidarity and Anti-Imperialism</a
+              >
+            </li>
+            <li>
+              <a href="#peasant-movements-and-food-sovereignty"
+                >Peasant Movements and Food Sovereignty</a
+              >
+            </li>
+            <li>
+              <a href="#working-class-struggles-and-democratic-control"
+                >Working Class Struggles and Democratic Control</a
+              >
+            </li>
+            <li>
+              <a href="#community-organising-and-solidarity-economy"
+                >Community Organising and Solidarity Economy</a
+              >
+            </li>
+            <li>
+              <a href="#indigenous-resistance-and-land-back"
+                >Indigenous Resistance and Land Back</a
+              >
+            </li>
+          </ul>
+        </div>
       </nav>
 
       <h2 class="category-title" id="south-africa-and-the-continent">
@@ -631,6 +641,42 @@ import Layout from "../components/Layout.astro";
   </div>
 </Layout>
 
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggle = document.querySelector(".bookmark-toggle");
+    const list = document.querySelector(".bookmark-list");
+
+    if (toggle && list) {
+      toggle.addEventListener("click", () => {
+        const isExpanded = toggle.getAttribute("aria-expanded") === "true";
+
+        toggle.setAttribute("aria-expanded", String(!isExpanded));
+        if (!isExpanded) {
+          list.classList.add("show");
+        } else {
+          list.classList.remove("show");
+        }
+      });
+
+      const links = list.querySelectorAll("a");
+      links.forEach((link) => {
+        link.addEventListener("click", () => {
+          toggle.setAttribute("aria-expanded", "false");
+          list.classList.remove("show");
+        });
+      });
+
+      document.addEventListener("click", (e) => {
+        const target = e.target as Node;
+        if (target && !toggle.contains(target) && !list.contains(target)) {
+          toggle.setAttribute("aria-expanded", "false");
+          list.classList.remove("show");
+        }
+      });
+    }
+  });
+</script>
+
 <style>
   .solidarity-page {
     max-width: 1200px;
@@ -754,18 +800,62 @@ import Layout from "../components/Layout.astro";
     margin: calc(var(--grid-unit) * 4) 0 calc(var(--grid-unit) * 4);
   }
 
-  .solidarity-nav-list {
+  .bookmark-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .bookmark-toggle {
+    display: none;
+    width: 100%;
+    padding: calc(var(--grid-unit) * 2) calc(var(--grid-unit) * 3);
+    background: var(--color-surface);
+    border: 2px solid var(--color-border);
+    border-radius: 8px;
+    color: var(--color-text-primary);
+    font-family: var(--font-heading-secondary);
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bookmark-toggle:hover,
+  .bookmark-toggle:focus {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+
+  .bookmark-toggle:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  .bookmark-icon {
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
+  }
+
+  .bookmark-toggle[aria-expanded="true"] .bookmark-icon {
+    transform: rotate(180deg);
+  }
+
+  .bookmark-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: calc(var(--grid-unit) * 2);
-    padding: 0;
-    margin: 0 auto;
-    max-width: 1000px;
   }
 
-  .solidarity-nav-list a {
+  .bookmark-list a {
     display: inline-block;
     padding: calc(var(--grid-unit) * 1) calc(var(--grid-unit) * 2);
     background: var(--color-surface);
@@ -779,16 +869,62 @@ import Layout from "../components/Layout.astro";
     transition: all 0.2s ease;
   }
 
-  .solidarity-nav-list a:hover,
-  .solidarity-nav-list a:focus {
+  .bookmark-list a:hover,
+  .bookmark-list a:focus {
     color: var(--color-accent);
     border-color: var(--color-accent);
     transform: translateY(-2px);
   }
 
-  .solidarity-nav-list a:focus-visible {
+  .bookmark-list a:focus-visible {
     outline: 2px solid var(--color-accent);
     outline-offset: 2px;
+  }
+
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .bookmark-toggle {
+      display: flex;
+    }
+
+    .bookmark-list {
+      display: none;
+      flex-direction: column;
+      gap: calc(var(--grid-unit) * 1);
+      margin-top: calc(var(--grid-unit) * 2);
+      padding: calc(var(--grid-unit) * 2);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .bookmark-list.show {
+      display: flex;
+    }
+
+    .bookmark-list a {
+      width: 100%;
+      text-align: left;
+      padding: calc(var(--grid-unit) * 1.5) calc(var(--grid-unit) * 2);
+      font-size: 0.9rem;
+    }
+
+    .bookmark-list a:hover,
+    .bookmark-list a:focus {
+      transform: translateX(4px);
+    }
+  }
+
+  /* Desktop styles */
+  @media (min-width: 769px) {
+    .bookmark-toggle {
+      display: none;
+    }
+
+    .bookmark-list {
+      display: flex !important;
+    }
   }
 
   html {
