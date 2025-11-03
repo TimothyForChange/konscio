@@ -4,7 +4,7 @@ author: "Timothy Brits"
 datePublished: 2025-10-31
 description: "An eco-socialist and decolonial analysis connecting the genocide in Gaza to the global architecture of imperialism, showing how the same system that bombs Palestine also impoverishes, extracts, and exploits the Global South."
 excerpt: "Gaza is not an exception. It is the mirror of empire, the visible frontier of a system that destroys life for profit and control. From Palestine to Congo, from Yemen to Haiti, the same machinery of domination operates under different flags."
-image: /images/gaza-and-the-global-south-palestine.jpg
+image: /images/gaza-and-the-global-south.jpg
 categories: ["Analysis"]
 tags: ["Palestine", "Imperialism", "Global South", "Decolonisation"]
 draft: true

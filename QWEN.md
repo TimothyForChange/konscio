@@ -1,66 +1,110 @@
-# AI Coding Agent Instructions for "Timothy for Change"
+# Qwen Instructions for Timothy for Change (Konscio)
 
 ## Project Overview
 
-- **Framework:** Astro (with MDX integration)
-- **Language:** TypeScript, CSS
-- **Purpose:** Eco-socialist analysis and decolonial thought from Africa and the Global South — for people and planet. The site is for people and planet: eco-socialist analysis from Africa and the Global South, with a focus on decolonisation, climate, and liberation
+This is an Astro-powered blog focused on eco-socialist analysis and decolonial thought from Africa and the Global South. Built with TypeScript, MDX support, and a mobile-first responsive design.
 
 ## Architecture & Key Patterns
 
-- **Content:** Blog posts are Markdown/MDX files in `src/content/blog/`. MDX supports embedded JSX.
-- **Components:** All UI elements (Header, Footer, Sidebar, Layout, SEO, ThemeToggle, TableOfContents) are in `src/components/` as `.astro` files.
-- **Pages:** Route files in `src/pages/` (e.g., `index.astro`, `blog.astro`, dynamic `[...slug].astro`).
-- **Config:** Site-wide settings in `src/config.ts` (title, author, social, siteUrl).
-- **Styling:** Global styles and CSS variables in `src/styles/global.css`. Dark mode and typography are controlled here.
-- **Utils:** Utility functions (reading time, TOC, slugify) in `src/utils/`.
-- **Public Assets:** Images, SVGs, and JS in `public/`.
+### Content System
 
-## Developer Workflows
+- **Blog posts**: MDX files in `src/content/blog/` with strict schema validation via Zod (`src/schemas/blog.ts`)
+- **Required frontmatter**: `title`, `datePublished`, `excerpt`, `categories`, `tags` - see `blogSchema` for complete structure
+- **Reading time**: Auto-calculated via custom remark plugin (`plugins/remark-reading-time.ts`)
+- **Content collections**: Defined in `src/content/config.ts` using Astro's content API
 
-- **Install:** `npm install`
-- **Dev Server:** `npm run dev` (runs `tsc --noEmit && astro dev` - type checks first)
-- **Build:** `npm run build` (output to `./dist/`)
-- **Preview:** `npm run preview`
-- **Type Check:** `npm run check`
-- **Lint:** `npm run lint` (ESLint with auto-fix, multiple plugins including sonarjs, unicorn)
-- **Format:** `npm run format` (Prettier with sort-imports plugin)
-- **Test:** `npm run test` (Vitest with jsdom environment)
+### Configuration
 
-## Project-Specific Conventions
+- **Site config**: Centralized in `src/config.ts` - modify this for site-wide settings, social links, author info
+- **Astro config**: `astro.config.mjs` includes custom plugins for reading time, font optimization (Fontaine), and build optimizations
 
-- **Frontmatter:** Blog posts require `title`, `datePublished`, `excerpt`, `categories`, and `tags` in frontmatter. Optional: `description`, `dateModified`, `author` (defaults to 'Anonymous'), `image`, `draft`.
-- **Content Schema:** Zod schema in `src/schemas/blog.ts` validates blog posts with `z.coerce.date()` for date parsing.
-- **Dark Mode:** Theme preference persisted in localStorage and initialized via inline script in `Layout.astro` to prevent FOUC. CSS variables update via `[data-theme='dark']` selector.
-- **Table of Contents:** Auto-generated for posts with headings (H2-H4) using `src/utils/table-of-contents.ts` and rendered by `TableOfContents.astro`.
-- **Reading Time:** Calculated via remark plugin (`plugins/remark-reading-time.ts`) and displayed on posts.
-- **SEO:** Meta tags and structured data handled by `SEO.astro`.
-- **Type Safety:** All config and utility code is type-checked.
-- **Self-Hosted Fonts:** No external font dependencies; see `src/styles/variables.css` for font setup.
-- **Colour Palette:** Monotone palette with accent red, semantic colour variables for light/dark themes.
-- **Language:** All new content and edits to content must use British English spelling.
-- **Code Style:** Never add comments to code or content.
-- **Development Environment:** Development for this project is done on Windows.
+### Component Patterns
 
-## Integration Points
+- **Layout hierarchy**: `Layout.astro` → `Header.astro` + `Sidebar.astro` + `Footer.astro`
+- **Props interfaces**: Every component exports TypeScript interfaces (see `Layout.astro` Props pattern)
+- **Scoped CSS**: Components use Astro's scoped styling with CSS variables from `src/styles/variables.css`
+- **Self-hosted fonts**: Via @fontsource-variable packages, no external font requests
 
-- **MDX:** Supports embedded JSX in blog posts for rich content.
-- **Content Collections:** Astro's type-safe content system with Zod validation.
-- **Fontaine:** Optimizes self-hosted fonts.
-- **Remark Plugins:** Custom reading time calculation plugin.
-- **Build Optimizations:** Astro compressor (gzip/brotli/zstd), PurgeCSS, Playform Inline for minimal JS.
-- **RSS & Search:** Auto-generated RSS feed and JSON search index.
+### Development Workflows
 
-## Examples
+#### Essential Commands
 
-- **Add a Blog Post:** Place `.md` or `.mdx` in `src/content/blog/` with required frontmatter.
-- **Add a Component:** Create `.astro` in `src/components/` and import in page/layout files.
-- **Customize Theme:** Edit CSS variables and font families in `src/styles/global.css`.
-- **Update Site Config:** Edit `src/config.ts` for title, author, social links, etc.
+```bash
+npm run dev          # Start dev server (localhost:4321)
+npm run build        # Production build
+npm run check        # TypeScript checking
+npm run lint         # ESLint with auto-fix
+npm run test         # Vitest test suite
+npm run link-check   # Custom link validation
+```
 
-## References
+#### Before Pull Requests
 
-- See `README.md` for full feature list, structure, and usage details.
-- Key files: `src/config.ts`, `src/components/`, `src/pages/`, `src/styles/global.css`, `src/utils/`, `public/`, `tests/`
+Always run: `npm run lint && npm run check && npm run test`
 
-Follow the above conventions and workflows. When in doubt, reference the README and config files for project-specific details. Prioritise type safety, accessibility, and performance in all code changes.
+#### Testing Strategy
+
+- **Component tests**: File-based testing in `tests/components/` - validates imports, interfaces, and structure
+- **Utility tests**: `tests/utils/` for helper functions like `slugify.ts`
+- **Integration tests**: End-to-end page functionality in `tests/integration/`
+- **Accessibility tests**: ARIA and semantic HTML validation in `tests/accessibility/`
+
+### Content Creation Workflow
+
+#### New Blog Posts
+
+1. Create `.md` or `.mdx` file in `src/content/blog/`
+2. Use complete frontmatter schema - missing required fields will fail build
+3. Categories become URL paths (`/categories/[category]`)
+4. Images go in `public/images/` and reference as `/images/filename.jpg`
+5. Reading time calculated automatically
+
+#### Editorial Guidelines
+
+- Clear, accessible language (see `CONTRIBUTING.md` for full standards)
+- Focus: eco-socialist analysis, decolonial thought, Global South perspectives
+- Original content in any language welcome (no translations)
+- Proper attribution for external authors
+
+### Project-Specific Conventions
+
+#### File Organization
+
+- **Styles**: Modular CSS in `src/styles/` with variables, typography, utilities pattern
+- **Utils**: Pure functions in `src/utils/` (e.g., `slugify.ts` for URL generation)
+- **Plugins**: Custom Astro/Remark plugins in `plugins/` directory
+- **Types**: TypeScript definitions in `src/types/` and `types/`
+
+#### Code Style
+
+- **Dual licensing**: Code (MIT) vs Content (CC0) - see `LICENCE` file
+- **Commit format**: Prefix with `Add:`, `Fix:`, `Update:`, `Remove:`, `Docs:`
+- **Import order**: External packages, then relative imports, then CSS/assets
+
+#### Performance Optimizations
+
+- **Font loading**: Fontaine plugin prevents layout shift
+- **Asset inlining**: 4KB threshold for small assets
+- **Build optimizations**: PurgeCSS, compression, and inlining enabled
+- **Prefetch strategy**: Hover-based prefetching for internal links
+
+## Common Tasks
+
+### Adding New Categories
+
+1. Add to blog post frontmatter `categories` array
+2. Category pages auto-generated at `/categories/[slug]`
+3. Update navigation if needed in `HeaderNavigation.astro`
+
+### Modifying Site Metadata
+
+- Edit `src/config.ts` for author info, social links, site description
+- SEO handled by `SEO.astro` component with structured data
+
+### Custom Components
+
+- Follow `Layout.astro` pattern: TypeScript interface, scoped styles, semantic HTML
+- Import in pages or other components as needed
+- Test component interfaces in `tests/components/`
+
+Remember: This is a political platform with specific editorial focus - maintain the eco-socialist, decolonial perspective in all content contributions.
