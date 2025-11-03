@@ -5,7 +5,7 @@ export async function GET(context) {
   const posts = import.meta.glob("../content/blog/*.{md,mdx}", { eager: true });
 
   const items = Object.entries(posts)
-    .filter(([path, post]) => post && post.frontmatter)
+    .filter(([_path, post]) => post && post.frontmatter)
     .map(([path, post]) => {
       const slug = path
         .split("/")

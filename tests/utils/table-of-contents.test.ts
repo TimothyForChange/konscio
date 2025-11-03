@@ -81,6 +81,29 @@ unclosed frontmatter
     expect(headings[0].slug).toBe("");
   });
 
+  it("should handle headings with multiple consecutive special characters", () => {
+    const content = "## Heading with --- multiple --- dashes";
+    const headings = extractHeadings(content);
+    expect(headings[0].text).toBe("Heading with --- multiple --- dashes");
+    expect(headings[0].slug).toBe("heading-with-----multiple-----dashes");
+  });
+
+  it("should handle headings with leading and trailing spaces", () => {
+    const content = "##   Heading with spaces   ";
+    const headings = extractHeadings(content);
+    expect(headings[0].text).toBe("Heading with spaces");
+    expect(headings[0].slug).toBe("heading-with-spaces");
+  });
+
+  it("should handle mixed markdown elements in headings", () => {
+    const content = "## Heading with [link](http://example.com) and `code`";
+    const headings = extractHeadings(content);
+    expect(headings[0].text).toBe(
+      "Heading with [link](http://example.com) and `code`"
+    );
+    expect(headings[0].slug).toBe("heading-with-linkhttpexamplecom-and-code");
+  });
+
   it("should handle content with very long headings", () => {
     const longText = "A".repeat(1000);
     const content = `## ${longText}`;

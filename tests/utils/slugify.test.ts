@@ -71,4 +71,25 @@ describe("slugifyPath", () => {
     expect(slugifyPath("path/file\u0000.md")).toBe("file\u0000");
     expect(slugifyPath("path/file\n.md")).toBe("file\n");
   });
+
+  it("should handle paths with special filesystem characters", () => {
+    expect(slugifyPath("path/file:with:colons.md")).toBe("file:with:colons");
+    expect(slugifyPath("path/file*with*asterisks.md")).toBe(
+      "file*with*asterisks"
+    );
+    expect(slugifyPath("path/file?with?question.md")).toBe(
+      "file?with?question"
+    );
+    expect(slugifyPath('path/file"with"quotes.md')).toBe('file"with"quotes');
+  });
+
+  it("should handle paths with encoded characters", () => {
+    expect(slugifyPath("path/file%20encoded.md")).toBe("file%20encoded");
+    expect(slugifyPath("path/file+plus+encoded.md")).toBe("file+plus+encoded");
+  });
+
+  it("should handle deeply nested paths", () => {
+    const deepPath = "a/b/c/d/e/f/g/file.md";
+    expect(slugifyPath(deepPath)).toBe("file");
+  });
 });

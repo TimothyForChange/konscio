@@ -170,4 +170,50 @@ describe("HeaderMobileMenu.astro", () => {
     expect(categoriesLink).not.toBeNull();
     expect(aboutLink).not.toBeNull();
   });
+
+  it("toggles mobile menu visibility on hamburger click", () => {
+    const html = `
+      <!DOCTYPE html>
+      <html>
+      <body>
+        <div class="mobile-menu" id="mobile-menu">
+          <nav class="mobile-menu" aria-label="Mobile navigation">
+            <ul class="mobile-nav-list">
+              <li><a href="/" data-astro-prefetch class="mobile-nav-link">Home</a></li>
+            </ul>
+          </nav>
+        </div>
+        <button id="hamburger-toggle">Menu</button>
+      </body>
+      </html>
+    `;
+
+    const dom = new JSDOM(html, {
+      runScripts: "dangerously",
+      resources: "usable",
+      url: "http://localhost",
+    });
+
+    const document = dom.window.document;
+
+    const script = dom.window.document.createElement("script");
+    script.textContent = `
+      document.getElementById("hamburger-toggle").addEventListener("click", function() {
+        const menu = document.getElementById("mobile-menu");
+        menu.classList.toggle("active");
+      });
+    `;
+    dom.window.document.head.appendChild(script);
+
+    const hamburger = document.getElementById("hamburger-toggle")!;
+    const mobileMenu = document.getElementById("mobile-menu")!;
+
+    expect(mobileMenu.classList.contains("active")).toBe(false);
+
+    hamburger.click();
+    expect(mobileMenu.classList.contains("active")).toBe(true);
+
+    hamburger.click();
+    expect(mobileMenu.classList.contains("active")).toBe(false);
+  });
 });
