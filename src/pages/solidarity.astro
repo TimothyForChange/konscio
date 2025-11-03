@@ -328,55 +328,28 @@ import SolidarityCard from "../components/SolidarityCard.astro";
     const list = document.querySelector(".bookmark-list");
 
     if (toggle && list) {
-      const handleToggle = (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-
+      const handleToggle = () => {
         const isExpanded = toggle.getAttribute("aria-expanded") === "true";
-
         toggle.setAttribute("aria-expanded", String(!isExpanded));
-        if (!isExpanded) {
-          list.classList.add("show");
-        } else {
-          list.classList.remove("show");
-        }
+        list.classList.toggle("show");
       };
 
       toggle.addEventListener("click", handleToggle);
-      toggle.addEventListener("touchend", handleToggle);
 
       const links = list.querySelectorAll("a");
       links.forEach((link) => {
-        const closeDropdown = () => {
+        link.addEventListener("click", () => {
           toggle.setAttribute("aria-expanded", "false");
           list.classList.remove("show");
-        };
-
-        link.addEventListener("click", closeDropdown);
-        link.addEventListener("touchend", closeDropdown);
+        });
       });
 
-      const closeOnOutsideClick = (e) => {
-        const target = e.target;
-
-        let isOutside = true;
-
-        if (toggle === target || toggle.contains(target)) {
-          isOutside = false;
-        }
-
-        if (list === target || list.contains(target)) {
-          isOutside = false;
-        }
-
-        if (isOutside) {
+      document.addEventListener("click", (e) => {
+        if (!toggle.contains(e.target) && !list.contains(e.target)) {
           toggle.setAttribute("aria-expanded", "false");
           list.classList.remove("show");
         }
-      };
-
-      document.addEventListener("click", closeOnOutsideClick);
-      document.addEventListener("touchend", closeOnOutsideClick);
+      });
     }
   });
 </script>
@@ -535,7 +508,6 @@ import SolidarityCard from "../components/SolidarityCard.astro";
     outline-offset: 2px;
   }
 
-  /* Mobile styles */
   @media (max-width: 768px) {
     .bookmark-toggle {
       display: flex;
@@ -570,7 +542,6 @@ import SolidarityCard from "../components/SolidarityCard.astro";
     }
   }
 
-  /* Desktop styles */
   @media (min-width: 769px) {
     .bookmark-toggle {
       display: none;

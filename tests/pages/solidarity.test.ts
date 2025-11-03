@@ -172,7 +172,7 @@ describe("solidarity.astro", () => {
     });
 
     it("includes interactive JavaScript for bookmark functionality", () => {
-      expect(pageContent).toContain("<script>");
+      expect(pageContent).toContain("<script is:inline>");
       expect(pageContent).toContain(
         'document.addEventListener("DOMContentLoaded"'
       );
@@ -181,7 +181,7 @@ describe("solidarity.astro", () => {
       );
       expect(pageContent).toContain('document.querySelector(".bookmark-list")');
       expect(pageContent).toContain("aria-expanded");
-      expect(pageContent).toContain('classList.add("show")');
+      expect(pageContent).toContain('classList.toggle("show")');
       expect(pageContent).toContain('classList.remove("show")');
     });
 
