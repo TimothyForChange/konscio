@@ -23,7 +23,7 @@ This is an Astro-powered blog focused on eco-socialist analysis and decolonial t
 - **Layout hierarchy**: `Layout.astro` → `Header.astro` + `Sidebar.astro` + `Footer.astro`
 - **Props interfaces**: Every component exports TypeScript interfaces (see `Layout.astro` Props pattern)
 - **Scoped CSS**: Components use Astro's scoped styling with CSS variables from `src/styles/variables.css`
-- **Self-hosted fonts**: Via @fontsource-variable packages, no external font requests
+- **Self-hosted fonts**: Via fontsource-variable packages, no external font requests
 
 ### Development Workflows
 
