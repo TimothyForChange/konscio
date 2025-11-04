@@ -7,6 +7,7 @@ import {
   extractHeadings,
   filterHeadingsForTOC,
 } from "../../utils/table-of-contents";
+import { categoryPath } from "../../utils/url";
 
 export async function getStaticPaths() {
   const mdPostsGlob = import.meta.glob("../../content/blog/*.md", {
@@ -85,7 +86,7 @@ const dateModified = frontmatter.dateModified
             <div class="post-categories">
               {frontmatter.categories.map((category: string) => (
                 <a
-                  href={`${base}categories/${category.toLowerCase()}`}
+                  href={categoryPath(category)}
                   data-astro-prefetch
                   class="category-tag"
                 >

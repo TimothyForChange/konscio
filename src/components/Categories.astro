@@ -1,5 +1,6 @@
 ---
 import { config } from "../config";
+import { categoryPath } from "../utils/url";
 
 const base = config.baseUrl;
 
@@ -27,7 +28,7 @@ const categories = [
         {categories.map((category) => (
           <li class="category-item">
             <a
-              href={`${base}/categories/${category.toLowerCase()}`}
+              href={categoryPath(category)}
               data-astro-prefetch
               class="category-link"
             >

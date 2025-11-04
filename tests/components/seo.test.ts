@@ -91,7 +91,7 @@ describe("SEO.astro", () => {
     );
     expect(componentContent).toContain('property="og:logo"');
     expect(componentContent).toContain(
-      'content={new URL("/logo.webp", Astro.site).toString()}'
+      'content={new URL("/site-title.svg", Astro.site).toString()}'
     );
     expect(componentContent).toContain(
       '<meta property="og:site_name" content={config.title} />'
