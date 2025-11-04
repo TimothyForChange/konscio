@@ -6,6 +6,52 @@ describe("solidarity.astro", () => {
   const pagePath = join(process.cwd(), "src/pages/solidarity.astro");
   const pageContent = readFileSync(pagePath, "utf-8");
 
+  it("imports required components", () => {
+    expect(pageContent).toContain(
+      'import Layout from "../components/Layout.astro";'
+    );
+    expect(pageContent).toContain(
+      'import SolidarityCard from "../components/SolidarityCard.astro";'
+    );
+    expect(pageContent).toContain(
+      'import BookmarkNav from "../components/BookmarkNav.astro";'
+    );
+  });
+
+  it("defines sections data structure", () => {
+    expect(pageContent).toContain("const sections = [");
+    expect(pageContent).toContain('id: "south-africa-and-the-continent"');
+    expect(pageContent).toContain('label: "South Africa and the Continent"');
+    expect(pageContent).toContain(
+      'id: "global-south-solidarity-and-anti-imperialism"'
+    );
+    expect(pageContent).toContain(
+      'label: "Global South Solidarity and Anti-Imperialism"'
+    );
+    expect(pageContent).toContain(
+      'id: "peasant-movements-and-food-sovereignty"'
+    );
+    expect(pageContent).toContain(
+      'label: "Peasant Movements and Food Sovereignty"'
+    );
+    expect(pageContent).toContain(
+      'id: "working-class-struggles-and-democratic-control"'
+    );
+    expect(pageContent).toContain(
+      'label: "Working Class Struggles and Democratic Control"'
+    );
+    expect(pageContent).toContain(
+      'id: "community-organising-and-solidarity-economy"'
+    );
+    expect(pageContent).toContain(
+      'label: "Community Organising and Solidarity Economy"'
+    );
+    expect(pageContent).toContain('id: "indigenous-resistance-and-land-back"');
+    expect(pageContent).toContain(
+      'label: "Indigenous Resistance and Land Back"'
+    );
+  });
+
   it("uses Layout component with proper props", () => {
     expect(pageContent).toContain(
       '<Layout\n  title="Solidarity"\n  description="Ecosocialist and allied movements fighting for climate justice, workers\' power, decolonial liberation, and solidarity across the Global South."\n  showSidebar={false}'
@@ -18,18 +64,10 @@ describe("solidarity.astro", () => {
     expect(pageContent).toContain("solidarity-intro");
   });
 
-  it("contains category navigation with anchors", () => {
-    const anchors = [
-      "#south-africa-and-the-continent",
-      "#global-south-solidarity-and-anti-imperialism",
-      "#peasant-movements-and-food-sovereignty",
-      "#working-class-struggles-and-democratic-control",
-      "#community-organising-and-solidarity-economy",
-      "#indigenous-resistance-and-land-back",
-    ];
-    anchors.forEach((anchor) => {
-      expect(pageContent).toContain(`href="${anchor}"`);
-    });
+  it("uses BookmarkNav component with proper props", () => {
+    expect(pageContent).toContain("<BookmarkNav");
+    expect(pageContent).toContain("sections={sections}");
+    expect(pageContent).toContain('ariaLabel="Solidarity category navigation"');
   });
 
   it("lists key solidarity cards (titles)", () => {
@@ -69,12 +107,6 @@ describe("solidarity.astro", () => {
       pageContent.match(/class="category-title"/g) || []
     ).length;
     expect(categoryHeadings).toBe(6);
-  });
-
-  it("has navigation element with proper aria-label", () => {
-    expect(pageContent).toContain(
-      '<nav class="solidarity-nav" aria-label="Solidarity category navigation">'
-    );
   });
 
   it("defines all category section IDs", () => {
@@ -134,69 +166,7 @@ describe("solidarity.astro", () => {
     expect(unique.size).toBe(titles.length);
   });
 
-  describe("bookmark navigation", () => {
-    it("has bookmark container with proper structure", () => {
-      expect(pageContent).toContain('<div class="bookmark-container">');
-      expect(pageContent).toContain(
-        '<button\n            class="bookmark-toggle"'
-      );
-      expect(pageContent).toContain(
-        '<ul class="bookmark-list" id="bookmark-list">'
-      );
-    });
-
-    it("bookmark toggle has proper accessibility attributes", () => {
-      expect(pageContent).toContain('aria-expanded="false"');
-      expect(pageContent).toContain('aria-controls="bookmark-list"');
-      expect(pageContent).toContain(
-        '<span class="bookmark-text">Jump to Section</span>'
-      );
-      expect(pageContent).toContain(
-        '<span class="bookmark-icon" aria-hidden="true">↓</span>'
-      );
-    });
-
-    it("bookmark list contains all category links", () => {
-      const bookmarkLinks = [
-        'href="#south-africa-and-the-continent"',
-        'href="#global-south-solidarity-and-anti-imperialism"',
-        'href="#peasant-movements-and-food-sovereignty"',
-        'href="#working-class-struggles-and-democratic-control"',
-        'href="#community-organising-and-solidarity-economy"',
-        'href="#indigenous-resistance-and-land-back"',
-      ];
-
-      bookmarkLinks.forEach((link) => {
-        expect(pageContent).toContain(link);
-      });
-    });
-
-    it("includes interactive JavaScript for bookmark functionality", () => {
-      expect(pageContent).toContain("<script is:inline>");
-      expect(pageContent).toContain(
-        'document.addEventListener("DOMContentLoaded"'
-      );
-      expect(pageContent).toContain(
-        'document.querySelector(".bookmark-toggle")'
-      );
-      expect(pageContent).toContain('document.querySelector(".bookmark-list")');
-      expect(pageContent).toContain("aria-expanded");
-      expect(pageContent).toContain('classList.toggle("show")');
-      expect(pageContent).toContain('classList.remove("show")');
-    });
-
-    it("has responsive CSS for mobile and desktop", () => {
-      expect(pageContent).toContain("@media (max-width: 768px)");
-      expect(pageContent).toContain("@media (min-width: 769px)");
-      expect(pageContent).toContain(".bookmark-toggle");
-      expect(pageContent).toContain(".bookmark-list");
-      expect(pageContent).toContain(".bookmark-container");
-    });
-
-    it("includes smooth scrolling behavior", () => {
-      expect(pageContent).toContain(
-        "html {\n    scroll-behavior: smooth;\n  }"
-      );
-    });
+  it("includes smooth scrolling behavior", () => {
+    expect(pageContent).toContain("html {\n    scroll-behavior: smooth;\n  }");
   });
 });

@@ -1,0 +1,202 @@
+---
+interface Section {
+  id: string;
+  label: string;
+}
+
+interface Props {
+  sections: Section[];
+  ariaLabel?: string;
+}
+
+const { sections, ariaLabel = "Category navigation" } = Astro.props;
+---
+
+<nav class="solidarity-nav" aria-label={ariaLabel}>
+  <div class="bookmark-container">
+    <button
+      class="bookmark-toggle"
+      aria-expanded="false"
+      aria-controls="bookmark-list"
+    >
+      <span class="bookmark-text">Jump to Section</span>
+      <span class="bookmark-icon" aria-hidden="true">↓</span>
+    </button>
+    <ul class="bookmark-list" id="bookmark-list">
+      {
+        sections.map((section) => (
+          <li>
+            <a href={`#${section.id}`}>{section.label}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</nav>
+
+<script is:inline>
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggle = document.querySelector(".bookmark-toggle");
+    const list = document.querySelector(".bookmark-list");
+
+    if (toggle && list) {
+      const handleToggle = () => {
+        const isExpanded = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!isExpanded));
+        list.classList.toggle("show");
+      };
+
+      toggle.addEventListener("click", handleToggle);
+
+      const links = list.querySelectorAll("a");
+      links.forEach((link) => {
+        link.addEventListener("click", () => {
+          toggle.setAttribute("aria-expanded", "false");
+          list.classList.remove("show");
+        });
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!toggle.contains(e.target) && !list.contains(e.target)) {
+          toggle.setAttribute("aria-expanded", "false");
+          list.classList.remove("show");
+        }
+      });
+    }
+  });
+</script>
+
+<style>
+  .solidarity-nav {
+    margin: calc(var(--grid-unit) * 4) 0 calc(var(--grid-unit) * 4);
+  }
+
+  .bookmark-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .bookmark-toggle {
+    display: none;
+    width: 100%;
+    padding: calc(var(--grid-unit) * 2) calc(var(--grid-unit) * 3);
+    background: var(--color-surface);
+    border: 2px solid var(--color-border);
+    border-radius: 8px;
+    color: var(--color-text-primary);
+    font-family: var(--font-heading-secondary);
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .bookmark-toggle:hover,
+  .bookmark-toggle:focus {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+
+  .bookmark-toggle:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  .bookmark-icon {
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
+  }
+
+  .bookmark-toggle[aria-expanded="true"] .bookmark-icon {
+    transform: rotate(180deg);
+  }
+
+  .bookmark-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: calc(var(--grid-unit) * 2);
+  }
+
+  .bookmark-list a {
+    display: inline-block;
+    padding: calc(var(--grid-unit) * 1) calc(var(--grid-unit) * 2);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.04em;
+    color: var(--color-text-secondary);
+    transition: all 0.2s ease;
+  }
+
+  .bookmark-list a:hover,
+  .bookmark-list a:focus {
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+    transform: translateY(-2px);
+  }
+
+  .bookmark-list a:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 768px) {
+    .bookmark-toggle {
+      display: flex;
+    }
+
+    .bookmark-list {
+      display: none;
+      flex-direction: column;
+      gap: calc(var(--grid-unit) * 1);
+      margin-top: calc(var(--grid-unit) * 2);
+      padding: calc(var(--grid-unit) * 2);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .bookmark-list.show {
+      display: flex;
+    }
+
+    .bookmark-list a {
+      width: 100%;
+      text-align: left;
+      padding: calc(var(--grid-unit) * 1.5) calc(var(--grid-unit) * 2);
+      font-size: 0.9rem;
+    }
+
+    .bookmark-list a:hover,
+    .bookmark-list a:focus {
+      transform: translateX(4px);
+    }
+  }
+
+  @media (min-width: 769px) {
+    .bookmark-toggle {
+      display: none;
+    }
+
+    .bookmark-list {
+      display: flex !important;
+    }
+  }
+</style>
