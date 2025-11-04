@@ -44,10 +44,7 @@ Always run: `npm run lint && npm run check && npm run test`
 
 #### Testing Strategy
 
-- **Component tests**: File-based testing in `tests/components/` - validates imports, interfaces, and structure
 - **Utility tests**: `tests/utils/` for helper functions like `slugify.ts`
-- **Integration tests**: End-to-end page functionality in `tests/integration/`
-- **Accessibility tests**: ARIA and semantic HTML validation in `tests/accessibility/`
 
 ### Content Creation Workflow
 
@@ -105,6 +102,5 @@ Always run: `npm run lint && npm run check && npm run test`
 
 - Follow `Layout.astro` pattern: TypeScript interface, scoped styles, semantic HTML
 - Import in pages or other components as needed
-- Test component interfaces in `tests/components/`
 
 Remember: This is a political platform with specific editorial focus - maintain the eco-socialist, decolonial perspective in all content contributions.
