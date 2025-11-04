@@ -74,9 +74,9 @@ describe("solidarity.astro", () => {
     const titles = [
       "African Climate Alliance",
       "Community Movement Builders",
-      "Philly Thrive",
       "La Via Campesina",
       "Cooperation Jackson",
+      "Abahlali baseMjondolo",
     ];
     titles.forEach((title) => {
       expect(pageContent).toContain(`title="${title}"`);
