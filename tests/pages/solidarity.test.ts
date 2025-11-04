@@ -72,11 +72,11 @@ describe("solidarity.astro", () => {
 
   it("lists key solidarity cards (titles)", () => {
     const titles = [
-      "African Climate Alliance",
-      "Community Movement Builders",
+      "Abahlali baseMjondolo",
       "La Via Campesina",
       "Cooperation Jackson",
-      "Abahlali baseMjondolo",
+      "Community Movement Builders",
+      "Indigenous Environmental Network (IEN)",
     ];
     titles.forEach((title) => {
       expect(pageContent).toContain(`title="${title}"`);
