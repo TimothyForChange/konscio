@@ -2,8 +2,8 @@
 title: "Why This Blog Exists: For People and Planet"
 author: "Timothy Brits"
 datePublished: 2025-10-23
-description: "Introducing Timothy for Change, an eco-socialist and decolonial platform from South Africa, dedicated to exposing structural violence and imagining a just future."
-excerpt: "Capitalism, colonialism, and climate collapse represent one system of domination expressed through different forms, not separate crises. This opening statement defines the mission and values of Timothy for Change: an eco-socialist, decolonial platform from South Africa for people and planet."
+description: "Introducing The Red Soil, an eco-socialist and decolonial platform from South Africa, dedicated to exposing structural violence and imagining a just future."
+excerpt: "Capitalism, colonialism, and climate collapse represent one system of domination expressed through different forms, not separate crises. This opening statement defines the mission and values of The Red Soil: an eco-socialist, decolonial platform from South Africa for people and planet."
 image: /images/manifesto.jpg
 categories: ["Editorial"]
 tags: ["Eco-socialism", "Decolonisation", "Global South", "Climate Justice"]
@@ -14,7 +14,7 @@ tags: ["Eco-socialism", "Decolonisation", "Global South", "Climate Justice"]
 Capitalism, colonialism, and climate collapse represent one system of domination expressed through different forms, not separate crises.
 The same logic that enslaved and extracted from the Global South now drives ecological collapse across the planet.
 
-**Timothy for Change** exists to confront that system — not as neutral commentary, but as _critical resistance._
+**The Red Soil** exists to confront that system — not as neutral commentary, but as _critical resistance._
 
 Written from South Africa, in solidarity with all who struggle against empire, exploitation, and environmental destruction, this platform stands in the long tradition of liberation thought: the belief that the fight for human freedom and the fight for ecological survival are one and the same.
 
@@ -36,7 +36,7 @@ We live in a time of planetary emergency: ecological, economic, and moral.
 The forces that profit from destruction will not dismantle themselves.
 
 The task ahead is not merely to survive, but to _build an alternative_ rooted in justice, cooperation, and care for the Earth.
-**Timothy for Change** is a small contribution to that struggle — a space for radical thought, critical analysis, and solidarity across borders.
+**The Red Soil** is a small contribution to that struggle — a space for radical thought, critical analysis, and solidarity across borders.
 
 ---
 
@@ -68,4 +68,4 @@ It is a call to action: to think, write, and act for life.
 > "What matters is not to know the world but to change it."
 > — Frantz Fanon, Black Skin, White Masks (1952)
 
-Welcome to **Timothy for Change**, for people and planet.
+Welcome to **The Red Soil**, for people and planet.

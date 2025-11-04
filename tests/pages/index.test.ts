@@ -36,16 +36,14 @@ describe("index.astro", () => {
   it("uses Layout component with proper props", () => {
     expect(pageContent).toContain("<Layout");
     expect(pageContent).toContain(
-      'title="Timothy for Change: For People And Planet"'
+      'title="The Red Soil: For People And Planet"'
     );
     expect(pageContent).toContain("showSidebar={false}");
   });
 
   it("has hero section structure", () => {
     expect(pageContent).toContain('<section class="hero">');
-    expect(pageContent).toContain(
-      '<h1 class="hero-title">Timothy for Change</h1>'
-    );
+    expect(pageContent).toContain('<h1 class="hero-title">The Red Soil</h1>');
     expect(pageContent).toContain(
       '<a href="#posts" class="btn btn-primary">View Posts</a>'
     );

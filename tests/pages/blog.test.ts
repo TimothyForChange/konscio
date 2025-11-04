@@ -36,9 +36,9 @@ describe("blog.astro", () => {
 
   it("uses Layout component with proper props", () => {
     expect(pageContent).toContain("<Layout");
-    expect(pageContent).toContain('title="Blog | Timothy for Change"');
+    expect(pageContent).toContain('title="Blog | The Red Soil"');
     expect(pageContent).toContain(
-      'description="All blog posts from Timothy for Change"'
+      'description="All blog posts from The Red Soil"'
     );
   });
 

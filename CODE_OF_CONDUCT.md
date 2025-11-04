@@ -56,7 +56,7 @@ If you experience or witness unacceptable behaviour, or have any other concerns:
 ### 📧 How to Report
 
 - **GitHub Issues**: Create an issue with details
-- **Email**: Send reports to contact@timothyforchange.co.za
+- **Email**: Send reports to contact@theredsoil.co.za
 - **Anonymous**: Anonymous reporting is accepted
 
 All reports will be handled with discretion and confidentiality.

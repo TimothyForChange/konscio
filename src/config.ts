@@ -21,7 +21,7 @@ export interface SiteConfig {
 }
 
 export const config: SiteConfig = {
-  title: "Timothy for Change",
+  title: "The Red Soil",
   tagline:
     "For people and planet: eco-socialist analysis from Africa and the Global South",
   description:
@@ -32,12 +32,12 @@ export const config: SiteConfig = {
     avatar: avatarImg.src,
   },
   social: {
-    github: "https://github.com/timothyforchange/konscio",
-    threads: "https://threads.com/@timothyforchange",
-    instagram: "https://instagram.com/timothyforchange",
-    email: "contact@timothyforchange.co.za",
-    kofi: "https://ko-fi.com/timothyforchange",
+    github: "https://github.com/CodeAndHammer/konscio",
+    threads: "https://threads.com/@codeandhammer",
+    instagram: "https://instagram.com/codeandhammer",
+    email: "contact@theredsoil.co.za",
+    kofi: "https://ko-fi.com/theredsoil",
   },
-  siteUrl: "https://timothyforchange.co.za",
+  siteUrl: "https://theredsoil.co.za",
   baseUrl: "/",
 };

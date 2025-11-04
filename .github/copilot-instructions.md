@@ -1,4 +1,4 @@
-# Copilot Instructions for Timothy for Change (Konscio)
+# Copilot Instructions for The Red Soil (Konscio)
 
 ## Project Overview
 

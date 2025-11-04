@@ -40,7 +40,7 @@ describe("Footer.astro", () => {
     expect(componentContent).toContain('<p class="source-code">');
     expect(componentContent).toContain("Source Code on GitHub");
     expect(componentContent).toContain(
-      "https://github.com/timothyforchange/konscio"
+      "https://github.com/CodeAndHammer/konscio"
     );
   });
 

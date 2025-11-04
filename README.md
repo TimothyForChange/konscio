@@ -1,4 +1,4 @@
-# 🌍 Timothy for Change
+# 🌍 The Red Soil
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/medium.svg)](https://astro.build)
 
@@ -59,7 +59,7 @@ An Astro-powered blog exploring capitalism, colonialism, and climate collapse th
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/timothyforchange/konscio.git
+git clone https://github.com/theredsoil/konscio.git
 cd konscio
 ```
 

@@ -1,13 +1,13 @@
-# 🤝 Contributing to Timothy for Change
+# 🤝 Contributing to The Red Soil
 
-Thank you for your interest in contributing to Timothy for Change! 🌍 This document provides guidelines and information for contributors.
+Thank you for your interest in contributing to The Red Soil! 🌍 This document provides guidelines and information for contributors.
 
 ## 📨 How to Submit Content
 
 You can contribute blog posts or articles in two ways:
 
 - **Fork and Pull Request:** Fork the repository, add your content, and submit a Pull Request (see instructions below).
-- **Email Submission:** Email your content directly to the maintainers at contact@timothyforchange.co.za for review and publication.
+- **Email Submission:** Email your content directly to the maintainers at contact@theredsoil.co.za for review and publication.
 
 Both methods are welcome. All content will be reviewed for alignment with the platform's mission and published with clear author attribution.
 
@@ -116,7 +116,7 @@ You may submit blog posts or articles by either:
   6.  Submit your content via Pull Request
 
 - **Emailing your content** (if you prefer not to use GitHub):
-  - Send your article and any images to contact@timothyforchange.co.za
+  - Send your article and any images to contact@theredsoil.co.za
   - Please include the required frontmatter information in your email
 
 ### Content Review Process
@@ -131,10 +131,10 @@ This project follows a code of conduct to ensure a welcoming environment for all
 
 - **Issues**: Use GitHub Issues for bugs, feature requests, and general questions
 - **Discussions**: Use GitHub Discussions for longer-form conversations
-- **Email**: Contact the maintainers at contact@timothyforchange.co.za
+- **Email**: Contact the maintainers at contact@theredsoil.co.za
 
 ## 📄 License
 
 By contributing to this project, you agree that your contributions will be licensed under the same license as the project (CC0 1.0 Universal).
 
-Thank you for contributing to Timothy for Change! 🌟
+Thank you for contributing to The Red Soil! 🌟

@@ -1,6 +1,6 @@
 # ✊ Editorial & Style Framework
 
-## For the Series and Platform: **Timothy for Change**
+## For the Series and Platform: **The Red Soil**
 
 _A decolonial, eco-socialist framework offering guidelines and suggestions for writing and publishing analytical, moral, and political essays._
 

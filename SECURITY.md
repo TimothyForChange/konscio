@@ -2,7 +2,7 @@
 
 ## 🔒 Security Overview
 
-At Timothy for Change, we take security seriously. This document outlines our security policy and procedures for reporting and handling security vulnerabilities.
+At The Red Soil, we take security seriously. This document outlines our security policy and procedures for reporting and handling security vulnerabilities.
 
 ## 🚨 Reporting Security Vulnerabilities
 
@@ -10,7 +10,7 @@ If you discover a security vulnerability in this project, please help us by repo
 
 ### 📧 How to Report
 
-- **Email**: Send security reports to contact@timothyforchange.co.za
+- **Email**: Send security reports to contact@theredsoil.co.za
 - **Do NOT** create public GitHub issues for security vulnerabilities
 - **Do NOT** disclose vulnerabilities publicly until they have been addressed
 
@@ -71,7 +71,7 @@ We appreciate the security research community for helping keep our project and u
 
 ## 📞 Contact
 
-For security reports: contact@timothyforchange.co.za
+For security reports: contact@theredsoil.co.za
 
 ---
 

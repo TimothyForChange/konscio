@@ -1,4 +1,4 @@
-# Qwen Instructions for Timothy for Change (Konscio)
+# Qwen Instructions for The Red Soil (Konscio)
 
 ## Project Overview
 

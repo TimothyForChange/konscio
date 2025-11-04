@@ -1,13 +1,13 @@
 {
   "name": "konscio",
   "version": "1.0.0",
-  "homepage": "https://github.com/timothyforchange/konscio",
+  "homepage": "https://github.com/theredsoil/konscio",
   "bugs": {
-    "url": "https://github.com/timothyforchange/konscio/issues"
+    "url": "https://github.com/theredsoil/konscio/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timothyforchange/konscio.git"
+    "url": "git+https://github.com/theredsoil/konscio.git"
   },
   "license": "MIT",
   "type": "module",

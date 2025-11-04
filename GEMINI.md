@@ -1,4 +1,4 @@
-# Gemini Instructions for Timothy for Change (Konscio)
+# Gemini Instructions for The Red Soil (Konscio)
 
 ## Project Overview
 
