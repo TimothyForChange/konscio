@@ -1,6 +1,6 @@
 ---
+import { Coffee, Mail } from "@lucide/astro";
 import { config } from "../config";
-import Icon from "./Icon.astro";
 
 interface Props {
   size?: number;
@@ -11,51 +11,6 @@ const { size = 20 } = Astro.props;
 
 <div class="social-links">
   {
-    config.social.github && (
-      <a
-        href={config.social.github}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="GitHub"
-        title="GitHub"
-        class="social-link"
-      >
-        <Icon name="github-fill" size={size} class="social-icon" />
-      </a>
-    )
-  }
-
-  {
-    config.social.instagram && (
-      <a
-        href={config.social.instagram}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Instagram"
-        title="Instagram"
-        class="social-link"
-      >
-        <Icon name="instagram-fill" size={size} class="social-icon" />
-      </a>
-    )
-  }
-
-  {
-    config.social.threads && (
-      <a
-        href={config.social.threads}
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Threads"
-        title="Threads"
-        class="social-link"
-      >
-        <Icon name="threads-fill" size={size} class="social-icon" />
-      </a>
-    )
-  }
-
-  {
     config.social.email && (
       <a
         href={`mailto:${config.social.email}`}
@@ -63,7 +18,7 @@ const { size = 20 } = Astro.props;
         title="Email"
         class="social-link"
       >
-        <Icon name="mail-fill" size={size} class="social-icon" />
+        <Mail size={size} class="social-icon" />
       </a>
     )
   }
@@ -78,7 +33,7 @@ const { size = 20 } = Astro.props;
         title="Ko-fi"
         class="social-link"
       >
-        <Icon name="cup-fill" size={size} class="social-icon" />
+        <Coffee size={size} class="social-icon" />
       </a>
     )
   }
@@ -110,7 +65,7 @@ const { size = 20 } = Astro.props;
     text-decoration: none;
   }
 
-  .social-link svg {
+  .social-icon {
     width: 1em;
     height: 1em;
   }

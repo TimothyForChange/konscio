@@ -2,7 +2,9 @@ import rss from "@astrojs/rss";
 import { config } from "../config";
 
 export async function GET(context) {
-  const posts = import.meta.glob("../content/blog/*.{md,mdx}", { eager: true });
+  const posts = import.meta.glob("../content/dispatches/*.{md,mdx}", {
+    eager: true,
+  });
 
   const items = Object.entries(posts)
     .filter(([_path, post]) => post && post.frontmatter)
@@ -16,7 +18,7 @@ export async function GET(context) {
         pubDate: post.frontmatter.datePublished,
         description:
           post.frontmatter.excerpt || post.frontmatter.description || "",
-        link: `/blog/${slug}/`,
+        link: `/dispatches/${slug}/`,
       };
     })
     .filter((item) => item.title !== "Untitled" || item.description)

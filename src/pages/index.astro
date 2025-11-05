@@ -2,8 +2,12 @@
 import Layout from "../components/Layout.astro";
 import { slugifyPath } from "../utils/slugify";
 
-const mdPostsGlob = import.meta.glob("../content/blog/*.md", { eager: true });
-const mdxPostsGlob = import.meta.glob("../content/blog/*.mdx", { eager: true });
+const mdPostsGlob = import.meta.glob("../content/dispatches/*.md", {
+  eager: true,
+});
+const mdxPostsGlob = import.meta.glob("../content/dispatches/*.mdx", {
+  eager: true,
+});
 
 const allPosts = [
   ...Object.entries(mdPostsGlob).map(([path, post]) =>
@@ -47,10 +51,10 @@ const sortedPosts = allPosts
       </div>
     </section>
 
-    <section class="blog-section" id="posts">
+    <section class="dispatches-section" id="posts">
       <div class="container">
-        <h2 class="section-title">Blog Posts</h2>
-        <p class="blog-description">
+        <h2 class="section-title">Latest Dispatches</h2>
+        <p class="dispatches-description">
           Critical eco-socialist and decolonial analysis from Africa and the
           Global South — exposing the systems that exploit both people and the
           planet.
@@ -58,18 +62,18 @@ const sortedPosts = allPosts
 
         {
           sortedPosts.length > 0 && (
-            <div class="blog-posts">
+            <div class="dispatches-posts">
               {sortedPosts.map((post) => (
-                <article class="blog-post-card">
-                  <h3 class="blog-post-title">
-                    <a href={`/blog/${post.slug}`} data-astro-prefetch>
+                <article class="dispatches-post-card">
+                  <h3 class="dispatches-post-title">
+                    <a href={`/dispatches/${post.slug}`} data-astro-prefetch>
                       {post.frontmatter.title}
                     </a>
                   </h3>
 
-                  <div class="blog-post-meta">
+                  <div class="dispatches-post-meta">
                     <time
-                      class="blog-post-date"
+                      class="dispatches-post-date"
                       datetime={post.frontmatter.datePublished}
                     >
                       {new Date(
@@ -81,19 +85,21 @@ const sortedPosts = allPosts
                       })}
                     </time>
 
-                    <span class="blog-post-reading-time">
+                    <span class="dispatches-post-reading-time">
                       {post.frontmatter.minutesRead}
                     </span>
                   </div>
 
                   {post.frontmatter.excerpt && (
-                    <p class="blog-post-excerpt">{post.frontmatter.excerpt}</p>
+                    <p class="dispatches-post-excerpt">
+                      {post.frontmatter.excerpt}
+                    </p>
                   )}
 
                   {post.frontmatter.categories && (
-                    <div class="blog-post-categories">
+                    <div class="dispatches-post-categories">
                       {post.frontmatter.categories.map((category: string) => (
-                        <span class="blog-category">{category}</span>
+                        <span class="dispatches-category">{category}</span>
                       ))}
                     </div>
                   )}
@@ -103,11 +109,11 @@ const sortedPosts = allPosts
           )
         }
 
-        <div class="blog-actions">
+        <div class="dispatches-actions">
           <a
-            href={`${import.meta.env.BASE_URL}blog`}
+            href={`${import.meta.env.BASE_URL}dispatches`}
             data-astro-prefetch
-            class="btn btn-primary">View Blog</a
+            class="btn btn-primary">View Dispatches</a
           >
         </div>
       </div>
@@ -335,11 +341,11 @@ const sortedPosts = allPosts
     margin: 0;
   }
 
-  .blog-section {
+  .dispatches-section {
     padding: calc(var(--grid-unit) * 8) 0;
   }
 
-  .blog-description {
+  .dispatches-description {
     text-align: center;
     font-size: 1.125rem;
     line-height: 1.6;
@@ -350,13 +356,13 @@ const sortedPosts = allPosts
     margin-right: auto;
   }
 
-  .blog-posts {
+  .dispatches-posts {
     display: grid;
     gap: calc(var(--grid-unit) * 4);
     margin-bottom: calc(var(--grid-unit) * 6);
   }
 
-  .blog-post-card {
+  .dispatches-post-card {
     background-color: var(--color-surface);
     border: 1px solid var(--color-border);
     border-radius: 8px;
@@ -366,29 +372,29 @@ const sortedPosts = allPosts
       border-color 0.2s ease;
   }
 
-  .blog-post-card:hover {
+  .dispatches-post-card:hover {
     transform: translateY(-2px);
     border-color: var(--color-accent);
   }
 
-  .blog-post-title {
+  .dispatches-post-title {
     font-family: var(--font-heading-secondary);
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: calc(var(--grid-unit));
   }
 
-  .blog-post-title a {
+  .dispatches-post-title a {
     color: var(--color-text-primary);
     text-decoration: none;
   }
 
-  .blog-post-title a:hover,
-  .blog-post-title a:focus {
+  .dispatches-post-title a:hover,
+  .dispatches-post-title a:focus {
     color: var(--color-accent);
   }
 
-  .blog-post-meta {
+  .dispatches-post-meta {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -396,18 +402,18 @@ const sortedPosts = allPosts
     margin-bottom: calc(var(--grid-unit) * 1.5);
   }
 
-  .blog-post-meta > * {
+  .dispatches-post-meta > * {
     display: inline-flex;
     align-items: center;
     gap: calc(var(--grid-unit) / 2);
   }
 
-  .blog-post-date,
-  .blog-post-reading-time {
+  .dispatches-post-date,
+  .dispatches-post-reading-time {
     font-variant-numeric: tabular-nums;
   }
 
-  .blog-post-date {
+  .dispatches-post-date {
     font-family: var(--font-mono);
     font-size: 0.85rem;
     color: var(--color-text-muted);
@@ -415,7 +421,7 @@ const sortedPosts = allPosts
     letter-spacing: 0.05em;
   }
 
-  .blog-post-reading-time {
+  .dispatches-post-reading-time {
     font-family: var(--font-mono);
     font-size: 0.85rem;
     color: var(--color-text-muted);
@@ -423,19 +429,19 @@ const sortedPosts = allPosts
     letter-spacing: 0.05em;
   }
 
-  .blog-post-excerpt {
+  .dispatches-post-excerpt {
     color: var(--color-text-secondary);
     line-height: 1.6;
     margin-bottom: calc(var(--grid-unit) * 2);
   }
 
-  .blog-post-categories {
+  .dispatches-post-categories {
     display: flex;
     flex-wrap: wrap;
     gap: calc(var(--grid-unit) / 2);
   }
 
-  .blog-category {
+  .dispatches-category {
     background-color: var(--color-text-primary);
     color: var(--color-background);
     padding: calc(var(--grid-unit) / 4) calc(var(--grid-unit) / 2);
@@ -447,7 +453,7 @@ const sortedPosts = allPosts
     border: 1px solid var(--color-text-primary);
   }
 
-  .blog-actions {
+  .dispatches-actions {
     text-align: center;
   }
 

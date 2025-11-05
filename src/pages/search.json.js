@@ -2,7 +2,7 @@ import { getCollection } from "astro:content";
 
 export async function GET() {
   try {
-    const posts = await getCollection("blog");
+    const posts = await getCollection("dispatches");
 
     const processedPosts = posts
       .filter((post) => post && post.data)
@@ -22,7 +22,7 @@ export async function GET() {
 
         return {
           title: post.data.title || "Untitled",
-          url: "/blog/" + post.slug,
+          url: "/dispatches/" + post.slug,
           datePublished,
           excerpt: post.data.excerpt || post.data.description || "",
           categories: Array.isArray(post.data.categories)

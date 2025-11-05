@@ -4,7 +4,7 @@
 
 For people and planet: eco-socialist analysis from Africa and the Global South.
 
-An Astro-powered blog exploring capitalism, colonialism, and climate collapse through a decolonial, eco-socialist lens. Written from South Africa, this site examines how liberation is impossible without dismantling the systems that exploit both people and the planet — and why a decolonised, eco-socialist future is not optional, but necessary.
+An Astro-powered publication exploring capitalism, colonialism, and climate collapse through a decolonial, eco-socialist lens. Written from South Africa, this site examines how liberation is impossible without dismantling the systems that exploit both people and the planet — and why a decolonised, eco-socialist future is not optional, but necessary.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T31HRCAR)
 
@@ -44,7 +44,7 @@ An Astro-powered blog exploring capitalism, colonialism, and climate collapse th
 - **Language:** TypeScript
 - **Styling:** Scoped CSS with CSS Variables and Dark Mode support
 - **Fonts:** Self-hosted via @fontsource (Oswald, Work Sans, JetBrains Mono)
-- **Icons:** Remixicon icons
+- **Icons:** Lucide icons
 - **Build Tools:** Astro Compressor, PurgeCSS, Playform Inline, Fontaine for optimisation
 
 ## ⚡ Quick Start
@@ -83,9 +83,9 @@ All site configuration is centralised in `src/config.ts`.
 
 ## 📝 Writing Content
 
-### Blog Posts
+### Dispatches
 
-Create blog posts as Markdown or MDX files in `src/content/blog/`. MDX files support embedded JSX for rich content:
+Create dispatches as Markdown or MDX files in `src/content/dispatches/`. MDX files support embedded JSX for rich content:
 
 ```markdown
 ---
@@ -100,7 +100,7 @@ image: "/images/your-open-graph-image.jpg"
 ---
 ```
 
-We strongly encourage new blog posts and articles from all authors, especially those written in languages other than English. Original content in any language is welcome and valued. We do not accept translations of existing posts, but we celebrate linguistic diversity and encourage contributors to share perspectives in their own languages.
+We strongly encourage new dispatches and articles from all authors, especially those written in languages other than English. Original content in any language is welcome and valued. We do not accept translations of existing posts, but we celebrate linguistic diversity and encourage contributors to share perspectives in their own languages.
 
 For a full guide to contributing articles—including required frontmatter, image conventions, submission process, and editorial guidelines—please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -154,7 +154,7 @@ We welcome both code and content. Articles should centre eco-socialist, decoloni
 
 Summary:
 
-✓ Add posts in `src/content/blog/` with required frontmatter
+✓ Add posts in `src/content/dispatches/` with required frontmatter
 
 ✓ Use clear English for any new English content
 
@@ -178,7 +178,7 @@ Unless otherwise noted, code is MIT and content is CC0 1.0 Universal by default.
 ## 🙏 Acknowledgments
 
 - Built with [Astro](https://astro.build)
-- Icons by [Remixicon](https://remixicon.com/)
+- Icons by [Lucide](https://lucide.dev/)
 - Fonts by [Fontsource](https://fontsource.org/)
 - Theme based on [Volks-Typo](https://github.com/jdrhyne/volks-typo), created by [jdrhyne](https://github.com/jdrhyne)
 - Inspired by the urgent need for decolonial, eco-socialist transformation

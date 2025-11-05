@@ -57,7 +57,7 @@ Avoid centrist "balance", technocratic distance, academic detachment, and manage
 
 ### Spelling
 
-Use clear, accessible English. Blog posts in other languages are also encouraged.
+Use clear, accessible English. Dispatches in other languages are also encouraged.
 
 ---
 
@@ -194,7 +194,7 @@ Avoid anonymising the powerful; protect the vulnerable. Avoid academic distancin
 ## 13. Source Policy
 
 **Preferred:** UN agencies, investigative NGOs, local movements, peer-reviewed work, and credible journalists from the Global South.
-**Avoid:** Unverified secondary blogs, partisan propaganda, and single-sourced claims.
+**Avoid:** Unverified secondary sources, partisan propaganda, and single-sourced claims.
 **Verification:** Try to cross-check at least two independent sources.
 **Transparency:** Admit uncertainty when data are contested.
 **Archival:** Preserve source copies to prevent link rot.

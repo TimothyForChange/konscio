@@ -10,13 +10,15 @@ tags:
   ["Congo", "Extractivism", "Green Colonialism", "Imperialism", "Global South"]
 ---
 
+# Green Colonialism: The DRC and the Green Transition
+
 The Democratic Republic of Congo is presented to the world as a resource: a seam of minerals waiting for extraction, refinement, and shipment.
 
-In radio spots, corporate reports, and policy papers this is framed as progress: cobalt for batteries, coltan for phones, lithium for storage.
+In radio spots, corporate reports, and policy papers this is framed as progress: cobalt for batteries, coltan for phones, lithium for storage — a curated narrative of salvation through consumption.
 
-But when you look closer, the "green transition" championed by the Global North is simply a new vocabulary for an old practice — extracting wealth from the Global South while leaving devastation in its wake.
+Look closer and the "green transition" championed by the Global North becomes a new vocabulary for an old practice — extracting wealth from the Global South while leaving devastation in its wake.
 
-This extends beyond scarcity of resources. It is a story about **who controls those resources**, who benefits from them, and who pays the social and ecological cost. It is, in short, a story about power.
+This is not a tale of resource scarcity. It is about **who controls the minerals**, who captures the value, and who absorbs the social and ecological cost. It is, in short, a story about power.
 
 ---
 
@@ -24,9 +26,9 @@ This extends beyond scarcity of resources. It is a story about **who controls th
 
 The violent patterns seen in the DRC today are not anomalies that emerged after independence; they are continuities of a long history. The Congo was central to European imperial plunder, a landscape commodified under Leopold II's rule where extraction and brutality were the political economy. That logic did not die with formal empire; it mutated.
 
-> As Adam Hochschild writes in King Leopold's Ghost, the Congo Free State was "not a colony but the world's only private colony — the personal possession of a single individual."
+> As Adam Hochschild writes in King Leopold's Ghost (1998), the Congo Free State was "not a colony but the world's only private colony — the personal possession of a single individual."
 
-Contemporary extraction follows the same blueprint: external demand sets the terms, local governance is weakened or co-opted, and violence — economic, political, and physical — enforces supply. Minerals are turned into global commodities; communities are reduced to labour pools or obstacles to be removed. Language changes, but the operation remains recognisably colonial.
+Contemporary extraction follows the same blueprint: external demand sets the terms, local governance is weakened or co‑opted, and violence — economic, political, and physical — enforces supply. Minerals are turned into global commodities; communities are reduced to labour pools or obstacles to be removed. Language changes, but the operation remains recognisably colonial.
 
 ---
 
@@ -34,10 +36,10 @@ Contemporary extraction follows the same blueprint: external demand sets the ter
 
 The Global North's shift to "green" technologies requires vast quantities of specific minerals. This demand is framed as urgent and moral: save the planet by switching to electric vehicles and renewable systems. But moralising the commodity does not alter the politics of its production. A few structural points to note:
 
-- **Supply chains concentrate value outside the DRC.** The country supplies approximately **70% of global cobalt** production, according to recent industry data, yet less than 5% is refined locally. Raw extraction is low-paid and environmentally destructive, while most value is captured further along the chain — in refining, tech assembly, and corporate branding — largely outside African borders. A tonne of refined cobalt can be worth 20 times more than the raw ore that leaves DRC ports.
-- **Actors of accumulation are multinational.** Mining firms, traders, smelters, and financiers — many headquartered in the Global North or transnational corporate hubs — structure the market and determine prices, labour standards, and practices. Chinese state-owned and private companies now control roughly **80% of DRC cobalt output**, showing how transnational capital continues colonial extraction under new management.
-- **Instability is profitable.** Weak governance, contested territories, and conflict can be exploited to secure concessions, favourable contracts, or control over informal economies. Instability becomes an economic condition, not merely a humanitarian crisis.
-- **Green rhetoric masks continuity.** Calling a mine "critical for the energy transition" sanitises the social and ecological violence it produces and absolves consumers and states in the Global North of responsibility.
+- **Supply chains concentrate value outside the DRC.** The country supplies roughly **70% of global cobalt** production, yet under **5%** is refined locally. Raw extraction is low‑paid and ecologically destructive, while most value is captured further along the chain — refining, component manufacturing, final branding — largely beyond African borders. A tonne of refined cobalt can fetch twenty times the price of the raw ore leaving Congolese ports.
+- **Actors of accumulation are transnational.** Mining firms, traders, smelters and financiers — headquartered in the Global North or Beijing, Dubai and other corporate hubs — structure the market: they set prices and labour standards. Chinese state and private companies now control roughly **80%** of Congolese cobalt output, illustrating how capital continues colonial extraction under new management.
+- **Instability is engineered as a profit condition.** Weak governance and contested territories help secure concessions, favourable contracts and control over informal economies. What is framed as a humanitarian crisis functions as a market strategy.
+- **Green rhetoric masks continuity.** Label a mine "critical for the energy transition" and the social and ecological violence is sanitised; consumers and states in the Global North are absolved of responsibility.
 
 The result is a peculiar inversion: the rhetoric of environmental stewardship facilitates extraction regimes that threaten the very ecosystems and communities supposedly being protected.
 
@@ -49,7 +51,7 @@ Extraction in the DRC is not an abstract policy problem; it is embodied in human
 
 At the same time, the **Congo Basin rainforest** — a vital carbon sink and one of the world's last great biodiversity reserves — faces mounting pressure from industrial encroachment. Forest degradation, soil erosion, and contamination from mining chemicals cause ecological damage that spreads far beyond local communities.
 
-The carbon arithmetic reveals the contradiction: the Congo Basin stores approximately 8 billion tonnes of carbon dioxide equivalent, yet mining for "green" technologies accelerates deforestation and releases stored carbon. Each electric vehicle battery requires roughly 8kg of cobalt, but the full lifecycle — from forest clearing to mine construction to processing — can release more carbon than the battery will save in its lifetime. The Global North's climate "solutions" become the Global South's climate accelerants.
+The carbon arithmetic reveals the contradiction: the Congo Basin stores approximately **8 billion tonnes of CO₂ equivalent**, yet mining for "green" technologies accelerates deforestation and releases stored carbon. Each electric vehicle battery requires roughly **8 kg** of cobalt; its full lifecycle — from forest clearing to mine construction to processing — can emit more carbon early on than the device will offset for several years. The Global North's climate "solutions" become the Global South's climate accelerants.
 
 Ecocide here emerges as a by-product of a model that translates natural commons into private profit, rather than merely collateral damage.
 
@@ -61,9 +63,7 @@ Despite the bleak picture, the story is not only one of victimhood. Congolese wo
 
 **Victories are possible.** In 2019, communities in Lualaba Province successfully challenged Chinese company Sicomines over environmental damage and forced compensation payments. The **Observatoire Congolais des Droits de l'Homme (OCDH)** has documented mining abuses and forced several firms to improve safety conditions. Artisanal miners' cooperatives have secured better prices by organising collectively rather than selling to individual middlemen. In 2023, civil society pressure led to the suspension of several mining licenses pending environmental impact assessments.
 
-These struggles demonstrate that power can be challenged even in the most difficult circumstances. The resistance continues in communities across the DRC.
-
-These struggles show that change is possible when communities organise, document abuse, and demand accountability. International solidarity must centre these struggles rather than speaking for them. Our role — as readers, as activists, as consumers in the Global North — is to shift attention and power toward those who live the consequences and demand alternatives.
+These struggles demonstrate that power can be challenged even in the most difficult circumstances. They show that change is possible when communities organise, document abuse, and demand accountability. International solidarity must centre these struggles rather than speak for them. Our role — as readers, activists, and consumers in the Global North — is to shift attention and power toward those who live the consequences and demand alternatives.
 
 What would a different approach look like?
 
@@ -88,10 +88,10 @@ We must also confront our own demand. Technologies do not appear out of thin air
 
 If you want to act in meaningful solidarity, here are immediate, politically coherent steps:
 
-- **Centre Congolese voices.** Read and share analysis written by Congolese activists, scholars, and community groups. Amplify their demands rather than narrating their suffering.
-- **Support community-led organisations.** Prioritise funds and attention to grassroots groups that work for labour rights, environmental defence, and local governance.
-- **Hold corporations and states accountable.** Pressure manufacturers and governments to publish transparent supply chains, support local value addition, and accept binding accountability for harms.
-- **Demand policy change.** Campaign for trade, aid, and investment policies that do not privilege extractive profit over human rights and ecology.
+- **Centre Congolese voices.** Read and circulate analysis written by Congolese activists, scholars and community groups. Amplify demands rather than narrating suffering.
+- **Support community‑led organisations.** Prioritise funding and attention for grassroots groups advancing labour rights, environmental defence and local governance.
+- **Hold corporations and states accountable.** Demand transparent supply chains, local value addition, reparative funds and binding liability for ecological and labour harms.
+- **Demand policy change.** Campaign for trade, aid and investment rules that do not privilege extractive profit over human and ecological rights.
 
 ---
 
@@ -99,7 +99,7 @@ If you want to act in meaningful solidarity, here are immediate, politically coh
 
 The Congo requires the end of a system that makes its land and labour profitable for others, rather than our pity. It needs international responsibility that recognises historical injustice and refuses to replace old forms of extraction with new ones under green branding.
 
-If the green transition is to mean anything, it must begin by dismantling the extractive relations that have long defined the Congo's place in the world economy. Anything less is merely continuity in new clothes.
+If the green transition is to mean anything, it must begin by dismantling the extractive relations that have long defined the Congo's place in the world economy. Anything less is continuity in new clothes.
 
 > "Aid is the generous mask of trade."
 > — Eduardo Galeano, Open Veins of Latin America (1971)

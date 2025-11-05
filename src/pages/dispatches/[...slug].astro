@@ -10,10 +10,10 @@ import {
 import { categoryPath } from "../../utils/url";
 
 export async function getStaticPaths() {
-  const mdPostsGlob = import.meta.glob("../../content/blog/*.md", {
+  const mdPostsGlob = import.meta.glob("../../content/dispatches/*.md", {
     eager: true,
   });
-  const mdxPostsGlob = import.meta.glob("../../content/blog/*.mdx", {
+  const mdxPostsGlob = import.meta.glob("../../content/dispatches/*.mdx", {
     eager: true,
   });
 
@@ -58,7 +58,7 @@ const dateModified = frontmatter.dateModified
   dateModified={dateModified}
   image={frontmatter.image}
 >
-  <article class="blog-post">
+  <article class="dispatches-post">
     <header class="post-header">
       <h1 class="post-title">{frontmatter.title}</h1>
 
@@ -139,8 +139,10 @@ const dateModified = frontmatter.dateModified
       }
 
       <div class="post-navigation">
-        <a href={`${base}blog`} data-astro-prefetch class="back-to-blog"
-          >← Back to Blog</a
+        <a
+          href={`${base}dispatches`}
+          data-astro-prefetch
+          class="back-to-dispatches">← Back to Dispatches</a
         >
       </div>
     </footer>
@@ -148,7 +150,7 @@ const dateModified = frontmatter.dateModified
 </Layout>
 
 <style>
-  .blog-post {
+  .dispatches-post {
     max-width: 800px;
     margin: 0 auto;
   }
@@ -441,7 +443,7 @@ const dateModified = frontmatter.dateModified
     border-radius: 3px;
   }
 
-  .back-to-blog {
+  .back-to-dispatches {
     font-family: var(--font-heading-secondary);
     font-weight: 700;
     text-transform: uppercase;
@@ -454,8 +456,8 @@ const dateModified = frontmatter.dateModified
     display: inline-block;
   }
 
-  .back-to-blog:hover,
-  .back-to-blog:focus {
+  .back-to-dispatches:hover,
+  .back-to-dispatches:focus {
     background-color: var(--color-accent);
     color: white;
     text-decoration: none;

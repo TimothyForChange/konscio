@@ -39,7 +39,7 @@ describe("rss.xml", () => {
     expect(callArgs.items[0]).toHaveProperty("pubDate");
     expect(callArgs.items[0]).toHaveProperty("description");
     expect(callArgs.items[0]).toHaveProperty("link");
-    expect(callArgs.items[0].link).toMatch(/^\/blog\//);
+    expect(callArgs.items[0].link).toMatch(/^\/dispatches\//);
 
     if (callArgs.items.length > 1) {
       expect(

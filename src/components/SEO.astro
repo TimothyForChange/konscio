@@ -59,7 +59,10 @@ const imageURL = new URL(image.replace(/^\//, ""), Astro.site);
   type === "article" && (
     <>
       <meta property="article:author" content={config.author.name} />
-      <meta property="article:section" content={categories?.[0] || "Blog"} />
+      <meta
+        property="article:section"
+        content={categories?.[0] || "Dispatches"}
+      />
       {dateModified && (
         <meta property="article:modified_time" content={dateModified} />
       )}
@@ -91,9 +94,9 @@ const imageURL = new URL(image.replace(/^\//, ""), Astro.site);
             "@type": "Person",
             name: config.author.name,
             description: config.author.bio,
-            image: config.author.avatar
-              ? new URL(config.author.avatar, Astro.site).toString()
-              : undefined,
+            ...(config.author.avatar && {
+              image: new URL(config.author.avatar, Astro.site).toString(),
+            }),
           },
           publisher: {
             "@type": "Organization",
@@ -113,9 +116,9 @@ const imageURL = new URL(image.replace(/^\//, ""), Astro.site);
             "@type": "Person",
             name: config.author.name,
             description: config.author.bio,
-            image: config.author.avatar
-              ? new URL(config.author.avatar, Astro.site).toString()
-              : undefined,
+            ...(config.author.avatar && {
+              image: new URL(config.author.avatar, Astro.site).toString(),
+            }),
           },
         }),
   }}

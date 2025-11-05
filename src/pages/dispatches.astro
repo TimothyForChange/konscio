@@ -5,8 +5,12 @@ import { slugifyPath } from "../utils/slugify";
 
 const base = config.baseUrl;
 
-const mdPostsGlob = import.meta.glob("../content/blog/*.md", { eager: true });
-const mdxPostsGlob = import.meta.glob("../content/blog/*.mdx", { eager: true });
+const mdPostsGlob = import.meta.glob("../content/dispatches/*.md", {
+  eager: true,
+});
+const mdxPostsGlob = import.meta.glob("../content/dispatches/*.mdx", {
+  eager: true,
+});
 
 const allPosts = [
   ...Object.values(mdPostsGlob),
@@ -22,18 +26,18 @@ const sortedPosts = allPosts
 ---
 
 <Layout
-  title="Blog | The Red Soil"
-  description="All blog posts from The Red Soil"
+  title="Dispatches | The Red Soil"
+  description="All dispatches from The Red Soil"
 >
-  <div class="blog-page">
-    <header class="blog-header">
-      <h1 class="blog-title">Blog</h1>
-      <p class="blog-description">
+  <div class="dispatches-page">
+    <header class="dispatches-header">
+      <h1 class="dispatches-title">Dispatches</h1>
+      <p class="dispatches-description">
         Critical eco-socialist and decolonial analysis from Africa and the
         Global South — exposing the systems that exploit both people and the
         planet.
       </p>
-      <hr class="blog-rule" />
+      <hr class="dispatches-rule" />
     </header>
 
     {
@@ -43,7 +47,7 @@ const sortedPosts = allPosts
             <article class="post-item">
               <h2 class="post-title">
                 <a
-                  href={`${base}blog/${slugifyPath(post.file)}`}
+                  href={`${base}dispatches/${slugifyPath(post.file)}`}
                   data-astro-prefetch
                 >
                   {post.frontmatter.title}
@@ -87,7 +91,7 @@ const sortedPosts = allPosts
               )}
 
               <a
-                href={`${base}blog/${slugifyPath(post.file)}`}
+                href={`${base}dispatches/${slugifyPath(post.file)}`}
                 data-astro-prefetch
                 class="read-more"
               >
@@ -100,7 +104,7 @@ const sortedPosts = allPosts
         <div class="no-posts">
           <p>
             No posts available yet. Start writing by creating files in{" "}
-            <code>src/pages/blog/</code>
+            <code>src/pages/dispatches/</code>
           </p>
         </div>
       )
@@ -109,17 +113,17 @@ const sortedPosts = allPosts
 </Layout>
 
 <style>
-  .blog-page {
+  .dispatches-page {
     max-width: 800px;
     margin: 0 auto;
   }
 
-  .blog-header {
+  .dispatches-header {
     text-align: center;
     margin-bottom: calc(var(--grid-unit) * 8);
   }
 
-  .blog-title {
+  .dispatches-title {
     font-family: var(--font-heading-primary);
     font-size: 3.5rem;
     font-weight: 900;
@@ -130,7 +134,7 @@ const sortedPosts = allPosts
     margin-bottom: calc(var(--grid-unit) * 3);
   }
 
-  .blog-description {
+  .dispatches-description {
     font-size: 1.25rem;
     line-height: 1.6;
     color: var(--color-text-secondary);
@@ -140,7 +144,7 @@ const sortedPosts = allPosts
     margin-right: auto;
   }
 
-  .blog-rule {
+  .dispatches-rule {
     height: 4px;
     background-color: var(--color-accent);
     border: none;
@@ -282,11 +286,11 @@ const sortedPosts = allPosts
   }
 
   @media (max-width: 768px) {
-    .blog-title {
+    .dispatches-title {
       font-size: 2.5rem;
     }
 
-    .blog-description {
+    .dispatches-description {
       font-size: 1.125rem;
     }
 

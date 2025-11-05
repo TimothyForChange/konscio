@@ -4,8 +4,12 @@ import { slugifyPath } from "../utils/slugify";
 
 const base = config.baseUrl;
 
-const mdPostsGlob = import.meta.glob("../content/blog/*.md", { eager: true });
-const mdxPostsGlob = import.meta.glob("../content/blog/*.mdx", { eager: true });
+const mdPostsGlob = import.meta.glob("../content/dispatches/*.md", {
+  eager: true,
+});
+const mdxPostsGlob = import.meta.glob("../content/dispatches/*.mdx", {
+  eager: true,
+});
 const allPosts = [
   ...Object.values(mdPostsGlob),
   ...Object.values(mdxPostsGlob),
@@ -28,7 +32,7 @@ const recentPosts = allPosts
         {recentPosts.map((post) => (
           <li class="post-item">
             <a
-              href={`${base}blog/${slugifyPath(post.file)}`}
+              href={`${base}dispatches/${slugifyPath(post.file)}`}
               data-astro-prefetch
               class="post-link"
             >

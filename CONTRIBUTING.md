@@ -4,7 +4,7 @@ Thank you for your interest in contributing to The Red Soil! 🌍 This document 
 
 ## 📨 How to Submit Content
 
-You can contribute blog posts or articles in two ways:
+You can contribute dispatches or articles in two ways:
 
 - **Fork and Pull Request:** Fork the repository, add your content, and submit a Pull Request (see instructions below).
 - **Email Submission:** Email your content directly to the maintainers at contact@theredsoil.co.za for review and publication.
@@ -15,10 +15,10 @@ Both methods are welcome. All content will be reviewed for alignment with the pl
 
 ### Content Contributions
 
-**Writing Articles**: Submit blog posts or articles on eco-socialist analysis, decolonial thought, and liberation from Africa and the Global South. We welcome contributions from other authors. Posts by other authors will be clearly attributed, with the author's name displayed prominently, and remain your content.
+**Writing Articles**: Submit dispatches or articles on eco-socialist analysis, decolonial thought, and liberation from Africa and the Global South. We welcome contributions from other authors. Posts by other authors will be clearly attributed, with the author's name displayed prominently, and remain your content.
 
 - **Editing**: Help improve existing content for clarity, accuracy, and accessibility.
-- **Other Languages**: We welcome blog posts and articles written in languages other than English. We do not accept translations of existing posts, but original content in any language is encouraged.
+- **Other Languages**: We welcome dispatches and articles written in languages other than English. We do not accept translations of existing posts, but original content in any language is encouraged.
 
 ### Code Contributions
 
@@ -91,12 +91,12 @@ Types:
 
 ## 📋 Content Submission Guidelines
 
-### Blog Posts
+### Dispatches
 
-You may submit blog posts or articles by either:
+You may submit dispatches or articles by either:
 
 - **Forking the repository and submitting a Pull Request** (recommended for those familiar with GitHub):
-  1.  Create a new `.md` or `.mdx` file in `src/content/blog/`
+  1.  Create a new `.md` or `.mdx` file in `src/content/dispatches/`
   2.  Use the required frontmatter fields:
       ```yaml
       ---

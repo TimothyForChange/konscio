@@ -7,7 +7,7 @@ vi.mock("astro:content", () => ({
 }));
 
 describe("search.json", () => {
-  it("should return search data for blog posts", async () => {
+  it("should return search data for dispatches", async () => {
     const mockPosts = [
       {
         data: {
@@ -38,14 +38,14 @@ describe("search.json", () => {
     expect(data).toEqual([
       {
         title: "Test Post 2",
-        url: "/blog/test-post-2",
+        url: "/dispatches/test-post-2",
         datePublished: "2023-01-02T00:00:00.000Z",
         excerpt: "Test description 2",
         categories: ["category2"],
       },
       {
         title: "Test Post 1",
-        url: "/blog/test-post-1",
+        url: "/dispatches/test-post-1",
         datePublished: "2023-01-01T00:00:00.000Z",
         excerpt: "Test excerpt 1",
         categories: ["category1"],

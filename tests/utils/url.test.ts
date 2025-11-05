@@ -29,14 +29,14 @@ describe("withBase", () => {
 
   it("adds trailing slash when missing", () => {
     withTempBase("/sub", () => {
-      expect(withBase("blog/post")).toBe("/sub/blog/post");
+      expect(withBase("dispatches/post")).toBe("/sub/dispatches/post");
       expect(withBase("")).toBe("/sub/");
     });
   });
 
   it("does not duplicate slash when base already has one", () => {
     withTempBase("/sub/", () => {
-      expect(withBase("blog/post")).toBe("/sub/blog/post");
+      expect(withBase("dispatches/post")).toBe("/sub/dispatches/post");
     });
   });
 });

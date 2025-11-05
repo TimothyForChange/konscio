@@ -8,8 +8,8 @@ This is an Astro-powered blog focused on eco-socialist analysis and decolonial t
 
 ### Content System
 
-- **Blog posts**: MDX files in `src/content/blog/` with strict schema validation via Zod (`src/schemas/blog.ts`)
-- **Required frontmatter**: `title`, `datePublished`, `excerpt`, `categories`, `tags` - see `blogSchema` for complete structure
+- **Posts**: MDX files in `src/content/dispatches/` with strict schema validation via Zod (`src/schemas/dispatches.ts`)
+- **Required frontmatter**: `title`, `datePublished`, `excerpt`, `categories`, `tags` - see `dispatchSchema` for complete structure
 - **Reading time**: Auto-calculated via custom remark plugin (`plugins/remark-reading-time.ts`)
 - **Content collections**: Defined in `src/content/config.ts` using Astro's content API
 
@@ -48,9 +48,9 @@ Always run: `npm run lint && npm run check && npm run test`
 
 ### Content Creation Workflow
 
-#### New Blog Posts
+#### New Posts
 
-1. Create `.md` or `.mdx` file in `src/content/blog/`
+1. Create `.md` or `.mdx` file in `src/content/dispatches/`
 2. Use complete frontmatter schema - missing required fields will fail build
 3. Categories become URL paths (`/categories/[category]`)
 4. Images go in `public/images/` and reference as `/images/filename.jpg`
@@ -89,7 +89,7 @@ Always run: `npm run lint && npm run check && npm run test`
 
 ### Adding New Categories
 
-1. Add to blog post frontmatter `categories` array
+1. Add to post frontmatter `categories` array
 2. Category pages auto-generated at `/categories/[slug]`
 3. Update navigation if needed in `HeaderNavigation.astro`
 
