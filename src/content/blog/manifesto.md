@@ -1,6 +1,6 @@
 ---
-title: "Why This Blog Exists: For People and Planet"
-author: "Timothy Brits"
+title: "Manifesto: For People and Planet"
+author: "The Red Soil Collective"
 datePublished: 2025-10-23
 description: "Introducing The Red Soil, an eco-socialist and decolonial platform from South Africa, dedicated to exposing structural violence and imagining a just future."
 excerpt: "Capitalism, colonialism, and climate collapse represent one system of domination expressed through different forms, not separate crises. This opening statement defines the mission and values of The Red Soil: an eco-socialist, decolonial platform from South Africa for people and planet."
@@ -9,7 +9,7 @@ categories: ["Editorial"]
 tags: ["Eco-socialism", "Decolonisation", "Global South", "Climate Justice"]
 ---
 
-# Why This Blog Exists: For People and Planet
+# Manifesto: For People and Planet
 
 Capitalism, colonialism, and climate collapse represent one system of domination expressed through different forms, not separate crises.
 The same logic that enslaved and extracted from the Global South now drives ecological collapse across the planet.
@@ -42,16 +42,16 @@ The task ahead is not merely to survive, but to _build an alternative_ rooted in
 
 ## What to Expect
 
-This site will feature essays, reflections, and analyses exploring how global systems of power operate, and how they can be dismantled.
+This publication will feature essays, reflections, and analyses from multiple voices exploring how global systems of power operate, and how they can be dismantled.
 
-It will examine the intersections between:
+Contributions will examine the intersections between:
 
 - Capitalism and ecological breakdown
 - Colonialism and global inequality
 - Technology and extractivism
 - Resistance movements and transformative alternatives
 
-Each post will ask one central question:
+Each contribution will ask one central question:
 **What must change for people and planet to survive — and how do we make it happen?**
 
 ---
