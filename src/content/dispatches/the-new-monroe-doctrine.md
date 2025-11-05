@@ -7,6 +7,7 @@ excerpt: "Striking boats at sea and preparing lists of sites on foreign soil is 
 image: /images/the-new-monroe-doctrine.jpg
 categories: ["Analysis"]
 tags: ["Imperialism", "Venezuela", "US Foreign Policy", "Latin America"]
+draft: true
 ---
 
 # The New Monroe Doctrine: Washington's War on Latin America's Sovereignty
