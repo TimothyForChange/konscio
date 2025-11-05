@@ -60,7 +60,7 @@ By contrast SAF power is bureaucratic and brittle: clinging to state legitimacy 
 
 Human toll is staggering. As of late 2025, conflict deaths exceed **20,000**; **over 12 million people displaced** — the world's largest displacement crisis. Cities — El Geneina, Nyala, Omdurman — scarred by RSF shelling and scorched‑earth tactics. Corridors blocked, aid looted, civilians targeted for ethnicity.
 
-Mining is a second front. Unregulated pits use mercury and cyanide, contaminating rivers and soil. Deforestation spreads across Darfur and South Kordofan. What gold cannot kill by bullet it poisons by runoff.
+Mining is a second front. Unregulated pits use mercury and cyanide, contaminating rivers and soil. Deforestation spreads across Darfur and South Kordofan. What gold cannot kill by bullet it poisons by run-off.
 
 SAF presence slows some environmental devastation, yet both sides remain trapped in a model where gold underwrites war and ruins recovery. Sudan bleeds for a metal leaving ash.
 
