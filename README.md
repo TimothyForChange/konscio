@@ -51,7 +51,7 @@ An Astro-powered publication exploring capitalism, colonialism, and climate coll
 
 ### Prerequisites
 
-- Node.js 24.11.0 or higher
+- Node.js 24.0.0 or higher
 - Git
 
 ### Installation
@@ -59,7 +59,7 @@ An Astro-powered publication exploring capitalism, colonialism, and climate coll
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/theredsoil/konscio.git
+git clone https://github.com/CodeAndHammer/konscio.git
 cd konscio
 ```
 

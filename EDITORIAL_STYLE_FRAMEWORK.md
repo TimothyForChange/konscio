@@ -242,5 +242,111 @@ Review quarterly or after major stylistic innovation. Use semantic versioning fo
 
 ---
 
+## 17. Citation & Reference Style
+
+Clear sourcing strengthens political credibility without clogging prose. Use citations deliberately.
+
+### 17.1 When to Cite (Must vs Optional)
+
+**Cite (footnote or inline) when a sentence contains:**
+
+1. Quantitative data (numbers, dates, volumes, casualties, monetary figures).
+2. Contested / recent developments (policy shifts, organisational restructures, sanctions, violence incidents).
+3. Specific attributions of abuse, ecological harm, or logistics (named mine, route, company, perpetrator).
+4. Specialised analytical framing drawn from an external investigation (e.g. supply chain mechanism, finance channel) not common knowledge.
+5. Quotations (always) – attribute with source + year in the blockquote attribution line.
+
+**Optional citation** for: widely known historical events, broad comparative claims already grounded earlier, general moral assertions. When omitting a citation, ensure claim is genuinely common knowledge or previously supported.
+
+### 17.2 Integration Hierarchy
+
+Prefer integrating source names in prose first; fall back to footnotes when:
+
+- Multiple sources underpin a single factual clause.
+- Source name repetition would drag rhythm.
+- You need to preserve flow in a high‑cadence paragraph.
+
+Examples:
+"Treasury sanctions detail how gold concessions underwrite mercenary payrolls." (Implicit reference if previously cited.)
+"Gold laundering through Dubai’s refineries (UK Parliament report; GI-TOC) channels extraction into war finance." (Inline consolidation.)
+
+### 17.3 Footnote Conventions
+
+- Use Markdown `[^n]` footnotes (remark-gfm) with sequential numbering.
+- No brackets `[n]`; always caret form.
+- Avoid citation clusters longer than 2 footnotes in a single clause; consolidate to the strongest or most synthetic sources.
+- After removing or adding sources, renumber for clarity (no gaps) unless preserving historical numbering is essential for already published external references.
+- Do not cross‑link footnotes; each stands alone. If two footnotes cover distinct aspects of one sentence, split the sentence or synthesize.
+
+### 17.4 Verification & Triangulation
+
+- Target two independent credible sources for each substantive, non‑public‑domain factual claim (especially numbers or abuses).
+- "Credible" includes: investigative NGOs, peer‑reviewed research, parliamentary / multilateral reports, recognised journalism, community organisations documenting primary evidence.
+- If only one authoritative source exists (e.g. specialised satellite report), note that authority in prose.
+
+### 17.5 Source Selection Priorities
+
+Order of preference (all else equal):
+Local / regional investigative org → International investigative NGO → Public official report → Peer-reviewed research → Reputable journalism → Aggregated databases.
+Deprioritise: single‑author opinion pieces without evidence, unsourced social media threads, uncorroborated corporate PR.
+
+### 17.6 Stylistic Rules for Citing
+
+- Avoid numeric citations mid‑paragraph if a clean attribute is possible: "According to the 2025 UK Parliament Foreign Affairs Committee report…"
+- Use bold only for moral emphasis or significant figures; do not bold source names.
+- Maintain rhythm: place footnotes at natural clause ends, not mid‑phrase.
+- Do not capitalise entire source titles; follow original case.
+
+### 17.7 Quotes
+
+Format blockquote attribution as: `> — Name, Source (Year)`.
+If paraphrasing rather than direct quoting: integrate into prose and cite per 17.3.
+
+### 17.8 Reducing Citation Load
+
+To declutter:
+
+- Merge repetitive sentences that each cite the same source.
+- Reference a source once early; subsequent sentences can rely on established context if clearly connected.
+- Replace multiple adjacent footnotes with a synthesised attribution phrase.
+
+### 17.9 Updating / Retractions
+
+- If a cited source is later discredited or corrected, update the footnote with an appended note: "(Updated: previous figure replaced after revised audit, Month Year)."
+- Preserve original claim only if historically relevant; otherwise remove and renumber.
+
+### 17.10 Link Rot Protection
+
+- For high‑risk or transient pages (investigative NGO press releases), archive locally (download PDF or store key excerpts) and optionally include the archived URL in parentheses.
+- Prefer stable resource URLs (report landing pages) over ephemeral news article variants.
+
+### 17.11 Ethical Considerations
+
+- Avoid over‑citation that buries Global South voices beneath Global North institutional reports.
+- Balance sources: if using a Northern parliamentary report for a pattern, pair with local testimony or regional investigative work.
+- Do not cite exploitative or propagandistic sources without critical framing; if essential, label clearly ("state media claim" / "corporate disclosure").
+
+### 17.12 Practical Workflow for New Pieces
+
+1. Draft argument skeleton without footnotes.
+2. Mark every sentence needing verification with `[[SOURCE?]]` placeholder.
+3. Collect sources; prefer at least two per placeholder.
+4. Integrate strongest source into prose; footnote remaining if still needed.
+5. Run a pass to consolidate clusters and ensure numbering continuity.
+6. Final proof: each footnote referenced exactly once; no orphan definitions.
+
+### 17.13 Minimal Citation Set Guidance
+
+Aim for a lean, high‑integrity core: roughly 8–14 footnotes for a 1,200–1,500 word dispatch, weighted toward structural mechanisms, abuse evidence, and quantitative material rather than generic geopolitical facts.
+
+### 17.14 Examples (Abstracted)
+
+"Mercenary contracts swap palace security for mining concessions."[^a] (Single authoritative policy analysis.)
+"Satellite imagery shows tree cover loss accelerating around the concession perimeter."[^b][^c] (Two independent remote sensing sources.)
+
+(`[^a]`, `[^b]`, `[^c]` used in examples only; not part of live numbering.)
+
+---
+
 **Maintained by Timothy Brits**
 _For people and planet._ 🌍✊

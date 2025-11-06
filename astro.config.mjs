@@ -5,6 +5,9 @@ import compressor from "astro-compressor";
 import purgecss from "astro-purgecss";
 import { defineConfig } from "astro/config";
 import { FontaineTransform } from "fontaine";
+import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import rehypeSlug from "rehype-slug";
+import remarkGfm from "remark-gfm";
 import { remarkReadingTime } from "./plugins/remark-reading-time.ts";
 import { config } from "./src/config";
 
@@ -70,6 +73,19 @@ export default defineConfig({
     plugins: [FontaineTransform.vite(fontaineOptions)],
   },
   markdown: {
-    remarkPlugins: [remarkReadingTime],
+    remarkPlugins: [remarkReadingTime, remarkGfm],
+    rehypePlugins: [
+      rehypeSlug,
+      [
+        rehypeAutolinkHeadings,
+        {
+          behavior: "wrap",
+          properties: {
+            class: "heading-anchor",
+            ariaHidden: "true",
+          },
+        },
+      ],
+    ],
   },
 });
