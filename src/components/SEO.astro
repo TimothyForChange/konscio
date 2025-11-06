@@ -94,6 +94,9 @@ const imageURL = new URL(image.replace(/^\//, ""), Astro.site);
             "@type": "Person",
             name: config.author.name,
             description: config.author.bio,
+            ...(config.author.avatar && {
+              image: new URL(config.author.avatar, Astro.site).toString(),
+            }),
           },
           publisher: {
             "@type": "Organization",
@@ -113,6 +116,9 @@ const imageURL = new URL(image.replace(/^\//, ""), Astro.site);
             "@type": "Person",
             name: config.author.name,
             description: config.author.bio,
+            ...(config.author.avatar && {
+              image: new URL(config.author.avatar, Astro.site).toString(),
+            }),
           },
         }),
   }}

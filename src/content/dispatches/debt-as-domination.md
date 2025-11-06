@@ -33,7 +33,7 @@ Debt has become the architecture of neocolonialism — the invisible scaffolding
 
 The story begins at the moment of supposed liberation.
 
-On independence African nations inherited borders and debts they never chose. The colonial export economy remained. New states needed capital and borrowing was priced in submission: IMF and World Bank "conditions" that became shackles.
+On independence African nations inherited borders and debts they never chose. The colonial export economy remained. New states needed capital and borrowing was priced in submission: IMF and World Bank “conditions” that became shackles.
 
 The 1980s brought structural adjustment: austerity and privatisation. Schools closed; clinics collapsed; prices rose; labour cheapened for investors. Economies re‑engineered to feed the global market, not serve people.
 
@@ -57,7 +57,7 @@ Credit rating agencies — Moody's, Fitch, S&P — act as unelected governors. R
 
 ### Conditionality and Privatisation
 
-Loans arrive with commandments: cut subsidies, sell assets, liberalise trade. In Ghana and Kenya utilities handed to foreign corporations "for efficiency". People lose ownership then rent it back.
+Loans arrive with commandments: cut subsidies, sell assets, liberalise trade. In Ghana and Kenya utilities handed to foreign corporations “for efficiency”. People lose ownership then rent it back.
 
 ### China's Dual Role
 
