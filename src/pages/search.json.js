@@ -38,7 +38,7 @@ export async function GET() {
     return new Response(JSON.stringify(searchData), {
       headers: { "Content-Type": "application/json" },
     });
-  } catch (error) {
+  } catch {
     return new Response(JSON.stringify([]), {
       headers: { "Content-Type": "application/json" },
       status: 200,
