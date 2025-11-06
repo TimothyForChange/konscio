@@ -7,7 +7,6 @@ excerpt: "Eco-socialism is not about greening capitalism; it is about ending it.
 image: /images/eco-socialism-politics-of-survival.jpg
 categories: ["Theory"]
 tags: ["Eco-socialism", "Decolonisation", "Global South", "Capitalism"]
-draft: true
 ---
 
 # Eco-Socialism: The Politics of Survival

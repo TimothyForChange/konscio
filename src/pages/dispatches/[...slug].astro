@@ -172,8 +172,9 @@ const dateModified = frontmatter.dateModified
 
   .post-meta {
     display: flex;
-    flex-direction: column;
-    gap: calc(var(--grid-unit) * 1.5);
+    align-items: center;
+    flex-wrap: wrap;
+    gap: calc(var(--grid-unit));
     margin-bottom: calc(var(--grid-unit) * 3);
   }
 
@@ -199,6 +200,14 @@ const dateModified = frontmatter.dateModified
     color: var(--color-text-muted);
     text-transform: uppercase;
     letter-spacing: 0.05em;
+  }
+
+  @media (min-width: 769px) {
+    .post-meta > *:not(.post-categories):not(:last-child)::after {
+      content: "•";
+      margin-left: calc(var(--grid-unit) / 2);
+      color: var(--color-text-muted);
+    }
   }
 
   .post-categories {
@@ -471,6 +480,7 @@ const dateModified = frontmatter.dateModified
     .post-meta {
       flex-direction: column;
       align-items: flex-start;
+      gap: calc(var(--grid-unit) * 1.5);
     }
 
     .post-content {

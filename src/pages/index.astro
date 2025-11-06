@@ -85,6 +85,12 @@ const sortedPosts = allPosts
                       })}
                     </time>
 
+                    {post.frontmatter.author && (
+                      <span class="dispatches-post-author">
+                        By {post.frontmatter.author}
+                      </span>
+                    )}
+
                     <span class="dispatches-post-reading-time">
                       {post.frontmatter.minutesRead}
                     </span>
@@ -408,12 +414,28 @@ const sortedPosts = allPosts
     gap: calc(var(--grid-unit) / 2);
   }
 
+  @media (min-width: 769px) {
+    .dispatches-post-meta > *:not(:last-child)::after {
+      content: "•";
+      margin-left: calc(var(--grid-unit) / 2);
+      color: var(--color-text-muted);
+    }
+  }
+
   .dispatches-post-date,
   .dispatches-post-reading-time {
     font-variant-numeric: tabular-nums;
   }
 
   .dispatches-post-date {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .dispatches-post-author {
     font-family: var(--font-mono);
     font-size: 0.85rem;
     color: var(--color-text-muted);
@@ -477,6 +499,10 @@ const sortedPosts = allPosts
 
     .theoretical-foundations-grid {
       grid-template-columns: 1fr;
+    }
+
+    .dispatches-post-author {
+      display: none;
     }
   }
 </style>
