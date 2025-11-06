@@ -414,7 +414,7 @@ const sortedPosts = allPosts
     gap: calc(var(--grid-unit) / 2);
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 769px) {
     .dispatches-post-meta > *:not(:last-child)::after {
       content: "•";
       margin-left: calc(var(--grid-unit) / 2);
@@ -479,7 +479,7 @@ const sortedPosts = allPosts
     text-align: center;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     .hero-title {
       font-size: 3rem;
     }
@@ -503,6 +503,12 @@ const sortedPosts = allPosts
 
     .dispatches-post-author {
       display: none;
+    }
+
+    .dispatches-post-meta {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: calc(var(--grid-unit) * 1.5);
     }
   }
 </style>
