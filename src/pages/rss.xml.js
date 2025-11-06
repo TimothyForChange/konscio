@@ -11,6 +11,14 @@ export async function GET(context) {
       ([_path, post]) =>
         post && post.frontmatter && post.frontmatter.draft !== true
     )
+    .filter(([_path, post]) => {
+      const rawDate = post.frontmatter.datePublished;
+      const date = new Date(rawDate);
+      if (isNaN(date.getTime())) {
+        return false;
+      }
+      return date.getTime() <= Date.now();
+    })
     .map(([path, post]) => {
       const slug = path
         .split("/")

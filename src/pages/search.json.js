@@ -6,6 +6,14 @@ export async function GET() {
 
     const processedPosts = posts
       .filter((post) => post && post.data && post.data.draft !== true)
+      .filter((post) => {
+        const rawDate = post.data.datePublished;
+        const date = rawDate instanceof Date ? rawDate : new Date(rawDate);
+        if (isNaN(date.getTime())) {
+          return false;
+        }
+        return date.getTime() <= Date.now();
+      })
       .map((post) => {
         let dateObj;
         if (post.data.datePublished instanceof Date) {
