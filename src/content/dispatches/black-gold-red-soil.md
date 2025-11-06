@@ -12,13 +12,13 @@ draft: true
 
 # Black Gold and Red Soil: Russia’s Africa Corps and the New Imperial Extraction
 
-> “For the master’s tool will never dismantle the master’s house.”
+> "For the master's tool will never dismantle the master's house."
 > — Audre Lorde (1979)
 
 The Russian flag now flies over gold mines in the Central African Republic.
 But this is not conquest by armies — it is conquest by contracts, carried out by mercenaries in camouflage and suits in Moscow boardrooms.
 
-After Wagner’s fall the Kremlin’s **Africa Corps** took its place.
+After Wagner's fall the Kremlin's **Africa Corps** took its place.
 Its mission is not peacekeeping nor ideology. It is extraction: gold, diamonds, timber — transmuted into hard currency for wars abroad and patronage at home.
 
 Africa again becomes the cash machine of empire.
@@ -27,7 +27,7 @@ Africa again becomes the cash machine of empire.
 
 ## From Wagner to Africa Corps: The Seamless Mutation of Imperial Muscle
 
-Wagner’s African operations were never freelance; they were the informal wing of Russian foreign policy — projecting power without formal accountability.
+Wagner's African operations were never freelance; they were the informal wing of Russian foreign policy — projecting power without formal accountability.
 
 When Yevgeny Prigozhin died and Wagner fractured, Moscow changed the label. The **Africa Corps**, run through Russia’s Defence Ministry and intelligence networks, absorbed Wagner’s personnel, mines and shell companies [^1].
 

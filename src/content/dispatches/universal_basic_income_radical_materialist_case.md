@@ -42,7 +42,7 @@ The question, then, is not whether to support UBI — but **which UBI**, and as 
 
 ## What the Evidence Shows
 
-Pilot evidence is useful yet limited. Cash transfers reduce poverty, improve health, increase resilience. Trials in Kenya, Finland and Stockton show gains in food security and mental well‑being. The "lazy worker" myth collapses.
+Pilot evidence is useful yet limited. Cash transfers reduce poverty, improve health, increase resilience. Trials in Kenya, Finland and Stockton show gains in food security and mental well-being. The "lazy worker" myth collapses.
 
 Employment effects depend on context. Where strong labour protections and public services exist, UBI increases bargaining power without mass job loss. Where services are privatised and jobs precarious, it becomes a tool for survival, not liberation.
 
@@ -62,7 +62,7 @@ Detached from structural reform, UBI repeats three failures.
 
 **Third** ecological breakdown: disposable income rise without production shift accelerates extraction. A "green transition" built on resource plunder plus regressive financing turns UBI into imperial management.
 
-**Market‑friendly UBI offers individual security inside a system built on collective insecurity.**
+**Market-friendly UBI offers individual security inside a system built on collective insecurity.**
 Capital needs unemployment, debt and cheap resources; UBI leaving these intact merely oils the machine.
 
 Neoliberal stabilisation: manage unrest with cash, privatise commons, protect profit. Beneficiaries: finance, tech monopolies, extractive firms, employers seeking wage subsidies. On the other side: workers, small farmers, Indigenous communities, women in unpaid care — labour and land sustaining capital.
@@ -79,7 +79,7 @@ Control must rest with people not markets: resource rents, services and distribu
 
 ### Universality and Adequacy
 
-Means‑testing breeds stigma and bureaucracy. Universality affirms shared rights. Payments must cover essentials; token grants entrench precarity.
+Means-testing breeds stigma and bureaucracy. Universality affirms shared rights. Payments must cover essentials; token grants entrench precarity.
 
 ### Public Provision
 

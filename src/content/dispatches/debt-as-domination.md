@@ -1,5 +1,5 @@
 ---
-title: "Debt as Domination: The Economic Architecture of Neo‑colonialism in Africa"
+title: "Debt as Domination: The Economic Architecture of Neo-colonialism in Africa"
 author: "Timothy Brits"
 datePublished: 2025-11-03
 description: "How debt became the weapon of empire's return — and how Africa can break the chains of financial subjugation."
@@ -23,7 +23,7 @@ Debt is not neutral economics. It is politics — the politics of obedience.
 
 Across Africa governments spend more repaying creditors than educating children or treating the sick. In 2024 they devoted on average **18% of public revenue** to debt service — over double health spending. Marketed as "fiscal discipline"; in reality control. Interest becomes rent charged for independence — tribute to empire’s financial return.
 
-Twentieth‑century domination spoke in the language of civilisation; twenty‑first in credit ratings, debt sustainability and macroeconomic reform. The IMF no longer arrives with troops but spreadsheets. Result: sovereignty mortgaged, policy dictated, futures foreclosed.
+Twentieth-century domination spoke in the language of civilisation; twenty-first in credit ratings, debt sustainability and macroeconomic reform. The IMF no longer arrives with troops but spreadsheets. Result: sovereignty mortgaged, policy dictated, futures foreclosed.
 
 Debt has become the architecture of neocolonialism — the invisible scaffolding that holds the Global South in place while extraction continues beneath the banner of "development."
 
@@ -35,9 +35,9 @@ The story begins at the moment of supposed liberation.
 
 On independence African nations inherited borders and debts they never chose. The colonial export economy remained. New states needed capital and borrowing was priced in submission: IMF and World Bank “conditions” that became shackles.
 
-The 1980s brought structural adjustment: austerity and privatisation. Schools closed; clinics collapsed; prices rose; labour cheapened for investors. Economies re‑engineered to feed the global market, not serve people.
+The 1980s brought structural adjustment: austerity and privatisation. Schools closed; clinics collapsed; prices rose; labour cheapened for investors. Economies re-engineered to feed the global market, not serve people.
 
-Kwame Nkrumah named it early: _neo‑colonialism — the last stage of imperialism_. Colony gone; system remained. Flow of power reversed in form not direction: gold and rubber replaced by interest and repayment.
+Kwame Nkrumah named it early: _neo-colonialism — the last stage of imperialism_. Colony gone; system remained. Flow of power reversed in form not direction: gold and rubber replaced by interest and repayment.
 
 The 2000s brought the HIPC initiative’s promise of relief — yet institutions dictated terms. Eurobond markets reabsorbed the continent into speculative circuits. Old colonial powers now share the field with China, Gulf states and hedge funds. Masters multiply; hierarchy endures.
 
@@ -61,7 +61,7 @@ Loans arrive with commandments: cut subsidies, sell assets, liberalise trade. In
 
 ### China's Dual Role
 
-China entered the vacuum left by Western neglect — building roads, dams and railways where the IMF demanded cuts. Yet contracts remained opaque and resource‑backed. The "alternative" can be a different empire with a different accent.
+China entered the vacuum left by Western neglect — building roads, dams and railways where the IMF demanded cuts. Yet contracts remained opaque and resource-backed. The "alternative" can be a different empire with a different accent.
 
 ### The Data Weapon
 
@@ -102,7 +102,7 @@ As climate disasters multiply, states borrow to rebuild — deepening the trap. 
 
 To service loans governments expand extraction — mining, drilling, logging — to earn foreign currency. Forests traded for dollars; rivers for interest payments. Logic of capitalist survival: destroy now, pay later, collapse soon.
 
-Debt‑for‑nature swaps are sold as solutions; they greenwash dependency. You cannot decolonise through contracts in the old financial language. You cannot green imperial debt — only abolish it.
+Debt-for-nature swaps are sold as solutions; they greenwash dependency. You cannot decolonise through contracts in the old financial language. You cannot green imperial debt — only abolish it.
 
 ---
 

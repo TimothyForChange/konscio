@@ -29,17 +29,17 @@ Not a "civilisational clash" but a struggle between empires — one old, one res
 
 The road preceded 2022. It runs through 1991’s ruins when Soviet collapse opened the East to global capital. Western economists prescribed "shock therapy"; oligarchs carved public wealth. Result: public misery, private enrichment, state hollowed out for sale.
 
-Ukraine's post‑independence choices — neoliberal restructuring, Western conditionalities, NATO pursuit — were not neutral; they embedded imperial dynamics making conflict more likely. Each step toward NATO integration was presented as sovereignty yet deepened Western military and economic hegemony.
+Ukraine's post-independence choices — neoliberal restructuring, Western conditionalities, NATO pursuit — were not neutral; they embedded imperial dynamics making conflict more likely. Each step toward NATO integration was presented as sovereignty yet deepened Western military and economic hegemony.
 
 NATO expansion eastward was framed as "security" yet secured **Western military and economic hegemony** — market order backed by missiles. Europe never decolonised; it globalised empire.
 
-Russia followed a neoliberal script. Under Putin privatisation merged with nationalism — oil wealth sanctified as destiny. Wars from Chechnya to Syria to Ukraine became theatre for petro‑imperial regime trading in fossil fuels and fear.
+Russia followed a neoliberal script. Under Putin privatisation merged with nationalism — oil wealth sanctified as destiny. Wars from Chechnya to Syria to Ukraine became theatre for petro-imperial regime trading in fossil fuels and fear.
 
 Ukraine positioned itself as frontline state — buffer and battleground — through strategic choices deepening its place within competing imperial architectures.
 
-**Post‑Soviet independence was conditioned by imperial logic.** The 1994 _Budapest Memorandum_ saw Kyiv surrender the world’s third‑largest nuclear arsenal for "security assurances" from the US, UK and Russia — powers now exploiting or assaulting its sovereignty.
+**Post-Soviet independence was conditioned by imperial logic.** The 1994 _Budapest Memorandum_ saw Kyiv surrender the world's third-largest nuclear arsenal for "security assurances" from the US, UK and Russia — powers now exploiting or assaulting its sovereignty.
 
-Collapse of that agreement exposes liberal diplomacy’s truth: under empire _security is commodity; guarantees last only while profitable_. Ukraine’s integration choices, alongside extraction‑based economic models, made it a predictable flashpoint.
+Collapse of that agreement exposes liberal diplomacy's truth: under empire _security is commodity; guarantees last only while profitable_. Ukraine's integration choices, alongside extraction-based economic models, made it a predictable flashpoint.
 
 ---
 
@@ -97,9 +97,9 @@ Across Africa, Asia and Latin America governments are pressed to choose sides; n
 Sanctions inflate fuel and food prices; disrupted grain flows push millions into hunger. War triggers **largest rise in food insecurity since 2008** yet Western narratives reduce consequences to footnotes.
 
 Real divide transcends democracy vs autocracy — it is **imperial core versus periphery**.
-Countries rejecting alignment scolded as "pro‑authoritarian"; those complying rewarded with debt.
+Countries rejecting alignment scolded as "pro-authoritarian"; those complying rewarded with debt.
 
-Still the Global South resists conscription. BRICS diplomacy, African mediation, South American non‑alignment signal geopolitical imagination: **a world unwilling to kneel before empire's chosen enemies.**
+Still the Global South resists conscription. BRICS diplomacy, African mediation, South American non-alignment signal geopolitical imagination: **a world unwilling to kneel before empire's chosen enemies.**
 
 ---
 
@@ -109,7 +109,7 @@ Even amid wreckage, people resist.
 
 - Ukrainian trade unions oppose wartime deregulation eroding rights.
 - Feminist and socialist collectives demand reconstruction for people not capital.
-- Russian anti‑war activists risk prison to speak truth.
+- Russian anti-war activists risk prison to speak truth.
 - European climate movements denounce greenwashing of militarism as "energy security".
 
 Their struggles remind: **peace worth fighting for is liberation, not pacification** — from oligarchy, fossil dependence and the war economy.

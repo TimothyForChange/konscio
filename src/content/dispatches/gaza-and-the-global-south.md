@@ -35,7 +35,7 @@ This extends beyond war itself. It involves a world order built on the belief th
 
 ## The Architecture of Domination
 
-The genocide in Gaza did not begin in **2023**. It began with **settler colonialism** — economic and racial logic of empire carried into the twenty‑first century.
+The genocide in Gaza did not begin in **2023**. It began with **settler colonialism** — economic and racial logic of empire carried into the twenty-first century.
 The British Mandate, the Balfour Declaration, and the Zionist project were all instruments of the same system that partitioned Africa, enslaved millions, and enclosed the Earth's commons for capital.
 
 The methods evolve: sanctions instead of gunboats, drones instead of gunpowder; the structure endures — **the right to dominate, the right to extract, the right to decide who lives and who dies.**
@@ -53,8 +53,8 @@ In Bolivia and Colombia: militarised resource zones feeding global markets. Diff
 
 ### Weapons as Commodities
 
-Israel's bombardment of Gaza is enabled by a transnational military‑industrial complex that profits from endless war.
-The same corporations — **Lockheed Martin, BAE Systems, Thales, Northrop Grumman** — sell weapons tested on Palestinians then exported as "battle‑proven". Occupation becomes a laboratory for repression exported to police borders, refugees and protesters.
+Israel's bombardment of Gaza is enabled by a transnational military-industrial complex that profits from endless war.
+The same corporations — **Lockheed Martin, BAE Systems, Thales, Northrop Grumman** — sell weapons tested on Palestinians then exported as "battle-proven". Occupation becomes a laboratory for repression exported to police borders, refugees and protesters.
 
 Class interests are clear. **Defence contractors** profit from perpetual conflict. **Technology firms** sell surveillance systems monitoring Palestinian movement. **Energy companies** seek offshore gas. **Real estate developers** plan settlements on cleared land. **Financial institutions** profit from arms loans to reconstruction bonds.
 
@@ -97,7 +97,7 @@ From Johannesburg to Jakarta, Caracas to Cairo, movements recognise Gaza as **fr
 - Indigenous movements in the Americas and Pacific see parallels in **land theft, militarisation and cultural erasure**.
 - South Africa’s case at the **International Court of Justice (ICJ)** asserts what the Global North refuses: genocide cannot be justified by power.
 - Across Latin America Indigenous environmental defenders connect struggles against extractive violence to the Palestinian cause.
-- In the Global North youth climate movements defy repression and refuse separation between _ecological_ and _anti‑imperialist_ politics.
+- In the Global North youth climate movements defy repression and refuse separation between _ecological_ and _anti-imperialist_ politics.
 
 This is **internationalism reborn** — solidarity not as sentiment but as structure: an alliance of the dispossessed against empire in all its forms.
 
@@ -114,9 +114,9 @@ These campaigns succeed because they target genocide’s material infrastructure
 
 The West calls this a "conflict". What we witness is the logic of **colonial modernity** laid bare: a civilisation justifying genocide in the name of order, progress or security.
 
-To stand with Gaza is to stand against the system treating life as expendable — the same system driving climate breakdown, debt slavery and resource plunder. Eco‑socialism and decolonisation are practical demands of survival.
+To stand with Gaza is to stand against the system treating life as expendable — the same system driving climate breakdown, debt slavery and resource plunder. Eco-socialism and decolonisation are practical demands of survival.
 
-True solidarity means dismantling the global military‑financial complex and building a world where resources serve life, not empire.
+True solidarity means dismantling the global military-financial complex and building a world where resources serve life, not empire.
 
 ---
 
@@ -125,7 +125,7 @@ True solidarity means dismantling the global military‑financial complex and bu
 The task before us is not reform but replacement. A post-imperial world requires:
 
 - **Demilitarisation and reparations**: redirect trillions spent on war towards climate justice and reconstruction.
-- **Sovereignty for the dispossessed**: from Palestine to the Sahel, self‑determination and resource control.
+- **Sovereignty for the dispossessed**: from Palestine to the Sahel, self-determination and resource control.
 - **Degrowth and decolonisation in the North**: confront overconsumption and the illusion of endless expansion.
 - **Planetary solidarity**: internationalism built on justice, not hierarchy.
 

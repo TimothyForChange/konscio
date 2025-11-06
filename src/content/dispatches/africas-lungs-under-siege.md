@@ -3,7 +3,7 @@ title: "The Congo Basin: Africa's Lungs Under Siege"
 author: "Timothy Brits"
 datePublished: 2025-10-26
 description: "An eco-socialist analysis of how deforestation, extractivism, and neo-colonial conservation threaten the Congo Basin, the planet's second-largest rainforest and a vital climate stabiliser."
-excerpt: 'The Congo Basin is the Earth''s second lung, absorbing billions of tonnes of carbon each year. Yet it is being sacrificed for profit, through logging, mining, and false "green" promises. This is not just an environmental crisis; it is a struggle for justice, sovereignty, and survival.'
+excerpt: "The Congo Basin is the Earth's second lung, absorbing billions of tonnes of carbon each year. Yet it is being sacrificed for profit, through logging, mining, and false 'green' promises. This is not just an environmental crisis; it is a struggle for justice, sovereignty, and survival."
 image: /images/africas-lungs-under-siege.jpg
 categories: ["Analysis"]
 tags: ["Congo Basin", "Climate Justice", "Decolonisation", "Global South"]
@@ -25,7 +25,7 @@ This is not merely a story about trees. It is about **who decides the fate of th
 
 From Kinshasa to Brazzaville to Yaoundé, governments auction logging concessions, oil blocks and "sustainable development" zones that carve deep scars into one of Earth's most vital ecosystems.
 
-French logging giants, Chinese mining firms and Western‑backed agribusinesses vie for control. Roads and rail lines slice through once‑intact forest corridors. Palm oil plantations expand under the banner of "green growth". Even the World Bank and IMF promote timber exports as a path to "poverty reduction".
+French logging giants, Chinese mining firms and Western-backed agribusinesses vie for control. Roads and rail lines slice through once-intact forest corridors. Palm oil plantations expand under the banner of "green growth". Even the World Bank and IMF promote timber exports as a path to "poverty reduction".
 
 In truth, it is a **new Scramble for Africa** — only now the spoils are measured in hectares of rainforest and tonnes of carbon, not rubber and ivory. The imperial logic that carved the Basin at Berlin now parcels it through contracts, concessions and carbon markets.
 
@@ -54,7 +54,7 @@ For Indigenous peoples — Baka, Batwa, BaAka and many others — the forest is 
 
 "Protected areas" and logging concessions alike arrive with militarised enforcement. Armed guards patrol lands once open to hunting and gathering. Those who resist are criminalised as "poachers"; those who protest risk imprisonment or worse.
 
-UN and NGO reports document **violent evictions and abuses by eco‑guards** funded by major international conservation groups, including WWF. These operations mirror the extractive logic they claim to oppose: conservation displacing communities who have stewarded these lands for generations.
+UN and NGO reports document **violent evictions and abuses by eco-guards** funded by major international conservation groups, including WWF. These operations mirror the extractive logic they claim to oppose: conservation displacing communities who have stewarded these lands for generations.
 
 Despite violence, resistance endures. Indigenous women's networks in Itombwe and Équateur lead **community reforestation projects** and protest illegal logging. Youth groups map forest crimes with GPS; associations demand **legal recognition of collective land rights.** Across the Basin people assert a radical truth: _living with the forest is wisdom, not backwardness._
 
@@ -74,7 +74,7 @@ Destroying the Basin dismantles one of Earth's last living climate regulators �
 
 Global North governments congratulate themselves for funding "forest protection" programmes; the fine print tells another story.
 
-Conservation is outsourced to Western NGOs. Profits are privatised while decision‑making remains foreign. Local knowledge is ignored; sovereignty denied.
+Conservation is outsourced to Western NGOs. Profits are privatised while decision-making remains foreign. Local knowledge is ignored; sovereignty denied.
 
 Northern climate politics often repeat this pattern: demanding emission cuts at home while silent about corporate pillage in the South. This selective environmentalism treats African land as carbon sponge rather than territory inhabited by people with political rights.
 
@@ -87,14 +87,14 @@ True climate justice requires more than technological fixes or markets. It deman
 To protect the Basin is to challenge the system that endangers it.
 That means recognising forest peoples' right to govern land, rejecting extractive "green growth" and demanding reparative climate finance — not charity, justice.
 
-A genuinely eco‑socialist approach would:
+A genuinely eco-socialist approach would:
 
 - **Return control** of forests to Indigenous and local communities through recognition of collective land rights and **Free, Prior and Informed Consent**.
 - **End export dependency** by building locally rooted, diversified economies.
 - **Hold corporations accountable** via binding law, transparent supply chains and liability for harm.
 - **Demand degrowth** in the Global North where overconsumption drives destruction elsewhere.
 
-Protecting the Basin is **planetary self‑defence**, not altruism.
+Protecting the Basin is **planetary self-defence**, not altruism.
 
 ---
 

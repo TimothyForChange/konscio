@@ -28,11 +28,11 @@ The same commercial appetites that turned the Congo into mineral violence and Pa
 Sudan's civil war has a material heartbeat: gold.
 Since large-scale fighting erupted in April **2023**, the **Rapid Support Forces (RSF)** — a militia born from Janjaweed death squads — have built an economy on smuggling, forced labour and cross-border trade.[^1]
 
-The **Sudanese Armed Forces (SAF)**, the formal army, represents the institutional legacy of an extractive neo‑colonial state apparatus.
+The **Sudanese Armed Forces (SAF)**, the formal army, represents the institutional legacy of an extractive neo-colonial state apparatus.
 
 Though formally structured, SAF leadership has long been enmeshed in networks of extraction and corruption that enabled RSF emergence. Even its 'defensive' operations often protect extraction infrastructure and imperial interests rather than civilians.
 
-The SAF's failures are political; the RSF's crimes existential — both emerge from a colonial‑modern state structure built to facilitate extraction.
+The SAF's failures are political; the RSF's crimes existential — both emerge from a colonial-modern state structure built to facilitate extraction.
 
 Investigations show RSF commanders capturing gold mines in Darfur and South Kordofan, forcing miners to work under militia supervision and using profits to import drones and weapons. Towns razed; survivors speak of massacres, rape and forced displacement — violence funded by bullion and lubricated by Gulf money.
 
@@ -44,7 +44,7 @@ These routes convert looted land into currency, sustaining militias that wage wa
 
 ## Plunder as Policy
 
-The RSF's economic model is textbook neo‑colonial extraction.
+The RSF's economic model is textbook neo-colonial extraction.
 It does not build or govern; it consumes. Its commanders sell gold through foreign intermediaries, buy weapons through the same channels, and use violence to secure new sources of loot.
 
 Darfur, long the site of genocide, has become the militia's treasury. Satellite imagery and reports confirm scorched villages and mass graves. Women enslaved in mining zones; children conscripted. Atrocities are not incidental — they are operating logic.
@@ -58,7 +58,7 @@ By contrast SAF power is bureaucratic and brittle: clinging to state legitimacy 
 
 ## Bodies and Land: The Human and Ecological Toll
 
-Human toll is staggering. As of late 2025, conflict deaths exceed **20,000**; **over 12 million people displaced** — the world's largest displacement crisis. Cities — El Geneina, Nyala, Omdurman — scarred by RSF shelling and scorched‑earth tactics. Corridors blocked, aid looted, civilians targeted for ethnicity.
+Human toll is staggering. As of late 2025, conflict deaths exceed **20,000**; **over 12 million people displaced** — the world's largest displacement crisis. Cities — El Geneina, Nyala, Omdurman — scarred by RSF shelling and scorched-earth tactics. Corridors blocked, aid looted, civilians targeted for ethnicity.
 
 Mining is a second front. Unregulated pits use mercury and cyanide, contaminating rivers and soil. Deforestation spreads across Darfur and South Kordofan. What gold cannot kill by bullet it poisons by run-off.
 
@@ -71,7 +71,7 @@ SAF presence slows some environmental devastation, yet both sides remain trapped
 The international system is not a bystander.
 The **UAE's gold markets** and refiners are central to laundering RSF gold, even as the Gulf presents itself as peace broker. Dubai's **Al Etihad Gold** and others process Sudanese gold with minimal oversight.[^4] **Wagner Group** (rebranded after Prigozhin) has trained RSF units and facilitated logistics for mining access; Wagner-linked entities provide advisors, tactical expertise and combat support.
 
-Meanwhile **Egypt** aligns with the SAF, providing political support and opening borders to SAF‑aligned forces and refugees — driven by spillover fears and Nile water politics.
+Meanwhile **Egypt** aligns with the SAF, providing political support and opening borders to SAF-aligned forces and refugees — driven by spillover fears and Nile water politics.
 
 Regional geopolitics are complicated by **Saudi Arabia**, **Qatar** and **Ethiopia**, each drawn in through support, border clashes or mediation. Sudan's gold wealth acts as magnet for regional imperial influence.
 
@@ -88,10 +88,10 @@ In the DRC cobalt and coltan finance corporate empires.
 In Palestine land is expropriated under "security".
 In Sudan gold fuels a militia serving as warlord and subcontractor of empire.
 
-**Regional solidarity is emerging.** Chad civil society documents cross‑border RSF movements. **South African trade unions** call for sanctions on Dubai gold markets. **Egyptian rights groups** expose military cooperation. **Kenyan committees** investigate arms flows.
+**Regional solidarity is emerging.** Chad civil society documents cross-border RSF movements. **South African trade unions** call for sanctions on Dubai gold markets. **Egyptian rights groups** expose military cooperation. **Kenyan committees** investigate arms flows.
 
 This represents capitalism's natural form in the periphery: organised dispossession.
-The imperial core that buys "conflict‑free" gold sells the weapons that make it bloody.
+The imperial core that buys "conflict-free" gold sells the weapons that make it bloody.
 
 > "The question as to who and what is responsible for African underdevelopment can be answered at once: it is the international capitalist system."
 > — Walter Rodney, How Europe Underdeveloped Africa (1972)
@@ -102,7 +102,7 @@ The imperial core that buys "conflict‑free" gold sells the weapons that make i
 
 This conflict requires structural dismantling rather than pacification by press release.
 
-- **Cut off RSF's gold economy** via supply‑chain enforcement and sanctions on refineries, shippers and Gulf financiers.
+- **Cut off RSF's gold economy** via supply-chain enforcement and sanctions on refineries, shippers and Gulf financiers.
 - **Hold traders and banks accountable** for laundering via Dubai, Istanbul and European hubs.
 - **Support civilian/local governance** over resource zones — community not militia control.
 - **Cancel odious debts** and redirect funds to ecological restoration and survivor reparations.

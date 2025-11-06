@@ -27,19 +27,19 @@ This isn't academic hair-splitting. We're talking about material support: weapon
 
 The relationship deepened as both states grew internationally isolated — South Africa under sanctions and Israel under intense regional pressure. Political loneliness incentivised covert cooperation, trade and transfer of repressive expertise.
 
-The clearest documentary shock came in 2010 when apartheid‑era papers reportedly showed Israel offered to sell nuclear warheads to South Africa. The Israeli presidency denied the claim, yet the archival revelation was significant.
+The clearest documentary shock came in 2010 when apartheid-era papers reportedly showed Israel offered to sell nuclear warheads to South Africa. The Israeli presidency denied the claim, yet the archival revelation was significant.
 
 ---
 
 ## The Evolution of a Secret Partnership
 
-Contacts date to the early post‑1948 era, but cooperation deepened after the 1960s as each state faced mounting diplomatic pressure.
+Contacts date to the early post-1948 era, but cooperation deepened after the 1960s as each state faced mounting diplomatic pressure.
 
 Israel's arms industry expanded, specialising in rugged, exportable systems; South Africa sought weapons, training and technical expertise to sustain regional interventions and bypass sanctions.
 
-Intensity rose in the 1970s and 1980s, especially after the post‑1977 Likud government adopted harder realpolitik, translating into pragmatic security arrangements with pariah regimes. Archival reconstructions show a pattern: formal rhetoric of distance paired with abundant covert commercial ties.
+Intensity rose in the 1970s and 1980s, especially after the post-1977 Likud government adopted harder realpolitik, translating into pragmatic security arrangements with pariah regimes. Archival reconstructions show a pattern: formal rhetoric of distance paired with abundant covert commercial ties.
 
-Not merely transactional, the alliance reflected a broader logic: settler states exchange policing and counter‑insurgency practices; when norms bite, secrecy lubricates ongoing repression. For activists today this structural lesson keeps the history urgent.
+Not merely transactional, the alliance reflected a broader logic: settler states exchange policing and counter-insurgency practices; when norms bite, secrecy lubricates ongoing repression. For activists today this structural lesson keeps the history urgent.
 
 ---
 
@@ -47,27 +47,27 @@ Not merely transactional, the alliance reflected a broader logic: settler states
 
 ### The Flow of Weapons and Repression
 
-Israel became a major supplier of weapons, components and training — small arms, ammunition, aircraft parts, missile technology. Embargoes pushed both sides into covert channels, shell companies and third‑party rerouting. Supplies strengthened SADF and police units enforcing apartheid and intervening regionally. Polakow‑Suransky's archival work and South African publishing archives document these links.
+Israel became a major supplier of weapons, components and training — small arms, ammunition, aircraft parts, missile technology. Embargoes pushed both sides into covert channels, shell companies and third-party rerouting. Supplies strengthened SADF and police units enforcing apartheid and intervening regionally. Polakow-Suransky's archival work and South African publishing archives document these links.
 
 ### The Transfer of Repressive Knowledge
 
-Beyond hardware flowed doctrine and technical know‑how: counter‑insurgency methods, interrogation practices, policing techniques treating populations as security problems. These "soft" exports — training programmes, advisory exchanges, surveillance tech — are harder to quantify yet central. Knowledge transfer professionalised repression, turning ad‑hoc violence into bureaucratised control.
+Beyond hardware flowed doctrine and technical know-how: counter-insurgency methods, interrogation practices, policing techniques treating populations as security problems. These "soft" exports — training programmes, advisory exchanges, surveillance tech — are harder to quantify yet central. Knowledge transfer professionalised repression, turning ad-hoc violence into bureaucratised control.
 
 ### Nuclear Collaboration: The Evidence
 
-This is the most contested part. In 2010 apartheid‑era documents reported by _The Guardian_ suggested Israel offered to sell nuclear warheads to South Africa — the strongest archival indication of nuclear‑level discussions. Separately, the 22 Sept 1979 "Vela incident" — a double flash over the South Atlantic — is long suspected as an atmospheric nuclear test, possibly joint. Declassified US documents and expert reviews (National Security Archive; Wilson Center) show many analysts judged test probability high, though official positions remain ambiguous and records partly redacted. The case is not proven, but released material increasingly supports the hypothesis of a man‑made test and plausible cooperation.
+This is the most contested part. In 2010 apartheid-era documents reported by _The Guardian_ suggested Israel offered to sell nuclear warheads to South Africa — the strongest archival indication of nuclear-level discussions. Separately, the 22 Sept 1979 "Vela incident" — a double flash over the South Atlantic — is long suspected as an atmospheric nuclear test, possibly joint. Declassified US documents and expert reviews (National Security Archive; Wilson Center) show many analysts judged test probability high, though official positions remain ambiguous and records partly redacted. The case is not proven, but released material increasingly supports the hypothesis of a man-made test and plausible cooperation.
 
 ---
 
 ## The Human and Environmental Toll
 
-Transfers had victims: weapons and counter‑insurgency enabled mass detentions, disappearances and lethal crackdowns domestically and regionally. Militarisation distorted budgets — arms and surveillance over housing, health, education. Environmental harms followed (uranium mining, militarised land use). Legacy: fractured communities, contested truth, ecological scars. Archives are a ledger of suffering, not academic curiosity.
+Transfers had victims: weapons and counter-insurgency enabled mass detentions, disappearances and lethal crackdowns domestically and regionally. Militarisation distorted budgets — arms and surveillance over housing, health, education. Environmental harms followed (uranium mining, militarised land use). Legacy: fractured communities, contested truth, ecological scars. Archives are a ledger of suffering, not academic curiosity.
 
 ---
 
 ## Exposing Hidden Collaborations
 
-Anti‑apartheid mobilisation, sanctions and solidarity campaigns isolated Pretoria and exposed ties. Truth commissions and archival releases filled some gaps; others remain classified (including facets of Vela). Lesson: secrecy and economic leverage protect abuses until popular pressure and transparency break networks. For solidarity with Palestine the warning stands: arms, surveillance tech and "security" expertise are portable commodities that, paired with diplomatic shielding, make oppression resilient. Watch supply lines; name actors.
+Anti-apartheid mobilisation, sanctions and solidarity campaigns isolated Pretoria and exposed ties. Truth commissions and archival releases filled some gaps; others remain classified (including facets of Vela). Lesson: secrecy and economic leverage protect abuses until popular pressure and transparency break networks. For solidarity with Palestine the warning stands: arms, surveillance tech and "security" expertise are portable commodities that, paired with diplomatic shielding, make oppression resilient. Watch supply lines; name actors.
 
 ---
 

@@ -28,7 +28,7 @@ The violent patterns seen in the DRC today are not anomalies that emerged after 
 
 > As Adam Hochschild writes in King Leopold's Ghost (1998), the Congo Free State was "not a colony but the world's only private colony — the personal possession of a single individual."
 
-Contemporary extraction follows the same blueprint: external demand sets the terms, local governance is weakened or co‑opted, and violence — economic, political, and physical — enforces supply. Minerals are turned into global commodities; communities are reduced to labour pools or obstacles to be removed. Language changes, but the operation remains recognisably colonial.
+Contemporary extraction follows the same blueprint: external demand sets the terms, local governance is weakened or co-opted, and violence — economic, political, and physical — enforces supply. Minerals are turned into global commodities; communities are reduced to labour pools or obstacles to be removed. Language changes, but the operation remains recognisably colonial.
 
 ---
 
@@ -36,7 +36,7 @@ Contemporary extraction follows the same blueprint: external demand sets the ter
 
 The Global North's shift to "green" technologies requires vast quantities of specific minerals. This demand is framed as urgent and moral: save the planet by switching to electric vehicles and renewable systems. But moralising the commodity does not alter the politics of its production. A few structural points to note:
 
-- **Supply chains concentrate value outside the DRC.** The country supplies roughly **70% of global cobalt** production, yet under **5%** is refined locally. Raw extraction is low‑paid and ecologically destructive, while most value is captured further along the chain — refining, component manufacturing, final branding — largely beyond African borders. A tonne of refined cobalt can fetch twenty times the price of the raw ore leaving Congolese ports.
+- **Supply chains concentrate value outside the DRC.** The country supplies roughly **70% of global cobalt** production, yet under **5%** is refined locally. Raw extraction is low-paid and ecologically destructive, while most value is captured further along the chain — refining, component manufacturing, final branding — largely beyond African borders. A tonne of refined cobalt can fetch twenty times the price of the raw ore leaving Congolese ports.
 - **Actors of accumulation are transnational.** Mining firms, traders, smelters and financiers — headquartered in the Global North or Beijing, Dubai and other corporate hubs — structure the market: they set prices and labour standards. Chinese state and private companies now control roughly **80%** of Congolese cobalt output, illustrating how capital continues colonial extraction under new management.
 - **Instability is engineered as a profit condition.** Weak governance and contested territories help secure concessions, favourable contracts and control over informal economies. What is framed as a humanitarian crisis functions as a market strategy.
 - **Green rhetoric masks continuity.** Label a mine "critical for the energy transition" and the social and ecological violence is sanitised; consumers and states in the Global North are absolved of responsibility.
@@ -89,7 +89,7 @@ We must also confront our own demand. Technologies do not appear out of thin air
 If you want to act in meaningful solidarity, here are immediate, politically coherent steps:
 
 - **Centre Congolese voices.** Read and circulate analysis written by Congolese activists, scholars and community groups. Amplify demands rather than narrating suffering.
-- **Support community‑led organisations.** Prioritise funding and attention for grassroots groups advancing labour rights, environmental defence and local governance.
+- **Support community-led organisations.** Prioritise funding and attention for grassroots groups advancing labour rights, environmental defence and local governance.
 - **Hold corporations and states accountable.** Demand transparent supply chains, local value addition, reparative funds and binding liability for ecological and labour harms.
 - **Demand policy change.** Campaign for trade, aid and investment rules that do not privilege extractive profit over human and ecological rights.
 

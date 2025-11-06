@@ -14,7 +14,7 @@ draft: true
 
 Every day South Africans queue for hours in understaffed clinics. Mothers sleep upright beside beds because wards are overcrowded. Nurses work double shifts with broken equipment and scant protection. This is not bad luck or "inefficiency". It is structural violence: survival pegged to income; poverty punished with illness and death — engineered through distribution of resources.
 
-The National Health Insurance (NHI) is not technocratic reform; it is a moral test of the post‑apartheid settlement.
+The National Health Insurance (NHI) is not technocratic reform; it is a moral test of the post-apartheid settlement.
 
 ---
 
@@ -30,11 +30,11 @@ Signed into law in May 2024, the NHI promises to pool public and private funds i
 
 ## Who Opposes It and Why
 
-Power does not surrender profit. The loudest critics are those enriched by the two‑tier system. Private hospital corporations, medical aid administrators and political allies warn the NHI will "collapse healthcare" or "chase away doctors". What they fear is not collapse — but equity.
+Power does not surrender profit. The loudest critics are those enriched by the two-tier system. Private hospital corporations, medical aid administrators and political allies warn the NHI will "collapse healthcare" or "chase away doctors". What they fear is not collapse — but equity.
 
 Business lobbies call it "unaffordable" — meaning unaffordable for them. The same voices cheering corporate tax cuts discover fiscal prudence when redistribution appears. Discovery Health spends millions marketing yet cries poverty when asked to share. Treasury invokes "growth constraints" while austerity itself strangles growth.
 
-Liberal opposition cloaks defence of privilege in moral language — "freedom of choice". In a country where most cannot afford medical aid that "choice" is a fiction. Warnings of a "Cuban‑style monopoly" invert reality: they shield an existing private monopoly turning suffering into profit.
+Liberal opposition cloaks defence of privilege in moral language — "freedom of choice". In a country where most cannot afford medical aid that "choice" is a fiction. Warnings of a "Cuban-style monopoly" invert reality: they shield an existing private monopoly turning suffering into profit.
 
 Healthcare must not depend on market generosity; it must rest on human dignity.
 
@@ -49,7 +49,7 @@ This model offers major gains when done well:
 - **Equity:** Care according to need, not income.
 - **Efficiency:** Centralised purchasing cuts duplication and waste.
 - **Solidarity:** The healthy support the sick; everyone will need care.
-- **Decolonisation:** Ends the colonial logic reserving world‑class medicine for the rich.
+- **Decolonisation:** Ends the colonial logic reserving world-class medicine for the rich.
 
 Universal healthcare is not charity; it is collective dignity. Illness is social — shaped by poverty, pollution and work. The NHI institutionalises that truth.
 
@@ -62,7 +62,7 @@ Still, no illusion is useful. The NHI faces serious obstacles.
 **State capacity** is fragile. Corruption, mismanagement and low morale have hollowed the public system. Passing a law is easier than running a hospital.
 Infrastructure upgrades, staff recruitment, and transparent procurement will take sustained commitment.
 
-**Fiscal constraint** is real yet political. Treasury resists wealth taxes and prefers austerity while billions leak via profit‑shifting, elite bailouts and wasteful defence spending. South Africa lacks redistribution, not resources.
+**Fiscal constraint** is real yet political. Treasury resists wealth taxes and prefers austerity while billions leak via profit-shifting, elite bailouts and wasteful defence spending. South Africa lacks redistribution, not resources.
 
 **Administrative complexity**: vast data systems for records, payments and accreditation. Outsourcing to private vendors invites corruption. Build open, auditable, locally controlled systems.
 
@@ -82,9 +82,9 @@ The government can deliver if it acts with clarity and courage.
 
 **3. Repair infrastructure.** Prioritise water, electricity and basic equipment. Use public works to upgrade clinics and create jobs — direct stimulus.
 
-**4. Protect data commons.** Build open‑source, locally controlled systems. Make every transaction traceable. Public technology enables accountability.
+**4. Protect data commons.** Build open-source, locally controlled systems. Make every transaction traceable. Public technology enables accountability.
 
-**5. Empower communities.** Health committees, unions and patient associations monitor clinics and report failures. Decentralised oversight is anti‑corruption infrastructure.
+**5. Empower communities.** Health committees, unions and patient associations monitor clinics and report failures. Decentralised oversight is anti-corruption infrastructure.
 
 **6. Shift narrative.** Stop apologising for redistribution. The Constitution already guarantees healthcare; the NHI operationalises that right.
 
@@ -114,11 +114,11 @@ A just health system will be built from below.
 
 ## Health, Ecology, and Liberation
 
-Eco‑socialism teaches human and planetary health are the same fight. The logic that poisons rivers also underfunds hospitals and discards workers. A society valuing profit over life destroys both people and planet.
+Eco-socialism teaches human and planetary health are the same fight. The logic that poisons rivers also underfunds hospitals and discards workers. A society valuing profit over life destroys both people and planet.
 
 The NHI challenges that logic: life is not a budget line; care is a public good; solidarity is structure, not sentiment.
 
-If the NHI works it proves a post‑colonial society can build universal care without neoliberal fatalism. Democracy becomes more than voting — collective organisation of life.
+If the NHI works it proves a post-colonial society can build universal care without neoliberal fatalism. Democracy becomes more than voting — collective organisation of life.
 
 ---
 
