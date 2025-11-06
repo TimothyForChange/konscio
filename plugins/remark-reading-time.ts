@@ -23,7 +23,7 @@ export function remarkReadingTime(
         wordsPerMinute: Math.max(1, wordsPerMinute),
       });
       file.data.astro.frontmatter.minutesRead = readingTime.text;
-    } catch (error) {
+    } catch {
       if (file?.data?.astro?.frontmatter) {
         file.data.astro.frontmatter.minutesRead = "1 min read";
       }
