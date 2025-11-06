@@ -17,7 +17,7 @@
     "check": "astro check",
     "dev": "astro dev",
     "format": "prettier --write . --log-level warn",
-    "link-check": "node plugins/link-check.ts",
+    "link-check": "node scripts/link-check.ts",
     "lint": "eslint . --fix --cache --cache-location .eslintcache",
     "preview": "astro preview",
     "test": "vitest --run"

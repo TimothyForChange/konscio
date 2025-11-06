@@ -7,7 +7,7 @@ import {
   checkLinks,
   extractLinks,
   getSourceFiles,
-} from "../../plugins/link-check.ts";
+} from "../../scripts/link-check.ts";
 
 vi.mock("fs");
 vi.mock("path");
