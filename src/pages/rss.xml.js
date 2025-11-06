@@ -7,7 +7,10 @@ export async function GET(context) {
   });
 
   const items = Object.entries(posts)
-    .filter(([_path, post]) => post && post.frontmatter)
+    .filter(
+      ([_path, post]) =>
+        post && post.frontmatter && post.frontmatter.draft !== true
+    )
     .map(([path, post]) => {
       const slug = path
         .split("/")

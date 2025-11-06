@@ -5,7 +5,7 @@ export async function GET() {
     const posts = await getCollection("dispatches");
 
     const processedPosts = posts
-      .filter((post) => post && post.data)
+      .filter((post) => post && post.data && post.data.draft !== true)
       .map((post) => {
         let dateObj;
         if (post.data.datePublished instanceof Date) {
