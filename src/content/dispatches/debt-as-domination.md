@@ -21,7 +21,7 @@ draft: true
 
 Debt is not neutral economics. It is politics — the politics of obedience.
 
-Across Africa governments spend more repaying creditors than educating children or treating the sick. In 2024 they devoted on average **18% of public revenue** to debt service — over double health spending. Marketed as "fiscal discipline"; in reality control. Interest becomes rent charged for independence — tribute to empire’s financial return.
+Across Africa governments spend more repaying creditors than educating children or treating the sick. In 2024 they devoted on average **18% of public revenue** to debt service — over double health spending. Marketed as "fiscal discipline"; in reality control. Interest becomes rent charged for independence — tribute to empire's financial return.
 
 Twentieth-century domination spoke in the language of civilisation; twenty-first in credit ratings, debt sustainability and macroeconomic reform. The IMF no longer arrives with troops but spreadsheets. Result: sovereignty mortgaged, policy dictated, futures foreclosed.
 
@@ -39,7 +39,7 @@ The 1980s brought structural adjustment: austerity and privatisation. Schools cl
 
 Kwame Nkrumah named it early: _neo-colonialism — the last stage of imperialism_. Colony gone; system remained. Flow of power reversed in form not direction: gold and rubber replaced by interest and repayment.
 
-The 2000s brought the HIPC initiative’s promise of relief — yet institutions dictated terms. Eurobond markets reabsorbed the continent into speculative circuits. Old colonial powers now share the field with China, Gulf states and hedge funds. Masters multiply; hierarchy endures.
+The 2000s brought the HIPC initiative's promise of relief — yet institutions dictated terms. Eurobond markets reabsorbed the continent into speculative circuits. Old colonial powers now share the field with China, Gulf states and hedge funds. Masters multiply; hierarchy endures.
 
 ---
 
@@ -49,7 +49,7 @@ The 2000s brought the HIPC initiative’s promise of relief — yet institutions
 
 Each programme repeats: "cut to grow", "tighten to stabilise". Austerity is punishment — transferring pain downward and profit upward. Every cut political; every closed clinic violence.
 
-Zambia's 2020 default produced an IMF agreement imposing wage freezes and service cuts. Ethiopia’s debt service exceeded health spending amid drought and conflict. Senegal’s 2025 downgrade shows obedience earns no mercy. The more you comply, the more you owe.
+Zambia's 2020 default produced an IMF agreement imposing wage freezes and service cuts. Ethiopia's debt service exceeded health spending amid drought and conflict. Senegal's 2025 downgrade shows obedience earns no mercy. The more you comply, the more you owe.
 
 ### Rating Agency Imperialism
 
@@ -81,7 +81,7 @@ Zambia's 2020 default marked the beginning of punishment. G20 "Common Framework"
 
 Caught between Chinese loans and Western bondholders, Ethiopia became a battleground. Default in 2023 saw creditor blocs jockey for leverage. People paid in inflation and unemployment. Debt diplomacy replaced development diplomacy.
 
-Even compliant countries are not spared debt’s discipline.
+Even compliant countries are not spared debt's discipline.
 
 ### Senegal: Obedience Without Reward
 
@@ -132,7 +132,7 @@ Debt is currency of empire reborn.
 It disciplines governments, silences movements and sells the future to the highest bidder.
 But it is not immutable.
 
-Africa's liberation will not come from compliance, nor reform within exploitation’s architecture. It will come when economic sovereignty is reclaimed — systems serving life, not interest.
+Africa's liberation will not come from compliance, nor reform within exploitation's architecture. It will come when economic sovereignty is reclaimed — systems serving life, not interest.
 
 The same power that overthrew colonial rule can dismantle the financial chains that replaced it. Resistance is necessary.
 

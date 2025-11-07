@@ -26,7 +26,7 @@ The same commercial appetites that turned the Congo into mineral violence and Pa
 ## The Currency of Conflict
 
 Sudan's civil war has a material heartbeat: gold.
-Since large-scale fighting erupted in April **2023**, the **Rapid Support Forces (RSF)** — a militia born from Janjaweed death squads — have built an economy on smuggling, forced labour and cross-border trade.[^1]
+Since large-scale fighting erupted in April **2023**, the **Rapid Support Forces (RSF)** — a militia born from Janjaweed death squads — have built an economy on smuggling, forced labour and cross-border trade[^1].
 
 The **Sudanese Armed Forces (SAF)**, the formal army, represents the institutional legacy of an extractive neo-colonial state apparatus.
 
@@ -36,7 +36,7 @@ The SAF's failures are political; the RSF's crimes existential — both emerge f
 
 Investigations show RSF commanders capturing gold mines in Darfur and South Kordofan, forcing miners to work under militia supervision and using profits to import drones and weapons. Towns razed; survivors speak of massacres, rape and forced displacement — violence funded by bullion and lubricated by Gulf money.
 
-Legal exports, official channels and a vast shadow economy channel Sudanese gold to international markets. The **United Arab Emirates** absorbs up to **90%** of declared shipments.[^2] Behind those numbers lies a darker current: **RSF-controlled smuggling networks** moving gold via Chad, Libya and Egypt, bypassing oversight.[^3]
+Legal exports, official channels and a vast shadow economy channel Sudanese gold to international markets. The **United Arab Emirates** absorbs up to **90%** of declared shipments[^2]. Behind those numbers lies a darker current: **RSF-controlled smuggling networks** moving gold via Chad, Libya and Egypt, bypassing oversight[^3].
 
 These routes convert looted land into currency, sustaining militias that wage war not for liberation but for control of resource flows under a fragmented imperial apparatus.
 
@@ -69,7 +69,7 @@ SAF presence slows some environmental devastation, yet both sides remain trapped
 ## A Global Network of Complicity
 
 The international system is not a bystander.
-The **UAE's gold markets** and refiners are central to laundering RSF gold, even as the Gulf presents itself as peace broker. Dubai's **Al Etihad Gold** and others process Sudanese gold with minimal oversight.[^4] **Wagner Group** (rebranded after Prigozhin) has trained RSF units and facilitated logistics for mining access; Wagner-linked entities provide advisors, tactical expertise and combat support.
+The **UAE's gold markets** and refiners are central to laundering RSF gold, even as the Gulf presents itself as peace broker. Dubai's **Al Etihad Gold** and others process Sudanese gold with minimal oversight[^4]. **Wagner Group** (rebranded after Prigozhin) has trained RSF units and facilitated logistics for mining access; Wagner-linked entities provide advisors, tactical expertise and combat support.
 
 Meanwhile **Egypt** aligns with the SAF, providing political support and opening borders to SAF-aligned forces and refugees — driven by spillover fears and Nile water politics.
 
@@ -126,10 +126,10 @@ To end one we must confront both.
 
 ## References
 
-[^1]: Chatham House. [Gold and the War in Sudan](https://www.chathamhouse.org/2025/03/gold-and-war-sudan). _Chatham House_, March 2025.
+[^1]: Dr Suliman Baldo & Ahmed Soliman, "[Gold and the War in Sudan](https://www.chathamhouse.org/2025/03/gold-and-war-sudan)", _Chatham House_, March 2025.
 
-[^2]: Reuters. [Sudan’s Booming Wartime Gold Trade Flows Through UAE](https://www.reuters.com/world/africa/sudan-pound-suffers-de-facto-uae-flight-ban-hits-gold-exports-2025-10-21/). _Reuters_, Oct 21 2025.
+[^2]: Khalid Abdelaziz & Nafisa Eltahir, "[Sudan's Booming Wartime Gold Trade Flows Through UAE](https://www.reuters.com/world/africa/sudan-pound-suffers-de-facto-uae-flight-ban-hits-gold-exports-2025-10-21/)", _Reuters_, Oct 21 2025.
 
-[^3]: Le Monde. [The UAE’s Shady Role in Sudan — and Western Nations’ Culpable Indifference](https://www.lemonde.fr/en/le-monde-africa/article/2025/11/03/the-uae-s-shady-role-in-sudan-and-western-nations-culpable-indifference_6747044_124.html). _Le Monde_, Nov 3 2025.
+[^3]: Eliott Brachet, "[The UAE's Shady Role in Sudan — and Western Nations' Culpable Indifference](https://www.lemonde.fr/en/le-monde-africa/article/2025/11/03/the-uae-s-shady-role-in-sudan-and-western-nations-culpable-indifference_6747044_124.html)", _Le Monde_, Nov 3 2025.
 
-[^4]: Reuters. [Gold Worth Tens of Billions Smuggled Through UAE Each Year, Report Says](https://www.reuters.com/world/middle-east/gold-worth-tens-billions-smuggled-uae-each-year-report-says-2024-05-29/). _Reuters_, May 29 2024.
+[^4]: Reade Levinson & David Lewis, "[Gold Worth Tens of Billions Smuggled Through UAE Each Year, Report Says](https://www.reuters.com/world/middle-east/gold-worth-tens-billions-smuggled-uae-each-year-report-says-2024-05-29/)", _Reuters_, May 29 2024.

@@ -2,7 +2,7 @@
 title: "Eco-Socialism: The Politics of Survival"
 author: "Timothy Brits"
 datePublished: 2025-11-06
-description: "Eco-socialism is not an academic theory or a rebranding of green politics. It is the name of the struggle to end capitalism’s war on life — a politics of survival for people and planet alike."
+description: "Eco-socialism is not an academic theory or a rebranding of green politics. It is the name of the struggle to end capitalism's war on life — a politics of survival for people and planet alike."
 excerpt: "Eco-socialism is not about greening capitalism; it is about ending it. It joins social equality with ecological survival, demanding a world where production serves life, not profit."
 image: /images/eco-socialism-politics-of-survival.jpg
 categories: ["Theory"]
@@ -32,7 +32,7 @@ That means:
 - Collective ownership of the means of life — food, housing, water, care.
 - The abolition of exploitation and the restoration of ecological balance.
 
-Eco-socialism joins two traditions long separated by force. From socialism, it inherits the demand for equality and workers’ power. From ecology, it inherits reverence for the planet as a living system, not a warehouse. Together they form an ethic: liberation for humans and nature is one and the same.
+Eco-socialism joins two traditions long separated by force. From socialism, it inherits the demand for equality and workers' power. From ecology, it inherits reverence for the planet as a living system, not a warehouse. Together they form an ethic: liberation for humans and nature is one and the same.
 
 It is a politics rooted in solidarity, not charity — in the conviction that the liberation of one community cannot come at the expense of another.
 
@@ -56,7 +56,7 @@ And it is **not** lifestyle politics. You cannot recycle your way out of capital
 
 The idea did not appear from nowhere. It grows from a long lineage of resistance.
 
-Marx called capitalism a “metabolic rift” — the severing of the relationship between human labour and the Earth’s natural cycles. Rosa Luxemburg warned that imperialism was capitalism’s lifeline, feeding on the periphery to sustain its centre. Later, figures like Thomas Sankara, Vandana Shiva, Chico Mendes, and Ken Saro-Wiwa extended that logic: ecological destruction and exploitation are the same weapon aimed at different targets.
+Marx called capitalism a “metabolic rift” — the severing of the relationship between human labour and the Earth's natural cycles. Rosa Luxemburg warned that imperialism was capitalism's lifeline, feeding on the periphery to sustain its centre. Later, figures like Thomas Sankara, Vandana Shiva, Chico Mendes, and Ken Saro-Wiwa extended that logic: ecological destruction and exploitation are the same weapon aimed at different targets.
 
 Long before the term _eco-socialism_ existed, Indigenous movements lived its principles — stewardship, reciprocity, collective care. Anti-colonial struggles across Africa, Asia, and Latin America understood that the fight for land was the fight for life itself.
 

@@ -472,6 +472,174 @@ const dateModified = frontmatter.dateModified
     text-decoration: none;
   }
 
+  .post-content :global(.footnotes) {
+    margin-top: calc(var(--grid-unit) * 8);
+    padding-top: calc(var(--grid-unit) * 2);
+  }
+
+  .post-content :global(h2 + .footnotes),
+  .post-content :global(h3 + .footnotes) {
+    margin-top: calc(var(--grid-unit) * 2);
+  }
+
+  .post-content :global(.footnotes h2) {
+    font-family: var(--font-heading-secondary);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-text-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: calc(var(--grid-unit) * 3);
+  }
+
+  .post-content :global(.footnotes ol) {
+    list-style: decimal;
+    padding-left: calc(var(--grid-unit) * 3);
+    margin: 0;
+  }
+
+  .post-content :global(.footnotes li) {
+    margin-bottom: calc(var(--grid-unit) * 2);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .post-content :global(.footnotes li p) {
+    margin: 0 0 calc(var(--grid-unit) * 1);
+    display: block;
+  }
+
+  .post-content :global(.footnotes a) {
+    color: var(--color-accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+  }
+
+  .post-content :global(.footnotes a:hover) {
+    border-bottom-color: var(--color-accent);
+  }
+
+  .post-content :global(a[data-footnote-ref]) {
+    font-family: var(--font-mono);
+    font-size: 0.8em;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-decoration: none;
+    vertical-align: super;
+    padding: 0 2px;
+    border-radius: 2px;
+    transition: background-color 0.2s ease;
+  }
+
+  .post-content :global(a[data-footnote-ref]:hover) {
+    background-color: var(--color-surface);
+    text-decoration: none;
+  }
+
+  .post-content :global(a[data-footnote-backref]) {
+    font-family: var(--font-mono);
+    margin-left: calc(var(--grid-unit) / 2);
+    color: var(--color-text-muted);
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+
+  .post-content :global(a[data-footnote-backref]:hover) {
+    color: var(--color-accent);
+  }
+
+  .post-content :global(.heading-anchor) {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 0.5ch;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+    position: relative;
+  }
+
+  .post-content :global(.heading-anchor::before) {
+    content: "#";
+    font-family: var(--font-mono);
+    font-size: 0.75em;
+    color: var(--color-accent);
+  }
+
+  .post-content :global(h1:hover .heading-anchor),
+  .post-content :global(h2:hover .heading-anchor),
+  .post-content :global(h3:hover .heading-anchor),
+  .post-content :global(h4:hover .heading-anchor),
+  .post-content :global(h5:hover .heading-anchor),
+  .post-content :global(h6:hover .heading-anchor) {
+    opacity: 1;
+  }
+
+  .post-content :global(h1),
+  .post-content :global(h2),
+  .post-content :global(h3),
+  .post-content :global(h4),
+  .post-content :global(h5),
+  .post-content :global(h6) {
+    scroll-margin-top: 90px;
+  }
+
+  .post-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: calc(var(--grid-unit) * 4) 0;
+    font-size: 0.95rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+  }
+
+  .post-content :global(caption) {
+    caption-side: bottom;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    padding-top: calc(var(--grid-unit));
+    text-align: left;
+  }
+
+  .post-content :global(th),
+  .post-content :global(td) {
+    padding: calc(var(--grid-unit)) calc(var(--grid-unit) * 1.5);
+    border: 1px solid var(--color-border);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .post-content :global(thead th) {
+    background: var(--color-background);
+    font-family: var(--font-heading-secondary);
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-primary);
+  }
+
+  .post-content :global(tbody tr:nth-child(even)) {
+    background: var(--color-surface-alt, var(--color-surface));
+  }
+
+  .post-content :global(tbody tr:hover) {
+    background: var(--color-surface-hover, var(--color-surface));
+  }
+
+  @media (max-width: 768px) {
+    .post-content :global(table) {
+      font-size: 0.85rem;
+      display: block;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      border: 1px solid var(--color-border);
+    }
+    .post-content :global(th),
+    .post-content :global(td) {
+      white-space: nowrap;
+    }
+  }
+
   @media (max-width: 768px) {
     .post-title {
       font-size: 2.25rem;
