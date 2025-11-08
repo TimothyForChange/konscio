@@ -3,7 +3,7 @@ title: "Gaza and the Global South: Imperialism's Mirror"
 author: "Timothy Brits"
 datePublished: 2025-10-31
 description: "An eco-socialist and decolonial analysis connecting the genocide in Gaza to the global architecture of imperialism, showing how the same system that bombs Palestine also impoverishes, extracts, and exploits the Global South."
-excerpt: "Gaza is not exception. It is empire's mirror — frontier of a system that destroys life for profit and control. From Palestine to Congo, Yemen to Haiti, the same machinery of domination operates under different flags."
+excerpt: "Gaza is not exception. It is empire’s mirror — frontier of a system that destroys life for profit and control. From Palestine to Congo, Yemen to Haiti, the same machinery of domination operates under different flags."
 image: /images/gaza-and-the-global-south.jpg
 categories: ["Analysis"]
 tags: ["Palestine", "Imperialism", "Global South", "Decolonisation"]
@@ -95,7 +95,7 @@ From Johannesburg to Jakarta, Caracas to Cairo, movements recognise Gaza as **fr
 - South African activists invoke apartheid memory to call for **boycott, divestment and sanctions (BDS)** — echoing their own struggle.
 - Congolese and Sudanese organisers link struggles against extraction to the fight against occupation.
 - Indigenous movements in the Americas and Pacific see parallels in **land theft, militarisation and cultural erasure**.
-- South Africa's case at the **International Court of Justice (ICJ)** asserts what the Global North refuses: genocide cannot be justified by power.
+- South Africa’s case at the **International Court of Justice (ICJ)** asserts what the Global North refuses: genocide cannot be justified by power.
 - Across Latin America Indigenous environmental defenders connect struggles against extractive violence to the Palestinian cause.
 - In the Global North youth climate movements defy repression and refuse separation between _ecological_ and _anti-imperialist_ politics.
 
@@ -103,7 +103,7 @@ This is **internationalism reborn** — solidarity not as sentiment but as struc
 
 **Concrete victories mount.** University campaigns divest billions from Israeli bonds and defence contractors. Port workers in Oakland, Barcelona and Durban refuse Israeli cargo. Municipal BDS resolutions in 30+ cities end contracts with complicit firms. Student occupations force investment transparency. Healthcare workers document medical apartheid and testify internationally.
 
-These campaigns succeed because they target genocide's material infrastructure: finance, logistics, procurement, legitimacy. Solidarity is strategic action weakening empire's capacity to kill.
+These campaigns succeed because they target genocide’s material infrastructure: finance, logistics, procurement, legitimacy. Solidarity is strategic action weakening empire’s capacity to kill.
 
 > "If you have come here to help me, you are wasting your time. But if you have come because your liberation is bound up with mine, then let us work together."
 > — Lilla Watson and Aboriginal activists (1970s)
@@ -135,7 +135,7 @@ The fight for Gaza is the fight for Earth: the same empire that flattens homes b
 
 ## The Struggle Transcends Borders
 
-In Gaza's ruins we see a collective reflection: a civilisation willing to annihilate children for land will annihilate the planet for profit. The line between Palestine and the planet is thin.
+In Gaza’s ruins we see a collective reflection: a civilisation willing to annihilate children for land will annihilate the planet for profit. The line between Palestine and the planet is thin.
 
 > "But we know too well that our freedom is incomplete without the freedom of the Palestinians; without the resolution of conflicts in East Timor, the Sudan and other parts of the world."
 > — Nelson Mandela (1997)

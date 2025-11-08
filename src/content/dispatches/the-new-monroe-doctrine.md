@@ -35,13 +35,13 @@ Most troubling, major outlets report US officials have identified Venezuelan lan
 
 The Monroe Doctrine of **1823** proclaimed the Americas a US sphere of influence. Enforcement followed via invasions, coups, economic coercion and proxy wars. Vocabulary shifts — "manifest destiny" to "narco-terrorism"; weapons shift — marines to drones; grammar of control persists.
 
-When a superpower asserts unilateral right to kill at sea then prepares target lists ashore, it revives Monroe's core logic: hemisphere policed by one capital. Counter-narcotics rhetoric conceals a strategic posture privileging US judgement over regional sovereignty.
+When a superpower asserts unilateral right to kill at sea then prepares target lists ashore, it revives Monroe’s core logic: hemisphere policed by one capital. Counter-narcotics rhetoric conceals a strategic posture privileging US judgement over regional sovereignty.
 
 ## From Marines to Missiles: The Long War on Latin America's Sovereignty
 
 Not new: the US has repeatedly imposed its will on Latin America by force, subversion and economic coercion — wrapped in moral pretext.
 
-**1954**: CIA overthrows Guatemala's elected government after land nationalisation. **1961**: Bay of Pigs invasion targets Cuba's revolution. **1973**: backs Chilean coup installing Pinochet. **1983**: invades **Grenada** under rescue guise. **1989**: flattens **Panama City** neighbourhoods to capture Noriega.
+**1954**: CIA overthrows Guatemala's elected government after land nationalisation. **1961**: Bay of Pigs invasion targets Cuba’s revolution. **1973**: backs Chilean coup installing Pinochet. **1983**: invades **Grenada** under rescue guise. **1989**: flattens **Panama City** neighbourhoods to capture Noriega.
 
 Each episode: invented emergency, moral justification, overwhelming force. Doctrines shift — anti-communism, counter-terrorism, now counter-narcotics — substance constant. Washington claims power to decide which governments live, which movements rise, which lives may be taken.
 
