@@ -51,7 +51,7 @@ An Astro-powered publication exploring capitalism, colonialism, and climate coll
 
 ### Prerequisites
 
-- Node.js 24.11.0 or higher
+- Node.js 24.0.0 or higher
 - Git
 
 ### Installation
