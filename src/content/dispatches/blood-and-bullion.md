@@ -126,10 +126,10 @@ To end one we must confront both.
 
 ## References
 
-[^1]: Chatham House. [Gold and the War in Sudan](https://www.chathamhouse.org/2025/03/gold-and-war-sudan). _Chatham House_, March 2025.
+[^1]: Ahmed Soliman and Dr Suliman Baldo. Chatham House. [Gold and the War in Sudan](https://www.chathamhouse.org/2025/03/gold-and-war-sudan). _Chatham House_, March 2025.
 
-[^2]: Reuters. [Sudan’s Booming Wartime Gold Trade Flows Through UAE](https://www.reuters.com/world/africa/sudan-pound-suffers-de-facto-uae-flight-ban-hits-gold-exports-2025-10-21/). _Reuters_, Oct 21 2025.
+[^2]: Khalid Abdelaziz and Nafisa Eltahir. Reuters. [Sudan’s Booming Wartime Gold Trade Flows Through UAE](https://www.reuters.com/world/africa/sudan-pound-suffers-de-facto-uae-flight-ban-hits-gold-exports-2025-10-21/). _Reuters_, Oct 21 2025.
 
-[^3]: Le Monde. [The UAE’s Shady Role in Sudan — and Western Nations’ Culpable Indifference](https://www.lemonde.fr/en/le-monde-africa/article/2025/11/03/the-uae-s-shady-role-in-sudan-and-western-nations-culpable-indifference_6747044_124.html). _Le Monde_, Nov 3 2025.
+[^3]: Eliott Brachet. Le Monde. [The UAE’s Shady Role in Sudan — and Western Nations’ Culpable Indifference](https://www.lemonde.fr/en/le-monde-africa/article/2025/11/03/the-uae-s-shady-role-in-sudan-and-western-nations-culpable-indifference_6747044_124.html). _Le Monde_, Nov 3 2025.
 
-[^4]: Reuters. [Gold Worth Tens of Billions Smuggled Through UAE Each Year, Report Says](https://www.reuters.com/world/middle-east/gold-worth-tens-billions-smuggled-uae-each-year-report-says-2024-05-29/). _Reuters_, May 29 2024.
+[^4]: Reade Levinson and David Lewis. Reuters. [Gold Worth Tens of Billions Smuggled Through UAE Each Year, Report Says](https://www.reuters.com/world/middle-east/gold-worth-tens-billions-smuggled-uae-each-year-report-says-2024-05-29/). _Reuters_, May 29 2024.

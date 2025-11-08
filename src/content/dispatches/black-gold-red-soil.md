@@ -132,18 +132,18 @@ Solidarity with communities resisting at Ndassima, Mopti, El Fasher and all site
 
 ## References
 
-[^1]: Jamestown Foundation. [Africa Corps Maintains Russia's Presence in Africa After Wagner's Departure from Mali](https://jamestown.org/program/africa-corps-maintains-russias-presence-in-africa-after-wagners-departure-from-mali/). _The Jamestown Foundation_, July 16 2025.
+[^1]: Alex Horobets. Jamestown Foundation. [Africa Corps Maintains Russia's Presence in Africa After Wagner's Departure from Mali](https://jamestown.org/program/africa-corps-maintains-russias-presence-in-africa-after-wagners-departure-from-mali/). _The Jamestown Foundation_, July 16 2025.
 
-[^2]: Al Jazeera. ['We now face guns': Small-scale miners fear Wagner's advances in CAR](https://www.aljazeera.com/features/2024/7/10/we-now-face-guns-small-scale-miners-fear-wagners-advances-in-car). _Al Jazeera_, July 10 2024.
+[^2]: Philip Obaji Jr. Al Jazeera. ['We now face guns': Small-scale miners fear Wagner's advances in CAR](https://www.aljazeera.com/features/2024/7/10/we-now-face-guns-small-scale-miners-fear-wagners-advances-in-car). _Al Jazeera_, July 10 2024.
 
 [^3]: The Guardian. [Russian mercenaries exploiting Africa to fund war in Ukraine](https://www.theguardian.com/world/2022/oct/06/russian-mercenaries-exploiting-africa-to-fund-war-in-ukraine). _The Guardian_, Oct 6 2022.
 
-[^4]: Radio Free Europe / Radio Liberty. [Wagner's Successors Wage Campaign Of Terror In Central African Republic](https://www.rferl.org/a/russia-wagner-mercenaries-central-african-republic-crimes/33306858.html). _RFE/RL_, Feb 9 2025.
+[^4]: Jean-Fernand Koena, Maja Zivanovic, and Mike Eckel. Radio Free Europe / Radio Liberty. [Wagner's Successors Wage Campaign Of Terror In Central African Republic](https://www.rferl.org/a/russia-wagner-mercenaries-central-african-republic-crimes/33306858.html). _RFE/RL_, Feb 9 2025.
 
 [^5]: Africa Defense Forum. [Wagner Group's CAR Mining Operations Help Russia Evade Sanctions](https://adf-magazine.com/2023/05/wagner-groups-car-mining-operations-help-russia-evade-sanctions/). _ADF Magazine_, May 2 2023.
 
 [^6]: Disinfo Africa. [Russia's Mercenaries, Africa's Gold](https://disinfo.africa/russias-mercenaries-africa-s-gold-9dce4eb44797). _Disinfo.Africa_, June 30 2025.
 
-[^7]: Global Initiative Against Transnational Organized Crime. [Captured riches: The message in CAR's disappearing diamond](https://globalinitiative.net/analysis/central-african-republic-disappearing-diamond). _GI-TOC_, Feb 14 2025.
+[^7]: Nathalia Dukhan, Ruben De Koning, and Zobel Behalal. Global Initiative Against Transnational Organized Crime. [Captured riches: The message in CAR's disappearing diamond](https://globalinitiative.net/analysis/central-african-republic-disappearing-diamond). _GI-TOC_, Feb 14 2025.
 
-[^8]: RUSI. [Wagner's Business Model in Syria and Africa](https://www.rusi.org/explore-our-research/publications/occasional-papers/wagners-business-model-syria-and-africa-profit-and-patronage). _RUSI Paper_, 2022.
+[^8]: Olivia Allison, Nick Connon, Dr Antonio Giustozzi, and James Pascall. RUSI. [Wagner's Business Model in Syria and Africa](https://www.rusi.org/explore-our-research/publications/occasional-papers/wagners-business-model-syria-and-africa-profit-and-patronage). _RUSI Paper_, 2022.
