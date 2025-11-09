@@ -23,16 +23,16 @@ const { size = 20 } = Astro.props;
   }
 
   {
-    config.social.kofi && (
+    config.social.buyMeACoffee && (
       <a
-        href={config.social.kofi}
+        href={config.social.buyMeACoffee}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Ko-fi"
-        title="Ko-fi"
+        aria-label="Buy Me a Coffee"
+        title="Buy Me a Coffee"
         class="social-link"
       >
-        <i class="ri-drinks-line social-icon" style={`font-size: ${size}px`} />
+        <i class="ri-cup-line social-icon" style={`font-size: ${size}px`} />
       </a>
     )
   }
@@ -69,6 +69,5 @@ const { size = 20 } = Astro.props;
     font-style: normal;
     line-height: 1;
     vertical-align: middle;
-    /* font-size is set inline on the element so we don't hard-code it here */
   }
 </style>

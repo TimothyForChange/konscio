@@ -16,6 +16,11 @@ const currentYear = new Date().getFullYear();
           rel="noopener">CC0 1.0 Universal</a
         >
       </p>
+
+      <p class="privacy-link" data-astro-prefetch>
+        <a href="/privacy-policy">Privacy Policy</a>
+      </p>
+
       <p class="source-code">
         <a
           href="https://github.com/CodeAndHammer/konscio"
@@ -23,17 +28,21 @@ const currentYear = new Date().getFullYear();
           rel="noopener">Source Code on GitHub</a
         >
       </p>
-      <p class="privacy-link" data-astro-prefetch>
-        <a href="/privacy-policy">Privacy Policy</a>
-      </p>
-      <div class="kofi-support">
-        <a href="https://ko-fi.com/T6T31HRCAR" target="_blank" rel="noopener">
-          <img
-            height="36"
-            src="https://storage.ko-fi.com/cdn/kofi6.png?v=6"
-            alt="Buy Me a Coffee at ko-fi.com"
-          />
-        </a>
+
+      <div class="bmc-button-wrapper">
+        <script
+          is:inline
+          type="text/javascript"
+          src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"
+          data-name="bmc-button"
+          data-slug="theredsoil"
+          data-color="#dc2626"
+          data-emoji="☕"
+          data-font="Inter"
+          data-text="Buy me a coffee"
+          data-outline-color="#ffffff"
+          data-font-color="#ffffff"
+          data-coffee-color="#FFDD00"></script>
       </div>
     </div>
 
@@ -74,22 +83,6 @@ const currentYear = new Date().getFullYear();
     color: var(--color-text-muted);
   }
 
-  .kofi-support {
-    margin-top: calc(var(--grid-unit) / 4);
-  }
-
-  .kofi-support img {
-    border: none;
-    border-radius: 4px;
-    transition: opacity 0.2s ease;
-    height: 36px;
-  }
-
-  .kofi-support a:hover img,
-  .kofi-support a:focus img {
-    opacity: 0.8;
-  }
-
   .copyright a,
   .source-code a,
   .privacy-link a {
@@ -112,5 +105,14 @@ const currentYear = new Date().getFullYear();
     .footer-info {
       order: 1;
     }
+  }
+
+  .bmc-button-wrapper {
+    margin-top: calc(var(--grid-unit) * 2);
+    display: flex;
+    align-items: flex-start;
+    transform: scale(0.75);
+    transform-origin: left top;
+    max-width: 300px;
   }
 </style>

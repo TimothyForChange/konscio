@@ -8,7 +8,7 @@ export interface SiteConfig {
   };
   social: {
     email?: string;
-    kofi?: string;
+    buyMeACoffee?: string;
   };
   siteUrl: string;
   baseUrl: string;
@@ -26,7 +26,7 @@ export const config: SiteConfig = {
   },
   social: {
     email: "contact@theredsoil.co.za",
-    kofi: "https://ko-fi.com/theredsoil",
+    buyMeACoffee: "https://buymeacoffee.com/theredsoil",
   },
   siteUrl: "https://theredsoil.co.za",
   baseUrl: "/",
