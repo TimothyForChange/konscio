@@ -1,7 +1,7 @@
 ---
 title: "Ukraine and the Empire of War: How Capital Profits from Catastrophe"
 author: "Timothy Brits"
-datePublished: 2025-11-30
+datePublished: 2025-12-07
 description: "An eco-socialist and anti-imperialist analysis of the war in Ukraine as a symptom of global militarised capitalism — exposing how both NATO expansion and Russian imperialism feed a planetary war economy."
 excerpt: "The war in Ukraine is not a clash of civilisations but a clash of empires. Beneath flags and rhetoric lies a global system turning human suffering into profit — weapons, energy, debt."
 image: /images/ukraine-and-the-empire-of-war.jpg
