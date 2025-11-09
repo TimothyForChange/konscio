@@ -1,5 +1,4 @@
 ---
-import { Coffee, Mail } from "@lucide/astro";
 import { config } from "../config";
 
 interface Props {
@@ -18,7 +17,7 @@ const { size = 20 } = Astro.props;
         title="Email"
         class="social-link"
       >
-        <Mail size={size} class="social-icon" />
+        <i class="ri-mail-line social-icon" style={`font-size: ${size}px`} />
       </a>
     )
   }
@@ -33,7 +32,7 @@ const { size = 20 } = Astro.props;
         title="Ko-fi"
         class="social-link"
       >
-        <Coffee size={size} class="social-icon" />
+        <i class="ri-drinks-line social-icon" style={`font-size: ${size}px`} />
       </a>
     )
   }
@@ -66,7 +65,10 @@ const { size = 20 } = Astro.props;
   }
 
   .social-icon {
-    width: 1em;
-    height: 1em;
+    display: inline-block;
+    font-style: normal;
+    line-height: 1;
+    vertical-align: middle;
+    /* font-size is set inline on the element so we don't hard-code it here */
   }
 </style>
