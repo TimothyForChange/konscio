@@ -37,7 +37,7 @@ On independence African nations inherited borders and debts they never chose. Th
 
 The 1980s brought structural adjustment: austerity and privatisation. Schools closed; clinics collapsed; prices rose; labour cheapened for investors. Economies re-engineered to feed the global market, not serve people.
 
-Kwame Nkrumah named it early: _neo-colonialism — the last stage of imperialism_. Colony gone; system remained. Flow of power reversed in form not direction: gold and rubber replaced by interest and repayment.
+Kwame Nkrumah named it early: _neo-colonialism — the last stage of imperialism._ Colony gone; system remained. Flow of power reversed in form not direction: gold and rubber replaced by interest and repayment.
 
 The 2000s brought the HIPC initiative’s promise of relief — yet institutions dictated terms. Eurobond markets reabsorbed the continent into speculative circuits. Old colonial powers now share the field with China, Gulf states and hedge funds. Masters multiply; hierarchy endures.
 
@@ -91,6 +91,14 @@ Senegal followed IMF prescriptions — liberalised markets, privatised utilities
 > — António Guterres, UN press statement, 24 May 2023
 
 Across these examples, the pattern is clear. When repayment falters, democracy itself becomes negotiable. Creditors demand control over budgets, policy, and even natural resources. The nation becomes a debtor colony — independent in name, occupied in practice.
+
+| **Country**  | **Trigger Event**                               | **Creditor Response**                                    | **Domestic Impact**                             | **Lesson**                                                               |
+| ------------ | ----------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------ |
+| **Zambia**   | 2020 default                                    | IMF-led “Common Framework” with prolonged negotiations   | Wage freezes, tax hikes, underfunded hospitals  | “Relief” used to enforce fiscal discipline, not recovery.                |
+| **Ethiopia** | 2023 default amid conflict and inflation        | Competing leverage between Chinese and Western creditors | Inflation, job losses, austerity measures       | Multipolar competition still sustains dependency.                        |
+| **Senegal**  | 2025 downgrade after revising debt upward       | Loss of credit access despite IMF compliance             | Higher borrowing costs, continued privatisation | Obedience earns no protection from punishment.                           |
+| **Ghana**    | 2022 debt restructuring after eurobond collapse | IMF bailout tied to austerity and tax hikes              | Cost-of-living protests, cuts to subsidies      | Populace bears the cost of elite mismanagement and external debt cycles. |
+| **Tunisia**  | 2024 IMF negotiation amid political crisis      | Pressure to end food and fuel subsidies                  | Rising poverty, unrest over price spikes        | Social stability traded for fiscal orthodoxy.                            |
 
 ---
 
