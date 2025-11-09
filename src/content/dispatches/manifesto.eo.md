@@ -12,7 +12,7 @@ tags: ["Ekosocialismo", "Dekoloniigo", "Suda Globo", "Klimata Justeco"]
 # Manifesto: Por la Popoloj kaj la Planedo
 
 Kapitalismo, koloniismo kaj klimata kolapso formas unu sistemon de dominado, esprimitan en malsamaj formoj — ne apartajn krizojn.
-La sama logiko, kiu sklavigis kaj elrabis la Sudan Globon, nun peladas la ekologiajn detruojn tutmonde.
+La sama logiko, kiu sklavigis kaj rabadis la Sudan Globon, nun peladas la ekologiajn detruojn tutmonde.
 
 **The Red Soil** ekzistas por alfronti tiun sistemon — ne per neŭtrala komento, sed per _kritika rezisto._
 

@@ -3,7 +3,7 @@ title: "Manifeste : Pour les peuples et la planète"
 author: "The Red Soil Collective"
 datePublished: 2025-10-23
 description: "Présentation de The Red Soil, une plateforme écosocialiste et décoloniale venue d’Afrique du Sud, engagée à dévoiler la violence structurelle et à imaginer un avenir juste."
-excerpt: "Le capitalisme, le colonialisme et la crise climatique ne sont pas des problèmes séparés, mais les visages d’un même système de domination. Ce texte fondateur expose la mission et les valeurs de The Red Soil : une plateforme écosocialiste et décoloniale d’Afrique du Sud, pour les peuples et la planète."
+excerpt: "Le capitalisme, le colonialisme et l’effondrement climatique ne sont pas des problèmes séparés, mais les visages d’un même système de domination. Ce texte fondateur expose la mission et les valeurs de The Red Soil : une plateforme écosocialiste et décoloniale d’Afrique du Sud, pour les peuples et la planète."
 image: /images/manifesto.jpg
 categories: ["Editorial"]
 tags: ["Écosocialisme", "Décolonisation", "Sud Global", "Justice Climatique"]
