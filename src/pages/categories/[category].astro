@@ -14,7 +14,16 @@ export async function getStaticPaths() {
   const allPosts = [
     ...Object.values(mdPostsGlob),
     ...Object.values(mdxPostsGlob),
-  ].filter((post: any) => !post.frontmatter.draft) as any[];
+  ]
+    .filter((post: any) => !post.frontmatter.draft)
+    .filter((post: any) => {
+      const rawDate = post.frontmatter.datePublished;
+      const date = new Date(rawDate);
+      if (isNaN(date.getTime())) {
+        return false;
+      }
+      return date <= new Date();
+    }) as any[];
 
   const allCategories = new Set<string>();
   allPosts.forEach((post: any) => {
@@ -26,7 +35,7 @@ export async function getStaticPaths() {
   });
 
   return Array.from(allCategories).map((category: string) => {
-    const categorySlug = category.toLowerCase().replace(/[\/\s]+/g, "-");
+    const categorySlug = category.toLowerCase().replace(/[/\s]+/g, "-");
     const postsInCategory = allPosts
       .filter(
         (post: any) =>

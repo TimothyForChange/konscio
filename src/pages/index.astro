@@ -23,6 +23,14 @@ const allPosts = [
 ] as any[];
 const sortedPosts = allPosts
   .filter((post: any) => !post.frontmatter.draft)
+  .filter((post: any) => {
+    const rawDate = post.frontmatter.datePublished;
+    const date = new Date(rawDate);
+    if (isNaN(date.getTime())) {
+      return false;
+    }
+    return date <= new Date();
+  })
   .sort(
     (a: any, b: any) =>
       new Date(b.frontmatter.datePublished).getTime() -
