@@ -6,10 +6,6 @@ vi.mock("@astrojs/rss", () => ({
   default: vi.fn(() => ({ status: 200, body: "rss content" })),
 }));
 
-vi.mock("astro:content", () => ({
-  getCollection: vi.fn(),
-}));
-
 vi.mock("../../src/config", () => ({
   config: {
     title: "Test Site",

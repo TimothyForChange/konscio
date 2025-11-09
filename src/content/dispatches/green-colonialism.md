@@ -41,6 +41,14 @@ The Global North's shift to "green" technologies requires vast quantities of spe
 - **Instability is engineered as a profit condition.** Weak governance and contested territories help secure concessions, favourable contracts and control over informal economies. What is framed as a humanitarian crisis functions as a market strategy.
 - **Green rhetoric masks continuity.** Label a mine "critical for the energy transition" and the social and ecological violence is sanitised; consumers and states in the Global North are absolved of responsibility.
 
+| **Indicator**                | **DRC Share / Situation**             | **Global / External Share**      | **Notes**                                          |
+| ---------------------------- | ------------------------------------- | -------------------------------- | -------------------------------------------------- |
+| **Cobalt production**        | ~70% of world supply                  | —                                | The DRC dominates raw output.                      |
+| **Refining capacity**        | <5% within DRC                        | >95% abroad (mainly China)       | Value capture occurs outside Africa.               |
+| **Control of cobalt output** | —                                     | ~80% controlled by Chinese firms | Capital has shifted but extraction logic persists. |
+| **Price differential**       | 1× (raw ore)                          | ~20× (refined cobalt)            | Illustrates how value chains extract surplus.      |
+| **Ecological cost**          | Severe local pollution, deforestation | Externalised                     | Environmental burden concentrated in DRC.          |
+
 The result is a peculiar inversion: the rhetoric of environmental stewardship facilitates extraction regimes that threaten the very ecosystems and communities supposedly being protected.
 
 ---

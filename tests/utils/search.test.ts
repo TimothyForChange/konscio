@@ -151,4 +151,43 @@ describe("search.json", () => {
     const data = await response.json();
     expect(data).toEqual([]);
   });
+
+  it("should filter out draft posts and future dated posts", async () => {
+    const mockPosts = [
+      {
+        data: {
+          title: "Past Post",
+          datePublished: new Date("2023-01-01"),
+          excerpt: "Past excerpt",
+          draft: false,
+        },
+        slug: "past-post",
+      },
+      {
+        data: {
+          title: "Future Post",
+          datePublished: new Date("2026-01-01"),
+          excerpt: "Future excerpt",
+          draft: false,
+        },
+        slug: "future-post",
+      },
+      {
+        data: {
+          title: "Draft Post",
+          datePublished: new Date("2023-01-01"),
+          excerpt: "Draft excerpt",
+          draft: true,
+        },
+        slug: "draft-post",
+      },
+    ];
+
+    (getCollection as any).mockResolvedValue(mockPosts);
+
+    const response = await GET();
+    const data = await response.json();
+    expect(data.length).toBe(1);
+    expect(data[0].title).toBe("Past Post");
+  });
 });

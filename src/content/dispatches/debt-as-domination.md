@@ -1,13 +1,12 @@
 ---
 title: "Debt as Domination: The Economic Architecture of Neo-colonialism in Africa"
 author: "Timothy Brits"
-datePublished: 2025-11-03
+datePublished: 2025-12-21
 description: "How debt became the weapon of empire's return — and how Africa can break the chains of financial subjugation."
 excerpt: "Debt has replaced direct colonial rule as a coercive system: austerity, credit ratings and conditional loans discipline African economies, extract public wealth, accelerate ecological destruction and mortgage sovereignty — demanding continental transparency, cancellation and reparatory climate finance."
 categories: ["Analysis"]
 tags: ["Neocolonialism", "Debt", "Africa", "Eco-socialism", "Global South"]
 image: /images/debt-as-domination.jpg
-draft: true
 ---
 
 # Debt as Domination: The Economic Architecture of Neocolonialism in Africa

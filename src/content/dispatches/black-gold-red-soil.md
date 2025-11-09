@@ -1,13 +1,12 @@
 ---
 title: "Black Gold and Red Soil: Russia’s Africa Corps and the New Imperial Extraction"
 author: "Timothy Brits"
-datePublished: 2025-11-04
+datePublished: 2025-12-07
 description: "An eco-socialist investigation of how Russia’s Africa Corps funds imperial war through African extraction — gold, blood and the illusion of sovereignty."
 excerpt: "From Wagner’s ruins, Russia’s Africa Corps has risen — securing mines, exporting gold and exporting death. In the CAR and beyond, Africa’s resources bankroll empire again."
 image: /images/black-gold-red-soil.jpg
 categories: ["Analysis"]
 tags: ["Russia", "Africa Corps", "Extractivism", "Central African Republic"]
-draft: true
 ---
 
 # Black Gold and Red Soil: Russia’s Africa Corps and the New Imperial Extraction

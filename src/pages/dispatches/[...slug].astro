@@ -20,7 +20,16 @@ export async function getStaticPaths() {
   const allPosts = [
     ...Object.values(mdPostsGlob),
     ...Object.values(mdxPostsGlob),
-  ].filter((post: any) => !post.frontmatter.draft) as any[];
+  ]
+    .filter((post: any) => !post.frontmatter.draft)
+    .filter((post: any) => {
+      const rawDate = post.frontmatter.datePublished;
+      const date = new Date(rawDate);
+      if (isNaN(date.getTime())) {
+        return false;
+      }
+      return date.getTime() <= Date.now();
+    }) as any[];
 
   return allPosts.map((post: any) => {
     const rawContent = post.body || post.rawContent?.() || "";
