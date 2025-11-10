@@ -4,26 +4,14 @@ import Layout from "../components/Layout.astro";
 import SolidarityCard from "../components/SolidarityCard.astro";
 
 const sections = [
-  {
-    id: "south-africa-and-the-continent",
-    label: "South Africa and the Continent",
-  },
-  {
-    id: "global-south-solidarity-and-anti-imperialism",
-    label: "Global South Solidarity and Anti-Imperialism",
-  },
-  {
-    id: "peasant-movements-and-food-sovereignty",
-    label: "Peasant Movements and Food Sovereignty",
-  },
-  {
-    id: "working-class-struggles-and-democratic-control",
-    label: "Working Class Struggles and Democratic Control",
-  },
-  {
-    id: "indigenous-resistance-and-land-back",
-    label: "Indigenous Resistance and Land Back",
-  },
+  { id: "south-africa", label: "South Africa & the Continent" },
+  { id: "global-south", label: "Global South Solidarity" },
+  { id: "food-sovereignty", label: "Peasant Movements & Food Sovereignty" },
+  { id: "workers", label: "Working-Class Struggles" },
+  { id: "indigenous", label: "Indigenous Resistance & Land Back" },
+  { id: "media", label: "Media & Publications" },
+  { id: "mutual-aid", label: "Mutual Aid & Community Services" },
+  { id: "research", label: "Research, Policy & Accountability" },
 ];
 ---
 
@@ -48,277 +36,353 @@ const sections = [
         ariaLabel="Solidarity category navigation"
       />
 
-      <h2 class="category-title" id="south-africa-and-the-continent">
-        South Africa and the Continent
+      <h2 class="category-title" id="south-africa">
+        South Africa & the Continent
       </h2>
 
       <div class="solidarity-grid">
         <SolidarityCard
           title="Abahlali baseMjondolo"
-          description="South African movement of over 180,000 shack dwellers building democratic power from below, fighting for land, housing, and dignity through direct action, community organising, and resistance to evictions and state repression."
+          description="Mass movement of shack dwellers building democratic power from below; fights for land, housing and dignity via direct action and community organising."
           url="https://abahlali.org"
           ariaLabel="Abahlali baseMjondolo website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Alternative Information and Development Centre (AIDC)"
-          description="Founded in 1996 in Cape Town, AIDC catalyses South African and broader Global South struggles for economic and climate justice - advancing debt cancellation, tax justice, public ownership and just transition alternatives to austerity and extractivism."
+          description="Cape Town-based policy and research collective advancing debt justice, public ownership and just-transition alternatives to austerity and extractivism."
           url="https://aidc.org.za"
           ariaLabel="AIDC website — opens in a new tab"
         />
 
         <SolidarityCard
-          title="Extinction Rebellion South Africa"
-          description="South African branch of the global climate justice movement using non-violent direct action and civil disobedience to demand urgent government action on the climate and ecological emergency. Decentralised, participatory, and inclusive, XR SA mobilises communities to resist inaction and build a just, sustainable future."
-          url="https://extinctionrebellion.org.za"
-          ariaLabel="Extinction Rebellion South Africa website — opens in a new tab"
-        />
-
-        <SolidarityCard
           title="groundWork"
-          description="South African environmental justice organization founded in 1999, partnering with communities to resist dirty energy and toxic production, advocating for democratic control over resources and a just transition to a sustainable future."
+          description="Environmental justice NGO working with communities to resist polluting industries and push for democratic control of resources and a just transition."
           url="https://groundwork.org.za"
           ariaLabel="groundWork website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Mining Affected Communities United in Action (MACUA)"
-          description="Grassroots network of mining-affected communities across South Africa resisting extractivism, corporate plunder, and state capture. Fights for community control of land, resources, and livelihoods."
+          description="Network of mining-affected communities resisting corporate plunder, evictions and state capture across South Africa."
           url="https://macua.org.za"
           ariaLabel="MACUA website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Ogiek Peoples' Development Program (OPDP)"
-          description="Kenyan Indigenous-led organization advancing land justice, cultural survival, and sustainable development for the Ogiek and other Indigenous peoples through advocacy, legal action, and community empowerment."
+          description="Indigenous-led organisation advancing land justice, cultural survival and legal empowerment for the Ogiek and other Indigenous peoples."
           url="https://www.ogiekpeoples.org"
           ariaLabel="Ogiek Peoples' Development Program website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Oilwatch Africa"
-          description="Pan-African network resisting fossil fuel extraction and its social and environmental impacts, building solidarity among African communities for climate justice and a just transition beyond oil and gas."
+          description="Pan-African network coordinating resistance to fossil-fuel extraction and defending community land and livelihoods."
           url="https://oilwatch.africa"
           ariaLabel="Oilwatch Africa website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Rural Women's Assembly"
-          description="Feminist peasant movement uniting rural women across Southern Africa to defend land, seeds, and food sovereignty. Challenges patriarchy, agribusiness, and capitalist extractivism."
+          description="Feminist peasant movement mobilising rural women around land, seeds, food sovereignty and collective rights."
           url="https://www.ruralwomensassembly.org"
           ariaLabel="Rural Women's Assembly website — opens in a new tab"
         />
 
         <SolidarityCard
           title="South African Food Sovereignty Campaign (SAFSC)"
-          description="Grassroots campaign uniting communities, small farmers, and activists to advance food sovereignty, climate justice, and the right to food in South Africa through organizing, education, and direct action."
+          description="Grassroots campaign promoting food sovereignty, agroecology, and the right to food in South African communities."
           url="https://www.safsc.org.za"
-          ariaLabel="South African Food Sovereignty Campaign website — opens in a new tab"
+          ariaLabel="SAFSC website — opens in a new tab"
         />
 
         <SolidarityCard
           title="WoMin African Alliance"
-          description="Pan-African ecofeminist alliance supporting women, peasants and communities impacted by extractive industries. Builds movements for climate justice, land rights and feminist alternatives to the extractivist model."
+          description="Pan-African ecofeminist alliance supporting communities impacted by extractivism and organising for land and climate justice."
           url="https://womin.africa"
           ariaLabel="WoMin African Alliance website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Zabalaza for Socialism (ZASO)"
-          description="Platform amplifying socialist, feminist and anti-imperialist analysis and organising initiatives - publishing statements, interviews and movement debates on extractivism, austerity and democratic struggle in Southern Africa."
+          description="Platform amplifying socialist, feminist and anti-imperialist analysis and organising across Southern Africa."
           url="https://zabalaza4socialism.org.za"
           ariaLabel="Zabalaza for Socialism website — opens in a new tab"
         />
       </div>
 
-      <h2
-        class="category-title"
-        id="global-south-solidarity-and-anti-imperialism"
-      >
-        Global South Solidarity and Anti-Imperialism
-      </h2>
+      <h2 class="category-title" id="global-south">Global South Solidarity</h2>
 
       <div class="solidarity-grid">
         <SolidarityCard
           title="CADTM (Abolition of Illegitimate Debt)"
-          description="International network fighting illegitimate and neo-colonial debt, empowering social movements to reclaim economic sovereignty and dismantle financial mechanisms of imperial domination."
+          description="International network exposing illegitimate debt and fighting for economic sovereignty and debt cancellation."
           url="https://www.cadtm.org"
           ariaLabel="CADTM website — opens in a new tab"
         />
 
         <SolidarityCard
+          title="Debt Justice (UK)"
+          description="Campaign organisation challenging unjust global debt and financial imperialism, supporting movements in the Global South to reclaim economic sovereignty."
+          url="https://debtjustice.org.uk"
+          ariaLabel="Debt Justice UK website — opens in a new tab"
+        />
+
+        <SolidarityCard
           title="Friends of the Earth International"
-          description="International network of environmental organizations working for a peaceful and sustainable world based on societies living in harmony with nature, advocating for equity, human rights, and peoples' rights through grassroots action."
+          description="Global grassroots network campaigning for environmental justice, equitable resource control, and community rights."
           url="https://www.foei.org"
           ariaLabel="Friends of the Earth International website — opens in a new tab"
         />
 
         <SolidarityCard
           title="International League of Peoples' Struggle (ILPS)"
-          description="Global anti-imperialist alliance uniting grassroots movements and organizations to promote, support, and develop democratic and anti-imperialist struggles for justice, sovereignty, and liberation."
+          description="Global anti-imperialist alliance supporting people's struggles for sovereignty and liberation."
           url="https://peoplesstruggle.org/en/"
-          ariaLabel="International League of Peoples' Struggle website — opens in a new tab"
+          ariaLabel="ILPS website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Pan-African Today"
-          description="Socialist network advancing African liberation and continental unity through working-class struggle, anti-imperialism, and people-centred development."
+          description="Socialist network promoting African liberation, working-class organising and continental unity."
           url="https://panafricatoday.org"
           ariaLabel="Pan-African Today website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Samidoun Palestinian Prisoner Solidarity Network"
-          description="International network supporting Palestinian prisoners and the struggle for liberation, anti-imperialism, and justice through advocacy, campaigns, and global solidarity."
+          description="International network organising solidarity for Palestinian prisoners and political prisoners worldwide."
           url="https://samidoun.net"
-          ariaLabel="Samidoun Palestinian Prisoner Solidarity Network website — opens in a new tab"
+          ariaLabel="Samidoun website — opens in a new tab"
         />
       </div>
 
-      <h2 class="category-title" id="peasant-movements-and-food-sovereignty">
-        Peasant Movements and Food Sovereignty
+      <h2 class="category-title" id="food-sovereignty">
+        Peasant Movements & Food Sovereignty
       </h2>
 
       <div class="solidarity-grid">
         <SolidarityCard
           title="Alliance for Food Sovereignty in Africa (AFSA)"
-          description="Coalition of African farmers, fisherfolk, and Indigenous communities advancing agroecology, food sovereignty, and resistance to corporate control of agriculture."
+          description="Coalition of farmers, fisherfolk and Indigenous communities defending agroecology and community control of food systems."
           url="https://afsafrica.org"
-          ariaLabel="Alliance for Food Sovereignty in Africa website — opens in a new tab"
+          ariaLabel="AFSA website — opens in a new tab"
         />
 
         <SolidarityCard
           title="La Via Campesina"
-          description="International peasant movement of 180 organisations in 81 countries representing over 200 million peasants, small farmers and landless workers - advancing food sovereignty, agrarian reform and agroecological transformation."
+          description="Global peasant movement advancing agrarian reform, agroecology and the rights of smallholders."
           url="https://viacampesina.org/en/"
           ariaLabel="La Via Campesina website — opens in a new tab"
         />
 
         <SolidarityCard
           title="MST (Movimento dos Trabalhadores Rurais Sem Terra)"
-          description="Brazil's landless workers' movement fighting for agrarian reform, food sovereignty, and collective land ownership through direct action, agroecology, education, and popular organisation."
+          description="Brazilian landless workers' movement organising for land reform, collective farming and agroecology."
           url="https://mst.org.br/english/"
-          ariaLabel="MST Brazil website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="Navdanya International"
-          description="International network led by Dr. Vandana Shiva, championing agroecology, seed freedom, biodiversity, and food sovereignty through grassroots organizing, education, and global campaigns."
-          url="https://navdanyainternational.org"
-          ariaLabel="Navdanya International website — opens in a new tab"
+          ariaLabel="MST website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Nyéléni Movement for Food Sovereignty"
-          description="Global process rooted in the 2007 Mali Nyéléni Forum, linking peasant, Indigenous and grassroots movements defending land, seeds, biodiversity and democratic control of food systems against agribusiness and imperialism."
+          description="Global process linking peasant and Indigenous struggles for democratic control of food systems."
           url="https://nyeleni.org/en/international-food-sov-movement/"
-          ariaLabel="Nyéléni Movement for Food Sovereignty website — opens in a new tab"
+          ariaLabel="Nyéléni website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Schools for Chiapas"
-          description="Supports autonomous education, agroecology, and healthcare projects in Chiapas, Mexico, in solidarity with Zapatista communities and their revolutionary self-governance."
+          description="Solidarity project supporting autonomous education, healthcare and agroecology in Zapatista territories."
           url="https://schoolsforchiapas.org"
           ariaLabel="Schools for Chiapas website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Union of Agricultural Work Committees (UAWC)"
-          description="Palestinian grassroots organization advancing food sovereignty, land rights, and agroecology for small farmers and rural communities through organizing, advocacy, and resistance to occupation."
+          description="Palestinian grassroots organisation advancing land rights, agroecology and rural livelihoods."
           url="https://uawc-pal.org"
-          ariaLabel="Union of Agricultural Work Committees website — opens in a new tab"
+          ariaLabel="UAWC website — opens in a new tab"
         />
       </div>
 
-      <h2
-        class="category-title"
-        id="working-class-struggles-and-democratic-control"
-      >
-        Working Class Struggles and Democratic Control
-      </h2>
+      <h2 class="category-title" id="workers">Working-Class Struggles</h2>
 
       <div class="solidarity-grid">
         <SolidarityCard
           title="International Labour Network of Solidarity and Struggles"
-          description="Global network of militant trade unions coordinating class struggle and internationalist organising to build working-class power beyond borders and bureaucracy."
+          description="Network of militant unions coordinating internationalist workplace organising and direct industrial solidarity."
           url="https://laboursolidarity.org"
-          ariaLabel="International Labour Network of Solidarity and Struggles website — opens in a new tab"
+          ariaLabel="International Labour Network website — opens in a new tab"
         />
 
         <SolidarityCard
-          title="Workers' World Media Productions (WWMP)"
-          description="South African worker media and education collective advancing democratic control, class consciousness, and solidarity across the working class."
-          url="https://wwmp.org.za"
-          ariaLabel="Workers' World Media Productions website — opens in a new tab"
+          title="Trade Unions for Energy Democracy (TUED)"
+          description="Global network of unions and allied groups advancing democratic control and public ownership of energy, linking workers’ rights, climate justice and just transition."
+          url="https://www.tuedglobal.org"
+          ariaLabel="TUED website — opens in a new tab"
         />
       </div>
 
-      <h2 class="category-title" id="indigenous-resistance-and-land-back">
-        Indigenous Resistance and Land Back
+      <h2 class="category-title" id="indigenous">
+        Indigenous Resistance & Land Back
       </h2>
 
       <div class="solidarity-grid">
         <SolidarityCard
           title="Asia Indigenous Peoples Pact (AIPP)"
-          description="Regional alliance advancing Indigenous rights, land, climate justice, and self-determination across Asia through advocacy, capacity building, and movement building."
+          description="Regional alliance advancing Indigenous rights, land justice and climate resilience across Asia."
           url="https://aippnet.org"
-          ariaLabel="Asia Indigenous Peoples Pact website — opens in a new tab"
+          ariaLabel="AIPP website — opens in a new tab"
         />
 
         <SolidarityCard
           title="CEMIRIDE (Centre for Minority Rights Development)"
-          description="Kenyan organization advancing the rights of Indigenous and minority communities through advocacy, legal support, and grassroots organizing for land justice, cultural survival, and self-determination."
+          description="Kenyan organisation supporting Indigenous and minority rights through legal and grassroots advocacy."
           url="https://www.cemiride.org"
           ariaLabel="CEMIRIDE website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Idle No More"
-          description="Grassroots Indigenous movement that began in 2012 in Canada and continues to mobilise for sovereignty, decolonisation, and environmental justice. Idle No More organises round dances, teach-ins, and direct action to defend the land, water, and Indigenous rights against extractivism and colonial state violence."
+          description="Grassroots Indigenous movement mobilising for sovereignty, decolonisation and environmental defence."
           url="https://idlenomore.ca"
           ariaLabel="Idle No More website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Indigenous Environmental Network (IEN)"
-          description="Indigenous-led global alliance fighting for climate justice, sovereignty, and the defence of Mother Earth against extractivism, colonialism, and capitalism."
+          description="Indigenous-led alliance defending land, water and climate justice against extractivism."
           url="https://www.ienearth.org"
-          ariaLabel="Indigenous Environmental Network website — opens in a new tab"
+          ariaLabel="IEN website — opens in a new tab"
         />
 
         <SolidarityCard
           title="LandBack.org"
-          description="Platform and movement supporting the return of land to Indigenous peoples, amplifying Land Back campaigns, education, and direct action for decolonization and Indigenous sovereignty."
+          description="Platform amplifying Land Back campaigns and practical strategies for return of territories to Indigenous communities."
           url="https://thelandback.org"
           ariaLabel="LandBack.org website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Land Rights Now"
-          description="Global alliance of Indigenous peoples, local communities, and allies mobilising to secure collective land and territorial rights. Land Rights Now connects grassroots struggles for land justice, biodiversity protection, and climate resilience as part of a worldwide movement to decolonise land ownership."
+          description="Global alliance securing collective land rights for Indigenous peoples and local communities."
           url="https://www.landrightsnow.org"
           ariaLabel="Land Rights Now website — opens in a new tab"
         />
 
         <SolidarityCard
           title="NDN Collective"
-          description="Indigenous-led organization dedicated to building Indigenous power through organizing, activism, philanthropy, grantmaking, and narrative change. NDN Collective advances justice, equity, and sustainable solutions for Indigenous peoples and Mother Earth."
+          description="Indigenous-led organisation building power through organising, philanthropy and narrative change."
           url="https://ndncollective.org"
           ariaLabel="NDN Collective website — opens in a new tab"
         />
 
         <SolidarityCard
           title="Sogorea Te' Land Trust"
-          description="Urban Indigenous women-led land trust in the San Francisco Bay Area, rematriating Ohlone land and supporting Indigenous cultural revitalization, land return, and community healing."
+          description="Urban Indigenous land trust supporting rematriation, cultural revitalisation and community stewardship."
           url="https://sogoreate-landtrust.org"
           ariaLabel="Sogorea Te' Land Trust website — opens in a new tab"
         />
 
         <SolidarityCard
           title="The Red Nation"
-          description="Indigenous socialist organisation uniting Native liberation and socialist struggle. Organises for decolonisation, land back, and ecological survival through direct action, political education, and solidarity across oppressed nations."
+          description="Indigenous socialist organisation organising for decolonisation, Land Back and collective liberation."
           url="https://therednation.org"
           ariaLabel="The Red Nation website — opens in a new tab"
+        />
+      </div>
+
+      <h2 class="category-title" id="media">Media & Publications</h2>
+
+      <div class="solidarity-grid">
+        <SolidarityCard
+          title="Africa Is a Country"
+          description="Critical commentary and cultural analysis on African politics and society from a decolonial perspective."
+          url="https://africasacountry.com"
+          ariaLabel="Africa Is a Country website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Red Pepper"
+          description="Independent left magazine publishing socialist, feminist and anti-imperialist analysis."
+          url="https://www.redpepper.org.uk"
+          ariaLabel="Red Pepper website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Peoples Dispatch"
+          description="International news platform amplifying struggles and organising from the Global South."
+          url="https://peoplesdispatch.org"
+          ariaLabel="Peoples Dispatch website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Tricontinental: Institute for Social Research"
+          description="Research and publishing institute producing anti-imperialist dossiers and movement education materials."
+          url="https://thetricontinental.org"
+          ariaLabel="Tricontinental website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Workers' World Media Productions (WWMP)"
+          description="South African worker media collective producing reporting and education for working-class organising."
+          url="https://wwmp.org.za"
+          ariaLabel="WWMP website — opens in a new tab"
+        />
+      </div>
+
+      <h2 class="category-title" id="mutual-aid">
+        Mutual Aid & Community Services
+      </h2>
+
+      <div class="solidarity-grid">
+        <SolidarityCard
+          title="Mutual Aid Disaster Relief"
+          description="Decentralised network offering grassroots disaster response, material aid and mutual-care training."
+          url="https://mutualaiddisasterrelief.org"
+          ariaLabel="Mutual Aid Disaster Relief website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Food Not Bombs"
+          description="Global network of volunteer collectives reclaiming food to feed people and build mutual aid infrastructure."
+          url="https://foodnotbombs.net"
+          ariaLabel="Food Not Bombs website — opens in a new tab"
+        />
+      </div>
+
+      <h2 class="category-title" id="research">
+        Research, Policy & Accountability
+      </h2>
+
+      <div class="solidarity-grid">
+        <SolidarityCard
+          title="Corporate Europe Observatory"
+          description="Investigative group exposing corporate lobbying and campaigning for democratic public interest policy."
+          url="https://corporateeurope.org"
+          ariaLabel="Corporate Europe Observatory website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Global Tapestry of Alternatives (GTA)"
+          description="Global network connecting community-led, post-capitalist and decolonial initiatives that build regenerative economies and collective self-determination."
+          url="https://globaltapestryofalternatives.org"
+          ariaLabel="Global Tapestry of Alternatives website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="The Rules"
+          description="Networked research initiative mapping corporate power and producing tools to reclaim democratic governance."
+          url="https://therules.org"
+          ariaLabel="The Rules website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Transnational Institute (TNI)"
+          description="International research and advocacy institute supporting movements for environmental justice, public ownership, demilitarisation, and post-capitalist transformation."
+          url="https://www.tni.org"
+          ariaLabel="Transnational Institute website — opens in a new tab"
         />
       </div>
     </section>
