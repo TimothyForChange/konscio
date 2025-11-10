@@ -2,7 +2,7 @@
 title: "Debt as Domination: The Economic Architecture of Neocolonialism in Africa"
 author: "Timothy Brits"
 datePublished: 2025-11-23
-description: "A democratic socialist analysis of how debt became the weapon of empire’s return — and how Africa can reclaim economic sovereignty through collective action and public power."
+description: "A democratic socialist analysis of how debt became the weapon of empire's return — and how Africa can reclaim economic sovereignty through collective action and public power."
 excerpt: "Debt has replaced direct colonial rule as a coercive system: austerity, credit ratings and conditional loans discipline African economies, extract public wealth, accelerate ecological destruction and mortgage sovereignty — demanding transparency, cancellation and reparatory climate finance."
 categories: ["Analysis"]
 tags: ["Democratic Socialism", "Neocolonialism", "Debt", "Africa"]
@@ -16,7 +16,7 @@ image: /images/debt-as-domination.jpg
 
 Debt is not neutral economics. It is politics — the politics of obedience.
 
-Across Africa governments spend more repaying creditors than educating children or treating the sick. Marketed as "fiscal discipline"; in reality control. Interest becomes rent charged for independence — tribute to empire’s financial return.
+Across Africa governments spend more repaying creditors than educating children or treating the sick. Marketed as "fiscal discipline"; in reality control. Interest becomes rent charged for independence — tribute to empire's financial return.
 
 Twentieth-century domination spoke in the language of civilisation; twenty-first in credit ratings, debt sustainability and macroeconomic conditionality. The IMF no longer arrives with troops but spreadsheets. Result: sovereignty mortgaged, policy dictated, futures foreclosed.
 
@@ -52,7 +52,7 @@ Austerity is not an abstract policy: it is violence measured in closed hospitals
 
 ### Rating-Agency Rule
 
-Credit rating agencies — Moody’s, Fitch, S&P — act as unelected governors. A downgrade raises borrowing costs and forces governments to cut. Ratings discipline policy without democratic consent.
+Credit rating agencies — Moody's, Fitch, S&P — act as unelected governors. A downgrade raises borrowing costs and forces governments to cut. Ratings discipline policy without democratic consent.
 
 ### Conditionality and Privatisation
 
@@ -60,7 +60,7 @@ Loans come with strings. Utilities sold off, land leased to investors, public as
 
 ### Multipolar Creditors
 
-China’s infrastructure loans offered an alternative to IMF orthodoxy but often replicated extractive patterns: opaque contracts, resource-backed deals, and limited local value capture. New creditors complicate leverage but do not automatically deliver sovereignty.
+China's infrastructure loans offered an alternative to IMF orthodoxy but often replicated extractive patterns: opaque contracts, resource-backed deals, and limited local value capture. New creditors complicate leverage but do not automatically deliver sovereignty.
 
 ---
 
@@ -72,7 +72,7 @@ China’s infrastructure loans offered an alternative to IMF orthodoxy but often
 | **Ethiopia** | 2023 debt crisis amid conflict             | Competing leverage between Chinese & Western creditors | Inflation, unemployment               | Multipolar borrowing still constrains policy       |
 |  **Senegal** | 2025 downgrade after revising debt figures | Loss of market access despite compliance               | Higher costs, continued privatisation | Obedience to lenders does not guarantee protection |
 
-These episodes show debt’s political character: compliance does not guarantee relief; non-compliance invites punishment.
+These episodes show debt's political character: compliance does not guarantee relief; non-compliance invites punishment.
 
 ---
 
@@ -84,7 +84,7 @@ As climate disasters multiply, states borrow to rebuild — deepening dependency
 
 To service loans governments expand extraction — mining, drilling, logging — to earn foreign currency. Forests become collateral; rivers become revenue streams. Debt and extractivism are mutually reinforcing.
 
-Debt-for-nature instruments and "green" conditionality risk locking in extraction under the cover of climate action. You cannot decolonise through contracts written in the old creditor’s language.
+Debt-for-nature instruments and "green" conditionality risk locking in extraction under the cover of climate action. You cannot decolonise through contracts written in the old creditor's language.
 
 ---
 

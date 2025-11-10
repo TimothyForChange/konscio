@@ -1,15 +1,15 @@
 ---
-title: "Blood and Bullion: How Gold Fuels Sudan’s War"
+title: "Blood and Bullion: How Gold Fuels Sudan's War"
 author: "Timothy Brits"
 datePublished: 2025-10-31
-description: "A democratic socialist analysis of how Sudan’s war economy, foreign sponsors, and global markets turn extraction into annihilation — and how solidarity can break the cycle."
+description: "A democratic socialist analysis of how Sudan's war economy, foreign sponsors, and global markets turn extraction into annihilation — and how solidarity can break the cycle."
 excerpt: "Gold is Sudan's war currency. The RSF's smuggling empire, backed by foreign capital, turns extraction into annihilation, while the state fragments and civilians pay the cost."
 image: /images/blood-and-bullion.jpg
 categories: ["Analysis"]
 tags: ["Sudan", "Gold", "Extractivism", "Imperialism", "Democratic Socialism"]
 ---
 
-# Blood and Bullion: How Gold Fuels Sudan’s War
+# Blood and Bullion: How Gold Fuels Sudan's War
 
 > "Imperialism leaves behind germs of rot which we must clinically detect and remove from our land and from our minds."
 > — Frantz Fanon, The Wretched of the Earth (1961)
@@ -36,7 +36,7 @@ Investigations show RSF commanders capturing mines in Darfur and South Kordofan,
 
 ## Plunder as Policy
 
-Plunder has been normalised into policy. The RSF’s economic model mirrors neo-colonial extraction: sell raw commodity, outsource refining, launder proceeds, and buy weapons. The same financial and logistical circuits that move "ethical" gold from other regions also move Sudanese bullion.
+Plunder has been normalised into policy. The RSF's economic model mirrors neo-colonial extraction: sell raw commodity, outsource refining, launder proceeds, and buy weapons. The same financial and logistical circuits that move "ethical" gold from other regions also move Sudanese bullion.
 
 The **UAE** and its trading hubs are central nodes. Declared exports and shadow flows mingle, with a large share of reported shipments moving through Gulf channels. Industrial refineries and middlemen obscure origin; labels and paperwork sanitise the crime.
 

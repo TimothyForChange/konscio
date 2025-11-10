@@ -23,7 +23,7 @@ The divide between public and private care proves apartheid never ended — it w
 
 Inequality has deepened. Private hospitals absorb nearly half of national health spending while serving under 20 percent of people. The public system serves the majority with what remains — an economic map matching apartheid geography: resourced suburbs versus neglected townships and rural districts.
 
-Signed into law in May 2024, the NHI promises to pool public and private funds into one national system. Entitlement to quality care would no longer hinge on income or postcode. It is the most ambitious social reform since 1994 — one of the few capable of making the Constitution’s promise of "health for all" material.
+Signed into law in May 2024, the NHI promises to pool public and private funds into one national system. Entitlement to quality care would no longer hinge on income or postcode. It is the most ambitious social reform since 1994 — one of the few capable of making the Constitution's promise of "health for all" material.
 
 ---
 
@@ -101,7 +101,7 @@ Speed must not breed secrecy. Rollout should be public, accountable, participato
 
 ## What the NHI Means for the People
 
-For millions this reform is life or death. A miner’s widow accesses chemotherapy without selling her home; a rural child receives the same care as a banker’s son; nurses are respected as public servants, not treated as cheap labour.
+For millions this reform is life or death. A miner's widow accesses chemotherapy without selling her home; a rural child receives the same care as a banker's son; nurses are respected as public servants, not treated as cheap labour.
 
 The NHI embodies collective care. In a society fractured by inequality it can rebuild solidarity: when everyone contributes and everyone benefits, trust returns.
 
@@ -123,7 +123,7 @@ If the NHI works it proves a post-colonial society can build universal care with
 
 ## Closing Reflection
 
-Treating healing as privilege surrenders a nation’s soul. The NHI is a debt owed to the people, not a discretionary gift.
+Treating healing as privilege surrenders a nation's soul. The NHI is a debt owed to the people, not a discretionary gift.
 
 Health is a right — for cities and rural clinics, insured and excluded alike. Making it real demands courage, honesty and relentless pressure.
 

@@ -3,7 +3,7 @@ title: "Gaza and the Global South: Imperialism's Mirror"
 author: "Timothy Brits"
 datePublished: 2025-12-14
 description: "A democratic socialist and decolonial analysis connecting the genocide in Gaza to the global architecture of imperialism — showing how the same system that bombs Palestine also exploits, extracts, and impoverishes the Global South."
-excerpt: "Gaza is not an exception. It is empire’s mirror — the frontier of a global system that destroys life for profit and control. From Palestine to Congo, Yemen to Haiti, the same machinery of domination operates under different flags."
+excerpt: "Gaza is not an exception. It is empire's mirror — the frontier of a global system that destroys life for profit and control. From Palestine to Congo, Yemen to Haiti, the same machinery of domination operates under different flags."
 image: /images/gaza-and-the-global-south.jpg
 categories: ["Analysis"]
 tags: ["Palestine", "Imperialism", "Global Solidarity", "Decolonisation"]
@@ -36,7 +36,7 @@ This is not simply a Middle Eastern tragedy. It is the frontline of a global sys
 
 The genocide in Gaza did not begin in **2023**. It began with **settler colonialism** — the economic and racial logic of empire carried into the twenty-first century.
 
-The British Mandate, the Balfour Declaration, and the Zionist project were all instruments of the same system that partitioned Africa, enslaved millions, and enclosed the Earth’s commons for capital.
+The British Mandate, the Balfour Declaration, and the Zionist project were all instruments of the same system that partitioned Africa, enslaved millions, and enclosed the Earth's commons for capital.
 
 The methods evolve: sanctions instead of gunboats, drones instead of gunpowder. The structure endures — **the right to dominate, the right to extract, the right to decide who lives and who dies.**
 
@@ -53,7 +53,7 @@ In Bolivia and Colombia: militarised resource zones feeding global markets.
 
 ### Weapons as Commodities
 
-Israel’s bombardment of Gaza is enabled by a transnational military–industrial complex that profits from endless war.
+Israel's bombardment of Gaza is enabled by a transnational military–industrial complex that profits from endless war.
 
 The same corporations — **Lockheed Martin, BAE Systems, Thales, Northrop Grumman** — sell weapons tested on Palestinians, then market them as “battle-proven.”
 Occupation becomes a laboratory for repression later exported to police borders, refugees, and protesters.
@@ -112,7 +112,7 @@ From Johannesburg to Jakarta, Caracas to Cairo, movements recognise Gaza as **a 
 - South African activists invoke apartheid memory to call for **boycott, divestment, and sanctions (BDS)**.
 - Congolese and Sudanese organisers link the fight against extraction to the fight against occupation.
 - Indigenous movements across the Americas and Pacific see the same logic of land theft and erasure.
-- South Africa’s case at the **International Court of Justice (ICJ)** asserts what the Global North refuses: genocide cannot be justified by power.
+- South Africa's case at the **International Court of Justice (ICJ)** asserts what the Global North refuses: genocide cannot be justified by power.
 - In the Global North, young democratic socialists and climate activists unite in solidarity campaigns, recognising that imperialism and ecological collapse share the same roots.
 
 **Concrete victories are growing:**
@@ -153,7 +153,7 @@ The fight for Gaza is the fight for democracy — and for life itself.
 
 ## The Struggle Transcends Borders
 
-In Gaza’s ruins we see a reflection of global crisis: a civilisation willing to annihilate children for land will annihilate the planet for profit.
+In Gaza's ruins we see a reflection of global crisis: a civilisation willing to annihilate children for land will annihilate the planet for profit.
 The line between Palestine and the planet is thin.
 
 > "Our freedom is incomplete without the freedom of the Palestinians; without the resolution of conflicts in East Timor, the Sudan, and other parts of the world."

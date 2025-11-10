@@ -26,7 +26,7 @@ Not a "civilisational clash" but a struggle between empires — one old, one res
 
 ## Empire's Footprints in History
 
-The road preceded 2022. It runs through 1991’s ruins when Soviet collapse opened the East to global capital. Western economists prescribed "shock therapy"; oligarchs carved public wealth. Result: public misery, private enrichment, state hollowed out for sale.
+The road preceded 2022. It runs through 1991's ruins when Soviet collapse opened the East to global capital. Western economists prescribed "shock therapy"; oligarchs carved public wealth. Result: public misery, private enrichment, state hollowed out for sale.
 
 Ukraine's post-independence choices — neoliberal restructuring, Western conditionalities, NATO pursuit — were not neutral; they embedded imperial dynamics making conflict more likely. Each step toward NATO integration was presented as sovereignty yet deepened Western military and economic hegemony.
 
@@ -51,7 +51,7 @@ Lockheed Martin, BAE Systems, Rheinmetall and Thales celebrate earnings as civil
 **Shell, BP, TotalEnergies** reap record profits from volatility. **BlackRock** and **JP Morgan** plan Ukraine's "reconstruction" — euphemism for privatised recovery.
 
 Every missile launched is a market transaction. Every destroyed factory becomes future investment site.
-The IMF’s **$15 billion programme** binds Ukraine’s post‑war future to old doctrine: deregulate, privatise, repay — **structural violence rewritten as aid**.
+The IMF's **$15 billion programme** binds Ukraine's post‑war future to old doctrine: deregulate, privatise, repay — **structural violence rewritten as aid**.
 
 This is recolonisation of crisis, not solidarity.
 
@@ -79,7 +79,7 @@ Across continents, the pattern repeats: from cobalt in Congo to gold in Sudan to
 ## Selective Solidarity and Imperial Double Standards
 
 Western governments proclaim defence of democracy yet solidarity remains selective.
-They sanction Moscow while arming Riyadh, mourn Kyiv while enabling Gaza’s siege, welcome some refugees while others drown in the Mediterranean.
+They sanction Moscow while arming Riyadh, mourn Kyiv while enabling Gaza's siege, welcome some refugees while others drown in the Mediterranean.
 
 This reflects **imperial consistency** not moral confusion.
 Sovereignty sacred in Europe; expendable in the Global South.
@@ -135,7 +135,7 @@ War is the climate crisis in military form.
 
 ## Dismantling the Machinery of Domination
 
-Ukraine's tragedy is planetary. It exposes the global system’s true nature: **capitalism and militarism as twin engines of domination, upheld by debt, fossil dependency, and imperial arrogance**.
+Ukraine's tragedy is planetary. It exposes the global system's true nature: **capitalism and militarism as twin engines of domination, upheld by debt, fossil dependency, and imperial arrogance**.
 
 The same order exploiting Congolese miners, fueling Sudan's militias and flattening Gaza now grinds Ukrainians. Different languages; same empire.
 

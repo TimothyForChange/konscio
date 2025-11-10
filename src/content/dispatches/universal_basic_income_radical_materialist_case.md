@@ -135,7 +135,7 @@ The coalition capable of winning social UBI exists in fragments:
 
 These struggles form a common front against a system exploiting labour, colonising nature, disciplining life through debt.
 
-Campaigns for living wage, debt cancellation, public ownership build foundations of social UBI. Each act of resistance strengthens capacity to demand redistribution on our terms, not the market’s.
+Campaigns for living wage, debt cancellation, public ownership build foundations of social UBI. Each act of resistance strengthens capacity to demand redistribution on our terms, not the market's.
 
 ---
 

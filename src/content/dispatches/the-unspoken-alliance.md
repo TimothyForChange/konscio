@@ -32,7 +32,7 @@ These were not theoretical exchanges — they were acts of repression disguised 
 
 ## The Human and Ecological Cost
 
-Weapons and counter-insurgency methods supplied by Israel helped sustain apartheid’s violence in South Africa and its wars in Angola and Namibia.
+Weapons and counter-insurgency methods supplied by Israel helped sustain apartheid's violence in South Africa and its wars in Angola and Namibia.
 Communities were displaced, budgets militarised, and uranium extraction left poisoned landscapes. The archive of cooperation is an archive of suffering.
 
 ---
@@ -52,7 +52,7 @@ Transparency, accountability, and solidarity are not moral gestures; they are th
 
 The alliance between Israel and apartheid South Africa teaches a lasting truth: **authoritarian power thrives on global complicity.**
 
-Democratic socialism rejects that complicity. It demands that international relations be governed by the same principles we claim for societies — equality, transparency, and people’s control over power.
+Democratic socialism rejects that complicity. It demands that international relations be governed by the same principles we claim for societies — equality, transparency, and people's control over power.
 
 The past warns us what happens when profit and security outrank humanity. The future depends on refusing that trade.
 

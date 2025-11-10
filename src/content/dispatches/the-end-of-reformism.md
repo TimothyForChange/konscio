@@ -42,7 +42,7 @@ The system cannot be persuaded to reform itself. It must be replaced.
 ## The Necessity of Democratic Planning
 
 Planning is not bureaucracy; it is democracy scaled to survival.
-It means collective coordination of life’s essentials — energy, housing, food, water, health — guided by need, not profit.
+It means collective coordination of life's essentials — energy, housing, food, water, health — guided by need, not profit.
 
 We already plan the world, but in the service of corporations. Democratic socialism would reclaim that capacity for society itself.
 

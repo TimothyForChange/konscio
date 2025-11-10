@@ -15,21 +15,21 @@ The Congo Basin is often called the _lungs of Africa_ — a rainforest so vast i
 
 Stretching across six nations and covering more than **200 million hectares**, it absorbs roughly **1.2 billion tonnes of CO₂ each year**. This helps regulate rainfall across the continent and anchors planetary climate stability.
 
-Yet these forests are being destroyed by the same forces that long plundered the region’s minerals: profit, imperial power, and a colonial imagination that treats Africa as a warehouse, not a home.
+Yet these forests are being destroyed by the same forces that long plundered the region's minerals: profit, imperial power, and a colonial imagination that treats Africa as a warehouse, not a home.
 
-This is not merely a story about trees. It is about **who decides the fate of the planet’s last frontiers — and who bears the cost.**
+This is not merely a story about trees. It is about **who decides the fate of the planet's last frontiers — and who bears the cost.**
 
 ---
 
-## Africa’s New Resource Grab
+## Africa's New Resource Grab
 
-From Kinshasa to Brazzaville to Yaoundé, governments auction logging concessions, oil blocks, and “sustainable development” zones that carve deep scars into one of Earth’s most vital ecosystems.
+From Kinshasa to Brazzaville to Yaoundé, governments auction logging concessions, oil blocks, and “sustainable development” zones that carve deep scars into one of Earth's most vital ecosystems.
 
 French logging giants, Chinese mining firms, and Western-backed agribusinesses vie for control. Roads and rail lines slice through once-intact forest corridors. Palm oil plantations expand under the banner of “green growth.” Even the World Bank and IMF promote timber exports as a path to “poverty reduction.”
 
 In truth, it is a **new Scramble for Africa** — only now the spoils are measured in hectares of rainforest and tonnes of carbon, not rubber and ivory. The imperial logic that carved the Basin at Berlin now parcels it through contracts, concessions, and carbon markets.
 
-The Congo Basin holds roughly **25% of the world’s tropical forest carbon stock.** Cutting it is not a regional loss; it is a planetary emergency.
+The Congo Basin holds roughly **25% of the world's tropical forest carbon stock.** Cutting it is not a regional loss; it is a planetary emergency.
 
 ---
 
@@ -56,7 +56,7 @@ For Indigenous peoples — Baka, Batwa, BaAka and many others — the forest is 
 
 UN and NGO reports document **violent evictions and abuses by eco-guards** funded by major international conservation groups, including WWF. These operations mirror the extractive logic they claim to oppose: conservation displacing communities who have stewarded these lands for generations.
 
-Despite violence, resistance endures. Indigenous women’s networks in Itombwe and Équateur lead **community reforestation projects** and protest illegal logging. Youth groups map forest crimes with GPS; associations demand **legal recognition of collective land rights.** Across the Basin people assert a radical truth: _living with the forest is wisdom, not backwardness._
+Despite violence, resistance endures. Indigenous women's networks in Itombwe and Équateur lead **community reforestation projects** and protest illegal logging. Youth groups map forest crimes with GPS; associations demand **legal recognition of collective land rights.** Across the Basin people assert a radical truth: _living with the forest is wisdom, not backwardness._
 
 ---
 
@@ -64,9 +64,9 @@ Despite violence, resistance endures. Indigenous women’s networks in Itombwe a
 
 Scientists warn the Basin could soon flip from **carbon sink to carbon source** if degradation continues. Central African forests absorb roughly **half as much CO₂** as in the 1990s, and without protection could emit more than they store within decades.
 
-Consequences are global. Basin forests recycle **75–95%** of their own rainfall and generate up to **17%** of West Africa’s rain via evapotranspiration, feeding weather systems as far as the Sahel and Ethiopian Highlands. Loss would destabilise rainfall, intensify droughts and floods, and accelerate planetary heating.
+Consequences are global. Basin forests recycle **75–95%** of their own rainfall and generate up to **17%** of West Africa's rain via evapotranspiration, feeding weather systems as far as the Sahel and Ethiopian Highlands. Loss would destabilise rainfall, intensify droughts and floods, and accelerate planetary heating.
 
-Destroying the Basin dismantles one of Earth’s last living climate regulators — a planetary lung collapsing under the weight of capital and neglect.
+Destroying the Basin dismantles one of Earth's last living climate regulators — a planetary lung collapsing under the weight of capital and neglect.
 
 ---
 
@@ -85,7 +85,7 @@ True climate justice requires more than technological fixes or markets. It deman
 ## Indigenous Rights as Climate Action
 
 To protect the Basin is to challenge the system that endangers it.
-That means recognising forest peoples’ right to govern land, rejecting extractive “green growth,” and demanding reparative climate finance — not charity, justice.
+That means recognising forest peoples' right to govern land, rejecting extractive “green growth,” and demanding reparative climate finance — not charity, justice.
 
 A genuinely democratic socialist approach would:
 
@@ -110,6 +110,6 @@ If we allow the Basin to die, a part of ourselves dies with it.
 > — Berta Cáceres, Indigenous Lenca environmental defender (assassinated 3 March 2016)
 
 The fate of the Basin is not a regional concern; it is a moral and ecological question of our time.
-Will humanity continue to consume the planet’s lungs — or finally learn to breathe in solidarity?
+Will humanity continue to consume the planet's lungs — or finally learn to breathe in solidarity?
 
 — In solidarity with the peoples of the Congo Basin and all who defend life on Earth.
