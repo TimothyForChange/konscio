@@ -17,12 +17,12 @@ export interface SiteConfig {
 export const config: SiteConfig = {
   title: "The Red Soil",
   tagline:
-    "For people and planet: analysis for justice and ecology from Africa and the Global South",
+    "For people and planet: democratic socialist analysis for justice, solidarity, and a livable world",
   description:
-    "Critical thought and reporting from Africa and the Global South — connecting struggles for social and ecological justice, and imagining life beyond exploitation.",
+    "Critical analysis and reporting from Africa and beyond — connecting struggles for democracy, equality, and ecological survival, and imagining life beyond profit and domination.",
   author: {
     name: "The Red Soil Collective",
-    bio: "Critical eco-socialist and decolonial analysis from Africa and the Global South — confronting the systems that exploit both people and the planet.",
+    bio: "Democratic socialist and decolonial analysis from Africa — confronting capitalism, empire, and ecological collapse through solidarity, research, and collective imagination.",
   },
   social: {
     email: "contact@theredsoil.co.za",

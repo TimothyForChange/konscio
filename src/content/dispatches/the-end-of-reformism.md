@@ -59,6 +59,22 @@ A planned future begins with what reformism fears most: **expropriation**.
 
 The task is to weave existing experiments — participatory budgeting, cooperative economies, local assemblies — into a **democratic plan for life after profit.**
 
+Democratic planning is not a utopian dream — it has historical and contemporary examples that demonstrate its viability:
+
+**Historical Precedents:**
+- **Yugoslavia's Self-Management System (1948-1990s):** Workers' councils managed enterprises democratically, balancing central coordination with local autonomy. Despite its eventual decline, it demonstrated that worker control could function at national scale.
+
+- **Kerala's People's Plan (1996-2006):** After winning elections, the Communist Party of India (Marxist) transferred 35-40% of state development funds to local governments. Citizens democratically planned and executed projects, resulting in significant improvements in health, education, and infrastructure.
+
+**Contemporary Experiments:**
+- **Mondragon Cooperatives (Spain):** A federation of worker cooperatives demonstrating that democratic planning can compete with capitalist firms while maintaining worker ownership and democratic governance.
+
+- **Rojava's Democratic Confederalism:** Despite facing war and siege, the region has implemented democratic planning through councils, cooperatives, and women's councils, managing resources and production democratically.
+
+- **Bolivia's Communal Councils:** Following indigenous traditions, these councils coordinate economic activity at local levels while connecting to national planning through the Plurinational State structure.
+
+These examples show that democratic planning is not abstract theory but practical reality — often operating under difficult conditions and facing powerful opposition.
+
 > “The future depends on what we do in the present.”
 > — Mahatma Gandhi
 
@@ -69,5 +85,11 @@ The task is to weave existing experiments — participatory budgeting, cooperati
 To plan together is to make democracy real.
 The choice is not between moderation and extremism, but between organisation and extinction.
 The future will be planned — or it will not exist.
+
+Democratic planning requires more than good intentions — it needs institutional frameworks, democratic mandates, and mass participation. The struggle for planning is the struggle for democracy itself.
+
+The seeds of the future exist in current struggles: strikes for ecological demands, community energy projects, cooperative food systems, and tenant organizing. The task is to connect these fragments into a coherent alternative — one that prioritizes life over profit, communities over corporations.
+
+Progressive social movements must move beyond resistance to construction — imagining and building the new world within the shell of the old. This is not a distant goal but an immediate task.
 
 — In solidarity with all building democracy from below.

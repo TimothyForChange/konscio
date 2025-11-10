@@ -4,20 +4,17 @@ import Layout from "../components/Layout.astro";
 import SolidarityCard from "../components/SolidarityCard.astro";
 
 const sections = [
-  { id: "south-africa", label: "South Africa & the Continent" },
-  { id: "global-south", label: "Global South Solidarity" },
+  { id: "workers", label: "Workers & Unions" },
+  { id: "global-solidarity", label: "Global Solidarity" },
   { id: "food-sovereignty", label: "Peasant Movements & Food Sovereignty" },
-  { id: "workers", label: "Working-Class Struggles" },
   { id: "indigenous", label: "Indigenous Resistance & Land Back" },
-  { id: "media", label: "Media & Publications" },
-  { id: "mutual-aid", label: "Mutual Aid & Community Services" },
-  { id: "research", label: "Research, Policy & Accountability" },
+  { id: "media-research", label: "Media & Research" },
 ];
 ---
 
 <Layout
   title="Solidarity"
-  description="Ecosocialist and allied movements fighting for climate justice, workers' power, decolonial liberation, and solidarity across the Global South."
+  description="Socialist and allied movements fighting for climate justice, workers' power, decolonial liberation, and solidarity across borders."
   showSidebar={false}
 >
   <div class="solidarity-page">
@@ -36,9 +33,7 @@ const sections = [
         ariaLabel="Solidarity category navigation"
       />
 
-      <h2 class="category-title" id="south-africa">
-        South Africa & the Continent
-      </h2>
+      <h2 class="category-title" id="workers">Workers & Unions</h2>
 
       <div class="solidarity-grid">
         <SolidarityCard
@@ -49,70 +44,21 @@ const sections = [
         />
 
         <SolidarityCard
-          title="Alternative Information and Development Centre (AIDC)"
-          description="Cape Town-based policy and research collective advancing debt justice, public ownership and just-transition alternatives to austerity and extractivism."
-          url="https://aidc.org.za"
-          ariaLabel="AIDC website — opens in a new tab"
+          title="International Labour Network of Solidarity and Struggles"
+          description="Network of militant unions coordinating internationalist workplace organising and direct industrial solidarity."
+          url="https://laboursolidarity.org"
+          ariaLabel="International Labour Network website — opens in a new tab"
         />
 
         <SolidarityCard
-          title="groundWork"
-          description="Environmental justice NGO working with communities to resist polluting industries and push for democratic control of resources and a just transition."
-          url="https://groundwork.org.za"
-          ariaLabel="groundWork website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="Mining Affected Communities United in Action (MACUA)"
-          description="Network of mining-affected communities resisting corporate plunder, evictions and state capture across South Africa."
-          url="https://macua.org.za"
-          ariaLabel="MACUA website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="Ogiek Peoples' Development Program (OPDP)"
-          description="Indigenous-led organisation advancing land justice, cultural survival and legal empowerment for the Ogiek and other Indigenous peoples."
-          url="https://www.ogiekpeoples.org"
-          ariaLabel="Ogiek Peoples' Development Program website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="Oilwatch Africa"
-          description="Pan-African network coordinating resistance to fossil-fuel extraction and defending community land and livelihoods."
-          url="https://oilwatch.africa"
-          ariaLabel="Oilwatch Africa website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="Rural Women's Assembly"
-          description="Feminist peasant movement mobilising rural women around land, seeds, food sovereignty and collective rights."
-          url="https://www.ruralwomensassembly.org"
-          ariaLabel="Rural Women's Assembly website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="South African Food Sovereignty Campaign (SAFSC)"
-          description="Grassroots campaign promoting food sovereignty, agroecology, and the right to food in South African communities."
-          url="https://www.safsc.org.za"
-          ariaLabel="SAFSC website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="WoMin African Alliance"
-          description="Pan-African ecofeminist alliance supporting communities impacted by extractivism and organising for land and climate justice."
-          url="https://womin.africa"
-          ariaLabel="WoMin African Alliance website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="Zabalaza for Socialism (ZASO)"
-          description="Platform amplifying socialist, feminist and anti-imperialist analysis and organising across Southern Africa."
-          url="https://zabalaza4socialism.org.za"
-          ariaLabel="Zabalaza for Socialism website — opens in a new tab"
+          title="Trade Unions for Energy Democracy (TUED)"
+          description="Global network of unions and allied groups advancing democratic control and public ownership of energy, linking workers’ rights, climate justice and just transition."
+          url="https://www.tuedglobal.org"
+          ariaLabel="TUED website — opens in a new tab"
         />
       </div>
 
-      <h2 class="category-title" id="global-south">Global South Solidarity</h2>
+      <h2 class="category-title" id="global-solidarity">Global Solidarity</h2>
 
       <div class="solidarity-grid">
         <SolidarityCard
@@ -127,13 +73,6 @@ const sections = [
           description="Campaign organisation challenging unjust global debt and financial imperialism, supporting movements in the Global South to reclaim economic sovereignty."
           url="https://debtjustice.org.uk"
           ariaLabel="Debt Justice UK website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="Friends of the Earth International"
-          description="Global grassroots network campaigning for environmental justice, equitable resource control, and community rights."
-          url="https://www.foei.org"
-          ariaLabel="Friends of the Earth International website — opens in a new tab"
         />
 
         <SolidarityCard
@@ -155,6 +94,13 @@ const sections = [
           description="International network organising solidarity for Palestinian prisoners and political prisoners worldwide."
           url="https://samidoun.net"
           ariaLabel="Samidoun website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Zabalaza for Socialism (ZASO)"
+          description="Platform amplifying socialist, feminist and anti-imperialist analysis and organising across Southern Africa."
+          url="https://zabalaza4socialism.org.za"
+          ariaLabel="Zabalaza for Socialism website — opens in a new tab"
         />
       </div>
 
@@ -190,38 +136,6 @@ const sections = [
           url="https://nyeleni.org/en/international-food-sov-movement/"
           ariaLabel="Nyéléni website — opens in a new tab"
         />
-
-        <SolidarityCard
-          title="Schools for Chiapas"
-          description="Solidarity project supporting autonomous education, healthcare and agroecology in Zapatista territories."
-          url="https://schoolsforchiapas.org"
-          ariaLabel="Schools for Chiapas website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="Union of Agricultural Work Committees (UAWC)"
-          description="Palestinian grassroots organisation advancing land rights, agroecology and rural livelihoods."
-          url="https://uawc-pal.org"
-          ariaLabel="UAWC website — opens in a new tab"
-        />
-      </div>
-
-      <h2 class="category-title" id="workers">Working-Class Struggles</h2>
-
-      <div class="solidarity-grid">
-        <SolidarityCard
-          title="International Labour Network of Solidarity and Struggles"
-          description="Network of militant unions coordinating internationalist workplace organising and direct industrial solidarity."
-          url="https://laboursolidarity.org"
-          ariaLabel="International Labour Network website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="Trade Unions for Energy Democracy (TUED)"
-          description="Global network of unions and allied groups advancing democratic control and public ownership of energy, linking workers’ rights, climate justice and just transition."
-          url="https://www.tuedglobal.org"
-          ariaLabel="TUED website — opens in a new tab"
-        />
       </div>
 
       <h2 class="category-title" id="indigenous">
@@ -234,13 +148,6 @@ const sections = [
           description="Regional alliance advancing Indigenous rights, land justice and climate resilience across Asia."
           url="https://aippnet.org"
           ariaLabel="AIPP website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="CEMIRIDE (Centre for Minority Rights Development)"
-          description="Kenyan organisation supporting Indigenous and minority rights through legal and grassroots advocacy."
-          url="https://www.cemiride.org"
-          ariaLabel="CEMIRIDE website — opens in a new tab"
         />
 
         <SolidarityCard
@@ -293,14 +200,14 @@ const sections = [
         />
       </div>
 
-      <h2 class="category-title" id="media">Media & Publications</h2>
+      <h2 class="category-title" id="media-research">Media & Research</h2>
 
       <div class="solidarity-grid">
         <SolidarityCard
-          title="Africa Is a Country"
-          description="Critical commentary and cultural analysis on African politics and society from a decolonial perspective."
-          url="https://africasacountry.com"
-          ariaLabel="Africa Is a Country website — opens in a new tab"
+          title="Alternative Information and Development Centre (AIDC)"
+          description="Cape Town-based policy and research collective advancing debt justice, public ownership and just-transition alternatives to austerity and extractivism."
+          url="https://aidc.org.za"
+          ariaLabel="AIDC website — opens in a new tab"
         />
 
         <SolidarityCard
@@ -308,6 +215,13 @@ const sections = [
           description="Independent left magazine publishing socialist, feminist and anti-imperialist analysis."
           url="https://www.redpepper.org.uk"
           ariaLabel="Red Pepper website — opens in a new tab"
+        />
+
+        <SolidarityCard
+          title="Rosa Luxemburg Stiftung (RLS)"
+          description="German foundation advancing democratic socialism, political education, and international solidarity. Works globally with movements for social justice, feminism, and ecological transformation."
+          url="https://www.rosalux.de/en"
+          ariaLabel="Rosa Luxemburg Stiftung website — opens in a new tab"
         />
 
         <SolidarityCard
@@ -329,46 +243,6 @@ const sections = [
           description="South African worker media collective producing reporting and education for working-class organising."
           url="https://wwmp.org.za"
           ariaLabel="WWMP website — opens in a new tab"
-        />
-      </div>
-
-      <h2 class="category-title" id="mutual-aid">
-        Mutual Aid & Community Services
-      </h2>
-
-      <div class="solidarity-grid">
-        <SolidarityCard
-          title="Mutual Aid Disaster Relief"
-          description="Decentralised network offering grassroots disaster response, material aid and mutual-care training."
-          url="https://mutualaiddisasterrelief.org"
-          ariaLabel="Mutual Aid Disaster Relief website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="Food Not Bombs"
-          description="Global network of volunteer collectives reclaiming food to feed people and build mutual aid infrastructure."
-          url="https://foodnotbombs.net"
-          ariaLabel="Food Not Bombs website — opens in a new tab"
-        />
-      </div>
-
-      <h2 class="category-title" id="research">
-        Research, Policy & Accountability
-      </h2>
-
-      <div class="solidarity-grid">
-        <SolidarityCard
-          title="Corporate Europe Observatory"
-          description="Investigative group exposing corporate lobbying and campaigning for democratic public interest policy."
-          url="https://corporateeurope.org"
-          ariaLabel="Corporate Europe Observatory website — opens in a new tab"
-        />
-
-        <SolidarityCard
-          title="Global Tapestry of Alternatives (GTA)"
-          description="Global network connecting community-led, post-capitalist and decolonial initiatives that build regenerative economies and collective self-determination."
-          url="https://globaltapestryofalternatives.org"
-          ariaLabel="Global Tapestry of Alternatives website — opens in a new tab"
         />
 
         <SolidarityCard
