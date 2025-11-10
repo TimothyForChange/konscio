@@ -2,11 +2,11 @@
 title: "Black Gold and Red Soil: Russia’s Africa Corps and the New Imperial Extraction"
 author: "Timothy Brits"
 datePublished: 2025-12-21
-description: "An eco-socialist investigation of how Russia’s Africa Corps funds imperial war through African extraction — gold, blood and the illusion of sovereignty."
-excerpt: "From Wagner’s ruins, Russia’s Africa Corps has risen — securing mines, exporting gold and exporting death. In the CAR and beyond, Africa’s resources bankroll empire again."
+description: "A democratic socialist investigation of how Russia’s Africa Corps funds imperial war through African extraction — exposing how global empires profit from insecurity and resource plunder."
+excerpt: "From Wagner’s ruins, Russia’s Africa Corps has risen — securing mines, exporting gold, and exporting death. In the CAR and beyond, Africa’s resources bankroll empire once again."
 image: /images/black-gold-red-soil.jpg
 categories: ["Analysis"]
-tags: ["Russia", "Africa Corps", "Extractivism", "Central African Republic"]
+tags: ["Russia", "Africa Corps", "Extractivism", "Imperialism"]
 ---
 
 # Black Gold and Red Soil: Russia’s Africa Corps and the New Imperial Extraction
@@ -17,8 +17,7 @@ tags: ["Russia", "Africa Corps", "Extractivism", "Central African Republic"]
 The Russian flag now flies over gold mines in the Central African Republic.
 But this is not conquest by armies — it is conquest by contracts, carried out by mercenaries in camouflage and suits in Moscow boardrooms.
 
-After Wagner's fall the Kremlin's **Africa Corps** took its place.
-Its mission is not peacekeeping nor ideology. It is extraction: gold, diamonds, timber — transmuted into hard currency for wars abroad and patronage at home.
+After Wagner’s fall the Kremlin’s **Africa Corps** took its place. Its mission is not peacekeeping nor ideology. It is extraction: gold, diamonds, timber — transmuted into hard currency for wars abroad and patronage at home.
 
 Africa again becomes the cash machine of empire.
 
@@ -26,123 +25,85 @@ Africa again becomes the cash machine of empire.
 
 ## From Wagner to Africa Corps: The Seamless Mutation of Imperial Muscle
 
-Wagner's African operations were never freelance; they were the informal wing of Russian foreign policy — projecting power without formal accountability.
+Wagner's African operations were never freelance; they were the informal wing of Russian foreign policy — projecting power without formal accountability. When Yevgeny Prigozhin died and Wagner fractured, Moscow reconstituted the apparatus into state-linked structures that could absorb personnel, networks and concession deals.
 
-When Yevgeny Prigozhin died and Wagner fractured, Moscow changed the label. The **Africa Corps**, run through Russia’s Defence Ministry and intelligence networks, absorbed Wagner’s personnel, mines and shell companies [^1].
+In the **Central African Republic (CAR)** this meant business as usual. Mining concessions changed hands; companies with murky ownership took control of Ndassima and other deposits. Fighters in new uniforms continue to guard extraction sites while commodity flows move to refiners and offshore accounts.
 
-In the **Central African Republic (CAR)** this meant business as usual. Wagner’s Midas Resources still controls the **Ndassima gold mine**, fighters now wearing Africa Corps insignia. Diamonds move through **Diamville**, timber through **Bois Rouge**, and money through offshore accounts and refineries in Dubai and Moscow [^2].
-
-This is Russia’s Africa policy stripped bare: **war financed by resource extraction**. What was framed as “private” is now state-backed looting with bureaucratic discipline.
+This is Russia’s Africa policy stripped bare: security in exchange for access to resources.
 
 ---
 
 ## Resource-for-Security: A Colonial Contract
 
-The logic is brutally simple. Russia offers “security assistance” — weapons, training, a few hundred soldiers to guard the palace. In return Moscow-linked firms receive **mining concessions**.
+The logic is brutally simple. Russia offers “security assistance” — weapons, training, and paramilitary presence. In return, Moscow-linked firms receive mining concessions and privileged contracts.
 
-In the CAR the model is formalised: gold and timber as payment for “security cooperation.” In **Mali** and **Sudan** Wagner and successors offer the same deal. Pattern: **guns for gold; propaganda for legitimacy** [^3].
+In the CAR, gold, diamonds and timber are the currency of patronage. This pattern replicates across Mali, Sudan, Burkina Faso and Niger: **guns for gold; protection for concessions.**
 
-CAR’s government, broke and besieged, now owes survival to Moscow — sovereignty mortgaged to a foreign army whose loyalty lies with profit, not peace.
-
-This is **colonialism without colonists** — extraction outsourced, empire subcontracted.
+This is colonialism without colonists — extraction outsourced, empire subcontracted.
 
 ---
 
 ## Blood in the Soil: Violence as Economic Infrastructure
 
-The mines are not workplaces; they are war zones.
+Mines are not benign workplaces; they are contested zones where violence enforces profit.
 
-Satellite imagery and rights reports show villages razed around Ndassima. Locals describe forced labour, sexual violence and extortion at checkpoints [^4].
+Reports document forced labour, extortion, sexual violence and displacement around extraction sites. Satellite imagery shows villages razed and rutted access roads. Rivers bear mercury and sediment from unregulated artisanal mining.
 
-Where the Corps moves, forests are stripped, rivers poisoned by mercury, communities displaced. Mercenaries are not a symptom of insecurity — they are its architecture.
-
-Gold bars become bullets in Ukraine.
-Diamonds fund disinformation.
-Each extraction site is a microcosm of a global structure: **African resources financing European wars** [^5].
+Where the Corps moves, ecologies are damaged and communities are terrorised. Gold bars become bullets; mineral wealth funds conflict, disinformation and patronage networks.
 
 ---
 
-## Smuggling, Sanctions, and the Mirage of Sovereignty
+## Smuggling, Sanctions and the Mirage of Sovereignty
 
-Russia’s economic isolation after the Ukraine invasion made African gold more than trophy — it is lifeline. Via African intermediaries, Russian-linked companies move bullion through **Dubai**, **Istanbul** and **Hong Kong**, bypassing sanctions [^6].
+Russia’s post-Ukraine isolation made African gold more than loot — it became lifeline. Through intermediaries, bullion moves from African mines to refineries in **Dubai**, **Istanbul** and elsewhere, evading sanctions and laundering the origin.
 
-Official CAR statistics are fiction; production figures vanish into informal channels.
-Dubai refineries process hundreds of tonnes of untraceable gold yearly — much from conflict zones [^7].
+Official production figures rarely match reality. Informal trade networks and state complicit actors obscure flows. Offshore firms and shell companies convert local riches into fungible capital for global politics.
 
-The Kremlin’s war chest is filled with metal dug by men who will never see a rouble. It is **imperial recycling**: Africa’s gold props up Russia’s wars while Russia props up regimes that enable looting.
+It is imperial recycling: Africa’s resources underwrite fights elsewhere; authoritarian capital buys legitimacy and weapons.
 
 ---
 
 ## A Pattern Across the Continent
 
-The Africa Corps is not confined to CAR.
+The Africa Corps is one node in a larger extractive system:
 
-- **Mali:** Russian mercenaries replace French forces, securing mining zones for concessions. Villages near Mopti and Gao bombed or depopulated under counterterrorism guise [^1].
-- **Sudan:** Wagner affiliates trained RSF units and helped move gold to Russia during civil war — mirroring the CAR model [^8].
-- **Burkina Faso & Niger:** Russian envoys promise identical formula — protection from jihadists paid in natural resources.
+- **Mali:** Russian actors fill gaps left by former colonial security arrangements, securing concessions and influence.
+- **Sudan:** Wagner-linked advisers and networks have helped open gold corridors.
+- **Burkina Faso & Niger:** New security pacts often come with concession opportunities.
 
-This network is an **imperial economy of insecurity**, feeding Moscow’s foreign policy and the continent’s crisis industry.
+Whatever the flag, the economic logic is constant: capital and coercion combine to carve out resource rents.
 
 ---
 
 ## Empire’s Continuum: From Washington to Moscow
 
-This is not uniquely Russian. It is the same extractive logic practised by France, Britain, the United States and China — a rotating cast of imperial patrons.
+This is not uniquely Russian. France, Britain, the U.S., China and Gulf actors have long practised similar extraction-through-security approaches. The actors rotate; the system persists.
 
-Russia’s entry reveals continuity: **whoever has capital and guns dictates extraction terms.**
-From the Niger Delta to the Donbas, from Gaza to Ndassima, empire’s syntax is unchanged: plunder justified as “stability”.
-
-The difference is rhetorical, not structural. Where the West speaks of “development”, Moscow speaks of “security”. Both mean **control over land, labour and life**.
+The difference is rhetorical. Some invoke development; others invoke security. Both produce dispossession.
 
 ---
 
-## Resistance and Reckoning
+## Democratic Socialist Response
 
-Yet resistance persists.
+A democratic socialist approach rejects imperial bargaining — East or West — and centres democratic control, transparency and community rights.
 
-In Bangui activists document abuses despite threats. In Mali trade unions condemn resource-for-security deals as “theft in uniform”. In South Africa solidarity movements call for sanctions on Dubai refineries and transparency in gold trade.
+Policy demands include:
 
-These movements name what many Western analysts avoid: **extractivism is war by economic means.**
+- **Expose and sanction** supply chains laundering illicit commodity flows.
+- **Support community governance** and legal recognition of collective land rights.
+- **End “resource-for-security” deals** with binding international norms.
+- **Back regional oversight** and grassroots accountability for contracts and military assistance.
 
-Solidarity must move beyond moral outrage to **material disruption**:
-
-- Expose refineries laundering stolen gold.
-- Target shipping firms and financiers greasing transactions.
-- Back community control over resources — not military “protection”.
-
-Without this material disruption, every anti-imperialist speech is hollow.
+We should treat extraction as public rather than private infrastructure: revenue should fund health, education and reconstruction — not patronage and foreign wars.
 
 ---
 
-## Toward a Decolonial Future
+## Resistance and Organising
 
-The Africa Corps story is not merely about Russia; it exposes a planetary extractive order that still treats Africa as feedstock for distant wars and balance sheets.
-Unless extraction itself is delegitimised — not just the flag atop the concession — the continent remains theatre for interchangeable empires.
+Resistance takes many forms: community mapping of concessions, unionisation of miners, local watchdog journalism and transnational solidarity campaigns targeting refineries and shipping lines.
 
-As **Walter Rodney** reminded us, underdevelopment is a relationship — persisting in gold dust laundered through Dubai, scorched villages near Ndassima and the manufactured illusion of sovereignty secured by foreign guns.
+Solidarity must be material: sanction laundering networks, block logistics chains used to export plunder, and build alternatives — cooperatives, public mineral companies under democratic oversight.
 
-Breaking it means centring life over loot: dismantling financial, logistical and security circuits that convert forests and rivers into munitions and propaganda; building collective stewardship and mutual survival that make mercenary bargaining impossible.
+Africa’s soil is not a treasury for empires. It is living ground, and democratic control is the path to reclaiming it.
 
-Africa’s soil is not Russia’s treasury, not France’s legacy, not China’s factory floor. It is living ground — bloodied yet capable of regeneration if shielded from imperial machinery.
-
-Solidarity with communities resisting at Ndassima, Mopti, El Fasher and all sites where land is defended against extraction’s armed custodians.
-
----
-
-## References
-
-[^1]: Alex Horobets. Jamestown Foundation. [Africa Corps Maintains Russia's Presence in Africa After Wagner's Departure from Mali](https://jamestown.org/program/africa-corps-maintains-russias-presence-in-africa-after-wagners-departure-from-mali/). _The Jamestown Foundation_, July 16 2025.
-
-[^2]: Philip Obaji Jr. Al Jazeera. ['We now face guns': Small-scale miners fear Wagner's advances in CAR](https://www.aljazeera.com/features/2024/7/10/we-now-face-guns-small-scale-miners-fear-wagners-advances-in-car). _Al Jazeera_, July 10 2024.
-
-[^3]: The Guardian. [Russian mercenaries exploiting Africa to fund war in Ukraine](https://www.theguardian.com/world/2022/oct/06/russian-mercenaries-exploiting-africa-to-fund-war-in-ukraine). _The Guardian_, Oct 6 2022.
-
-[^4]: Jean-Fernand Koena, Maja Zivanovic, and Mike Eckel. Radio Free Europe / Radio Liberty. [Wagner's Successors Wage Campaign Of Terror In Central African Republic](https://www.rferl.org/a/russia-wagner-mercenaries-central-african-republic-crimes/33306858.html). _RFE/RL_, Feb 9 2025.
-
-[^5]: Africa Defense Forum. [Wagner Group's CAR Mining Operations Help Russia Evade Sanctions](https://adf-magazine.com/2023/05/wagner-groups-car-mining-operations-help-russia-evade-sanctions/). _ADF Magazine_, May 2 2023.
-
-[^6]: Disinfo Africa. [Russia's Mercenaries, Africa's Gold](https://disinfo.africa/russias-mercenaries-africa-s-gold-9dce4eb44797). _Disinfo.Africa_, June 30 2025.
-
-[^7]: Nathalia Dukhan, Ruben De Koning, and Zobel Behalal. Global Initiative Against Transnational Organized Crime. [Captured riches: The message in CAR's disappearing diamond](https://globalinitiative.net/analysis/central-african-republic-disappearing-diamond). _GI-TOC_, Feb 14 2025.
-
-[^8]: Olivia Allison, Nick Connon, Dr Antonio Giustozzi, and James Pascall. RUSI. [Wagner's Business Model in Syria and Africa](https://www.rusi.org/explore-our-research/publications/occasional-papers/wagners-business-model-syria-and-africa-profit-and-patronage). _RUSI Paper_, 2022.
+— In solidarity with communities resisting extraction and militarised control.

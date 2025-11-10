@@ -2,11 +2,11 @@
 title: "Ukraine and the Empire of War: How Capital Profits from Catastrophe"
 author: "Timothy Brits"
 datePublished: 2025-12-07
-description: "An eco-socialist and anti-imperialist analysis of the war in Ukraine as a symptom of global militarised capitalism — exposing how both NATO expansion and Russian imperialism feed a planetary war economy."
+description: "A democratic socialist and anti-imperialist analysis of the war in Ukraine as a product of global militarised capitalism — showing how both NATO expansion and Russian imperialism feed a planetary war economy."
 excerpt: "The war in Ukraine is not a clash of civilisations but a clash of empires. Beneath flags and rhetoric lies a global system turning human suffering into profit — weapons, energy, debt."
 image: /images/ukraine-and-the-empire-of-war.jpg
 categories: ["Analysis"]
-tags: ["Ukraine", "Imperialism", "NATO", "Global South", "Russia"]
+tags: ["Ukraine", "Imperialism", "NATO", "Russia", "Democratic Socialism"]
 ---
 
 # Ukraine and the Empire of War: How Capital Profits from Catastrophe
@@ -135,7 +135,7 @@ War is the climate crisis in military form.
 
 ## Dismantling the Machinery of Domination
 
-Ukraine's tragedy is planetary. It exposes connective tissue of the system: **capitalism, colonialism and climate collapse as one machinery of domination.**
+Ukraine's tragedy is planetary. It exposes the global system’s true nature: **capitalism and militarism as twin engines of domination, upheld by debt, fossil dependency, and imperial arrogance**.
 
 The same order exploiting Congolese miners, fueling Sudan's militias and flattening Gaza now grinds Ukrainians. Different languages; same empire.
 

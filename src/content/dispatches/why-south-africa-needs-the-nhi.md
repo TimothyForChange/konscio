@@ -2,11 +2,11 @@
 title: "Health Is Not a Privilege: Why South Africa Needs the NHI"
 author: "Timothy Brits"
 datePublished: 2025-12-28
-description: "The National Health Insurance is South Africa's chance to end apartheid in healthcare — if power, profit, and political cowardice don't strangle it first."
+description: "The National Health Insurance is South Africa's chance to end apartheid in healthcare — if power, profit, and political cowardice don't strangle it first. A democratic socialist perspective on universal care and public power."
 excerpt: "The National Health Insurance is a moral test: will South Africa keep healthcare a commodity or finally secure it as a right?"
 image: /images/why-south-africa-needs-the-nhi.jpg
 categories: ["Analysis"]
-tags: ["NHI", "Healthcare", "Decolonisation", "South Africa"]
+tags: ["NHI", "Healthcare", "Democratic Socialism", "South Africa"]
 ---
 
 # Health Is Not a Privilege: Why South Africa Needs the NHI
@@ -113,7 +113,7 @@ A just health system will be built from below.
 
 ## Health, Ecology, and Liberation
 
-Eco-socialism teaches human and planetary health are the same fight. The logic that poisons rivers also underfunds hospitals and discards workers. A society valuing profit over life destroys both people and planet.
+Democratic socialism teaches that human and planetary health are inseparable. The same logic that poisons rivers also underfunds hospitals and discards workers. A society that values profit over life destroys both people and planet.
 
 The NHI challenges that logic: life is not a budget line; care is a public good; solidarity is structure, not sentiment.
 

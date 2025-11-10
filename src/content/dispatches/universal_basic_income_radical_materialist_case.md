@@ -2,11 +2,11 @@
 title: "Universal Basic Income: A Radical, Materialist Case"
 author: "Timothy Brits"
 datePublished: 2025-11-09
-description: "UBI can be a redistributive tool — but only if anchored in public provision, ecosocial planning and decolonial finance. This essay argues for a UBI that undermines extractivism and builds democratic control, not a market-friendly bandage."
-excerpt: "UBI without public power is a sop to capital. A universal income must sit inside an ecosocial programme: cancel odious debts, tax wealth, build services under democratic control."
+description: "UBI can be a redistributive tool — but only if anchored in public provision, democratic planning, and decolonial finance. This essay argues for a UBI that undermines extractivism and builds collective power, not a market-friendly bandage."
+excerpt: "UBI without public power is a sop to capital. A universal income must sit inside a democratic socialist programme: cancel odious debts, tax wealth, and build services under collective control."
 image: /images/universal_basic_income_radical_materialist_case.jpg
 categories: ["Analysis"]
-tags: ["Universal Basic Income", "Welfare", "Global South", "Decolonisation"]
+tags: ["Universal Basic Income", "Democratic Socialism", "Welfare"]
 ---
 
 # Universal Basic Income: A Radical, Materialist Case
@@ -20,7 +20,7 @@ Universal Basic Income (UBI) is simple: everyone receives a regular, uncondition
 
 Simplicity hides struggle. UBI can emancipate — or become a technocratic patch on exploitation. Funded and controlled by capital it subsidises low wages and privatised survival; grounded in public power it redistributes wealth, time and ownership.
 
-This essay argues for the second path: a **UBI anchored in ecosocial planning, public provision and decolonial finance** — a basic income that weakens extraction instead of stabilising it.
+This essay argues for the second path: a **UBI anchored in social planning, public provision and decolonial finance** — a basic income that weakens extraction instead of stabilising it.
 
 UBI alone cannot cure poverty. Without structural change it is absorbed by profit, rent and debt. Embedded in democratic public services, debt justice and ecological planning, it can help shift power from capital to people.
 
@@ -68,9 +68,9 @@ Neoliberal stabilisation: manage unrest with cash, privatise commons, protect pr
 
 ---
 
-## What an Ecosocial UBI Would Look Like
+## What a Social UBI Would Look Like
 
-To liberate, UBI must embed in **a wider ecosocial programme** that democratises ownership, decarbonises production and restores commons.
+To liberate, UBI must embed in **a wider social programme** that democratises ownership, decarbonises production and restores commons.
 
 ### Democratic Foundations
 
@@ -98,13 +98,13 @@ Pair UBI with jobs guarantee in care, restoration and climate work — expanding
 
 ### Ecological Transformation
 
-Ecosocial UBI must shrink footprints by reorganising production: public transport over private cars; shared infrastructure over wasteful individualism. High living standards via collective provision, not endless growth.
+Social UBI must shrink footprints by reorganising production: public transport over private cars; shared infrastructure over wasteful individualism. High living standards via collective provision, not endless growth.
 
 ### Global Solidarity
 
 Capital flight and tax evasion are transnational; justice must be too. Progressive tax coordination, corporate accountability and reparative transfers essential — otherwise UBI bleeds offshore.
 
-Precedents exist: **Brazil's Bolsa Família** combines cash transfers with healthcare and education; **South Africa's social grants** show redistribution viability amid constraint; **Kerala's localised planning** integrates social provision, ecology and participatory budgeting. Task: **weave fragments into coherent ecosocial plan.**
+Precedents exist: **Brazil's Bolsa Família** combines cash transfers with healthcare and education; **South Africa's social grants** show redistribution viability amid constraint; **Kerala's localised planning** integrates social provision, ecology and participatory budgeting. Task: **weave fragments into coherent social plan.**
 
 ---
 
@@ -125,7 +125,7 @@ Depends on design. Minimal, marketised payment can pacify; **adequate, universal
 
 UBI will be won **through organised struggle** not technocratic persuasion. Policy follows power.
 
-The coalition capable of winning ecosocial UBI exists in fragments:
+The coalition capable of winning social UBI exists in fragments:
 
 - workers in formal and informal economies whose labour is precarious and devalued;
 - women performing unpaid care underpinning accumulation;
@@ -135,7 +135,7 @@ The coalition capable of winning ecosocial UBI exists in fragments:
 
 These struggles form a common front against a system exploiting labour, colonising nature, disciplining life through debt.
 
-Campaigns for living wage, debt cancellation, public ownership build foundations of ecosocial UBI. Each act of resistance strengthens capacity to demand redistribution on our terms, not the market’s.
+Campaigns for living wage, debt cancellation, public ownership build foundations of social UBI. Each act of resistance strengthens capacity to demand redistribution on our terms, not the market’s.
 
 ---
 

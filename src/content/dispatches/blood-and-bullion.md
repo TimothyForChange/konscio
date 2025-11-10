@@ -1,15 +1,15 @@
 ---
-title: "Blood and Bullion: How Gold Fuels Sudan's War"
+title: "Blood and Bullion: How Gold Fuels Sudan’s War"
 author: "Timothy Brits"
 datePublished: 2025-10-31
-description: "An eco-socialist investigation of how gold underwrites Sudan's war — and how the RSF's plunder economy, foreign sponsors, and imperial markets profit from blood and bullion."
+description: "A democratic socialist analysis of how Sudan’s war economy, foreign sponsors, and global markets turn extraction into annihilation — and how solidarity can break the cycle."
 excerpt: "Gold is Sudan's war currency. The RSF's smuggling empire, backed by foreign capital, turns extraction into annihilation, while the state fragments and civilians pay the cost."
 image: /images/blood-and-bullion.jpg
 categories: ["Analysis"]
-tags: ["Sudan", "Gold", "Extractivism", "Imperialism", "RSF", "Global South"]
+tags: ["Sudan", "Gold", "Extractivism", "Imperialism", "Democratic Socialism"]
 ---
 
-# Blood and Bullion: How Gold Fuels Sudan's War
+# Blood and Bullion: How Gold Fuels Sudan’s War
 
 > "Imperialism leaves behind germs of rot which we must clinically detect and remove from our land and from our minds."
 > — Frantz Fanon, The Wretched of the Earth (1961)
@@ -18,118 +18,78 @@ Gold is not neutral. It is capital made visible: heavy, portable and fungible.
 
 In Sudan bullion is the fuel of warfare. It buys drones, lubricates smuggling networks and sustains a parasitic war economy in which militias and foreign brokers profit while regions are emptied of life.
 
-The reality transcends scarcity and chaos. It is structural: **extractivism as war finance**, extractivism as empire.
-The same commercial appetites that turned the Congo into mineral violence and Palestine into a laboratory for militarised dispossession now make Sudan's goldfields a prize worth killing for.
+The reality transcends scarcity and chaos. It is structural: **extractivism as war finance**, extractivism as empire. The same commercial appetites that turned the Congo into mineral violence now make Sudan's goldfields a prize worth killing for.
 
 ---
 
 ## The Currency of Conflict
 
 Sudan's civil war has a material heartbeat: gold.
-Since large-scale fighting erupted in April **2023**, the **Rapid Support Forces (RSF)** — a militia born from Janjaweed death squads — have built an economy on smuggling, forced labour and cross-border trade.[^1]
 
-The **Sudanese Armed Forces (SAF)**, the formal army, represents the institutional legacy of an extractive neo-colonial state apparatus.
+Since large-scale fighting erupted in April **2023**, the **Rapid Support Forces (RSF)** — a militia evolved from Janjaweed groups — have built an economy on smuggling, forced labour and cross-border trade.
 
-Though formally structured, SAF leadership has long been enmeshed in networks of extraction and corruption that enabled RSF emergence. Even its 'defensive' operations often protect extraction infrastructure and imperial interests rather than civilians.
+The **Sudanese Armed Forces (SAF)** represent institutional continuities of an extractive state. Between them, the war economy thrives: RSF controls and taxes mines while SAF defends corridors of formalised extraction.
 
-The SAF's failures are political; the RSF's crimes existential — both emerge from a colonial-modern state structure built to facilitate extraction.
-
-Investigations show RSF commanders capturing gold mines in Darfur and South Kordofan, forcing miners to work under militia supervision and using profits to import drones and weapons. Towns razed; survivors speak of massacres, rape and forced displacement — violence funded by bullion and lubricated by Gulf money.
-
-Legal exports, official channels and a vast shadow economy channel Sudanese gold to international markets. The **United Arab Emirates** absorbs up to **90%** of declared shipments.[^2] Behind those numbers lies a darker current: **RSF-controlled smuggling networks** moving gold via Chad, Libya and Egypt, bypassing oversight.[^3]
-
-These routes convert looted land into currency, sustaining militias that wage war not for liberation but for control of resource flows under a fragmented imperial apparatus.
+Investigations show RSF commanders capturing mines in Darfur and South Kordofan, forcing miners to work and taxing outputs. Towns are razed; civilians report massacres, rape and displacement. Gold is turned into cash to buy weaponry, hire brokers, and maintain patronage networks.
 
 ---
 
 ## Plunder as Policy
 
-The RSF's economic model is textbook neo-colonial extraction.
-It does not build or govern; it consumes. Its commanders sell gold through foreign intermediaries, buy weapons through the same channels, and use violence to secure new sources of loot.
+Plunder has been normalised into policy. The RSF’s economic model mirrors neo-colonial extraction: sell raw commodity, outsource refining, launder proceeds, and buy weapons. The same financial and logistical circuits that move "ethical" gold from other regions also move Sudanese bullion.
 
-Darfur, long the site of genocide, has become the militia's treasury. Satellite imagery and reports confirm scorched villages and mass graves. Women enslaved in mining zones; children conscripted. Atrocities are not incidental — they are operating logic.
-
-By contrast SAF power is bureaucratic and brittle: clinging to state legitimacy while lacking social legitimacy. For many civilians it remains the only structure preventing total collapse into warlord rule. SAF is not solution; RSF is abyss.
-
-> "He who feeds you, controls you."
-> — Thomas Sankara (1987)
+The **UAE** and its trading hubs are central nodes. Declared exports and shadow flows mingle, with a large share of reported shipments moving through Gulf channels. Industrial refineries and middlemen obscure origin; labels and paperwork sanitise the crime.
 
 ---
 
 ## Bodies and Land: The Human and Ecological Toll
 
-Human toll is staggering. As of late 2025, conflict deaths exceed **20,000**; **over 12 million people displaced** — the world's largest displacement crisis. Cities — El Geneina, Nyala, Omdurman — scarred by RSF shelling and scorched-earth tactics. Corridors blocked, aid looted, civilians targeted for ethnicity.
+The human cost is vast. Conflict deaths number in the tens of thousands; millions displaced. Cities and rural economies are devastated. Mining zones see forced labour, child miners, and widespread abuse.
 
-Mining is a second front. Unregulated pits use mercury and cyanide, contaminating rivers and soil. Deforestation spreads across Darfur and South Kordofan. What gold cannot kill by bullet it poisons by run-off.
+Environmental damage compounds suffering. Artisanal mining uses mercury and cyanide, contaminating rivers and soils. Deforestation expands as pits and roadworks spread. Post-conflict recovery will face poisoned lands and sickened communities.
 
-SAF presence slows some environmental devastation, yet both sides remain trapped in a model where gold underwrites war and ruins recovery. Sudan bleeds for a metal leaving ash.
+Gold is both cause and consequence: extraction funds the war that destroys the conditions for peaceful, sustainable livelihoods.
 
 ---
 
 ## A Global Network of Complicity
 
-The international system is not a bystander.
-The **UAE's gold markets** and refiners are central to laundering RSF gold, even as the Gulf presents itself as peace broker. Dubai's **Al Etihad Gold** and others process Sudanese gold with minimal oversight.[^4] **Wagner Group** (rebranded after Prigozhin) has trained RSF units and facilitated logistics for mining access; Wagner-linked entities provide advisors, tactical expertise and combat support.
+The international system is not merely indifferent — it is complicit.
 
-Meanwhile **Egypt** aligns with the SAF, providing political support and opening borders to SAF-aligned forces and refugees — driven by spillover fears and Nile water politics.
+Refineries, trading houses and financial institutions in the Middle East, Europe and elsewhere facilitate flows. Banks clear payments; insurers underwrite shipments; traders provide cover. Statements of concern from governments mean little when markets and logistics remain open.
 
-Regional geopolitics are complicated by **Saudi Arabia**, **Qatar** and **Ethiopia**, each drawn in through support, border clashes or mediation. Sudan's gold wealth acts as magnet for regional imperial influence.
+Wagner-linked actors and other private military networks have at times facilitated access to mines. Regional states offer transit routes. Global demand for gold ensures a market for plundered produce.
 
-Beyond direct support, financial infrastructure enables trade: **Swiss and British banks** clear payments with minimal diligence; **London metals markets** set prices and provide liquidity; **Lloyd's insurers** cover shipments labelled "artisanal"; **Dubai and Istanbul trade finance firms** issue letters of credit disguising origin.
-
-Meanwhile Western governments issue statements on "stability" while their banks process flows that keep trade alive. Sanctions selective; outrage choreographed — a theatre of hypocrisy.
-
----
-
-## Empire's Common Thread: Sudan, Congo, Palestine
-
-From Darfur to Donbas, Gaza to Goma, the logic repeats: **resource control through militarised extraction.**
-In the DRC cobalt and coltan finance corporate empires.
-In Palestine land is expropriated under "security".
-In Sudan gold fuels a militia serving as warlord and subcontractor of empire.
-
-**Regional solidarity is emerging.** Chad civil society documents cross-border RSF movements. **South African trade unions** call for sanctions on Dubai gold markets. **Egyptian rights groups** expose military cooperation. **Kenyan committees** investigate arms flows.
-
-This represents capitalism's natural form in the periphery: organised dispossession.
-The imperial core that buys "conflict-free" gold sells the weapons that make it bloody.
-
-> "The question as to who and what is responsible for African underdevelopment can be answered at once: it is the international capitalist system."
-> — Walter Rodney, How Europe Underdeveloped Africa (1972)
+Democratic socialists insist solidarity must be material: target the channels that transform stolen resources into currency.
 
 ---
 
 ## Disrupting the Gold-Fueled War Machine
 
-This conflict requires structural dismantling rather than pacification by press release.
+To stop the blood-bullion cycle we must attack its logistics:
 
-- **Cut off RSF's gold economy** via supply-chain enforcement and sanctions on refineries, shippers and Gulf financiers.
-- **Hold traders and banks accountable** for laundering via Dubai, Istanbul and European hubs.
-- **Support civilian/local governance** over resource zones — community not militia control.
-- **Cancel odious debts** and redirect funds to ecological restoration and survivor reparations.
-- **Restructure gold markets** so transparency replaces opacity; justice replaces liquidity.
+- **Sanction refineries, traders and intermediaries** that process illicit gold.
+- **Impose transparency laws** requiring traceability of origin for all refined gold.
+- **Target shipping firms, insurers and banks** complicit in laundering.
+- **Support community governance** of resource zones with international guarantees protecting civilians.
+- **Cancel burdensome debts** and fund reconstruction through public, accountable mechanisms.
 
-Without these shifts, every gram of gold will carry the weight of a grave.
+These measures require coordinated pressure from states, unions, civil society and transnational movements. Action at ports, financial centres and trade hubs can choke the supply lines that keep militias funded.
+
+---
+
+## Toward Justice and Reconstruction
+
+Ending the war economy is only the first step. Post-conflict Sudan will need democratic control over resources, reparations for survivors, environmental remediation and public investment in health, education and livelihoods.
+
+Gold should be an asset for reconstruction — not a currency of war. That requires international oversight that respects local democratic choices, and the removal of predatory actors that profit from violence.
 
 ---
 
 ## The Weight of Gold
 
-Gold is mirror of global greed, not just Sudan's tragedy.
-Each ingot refined in Dubai or Zurich carries memory of poisoned rivers and massacred villages.
+Each ingot refined in distant docks carries the cost of burned villages and poisoned rivers. The market price is measured in lives.
 
-If serious about decolonisation we must name the system plainly: **RSF plunder is empire profit.**
-To end one we must confront both.
+If we are serious about decolonisation and justice, we must link local struggles to global levers. Strip the markets that fund violence; hold intermediaries accountable; and build economic alternatives that put people before profit.
 
-— In solidarity with the people of Sudan; with miners, farmers and all who resist extraction.
-
----
-
-## References
-
-[^1]: Ahmed Soliman and Dr Suliman Baldo. Chatham House. [Gold and the War in Sudan](https://www.chathamhouse.org/2025/03/gold-and-war-sudan). _Chatham House_, March 2025.
-
-[^2]: Khalid Abdelaziz and Nafisa Eltahir. Reuters. [Sudan’s Booming Wartime Gold Trade Flows Through UAE](https://www.reuters.com/world/africa/sudan-pound-suffers-de-facto-uae-flight-ban-hits-gold-exports-2025-10-21/). _Reuters_, Oct 21 2025.
-
-[^3]: Eliott Brachet. Le Monde. [The UAE’s Shady Role in Sudan — and Western Nations’ Culpable Indifference](https://www.lemonde.fr/en/le-monde-africa/article/2025/11/03/the-uae-s-shady-role-in-sudan-and-western-nations-culpable-indifference_6747044_124.html). _Le Monde_, Nov 3 2025.
-
-[^4]: Reade Levinson and David Lewis. Reuters. [Gold Worth Tens of Billions Smuggled Through UAE Each Year, Report Says](https://www.reuters.com/world/middle-east/gold-worth-tens-billions-smuggled-uae-each-year-report-says-2024-05-29/). _Reuters_, May 29 2024.
+— In solidarity with Sudan's displaced, miners, farmers and all resisting plunder.
