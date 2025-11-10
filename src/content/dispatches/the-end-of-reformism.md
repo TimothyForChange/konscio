@@ -61,12 +61,14 @@ The task is to weave existing experiments — participatory budgeting, cooperati
 
 Democratic planning is not a utopian dream — it has historical and contemporary examples that demonstrate its viability:
 
-**Historical Precedents:**
+### Historical Precedents
+
 - **Yugoslavia's Self-Management System (1948-1990s):** Workers' councils managed enterprises democratically, balancing central coordination with local autonomy. Despite its eventual decline, it demonstrated that worker control could function at national scale.
 
 - **Kerala's People's Plan (1996-2006):** After winning elections, the Communist Party of India (Marxist) transferred 35-40% of state development funds to local governments. Citizens democratically planned and executed projects, resulting in significant improvements in health, education, and infrastructure.
 
-**Contemporary Experiments:**
+### Contemporary Experiments
+
 - **Mondragon Cooperatives (Spain):** A federation of worker cooperatives demonstrating that democratic planning can compete with capitalist firms while maintaining worker ownership and democratic governance.
 
 - **Rojava's Democratic Confederalism:** Despite facing war and siege, the region has implemented democratic planning through councils, cooperatives, and women's councils, managing resources and production democratically.

@@ -49,27 +49,32 @@ Resistance must be grounded in regional solidarity and international law.
 
 **Concrete strategies for building resistance include:**
 
-**Strengthening Regional Institutions:**
+### Strengthening Regional Institutions
+
 - Revive and reform the Union of South American Nations (UNASUR) as a counterweight to US influence
 - Reform the OAS to reflect regional rather than US interests, potentially creating alternative forums outside US influence
 - Develop a hemispheric court for international law that can prosecute violations by any state, including the US
 
-**Economic Alternatives:**
+### Economic Alternatives
+
 - Expand South-South trade through mechanisms like the BRICS alliance, reducing dependence on North American markets
 - Create alternative financial institutions and payment systems (like cryptocurrency or alternative to SWIFT) to reduce vulnerability to sanctions
 - Build regional supply chains that minimize dependence on US-controlled logistics
 
-**Legal and Diplomatic Front:**
+### Legal and Diplomatic Front
+
 - Use international law through the International Court of Justice, International Criminal Court, and UN General Assembly to challenge violations of sovereignty
 - Build global coalitions through the Non-Aligned Movement and other Southern multilateral forums
 - Develop legal precedents around extraterritorial jurisdiction and violations of sovereignty
 
-**Grassroots and Civil Society Action:**
+### Grassroots and Civil Society Action
+
 - Support fisherfolk, Indigenous, and coastal communities affected by strikes through international solidarity networks
 - Build connections with anti-imperial movements in the US to oppose interventionist policies at their source
 - Create international monitoring systems to document violations and maintain pressure
 
-**Democratic and Socialist Solutions:**
+### Democratic and Socialist Solutions
+
 - Advance democratic socialist policies that reduce dependence on US markets and investment
 - Develop public control over strategic resources to prevent their use as leverage by foreign powers
 - Create worker and social movement solidarity across borders to counter elite coordination
