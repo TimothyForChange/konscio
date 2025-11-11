@@ -49,7 +49,7 @@ This vision does not call for top-down bureaucracy, but for **bottom-up democrac
 Democratic socialism is often caricatured by those invested in keeping things as they are. It is worth being clear about what it is _not._
 
 - It is **not authoritarian communism.** The crimes of past regimes were the opposite of socialism: they replaced private tyranny with state tyranny, silencing the very democracy socialism demands.
-- It is **not welfare capitalism.** Adding a few social programs while leaving private ownership untouched is not transformation. It is management of inequality.
+- It is **not welfare capitalism.** Adding a few social programmes while leaving private ownership untouched is not transformation. It is management of inequality.
 - It is **not utopian fantasy.** It is rooted in existing struggles — trade unions, cooperatives, feminist movements, climate justice, and anti-colonial resistance. Wherever people organise collectively for control over their lives, socialism begins to breathe.
 
 Democratic socialism does not reject freedom; it expands it. The freedom to speak and vote means little without the freedom to eat, learn, and live without fear of hunger, homelessness, or medical ruin.
