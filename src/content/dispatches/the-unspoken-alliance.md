@@ -52,7 +52,7 @@ The alliance operated through multiple channels:
 
 **Economic Networks:** The alliance created a parallel economic system to circumvent sanctions, with Israeli companies investing in South African operations and vice versa through shell companies in Switzerland, Liechtenstein, and other jurisdictions.
 
-**Diplomatic Coordination:** In international forums like the UN, both countries often coordinated positions on decolonization issues and used their respective lobbies to support each other's positions.
+**Diplomatic Coordination:** In international forums like the UN, both countries often coordinated positions on decolonisation issues and used their respective lobbies to support each other's positions.
 
 ## Operations and Consequences
 

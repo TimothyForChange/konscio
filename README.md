@@ -36,7 +36,7 @@ An Astro-powered publication exploring capitalism, colonialism, and climate coll
 
 ✓ **Search Functionality** - Built-in search with JSON index
 
-✓ **Categories System** - Organized content by categories with dedicated pages
+✓ **Categories System** - Organised content by categories with dedicated pages
 
 ## 💻 Tech Stack
 
