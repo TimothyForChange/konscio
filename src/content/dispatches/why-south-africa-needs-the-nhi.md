@@ -129,4 +129,4 @@ Health is a right — for cities and rural clinics, insured and excluded alike. 
 
 The task is vast; the principle simple: **a society that refuses to care for its people is already sick.**
 
-— _In solidarity with all who fight for universal, decolonised healthcare._
+— In solidarity with all who fight for universal, decolonised healthcare.

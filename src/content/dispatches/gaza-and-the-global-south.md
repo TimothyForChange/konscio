@@ -45,8 +45,6 @@ In the Congo: mining concessions and militarised dispossession.
 In Haiti: debt and occupation disguised as “stability.”
 In Bolivia and Colombia: militarised resource zones feeding global markets.
 
-![Israeli separation wall: a symbol of siege and separation](../../assets/israeli-separation-wall.webp)
-
 ---
 
 ## How Empire Operates

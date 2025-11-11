@@ -149,4 +149,4 @@ Not charity — restitution: redistribution of what was stolen from workers, com
 
 Fight for UBI as floor of a new social order, not patch for empire's decay.
 
-— _In solidarity with workers, organisers and ecological defenders across the Global South and beyond._
+— In solidarity with workers, organisers and ecological defenders across the Global South and beyond.

@@ -62,8 +62,6 @@ This is recolonisation of crisis, not solidarity.
 Behind every statistic is a body, a home, a field.
 Tens of thousands dead; millions displaced; cities erased.
 
-![A cat in a ruined building](../../assets/cat-in-ruined-building.webp)
-
 Devastation extends beyond the human.
 Ukraine's soil poisoned with heavy metals; forests burned; rivers fouled.
 Shelling near Zaporizhzhia's nuclear plant risks radiological ruin.
