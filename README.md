@@ -2,7 +2,7 @@
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/medium.svg)](https://astro.build)
 
-For people and planet: democratic socialist analysis from Africa and the Global South.
+For people and planet: eco-socialist analysis from Africa and the Global South.
 
 An Astro-powered publication exploring capitalism, colonialism, and climate collapse through a decolonial, eco-socialist lens. Written from South Africa, this site examines how liberation is impossible without dismantling the systems that exploit both people and the planet — and why a decolonised, eco-socialist future is not optional, but necessary.
 
@@ -10,7 +10,7 @@ An Astro-powered publication exploring capitalism, colonialism, and climate coll
 
 ## 🌟 Features
 
-✓ **Democratic Socialist Analysis** - Critical examination of capitalism, colonialism, and climate systems
+✓ **Eco-socialist Analysis** - Critical examination of capitalism, colonialism, and climate systems
 
 ✓ **Decolonial Perspective** - Analysis from Africa and the Global South
 

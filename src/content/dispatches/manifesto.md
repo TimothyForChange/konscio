@@ -22,7 +22,7 @@ Written from South Africa, in solidarity with all who struggle against empire, e
 
 ## What This Site Stands For
 
-- **Eco-Socialism:** Building a just and democratic world where the economy sustains life instead of destroying it — centering collective ownership, equality, and ecological balance.
+- **Eco-Socialism:** Building a just and democratic world where the economy sustains life instead of destroying it — centring collective ownership, equality, and ecological balance.
 - **Decolonisation:** Dismantling the political, cultural, and economic power structures inherited from empire, and imagining new ways of being beyond colonial modernity.
 - **Global Solidarity:** Linking the struggles of the South and the North, because liberation anywhere depends on justice everywhere.
 - **Structural Analysis:** Naming root causes, not symptoms — because oppression and ecological collapse are systemic, not accidental.
