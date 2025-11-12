@@ -1,7 +1,7 @@
 ---
 title: "Class Consciousness: Seeing Through the System"
 author: "Timothy Brits"
-datePublished: 2025-12-30
+datePublished: 2026-01-06
 description: "Class consciousness is vision — the ability to see through capitalism's myths and begin reclaiming power from those who rule by hiding the truth of how the world works."
 excerpt: "Class consciousness is awareness of power. It is the moment we stop mistaking exploitation for misfortune — and begin to see ourselves as the makers of history."
 image: /images/class-consciousness.jpg

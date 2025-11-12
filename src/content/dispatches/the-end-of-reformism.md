@@ -1,7 +1,7 @@
 ---
 title: "The End of Reformism: Why the Future Must Be Planned"
 author: "Timothy Brits"
-datePublished: 2026-11-16
+datePublished: 2025-11-16
 description: "Reformism cannot save us because it accepts the terms of capital. The alternative is democratic planning — collective control over production, distribution, and ecological limits."
 excerpt: "Incrementalism has become denial. The planet does not negotiate in policy cycles. Reformism cannot manage collapse; only democratic planning can rebuild life."
 image: /images/the-end-of-reformism.jpg
