@@ -2,8 +2,8 @@
 title: "The New Monroe Doctrine: Washington's War on Latin America's Sovereignty"
 author: "Timothy Brits"
 datePublished: 2025-11-30
-description: "A democratic socialist analysis of how US military actions in Latin America revive the Monroe Doctrine — asserting hemispheric dominance and undermining democratic sovereignty."
-excerpt: "From Colombia to Venezuela, Washington's new ‘counter-narcotics' war exposes an old pattern: the Monroe Doctrine reborn, empire reasserted."
+description: "An analysis of how U.S. military actions in Latin America revive the Monroe Doctrine — reasserting hemispheric control under new rhetoric of security and democracy."
+excerpt: "From Colombia to Venezuela, Washington's new ‘counter-narcotics' campaign exposes an old pattern: empire rebranded, sovereignty denied."
 image: /images/the-new-monroe-doctrine.jpg
 categories: ["Analysis"]
 tags: ["Imperialism", "Venezuela", "US Foreign Policy", "Latin America"]
@@ -11,75 +11,61 @@ tags: ["Imperialism", "Venezuela", "US Foreign Policy", "Latin America"]
 
 # The New Monroe Doctrine: Washington's War on Latin America's Sovereignty
 
-> “The strength of the imperialist system as a whole rests on the necessary inequality of its parts.”
+> "The strength of the imperialist system as a whole rests on the necessary inequality of its parts."
 > — Eduardo Galeano, Open Veins of Latin America (1971)
 
-Imperialism adapts — its tools and language shift, its purpose endures: to assert control over politics and resources. The recent US campaign of lethal strikes off Colombia and Venezuela revives that logic. It is not counter-narcotics; it is the **new Monroe Doctrine**.
+Empire rarely dies; it mutates.
 
-Strikes have killed dozens since September 2025. Reports suggest US officials have even identified land targets inside Venezuela — escalating from maritime raids to preparations for direct strikes on sovereign soil.
+The U.S. campaign of airstrikes off Colombia and Venezuela revives the Monroe Doctrine — the 19th-century claim that the Western Hemisphere belongs to Washington's sphere.
 
----
-
-## The Escalating Logic of Empire
-
-This campaign began as “interdiction.” It now resembles military enforcement.
-The Monroe Doctrine of 1823, which claimed the Americas as Washington's sphere, lives on through drones and sanctions. The rhetoric has changed — “democracy promotion,” “counter-terrorism,” “narco-terror” — but the right to dominate remains constant.
-
-When a superpower asserts unilateral authority to kill abroad, sovereignty becomes conditional. Latin America is treated as a managed estate, not a community of nations.
+The pretext has changed from "anti-communism" to "counter-narcotics."
+The substance is the same: unilateral force to secure economic and strategic dominance.
 
 ---
 
-## The Human Cost
+## The Escalating Logic of Power
 
-Fisherfolk and coastal communities pay the price.
-Livelihoods collapse under the threat of airstrikes. Legal norms erode. UN experts warn such actions risk **extrajudicial killings** under international law.
-Each missile corrodes both life and law.
+Initial "interdictions" became precision strikes.
+Intelligence leaks show planning for land targets inside Venezuela — sovereignty reduced to a military variable.
+
+The old doctrine now flies drones. The geography of empire has digitised, not disappeared.
 
 ---
 
-## Resisting the New Monroe Doctrine
+## The Human and Legal Cost
 
-Resistance must be grounded in regional solidarity and international law.
+Coastal and Indigenous communities face bombardment and fear.
+Fishing livelihoods collapse; maritime law erodes.
+UN experts warn these actions risk **extrajudicial killings** — violations dressed as counter-terrorism.
 
-- Demand transparency: strikes must face independent investigation.
-- Rebuild regional cooperation through OAS and UN mechanisms.
-- Challenge legal impunity that allows extraterritorial killings.
-- Address root causes: poverty, inequality, and demand in the North.
-- Demilitarise the hemisphere: diplomacy, not dominance.
+Empire's violence always begins at the margins.
 
-How do we build resistance? Here are some strategies:
+---
 
-Regional institutions need strengthening. We could revive and reform the Union of South American Nations (UNASUR) as a real counterweight to US influence. The OAS should be reformed to reflect regional rather than US interests, and we might need alternative forums outside US influence. A hemispheric court for international law could actually prosecute violations by any state, including the US.
+## Building Regional Resistance
 
-Economic alternatives are equally important. We need to expand South-South trade through mechanisms like the BRICS alliance, which would reduce dependence on North American markets. Creating alternative financial institutions and payment systems - alternatives to SWIFT - would reduce vulnerability to sanctions. Finally, building regional supply chains that minimize dependence on US-controlled logistics would give us more autonomy.
+Sovereignty requires solidarity.
 
-We can also use international law through the International Court of Justice, International Criminal Court, and UN General Assembly to challenge violations of sovereignty.
+**Policy and movement responses:**
 
-- Build global coalitions through the Non-Aligned Movement and other Southern multilateral forums
-- Develop legal precedents around extraterritorial jurisdiction and violations of sovereignty
+- Demand transparency and independent investigations of strikes.
+- Revive regional cooperation through reformed UNASUR or ALBA mechanisms.
+- Develop South-South trade and payment systems independent of U.S. control.
+- Create regional courts to prosecute extraterritorial violations.
+- Strengthen ties with anti-imperial movements inside the United States.
 
-### Grassroots and Civil Society Action
-
-- Support fisherfolk, Indigenous, and coastal communities affected by strikes through international solidarity networks
-- Build connections with anti-imperial movements in the US to oppose interventionist policies at their source
-- Create international monitoring systems to document violations and maintain pressure
-
-### Democratic and Socialist Solutions
-
-- Advance democratic socialist policies that reduce dependence on US markets and investment
-- Develop public control over strategic resources to prevent their use as leverage by foreign powers
-- Create worker and social movement solidarity across borders to counter elite coordination
-
-The ultimate goal must be a hemispheric order based on genuine equality between nations, not the current hierarchy where geography determines destiny.
+True autonomy also needs economic pillars: public ownership of strategic sectors, diversified trade, and regional logistics that bypass Northern chokepoints.
 
 ---
 
 ## For a Democratic Hemisphere
 
-The fight against imperialism is also a fight for democracy.
-A hemisphere where policy is dictated by force cannot be free — and global democracy cannot exist while any region lives under gunpoint.
+Democracy cannot coexist with domination.
+A hemisphere ruled by force is one without freedom.
 
-To stand with Latin America's sovereignty is to stand for a world governed by people, not empires.
-Democratic socialism means that international relations, like economies, must be ruled by consent — not coercion.
+To defend Latin America's sovereignty is to defend the principle that no state has a right to decide for another — the foundation of any just world order.
 
-— In solidarity with all defending sovereignty, dignity, and democracy in the Americas.
+> "We have no desire to dominate. We only wish to be free."
+> — José Martí
+
+— In solidarity with all defending dignity and democracy in the Americas.

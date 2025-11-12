@@ -2,7 +2,7 @@
 title: "Black Gold and Red Soil: Russia's Africa Corps and the New Imperial Extraction"
 author: "Timothy Brits"
 datePublished: 2025-12-21
-description: "A democratic socialist investigation of how Russia's Africa Corps funds imperial war through African extraction — exposing how global empires profit from insecurity and resource plunder."
+description: "An investigation into how Russia's Africa Corps funds imperial war through African extraction — revealing how global powers profit from insecurity and environmental ruin."
 excerpt: "From Wagner's ruins, Russia's Africa Corps has risen — securing mines, exporting gold, and exporting death. In the CAR and beyond, Africa's resources bankroll empire once again."
 image: /images/black-gold-red-soil.jpg
 categories: ["Analysis"]
@@ -15,95 +15,84 @@ tags: ["Russia", "Africa Corps", "Extractivism", "Imperialism"]
 > — Audre Lorde (1979)
 
 The Russian flag now flies over gold mines in the Central African Republic.
-But this is not conquest by armies — it is conquest by contracts, carried out by mercenaries in camouflage and suits in Moscow boardrooms.
+But this is not conquest by armies — it is conquest by contracts, enforced by mercenaries and brokers.
 
-After Wagner's fall the Kremlin's Africa Corps took its place. Its mission is not peacekeeping nor ideology. It is extraction: gold, diamonds, timber — transmuted into hard currency for wars abroad and patronage at home.
+After Wagner's collapse, the Kremlin reconstituted its African networks under a new name: the Africa Corps. Its mission is extraction — gold, diamonds, timber — converted into hard currency for wars abroad and patronage at home.
 
-Africa again becomes the cash machine of empire.
-
----
-
-## From Wagner to Africa Corps: The Seamless Mutation of Imperial Muscle
-
-Wagner's African operations were never freelance; they were the informal wing of Russian foreign policy — projecting power without formal accountability. When Yevgeny Prigozhin died and Wagner fractured, Moscow reconstituted the apparatus into state-linked structures that could absorb personnel, networks and concession deals.
-
-In the Central African Republic (CAR) this meant business as usual. Mining concessions changed hands; companies with murky ownership took control of Ndassima and other deposits. Fighters in new uniforms continue to guard extraction sites while commodity flows move to refiners and offshore accounts.
-
-This is Russia's Africa policy stripped bare: security in exchange for access to resources.
+Once again, Africa's soil bankrolls empire.
 
 ---
 
-## Resource-for-Security: A Colonial Contract
+## From Wagner to Africa Corps: The Mutation of Power
 
-The logic is brutally simple. Russia offers “security assistance” — weapons, training, and paramilitary presence. In return, Moscow-linked firms receive mining concessions and privileged contracts.
+Wagner's African operations were never rogue enterprises. They were the informal wing of Russian state power, projecting influence through deniable force. When Yevgeny Prigozhin died, Moscow simply absorbed the apparatus into state-linked structures.
 
-In the CAR, gold, diamonds and timber are the currency of patronage. This pattern replicates across Mali, Sudan, Burkina Faso and Niger: guns for gold; protection for concessions.
+In the Central African Republic, little changed. Mining concessions shifted on paper; guards changed insignias. The logic remained: security for access, soldiers for mines.
 
-This is colonialism without colonists — extraction outsourced, empire subcontracted.
-
----
-
-## Blood in the Soil: Violence as Economic Infrastructure
-
-Mines are not benign workplaces; they are contested zones where violence enforces profit.
-
-Reports document forced labour, extortion, sexual violence and displacement around extraction sites. Satellite imagery shows villages razed and rutted access roads. Rivers bear mercury and sediment from unregulated artisanal mining.
-
-Where the Corps moves, ecologies are damaged and communities are terrorised. Gold bars become bullets; mineral wealth funds conflict, disinformation and patronage networks.
+This is Russia's Africa policy stripped to its core — coercion exchanged for concession.
 
 ---
 
-## Smuggling, Sanctions and the Mirage of Sovereignty
+## Resource-for-Security: The Colonial Contract Reborn
 
-Russia's post-Ukraine isolation made African gold more than loot — it became lifeline. Through intermediaries, bullion moves from African mines to refineries in Dubai, Istanbul and elsewhere, evading sanctions and laundering the origin.
+The deal is simple. Russia provides arms, training, and paramilitaries; in return, its companies secure rights to gold, diamonds, or timber.
 
-Official production figures rarely match reality. Informal trade networks and state complicit actors obscure flows. Offshore firms and shell companies convert local riches into fungible capital for global politics.
-
-It is imperial recycling: Africa's resources underwrite fights elsewhere; authoritarian capital buys legitimacy and weapons.
-
----
-
-## A Pattern Across the Continent
-
-The Africa Corps is one node in a larger extractive system:
-
-- **Mali:** Russian actors fill gaps left by former colonial security arrangements, securing concessions and influence.
-- **Sudan:** Wagner-linked advisers and networks have helped open gold corridors.
-- **Burkina Faso & Niger:** New security pacts often come with concession opportunities.
-
-Whatever the flag, the economic logic is constant: capital and coercion combine to carve out resource rents.
+In CAR, Mali, Sudan, Burkina Faso, and Niger, this pattern repeats: guns for gold, protection for profit.
+It is colonialism without colonists — empire subcontracted.
 
 ---
 
-## Empire's Continuum: From Washington to Moscow
+## Violence as Economic Infrastructure
 
-This is not uniquely Russian. France, Britain, the U.S., China and Gulf actors have long practised similar extraction-through-security approaches. The actors rotate; the system persists.
+Mines are militarised zones. Reports document forced labour, extortion, sexual violence, and village displacement.
+Satellite images reveal scorched settlements and polluted rivers.
+Gold becomes weaponry; the environment becomes collateral.
 
-The difference is rhetorical. Some invoke development; others invoke security. Both produce dispossession.
+Where the Africa Corps moves, soil and society are both stripped. Extraction funds repression abroad and authoritarianism at home.
 
 ---
 
-## Democratic Socialist Response
+## Smuggling, Sanctions, and the Mirage of Sovereignty
 
-A democratic socialist approach rejects imperial bargaining — East or West — and centres democratic control, transparency and community rights.
+Russia's isolation after the Ukraine invasion made African gold more than a commodity — it became lifeline.
+Through intermediaries, bullion moves from African mines to refineries in Dubai and Istanbul, evading sanctions and obscuring origin.
 
-Policy demands include:
+Official figures tell little. Shell firms, offshore accounts, and pliant local elites conceal the true flows. The result is imperial recycling: African resources turned into geopolitical capital.
 
-- Expose and sanction supply chains laundering illicit commodity flows.
+---
+
+## A Pattern Beyond Moscow
+
+This is not uniquely Russian.
+Western, Chinese, and Gulf actors use the same method: exchange military support or infrastructure for mineral access.
+The branding differs — "development," "security," "stability" — but the structure is constant: capital backed by coercion.
+
+---
+
+## Toward Democratic and Ecological Accountability
+
+The answer is not new alignments but new principles: transparency, public ownership, and ecological responsibility.
+
+To break the extractive cycle, states and communities must reclaim control over natural wealth.
+
+Priorities include:
+
+- Enforce transparency in all concession and resource-for-security deals.
 - Support community governance and legal recognition of collective land rights.
-- End “resource-for-security” deals with binding international norms.
-- Back regional oversight and grassroots accountability for contracts and military assistance.
+- Sanction networks laundering illicit commodity flows through refineries and intermediaries.
+- Treat extraction revenues as public infrastructure — funding health, education, and ecological repair, not patronage or foreign wars.
 
-We should treat extraction as public rather than private infrastructure: revenue should fund health, education and reconstruction — not patronage and foreign wars.
+Extraction should serve life, not empire.
 
 ---
 
-## Resistance and Organising
+## Resistance and Renewal
 
-Resistance takes many forms: community mapping of concessions, unionisation of miners, local watchdog journalism and transnational solidarity campaigns targeting refineries and shipping lines.
+Resistance is already underway: miners organising for rights, journalists exposing illicit flows, activists tracing the links between smuggling and state corruption.
 
-Solidarity must be material: sanction laundering networks, block logistics chains used to export plunder, and build alternatives — cooperatives, public mineral companies under democratic oversight.
+Solidarity must be practical — targeting logistics, financial networks, and the narratives that normalise exploitation.
 
-Africa's soil is not a treasury for empires. It is living ground, and democratic control is the path to reclaiming it.
+Africa's red soil is living ground, not collateral.
+Democratic control — over land, labour, and life — remains the surest defence against empire.
 
-— In solidarity with communities resisting extraction and militarised control.
+— In solidarity with communities resisting extraction and militarised power.
