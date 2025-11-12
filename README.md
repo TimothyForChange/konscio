@@ -10,7 +10,7 @@ An Astro-powered publication exploring capitalism, colonialism, and climate coll
 
 ## 🌟 Features
 
-✓ **Eco-Socialist Analysis** - Critical examination of capitalism, colonialism, and climate systems
+✓ **Democratic Socialist Analysis** - Critical examination of capitalism, colonialism, and climate systems
 
 ✓ **Decolonial Perspective** - Analysis from Africa and the Global South
 
