@@ -11,13 +11,13 @@ tags: ["Congo Basin", "Climate Justice", "Decolonisation", "Global Solidarity"]
 
 # The Congo Basin: Africa's Lungs Under Siege
 
-The Congo Basin is often called the _lungs of Africa_ — a rainforest so vast it helps the planet breathe.
+Locals call the Congo Basin the lungs of Africa — it's a rainforest so vast it actually helps the planet breathe.
 
-Stretching across six nations and covering more than **200 million hectares**, it absorbs roughly **1.2 billion tonnes of CO₂ each year**. This helps regulate rainfall across the continent and anchors planetary climate stability.
+This massive forest stretches across six nations, covering more than 200 million hectares. Every year, it absorbs roughly 1.2 billion tonnes of CO₂. This helps regulate rainfall across the continent and anchors planetary climate stability.
 
-Yet these forests are being destroyed by the same forces that long plundered the region's minerals: profit, imperial power, and a colonial imagination that treats Africa as a warehouse, not a home.
+But these forests are under attack from the same forces that have been plundering the region's minerals for decades: profit, imperial power, and a colonial mindset that sees Africa as nothing more than a warehouse to be exploited.
 
-This is not merely a story about trees. It is about **who decides the fate of the planet's last frontiers — and who bears the cost.**
+This isn't just about trees. It's about who decides the fate of the planet's last frontiers — and who bears the cost.
 
 ---
 
@@ -27,9 +27,9 @@ From Kinshasa to Brazzaville to Yaoundé, governments auction logging concession
 
 French logging giants, Chinese mining firms, and Western-backed agribusinesses vie for control. Roads and rail lines slice through once-intact forest corridors. Palm oil plantations expand under the banner of “green growth.” Even the World Bank and IMF promote timber exports as a path to “poverty reduction.”
 
-In truth, it is a **new Scramble for Africa** — only now the spoils are measured in hectares of rainforest and tonnes of carbon, not rubber and ivory. The imperial logic that carved the Basin at Berlin now parcels it through contracts, concessions, and carbon markets.
+Truth is, it's a new Scramble for Africa — but now the spoils are measured in hectares of rainforest and tonnes of carbon, not rubber and ivory. The imperial logic that carved the Basin at Berlin now parcels it out through contracts, concessions, and carbon markets.
 
-The Congo Basin holds roughly **25% of the world's tropical forest carbon stock.** Cutting it is not a regional loss; it is a planetary emergency.
+The Congo Basin holds roughly 25% of the world's tropical forest carbon stock. Cutting it down isn't just a regional loss — it's a planetary emergency.
 
 ---
 
@@ -37,11 +37,11 @@ The Congo Basin holds roughly **25% of the world's tropical forest carbon stock.
 
 Western governments and corporations insist that “sustainable forestry” and “offset programmes” will protect the Basin. In practice they entrench exploitation under a green veneer.
 
-Carbon credit schemes such as **REDD+** allow polluters in the Global North to continue emitting while claiming to “offset” their pollution by paying for conservation in the South.
+Take carbon credit schemes like REDD+. They let polluters in the Global North continue emitting while claiming they're 'offsetting' their pollution by paying for conservation in the South.
 
-In practice **climate finance replaces colonial tribute**: money flows northward via credits while communities lose access to land stewarded for generations. Forests become commodities, not commons; the atmosphere a marketplace, not a shared inheritance.
+In practice climate finance replaces colonial tribute: money flows northward via credits while communities lose access to land they've stewarded for generations. Forests become commodities, not commons; the atmosphere becomes a marketplace, not a shared inheritance.
 
-Investigations show new “carbon concessions” in the DRC often **overlap Indigenous territories** and are negotiated **without Free, Prior and Informed Consent**, sometimes rebranded from logging concessions. This is carbon colonialism under a green banner.
+Investigations show that new 'carbon concessions' in the DRC often overlap Indigenous territories and are negotiated without Free, Prior and Informed Consent. Sometimes they're just rebranded logging concessions. This is carbon colonialism under a green banner.
 
 > "Carbon-trading policies, in effect, allow rich polluters the right to carry on business as usual, while poorer nations bear the burden of absorbing the consequences."
 > — Larry Lohmann, Carbon Trading: A Critical Conversation on Climate Change, Privatisation and Power (2006)
@@ -54,15 +54,15 @@ For Indigenous peoples — Baka, Batwa, BaAka and many others — the forest is 
 
 “Protected areas” and logging concessions alike arrive with militarised enforcement. Armed guards patrol lands once open to hunting and gathering. Those who resist are criminalised as “poachers”; those who protest risk imprisonment or worse.
 
-UN and NGO reports document **violent evictions and abuses by eco-guards** funded by major international conservation groups, including WWF. These operations mirror the extractive logic they claim to oppose: conservation displacing communities who have stewarded these lands for generations.
+UN and NGO reports document violent evictions and abuses by eco-guards funded by major international conservation groups, including WWF. These operations mirror the extractive logic they claim to oppose: conservation displacing communities who have stewarded these lands for generations.
 
-Despite violence, resistance endures. Indigenous women's networks in Itombwe and Équateur lead **community reforestation projects** and protest illegal logging. Youth groups map forest crimes with GPS; associations demand **legal recognition of collective land rights.** Across the Basin people assert a radical truth: _living with the forest is wisdom, not backwardness._
+Despite violence, resistance endures. Indigenous women's networks in Itombwe and Équateur lead community reforestation projects and protest illegal logging. Youth groups map forest crimes with GPS; associations demand legal recognition of collective land rights. Across the Basin people assert a radical truth: living with the forest is wisdom, not backwardness.
 
 ---
 
 ## From Carbon Sink to Carbon Source: An Ecological Crisis
 
-Scientists warn the Basin could soon flip from **carbon sink to carbon source** if degradation continues. Central African forests absorb roughly **half as much CO₂** as in the 1990s, and without protection could emit more than they store within decades.
+Scientists warn the Basin could soon flip from carbon sink to carbon source if degradation continues. Central African forests absorb roughly half as much CO₂ as in the 1990s, and without protection could emit more than they store within decades.
 
 Consequences are global. Basin forests recycle **75–95%** of their own rainfall and generate up to **17%** of West Africa's rain via evapotranspiration, feeding weather systems as far as the Sahel and Ethiopian Highlands. Loss would destabilise rainfall, intensify droughts and floods, and accelerate planetary heating.
 
@@ -76,9 +76,9 @@ Global North governments congratulate themselves for funding “forest protectio
 
 Conservation is outsourced to Western NGOs. Profits are privatised while decision-making remains foreign. Local knowledge is ignored; sovereignty denied.
 
-Northern climate politics often repeat this pattern: demanding emission cuts at home while silent about corporate pillage in the South. This selective environmentalism treats African land as a carbon sponge rather than territory inhabited by people with political rights.
+Northern climate politics often repeat this pattern: demanding emission cuts at home while staying silent about corporate pillage in the South. This selective environmentalism treats African land as a carbon sponge rather than territory inhabited by people with political rights.
 
-True climate justice requires more than technological fixes or markets. It demands **democratic control of natural wealth** — by those who live with it, not those who profit from it.
+True climate justice requires more than technological fixes or markets. It demands democratic control of natural wealth — by those who live with it, not those who profit from it.
 
 ---
 
@@ -89,12 +89,12 @@ That means recognising forest peoples' right to govern land, rejecting extractiv
 
 A genuinely democratic socialist approach would:
 
-- **Return control** of forests to Indigenous and local communities through recognition of collective land rights and **Free, Prior and Informed Consent**.
-- **End export dependency** by building locally rooted, diversified economies.
-- **Hold corporations accountable** via binding law, transparent supply chains, and liability for harm.
-- **Democratise energy and development** so wealth funds restoration, not destruction.
+- Return control of forests to Indigenous and local communities through recognition of collective land rights and Free, Prior and Informed Consent.
+- End export dependency by building locally rooted, diversified economies.
+- Hold corporations accountable via binding law, transparent supply chains, and liability for harm.
+- Democratise energy and development so wealth funds restoration, not destruction.
 
-Protecting the Basin is **planetary self-defence** — not altruism, but solidarity.
+Protecting the Basin is planetary self-defence — not altruism, but solidarity.
 
 ---
 

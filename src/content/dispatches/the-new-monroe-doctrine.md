@@ -41,29 +41,20 @@ Each missile corrodes both life and law.
 
 Resistance must be grounded in regional solidarity and international law.
 
-- **Demand transparency**: strikes must face independent investigation.
-- **Rebuild regional cooperation** through OAS and UN mechanisms.
-- **Challenge legal impunity** that allows extraterritorial killings.
-- **Address root causes**: poverty, inequality, and demand in the North.
-- **Demilitarise the hemisphere**: diplomacy, not dominance.
+- Demand transparency: strikes must face independent investigation.
+- Rebuild regional cooperation through OAS and UN mechanisms.
+- Challenge legal impunity that allows extraterritorial killings.
+- Address root causes: poverty, inequality, and demand in the North.
+- Demilitarise the hemisphere: diplomacy, not dominance.
 
-**Concrete strategies for building resistance include:**
+How do we build resistance? Here are some strategies:
 
-### Strengthening Regional Institutions
+Regional institutions need strengthening. We could revive and reform the Union of South American Nations (UNASUR) as a real counterweight to US influence. The OAS should be reformed to reflect regional rather than US interests, and we might need alternative forums outside US influence. A hemispheric court for international law could actually prosecute violations by any state, including the US.
 
-- Revive and reform the Union of South American Nations (UNASUR) as a counterweight to US influence
-- Reform the OAS to reflect regional rather than US interests, potentially creating alternative forums outside US influence
-- Develop a hemispheric court for international law that can prosecute violations by any state, including the US
+Economic alternatives are equally important. We need to expand South-South trade through mechanisms like the BRICS alliance, which would reduce dependence on North American markets. Creating alternative financial institutions and payment systems - alternatives to SWIFT - would reduce vulnerability to sanctions. Finally, building regional supply chains that minimize dependence on US-controlled logistics would give us more autonomy.
 
-### Economic Alternatives
+We can also use international law through the International Court of Justice, International Criminal Court, and UN General Assembly to challenge violations of sovereignty.
 
-- Expand South-South trade through mechanisms like the BRICS alliance, reducing dependence on North American markets
-- Create alternative financial institutions and payment systems (like cryptocurrency or alternative to SWIFT) to reduce vulnerability to sanctions
-- Build regional supply chains that minimize dependence on US-controlled logistics
-
-### Legal and Diplomatic Front
-
-- Use international law through the International Court of Justice, International Criminal Court, and UN General Assembly to challenge violations of sovereignty
 - Build global coalitions through the Non-Aligned Movement and other Southern multilateral forums
 - Develop legal precedents around extraterritorial jurisdiction and violations of sovereignty
 

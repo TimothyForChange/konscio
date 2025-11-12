@@ -14,12 +14,11 @@ tags: ["Class", "Capitalism", "Labour", "Democratic Socialism"]
 > "The ideas of the ruling class are in every epoch the ruling ideas, i.e. the class which is the ruling material force of society, is at the same time its ruling intellectual force. The class which has the means of material production at its disposal, has control at the same time over the means of mental production, so that thereby, generally speaking, the ideas of those who lack the means of mental production are subject to it. The ruling ideas are nothing more than the ideal expression of the dominant material relationships, the dominant material relationships grasped as ideas."
 > — Karl Marx, The German Ideology (1846)
 
-Most people rarely see themselves as part of a class.
-They think of themselves as _individuals_ — working harder, trying to get ahead, struggling alone. That is capitalism's first victory: to turn a system of exploitation into a story of personal failure or success.
+Most people don't see themselves as part of a class. They think of themselves as individuals working harder, trying to get ahead, struggling alone. That's capitalism's first victory — turning a system of exploitation into a story about personal failure or success.
 
 Class consciousness begins when that story cracks.
 
-It's an awareness of **power** — who has it, how they use it, and whose labour sustains it, rather than simply noticing poverty. It is the recognition that inequality is not accidental but engineered — that what is presented as "the economy" is the organised rule of one class over another.
+It's an awareness of power — who has it, how they use it, and whose labour sustains it, rather than simply noticing poverty. It is the recognition that inequality is not accidental but engineered — that what is presented as "the economy" is the organised rule of one class over another.
 
 ---
 
@@ -51,11 +50,11 @@ This erasure is deliberate. When people stop thinking in class terms, they stop 
 
 ## What Class Consciousness Really Means
 
-Class consciousness brings **political clarity** rather than just moral outrage.
+Class consciousness brings political clarity rather than just moral outrage.
 
 It means recognising that your struggles are shared — that your landlord's profit is your rent, your boss's bonus is your unpaid overtime, your debt is someone else's asset. Exploitation isn't an exception — it's the system's core logic.
 
-Marx distinguished between a **class in itself** (people who are exploited) and a **class for itself** (people who know it and act accordingly).
+Marx distinguished between a class in itself (people who are exploited) and a class for itself (people who know it and act accordingly).
 That shift — from condition to consciousness — is what turns grievance into power.
 
 Every movement that has ever won freedom began with that realisation.

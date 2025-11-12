@@ -29,11 +29,7 @@ It cannot reconcile capitalism with survival; it was never designed to. Incremen
 
 Reformism once had a material base — the postwar welfare states of the North funded by colonial plunder and fossil abundance. That foundation is gone. Today, “reform” means preserving catastrophe while pretending to solve it.
 
-Three forces make reform impossible on its own terms:
-
-1. **Ecological limits** that capitalism cannot respect.
-2. **Financial domination** that neutralises democracy.
-3. **Political capture** that drains dissent into bureaucracy.
+Three forces make reform impossible on its own terms. First, ecological limits that capitalism simply cannot respect. Second, financial domination that neutralises democracy. Third, political capture that drains dissent into bureaucracy.
 
 The system cannot be persuaded to reform itself. It must be replaced.
 
@@ -50,14 +46,14 @@ We already plan the world, but in the service of corporations. Democratic social
 
 ## The New Planning Horizon
 
-A planned future begins with what reformism fears most: **expropriation**.
+A planned future begins with what reformism fears most: expropriation. We need:
 
-- Public ownership of energy, housing, and infrastructure.
-- Democratic control over production and distribution.
-- Ecological limits built into law.
-- Global solidarity through cooperation, not competition.
+- Public ownership of energy, housing, and infrastructure
+- Democratic control over production and distribution
+- Ecological limits built into law
+- Global solidarity through cooperation, not competition
 
-The task is to weave existing experiments — participatory budgeting, cooperative economies, local assemblies — into a **democratic plan for life after profit.**
+The task is to weave existing experiments — participatory budgeting, cooperative economies, local assemblies — into a democratic plan for life after profit.
 
 Democratic planning is not a utopian dream — it has historical and contemporary examples that demonstrate its viability:
 

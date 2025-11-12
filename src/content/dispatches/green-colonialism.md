@@ -13,9 +13,9 @@ tags: ["Congo", "Extractivism", "Climate Justice", "Global Solidarity"]
 
 The Democratic Republic of Congo is presented to the world as a resource — a seam of minerals waiting to be mined, refined and exported.
 
-Corporate reports and policy papers tell a story of progress: cobalt for batteries, coltan for phones, lithium for storage — a sleek narrative of salvation through consumption. But look closer, and the "green transition" of the Global North reveals itself as an old pattern in new clothes — **a new colonial order built on the same extraction logic**.
+Corporate reports and policy papers tell a story of progress: cobalt for batteries, coltan for phones, lithium for storage — a sleek narrative of salvation through consumption. But look closer, and the "green transition" of the Global North reveals itself as an old pattern in new clothes — a new colonial order built on the same extraction logic.
 
-This is not a story about scarcity. It is about **power** — who owns the minerals, who captures the value, and who pays the human and ecological cost.
+This isn't a story about scarcity. It's about power — who owns the minerals, who captures the value, and who pays the human and ecological cost.
 
 ---
 
@@ -27,7 +27,7 @@ What changes is the vocabulary: civilisation becomes development; humanitarian a
 > “The Congo Free State was not a colony but the world's only private colony — the personal possession of a single individual.”
 > — Adam Hochschild, King Leopold's Ghost (1998)
 
-That logic never died. It was privatised, financialised, and repackaged as development. Today, corporations and foreign governments invoke climate urgency to justify the same model: **external control, internal devastation.**
+That logic never died. It was privatised, financialised, and repackaged as development. Today, corporations and foreign governments invoke climate urgency to justify the same model: external control, internal devastation.
 
 ---
 
@@ -35,20 +35,14 @@ That logic never died. It was privatised, financialised, and repackaged as devel
 
 The Global North's shift to “clean” technologies demands vast quantities of cobalt, lithium, and copper. This demand is framed as moral — to “save the planet.” But morality cannot disguise the material continuity of exploitation.
 
-- **Value extraction:** The DRC provides around **70% of the world's cobalt**, yet less than **5%** is refined domestically. Most profits accrue abroad — in refining, manufacturing, and branding.
-- **New colonial actors:** Chinese, Western, and Gulf capital dominate. Roughly **80%** of Congolese cobalt output is under Chinese control. Capital changed flags; the system did not.
-- **Engineered instability:** Weak governance and conflict keep extraction cheap and control secure. Crisis is not collateral damage — it is a business model.
-- **Green rhetoric as cover:** Label a mine “critical for the energy transition,” and exploitation becomes virtue. Consumers are absolved; corporations are praised.
+- Value extraction: The DRC provides around 70% of the world's cobalt, yet less than 5% is refined domestically. Most profits accrue abroad — in refining, manufacturing, and branding.
+- New colonial actors: Chinese, Western, and Gulf capital dominate. Roughly 80% of Congolese cobalt output is under Chinese control. Capital changed flags; the system did not.
+- Engineered instability: Weak governance and conflict keep extraction cheap and control secure. Crisis is not collateral damage — it is a business model.
+- Green rhetoric as cover: Label a mine "critical for the energy transition," and exploitation becomes virtue. Consumers are absolved; corporations are praised.
 
-| **Indicator**      | **DRC Share / Situation**             | **External Control**       | **Notes**                          |
-| ------------------ | ------------------------------------- | -------------------------- | ---------------------------------- |
-| Cobalt production  | ~70% of world supply                  | —                          | DRC dominates raw output           |
-| Refining capacity  | <5% in DRC                            | >95% abroad (mainly China) | Value captured externally          |
-| Corporate control  | —                                     | ~80% by Chinese firms      | New managers, same logic           |
-| Price differential | 1× (raw ore)                          | 20× (refined cobalt)       | Illustrates value drain            |
-| Ecological cost    | Severe local pollution, deforestation | Externalised               | Environmental burden shifted south |
+The numbers tell the story: the DRC produces about 70% of the world's cobalt, but less than 5% is refined within the country. Instead, over 95% of refining happens abroad, mostly in China. With only raw ore, the DRC gets 1× the value; refined cobalt can sell for 20×. Meanwhile, the environmental damage — severe local pollution and deforestation — is all exported to the DRC while value is captured elsewhere.
 
-This “green colonialism” turns climate responsibility into another form of imperial privilege. The very technologies meant to avert catastrophe deepen it elsewhere.
+This "green colonialism" turns climate responsibility into another form of imperial privilege. The very technologies meant to avert catastrophe deepen it elsewhere.
 
 ---
 
@@ -58,9 +52,9 @@ Extraction is not abstract economics — it is lived devastation.
 
 Communities around mines report poisoned rivers, destroyed farmland, and armed displacement. Informal miners, including children, work under lethal conditions. Those who protest are met with military repression.
 
-Meanwhile, the **Congo Basin rainforest** — one of Earth's largest carbon sinks — is collapsing under the combined pressures of mining, logging, and climate change. It stores around **8 billion tonnes of CO₂ equivalent**, yet the mining required for “green” tech accelerates deforestation, erodes soil, and releases stored carbon.
+Meanwhile, the Congo Basin rainforest — one of Earth's largest carbon sinks — is collapsing under the combined pressures of mining, logging, and climate change. It stores around 8 billion tonnes of CO₂ equivalent, yet the mining required for "green" tech accelerates deforestation, erodes soil, and releases stored carbon.
 
-Each electric vehicle battery contains **8 kilograms of cobalt**. Its production often emits more carbon than the car will offset in its early years of use. The “green transition” becomes the South's new form of climate sacrifice.
+Each electric vehicle battery contains 8 kilograms of cobalt. Its production often emits more carbon than the car will offset in its early years of use. The "green transition" becomes the South's new form of climate sacrifice.
 
 Ecological destruction is not the cost of progress — it is the condition of profit.
 

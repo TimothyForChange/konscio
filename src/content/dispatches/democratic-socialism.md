@@ -28,19 +28,23 @@ Democratic socialism is not nostalgia for the past, nor dogma for the future. It
 
 ## What Democratic Socialism Is
 
-Democratic socialism seeks to make **freedom and equality material**, not abstract. It means replacing an economy run by and for profit with one organised around need, care, and ecological survival.
+Democratic socialism seeks to make freedom and equality material, not abstract. It means replacing an economy run by and for profit with one organised around need, care, and ecological survival.
 
-The essentials of life — health, education, housing, energy, and water — must be guaranteed as public rights, not sold as commodities. Production should be planned collectively to serve social and ecological priorities, not the quarterly targets of corporations.
+We need to guarantee the essentials of life — health, education, housing, energy, and water — as public rights, not as commodities to be sold to the highest bidder. Production should be planned collectively to serve social and ecological priorities, not the quarterly targets of corporations.
 
-Democratic socialism rests on five core principles:
+Democratic socialism rests on core principles that challenge the current order:
 
-1. **Democratic control of the economy.** Workers and communities, not investors, should decide how production and resources are used.
-2. **Decommodification of survival.** The basics of life must be guaranteed as rights, not privileges.
-3. **Ecological planning.** The economy must operate within the planet's limits. Infinite growth on a finite Earth is impossible.
-4. **Social ownership.** Wealth created collectively should be owned collectively, through cooperatives, public enterprises, and common resources.
-5. **Global solidarity.** Democracy at home cannot exist while the world economy runs on exploitation abroad.
+First, we need democratic control of the economy. Workers and communities, not investors, should decide how production and resources are used.
 
-This vision does not call for top-down bureaucracy, but for **bottom-up democracy** — direct participation in shaping how we live and work. It is not about replacing markets with ministries; it is about replacing hierarchy with self-government.
+Second, the basics of life must be guaranteed as rights, not privileges. Health, education, housing — these shouldn't depend on your bank account.
+
+Third, ecological planning is essential. We can't have infinite growth on a finite planet.
+
+Fourth, wealth created collectively should be owned collectively, through cooperatives, public enterprises, and common resources.
+
+Finally, global solidarity matters. Democracy at home means nothing while the world economy runs on exploiting other countries.
+
+This vision does not call for top-down bureaucracy, but for bottom-up democracy — direct participation in shaping how we live and work. It is not about replacing markets with ministries; it is about replacing hierarchy with self-government.
 
 ---
 
@@ -48,9 +52,9 @@ This vision does not call for top-down bureaucracy, but for **bottom-up democrac
 
 Democratic socialism is often caricatured by those invested in keeping things as they are. It is worth being clear about what it is _not._
 
-- It is **not authoritarian communism.** The crimes of past regimes were the opposite of socialism: they replaced private tyranny with state tyranny, silencing the very democracy socialism demands.
-- It is **not welfare capitalism.** Adding a few social programmes while leaving private ownership untouched is not transformation. It is management of inequality.
-- It is **not utopian fantasy.** It is rooted in existing struggles — trade unions, cooperatives, feminist movements, climate justice, and anti-colonial resistance. Wherever people organise collectively for control over their lives, socialism begins to breathe.
+- It is not authoritarian communism. The crimes of past regimes were the opposite of socialism: they replaced private tyranny with state tyranny, silencing the very democracy socialism demands.
+- It is not welfare capitalism. Adding a few social programmes while leaving private ownership untouched is not transformation. It is management of inequality.
+- It is not utopian fantasy. It is rooted in existing struggles — trade unions, cooperatives, feminist movements, climate justice, and anti-colonial resistance. Wherever people organise collectively for control over their lives, socialism begins to breathe.
 
 Democratic socialism does not reject freedom; it expands it. The freedom to speak and vote means little without the freedom to eat, learn, and live without fear of hunger, homelessness, or medical ruin.
 
