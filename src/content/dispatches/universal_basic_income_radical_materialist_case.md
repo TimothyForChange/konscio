@@ -20,7 +20,7 @@ Universal Basic Income (UBI) is simple: everyone receives a regular, uncondition
 
 Simplicity hides struggle. UBI can emancipate — or become a technocratic patch on exploitation. Funded and controlled by capital it subsidises low wages and privatised survival; grounded in public power it redistributes wealth, time and ownership.
 
-This essay argues for the second path: a **UBI anchored in social planning, public provision and decolonial finance** — a basic income that weakens extraction instead of stabilising it.
+This essay argues for the second path: a UBI anchored in social planning, public provision and decolonial finance — a basic income that weakens extraction instead of stabilising it.
 
 UBI alone cannot cure poverty. Without structural change it is absorbed by profit, rent and debt. Embedded in democratic public services, debt justice and ecological planning, it can help shift power from capital to people.
 
@@ -30,12 +30,12 @@ UBI alone cannot cure poverty. Without structural change it is absorbed by profi
 
 Poverty is designed — through austerity, debt adjustment and trade liberalisation stripping wealth from labour and land. Wages suppressed, commons enclosed, public services gutted.
 
-UBI crystallises a choice: **manage capitalism's wreckage or transform its structure.**
+UBI crystallises a choice: manage capitalism's wreckage or transform its structure.
 Either we continue cushioning exploitation with market-friendly welfare, or we build a system where social policy redistributes power, not just income.
 
 Properly designed, UBI can increase workers' bargaining power, freeing people from coerced labour and creating time for care, organising and political life. But if extraction and privatisation remain intact, the money will be devoured by landlords, creditors and corporate monopolies.
 
-The question, then, is not whether to support UBI — but **which UBI**, and as part of **what wider transformation**.
+The question, then, is not whether to support UBI — but which UBI, and as part of what wider transformation.
 
 ---
 
@@ -47,7 +47,7 @@ Employment effects depend on context. Where strong labour protections and public
 
 Inflation debates reveal class politics: modest transfers rarely trigger inflation; fear often masks elite anxiety over rising worker leverage.
 
-The lesson is clear: **cash helps, but structure decides.** Small, token payments stabilise exploitation; universal, adequate income tied to public services shifts power. This fundamental principle underlies all meaningful social transformation.
+The lesson is clear: cash helps, but structure decides. Small, token payments stabilise exploitation; universal, adequate income tied to public services shifts power. This fundamental principle underlies all meaningful social transformation.
 
 ---
 
@@ -55,13 +55,13 @@ The lesson is clear: **cash helps, but structure decides.** Small, token payment
 
 Detached from structural reform, UBI repeats three failures.
 
-**First** commodification: cash replacing services makes survival a private transaction; health, housing and education sold back at inflated prices.
+First commodification: cash replacing services makes survival a private transaction; health, housing and education sold back at inflated prices.
 
-**Second** cheap labour normalisation: minimal income floor justifies suppressed wages and dismantled protections; without union power or public jobs precarity deepens.
+Second cheap labour normalisation: minimal income floor justifies suppressed wages and dismantled protections; without union power or public jobs precarity deepens.
 
-**Third** ecological breakdown: disposable income rise without production shift accelerates extraction. A "green transition" built on resource plunder plus regressive financing turns UBI into imperial management.
+Third ecological breakdown: disposable income rise without production shift accelerates extraction. A "green transition" built on resource plunder plus regressive financing turns UBI into imperial management.
 
-**Market-friendly UBI offers individual security inside a system built on collective insecurity.**
+Market-friendly UBI offers individual security inside a system built on collective insecurity.
 Capital needs unemployment, debt and cheap resources; UBI leaving these intact merely oils the machine.
 
 Neoliberal stabilisation: manage unrest with cash, privatise commons, protect profit. Beneficiaries: finance, tech monopolies, extractive firms, employers seeking wage subsidies. On the other side: workers, small farmers, Indigenous communities, women in unpaid care — labour and land sustaining capital.
@@ -70,7 +70,7 @@ Neoliberal stabilisation: manage unrest with cash, privatise commons, protect pr
 
 ## What a Social UBI Would Look Like
 
-To liberate, UBI must embed in **a wider social programme** that democratises ownership, decarbonises production and restores commons.
+To liberate, UBI must embed in a wider social programme that democratises ownership, decarbonises production and restores commons.
 
 ### Democratic Foundations
 
@@ -86,7 +86,7 @@ Cash must sit alongside universal healthcare, housing, childcare, education and 
 
 ### Financing Justice
 
-Fund through **progressive taxation and reparative finance** — wealth taxes, transaction levies, windfall taxes on extractive profits, pollution levies. Cancel odious debts locking the Global South into extraction. Cancellation is restitution, not charity.
+Fund through progressive taxation and reparative finance — wealth taxes, transaction levies, windfall taxes on extractive profits, pollution levies. Cancel odious debts locking the Global South into extraction. Cancellation is restitution, not charity.
 
 ### Reclaiming Resource Rents
 
@@ -104,7 +104,7 @@ Social UBI must shrink footprints by reorganising production: public transport o
 
 Capital flight and tax evasion are transnational; justice must be too. Progressive tax coordination, corporate accountability and reparative transfers essential — otherwise UBI bleeds offshore.
 
-Precedents exist: **Brazil's Bolsa Família** combines cash transfers with healthcare and education; **South Africa's social grants** show redistribution viability amid constraint; **Kerala's localised planning** integrates social provision, ecology and participatory budgeting. Task: **weave fragments into coherent social plan.**
+Precedents exist: Brazil's Bolsa Família combines cash transfers with healthcare and education; South Africa's social grants show redistribution viability amid constraint; Kerala's localised planning integrates social provision, ecology and participatory budgeting. Task: weave fragments into coherent social plan.
 
 ---
 
@@ -116,14 +116,14 @@ Evidence contradicts. People use cash to meet needs, not avoid work. UBI undermi
 **"It's unaffordable."**
 Affordability is political. States fund militaries, bank bailouts, fossil subsidies. Wealth exists; it is hoarded. Redirect it.
 
-**"It will pacify people."**
-Depends on design. Minimal, marketised payment can pacify; **adequate, universal, publicly controlled** income enlarges space for organising and resistance — why elites fear it.
+"It will pacify people."
+Depends on design. Minimal, marketised payment can pacify; adequate, universal, publicly controlled income enlarges space for organising and resistance — why elites fear it.
 
 ---
 
 ## From Policy to Power
 
-UBI will be won **through organised struggle** not technocratic persuasion. Policy follows power.
+UBI will be won through organised struggle not technocratic persuasion. Policy follows power.
 
 The coalition capable of winning social UBI exists in fragments:
 

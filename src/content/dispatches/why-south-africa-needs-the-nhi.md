@@ -45,10 +45,10 @@ Core idea: universal coverage through pooled funding. Citizens contribute via pr
 
 This model offers major gains when done well:
 
-- **Equity:** Care according to need, not income.
-- **Efficiency:** Centralised purchasing cuts duplication and waste.
-- **Solidarity:** The healthy support the sick; everyone will need care.
-- **Decolonisation:** Ends the colonial logic reserving world-class medicine for the rich.
+- Equity: Care according to need, not income.
+- Efficiency: Centralised purchasing cuts duplication and waste.
+- Solidarity: The healthy support the sick; everyone will need care.
+- Decolonisation: Ends the colonial logic reserving world-class medicine for the rich.
 
 Universal healthcare is not charity; it is collective dignity. Illness is social — shaped by poverty, pollution and work. The NHI institutionalises that truth.
 
@@ -58,14 +58,14 @@ Universal healthcare is not charity; it is collective dignity. Illness is social
 
 Still, no illusion is useful. The NHI faces serious obstacles.
 
-**State capacity** is fragile. Corruption, mismanagement and low morale have hollowed the public system. Passing a law is easier than running a hospital.
+State capacity is fragile. Corruption, mismanagement and low morale have hollowed the public system. Passing a law is easier than running a hospital.
 Infrastructure upgrades, staff recruitment, and transparent procurement will take sustained commitment.
 
-**Fiscal constraint** is real yet political. Treasury resists wealth taxes and prefers austerity while billions leak via profit-shifting, elite bailouts and wasteful defence spending. South Africa lacks redistribution, not resources.
+Fiscal constraint is real yet political. Treasury resists wealth taxes and prefers austerity while billions leak via profit-shifting, elite bailouts and wasteful defence spending. South Africa lacks redistribution, not resources.
 
-**Administrative complexity**: vast data systems for records, payments and accreditation. Outsourcing to private vendors invites corruption. Build open, auditable, locally controlled systems.
+Administrative complexity: vast data systems for records, payments and accreditation. Outsourcing to private vendors invites corruption. Build open, auditable, locally controlled systems.
 
-**Legal resistance**: private companies preparing constitutional challenges to defend market share and slow implementation.
+Legal resistance: private companies preparing constitutional challenges to defend market share and slow implementation.
 
 All these challenges are surmountable. None justify abandoning the goal.
 
@@ -75,17 +75,17 @@ All these challenges are surmountable. None justify abandoning the goal.
 
 The government can deliver if it acts with clarity and courage.
 
-**1. Secure funding.** Redirect medical aid tax credits. Introduce a modest wealth tax on the top one percent. Use progressive payroll contributions. Radical transparency builds trust.
+1. Secure funding. Redirect medical aid tax credits. Introduce a modest wealth tax on the top one percent. Use progressive payroll contributions. Radical transparency builds trust.
 
-**2. Rebuild the workforce.** Hire unemployed doctors, nurses and community health workers. End casualisation. Training without employment is sabotage.
+2. Rebuild the workforce. Hire unemployed doctors, nurses and community health workers. End casualisation. Training without employment is sabotage.
 
-**3. Repair infrastructure.** Prioritise water, electricity and basic equipment. Use public works to upgrade clinics and create jobs — direct stimulus.
+3. Repair infrastructure. Prioritise water, electricity and basic equipment. Use public works to upgrade clinics and create jobs — direct stimulus.
 
-**4. Protect data commons.** Build open-source, locally controlled systems. Make every transaction traceable. Public technology enables accountability.
+4. Protect data commons. Build open-source, locally controlled systems. Make every transaction traceable. Public technology enables accountability.
 
-**5. Empower communities.** Health committees, unions and patient associations monitor clinics and report failures. Decentralised oversight is anti-corruption infrastructure.
+5. Empower communities. Health committees, unions and patient associations monitor clinics and report failures. Decentralised oversight is anti-corruption infrastructure.
 
-**6. Shift narrative.** Stop apologising for redistribution. The Constitution already guarantees healthcare; the NHI operationalises that right.
+6. Shift narrative. Stop apologising for redistribution. The Constitution already guarantees healthcare; the NHI operationalises that right.
 
 ---
 

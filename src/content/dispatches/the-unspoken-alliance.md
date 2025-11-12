@@ -28,31 +28,31 @@ Weapons, surveillance technologies, and uranium moved between Pretoria and Tel A
 The 2010 revelation that Israel had offered to sell nuclear warheads to South Africa exposed the depth of this alignment.
 These were not theoretical exchanges — they were acts of repression disguised as diplomacy.
 
-The alliance began formalising in the 1970s through the **Yahud Memorandum of Understanding** in 1975, a secret agreement between Israel's defence ministry and South Africa's Armaments Corporation (Armscor). This pact facilitated:
+The alliance began formalising in the 1970s through the Yahud Memorandum of Understanding in 1975, a secret agreement between Israel's defence ministry and South Africa's Armaments Corporation (Armscor). This pact facilitated:
 
-- **Weapons development:** Joint production of the L-339 "Derby" air-to-air missile and cooperation on the L-337 "Popeye" cruise missile.
-- **Technology transfer:** Israeli radar systems, electronic warfare equipment, and counter-insurgency tactics.
-- **Intelligence sharing:** Information on liberation movements, particularly the ANC and SWAPO.
+- Weapons development: Joint production of the L-339 "Derby" air-to-air missile and cooperation on the L-337 "Popeye" cruise missile.
+- Technology transfer: Israeli radar systems, electronic warfare equipment, and counter-insurgency tactics.
+- Intelligence sharing: Information on liberation movements, particularly the ANC and SWAPO.
 
-**Nuclear cooperation** was particularly significant. Documents revealed by the Soviet Union and later confirmed by investigative journalists point to:
+Nuclear cooperation was particularly significant. Documents revealed by the Soviet Union and later confirmed by investigative journalists point to:
 
 - Joint nuclear testing: The mysterious "Double Flash" event of 22 September 1979 detected by US Vela satellites in the South Atlantic, likely a joint Israeli-South African nuclear test.
 - Uranium supply: South Africa provided yellowcake uranium to Israel in exchange for nuclear technology and expertise.
 - Technological exchange: Israel gained access to South African uranium enrichment technology while sharing knowledge about nuclear weapon design.
 
-The relationship was facilitated by **Adnan Khashoggi**, a Saudi arms dealer who served as an intermediary. The deals were structured through front companies and third countries to circumvent UN arms embargoes.
+The relationship was facilitated by Adnan Khashoggi, a Saudi arms dealer who served as an intermediary. The deals were structured through front companies and third countries to circumvent UN arms embargoes.
 
 ## The Mechanisms of Cooperation
 
 The alliance operated through multiple channels:
 
-**Personnel Exchange:** Israeli military advisors worked in South African defense installations, while South African pilots trained in Israel. This included cooperation in developing counter-insurgency tactics used against liberation movements.
+Personnel Exchange: Israeli military advisors worked in South African defense installations, while South African pilots trained in Israel. This included cooperation in developing counter-insurgency tactics used against liberation movements.
 
-**Resource Extraction:** Israel helped South Africa develop offshore diamond mining capabilities, while South Africa secured Israeli investments in gold mining operations.
+Resource Extraction: Israel helped South Africa develop offshore diamond mining capabilities, while South Africa secured Israeli investments in gold mining operations.
 
-**Economic Networks:** The alliance created a parallel economic system to circumvent sanctions, with Israeli companies investing in South African operations and vice versa through shell companies in Switzerland, Liechtenstein, and other jurisdictions.
+Economic Networks: The alliance created a parallel economic system to circumvent sanctions, with Israeli companies investing in South African operations and vice versa through shell companies in Switzerland, Liechtenstein, and other jurisdictions.
 
-**Diplomatic Coordination:** In international forums like the UN, both countries often coordinated positions on decolonisation issues and used their respective lobbies to support each other's positions.
+Diplomatic Coordination: In international forums like the UN, both countries often coordinated positions on decolonisation issues and used their respective lobbies to support each other's positions.
 
 ## Operations and Consequences
 

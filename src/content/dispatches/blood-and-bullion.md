@@ -18,7 +18,7 @@ Gold is not neutral. It is capital made visible: heavy, portable and fungible.
 
 In Sudan bullion is the fuel of warfare. It buys drones, lubricates smuggling networks and sustains a parasitic war economy in which militias and foreign brokers profit while regions are emptied of life.
 
-The reality transcends scarcity and chaos. It is structural: **extractivism as war finance**, extractivism as empire. The same commercial appetites that turned the Congo into mineral violence now make Sudan's goldfields a prize worth killing for.
+The reality transcends scarcity and chaos. It is structural: extractivism as war finance, extractivism as empire. The same commercial appetites that turned the Congo into mineral violence now make Sudan's goldfields a prize worth killing for.
 
 ---
 
@@ -26,9 +26,9 @@ The reality transcends scarcity and chaos. It is structural: **extractivism as w
 
 Sudan's civil war has a material heartbeat: gold.
 
-Since large-scale fighting erupted in April **2023**, the **Rapid Support Forces (RSF)** — a militia evolved from Janjaweed groups — have built an economy on smuggling, forced labour and cross-border trade.
+Since large-scale fighting erupted in April 2023, the Rapid Support Forces (RSF) — a militia evolved from Janjaweed groups — have built an economy on smuggling, forced labour and cross-border trade.
 
-The **Sudanese Armed Forces (SAF)** represent institutional continuities of an extractive state. Between them, the war economy thrives: RSF controls and taxes mines while SAF defends corridors of formalised extraction.
+The Sudanese Armed Forces (SAF) represent institutional continuities of an extractive state. Between them, the war economy thrives: RSF controls and taxes mines while SAF defends corridors of formalised extraction.
 
 Investigations show RSF commanders capturing mines in Darfur and South Kordofan, forcing miners to work and taxing outputs. Towns are razed; civilians report massacres, rape and displacement. Gold is turned into cash to buy weaponry, hire brokers, and maintain patronage networks.
 
@@ -38,7 +38,7 @@ Investigations show RSF commanders capturing mines in Darfur and South Kordofan,
 
 Plunder has been normalised into policy. The RSF's economic model mirrors neo-colonial extraction: sell raw commodity, outsource refining, launder proceeds, and buy weapons. The same financial and logistical circuits that move "ethical" gold from other regions also move Sudanese bullion.
 
-The **UAE** and its trading hubs are central nodes. Declared exports and shadow flows mingle, with a large share of reported shipments moving through Gulf channels. Industrial refineries and middlemen obscure origin; labels and paperwork sanitise the crime.
+The UAE and its trading hubs are central nodes. Declared exports and shadow flows mingle, with a large share of reported shipments moving through Gulf channels. Industrial refineries and middlemen obscure origin; labels and paperwork sanitise the crime.
 
 ---
 

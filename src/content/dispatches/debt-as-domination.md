@@ -16,7 +16,7 @@ image: /images/debt-as-domination.jpg
 
 Debt is not neutral economics. It is politics — the politics of obedience.
 
-Across Africa governments spend more repaying creditors than educating children or treating the sick. Marketed as "fiscal discipline"; in reality control. Interest becomes rent charged for independence — tribute to empire's financial return.
+Across Africa governments spend more repaying creditors than educating children or treating the sick. It's marketed as "fiscal discipline" but is really control. Interest becomes rent charged for independence — tribute to empire's financial return.
 
 Twentieth-century domination spoke in the language of civilisation; twenty-first in credit ratings, debt sustainability and macroeconomic conditionality. The IMF no longer arrives with troops but spreadsheets. Result: sovereignty mortgaged, policy dictated, futures foreclosed.
 
@@ -66,11 +66,11 @@ China's infrastructure loans offered an alternative to IMF orthodoxy but often r
 
 ## Case Studies in Control
 
-|      Country | Trigger event                              | Creditor response                                      | Domestic impact                       | Lesson                                             |
-| -----------: | ------------------------------------------ | ------------------------------------------------------ | ------------------------------------- | -------------------------------------------------- |
-|   **Zambia** | 2020 default                               | IMF-led "Common Framework" negotiations                | Wage freezes, service cuts            | Relief often enforces fiscal orthodoxy             |
-| **Ethiopia** | 2023 debt crisis amid conflict             | Competing leverage between Chinese & Western creditors | Inflation, unemployment               | Multipolar borrowing still constrains policy       |
-|  **Senegal** | 2025 downgrade after revising debt figures | Loss of market access despite compliance               | Higher costs, continued privatisation | Obedience to lenders does not guarantee protection |
+In Zambia, the 2020 default led to IMF-led "Common Framework" negotiations, resulting in wage freezes and service cuts — showing that relief often enforces fiscal orthodoxy.
+
+In Ethiopia, the 2023 debt crisis amid conflict saw competing leverage between Chinese and Western creditors, leading to inflation and unemployment — demonstrating that multipolar borrowing still constrains policy.
+
+In Senegal, the 2025 downgrade after revising debt figures resulted in loss of market access despite compliance, pushing for higher costs and continued privatisation — proving that obedience to lenders does not guarantee protection.
 
 These episodes show debt's political character: compliance does not guarantee relief; non-compliance invites punishment.
 
@@ -94,12 +94,12 @@ Democratic socialism rejects both subordination to creditors and simplistic isol
 
 Key demands include:
 
-- **Transparent debt registries** so citizens see every creditor and contract.
-- **Collective bargaining by debtor blocs** — regional coalitions that negotiate from strength, not fragmentation.
-- **Debt cancellation where odious or illegitimate**; reparatory frameworks for colonial-era and exploitative loans.
-- **Climate finance as grants and reparations**, not new debts.
-- **Democratic control over revenues** so resource rents fund public goods, not capital flight.
-- **Capital controls and financial regulation** to limit speculative raids on national economies.
+- Transparent debt registries so citizens see every creditor and contract.
+- Collective bargaining by debtor blocs — regional coalitions that negotiate from strength, not fragmentation.
+- Debt cancellation where odious or illegitimate; reparatory frameworks for colonial-era and exploitative loans.
+- Climate finance as grants and reparations, not new debts.
+- Democratic control over revenues so resource rents fund public goods, not capital flight.
+- Capital controls and financial regulation to limit speculative raids on national economies.
 
 These are practical, not utopian. They require organising, alliances between movements and states, and a shift in how international economic governance operates.
 

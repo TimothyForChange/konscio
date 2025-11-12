@@ -14,13 +14,13 @@ tags: ["Ukraine", "Imperialism", "NATO", "Russia", "Democratic Socialism"]
 > "When the rich wage war it's the poor who die."
 > — Jean-Paul Sartre, The Devil and the Good Lord (1951)
 
-The war in Ukraine reflects world order rather than represents an exception.
+The war in Ukraine reflects the world order rather than being an exception.
 
 A global system that feeds on catastrophe has found another vein: a machine turning grief into profit, flags into franchises, death into dividends.
 
-To understand this war we must look past propaganda and patriotism, past NATO narratives and Kremlin revanchism, to what the conflict exposes: **capitalism at war with life itself.**
+To understand this war we must look past propaganda and patriotism, past NATO narratives and Kremlin revanchism, to what the conflict exposes: capitalism at war with life itself.
 
-Not a "civilisational clash" but a struggle between empires — one old, one resurgent — each sustained by extractive power and fossil capital. Ukraine becomes frontier of Western and Russian ambition; ordinary people — workers, farmers, civilians — bear the cost.
+It's not a "civilisational clash" but a struggle between empires — one old, one resurgent — each sustained by extractive power and fossil capital. Ukraine becomes frontier of Western and Russian ambition; ordinary people — workers, farmers, civilians — bear the cost.
 
 ---
 
@@ -30,13 +30,13 @@ The road preceded 2022. It runs through 1991's ruins when Soviet collapse opened
 
 Ukraine's post-independence choices — neoliberal restructuring, Western conditionalities, NATO pursuit — were not neutral; they embedded imperial dynamics making conflict more likely. Each step toward NATO integration was presented as sovereignty yet deepened Western military and economic hegemony.
 
-NATO expansion eastward was framed as "security" yet secured **Western military and economic hegemony** — market order backed by missiles. Europe never decolonised; it globalised empire.
+NATO expansion eastward was framed as "security" yet secured Western military and economic hegemony — market order backed by missiles. Europe never decolonised; it globalised empire.
 
 Russia followed a neoliberal script. Under Putin privatisation merged with nationalism — oil wealth sanctified as destiny. Wars from Chechnya to Syria to Ukraine became theatre for petro-imperial regime trading in fossil fuels and fear.
 
 Ukraine positioned itself as frontline state — buffer and battleground — through strategic choices deepening its place within competing imperial architectures.
 
-**Post-Soviet independence was conditioned by imperial logic.** The 1994 _Budapest Memorandum_ saw Kyiv surrender the world's third-largest nuclear arsenal for "security assurances" from the US, UK and Russia — powers now exploiting or assaulting its sovereignty.
+Post-Soviet independence was conditioned by imperial logic. The 1994 _Budapest Memorandum_ saw Kyiv surrender the world's third-largest nuclear arsenal for "security assurances" from the US, UK and Russia — powers now exploiting or assaulting its sovereignty.
 
 Collapse of that agreement exposes liberal diplomacy's truth: under empire _security is commodity; guarantees last only while profitable_. Ukraine's integration choices, alongside extraction-based economic models, made it a predictable flashpoint.
 
@@ -46,12 +46,12 @@ Collapse of that agreement exposes liberal diplomacy's truth: under empire _secu
 
 Wars are not only fought; they are financed, speculated upon, and monetised.
 
-Since 2022 **defence shares surged over 40%** in the US and Europe.
+Since 2022 defence shares have surged over 40% in the US and Europe.
 Lockheed Martin, BAE Systems, Rheinmetall and Thales celebrate earnings as civilians bury their dead.
-**Shell, BP, TotalEnergies** reap record profits from volatility. **BlackRock** and **JP Morgan** plan Ukraine's "reconstruction" — euphemism for privatised recovery.
+Shell, BP, TotalEnergies reap record profits from volatility. BlackRock and JP Morgan plan Ukraine's "reconstruction" — euphemism for privatised recovery.
 
 Every missile launched is a market transaction. Every destroyed factory becomes future investment site.
-The IMF's **$15 billion programme** binds Ukraine's post‑war future to old doctrine: deregulate, privatise, repay — **structural violence rewritten as aid**.
+The IMF's $15 billion programme binds Ukraine's post‑war future to old doctrine: deregulate, privatise, repay — structural violence rewritten as aid.
 
 This is recolonisation of crisis, not solidarity.
 

@@ -17,7 +17,7 @@ tags: ["Russia", "Africa Corps", "Extractivism", "Imperialism"]
 The Russian flag now flies over gold mines in the Central African Republic.
 But this is not conquest by armies — it is conquest by contracts, carried out by mercenaries in camouflage and suits in Moscow boardrooms.
 
-After Wagner's fall the Kremlin's **Africa Corps** took its place. Its mission is not peacekeeping nor ideology. It is extraction: gold, diamonds, timber — transmuted into hard currency for wars abroad and patronage at home.
+After Wagner's fall the Kremlin's Africa Corps took its place. Its mission is not peacekeeping nor ideology. It is extraction: gold, diamonds, timber — transmuted into hard currency for wars abroad and patronage at home.
 
 Africa again becomes the cash machine of empire.
 
@@ -27,7 +27,7 @@ Africa again becomes the cash machine of empire.
 
 Wagner's African operations were never freelance; they were the informal wing of Russian foreign policy — projecting power without formal accountability. When Yevgeny Prigozhin died and Wagner fractured, Moscow reconstituted the apparatus into state-linked structures that could absorb personnel, networks and concession deals.
 
-In the **Central African Republic (CAR)** this meant business as usual. Mining concessions changed hands; companies with murky ownership took control of Ndassima and other deposits. Fighters in new uniforms continue to guard extraction sites while commodity flows move to refiners and offshore accounts.
+In the Central African Republic (CAR) this meant business as usual. Mining concessions changed hands; companies with murky ownership took control of Ndassima and other deposits. Fighters in new uniforms continue to guard extraction sites while commodity flows move to refiners and offshore accounts.
 
 This is Russia's Africa policy stripped bare: security in exchange for access to resources.
 
@@ -37,7 +37,7 @@ This is Russia's Africa policy stripped bare: security in exchange for access to
 
 The logic is brutally simple. Russia offers “security assistance” — weapons, training, and paramilitary presence. In return, Moscow-linked firms receive mining concessions and privileged contracts.
 
-In the CAR, gold, diamonds and timber are the currency of patronage. This pattern replicates across Mali, Sudan, Burkina Faso and Niger: **guns for gold; protection for concessions.**
+In the CAR, gold, diamonds and timber are the currency of patronage. This pattern replicates across Mali, Sudan, Burkina Faso and Niger: guns for gold; protection for concessions.
 
 This is colonialism without colonists — extraction outsourced, empire subcontracted.
 
@@ -55,7 +55,7 @@ Where the Corps moves, ecologies are damaged and communities are terrorised. Gol
 
 ## Smuggling, Sanctions and the Mirage of Sovereignty
 
-Russia's post-Ukraine isolation made African gold more than loot — it became lifeline. Through intermediaries, bullion moves from African mines to refineries in **Dubai**, **Istanbul** and elsewhere, evading sanctions and laundering the origin.
+Russia's post-Ukraine isolation made African gold more than loot — it became lifeline. Through intermediaries, bullion moves from African mines to refineries in Dubai, Istanbul and elsewhere, evading sanctions and laundering the origin.
 
 Official production figures rarely match reality. Informal trade networks and state complicit actors obscure flows. Offshore firms and shell companies convert local riches into fungible capital for global politics.
 
@@ -89,10 +89,10 @@ A democratic socialist approach rejects imperial bargaining — East or West —
 
 Policy demands include:
 
-- **Expose and sanction** supply chains laundering illicit commodity flows.
-- **Support community governance** and legal recognition of collective land rights.
-- **End “resource-for-security” deals** with binding international norms.
-- **Back regional oversight** and grassroots accountability for contracts and military assistance.
+- Expose and sanction supply chains laundering illicit commodity flows.
+- Support community governance and legal recognition of collective land rights.
+- End “resource-for-security” deals with binding international norms.
+- Back regional oversight and grassroots accountability for contracts and military assistance.
 
 We should treat extraction as public rather than private infrastructure: revenue should fund health, education and reconstruction — not patronage and foreign wars.
 
