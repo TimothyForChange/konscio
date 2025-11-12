@@ -2,8 +2,8 @@
 title: "Universal Basic Income: A Radical, Materialist Case"
 author: "Timothy Brits"
 datePublished: 2025-11-09
-description: "UBI can be a redistributive tool — but only if anchored in public provision, democratic planning, and decolonial finance. This essay argues for a UBI that undermines extractivism and builds collective power, not a market-friendly bandage."
-excerpt: "UBI without public power is a sop to capital. A universal income must sit inside a democratic socialist programme: cancel odious debts, tax wealth, and build services under collective control."
+description: "UBI can be a redistributive tool — but only if anchored in public provision, democratic planning and decolonial finance. This essay argues for a UBI that undermines extractivism and builds collective power, not a market-friendly bandage."
+excerpt: "UBI without public power is a sop to capital. A universal income must sit inside a democratic socialist programme: cancel odious debts, tax wealth and build services under collective control."
 image: /images/universal_basic_income_radical_materialist_case.jpg
 categories: ["Analysis"]
 tags: ["Universal Basic Income", "Democratic Socialism", "Welfare"]

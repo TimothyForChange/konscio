@@ -11,9 +11,9 @@ tags: ["Congo", "Extractivism", "Climate Justice", "Global Solidarity"]
 
 # Green Colonialism: The DRC and the Green Transition
 
-The Democratic Republic of Congo is presented to the world as a resource — a seam of minerals waiting to be mined, refined, and exported.
+The Democratic Republic of Congo is presented to the world as a resource — a seam of minerals waiting to be mined, refined and exported.
 
-Corporate reports and policy papers tell a story of progress: cobalt for batteries, coltan for phones, lithium for storage — a sleek narrative of salvation through consumption. But look closer, and the "green transition" of the Global North reveals itself as an old pattern in new clothes — **a new colonial order built on the same extraction logic.**
+Corporate reports and policy papers tell a story of progress: cobalt for batteries, coltan for phones, lithium for storage — a sleek narrative of salvation through consumption. But look closer, and the "green transition" of the Global North reveals itself as an old pattern in new clothes — **a new colonial order built on the same extraction logic**.
 
 This is not a story about scarcity. It is about **power** — who owns the minerals, who captures the value, and who pays the human and ecological cost.
 
