@@ -93,4 +93,4 @@ Its price is measured in lives, not dollars.
 
 If justice means anything, it must connect the human and the ecological, the local and the global — dismantling the system that turns the Earth's wealth into instruments of war.
 
-— In solidarity with Sudan's displaced, miners, farmers, and all resisting plunder.
+— With the people of Sudan, especially the displaced, miners, farmers, and all resisting plunder.

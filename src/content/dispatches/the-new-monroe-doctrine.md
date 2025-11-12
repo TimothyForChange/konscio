@@ -30,6 +30,13 @@ Intelligence leaks show planning for land targets inside Venezuela — sovereign
 
 The old doctrine now flies drones. The geography of empire has digitised, not disappeared.
 
+Historical parallels include:
+
+- **Operation Condor (1970s)**: Coordinated repression across South America
+- **The Iran-Contra Affair (1980s)**: Bypassing Congress to fund Contras in Nicaragua
+- **Plan Colombia (1999-2000s)**: Counter-narcotics as cover for counter-insurgency
+- **Military base expansion**: AFRICOM and increased presence across the Americas
+
 ---
 
 ## The Human and Legal Cost
@@ -68,4 +75,4 @@ To defend Latin America's sovereignty is to defend the principle that no state h
 > "We have no desire to dominate. We only wish to be free."
 > — José Martí
 
-— In solidarity with all defending dignity and democracy in the Americas.
+— Standing with all defending dignity and democracy in the Americas.

@@ -103,3 +103,5 @@ If the Basin dies, part of humanity dies with it.
 > — Berta Cáceres (1971–2016)
 
 Protecting the Basin is not charity. It's self-defence — for the planet we share.
+
+— Standing with forest communities and ecosystems everywhere.

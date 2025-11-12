@@ -170,4 +170,4 @@ The only question is **who decides**, and **in whose interest**.
 
 **Democratic socialism means planning for life, not profit. It is democracy made real — in the factory, the field, the school, and the home. It is not the end of freedom. It is its beginning.**
 
-— In solidarity with all who fight for a democratic, decolonised, and sustainable future.
+— For all who fight for a democratic, decolonised, and sustainable future.

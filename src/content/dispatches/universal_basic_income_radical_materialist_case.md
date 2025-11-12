@@ -58,4 +58,4 @@ It can turn survival into life — if embedded in democracy, ecology and solidar
 
 Otherwise it will be another reform absorbed by the system it claims to soften.
 
-— For a UBI that builds power, not pacification.
+— Building toward a UBI that builds power, not pacification.

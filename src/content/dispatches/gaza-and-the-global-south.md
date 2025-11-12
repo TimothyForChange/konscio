@@ -16,7 +16,7 @@ tags: ["Palestine", "Imperialism", "Global Solidarity", "Decolonisation"]
 
 Gaza is a mirror, not an exception.
 
-The powers that destroy forests in the Congo, impose debt on Africa, and extract cobalt for "green" technologies also supply the bombs and funding that devastate Palestine.
+The powers destroying forests in the Congo, imposing debt on Africa, and extracting cobalt for "green" technologies also supply the bombs and funding that devastate Palestine.
 
 Palestine exposes the global order's core logic: domination through dispossession, justified by the language of civilisation and security.
 
@@ -102,4 +102,4 @@ A civilisation willing to annihilate children for land will annihilate the plane
 
 To fight for Gaza is to fight for a world where no empire decides who may live and who must die.
 
-— In solidarity with Palestine, the Global South, and all who defend life.
+— Standing with Palestine, the Global South, and all who defend life.

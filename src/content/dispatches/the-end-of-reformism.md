@@ -85,4 +85,4 @@ It transforms the economy from private anarchy into public intelligence — deci
 
 The future will be planned, or it will not exist.
 
-— In solidarity with all who are already planning life beyond profit.
+— For all who are already planning life beyond profit.

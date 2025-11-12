@@ -100,4 +100,4 @@ It's a continuation of the old order — empire under a new colour scheme.
 > "Aid is the generous mask of trade."
 > — Eduardo Galeano, Open Veins of Latin America (1971)
 
-— In solidarity with the people of the Congo Basin and all defending the Earth from its false saviours.
+— With the people of the Congo Basin and all defending the Earth from its false saviours.

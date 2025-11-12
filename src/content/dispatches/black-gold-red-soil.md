@@ -95,4 +95,4 @@ Solidarity must be practical — targeting logistics, financial networks, and th
 Africa's red soil is living ground, not collateral.
 Democratic control — over land, labour, and life — remains the surest defence against empire.
 
-— In solidarity with communities resisting extraction and militarised power.
+— Standing in resistance with communities confronting extraction and militarised power.

@@ -52,4 +52,4 @@ NHI challenges that logic: life before profit.
 
 If it succeeds, South Africa proves that universal care is not utopia — it's democracy in practice.
 
-— In solidarity with all fighting for a health system that serves people, not profit.
+— Standing with all fighting for a health system that serves people, not profit.

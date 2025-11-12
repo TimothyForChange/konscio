@@ -115,4 +115,4 @@ It extracts wealth, disciplines governments, and destroys ecosystems — but it 
 Collective action and democratic control can rewrite the rules.
 Liberation begins when people refuse to let interest payments decide their lives.
 
-— In solidarity with all who resist financial domination.
+— Standing with all who resist financial domination.

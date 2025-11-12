@@ -76,4 +76,4 @@ The past is not dead; it instructs.
 It reminds us that authoritarianism flourishes when nations trade morality for markets.
 The task is to ensure that global alliances serve liberation, not domination.
 
-— In memory of those who resisted apartheid, and in solidarity with all resisting occupation now.
+— In memory of those who resisted apartheid, and standing with all resisting occupation now.

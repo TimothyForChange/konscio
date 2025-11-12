@@ -133,4 +133,4 @@ We can rebuild it for ourselves.
 
 **To see through the system is the first step toward changing it.**
 
-— In solidarity with all who see through the system and act to change it.
+— For all who see through the system and act to change it.

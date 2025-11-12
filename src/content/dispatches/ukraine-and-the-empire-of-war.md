@@ -71,3 +71,5 @@ Without structural change, "rebuilding" becomes recolonisation.
 > — Martin Luther King Jr.
 
 Justice demands disarming the system that profits from suffering — for Ukraine, and for the planet it helps destroy.
+
+— For a world where life, not profit, guides our response to crisis.
