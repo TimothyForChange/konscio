@@ -14,7 +14,7 @@ tags: ["Eco-Socialism", "Decolonisation", "Climate Justice"]
 Capitalism, colonialism, and climate collapse form one system of domination expressed through different forms — not separate crises.
 The same logic that enslaved and extracted from the Global South now drives ecological destruction across the Earth.
 
-**The Red Soil** exists to confront that system — not as neutral commentary, but as _critical resistance._
+**The Red Soil** exists to confront that system — not as neutral commentary, but as _critical resistance_.
 
 Written from South Africa, in solidarity with all who struggle against empire, exploitation, and ecological collapse, this platform stands in the long tradition of liberation thought: the belief that the fight for human freedom and the fight for the living planet are inseparable.
 
@@ -22,11 +22,11 @@ Written from South Africa, in solidarity with all who struggle against empire, e
 
 ## What This Site Stands For
 
-- **Eco-Socialism:** Building a just and democratic world where the economy sustains life instead of destroying it — centring collective ownership, equality, and ecological balance.
-- **Decolonisation:** Dismantling the political, cultural, and economic power structures inherited from empire, and imagining new ways of being beyond colonial modernity.
-- **Global Solidarity:** Linking the struggles of the South and the North, because liberation anywhere depends on justice everywhere.
-- **Structural Analysis:** Naming root causes, not symptoms — because oppression and ecological collapse are systemic, not accidental.
-- **Collective Power:** Real change comes from democratic movements and organised people, not reform handed down from above.
+- **Eco-Socialism:** Building a just and democratic world where the economy sustains life instead of destroying it — Centring collective ownership, equality, and ecological balance.
+- **Decolonisation:** Dismantling the political, cultural, and economic power structures inherited from empire, and Imagining new ways of being beyond colonial modernity.
+- **Global Solidarity:** Linking the struggles of the South and the North, because Liberation anywhere depends on justice everywhere.
+- **Structural Analysis:** Naming root causes, not symptoms — Because oppression and ecological collapse are systemic, not accidental.
+- **Collective Power:** Real change comes from democratic movements and organised people, not Reform handed down from above.
 
 ---
 
@@ -36,6 +36,7 @@ We live in an age of planetary emergency — ecological, economic, and moral.
 The forces that profit from destruction will not dismantle themselves.
 
 The task ahead is not merely to survive, but to _build an alternative_ rooted in justice, democracy, and care for the Earth.
+
 **The Red Soil** is a small contribution to that struggle — a space for analysis, solidarity, and collective imagination in the service of life.
 
 ---
@@ -52,17 +53,18 @@ Contributions will examine the intersections between:
 - Movements for democracy, justice, and sustainability
 
 Each contribution will ask one central question:
+
 **What must change for people and planet to thrive — and how do we make it happen together?**
 
 ---
 
 ## Closing Thought
 
-To write is to resist forgetting.
-To analyse is to fight despair with understanding.
-To imagine a better world is already an act of defiance.
+_To write is to resist forgetting._
+_To analyse is to fight despair with understanding._
+_To imagine a better world is already an act of defiance._
 
 This space is not neutral ground.
-It is a call to action: to think, write, and act for life.
+_It is a call to action: to think, write, and act for life._
 
 Welcome to **The Red Soil**, for people and planet.

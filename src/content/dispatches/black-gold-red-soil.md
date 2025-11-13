@@ -1,7 +1,7 @@
 ---
 title: "Black Gold and Red Soil: Russia's Africa Corps and the New Imperial Extraction"
 author: "Timothy Brits"
-datePublished: 2025-12-21
+datePublished: 2025-11-16
 description: "An investigation into how Russia's Africa Corps funds imperial war through African extraction — revealing how global powers profit from insecurity and environmental ruin."
 excerpt: "From Wagner's ruins, Russia's Africa Corps has risen — securing mines, exporting gold, and exporting death. In the CAR and beyond, Africa's resources bankroll empire once again."
 image: /images/black-gold-red-soil.jpg
@@ -13,7 +13,7 @@ tags: ["Russia", "Africa Corps", "Extractivism", "Imperialism"]
 
 After Wagner's collapse, the Kremlin reassembled its African operations under a new banner: the Africa Corps. The name changed, but the project remained the same — secure mines, extract resources, and convert Africa's wealth into geopolitical capital for Russia's wars and patronage networks.
 
-This is not partnership. It is extraction enforced through militarised outsourcing.
+_This is not partnership. It is extraction enforced through militarised outsourcing._
 
 ---
 
@@ -23,11 +23,11 @@ Wagner's African missions were never rogue. They were an unofficial arm of the R
 
 In the Central African Republic, Mali, Niger, and Sudan:
 
-- the guards changed insignias,
-- contracts were rewritten,
-- but the structure of coercion stayed.
+- The guards changed insignias,
+- Contracts were rewritten,
+- But the structure of coercion stayed.
 
-The Africa Corps is simply empire with new paperwork.
+_The Africa Corps is simply empire with new paperwork._
 
 ---
 
@@ -35,13 +35,15 @@ The Africa Corps is simply empire with new paperwork.
 
 The deal offered to governments is blunt:
 
-**security, weapons, and paramilitaries in exchange for gold, diamonds, timber, and political loyalty.**
+**Security, weapons, and paramilitaries in exchange for gold, diamonds, timber, and political loyalty.**
+
+    The Africa Corps is simply empire with new paperwork.
 
 This model mirrors earlier colonial arrangements:
 
-- force in place of governance,
-- extraction in place of development,
-- patronage in place of sovereignty.
+- Force in place of governance,
+- Extraction in place of development,
+- Patronage in place of sovereignty.
 
 In CAR, gold concessions such as Ndassima have been effectively militarised zones where mining and war converge.
 
@@ -69,8 +71,8 @@ Sanctions on Russia after the invasion of Ukraine made African gold more valuabl
 - offshore firms,
 - and informal networks involving local elites.
 
-Gold becomes a lifeline for Russia's war economy.
-African wealth becomes geopolitical oxygen.
+_Gold becomes a lifeline for Russia's war economy._
+_African wealth becomes geopolitical oxygen._
 
 ---
 
@@ -91,7 +93,7 @@ Breaking this cycle requires:
 - sanctions on smuggling networks and refineries,
 - and treating resource revenues as public wealth for health, education, and environmental repair.
 
-Extraction should serve life — not foreign wars or domestic elites.
+_Extraction should serve life — not foreign wars or domestic elites._
 
 ---
 
@@ -104,7 +106,7 @@ Courageous resistance exists:
 - civil society groups defending forests and communities,
 - regional coalitions challenging resource-for-security deals.
 
-Democratic control over land and labour remains the surest defence against militarised extraction.
+_Democratic control over land and labour remains the surest defence against militarised extraction._
 
 ---
 
@@ -113,4 +115,4 @@ Democratic control over land and labour remains the surest defence against milit
 Africa's red soil is living ground — not collateral in a geopolitical auction.
 A just future requires stripping away the myths of partnership and confronting the reality: extraction backed by force is still empire.
 
-Only democratic ownership can turn Africa's wealth into a foundation for dignity instead of a weapon for foreign ambitions.
+_Only democratic ownership can turn Africa's wealth into a foundation for dignity instead of a weapon for foreign ambitions._
