@@ -37,7 +37,7 @@ The deal offered to governments is blunt:
 
 **Security, weapons, and paramilitaries in exchange for gold, diamonds, timber, and political loyalty.**
 
-    The Africa Corps is simply empire with new paperwork.
+The Africa Corps is simply empire with new paperwork.
 
 This model mirrors earlier colonial arrangements:
 
