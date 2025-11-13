@@ -39,11 +39,11 @@ The result is a war economy where communities are destroyed so that commanders c
 In the absence of a functioning state, armed groups create their own economic systems.
 The RSF's model mirrors global extraction:
 
-1. seize mine
-2. force labour
-3. smuggle ore
-4. launder profits through foreign hubs
-5. import weapons and logistics
+- seize mine
+- force labour
+- smuggle ore
+- launder profits through foreign hubs
+- import weapons and logistics
 
 The UAE's trading networks sit at the centre of this cycle. “Ethical gold” and blood gold pass through the same refineries — distinctions erased by paperwork.
 

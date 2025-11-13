@@ -74,11 +74,11 @@ Responsibility becomes a marketing label — not a material change.
 
 A just transition demands that Congo's resources serve Congo first. That requires:
 
-1. **Public and community ownership** of mining and refining.
-2. **Local value addition** — keeping processing and manufacturing inside the region.
-3. **Strict ecological limits** and transparent oversight.
-4. **Technology transfer and reparative climate finance** from the North.
-5. **Regional coordination** to prevent divide-and-conquer tactics by multinationals.
+- **Public and community ownership** of mining and refining.
+- **Local value addition** — keeping processing and manufacturing inside the region.
+- **Strict ecological limits** and transparent oversight.
+- **Technology transfer and reparative climate finance** from the North.
+- **Regional coordination** to prevent divide-and-conquer tactics by multinationals.
 
 Climate justice means sovereignty over resources — not new forms of dependency.
 

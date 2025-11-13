@@ -26,9 +26,9 @@ Today, reform means managing scarcity through technocracy while real power remai
 
 Three barriers make reform futile:
 
-1. **Ecological limits** capitalism cannot respect.
-2. **Financial domination** that subordinates democracy to markets.
-3. **Political capture** that drains dissent into bureaucracy.
+- **Ecological limits** capitalism cannot respect.
+- **Financial domination** that subordinates democracy to markets.
+- **Political capture** that drains dissent into bureaucracy.
 
 The system cannot reform what it is built to protect.
 
