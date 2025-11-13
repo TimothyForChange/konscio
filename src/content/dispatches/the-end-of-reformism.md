@@ -11,9 +11,6 @@ tags: ["Planning", "Political Economy", "Ecology"]
 
 # The End of Reformism: Why the Future Must Be Planned
 
-> "The ruling ideas of each age have ever been the ideas of its ruling class."
-> — Karl Marx, The German Ideology (1846)
-
 We are governed by administrators of decline — people who think maintaining collapse is progress.
 
 Reformism, once a hopeful project, has become a politics of delay.
@@ -79,9 +76,6 @@ The real choice is not between moderation and extremism, but between **organisat
 
 Democratic planning is the logic of survival made political.
 It transforms the economy from private anarchy into public intelligence — decisions made collectively, guided by care.
-
-> "The future depends on what we do in the present."
-> — Mahatma Gandhi
 
 The future will be planned, or it will not exist.
 

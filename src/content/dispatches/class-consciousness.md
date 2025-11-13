@@ -11,9 +11,6 @@ tags: ["Class", "Capitalism", "Labour"]
 
 # Class Consciousness: Seeing Through the System
 
-> "The ideas of the ruling class are in every epoch the ruling ideas..."
-> — Karl Marx, The German Ideology (1846)
-
 Most people don't see themselves as part of a class. They see themselves as individuals struggling alone — working harder, trying to get ahead. That's capitalism's first victory: turning a system of exploitation into a story about personal failure or success.
 
 Class consciousness begins when that story cracks.
@@ -114,9 +111,6 @@ Class consciousness reconnects what exploitation separates.
 
 It says to the domestic worker, the nurse, the miner, and the student: **your struggles are one.**
 The task isn't awareness alone, but building a **conscious majority** capable of remaking society.
-
-> "The emancipation of the working class must be the act of the working class itself."
-> — Karl Marx, Address to the First International (1864)
 
 ---
 

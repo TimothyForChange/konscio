@@ -11,9 +11,6 @@ image: /images/debt-as-domination.jpg
 
 # Debt as Domination: The Economic Architecture of Neocolonialism in Africa
 
-> "Neocolonialism is the worst form of imperialism. It means power without responsibility and exploitation without redress."
-> — Kwame Nkrumah, Neo-Colonialism: The Last Stage of Imperialism (1965)
-
 Debt is not neutral economics. It is politics — the politics of control.
 
 Across Africa, governments spend more repaying creditors than educating children or treating the sick. It's called "fiscal discipline," but functions as obedience. Interest becomes rent on independence — tribute to empire's financial return.

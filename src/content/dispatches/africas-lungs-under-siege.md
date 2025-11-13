@@ -11,97 +11,102 @@ tags: ["Congo Basin", "Climate Justice", "Decolonisation", "Global Solidarity"]
 
 # The Congo Basin: Africa's Lungs Under Siege
 
-Locals call the Congo Basin the lungs of Africa — a rainforest so vast it helps the planet breathe.
+The Congo Basin is one of Earth's great climate lifelines — a rainforest spanning six countries, storing billions of tonnes of carbon, regulating rainfall across the continent, and sustaining millions of people. It is often called Africa's lung because it helps the planet breathe.
 
-Stretching across six nations and more than 200 million hectares, the Basin absorbs roughly 1.2 billion tonnes of CO₂ each year. It regulates rainfall across the continent and anchors global climate stability.
+Yet the Basin is being carved up by logging, mining, oil exploration, and “green” projects that replicate colonial patterns of dispossession. The world depends on this forest but allows it to be sacrificed for profit.
 
-But these forests are under attack from the same forces that have long plundered the region's minerals: profit, imperial ambition, and a colonial mindset that sees Africa as a storehouse for others.
-
-This isn't just about trees. It's about power — who decides the fate of Earth's last frontiers, and who pays the price.
+This is not just environmental destruction. It is a struggle over sovereignty, democracy, and the right to determine the future of one of the planet's last great ecosystems.
 
 ---
 
-## Africa's New Resource Grab
+## A New Scramble for the Congo Basin
 
-From Kinshasa to Brazzaville to Yaoundé, governments auction off logging concessions, oil blocks, and "sustainable development zones" that carve deep scars into one of the planet's most vital ecosystems.
+Governments across the region auction off logging concessions, oil blocks, and “sustainable development zones.”
+Foreign firms — from French loggers to Chinese miners to Western agribusiness — compete for control.
+Roads and pipelines slice through intact forest corridors.
+Palm oil plantations expand under the banner of green growth.
 
-French logging firms, Chinese mining giants, and Western agribusinesses compete for control. Roads and rail lines slice through intact forest corridors. Palm oil plantations expand under the banner of "green growth." Even the World Bank and IMF endorse timber exports as "poverty reduction."
-
-It's a new Scramble for Africa — the spoils measured in hectares of rainforest and tonnes of carbon, not rubber and ivory. The imperial logic that divided the Basin at Berlin now parcels it out through contracts, concessions, and carbon markets.
-
-The Congo Basin stores roughly 25% of the world's tropical forest carbon. Cutting it down is not a regional loss — it's a planetary emergency.
+The Basin stores roughly 25% of the world's tropical forest carbon. Destroying it is not a local issue — it is a planetary emergency.
 
 ---
 
-## When Sustainability Means Exploitation
+## When Sustainability Becomes Exploitation
 
-Western governments and corporations claim "sustainable forestry" and "offset programmes" protect the Basin. In practice they entrench exploitation under a green veneer.
+Global North governments and conservation groups promote carbon markets, REDD+ schemes, and “offset” projects that allow major polluters to continue emitting while purchasing credits from the Global South.
 
-Schemes like REDD+ let major polluters in the Global North keep emitting while buying credits from the Global South. Money flows north; control flows away from local communities. Forests become commodities, not commons.
+In practice:
 
-Investigations show many "carbon concessions" in the DRC overlap Indigenous territories, often without free and informed consent. Some are rebranded logging zones. This is carbon colonialism, painted green.
+- forests become commodities,
+- Indigenous communities are displaced,
+- conservation becomes militarised,
+- and carbon markets entrench foreign control over African land.
 
-> "Carbon-trading policies, in effect, allow rich polluters the right to carry on business as usual, while poorer nations bear the burden of absorbing the consequences."
-> — Larry Lohmann, Carbon Trading: A Critical Conversation on Climate Change, Privatisation and Power (2006)
+Many carbon concessions overlap Indigenous territories without free, prior, and informed consent.
+This is carbon colonialism — extraction dressed in green.
 
 ---
 
 ## Whose Forest, Whose Benefit?
 
-For Indigenous peoples — Baka, Batwa, BaAka, and many others — the forest is home, pharmacy, and memory. Yet in the name of conservation and carbon trading, communities are evicted from ancestral lands.
+For Indigenous peoples — Baka, Batwa, BaAka, Mbendjele, and many others — the forest is home, sustenance, culture, and history. Yet conservation projects often evict communities or criminalise traditional practices under the guise of protecting biodiversity.
 
-Armed guards patrol "protected areas." Those who resist are branded poachers; those who speak out risk imprisonment or worse. Reports document violent evictions and abuse by eco-guards funded by major conservation groups — operations mirroring the extractive logic they claim to oppose.
+Investigations document:
 
-Still, resistance endures. Women's cooperatives lead reforestation projects; youth groups map forest crimes with GPS; associations fight for collective land rights. They embody an ecological truth: **living with the forest is sustainability itself.**
+- violent evictions by armed eco-guards,
+- intimidation, arrests, and abuse,
+- and the expansion of protected areas without community input.
+
+Living with the forest — not being removed from it — is true conservation.
 
 ---
 
 ## From Carbon Sink to Carbon Source
 
-Scientists warn the Basin could soon flip from carbon sink to carbon source. Central African forests now absorb barely half the CO₂ they did in the 1990s. Continued degradation could turn them into emitters within decades.
+Scientists warn that the Basin is weakening. It now absorbs far less carbon than in the 1990s. Continued degradation could flip it from a sink to a source within decades, accelerating climate breakdown.
 
-These forests recycle up to 95% of their rainfall and feed weather systems reaching the Sahel and the Ethiopian Highlands. Their loss would disrupt rainfall, deepen droughts and floods, and destabilise the continent's climate.
+The consequences would be severe:
 
-Destroying the Basin dismantles one of Earth's last living regulators — a lung collapsing under the weight of capital and neglect.
+- disrupted rainfall from West Africa to Ethiopia,
+- intensified droughts and floods,
+- collapse of farming and water systems,
+- and accelerated warming globally.
+
+Destroying the Basin dismantles one of the Earth's last functioning climate stabilisers.
 
 ---
 
 ## The Lie of Green Capitalism
 
-Global North governments boast of "forest protection" funds. The reality: conservation is outsourced, profits privatised, sovereignty denied. Local knowledge is sidelined; decision-making stays foreign.
+The Global North presents itself as custodian of the planet while outsourcing destruction to the South.
+“Forest protection funds” mask the fact that control remains foreign.
+Local knowledge is sidelined; corporations and conservation NGOs dominate decision-making.
 
-This selective environmentalism treats African land as a carbon sponge rather than a political territory inhabited by citizens.
+Green capitalism treats African land as a carbon sponge rather than a political territory inhabited by people with rights.
 
-True climate justice demands more than technology or markets. It requires democratic control of natural wealth — by those who live with it, not those who extract it.
-
----
-
-## Indigenous Rights as Climate Action
-
-Defending the Basin means confronting the system that endangers it. That starts with recognising forest peoples' right to govern their lands and rejecting extractive "green growth."
-
-A just approach would:
-
-- Restore control of forests to Indigenous and local communities through collective land rights.
-- Replace export dependency with diversified, locally rooted economies.
-- Enforce corporate accountability with binding law and transparency.
-- Channel public wealth into restoration and climate resilience.
-
-Empowering forest peoples isn't charity — it's climate strategy.
+True climate justice demands democratic control — not technocratic management imposed from abroad.
 
 ---
 
-## Last Stand for the Living Planet
+## Indigenous Rights as Climate Strategy
 
-The Congo Basin shelters over 10,000 plant species (nearly a third endemic), 400 mammals, and 1,000 birds. More than 150 ethnic groups depend on it for survival.
+Protecting the Basin means confronting extractive models and empowering those who live inside the forest. A just strategy includes:
 
-Yet it's being silenced by chainsaws, pipelines, and profit.
+- legal recognition of Indigenous and community land rights,
+- enforcing corporate accountability with binding laws,
+- redirecting revenues to public services and ecological restoration,
+- and replacing export dependency with diversified, locally rooted economies.
 
-If the Basin dies, part of humanity dies with it.
+Land rights are climate policy.
+Community governance is conservation.
 
-> "Wake up, humanity! We are out of time. We must shake our conscience free of the rapacious capitalism, racism, and patriarchy that are destroying the Earth."
-> — Berta Cáceres (1971–2016)
+---
 
-Protecting the Basin is not charity. It's self-defence — for the planet we share.
+## A Last Stand for a Living Planet
 
-— Standing with forest communities and ecosystems everywhere.
+The Basin shelters thousands of species, hundreds of cultures, and millions of people. It anchors the climate of the continent and the stability of the planet.
+
+Allowing it to be sacrificed is collective suicide.
+
+Protecting the Congo Basin is not charity. It is self-defence — for Africa, and for the world.
+
+The choice is stark: a forest governed by its people, or a forest consumed by global extraction.

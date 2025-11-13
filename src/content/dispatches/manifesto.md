@@ -65,7 +65,4 @@ To imagine a better world is already an act of defiance.
 This space is not neutral ground.
 It is a call to action: to think, write, and act for life.
 
-> "What matters is not to know the world but to change it."
-> — Frantz Fanon, Black Skin, White Masks (1952)
-
 Welcome to **The Red Soil**, for people and planet.

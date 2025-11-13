@@ -11,93 +11,96 @@ tags: ["Congo", "Extractivism", "Climate Justice", "Global Solidarity"]
 
 # Green Colonialism: The DRC and the Green Transition
 
-The Democratic Republic of Congo is treated not as a country but as a resource — a seam of minerals awaiting extraction.
+The Democratic Republic of Congo is treated not as a nation but as a reservoir — a seam of minerals, forests, and water waiting to be extracted. Cobalt for batteries, coltan for phones, lithium for storage: the so-called green transition of the Global North depends on Congolese land and labour. Yet the benefits flow outward while the costs remain local.
 
-Cobalt for batteries, coltan for phones, lithium for storage: the "green transition" is sold as salvation through technology.
-Yet behind every electric vehicle and solar panel lies the same old structure — the South supplies, the North profits.
-
-This is not progress. It is **colonialism with new branding.**
+This is not progress. It is colonialism with new branding — green on the outside, extractive at its core.
 
 ---
 
 ## Old Empire, New Language
 
-The Congo has long been a test site for empire.
-From Leopold's terror to today's supply chains, the method is constant: control resources, cheapen labour, extract value.
-Only the vocabulary evolves — _civilisation_ becomes _development_, _extraction_ becomes _sustainability_.
+From the Congo Free State to modern supply chains, the logic is constant: control resources, cheapen labour, extract value. Only the vocabulary changes.
+“Civilisation” becomes “development.”
+“Extraction” becomes “sustainability.”
+“Resource security” becomes “climate leadership.”
 
-> "The Congo Free State was not a colony but the world's only private colony — the personal possession of a single individual."
-> — Adam Hochschild, King Leopold's Ghost (1998)
-
-Now, multinational firms and governments use the language of climate urgency to justify the same system.
+And now, under the banner of climate urgency, multinational corporations and foreign governments frame the DRC as indispensable to the world's clean energy future — while keeping Congolese people at the bottom of that future's hierarchy.
 
 ---
 
-## The Extraction Logic of the "Green" Transition
+## The Extraction Logic of the Green Transition
 
-The Global North's shift to renewable energy demands unprecedented mineral inputs.
-It is framed as moral necessity, but the supply chains run through coercion.
+The Global North's shift to renewable energy requires unprecedented mineral inputs. Demand projections for cobalt and copper are skyrocketing. But the supply chains are structured to maximise extraction and minimise local control.
 
-- **Cobalt dependency:** The DRC supplies about 70% of global cobalt. Less than 5% is refined locally.
-- **Foreign dominance:** Chinese, Western, and Gulf capital hold most stakes. Ownership changes; hierarchy persists.
-- **Built-in instability:** Conflict and corruption keep prices low and oversight weak.
-- **Greenwashing:** Mines are declared "critical for the transition" — absolving exploitation as virtue.
+Key patterns include:
 
-A ton of raw cobalt exported earns a fraction of what refined cobalt does abroad.
-The profits leave; the pollution stays.
+- **Extreme dependency:** The DRC supplies ~70% of global cobalt. Less than a fraction is refined locally.
+- **Foreign ownership:** Chinese, Western, and Gulf capital dominate concessions. Ownership shifts; hierarchy stays.
+- **Perpetual instability:** Conflict, corruption, and weak regulation keep prices low and oversight impossible.
+- **Greenwashing:** Mines are declared “critical to the energy transition,” absolving exploitation as planetary virtue.
+
+A ton of raw cobalt earns almost nothing in-country compared to its refined value abroad. The profits leave. The pollution stays.
 
 ---
 
-## The Human and Ecological Cost
+## Human and Ecological Costs
 
-Mining zones reveal the price of "sustainability":
+Behind every battery and solar panel lies devastation:
 
-- Rivers poisoned by mercury and acid runoff.
-- Children digging ore in open pits.
-- Villages displaced to expand concessions.
-- Forests clear-cut across the Congo Basin — a carbon sink storing billions of tonnes of CO₂.
+- Rivers poisoned by mercury, acid, and tailings.
+- Open-pit mines expanding into farmland and villages.
+- Children and artisanal miners working without protection.
+- The Congo Basin — one of Earth's great carbon sinks — carved up for concessions.
+- Deforestation accelerating to feed both mining and logging.
 
-Each battery carries invisible emissions from deforestation, shipping, and refining.
-The world's green future is being mined from black earth.
+The world's green transition is being mined from black earth, with Congolese communities forced to absorb the ecological fallout.
+
+---
+
+## The Mirage of ESG Responsibility
+
+Western governments and corporations claim their supply chains are “ethical,” “responsible,” or “transparent.” Yet audits repeatedly find:
+
+- subcontractors using forced and child labour,
+- falsified certification documents,
+- “clean” supply chains contaminated by illicit ore,
+- and ESG standards designed without local input.
+
+Responsibility becomes a marketing label — not a material change.
 
 ---
 
 ## Toward Democratic Control
 
-A just transition demands democratic control of both production and ecology.
+A just transition demands that Congo's resources serve Congo first. That requires:
 
-**Principles for change:**
+1. **Public and community ownership** of mining and refining.
+2. **Local value addition** — keeping processing and manufacturing inside the region.
+3. **Strict ecological limits** and transparent oversight.
+4. **Technology transfer and reparative climate finance** from the North.
+5. **Regional coordination** to prevent divide-and-conquer tactics by multinationals.
 
-1. Public and community ownership of mining and refining.
-2. Local value-addition and industrialisation within Africa.
-3. Strict ecological limits and transparent oversight.
-4. Reparations and technology transfer from the North to the South.
-5. Global solidarity between workers and communities resisting extraction.
-
-The question is not whether the planet decarbonises, but **who controls that process and who benefits.**
+Climate justice means sovereignty over resources — not new forms of dependency.
 
 ---
 
-## Resistance from Below
+## Resistance From Below
 
-Change is already rooted in struggle:
+Communities across Lualaba, Haut-Katanga, and North Kivu are fighting back:
 
-- Civil society groups in Lualaba forcing compensation for pollution.
-- Local cooperatives bargaining for fairer pricing.
-- Environmental defenders halting illegal concessions.
+- Civil society groups force compensation for pollution.
+- Miners' cooperatives negotiate fairer prices.
+- Environmental defenders challenge illegal concessions.
+- Youth organisations expose land grabs and logging crimes.
 
-These acts, though local, point toward a global demand: control must return to those who live with the consequences.
+These struggles point toward a different transition — one built on justice, not sacrifice zones.
 
 ---
 
 ## Beyond Greenwashing
 
-True climate justice requires dismantling the economic architecture that makes exploitation appear sustainable.
-
 A battery produced through dispossession is not clean energy.
-It's a continuation of the old order — empire under a new colour scheme.
+A solar panel sitting on stolen land is not climate justice.
+A transition that relies on colonial extraction simply repaints the old order.
 
-> "Aid is the generous mask of trade."
-> — Eduardo Galeano, Open Veins of Latin America (1971)
-
-— With the people of the Congo Basin and all defending the Earth from its false saviours.
+True climate solutions must dismantle the political economy that made the DRC a site of extraction in the first place — not reproduce it under a greener slogan.

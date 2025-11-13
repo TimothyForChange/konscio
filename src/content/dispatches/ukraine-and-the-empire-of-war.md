@@ -67,9 +67,6 @@ True peace requires dismantling the economy of war.
 That means cancelling debt, nationalising reconstruction, demilitarising Europe, and redirecting budgets toward life — food, energy, and health.
 Without structural change, "rebuilding" becomes recolonisation.
 
-> "True peace is not merely the absence of tension, but the presence of justice."
-> — Martin Luther King Jr.
-
 Justice demands disarming the system that profits from suffering — for Ukraine, and for the planet it helps destroy.
 
 — For a world where life, not profit, guides our response to crisis.

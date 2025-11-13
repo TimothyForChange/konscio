@@ -11,9 +11,6 @@ tags: ["Palestine", "Imperialism", "Global Solidarity", "Decolonisation"]
 
 # Gaza and the Global South: Imperialism's Mirror
 
-> "There will be no global justice, no true democracy, without the liberation of Palestine."
-> — Hamza Hamouchene, Transnational Institute (2025)
-
 Gaza is a mirror, not an exception.
 
 The powers destroying forests in the Congo, imposing debt on Africa, and extracting cobalt for "green" technologies also supply the bombs and funding that devastate Palestine.
@@ -74,9 +71,6 @@ dockworkers refusing Israeli cargo, universities divesting from arms and aparthe
 
 These are not gestures — they are acts of disruption against empire's logistics.
 
-> "If you have come because your liberation is bound up with mine, then let us work together."
-> — Lilla Watson and Aboriginal activists (1970s)
-
 ---
 
 ## Beyond Empire
@@ -96,9 +90,6 @@ A just world requires:
 
 In Gaza's ruins, the global crisis reveals itself.
 A civilisation willing to annihilate children for land will annihilate the planet for profit.
-
-> "Our freedom is incomplete without the freedom of the Palestinians."
-> — Nelson Mandela (1997)
 
 To fight for Gaza is to fight for a world where no empire decides who may live and who must die.
 
