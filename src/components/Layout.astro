@@ -101,6 +101,9 @@ const {
   .sidebar {
     order: -1;
     padding-top: calc(var(--grid-unit) * 3);
+    align-self: flex-start;
+    min-height: 200px;
+    margin-bottom: calc(var(--grid-unit) * 6);
   }
 
   @media (min-width: 1024px) {
@@ -111,6 +114,9 @@ const {
     .sidebar {
       order: 0;
       padding-top: calc(var(--grid-unit) * 3);
+      align-self: flex-start;
+      min-height: 300px;
+      margin-bottom: calc(var(--grid-unit) * 6);
     }
   }
 </style>
