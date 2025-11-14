@@ -17,7 +17,7 @@ export interface SiteConfig {
 export const config: SiteConfig = {
   title: "The Red Soil",
   tagline:
-    "For people and planet: eco-socialist analysis for justice, solidarity, and a livable world",
+    "For people and planet: eco-socialist analysis for justice, solidarity, and a liveable world",
   description:
     "Critical eco-socialist reporting and analysis from Africa and beyond — connecting struggles for democracy, equality, and ecological survival, and imagining life beyond profit and domination.",
   author: {
