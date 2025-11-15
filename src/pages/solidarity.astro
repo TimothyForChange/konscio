@@ -485,6 +485,10 @@ const researchEducation = [
       <h2 class="category-title" id="labour">
         Labour & Working-Class Movements
       </h2>
+      <p class="solidarity-section-intro">
+        Unions and grassroots groups fighting for workers' rights, fair wages,
+        safe conditions, and collective power in the workplace and beyond.
+      </p>
       <div class="solidarity-grid">
         {labour.map((card) => <SolidarityCard {...card} />)}
       </div>
@@ -492,6 +496,11 @@ const researchEducation = [
       <h2 class="category-title" id="economic-solidarity">
         Economic & Anti-Imperialist Solidarity
       </h2>
+      <p class="solidarity-section-intro">
+        Movements and networks challenging debt, financial imperialism, and
+        global inequality—building economic justice and sovereignty for the
+        Global South.
+      </p>
       <div class="solidarity-grid">
         {economicSolidarity.map((card) => <SolidarityCard {...card} />)}
       </div>
@@ -499,6 +508,10 @@ const researchEducation = [
       <h2 class="category-title" id="food-sovereignty">
         Peasant Movements & Food Sovereignty
       </h2>
+      <p class="solidarity-section-intro">
+        Peasant, Indigenous, and smallholder alliances defending agroecology,
+        land rights, and community control over food systems.
+      </p>
       <div class="solidarity-grid">
         {foodSovereignty.map((card) => <SolidarityCard {...card} />)}
       </div>
@@ -506,11 +519,19 @@ const researchEducation = [
       <h2 class="category-title" id="indigenous">
         Indigenous & Land Justice Movements
       </h2>
+      <p class="solidarity-section-intro">
+        Indigenous-led campaigns for land back, sovereignty, cultural survival,
+        and environmental justice across continents.
+      </p>
       <div class="solidarity-grid">
         {indigenous.map((card) => <SolidarityCard {...card} />)}
       </div>
 
       <h2 class="category-title" id="ecology">Ecological & Climate Justice</h2>
+      <p class="solidarity-section-intro">
+        Frontline and grassroots groups confronting extractivism, fossil fuels,
+        and climate breakdown—fighting for a just, sustainable future.
+      </p>
       <div class="solidarity-grid">
         {ecology.map((card) => <SolidarityCard {...card} />)}
       </div>
@@ -518,11 +539,19 @@ const researchEducation = [
       <h2 class="category-title" id="mutual-aid">
         Mutual Aid & Community Solidarity
       </h2>
+      <p class="solidarity-section-intro">
+        Networks and collectives practicing mutual aid, disaster relief, and
+        everyday solidarity—meeting needs where states and markets fail.
+      </p>
       <div class="solidarity-grid">
         {mutualAid.map((card) => <SolidarityCard {...card} />)}
       </div>
 
       <h2 class="category-title" id="movement-media">Movement Media</h2>
+      <p class="solidarity-section-intro">
+        Independent and movement-aligned media amplifying grassroots voices,
+        radical analysis, and stories of resistance.
+      </p>
       <div class="solidarity-grid">
         {movementMedia.map((card) => <SolidarityCard {...card} />)}
       </div>
@@ -530,6 +559,10 @@ const researchEducation = [
       <h2 class="category-title" id="research-education">
         Research & Education
       </h2>
+      <p class="solidarity-section-intro">
+        Institutes, think tanks, and collectives producing research, education,
+        and policy for justice, democracy, and liberation.
+      </p>
       <div class="solidarity-grid">
         {researchEducation.map((card) => <SolidarityCard {...card} />)}
       </div>
@@ -604,5 +637,14 @@ const researchEducation = [
 
   html {
     scroll-behavior: smooth;
+  }
+</style>
+
+<style>
+  .solidarity-section-intro {
+    font-size: 1.08rem;
+    color: var(--color-text-secondary);
+    text-align: center;
+    margin: 0 0 calc(var(--grid-unit) * 3) 0;
   }
 </style>
