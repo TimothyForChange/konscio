@@ -26,7 +26,18 @@ const { sections, ariaLabel = "Category navigation" } = Astro.props;
       {
         sections.map((section) => (
           <li>
-            <a href={`#${section.id}`}>{section.label}</a>
+            <a
+              href={`#${section.id}`}
+              aria-current={
+                typeof window !== "undefined" &&
+                window.location.hash === `#${section.id}`
+                  ? "true"
+                  : undefined
+              }
+              data-section-id={section.id}
+            >
+              {section.label}
+            </a>
           </li>
         ))
       }
@@ -63,6 +74,23 @@ const { sections, ariaLabel = "Category navigation" } = Astro.props;
         }
       });
     }
+
+    const updateAriaCurrent = () => {
+      const hash = window.location.hash;
+      const links = document.querySelectorAll(".bookmark-list a");
+      links.forEach((link) => {
+        if (link.getAttribute("href") === hash) {
+          link.setAttribute("aria-current", "true");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+    };
+    window.addEventListener("hashchange", updateAriaCurrent);
+    window.addEventListener("scroll", () => {
+      updateAriaCurrent();
+    });
+    updateAriaCurrent();
   });
 </script>
 
