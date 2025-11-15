@@ -12,11 +12,19 @@ const sections = [
   { id: "food-sovereignty", label: "Peasant Movements & Food Sovereignty" },
   { id: "indigenous", label: "Indigenous & Land Justice Movements" },
   { id: "ecology", label: "Ecological & Climate Justice" },
+  { id: "mutual-aid", label: "Mutual Aid & Community Solidarity" },
   { id: "movement-media", label: "Movement Media" },
   { id: "research-education", label: "Research & Education" },
 ];
 
 const labour = [
+  {
+    title: "Los Angeles Black Worker Center",
+    description:
+      "Black-led worker justice organisation building power to end employment discrimination, win fair jobs, and strengthen community-rooted labour organising in Los Angeles.",
+    url: "https://lablackworkercenter.org",
+    ariaLabel: "Los Angeles Black Worker Center website — opens in a new tab",
+  },
   {
     title: "Abahlali baseMjondolo",
     description:
@@ -45,6 +53,30 @@ const labour = [
       "South African worker media collective producing reporting and education for working-class organising.",
     url: "https://wwmp.org.za",
     ariaLabel: "WWMP website — opens in a new tab",
+  },
+].sort((a, b) => a.title.localeCompare(b.title));
+
+const mutualAid = [
+  {
+    title: "Mutual Aid Disaster Relief",
+    description:
+      "Grassroots disaster response network grounded in mutual aid, solidarity, and anti-authoritarian principles, supporting communities facing climate and crisis impacts.",
+    url: "https://mutualaiddisasterrelief.org",
+    ariaLabel: "Mutual Aid Disaster Relief website — opens in a new tab",
+  },
+  {
+    title: "Cooperation Jackson",
+    description:
+      "Community-led project in Jackson, Mississippi building cooperative economics, land trusts, and transitional ecosocialist infrastructure rooted in Black self-determination.",
+    url: "https://cooperationjackson.org",
+    ariaLabel: "Cooperation Jackson website — opens in a new tab",
+  },
+  {
+    title: "Food Not Bombs",
+    description:
+      "Decentralised mutual aid network sharing free food in public spaces as a political act against war, poverty, and state neglect, building community care through direct solidarity.",
+    url: "https://foodnotbombs.net",
+    ariaLabel: "Food Not Bombs website — opens in a new tab",
   },
 ].sort((a, b) => a.title.localeCompare(b.title));
 
@@ -224,9 +256,46 @@ const indigenous = [
     url: "https://gaiafoundation.org",
     ariaLabel: "The Gaia Foundation website — opens in a new tab",
   },
+  {
+    title: "Wangan & Jagalingou Family Council",
+    description:
+      "Indigenous-led resistance in Queensland opposing the Adani coal mine and asserting cultural authority, land rights, and environmental defence through continuous on-Country presence.",
+    url: "https://wanganjagalingou.com.au/family-council/",
+    ariaLabel:
+      "Wangan and Jagalingou Family Council website — opens in a new tab",
+  },
+  {
+    title: "Ontario Federation of Indigenous Friendship Centres (OFIFC)",
+    description:
+      "Indigenous-led network advancing urban Indigenous rights, cultural renewal, community wellbeing, and self-determination across Ontario's Friendship Centres.",
+    url: "https://ofifc.org",
+    ariaLabel:
+      "Ontario Federation of Indigenous Friendship Centres website — opens in a new tab",
+  },
 ].sort((a, b) => a.title.localeCompare(b.title));
 
 const ecology = [
+  {
+    title: "350 Pacific",
+    description:
+      "Pacific Island frontline climate movement rooted in Indigenous leadership, organising against fossil fuel expansion and for climate justice grounded in sovereignty and survival.",
+    url: "https://350pacific.org",
+    ariaLabel: "350 Pacific website — opens in a new tab",
+  },
+  {
+    title: "Green New Deal UK",
+    description:
+      "Grassroots organisation campaigning for a transformative Green New Deal centered on public ownership, climate jobs, and democratic economic change in the UK.",
+    url: "https://www.greennewdealuk.org",
+    ariaLabel: "Green New Deal UK website — opens in a new tab",
+  },
+  {
+    title: "Philly Thrive",
+    description:
+      "Grassroots environmental justice organisation in Philadelphia that organised to close a 150-year refinery and now campaigns for just redevelopment, housing justice, and community-led healing and support programs.",
+    url: "https://www.phillythrive.org",
+    ariaLabel: "Philly Thrive website — opens in a new tab",
+  },
   {
     title: "Climate Justice Alliance (CJA)",
     description:
@@ -301,6 +370,20 @@ const ecology = [
 ].sort((a, b) => a.title.localeCompare(b.title));
 
 const movementMedia = [
+  {
+    title: "Brasil de Fato",
+    description:
+      "Brazilian movement-aligned newspaper amplifying grassroots struggles, agrarian reform, food sovereignty, and anti-imperialist politics, with strong links to popular movements such as MST.",
+    url: "https://www.brasildefato.com.br",
+    ariaLabel: "Brasil de Fato website — opens in a new tab",
+  },
+  {
+    title: "Africa Is a Country",
+    description:
+      "Left political analysis and cultural commentary platform challenging colonial narratives and amplifying African and diasporic scholarship, movements, and critique.",
+    url: "https://africasacountry.com",
+    ariaLabel: "Africa Is a Country website — opens in a new tab",
+  },
   {
     title: "Jacobin",
     description:
@@ -430,6 +513,13 @@ const researchEducation = [
       <h2 class="category-title" id="ecology">Ecological & Climate Justice</h2>
       <div class="solidarity-grid">
         {ecology.map((card) => <SolidarityCard {...card} />)}
+      </div>
+
+      <h2 class="category-title" id="mutual-aid">
+        Mutual Aid & Community Solidarity
+      </h2>
+      <div class="solidarity-grid">
+        {mutualAid.map((card) => <SolidarityCard {...card} />)}
       </div>
 
       <h2 class="category-title" id="movement-media">Movement Media</h2>
