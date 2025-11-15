@@ -96,7 +96,7 @@ author: "Your Name"
 excerpt: "Short summary for listings"
 categories: ["Category1", "Category2"]
 tags: ["tag1", "tag2"]
-image: "/images/your-open-graph-image.jpg"
+image: "/images/your-open-graph-image.webp"
 ---
 ```
 

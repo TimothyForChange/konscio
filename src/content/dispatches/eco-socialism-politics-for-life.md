@@ -4,7 +4,7 @@ author: "Timothy Brits"
 datePublished: 2025-11-13
 description: "A sharpened eco-socialist analysis linking ecological collapse, inequality, and colonial extraction - and outlining a democratic, decolonial alternative."
 excerpt: "Eco-socialism argues that the fight for human freedom and the fight for the living planet are one struggle. It confronts the system that profits from destruction and imagines a world organised for life."
-image: /images/eco-socialism-politics-for-life.jpg
+image: /images/eco-socialism-politics-for-life.webp
 categories: ["Analysis", "Theory"]
 tags:
   ["Eco-Socialism", "Democratic Socialism", "Decolonisation", "Climate Justice"]

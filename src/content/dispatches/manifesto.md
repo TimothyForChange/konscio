@@ -4,7 +4,7 @@ author: "The Red Soil Collective"
 datePublished: 2025-10-23
 description: "Introducing The Red Soil, an eco-socialist and decolonial platform from South Africa, dedicated to exposing structural violence and imagining a just, sustainable future."
 excerpt: "Capitalism, colonialism, and climate collapse are one system of domination expressed through different forms, not separate crises. This manifesto defines The Red Soil's mission as an eco-socialist, decolonial platform for people and planet."
-image: /images/manifesto.jpg
+image: /images/manifesto.webp
 categories: ["Editorial"]
 tags: ["Eco-Socialism", "Decolonisation", "Climate Justice"]
 ---

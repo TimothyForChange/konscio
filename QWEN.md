@@ -53,7 +53,7 @@ Always run: `npm run lint && npm run check && npm run test`
 1. Create `.md` or `.mdx` file in `src/content/dispatches/`
 2. Use complete frontmatter schema - missing required fields will fail build
 3. Categories become URL paths (`/categories/[category]`)
-4. Images go in `public/images/` and reference as `/images/filename.jpg`
+4. Images go in `public/images/` and reference as `/images/filename.webp`
 5. Reading time calculated automatically
 
 #### Editorial Guidelines

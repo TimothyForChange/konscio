@@ -12,7 +12,7 @@ Dispatches are original, analytical essays focused on eco-socialist, decolonial,
   - `datePublished` (YYYY-MM-DD)
   - `description`
   - `excerpt`
-  - `image` (use `/images/filename.jpg`)
+  - `image` (use `/images/filename.webp`)
   - `categories` (array)
   - `tags` (array)
 - **Headings**: Use Markdown headings (`#`, `##`, etc.) with a clear hierarchy.
