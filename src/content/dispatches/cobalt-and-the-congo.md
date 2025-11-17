@@ -1,7 +1,7 @@
 ---
 title: "Cobalt and the Congo: The Dark Side of the Clean Energy Economy"
 author: "The Red Soil Collective"
-datePublished: 2025-11-16
+datePublished: 2025-11-17
 description: "How the rush for batteries, electric vehicles, and renewable technologies is recreating colonial patterns of extraction in Central Africa."
 excerpt: "A green transition that preserves extractive power is a false transition. Congo’s cobalt fuels batteries but not local prosperity. This essay maps the human, ecological, and political costs and outlines an alternative that centres democracy and repair."
 image: /images/cobalt-and-the-congo.webp
