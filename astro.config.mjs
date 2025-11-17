@@ -6,6 +6,7 @@ import purgecss from "astro-purgecss";
 import { defineConfig } from "astro/config";
 import { FontaineTransform } from "fontaine";
 import remarkGfm from "remark-gfm";
+import remarkSmartypants from "remark-smartypants";
 import { remarkReadingTime } from "./plugins/remark-reading-time.ts";
 import { config } from "./src/config";
 
@@ -71,6 +72,6 @@ export default defineConfig({
     plugins: [FontaineTransform.vite(fontaineOptions)],
   },
   markdown: {
-    remarkPlugins: [remarkReadingTime, remarkGfm],
+    remarkPlugins: [remarkReadingTime, remarkGfm, remarkSmartypants],
   },
 });
