@@ -47,6 +47,9 @@ export async function GET(context) {
     description: config.description,
     site: context.site,
     items,
-    customData: `<language>en-gb</language>`,
+    customData: `
+      <language>en-gb</language>
+      <atom:link href="${context.site}rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>
+    `,
   });
 }
