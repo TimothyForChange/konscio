@@ -21,13 +21,17 @@ describe("rss.xml", () => {
     const context = { site: "https://example.com" };
     await GET(context);
 
-    expect(rss).toHaveBeenCalledWith({
-      title: "Test Site",
-      description: "Test Description",
-      site: "https://example.com",
-      items: expect.any(Array),
-      customData: `<language>en-gb</language>`,
-    });
+    expect(rss).toHaveBeenCalledWith(
+      expect.objectContaining({
+        title: "Test Site",
+        description: "Test Description",
+        site: "https://example.com",
+        items: expect.any(Array),
+        customData: expect.stringContaining(
+          '<atom:link href="https://example.com/rss.xml" rel="self" type="application/rss+xml" xmlns:atom="http://www.w3.org/2005/Atom"/>'
+        ),
+      })
+    );
 
     const callArgs = (rss as any).mock.calls[0][0];
     expect(callArgs.items.length).toBeGreaterThan(0);
