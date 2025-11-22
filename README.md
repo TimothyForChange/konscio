@@ -6,8 +6,6 @@ For people and planet: eco-socialist analysis from Africa and the Global South.
 
 An Astro-powered publication exploring capitalism, colonialism, and climate collapse through a decolonial, eco-socialist lens. Written from South Africa, this site examines how liberation is impossible without dismantling the systems that exploit both people and the planet — and why a decolonised, eco-socialist future is not optional, but necessary.
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T31HRCAR)
-
 ## 🌟 Features
 
 ✓ **Eco-socialist Analysis** - Critical examination of capitalism, colonialism, and climate systems
@@ -182,5 +180,3 @@ Unless otherwise noted, code is MIT and content is CC0 1.0 Universal by default.
 - Fonts by [Fontsource](https://fontsource.org/)
 - Theme based on [Volks-Typo](https://github.com/jdrhyne/volks-typo), created by [jdrhyne](https://github.com/jdrhyne)
 - Inspired by the urgent need for decolonial, eco-socialist transformation
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T31HRCAR)
