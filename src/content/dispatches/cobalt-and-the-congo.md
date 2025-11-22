@@ -9,8 +9,8 @@ categories: ["Analysis"]
 tags: ["Green Colonialism", "Cobalt", "Climate Justice", "Africa"]
 ---
 
-> "Africa is a paradox which illustrates and highlights neocolonialism. Her earth is rich, yet the products that come from above and below the soil continue to enrich not Africans predominantly but groups and individuals who operate to Africa's impoverishment."
-> — Kwame Nkrumah
+> "Africa is a paradox which illustrates and highlights neocolonialism. Her earth is rich, yet the products that come from above and below the soil enrich not Africans but others."
+> — Kwame Nkrumah, Neo‑Colonialism, the Last Stage of Imperialism (1965)
 
 # Cobalt and the Congo: The Dark Side of the Clean Energy Economy
 
